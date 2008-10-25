@@ -1,3 +1,0 @@
-Error messages in general, but particularly for auth
-
-Ability to reauthenticate
