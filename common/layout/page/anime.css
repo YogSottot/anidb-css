@@ -136,20 +136,19 @@
 #layout-main div.anime_all div.info div.caststaff
 {
 	margin-top: 0.5em;
+	display: flex;
+	align-items: stretch;
 }
 
 #layout-main div.anime_all div.info div.caststaff > div
 {
-	float: left;
 	padding: 4px;
-	width: 46.5%;
-	margin-right: 0.5em;
+	width: 100%;
 }
 
 #layout-main div.anime_all div.info div.caststaff div.cast + div.staff
 {
-	float: right;
-	margin-right: 0;
+	margin-left: 0.5;
 }
 
 #layout-main div.anime_all div.info div.caststaff div h4,
