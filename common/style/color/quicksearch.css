@@ -1,0 +1,13 @@
+#layout-search ul.quicksearch
+{
+	background-color:#FFFFFF;
+	border:1px solid;
+	color:black;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.selected
+{
+	color:#FFFFFF;
+	background-color:#BBBBBB;
+}

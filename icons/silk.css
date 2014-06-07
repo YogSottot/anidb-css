@@ -1,6 +1,20 @@
+*.i_general_added
+{
+	background-image:url(../icons/silk/general_added.png);
+	height:16px;
+	width:16px;
+}
+
 *.i_general_blacklist
 {
 	background-image:url(../icons/silk/general_blacklist.png);
+	height:16px;
+	width:16px;
+}
+
+*.i_general_block
+{
+	background-image:url(../icons/silk/general_block.png);
 	height:16px;
 	width:16px;
 }
@@ -38,6 +52,20 @@
 *.i_general_merge
 {
 	background-image:url(../icons/silk/general_merge.png);
+	height:16px;
+	width:16px;
+}
+
+*.i_general_new
+{
+	background-image:url(../icons/silk/general_new.png);
+	height:16px;
+	width:16px;
+}
+
+*.i_general_static
+{
+	background-image:url(../icons/silk/general_static.png);
 	height:16px;
 	width:16px;
 }
