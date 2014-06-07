@@ -10,6 +10,7 @@
 	background-color: #ffd7c2;
 }
 
+#layout-main .different,
 #layout-main div.myvotes_all table tr.g_odd td.low,
 #layout-main div.addcreatoranimerel_all tr.right_only,
 #layout-main div.addcreatorsongrel_all tr.right_only,
@@ -18,6 +19,7 @@
 	background-color: #efc7b2;
 }
 
+#layout-main .identical,
 #layout-main td ins,
 #layout-main input.include,
 #layout-main table.filelist tr.good,
