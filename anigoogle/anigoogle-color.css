@@ -44,9 +44,10 @@ th a,
 	border-color: #4692BF;
 }
 
-#layout-nav div.menu_hr
+#layout-nav div.menu_hr,
+#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag
 {
-	border-top-color: #c9d7f1;
+	border-top-color: #C9D7F1;
 }
 
 #layout-main div.main_all div.datablocks h4,
@@ -103,7 +104,9 @@ a:hover,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover a,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.topictitle:hover,
-#layout-main div.forum a.username-colored
+#layout-main div.forum a.username-colored,
+input[type="submit"]:hover,
+button[type="submit"]:hover
 {
 	color: #AA0000;
 }
@@ -126,6 +129,7 @@ a:hover,
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done,
+#layout-main div.manga_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done
 {
 	background-color: #6193FF;
@@ -133,12 +137,14 @@ a:hover,
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
+#layout-main div.manga_all div.groups td.epbar div.done.mylist,
 #layout-main div.group_all div.group_released td.epbar div.done.mylist
 {
 	border-bottom-color: #6CF06C;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.notdone,
+#layout-main div.manga_all div.groups td.epbar div.notdone,
 #layout-main div.group_all div.group_released td.epbar div.notdone
 {
 	background-color: #C3D8FF;
@@ -173,7 +179,9 @@ span.g_odd,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.main_all div.header div.account ul.tabs li.signup,
 #layout-main div.forum div.g_bubble.comment,
-#layout-main div.forum div.g_bubble.events
+#layout-main div.forum div.g_bubble.events,
+input[type="submit"]:hover,
+button[type="submit"]:hover
 {
 	background-color: #ECF4FD;
 }
@@ -193,7 +201,8 @@ tr,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover,
 #layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd
+#layout-main div.votes_all div.graph.eps div.g_odd,
+#layout-main div.addtagentityrel_all #tag-list div.g_odd
 {
 	background-color: #FFFFFF;
 }
@@ -219,7 +228,9 @@ select,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
 #layout-main div.anime_all div.info div.image img,
-span.test
+span.test,
+input[type="submit"],
+button[type="submit"]
 {
 	border-color: #C9D7F1 #97AACC #97AACC #C9D7F1;
 }
@@ -276,4 +287,41 @@ span.test
 	background-color:#ECD5D8;
 	color:#BC2A4D;
 	border-color: #DEBFC3 #C4939F #C4939F #DEBFC3;
+}
+
+#layout-search input.text
+{
+	box-shadow: 1px 1px 2px #C9D7F1 inset;
+}
+
+#layout-search select
+{
+	box-shadow: 0 1px 2px #C9D7F1 inset;
+}
+
+#layout-search ul.quicksearch
+{
+	border-color: #C9D7F1;
+}
+
+a.tooltip span.text:after
+{
+	border-color: rgba(236, 244, 253, 0);
+	border-bottom-color: #ECF4FD;
+}
+
+a.tooltip span.text:after
+{
+	border-color: rgba(236, 244, 253, 0);
+	border-bottom-color: #ECF4FD;
+}
+
+/*tooltip base colors*/
+a.tooltip span.text
+{
+	-moz-box-shadow: 0px 0px 8px 4px #666;
+	-webkit-box-shadow: 0px 0px 8px 4px #666;
+	box-shadow: 0px 0px 8px 4px #666;
+	opacity: 0.85;
+	color: #000000;
 }

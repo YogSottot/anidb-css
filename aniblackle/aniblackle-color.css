@@ -13,7 +13,8 @@ html,
 #layout-main div.main_all div.header h4,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd
+#layout-main div.votes_all div.graph.eps div.g_odd,
+#layout-main div.addtagentityrel_all #tag-list div.g_odd
 {
 	color: #728972;
 }
@@ -37,7 +38,10 @@ button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored:hover,
-.g_bubble .name-colored:hover
+.g_bubble .name-colored:hover,
+a.tooltip span.text,
+input[type="submit"]:hover,
+button[type="submit"]:hover
 {
 	color: #FFFFFF;
 }
@@ -124,7 +128,8 @@ html,
 #layout-main div.votes_all div.graph.eps div.g_odd,
 tr.g_odd,
 li.g_odd,
-span.g_odd
+span.g_odd,
+#layout-main div.addtagentityrel_all #tag-list div.g_odd
 {
 	background-color: #333333;
 }
@@ -178,7 +183,9 @@ input[type="submit"]:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
-#layout-main div.forum ul.topics li.g_odd.row:hover
+#layout-main div.forum ul.topics li.g_odd.row:hover,
+input[type="submit"]:hover,
+button[type="submit"]:hover
 {
 	background-color: #555555;
 }
@@ -309,7 +316,8 @@ tr + tr th,
 #layout-main div.g_definitionlist tr th,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
-#layout-main div.votes_all div.graph.eps div.row + div.row
+#layout-main div.votes_all div.graph.eps div.row + div.row,
+#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag
 {
 	border-top-color: #555555;
 }
@@ -365,6 +373,7 @@ span.test,
 button,
 input[type="button"],
 input[type="submit"],
+button[type="submit"],
 *.g_button a,
 div.quotebody,
 #layout-main ul.g_list li,
@@ -376,12 +385,7 @@ div.quotebody,
 #layout-main div.pagination span strong,
 #layout-nav div.menu_hr,
 #layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
-{
-	border: 1px solid;
-	border-color: #666666 #444444 #444444 #666666;
-}
-
+#layout-main div.main_all div.header h4,
 #layout-main div.forum div.signature,
 #layout-main div.forum div.events dl + dl,
 #layout-main div.forum div.poll dl + dl,
@@ -411,4 +415,16 @@ table,
 #layout-main div.forum ul.topics dd
 {
 	border-left-color:#444444;
+}
+
+a.tooltip span.text:after
+{
+	border-color: rgba(64, 64, 64, 0);
+	border-bottom-color: #404040;
+}
+
+a.tooltip span.text:before
+{
+	border-color: rgba(64, 64, 64, 0);
+	border-bottom-color: #404040;
 }

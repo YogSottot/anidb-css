@@ -121,7 +121,8 @@ select,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 #layout-main div.anime_all div.info div.caststaff div table,
 #layout-main > h1,
-#layout-nav div.menu_hr
+#layout-nav div.menu_hr,
+#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag
 {
 	border-top: 1px solid;
 }
@@ -136,7 +137,6 @@ div.quotebody,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.pagination span a,
 #layout-main div.pagination span strong,
-#layout-search input.text,
 #layout-search input.submit,
 span.test,
 button,
@@ -148,7 +148,8 @@ input[type="text"],
 input[type="password"],
 input.text,
 textarea,
-select
+select,
+input[type="submit"]
 {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -167,4 +168,53 @@ a
 {
 	background-color: transparent;
 	border:none;
+}
+
+#layout-search input.text
+{
+	-moz-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+}
+
+#layout-search select
+{
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+
+input[type="submit"],
+button[type="submit"]
+{
+	border-style: solid;
+	border-width: 1px;
+}
+
+#layout-search ul.quicksearch
+{
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+/*tooltip border*/
+a.tooltip
+{
+	outline:none;
+}
+
+a.tooltip span.text:after,
+a.tooltip span.text:before
+{
+	border: solid transparent;
+}
+
+a.tooltip span.text:after
+{
+	border-width: 10px;
+}
+a.tooltip span.text:before
+{
+	border-width: 13px;
 }
