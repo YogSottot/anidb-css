@@ -1,13 +1,13 @@
-#layout-search ul.quicksearch
+ul.acdropdown
 {
 	background-color:#FFFFFF;
-	border:1px solid;
+	border:1px solid #85878C;
 	color:black;
 }
 
-#layout-search ul.quicksearch li:hover,
-#layout-search ul.quicksearch li.selected
+ul.acdropdown li:hover,
+ul.acdropdown li.selected
 {
 	color:#FFFFFF;
-	background-color:#BBBBBB;
+	background-color:#5e81bc;
 }
