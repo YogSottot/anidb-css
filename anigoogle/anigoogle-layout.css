@@ -66,7 +66,7 @@ input[type="password"],
 #layout-search p,
 #layout-search form
 {
-	margin: -.5em 0;
+	margin: -0.5em 0;
 	padding: 0;
 }
 
@@ -74,7 +74,7 @@ input[type="password"],
 {
 	width: 230px;
 	margin: 0;
-	padding: 3px;
+	padding: 5px 8px;
 }
 
 #layout-search input.submit
@@ -82,11 +82,13 @@ input[type="password"],
 	float: right;
 	width: 80px;
 	margin: 0;
+	padding: 4px;
 }
 
 #layout-search select
 {
 	margin-left: -5px;
+	padding: 4px 8px;
 }
 
 #layout-main > h1
