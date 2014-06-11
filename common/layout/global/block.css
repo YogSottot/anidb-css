@@ -3,7 +3,6 @@
 	width: 100%;
 	margin-top: 0.5em;
 	display: flex;
-	align-items: center;
 }
 #layout-main div.block > div.image
 {
@@ -15,7 +14,6 @@
 #layout-main div.block > div.data
 {
 	width: 100%;
-	align-self: flex-start;
 	margin-right: 1em;
 }
 #layout-main .css_style + p
@@ -24,13 +22,11 @@
 }
 #layout-main div.block + div.desc
 {
-	clear: left;
 	margin-top: 1em;
 	margin-left: 1em;
 	margin-right: 1em;
 	padding: 1em;
 }
-
 
 #layout-main div.block div.data table
 {
