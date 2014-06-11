@@ -176,6 +176,14 @@
 #layout-main div.anime_all div.info div.caststaff div.cast td.char
 {
 	padding-right: 0;
+	width:100%;
+}
+
+#layout-main div.anime_all div.info div.caststaff div.cast td.creator,
+#layout-main div.anime_all div.info div.caststaff div.staff td.credit
+{
+	white-space: nowrap;
+	min-width:12em;
 }
 
 #layout-main div.anime_all div.info div.caststaff div td.action

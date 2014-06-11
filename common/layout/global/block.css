@@ -2,23 +2,21 @@
 {
 	width: 100%;
 	margin-top: 0.5em;
-	display: block;
+	display: flex;
+	align-items: center;
 }
 #layout-main div.block > div.image
 {
-	float: left;
-	width: 49%;
-	overflow: hidden;
-	text-align: right;
-	margin-right: 1em;
-	margin-bottom: 1em;
+	min-width: 400px;
+	text-align: center;
+	margin-right: 0.5em;
+	margin-left: 1.5em;
 }
 #layout-main div.block > div.data
 {
-	float: left;
-	width: 49%;
-	text-align: left;
-	margin-bottom: 1em;
+	width: 100%;
+	align-self: flex-start;
+	margin-right: 1em;
 }
 #layout-main .css_style + p
 {
