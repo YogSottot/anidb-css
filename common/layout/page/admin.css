@@ -153,12 +153,12 @@
 }
 
 #layout-main div.admin_role div.blocks > div table {
-	width: 50em;
+	width:100%;
 }
 
-
 #layout-main div.admin_role div.blocks > div {
-	margin: 0.5em;
+	margin: 0.5em auto;
+	width: 50em;
 }
 
 #layout-main div.admin_role div.blocks > div {
