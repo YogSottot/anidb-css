@@ -22,25 +22,6 @@
 	padding: 1px 6px;
 }
 
-#layout-main div.userpage_all div.userdetails .block
-{
-	display: inline-table;
-	margin-top: 0;
-}
-
-#layout-main div.userpage_all div.userdetails .block > div
-{
-	display: table-cell;
-	float: none;
-	vertical-align: top;
-	width: auto;
-}
-
-#layout-main div.userpage_all div.userdetails img
-{
-	margin-right: 1em;
-	margin-top: 1.5em;
-}
 
 #layout-main div.userpage_all div.charts div
 {
@@ -140,13 +121,6 @@
 	margin-top: 1.5em;
 }
 
-#layout-main div.userpage_all div.userdetails .block div.notify
-{
-	min-width: 25em;
-	padding-left: 1em;
-}
-
-#layout-main div.userpage_all div.userdetails .block div.notify div.msg + div.news,
 #layout-main div.userpage_all div.latest div + div,
 #layout-main div.userpage_all div.stats div + div,
 #layout-main div.userpage_all div.g_menu div + div
@@ -276,6 +250,28 @@
     position: absolute;
     margin: 0.5em 0.5em 0.5em 6em;
 }
+
+#layout-main div.userpage_all div.userdetails div.block div.news,
+#layout-main div.userpage_all div.userdetails div.block div.notify,
+#layout-main div.userpage_all div.userdetails div.block div.user_info {
+	width: 100%;
+}
+
+
+#layout-main div.userpage_all div.userdetails div.block div.image {
+	min-width: 12em;
+	margin:0;
+	align-self: center;
+}
+
+#layout-main div.userpage_all div.userdetails div.block > div + div {
+	padding-left: 0.5em;
+}
+
+#layout-main div.userpage_all div.userdetails div.block {
+	margin-top: 0;
+}
+
 
 /*hack because webkit sucks*/
 #layout-main div.userpage_all .g_bubble.stripe
