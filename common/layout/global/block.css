@@ -15,7 +15,8 @@
 #layout-main div.block > div.data
 {
 	margin-right: 1em;
-	min-width: 55em;
+	min-width: 40em;
+	width: 50%;
 }
 #layout-main .css_style + p
 {
