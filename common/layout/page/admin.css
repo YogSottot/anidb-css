@@ -145,3 +145,26 @@
 {
 	text-align:left;
 }
+
+#layout-main div.admin_role div.blocks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#layout-main div.admin_role div.blocks > div table {
+	width: 50em;
+}
+
+
+#layout-main div.admin_role div.blocks > div {
+	margin: 0.5em;
+}
+
+#layout-main div.admin_role div.blocks > div {
+	padding: 8px;
+}
+
+#layout-main div.admin_role div.blocks > div table th {
+	width: 40%;
+}
