@@ -13,3 +13,9 @@
 {
 	width: 100%;
 }
+
+
+#layout-main div.addtagentityrel_all div.tag_massedit div.tag-column div.tag > span
+{
+	line-height:1.6em;
+}
