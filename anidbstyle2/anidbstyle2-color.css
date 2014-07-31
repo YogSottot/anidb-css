@@ -469,11 +469,11 @@ div.quotebody
 
 a.tooltip span.text:after
 {
-	border-color: rgba(177, 179, 181, 0);
-	border-bottom-color: #B1B3B5;
+	border-color: rgba(211, 213, 217, 0);
+	border-bottom-color: #d3d5d9;
 }
 a.tooltip span.text:before
 {
-	border-color: rgba(177, 179, 181, 0);
-	border-bottom-color: #B1B3B5;
+	border-color: rgba(154, 154, 154, 0);
+	border-bottom-color: #9a9a9a;
 }
