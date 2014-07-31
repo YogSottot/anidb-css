@@ -468,7 +468,8 @@ div.quotebody
 }
 
 a.tooltip span.text {
-	background-color: #9a9a9a !important;
+	background-color: #d3d5d9 !important;
+	color: #000000;
 }
 
 a.tooltip span.text:after
