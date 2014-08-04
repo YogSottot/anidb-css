@@ -27,6 +27,8 @@ a.tooltip span.text
 	line-height:16px;
 	position: relative;
 	text-align: justify;
+	white-space: normal;
+	word-wrap: normal;
 }
 
 a.tooltip:hover span.text
