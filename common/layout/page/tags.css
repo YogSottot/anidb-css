@@ -168,15 +168,25 @@
 	text-align: center;
 }
 
+#layout-main #chartags > div {
+	display: flex;
+	padding: 1em;
+}
+
+#layout-main #chartags h4 {
+	align-self: center;
+	width: 12em;
+}
+
 #layout-main div.chartag-list
 {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
 	text-align: justify;
 	line-height: 1;
-	padding:2em 10em;
+	padding-right: 10em;
+	width: 100%;
 }
 
 #layout-main div.chartag-list span.tag
