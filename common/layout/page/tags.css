@@ -120,10 +120,12 @@
 }
 
 #layout-main div.addtagentityrel_all div.suggestions {
+	align-content: flex-start;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding:0.5em;
+	min-height: 30em;
+	padding: 0.5em;
 }
 
 #layout-main div.addtagentityrel_all div.suggestions > span {
