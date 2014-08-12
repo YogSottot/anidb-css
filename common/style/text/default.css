@@ -454,6 +454,7 @@ a.tooltip span.text
 	text-decoration: line-through;
 }
 
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.addtagentityrel_all #tag-groups span.link,
 #layout-main div.addtagentityrel_all #tag-list div.tag
 {

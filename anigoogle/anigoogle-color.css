@@ -161,7 +161,7 @@ tr.g_odd,
 li.g_odd,
 span.g_odd,
 .g_bubble,
-.g_bubble .g_bubble  .g_bubble,
+.g_bubble .g_bubble .g_bubble,
 *.g_button a:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.selected,
@@ -181,7 +181,9 @@ span.g_odd,
 #layout-main div.forum div.g_bubble.comment,
 #layout-main div.forum div.g_bubble.events,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	background-color: #ECF4FD;
 }

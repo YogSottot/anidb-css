@@ -119,6 +119,19 @@
 	width: 20.5em;
 }
 
+#layout-main div.addtagentityrel_all div.suggestions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding:0.5em;
+}
+
+#layout-main div.addtagentityrel_all div.suggestions > span {
+	padding: 0.2em 0.5em;
+	width: 30em;
+	text-align: left;
+}
+
 /*display parts on anime/manga page*/
 #layout-main div.tag-list
 {
