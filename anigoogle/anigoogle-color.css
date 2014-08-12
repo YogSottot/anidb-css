@@ -232,7 +232,9 @@ select,
 #layout-main div.anime_all div.info div.image img,
 span.test,
 input[type="submit"],
-button[type="submit"]
+button[type="submit"],
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	border-color: #C9D7F1 #97AACC #97AACC #C9D7F1;
 }
