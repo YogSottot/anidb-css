@@ -30,8 +30,8 @@
   box-shadow: none;
 }
 .chosen-container .chosen-results .highlighted {
-  background: #AAAAAA;
-  color: #666666;
+  background: #CCCCCC;
+  color: #34394d;
 }
 .chosen-container .chosen-results .no-results {
   background: #34394d;
@@ -39,7 +39,7 @@
 .chosen-container .chosen-results li em {
   background: none;
 }
- 
+
 /* dark sprite overrides */
  
 .chosen-container-single .chosen-single abbr {
@@ -52,7 +52,7 @@
 .chosen-rtl .chosen-search input {
   background: #333 url('../icons/libs/chosen/chosen-sprite-dark.png') no-repeat 100% -22px;
   color: #CCCCCC;
-  border: 1px solid #34394d !important;
+  border: 1px solid #999999 !important;
 }
 .chosen-container-multi .chosen-choices .search-choice .search-choice-close {
   background: url('../icons/libs/chosen/chosen-sprite-dark.png') right top no-repeat;
