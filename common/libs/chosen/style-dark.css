@@ -5,7 +5,7 @@
 .chosen-container-single .chosen-single {
   background-color: #333333;
   color: #728972;
-  border: 1px solid #666666;
+  border: 1px solid #666666 !important;
 }
 /* Some IE 7-9 fun with this next one - filter likes to override background */
 .chosen-container-single .chosen-single {
@@ -43,17 +43,17 @@
 /* dark sprite overrides */
  
 .chosen-container-single .chosen-single abbr {
-  background: url('icons/libs/chosen/chosen-sprite-dark.png') right top no-repeat;
+  background: url('../icons/libs/chosen/chosen-sprite-dark.png') right top no-repeat;
 }
 .chosen-container-single .chosen-single div b {
-  background: url('icons/libs/chosen/chosen-sprite-dark.png') no-repeat 0 1px;
+  background: url('../icons/libs/chosen/chosen-sprite-dark.png') no-repeat 0 1px;
 }
 .chosen-container-single .chosen-search input,
 .chosen-rtl .chosen-search input {
-  background: #333 url('icons/libs/chosen/chosen-sprite-dark.png') no-repeat 100% -22px;
+  background: #333 url('../icons/libs/chosen/chosen-sprite-dark.png') no-repeat 100% -22px;
   color: #728972;
-  border: 1px solid #555555;
+  border: 1px solid #555555 !important;
 }
 .chosen-container-multi .chosen-choices .search-choice .search-choice-close {
-  background: url('icons/libs/chosen/chosen-sprite-dark.png') right top no-repeat;
+  background: url('../icons/libs/chosen/chosen-sprite-dark.png') right top no-repeat;
 }
