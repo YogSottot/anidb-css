@@ -54,9 +54,10 @@
 
 #layout-main div.main_all div.datablocks div.stripe
 {
-	height:7.5em;
+	height:72px;
 	width:100%;
 	overflow:hidden;
+	position: inherit;
 }
 
 #layout-main div.main_all div.datablocks div.similaranime div.stripe div.data

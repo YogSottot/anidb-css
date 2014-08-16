@@ -153,6 +153,7 @@
 #layout-main div.tag-column div.tag
 {
 	display: flex;
+	flex-direction: row-reverse;
 }
 
 #layout-main div.tag-column div.tag > span
@@ -168,7 +169,7 @@
 
 #layout-main div.tag-column div.tag span.weight
 {
-	width: 4.5em;
+	width: 5.5em;
 }
 
 #layout-main div.tag-column div.tag span.indent
