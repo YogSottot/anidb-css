@@ -189,8 +189,12 @@
 }
 
 #layout-main #chartags h4 {
-	align-self: center;
+	text-align: right;
 	width: 12em;
+}
+
+#layout-main #chartags h4:after {
+	content: ":";
 }
 
 #layout-main div.chartag-list
