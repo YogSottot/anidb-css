@@ -179,6 +179,10 @@
 	line-height: 1.6em;
 }
 
+#layout-main div.tag-column div.tag ~ h5 {
+	padding-top: 1em;
+}
+
 #layout-main div.tag-column h5
 {
 	text-align: center;
