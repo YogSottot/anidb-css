@@ -35,7 +35,8 @@ h1 a
 }
 
 h4,
-caption
+caption,
+#layout-main #chartags h3
 {
 	font-size:120%;
 }
