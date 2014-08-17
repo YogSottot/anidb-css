@@ -193,12 +193,12 @@
 	padding: 1em;
 }
 
-#layout-main #chartags h4 {
+#layout-main #chartags caption {
 	width: 12em;
 	align-self: center;
 }
 
-#layout-main #chartags h4:after {
+#layout-main #chartags caption:after {
 	content: ":";
 }
 
