@@ -470,3 +470,9 @@ a.tooltip span.text
 {
 	font-size: 1.2em;
 }
+
+#layout-main div.addcreatoranimerel_all div.content h4 span.nolink {
+	-moz-user-select: text;
+	cursor: default;
+	text-transform:none;
+}

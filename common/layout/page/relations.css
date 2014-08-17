@@ -99,12 +99,6 @@
 	text-align: left;
 }
 
-#layout-main div.addcreatoranimerel_all div.content h4 span.nolink
-{
-	-moz-user-select: text;
-	cursor: default;
-}
-
 #layout-main div.addcharanimerel_all div.massadd  td.seiyuu.name.original input,
 #layout-main div.addcharanimerel_all div.massadd td.char.name.original input,
 #layout-main div.addcharanimerel_all div.massadd td.comment input
