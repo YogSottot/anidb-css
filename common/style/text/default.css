@@ -264,11 +264,6 @@ div.pagination span a
 	font-weight:normal;
 }
 
-#layout-main div.creq_all .state.return th.field
-{
-	color:black;
-}
-
 button:hover,
 input[type="submit"]:hover,
 th.sortable
