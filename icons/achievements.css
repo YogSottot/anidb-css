@@ -50,6 +50,7 @@ div.badge.anime.hack           div.inner { background-image:url("../icons/achiev
 div.badge.anime.hentai         div.inner { background-image:url("../icons/achievements/center-hentai4.png"); }
 div.badge.anime.hokutonoken    div.inner { background-image:url("../icons/achievements/center-hokutonoken.png"); }
 div.badge.anime.hxh            div.inner { background-image:url("../icons/achievements/center-hxh.png"); }
+div.badge.anime.initiald       div.inner { background-image:url("../icons/achievements/center-initiald.png"); }
 div.badge.anime.jewelpet       div.inner { background-image:url("../icons/achievements/center-jewelpet.png"); }
 div.badge.anime.logh           div.inner { background-image:url("../icons/achievements/center-logh.png"); }
 div.badge.anime.lupin          div.inner { background-image:url("../icons/achievements/center-lupin.png"); }
@@ -98,6 +99,7 @@ div.badge.stats.creatoradded div.inner { background-image:url("../icons/achievem
 div.badge.stats.creqcount    div.inner { background-image:url("../icons/achievements/center-creqs.png"); }
 div.badge.stats.review       div.inner { background-image:url("../icons/achievements/center-reviews1.png"); }
 div.badge.stats.similaranime div.inner { background-image:url("../icons/achievements/center-similar_anime.png"); }
+div.badge.stats.tags         div.inner { background-image:url("../icons/achievements/center-tags.png"); }
 div.badge.stats.userroles    div.inner { background-image:url("../icons/achievements/center-user_rank.png"); }
 div.badge.stats.votes        div.inner { background-image:url("../icons/achievements/center-votes.png"); }
 
