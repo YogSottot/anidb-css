@@ -1,0 +1,16 @@
+/*
+global default font size
+AniDB default = 10px
+*/
+/*html
+{
+font-size: 11px;
+}*/
+
+/*
+On the anime-staff add/edit page, remove capitalization of source-info in the header
+*/
+#layout-main span.nolink
+{
+  text-transform: none;
+}
