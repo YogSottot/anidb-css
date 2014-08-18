@@ -22,7 +22,8 @@
 
 /*
 	Unhide the undumped files column on the group page if there are undumped files
-	Mark table cells of undumped files red
+	Mark table cells of undumped files red (file ID, file actions)
+	Mark as red any file where release date has not been set
 */
 #layout-main td.number.undumped.notalldumped,
 table.filelist td.date.added,
