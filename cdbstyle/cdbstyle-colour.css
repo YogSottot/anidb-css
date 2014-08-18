@@ -1,0 +1,151 @@
+/*
+list alternating green colour odd (tone change)
+*/
+#layout-main td.g_odd ins,
+#layout-main table.filelist tr.g_odd.good,
+#layout-main div.myvotes_all table tr.g_odd td.high,
+#layout-main div.producer_all table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd td.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.animelist_all table tr.g_odd.mylist,
+#layout-main div.group_released table tr.g_odd.mylist,
+#layout-main table.animelist tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a
+{
+background-color: #85D485;
+}
+
+/*
+list alternating green colour even (tone change)
+*/
+#layout-main td ins,
+#layout-main input.include,
+#layout-main table.filelist tr.good,
+#layout-main div.myvotes_all table tr td.high,
+#layout-main div.producer_all table tr.mylist,
+#layout-main div.latest2_all table tr.mylist,
+#layout-main div.latest2_all table tr td.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.anime_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.animelist_all table tr.mylist,
+#layout-main div.group_released table tr.mylist,
+#layout-main div.forum div.comment div.content strong,
+#layout-main div.forum a.topictitle strong,
+#layout-main div.addcreatoranimerel_all tr.identical,
+#layout-main div.addcreatorsongrel_all tr.identical,
+#layout-main table.animelist tr.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
+#layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,
+#layout-main div.timeline_all div.timeline ul.row li.completed a,
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist, .g_bubble.stripe.mylist, .g_bubble.box.mylist > div.top main div.timeline_all div.timeline ul.row.g_odd li.completed a
+{
+background-color: #B8E3B8;
+}
+
+/*
+experimental colour highlight of mylist entries based on mylist state, on all anidb pages
+*/
+/*red for if not fully collected (missing files)*/
+#layout-main div.producer_all table tr.mylist,
+#layout-main div.latest2_all table tr.mylist,
+#layout-main div.latest2_all table tr td.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.anime_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.animelist_all table tr.mylist,
+#layout-main div.group_released table tr.mylist,
+#layout-main table.animelist tr.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
+#layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,
+#layout-main div.mylist_all tr[id^="a"]:not(.epsrow)
+{
+background-color: #D6B8B8;
+}
+#layout-main div.producer_all table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd td.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.animelist_all table tr.g_odd.mylist,
+#layout-main div.group_released table tr.g_odd.mylist,
+#layout-main table.animelist tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.mylist_all tr.g_odd[id^="a"]:not(.epsrow)
+{
+background-color: #CC9999;
+}
+/* #layout-main div.mylist_all tr.epsrow
+{
+background-color: #CFD1D4;
+} */
+/*blue for fully collected ("ready to watch"), and in various watch states*/
+#layout-main .mylist.complete,
+#layout-main .mylist.stalled,
+#layout-main .mylist.watching,
+#layout-main .mylist.dropped,
+#layout-main table.animelist .complete,
+#layout-main table.animelist .stalled,
+#layout-main table.animelist .watching,
+#layout-main table.animelist .dropped
+{
+background-color: #71D8DE !important;
+}
+#layout-main .mylist.g_odd.complete,
+#layout-main .mylist.g_odd.stalled,
+#layout-main .mylist.g_odd.watching,
+#layout-main .mylist.g_odd.dropped,
+#layout-main table.animelist .g_odd.complete,
+#layout-main table.animelist .g_odd.stalled,
+#layout-main table.animelist .g_odd.watching,
+#layout-main table.animelist .g_odd.dropped
+{
+background-color: #68CACE !important;
+}
+/*greens for mylist state "completed"*/
+#layout-main tr.all_watched,
+#layout-main td.all_watched
+{
+background-color: #B8E3B8 !important;
+}
+#layout-main tr.g_odd.all_watched,
+#layout-main td.g_odd.all_watched
+{
+background-color: #85D485 !important;
+}
+
+/*
+anime-group in my list, completion bar, from green to red (for readability)
+*/
+#layout-main div.anime_all div.groups td.epbar div.done.mylist,
+#layout-main div.group_all div.group_released td.epbar div.done.mylist
+{
+border-bottom: 2px solid #FF0000;
+}
+
+/*
+	Highlight in red any missing char-char and anime-anime relations in the table-fied views
+*/
+#layout-main div.g_content.rel_all td.type.crel.missing,
+#layout-main div.g_content.characterrel_all td.type.crel.missing,
+#layout-main div.g_content.characterrel_all td.type.ended.missing,
+#layout-main div.g_content.addcharanimerel_all td.type.crel.missing,
+#layout-main div.g_content.addcharanimerel_all td.type.ended.missing
+{
+   visibility: visible;
+   background-color: red;
+   color: #000000;
+}

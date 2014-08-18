@@ -1,0 +1,116 @@
+/*
+	Display top links (buttons) on anime/character/club/creator/collection/group/song page
+*/
+#layout-main div.anime_all ul.links_top,
+#layout-main div.character_all ul.links_top,
+#layout-main div.club_all ul.links_top,
+#layout-main div.creator_all ul.links_top,
+#layout-main div.collection_all ul.links_top,
+#layout-main div.group_all ul.links_top,
+#layout-main div.song_all ul.links_top
+{
+  display: block;
+}
+
+/*
+	Hide the undumped files column on the group page (unhide below)
+*/
+#layout-main td.number.undumped
+{
+  visibility: hidden;
+}
+
+/*
+	Unhide the undumped files column on the group page if there are undumped files
+	Mark table cells of undumped files red
+*/
+#layout-main td.number.undumped.notalldumped,
+table.filelist td.date.added,
+table.filelist tr.undumped td.id,
+table.filelist tr.undumped td.action
+{
+  visibility: visible;
+  background-color: #900000;
+  color: #000000;
+}
+
+/*
+expand default text entry box size
+*/
+textarea
+{
+  height: 275px;
+  width: 800px;
+}
+
+/*
+	Disallow line wrap on userpage stats block
+*/
+#layout-main div.userpage_all div.stats div table th.field,
+#layout-main div.myplace_all div.stats div table th.field,
+#layout-main div.userpage_all div.stats div table td.value,
+#layout-main div.myplace_all div.stats div table td.value
+{
+  white-space: nowrap;
+}
+
+/*
+vertical align the user page avatar
+*/
+#layout-main div.userpage_all div.userdetails div.block div.image {
+   align-self: baseline;
+   margin-top: 1.7em;
+}	
+
+/*
+shrink width of info box on userpages
+
+div.userdetails > div.block > div:nth-last-child(2)
+*/
+#layout-main div.userpage_all div.userdetails div.block div.image,
+#layout-main div.userpage_all div.userdetails div.block div.user_info,
+#layout-main div.userpage_all div.userdetails div.block div.notify
+{
+   width: initial;
+   align-items: stretch;
+}
+
+/*
+div.data max width, to maximize the widths of image vs data div blocks (ie on group pages)
+*/
+#layout-main div.block > div.data {
+  /*width: 100%;*/
+  /*flex-basis: 100%;*/
+  flex-grow: 2;
+}
+#layout-main div.block > div.image {
+  /*width: 100%;*/
+  /*flex-basis: 100%;*/
+}
+#layout-main div.block {
+  align-items: stretch;
+}
+
+/*
+userpage sections flex adding (discussions section only so far)
+*/
+#layout-main .g_section.discussions {
+display: flex;
+flex-wrap: wrap;
+}
+#layout-main h4 {
+width: 100%;
+flex-shrink: 0;
+}
+#layout-main .g_definitionlist.anime {
+/* flex-shrink: 1; */
+width: 33%;
+}
+#layout-main .g_definitionlist.clubs {
+/* flex-shrink: 1; */
+width: 33%;
+}
+#layout-main .g_definitionlist.subscriptions {
+/* flex-shrink: 1; */
+width: 33%;
+}
