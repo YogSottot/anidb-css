@@ -25,8 +25,9 @@
 
 .i_rate_halfstar {
 	background-image: url(../icons/zakura/star-half.png);
-	width: 7px !important;
 	padding: 0 !important;
+	background-position: left;
+	width:8px;
 }
 
 .i_rate_star,
@@ -53,7 +54,6 @@
 .i_rate_low {
 	width: 22px !important;
 }
-.i_rate_halfstar,
 .i_rate_verylow {
 	width: 15px !important;
 }
