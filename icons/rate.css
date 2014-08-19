@@ -24,7 +24,7 @@
 }
 
 .i_rate_halfstar {
-	background-image: url(../icons/zakura/star-half.png);
+	background-image: url(../icons/zakura/star-dark.png);
 	padding: 0 !important;
 	background-position: left;
 	width:8px;
@@ -39,7 +39,7 @@
 	background-repeat: repeat-x !important;
 	background-position: left !important;
 	padding: 0 !important;
-	background-image: url(../icons/zakura/star.png);
+	background-image: url(../icons/zakura/star-dark.png);
 }
 
 .i_rate_veryhigh {
