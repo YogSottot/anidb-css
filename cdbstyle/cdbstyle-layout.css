@@ -28,11 +28,19 @@
 #layout-main td.number.undumped.notalldumped,
 table.filelist td.date.added,
 table.filelist tr.undumped td.id,
+table.filelist tr.undumped td.id a:link,
+table.filelist tr.undumped td.id a:active,
+table.filelist tr.undumped td.id a:visited,
 table.filelist tr.undumped td.action
 {
   visibility: visible;
   background-color: #900000;
-  color: #000000;
+  color: white;
+  font-weight: bold;
+}
+table.filelist tr.undumped td.id a:hover
+{
+  color: initial;
 }
 
 /*
