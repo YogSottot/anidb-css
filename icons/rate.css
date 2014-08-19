@@ -23,7 +23,12 @@
 	background-image: url(../icons/icon/anidb_rate_eyecancer.gif);
 }
 
-.i_rate_halfstar,
+.i_rate_halfstar {
+	background-image: url(../icons/zakura/star-half.png);
+	width: 7px !important;
+	padding: 0 !important;
+}
+
 .i_rate_star,
 .i_rate_veryhigh,
 .i_rate_high,
