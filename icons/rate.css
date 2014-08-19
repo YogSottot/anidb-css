@@ -23,6 +23,11 @@
 	background-image: url(../icons/icon/anidb_rate_eyecancer.gif);
 }
 
+*.i_rate_nostar
+{
+	background-image: url(../icons/icon/anidb_rate_nostar.gif);
+}
+
 *.i_rate_star
 {
 	background-image: url(../icons/icon/anidb_rate_star.gif);
