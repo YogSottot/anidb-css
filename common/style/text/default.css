@@ -408,8 +408,8 @@ div.quotebody div.quoteof,
 div.relations .g_bubble.stripe div.type,
 .g_bubble.box > div.top div.name,
 .g_bubble.box > div.data div.date,
-#layout-main div.main_all div.header div.account ul.tabs li
-{
+#layout-main div.main_all div.header div.account ul.tabs li,
+#layout-main div.search_all div.search_results strong {
 	font-weight:bold;
 }
 

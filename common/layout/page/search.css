@@ -1,0 +1,26 @@
+#layout-main div.search_all div.fullsearch_form tr.entity td,
+#layout-main div.search_all div.fullsearch_form tr.field td {
+    align-content: flex-start;
+    display: flex;
+    flex-flow: column wrap;
+    height: 5em;
+    justify-content: center;
+}
+
+#layout-main div.search_all div.fullsearch_form tr.field td {
+    height: 2em;
+}
+
+#layout-main div.search_all div.fullsearch_form label {
+    width: 13em;
+}
+
+#layout-main div.search_all table.search_results {
+	width: 100%;
+}
+
+#layout-main div.search_all table.search_results td.type,
+#layout-main div.search_all table.search_results td.score {
+	width:10em;
+	text-align: left;
+}
