@@ -56,11 +56,14 @@ textarea
 	Disallow line wrap on userpage stats block
 */
 #layout-main div.userpage_all div.stats div table th.field,
-#layout-main div.myplace_all div.stats div table th.field,
+#layout-main div.myplace_all div.stats div table th.field
+{
+  white-space: nowrap;
+}
 #layout-main div.userpage_all div.stats div table td.value,
 #layout-main div.myplace_all div.stats div table td.value
 {
-  white-space: nowrap;
+  width: 40em;
 }
 
 /*
