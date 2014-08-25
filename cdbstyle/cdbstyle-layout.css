@@ -126,3 +126,12 @@ width: 33%;
 /* flex-shrink: 1; */
 width: 33%;
 }
+
+/*
+nowrap of username on creqhist page (and possibly others)
+*/
+#layout-main td.name.user,
+#layout-main td.name.owner
+{
+white-space: nowrap;
+}
