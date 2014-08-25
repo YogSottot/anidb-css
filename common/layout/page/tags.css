@@ -135,8 +135,7 @@
 }
 
 
-#layout-main div.addtagentityrel_all div.tag-column div.tag
-{
+#layout-main div.addtagentityrel_all div.tag-column div.tag {
 	flex-direction: row;
 }
 
@@ -160,6 +159,7 @@
 {
 	display: flex;
 	flex-direction: row-reverse;
+	align-items: center;
 }
 
 #layout-main div.tag-column div.tag > span
