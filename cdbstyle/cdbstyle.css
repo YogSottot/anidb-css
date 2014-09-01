@@ -1,0 +1,18 @@
+@import "../anidbstyle2/anidbstyle2.css";
+@import "cdbstyle-colour.css";
+@import "cdbstyle-layout.css";
+@import "cdbstyle-text.css";
+
+/*
+creq screen colour fix (annoying bug fix)
+
+fixed in https://git.anidb.net/anidb/css/commit/6834e50a52e78531b5e518d0471c644ce4283621
+*/
+/* #layout-main div.creq_all .state.return th.field {
+color: #CCCCCC;
+} */
+
+#layout-footer:after
+{
+	content:"Design by CDB-Man. Improvements on DerIdiot`s AniDBstyle2.";
+}
