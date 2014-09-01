@@ -1,6 +1,5 @@
 #layout-main div.search_all div.fullsearch_form tr.entity td,
-#layout-main div.search_all div.fullsearch_form tr.field td,
-#layout-main div.search_all div.fullsearch_form tr.restricted td {
+#layout-main div.search_all div.fullsearch_form tr.field td {
     align-content: flex-start;
     display: flex;
     flex-flow: column wrap;
@@ -13,12 +12,12 @@
 }
 
 #layout-main div.search_all div.fullsearch_form tr.restricted td {
+    display: flex;
     flex-flow: row wrap;
-    height: auto;
 }
 
 #layout-main div.search_all div.fullsearch_form label {
-    width: 13em;
+    width: 15em;
 }
 
 #layout-main div.search_all table.search_results {
