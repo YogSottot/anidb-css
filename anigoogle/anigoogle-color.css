@@ -106,7 +106,8 @@ a:hover,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	color: #AA0000;
 }
@@ -183,7 +184,8 @@ span.g_odd,
 input[type="submit"]:hover,
 button[type="submit"]:hover,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
-#layout-main div.addtagentityrel_all div.suggestions > span:hover
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	background-color: #ECF4FD;
 }
@@ -204,7 +206,8 @@ tr,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd,
-#layout-main div.addtagentityrel_all #tag-list div.g_odd
+#layout-main div.addtagentityrel_all #tag-list div.g_odd,
+#layout-main div.search_all div.suggestions
 {
 	background-color: #FFFFFF;
 }
@@ -217,7 +220,8 @@ textarea,
 select,
 #layout-tabs ul.main-tabs > li,
 #layout-search select,
-#layout-search input.text
+#layout-search input.text,
+#layout-main div.search_all div.suggestions
 {
 	border-color: #C9D7F1;
 }

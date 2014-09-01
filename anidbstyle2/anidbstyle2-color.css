@@ -89,7 +89,8 @@ input[type="submit"]:hover,
 #layout-main div.forum li.header dt,
 #layout-main div.forum li.header dd,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	color: #DDDDDD;
 }
@@ -124,7 +125,8 @@ input.text,
 textarea,
 select,
 #layout-search select,
-#layout-search input.text
+#layout-search input.text,
+#layout-main div.search_all div.suggestions
 {
 	color: #CCCCCC;
 }
@@ -173,7 +175,8 @@ input[type="submit"]:hover,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	background-color:#58636E;
 }
@@ -275,7 +278,8 @@ select,
 #layout-search input.text,
 #layout-menu li.sub-menu ul,
 #layout-main div.pagination span a,
-#layout-main div.forum div.g_bubble.threads
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.search_all div.suggestions
 {
 	background-color: #34394D;
 }
