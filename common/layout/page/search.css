@@ -1,5 +1,6 @@
 #layout-main div.search_all div.fullsearch_form tr.entity td,
-#layout-main div.search_all div.fullsearch_form tr.field td {
+#layout-main div.search_all div.fullsearch_form tr.field td,
+#layout-main div.search_all div.fullsearch_form tr.restricted td {
     align-content: flex-start;
     display: flex;
     flex-flow: column wrap;
@@ -9,6 +10,11 @@
 
 #layout-main div.search_all div.fullsearch_form tr.field td {
     height: 2em;
+}
+
+#layout-main div.search_all div.fullsearch_form tr.restricted td {
+    flex-flow: row wrap;
+    height: auto;
 }
 
 #layout-main div.search_all div.fullsearch_form label {
@@ -25,12 +31,11 @@
 	text-align: left;
 }
 
-
 #layout-main div.search_all #atags_include,
 #layout-main div.search_all #atags_exclude,
 #layout-main div.search_all #ctags_include,
 #layout-main div.search_all #ctags_exclude {
-	width:50em;
+	width: 50em;
 }
 
 #layout-main div.search_all input.focus {
