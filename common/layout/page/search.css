@@ -43,12 +43,10 @@
 	overflow:auto;
 	z-index: 10;
 	max-height: 15em;
-	border: 1px solid;
 }
 
 #layout-main div.search_all div.suggestions span {
 	margin:0px;
-	padding:2px;
-	cursor: pointer;
+	padding:2px 4px;
 	display: block;
 }

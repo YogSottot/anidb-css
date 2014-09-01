@@ -453,7 +453,8 @@ a.tooltip span.text
 
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.addtagentityrel_all #tag-groups span.link,
-#layout-main div.addtagentityrel_all #tag-list div.tag
+#layout-main div.addtagentityrel_all #tag-list div.tag,
+#layout-main div.search_all div.suggestions span
 {
 	cursor: pointer;
 }

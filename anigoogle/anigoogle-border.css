@@ -103,7 +103,8 @@ select,
 #layout-tabs ul.main-tabs > li,
 #layout-menu > li ul,
 #layout-main div.avatar img,
-#layout-main div.anime_all div.info div.image img
+#layout-main div.anime_all div.info div.image img,
+#layout-main div.search_all div.suggestions
 {
 	border: 1px solid;
 }
