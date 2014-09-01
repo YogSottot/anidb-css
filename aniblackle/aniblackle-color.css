@@ -436,3 +436,9 @@ a.tooltip span.text:before
 	border-color: rgba(64, 64, 64, 0);
 	border-bottom-color: #404040;
 }
+
+button:focus::-moz-focus-inner,
+input[type="submit"]:focus::-moz-focus-inner,
+input[type="button"]:focus::-moz-focus-inner {
+	border-color: #728972;
+}
