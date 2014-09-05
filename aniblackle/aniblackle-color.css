@@ -442,3 +442,9 @@ input[type="submit"]:focus::-moz-focus-inner,
 input[type="button"]:focus::-moz-focus-inner {
 	border-color: #728972;
 }
+
+#layout-main div.tag-column {
+	-moz-column-rule-color: #666666;
+	-webkit-column-rule-color: #666666;
+	column-rule-color: #666666;
+}

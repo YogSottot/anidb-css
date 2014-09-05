@@ -489,8 +489,15 @@ a.tooltip span.text:after
 	border-color: rgba(211, 213, 217, 0);
 	border-bottom-color: #d3d5d9;
 }
+
 a.tooltip span.text:before
 {
 	border-color: rgba(154, 154, 154, 0);
 	border-bottom-color: #9a9a9a;
+}
+
+#layout-main div.tag-column {
+	-moz-column-rule-color: #EEEEEE;
+	-webkit-column-rule-color: #EEEEEE;
+	column-rule-color: #EEEEEE;
 }
