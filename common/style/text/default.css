@@ -475,3 +475,7 @@ a.tooltip span.text
 	cursor: default;
 	text-transform:none;
 }
+
+#layout-main div.tag-column div.tag span.indent {
+	font-style: normal;
+}
