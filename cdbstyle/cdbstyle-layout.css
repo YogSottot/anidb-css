@@ -114,14 +114,8 @@ flex-wrap: wrap;
 width: 100%;
 flex-shrink: 0;
 }
-#layout-main .g_definitionlist.anime {
-/* flex-shrink: 1; */
-width: 33%;
-}
-#layout-main .g_definitionlist.clubs {
-/* flex-shrink: 1; */
-width: 33%;
-}
+#layout-main .g_definitionlist.anime,
+#layout-main .g_definitionlist.clubs,
 #layout-main .g_definitionlist.subscriptions {
 /* flex-shrink: 1; */
 width: 33%;
