@@ -52,6 +52,7 @@ span.i_icon.rel.marker
 {
 	width: 13px;
 	height: 20px;
+	background-image: url(../icons/icon/anidb_marker.png);
 }
 
 span.smiley
