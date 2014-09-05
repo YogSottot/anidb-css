@@ -497,7 +497,7 @@ a.tooltip span.text:before
 }
 
 #layout-main div.tag-column {
-	-moz-column-rule-color: #EEEEEE;
-	-webkit-column-rule-color: #EEEEEE;
-	column-rule-color: #EEEEEE;
+	-moz-column-rule-color: #9a9a9a;
+	-webkit-column-rule-color: #9a9a9a;
+	column-rule-color: #9a9a9a;
 }
