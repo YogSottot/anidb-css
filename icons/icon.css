@@ -48,6 +48,12 @@ span.i_icon.rel
 	position: absolute;
 }
 
+span.i_icon.rel.marker
+{
+	width: 13px;
+	height: 20px;
+}
+
 span.smiley
 {
 	display:inline-block;
