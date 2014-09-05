@@ -55,8 +55,16 @@
 	background-position: left;
 	width:8px;
 }
+.i_rate_missing,
 .i_rate_unknown {
-	background-image: url(../icons/zakura/star-grey.png);
 	padding: 0 !important;
 	height: 15px !important;
+}
+
+.i_rate_unknown {
+	background-image: url(../icons/zakura/star-grey.png);
+}
+
+.i_rate_missing {
+	background-image: url(../icons/zakura/star-un.png);
 }
