@@ -55,6 +55,7 @@
 	background-position: left;
 	width:8px;
 }
+.i_rate_error,
 .i_rate_missing,
 .i_rate_unknown {
 	padding: 0 !important;
@@ -64,7 +65,9 @@
 .i_rate_unknown {
 	background-image: url(../icons/zakura/star-grey.png);
 }
-
 .i_rate_missing {
 	background-image: url(../icons/zakura/star-un.png);
+}
+.i_rate_error {
+	background-image: url(../icons/zakura/star-red.png);
 }
