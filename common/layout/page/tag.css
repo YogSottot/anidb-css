@@ -71,7 +71,18 @@
 	margin: 0;
 }
 
-
 #layout-main div.tag_all div.tag-column div.tag span.weight {
 	display: none;
+}
+
+#layout-main div.tag_all div.tag-column {
+	-moz-column-width: auto;
+	-webkit-column-width: auto;
+	column-width: auto;
+	-moz-column-gap: auto;
+	-webkit-column-gap: auto;
+	column-gap: auto;
+	-moz-column-rule:none;
+	-webkit-column-rule:none;
+	column-rule:none;
 }
