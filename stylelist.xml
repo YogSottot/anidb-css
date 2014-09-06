@@ -100,6 +100,16 @@
 		<screenshot>anitube/images/screenshot.png</screenshot>
 		<thumbnail>anitube/images/thumbnail.png</thumbnail>
 	</style>
+	<style name="cdbstyle">
+		<title>CDBstyle</title>
+		<creator>CDB-Man</creator>
+		<update>05.09.2014</update>
+		<status>constant development and updates</status>
+		<description>CDB`s improvements on DerIdiot`s AniDBstyle2.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle</description>
+		<path/>
+		<thumbnail>cdbstyle/images/thumbnail.png</thumbnail>
+		<screenshot>cdbstyle/images/screenshot.png</screenshot>
+	</style>
 	<style name="dark-style">
 		<title>Dark Style</title>
 		<creator>sylwira</creator>
@@ -343,15 +353,5 @@ Thanks to zak, Rar and pelican for the css help. In case you've wondered where t
 		<path></path>
 		<screenshot>zakura-menu/images/screenshot.png</screenshot>
 		<thumbnail>zakura-menu/images/thumbnail.png</thumbnail>
-	</style>
-	<style name="cdbstyle">
-		<title>CDBstyle</title>
-		<creator>CDB-Man</creator>
-		<update>17.08.2014</update>
-		<status>constant development and updates</status>
-		<description>CDB`s improvements on DerIdiot`s AniDBstyle2.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle</description>
-		<path/>
-		<thumbnail>cdbstyle/images/thumbnail.png</thumbnail>
-		<screenshot>cdbstyle/images/screenshot.png</screenshot>
 	</style>
 </css_styles>
