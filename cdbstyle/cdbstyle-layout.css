@@ -129,19 +129,3 @@ nowrap of username on creqhist page (and possibly others)
 {
 white-space: nowrap;
 }
-
-/*
-revert to old stars on file tables
-*/
-.i_rate_halfstar,
-.i_rate_star,
-.i_rate_veryhigh,
-.i_rate_high,
-.i_rate_med,
-.i_rate_low,
-.i_rate_verylow {
-background-repeat: repeat-x !important;
-background-position: left !important;
-padding: 0 !important;
-background-image: url(../icons/icon/anidb_rate_star.gif);
-}
