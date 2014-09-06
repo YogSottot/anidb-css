@@ -173,9 +173,8 @@
 	text-align: left;
 }
 
-#layout-main div.tag-column div.tag span.weight
-{
-	width: 5.5em;
+#layout-main div.tag-column div.tag span.weight {
+	min-width: 5.5em;
 }
 
 #layout-main div.tag-column div.tag span.indent
