@@ -33,7 +33,7 @@
 	background-repeat: repeat-x !important;
 	background-position: left !important;
 	padding: 0 !important;
-	background-image: url(../icons/zakura/star-dark.png);
+	background-image: url(../icons/icon/anidb_rate_star_dark.png);
 }
 
 .i_rate_veryhigh {
@@ -63,11 +63,11 @@
 }
 
 .i_rate_weightless {
-	background-image: url(../icons/zakura/star-grey.png);
+	background-image: url(../icons/icon/anidb_rate_star_grey.png);
 }
 .i_rate_missing {
-	background-image: url(../icons/zakura/star-black.png);
+	background-image: url(../icons/icon/anidb_rate_star_black.png);
 }
 .i_rate_error {
-	background-image: url(../icons/zakura/star-red.png);
+	background-image: url(../icons/icon/anidb_rate_star_red.png);
 }
