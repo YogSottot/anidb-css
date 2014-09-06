@@ -110,7 +110,7 @@ userpage sections flex adding (discussions section only so far)
 display: flex;
 flex-wrap: wrap;
 }
-#layout-main h4 {
+#layout-main .g_section.discussions h4 {
 width: 100%;
 flex-shrink: 0;
 }
