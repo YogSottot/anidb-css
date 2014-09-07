@@ -41,7 +41,8 @@ input[type="submit"]:hover,
 .g_bubble .name-colored:hover,
 a.tooltip span.text,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	color: #FFFFFF;
 }
@@ -73,7 +74,8 @@ textarea,
 html,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
-#layout-main div.main_all div.rightbar h4
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.search_all div.suggestions
 {
 	background-color: #000000;
 }
@@ -100,7 +102,9 @@ html,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div div.addrelform table tr,
 .g_bubble,
-.g_bubble .g_bubble .g_bubble
+.g_bubble .g_bubble .g_bubble,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	background-color: #404040;
 }
@@ -185,7 +189,8 @@ input[type="submit"]:hover,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	background-color: #555555;
 }
@@ -363,7 +368,8 @@ select,
 #layout-search select,
 #layout-search input.text,
 #layout-main div.tabbed_pane ul.tabs li,
-#layout-tabs ul.main-tabs > li
+#layout-tabs ul.main-tabs > li,
+#layout-main div.search_all div.suggestions
 {
 	border: 1px solid #666666;
 }
@@ -393,7 +399,9 @@ div.quotebody,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2,
 #layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p
+#layout-main div.forum div.poll div.data p,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	border-color: #666666 #444444 #444444 #666666;
 }
@@ -433,4 +441,10 @@ button:focus::-moz-focus-inner,
 input[type="submit"]:focus::-moz-focus-inner,
 input[type="button"]:focus::-moz-focus-inner {
 	border-color: #728972;
+}
+
+#layout-main div.tag-column {
+	-moz-column-rule-color: #666666;
+	-webkit-column-rule-color: #666666;
+	column-rule-color: #666666;
 }

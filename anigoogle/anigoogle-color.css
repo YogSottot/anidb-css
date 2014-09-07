@@ -106,7 +106,8 @@ a:hover,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	color: #AA0000;
 }
@@ -161,7 +162,7 @@ tr.g_odd,
 li.g_odd,
 span.g_odd,
 .g_bubble,
-.g_bubble .g_bubble  .g_bubble,
+.g_bubble .g_bubble .g_bubble,
 *.g_button a:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.selected,
@@ -181,7 +182,10 @@ span.g_odd,
 #layout-main div.forum div.g_bubble.comment,
 #layout-main div.forum div.g_bubble.events,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	background-color: #ECF4FD;
 }
@@ -202,7 +206,8 @@ tr,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd,
-#layout-main div.addtagentityrel_all #tag-list div.g_odd
+#layout-main div.addtagentityrel_all #tag-list div.g_odd,
+#layout-main div.search_all div.suggestions
 {
 	background-color: #FFFFFF;
 }
@@ -215,7 +220,8 @@ textarea,
 select,
 #layout-tabs ul.main-tabs > li,
 #layout-search select,
-#layout-search input.text
+#layout-search input.text,
+#layout-main div.search_all div.suggestions
 {
 	border-color: #C9D7F1;
 }
@@ -230,7 +236,9 @@ select,
 #layout-main div.anime_all div.info div.image img,
 span.test,
 input[type="submit"],
-button[type="submit"]
+button[type="submit"],
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	border-color: #C9D7F1 #97AACC #97AACC #C9D7F1;
 }
@@ -322,6 +330,6 @@ a.tooltip span.text
 	-moz-box-shadow: 0px 0px 8px 4px #666;
 	-webkit-box-shadow: 0px 0px 8px 4px #666;
 	box-shadow: 0px 0px 8px 4px #666;
-	opacity: 0.85;
+	opacity: 0.9;
 	color: #000000;
 }

@@ -1,6 +1,7 @@
 @import "addentity.css";
 @import "addepm.css";
 @import "addsimilaranime.css";
+@import "addtagentityrel.css";
 @import "admin.css";
 @import "anime.css";
 @import "animeatt.css";
@@ -27,7 +28,6 @@
 @import "import.css";
 @import "irc.css";
 @import "latest.css";
-@import "lexicon.css";
 @import "main.css";
 @import "modlatest.css";
 @import "msg.css";
@@ -41,9 +41,11 @@
 @import "profile.css";
 @import "relations.css";
 @import "reports.css";
+@import "search.css";
 @import "song.css";
 @import "songlist.css";
-@import "tags.css";
+@import "tag.css";
+@import "taglist.css";
 @import "userlist.css";
 @import "votes.css";
 @import "wishlist.css";

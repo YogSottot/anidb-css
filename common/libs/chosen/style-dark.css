@@ -1,0 +1,59 @@
+.chosen-container .chosen-results li {
+  color: #728972;
+}
+.chosen-container .chosen-drop,
+.chosen-container-single .chosen-single {
+  background-color: #333333;
+  color: #728972;
+  border: 1px solid #666666 !important;
+}
+/* Some IE 7-9 fun with this next one - filter likes to override background */
+.chosen-container-single .chosen-single {
+  filter: none;
+  display: block;
+  height: 30px;
+}
+.chosen-container-single .chosen-single div {
+  background-image: -webkit-gradient(linear, left bottom, left top,
+    color-stop(0, #333333), color-stop(0.6, #121212));
+  background-image: -webkit-linear-gradient(center bottom, #333333 0%, #121212 60%);
+  background-image: -moz-linear-gradient(center bottom, #333333 0%, #121212 60%);
+  background-image: -o-linear-gradient(bottom, #333333 0%, #121212 60%);
+  background-image: -ms-linear-gradient(top, #333333 0%,#121212 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333',
+    endColorstr='#121212',GradientType=0 );
+  background-image: linear-gradient(top, #333333 0%,#121212 60%);
+  border-left: 1px solid #252525;
+}
+
+.chosen-container-active .chosen-single-with-drop {
+  box-shadow: none;
+}
+.chosen-container .chosen-results .highlighted {
+  background: #333333;
+  color: #eeeeee;
+}
+.chosen-container .chosen-results .no-results {
+  background: #333;
+}
+.chosen-container .chosen-results li em {
+  background: none;
+}
+ 
+/* dark sprite overrides */
+ 
+.chosen-container-single .chosen-single abbr {
+  background: url('../icons/libs/chosen/chosen-sprite-dark.png') right top no-repeat;
+}
+.chosen-container-single .chosen-single div b {
+  background: url('../icons/libs/chosen/chosen-sprite-dark.png') no-repeat 0 1px;
+}
+.chosen-container-single .chosen-search input,
+.chosen-rtl .chosen-search input {
+  background: #333 url('../icons/libs/chosen/chosen-sprite-dark.png') no-repeat 100% -22px;
+  color: #728972;
+  border: 1px solid #555555 !important;
+}
+.chosen-container-multi .chosen-choices .search-choice .search-choice-close {
+  background: url('../icons/libs/chosen/chosen-sprite-dark.png') right top no-repeat;
+}

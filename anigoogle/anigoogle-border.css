@@ -103,7 +103,8 @@ select,
 #layout-tabs ul.main-tabs > li,
 #layout-menu > li ul,
 #layout-main div.avatar img,
-#layout-main div.anime_all div.info div.image img
+#layout-main div.anime_all div.info div.image img,
+#layout-main div.search_all div.suggestions
 {
 	border: 1px solid;
 }
@@ -217,4 +218,19 @@ a.tooltip span.text:after
 a.tooltip span.text:before
 {
 	border-width: 13px;
+}
+
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+}
+
+#layout-main div.tag-column {
+	-moz-column-rule: 1px dotted #97aacc;
+	-webkit-column-rule: 1px dotted #97aacc;
+	column-rule: 1px dotted #97aacc;
 }

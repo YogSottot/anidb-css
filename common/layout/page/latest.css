@@ -16,7 +16,7 @@
 
 #layout-main div.latest2_all div.content th.anime
 {
-	width: 60%;
+	width: 70%;
 }
 
 #layout-main div.latest2_all div.latest_hotanime div.content th.anime,
@@ -48,6 +48,7 @@
 #layout-main div.latest2_all div.content table.filelist th.group
 {
 	width: 15%;
+	min-width: 10em;
 }
 
 #layout-main div.latest2_all div.content table.completed th.group
