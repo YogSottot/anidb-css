@@ -1,5 +1,7 @@
 @import "../sub/common.css";
 @import "../common/style/color/status-pastel.css";
+@import "../common/libs/all.css";
+@import "../common/libs/chosen/style-white.css";
 @import "../anigoogle/anigoogle-layout.css";
 @import "../anigoogle/anigoogle-text.css";
 @import "../anigoogle/anigoogle-border.css";

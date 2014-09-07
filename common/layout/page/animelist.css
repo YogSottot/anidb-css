@@ -10,6 +10,10 @@
     display: none;
 }
 
+#layout-main div.animelist_all div.enabled_filters li > span {
+    display: inline-block;
+}
+
 #layout-main div.animelist_all div.note,
 #layout-main div.animelist_all div.fullsearch_form
 {

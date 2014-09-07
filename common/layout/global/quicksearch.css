@@ -1,5 +1,4 @@
-/* This way it applies to all ul's */
-ul.acdropdown
+#layout-search ul.quicksearch
 {
 	margin:0; 
 	padding:0;
@@ -8,9 +7,53 @@ ul.acdropdown
 	z-index: 10;
 }
 
-ul.acdropdown li
+#layout-search ul.quicksearch li
 {
 	margin:0px;
 	padding:2px;
 	cursor: pointer;
+}
+
+#layout-search ul.quicksearch
+{
+	margin: 0 0 0 4px;
+	position: absolute;
+	width: 375px;
+}
+
+#layout-search ul.quicksearch img
+{
+	float:left;
+	margin-left: 3px;
+	margin-right: 5px;
+}
+
+#layout-search ul.quicksearch li
+{
+	clear: left;
+}
+
+#layout-search ul.quicksearch li.image
+{
+	height: 65px;
+}
+
+#layout-search ul.quicksearch li:last-child
+{
+	text-align:center;
+}
+
+#layout-search select,
+#layout-search input.text
+{
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 18px;
+}
+
+#layout-search select
+{
+	height: 18px;
+	padding: 3px;
 }

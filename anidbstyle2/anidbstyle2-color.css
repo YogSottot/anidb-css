@@ -89,7 +89,8 @@ input[type="submit"]:hover,
 #layout-main div.forum li.header dt,
 #layout-main div.forum li.header dd,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	color: #DDDDDD;
 }
@@ -124,7 +125,8 @@ input.text,
 textarea,
 select,
 #layout-search select,
-#layout-search input.text
+#layout-search input.text,
+#layout-main div.search_all div.suggestions
 {
 	color: #CCCCCC;
 }
@@ -173,7 +175,8 @@ input[type="submit"]:hover,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 input[type="submit"]:hover,
-button[type="submit"]:hover
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
 {
 	background-color:#58636E;
 }
@@ -193,7 +196,9 @@ button[type="submit"]:hover
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
 #layout-main div.forum ul.topics li.g_odd.row,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	background-color: #B1B3B5;
 }
@@ -273,7 +278,8 @@ select,
 #layout-search input.text,
 #layout-menu li.sub-menu ul,
 #layout-main div.pagination span a,
-#layout-main div.forum div.g_bubble.threads
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.search_all div.suggestions
 {
 	background-color: #34394D;
 }
@@ -343,7 +349,9 @@ select,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2,
 #layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p
+#layout-main div.forum div.poll div.data p,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	border-color:#9A9A9A #7D7D7D #7D7D7D #9A9A9A;
 }
@@ -467,13 +475,29 @@ div.quotebody
 	border-color: #DEBFC3 #C4939F #C4939F #DEBFC3;
 }
 
+a.tooltip span.text {
+	background-color: #d3d5d9 !important;
+	color: #000000;
+	-moz-box-shadow: 0px 0px 8px 4px #666;
+	-webkit-box-shadow: 0px 0px 8px 4px #666;
+	box-shadow: 0px 0px 8px 4px #666;
+	opacity: 0.85;
+}
+
 a.tooltip span.text:after
 {
-	border-color: rgba(177, 179, 181, 0);
-	border-bottom-color: #B1B3B5;
+	border-color: rgba(211, 213, 217, 0);
+	border-bottom-color: #d3d5d9;
 }
+
 a.tooltip span.text:before
 {
-	border-color: rgba(177, 179, 181, 0);
-	border-bottom-color: #B1B3B5;
+	border-color: rgba(154, 154, 154, 0);
+	border-bottom-color: #9a9a9a;
+}
+
+#layout-main div.tag-column {
+	-moz-column-rule-color: #9a9a9a;
+	-webkit-column-rule-color: #9a9a9a;
+	column-rule-color: #9a9a9a;
 }

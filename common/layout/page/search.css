@@ -1,0 +1,56 @@
+#layout-main div.search_all div.fullsearch_form tr.entity td,
+#layout-main div.search_all div.fullsearch_form tr.field td {
+    align-content: flex-start;
+    display: flex;
+    flex-flow: column wrap;
+    height: 5em;
+    justify-content: center;
+}
+
+#layout-main div.search_all div.fullsearch_form tr.field td {
+    height: 2em;
+}
+
+#layout-main div.search_all div.fullsearch_form tr.restricted td {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#layout-main div.search_all div.fullsearch_form label {
+    width: 15em;
+}
+
+#layout-main div.search_all table.search_results {
+	width: 100%;
+}
+
+#layout-main div.search_all table.search_results td.type,
+#layout-main div.search_all table.search_results td.score {
+	width:10em;
+	text-align: left;
+}
+
+#layout-main div.search_all #atags_include,
+#layout-main div.search_all #atags_exclude,
+#layout-main div.search_all #ctags_include,
+#layout-main div.search_all #ctags_exclude {
+	width: 50em;
+}
+
+#layout-main div.search_all input.focus {
+	border-radius: 5px 5px 0 0;
+}
+
+#layout-main div.search_all div.suggestions {
+	margin:0; 
+	padding:0;
+	overflow:auto;
+	z-index: 10;
+	max-height: 15em;
+}
+
+#layout-main div.search_all div.suggestions span {
+	margin:0px;
+	padding:2px 4px;
+	display: block;
+}

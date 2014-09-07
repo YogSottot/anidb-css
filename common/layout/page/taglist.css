@@ -1,0 +1,18 @@
+#layout-main div.taglist_all table.taglist td.name
+{
+	width: 30%
+}
+
+#layout-main div.taglist_all table.taglist td.description
+{
+	width: 70%
+}
+
+#layout-main div.taglist_all table.taglist td.animecnt,
+#layout-main div.taglist_all table.taglist td.charcnt,
+#layout-main div.taglist_all table.taglist td.creatorcnt,
+#layout-main div.taglist_all table.taglist td.epcnt,
+#layout-main div.taglist_all table.taglist td.mangacnt
+{
+	min-width: 6em
+}

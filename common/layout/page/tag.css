@@ -1,0 +1,88 @@
+#layout-main div.tag_all td.awards span.i_icon
+{
+	display: inline-block;
+}
+
+#layout-main div.tag_all div.filters ul li span,
+#layout-main div.tag_all div.filters ul li span span
+{
+    display: inline-block;
+}
+
+#layout-main div.tag_all div.filters ul li span span span
+{
+    display: none;
+}
+
+#layout-main div.tag_all div.note,
+#layout-main div.tag_all div.fullsearch_form
+{
+	clear:none;
+}
+
+#layout-main div.tag_all table.characterlist,
+#layout-main div.tag_all table.creatorlist
+{
+	width: 100%
+}
+
+#layout-main div.tag_all div.related_entries ul.jump:first-child
+{
+	margin-top: 0;
+}
+
+#layout-main div.tag_all table.animelist tr td,
+#layout-main div.tag_all table.mangalist tr td
+{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#layout-main div.tag_all table.animelist tr td.name,
+#layout-main div.tag_all table.mangalist tr td.name
+{
+	width:50%;
+}
+
+#layout-main div.tag_all table.animelist tr td.rating,
+#layout-main div.tag_all table.mangalist tr td.rating
+{
+	text-align: left;
+	min-width:6em;
+}
+
+#layout-main div.tag_all table.animelist tr td.count,
+#layout-main div.tag_all table.animelist tr td.date,
+#layout-main div.tag_all table.mangalist tr td.count,
+#layout-main div.tag_all table.mangalist tr td.date
+{
+	text-align: right;
+}
+
+#layout-main div.tag_all table.animelist tr td.count,
+#layout-main div.tag_all table.mangalist tr td.count
+{
+	min-width:4em;
+}
+
+#layout-main div.tag_all .g_definitionlist div.tag-column
+{
+	padding:0;
+	margin: 0;
+}
+
+#layout-main div.tag_all div.tag-column div.tag span.weight {
+	display: none;
+}
+
+#layout-main div.tag_all div.tag-column {
+	-moz-column-width: auto;
+	-webkit-column-width: auto;
+	column-width: auto;
+	-moz-column-gap: auto;
+	-webkit-column-gap: auto;
+	column-gap: auto;
+	-moz-column-rule:none;
+	-webkit-column-rule:none;
+	column-rule:none;
+}
