@@ -66,6 +66,7 @@ experimental colour highlight of mylist entries based on mylist state, on all an
 #layout-main div.animelist_all table tr.mylist,
 #layout-main div.group_released table tr.mylist,
 #layout-main table.animelist tr.mylist,
+#layout-main table.wishlist tr,
 #layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow)
@@ -83,6 +84,7 @@ background-color: #D6B8B8;
 #layout-main div.animelist_all table tr.g_odd.mylist,
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
+#layout-main table.wishlist tr.g_odd,
 #layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
 #layout-main div.mylist_all tr.g_odd[id^="a"]:not(.epsrow)
 {
@@ -100,7 +102,11 @@ background-color: #CFD1D4;
 #layout-main table.animelist .complete,
 #layout-main table.animelist .stalled,
 #layout-main table.animelist .watching,
-#layout-main table.animelist .dropped
+#layout-main table.animelist .dropped,
+#layout-main table.wishlist .complete,
+#layout-main table.wishlist .stalled,
+#layout-main table.wishlist .watching,
+#layout-main table.wishlist .dropped
 {
 background-color: #71D8DE !important;
 }
@@ -111,11 +117,15 @@ background-color: #71D8DE !important;
 #layout-main table.animelist .g_odd.complete,
 #layout-main table.animelist .g_odd.stalled,
 #layout-main table.animelist .g_odd.watching,
-#layout-main table.animelist .g_odd.dropped
+#layout-main table.animelist .g_odd.dropped,
+#layout-main table.wishlist .g_odd.complete,
+#layout-main table.wishlist .g_odd.stalled,
+#layout-main table.wishlist .g_odd.watching,
+#layout-main table.wishlist .g_odd.dropped
 {
 background-color: #68CACE !important;
 }
-/*greens for mylist state "completed"*/
+/*green for mylist state "completed"*/
 #layout-main tr.all_watched,
 #layout-main td.all_watched
 {
