@@ -111,7 +111,7 @@ display: flex;
 flex-wrap: wrap;
 }
 #layout-main .g_section.discussions h4 {
-width: 100%;
+width: 99%;
 flex-shrink: 0;
 }
 #layout-main .g_definitionlist.anime,
