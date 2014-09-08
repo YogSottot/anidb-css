@@ -194,9 +194,9 @@
 }
 
 #layout-main div.tag-column {
-	-moz-column-width: 30em;
-	-webkit-column-width: 30em;
-	column-width: 30em;
+	-moz-column-width: 250px;
+	-webkit-column-width: 250px;
+	column-width: 250px;
 	-moz-column-gap:1em;
 	-webkit-column-gap:1em;
 	column-gap:1em;
@@ -222,7 +222,7 @@
 
 #layout-main #chartags > div {
 	display: flex;
-	padding: 1em;
+	padding: 0.3em;
 }
 
 #layout-main #chartags h3 {
