@@ -86,6 +86,12 @@
 	vertical-align: top;
 }
 
+
+#layout-main div.addtagentityrel_all div.tag-column
+{
+	margin: 0.2em;
+}
+
 #layout-main div.addtagentityrel_all div.tags_add textarea
 {
 	height: 25em;
