@@ -198,7 +198,6 @@
 	-moz-column-gap:1em;
 	-webkit-column-gap:1em;
 	column-gap:1em;
-	width:auto;
 }
 
 #layout-main div.tag-column div.tag {
