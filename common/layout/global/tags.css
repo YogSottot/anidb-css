@@ -234,21 +234,10 @@
 	content: ":";
 }
 
-@support not(flex-wrap) {
-	#layout-main #chartags > div {
-		display: block;
-	}
-
-	#layout-main #chartags > div span.tag {
-		display: inline-block;
-	}
-}
 
 #layout-main div.chartag-list
 {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
+	display: block;
 	text-align: justify;
 	line-height: 1;
 	padding-right: 10em;
@@ -261,6 +250,18 @@
 	white-space: nowrap;
 	padding-left: 0.4em;
 	padding-right: 0.4em;
+}
+
+@supports (flex-wrap: wrap) {
+	#layout-main div.chartag-list {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	#layout-main div.chartag-list span.tag {
+		display: inline;
+	}
 }
 
 #layout-main div.chartag-list span.tag span.text
