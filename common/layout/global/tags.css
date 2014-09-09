@@ -234,6 +234,16 @@
 	content: ":";
 }
 
+@support not(flex-wrap) {
+	#layout-main #chartags > div {
+		display: block;
+	}
+
+	#layout-main #chartags > div span.tag {
+		display: inline-block;
+	}
+}
+
 #layout-main div.chartag-list
 {
 	display: flex;
