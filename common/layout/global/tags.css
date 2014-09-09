@@ -246,6 +246,7 @@
 
 #layout-main div.chartag-list span.tag
 {
+	display: inline-block;
 	line-height:25px;
 	white-space: nowrap;
 	padding-left: 0.4em;
