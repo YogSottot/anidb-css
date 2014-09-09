@@ -66,7 +66,7 @@ experimental colour highlight of mylist entries based on mylist state, on all an
 #layout-main div.animelist_all table tr.mylist,
 #layout-main div.group_released table tr.mylist,
 #layout-main table.animelist tr.mylist,
-#layout-main table.wishlist tbody tr,
+/* #layout-main table.wishlist tbody tr, */
 #layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow)
@@ -84,7 +84,7 @@ background-color: #D6B8B8;
 #layout-main div.animelist_all table tr.g_odd.mylist,
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
-#layout-main table.wishlist tbody tr.g_odd,
+/* #layout-main table.wishlist tbody tr.g_odd, */
 #layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
 #layout-main div.mylist_all tr.g_odd[id^="a"]:not(.epsrow)
 {
