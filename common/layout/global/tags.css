@@ -197,7 +197,7 @@
 	text-align: center;
 }
 
-#layout-main #animetags.multi {
+#layout-main div.tag-column {
 	-moz-column-width: 235px;
 	-webkit-column-width: 235px;
 	column-width: 235px;
@@ -206,15 +206,15 @@
 	column-gap:1em;
 }
 
-#layout-main #animetags.multi div.tag {
+#layout-main div.tag-column div.tag {
 	min-height: 16px;
 }
 
-#layout-main #animetags.multi .tag-block + .tag-block {
+#layout-main div.tag-column .tag-block + .tag-block {
 	margin-top:16px;
 }
 
-#layout-main #animetags.multi .tag-block {
+#layout-main div.tag-column .tag-block {
 	-webkit-page-break-inside: avoid;
 	-moz-page-break-inside: avoid;
 	page-break-inside: avoid;
