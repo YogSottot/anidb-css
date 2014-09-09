@@ -197,24 +197,24 @@
 	text-align: center;
 }
 
-#layout-main div.tag-column {
-	-moz-column-width: 225px;
-	-webkit-column-width: 225px;
-	column-width: 225px;
+#layout-main #animetags.multi {
+	-moz-column-width: 235px;
+	-webkit-column-width: 235px;
+	column-width: 235px;
 	-moz-column-gap:1em;
 	-webkit-column-gap:1em;
 	column-gap:1em;
 }
 
-#layout-main div.tag-column div.tag {
+#layout-main #animetags.multi div.tag {
 	min-height: 16px;
 }
 
-#layout-main div.tag-column .tag-block + .tag-block {
+#layout-main #animetags.multi .tag-block + .tag-block {
 	margin-top:16px;
 }
 
-#layout-main div.tag-column .tag-block {
+#layout-main #animetags.multi .tag-block {
 	-webkit-page-break-inside: avoid;
 	-moz-page-break-inside: avoid;
 	page-break-inside: avoid;
