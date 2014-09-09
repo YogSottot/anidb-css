@@ -69,6 +69,8 @@
 {
 	padding:0;
 	margin: 0;
+	display: inline-table;
+	vertical-align: top;
 }
 
 #layout-main div.tag_all div.tag-column div.tag span.weight {
