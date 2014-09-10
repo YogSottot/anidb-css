@@ -154,9 +154,15 @@
 	justify-content: center;
 }
 
+#layout-main div.addtagentityrel_all div.tag-column {
+    display: block;
+}
+
 #layout-main div.tag-column
 {
 	padding: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 #layout-main div.tag-column div.tag
@@ -197,11 +203,6 @@
 #layout-main div.tag-column h5
 {
 	text-align: center;
-}
-
-#layout-main div.tag-column {
-    display: flex;
-    justify-content: center;
 }
 
 #layout-main div.tag-column div.tag {
