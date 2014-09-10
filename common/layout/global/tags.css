@@ -175,6 +175,8 @@
 {
 	flex-grow: 1;
 	text-align: left;
+	align-items: center;
+    display: flex;
 }
 
 #layout-main div.tag-column div.tag span.weight {
