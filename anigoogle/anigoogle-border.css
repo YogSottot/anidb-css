@@ -229,8 +229,6 @@ a.tooltip span.text:before
 	border-width:1px;
 }
 
-#layout-main div.tag-column {
-	-moz-column-rule: 1px dotted #97aacc;
-	-webkit-column-rule: 1px dotted #97aacc;
-	column-rule: 1px dotted #97aacc;
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 1px dotted #97aacc;
 }
