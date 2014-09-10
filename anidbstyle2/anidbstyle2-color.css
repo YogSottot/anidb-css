@@ -361,7 +361,8 @@ select,
 #layout-tabs ul.main-tabs li,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-menu li.sub-menu ul li#user-xpass input,
-#layout-menu li.sub-menu ul li#user-xname input
+#layout-menu li.sub-menu ul li#user-xname input,
+#layout-main div.tag-column .tag-block + .tag-block
 {
 	border-color: #9A9A9A;
 }
@@ -494,10 +495,4 @@ a.tooltip span.text:before
 {
 	border-color: rgba(154, 154, 154, 0);
 	border-bottom-color: #9a9a9a;
-}
-
-#layout-main div.tag-column {
-	-moz-column-rule-color: #9a9a9a;
-	-webkit-column-rule-color: #9a9a9a;
-	column-rule-color: #9a9a9a;
 }
