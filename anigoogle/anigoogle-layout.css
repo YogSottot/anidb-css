@@ -199,8 +199,6 @@ input[type="password"],
 #layout-tabs ul
 {
 	display: block;
-	margin-bottom: .5em;
-	margin-top: .5em;
 	text-align: right;
 }
 
