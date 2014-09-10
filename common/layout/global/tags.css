@@ -199,7 +199,7 @@
 
 #layout-main div.tag-column {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #layout-main div.tag-column div.tag {
