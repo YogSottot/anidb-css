@@ -479,3 +479,7 @@ a.tooltip span.text
 #layout-main div.tag-column div.tag span.indent {
 	font-style: normal;
 }
+
+#layout-main #chartags a.tooltip span.cnt {
+    font-size: 10px;
+}
