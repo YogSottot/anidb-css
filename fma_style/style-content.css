@@ -68,7 +68,9 @@ content: ".";
 /*changed*/
 .g_content ul.g_list.jump li a,
 .g_content ul.g_list.jump li a:link,
-.g_content ul.g_list.jump li a:visited {
+.g_content ul.g_list.jump li a:visited,
+button,
+input[type="submit"] {
 	text-decoration: none;
 	color: #000000;
 	padding: 0.2em 0.3em;
@@ -89,23 +91,25 @@ content: ".";
 	border-left-color: #CCCCCC;
 }
 
+button:hover,
+input[type="submit"]:hover,
 .g_content ul.g_list.jump li a:hover,
 .g_content ul.g_list.jump li a:active {
 	color: #A03439;
 	border: 1px solid #CCCCCC;
-        background:none;
+	background-color: #FFFFFF;
 }
 /* changed */
 .g_list li.prev {
 	float: left;
 	font-weight: normal;
-        background:none;
+	background:none;
 }
 /* changed */
 .g_list li.next {
 	float: right;
 	font-weight: normal;
-        background:none;
+	background:none;
 }
 /* to remove */
 .g_list li.all:before {
