@@ -68,9 +68,7 @@ content: ".";
 /*changed*/
 .g_content ul.g_list.jump li a,
 .g_content ul.g_list.jump li a:link,
-.g_content ul.g_list.jump li a:visited,
-button,
-input[type="submit"] {
+.g_content ul.g_list.jump li a:visited {
 	text-decoration: none;
 	color: #000000;
 	padding: 0.2em 0.3em;
@@ -91,8 +89,6 @@ input[type="submit"] {
 	border-left-color: #CCCCCC;
 }
 
-button:hover,
-input[type="submit"]:hover,
 .g_content ul.g_list.jump li a:hover,
 .g_content ul.g_list.jump li a:active {
 	color: #A03439;
@@ -156,15 +152,17 @@ color: #B14C7C;
 }
 
 /* form input buttons */
-input[type="submit"], input[type="button"] {
+input[type="submit"],
+button {
 	border: 1px solid #234470;
 	color: #fff;
 	background-color: #305C97;
 	cursor: pointer;
 }
 
-input[type="submit"]:hover, input[type="button"]:hover {
-background-color: #234470;
+input[type="submit"]:hover,
+button:hover {
+	background-color: #234470;
 }
 
 /* informational boxes */
