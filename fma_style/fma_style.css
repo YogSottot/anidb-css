@@ -313,8 +313,8 @@ div.main_all div.news h4 {
 }
 
 /** TABS **/
-#layout-tabs ul.main-tabs li
-{
+#layout-tabs ul.main-tabs li,
+#layout-main div.tabbed_pane ul.tabs {
 	border: 1px solid;
 	border-color:#E4E4E4 #D5CCCC #D5CCCC #E4E4E4;
 }
@@ -326,21 +326,18 @@ div.main_all div.news h4 {
 div.pagination span a:hover,
 div.pagination span strong,
 #layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
+#layout-main div.tabbed_pane ul.tabs li.selected {
 	background-color:#F5F7FF;
 	color:#2B5288;
 }
 
 #layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
+#layout-main div.tabbed_pane ul.tabs li.selected {
 	border-bottom-color: #F5F7FF;
 }
 
 #layout-tabs ul.main-tabs li:hover,
-#layout-tabs ul.main-tabs li.selected
-{
+#layout-tabs ul.main-tabs li.selected {
 	color:#2B5288;
 	background-color:#F5F5F5;
 	border-bottom:2px double #F5F5F5;
@@ -348,8 +345,7 @@ div.pagination span strong,
 
 div.pagination span a,
 #layout-tabs ul.main-tabs li,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li {
 	color:#FFFFFF;
 	background-color:#305C97;
 }
