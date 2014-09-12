@@ -38,13 +38,14 @@ tr.header > th {
 	float:left;
 	margin:0;
 	padding:4px;
-	width:200px;
+	width:400px;
 }
 
 #layout-search input.submit
 {
 	margin:0;
 	width:100px;
+	padding: 3px;
 }
 
 #layout-main > h1
@@ -91,7 +92,7 @@ tr.header > th {
 #layout-search div.search
 {
 	margin-left:auto;
-	padding-top:1.2em;
+	padding-top:1em;
 }
 
 #layout-search div.search form
