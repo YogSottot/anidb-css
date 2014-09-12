@@ -75,7 +75,7 @@
 	display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 	#layout-main div.main_all div.datablocks > div {
     		max-width: unset;
 	}
