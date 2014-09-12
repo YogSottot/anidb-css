@@ -75,6 +75,12 @@
 	display: none;
 }
 
+@media screen and (max-width: 900px) {
+	#layout-main div.main_all div.datablocks > div {
+    		max-width: unset;
+	}
+}
+
 @media screen and (min-width: 1350px) {
 	#layout-main div.main_all div.datablocks > div {
     		max-width: calc(33% - 5px);
