@@ -1,6 +1,14 @@
+tr.header > th {
+    padding: 4px 2px;
+}
+
+#layout-content {
+	margin-top: 1em;
+}
+
 #layout-tabs + #layout-main
 {
-	margin-top:-2.4em;
+	margin-top:-2.6em;
 }
 
 #layout-main
@@ -35,7 +43,6 @@
 
 #layout-search input.submit
 {
-	float:right;
 	margin:0;
 	width:100px;
 }
@@ -84,18 +91,14 @@
 #layout-search div.search
 {
 	margin-left:auto;
-	margin-right:auto;
-	padding-top:0.5em;
-	padding-bottom:0.5em;
-	width:75%;
+	padding-top:1.2em;
 }
 
 #layout-search div.search form
 {
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: 14em;
 	text-align:left;
-	width:46.5em;
+	padding: 3px;
 }
 
 #layout-nav
@@ -111,16 +114,14 @@
 
 #layout-search select
 {
-	padding:4px 4px 3px;
-	margin-left: 0.5em;
+	padding:4px;
 }
 
 #layout-tabs
 {
 	display:block;
-	margin-top:1em;
 	position:relative;
-	margin-right:2em;
+	margin: 0 2em 0 0;
 }
 
 #layout-tabs ul li
