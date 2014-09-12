@@ -3,6 +3,8 @@
 @import "../common/layout/common.css";
 @import "../common/layout/global/all.css";
 @import "../common/layout/page/all.css";
+@import "../common/libs/all.css";
+@import "../common/libs/chosen/style-grey.css"
 @import "../common/style/text/default.css";
 @import "../common/style/content/page-anime.css";
 @import "../common/style/content/page-main.css";

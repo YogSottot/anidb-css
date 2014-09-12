@@ -7,6 +7,8 @@
 @import "../common/layout/global/editdata.css";
 @import "../common/layout/global/bubble.css";
 @import "../common/layout/global/timeline.css";
+@import "../common/libs/all.css";
+@import "../common/libs/chosen/style-grey.css"
 @import "quicksearch.css";
 @import "../grey_r2/formatting.css";
 @import "icons.css";

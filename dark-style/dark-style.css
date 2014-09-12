@@ -11,6 +11,8 @@
 @import "../common/style/text/default.css";
 @import "../common/style/content/page-anime.css";
 @import "../common/style/content/page-main.css";
+@import "../common/libs/all.css";
+@import "../common/libs/chosen/style-grey.css"
 @import "../icons/all.css";
 @import "../icons/comment-grey.css";
 
