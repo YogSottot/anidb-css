@@ -255,22 +255,10 @@ div.pagination span a
 	margin-right:20.5em;
 }
 
-#layout-main div.main_all div.datablocks
-{
-	-moz-column-width:20em;
-	-webkit-column-width:20em;
-	column-width:24em;
-}
-
 #layout-main div.main_all div.datablocks div.stripe
 {
 	width:100%;
 	height: auto;
-}
-
-#layout-main div.main_all div.datablocks div.hidden
-{
-	display:inline-block;
 }
 
 #layout-main div.main_all div.datablocks h4,
