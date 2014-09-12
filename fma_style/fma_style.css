@@ -528,3 +528,8 @@ div.pagination span strong,
 #layout-main div.profile_all div.pane.general div.body div.pane div ul li {
     line-height: unset;
 }
+
+
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 1px dotted #d3d7e2;
+}
