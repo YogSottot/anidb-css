@@ -658,6 +658,9 @@ border: 2px solid white }
 #layout-main div#tabbed_pane table tr.header th {
 background-color: white }
 
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 2px dotted #eeeeee;
+}
 
 	/* Epbar colors */
 	
@@ -952,6 +955,41 @@ background-color: #DFF5D0 }
 border: 1px solid #d3d3d3;
 padding: 3px;
 background-color: white }
+
+/*tooltips*/
+a.tooltip {
+	outline:none;
+}
+
+a.tooltip span.text:after,
+a.tooltip span.text:before {
+	border: solid transparent;
+}
+
+a.tooltip span.text:after {
+	border-width: 10px;
+}
+a.tooltip span.text:before {
+	border-width: 13px;
+}
+
+a.tooltip span.text:after {
+	border-color: rgba(249, 249, 249, 0);
+	border-bottom-color: #f9f9f9;
+}
+
+a.tooltip span.text:before {
+	border-color: rgba(238, 238, 238, 0);
+	border-bottom-color: #eeeeee;
+}
+
+a.tooltip span.text {
+	-moz-box-shadow: 0px 0px 8px 4px #666;
+	-webkit-box-shadow: 0px 0px 8px 4px #666;
+	box-shadow: 0px 0px 8px 4px #666;
+	opacity: 0.9;
+	color: #000000;
+}
 
 
 /* Forum */
