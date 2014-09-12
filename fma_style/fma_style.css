@@ -333,7 +333,7 @@ div.pagination span strong,
 
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected {
-	border-bottom: #E4E4E4 #D5CCCC #D5CCCC #E4E4E4;
+	border-color: #e4e4e4 #d5cccc #f5f7ff #e4e4e4;
 }
 
 #layout-tabs ul.main-tabs li:hover,
@@ -520,4 +520,11 @@ div.pagination span strong,
 #layout-main div.votes_all div.graph div.bar.my div.colored
 {
 	background-color:#CD9D29;
+}
+
+/*profile page - unsetting value from common*/
+#layout-main div.profile_all div.pane div.settings.block li,
+#layout-main div.profile_all div.pane > ul li,
+#layout-main div.profile_all div.pane.general div.body div.pane div ul li {
+    line-height: unset;
 }
