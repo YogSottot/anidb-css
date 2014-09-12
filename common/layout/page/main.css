@@ -33,19 +33,17 @@
 	margin-bottom:1em;
 }
 
-#layout-main div.main_all div.datablocks
-{
-	-moz-column-count:2;
-	-webkit-column-count:2;
-	-ms-column-count:2;
-	column-count:2;
-	text-align:center;
+#layout-main div.main_all div.datablocks {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
 }
 
 #layout-main div.main_all div.datablocks > div
 {
 	width:100%;
-	max-width: 400px; /*hack to get ie and opera in line as they lack multi column support atm*/
+	max-width: 400px;
+	padding: 0 4px;
 }
 
 #layout-main div.main_all div.datablocks > div.account
@@ -69,6 +67,36 @@
 #layout-main div.main_all div.header h4
 {
 	margin-bottom:0.2em;
+}
+
+#layout-main div.main_all div.latestnews div.hidden,
+#layout-main div.main_all div.datablocks div.hidden
+{
+	display: none;
+}
+
+@media screen and (min-width: 1580px) {
+	#layout-main div.main_all div.datablocks {
+		flex-wrap: nowrap;
+	}
+
+	#layout-main div.main_all div.datablocks > div {
+    		max-width: unset;
+	}
+
+	#layout-main div.main_all div.latestnews div.hidden,
+	#layout-main div.main_all div.datablocks div.hidden {
+		display: inline-block;
+	}
+}
+
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4
+{
+	border: 1px solid;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
 }
 
 #layout-main div.main_all div.header div.account ul.tabs
@@ -191,49 +219,6 @@
 #layout-main div.main_all div.header div.about div.content > span
 {
 	display:block;
-}
-
-#layout-main div.main_all div.latestnews div.hidden,
-#layout-main div.main_all div.datablocks div.hidden
-{
-	display: none;
-}
-
-@media screen and (max-width: 900px)
-{
-	#layout-main div.main_all div.datablocks
-	{
-		-moz-column-count: 1;
-		-webkit-column-count: 1;
-		-ms-column-count:1;
-		column-count: 1;
-	}
-}
-
-@media screen and (min-width: 1580px)
-{
-	#layout-main div.main_all div.datablocks
-	{
-		-moz-column-count: 4;
-		-webkit-column-count: 4;
-		-ms-column-count:4;
-		column-count: 4;
-	}
-
-	#layout-main div.main_all div.latestnews div.hidden,
-	#layout-main div.main_all div.datablocks div.hidden
-	{
-		display: inline-block;
-	}
-}
-
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
-{
-	border: 1px solid;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
 }
 
 #layout-main div.main_all div.header div.account ul.tabs li
