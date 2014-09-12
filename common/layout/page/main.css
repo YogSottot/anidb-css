@@ -36,13 +36,13 @@
 #layout-main div.main_all div.datablocks {
 	display: flex;
 	flex-wrap: wrap;
-	text-align: center;
+	justify-content: center;
 }
 
-#layout-main div.main_all div.datablocks > div
-{
+#layout-main div.main_all div.datablocks > div {
 	width:100%;
 	max-width: 400px;
+	max-width: calc(50% - 8px);
 	padding: 0 4px;
 }
 
@@ -73,6 +73,12 @@
 #layout-main div.main_all div.datablocks div.hidden
 {
 	display: none;
+}
+
+@media screen and (min-width: 1350px) {
+	#layout-main div.main_all div.datablocks > div {
+    		max-width: calc(33% - 5px);
+	}
 }
 
 @media screen and (min-width: 1580px) {
