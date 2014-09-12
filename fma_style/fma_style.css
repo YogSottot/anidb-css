@@ -315,7 +315,8 @@ div.main_all div.news h4 {
 /** TABS **/
 #layout-tabs ul.main-tabs li
 {
-	border:1px solid #565AB9;
+	border: 1px solid;
+	border-color: #565AB9;
 }
 
 #layout-main div.tabbed_pane div.body div.* {
