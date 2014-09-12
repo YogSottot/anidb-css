@@ -316,7 +316,7 @@ div.main_all div.news h4 {
 #layout-tabs ul.main-tabs li
 {
 	border: 1px solid;
-	border-color: #565AB9;
+	border-color:#E4E4E4 #D5CCCC #D5CCCC #E4E4E4;
 }
 
 #layout-main div.tabbed_pane div.body div.* {
@@ -335,9 +335,7 @@ div.pagination span strong,
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected
 {
-	border: 1px solid;
-	border-color:#E4E4E4 #D5CCCC #D5CCCC #E4E4E4;
-	border-bottom:2px double #F5F7FF;
+	border-bottom-color: #F5F7FF;
 }
 
 #layout-tabs ul.main-tabs li:hover,
