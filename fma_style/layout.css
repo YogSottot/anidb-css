@@ -238,7 +238,7 @@ background: transparent url(images/buttons/help-static-red.png) no-repeat 0.7em 
 	top: 0;
 	right: 1em;
 	left: auto;
-	width: 37em;
+	width: 40em;
 	margin-top: 112px;
 	padding: 0;
 }
@@ -252,9 +252,9 @@ background: transparent url(images/buttons/help-static-red.png) no-repeat 0.7em 
 /* search - form */
 #layout-search input.text
 {
-	padding:0.1em 0.3em;
+	padding: 4px;
 	height: 1.5em;
-	width: 16em;
+	width: 25em;
 }
 
 #layout-search select,
@@ -270,9 +270,13 @@ background: transparent url(images/buttons/help-static-red.png) no-repeat 0.7em 
 	border: 1px solid #565AB9;
 }
 
+#layout-search select {
+	height: 20px;
+	padding: 3px;
+}
+
 #layout-search input.submit {
-	height: 1.8em;
-	padding-bottom: 0.2em;
+	height: 2.3em;
 	width: 4.5em;
 }
 
@@ -379,4 +383,8 @@ div.pagination span strong,
 div.pagination span a
 {
 	padding: 1px 4px;
+}
+
+div .filter_menu span.actions input[type="submit"] {
+	margin: 0.2em;
 }
