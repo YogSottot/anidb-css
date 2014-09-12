@@ -2,6 +2,10 @@ tr.header > th {
     padding: 4px 2px;
 }
 
+input, select {
+    padding: 4px 6px;
+}
+
 #layout-content {
 	margin-top: 1em;
 }
