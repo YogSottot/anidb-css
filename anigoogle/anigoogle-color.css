@@ -307,11 +307,6 @@ button[type="submit"],
 	box-shadow: 0 1px 2px #C9D7F1 inset;
 }
 
-#layout-search ul.quicksearch
-{
-	border-color: #C9D7F1;
-}
-
 a.tooltip span.text:after
 {
 	border-color: rgba(236, 244, 253, 0);

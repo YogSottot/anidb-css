@@ -1,5 +1,11 @@
-table
+input[type="submit"],
+button[type="submit"]
 {
+	border-style: solid;
+	border-width: 1px;
+}
+
+table {
 	border-collapse: separate;
 	border-top: 1px solid;
 }
@@ -165,58 +171,46 @@ a
 	border: none;
 }
 
-#layout-search div.g_bubble.search
-{
+#layout-search div.g_bubble.search {
 	background-color: transparent;
 	border:none;
 }
 
-#layout-search input.text
-{
+#layout-search input.text {
 	-moz-border-radius: 5px 0 0 5px;
 	-webkit-border-radius: 5px 0 0 5px;
 	border-radius: 5px 0 0 5px;
 }
 
-#layout-search select
-{
+#layout-search select {
 	-moz-border-radius: 0 5px 5px 0;
 	-webkit-border-radius: 0 5px 5px 0;
 	border-radius: 0 5px 5px 0;
 }
 
-input[type="submit"],
-button[type="submit"]
-{
-	border-style: solid;
-	border-width: 1px;
+
+#layout-search div.results_available input.text {
+	border-radius: 5px 0 0;
 }
 
-#layout-search ul.quicksearch
-{
-	-moz-border-radius: 0 0 4px 4px;
-	-webkit-border-radius: 0 0 4px 4px;
-	border-radius: 0 0 4px 4px;
+#layout-search div.results_available select {
+    border-radius: 0 5px 0 0;
 }
 
 /*tooltip border*/
-a.tooltip
-{
+a.tooltip {
 	outline:none;
 }
 
 a.tooltip span.text:after,
-a.tooltip span.text:before
-{
+a.tooltip span.text:before {
 	border: solid transparent;
 }
 
-a.tooltip span.text:after
-{
+a.tooltip span.text:after {
 	border-width: 10px;
 }
-a.tooltip span.text:before
-{
+a.tooltip span.text:before {
 	border-width: 13px;
 }
 
