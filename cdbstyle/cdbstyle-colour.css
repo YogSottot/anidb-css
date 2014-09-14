@@ -2,6 +2,7 @@
 list alternating green colour odd (tone change)
 */
 #layout-main td.g_odd ins,
+#layout-main tr.g_odd td.mylist,
 #layout-main table.filelist tr.g_odd.good,
 #layout-main div.myvotes_all table tr.g_odd td.high,
 #layout-main div.producer_all table tr.g_odd.mylist,
@@ -25,6 +26,7 @@ background-color: #85D485;
 list alternating green colour even (tone change)
 */
 #layout-main td ins,
+#layout-main tr td.mylist,
 #layout-main input.include,
 #layout-main table.filelist tr.good,
 #layout-main div.myvotes_all table tr td.high,
@@ -99,6 +101,7 @@ background-color: #CFD1D4;
 #layout-main .mylist.stalled,
 #layout-main .mylist.watching,
 #layout-main .mylist.dropped,
+#layout-main .mylist.collecting,
 #layout-main table.animelist .complete,
 #layout-main table.animelist .stalled,
 #layout-main table.animelist .watching,
@@ -114,6 +117,7 @@ background-color: #71D8DE !important;
 #layout-main .mylist.g_odd.stalled,
 #layout-main .mylist.g_odd.watching,
 #layout-main .mylist.g_odd.dropped,
+#layout-main .mylist.g_odd.collecting,
 #layout-main table.animelist .g_odd.complete,
 #layout-main table.animelist .g_odd.stalled,
 #layout-main table.animelist .g_odd.watching,
