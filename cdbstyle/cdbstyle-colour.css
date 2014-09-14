@@ -2,6 +2,7 @@
 list alternating green colour odd (tone change)
 */
 #layout-main td.g_odd ins,
+#layout-main tr.g_odd td.mylist,
 #layout-main table.filelist tr.g_odd.good,
 #layout-main div.myvotes_all table tr.g_odd td.high,
 #layout-main div.producer_all table tr.g_odd.mylist,
@@ -25,6 +26,7 @@ background-color: #85D485;
 list alternating green colour even (tone change)
 */
 #layout-main td ins,
+#layout-main tr td.mylist,
 #layout-main input.include,
 #layout-main table.filelist tr.good,
 #layout-main div.myvotes_all table tr td.high,
