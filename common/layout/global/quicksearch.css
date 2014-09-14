@@ -1,9 +1,12 @@
 #layout-search ul.quicksearch
 {
 	margin:0; 
+	max-height: 100px;
 	padding:0;
 	overflow:auto;
+	position: relative;
 	list-style-type:none;
+	width: calc(100% - 86px);
 	z-index: 10;
 }
 
@@ -19,23 +22,6 @@
 	margin: 0 0 0 4px;
 	position: absolute;
 	width: 375px;
-}
-
-#layout-search ul.quicksearch img
-{
-	float:left;
-	margin-left: 3px;
-	margin-right: 5px;
-}
-
-#layout-search ul.quicksearch li
-{
-	clear: left;
-}
-
-#layout-search ul.quicksearch li.image
-{
-	height: 65px;
 }
 
 #layout-search ul.quicksearch li:last-child

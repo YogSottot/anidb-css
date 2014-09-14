@@ -350,11 +350,6 @@ div.pagination span a
 	background-color: white;
 	margin-top: -1px;
 	width: 365px;
-	border-bottom: 1px solid #D5CCCC;
-	border-left: 1px solid #E4E4E4;
-	border-right: 1px solid #D5CCCC;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
 }
 
 #layout-search ul.quicksearch li {
