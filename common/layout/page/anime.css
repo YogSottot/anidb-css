@@ -133,27 +133,37 @@
 	min-width: 5em;
 }
 
+#layout-main div.anime_all div.tabbed_pane {
+	margin: 0.25em;
+}
+
 #layout-main div.anime_all div.info div.caststaff
 {
-	margin-top: 0.5em;
 	display: flex;
-	align-items: stretch;
+}
+
+@media screen and (max-width: 1200px) {
+	#layout-main div.anime_all div.info div.caststaff
+	{
+		flex-wrap: wrap;
+	}
 }
 
 #layout-main div.anime_all div.info div.caststaff > div
 {
+	margin: 0.25em;
 	padding: 4px;
 	width: 100%;
-}
-
-#layout-main div.anime_all div.info div.caststaff div.cast + div.staff
-{
-	margin-left: 0.5em;
 }
 
 #layout-main div.anime_all div.info div.caststaff div.staff
 {
 	order: 1;
+}
+
+#layout-main div.anime_all div.info div.caststaff div.cast
+{
+	order: 2;
 }
 
 #layout-main div.anime_all div.info div.caststaff div h4,
@@ -169,13 +179,12 @@
 
 #layout-main div.anime_all div.info div.caststaff div td
 {
-	padding: 0.2em 0.5em 0.2em 0;
+	padding: 0.2em 0.5em;
 }
 
 #layout-main div.anime_all div.info div.caststaff div.staff td.creator,
 #layout-main div.anime_all div.info div.caststaff div.cast td.char
 {
-	padding-right: 0;
 	width:100%;
 }
 
