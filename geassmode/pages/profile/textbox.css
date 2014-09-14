@@ -2,3 +2,9 @@
 	font-family:Bitstream Vera Sans Mono, Courier New, monospace;
 	font-size:0.9em;
 }
+
+#layout-main div.profile_all div.pane div.settings.block li,
+#layout-main div.profile_all div.pane > ul li,
+#layout-main div.profile_all div.pane.general div.body div.pane div ul li {
+	line-height: 18px;
+}

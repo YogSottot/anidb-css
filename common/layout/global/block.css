@@ -7,15 +7,16 @@
 }
 #layout-main div.block > div.image
 {
-	min-width: 40em;
+	min-width: 400px;
 	text-align: center;
 	margin-right: 1em;
 	margin-left: 1.5em;
+	align-self: center;
 }
 #layout-main div.block > div.data
 {
 	margin-right: 1em;
-	min-width: 40em;
+	min-width: 400px;
 	width: 50%;
 }
 #layout-main .css_style + p
