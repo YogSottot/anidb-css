@@ -27,7 +27,8 @@ table
 input[type="text"],
 select,
 textarea {
-	border:1px solid #666666;
+	border:1px solid;
+	border-color:#666666 #444444 #444444 #666666;
 }
 
 #layout-search form input.submit {
