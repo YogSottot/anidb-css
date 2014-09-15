@@ -1,32 +1,8 @@
 /*
-list alternating green colour odd (tone change)
-*/
-#layout-main td.g_odd ins,
-#layout-main tr.g_odd td.mylist,
-#layout-main table.filelist tr.g_odd.good,
-#layout-main div.myvotes_all table tr.g_odd td.high,
-#layout-main div.producer_all table tr.g_odd.mylist,
-#layout-main div.latest2_all table tr.g_odd.mylist,
-#layout-main div.latest2_all table tr.g_odd td.mylist,
-#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.animelist_all table tr.g_odd.mylist,
-#layout-main div.group_released table tr.g_odd.mylist,
-#layout-main table.animelist tr.g_odd.mylist,
-#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a
-{
-background-color: #85D485;
-}
-
-/*
 list alternating green colour even (tone change)
 */
+#layout-main .identical,
 #layout-main td ins,
-#layout-main tr td.mylist,
 #layout-main input.include,
 #layout-main table.filelist tr.good,
 #layout-main div.myvotes_all table tr td.high,
@@ -48,9 +24,36 @@ list alternating green colour even (tone change)
 #layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,
 #layout-main div.timeline_all div.timeline ul.row li.completed a,
-#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist, .g_bubble.stripe.mylist, .g_bubble.box.mylist > div.top main div.timeline_all div.timeline ul.row.g_odd li.completed a
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
+#layout-main tr td.mylist:not(.unknown),
+.g_bubble.stripe.mylist,
+.g_bubble.box.mylist > div.top
 {
 background-color: #B8E3B8;
+}
+
+/*
+list alternating green colour odd (tone change)
+*/
+#layout-main td.g_odd ins,
+#layout-main table.filelist tr.g_odd.good,
+#layout-main div.myvotes_all table tr.g_odd td.high,
+#layout-main div.producer_all table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd td.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.animelist_all table tr.g_odd.mylist,
+#layout-main div.group_released table tr.g_odd.mylist,
+#layout-main table.animelist tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
+#layout-main tr.g_odd td.mylist:not(.unknown)
+{
+background-color: #85D485;
 }
 
 /*
