@@ -286,8 +286,8 @@ ul#menu-account
 
 #layout-content
 {
-	border-left:1px solid #fff;
-	border-right:1px solid #fff;
+	border-left:1px solid #A9A9A9;
+	border-right:1px solid #A9A9A9;
 	margin:0 auto;
 	overflow:hidden;
 	width:955px;
@@ -303,7 +303,7 @@ body.nonav div#layout-content
 
 .g_content
 {
-	margin:20px;
+	margin: 0.5em;
 }
 
 .g_section
@@ -534,13 +534,6 @@ div.g_menu ul.state span.i_icon
 #layout-main div.block > div.image
 {
 	text-align:center;
-}
-
-div.anime_all div.desc
-{
-	float:right;
-	text-align:justify;
-	width:98%;
 }
 
 div.anime_all div.awards
@@ -927,8 +920,8 @@ div.genren_all li span
 
 #layout-footer
 {
-	border-left:1px solid #fff;
-	border-right:1px solid #fff;
+	border-left:1px solid #A9A9A9;
+	border-right:1px solid #A9A9A9;
 	color:#666;
 	margin:0 auto;
 	overflow:auto;
@@ -1970,7 +1963,7 @@ div.anime_all div.image
 #layout-main div.tabbed_pane div.body,
 #layout-main div.tabbed_pane ul.tabs li
 {
-	border: 1px solid #FFFFFF;
+	border: 1px solid #A9A9A9;
 }
 
 #layout-main div.tabbed_pane ul.tabs li.selected
@@ -2238,4 +2231,15 @@ vertical-align: middle;
 
 #layout-main div.main_all div.datablocks div.stripe {
 	max-width:350px;
+}
+
+#layout-main div.anime_all div.info div.caststaff div.cast td.creator,
+#layout-main div.anime_all div.info div.caststaff div.staff td.credit {
+    min-width: unset;
+    white-space: wrap;
+}
+
+#layout-main div.block > div.data {
+	margin-right: unset;
+	width: 100%;
 }
