@@ -47,13 +47,13 @@ body > #layout-content
 }
 
 #menu-support {
-	margin-top: 11em;
+	margin-top: 8em;
 }
 
 #menu-account
 {
 	position: absolute;
-	top: 567px;
+	top: 570px;
 	left: 17px;
 	line-height: 1.2;
 }
@@ -74,6 +74,7 @@ body > #layout-content
 {
 	padding: 0;
 	text-indent: 0;
+	line-height: 12.5px;
 }
 
 #layout-menu li.mymessages, #layout-menu li.mynotifies, #layout-menu li.mywishlist,
@@ -192,7 +193,7 @@ body > #layout-content
 	cursor: pointer;
 	float: none;
 	position: relative;
-	left:210px;
+	left:185px;
 	top:30px;
 }
 
