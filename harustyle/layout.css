@@ -8,6 +8,13 @@ body.nonav
 	background: #BFC2C9;
 }
 
+select,
+input[type="text"],
+textarea
+{
+	padding: 4px;
+}
+
 #layout-content
 {
 	margin-left: 182px;
@@ -39,10 +46,14 @@ body > #layout-content
 	text-align: center;
 }
 
+#menu-support {
+	margin-top: 11em;
+}
+
 #menu-account
 {
 	position: absolute;
-	top: 510px;
+	top: 567px;
 	left: 17px;
 	line-height: 1.2;
 }
@@ -134,7 +145,8 @@ body > #layout-content
 {
 	display: block;
 	float: right;
-	margin:26px 5px 0 0;
+	margin:27px 72px 0 0;
+	padding: 0;
 }
 
 #layout-search div.search form
@@ -162,10 +174,11 @@ body > #layout-content
 	color: #ffffff;
 	background-color: #272D43;
 	border: #BFC2C9 1px solid;
-	margin: -15px 3px 0 0;
-	width: 155px;
+	margin: -15px 0 0;
+	padding: 0 2px;
+	width: 150px;
 	top: 47px;
-	left: 15px;
+	left: 13px;
 }
 
 #layout-search form input.submit
@@ -177,11 +190,10 @@ body > #layout-content
 	height: 14px;
 	border: 0;
 	cursor: pointer;
-	margin-left: 2em;
 	float: none;
 	position: relative;
-	left:143px;
-	top:32px;
+	left:210px;
+	top:30px;
 }
 
 #layout-main div.main_all div.news p.comment
@@ -192,7 +204,7 @@ body > #layout-content
 #layout-tabs
 {
 	position: absolute;
-	right: 260px;
+	right: 335px;
 	left: 168px;
 	top: 110px;
 	display: block;
