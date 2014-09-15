@@ -28,11 +28,6 @@ html
 	height: 106px;
 }
 
-#layout-search div.search form
-{
-	background: url(../haruhistylex-v1.5/images/searchbg.png) no-repeat 0px 77px;
-}
-
 #layout-search form input.submit
 {
 	background: url(../haruhistylex-v1.5/images/button_search.gif) no-repeat top;
@@ -82,7 +77,6 @@ html
 
 #menu-support {
 	position: absolute;
-	top: 500px;
 }
 
 #menu-account {
@@ -92,8 +86,8 @@ html
 	z-index: 1;
 }
 
-#menu-mod
-{
+#menu-private li.mysignatures,
+#menu-mod {
 	display: none;
 }
 
@@ -143,3 +137,7 @@ content: "HaruhiStyleX v.1.5b from TheJAG by Benda_11 (Based on HaruStyle by b1n
 }
 
 /* e_nd f_ooter */
+
+#layout-menu {
+	padding: 137px 23px 0 28px;
+}
