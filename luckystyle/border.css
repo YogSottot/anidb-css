@@ -42,6 +42,10 @@ table
 	border:1px #e64b73 solid;
 }
 
+#layout-main div.forum div.g_bubble.threads {
+	border: 1px solid;
+}
+
 .g_bubble,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
