@@ -238,6 +238,12 @@ div
 	padding:0;
 }
 
+input[type="text"],
+select,
+textarea {
+	padding: 2px 4px;
+}
+
 #layout-content div.anime_all div.episodes tr.heading th,
 #layout-content .g_image image,
 #layout-content .g_definitionlist,
