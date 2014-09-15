@@ -125,16 +125,7 @@ html
 	background:#000000 url('images/Lucky_Menu_Pixel.gif') repeat-y left;
 }
 
-#layout-search form input.submit
-{
-	background:url('images/buttons/button_search.gif') no-repeat top;
-	height:14px;
-	width:63px;
-}
-
 #layout-search div.search form
 {
 	background:url('images/Lucky_Searchteil.gif') no-repeat 0 1px;
-	height:70px;
-	width:166px;
 }

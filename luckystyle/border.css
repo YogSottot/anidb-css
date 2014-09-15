@@ -18,9 +18,16 @@ table
 	border-top:black 2px solid;
 }
 
-#layout-search form input.text
-{
+#layout-search form input.text,
+#layout-search form select,
+#layout-search form input.submit {
 	border:#06b3fe 1px solid;
+}
+
+#layout-search form input.submit {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
 
 #layout-content div.g_msg.success
@@ -78,8 +85,7 @@ table table,
 img,
 a,
 #layout-content .g_block .g_definitionlist > table,
-#layout-content div.g_section img,
-#layout-search form input.submit
+#layout-content div.g_section img
 {
 	border:none;
 }
