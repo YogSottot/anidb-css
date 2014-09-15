@@ -15,10 +15,6 @@
 	display: none;
 }
 
-#layout-search form input.submit {
-	background: url(../harustylele/images/button_search.gif) no-repeat 50% 0%
-}
-
 #layout-menu ul {
 	margin-top: unset;
 }
