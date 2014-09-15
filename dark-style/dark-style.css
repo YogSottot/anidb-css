@@ -243,13 +243,14 @@ ul#menu-account
 {
 	margin: 0 auto;
 	top: -35px;
-	left: 60px;
+	left: 280px;
 	position: relative;
+	width:40em;
 }
 
 #layout-search form input.text
 {
-	width:150px;
+	width:250px;
 	margin-right: -4px;
 }
 
