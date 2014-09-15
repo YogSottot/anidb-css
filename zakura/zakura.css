@@ -420,8 +420,8 @@ a.tooltip span.text:after
 
 a.tooltip span.text:before
 {
-	border-color: rgba(213, 204, 204, 0);
-	border-bottom-color: #d5cccc;
+	border-color: rgba(228, 228, 228, 0);
+	border-bottom-color: #e4e4e4;
 }
 
 a.tooltip span.text
