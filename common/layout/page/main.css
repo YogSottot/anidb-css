@@ -39,11 +39,16 @@
 	justify-content: center;
 }
 
+#layout-main div.main_all div.datablocks > div,
+#layout-main div.main_all div.news.forum > div,
+#layout-main div.main_all div.header > div {
+	padding: 0 2.5px;
+}
+
 #layout-main div.main_all div.datablocks > div {
 	width:100%;
 	max-width: 400px;
 	max-width: calc(50% - 8px);
-	padding: 0 4px;
 }
 
 #layout-main div.main_all div.datablocks > div.account
