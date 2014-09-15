@@ -44,7 +44,8 @@ table
 
 .g_bubble,
 #layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
+#layout-main div.main_all div.header h4,
+#layout-main div.forum div.g_bubble.threads
 {
 	border-color:#666666 #444444 #444444 #666666;
 }
@@ -88,4 +89,50 @@ a,
 #layout-content div.g_section img
 {
 	border:none;
+}
+
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 1px dotted #666666;
+}
+
+/*tooltips*/
+a.tooltip
+{
+	outline:none;
+}
+
+a.tooltip span.text:after,
+a.tooltip span.text:before
+{
+	border: solid transparent;
+}
+
+a.tooltip span.text:after
+{
+	border-width: 10px;
+}
+a.tooltip span.text:before
+{
+	border-width: 13px;
+}
+
+a.tooltip span.text:after
+{
+	border-color: border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #000000;
+}
+
+a.tooltip span.text:before
+{
+	border-color: rgba(102, 102, 102, 0);
+	border-bottom-color: #666666;
+}
+
+a.tooltip span.text
+{
+	-moz-box-shadow: 0px 0px 8px 4px #AAAAAA;
+	-webkit-box-shadow: 0px 0px 8px 4px #AAAAAA;
+	box-shadow: 0px 0px 8px 4px #AAAAAA;
+	opacity: 0.9;
+	color: #000000;
 }

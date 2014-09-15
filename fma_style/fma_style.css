@@ -567,7 +567,6 @@ a.tooltip span.text:before
 	border-bottom-color: #e4e4e4;
 }
 
-/*tooltip base colors*/
 a.tooltip span.text
 {
 	-moz-box-shadow: 0px 0px 8px 4px #666;
