@@ -2049,6 +2049,7 @@ div.quotebody div.quoteof
 #layout-main div.forum div.g_bubble.threads
 {
 	background-color: #2a2a2a;
+	border: 1px solid #2a2a2a;
 }
 #layout-main div.forum ul.topics
 {
