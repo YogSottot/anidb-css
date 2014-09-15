@@ -68,9 +68,14 @@
 {
 	display:block;
 	float:right;
+	height:70px;
+	width:350px;
 	margin:0;
-	max-width:166px;
 	padding:70px 0 0;
+}
+
+#layout-search div.search form > div {
+	margin-left: 1.5em;
 }
 
 #layout-search div.search form p
@@ -79,22 +84,21 @@
 	padding:0;
 }
 
-#layout-search form input.text
-{
-	display:block;
-	float:right;
-	margin:27px 3px 0 0;
-	padding-right:26px;
-	width:10.3em;
+#layout-search form input.text {
+	padding: 3px 2px 2px;
+	width:150px;
 }
 
-#layout-search form input.submit
-{
-	display:block;
-	float:right;
-	margin-right:2.3em;
+#layout-search form input.submit {
+	margin-top: 3em;
 	overflow:hidden;
-	padding:14px 0 0;
+	width: 63px;
+}
+
+#layout-search form select {
+    height: 23px;
+    margin-left: -5px;
+    padding: 0;
 }
 
 #layout-content
@@ -215,8 +219,6 @@
 #layout-menu li.mycreqs,
 #user-profile a span,
 #user-logout a span,
-#layout-search form select.type,
-#layout-search select,
 #layout-search div.search form.random
 {
 	display:none;
@@ -258,7 +260,7 @@ h4,
 	margin:0;
 	position:absolute;
 	right:170px;
-	top:73px;
+	top:72px;
 }
 
 #layout-tabs ul li

@@ -37,8 +37,9 @@ body.nonav
 	background:#000000;
 }
 
-#layout-search form input.text
-{
+#layout-search form input.text,
+#layout-search form select,
+#layout-search form input.submit {
 	background-color:#000000;
 	color:#06b3fe;
 }
