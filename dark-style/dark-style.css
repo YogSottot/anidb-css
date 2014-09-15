@@ -719,7 +719,6 @@ div.main_all div.news
 	clear:none;
 	overflow:hidden;
 	text-align:justify;
-	width:700px;
 }
 
 div.main_all div.news big
@@ -2230,4 +2229,12 @@ vertical-align: middle;
 #layout-main div.votes_all div.graph div.group
 {
 	background-color:inherit;
+}
+
+#layout-main div.main_all div.datablocks {
+	flex-wrap: wrap;
+}
+
+#layout-main div.main_all div.datablocks div.stripe {
+	max-width:350px;
 }
