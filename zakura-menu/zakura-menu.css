@@ -41,6 +41,9 @@
 	padding:0;
 	position:absolute;
 	width: 144px;
+}
+
+#layout-menu li.sub-menu ul {
 	-webkit-border-radius: unset;
 	-moz-border-radius: unset;
 	border-radius: unset;
