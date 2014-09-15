@@ -1,6 +1,20 @@
 @import "../zakura/zakura.css";
-@import "layout-macro.css";
-@import "style-usermenu.css";
+
+#layout-menu li.sub-menu
+{
+	height:20px;
+}
+
+#layout-menu #menu-account li
+{
+	display:list-item;
+}
+
+#layout-menu #menu-account li a
+{
+	display:list-item;
+	height:inherit;
+}
 
 #layout-content {
 	margin-left: 0;
