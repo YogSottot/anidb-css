@@ -46,7 +46,7 @@
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,
 #layout-main div.timeline_all div.timeline ul.row li.completed a,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
-#layout-main tr td.mylist,
+#layout-main tr td.mylist:not(.unknown),
 .g_bubble.stripe.mylist,
 .g_bubble.box.mylist > div.top
 {
@@ -69,7 +69,7 @@
 #layout-main table.animelist tr.g_odd.mylist,
 #layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
-#layout-main tr.g_odd td.mylist
+#layout-main tr.g_odd td.mylist:not(.unknown)
 {
 	background-color:#9AD09A;
 }
