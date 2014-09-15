@@ -40,6 +40,10 @@
 	margin-top:20px;
 	padding:0;
 	position:absolute;
+	width: 144px;
+	-webkit-border-radius: unset;
+	-moz-border-radius: unset;
+	border-radius: unset;
 }
 
 #layout-menu > li.alert
