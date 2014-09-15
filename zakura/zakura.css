@@ -48,7 +48,8 @@
 #layout-tabs ul.main-tabs li:hover,
 #layout-tabs ul.main-tabs li.selected
 {
-	border-bottom:1px double #FFFFFF;
+	border: 1px solid #f3e7ff;
+	border-bottom: 1px double #FFFFFF;
 	background-color:#FFFFFF;
 }
 
@@ -64,13 +65,16 @@
 {
 	color:#FFFFFF;
 	background-color:#305C97;
-	border:1px solid;
-	border-color: #F3E7FF;
+	border:1px solid #305C97;
 }
 
 #layout-tabs ul.main-tabs li a
 {
 	color:#FFFFFF;
+}
+
+#layout-main div.tabbed_pane ul.tabs {
+    margin: 1px 1px 2px 6px;
 }
 
 #layout-main div.tabbed_pane ul.tabs li:hover,
@@ -99,7 +103,7 @@
 	display: block;
 	padding-left: 18px;
 	margin-top: 3em;
-	margin-bottom: -4.5em;
+	margin-bottom: -4.6em;
 }
 
 #layout-main h1
@@ -196,10 +200,9 @@ div.pagination span a
 	font-size:85%;
 }
 
-.g_bubble .g_bubble,
 .g_bubble .g_bubble
 {
-	background-color: #FAF0FF;
+	background-color: #f8f7ff;
 }
 
 .g_bubble,
@@ -386,4 +389,46 @@ div.pagination span a
 #layout-main div.votes_all div.graph div.bar.my div.colored
 {
 	background-color:#CD9D29;
+}
+
+/*tooltips*/
+a.tooltip
+{
+	outline:none;
+}
+
+a.tooltip span.text:after,
+a.tooltip span.text:before
+{
+	border: solid transparent;
+}
+
+a.tooltip span.text:after
+{
+	border-width: 10px;
+}
+a.tooltip span.text:before
+{
+	border-width: 13px;
+}
+
+a.tooltip span.text:after
+{
+	border-color: rgba(245, 247, 255, 0);
+	border-bottom-color: #f5f7ff;
+}
+
+a.tooltip span.text:before
+{
+	border-color: rgba(213, 204, 204, 0);
+	border-bottom-color: #d5cccc;
+}
+
+a.tooltip span.text
+{
+	-moz-box-shadow: 0px 0px 8px 4px #666;
+	-webkit-box-shadow: 0px 0px 8px 4px #666;
+	box-shadow: 0px 0px 8px 4px #666;
+	opacity: 0.9;
+	color: #000000;
 }
