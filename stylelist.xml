@@ -221,16 +221,6 @@
 		<screenshot>harustyle-fixed_menu/images/screenshot.png</screenshot>
 		<thumbnail>harustyle-fixed_menu/images/thumbnail.png</thumbnail>
 	</style>
-	<style name="Lain">
-		<title>Lain</title>
-		<creator>DvdKhl/Arokh</creator>
-		<update>30.07.2014</update>
-		<status>in development</status>
-		<description>Tested with FireFox, IE may work with some changes. 1280x768 Required.</description>
-		<path/>
-		<screenshot>Lain/images/screenshot.png</screenshot>
-		<thumbnail>Lain/images/thumbnail.png</thumbnail>
-	</style>
 	<style name="luckystyle">
 		<title>LuckyStyle</title>
 		<creator>Breadstone</creator>
@@ -240,29 +230,6 @@
 		<path/>
 		<screenshot>luckystyle/images/screenshot.png</screenshot>
 		<thumbnail>luckystyle/images/thumbnail.png</thumbnail>
-	</style>
-	<style name="nice-day">
-		<title>Nice Day</title>
-		<creator>epoximator</creator>
-		<update>30.07.2014</update>
-		<status>Experimental</status>
-		<description>Based on "Beautiful Day" by Kaushal Sheth (http://www.kaushalsheth.com)</description>
-		<path/>
-		<screenshot>nice-day/images/screenshot.png</screenshot>
-		<thumbnail>nice-day/images/thumbnail.png</thumbnail>
-	</style>
-	<style name="simplestyle">
-		<title>SimpleStyle</title>
-		<creator>b1nh (AniDB: binhkun)</creator>
-		<update>12.12.2007</update>
-		<status>in development</status>
-		<description>This is my newest AniDB CSS style "SimpleStyle".
-Internet Explorer not supported due to a css bug. 
-Well, what should I say ... I kept it simple and clean. If it's too bright for you, turn down your screen brightness, use sunglasses or wait for a dark version ;)
-Thanks to zak, Rar and pelican for the css help. In case you've wondered where the profile link is - it's the big P on the top right ;)</description>
-		<path/>
-		<screenshot>simplestyle/images/screenshot.png</screenshot>
-		<thumbnail>simplestyle/images/thumbnail.png</thumbnail>
 	</style>
 	<style name="sub-blue">
 		<title>sub-blue</title>
