@@ -44,6 +44,13 @@ body.nonav
 	color:#06b3fe;
 }
 
+input[type="text"],
+select,
+textarea {
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
 #layout-content div.main_all div.rightbar h4,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
@@ -215,6 +222,10 @@ input[type="submit"]
 #layout-main div.forum ul.topics dd
 {
 	border-left-color:#444444;
+}
+
+#layout-main div.cmt_entries dl.profile {
+	border-right-color:#444444;
 }
 
 #layout-content div.message table,

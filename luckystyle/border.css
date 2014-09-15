@@ -21,7 +21,13 @@ table
 #layout-search form input.text,
 #layout-search form select,
 #layout-search form input.submit {
-	border:#06b3fe 1px solid;
+	border:1px solid #06b3fe;
+}
+
+input[type="text"],
+select,
+textarea {
+	border:1px solid #666666;
 }
 
 #layout-search form input.submit {
