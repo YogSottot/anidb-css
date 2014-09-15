@@ -202,13 +202,13 @@ div.pagination span a
 
 .g_bubble .g_bubble
 {
-	background-color: #f8f7ff;
+	background-color: #FFFFFF;
 }
 
 .g_bubble,
 .g_bubble .g_bubble .g_bubble
 {
-	background-color: #FFFFFF;
+	background-color: #F5F7FF;
 }
 
 .g_bubble.stripe > div.data div.name
