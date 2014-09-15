@@ -42,7 +42,7 @@
 #layout-main div.main_all div.datablocks > div,
 #layout-main div.main_all div.news.forum > div,
 #layout-main div.main_all div.header > div {
-	padding: 0 2.5px;
+	margin: 0 2.5px;
 }
 
 #layout-main div.main_all div.datablocks > div {
