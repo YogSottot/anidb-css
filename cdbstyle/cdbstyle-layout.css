@@ -35,7 +35,7 @@ table.filelist tr.undumped td.action
 {
   visibility: visible;
   background-color: #900000;
-  color: white;
+  color: #FFFFFF;
   font-weight: bold;
 }
 table.filelist tr.undumped td.id a:hover
