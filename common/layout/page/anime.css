@@ -146,14 +146,14 @@
 	width: 100%;
 }
 
-#layout-main div.anime_all div.info div.caststaff div.cast
+#layout-main div.anime_all div.info div.caststaff div.cast + div.staff
 {
-	order: 1;
+	margin-left: 0.5em;
 }
 
 #layout-main div.anime_all div.info div.caststaff div.staff
 {
-	order: 2;
+	order: 1;
 }
 
 #layout-main div.anime_all div.info div.caststaff div h4,
