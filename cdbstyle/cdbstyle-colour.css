@@ -146,6 +146,10 @@ background-color: #85D485 !important;
 
 /*
 anime-group in my list, completion bar, from green to red (for readability)
+
+<pre style="color:#000000; background:#7EF27E">background-color: #7EF27E !important; anidb default green</pre>
+<pre style="color:#000000; background:#FF0000">background-color: #FF0000 !important; new red</pre>
+
 */
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
 #layout-main div.group_all div.group_released td.epbar div.done.mylist
