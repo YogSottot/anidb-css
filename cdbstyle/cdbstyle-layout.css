@@ -13,6 +13,20 @@
 }
 
 /*
+	Highlight in red any missing char-char and anime-anime relations in the table-fied views
+*/
+#layout-main div.g_content.rel_all td.type.crel.missing,
+#layout-main div.g_content.characterrel_all td.type.crel.missing,
+#layout-main div.g_content.characterrel_all td.type.ended.missing,
+#layout-main div.g_content.addcharanimerel_all td.type.crel.missing,
+#layout-main div.g_content.addcharanimerel_all td.type.ended.missing
+{
+   visibility: visible;
+   background-color: red;
+   color: #000000;
+}
+
+/*
 	Hide the undumped files column on the group page (unhide below)
 */
 #layout-main td.number.undumped
