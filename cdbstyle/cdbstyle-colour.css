@@ -1,6 +1,40 @@
 /*
-list alternating green colour even (tone change)
+TODO, highlight mylist state of files on the ed2kdump page.
+
+#layout-main div.ed2kdump_all tr td.mylist.in
+#layout-main div.ed2kdump_all tr td.mylist.out
+#layout-main div.ed2kdump_all tr.g_odd td.mylist.in
+#layout-main div.ed2kdump_all tr.g_odd td.mylist.out
+
+Test ed2k links to cover different situations:
+ed2k://|file|[JustRaws] Girls und Panzer -Heartful Tank Disc- Picture Drama - 04 [BD][720p-FLAC][FE41E3CA].mkv|122542822|4D74FF3848482739DB1217E98E34B347|/
+ed2k://|file|[Zero-Raws] Nisekoi Vol.03 - NCED (BD 1920x1080 x264 FLAC).mkv|103517446|7FABC3FF663C745B113397681EDF003C|/
+ed2k://|file|[Femme] Girls und Panzer - OVA06 [BD 900p Hi444PP AAC][4CCB8D34] 24.12.2013 .mkv|272488167|7B0C5EB4E2E0F1B68785B14C0DFC2A7B|/
+ed2k://|file|Hunter_x_Hunter_(2011)_-_093_-_Date_x_With_x_Palm_-_%5BTsuki%5D%28INVALID%29.mkv|253930727|796e06ad5f02f0d7185fe8a04de1f720|/
+ed2k://|file|Banner_of_the_Stars_-_08v2_-_The_Eve_of_the_Decisive_Battle_-_%5Banime_fin%5D%28INVALID%29.ogm|243166953|0388c3b2a5770276b90facdb3e17089c|/
 */
+
+/*
+default green and red highlight tone change;
+even = light
+odd = dark
+
+<pre style="color:#000000; background:#A7DDA7">background-color: #A7DDA7 !important; anidb default green</pre>
+<pre style="color:#000000; background:#9AD09A">background-color: #9AD09A !important; anidb default green odd</pre>
+
+<pre style="color:#000000; background:#B8E3B8">background-color: #B8E3B8 !important; green</pre>
+<pre style="color:#000000; background:#85D485">background-color: #85D485 !important; green odd</pre>
+
+<pre style="color:#000000; background:#D6B8B8">background-color: #D6B8B8 !important; anidb default red</pre>
+<pre style="color:#000000; background:#CC9999">background-color: #CC9999 !important; anidb default red odd</pre>
+
+<pre style="color:#000000; background:#E69696">background-color: #E69696 !important; red</pre>
+<pre style="color:#000000; background:#E67878">background-color: #E67878 !important; red odd</pre>
+
+<pre style="color:#000000; background:#FF8282">background-color: #FF8282 !important; strong red (for use with purple)</pre>
+<pre style="color:#000000; background:#FF6464">background-color: #FF6464 !important; strong red odd (for use with purple)</pre>
+*/
+/* green */
 #layout-main .identical,
 #layout-main td ins,
 #layout-main input.include,
@@ -24,17 +58,16 @@ list alternating green colour even (tone change)
 #layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,
 #layout-main div.timeline_all div.timeline ul.row li.completed a,
+#layout-main div:not(.ed2kdump_all) tr td.mylist,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
-#layout-main tr td.mylist:not(.unknown),
 .g_bubble.stripe.mylist,
 .g_bubble.box.mylist > div.top
+/* #layout-main div.mylist_all tr[id^="a"]:not(.epsrow) */
+/* #layout-main table.wishlist tbody tr, */
+/* #layout-main table.wishlist tr.mylist, */
 {
 background-color: #B8E3B8;
 }
-
-/*
-list alternating green colour odd (tone change)
-*/
 #layout-main td.g_odd ins,
 #layout-main table.filelist tr.g_odd.good,
 #layout-main div.myvotes_all table tr.g_odd td.high,
@@ -50,16 +83,77 @@ list alternating green colour odd (tone change)
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
 #layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
-#layout-main tr.g_odd td.mylist:not(.unknown)
+#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist,
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist,
+.g_odd.g_bubble.stripe.mylist,
+.g_odd.g_bubble.box.mylist > div.top
+/* #layout-main div.mylist_all tr.g_odd[id^="a"]:not(.epsrow) */
+/* #layout-main table.wishlist tbody tr.g_odd, */
+/* #layout-main table.wishlist tr.g_odd.mylist, */
 {
 background-color: #85D485;
+}
+/* red */
+#layout-main td del,
+#layout-main tr.g_fs_lame,
+#layout-main input.exclude,
+#layout-main div.myvotes_all table tr td.low,
+#layout-main div.addcreatoranimerel_all tr.left_only,
+#layout-main div.addcreatorsongrel_all tr.left_only,
+#layout-main div.timeline_all div.timeline ul.row li.stalled a,
+#layout-main table.filelist tr.deprecated,
+#layout-main table.filelist tr.invalid
+{
+	background-color: #E69696;
+}
+
+#layout-main .different,
+#layout-main div.myvotes_all table tr.g_odd td.low,
+#layout-main div.addcreatoranimerel_all tr.right_only,
+#layout-main div.addcreatorsongrel_all tr.right_only,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a,
+#layout-main table.filelist tr.g_odd.deprecated,
+#layout-main table.filelist tr.g_odd.invalid
+{
+	background-color: #E67878;
 }
 
 /*
 experimental colour highlight of mylist entries based on mylist state, on all anidb pages
+
+Font colour changes possibly require the following additional step:
+#layout-main .mylist.dropped div.tooltip {color: initial;}
+They may also need: a:link a:hover a:visited a:active
+
+<pre style="color:#000000; background:#B8E3B8">background-color: #B8E3B8 !important; green</pre>
+<pre style="color:#000000; background:#85D485">background-color: #85D485 !important; green odd</pre>
+
+<pre style="color:#000000; background:#71D8DE">background-color: #71D8DE !important; blue</pre>
+<pre style="color:#000000; background:#68CACE">background-color: #68CACE !important; blue odd</pre>
+
+<pre style="color:#000000; background:#FFB84D">background-color: #FFB84D !important; orange</pre>
+<pre style="color:#000000; background:#FFA319">background-color: #FFA319 !important; orange odd</pre>
+
+<pre style="color:#000000; background:#E69696">background-color: #E69696 !important; red</pre>
+<pre style="color:#000000; background:#E67878">background-color: #E67878 !important; red odd</pre>
+
+<pre style="color:#FFFFFF; background:#464646">background-color: #464646 !important; black
+color: #FFFFFF; font colour</pre>
+<pre style="color:#FFFFFF; background:#000000">background-color: #000000 !important; black odd
+color: #FFFFFF; font colour</pre>
+
+Unused:
+<pre style="color:#000000; background:#FF8282">background-color: #FF8282 !important; strong red (for use with purple)</pre>
+<pre style="color:#000000; background:#FF6464">background-color: #FF6464 !important; strong red odd (for use with purple)</pre>
+
+<pre style="color:#000000; background:#FF82D5">background-color: #FF82D5 !important; purple
+color: #000000; font colour</pre>
+<pre style="color:#000000; background:#FF59AC">background-color: #FF59AC !important; purple odd
+color: #000000; font colour</pre>
 */
-/*red for if not fully collected (missing files)*/
+/*default colour: red for if not fully collected (missing files), and have not started*/
 #layout-main div.producer_all table tr.mylist,
 #layout-main div.latest2_all table tr.mylist,
 #layout-main div.latest2_all table tr td.mylist,
@@ -71,12 +165,18 @@ experimental colour highlight of mylist entries based on mylist state, on all an
 #layout-main div.animelist_all table tr.mylist,
 #layout-main div.group_released table tr.mylist,
 #layout-main table.animelist tr.mylist,
-/* #layout-main table.wishlist tbody tr, */
 #layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,
+#layout-main div.timeline_all div.timeline ul.row li a,
+#layout-main div:not(.ed2kdump_all) tr td.mylist,
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
+.g_bubble.stripe.mylist,
+.g_bubble.box.mylist > div.top,
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow)
+/* #layout-main table.wishlist tbody tr, */
+/* #layout-main table.wishlist tr.mylist, */
 {
-background-color: #D6B8B8;
+background-color: #E69696;
 }
 #layout-main div.producer_all table tr.g_odd.mylist,
 #layout-main div.latest2_all table tr.g_odd.mylist,
@@ -89,57 +189,155 @@ background-color: #D6B8B8;
 #layout-main div.animelist_all table tr.g_odd.mylist,
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
-/* #layout-main table.wishlist tbody tr.g_odd, */
 #layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
+#layout-main div.timeline_all div.timeline ul.row.g_odd li a,
+#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist,
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist,
+.g_odd.g_bubble.stripe.mylist,
+.g_odd.g_bubble.box.mylist > div.top,
 #layout-main div.mylist_all tr.g_odd[id^="a"]:not(.epsrow)
+/* #layout-main table.wishlist tbody tr.g_odd, */
+/* #layout-main table.wishlist tr.g_odd.mylist, */
 {
-background-color: #CC9999;
+background-color: #E67878;
 }
-/* #layout-main div.mylist_all tr.epsrow
-{
-background-color: #CFD1D4;
-} */
-/*blue for fully collected ("ready to watch"), and in various watch states*/
+
+/*blue for complete (fully collected and "ready to watch")*/
 #layout-main .mylist.complete,
-#layout-main .mylist.stalled,
-#layout-main .mylist.watching,
-#layout-main .mylist.dropped,
-#layout-main .mylist.collecting,
 #layout-main table.animelist .complete,
-#layout-main table.animelist .stalled,
-#layout-main table.animelist .watching,
-#layout-main table.animelist .dropped,
 #layout-main table.wishlist .complete,
-#layout-main table.wishlist .stalled,
-#layout-main table.wishlist .watching,
-#layout-main table.wishlist .dropped
+#layout-main div.timeline_all div.timeline ul.row li.complete a,
+.g_bubble.box.mylist.complete > div.top
 {
 background-color: #71D8DE !important;
 }
 #layout-main .mylist.g_odd.complete,
-#layout-main .mylist.g_odd.stalled,
-#layout-main .mylist.g_odd.watching,
-#layout-main .mylist.g_odd.dropped,
-#layout-main .mylist.g_odd.collecting,
 #layout-main table.animelist .g_odd.complete,
-#layout-main table.animelist .g_odd.stalled,
-#layout-main table.animelist .g_odd.watching,
-#layout-main table.animelist .g_odd.dropped,
 #layout-main table.wishlist .g_odd.complete,
-#layout-main table.wishlist .g_odd.stalled,
-#layout-main table.wishlist .g_odd.watching,
-#layout-main table.wishlist .g_odd.dropped
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.complete a,
+.g_odd.g_bubble.box.mylist.complete > div.top
 {
 background-color: #68CACE !important;
 }
-/*green for mylist state "completed"*/
-#layout-main tr.all_watched,
-#layout-main td.all_watched
+
+/* blue for collecting state */
+#layout-main .mylist.collecting,
+#layout-main table.animelist .collecting,
+#layout-main table.wishlist .collecting,
+#layout-main div.timeline_all div.timeline ul.row li.collecting a,
+.g_bubble.box.mylist.collecting > div.top
+{
+background-color: #71D8DE !important;
+}
+#layout-main .mylist.g_odd.collecting,
+#layout-main table.animelist .g_odd.collecting,
+#layout-main table.wishlist .g_odd.collecting,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.collecting a,
+.g_odd.g_bubble.box.mylist.collecting > div.top
+{
+background-color: #68CACE !important;
+}
+
+/*orange for watching*/
+#layout-main .mylist.watching,
+#layout-main table.animelist .watching,
+#layout-main table.wishlist .watching,
+#layout-main div.timeline_all div.timeline ul.row li.watching a,
+.g_bubble.box.mylist.watching > div.top
+{
+background-color: #FFB84D !important;
+}
+#layout-main .mylist.g_odd.watching,
+#layout-main table.animelist .g_odd.watching,
+#layout-main table.wishlist .g_odd.watching,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.watching a,
+.g_odd.g_bubble.box.mylist.watching > div.top
+{
+background-color: #FFA319 !important;
+}
+
+/*red for stalled*/
+#layout-main .mylist.stalled,
+#layout-main table.animelist .stalled,
+#layout-main table.wishlist .stalled,
+#layout-main div.timeline_all div.timeline ul.row li.stalled a,
+.g_bubble.box.mylist.stalled > div.top
+{
+background-color: #E69696 !important;
+}
+#layout-main .mylist.g_odd.stalled,
+#layout-main table.animelist .g_odd.stalled,
+#layout-main table.wishlist .g_odd.stalled,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a,
+.g_odd.g_bubble.box.mylist.stalled > div.top
+{
+background-color: #E67878 !important;
+}
+
+/*black for dropped*/
+#layout-main .mylist.dropped,
+#layout-main .mylist.dropped > :not(.image) > :not(.tooltip) a.name-colored,
+#layout-main .mylist.dropped .name label a,
+#layout-main table.animelist .dropped,
+#layout-main table.animelist .dropped .name label a,
+#layout-main table.wishlist .dropped,
+#layout-main table.wishlist .dropped .name label a,
+#layout-main div.timeline_all div.timeline ul.row li.dropped a,
+.g_bubble.box.mylist.dropped > div.top
+{
+background-color: #464646 !important;
+color: #FFFFFF;
+}
+#layout-main .mylist.dropped div.tooltip
+{
+color: initial;
+}
+#layout-main .mylist.g_odd.dropped,
+#layout-main .mylist.g_odd.dropped > :not(.image) > :not(.tooltip) a.name-colored,
+#layout-main .mylist.g_odd.dropped .name label a,
+#layout-main table.animelist .g_odd.dropped,
+#layout-main table.animelist .g_odd.dropped .name label a,
+#layout-main table.wishlist .g_odd.dropped,
+#layout-main table.wishlist .g_odd.dropped .name label a,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.dropped a,
+.g_odd.g_bubble.box.mylist.dropped > div.top
+{
+background-color: #000000 !important;
+color: #FFFFFF;
+}
+#layout-main .mylist.g_odd.dropped div.tooltip
+{
+color: initial;
+}
+
+/*
+green for mylist state "completed"
+green for all_watched
+*/
+#layout-main .mylist.all_watched,
+#layout-main table.animelist .all_watched,
+#layout-main table.wishlist .all_watched,
+#layout-main div.timeline_all div.timeline ul.row li.all_watched a,
+.g_bubble.box.mylist.all_watched > div.top,
+#layout-main .mylist.completed,
+#layout-main table.animelist .completed,
+#layout-main table.wishlist .completed,
+#layout-main div.timeline_all div.timeline ul.row li.completed a,
+.g_bubble.box.mylist.all_watched > div.top
 {
 background-color: #B8E3B8 !important;
 }
-#layout-main tr.g_odd.all_watched,
-#layout-main td.g_odd.all_watched
+#layout-main .mylist.g_odd.all_watched,
+#layout-main table.animelist .g_odd.all_watched,
+#layout-main table.wishlist .g_odd.all_watched,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.all_watched a,
+.g_odd.g_bubble.box.mylist.all_watched > div.top,
+#layout-main .mylist.g_odd.completed,
+#layout-main table.animelist .g_odd.completed,
+#layout-main table.wishlist .g_odd.completed,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
+.g_odd.g_bubble.box.mylist.all_watched > div.top
 {
 background-color: #85D485 !important;
 }
