@@ -63,12 +63,12 @@
 #layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
 #layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
 #layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
 #layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
 #layout-main div.animelist_all table tr.g_odd.mylist,
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
 #layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist
 {
