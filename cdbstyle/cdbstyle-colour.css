@@ -150,7 +150,7 @@ anime-group in my list, completion bar, from green to red (for readability)
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
 #layout-main div.group_all div.group_released td.epbar div.done.mylist
 {
-border-bottom: 2px solid #FF0000;
+border-bottom: 3px solid #FF0000;
 }
 
 /*
