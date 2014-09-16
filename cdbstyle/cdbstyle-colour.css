@@ -152,17 +152,3 @@ anime-group in my list, completion bar, from green to red (for readability)
 {
 border-bottom: 3px solid #FF0000;
 }
-
-/*
-	Highlight in red any missing char-char and anime-anime relations in the table-fied views
-*/
-#layout-main div.g_content.rel_all td.type.crel.missing,
-#layout-main div.g_content.characterrel_all td.type.crel.missing,
-#layout-main div.g_content.characterrel_all td.type.ended.missing,
-#layout-main div.g_content.addcharanimerel_all td.type.crel.missing,
-#layout-main div.g_content.addcharanimerel_all td.type.ended.missing
-{
-   visibility: visible;
-   background-color: red;
-   color: #000000;
-}
