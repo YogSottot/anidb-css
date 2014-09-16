@@ -1,12 +1,12 @@
 #layout-main td del,
 #layout-main tr.g_fs_lame,
 #layout-main input.exclude,
-#layout-main table.filelist tr.invalid,
 #layout-main div.myvotes_all table tr td.low,
 #layout-main div.addcreatoranimerel_all tr.left_only,
 #layout-main div.addcreatorsongrel_all tr.left_only,
 #layout-main div.timeline_all div.timeline ul.row li.stalled a,
-#layout-main table.filelist tr.deprecated
+#layout-main table.filelist tr.deprecated,
+#layout-main table.filelist tr.invalid
 {
 	background-color: #D6B8B8;
 }
@@ -43,7 +43,7 @@
 #layout-main div.addcreatorsongrel_all tr.identical,
 #layout-main table.animelist tr.mylist,
 #layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
-#layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,
+#layout-main div.latestanimes_all div.g_section.mylist tr.mylist td, /* deprecated? */
 #layout-main div.timeline_all div.timeline ul.row li.completed a,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 #layout-main :not(.ed2kdump_all) tr td.mylist,
@@ -68,6 +68,7 @@
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
 #layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
 #layout-main :not(.ed2kdump_all) tr.g_odd td.mylist
 {
