@@ -155,14 +155,14 @@
 }
 
 #layout-main div.addtagentityrel_all div.tag-column {
-    display: block;
+	display: block;
 }
 
 #layout-main div.tag-column
 {
 	padding: 8px;
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 #layout-main div.tag-column div.tag
@@ -182,7 +182,7 @@
 	flex-grow: 1;
 	text-align: left;
 	align-items: center;
-    display: flex;
+	display: flex;
 }
 
 #layout-main div.tag-column div.tag span.weight {
@@ -214,7 +214,7 @@
 }
 
 #layout-main div.tag-column .tag-block + .tag-block {
-    padding-left: 3px;
+	padding-left: 3px;
 }
 
 #layout-main div.tag-column .tag-block .parent:not(:first-child) {
@@ -298,3 +298,96 @@
 #layout-main div.chartag-list span.size25 { font-size: 25px;}
 
 #layout-main div.chartag-list span.hidden {display:none;}
+
+/*tag tree*/
+#tagtree div.tag-block {
+padding:1em;
+}
+#tagtree div.tag-column div.tag {
+	flex-direction: row;
+}
+#tagtree div.tag-column div.tag span.i_icon + span.name {
+	padding-left: 0.5em;
+}
+#layout-main div.tag-column .tag-block .parent:not(:first-child) {
+	margin-top: 0;
+}
+#tagtree div.tag-column div.tag.top {
+	padding-left: 2.1em;
+}
+#tagtree div.tag-column div.tag.top.parent {
+	padding-left: 0;
+}
+#tagtree div.tag-column div.tag.parent.level1 {
+	padding-left: 2.1em;
+}
+#tagtree div.tag-column div.tag.parent.level2 {
+	padding-left: 4.1em;
+}
+#tagtree div.tag-column div.tag.parent.level3 {
+	padding-left: 6.1em;
+}
+#tagtree div.tag-column div.tag.parent.level4 {
+	padding-left: 8.1em;
+}
+#tagtree div.tag-column div.tag.parent.level5 {
+	padding-left: 10.1em;
+}
+#tagtree div.tag-column div.tag.parent.level6 {
+	padding-left: 12.1em;
+}
+#tagtree div.tag-column div.tag.parent.level7 {
+	padding-left: 14.1em;
+}
+#tagtree div.tag-column div.tag.parent.level8 {
+	padding-left: 16.1em;
+}
+#tagtree div.tag-column div.tag.parent.level9 {
+	padding-left: 18.1em;
+}
+#tagtree div.tag-column div.tag.parent.level10 {
+	padding-left: 20.1em;
+}
+#tagtree div.tag-column div.tag.level1 {
+	padding-left: 4.1em;
+}
+#tagtree div.tag-column div.tag.level2 {
+	padding-left: 6.1em;
+}
+#tagtree div.tag-column div.tag.level3 {
+	padding-left: 8.1em;
+}
+#tagtree div.tag-column div.tag.level4 {
+	padding-left: 10.1em;
+}
+#tagtree div.tag-column div.tag.level5 {
+	padding-left: 12.1em;
+}
+#tagtree div.tag-column div.tag.level6 {
+	padding-left: 14.1em;
+}
+#tagtree div.tag-column div.tag.level7 {
+	padding-left: 16.1em;
+}
+#tagtree div.tag-column div.tag.level8 {
+	padding-left: 18.1em;
+}
+#tagtree div.tag-column div.tag.level9 {
+	padding-left: 20.1em;
+}
+#tagtree div.tag-column div.tag.level10 {
+	padding-left: 22.1em;
+}
+#tagtree div.tag span.i_icon {
+	cursor: pointer;
+}
+
+#tagtree #toggle_all {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 16px;
+}
+
+#tagtree #toggle_all .name {
+	padding-left: 0.5em;
+}
