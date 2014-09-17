@@ -1,71 +1,3 @@
-/*admin bits*/
-#layout-main div.admin_tags_all table.tags th,
-#layout-main div.admin_tags_all table.tags td
-{
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-}
-
-#layout-main div.admin_tags_all table.tags td.name
-{
-	width: 80%;
-}
-
-#layout-main div.admin_tags_all table.tags td.action
-{
-	min-width: 11em;
-}
-
-#layout-main div.admin_tags_all table.tags td.group
-{
-	white-space: nowrap;
-}
-
-#layout-main div.admin_all div.tag.merge th
-{
-	min-width: 1em;
-	max-width: 1em;
-}
-#layout-main div.admin_all div.tag.merge th.head
-{
-	min-width: 7.5em;
-	max-width: 7.5em;
-}
-#layout-main div.admin_all div.tag.merge th.data
-{
-	width: 33%;
-}
-
-#layout-main div.admin_all div.tag.merge td
-{
-	vertical-align:top;
-	padding:5px;
-}
-
-#layout-main div.admin_all div.tag.merge td.input,
-#layout-main div.admin_all div.tag.merge td.check
-{
-	vertical-align:middle;
-}
-
-#layout-main div.admin_all div.tag.merge textarea
-{
-	width:95%;
-	height:10em;
-}
-
-#layout-main div.admin_all div.tag.merge table.options th,
-#layout-main div.admin_all div.tag.merge table.parents th
-{
-	min-width: 6em;
-	max-width: 6em;
-}
-
-#layout-main div.admin_all div.tag.merge td table
-{
-	width:100%;
-}
-
 /*edit form*/
 #layout-main div.g_definitionlist.tagedit_form table table
 {
@@ -301,7 +233,7 @@
 
 /*tag tree*/
 #tagtree div.tag-block {
-padding:1em;
+	padding:1em;
 }
 #tagtree div.tag-column div.tag {
 	flex-direction: row;
