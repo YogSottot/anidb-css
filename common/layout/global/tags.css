@@ -47,11 +47,6 @@
 	width: 100%;
 }
 
-#layout-main div.addtagentityrel_all div.tag-column div.tag span.state
-{
-	float: right;
-}
-
 #layout-main div.addtagentityrel_all div.tag-column div.tag span.name
 {
 	width: 20.5em;
@@ -118,7 +113,11 @@
 }
 
 #layout-main div.tag-column div.tag span.weight {
-	min-width: 5.5em;
+	min-width: 4.7em;
+}
+
+#layout-main div.tag-column div.tag span.state {
+    min-width: 2em;
 }
 
 #layout-main div.tag-column div.tag span.indent

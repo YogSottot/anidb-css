@@ -454,13 +454,14 @@ a.tooltip span.text
 
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.addtagentityrel_all #tag-groups span.link,
-#layout-main div.addtagentityrel_all #tag-list div.tag,
+#layout-main div.addtagentityrel_all #tag-list div.tag span.actions,
 #layout-main div.search_all div.suggestions span
 {
 	cursor: pointer;
 }
 
-#layout-main div.addtagentityrel_all #tag-list div.tag.is_abstract
+#layout-main div.addtagentityrel_all #tag-list div.tag.abstract span.actions,
+#layout-main div.addtagentityrel_all #tag-list div.tag.forbidden span.actions
 {
 	cursor: auto;
 }
