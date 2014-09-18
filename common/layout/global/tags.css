@@ -13,7 +13,8 @@
 	width:5em;
 }
 
-#layout-main div.g_definitionlist.tagedit_form table.types td
+#layout-main div.g_definitionlist.tagedit_form table.types td,
+#layout-main div.g_definitionlist.tagedit_form table.blocks td
 {
 	vertical-align: top;
 	width:10em;
