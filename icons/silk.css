@@ -63,23 +63,9 @@
 	width:16px;
 }
 
-*.i_general_minus
-{
-	background-image:url(../icons/silk/general_minus.png);
-	height:16px;
-	width:16px;
-}
-
 *.i_general_new
 {
 	background-image:url(../icons/silk/general_new.png);
-	height:16px;
-	width:16px;
-}
-
-*.i_general_plus
-{
-	background-image:url(../icons/silk/general_plus.png);
 	height:16px;
 	width:16px;
 }
@@ -213,4 +199,18 @@
 *.i_events_maintenance
 {
 	background-image: url(../icons/silk/events_maintenance.png);
+}
+
+*.i_general_subtract
+{
+	background-image:url(../icons/silk/general_minus.png);
+	height:16px;
+	width:16px;
+}
+
+*.i_general_add
+{
+	background-image:url(../icons/silk/general_plus.png);
+	height:16px;
+	width:16px;
 }
