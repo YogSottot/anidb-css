@@ -49,6 +49,13 @@
 	width:16px;
 }
 
+*.i_general_forbidden
+{
+	background-image:url(../icons/silk/general_forbidden.png);
+	height:16px;
+	width:16px;
+}
+
 *.i_general_merge
 {
 	background-image:url(../icons/silk/general_merge.png);
@@ -56,9 +63,23 @@
 	width:16px;
 }
 
+*.i_general_minus
+{
+	background-image:url(../icons/silk/general_minus.png);
+	height:16px;
+	width:16px;
+}
+
 *.i_general_new
 {
 	background-image:url(../icons/silk/general_new.png);
+	height:16px;
+	width:16px;
+}
+
+*.i_general_plus
+{
+	background-image:url(../icons/silk/general_plus.png);
 	height:16px;
 	width:16px;
 }
