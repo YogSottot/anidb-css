@@ -7,6 +7,11 @@
   color: #728972;
   border: 1px solid #666666 !important;
 }
+
+.chosen-container-single .chosen-single span {
+  background-color: #333333;
+}
+
 /* Some IE 7-9 fun with this next one - filter likes to override background */
 .chosen-container-single .chosen-single {
   filter: none;
