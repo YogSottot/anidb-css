@@ -242,7 +242,7 @@
 #tagtree div.tag-column div.tag span.i_icon + span.name {
 	padding-left: 0.5em;
 }
-#layout-main div.tag-column .tag-block .parent:not(:first-child) {
+#tagtree div.tag-column .tag-block .parent:not(:first-child) {
 	margin-top: 0;
 }
 #tagtree div.tag-column div.tag.top {
