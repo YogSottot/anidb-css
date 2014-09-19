@@ -11,12 +11,7 @@
 .chosen-container-single .chosen-single span {
   background-color: #34394d;
 }
-/* Some IE 7-9 fun with this next one - filter likes to override background */
-.chosen-container-single .chosen-single {
-  filter: none;
-  display: block;
-  height: 30px;
-}
+
 .chosen-container-single .chosen-single div {
   background-image: -webkit-gradient(linear, left bottom, left top,
     color-stop(0, #34394d), color-stop(0.6, #121212));
