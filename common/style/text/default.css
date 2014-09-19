@@ -305,16 +305,6 @@ th.sortable
 	line-height:1.5em;
 }
 
-#layout-search ul.quicksearch li
-{
-	font-weight:normal;
-}
-
-#layout-search ul.quicksearch li:hover
-{
-	font-weight:bold;
-}
-
 h4.collapsed span
 {
 	text-decoration:line-through;

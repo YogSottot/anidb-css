@@ -1,6 +1,6 @@
-#layout-search ul.quicksearch
-{
+#layout-search ul.quicksearch {
 	margin:0; 
+	margin-top: -1px;
 	max-height: 40em;
 	padding:0;
 	overflow-y: auto;
@@ -23,7 +23,25 @@
 }
 
 #layout-search ul.quicksearch .g_bubble.stripe {
-	width:100%;
+	display: list-item;
+	width:auto;
+	border-left: none;
+	border-right: none;
+	border-radius: unset;
+	margin-top:-1px;
+	margin-bottom: 0;
+}
+
+#layout-search ul.quicksearch .g_bubble.stripe > div.data div.name {
+	margin-right: 0;
+}
+
+#layout-search ul.quicksearch .g_bubble.stripe {
+	min-height: 60px;
+}
+
+#layout-search ul.quicksearch .g_bubble.stripe.note {
+	min-height: unset;
 }
 
 #layout-search select,
