@@ -226,3 +226,15 @@ a.tooltip span.text:before {
 #layout-main div.tag-column .tag-block + .tag-block {
     border-left: 1px dotted #97aacc;
 }
+
+#layout-search ul.quicksearch {
+	border-radius: 0 0 5px 5px;
+}
+
+#layout-search input.text.focus {
+	border-radius: 5px 0 0;
+}
+
+#layout-search select.focus {
+	border-radius: 0 5px 0 0;
+}

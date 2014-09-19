@@ -1,9 +1,9 @@
 #layout-search ul.quicksearch
 {
 	margin:0; 
-	max-height: 100px;
+	max-height: 40em;
 	padding:0;
-	overflow:auto;
+	overflow-y: auto;
 	position: relative;
 	list-style-type:none;
 	width: calc(100% - 86px);
@@ -17,16 +17,13 @@
 	cursor: pointer;
 }
 
-#layout-search ul.quicksearch
-{
-	margin: 0 0 0 4px;
-	position: absolute;
-	width: 375px;
-}
-
 #layout-search ul.quicksearch li:last-child
 {
 	text-align:center;
+}
+
+#layout-search ul.quicksearch .g_bubble.stripe {
+	width:100%;
 }
 
 #layout-search select,
