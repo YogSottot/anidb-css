@@ -461,11 +461,6 @@ div.pagination span strong,
 	font-size:85%;
 }
 
-.g_bubble.stripe > div.data
-{
-	width:320px;
-}
-
 #layout-main div.main_all div.datablocks,
 #layout-main div.main_all div.news.forum,
 #layout-main div.main_all div.header
@@ -574,4 +569,19 @@ a.tooltip span.text
 	box-shadow: 0px 0px 8px 4px #666;
 	opacity: 0.9;
 	color: #000000;
+}
+
+#layout-search ul.quicksearch {
+	width: calc(100% - 59px);
+}
+
+/*quicksearch*/
+#layout-search ul.quicksearch {
+    background-color: #FFFFFF;
+    border-color: #e4e4e4;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus {
+	background-color:#f5f7ff;
 }

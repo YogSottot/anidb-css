@@ -244,11 +244,6 @@ div.pagination span a
 	color:#000000;
 }
 
-.g_bubble.stripe > div.data
-{
-	width:320px;
-}
-
 #layout-main div.g_timedentry div.body
 {
 	padding:1em;
@@ -408,4 +403,8 @@ a.tooltip span.text
 	box-shadow: 0px 0px 8px 4px #666;
 	opacity: 0.9;
 	color: #000000;
+}
+
+#layout-search ul.quicksearch {
+	width: calc(100% - 59px);
 }
