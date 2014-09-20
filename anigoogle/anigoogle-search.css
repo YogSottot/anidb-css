@@ -80,3 +80,7 @@
 {
 	font-size: 1.2em;
 }
+
+#layout-nav div.main_search ul.quicksearch {
+	display: none !important;
+}
