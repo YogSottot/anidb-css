@@ -72,6 +72,8 @@ input[type="password"],
 	width: 237px;
 	margin: 0;
 	padding: 4px 8px;
+	position: relative;
+	z-index: 100;
 }
 
 #layout-search input.submit {
@@ -79,11 +81,15 @@ input[type="password"],
 	width: 80px;
 	margin: 0 0 0 4px;
 	padding: 5px;
+	position: relative;
+	z-index: 100;
 }
 
 #layout-search select {
 	margin-left: -5px;
 	padding: 4px 8px;
+	position: relative;
+	z-index: 100;
 }
 
 #layout-main > h1
