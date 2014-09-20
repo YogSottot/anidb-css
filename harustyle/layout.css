@@ -233,3 +233,7 @@ body > #layout-content
 {
 	margin-top:0.2em;
 }
+
+#layout-search ul.quicksearch {
+	margin: -2px 0 0 13px;
+}
