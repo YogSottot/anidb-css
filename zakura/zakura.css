@@ -298,8 +298,7 @@ div.pagination span a
 
 #layout-search input.text
 {
-	float: left;
-	width: 230px;
+	width: 250px;
 	margin: 0;
 	padding: 4px;
 	border-radius: 5px 0 0 5px;
@@ -313,10 +312,9 @@ div.pagination span a
 	margin: 0;
 }
 
-#layout-search select,
-#layout-search select:hover
+#layout-search select
 {
-	margin-left: -6px;
+	margin-left: -4px;
 	padding: 4px 4px 4px;
 	border-left: 0px;
 	border-radius: 0px 5px 5px 0px;
@@ -407,17 +405,17 @@ a.tooltip span.text
 
 /*quicksearch*/
 #layout-search ul.quicksearch {
-	width: calc(100% - 59px);
+	width: calc(100% - 88px);
 }
 
 #layout-search ul.quicksearch {
-    background-color: #FFFFFF;
-    border-color: #e4e4e4;
+    background-color: #f5f7ff;
+    border-color: #dc9abf;
 }
 
 #layout-search ul.quicksearch li:hover,
 #layout-search ul.quicksearch li.focus {
-	background-color:#f5f7ff;
+	background-color:#cbd6de;
 }
 
 #layout-search input.text.focus {
