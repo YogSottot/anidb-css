@@ -290,3 +290,9 @@ h4,
 	margin:1px 1px 1px 6px;
 	text-align:left;
 }
+
+/*quicksearch*/
+#layout-search ul.quicksearch {
+	width: calc(100% - 92px);
+	margin: -2px 0 0 12px;
+}

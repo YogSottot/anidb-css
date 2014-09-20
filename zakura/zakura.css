@@ -405,7 +405,7 @@ a.tooltip span.text
 
 /*quicksearch*/
 #layout-search ul.quicksearch {
-	width: calc(100% - 88px);
+	width: calc(100% - 87px);
 }
 
 #layout-search ul.quicksearch {
