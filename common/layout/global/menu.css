@@ -101,6 +101,14 @@
 	text-align:center;
 }
 
+#layout-main div.g_content div.filter_menu > h3 .i_icon {
+	height: 16px;
+}
+
+#layout-main div.g_content div.filter_menu > h3 {
+    margin-right: 0.5em;
+}
+
 /** Thingie to hide/show g_menu's */
 .filter_menu h3 a
 {

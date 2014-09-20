@@ -5,6 +5,10 @@
 @import "../common/layout/global/all.css";
 @import "../common/layout/page/all.css";
 
+@import "../common/libs/all.css";
+@import "../common/libs/chosen/style-white.css"
+@import "../common/style/color/quicksearch.css";
+
 @import "../common/style/color/special.css";
 @import "../common/style/color/forum-default.css";
 @import "../common/style/text/default.css";
@@ -45,7 +49,8 @@
 #layout-tabs ul.main-tabs li:hover,
 #layout-tabs ul.main-tabs li.selected
 {
-	border-bottom:1px double #FFFFFF;
+	border: 1px solid #f3e7ff;
+	border-bottom: 1px double #FFFFFF;
 	background-color:#FFFFFF;
 }
 
@@ -57,16 +62,22 @@
 	color:#7762ED;
 }
 
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4,
 #layout-tabs ul.main-tabs li
 {
 	color:#FFFFFF;
 	background-color:#305C97;
-	border:1px solid #F3E7FF;
+	border:1px solid #305C97;
 }
 
 #layout-tabs ul.main-tabs li a
 {
 	color:#FFFFFF;
+}
+
+#layout-main div.tabbed_pane ul.tabs {
+    margin: 1px 1px 1px 6px;
 }
 
 #layout-main div.tabbed_pane ul.tabs li:hover,
@@ -79,7 +90,6 @@
 
 #layout-main div.tabbed_pane ul.tabs li
 {
-
 	border:1px solid #F3E7FF;
 }
 
@@ -193,10 +203,9 @@ div.pagination span a
 	font-size:85%;
 }
 
-.g_bubble .g_bubble,
 .g_bubble .g_bubble
 {
-	background-color: #FAF0FF;
+	background-color: #FFFFFF;
 }
 
 .g_bubble,
@@ -235,11 +244,6 @@ div.pagination span a
 	color:#000000;
 }
 
-.g_bubble.stripe > div.data
-{
-	width:320px;
-}
-
 #layout-main div.g_timedentry div.body
 {
 	padding:1em;
@@ -252,35 +256,16 @@ div.pagination span a
 	margin-right:20.5em;
 }
 
-#layout-main div.main_all div.datablocks
-{
-	-moz-column-width:20em;
-	-webkit-column-width:20em;
-	column-width:24em;
-}
-
-#layout-main div.main_all div.datablocks > div
-{
-	width:24em;
-}
-
 #layout-main div.main_all div.datablocks div.stripe
 {
 	width:100%;
-	height: auto;
-}
-
-#layout-main div.main_all div.datablocks div.hidden
-{
-	display:inline-block;
+	height: 75px;
+	overflow: hidden;
 }
 
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4
 {
-	background-color:#FAF0FF;
-	border-color:#F3E7FF #DEC9F2 #DEC9F2 #F3E7FF;
-	color:#4D4993;
 	font-size:1.1em;
 	font-weight:bold;
 	padding:0.3em 1em;
@@ -296,59 +281,13 @@ div.pagination span a
 	width:220px;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1400px)
-{
-	#layout-main div.main_all div.datablocks
-	{
-		-moz-column-width:33em;
-		-webkit-column-width:33em;
-		column-width:33em;
-	}
-
-	#layout-main div.main_all div.datablocks > div
-	{
-		width:33em;
-	}
-
-	#layout-main div.main_all div.datablocks div.similaranime div.stripe div.data
-	{
-		width:270px;
-	}
-
-	#layout-main div.main_all div.datablocks div.stripe div.data
-	{
-		width:325px;
-	}
-}
-
-@media screen and (min-width: 1850px)
-{
-	#layout-main div.main_all div.datablocks
-	{
-		-moz-column-width: 29em;
-		-webkit-column-width: 29em;
-		column-width: 29em;
-	}
-
-	#layout-main div.main_all div.datablocks div.similaranime div.stripe div.data
-	{
-		width:225px;
-	}
-
-	#layout-main div.main_all div.datablocks div.stripe div.data
-	{
-		width: 280px;
-	}
-
-	#layout-main div.main_all div.datablocks > div
-	{
-		width: 29em;
-	}
-}
-
 .g_bubble.stripe.mini > div.data
 {
 	width:130px;
+}
+
+#layout-search {
+	width: auto;
 }
 
 #layout-search div.g_bubble.search
@@ -359,8 +298,7 @@ div.pagination span a
 
 #layout-search input.text
 {
-	float: left;
-	width: 230px;
+	width: 250px;
 	margin: 0;
 	padding: 4px;
 	border-radius: 5px 0 0 5px;
@@ -374,10 +312,9 @@ div.pagination span a
 	margin: 0;
 }
 
-#layout-search select,
-#layout-search select:hover
+#layout-search select
 {
-	margin-left: -6px;
+	margin-left: -4px;
 	padding: 4px 4px 4px;
 	border-left: 0px;
 	border-radius: 0px 5px 5px 0px;
@@ -409,42 +346,6 @@ div.pagination span a
 	float: none;
 }
 
-#layout-search ul.quicksearch {
-	background-color: white;
-	margin-top: -1px;
-	width: 365px;
-	border-bottom: 1px solid #D5CCCC;
-	border-left: 1px solid #E4E4E4;
-	border-right: 1px solid #D5CCCC;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-}
-
-#layout-search ul.quicksearch li {
-	background-color: transparent;
-}
-
-#layout-search ul.quicksearch li:hover {
-	background-color: #F5F7FF;
-	font-weight: normal;
-}
-
-#layout-search ul.quicksearch li:last-child {
-	height: auto;
-	background-color: #D5CCCC;
-}
-
-#layout-search ul.quicksearch div.info,
-#layout-search ul.quicksearch span.match {
-	font-size: smaller;
-}
-
-#layout-search ul.quicksearch span.title {
-	font-size: inherit;
-	border-bottom: 1px dotted #D3D7E2;
-	display: block;
-}
-
 /*vote graphs*/
 #layout-main div.votes_all div.graph div.bar div.colored
 {
@@ -454,4 +355,73 @@ div.pagination span a
 #layout-main div.votes_all div.graph div.bar.my div.colored
 {
 	background-color:#CD9D29;
+}
+
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 1px dotted #d3d7e2;
+}
+
+/*tooltips*/
+a.tooltip
+{
+	outline:none;
+}
+
+a.tooltip span.text:after,
+a.tooltip span.text:before
+{
+	border: solid transparent;
+}
+
+a.tooltip span.text:after
+{
+	border-width: 10px;
+}
+a.tooltip span.text:before
+{
+	border-width: 13px;
+}
+
+a.tooltip span.text:after
+{
+	border-color: rgba(245, 247, 255, 0);
+	border-bottom-color: #f5f7ff;
+}
+
+a.tooltip span.text:before
+{
+	border-color: rgba(228, 228, 228, 0);
+	border-bottom-color: #e4e4e4;
+}
+
+a.tooltip span.text
+{
+	-moz-box-shadow: 0px 0px 8px 4px #666;
+	-webkit-box-shadow: 0px 0px 8px 4px #666;
+	box-shadow: 0px 0px 8px 4px #666;
+	opacity: 0.9;
+	color: #000000;
+}
+
+/*quicksearch*/
+#layout-search ul.quicksearch {
+	width: calc(100% - 87px);
+}
+
+#layout-search ul.quicksearch {
+    background-color: #f5f7ff;
+    border-color: #dc9abf;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus {
+	background-color:#cbd6de;
+}
+
+#layout-search input.text.focus {
+	border-radius: 5px 0 0;
+}
+
+#layout-search input.text.focus + select {
+    border-radius: 0 5px 0 0;
 }

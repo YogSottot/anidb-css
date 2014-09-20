@@ -38,12 +38,6 @@ background url(images/topback.png) repeat-x top;
 height: 94px;
 }
 
-#layout-search div.search form
-{
-background: url(images/searchbg.png) no-repeat 0px 77px;
-height: 72px;
-}
-
 #user-logout a
 {
 background-image: url(images/button_logout.gif);
@@ -69,13 +63,18 @@ height: 94px;
 margin-top: 2px;
 }
 
-#layout-footer:after
-{
-content: "HaruhiStyleX by TheJAG (Based on HaruStyle by b1nh)"
+#layout-footer:after {
+	content: "HaruhiStyleX by TheJAG (Based on HaruStyle by b1nh)"
 }
 
-#layout-content div.myplace_all div.latest
-{
-margin-right: 22em;
+#layout-content div.myplace_all div.latest {
+	margin-right: 22em;
 }
 
+#menu-support {
+	margin-top: 8.5em;
+}
+
+#layout-menu {
+	padding: 135px 23px 0 30px;
+}

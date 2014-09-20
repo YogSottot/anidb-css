@@ -82,12 +82,6 @@ div.main_all div.rightbar ol li a {
 	border-bottom: none !important;
 }
 
-/* container - news */
-div.main_all div.news {
-	margin: 0 28% 1em 0;
-	padding: 0.5em 1em;
-}
-
 /* news item elements */
 div.main_all div.newsitem {
 	padding-left: 40px;

@@ -204,3 +204,75 @@ div.pagination span strong
 	background-color: transparent;
 	border:none;
 }
+
+#layout-main div.forum div.g_bubble.header,
+#layout-main div.forum div.g_bubble.poll,
+#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum div.g_bubble.navbar,
+#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.posting-box,
+#layout-main div.forum div.g_bubble.submit-box,
+#layout-main div.forum div.g_bubble.options-box {
+    background-color: #dee3e7;
+}
+
+#layout-main div.forum div.g_bubble.threads {
+    background-color: #03699c;
+}
+
+#layout-main div.forum div.g_bubble.comment,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
+#layout-main div.forum ul.topics li.g_odd.row {
+    background-color: #dee3e7;
+}
+
+#layout-main div.forum div.g_bubble.comment,
+#layout-main div.forum ul.topics li.row {
+    background-color: #E9EEF2;
+}
+
+/*tooltips*/
+a.tooltip
+{
+	outline:none;
+}
+
+a.tooltip span.text:after,
+a.tooltip span.text:before
+{
+	border: solid transparent;
+}
+
+a.tooltip span.text:after
+{
+	border-width: 10px;
+}
+a.tooltip span.text:before
+{
+	border-width: 13px;
+}
+
+a.tooltip span.text:after
+{
+	border-color: rgba(222, 227, 231, 0);
+	border-bottom-color: #dee3e7;
+}
+
+a.tooltip span.text:before
+{
+	border-color: rgba(209, 215, 220, 0);
+	border-bottom-color: #d1d7dc;
+}
+
+a.tooltip span.text
+{
+	-moz-box-shadow: 0px 0px 8px 4px #666;
+	-webkit-box-shadow: 0px 0px 8px 4px #666;
+	box-shadow: 0px 0px 8px 4px #666;
+	opacity: 0.9;
+	color: #000000;
+}
+
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 1px dotted #d1d7dc;
+}

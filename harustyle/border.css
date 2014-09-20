@@ -78,3 +78,7 @@ tr + tr td,
 {
 	border:1px solid #AFAF00;
 }
+
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 1px dotted #afaf00;
+}

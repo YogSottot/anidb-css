@@ -92,6 +92,8 @@
 .i_sub_x-unk			{background-image: url(../icons/zakura/audio-sub-unknown.gif);}
 
 /* rating */
+.i_rate_halfstar,
+.i_rate_star,
 .i_rate_veryhigh,
 .i_rate_high,
 .i_rate_med,

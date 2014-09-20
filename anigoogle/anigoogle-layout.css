@@ -49,11 +49,10 @@ input[type="password"],
 	left: 0;
 	position: absolute;
 	top: 0;
-	z-index: 5;
+	z-index: 105;
 }
 
-#layout-search
-{
+#layout-search {
 	display: block;
 	height: 53px;
 	left: 0;
@@ -63,30 +62,30 @@ input[type="password"],
 	width: 60em;
 }
 
-#layout-search p,
-#layout-search form
-{
-	margin: -0.5em 0;
-	padding: 0;
+#layout-search div.search {
+	margin-left: 16em;
+	margin-top: 1.3em;
+	width: 100%;
 }
 
-#layout-search input.text
-{
-	width: 230px;
+#layout-search div.search form > div {
+    width: 450px;
+}
+
+#layout-search input.text {
+	width: 237px;
 	margin: 0;
 	padding: 4px 8px;
 }
 
-#layout-search input.submit
-{
+#layout-search input.submit {
 	float: right;
 	width: 80px;
-	margin: 0;
-	padding: 4px;
+	margin: 0 0 0 4px;
+	padding: 5px;
 }
 
-#layout-search select
-{
+#layout-search select {
 	margin-left: -5px;
 	padding: 4px 8px;
 }
@@ -118,7 +117,7 @@ input[type="password"],
 {
 	display: none;
 	position: absolute;
-	z-index: 5;
+	z-index: 105;
 	margin-left: -.7em;
 	padding: 0;
 }
@@ -143,41 +142,10 @@ input[type="password"],
 	margin-top: 2.5em;
 }
 
-#layout-search div.search
-{
-	margin-left: 16em;
-	margin-top: 1.3em;
-	width: 100%;
-}
-
-#layout-search div.search form
-{
-	text-align: left;
-}
-
-#layout-search input.text,
-#layout-search input.submit
-{
-	float: none;
-}
-
 #layout-nav input,
 #layout-nav button
 {
 	padding-left: 0;
-}
-
-#layout-nav div.search_main input.text,
-#layout-nav div.search_main input.submit
-{
-	float: left;
-}
-
-#layout-nav div.search_main input,
-#layout-nav div.search_main button
-{
-	padding-left: 5em;
-	width: 20em;
 }
 
 #layout-tabs
@@ -199,8 +167,6 @@ input[type="password"],
 #layout-tabs ul
 {
 	display: block;
-	margin-bottom: .5em;
-	margin-top: .5em;
 	text-align: right;
 }
 
@@ -257,7 +223,7 @@ h4,
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs
 {
-	margin: 1.2em .3em;
+	margin: 1.8em .3em;
 }
 
 #layout-hint + #layout-nav #layout-menu

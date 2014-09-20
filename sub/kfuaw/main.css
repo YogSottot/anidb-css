@@ -79,7 +79,6 @@ body
 }
 
 #layout-search input.submit,
-#layout-search p,
 #layout-main div.profile_all div.pane.general div.body div.pane div ul
 {
 	padding: 0;
@@ -638,4 +637,10 @@ body.nonav #layout-main div.g_content h4
 #layout-main div.votes_all div.container:first-child
 {
 	width: 65%;
+}
+
+
+/*disable quicksearch, becaus ei can't be assed >_>*/
+#layout-nav div.main_search ul.quicksearch {
+	display: none !important;
 }

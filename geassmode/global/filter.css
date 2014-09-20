@@ -15,3 +15,6 @@
 #layout-main div.g_content div.filter_menu form div.filters ul li label input {
 	vertical-align:middle;
 }
+#layout-main div.g_content div.filter_menu h3 + div.content {
+	margin-top: -1.3em;
+}

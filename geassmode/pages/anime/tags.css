@@ -1,0 +1,3 @@
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 2px dotted #595654
+}

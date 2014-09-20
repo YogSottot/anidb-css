@@ -14,3 +14,16 @@
 	padding:3px 0;
 	text-align:left;
 }
+
+#layout-main div.main_all div.datablocks > div {
+	padding: 0;
+	margin: 0 7px;
+}
+
+#layout-main div.main_all div.datablocks {
+    margin-right: 20.5em;
+}
+
+#layout-main div.main_all div.datablocks div.stripe {
+	height: 8em;
+}

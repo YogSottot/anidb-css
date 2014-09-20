@@ -1,13 +1,16 @@
 @import "../harustyle/harustyle.css";
 
-#layout-nav
-{
-	position: fixed;
+#layout-nav {
 	top: 0;
 	width: 100%;
 }
 
-#layout-main
-{
+#layout-main {
 	margin-top: 110px;
+}
+
+#layout-nav,
+#layout-tabs {
+	position: fixed;
+	z-index:1000;
 }

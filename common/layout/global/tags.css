@@ -1,71 +1,3 @@
-/*admin bits*/
-#layout-main div.admin_tags_all table.tags th,
-#layout-main div.admin_tags_all table.tags td
-{
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-}
-
-#layout-main div.admin_tags_all table.tags td.name
-{
-	width: 80%;
-}
-
-#layout-main div.admin_tags_all table.tags td.action
-{
-	min-width: 11em;
-}
-
-#layout-main div.admin_tags_all table.tags td.group
-{
-	white-space: nowrap;
-}
-
-#layout-main div.admin_all div.tag.merge th
-{
-	min-width: 1em;
-	max-width: 1em;
-}
-#layout-main div.admin_all div.tag.merge th.head
-{
-	min-width: 7.5em;
-	max-width: 7.5em;
-}
-#layout-main div.admin_all div.tag.merge th.data
-{
-	width: 33%;
-}
-
-#layout-main div.admin_all div.tag.merge td
-{
-	vertical-align:top;
-	padding:5px;
-}
-
-#layout-main div.admin_all div.tag.merge td.input,
-#layout-main div.admin_all div.tag.merge td.check
-{
-	vertical-align:middle;
-}
-
-#layout-main div.admin_all div.tag.merge textarea
-{
-	width:95%;
-	height:10em;
-}
-
-#layout-main div.admin_all div.tag.merge table.options th,
-#layout-main div.admin_all div.tag.merge table.parents th
-{
-	min-width: 6em;
-	max-width: 6em;
-}
-
-#layout-main div.admin_all div.tag.merge td table
-{
-	width:100%;
-}
-
 /*edit form*/
 #layout-main div.g_definitionlist.tagedit_form table table
 {
@@ -81,9 +13,17 @@
 	width:5em;
 }
 
-#layout-main div.g_definitionlist.tagedit_form table.types td
+#layout-main div.g_definitionlist.tagedit_form table.types td,
+#layout-main div.g_definitionlist.tagedit_form table.blocked td
 {
 	vertical-align: top;
+	width:10em;
+}
+
+
+#layout-main div.addtagentityrel_all div.tag-column
+{
+	margin: 0.2em;
 }
 
 #layout-main div.addtagentityrel_all div.tags_add textarea
@@ -107,11 +47,6 @@
 #layout-main div.addtagentityrel_all div.editform table td.name
 {
 	width: 100%;
-}
-
-#layout-main div.addtagentityrel_all div.tag-column div.tag span.state
-{
-	float: right;
 }
 
 #layout-main div.addtagentityrel_all div.tag-column div.tag span.name
@@ -148,11 +83,15 @@
 	justify-content: center;
 }
 
+#layout-main div.addtagentityrel_all div.tag-column {
+	display: block;
+}
+
 #layout-main div.tag-column
 {
-	width: 30em;
 	padding: 8px;
-	margin: 0.5em;
+	display: flex;
+	justify-content: center;
 }
 
 #layout-main div.tag-column div.tag
@@ -171,10 +110,16 @@
 {
 	flex-grow: 1;
 	text-align: left;
+	align-items: center;
+	display: flex;
 }
 
 #layout-main div.tag-column div.tag span.weight {
-	min-width: 5.5em;
+	min-width: 4.7em;
+}
+
+#layout-main div.tag-column div.tag span.state {
+    min-width: 2em;
 }
 
 #layout-main div.tag-column div.tag span.indent
@@ -193,36 +138,25 @@
 	text-align: center;
 }
 
-#layout-main div.tag-column {
-	-moz-column-width: 30em;
-	-webkit-column-width: 30em;
-	column-width: 30em;
-	-moz-column-gap:1em;
-	-webkit-column-gap:1em;
-	column-gap:1em;
-	width:auto;
-}
-
 #layout-main div.tag-column div.tag {
 	min-height: 16px;
 }
 
-#layout-main div.tag-column  .tag-block + .tag-block {
-	margin-top:16px;
+#layout-main div.tag-column .tag-block{
+	width: 250px;
 }
 
-#layout-main div.tag-column  .tag-block {
-	-webkit-page-break-inside: avoid;
-	-moz-page-break-inside: avoid;
-	page-break-inside: avoid;
-	-webkit-column-break-inside: avoid;
-	-moz-column-break-inside: avoid;
-	column-break-inside: avoid;
+#layout-main div.tag-column .tag-block + .tag-block {
+	padding-left: 3px;
+}
+
+#layout-main div.tag-column .tag-block .parent:not(:first-child) {
+	margin-top: 16px;
 }
 
 #layout-main #chartags > div {
 	display: flex;
-	padding: 1em;
+	padding: 0.3em;
 }
 
 #layout-main #chartags h3 {
@@ -236,9 +170,7 @@
 
 #layout-main div.chartag-list
 {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
+	display: block;
 	text-align: justify;
 	line-height: 1;
 	padding-right: 10em;
@@ -247,10 +179,23 @@
 
 #layout-main div.chartag-list span.tag
 {
+	display: inline-block;
 	line-height:25px;
 	white-space: nowrap;
 	padding-left: 0.4em;
 	padding-right: 0.4em;
+}
+
+@supports (flex-wrap: wrap) {
+	#layout-main div.chartag-list {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	#layout-main div.chartag-list span.tag {
+		display: inline;
+	}
 }
 
 #layout-main div.chartag-list span.tag span.text
@@ -286,3 +231,96 @@
 #layout-main div.chartag-list span.size25 { font-size: 25px;}
 
 #layout-main div.chartag-list span.hidden {display:none;}
+
+/*tag tree*/
+#tagtree div.tag-block {
+	padding:1em;
+}
+#tagtree div.tag-column div.tag {
+	flex-direction: row;
+}
+#tagtree div.tag-column div.tag span.i_icon + span.name {
+	padding-left: 0.5em;
+}
+#tagtree div.tag-column .tag-block .parent:not(:first-child) {
+	margin-top: 0;
+}
+#tagtree div.tag-column div.tag.top {
+	padding-left: 2.1em;
+}
+#tagtree div.tag-column div.tag.top.parent {
+	padding-left: 0;
+}
+#tagtree div.tag-column div.tag.parent.level1 {
+	padding-left: 2.1em;
+}
+#tagtree div.tag-column div.tag.parent.level2 {
+	padding-left: 4.1em;
+}
+#tagtree div.tag-column div.tag.parent.level3 {
+	padding-left: 6.1em;
+}
+#tagtree div.tag-column div.tag.parent.level4 {
+	padding-left: 8.1em;
+}
+#tagtree div.tag-column div.tag.parent.level5 {
+	padding-left: 10.1em;
+}
+#tagtree div.tag-column div.tag.parent.level6 {
+	padding-left: 12.1em;
+}
+#tagtree div.tag-column div.tag.parent.level7 {
+	padding-left: 14.1em;
+}
+#tagtree div.tag-column div.tag.parent.level8 {
+	padding-left: 16.1em;
+}
+#tagtree div.tag-column div.tag.parent.level9 {
+	padding-left: 18.1em;
+}
+#tagtree div.tag-column div.tag.parent.level10 {
+	padding-left: 20.1em;
+}
+#tagtree div.tag-column div.tag.level1 {
+	padding-left: 4.1em;
+}
+#tagtree div.tag-column div.tag.level2 {
+	padding-left: 6.1em;
+}
+#tagtree div.tag-column div.tag.level3 {
+	padding-left: 8.1em;
+}
+#tagtree div.tag-column div.tag.level4 {
+	padding-left: 10.1em;
+}
+#tagtree div.tag-column div.tag.level5 {
+	padding-left: 12.1em;
+}
+#tagtree div.tag-column div.tag.level6 {
+	padding-left: 14.1em;
+}
+#tagtree div.tag-column div.tag.level7 {
+	padding-left: 16.1em;
+}
+#tagtree div.tag-column div.tag.level8 {
+	padding-left: 18.1em;
+}
+#tagtree div.tag-column div.tag.level9 {
+	padding-left: 20.1em;
+}
+#tagtree div.tag-column div.tag.level10 {
+	padding-left: 22.1em;
+}
+#tagtree div.tag span.i_icon {
+	cursor: pointer;
+}
+
+#tagtree #toggle_all {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 16px;
+}
+
+#tagtree #toggle_all .name {
+	padding-left: 0.5em;
+}

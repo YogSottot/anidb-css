@@ -1,59 +1,60 @@
-#layout-search ul.quicksearch
-{
-	margin:0; 
+#layout-search ul.quicksearch {
+	margin: -2px 0 0;
+	max-height: 40em;
 	padding:0;
-	overflow:auto;
+	overflow-y: auto;
+	position: relative;
 	list-style-type:none;
+	width: calc(100% - 86px);
 	z-index: 10;
 }
 
-#layout-search ul.quicksearch li
-{
+#layout-search ul.quicksearch li {
 	margin:0px;
 	padding:2px;
 	cursor: pointer;
 }
-
-#layout-search ul.quicksearch
-{
-	margin: 0 0 0 4px;
-	position: absolute;
-	width: 375px;
-}
-
-#layout-search ul.quicksearch img
-{
-	float:left;
-	margin-left: 3px;
-	margin-right: 5px;
-}
-
-#layout-search ul.quicksearch li
-{
-	clear: left;
-}
-
-#layout-search ul.quicksearch li.image
-{
-	height: 65px;
-}
-
-#layout-search ul.quicksearch li:last-child
-{
+#layout-search ul.quicksearch li:last-child {
 	text-align:center;
 }
 
+#layout-search ul.quicksearch .g_bubble.stripe {
+	display: list-item;
+	border-left: none;
+	border-right: none;
+	border-radius: unset;
+	margin-top:-1px;
+	margin-bottom: 0;
+	width:auto;
+}
+
+#layout-search ul.quicksearch .g_bubble.stripe > div.data div.name {
+	margin-right: 0;
+}
+
+#layout-search ul.quicksearch .g_bubble.stripe {
+	min-height: 62px;
+}
+
+#layout-search ul.quicksearch .g_bubble.stripe.note {
+	min-height: unset;
+}
+
 #layout-search select,
-#layout-search input.text
-{
+#layout-search input.text {
 	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 	height: 18px;
 }
 
-#layout-search select
-{
+#layout-search select {
 	height: 18px;
 	padding: 3px;
+}
+
+#layout-search select,
+#layout-search input {
+	position: relative;
+	z-index: 100;
 }

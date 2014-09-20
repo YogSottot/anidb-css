@@ -4,7 +4,7 @@ a:active,
 a:hover,
 a:link
 {
-	color:blue;
+	color:#06b3fe;
 }
 
 #layout-menu a:active
@@ -37,10 +37,18 @@ body.nonav
 	background:#000000;
 }
 
-#layout-search form input.text
-{
+#layout-search form input.text,
+#layout-search form select,
+#layout-search form input.submit {
 	background-color:#000000;
 	color:#06b3fe;
+}
+
+input[type="text"],
+select,
+textarea {
+	background-color:#000000;
+	color:#FFFFFF;
 }
 
 #layout-content div.main_all div.rightbar h4,
@@ -128,10 +136,7 @@ html,
 	color:#e64b73;
 }
 
-textarea,
-input,
 #layout-hint,
-select,
 button,
 input[type="button"],
 input[type="submit"]
@@ -216,6 +221,10 @@ input[type="submit"]
 	border-left-color:#444444;
 }
 
+#layout-main div.cmt_entries dl.profile {
+	border-right-color:#444444;
+}
+
 #layout-content div.message table,
 #layout-content div.message tr,
 #layout-content div.message th,
@@ -246,4 +255,15 @@ input[type="submit"]
 {
 	background-color:#000000;
 	color:white;
+}
+
+/*quicksearch*/
+#layout-search ul.quicksearch {
+    background-color: #404040;
+    border-color: #06b3fe;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus {
+	background-color:#555555;
 }

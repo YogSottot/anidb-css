@@ -443,8 +443,19 @@ input[type="button"]:focus::-moz-focus-inner {
 	border-color: #728972;
 }
 
-#layout-main div.tag-column {
-	-moz-column-rule-color: #666666;
-	-webkit-column-rule-color: #666666;
-	column-rule-color: #666666;
+#layout-main div.tag-column .tag-block + .tag-block {
+	border-color: #666666;
+}
+
+
+/*quicksearch*/
+
+#layout-search ul.quicksearch {
+    background-color: #404040;
+    border-color: #666666;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus {
+	background-color:#555555;
 }

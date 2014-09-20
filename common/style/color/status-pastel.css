@@ -45,7 +45,7 @@
 #layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td, /* deprecated? */
 #layout-main div.timeline_all div.timeline ul.row li.completed a,
-#layout-main :not(.ed2kdump_all) tr td.mylist,
+#layout-main div:not(.ed2kdump_all) tr td.mylist,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
 .g_bubble.box.mylist > div.top
@@ -70,7 +70,7 @@
 #layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
-#layout-main :not(.ed2kdump_all) tr.g_odd td.mylist
+#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist
 {
 	background-color:#9AD09A;
 }
