@@ -84,3 +84,7 @@
 #layout-nav div.main_search ul.quicksearch {
 	display: none !important;
 }
+
+#layout-tabs {
+	top: 0.5em;
+}
