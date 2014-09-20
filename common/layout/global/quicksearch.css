@@ -9,15 +9,12 @@
 	z-index: 10;
 }
 
-#layout-search ul.quicksearch li
-{
+#layout-search ul.quicksearch li {
 	margin:0px;
 	padding:2px;
 	cursor: pointer;
 }
-
-#layout-search ul.quicksearch li:last-child
-{
+#layout-search ul.quicksearch li:last-child {
 	text-align:center;
 }
 
@@ -44,16 +41,14 @@
 }
 
 #layout-search select,
-#layout-search input.text
-{
+#layout-search input.text {
 	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 	height: 18px;
 }
 
-#layout-search select
-{
+#layout-search select {
 	height: 18px;
 	padding: 3px;
 }

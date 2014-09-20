@@ -307,13 +307,13 @@ button[type="submit"],
 	box-shadow: 0 1px 2px #C9D7F1 inset;
 }
 
+/*tooltip*/
 a.tooltip span.text:after
 {
 	border-color: rgba(236, 244, 253, 0);
 	border-bottom-color: #ECF4FD;
 }
 
-/*tooltip base colors*/
 a.tooltip span.text
 {
 	-moz-box-shadow: 0px 0px 8px 4px #666;
@@ -321,4 +321,16 @@ a.tooltip span.text
 	box-shadow: 0px 0px 8px 4px #666;
 	opacity: 0.9;
 	color: #000000;
+}
+
+/*quicksearch*/
+
+#layout-search ul.quicksearch {
+    background-color: #FFFFFF;
+    border-color: #c9d7f1;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus {
+	background-color:#ecf4fd;
 }

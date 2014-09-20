@@ -227,6 +227,7 @@ a.tooltip span.text:before {
     border-left: 1px dotted #97aacc;
 }
 
+/*quicksearch*/
 #layout-search ul.quicksearch {
 	border-radius: 0 0 5px 5px;
 }
@@ -235,6 +236,6 @@ a.tooltip span.text:before {
 	border-radius: 5px 0 0;
 }
 
-#layout-search select.focus {
-	border-radius: 0 5px 0 0;
+#layout-search input.text.focus + select {
+    border-radius: 0 5px 0 0;
 }
