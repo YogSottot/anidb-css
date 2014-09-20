@@ -331,9 +331,6 @@ text-shadow: none }
 
 
 	/* Button & Input Menu */
-	
-	#layout-search p { padding: 0 }
-	
 	#layout-search form select,
 	#layout-nav input, 
 	#layout-nav button {

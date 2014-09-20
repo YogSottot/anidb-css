@@ -29,6 +29,7 @@
 	border-radius: unset;
 	margin-top:-1px;
 	margin-bottom: 0;
+	width:auto;
 }
 
 #layout-search ul.quicksearch .g_bubble.stripe > div.data div.name {
