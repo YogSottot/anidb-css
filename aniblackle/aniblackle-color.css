@@ -446,3 +446,16 @@ input[type="button"]:focus::-moz-focus-inner {
 #layout-main div.tag-column .tag-block + .tag-block {
 	border-color: #666666;
 }
+
+
+/*quicksearch*/
+
+#layout-search ul.quicksearch {
+    background-color: #404040;
+    border-color: #666666;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus {
+	background-color:#555555;
+}
