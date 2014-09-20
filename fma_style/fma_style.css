@@ -571,11 +571,11 @@ a.tooltip span.text
 	color: #000000;
 }
 
+/*quicksearch*/
 #layout-search ul.quicksearch {
 	width: calc(100% - 59px);
 }
 
-/*quicksearch*/
 #layout-search ul.quicksearch {
     background-color: #FFFFFF;
     border-color: #e4e4e4;
@@ -584,4 +584,12 @@ a.tooltip span.text
 #layout-search ul.quicksearch li:hover,
 #layout-search ul.quicksearch li.focus {
 	background-color:#f5f7ff;
+}
+
+#layout-search input.text.focus {
+	border-radius: 5px 0 0;
+}
+
+#layout-search input.text.focus + select {
+    border-radius: 0 5px 0 0;
 }
