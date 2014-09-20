@@ -2248,3 +2248,9 @@ vertical-align: middle;
 #layout-main div.tabbed_pane ul.tabs {
     margin: 3px 1px 1px 6px;
 }
+
+
+/*disable quicksearch, becaus ei can't be assed >_>*/
+#layout-nav div.main_search ul.quicksearch {
+	display: none !important;
+}

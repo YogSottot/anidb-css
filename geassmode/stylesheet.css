@@ -74,3 +74,8 @@ body.nonav {
 {
 	border-bottom: 2px solid #00ff00;
 }
+
+/*disable quicksearch, becaus ei can't be assed >_>*/
+#layout-nav div.main_search ul.quicksearch {
+	display: none !important;
+}
