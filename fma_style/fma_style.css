@@ -571,9 +571,13 @@ a.tooltip span.text
 	color: #000000;
 }
 
+#layout-search select {
+	margin-left: -5px;
+}
+
 /*quicksearch*/
 #layout-search ul.quicksearch {
-	width: calc(100% - 59px);
+	width: calc(100% - 60px);
 }
 
 #layout-search ul.quicksearch {
