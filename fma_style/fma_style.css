@@ -11,6 +11,7 @@
 @import "../common/style/content/page-main.css";
 @import "../common/libs/all.css";
 @import "../common/libs/chosen/style-grey.css"
+@import "../common/style/color/quicksearch.css";
 
 /* FMA specific styles */
 @import "style-content.css";
