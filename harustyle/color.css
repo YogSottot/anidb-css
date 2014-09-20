@@ -206,3 +206,14 @@ a.tooltip span.text
 	opacity: 0.9;
 	color: #000000;
 }
+
+/*quicksearch*/
+#layout-search ul.quicksearch {
+    background-color: #fae287;
+    border-color: #bfc2c9;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus {
+	background-color:#e8ddb3;
+}

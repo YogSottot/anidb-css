@@ -352,37 +352,6 @@ div.pagination span a
 	float: none;
 }
 
-#layout-search ul.quicksearch {
-	background-color: white;
-	margin-top: -1px;
-	width: 365px;
-}
-
-#layout-search ul.quicksearch li {
-	background-color: transparent;
-}
-
-#layout-search ul.quicksearch li:hover {
-	background-color: #F5F7FF;
-	font-weight: normal;
-}
-
-#layout-search ul.quicksearch li:last-child {
-	height: auto;
-	background-color: #D5CCCC;
-}
-
-#layout-search ul.quicksearch div.info,
-#layout-search ul.quicksearch span.match {
-	font-size: smaller;
-}
-
-#layout-search ul.quicksearch span.title {
-	font-size: inherit;
-	border-bottom: 1px dotted #D3D7E2;
-	display: block;
-}
-
 /*vote graphs*/
 #layout-main div.votes_all div.graph div.bar div.colored
 {
