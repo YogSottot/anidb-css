@@ -146,7 +146,7 @@ body > #layout-content
 {
 	display: block;
 	float: right;
-	margin:27px 72px 0 0;
+	margin:27px 71px 0 0;
 	padding: 0;
 }
 
@@ -185,7 +185,7 @@ body > #layout-content
 #layout-search form input.submit
 {
 	padding: 20px 0 0 0;
-	margin-left: 50px;
+	margin-left: 55px;
 	overflow: hidden;
 	width: 63px;
 	height: 14px;
