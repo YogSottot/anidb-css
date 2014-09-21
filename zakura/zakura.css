@@ -411,9 +411,13 @@ a.tooltip span.text
 }
 
 #layout-search input.text.focus {
+	-webkit-border-radius: 5px 0 0;
+	-moz-border-radius: 5px 0 0;
 	border-radius: 5px 0 0;
 }
 
 #layout-search input.text.focus + select {
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
     border-radius: 0 5px 0 0;
 }
