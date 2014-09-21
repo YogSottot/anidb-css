@@ -219,9 +219,7 @@
 }
 
 #layout-main div.userpage_all div.userprefs > div,
-#layout-main div.userpage_all div.clubs div.joined > div,
-#layout-main div.userpage_all div.clubs div.created > div
-{
+#layout-main div.userpage_all div.clubs > div {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
