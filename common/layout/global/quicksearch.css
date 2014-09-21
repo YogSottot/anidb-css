@@ -35,8 +35,20 @@
 	margin-right: 0;
 }
 
+#layout-search ul.quicksearch.songlist .g_bubble.stripe {
+    min-height: 40px;
+}
+
+#layout-search ul.quicksearch.songlist .g_bubble.stripe div.image {
+	display: none;
+}
+
+#layout-search ul.quicksearch.songlist .g_bubble.stripe > div.data {
+	margin: 0.5em;
+}
+
 #layout-search ul.quicksearch .g_bubble.stripe.note {
-	min-height: 0;
+	min-height: 0 !important;
 }
 
 #layout-search select,
