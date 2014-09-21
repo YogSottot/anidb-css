@@ -22,6 +22,8 @@
 	display: list-item;
 	border-left: none;
 	border-right: none;
+	-moz-border-radius: unset;
+	-webkit-border-radius: unset;
 	border-radius: unset;
 	margin-top:-1px;
 	margin-bottom: 0;
