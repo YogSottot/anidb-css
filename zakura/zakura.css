@@ -320,18 +320,10 @@ div.pagination span a
 	border-radius: 0px 5px 5px 0px;
 }
 
-#layout-search div.search
-{
-/*
-	margin-left: 16em;
-	margin-top: 1.3em;
-*/
-	width: 100%;
-}
-
 #layout-search div.search form
 {
 	text-align: left;
+	width: 448px;
 }
 
 #layout-nav input,
