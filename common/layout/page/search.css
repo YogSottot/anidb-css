@@ -1,23 +1,43 @@
 #layout-main div.search_all div.fullsearch_form tr.entity td,
 #layout-main div.search_all div.fullsearch_form tr.field td {
-    align-content: flex-start;
-    display: flex;
-    flex-flow: column wrap;
-    height: 5em;
-    justify-content: center;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	-webkit-align-content: flex-start;
+	-moz-align-content: flex-start;
+	-ms-align-content: flex-start;
+	align-content: flex-start;
+	-webkit-flex-flow: column wrap;
+	-moz-flex-flow: column wrap;
+	-ms-flex-flow: column wrap;
+	flex-flow: column wrap;
+	height: 5em;
 }
 
 #layout-main div.search_all div.fullsearch_form tr.field td {
-    height: 2em;
+	height: 2em;
 }
 
 #layout-main div.search_all div.fullsearch_form tr.restricted td {
-    display: flex;
-    flex-flow: row wrap;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
 }
 
 #layout-main div.search_all div.fullsearch_form label {
-    width: 15em;
+	width: 15em;
 }
 
 #layout-main div.search_all table.search_results {

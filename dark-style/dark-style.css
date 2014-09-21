@@ -2227,6 +2227,9 @@ vertical-align: middle;
 }
 
 #layout-main div.main_all div.datablocks {
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 

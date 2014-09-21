@@ -147,8 +147,19 @@
 }
 
 #layout-main div.admin_role div.blocks {
+	margin-top: 0.5em;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-ms-justify-content: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
 	justify-content: center;
 }
 

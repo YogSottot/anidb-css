@@ -34,8 +34,18 @@
 }
 
 #layout-main div.main_all div.datablocks {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
 	justify-content: center;
 }
 
@@ -94,6 +104,9 @@
 
 @media screen and (min-width: 1580px) {
 	#layout-main div.main_all div.datablocks {
+		-webkit-flex-wrap: nowrap;
+		-moz-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
 	}
 
