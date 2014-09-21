@@ -2236,12 +2236,12 @@ vertical-align: middle;
 
 #layout-main div.anime_all div.info div.caststaff div.cast td.creator,
 #layout-main div.anime_all div.info div.caststaff div.staff td.credit {
-    min-width: unset;
+    min-width: 0;
     white-space: wrap;
 }
 
 #layout-main div.block > div.data {
-	margin-right: unset;
+	margin-right: 0;
 	width: 100%;
 }
 

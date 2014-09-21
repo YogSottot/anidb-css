@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 1000px) {
 	#layout-main div.main_all div.datablocks > div {
-    		max-width: unset;
+    		max-width: none;
 	}
 }
 
@@ -98,7 +98,7 @@
 	}
 
 	#layout-main div.main_all div.datablocks > div {
-    		max-width: unset;
+    		max-width: none;
 	}
 
 	#layout-main div.main_all div.latestnews div.hidden,
