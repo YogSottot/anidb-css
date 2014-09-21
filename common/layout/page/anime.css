@@ -137,12 +137,19 @@
 
 #layout-main div.anime_all div.info div.caststaff
 {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 }
 
 @media screen and (max-width: 1200px) {
 	#layout-main div.anime_all div.info div.caststaff
 	{
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
 		flex-wrap: wrap;
 	}
 }

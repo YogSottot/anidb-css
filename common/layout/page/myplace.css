@@ -261,6 +261,9 @@
 #layout-main div.userpage_all div.userdetails div.block div.image {
 	min-width: 12em;
 	margin:0;
+	-webkit-align-self: center;
+	-ms-align-self: center;
+	-moz-align-self: center;
 	align-self: center;
 }
 
