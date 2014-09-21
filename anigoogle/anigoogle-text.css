@@ -17,7 +17,8 @@ a.i_button:hover
 #layout-tabs,
 input[type="text"],
 input[type="password"],
-textarea
+textarea,
+#layout-main div.userpage_all div.content > h3
 {
 	font-size: 1.2em;
 }
