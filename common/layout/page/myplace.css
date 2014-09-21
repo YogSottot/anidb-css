@@ -218,19 +218,6 @@
 	margin-top:0.5em;
 }
 
-#layout-main div.userpage_all div.userprefs > div,
-#layout-main div.userpage_all div.clubs > div {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-	-moz-flex-wrap: wrap;
-	flex-wrap: wrap;
-}
-
 #layout-main div.userpage_all .g_bubble.stripe.recommendation
 {
     height: 125px;
