@@ -203,6 +203,24 @@ background-color: #E69696;
 background-color: #E67878;
 }
 
+/* red for default collecting state */
+#layout-main .mylist.collecting,
+#layout-main table.animelist .collecting,
+#layout-main table.wishlist .collecting,
+#layout-main div.timeline_all div.timeline ul.row li.collecting a,
+.g_bubble.box.mylist.collecting > div.top
+{
+background-color: #E69696 !important;
+}
+#layout-main .mylist.g_odd.collecting,
+#layout-main table.animelist .g_odd.collecting,
+#layout-main table.wishlist .g_odd.collecting,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.collecting a,
+.g_odd.g_bubble.box.mylist.collecting > div.top
+{
+background-color: #E67878 !important;
+}
+
 /*blue for complete (fully collected and "ready to watch")*/
 #layout-main .mylist.complete,
 #layout-main table.animelist .complete,
@@ -217,24 +235,6 @@ background-color: #71D8DE !important;
 #layout-main table.wishlist .g_odd.complete,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.complete a,
 .g_odd.g_bubble.box.mylist.complete > div.top
-{
-background-color: #68CACE !important;
-}
-
-/* blue for collecting state */
-#layout-main .mylist.collecting,
-#layout-main table.animelist .collecting,
-#layout-main table.wishlist .collecting,
-#layout-main div.timeline_all div.timeline ul.row li.collecting a,
-.g_bubble.box.mylist.collecting > div.top
-{
-background-color: #71D8DE !important;
-}
-#layout-main .mylist.g_odd.collecting,
-#layout-main table.animelist .g_odd.collecting,
-#layout-main table.wishlist .g_odd.collecting,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.collecting a,
-.g_odd.g_bubble.box.mylist.collecting > div.top
 {
 background-color: #68CACE !important;
 }
