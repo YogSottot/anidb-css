@@ -22,22 +22,21 @@
 	display: list-item;
 	border-left: none;
 	border-right: none;
-	border-radius: unset;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
 	margin-top:-1px;
 	margin-bottom: 0;
 	width:auto;
+	min-height: 62px;
 }
 
 #layout-search ul.quicksearch .g_bubble.stripe > div.data div.name {
 	margin-right: 0;
 }
 
-#layout-search ul.quicksearch .g_bubble.stripe {
-	min-height: 62px;
-}
-
 #layout-search ul.quicksearch .g_bubble.stripe.note {
-	min-height: unset;
+	min-height: 0;
 }
 
 #layout-search select,

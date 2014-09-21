@@ -522,7 +522,7 @@ div.pagination span strong,
 #layout-main div.profile_all div.pane div.settings.block li,
 #layout-main div.profile_all div.pane > ul li,
 #layout-main div.profile_all div.pane.general div.body div.pane div ul li {
-    line-height: unset;
+    line-height: 1;
 }
 
 #layout-main div.tag-column .tag-block + .tag-block {
@@ -591,17 +591,25 @@ a.tooltip span.text
 }
 
 #layout-search input.text {
+	-webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
 	border-radius: 5px 0 0 5px;
 }
 
 #layout-search select {
+	-webkit-border-radius: 0px 5px 5px 0px;
+	-moz-border-radius: 0px 5px 5px 0px;
 	border-radius: 0px 5px 5px 0px;
 }
 
 #layout-search input.text.focus {
+	-webkit-border-radius: 5px 0 0;
+	-moz-border-radius: 5px 0 0;
 	border-radius: 5px 0 0;
 }
 
 #layout-search input.text.focus + select {
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
     border-radius: 0 5px 0 0;
 }
