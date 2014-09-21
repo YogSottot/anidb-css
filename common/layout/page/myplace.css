@@ -222,9 +222,15 @@
 #layout-main div.userpage_all div.clubs div.joined > div,
 #layout-main div.userpage_all div.clubs div.created > div
 {
-    -moz-column-width: 400px;
-    -webkit-column-width: 400px;
-    column-width: 400px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 #layout-main div.userpage_all .g_bubble.stripe.recommendation

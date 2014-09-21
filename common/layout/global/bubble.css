@@ -146,7 +146,7 @@
 
 .g_bubble.stripe.mini > div.data
 {
-	width:150px;
+	width: auto;
 }
 
 .g_bubble.stripe.mini > div.data div.name 
