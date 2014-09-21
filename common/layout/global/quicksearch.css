@@ -51,6 +51,8 @@
 #layout-search select {
 	height: 18px;
 	padding: 3px;
+	margin: 0;
+	width: 94px;
 }
 
 #layout-search select,
