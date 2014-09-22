@@ -4,14 +4,16 @@
 @import "cdbstyle-text.css";
 @import "cdbstyle-icons.css";
 
-/*
-creq screen colour fix (annoying bug fix)
-
-fixed in https://git.anidb.net/anidb/css/commit/6834e50a52e78531b5e518d0471c644ce4283621
-*/
-/* #layout-main div.creq_all .state.return th.field {
-color: #CCCCCC;
-} */
+/* hide images from quicksearch */
+/*#layout-search ul.quicksearch li.g_bubble.stripe div.image{
+display: none;
+}
+#layout-search ul.quicksearch .g_bubble.stripe {
+min-height: 4.4em;
+}
+#layout-search ul.quicksearch .g_bubble.stripe div.data {
+margin: 0.5em 0.5em 0.5em 0.5em;
+}*/
 
 #layout-footer:after
 {
