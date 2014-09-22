@@ -84,7 +84,7 @@
 	margin-bottom:0.2em;
 }
 
-#layout-main div.main_all latestaired,
+#layout-main div.main_all #latestaired,
 #layout-main div.main_all #latestended,
 #layout-main div.main_all #randanime,
 #layout-main div.main_all #randcreator {
@@ -102,7 +102,7 @@
     		max-width: calc(33% - 5px);
 	}
 
-	#layout-main div.main_all latestaired,
+	#layout-main div.main_all #latestaired,
 	#layout-main div.main_all #randcreator {
 		display:block;
 	}
@@ -113,7 +113,7 @@
     		max-width: calc(25% - 5px);
 	}
 
-	#layout-main div.main_all latestaired,
+	#layout-main div.main_all #latestaired,
 	#layout-main div.main_all #latestended,
 	#layout-main div.main_all #randanime,
 	#layout-main div.main_all #randcreator {
