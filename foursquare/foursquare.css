@@ -2251,6 +2251,6 @@ background-image: url(images/icons/flags/anidb_audio_chinese-transcription.png) 
 
 
 /*disable quicksearch, becaus ei can't be assed >_>*/
-#layout-nav div.main_search ul.quicksearch {
+#layout-search ul.quicksearch {
 	display: none !important;
 }
