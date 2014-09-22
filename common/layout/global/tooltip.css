@@ -18,7 +18,7 @@
 /*Bubble Tooltip*/
 a.tooltip span.text
 {
-	z-index:10;
+	z-index:1000;
 	display:none;
 	padding: 14px 20px;
 	margin-top:50px;
