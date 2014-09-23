@@ -278,3 +278,29 @@
 {
 	position: inherit;
 }
+
+/*get all the boxes to the same size*/
+@supports (flex-wrap: wrap) {
+	#layout-main div.userpage_all .userprefs .content > div,
+	#layout-main div.userpage_all .clubs .content > div {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-justify-content: center;
+		-webkit-justify-content: center;
+		-moz-justify-content: center;
+		justify-content: center;
+	}
+
+	#layout-main div.userpage_all .userprefs .content .g_bubble.stripe,
+	#layout-main div.userpage_all .clubs .content .g_bubble.stripe {
+	    margin: 0.2em;
+	    min-height: 0;
+	}
+}
