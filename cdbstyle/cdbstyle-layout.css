@@ -1,13 +1,15 @@
 /*
-	Display top links (buttons) on anime/character/club/creator/collection/group/song page
+	Display top links (buttons) on anime/character/club/creator/collection/ep/group/song/tag page
 */
 #layout-main div.anime_all ul.links_top,
 #layout-main div.character_all ul.links_top,
 #layout-main div.club_all ul.links_top,
 #layout-main div.creator_all ul.links_top,
 #layout-main div.collection_all ul.links_top,
+#layout-main div.ep_all ul.links_top,
 #layout-main div.group_all ul.links_top,
-#layout-main div.song_all ul.links_top
+#layout-main div.song_all ul.links_top,
+#layout-main div.tag_all ul.links_top
 {
   display: block;
 }
