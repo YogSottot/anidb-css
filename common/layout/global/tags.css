@@ -273,32 +273,36 @@
 	white-space: normal;
 }
 
-#layout-main div.chartag-list span.size0 { font-size: 9px;}
-#layout-main div.chartag-list span.size1 { font-size: 9px;}
-#layout-main div.chartag-list span.size2 { font-size: 10px;}
-#layout-main div.chartag-list span.size3 { font-size: 11px;}
-#layout-main div.chartag-list span.size4 { font-size: 12px;}
-#layout-main div.chartag-list span.size5 { font-size: 13px;}
-#layout-main div.chartag-list span.size6 { font-size: 13px;}
-#layout-main div.chartag-list span.size7 { font-size: 14px;}
-#layout-main div.chartag-list span.size8 { font-size: 14px;}
-#layout-main div.chartag-list span.size9 { font-size: 15px;}
-#layout-main div.chartag-list span.size10 { font-size: 15px;}
-#layout-main div.chartag-list span.size11 { font-size: 16px;}
-#layout-main div.chartag-list span.size12 { font-size: 16px;}
-#layout-main div.chartag-list span.size13 { font-size: 18px;}
-#layout-main div.chartag-list span.size14 { font-size: 18px;}
-#layout-main div.chartag-list span.size15 { font-size: 20px;}
-#layout-main div.chartag-list span.size16 { font-size: 21px;}
-#layout-main div.chartag-list span.size17 { font-size: 21px;}
-#layout-main div.chartag-list span.size18 { font-size: 22px;}
-#layout-main div.chartag-list span.size19 { font-size: 22px;}
-#layout-main div.chartag-list span.size20 { font-size: 23px;}
-#layout-main div.chartag-list span.size21 { font-size: 23px;}
-#layout-main div.chartag-list span.size22 { font-size: 24px;}
-#layout-main div.chartag-list span.size23 { font-size: 24px;}
-#layout-main div.chartag-list span.size24 { font-size: 25px;}
-#layout-main div.chartag-list span.size25 { font-size: 25px;}
+#layout-main div.chartag-list span.size0 {
+	font-size: 80%;
+}
+#layout-main div.chartag-list span.size1 {
+	font-size: 85%;
+}
+#layout-main div.chartag-list span.size2 {
+	font-size: 90%;
+}
+#layout-main div.chartag-list span.size3 {
+	font-size: 95%;
+}
+#layout-main div.chartag-list span.size4 {
+	font-size: 100%;
+}
+#layout-main div.chartag-list span.size5 {
+	font-size: 120%;
+}
+#layout-main div.chartag-list span.size6 {
+	font-size: 140%;
+}
+#layout-main div.chartag-list span.size7 {
+	font-size: 160%;
+}
+#layout-main div.chartag-list span.size8 {
+	font-size: 180%;
+}
+#layout-main div.chartag-list span.size9 {
+	font-size: 200%;
+}
 
 #layout-main div.chartag-list span.hidden {display:none;}
 
