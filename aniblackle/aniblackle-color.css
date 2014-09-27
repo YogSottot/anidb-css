@@ -313,6 +313,7 @@ button[type="submit"]:hover,
 	border-left-color: #555555;
 }
 
+#layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 tr + tr td,
 tr + tr th,
