@@ -473,19 +473,21 @@ input[type="button"]:focus::-moz-focus-inner {
 	color: rgba(255,255,255, 0.2);
 }
 #layout-main div.chartag-list span.size2 a,
-#layout-main div.chartag-list span.size3 a,
 #layout-main div.tag-column div.tag[weight="200"] .name a {
 	color: rgba(255,255,255, 0.4);
 }
-#layout-main div.chartag-list span.size4 a,
-#layout-main div.chartag-list span.size5 a,
+
+#layout-main div.chartag-list span.size3 a,
 #layout-main div.tag-column div.tag[weight="300"] .name a {
 	color: rgba(255,255,255, 0.6);
 }
-#layout-main div.chartag-list span.size6 a,
+
+#layout-main div.chartag-list span.size4 a,
+#layout-main div.chartag-list span.size5 a,
 #layout-main div.tag-column div.tag[weight="400"] .name a {
 	color: rgba(255,255,255, 0.8);
 }
+#layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size7 a,
 #layout-main div.tag-column div.tag[weight="500"] .name a {
 	color: #FDD;
