@@ -303,6 +303,9 @@
 #layout-main div.chartag-list span.size9 {
 	font-size: 200%;
 }
+#layout-main div.chartag-list span.size10 {
+	font-size: 220%;
+}
 
 #layout-main div.chartag-list span.hidden {display:none;}
 
