@@ -521,15 +521,15 @@ a.tooltip span.text:before
 #layout-main div.chartag-list span.size0 a,
 #layout-main div.chartag-list span.size1 a,
 #layout-main div.tag-column div.tag[weight="100"] .name a {
-	color: rgba(52, 57, 77, 0.1);
+	color: rgba(52, 57, 77, 0.2);
 }
 #layout-main div.chartag-list span.size2 a,
 #layout-main div.tag-column div.tag[weight="200"] .name a {
-	color: rgba(52, 57, 77, 0.2);
+	color: rgba(52, 57, 77, 0.4);
 }
 #layout-main div.chartag-list span.size3 a,
 #layout-main div.tag-column div.tag[weight="300"] .name a {
-	color: rgba(52, 57, 77, 0.4);
+	color: rgba(52, 57, 77, 0.6);
 }
 #layout-main div.chartag-list span.size4 a,
 #layout-main div.chartag-list span.size5 a,
@@ -548,13 +548,13 @@ a.tooltip span.text:before
 	color: #aa0000;
 }
 #layout-main div.tag-column div.tag[weight="100"] .weight {
-	opacity: 0.1;
-}
-#layout-main div.tag-column div.tag[weight="200"] .weight {
 	opacity: 0.2;
 }
-#layout-main div.tag-column div.tag[weight="300"] .weight {
+#layout-main div.tag-column div.tag[weight="200"] .weight {
 	opacity: 0.4;
+}
+#layout-main div.tag-column div.tag[weight="300"] .weight {
+	opacity: 0.6;
 }
 #layout-main div.tag-column div.tag[weight="400"] .weight {
 	opacity: 0.8;

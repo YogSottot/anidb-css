@@ -498,13 +498,13 @@ input[type="button"]:focus::-moz-focus-inner {
 	color: #FCC;
 }
 #layout-main div.tag-column div.tag[weight="100"] .weight {
-	opacity: 0.1;
-}
-#layout-main div.tag-column div.tag[weight="200"] .weight {
 	opacity: 0.2;
 }
-#layout-main div.tag-column div.tag[weight="300"] .weight {
+#layout-main div.tag-column div.tag[weight="200"] .weight {
 	opacity: 0.4;
+}
+#layout-main div.tag-column div.tag[weight="300"] .weight {
+	opacity: 0.6;
 }
 #layout-main div.tag-column div.tag[weight="400"] .weight {
 	opacity: 0.8;
