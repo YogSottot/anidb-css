@@ -80,11 +80,6 @@ th
 	background-color:#CBD6DE;
 }
 
-#layout-main tr.g_odd,
-#layout-main li.g_odd,
-#layout-main span.g_odd,
-#layout-main .g_odd .g_odd .g_odd,
-#layout-main .g_odd .g_odd .g_odd .g_odd .g_odd,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble
 {
@@ -165,8 +160,10 @@ button[type="submit"]:hover,
 	color: #000000;
 }
 
-#layout-main .g_odd .g_odd .g_odd .g_odd,
-#layout-main .g_odd .g_odd,
+tr.g_odd,
+li.g_odd,
+span.g_odd,
+div.g_odd,
 .g_bubble,
 .g_bubble .g_bubble .g_bubble,
 *.g_button a:hover,
