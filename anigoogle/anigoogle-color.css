@@ -352,7 +352,7 @@ a.tooltip span.text
 #layout-main div.chartag-list span.size2 a,
 #layout-main div.tag-column div.tag[weight="200"] .name a {
 	color: rgba(16, 82, 137, 0.6);
-
+}
 #layout-main div.chartag-list span.size3 a,
 #layout-main div.tag-column div.tag[weight="300"] .name a {
 	color: rgba(128, 0, 128, 1.0);
