@@ -80,16 +80,12 @@ th
 	background-color:#CBD6DE;
 }
 
-tr.g_odd,
-li.g_odd,
-span.g_odd,
-div.g_odd,
 .g_bubble .g_odd,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble
 {
-	background-color: #E5ECF9;
+	background-color: #F4F9FD;
 }
 
 #layout-tabs ul.main-tabs > li:hover,
@@ -166,6 +162,7 @@ button[type="submit"]:hover,
 	color: #000000;
 }
 
+tr,
 .g_bubble.g_odd,
 .g_bubble,
 .g_bubble .g_bubble .g_odd,
@@ -203,9 +200,12 @@ table
 	border-top-color: blue;
 }
 
+tr.g_odd,
+li.g_odd,
+span.g_odd,
+div.g_odd,
 *.g_button a,
 html,
-tr,
 #layout-main div.forum ul.topics li.row,
 #layout-tabs ul.main-tabs > li.selected,
 #layout-tabs ul.main-tabs > li:hover,
