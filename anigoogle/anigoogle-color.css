@@ -166,6 +166,7 @@ button[type="submit"]:hover,
 	color: #000000;
 }
 
+.g_bubble.g_odd,
 .g_bubble,
 .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble,
