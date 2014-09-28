@@ -316,12 +316,14 @@
 /*tag tree*/
 #tagtree div.tag-block {
 	padding:1em;
+	width:600px;
 }
 #tagtree div.tag-column div.tag {
 	-webkit-flex-direction: row;
 	-moz-flex-direction: row;
 	-ms-flex-direction: row;
 	flex-direction: row;
+	min-height: 24px;
 }
 #tagtree div.tag-column div.tag span.i_icon + span.name {
 	padding-left: 0.5em;
@@ -414,4 +416,8 @@
 
 #tagtree #toggle_all .name {
 	padding-left: 0.5em;
+}
+
+#tagtree div.tag-column div.tag span.weight {
+	min-width: 9em;
 }

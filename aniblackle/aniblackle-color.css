@@ -133,7 +133,7 @@ html,
 tr.g_odd,
 li.g_odd,
 span.g_odd,
-#layout-main div.addtagentityrel_all #tag-list div.g_odd
+div.g_odd
 {
 	background-color: #333333;
 }
@@ -317,6 +317,7 @@ button[type="submit"]:hover,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 tr + tr td,
 tr + tr th,
+#layout-main #tagtree div.tag-column div.tag,
 #layout-main div div.explanation div.description dl + dl,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.g_definitionlist tr th,
