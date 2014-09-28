@@ -314,7 +314,7 @@
 #layout-main div.chartag-list span.hidden {display:none;}
 
 /*tag tree*/
-#tagtree div.tag-block {
+#layout-main #tagtree div.tag-column .tag-block {
 	padding:1em;
 	width:600px;
 }
