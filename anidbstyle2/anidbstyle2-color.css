@@ -539,13 +539,13 @@ a.tooltip span.text:before
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size7 a,
 #layout-main div.tag-column div.tag[weight="500"] .name a {
-	color: rgba(200, 109, 109, 1.0);
+	color: rgba(210, 95, 95, 1.0);
 }
 #layout-main div.chartag-list span.size8 a,
 #layout-main div.chartag-list span.size9 a,
 #layout-main div.chartag-list span.size10 a,
 #layout-main div.tag-column div.tag[weight="600"] .name a {
-	color: rgba(200, 109, 109, 1.0);
+	color: rgba(210, 95, 95, 1.0);
 }
 #layout-main div.tag-column div.tag[weight="100"] .weight {
 	opacity: 0.3;
