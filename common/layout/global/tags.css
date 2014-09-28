@@ -274,12 +274,15 @@
 }
 
 /*character tag cloud sizes*/
+#layout-main div.tag-column div.tag[weight="100"] .name a,
 #layout-main div.chartag-list span.size0 {
 	font-size: 80%;
 }
+#layout-main div.tag-column div.tag[weight="200"] .name a,
 #layout-main div.chartag-list span.size1 {
 	font-size: 85%;
 }
+#layout-main div.tag-column div.tag[weight="200"] .name a,
 #layout-main div.chartag-list span.size2 {
 	font-size: 90%;
 }
