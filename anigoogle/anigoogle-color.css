@@ -389,4 +389,5 @@ a.tooltip span.text
 #layout-main div.chartag-list a:hover,
 #layout-main div.tag-column a:hover {
 	color: #AA0000 !important;
+	opacity: 1.0 !important;
 }
