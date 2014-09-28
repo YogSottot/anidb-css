@@ -80,6 +80,10 @@ th
 	background-color:#CBD6DE;
 }
 
+tr.g_odd,
+li.g_odd,
+span.g_odd,
+div.g_odd,
 .g_bubble .g_odd,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_odd,
@@ -162,10 +166,6 @@ button[type="submit"]:hover,
 	color: #000000;
 }
 
-tr.g_odd,
-li.g_odd,
-span.g_odd,
-div.g_odd,
 .g_bubble,
 .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble,
