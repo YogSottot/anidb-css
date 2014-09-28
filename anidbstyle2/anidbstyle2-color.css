@@ -512,11 +512,11 @@ a.tooltip span.text:before
 
 /*tag cloud*/
 #layout-main div.tag-column div.tag[weight="0"] .name a {
-	color: rgba(0,0,0,0.6);
+	color: rgba(0, 0, 0, 0.6);
 }
 #layout-main div.tag-column div.tag.abstract[weight="0"] .name a,
 #layout-main div.tag-column span.not_added a {
-	color: rgba(0,0,0,0.4);
+	color: rgba(0, 0, 0, 0.4);
 }
 #layout-main div.chartag-list span.size0 a,
 #layout-main div.chartag-list span.size1 a,
