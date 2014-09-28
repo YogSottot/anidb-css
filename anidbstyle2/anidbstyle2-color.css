@@ -208,8 +208,6 @@ button[type="submit"]:hover,
 html,
 #layout-menu,
 #layout-main div.format-buttons input,
-#layout-main .g_odd .g_odd,
-#layout-main .g_odd .g_odd .g_odd .g_odd,
 #layout-main tr.g_odd,
 #layout-main li.g_odd,
 #layout-main span.g_odd,
@@ -231,6 +229,8 @@ html,
 	background-color: #B9BBBF;
 }
 
+#layout-main .g_odd .g_odd .g_odd .g_odd,
+#layout-main .g_odd .g_odd,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-main div.forum ul.topics li.row,
@@ -238,8 +238,7 @@ html,
 #layout-tabs ul.main-tabs li:hover,
 #layout-content,
 body.nonav,
-tr,
-#layout-main div.g_odd
+tr
 {
 	background-color: #CFD1D4;
 }
