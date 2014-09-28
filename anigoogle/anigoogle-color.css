@@ -80,9 +80,7 @@ th
 	background-color:#CBD6DE;
 }
 
-.g_bubble .g_odd,
 .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble
 {
 	background-color: #F4F9FD;
@@ -206,6 +204,8 @@ span.g_odd,
 div.g_odd,
 *.g_button a,
 html,
+.g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.forum ul.topics li.row,
 #layout-tabs ul.main-tabs > li.selected,
 #layout-tabs ul.main-tabs > li:hover,
