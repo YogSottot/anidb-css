@@ -193,7 +193,9 @@ button[type="submit"]:hover,
 }
 
 .g_bubble,
+.g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
 #layout-main div.forum ul.topics li.g_odd.row,
@@ -206,7 +208,11 @@ button[type="submit"]:hover,
 }
 
 html,
-#layout-menu,
+#layout-menu
+{
+	background-color: #B9BBBF;
+}
+
 #layout-main div.format-buttons input,
 #layout-main tr.g_odd,
 #layout-main li.g_odd,
@@ -224,15 +230,11 @@ html,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd,
-#layout-main div.addtagentityrel_all #tag-list div.g_odd
-{
-	background-color: #B9BBBF;
-}
-
-#layout-main .g_odd .g_odd .g_odd .g_odd,
-#layout-main .g_odd .g_odd,
+#layout-main div.addtagentityrel_all #tag-list div.g_odd,
+.g_bubble .g_odd,
 .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble
 #layout-main div.forum ul.topics li.row,
 #layout-tabs ul.main-tabs li.selected,
 #layout-tabs ul.main-tabs li:hover,

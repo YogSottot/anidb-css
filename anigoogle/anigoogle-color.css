@@ -80,10 +80,10 @@ th
 	background-color:#CBD6DE;
 }
 
-.g_bubble .g_odd,
-.g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_odd,
-.g_bubble .g_bubble .g_bubble .g_bubble
+.g_bubble,
+.g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 {
 	background-color: #F4F9FD;
 }
@@ -166,10 +166,10 @@ tr.g_odd,
 li.g_odd,
 span.g_odd,
 div.g_odd,
-.g_bubble,
-.g_bubble .g_bubble .g_odd,
-.g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_odd,
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble
 *.g_button a:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.selected,
