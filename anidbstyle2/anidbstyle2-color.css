@@ -192,6 +192,8 @@ button[type="submit"]:hover,
 	border-left-color: #999999;
 }
 
+html,
+#layout-menu,
 .g_bubble,
 .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble,
@@ -204,12 +206,6 @@ button[type="submit"]:hover,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	background-color: #B1B3B5;
-}
-
-html,
-#layout-menu
-{
-	background-color: #B9BBBF;
 }
 
 tr.g_odd,
