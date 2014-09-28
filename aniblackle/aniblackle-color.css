@@ -47,8 +47,15 @@ button[type="submit"]:hover,
 	color: #FFFFFF;
 }
 
-#layout-main .g_odd .g_odd .g_odd .g_odd,
-#layout-main .g_odd .g_odd,
+
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.votes_all div.graph.eps div.g_odd,
+tr.g_odd,
+li.g_odd,
+span.g_odd,
+div.g_odd
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-main div.animeatt_all div.review > h4,
@@ -107,14 +114,8 @@ html,
 .g_bubble .g_bubble .g_bubble,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
-#layout-main div.forum ul.topics li.g_odd.row,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd,
-tr.g_odd,
-li.g_odd,
-span.g_odd,
-div.g_odd
+#layout-main .g_odd .g_odd .g_odd .g_odd,
+#layout-main .g_odd .g_odd
 {
 	background-color: #404040;
 }
