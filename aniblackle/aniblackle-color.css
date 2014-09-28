@@ -104,9 +104,9 @@ html,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div div.addrelform table tr,
 .g_bubble,
-.g_bubble .g_odd,
+.g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
