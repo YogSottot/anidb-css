@@ -213,7 +213,6 @@ html,
 #layout-main tr.g_odd,
 #layout-main li.g_odd,
 #layout-main span.g_odd,
-#layout-main div.g_odd,
 #layout-main .g_odd .g_odd .g_odd,
 #layout-main .g_odd .g_odd .g_odd .g_odd .g_odd,
 #layout-main div.forum div.g_bubble.search,
@@ -239,7 +238,8 @@ html,
 #layout-tabs ul.main-tabs li:hover,
 #layout-content,
 body.nonav,
-tr
+tr,
+#layout-main div.g_odd
 {
 	background-color: #CFD1D4;
 }
