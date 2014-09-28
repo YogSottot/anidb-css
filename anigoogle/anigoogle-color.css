@@ -80,7 +80,9 @@ th
 	background-color:#CBD6DE;
 }
 
+.g_bubble .g_odd,
 .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble
 {
 	background-color: #F4F9FD;
@@ -165,7 +167,9 @@ li.g_odd,
 span.g_odd,
 div.g_odd,
 .g_bubble,
+.g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_odd,
 *.g_button a:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.selected,
