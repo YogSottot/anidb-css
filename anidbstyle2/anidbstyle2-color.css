@@ -45,7 +45,6 @@ span.link:hover,
 
 tr + tr td,
 tr + tr th,
-#layout-main #tagtree div.tag-column div.tag,
 #layout-main div div.explanation div.description dl + dl,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.g_definitionlist tr th,
@@ -192,57 +191,54 @@ button[type="submit"]:hover,
 	border-left-color: #999999;
 }
 
+.g_bubble,
+.g_bubble .g_bubble .g_bubble,
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.forum div.g_bubble.events,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
+{
+	background-color: #B1B3B5;
+}
+
 html,
 #layout-menu,
-tr.g_odd,
-li.g_odd,
-span.g_odd,
-div.g_odd,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.forum ul.topics li.g_odd.row,
-.g_bubble,
-.g_bubble .g_bubble .g_odd,
-.g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.format-buttons input,
-#layout-main div.forum ul.topics li.row,
+#layout-main .g_odd .g_odd,
+#layout-main .g_odd .g_odd .g_odd .g_odd,
+#layout-main tr.g_odd,
+#layout-main li.g_odd,
+#layout-main span.g_odd,
+#layout-main .g_odd .g_odd .g_odd,
+#layout-main .g_odd .g_odd .g_odd .g_odd .g_odd,
 #layout-main div.forum div.g_bubble.search,
 #layout-main div.forum div.g_bubble.navbar,
 #layout-main div.forum div.g_bubble.posting-box,
 #layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected,
-#layout-main div.forum div.g_bubble.events
-{
-	background-color: #B1B3B5;
-}
-
-.g_odd .g_bubble,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.addtagentityrel_all div.suggestions > span.focus,
-#layout-main div.addtagentityrel_all div.suggestions > span:hover
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.votes_all div.graph.eps div.g_odd,
+#layout-main div.addtagentityrel_all #tag-list div.g_odd
 {
 	background-color: #B9BBBF;
 }
 
+.g_odd .g_bubble,
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble,
+#layout-main div.forum ul.topics li.row,
+#layout-tabs ul.main-tabs li.selected,
+#layout-tabs ul.main-tabs li:hover,
 #layout-content,
 body.nonav,
-.g_bubble .g_odd,
-.g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_odd,
-.g_bubble .g_bubble .g_bubble .g_bubble,
-#layout-main div.tabbed_pane ul.tabs li,
-#layout-tabs ul.main-tabs > li.selected,
-#layout-tabs ul.main-tabs > li:hover,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover,
-#layout-main div.search_all div.suggestions,
-#layout-main div.forum ul.topics li.row
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row
+tr
 {
 	background-color: #CFD1D4;
 }
@@ -297,7 +293,8 @@ select,
 
 #layout-main div.profile_all div.default_languages table tr,
 #layout-main div div.addrelform table tr,
-#layout-main div.anime_all div.data table.relationlist tr
+#layout-main div.anime_all div.data table.relationlist tr,
+#layout-main div.tabbed_pane div.body div.pane ul *.g_odd
 {
 	background-color: inherit;
 }
