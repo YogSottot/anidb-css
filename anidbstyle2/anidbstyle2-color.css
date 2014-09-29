@@ -190,6 +190,10 @@ button[type="submit"]:hover,
 {
 	border-left-color: #999999;
 }
+tr
+{
+	background-color: #CFD1D4;
+}
 
 .g_bubble,
 .g_bubble.g_odd,
