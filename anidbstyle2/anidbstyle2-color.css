@@ -192,53 +192,51 @@ button[type="submit"]:hover,
 	border-left-color: #999999;
 }
 
-html,
-#layout-menu,
-#layout-main div.format-buttons input,
-tr.g_odd,
-li.g_odd,
-span.g_odd,
-div.g_odd,
-.g_bubble .g_bubble .g_odd,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble,
+.g_bubble.g_odd,
+.g_bubble .g_bubble .g_bubble,
+.g_odd .g_bubble .g_odd,
+#layout-main div.forum div.g_bubble.events,
 #layout-main div.forum div.g_bubble.search,
 #layout-main div.forum div.g_bubble.navbar,
 #layout-main div.forum div.g_bubble.posting-box,
 #layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd,
-#layout-main div.addtagentityrel_all #tag-list div.g_odd,
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
 #layout-main div.forum ul.topics li.g_odd.row,
-#layout-main div.forum div.g_bubble.events,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row
-{
-	background-color: #B1B3B5;
-}
-
-.g_bubble.g_odd,
-.g_bubble,
-.g_bubble .g_bubble .g_bubble,
-#layout-main div.forum ul.topics li.row:hover,
-#layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	background-color: #B9BBBF;
 }
 
+html,
+tr.g_odd,
+li.g_odd,
+span.g_odd,
+div.g_odd,
+#layout-menu,
+#layout-main div.format-buttons input,
+#layout-main div.forum ul.topics li.row:hover,
+#layout-main div.forum ul.topics li.g_odd.row:hover,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.votes_all div.graph.eps div.g_odd,
+#layout-main div.addtagentityrel_all #tag-list div.g_odd
+{
+	background-color: #B1B3B5;
+}
+
 .g_bubble .g_odd,
+.g_odd .g_bubble,
 .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_odd,
-.g_bubble .g_bubble .g_bubble .g_bubble
+.g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-main div.forum ul.topics li.row,
 #layout-tabs ul.main-tabs li.selected,
 #layout-tabs ul.main-tabs li:hover,
-#layout-main div.forum ul.topics li.row,
 #layout-content,
 body.nonav
 {
@@ -480,6 +478,17 @@ div.quotebody
 	border-color: #DEBFC3 #C4939F #C4939F #DEBFC3;
 }
 
+#layout-tabs ul.main-tabs > li:hover,
+#layout-tabs ul.main-tabs > li.selected
+{
+	border-bottom-color: #CFD1D4;
+}
+
+#layout-tabs ul.main-tabs > li
+{
+	border-bottom-color: #34394d;
+}
+
 /*tooltip*/
 a.tooltip span.text {
 	background-color: #d3d5d9 !important;
@@ -504,7 +513,7 @@ a.tooltip span.text:before
 
 /*quicksearch*/
 #layout-search ul.quicksearch {
-	background-color: #b1b3b5;
+	background-color: #B9BBBF;
 	border-color: #34394d;
 }
 

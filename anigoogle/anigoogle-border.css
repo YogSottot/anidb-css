@@ -13,12 +13,12 @@ table {
 #layout-tabs ul.main-tabs > li:hover,
 #layout-tabs ul.main-tabs > li.selected
 {
-	border-bottom: 1px double;
+	border-bottom: 2px double;
 }
 
 #layout-tabs ul.main-tabs > li
 {
-	border-bottom: none;
+	border-bottom: 2px double;
 }
 
 #layout-main div.tabbed_pane_cfg div.body,
@@ -32,7 +32,7 @@ table {
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected
 {
-	border-bottom: 1px double #ECF4FD;
+	border-bottom: 2px double #ECF4FD;
 }
 
 tr + tr td,
