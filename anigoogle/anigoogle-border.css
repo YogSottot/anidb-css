@@ -36,6 +36,8 @@ table {
 }
 
 tr + tr td,
+li.g_odd + li,
+li + li.g_odd,
 #layout-main div div.explanation div.description dl + dl,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
