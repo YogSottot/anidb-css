@@ -192,7 +192,6 @@ button[type="submit"]:hover,
 }
 
 .g_bubble,
-.g_bubble .g_odd,
 .g_bubble.g_odd,
 .g_bubble .g_bubble .g_bubble,
 #layout-main div.forum div.g_bubble.events,
@@ -229,6 +228,7 @@ div.g_odd,
 	background-color: #B1B3B5;
 }
 
+.g_bubble .g_odd,
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
