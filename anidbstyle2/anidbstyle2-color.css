@@ -194,11 +194,8 @@ button[type="submit"]:hover,
 
 html,
 #layout-menu,
-.g_odd .g_bubble,
-.g_bubble .g_bubble,
+.g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_odd,
-.g_bubble .g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.format-buttons input,
 #layout-main div.forum ul.topics li.row,
 #layout-main div.forum div.g_bubble.search,
@@ -208,21 +205,21 @@ html,
 #layout-main div.forum div.g_bubble.options-box,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-main div.forum div.g_bubble.events
 {
 	background-color: #B1B3B5;
 }
 
-.g_bubble.g_odd,
-.g_bubble,
-.g_bubble .g_bubble .g_bubble,
+.g_odd .g_bubble,
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
-#layout-main div.addtagentityrel_all div.suggestions > span:hover,
-#layout-main div.forum div.g_bubble.events
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
 	background-color: #B9BBBF;
 }
@@ -233,10 +230,12 @@ tr.g_odd,
 li.g_odd,
 span.g_odd,
 div.g_odd,
-.g_bubble .g_bubble .g_odd,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.forum ul.topics li.g_odd.row,
+.g_bubble,
+.g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-tabs ul.main-tabs li.selected,
 #layout-tabs ul.main-tabs li:hover
