@@ -18,7 +18,7 @@ table {
 
 #layout-tabs ul.main-tabs > li
 {
-	border-bottom: none;
+	border-bottom: 2px double;
 }
 
 #layout-main div.tabbed_pane_cfg div.body,

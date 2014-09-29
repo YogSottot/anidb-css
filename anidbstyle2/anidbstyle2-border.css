@@ -5,12 +5,6 @@
 	border-top: 1px double #34394D;
 }
 
-#layout-tabs ul.main-tabs li.selected,
-#layout-tabs ul.main-tabs li:hover
-{
-	border-bottom: 2px double #CFD1D4;
-}
-
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected
 {
