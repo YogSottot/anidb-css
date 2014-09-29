@@ -45,6 +45,7 @@ span.link:hover,
 
 tr + tr td,
 tr + tr th,
+#layout-main #tagtree div.tag-column div.tag,
 #layout-main div div.explanation div.description dl + dl,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.g_definitionlist tr th,
