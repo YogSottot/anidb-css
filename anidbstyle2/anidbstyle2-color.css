@@ -208,7 +208,7 @@ button[type="submit"]:hover,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
-	background-color: #B1B3B5;
+	background-color: #B9BBBF;
 }
 
 html,
@@ -226,7 +226,7 @@ div.g_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd,
 #layout-main div.addtagentityrel_all #tag-list div.g_odd
 {
-	background-color: #B9BBBF;
+	background-color: #B1B3B5;
 }
 
 .g_odd .g_bubble,
