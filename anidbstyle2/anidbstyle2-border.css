@@ -8,13 +8,13 @@
 #layout-tabs ul.main-tabs li.selected,
 #layout-tabs ul.main-tabs li:hover
 {
-	border-bottom: 1px double #CFD1D4;
+	border-bottom: 2px double #CFD1D4;
 }
 
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected
 {
-	border-bottom: 1px double #B9BBBF;
+	border-bottom: 2px double #B9BBBF;
 }
 
 #layout-menu li.sub-menu li:first-child:hover
