@@ -503,6 +503,7 @@ input[type="button"]:focus::-moz-focus-inner {
 }
 #layout-main div.chartag-list span.size8 a,
 #layout-main div.chartag-list span.size9 a,
+#layout-main div.chartag-list span.size10 a,
 #layout-main div.tag-column div.tag[weight="600"] .name a {
 	color: #FCC;
 }
