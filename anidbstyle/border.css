@@ -119,6 +119,7 @@ img, a
 	border-radius: 5px;
 }
 
+#layout-main div.animeatt_reviews div.review h4,
 #layout-main div.userpage_all div.blog div.g_timedentry h4
 {
 	-moz-border-radius:0 10px 0 0;
@@ -127,6 +128,7 @@ img, a
 	border-top:none;
 }
 
+#layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp
 {
 	border-top:1px solid;

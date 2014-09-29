@@ -17,7 +17,8 @@ a.i_button:hover
 #layout-tabs,
 input[type="text"],
 input[type="password"],
-textarea
+textarea,
+#layout-main div.userpage_all div.content > h3
 {
 	font-size: 1.2em;
 }
@@ -36,13 +37,13 @@ input[type="submit"],
 	font-size: 1.1em;
 }
 
-#layout-main div.userpage_all div.blog div.g_timedentry h4
-{
+#layout-main div.animeatt_reviews div.review h4,
+#layout-main div.userpage_all div.blog div.g_timedentry h4 {
 	font-size: 1.4em;
 }
 
-#layout-main div.userpage_all div.blog div.g_timedentry span.stamp
-{
+#layout-main div.animeatt_reviews div.review span.stamp,
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
 	font-size: .9em;
 }
 
@@ -60,4 +61,18 @@ input[type="button"]
 #layout-main div.spoiler input.button
 {
 	font-weight: 400;
+}
+
+#layout-main div.chartag-list span.size6 a,
+#layout-main div.chartag-list span.size9 a,
+#layout-main div.chartag-list span.size10 a,
+#layout-main div.tag-column div.tag[weight="0"] .name a,
+#layout-main div.tag-column div.tag[weight="400"] .name a,
+#layout-main div.tag-column div.tag[weight="600"] .name a {
+	font-weight: bold;
+}
+
+#layout-main div.tag-column div.tag[weight="500"] .name a,
+#layout-main div.tag-column div.tag[weight="600"] .name a {
+	font-size: 14px;
 }

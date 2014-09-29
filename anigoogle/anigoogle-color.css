@@ -112,11 +112,13 @@ button[type="submit"]:hover,
 	color: #AA0000;
 }
 
+#layout-main div.animeatt_reviews div.review span.stamp a,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp a
 {
 	color: #999999;
 }
 
+#layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp
 {
 	border-top-color: #C9D7F1;
@@ -158,11 +160,12 @@ button[type="submit"]:hover,
 	color: #000000;
 }
 
-tr.g_odd,
-li.g_odd,
-span.g_odd,
+tr,
+.g_bubble.g_odd,
 .g_bubble,
+.g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 *.g_button a:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.selected,
@@ -179,7 +182,6 @@ span.g_odd,
 #layout-main div.profile_all div.default_languages table tr,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.main_all div.header div.account ul.tabs li.signup,
-#layout-main div.forum div.g_bubble.comment,
 #layout-main div.forum div.g_bubble.events,
 input[type="submit"]:hover,
 button[type="submit"]:hover,
@@ -196,9 +198,14 @@ table
 	border-top-color: blue;
 }
 
+tr.g_odd,
+li.g_odd,
+span.g_odd,
+div.g_odd,
 *.g_button a,
 html,
-tr,
+.g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.forum ul.topics li.row,
 #layout-tabs ul.main-tabs > li.selected,
 #layout-tabs ul.main-tabs > li:hover,
@@ -332,4 +339,60 @@ a.tooltip span.text
 #layout-search ul.quicksearch li:hover,
 #layout-search ul.quicksearch li.focus {
 	background-color:#ecf4fd;
+}
+
+/*tag cloud*/
+#layout-main div.tag-column div.tag[weight="0"] .name a {
+	color: rgba(0, 0, 0, 0.6);
+}
+#layout-main div.tag-column div.tag.abstract[weight="0"] .name a,
+#layout-main div.tag-column span.not_added a {
+	color: rgba(0, 0, 0, 0.3);
+}
+#layout-main div.chartag-list span.size0 a,
+#layout-main div.chartag-list span.size1 a,
+#layout-main div.tag-column div.tag[weight="100"] .name a {
+	color: rgba(16, 82, 137, 0.5);
+}
+#layout-main div.chartag-list span.size2 a,
+#layout-main div.tag-column div.tag[weight="200"] .name a {
+	color: rgba(16, 82, 137, 0.6);
+}
+#layout-main div.chartag-list span.size3 a,
+#layout-main div.tag-column div.tag[weight="300"] .name a {
+	color: rgba(16, 82, 137, 0.7);
+}
+#layout-main div.chartag-list span.size4 a,
+#layout-main div.chartag-list span.size5 a,
+#layout-main div.tag-column div.tag[weight="400"] .name a {
+	color: rgba(16, 82, 137, 0.8);
+}
+#layout-main div.chartag-list span.size6 a,
+#layout-main div.chartag-list span.size7 a,
+#layout-main div.tag-column div.tag[weight="500"] .name a {
+	color: rgba(16, 82, 137, 1.0);
+}
+#layout-main div.chartag-list span.size8 a,
+#layout-main div.chartag-list span.size9 a,
+#layout-main div.chartag-list span.size10 a,
+#layout-main div.tag-column div.tag[weight="600"] .name a {
+	color: rgba(16, 82, 137, 1.0);
+}
+#layout-main div.tag-column div.tag[weight="100"] .weight {
+	opacity: 0.3;
+}
+#layout-main div.tag-column div.tag[weight="200"] .weight {
+	opacity: 0.4;
+}
+#layout-main div.tag-column div.tag[weight="300"] .weight {
+	opacity: 0.6;
+}
+#layout-main div.tag-column div.tag[weight="400"] .weight {
+	opacity: 0.8;
+}
+
+#layout-main div.chartag-list a:hover,
+#layout-main div.tag-column a:hover {
+	color: #AA0000 !important;
+	opacity: 1.0 !important;
 }

@@ -68,9 +68,9 @@
 
 #layout-main div.main_all div.datablocks div.stripe
 {
-	height:7.5em;
+	height:8.7em;
+	max-height: 8.7em;
 	width:100%;
-	overflow:hidden;
 }
 
 #layout-main div.main_all div.datablocks div.similaranime div.stripe div.data
@@ -84,10 +84,11 @@
 	margin-bottom:0.2em;
 }
 
-#layout-main div.main_all div.latestnews div.hidden,
-#layout-main div.main_all div.datablocks div.hidden
-{
-	display: none;
+#layout-main div.main_all #latestaired,
+#layout-main div.main_all #latestended,
+#layout-main div.main_all #randanime,
+#layout-main div.main_all #randcreator {
+	display:none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -100,23 +101,23 @@
 	#layout-main div.main_all div.datablocks > div {
     		max-width: calc(33% - 5px);
 	}
+
+	#layout-main div.main_all #latestaired,
+	#layout-main div.main_all #randcreator {
+		display:block;
+	}
 }
 
 @media screen and (min-width: 1580px) {
-	#layout-main div.main_all div.datablocks {
-		-webkit-flex-wrap: nowrap;
-		-moz-flex-wrap: nowrap;
-		-ms-flex-wrap: nowrap;
-		flex-wrap: nowrap;
-	}
-
 	#layout-main div.main_all div.datablocks > div {
-    		max-width: none;
+    		max-width: calc(25% - 5px);
 	}
 
-	#layout-main div.main_all div.latestnews div.hidden,
-	#layout-main div.main_all div.datablocks div.hidden {
-		display: inline-block;
+	#layout-main div.main_all #latestaired,
+	#layout-main div.main_all #latestended,
+	#layout-main div.main_all #randanime,
+	#layout-main div.main_all #randcreator {
+		display:block;
 	}
 }
 

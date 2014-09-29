@@ -216,15 +216,8 @@
 #layout-main div.userpage_all > div.g_section div.content
 {
 	margin-top:0.5em;
-}
-
-#layout-main div.userpage_all div.userprefs > div,
-#layout-main div.userpage_all div.clubs div.joined > div,
-#layout-main div.userpage_all div.clubs div.created > div
-{
-    -moz-column-width: 400px;
-    -webkit-column-width: 400px;
-    column-width: 400px;
+	clear: none;
+	width:100%;
 }
 
 #layout-main div.userpage_all .g_bubble.stripe.recommendation
@@ -275,9 +268,39 @@
 	margin-top: 0;
 }
 
+#layout-main div.userpage_all .g_section.discussions > div {
+    display: inline-table;
+    vertical-align: top;
+}
 
 /*hack because webkit sucks*/
 #layout-main div.userpage_all .g_bubble.stripe
 {
 	position: inherit;
+}
+
+/*get all the boxes to the same size*/
+@supports (flex-wrap: wrap) {
+	#layout-main div.userpage_all .userprefs .content > div,
+	#layout-main div.userpage_all .clubs .content > div {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-justify-content: center;
+		-webkit-justify-content: center;
+		-moz-justify-content: center;
+		justify-content: center;
+	}
+
+	#layout-main div.userpage_all .userprefs .content .g_bubble.stripe,
+	#layout-main div.userpage_all .clubs .content .g_bubble.stripe {
+	    margin: 0.2em;
+	    min-height: 0;
+	}
 }

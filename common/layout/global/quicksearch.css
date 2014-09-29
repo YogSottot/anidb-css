@@ -28,7 +28,7 @@
 	margin-top:-1px;
 	margin-bottom: 0;
 	width:auto;
-	min-height: 62px;
+	min-height: 6.4em;
 }
 
 #layout-search ul.quicksearch .g_bubble.stripe > div.data div.name {
@@ -36,7 +36,7 @@
 }
 
 #layout-search ul.quicksearch.songlist .g_bubble.stripe {
-    min-height: 40px;
+    min-height: 4.4em;
 }
 
 #layout-search ul.quicksearch.songlist .g_bubble.stripe div.image {

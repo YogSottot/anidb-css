@@ -1,8 +1,3 @@
-#layout-main div.collection_all ul.links_top
-{
-	display:none;
-}
-
 #layout-main div.collection_all div.tracks div.medium td.trackno
 {
 	width: 4em;
