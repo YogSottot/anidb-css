@@ -237,8 +237,7 @@ div.g_odd,
 #layout-tabs ul.main-tabs li.selected,
 #layout-tabs ul.main-tabs li:hover,
 #layout-content,
-body.nonav,
-tr
+body.nonav
 {
 	background-color: #CFD1D4;
 }
