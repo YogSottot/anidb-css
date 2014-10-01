@@ -3,3 +3,34 @@
 {
 	width: 100%
 }
+
+#layout-main div.mydb_all table td,
+#layout-main div.modlatest_all table  td {
+	min-width: 10em;
+	max-width: 10em;
+}
+
+#layout-main div.mydb_all table td.id,
+#layout-main div.modlatest_all table  td.id,
+#layout-main div.mydb_all table td.ep,
+#layout-main div.modlatest_all table  td.ep,
+#layout-main div.mydb_all table td.eps,
+#layout-main div.modlatest_all table  td.eps,
+#layout-main div.mydb_all table td.epno,
+#layout-main div.modlatest_all table  td.epno {
+	min-width: 3em;
+	max-width: 3em;
+}
+
+#layout-main div.mydb_all table td.year,
+#layout-main div.modlatest_all table  td.year,
+#layout-main div.mydb_all table td.aired,
+#layout-main div.modlatest_all table  td.aired {
+	min-width: 7em;
+	max-width: 7em;
+}
+
+#layout-main div.mydb_all table td.title,
+#layout-main div.modlatest_all table  td.title {
+	width: 50%;
+}
