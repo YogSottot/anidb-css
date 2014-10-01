@@ -51,7 +51,7 @@ odd = dark
 /* #layout-main table.wishlist tbody tr, */
 /* #layout-main table.wishlist tr.mylist, */
 {
-background-color: #B8E3B8;
+  background-color: #B8E3B8;
 }
 #layout-main td.g_odd ins,
 #layout-main table.filelist tr.g_odd.good,
@@ -78,7 +78,7 @@ background-color: #B8E3B8;
 /* #layout-main table.wishlist tbody tr.g_odd, */
 /* #layout-main table.wishlist tr.g_odd.mylist, */
 {
-background-color: #85D485;
+  background-color: #85D485;
 }
 /* red */
 #layout-main td del,
@@ -91,7 +91,7 @@ background-color: #85D485;
 #layout-main table.filelist tr.deprecated,
 #layout-main table.filelist tr.invalid
 {
-	background-color: #E69696;
+  background-color: #E69696;
 }
 
 #layout-main .different,
@@ -102,14 +102,14 @@ background-color: #85D485;
 #layout-main table.filelist tr.g_odd.deprecated,
 #layout-main table.filelist tr.g_odd.invalid
 {
-	background-color: #E67878;
+  background-color: #E67878;
 }
 
 /*anime-group in my list, completion bar, from green to red (for readability)*/
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
 #layout-main div.group_all div.group_released td.epbar div.done.mylist
 {
-border-bottom: 3px solid #FF0000;
+  border-bottom: 3px solid #FF0000;
 }
 
 /*
@@ -120,11 +120,12 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 1. red default
 2. red .collecting
 3. blue .complete
-4. black .dropped
-5. orange .completed
-6. orange .watching
-7. red .stalled
-8. green .all_watched
+4. orange .completed
+5. green .all_watched
+6. black .dropped
+7. orange .watching
+8. red .stalled
+
 */
 /*default colour: red for if not fully collected (missing files), and have not started*/
 #layout-main div.producer_all table tr.mylist,
@@ -149,7 +150,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 /* #layout-main table.wishlist tbody tr, */
 #layout-main table.wishlist tr.mylist
 {
-background-color: #E69696;
+  background-color: #E69696;
 }
 #layout-main div.producer_all table tr.g_odd.mylist,
 #layout-main div.latest2_all table tr.g_odd.mylist,
@@ -173,7 +174,7 @@ background-color: #E69696;
 /* #layout-main table.wishlist tbody tr.g_odd, */
 #layout-main table.wishlist tr.g_odd.mylist
 {
-background-color: #E67878;
+  background-color: #E67878;
 }
 
 /* red for default .collecting state */
@@ -183,7 +184,7 @@ background-color: #E67878;
 #layout-main div.timeline_all div.timeline ul.row li.collecting a,
 .g_bubble.box.mylist.collecting > div.top
 {
-background-color: #E69696 !important;
+  background-color: #E69696 !important;
 }
 #layout-main .mylist.g_odd.collecting,
 #layout-main table.animelist .g_odd.collecting,
@@ -192,7 +193,7 @@ background-color: #E69696 !important;
 .g_odd.g_bubble.box.mylist.collecting > div.top,
 #layout-main .g_odd .mylist.collecting
 {
-background-color: #E67878 !important;
+  background-color: #E67878 !important;
 }
 
 /*blue for .complete (fully collected and "ready to watch")*/
@@ -202,7 +203,7 @@ background-color: #E67878 !important;
 #layout-main div.timeline_all div.timeline ul.row li.complete a,
 .g_bubble.box.mylist.complete > div.top
 {
-background-color: #71D8DE !important;
+  background-color: #71D8DE !important;
 }
 #layout-main .mylist.g_odd.complete,
 #layout-main table.animelist .g_odd.complete,
@@ -211,7 +212,45 @@ background-color: #71D8DE !important;
 .g_odd.g_bubble.box.mylist.complete > div.top,
 #layout-main .g_odd .mylist.complete
 {
-background-color: #68CACE !important;
+  background-color: #68CACE !important;
+}
+
+/*orange for mylist state .completed */
+#layout-main .mylist.completed,
+#layout-main table.animelist .completed,
+#layout-main table.wishlist .completed,
+#layout-main div.timeline_all div.timeline ul.row li.completed a,
+.g_bubble.box.mylist.completed > div.top
+{
+  background-color: #FFB84D !important;
+}
+#layout-main .mylist.g_odd.completed,
+#layout-main table.animelist .g_odd.completed,
+#layout-main table.wishlist .g_odd.completed,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
+.g_odd.g_bubble.box.mylist.completed > div.top,
+#layout-main .g_odd .mylist.completed
+{
+  background-color: #FFA319 !important;
+}
+
+/*green for .all_watched */
+#layout-main .mylist.all_watched,
+#layout-main table.animelist .all_watched,
+#layout-main table.wishlist .all_watched,
+#layout-main div.timeline_all div.timeline ul.row li.all_watched a,
+.g_bubble.box.mylist.all_watched > div.top
+{
+  background-color: #B8E3B8 !important;
+}
+#layout-main .mylist.g_odd.all_watched,
+#layout-main table.animelist .g_odd.all_watched,
+#layout-main table.wishlist .g_odd.all_watched,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.all_watched a,
+.g_odd.g_bubble.box.mylist.all_watched > div.top,
+#layout-main .g_odd .mylist.all_watched
+{
+  background-color: #85D485 !important;
 }
 
 /*black for .dropped */
@@ -225,11 +264,11 @@ background-color: #68CACE !important;
 #layout-main div.timeline_all div.timeline ul.row li.dropped a,
 .g_bubble.box.mylist.dropped > div.top
 {
-background-color: #303030 !important;
-color: #FFFFFF;
+  background-color: #303030 !important;
+  color: #FFFFFF;
 }
 #layout-main .mylist.dropped div.tooltip {
-color: initial;
+  color: initial;
 }
 #layout-main .mylist.g_odd.dropped,
 #layout-main .mylist.g_odd.dropped > :not(.image) > :not(.tooltip) a.name-colored,
@@ -242,11 +281,11 @@ color: initial;
 .g_odd.g_bubble.box.mylist.dropped > div.top,
 #layout-main .g_odd .mylist.dropped
 {
-background-color: #000000 !important;
-color: #FFFFFF;
+  background-color: #000000 !important;
+  color: #FFFFFF;
 }
 #layout-main .mylist.g_odd.dropped div.tooltip {
-color: initial;
+  color: initial;
 }
 
 /*orange for .watching */
@@ -256,7 +295,7 @@ color: initial;
 #layout-main div.timeline_all div.timeline ul.row li.watching a,
 .g_bubble.box.mylist.watching > div.top
 {
-background-color: #FFB84D !important;
+  background-color: #FFB84D !important;
 }
 #layout-main .mylist.g_odd.watching,
 #layout-main table.animelist .g_odd.watching,
@@ -265,26 +304,7 @@ background-color: #FFB84D !important;
 .g_odd.g_bubble.box.mylist.watching > div.top,
 #layout-main .g_odd .mylist.watching
 {
-background-color: #FFA319 !important;
-}
-
-/*orange for mylist state .completed */
-#layout-main .mylist.completed,
-#layout-main table.animelist .completed,
-#layout-main table.wishlist .completed,
-#layout-main div.timeline_all div.timeline ul.row li.completed a,
-.g_bubble.box.mylist.completed > div.top
-{
-background-color: #FFB84D !important;
-}
-#layout-main .mylist.g_odd.completed,
-#layout-main table.animelist .g_odd.completed,
-#layout-main table.wishlist .g_odd.completed,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
-.g_odd.g_bubble.box.mylist.completed > div.top,
-#layout-main .g_odd .mylist.completed
-{
-background-color: #FFA319 !important;
+  background-color: #FFA319 !important;
 }
 
 /*red for .stalled */
@@ -294,7 +314,7 @@ background-color: #FFA319 !important;
 #layout-main div.timeline_all div.timeline ul.row li.stalled a,
 .g_bubble.box.mylist.stalled > div.top
 {
-background-color: #E69696 !important;
+  background-color: #E69696 !important;
 }
 #layout-main .mylist.g_odd.stalled,
 #layout-main table.animelist .g_odd.stalled,
@@ -303,24 +323,5 @@ background-color: #E69696 !important;
 .g_odd.g_bubble.box.mylist.stalled > div.top,
 #layout-main .g_odd .mylist.stalled
 {
-background-color: #E67878 !important;
-}
-
-/*green for .all_watched */
-#layout-main .mylist.all_watched,
-#layout-main table.animelist .all_watched,
-#layout-main table.wishlist .all_watched,
-#layout-main div.timeline_all div.timeline ul.row li.all_watched a,
-.g_bubble.box.mylist.all_watched > div.top
-{
-background-color: #B8E3B8 !important;
-}
-#layout-main .mylist.g_odd.all_watched,
-#layout-main table.animelist .g_odd.all_watched,
-#layout-main table.wishlist .g_odd.all_watched,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.all_watched a,
-.g_odd.g_bubble.box.mylist.all_watched > div.top,
-#layout-main .g_odd .mylist.all_watched
-{
-background-color: #85D485 !important;
+  background-color: #E67878 !important;
 }
