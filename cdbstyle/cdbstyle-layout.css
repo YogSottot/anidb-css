@@ -86,8 +86,8 @@ textarea
 vertical align the user page avatar
 */
 #layout-main div.userpage_all div.userdetails div.block div.image {
-   align-self: baseline;
-   margin-top: 1.7em;
+  align-self: baseline;
+  margin-top: 1.7em;
 }	
 
 /*
@@ -99,8 +99,8 @@ div.userdetails > div.block > div:nth-last-child(2)
 #layout-main div.userpage_all div.userdetails div.block div.user_info,
 #layout-main div.userpage_all div.userdetails div.block div.notify
 {
-   width: initial;
-   align-items: stretch;
+  width: initial;
+  align-items: stretch;
 }
 
 /*
@@ -123,18 +123,18 @@ div.data max width, to maximize the widths of image vs data div blocks (ie on gr
 userpage sections flex adding (discussions section only so far)
 */
 #layout-main .g_section.discussions {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 #layout-main .g_section.discussions h4 {
-width: 99%;
-flex-shrink: 0;
+  width: 99%;
+  flex-shrink: 0;
 }
 #layout-main .g_definitionlist.anime,
 #layout-main .g_definitionlist.clubs,
 #layout-main .g_definitionlist.subscriptions {
 /* flex-shrink: 1; */
-width: 33%;
+  width: 33%;
 }
 
 /*
@@ -143,5 +143,5 @@ nowrap of username on creqhist page (and possibly others)
 #layout-main td.name.user,
 #layout-main td.name.owner
 {
-white-space: nowrap;
+  white-space: nowrap;
 }
