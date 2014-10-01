@@ -194,6 +194,7 @@ button[type="submit"]:hover,
 	border-left-color: #999999;
 }
 
+a.tooltip > span.text.g_bubble,
 .g_bubble,
 .g_bubble.g_odd,
 .g_bubble .g_bubble .g_bubble,
