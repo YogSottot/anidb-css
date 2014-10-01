@@ -120,8 +120,11 @@ button[type="submit"]:hover,
 }
 
 #layout-main div.anime_all div.data table.relationlist tr,
-#layout-main div.profile_all div.tabbed_pane div.general table tr
+#layout-main div.profile_all div.tabbed_pane div.general table tr,
+#layout-main div.anime_all div.data table.relationlist tr,
+#layout-main div.tabbed_pane div.body div.pane ul li
 {
+	border: none;
 	background-color: inherit;
 }
 
@@ -160,10 +163,9 @@ span.g_odd,
 div.g_odd,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.forum ul.topics li.g_odd.row,
+a.tooltip > span.text.g_bubble,
 .g_bubble,
-.g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 .g_button a:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.selected,
@@ -174,9 +176,7 @@ div.g_odd,
 #layout-main div.tabbed_pane_cfg ul.tabs li.selected,
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
-#layout-main div div.addrelform table tr,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.profile_all div.default_languages table tr,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.main_all div.header div.account ul.tabs li.signup,
 #layout-main div.forum div.g_bubble.events,
@@ -199,7 +199,6 @@ button[type="submit"]:hover,
 
 html,
 .g_bubble .g_odd,
-.g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul.main-tabs > li.selected,
 #layout-tabs ul.main-tabs > li:hover,
