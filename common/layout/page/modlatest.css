@@ -1,9 +1,86 @@
-#layout-main div.latest_all table
-{
-	width: 100%
+#layout-main div.mydb_all table,
+#layout-main div.modlatest_all table,
+#layout-main div.mydb_all table td.name,
+#layout-main div.modlatest_all table td.name {
+	width: 100%;
 }
 
-#layout-main div.latest_all table td.name.user
-{
+#layout-main div.mydb_all table td,
+#layout-main div.modlatest_all table td {
+	padding: 0.1em 0.5em;
 	min-width: 10em;
+}
+
+#layout-main div.mydb_all table.names td.name,
+#layout-main div.modlatest_all table.names td.name,
+#layout-main div.mydb_all table.relations td.name,
+#layout-main div.modlatest_all table.relations td.name,
+#layout-main div.mydb_all table.credits td.name,
+#layout-main div.modlatest_all table.credits td.name {
+	width: 50%;
+}
+
+#layout-main div.mydb_all table.credits.creatorcharanimerel td.name,
+#layout-main div.modlatest_all table.credits.creatorcharanimerel td.name,
+#layout-main div.mydb_all table.community.similaranimevote td.name {
+	width: 33%;
+}
+
+#layout-main div.mydb_all table td.info.icons,
+#layout-main div.modlatest_all table td.info.icons,
+#layout-main div.mydb_all table td.user,
+#layout-main div.modlatest_all table td.user {
+	min-width: 15em;
+}
+
+#layout-main div.mydb_all table td.id,
+#layout-main div.modlatest_all table td.id,
+#layout-main div.mydb_all table td.ep,
+#layout-main div.modlatest_all table td.ep,
+#layout-main div.mydb_all table td.eps,
+#layout-main div.modlatest_all table td.eps,
+#layout-main div.mydb_all table td.epno,
+#layout-main div.modlatest_all table td.epno,
+#layout-main div.mydb_all table td.lang,
+#layout-main div.modlatest_all table td.lang,
+#layout-main div.mydb_all table td.verified,
+#layout-main div.modlatest_all table td.verified,
+#layout-main div.mydb_all table td.vote,
+#layout-main div.mydb_all table td.age,
+#layout-main div.modlatest_all table td.age,
+#layout-main div.mydb_all table td.tracks,
+#layout-main div.modlatest_all table td.tracks,
+#layout-main div.mydb_all table td.length,
+#layout-main div.modlatest_all table td.length,
+#layout-main div.mydb_all table td.usage,
+#layout-main div.modlatest_all table td.usage {
+	min-width: 5em;
+}
+
+#layout-main div.mydb_all table td.year,
+#layout-main div.modlatest_all table td.year,
+#layout-main div.mydb_all table td.aired,
+#layout-main div.modlatest_all table td.aired,
+#layout-main div.mydb_all table td.date,
+#layout-main div.modlatest_all table td.date {
+	min-width: 8em;
+}
+
+#layout-main div.mydb_all table td.gender,
+#layout-main div.modlatest_all table td.gender,
+#layout-main div.mydb_all table td.type,
+#layout-main div.modlatest_all table td.type,
+#layout-main div.mydb_all table td.group:not(.name),
+#layout-main div.modlatest_all table td.group:not(.name) {
+	white-space: nowrap;
+}
+
+#layout-main div.mydb_all table td.type,
+#layout-main div.modlatest_all table td.type {
+	text-align: left;
+}
+
+#layout-main div.mydb_all table td.length,
+#layout-main div.modlatest_all table td.length {
+	text-align: right;
 }
