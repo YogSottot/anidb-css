@@ -24,7 +24,7 @@
 
 #layout-main div.mydb_all table.credits.creatorcharanimerel td.name,
 #layout-main div.modlatest_all table.credits.creatorcharanimerel td.name,
-#layout-main div.modlatest_all table.community.similaranimevote td.name {
+#layout-main div.mydb_all table.community.similaranimevote td.name {
 	width: 33%;
 }
 
