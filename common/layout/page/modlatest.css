@@ -51,8 +51,10 @@
 	min-width: 8em;
 }
 
+#layout-main div.mydb_all table td.type,
+#layout-main div.modlatest_all table td.type,
 #layout-main div.mydb_all table td.group:not(.name),
-#layout-main div.modlatest_all table  td.group:not(.name) {
+#layout-main div.modlatest_all table td.group:not(.name) {
 	white-space: nowrap;
 }
 
