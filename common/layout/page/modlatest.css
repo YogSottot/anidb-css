@@ -1,9 +1,7 @@
 #layout-main div.mydb_all table,
 #layout-main div.modlatest_all table,
 #layout-main div.mydb_all table td.name,
-#layout-main div.modlatest_all table td.name,
-#layout-main div.mydb_all table.relations.tagentityrel td.name,
-#layout-main div.modlatest_all table.relations.tagentityrel td.name {
+#layout-main div.modlatest_all table td.name {
 	width: 100%;
 }
 
@@ -47,7 +45,15 @@
 #layout-main div.modlatest_all table td.lang,
 #layout-main div.mydb_all table td.verified,
 #layout-main div.modlatest_all table td.verified,
-#layout-main div.mydb_all table td.vote {
+#layout-main div.mydb_all table td.vote,
+#layout-main div.mydb_all table td.age,
+#layout-main div.modlatest_all table td.age,
+#layout-main div.mydb_all table td.tracks,
+#layout-main div.modlatest_all table td.tracks,
+#layout-main div.mydb_all table td.length,
+#layout-main div.modlatest_all table td.length,
+#layout-main div.mydb_all table td.usage,
+#layout-main div.modlatest_all table td.usage {
 	min-width: 5em;
 }
 
@@ -60,6 +66,8 @@
 	min-width: 8em;
 }
 
+#layout-main div.mydb_all table td.gender,
+#layout-main div.modlatest_all table td.gender,
 #layout-main div.mydb_all table td.type,
 #layout-main div.modlatest_all table td.type,
 #layout-main div.mydb_all table td.group:not(.name),
