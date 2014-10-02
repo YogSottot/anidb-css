@@ -1,7 +1,11 @@
 #layout-main div.mydb_all table,
 #layout-main div.modlatest_all table,
 #layout-main div.mydb_all table td.title,
-#layout-main div.modlatest_all table td.title {
+#layout-main div.modlatest_all table td.title,
+#layout-main div.mydb_all table.relations.resource td.title,
+#layout-main div.modlatest_all table.relations.resource td.title,
+#layout-main div.mydb_all table.relations.tagentityrel td.title,
+#layout-main div.modlatest_all table.relations.tagentityrel td.title {
 	width: 100%;
 }
 
@@ -12,9 +16,13 @@
 }
 
 #layout-main div.mydb_all table.names td.title,
-#layout-main div.modlatest_all table.names td.title {
+#layout-main div.modlatest_all table.names td.title,
+#layout-main div.mydb_all table.relations td.title,
+#layout-main div.modlatest_all table.relations td.title {
 	width: 50%;
 }
+
+
 
 #layout-main div.mydb_all table td.info.icons,
 #layout-main div.modlatest_all table td.info.icons,
