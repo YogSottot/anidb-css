@@ -16,8 +16,15 @@
 #layout-main div.mydb_all table.names td.name,
 #layout-main div.modlatest_all table.names td.name,
 #layout-main div.mydb_all table.relations td.name,
-#layout-main div.modlatest_all table.relations td.name {
+#layout-main div.modlatest_all table.relations td.name,
+#layout-main div.mydb_all table.credits td.name,
+#layout-main div.modlatest_all table.credits td.name {
 	width: 50%;
+}
+
+#layout-main div.mydb_all table.credits.creatorcharanimerel td.name,
+#layout-main div.modlatest_all table.credits.creatorcharanimerel td.name{
+	width: 33%;
 }
 
 #layout-main div.mydb_all table td.info.icons,
