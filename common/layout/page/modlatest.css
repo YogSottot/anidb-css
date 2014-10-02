@@ -2,8 +2,6 @@
 #layout-main div.modlatest_all table,
 #layout-main div.mydb_all table td.name,
 #layout-main div.modlatest_all table td.name,
-#layout-main div.mydb_all table.relations.resource td.name,
-#layout-main div.modlatest_all table.relations.resource td.name,
 #layout-main div.mydb_all table.relations.tagentityrel td.name,
 #layout-main div.modlatest_all table.relations.tagentityrel td.name {
 	width: 100%;
