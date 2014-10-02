@@ -1,6 +1,14 @@
+#layout-main div.mydb_all table,
+#layout-main div.modlatest_all table,
 #layout-main div.mydb_all table td.title,
 #layout-main div.modlatest_all table td.title {
 	width: 100%;
+}
+
+#layout-main div.mydb_all table td,
+#layout-main div.modlatest_all table td {
+	padding: 0.1em 0.5em;
+	min-width: 10em;
 }
 
 #layout-main div.mydb_all table.names td.title,
@@ -13,11 +21,6 @@
 #layout-main div.mydb_all table td.user,
 #layout-main div.modlatest_all table td.user {
 	min-width: 15em;
-}
-
-#layout-main div.mydb_all table td,
-#layout-main div.modlatest_all table td {
-	padding: 0.1em 0.5em;
 }
 
 #layout-main div.mydb_all table td.id,
