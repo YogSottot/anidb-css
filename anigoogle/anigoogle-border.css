@@ -72,8 +72,9 @@ tr + tr th,
 #layout-main div.mywishlist_all tr td+td,
 #layout-main div.animelist_all tr td+td,
 #layout-main div.lexicon_all table.animelist tr td+td,
-#layout-main div.mynotifies_all tr td+td
-{
+#layout-main div.mynotifies_all tr td+td,
+#layout-main div.mydb_all table tr td + td,
+#layout-main div.modlatest_all table tr td + td {
 	border-left: 1px solid #C9D7F1;
 }
 
