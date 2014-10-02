@@ -11,6 +11,8 @@
 	min-width: 10em;
 }
 
+#layout-main div.mydb_all table.entities.episode td.name,
+#layout-main div.modlatest_all table.entities.episode td.name,
 #layout-main div.mydb_all table.names td.name,
 #layout-main div.modlatest_all table.names td.name,
 #layout-main div.mydb_all table.relations td.name,
