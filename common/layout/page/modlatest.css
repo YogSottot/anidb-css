@@ -46,7 +46,8 @@
 #layout-main div.mydb_all table td.lang,
 #layout-main div.modlatest_all table td.lang,
 #layout-main div.mydb_all table td.verified,
-#layout-main div.modlatest_all table td.verified {
+#layout-main div.modlatest_all table td.verified,
+#layout-main div.mydb_all table td.vote {
 	min-width: 5em;
 }
 
