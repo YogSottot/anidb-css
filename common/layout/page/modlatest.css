@@ -70,6 +70,8 @@
 	min-width: 8em;
 }
 
+#layout-main div.mydb_all table td.shortname span,
+#layout-main div.modlatest_all table td.shortname span,
 #layout-main div.mydb_all table td.gender span,
 #layout-main div.modlatest_all table td.gender span,
 #layout-main div.mydb_all table td.type span,
