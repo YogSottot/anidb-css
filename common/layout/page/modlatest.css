@@ -1,11 +1,11 @@
 #layout-main div.mydb_all table,
 #layout-main div.modlatest_all table,
-#layout-main div.mydb_all table td.title,
-#layout-main div.modlatest_all table td.title,
-#layout-main div.mydb_all table.relations.resource td.title,
-#layout-main div.modlatest_all table.relations.resource td.title,
-#layout-main div.mydb_all table.relations.tagentityrel td.title,
-#layout-main div.modlatest_all table.relations.tagentityrel td.title {
+#layout-main div.mydb_all table td.name,
+#layout-main div.modlatest_all table td.name,
+#layout-main div.mydb_all table.relations.resource td.name,
+#layout-main div.modlatest_all table.relations.resource td.name,
+#layout-main div.mydb_all table.relations.tagentityrel td.name,
+#layout-main div.modlatest_all table.relations.tagentityrel td.name {
 	width: 100%;
 }
 
@@ -15,14 +15,12 @@
 	min-width: 10em;
 }
 
-#layout-main div.mydb_all table.names td.title,
-#layout-main div.modlatest_all table.names td.title,
-#layout-main div.mydb_all table.relations td.title,
-#layout-main div.modlatest_all table.relations td.title {
+#layout-main div.mydb_all table.names td.name,
+#layout-main div.modlatest_all table.names td.name,
+#layout-main div.mydb_all table.relations td.name,
+#layout-main div.modlatest_all table.relations td.name {
 	width: 50%;
 }
-
-
 
 #layout-main div.mydb_all table td.info.icons,
 #layout-main div.modlatest_all table td.info.icons,
@@ -55,8 +53,8 @@
 	min-width: 8em;
 }
 
-#layout-main div.mydb_all table td.group:not(.title),
-#layout-main div.modlatest_all table  td.group:not(.title) {
+#layout-main div.mydb_all table td.group:not(.name),
+#layout-main div.modlatest_all table  td.group:not(.name) {
 	white-space: nowrap;
 }
 
