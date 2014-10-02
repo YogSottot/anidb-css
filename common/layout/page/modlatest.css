@@ -13,7 +13,6 @@
 #layout-main div.mydb_all table td.user,
 #layout-main div.modlatest_all table td.user {
 	min-width: 15em;
-	min-width: 10em;
 }
 
 #layout-main div.mydb_all table td,
@@ -40,11 +39,6 @@
 #layout-main div.modlatest_all table td.year,
 #layout-main div.mydb_all table td.aired,
 #layout-main div.modlatest_all table td.aired,
-#layout-main div.mydb_all table td.date,
-#layout-main div.modlatest_all table td.date {
-	min-width: 8em;
-}
-
 #layout-main div.mydb_all table td.date,
 #layout-main div.modlatest_all table td.date {
 	min-width: 8em;
