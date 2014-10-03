@@ -6,7 +6,9 @@
 #layout-main div.addcreatorsongrel_all tr.left_only,
 #layout-main div.timeline_all div.timeline ul.row li.stalled a,
 #layout-main table.filelist tr.deprecated,
-#layout-main table.filelist tr.invalid
+#layout-main table.filelist tr.invalid,
+#layout-main table.file.entities tr.deprecated,
+#layout-main table.file.entities tr.invalid
 {
 	background-color: #D6B8B8;
 }
@@ -17,7 +19,9 @@
 #layout-main div.addcreatorsongrel_all tr.right_only,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a,
 #layout-main table.filelist tr.g_odd.deprecated,
-#layout-main table.filelist tr.g_odd.invalid
+#layout-main table.filelist tr.g_odd.invalid,
+#layout-main table.file.entities tr.g_odd.deprecated,
+#layout-main table.file.entities tr.g_odd.invalid
 {
 	background-color: #CC9999;
 }
@@ -26,6 +30,7 @@
 #layout-main td ins,
 #layout-main input.include,
 #layout-main table.filelist tr.good,
+#layout-main table.file.entities tr.good,
 #layout-main div.myvotes_all table tr td.high,
 #layout-main div.producer_all table tr.mylist,
 #layout-main div.latest2_all table tr.mylist,
@@ -55,6 +60,7 @@
 
 #layout-main td.g_odd ins,
 #layout-main table.filelist tr.g_odd.good,
+#layout-main table.file.entities tr.g_odd.good,
 #layout-main div.myvotes_all table tr.g_odd td.high,
 #layout-main div.producer_all table tr.g_odd.mylist,
 #layout-main div.latest2_all table tr.g_odd.mylist,
@@ -75,7 +81,8 @@
 	background-color:#9AD09A;
 }
 
-#layout-main table.filelist tr.generic
+#layout-main table.filelist tr.generic,
+#layout-main table.file.entities tr.generic
 {
 	background-color:#EEEEEE;
 }

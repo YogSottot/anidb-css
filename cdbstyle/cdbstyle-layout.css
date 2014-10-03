@@ -47,7 +47,12 @@ table.filelist tr.undumped td.id,
 table.filelist tr.undumped td.id a:link,
 table.filelist tr.undumped td.id a:active,
 table.filelist tr.undumped td.id a:visited,
-table.filelist tr.undumped td.action
+table.filelist tr.undumped td.action,
+table.file.entities tr.undumped td.id,
+table.file.entities tr.undumped td.id a:link,
+table.file.entities tr.undumped td.id a:active,
+table.file.entities tr.undumped td.id a:visited,
+table.file.entities tr.undumped td.action
 {
   visibility: visible;
   background-color: #900000;
