@@ -1,8 +1,5 @@
 @import "../anidbstyle2/anidbstyle2.css";
-@import "cdbstyle-colour.css";
-@import "cdbstyle-layout.css";
-@import "cdbstyle-text.css";
-@import "cdbstyle-icons.css";
+@import "cdbstyle-import.css";
 
 #layout-footer:after
 {
