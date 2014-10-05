@@ -4,3 +4,7 @@
 	#layout-main div.userpage_all div.userdetails img {
 		border:5px solid #393634;
 	}
+
+	#layout-main div.userpage_all div.userdetails div.block > div + div {
+	padding-left: 0;
+	}

@@ -1,5 +1,6 @@
-/* Geass Mode 0.1a
- * by antennen
+/* Geass Mode 0.2
+ * Originally created by antennen
+ * Updated by Osjur
  */
 
 /* Import common files */
@@ -28,9 +29,12 @@ body.nonav {
 	clear:both;
 }
 #layout-content {
-	margin:0 80px 0 195px; padding:20px 40px;
-	min-width:700px; max-width:1400px;
-	position:relative; top:-147px;
+	margin:0 80px 0 195px;
+	padding:20px 40px;
+	min-width: 1024px;
+	max-width: none;
+	position:relative;
+	top:-147px;
 	overflow:hidden;
 	background:#f2f8f6;
 	border:1px solid #666;
@@ -51,7 +55,9 @@ body.nonav {
 	}
 #layout-footer {
 	margin:-120px 80px -120px 195px; /* Negative margins here prevent weird whitespace at the page's bottom */
-	min-width:700px; max-width:1400px;
+	padding: 0 40px;
+	min-width:1024px;
+	max-width:none;
 }
 
 /*epbar colors*/
@@ -78,4 +84,42 @@ body.nonav {
 /*disable quicksearch, becaus ei can't be assed >_>*/
 #layout-search ul.quicksearch {
 	display: none !important;
+}
+
+/* COLOR HIGHLIGHTNING */
+#layout-content table.animelist tr.complete td,
+#layout-content table.stafflist tr.complete td,
+#layout-main div.timeline_all div.timeline ul.row li.collecting,
+#layout-main div.timeline_all div.timeline ul.row li.stalled,
+#layout-main table tr.mylist,
+#layout-main table tr.g_odd.mylist,
+#layout-main div.forum div.poll div.pollbar, 
+.g_bubble.stripe.mylist.complete
+{
+background-color:#C6DEFF;
+}
+
+#layout-content div.anime_all tr.good,
+#layout-content div.anime_all tr.good td, 
+#layout-content div.group_all tr.good,
+#layout-content div.group_all tr.good td,
+#layout-content div.ep_all tr.good,
+#layout-content div.ep_all tr.good td, 
+#layout-content div.mylist_list table table table tr.good,
+#layout-content div.mylist_list table table table tr.good td,
+#layout-content div.myvotes_all table .high,
+#layout-content div.producer_related_anime tr.mylist,
+#layout-content div.producer_related_anime tr.mylist td,
+#layout-content div.creq_all tr.granted,
+#layout-content div.creq_all tr.granted td, 
+#layout-content div.creq_data ins,
+#layout-content div.animeatt_reviews div.review.approved > h4,
+#layout-content table.animelist tr.all_watched td, 
+#layout-content table.stafflist tr.all_watched td, 
+#layout-main div.ed2kdump_all table.filelist .in,
+#layout-main div.timeline_all div.timeline ul.row li.completed,
+#layout-main table tr.mylist.all_watched.collecting,
+.g_bubble.stripe.mylist.all_watched
+{
+background-color:#B5EAAA;
 }

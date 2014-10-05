@@ -2,12 +2,12 @@
 	border:none;
 }
 	#layout-main div.userpage_all div.g_section.userprefs h4 {
-		text-align:left;
+		text-align:center;
 	}
-	#layout-main div.userpage_all div.g_section.userprefs div {
-		margin:0 1% 10px 0;
-		width:47%;
-		border-left:5px solid #393634;
+	#layout-main div.userpage_all div.g_section.userprefs div { /*Userpage fix*/
+		margin: 5px 0 5px 0;
+		width:initial;
+		border-left:none;
 	}
 		#layout-main div.userpage_all div.g_section.userprefs div h3 {
 			padding:5px 7px 5px 14px;
@@ -35,3 +35,30 @@
 				#layout-main div.userpage_all div.g_section.userprefs div table tr td.no+td.thumb {
 					width:8px;
 				}
+				
+				/*More userpage fixes */
+				#layout-main div.userpage_all div.g_section.userprefs div.content {
+					display: inline-block;
+					width: 257px;
+					margin: 10px 5px 0 5px;
+				}
+				#layout-main div.userpage_all .userprefs .content .g_bubble.stripe, 
+				#layout-main div.userpage_all .clubs .content .g_bubble.stripe {
+					min-width: 247px;
+					height: 73px;
+				}
+				#layout-main div.userpage_all div.g_section.userprefs div.data div {
+				margin: 1px 60px;
+				padding: 0;
+				width: 182px;
+}
+				#layout-main div.userpage_all div.g_section.userprefs div.g_bubble {
+					border: 5px solid #393634;
+				}
+				#layout-main div.userpage_all div.g_section.userprefs  div.g_bubble div.image {
+					margin: 4px 0 4px 4px;
+				}
+				
+				
+				
+			

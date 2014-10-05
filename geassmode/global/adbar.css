@@ -13,7 +13,7 @@
 	}
 #layout-hint span.head {
 	width:0;
-	display:block; visibility:hidden;
+	display:block; visibility:visible; /* Fixed to work with IE */
 }
 	#layout-hint span.head:before {
 		padding:5px 4px 6px 24px;
