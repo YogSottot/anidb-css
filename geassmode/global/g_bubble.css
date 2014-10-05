@@ -35,9 +35,9 @@
 /* "Recommendation" block fixes */
 .g_bubble.stripe.recommendation {
 max-width: 424px;
-max-height: 120px;
+max-height: 85px;
 }
 
 .g_bubble.stripe.recommendation > div.data div.text {
-max-height: 95px;
+max-height: 55px;
 }

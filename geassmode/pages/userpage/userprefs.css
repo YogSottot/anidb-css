@@ -42,6 +42,9 @@
 					width: 257px;
 					margin: 10px 5px 0 5px;
 				}
+				#layout-main > div.g_content.userpage_all > div.g_section.clubs > div.g_section.content {
+					margin: 10px 0 10px 0;
+}
 				#layout-main div.userpage_all .userprefs .content .g_bubble.stripe, 
 				#layout-main div.userpage_all .clubs .content .g_bubble.stripe {
 					min-width: 247px;
