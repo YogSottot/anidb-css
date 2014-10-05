@@ -35,3 +35,18 @@
 	display:block; float:none;
 	border:none;
 }
+
+/* Calendar page */
+#layout-main div.calendar_all > div.middle div.filter_menu ~ div.content {
+	text-align: center;
+}
+#layout-main div.calendar_all > div.top,
+#layout-main div.calendar_all > div.bottom {
+	text-align: center;
+	margin-right: 225px;
+}
+/* Filter menu border fix */
+#layout-main div.g_menu.filter_menu div.settings div.inner {
+border: 0;
+padding-left: 5px;
+}

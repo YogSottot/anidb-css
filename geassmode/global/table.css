@@ -55,6 +55,7 @@
 		#layout-main table tr td {
 			padding:3px;
 			font-size:11px;
+			text-align: left;
 		}
 
 /* Table within table */

@@ -1,6 +1,6 @@
 #layout-main div.main_all div.header
 {
-	margin-right:21em;
+	margin-right:23em;
 }
 
 #layout-main div.main_all div.datablocks h4,
@@ -12,16 +12,18 @@
 	line-height:15px;
 	margin:5px 0 10px;
 	padding:3px 0;
-	text-align:left;
+	text-align:center;
 }
 
 #layout-main div.main_all div.datablocks > div {
 	padding: 0;
 	margin: 0 7px;
+	min-width: 200px;
+	max-width: 394px;
 }
 
 #layout-main div.main_all div.datablocks {
-    margin-right: 20.5em;
+    margin-right: 23em;
 }
 
 #layout-main div.main_all div.datablocks div.stripe {
