@@ -191,7 +191,14 @@ button[type="submit"]:hover,
 #layout-main div.lexicon_all table.animelist tr td+td,
 #layout-main div.mynotifies_all tr td+td,
 #layout-main div.mydb_all table tr td + td,
-#layout-main div.modlatest_all table tr td + td {
+#layout-main div.modlatest_all table tr td + td,
+#layout-main div.latest2_all table tr td + td,
+#layout-main div.latest2_all table.reviews tr td.thumb,
+#layout-main div.latest2_all table.similaranime tr td.thumb,
+#layout-main div.latest2_all table.recommendations tr td.thumb,
+#layout-main div.latest2_all table.anime tr td.thumb,
+#layout-main div.latest2_all table.sequels tr td.thumb,
+#layout-main div.latest2_all table.completed tr td.thumb {
 	border-left-color: #999999;
 }
 
