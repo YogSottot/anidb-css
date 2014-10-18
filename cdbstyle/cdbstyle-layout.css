@@ -15,57 +15,6 @@
 }
 
 /*
-	Highlight in red any missing char-char and anime-anime relations in the table-fied views
-*/
-#layout-main div.g_content.rel_all td.type.crel.missing,
-#layout-main div.g_content.characterrel_all td.type.crel.missing,
-#layout-main div.g_content.characterrel_all td.type.ended.missing,
-#layout-main div.g_content.addcharanimerel_all td.type.crel.missing,
-#layout-main div.g_content.addcharanimerel_all td.type.ended.missing
-{
-   visibility: visible;
-   background-color: red;
-   color: #000000;
-}
-
-/*
-	Hide the undumped files column on the group page (unhide below)
-*/
-#layout-main td.number.undumped
-{
-  visibility: hidden;
-}
-
-/*
-	Unhide the undumped files column on the group page if there are undumped files
-	Mark table cells of undumped files red (file ID, file actions)
-	Mark as red any file where release date has not been set
-*/
-#layout-main td.number.undumped.notalldumped,
-table.filelist td.date.added,
-table.filelist tr.undumped td.id,
-table.filelist tr.undumped td.id a:link,
-table.filelist tr.undumped td.id a:active,
-table.filelist tr.undumped td.id a:visited,
-table.filelist tr.undumped td.action,
-table.file.entities tr.undumped td.id,
-table.file.entities tr.undumped td.id a:link,
-table.file.entities tr.undumped td.id a:active,
-table.file.entities tr.undumped td.id a:visited,
-table.file.entities tr.undumped td.action
-{
-  visibility: visible;
-  background-color: #900000;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-table.filelist tr.undumped td.id a:hover,
-table.file.entities tr.undumped td.id a:hover
-{
-  color: initial;
-}
-
-/*
 expand default text entry box size
 */
 textarea
