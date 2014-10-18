@@ -1,7 +1,9 @@
 /*
 On the anime-staff add/edit page, remove capitalization of source-info in the header
+
+Deprecated: fixed in main css: ../common/style/text/default.css
 */
 #layout-main span.nolink
 {
-  text-transform: none;
+  /* text-transform: none;*/
 }

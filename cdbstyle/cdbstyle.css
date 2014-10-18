@@ -1,5 +1,13 @@
 @import "../anidbstyle2/anidbstyle2.css";
+
+/* cdbstyle-import.css currently includes:
+  @import "cdbstyle-colour.css";
+*/
 @import "cdbstyle-import.css";
+
+@import "cdbstyle-layout.css";
+@import "cdbstyle-text.css";
+@import "cdbstyle-icons.css";
 
 #layout-footer:after
 {
