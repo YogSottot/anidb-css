@@ -236,7 +236,8 @@ div.g_odd,
 	background-color: #B1B3B5;
 }
 
-.g_bubble .g_odd,
+.g_bubble tr:not(.g_odd),
+.g_bubble .g_odd:not(tr),
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
