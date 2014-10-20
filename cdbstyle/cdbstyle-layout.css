@@ -82,14 +82,15 @@ userpage sections flex adding (discussions section only so far)
   flex-wrap: wrap;
 }
 #layout-main .g_section.discussions h4 {
-  width: 99%;
-  flex-shrink: 0;
+  width: 100%;
+  /*flex-shrink: 0;*/
 }
 #layout-main .g_definitionlist.anime,
 #layout-main .g_definitionlist.clubs,
 #layout-main .g_definitionlist.subscriptions {
 /* flex-shrink: 1; */
   width: 33%;
+  margin: auto;
 }
 
 /*
