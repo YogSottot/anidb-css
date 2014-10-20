@@ -1,2 +1,4 @@
-@import "/colour/mylist.css";
-@import "/colour/features.css";
+@import "http://git.anidb.net/anidb/css/raw/master/cdbstyle/cdbstyle-text.css";
+@import "http://git.anidb.net/anidb/css/raw/master/cdbstyle/cdbstyle-layout.css";
+@import "http://git.anidb.net/anidb/css/raw/master/cdbstyle/colour/mylist.css";
+@import "http://git.anidb.net/anidb/css/raw/master/cdbstyle/colour/features.css";
