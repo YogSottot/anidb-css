@@ -64,7 +64,7 @@ li + li.g_odd,
 tr + tr th,
 #layout-main div.g_definitionlist tr th
 {
-	border-top: 1px solid #E8F0FF;
+	border-top: 1px dotted #E8F0FF;
 }
 
 #layout-main div.g_timedentry h4,
