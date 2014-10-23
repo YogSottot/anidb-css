@@ -45,13 +45,26 @@ li + li.g_odd,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
 #layout-main #tagtree div.tag-column div.tag
 {
-	border-top: 1px solid #C9D7F1;
+	border-top: 1px dotted #C9D7F1;
+}
+
+#layout-main div.mylist_all td+td,
+#layout-main div.myvotes_all td+td,
+#layout-main div.mywishlist_all tr td+td,
+#layout-main div.animelist_all tr td+td,
+#layout-main div.lexicon_all table.animelist tr td+td,
+#layout-main div.mynotifies_all tr td+td,
+#layout-main div.mydb_all table tr td + td,
+#layout-main div.modlatest_all table tr td + td,
+#layout-main div.latest2_all table tr td + td,
+#layout-main div.latest2_all table tr.rowspan td:first-child {
+	border-left: 1px dotted #C9D7F1;
 }
 
 tr + tr th,
 #layout-main div.g_definitionlist tr th
 {
-	border-top: 1px solid #E8F0FF;
+	border-top: 1px dotted #E8F0FF;
 }
 
 #layout-main div.g_timedentry h4,
@@ -65,17 +78,6 @@ tr + tr th,
 #layout-main div.anime_all div.episodes tr.newtype td
 {
 	border-top: 1px double #C9D7F1;
-}
-
-#layout-main div.mylist_all td+td,
-#layout-main div.myvotes_all td+td,
-#layout-main div.mywishlist_all tr td+td,
-#layout-main div.animelist_all tr td+td,
-#layout-main div.lexicon_all table.animelist tr td+td,
-#layout-main div.mynotifies_all tr td+td,
-#layout-main div.mydb_all table tr td + td,
-#layout-main div.modlatest_all table tr td + td {
-	border-left: 1px solid #C9D7F1;
 }
 
 #layout-main div.animeatt_reviews div.review h4,

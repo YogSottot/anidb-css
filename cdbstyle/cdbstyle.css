@@ -5,8 +5,8 @@
 
 @import "cdbstyle-text.css";
 @import "cdbstyle-layout.css";
-@import "/colour/mylist.css";
-@import "/colour/features.css";
+@import "colour/mylist.css";
+@import "colour/features.css";
 
 #layout-footer:after
 {

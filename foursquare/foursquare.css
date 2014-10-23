@@ -1,8 +1,8 @@
 /*
-*  Foursquare V.1
+*  Foursquare V.1.1
 *  Based on SubBrown2
 *  AniDB Stylesheet
-*  29.03.2013
+*  21.10.2014
 */
 
 
@@ -244,6 +244,62 @@ background-color: #EEE }
 background-color: #EEE }
 
 
+/* State Highlighting */
+
+	/* - Collecting */
+
+	#layout-main .mylist.collecting,
+	#layout-main table.animelist .collecting,
+	#layout-main table.wishlist .collecting,
+	#layout-main div.timeline_all div.timeline ul.row li.collecting a,
+	.g_bubble.box.mylist.collecting > div.top {
+	background-color: #D7F0FC !important }
+
+		#layout-main .mylist.g_odd.collecting,
+		#layout-main table.animelist .g_odd.collecting,
+		#layout-main table.wishlist .g_odd.collecting,
+		#layout-main div.timeline_all div.timeline ul.row.g_odd li.collecting a,
+		.g_odd.g_bubble.box.mylist.collecting > div.top,
+		#layout-main .g_odd .mylist.collecting {
+		background-color: #E2F5FF !important }
+
+
+	/* - Watching */
+
+	#layout-main .mylist.watching,
+	#layout-main table.animelist .watching,
+	#layout-main table.wishlist .watching,
+	#layout-main div.timeline_all div.timeline ul.row li.watching a,
+	.g_bubble.box.mylist.watching > div.top {
+	 background-color: #CCEDD0 !important }
+
+		#layout-main .mylist.g_odd.watching,
+		#layout-main table.animelist .g_odd.watching,
+		#layout-main table.wishlist .g_odd.watching,
+		#layout-main div.timeline_all div.timeline ul.row.g_odd li.watching a,
+		.g_odd.g_bubble.box.mylist.watching > div.top,
+		#layout-main .g_odd .mylist.watching {
+		background-color: #DCF5DF !important }
+
+
+	/* - Stalled */
+
+	#layout-main .mylist.stalled,
+	#layout-main table.animelist .stalled,
+	#layout-main table.wishlist .stalled,
+	#layout-main div.timeline_all div.timeline ul.row li.stalled a,
+	.g_bubble.box.mylist.stalled > div.top {
+	background-color: #F9DFA5 !important }
+
+		#layout-main .mylist.g_odd.stalled,
+		#layout-main table.animelist .g_odd.stalled,
+		#layout-main table.wishlist .g_odd.stalled,
+		#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a,
+		.g_odd.g_bubble.box.mylist.stalled > div.top,
+		#layout-main .g_odd .mylist.stalled { 
+		background-color: #FFEDC4 !important }
+
+
 /* Tables */
 
 td, th { padding: 2px }
@@ -331,6 +387,7 @@ text-shadow: none }
 
 
 	/* Button & Input Menu */
+	
 	#layout-search form select,
 	#layout-nav input, 
 	#layout-nav button {
@@ -981,9 +1038,9 @@ a.tooltip span.text:before {
 }
 
 a.tooltip span.text {
-	-moz-box-shadow: 0px 0px 8px 4px #666;
-	-webkit-box-shadow: 0px 0px 8px 4px #666;
-	box-shadow: 0px 0px 8px 4px #666;
+	-moz-box-shadow: 0px 0px 2px 0px #666;
+	-webkit-box-shadow: 0px 0px 2px 0px #666;
+	box-shadow: 0px 0px 2px 0px #666;
 	opacity: 0.9;
 	color: #000000;
 }
@@ -1802,6 +1859,8 @@ width: 15px }
 *.i_rate_eyecancer { background-image: url(images/icons/icon/anidb_rate_eyecancer.png) }
 
 *.i_rate_star { background-image: url(images/icons/icon/anidb_rate_star.png) }
+
+*.i_rate_weightless { background-image: url(images/icons/icon/anidb_rate_star_grey.png) }
 
 *.i_rate_halfstar {
 width: 7px;

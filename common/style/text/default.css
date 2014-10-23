@@ -456,6 +456,7 @@ a.tooltip span.text
 	cursor: auto;
 }
 
+#layout-main div.admin_tags_all div.actions select,
 #layout-main div.addtagentityrel_all #tag-groups span.link
 {
 	font-size: 1.2em;

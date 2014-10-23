@@ -14,6 +14,18 @@
 	text-align: left;
 }
 
+#layout-main div.latest2_all table tr th,
+#layout-main div.latest2_all table tr td {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	min-width: 7em;
+}
+
+#layout-main div.latest2_all table tr td.thumb,
+#layout-main div.latest2_all table tr td.type {
+	min-width: 5em;
+}
+
 #layout-main div.latest2_all div.content th.anime
 {
 	width: 70%;
@@ -75,16 +87,6 @@
 	text-align: right;
 }
 
-#layout-main div.latest2_all div.latest_complete div.content td.mylist,
-#layout-main div.latest2_all div.latest_complete div.content td.seen,
-#layout-main div.latest2_all div.files div.content td.mylist,
-#layout-main div.latest2_all div.files div.content td.seen,
-#layout-main div.latest2_all div.content td.action
-{
-	min-width: 7em;
-	max-width: 7em;
-}
-
 #layout-main div.latest2_all div.filter_menu ~ div.content
 {
 	margin-right:17.2em;
@@ -103,11 +105,4 @@
 #layout-main div.latest2_all div.latest_similaranime div.content td.anime.name
 {
 	width:20%;
-}
-
-#layout-main div.latest2_all div.latest_reviews div.content th.approval,
-#layout-main div.latest2_all div.latest_reviews div.content th.rating,
-#layout-main div.latest2_all div.latest_reviews div.content th.my_vote
-{
-	min-width:7em;
 }

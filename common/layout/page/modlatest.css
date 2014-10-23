@@ -11,6 +11,10 @@
 	min-width: 10em;
 }
 
+#layout-main div.mydb_all table.entities.episode td.name,
+#layout-main div.modlatest_all table.entities.episode td.name,
+#layout-main div.mydb_all table.verifies td.name,
+#layout-main div.modlatest_all table.verifies td.name,
 #layout-main div.mydb_all table.names td.name,
 #layout-main div.modlatest_all table.names td.name,
 #layout-main div.mydb_all table.relations td.name,
@@ -66,12 +70,14 @@
 	min-width: 8em;
 }
 
-#layout-main div.mydb_all table td.gender,
-#layout-main div.modlatest_all table td.gender,
-#layout-main div.mydb_all table td.type,
-#layout-main div.modlatest_all table td.type,
-#layout-main div.mydb_all table td.group:not(.name),
-#layout-main div.modlatest_all table td.group:not(.name) {
+#layout-main div.mydb_all table td.shortname span,
+#layout-main div.modlatest_all table td.shortname span,
+#layout-main div.mydb_all table td.gender span,
+#layout-main div.modlatest_all table td.gender span,
+#layout-main div.mydb_all table td.type span,
+#layout-main div.modlatest_all table td.type span,
+#layout-main div.mydb_all table td.group:not(.name) span,
+#layout-main div.modlatest_all table td.group:not(.name) span {
 	white-space: nowrap;
 }
 

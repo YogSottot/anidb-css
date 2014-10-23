@@ -383,8 +383,7 @@ table .g_list
 
 div.animelist_all table.anime_list,
 div.grouplist_all table.group_list,
-div.userlist_all table.users,
-div.producerlist_all table.producer_list
+div.userlist_all table.users
 {
 	width:100%;
 }
