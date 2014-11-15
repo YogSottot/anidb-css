@@ -6,6 +6,7 @@
 @import "cdbstyle-text.css";
 @import "cdbstyle-layout.css";
 @import "colour/mylist.css";
+@import "colour/wishlist.css";
 @import "colour/features.css";
 
 #layout-footer:after
