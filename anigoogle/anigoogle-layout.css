@@ -372,8 +372,7 @@ button + button
 
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td
 {
-	padding: 0;
-	padding: 2px 4px;
+	padding: 2px 8px;
 }
 
 #layout-main div.addtagentityrel_all div.suggestions > span {
@@ -383,4 +382,9 @@ button + button
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus {
 	margin: 0px;
+}
+
+
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs td input[type="text"] {
+    width: 98%;
 }
