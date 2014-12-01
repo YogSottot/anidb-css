@@ -1,7 +1,5 @@
 #imagepreview {
 	position: absolute;
-	border: 1px solid #CCCCCC;
-	background: #333333;
 	padding: 5px;
 	display: none;
 }
