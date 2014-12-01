@@ -20,3 +20,8 @@
 	flex-direction: column;
 	margin-left: 5px;
 }
+
+#imagepreview div.comments div.content {
+	padding-left: 4px;
+	padding-right: 4px;
+}
