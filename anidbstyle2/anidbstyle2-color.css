@@ -465,6 +465,7 @@ div.quotebody
 }
 
 /*tooltip*/
+#imagepreview,
 a.tooltip span.text {
 	background-color: #d3d5d9 !important;
 	color: #000000;
