@@ -138,7 +138,7 @@ th.s_reverse,
 }
 
 *.i_loading {
-	background: transparent url(../icons/anidb/anidb_loading.gif) top right no-repeat;
-	height: 300px;
-	width: 300px;
+	background: transparent url(../icons/icon/anidb_loading.gif) top right no-repeat;
+	height: 100px;
+	width: 100px;
 }
