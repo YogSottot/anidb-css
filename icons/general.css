@@ -59,7 +59,7 @@
 
 *.i_sort
 {
-  width: 5px;
+	width: 5px;
 	background-image: url(../icons/orange/sort.gif);
 }
 
@@ -135,4 +135,10 @@ th.s_reverse,
 
 *.i_collapsed { 
 	background: transparent url(../icons/formating/icon_expand.gif) top right no-repeat;
+}
+
+*.i_loading {
+	background: transparent url(../icons/anidb/anidb_loading.gif) top right no-repeat;
+	height: 100px;
+	width: 100px;
 }
