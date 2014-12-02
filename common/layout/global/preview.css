@@ -1,6 +1,7 @@
 #imagepreview {
 	position: absolute;
 	padding: 5px;
+	z-index: 1;
 }
 
 #imagepreview.flex {
