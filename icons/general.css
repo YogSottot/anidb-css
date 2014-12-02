@@ -141,4 +141,5 @@ th.s_reverse,
 	background: transparent url(../icons/icon/anidb_loading.gif) top right no-repeat;
 	height: 100px;
 	width: 100px;
+	background-size: contain;
 }
