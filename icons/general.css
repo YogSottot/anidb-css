@@ -139,7 +139,7 @@ th.s_reverse,
 
 *.i_loading {
 	background: transparent url(../icons/icon/anidb_loading.gif) top right no-repeat;
-	height: 100px;
-	width: 100px;
+	height: 48px;
+	width: 48px;
 	background-size: contain;
 }
