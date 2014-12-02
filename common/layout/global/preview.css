@@ -1,6 +1,9 @@
 #imagepreview {
 	position: absolute;
 	padding: 5px;
+}
+
+#imagepreview.flex {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -24,9 +27,5 @@
 #imagepreview div.comments div.content {
 	padding-left: 4px;
 	padding-right: 4px;
-}
-
-#imagepreview > p {
-	flex: 1;
-	min-width: 12em;
+	padding-bottom: 4px;
 }
