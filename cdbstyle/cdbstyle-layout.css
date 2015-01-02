@@ -32,7 +32,7 @@ textarea
 }
 
 /* imagepreview */
-/* remove the 15% transparency from imagepreview */
+/* remove the transparency from imagepreview */
 #imagepreview {
   opacity: 1 !important;
 }
