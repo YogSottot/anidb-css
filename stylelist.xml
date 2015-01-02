@@ -103,7 +103,7 @@
 	<style name="cdbstyle">
 		<title>CDBstyle</title>
 		<creator>CDB-Man</creator>
-		<update>18.10.2014</update>
+		<update>02.01.2015</update>
 		<status>constant development and updates</status>
 		<description>CDB`s improvements on DerIdiot`s AniDBstyle2.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
 		<path/>

@@ -14,18 +14,53 @@
   display: block;
 }
 
-/*
-expand default text entry box size
-*/
+/* expand default text entry box size */
 textarea
 {
-  height: 125px;
-  width: 500px;
+  height: 250px;
+  width: 800px;
 }
 
+/* shift the main tabs to the left */
+#layout-tabs ul
+{
+  text-align: left;
+}
+#layout-content #layout-tabs
+{
+  margin-left: 13em !important;
+}
+
+/* imagepreview */
+/* remove the 15% transparency from imagepreview */
+#imagepreview {
+  opacity: 1 !important;
+}
+
+/* make the imagepreview background white to work better with transparent images */
+#imagepreview img {
+  background-color: #FFFFFF !important;
+}
+/* ====== */
+
 /*
-	Disallow line wrap on userpage stats block
+div.data max width, to maximize the widths of image vs data div blocks (ie on group pages)
 */
+#layout-main div.block > div.data {
+  /*width: 100%;*/
+  /*flex-basis: 100%;*/
+  flex-grow: 2;
+}
+#layout-main div.block > div.image {
+  /*width: 100%;*/
+  /*flex-basis: 100%;*/
+}
+#layout-main div.block {
+  align-items: stretch;
+}
+
+/* userpage */
+/* Disallow line wrap on userpage stats block */
 #layout-main div.userpage_all div.stats div table th.field,
 #layout-main div.myplace_all div.stats div table th.field
 {
@@ -37,9 +72,7 @@ textarea
   width: 40em;
 }
 
-/*
-vertical align the user page avatar
-*/
+/* vertical align the user page avatar */
 #layout-main div.userpage_all div.userdetails div.block div.image {
   align-self: baseline;
   margin-top: 1.7em;
@@ -58,25 +91,7 @@ div.userdetails > div.block > div:nth-last-child(2)
   align-items: stretch;
 }
 
-/*
-div.data max width, to maximize the widths of image vs data div blocks (ie on group pages)
-*/
-#layout-main div.block > div.data {
-  /*width: 100%;*/
-  /*flex-basis: 100%;*/
-  flex-grow: 2;
-}
-#layout-main div.block > div.image {
-  /*width: 100%;*/
-  /*flex-basis: 100%;*/
-}
-#layout-main div.block {
-  align-items: stretch;
-}
-
-/*
-userpage sections flex adding (discussions section only so far)
-*/
+/* userpage sections flex adding (discussions section only so far) */
 #layout-main .g_section.discussions {
   display: flex;
   flex-wrap: wrap;
@@ -93,9 +108,7 @@ userpage sections flex adding (discussions section only so far)
   margin: auto;
 }
 
-/*
-nowrap of username on creqhist page (and possibly others)
-*/
+/* nowrap of username on creqhist page (and possibly others) */
 #layout-main td.name.user,
 #layout-main td.name.owner
 {
