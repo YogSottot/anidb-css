@@ -106,3 +106,9 @@
 {
 	max-width:75px;
 }
+
+#layout-main div.creq_all div.creq_messages {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	text-align: left;
+}
