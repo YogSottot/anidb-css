@@ -273,6 +273,18 @@
     vertical-align: top;
 }
 
+#layout-main div.userpage_all div.g_menu.user > div + div {
+	margin-top: 2em;
+}
+
+#layout-main div.userpage_all div.g_menu.user > div a {
+	display: block;
+}
+
+#layout-main div.userpage_all div.g_menu.user > div span.v_high {
+	float: right;
+}
+
 /*hack because webkit sucks*/
 #layout-main div.userpage_all .g_bubble.stripe
 {
