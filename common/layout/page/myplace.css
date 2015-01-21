@@ -1,16 +1,3 @@
-#layout-main div.userpage_all div.g_menu
-{
-	clear: left;
-	float: left;
-}
-
-#layout-main div.userpage_all div.g_menu
-{
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	width: 19em;
-}
-
 #layout-main div.userpage_all div.stats div table td.value
 {
 	text-align: right;
@@ -319,7 +306,25 @@
 	}
 }
 
+/*menu position*/
+#layout-main div.userpage_all div.g_menu {
+	clear: left;
+	float: left;
+}
+
+#layout-main div.userpage_all div.g_menu {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	width: 19em;
+}
+
 @media screen and (min-width: 1350px) {
+
+	#layout-main div.userpage_all div.g_menu {
+		clear: right;
+		float: right;
+	}
+
 	#layout-main div.userpage_all div.g_menu.user,
 	#layout-main div.userpage_all div.g_menu.bottom {
 		width: 14em;
@@ -327,13 +332,13 @@
 
 	#layout-main div.userpage_all div.g_menu.stats {
 		float: none;
-		left: auto;
-		right: 1em;
+		left: 14.5em;
+		right: auto;
 		position: absolute;
 	}
 
 	#layout-main div.userpage_all > div.g_section {
-		margin-right: 20.5em;
-		margin-left: 15.5em;
+		margin-left: 20.5em;
+		margin-right: 15.5em;
 	}
 }
