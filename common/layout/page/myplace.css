@@ -250,7 +250,6 @@
 	width: 100%;
 }
 
-
 #layout-main div.userpage_all div.userdetails div.block div.image {
 	min-width: 12em;
 	margin:0;
@@ -285,9 +284,12 @@
 	float: right;
 }
 
+#layout-main div.userpage_all div.stats div table th.field {
+  white-space: nowrap;
+}
+
 /*hack because webkit sucks*/
-#layout-main div.userpage_all .g_bubble.stripe
-{
+#layout-main div.userpage_all .g_bubble.stripe {
 	position: inherit;
 }
 
@@ -314,5 +316,24 @@
 	#layout-main div.userpage_all .clubs .content .g_bubble.stripe {
 	    margin: 0.2em;
 	    min-height: 0;
+	}
+}
+
+@media screen and (min-width: 1350px) {
+	#layout-main div.userpage_all div.g_menu.user,
+	#layout-main div.userpage_all div.g_menu.bottom {
+		width: 14em;
+	}
+
+	#layout-main div.userpage_all div.g_menu.stats {
+		float: none;
+		left: auto;
+		right: 1em;
+		position: absolute;
+	}
+
+	#layout-main div.userpage_all > div.g_section {
+		margin-right: 20.5em;
+		margin-left: 15.5em;
 	}
 }
