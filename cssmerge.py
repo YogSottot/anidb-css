@@ -1,8 +1,6 @@
-import os, sys, cssutils, logging
+import os, sys
 
 __out = "../../flat/"
-
-cssutils.log.setLevel(logging.ERROR)
 
 def cssmerge(fullpath, outfile):
     path, filename = os.path.split(os.path.normpath(fullpath))
@@ -13,18 +11,18 @@ def cssmerge(fullpath, outfile):
     for line in infile:
         nr += 1
         line = line.strip()
-        
-        #if line.count("{")>0:
-        #    if incurly :
-        #        print "ERROR: double curly @ "+fullpath+":"+`incurly`+"-"+`nr`
-        #        sys.exit()
-        #    else : incurly = nr
 
-        #if line.count("}")>0:
-        #    if incurly : incurly = 0
-        #    else:
-        #        print "ERROR: negative curly @ "+fullpath+":"+`nr`
-        #        sys.exit()
+		#if line.count("{")>0:
+		#	if incurly :
+		#		print "ERROR: double curly @ "+fullpath+":"+`incurly`+"-"+`nr`
+		#		sys.exit()
+		#	else : incurly = nr
+
+		#if line.count("}")>0:
+		#	if incurly : incurly = 0
+		#	else:
+		#		print "ERROR: negative curly @ "+fullpath+":"+`nr`
+		#		sys.exit()
     
         if line.startswith("@import"):
             monkey = line[line.find('"')+1:line.rfind('"')]
@@ -43,16 +41,17 @@ def cssm(cssfile="/"):
     for line in file('stylelist','rU').readlines():
         if not line.startswith('#') and line.find(cssfile) > 0:
             path,name = line.rstrip('\n').rsplit('/',1)
-            out = __out+path.lstrip('./').replace('/','-')
+            dirname   = path.lstrip('./').replace('/','-')
+            if 'aniidiot' in dirname:
+                crap, dirname = path.rsplit('/', 1)
+            out = __out+dirname
             if os.path.exists(out) is False:
                 os.mkdir(out)
             try:
-                cssmerge(line.rstrip('\n'),file(out + '/' + path.lstrip('./').replace('/','-') + '.css', 'w'))
-                css = cssutils.parseFile(out + '/' + path.lstrip('./').replace('/','-') + '.css')
-                cssutils.ser.prefs.useMinified()
-                file(out + '/' + path.lstrip('./').replace('/','-') + '.css', 'w').write(css.cssText)
-            except:
+                cssmerge(line.rstrip('\n'), file(out + '/' + dirname + '.css', 'w'))
+            except Exception as e:
                 print out + '/' + path.lstrip('./').replace('/','-') + '.css'
+                print e
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:

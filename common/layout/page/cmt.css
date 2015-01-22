@@ -570,6 +570,7 @@
 	line-height: 1.2em;
 	padding: 2px;
 	width: 40%;
+	min-width: 50em;
 }
 
 #layout-main div.forum div.quickreply p
