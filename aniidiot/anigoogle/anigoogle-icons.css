@@ -1,13 +1,3 @@
-.i_rate_halfstar,
-.i_rate_star,
-.i_rate_veryhigh,
-.i_rate_high,
-.i_rate_med,
-.i_rate_low,
-.i_rate_verylow {
-	background-image: url(../icons/icon/anidb_rate_star.png);
-}
-
 #layout-main div.admin_menu ul li:hover
 {
 	background: transparent url(images/stripe-ltgrey.gif) repeat left top;
