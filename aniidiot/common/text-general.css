@@ -1,0 +1,84 @@
+a.i_icon:hover,
+a.i_inline:hover,
+a.i_button:hover
+{
+	text-decoration: none;
+}
+
+#layout-search input.submit
+{
+	text-transform: capitalize;
+}
+
+#layout-search select,
+#layout-search input.text,
+#layout-search input.submit,
+#layout-menu > li,
+#layout-tabs,
+input[type="text"],
+input[type="password"],
+textarea,
+#layout-main div.userpage_all div.content > h3
+{
+	font-size: 1.2em;
+}
+
+select,
+input[type="checkbox"],
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-main div.report_all div.body ul li,
+#layout-main ul.g_list li,
+#layout-tabs ul.main-tabs > li,
+button,
+input[type="button"],
+input[type="submit"],
+#layout-nav input.submit
+{
+	font-size: 1.1em;
+}
+
+#layout-main div.animeatt_reviews div.review h4,
+#layout-main div.userpage_all div.blog div.g_timedentry h4 {
+	font-size: 1.4em;
+}
+
+#layout-main div.animeatt_reviews div.review span.stamp,
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
+	font-size: .9em;
+}
+
+#menu-account li.alert span:before,
+#menu-account li.alert span:after
+{
+	content: "!";
+}
+
+input[type="button"]
+{
+	cursor: pointer;
+}
+
+#layout-main div.spoiler input.button
+{
+	font-weight: 400;
+}
+
+#layout-main div.chartag-list span.size6 a,
+#layout-main div.chartag-list span.size9 a,
+#layout-main div.chartag-list span.size10 a,
+#layout-main div.tag-column div.tag[weight="0"] .name a,
+#layout-main div.tag-column div.tag[weight="400"] .name a,
+#layout-main div.tag-column div.tag[weight="600"] .name a {
+	font-weight: bold;
+}
+
+#layout-main div.tag-column div.tag[weight="500"] .name a,
+#layout-main div.tag-column div.tag[weight="600"] .name a {
+	font-size: 14px;
+}
+
+
+#layout-footer:after
+{
+	content: "design by hrm & deridiot inspired by google";
+}

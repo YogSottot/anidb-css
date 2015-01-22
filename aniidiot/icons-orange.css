@@ -1,0 +1,64 @@
+#layout-menu li.sub-menu ul li#user-xauth
+{
+	background:url("../icons/orange/button_logon.gif") no-repeat scroll 0 0 transparent;
+}
+
+#layout-menu li.sub-menu ul li#user-signup
+{
+	background:url("../icons/orange/button_signup.gif") no-repeat scroll 0 0 transparent;
+}
+
+#layout-menu li.sub-menu ul li#user-logout
+{
+	background:url("../icons/orange/button_logout.gif") no-repeat scroll 0 0 transparent;
+}
+
+#layout-menu li.sub-menu ul li#user-profile
+{
+	background:url("../icons/orange/button_profile.gif") no-repeat scroll 0 0 transparent;
+}
+
+#layout-menu li.sub-menu ul
+{
+	background:url("images/menuback.png") repeat transparent;
+}
+
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:active
+{
+	background:url("images/menuhover.png") repeat left top transparent;
+}
+
+
+/*logo @1024*/
+#layout-search
+{
+	background:url("images/logo.png") no-repeat scroll left top transparent;
+}
+
+/*logo @ 1280*/
+@media screen and (min-width: 1235px)
+{
+	#layout-search
+	{
+		background:url("images/logo-wide.png") no-repeat scroll left top transparent;
+	}
+}
+
+/*logo @ 1650*/
+@media screen and (min-width: 1575px)
+{
+	#layout-search
+	{
+		background:url("images/logo-wider.png") no-repeat scroll left top transparent;
+	}
+}
+
+/*logo @ 1920*/
+@media screen and (min-width: 1860px)
+{
+	#layout-search
+	{
+		background:url("images/logo-widest.png") no-repeat scroll left top transparent;
+	}
+}

@@ -1,0 +1,12 @@
+#layout-main div.quickvote_all table.votes tr td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#layout-main div.quickvote_all table.votes tr td.name {
+    width: 75%;
+}
+
+#layout-main div.quickvote_all table.votes tr td.new {
+    min-width: 42em;
+}

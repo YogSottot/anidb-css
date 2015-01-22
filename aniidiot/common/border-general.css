@@ -1,0 +1,248 @@
+input[type="submit"],
+button[type="submit"]
+{
+	border-style: solid;
+	border-width: 1px;
+}
+
+table {
+	border-collapse: separate;
+	border-top: 1px solid;
+}
+
+#layout-tabs ul.main-tabs > li:hover,
+#layout-tabs ul.main-tabs > li.selected,
+#layout-tabs ul.main-tabs > li,
+#layout-main div.tabbed_pane_cfg ul.tabs li:hover,
+#layout-main div.tabbed_pane_cfg ul.tabs li.selected,
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected
+{
+	border-bottom: 2px double;
+}
+
+#layout-main div.tabbed_pane_cfg div.body,
+#layout-main div.tabbed_pane_cfg ul.tabs li
+{
+	border: 1px solid;
+}
+
+tr + tr td,
+li.g_odd + li,
+li + li.g_odd,
+#layout-main div div.explanation div.description dl + dl,
+#layout-main div.report_all div.body ul li + li,
+#layout-main div.votes_all div.graph div.group + div.group_odd,
+#layout-main div.votes_all div.graph div.group_odd + div.group,
+#layout-main div.votes_all div.graph.eps div.row + div.row,
+#layout-main #tagtree div.tag-column div.tag {
+	border-top: 1px dotted;
+}
+
+#layout-main div.mylist_all td+td,
+#layout-main div.myvotes_all td+td,
+#layout-main div.mywishlist_all tr td+td,
+#layout-main div.animelist_all tr td+td,
+#layout-main div.lexicon_all table.animelist tr td+td,
+#layout-main div.mynotifies_all tr td+td,
+#layout-main div.mydb_all table tr td + td,
+#layout-main div.modlatest_all table tr td + td,
+#layout-main div.latest2_all table tr td + td,
+#layout-main div.latest2_all table tr.rowspan td:first-child {
+	border-left: 1px dotted;
+}
+
+tr + tr th,
+#layout-main div.g_definitionlist tr th
+{
+	border-top: 1px dotted;
+}
+
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4
+{
+	border-top: 1px solid blue;
+}
+
+#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.anime_all div.episodes tr.newtype td
+{
+	border-top: 1px double;
+}
+
+#layout-main div.animeatt_reviews div.review h4,
+#layout-main div.userpage_all div.blog div.g_timedentry h4
+{
+	-moz-border-radius: 0 10px 0 0;
+	-webkit-border-radius: 0 10px 0 0;
+	border-radius: 0 10px 0 0;
+	border-top: none;
+}
+
+#layout-main div.anime_all div.info div.caststaff div h4,
+#layout-tabs ul.main-tabs > li,
+#layout-main div.tabbed_pane ul.tabs > li,
+#layout-main div.main_all div.rightbar h4
+{
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+
+*.g_bubble,
+*.g_button a,
+input[type="text"],
+input[type="password"],
+input.text,
+textarea,
+select,
+#layout-search select,
+#layout-search input.text,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-main div.pagination span a,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main ul.g_list li,
+#layout-tabs ul.main-tabs > li,
+#layout-menu > li ul,
+#layout-main div.avatar img,
+#layout-main div.anime_all div.info div.image img,
+#layout-main div.search_all div.suggestions
+{
+	border: 1px solid;
+}
+
+#layout-main div.anime_all div.info div.caststaff div tr.more td,
+#layout-main div.g_definitionlist tr:first-child th,
+#layout-main div.ep_all div.info table,
+#layout-main div.hint2_all table,
+#layout-main div.anime_all div.info div.data table,
+#layout-main div.song_all div.info table
+{
+	border-top: none;
+}
+
+#layout-main div.animeatt_reviews div.review span.stamp,
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
+#layout-main div.anime_all div.info div.caststaff div table,
+#layout-main > h1,
+#layout-nav div.menu_hr,
+#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag
+{
+	border-top: 1px solid;
+}
+
+h4,
+*.g_button a,
+*.g_msg,
+div.quotebody,
+#layout-main h1,
+#layout-main ul.g_list li,
+#layout-main .latest_all .g_list.filter li,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.pagination span a,
+#layout-main div.pagination span strong,
+#layout-search input.submit,
+span.test,
+button,
+#layout-main ul.g_list li.g_odd,
+#layout-search select,
+#layout-main div.format-buttons input,
+#layout-main div.format-buttons select,
+input[type="text"],
+input[type="password"],
+input.text,
+textarea,
+select,
+input[type="submit"]
+{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#layout-main .block .g_definitionlist table,
+table table,
+img,
+a
+{
+	border: none;
+}
+
+#layout-search div.g_bubble.search {
+	background-color: transparent;
+	border:none;
+}
+
+#layout-search input.text {
+	-moz-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+}
+
+#layout-search select {
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+
+
+#layout-search div.results_available input.text {
+	border-radius: 5px 0 0;
+}
+
+#layout-search div.results_available select {
+    border-radius: 0 5px 0 0;
+}
+
+/*tooltip border*/
+a.tooltip {
+	outline:none;
+}
+
+a.tooltip span.text:after,
+a.tooltip span.text:before {
+	border: solid transparent;
+}
+
+a.tooltip span.text:after {
+	border-width: 10px;
+}
+a.tooltip span.text:before {
+	border-width: 13px;
+}
+
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+}
+
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 1px dotted;
+}
+
+/*quicksearch*/
+#layout-search input.text.focus {
+	-webkit-border-radius: 5px 0 0;
+	-moz-border-radius: 5px 0 0;
+	border-radius: 5px 0 0;
+}
+
+#layout-search input.text.focus + select {
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+    border-radius: 0 5px 0 0;
+}
+
+#layout-main div.anime_all div.data table.relationlist tr,
+#layout-main div.profile_all div.tabbed_pane div.general table tr,
+#layout-main div.anime_all div.data table.relationlist tr,
+#layout-main div.tabbed_pane div.body div.pane ul li
+{
+	border: none;
+}

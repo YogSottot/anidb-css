@@ -1,0 +1,555 @@
+#layout-search div.search,
+#layout-menu li.sub-menu ul li#user-logout a,
+#layout-menu li.sub-menu ul li#user-xauth button,
+#layout-main div.spoiler input.button
+{
+	background: none;
+}
+
+span.link,
+a:visited,
+a:active,
+a:link
+{
+	color: #105289;
+}
+
+a:hover,
+span.link:hover,
+.g_bubble .name-colored,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
+#layout-main div.main_all div.header div.account ul.tabs li.signup:hover a,
+#layout-main div.cmt_entries a.username-colored,
+#layout-main div.forum a.topictitle:hover,
+#layout-main div.forum a.username-colored
+{
+	color: #AA0000;
+}
+
+#layout-main div.cmt_all div.comment h4
+{
+	background-color: #969AA6;
+}
+
+#layout-main div.tabbed_pane ul.tabs li
+{
+	background-color: #D3D5D9;
+}
+
+#layout-content
+{
+	border-bottom-color:#7D7D7D;
+	border-left-color:#9A9A9A;
+	border-top-color:#9A9A9A;
+}
+
+table,
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.anime_all div.info div.caststaff div table
+{
+	border-top-color: #DDDDDD;
+}
+
+button:hover,
+span.test:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+#layout-main ul.g_list li:hover a,
+#layout-main ul.g_list li.selected,
+#layout-main ul.g_list li.selected:hover,
+#layout-main ul.g_list li:hover,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main tr.header th.sortable:hover,
+#layout-menu li.user-xauth input[type="button"],
+#layout-search input.submit:hover,
+#layout-main div.spoiler input.button:hover,
+*.g_button a:hover,
+#layout-main tr.header th.sortable:hover a,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.news h4,
+#layout-main div.main_all div.rightbar h4,
+#layout-main > h1,
+#layout-main div.g_timedentry h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.forum li.header dt,
+#layout-main div.forum li.header dd,
+input[type="submit"]:hover,
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
+{
+	color: #DDDDDD;
+}
+
+option,
+th,
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-menu a:link,
+#layout-menu a:visited,
+#layout-tabs ul.main-tabs li a,
+#layout-main ul.g_list li a,
+#layout-main div.pagination span a,
+#menu-login li.user-xkeep label span,
+#layout-search input,
+#user-xname input,
+#user-xpass input,
+span.test,
+button,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li.g_odd,
+input[type="button"],
+input[type="submit"],
+#layout-main table tr.header,
+#layout-main div.votes_all div.graph div.header,
+#layout-main div.anime_all div.info div.caststaff div h4,
+*.g_button a,
+input[type="text"],
+input[type="password"],
+input.text,
+textarea,
+select,
+#layout-search select,
+#layout-search input.text,
+#layout-main div.search_all div.suggestions
+{
+	color: #CCCCCC;
+}
+
+#layout-main > h1 a,
+#layout-main div.g_timedentry h4 a,
+#layout-main div.g_timedentry p.comment a,
+#layout-main div.g_timedentry p.comment,
+#layout-main table tr.header a,
+#layout-main div.userpage_all > div.g_section > h4 a,
+#layout-main div.animeatt_all div.review > h4 a,
+#layout-main th > span.link,
+#layout-main th > a:visited,
+#layout-main th > a:active,
+#layout-main th > a:link
+{
+	color: #A2BFD7;
+}
+
+#layout-main table tr th > a:hover,
+#layout-menu li:hover > a,
+#layout-main > h1 a:hover,
+#layout-main div.g_timedentry h4 a:hover,
+#layout-main div.g_timedentry p.comment a:hover,
+#layout-main div.userpage_all > div.g_section > h4 a:hover,
+#layout-main div.animeatt_all div.review > h4 a:hover
+{
+	color: #FFAA55;
+}
+
+button:hover,
+span.test:hover,
+*.g_button a:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+#layout-main ul.g_list li:hover a,
+#layout-main ul.g_list li.selected,
+#layout-main ul.g_list li.selected:hover,
+#layout-main ul.g_list li:hover,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main tr.header th.sortable:hover,
+#layout-menu li.user-xauth input[type="button"],
+#layout-search input.submit:hover,
+#layout-main div.spoiler input.button:hover,
+#layout-main tr.header th.sortable:hover a,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+input[type="submit"]:hover,
+button[type="submit"]:hover,
+#layout-main div.search_all div.suggestions span:hover
+{
+	background-color:#58636E;
+}
+
+a.tooltip > span.text.g_bubble,
+.g_bubble,
+.g_bubble.g_odd,
+.g_bubble .g_bubble .g_bubble,
+.g_odd .g_bubble .g_odd,
+#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.navbar,
+#layout-main div.forum div.g_bubble.posting-box,
+#layout-main div.forum div.g_bubble.submit-box,
+#layout-main div.forum div.g_bubble.options-box,
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
+{
+	background-color: #B9BBBF;
+}
+
+html,
+tr.g_odd,
+li.g_odd,
+span.g_odd,
+div.g_odd,
+#layout-menu,
+#layout-main div.format-buttons input,
+#layout-main div.forum ul.topics li.row:hover,
+#layout-main div.forum ul.topics li.g_odd.row:hover,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.votes_all div.graph.eps div.g_odd,
+#layout-main div.addtagentityrel_all #tag-list div.g_odd
+{
+	background-color: #B1B3B5;
+}
+
+.g_bubble tr:not(.g_odd),
+.g_bubble .g_odd:not(tr),
+.g_odd .g_bubble,
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble,
+#layout-main div.forum ul.topics li.row,
+#layout-tabs ul.main-tabs li.selected,
+#layout-tabs ul.main-tabs li:hover,
+#layout-content,
+body.nonav
+{
+	background-color: #CFD1D4;
+}
+
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.news h4,
+#layout-main div.main_all div.rightbar h4,
+#layout-main > h1,
+#layout-main div.g_timedentry h4,
+#layout-main div.userpage_all > div.g_section > h4,
+span.test,
+button,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li.g_odd,
+input[type="button"],
+input[type="submit"],
+#layout-main table tr.header,
+#layout-main div.votes_all div.graph div.header,
+*.g_button a,
+#layout-tabs ul.main-tabs li,
+#layout-menu li.sub-menu,
+th,
+#layout-search input,
+#user-xname input,
+#user-xpass input,
+.format-buttons select,
+#layout-menu li.sub-menu ul li#user-xpass:hover,
+#layout-menu li.sub-menu ul li#user-xname:hover,
+#layout-menu li.sub-menu ul li#user-xkeep:hover,
+#layout-menu li.sub-menu ul li#user-xauth:hover,
+#layout-main div.anime_all div.info div.caststaff div h4,
+#layout-main div.spoiler input.button,
+input[type="text"],
+input[type="password"],
+input.text,
+textarea,
+select,
+#layout-search select,
+#layout-search input.text,
+#layout-menu li.sub-menu ul,
+#layout-main div.pagination span a,
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.search_all div.suggestions
+{
+	background-color: #34394D;
+}
+
+#layout-main div.main_all div.header div.account ul.tabs li.signup
+{
+	background-color: #AA0000;
+}
+
+#layout-main div.tabbed_pane div.body div.pane ul *.g_odd
+{
+	background-color: inherit;
+}
+
+#menu-account li.alert span:before,
+#menu-account li.alert span:after
+{
+	color: #B32947;
+}
+
+#layout-main div.format-buttons *.f_button:hover,
+#layout-main div.format-buttons *.f_button.selected
+{
+	background-color: #B5BED6;
+}
+
+span.test,
+button,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li.g_odd,
+*.g_button a,
+input[type="button"],
+input[type="submit"],
+#layout-search input.submit,
+input[type="text"],
+input[type="password"],
+input.text,
+textarea,
+select,
+#layout-search select,
+#layout-search input.text,
+#layout-main div.format-buttons *.f_button:hover,
+#layout-main div.format-buttons *.f_button.selected,
+#layout-main div.pagination span strong,
+#layout-main div.pagination span a,
+#layout-main div.pagination span a:hover,
+#layout-main div.g_menu.filter_menu div.settings input[type="text"],
+#layout-main div.g_menu.filter_menu div.settings select,
+#layout-main div.forum div.g_bubble.navbar div.bottom,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.votes_all div.graph.eps div.g_odd
+{
+	border-color: #34394D;
+}
+
+.g_bubble,
+#layout-main div.avatar img,
+#layout-main div.anime_all div.info div.image img,
+#layout-main div.forum div.signature,
+#layout-main div.forum div.events dl + dl,
+#layout-main div.forum div.poll dl + dl,
+#layout-main div.cmt_entries dl.profile,
+#layout-main div.forum div.quickreply textarea,
+#layout-main div.forum div.events h2,
+#layout-main div.forum div.poll h2,
+#layout-main div.forum div.events div.data > p,
+#layout-main div.forum div.poll div.data p,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover
+{
+	border-color:#9A9A9A #7D7D7D #7D7D7D #9A9A9A;
+}
+
+.g_bubble.stripe > div.data div.name,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
+#layout-tabs ul.main-tabs li,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-menu li.sub-menu ul li#user-xpass input,
+#layout-menu li.sub-menu ul li#user-xname input,
+#layout-main div.tag-column .tag-block + .tag-block
+{
+	border-color: #9A9A9A;
+}
+
+#layout-menu li.sub-menu,
+#layout-main > h1,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.news h4,
+#layout-main div.g_timedentry h4,
+#layout-main div.userpage_all > div.g_section > h4
+{
+	border-color: #EEEEEE #8E8E8E #8E8E8E #EEEEEE;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done,
+#layout-main div.group_all div.group_released td.epbar div.done
+{
+	background-color: #4F99E8;
+	border-bottom-color: #4F99E8;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done.mylist,
+#layout-main div.group_all div.group_released td.epbar div.done.mylist
+{
+	border-bottom-color: #7BE07B;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done,
+#layout-main div.group_all div.group_released td.epbar div.done
+{
+	background-color: #4F75E8;
+	border-bottom-color: #4F75E8;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.notdone,
+#layout-main div.group_all div.group_released td.epbar div.notdone
+{
+	background-color: #C3CFFF;
+	border-bottom-color: #C3CFFF;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done.mylist,
+#layout-main div.group_all div.group_released td.epbar div.done.mylist
+{
+	border-bottom-color: #7EF27E;
+}
+
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong,
+#layout-tabs ul.main-tabs li.selected a,
+#layout-tabs ul.main-tabs li:hover a
+{
+	color: #000000;
+}
+
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd,
+#layout-main div.forum div.events h2
+{
+	color: #666666;
+}
+
+#layout-main div.forum div.events h2,
+#layout-main div.forum div.poll h2,
+#layout-main div.forum div.events div.data > p,
+#layout-main div.forum div.poll div.data p
+{
+	border-bottom-color:#7D7D7D;
+}
+
+div.quotebody
+{
+	background-color: #E6E4D1;
+	border-color: #9A9A9A #7D7D7D #7D7D7D #9A9A9A;
+}
+
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4
+{
+	background-color:#34394D;
+	color:#DDDDDD;
+	border-color:#EEEEEE #8E8E8E #8E8E8E #EEEEEE;
+}
+
+#layout-main div.main_all div.header div.account ul.tabs li
+{
+	border-top-color: #9A9A9A;
+	border-left-color: #9A9A9A;
+	border-right-color: #7D7D7D;
+}
+
+#layout-main div.main_all div.header div.account ul.tabs li,
+#layout-main div.main_all div.header div.account ul.tabs li.signup:hover
+{
+	background-color:#CFD1D4;
+	border-bottom-color: #CFD1D4;
+}
+
+#layout-main div.main_all div.header div.account ul.tabs li.signup a
+{
+	color: #CFD1D4;
+}
+
+#layout-main div.main_all div.header div.latestnews div.posted
+{
+	color:#666666;
+}
+
+#layout-main div.forum div.g_bubble.rules
+{
+	background-color:#ECD5D8;
+	color:#BC2A4D;
+	border-color: #DEBFC3 #C4939F #C4939F #DEBFC3;
+}
+
+#layout-tabs ul.main-tabs > li:hover,
+#layout-tabs ul.main-tabs > li.selected
+{
+	border-bottom-color: #CFD1D4;
+}
+
+#layout-tabs ul.main-tabs > li
+{
+	border-bottom-color: #34394d;
+}
+
+/*tooltip*/
+#imagepreview,
+a.tooltip span.text {
+	background-color: #d3d5d9 !important;
+	color: #000000;
+	-moz-box-shadow: 0px 0px 8px 4px #666;
+	-webkit-box-shadow: 0px 0px 8px 4px #666;
+	box-shadow: 0px 0px 8px 4px #666;
+	opacity: 0.9;
+}
+
+a.tooltip span.text:after
+{
+	border-color: rgba(211, 213, 217, 0);
+	border-bottom-color: #d3d5d9;
+}
+
+a.tooltip span.text:before
+{
+	border-color: rgba(154, 154, 154, 0);
+	border-bottom-color: #9a9a9a;
+}
+
+/*quicksearch*/
+#layout-search ul.quicksearch {
+	background-color: #B9BBBF;
+	border-color: #34394d;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus {
+	background-color:#BBBBBB;
+}
+
+/*tag cloud*/
+#layout-main div.tag-column div.tag[weight="0"] .name a {
+	color: rgba(0, 0, 0, 0.6);
+}
+#layout-main div.tag-column div.tag.abstract[weight="0"] .name a,
+#layout-main div.tag-column span.not_added a {
+	color: rgba(0, 0, 0, 0.3);
+}
+#layout-main div.chartag-list span.size0 a,
+#layout-main div.chartag-list span.size1 a,
+#layout-main div.tag-column div.tag[weight="100"] .name a {
+	color: rgba(16, 82, 137, 0.5);
+}
+#layout-main div.chartag-list span.size2 a,
+#layout-main div.tag-column div.tag[weight="200"] .name a {
+	color: rgba(16, 82, 137, 0.6);
+}
+#layout-main div.chartag-list span.size3 a,
+#layout-main div.tag-column div.tag[weight="300"] .name a {
+	color: rgba(16, 82, 137, 0.7);
+}
+#layout-main div.chartag-list span.size4 a,
+#layout-main div.chartag-list span.size5 a,
+#layout-main div.tag-column div.tag[weight="400"] .name a {
+	color: rgba(16, 82, 137, 0.8);
+}
+#layout-main div.chartag-list span.size6 a,
+#layout-main div.chartag-list span.size7 a,
+#layout-main div.tag-column div.tag[weight="500"] .name a {
+	color: rgba(16, 82, 137, 1.0);
+}
+#layout-main div.chartag-list span.size8 a,
+#layout-main div.chartag-list span.size9 a,
+#layout-main div.chartag-list span.size10 a,
+#layout-main div.tag-column div.tag[weight="600"] .name a {
+	color: rgba(16, 82, 137, 1.0);
+}
+#layout-main div.tag-column div.tag[weight="100"] .weight {
+	opacity: 0.3;
+}
+#layout-main div.tag-column div.tag[weight="200"] .weight {
+	opacity: 0.4;
+}
+#layout-main div.tag-column div.tag[weight="300"] .weight {
+	opacity: 0.6;
+}
+#layout-main div.tag-column div.tag[weight="400"] .weight {
+	opacity: 0.8;
+}
+
+#layout-main div.chartag-list a:hover,
+#layout-main div.tag-column a:hover {
+	color: #AA0000 !important;
+	opacity: 1.0 !important;
+}
