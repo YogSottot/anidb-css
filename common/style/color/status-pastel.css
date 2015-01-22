@@ -59,7 +59,7 @@
 }
 
 /* IE fix */
-#layout-main div:not(.ed2kdump_all) tr td.mylist,
+#layout-main div:not(.ed2kdump_all) tr td.mylist
 {
 	background-color:#A7DDA7;
 }
