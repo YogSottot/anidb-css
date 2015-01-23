@@ -13,10 +13,10 @@
 
 #layout-menu
 {
-	border-right-color:#C9D7F1;
+	border-right-color:#666666;
 }
 
-#layout-menu
+#layout-menu > li ul,
 {
 	background-color:#000000;
 }
