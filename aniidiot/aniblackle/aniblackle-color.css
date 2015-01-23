@@ -425,7 +425,7 @@ a.tooltip span.text {
 	-webkit-box-shadow: 0px 0px 8px 4px #666;
 	box-shadow: 0px 0px 8px 4px #666;
 	opacity: 0.9;
-	color: #000000;
+	color: #FFFFFF;
 }
 
 button:focus::-moz-focus-inner,
@@ -437,7 +437,6 @@ input[type="button"]:focus::-moz-focus-inner {
 #layout-main div.tag-column .tag-block + .tag-block {
 	border-color: #666666;
 }
-
 
 /*quicksearch*/
 #layout-search ul.quicksearch {
