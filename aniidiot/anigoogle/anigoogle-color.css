@@ -449,3 +449,14 @@ a.tooltip span.text {
 	color: #AA0000 !important;
 	opacity: 1.0 !important;
 }
+
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4
+{
+	border-top-color: blue;
+}
+
+#layout-search div.g_bubble.search {
+	background-color: transparent;
+}
