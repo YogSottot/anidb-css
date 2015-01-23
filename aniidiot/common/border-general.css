@@ -12,7 +12,6 @@ table {
 	border-bottom: 2px double;
 }
 
-table,
 input[type="submit"],
 button[type="submit"],
 *.g_bubble,
@@ -76,6 +75,7 @@ tr + tr th,
 	border-top: 1px double;
 }
 
+table,
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 #layout-main div.anime_all div.info div.caststaff div table,
