@@ -18,7 +18,7 @@
 
 #layout-menu > li ul
 {
-	background-color:#000000;
+	background-color: inherit;
 }
 
 #layout-menu li.sub-menu:hover,
