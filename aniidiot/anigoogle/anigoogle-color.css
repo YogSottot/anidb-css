@@ -11,12 +11,6 @@ th a,
 	color: #00008b;
 }
 
-#layout-main > h1
-{
-	background-color: #ECF4FD;
-	border-top-color: blue;
-}
-
 #layout-menu > li ul
 {
 	background-color: #FFFFFF;
@@ -178,7 +172,10 @@ button[type="submit"]:hover,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.search_all div.suggestions span:hover,
-.g_button a
+.g_button a,
+#layout-main > h1,
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus
 {
 	background-color: #ECF4FD;
 }
@@ -200,12 +197,6 @@ html,
 #layout-main div.forum ul.topics li.row
 {
 	background-color: #FFFFFF;
-}
-
-#layout-main div.anime_all div.info div.caststaff div table,
-table
-{
-	border-top-color: blue;
 }
 
 #layout-main div.tabbed_pane ul.tabs li,
@@ -350,13 +341,6 @@ tr + tr th,
 	border-top-color: #E8F0FF;
 }
 
-#layout-main div.g_timedentry h4,
-#layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4
-{
-	border-top-color: blue;
-}
-
 #layout-main div.anime_all table.stafflist + table.stafflist,
 #layout-main div.anime_all div.episodes tr.newtype td
 {
@@ -387,11 +371,6 @@ a.tooltip span.text {
 #layout-search ul.quicksearch {
     background-color: #FFFFFF;
     border-color: #c9d7f1;
-}
-
-#layout-search ul.quicksearch li:hover,
-#layout-search ul.quicksearch li.focus {
-	background-color:#ecf4fd;
 }
 
 /*tag cloud*/
@@ -450,11 +429,16 @@ a.tooltip span.text {
 	opacity: 1.0 !important;
 }
 
+table,
+#layout-main > h1,
+#layout-main div.anime_all div.info div.caststaff div table,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4
-{
-	border-top-color: blue;
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4 {
+	border-top-color: #C3D9FF;
 }
 
 #layout-search div.g_bubble.search {
