@@ -1,0 +1,79 @@
+/*rounded corners*/
+h4,
+*.g_button a,
+*.g_msg,
+div.quotebody,
+span.test,
+button,
+input[type="text"],
+input[type="password"],
+input.text,
+textarea,
+select,
+input[type="submit"],
+#layout-main h1,
+#layout-main ul.g_list li,
+#layout-main .latest_all .g_list.filter li,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.pagination span a,
+#layout-main div.pagination span strong,
+#layout-search input.submit,
+#layout-main ul.g_list li.g_odd,
+#layout-search select,
+#layout-main div.format-buttons input,
+#layout-main div.format-buttons select,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover {
+	border-radius: 0;
+}
+
+#layout-search input.text {
+	border-radius: 0;
+}
+
+#layout-search select {
+	border-radius: 0;
+}
+
+#layout-search div.results_available input.text {
+	border-radius: 0;
+}
+
+#layout-search div.results_available select {
+    border-radius: 0;
+}
+
+#layout-main div.animeatt_reviews div.review h4,
+#layout-main div.userpage_all div.blog div.g_timedentry h4 {
+	border-radius: 0;
+}
+
+#layout-main div.anime_all div.info div.caststaff div h4,
+#layout-tabs ul.main-tabs > li,
+#layout-main div.tabbed_pane ul.tabs > li,
+#layout-main div.main_all div.rightbar h4 {
+	border-radius: 0;
+}
+
+#layout-search input.text.focus {
+	border-radius: 0;
+}
+
+#layout-search input.text.focus + select {
+    border-radius: 0;
+}
+
+/*less borders*/
+.g_bubble,
+.g_button a,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li.g_odd,
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4 {
+	border: none;
+}
