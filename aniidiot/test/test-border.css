@@ -23,44 +23,23 @@ input[type="submit"],
 #layout-main div.format-buttons input,
 #layout-main div.format-buttons select,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
-#layout-main div.addtagentityrel_all div.suggestions > span:hover {
-	border-radius: 0;
-}
-
-#layout-search input.text {
-	border-radius: 0;
-}
-
-#layout-search select {
-	border-radius: 0;
-}
-
-#layout-search div.results_available input.text {
-	border-radius: 0;
-}
-
-#layout-search div.results_available select {
-    border-radius: 0;
-}
-
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-search input.text,
+#layout-search select,
+#layout-search div.results_available input.text,
+#layout-search div.results_available select,
 #layout-main div.animeatt_reviews div.review h4,
-#layout-main div.userpage_all div.blog div.g_timedentry h4 {
-	border-radius: 0;
-}
-
+#layout-main div.userpage_all div.blog div.g_timedentry h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs > li,
-#layout-main div.main_all div.rightbar h4 {
+#layout-main div.main_all div.rightbar h4,
+#layout-search input.text.focus,
+#layout-search input.text.focus + select,
+.g_bubble,
+#layout-menu li.sub-menu,
+#layout-menu li.sub-menu ul {
 	border-radius: 0;
-}
-
-#layout-search input.text.focus {
-	border-radius: 0;
-}
-
-#layout-search input.text.focus + select {
-    border-radius: 0;
 }
 
 /*less borders*/
