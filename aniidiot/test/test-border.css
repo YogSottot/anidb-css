@@ -68,7 +68,3 @@ table,
 #layout-main div.userpage_all > div.g_section > h4 {
 	border: none !important;
 }
-
-#layout-menu li.sub-menu + li.sub-menu {
-    border-top: 1px solid !important;
-}

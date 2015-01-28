@@ -418,13 +418,14 @@ th a,
 	background-color: #444444;
 }
 
-#layout-menu li.sub-menu + li.sub-menu {
-    border-top-color: #cccccc;
+#layout-menu li.sub-menu span.tab {
+    color: #cc181e;
 }
 
 /*box shadow*/
 .g_bubble,
 #layout-hint,
-#layout-main div.g_msg {
+#layout-main div.g_msg,
+#layout-menu li.sub-menu ul {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
