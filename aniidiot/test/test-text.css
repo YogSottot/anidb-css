@@ -40,7 +40,7 @@ h4 span {
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab,
-#layout-main div.edit_actions span
+#layout-main div.edit_actions span,
 h4 span {
 	text-transform: uppercase;
 }
