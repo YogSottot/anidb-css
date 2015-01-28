@@ -30,7 +30,7 @@
 	padding-right: 1em;
 	position: relative;
 	width: 10em;
-	margin-top: 9.5em;
+	margin-top: 105px;
 	padding-top: 0;
 }
 
@@ -64,23 +64,23 @@
 
 #layout-tabs
 {
-	margin: 8.8em 0.3em;
+	margin: 87px 0.3em;
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs
 {
-	margin: 10.2em 0.3em;
+	margin: 100px 0.3em;
 }
 
 #layout-hint + #layout-nav #layout-menu,
 #layout-nav
 {
-	margin-top: 9.5em;
+	margin-top: 105px;
 }
 
 #layout-nav
 {
-	height: 10.5em;
+	height: 105px;
 	padding-bottom: 0;
 }
 

@@ -52,6 +52,6 @@
 	display: block;
 }
 
-#layout-search input.submit {
-	padding: 4px;
+#layout-menu li.sub-menu.main span.tab {
+    display: none;
 }
