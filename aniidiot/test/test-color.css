@@ -169,11 +169,10 @@ button[type="submit"],
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
-body {
+html {
 	background-color: #F8F8F8;
 }
 
-html,
 .g_bubble .g_odd,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul.main-tabs > li.selected,
