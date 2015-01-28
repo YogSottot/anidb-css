@@ -23,10 +23,6 @@
 	margin: 0.4em 0.15em !important
 }
 
-#layout-main div.main_all div.datablocks > div {
-	max-width: calc(25% - 8px);
-}
-
 #layout-main div.main_all div.datablocks > div,
 #layout-main div.main_all div.news.forum > div,
 #layout-main div.main_all div.header > div {
