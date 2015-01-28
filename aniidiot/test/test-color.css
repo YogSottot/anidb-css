@@ -195,14 +195,21 @@ select,
 span.test,
 input[type="submit"],
 button[type="submit"],
-#layout-content
-{
+#layout-content,
+#layout-main div.forum div.quickreply textarea {
 	border-color: #E0E0E0;
 }
 
 .g_bubble.stripe > div.data div.name,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title
-{
+#layout-main div.forum div.signature,
+#layout-main div.forum div.events dl + dl,
+#layout-main div.forum div.poll dl + dl,
+#layout-main div.cmt_entries dl.profile,
+#layout-main div.forum div.events h2,
+#layout-main div.forum div.poll h2,
+#layout-main div.forum div.events div.data > p,
+#layout-main div.forum div.poll div.data,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
 	border-color: #CCCCCC;
 }
 
@@ -404,15 +411,15 @@ th a,
 	color: #FFFFFF;
 }
 
+th,
+th a,
+#layout-main > h1,
 #layout-main table tr.header,
 #layout-main div.votes_all div.graph div.header,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
-#layout-main > h1,
-th,
-th a,
 #layout-main div.forum div.g_bubble.threads,
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a {
@@ -429,4 +436,15 @@ th a,
 #layout-main div.g_msg,
 #layout-menu li.sub-menu ul {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+#imagepreview,
+a.tooltip span.text {
+	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.1);
+	opacity: 0.95;
+	background-color: #e8e8e8 !important;
+}
+
+#layout-main > h1 {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
 }

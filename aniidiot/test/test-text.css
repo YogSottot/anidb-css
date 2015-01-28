@@ -3,11 +3,41 @@
 #layout-main div.main_all div.header h4 span,
 #layout-main div.anime_all div.info div.caststaff div h4 span,
 #layout-main div.block div.data table th,
+#layout-main tr.header th,
+#layout-main tr.header th.sortable a,
+#layout-menu li.sub-menu span.tab,
 #layout-main > h1,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-tabs ul.main-tabs,
+h4 span {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+#layout-main div.main_all div.rightbar h4 span,
+#layout-main div.main_all div.datablocks h4 span,
+#layout-main div.main_all div.header h4 span,
+#layout-main div.anime_all div.info div.caststaff div h4 span,
+#layout-main div.block div.data table th,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab {
-    font-family: Arial,Helvetica,sans-serif;
     font-weight: bold;
+}
+
+#layout-main > h1,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-main div.block div.data table th,
+#layout-tabs ul.main-tabs {
+    text-transform: capitalize;
+}
+
+#layout-main div.main_all div.rightbar h4 span,
+#layout-main div.main_all div.datablocks h4 span,
+#layout-main div.main_all div.header h4 span,
+#layout-main div.anime_all div.info div.caststaff div h4 span,
+#layout-main tr.header th,
+#layout-main tr.header th.sortable a,
+#layout-menu li.sub-menu span.tab,
+h4 span {
     text-transform: uppercase;
 }

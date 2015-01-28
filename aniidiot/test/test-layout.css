@@ -43,7 +43,8 @@
 }
 
 
-#layout-main div.main_all div.header div.latestnews .g_bubble.stripe + .g_bubble.stripe
+#layout-main div.main_all div.header div.latestnews .g_bubble.stripe + .g_bubble.stripe,
+#layout-main div.main_all div.datablocks .g_bubble.stripe + .g_bubble.stripe
 {
 	margin-left: 0;
 }
