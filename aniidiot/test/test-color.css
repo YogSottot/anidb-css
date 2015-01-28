@@ -69,6 +69,7 @@ a:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button[type="submit"]:hover,
+#layout-main ul.g_list li:hover,
 #layout-main div.search_all div.suggestions span:hover
 {
 	color: #AA0000;
@@ -129,6 +130,7 @@ a.tooltip > span.text.g_bubble,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button[type="submit"]:hover,
+#layout-main ul.g_list li:hover,
 .g_button a,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.forum ul.topics li.g_odd.row,
@@ -206,6 +208,7 @@ select,
 input[type="submit"],
 input[type="button"],
 button[type="submit"],
+#layout-main ul.g_list li,
 .g_bubble.stripe > div.data div.name,
 #layout-main div.forum div.signature,
 #layout-main div.forum div.events dl + dl,
@@ -450,6 +453,7 @@ th a,
 input[type="submit"],
 input[type="button"],
 button[type="submit"],
+#layout-main ul.g_list li,
 #layout-main > h1 {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
