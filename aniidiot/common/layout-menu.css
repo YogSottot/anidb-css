@@ -30,7 +30,7 @@
 	padding-right: 1em;
 	position: relative;
 	width: 10em;
-	padding-top: 0;
+	padding-top: 1px;
 }
 
 #layout-menu > li
@@ -89,13 +89,10 @@
 	padding-bottom: 0;
 }
 
+#layout-hint + #layout-nav #layout-menu,
+#layout-menu,
 #layout-content
 	margin-top: 0;
-}
-
-#layout-hint + #layout-nav #layout-menu,
-#layout-menu {
-	margin-top: 1px;
 }
 
 #layout-hint + #layout-nav #layout-search
