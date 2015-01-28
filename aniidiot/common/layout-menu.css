@@ -30,7 +30,7 @@
 	padding-right: 1em;
 	position: relative;
 	width: 10em;
-	margin-top: 105px;
+	margin-top: 106px;
 	padding-top: 0;
 }
 
@@ -75,12 +75,12 @@
 #layout-hint + #layout-nav #layout-menu,
 #layout-nav
 {
-	margin-top: 105px;
+	margin-top: 106px;
 }
 
 #layout-nav
 {
-	height: 105px;
+	height: 106px;
 	padding-bottom: 0;
 }
 
