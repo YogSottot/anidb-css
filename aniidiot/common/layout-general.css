@@ -389,6 +389,7 @@ button + button
     width: 98%;
 }
 
+#layout-main div.forum div.search form select,
 #layout-main div.forum div.search form input {
 	padding: 4px;
 }
