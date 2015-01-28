@@ -20,7 +20,7 @@
 }
 
 .g_bubble.stripe {
-	margin-bottom: 0.8em;
+	margin: 0.35em;
 }
 
 #layout-main div.main_all div.datablocks > div {
@@ -31,21 +31,6 @@
 #layout-main div.main_all div.news.forum > div,
 #layout-main div.main_all div.header > div {
 	margin: 0 4px;
-}
-
-.g_bubble.stripe + .g_bubble.stripe {
-	margin-left: 4px;
-}
-
-#layout-main div.anime_all div.info div.caststaff > div,
-#layout-main div.anime_all div.tabbed_pane {
-	margin: 0.35em;
-}
-
-#layout-main div.main_all div.header div.latestnews .g_bubble.stripe + .g_bubble.stripe,
-#layout-main div.main_all div.datablocks .g_bubble.stripe + .g_bubble.stripe
-{
-	margin-left: 0;
 }
 
 #layout-menu li.sub-menu span.tab {
