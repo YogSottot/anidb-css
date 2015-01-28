@@ -452,21 +452,14 @@ th a,
 .g_button,
 input[type="submit"],
 input[type="button"],
-button[type="submit"] {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+button[type="submit"],
+#layout-main > h1 {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 #imagepreview,
 a.tooltip span.text {
-	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
 	opacity: 0.95;
 	background-color: #e8e8e8 !important;
-}
-
-#layout-main > h1,
-#layout-main div.main_all div.rightbar h4,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4,
-#layout-main div.anime_all div.info div.caststaff div h4 {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
 }
