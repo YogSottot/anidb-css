@@ -147,18 +147,7 @@ button[type="submit"]:hover,
 #layout-main div.search_all div.suggestions span:hover,
 .g_button a,
 #layout-search ul.quicksearch li:hover,
-#layout-search ul.quicksearch li.focus
-{
-	background-color: #F1F1F1;
-}
-
-body {
-	background-color: #F8F8F8;
-}
-
-.g_odd .g_bubble,
-.g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble,
+#layout-search ul.quicksearch li.focus,
 #layout-main div.forum div.g_bubble.poll,
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum div.g_bubble.search,
@@ -166,17 +155,16 @@ body {
 #layout-main div.forum div.g_bubble.posting-box,
 #layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
-#layout-main div.forum div.g_bubble.threads,
-#layout-main > h1,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4,
-#layout-main table tr.header,
-#layout-main div.votes_all div.graph div.header,
-#layout-main div.anime_all div.info div.caststaff div h4,
-#layout-main div.main_all div.rightbar h4,
-th
+#layout-main div.forum div.g_bubble.threads
 {
-	background-color: #E0E0E0;
+	background-color: #F1F1F1;
+}
+
+.g_odd .g_bubble,
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble,
+body {
+	background-color: #F8F8F8;
 }
 
 html,
@@ -411,10 +399,23 @@ a.tooltip span.text {
 #layout-main > h1,
 table th,
 th a,
-#layout-main div.forum div.g_bubble.threads,
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a {
 	color: #FFFFFF;
+}
+
+#layout-main table tr.header,
+#layout-main div.votes_all div.graph div.header,
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4,
+#layout-main div.anime_all div.info div.caststaff div h4,
+#layout-main > h1,
+th,
+th a,
+#layout-main div.forum div.g_bubble.threads,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a {
 	background-color: #444444;
 }
 
