@@ -65,7 +65,7 @@ table,
 #layout-main div.anime_all div.info div.caststaff div table,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4
+#layout-main div.userpage_all > div.g_section > h4 {
 	border: none !important;
 }
 
