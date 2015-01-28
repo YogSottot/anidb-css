@@ -17,21 +17,6 @@ th a,
 	border-color: #000000;
 }
 
-#layout-main div.pagination span a
-{
-	background-color: #FFFFFF;
-	color: #000000;
-	border-color: #B4BAC0;
-}
-
-#layout-main div.pagination span a:hover,
-#layout-main div.pagination span strong
-{
-	background-color: #E5ECF9;
-	color: #000000;
-	border-color: #4692BF;
-}
-
 #layout-nav div.menu_hr,
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag
 {
@@ -42,7 +27,9 @@ th a,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
-#layout-main div.forum ul.topics li.g_odd.row:hover
+#layout-main div.forum ul.topics li.g_odd.row:hover,
+#layout-main div.forum hr,
+#layout-main div.cmt_all div.cmt_add hr
 {
 	background-color:#CCCCCC;
 }
@@ -61,6 +48,7 @@ a:hover,
 .g_bubble .name-colored,
 #layout-main a.filter:hover,
 #layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover a,
 #layout-main div.cmt_entries a.username-colored,
@@ -130,12 +118,13 @@ a.tooltip > span.text.g_bubble,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button[type="submit"]:hover,
-#layout-main ul.g_list li:hover,
 .g_button a,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.selected,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
 #layout-tabs ul.main-tabs > li,
 #layout-main div.g_timedentry h4,
 #layout-main div.tabbed_pane_cfg div.body,
@@ -170,6 +159,7 @@ input[type="button"],
 button[type="submit"],
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
+#layout-main div.pagination span a,
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
@@ -212,6 +202,7 @@ button[type="submit"],
 .f_button:hover,
 .f_button.selected,
 #layout-main ul.g_list li,
+#layout-main div.pagination span a,
 .g_bubble.stripe > div.data div.name,
 #layout-main div.forum div.signature,
 #layout-main div.forum div.events dl + dl,
@@ -221,8 +212,6 @@ button[type="submit"],
 #layout-main div.forum div.poll h2,
 #layout-main div.forum div.events div.data > p,
 #layout-main div.forum div.poll div.data,
-#layout-main div.forum hr,
-#layout-main div.cmt_all div.cmt_add hr,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
 	border-color: #CCCCCC;
@@ -460,7 +449,8 @@ th a,
 input[type="submit"],
 input[type="button"],
 button[type="submit"],
-#layout-main ul.g_list li {
+#layout-main ul.g_list li,
+#layout-main div.pagination span a {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 

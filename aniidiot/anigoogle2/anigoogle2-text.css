@@ -10,6 +10,8 @@
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul.main-tabs,
 #layout-main div.edit_actions span,
+#layout-main div.g_definitionlist tr th,
+#layout-main div.g_menu ul li,
 h4 span {
 	font-family: Arial,Helvetica,sans-serif;
 }
@@ -22,6 +24,7 @@ h4 span {
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab,
+#layout-main div.g_definitionlist tr th,
 #layout-main div.edit_actions span {
 	font-weight: bold;
 }
@@ -29,6 +32,8 @@ h4 span {
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-main div.block div.data table th,
 #layout-main div.edit_actions span,
+#layout-main div.g_definitionlist tr th,
+#layout-main div.g_menu ul li,
 #layout-tabs ul.main-tabs {
 	text-transform: capitalize;
 }
