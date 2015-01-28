@@ -4,10 +4,10 @@
 @import "../common-menu.css";
 @import "../icons-grey.css";
 @import "../logos.css";
-@import "test-border.css";
-@import "test-layout.css";
-@import "test-text.css";
-@import "test-color.css";
+@import "anigoogle2-border.css";
+@import "anigoogle2-layout.css";
+@import "anigoogle2-text.css";
+@import "anigoogle2-color.css";
 
 #layout-footer:after
 {

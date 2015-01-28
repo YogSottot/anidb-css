@@ -26,9 +26,9 @@ h4 span {
 	font-weight: bold;
 }
 
-#layout-main > h1,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-main div.block div.data table th,
+#layout-main div.edit_actions span,
 #layout-tabs ul.main-tabs {
 	text-transform: capitalize;
 }
@@ -40,7 +40,6 @@ h4 span {
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab,
-#layout-main div.edit_actions span,
 h4 span {
 	text-transform: uppercase;
 }
