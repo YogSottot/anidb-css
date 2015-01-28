@@ -39,7 +39,8 @@ th a,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.forum hr,
-#layout-main div.cmt_all div.cmt_add hr
+#layout-main div.cmt_all div.cmt_add hr,
+.g_bubble.spoiler input.button
 {
 	background-color:#CCCCCC;
 }
@@ -128,6 +129,7 @@ a.tooltip > span.text.g_bubble,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button[type="submit"]:hover,
+.g_bubble.spoiler input.button:hover,
 .g_button a,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.forum ul.topics li.g_odd.row,
@@ -160,8 +162,7 @@ button[type="submit"]:hover,
 #layout-main div.forum div.g_bubble.options-box,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.userpage_all div.g_menu ul,
-#layout-main div.userpage_all div.g_menu ul li.g_odd,
-.g_bubble.spoiler input.button
+#layout-main div.userpage_all div.g_menu ul li.g_odd
 {
 	background-color: #F1F1F1;
 }
@@ -421,7 +422,8 @@ a.tooltip span.text {
 table th,
 th a,
 #layout-menu li.sub-menu ul li:hover,
-#layout-menu li.sub-menu ul li:hover a {
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.userpage_all div.g_menu ul li:hover a {
 	color: #FFFFFF;
 }
 
@@ -437,6 +439,7 @@ th a,
 #layout-main div.forum div.g_bubble.threads,
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a,
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
 	background-color: #444444;
 }
