@@ -65,6 +65,7 @@ table,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #imagepreview,
-a.tooltip span.text {
+a.tooltip span.text,
+#layout-main div.userpage_all div.g_menu ul li {
 	border: none !important;
 }

@@ -159,6 +159,8 @@ button[type="submit"]:hover,
 #layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
 #layout-main div.forum div.g_bubble.threads,
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.userpage_all div.g_menu ul li.g_odd,
 .g_bubble.spoiler input.button
 {
 	background-color: #F1F1F1;
@@ -434,7 +436,8 @@ th a,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.forum div.g_bubble.threads,
 #layout-menu li.sub-menu ul li:hover,
-#layout-menu li.sub-menu ul li:hover a {
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.userpage_all div.g_menu ul li:hover {
 	background-color: #444444;
 }
 
@@ -447,6 +450,7 @@ th a,
 #layout-hint,
 #layout-main div.g_msg,
 #layout-menu li.sub-menu ul,
+#layout-main div.userpage_all div.g_menu ul
 #layout-main > h1 {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
