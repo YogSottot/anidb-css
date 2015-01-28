@@ -91,7 +91,7 @@
 
 #layout-hint + #layout-nav #layout-menu,
 #layout-menu,
-#layout-content
+#layout-content {
 	margin-top: 0;
 }
 
