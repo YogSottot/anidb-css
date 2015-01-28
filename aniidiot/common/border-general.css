@@ -13,6 +13,7 @@ table {
 }
 
 input[type="submit"],
+input[type="button"],
 button[type="submit"],
 *.g_bubble,
 *.g_button a,
@@ -141,6 +142,7 @@ input.text,
 textarea,
 select,
 input[type="submit"],
+input[type="button"],
 #layout-main h1,
 #layout-main ul.g_list li,
 #layout-main .latest_all .g_list.filter li,

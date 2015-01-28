@@ -67,6 +67,7 @@ a:hover,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored,
 input[type="submit"]:hover,
+input[type="button"]:hover,
 button[type="submit"]:hover,
 #layout-main div.search_all div.suggestions span:hover
 {
@@ -121,12 +122,16 @@ tr.g_odd,
 li.g_odd,
 span.g_odd,
 div.g_odd,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.forum ul.topics li.g_odd.row,
 a.tooltip > span.text.g_bubble,
 .g_bubble,
 .g_bubble .g_bubble .g_bubble,
 .g_button a:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button[type="submit"]:hover,
+.g_button a,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.forum ul.topics li.g_odd.row,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.selected,
 #layout-tabs ul.main-tabs > li,
@@ -140,12 +145,9 @@ a.tooltip > span.text.g_bubble,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.main_all div.header div.account ul.tabs li.signup,
 #layout-main div.forum div.g_bubble.events,
-input[type="submit"]:hover,
-button[type="submit"]:hover,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.search_all div.suggestions span:hover,
-.g_button a,
 #layout-search ul.quicksearch li:hover,
 #layout-search ul.quicksearch li.focus,
 #layout-main div.forum div.g_bubble.poll,
@@ -160,6 +162,10 @@ button[type="submit"]:hover,
 	background-color: #F1F1F1;
 }
 
+.g_button,
+input[type="submit"],
+input[type="button"],
+button[type="submit"],
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
@@ -191,9 +197,6 @@ select,
 #layout-main div.search_all div.suggestions,
 #layout-main div.avatar img,
 #layout-main div.anime_all div.info div.image img,
-span.test,
-input[type="submit"],
-button[type="submit"],
 #layout-content,
 #layout-main div.forum div.quickreply textarea {
 	border-color: #E0E0E0;
@@ -317,7 +320,7 @@ tr + tr th,
 }
 
 #layout-main div.tag-column .tag-block + .tag-block {
-    border-left-color: #CCCCCC;
+	border-left-color: #CCCCCC;
 }
 
 /*tooltip*/
@@ -338,8 +341,8 @@ a.tooltip span.text {
 
 /*quicksearch*/
 #layout-search ul.quicksearch {
-    background-color: #FFFFFF;
-    border-color: #E0E0E0;
+	background-color: #FFFFFF;
+	border-color: #E0E0E0;
 }
 
 /*tag cloud*/
@@ -430,15 +433,21 @@ th a,
 }
 
 #layout-menu li.sub-menu span.tab {
-    color: #cc181e;
+	color: #cc181e;
 }
 
 /*box shadow*/
 .g_bubble,
 #layout-hint,
 #layout-main div.g_msg,
-#layout-menu li.sub-menu ul {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+#layout-menu li.sub-menu ul,
+#layout-search select,
+#layout-search input.text,
+.g_button,
+input[type="submit"],
+input[type="button"],
+button[type="submit"] {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 #imagepreview,
@@ -448,6 +457,10 @@ a.tooltip span.text {
 	background-color: #e8e8e8 !important;
 }
 
-#layout-main > h1 {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+#layout-main > h1,
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4,
+#layout-main div.anime_all div.info div.caststaff div h4 {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
 }

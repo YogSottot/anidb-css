@@ -1,17 +1,17 @@
 #layout-menu li.sub-menu {
-    margin-bottom: 0.5;
+	margin-bottom: 0.5;
 }
 
 #layout-menu li.sub-menu ul li.alert,
 #layout-menu li.sub-menu ul li a {
-    height: 20px;
-    display: block;
-    width: 100%;
+	height: 20px;
+	display: block;
+	width: 100%;
 }
 
 #layout-menu li.sub-menu ul li a span {
-    display: block;
-    padding-top: 2px;
+	display: block;
+	padding-top: 2px;
 }
 
 #layout-menu li.ed2kdump,
@@ -24,13 +24,13 @@
 }
 
 #layout-main div.main_all div.datablocks > div {
-    max-width: calc(25% - 8px);
+	max-width: calc(25% - 8px);
 }
 
 #layout-main div.main_all div.datablocks > div,
 #layout-main div.main_all div.news.forum > div,
 #layout-main div.main_all div.header > div {
-    margin: 0 4px;
+	margin: 0 4px;
 }
 
 .g_bubble.stripe + .g_bubble.stripe {
@@ -39,9 +39,8 @@
 
 #layout-main div.anime_all div.info div.caststaff > div,
 #layout-main div.anime_all div.tabbed_pane {
-    margin: 0.35em;
+	margin: 0.35em;
 }
-
 
 #layout-main div.main_all div.header div.latestnews .g_bubble.stripe + .g_bubble.stripe,
 #layout-main div.main_all div.datablocks .g_bubble.stripe + .g_bubble.stripe
@@ -50,5 +49,9 @@
 }
 
 #layout-menu li.sub-menu span.tab {
-    display: block;
+	display: block;
+}
+
+#layout-search input.submit {
+	padding: 4px;
 }
