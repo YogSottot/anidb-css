@@ -37,9 +37,10 @@ input[type="submit"],
 #layout-search input.text.focus,
 #layout-search input.text.focus + select,
 .g_bubble,
+#layout-content,
 #layout-menu li.sub-menu,
 #layout-menu li.sub-menu ul {
-	border-radius: 0;
+	border-radius: 0 !important;
 }
 
 /*less borders*/
@@ -53,6 +54,11 @@ input[type="submit"],
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4 {
-	border: none;
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.g_msg,
+#layout-hint,
+#layout-menu > li ul,
+#layout-menu li.sub-menu li + li,
+#layout-menu li.sub-menu {
+	border: none !important;
 }

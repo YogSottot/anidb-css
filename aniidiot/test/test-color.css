@@ -38,12 +38,13 @@ th a,
 	border-top-color: #E0E0E0;
 }
 
+#layout-main tr.header th.sortable:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover
 {
-	background-color:#CBD6DE;
+	background-color:#CCCCCC;
 }
 
 #layout-tabs ul.main-tabs > li:hover,
@@ -116,12 +117,6 @@ button[type="submit"]:hover,
 	border-bottom-color: #C3D8FF;
 }
 
-#layout-main tr.header th.sortable:hover
-{
-	background-color: #D5E2F7;
-	color: #000000;
-}
-
 tr.g_odd,
 li.g_odd,
 span.g_odd,
@@ -150,9 +145,15 @@ button[type="submit"]:hover,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.search_all div.suggestions span:hover,
-.g_button a
+.g_button a,
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus
 {
 	background-color: #F1F1F1;
+}
+
+body {
+	background-color: #F8F8F8;
 }
 
 .g_odd .g_bubble,
@@ -185,7 +186,8 @@ html,
 #layout-tabs ul.main-tabs > li:hover,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover,
 #layout-main div.search_all div.suggestions,
-#layout-main div.forum ul.topics li.row
+#layout-main div.forum ul.topics li.row,
+#layout-content
 {
 	background-color: #FFFFFF;
 }
@@ -204,7 +206,8 @@ select,
 #layout-main div.anime_all div.info div.image img,
 span.test,
 input[type="submit"],
-button[type="submit"]
+button[type="submit"],
+#layout-content
 {
 	border-color: #E0E0E0;
 }
@@ -228,6 +231,7 @@ button[type="submit"]
 	color:#555555;
 }
 
+#layout-main div.forum div.g_bubble.threads,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong
 {
 	color:#000000;
@@ -249,11 +253,6 @@ button[type="submit"]
 #layout-main div.forum div.poll h2
 {
 	color:#006699;
-}
-
-#layout-main div.forum div.g_bubble.threads
-{
-	background-color:#4992B6;
 }
 
 #layout-main div.forum div.g_bubble.rules
@@ -317,7 +316,7 @@ li + li.g_odd,
 tr + tr th,
 #layout-main div.g_definitionlist tr th
 {
-	border-top-color: #E8F0FF;
+	border-top-color: #F1F1F1;
 }
 
 #layout-main div.anime_all table.stafflist + table.stafflist,
@@ -350,11 +349,6 @@ a.tooltip span.text {
 #layout-search ul.quicksearch {
     background-color: #FFFFFF;
     border-color: #E0E0E0;
-}
-
-#layout-search ul.quicksearch li:hover,
-#layout-search ul.quicksearch li.focus {
-	background-color:#F1F1F1;
 }
 
 /*tag cloud*/
@@ -419,6 +413,7 @@ a.tooltip span.text {
 
 /*box shadow*/
 .g_bubble,
+#layout-hint,
 #layout-main div.g_msg {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
