@@ -1,3 +1,13 @@
+a.button,
+input.button,
+button.button,
+a.confirmButton,
+input.confirmButton,
+button.confirmButton {
+	background-image: none;
+	color: inherit;
+}
+
 span.link,
 a,
 th a,
@@ -148,7 +158,8 @@ button[type="submit"]:hover,
 #layout-main div.forum div.g_bubble.posting-box,
 #layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
-#layout-main div.forum div.g_bubble.threads
+#layout-main div.forum div.g_bubble.threads,
+.g_bubble.spoiler input.button
 {
 	background-color: #F1F1F1;
 }
@@ -203,6 +214,7 @@ button[type="submit"],
 .f_button.selected,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
+#layout-main div.pagination span strong,
 .g_bubble.stripe > div.data div.name,
 #layout-main div.forum div.signature,
 #layout-main div.forum div.events dl + dl,
@@ -213,6 +225,7 @@ button[type="submit"],
 #layout-main div.forum div.events div.data > p,
 #layout-main div.forum div.poll div.data,
 #layout-main div.forum div.g_bubble.threads,
+#layout-main div.forum div.g_bubble.navbar div.bottom,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
 	border-color: #CCCCCC;
 }
@@ -234,11 +247,6 @@ button[type="submit"],
 	border-top-color: #E0E0E0;
 	border-left-color: #E0E0E0;
 	border-right-color: #E0E0E0;
-}
-
-#layout-main div.forum div.g_bubble.navbar div.bottom
-{
-	border-color:#FFFFFF;
 }
 
 #layout-main div.forum div.events h2,

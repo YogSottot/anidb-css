@@ -1,3 +1,12 @@
+a.button,
+input.button,
+button.button,
+a.confirmButton,
+input.confirmButton,
+button.confirmButton {
+	text-shadow: none;
+}
+
 #layout-main div.main_all div.rightbar h4 span,
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
