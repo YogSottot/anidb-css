@@ -9,7 +9,7 @@
 #layout-main > h1,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul.main-tabs,
-#layout-main div.edit_actions span
+#layout-main div.edit_actions span,
 h4 span {
 	font-family: Arial,Helvetica,sans-serif;
 }
