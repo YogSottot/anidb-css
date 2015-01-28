@@ -388,3 +388,11 @@ button + button
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td input[type="text"] {
     width: 98%;
 }
+
+#layout-main div.forum div.search form input {
+	padding: 4px;
+}
+
+#layout-main div.forum div.search form input[type="submit"] {
+	padding: 4px 4px 3px;
+}
