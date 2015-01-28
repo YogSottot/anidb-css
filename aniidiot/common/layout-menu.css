@@ -84,15 +84,18 @@
 
 #layout-nav
 {
-	margin-top: 103px;
-	height: 0;
+	margin-top: 102px;
+	height: 1px;
 	padding-bottom: 0;
 }
 
-#layout-content,
+#layout-content
+	margin-top: 0;
+}
+
 #layout-hint + #layout-nav #layout-menu,
 #layout-menu {
-	margin-top: 0;
+	margin-top: 1px;
 }
 
 #layout-hint + #layout-nav #layout-search
