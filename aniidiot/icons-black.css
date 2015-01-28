@@ -1,0 +1,153 @@
+*.i_plus
+{
+	background-image: url(../icons/black/plus.gif);
+}
+
+*.i_minus
+{
+	background-image: url(../icons/black/minus.gif);
+}
+
+*.i_forum_link {
+  background-image:url(../icons/black/forum_link.gif);
+}
+
+*.i_help {
+  background:transparent url(../icons/black/ask2.gif) no-repeat scroll right center;
+}
+
+*.i_comment_add {
+  background:transparent url(../icons/black/comment_add.gif) no-repeat scroll 0 50%;
+}
+
+*.i_topic_add {
+  background-image:url(../icons/black/topic_add.gif);
+}
+
+*.i_topic_history {
+  background-image:url(../icons/black/topic_history.gif);
+}
+
+*.i_topic_delete {
+  background-image:url(../icons/black/topic_delete.gif);
+}
+
+*.i_topic_move {
+  background-image:url(../icons/black/topic_move.gif);
+}
+
+*.i_topic_split {
+  background-image:url(../icons/black/topic_split.png);
+}
+
+*.i_comment_revisions {
+  background-image:url(../icons/black/comment_revisions.gif);
+}
+
+*.i_comment_move {
+  background-image:url(../icons/black/comment_move.gif);
+}
+
+.i_comment_creq {
+  background-image:url(../icons/black/comment_creq.gif);
+}
+
+*.i_topic_lock {
+  background-image:url(../icons/black/topic_lock.gif);
+}
+
+*.i_comment_edit {
+  background-image:url(../icons/black/comment_edit.gif);
+}
+
+*.i_comment_quote {
+  background-image:url(../icons/black/comment_quote.gif);
+}
+
+*.i_comment_delete {
+  background-image:url(../icons/black/comment_delete.gif);
+}
+
+*.i_comment_info {
+  background-image:url(../icons/black/comment_info.gif);
+}
+
+*.i_top {
+  background:transparent url(../icons/black/icon_back_top.gif) no-repeat scroll 0 50%;
+}
+
+*.i_topic_undelete {
+  background-image:url(../icons/black/topic_undelete.gif);
+}
+
+*.i_topic_unlock {
+  background-image:url(../icons/black/topic_unlock.gif);
+}
+
+*.i_comment_setactive {
+  background-image:url(../icons/black/comment_setactive.gif);
+}
+
+*.i_topic_locked {
+  background-image:url(../icons/black/topic_locked.gif);
+}
+
+*.i_pm_delete {
+  background-image:url(../icons/black/pm_delete.gif);
+}
+
+*.i_comment_undelete {
+  background-image:url(../icons/black/comment_undelete.gif);
+}
+
+*.i_pm_delete {
+  background-image:url(../icons/black/pm_delete.gif);
+}
+
+*.i_vrs_2 {
+  background-image:url(../icons/black/anidb_vrs_2.gif);
+}
+
+*.i_vrs_3 {
+  background-image:url(../icons/black/anidb_vrs_3.gif);
+}
+
+*.i_vrs_4 {
+  background-image:url(../icons/black/anidb_vrs_4.gif);
+}
+
+*.i_vrs_5 {
+  background-image:url(../icons/black/anidb_vrs_5.gif);
+}
+
+*.i_vrs_6 {
+  background-image:url(../icons/black/anidb_vrs_6.gif);
+}
+
+*.i_vrs_7 {
+  background-image:url(../icons/black/anidb_vrs_7.gif);
+}
+
+*.i_vrs_8 {
+  background-image:url(../icons/black/anidb_vrs_8.gif);
+}
+
+*.i_vrs_9 {
+  background-image:url(../icons/black/anidb_vrs_9.gif);
+}
+
+*.i_review_add {
+  background:transparent url(../icons/black/review_add.gif) no-repeat scroll 0 50%;
+}
+
+*.i_pm_reply {
+  background-image:url(../icons/black/pm_reply.gif);
+}
+
+*.i_topic_subscribe {
+  background-image:url(../icons/black/topic_subscribe.gif);
+}
+
+*.i_topic_unsubscribe {
+  background-image:url(../icons/black/topic_unsubscribe.gif);
+}
