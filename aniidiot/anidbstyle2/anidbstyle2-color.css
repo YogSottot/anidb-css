@@ -565,7 +565,7 @@ li + li.g_odd,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag
 {
-	border-top-color: 999999;
+	border-top-color: #999999;
 }
 
 #layout-main div.mylist_all td+td,
