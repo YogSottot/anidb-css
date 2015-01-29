@@ -23,18 +23,38 @@ span.link,
 }
 
 .g_bubble .name-colored,
+span.link:hover,
+a:hover,
+.g_button a:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button[type="submit"]:hover,
+#layout-main a.filter:hover,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main div.main_all div.header div.account ul.tabs li.signup:hover a,
+#layout-main div.forum a.topictitle:hover,
+#layout-main ul.g_list li:hover,
+#layout-main div.search_all div.suggestions span:hover,
+#layout-main div.chartag-list a:hover,
+#layout-main div.tag-column a:hover
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.username-colored,
 #layout-menu li.sub-menu span.tab,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2 {
-	color: #AA0000;
+	color: #AA0000 !important;
 }
 
 h4 a,
 th a {
     color: #C0DAF0;
+}
+
+h4 a:hover,
+th a:hover {
+	color: #CC181E !important;
 }
 
 #layout-main a.filter
@@ -72,24 +92,6 @@ th a {
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover
 {
 	border-bottom-color: #FFFFFF;
-}
-
-span.link:hover,
-a:hover,
-.g_button a:hover,
-#layout-main a.filter:hover,
-#layout-main div.pagination span a:hover,
-#layout-main div.pagination span strong,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover a,
-#layout-main div.forum a.topictitle:hover,
-input[type="submit"]:hover,
-input[type="button"]:hover,
-button[type="submit"]:hover,
-#layout-main ul.g_list li:hover,
-#layout-main div.search_all div.suggestions span:hover,
-#layout-main div.chartag-list a:hover,
-#layout-main div.tag-column a:hover {
-	color: #CC181E !important;
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp a,
