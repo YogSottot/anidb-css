@@ -16,3 +16,9 @@
 {
 	min-width: 6em
 }
+
+#layout-main div.taglist_all table.taglist tr td
+{
+	padding-left:0.5em;
+	padding-right:0.5em;
+}

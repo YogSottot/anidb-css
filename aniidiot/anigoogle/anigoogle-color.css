@@ -325,6 +325,15 @@ li + li.g_odd,
 	border-top-color: #C9D7F1;
 }
 
+#layout-main div.characterlist_all tr td + td,
+#layout-main div.creatorlist_all tr td + td,
+#layout-main div.clublist_all tr td + td,
+#layout-main div.collectionlist_all tr td + td,
+#layout-main div.grouplist_all tr td + td,
+#layout-main div.songlist_all tr td + td,
+#layout-main div.taglist_all tr td + td,
+#layout-main div.userlist_all tr td + td,
+#layout-main div.tag_all tr td + td,
 #layout-main div.mylist_all td+td,
 #layout-main div.myvotes_all td+td,
 #layout-main div.mywishlist_all tr td+td,

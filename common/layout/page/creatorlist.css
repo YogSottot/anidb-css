@@ -1,5 +1,10 @@
-
 #layout-main div.creatorlist_all table.creatorlist
 {
 	width: 100%
+}
+
+#layout-main div.creatorlist_all table.creatorlist tr td
+{
+	padding-left:0.5em;
+	padding-right:0.5em;
 }
