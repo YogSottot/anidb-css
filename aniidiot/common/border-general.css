@@ -52,7 +52,7 @@ tr + tr th,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
 #layout-main #tagtree div.tag-column div.tag {
-	border-top: 1px dotted;
+	border-top: 1px solid;
 }
 
 #layout-main div.mylist_all td+td,
