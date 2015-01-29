@@ -475,3 +475,10 @@ a.tooltip span.text {
 	opacity: 0.95;
 	background-color: #e8e8e8 !important;
 }
+
+#layout-menu li.sub-menu ul li#user-profile,
+#layout-menu li.sub-menu ul li#user-login,
+#layout-menu li.sub-menu ul li#user-logout,
+#layout-menu li.sub-menu ul {
+    background-image: none;
+}
