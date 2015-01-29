@@ -128,3 +128,7 @@
 .i_topic_unsubscribe span {
 	display: inline;
 }
+
+#layout-main div.forum div.buttons a + a {
+    margin-left: 0.4em;
+}
