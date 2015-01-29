@@ -78,7 +78,9 @@ button[type="submit"]:hover,
 #layout-main div.search_all div.suggestions span:hover,
 #layout-main div.chartag-list a:hover,
 #layout-main div.tag-column a:hover,
-#layout-menu li.sub-menu span.tab {
+#layout-menu li.sub-menu span.tab,
+#layout-main div.forum div.events h2,
+#layout-main div.forum div.poll h2 {
 	color: #CC181E !important;
 }
 
@@ -256,12 +258,6 @@ button[type="submit"],
 	border-top-color: #E0E0E0;
 	border-left-color: #E0E0E0;
 	border-right-color: #E0E0E0;
-}
-
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2
-{
-	color:#006699;
 }
 
 #layout-main div.forum div.g_bubble.rules
