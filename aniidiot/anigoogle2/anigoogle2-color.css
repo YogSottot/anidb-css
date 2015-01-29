@@ -347,6 +347,10 @@ tr + tr th,
 	border-top-color: #888888;
 }
 
+#layout-main div.forum ul.topiclist dd {
+	border-left-color: #888888;
+}
+
 #layout-main div.anime_all table.stafflist + table.stafflist,
 #layout-main div.anime_all div.episodes tr.newtype td
 {
