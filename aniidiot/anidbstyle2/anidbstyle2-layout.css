@@ -80,3 +80,40 @@
 	padding: 2px;
 	width: 7.8em;
 }
+
+a.tooltip span.text:after
+{
+	margin-left: -10px;
+}
+a.tooltip span.text:before
+{
+	margin-left: -11px;
+}
+
+#layout-search input.text
+{
+    box-shadow: 1px 1px 2px #8E8E8E inset;
+}
+
+#layout-search select
+{
+    box-shadow: 0 1px 2px #8E8E8E inset;
+}
+
+#layout-menu li.sub-menu li + li
+{
+	border-top-color: #454959;
+}
+
+#layout-main div.anime_all div.staffblock + div.staffblock table,
+#layout-main div.ep_all div.staffblock + div.staffblock table,
+#layout-main div.anime_all div.episodes tr.newtype td
+{
+	border-top-color: #34394D;
+}
+
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected
+{
+	border-bottom-color: #B9BBBF;
+}

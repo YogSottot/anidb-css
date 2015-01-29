@@ -328,7 +328,7 @@ li + li.g_odd,
 tr + tr th,
 #layout-main div.g_definitionlist tr th
 {
-	border-top-color: #F1F1F1;
+	border-top-color: #888888;
 }
 
 #layout-main div.anime_all table.stafflist + table.stafflist,
