@@ -22,10 +22,6 @@ input[type="password"],
 input.text,
 textarea,
 select,
-tr + tr td,
-li.g_odd + li,
-li + li.g_odd,
-tr + tr th,
 #layout-main div.tabbed_pane_cfg div.body,
 #layout-main div.tabbed_pane_cfg ul.tabs li,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
@@ -41,7 +37,14 @@ tr + tr th,
 #layout-menu > li ul,
 #layout-main div.avatar img,
 #layout-main div.anime_all div.info div.image img,
-#layout-main div.search_all div.suggestions,
+#layout-main div.search_all div.suggestions {
+	border: 1px solid;
+}
+
+tr + tr td,
+li.g_odd + li,
+li + li.g_odd,
+tr + tr th,
 #layout-main div.g_definitionlist tr th,
 #layout-main div div.explanation div.description dl + dl,
 #layout-main div.report_all div.body ul li + li,
@@ -49,7 +52,7 @@ tr + tr th,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
 #layout-main #tagtree div.tag-column div.tag {
-	border-top: 1px solid;
+	border-top: 1px dotted;
 }
 
 #layout-main div.mylist_all td+td,
