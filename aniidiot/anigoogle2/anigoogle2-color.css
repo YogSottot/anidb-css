@@ -1,3 +1,10 @@
+#layout-menu li.sub-menu ul li#user-profile,
+#layout-menu li.sub-menu ul li#user-login,
+#layout-menu li.sub-menu ul li#user-logout,
+#layout-menu li.sub-menu ul {
+    background: none;
+}
+
 a.button,
 input.button,
 button.button,
@@ -474,11 +481,4 @@ a.tooltip span.text {
 	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
 	opacity: 0.95;
 	background-color: #e8e8e8 !important;
-}
-
-#layout-menu li.sub-menu ul li#user-profile,
-#layout-menu li.sub-menu ul li#user-login,
-#layout-menu li.sub-menu ul li#user-logout,
-#layout-menu li.sub-menu ul {
-    background-image: none;
 }
