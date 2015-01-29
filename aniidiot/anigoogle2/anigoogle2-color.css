@@ -174,7 +174,8 @@ button[type="submit"]:hover,
 #layout-main div.forum div.g_bubble.options-box,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.userpage_all div.g_menu ul,
-#layout-main div.userpage_all div.g_menu ul li.g_odd
+#layout-main div.userpage_all div.g_menu ul li.g_odd,
+#layout-main div.edit_actions a:hover
 {
 	background-color: #F1F1F1;
 }
@@ -186,6 +187,7 @@ button[type="submit"],
 .g_definitionlist .g_odd .g_bubble,
 .g_definitionlist .g_bubble .g_bubble,
 .g_definitionlist .g_bubble .g_bubble .g_bubble .g_bubble,
+#layout-main div.edit_actions a,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.pagination span a,
@@ -229,10 +231,11 @@ input[type="button"],
 button[type="submit"],
 .f_button:hover,
 .f_button.selected,
+.g_bubble.stripe > div.data div.name,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
 #layout-main div.pagination span strong,
-.g_bubble.stripe > div.data div.name,
+#layout-main div.edit_actions a,
 #layout-main div.forum div.signature,
 #layout-main div.forum div.events dl + dl,
 #layout-main div.forum div.poll dl + dl,
@@ -481,14 +484,15 @@ th a,
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
-#layout-search select,
-#layout-search input.text,
 .g_button,
 input[type="submit"],
 input[type="button"],
 button[type="submit"],
+#layout-search select,
+#layout-search input.text,
 #layout-main ul.g_list li,
-#layout-main div.pagination span a {
+#layout-main div.pagination span a,
+#layout-main div.edit_actions a {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
