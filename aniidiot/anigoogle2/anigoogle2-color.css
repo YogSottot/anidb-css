@@ -22,6 +22,11 @@ span.link,
 	color: #105289;
 }
 
+h4 a,
+th a {
+    color: #c0daf0;
+}
+
 #layout-main a.filter
 {
 	color: #00008b;
@@ -417,7 +422,6 @@ a.tooltip span.text {
 	background-color: transparent;
 }
 
-th a,
 table th,
 #layout-main > h1,
 #layout-main div.g_timedentry h4,
@@ -429,7 +433,6 @@ table th,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
-#layout-main div.userpage_all > div.g_section > h4 a,
 #layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover .v_high,
 #layout-main div.userpage_all div.g_menu ul li:hover a {
