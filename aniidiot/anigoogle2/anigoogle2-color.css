@@ -311,7 +311,6 @@ li.g_odd + li,
 li + li.g_odd,
 #layout-main div.forum li.row + li.row,
 #layout-main div.forum ul.topiclist dd,
-#layout-main div div.explanation div.description dl + dl,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
@@ -321,6 +320,7 @@ li + li.g_odd,
 	border-top-color: #E8E8E8;
 }
 
+#layout-main div div.explanation div.description dl + dl,
 #layout-main div.characterlist_all tr td + td,
 #layout-main div.creatorlist_all tr td + td,
 #layout-main div.clublist_all tr td + td,
