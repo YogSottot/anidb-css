@@ -309,6 +309,8 @@ button[type="submit"],
 tr + tr td,
 li.g_odd + li,
 li + li.g_odd,
+#layout-main div.forum li.row + li.row,
+#layout-main div.forum ul.topiclist dd,
 #layout-main div div.explanation div.description dl + dl,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
@@ -345,10 +347,6 @@ tr + tr th,
 #layout-main div.g_definitionlist tr th
 {
 	border-top-color: #888888;
-}
-
-#layout-main div.forum ul.topiclist dd {
-	border-left-color: #888888;
 }
 
 #layout-main div.anime_all table.stafflist + table.stafflist,
