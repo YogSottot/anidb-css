@@ -124,19 +124,19 @@
 }
 
 #layout-search div.search form > div {
-    float: right;
-    padding-right: 1em;
-    padding-top: 3em;
+	position: absolute;
+	left: auto;
+	right: 0.5em;
+	top: 2.8em
     width: 450px;
 }
 
 #layout-search div.search a.advsearch
 {
 	display: block;
-	margin-right: 0;
-	margin-top: 1.5em;
 	position: absolute;
-	right: 1em;
+    right: 0.8em;
+    top: 1.7em;
 }
 
 #layout-menu li.sub-menu ul li > a,

@@ -20,3 +20,7 @@
 {
 	text-transform: capitalize;
 }
+
+#layout-search div.search a.advsearch {
+	font-size: 9px;
+}
