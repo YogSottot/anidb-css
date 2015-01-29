@@ -39,6 +39,7 @@ h4 span {
 	font-weight: bold;
 }
 
+h4 span,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-main div.block div.data table th,
 #layout-main div.edit_actions span,
@@ -58,7 +59,6 @@ h4 span {
 #layout-main div.userpage_all > div.g_section > h4 a,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
-#layout-menu li.sub-menu span.tab,
-h4 span {
+#layout-menu li.sub-menu span.tab {
 	text-transform: uppercase;
 }
