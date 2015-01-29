@@ -272,7 +272,11 @@
 }
 
 #layout-main div.userpage_all div.stats div table th.field {
-  white-space: nowrap;
+	white-space: nowrap;
+}
+
+#layout-main div.userpage_all div.g_section div.signature {
+	margin-top: 0.5em;
 }
 
 /*hack because webkit sucks*/
