@@ -7,6 +7,7 @@ button.confirmButton {
 	text-shadow: none;
 }
 
+#layout-search input.submit,
 #layout-main div.main_all div.rightbar h4 span,
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
@@ -34,8 +35,7 @@ h4 span {
 #layout-main div.userpage_all > div.g_section > h4 a,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
-#layout-menu li.sub-menu span.tab,
-#layout-main div.edit_actions span {
+#layout-menu li.sub-menu span.tab {
 	font-weight: bold;
 }
 
