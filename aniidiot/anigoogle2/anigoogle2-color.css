@@ -18,20 +18,23 @@ button.confirmButton {
 a,
 th a,
 span.link,
+#layout-main div.main_all div.header div.account ul.tabs li.signup a {
+	color: #105289;
+}
+
 .g_bubble .name-colored,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.username-colored,
 #layout-menu li.sub-menu span.tab,
 #layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2
-#layout-main div.main_all div.header div.account ul.tabs li.signup a {
-	color: #105289;
+#layout-main div.forum div.poll h2 {
+	color: #AA0000;
 }
 
 h4 a,
 th a {
-    color: #c0daf0;
+    color: #C0DAF0;
 }
 
 #layout-main a.filter
