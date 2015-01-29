@@ -1,13 +1,10 @@
 #layout-content
 {
 	margin-left: 13em;
-	padding-left: 1em;
-}
-
-#layout-content
-{
 	margin-top: -10.5em;
+	padding-left: 1em;
 	padding-top: 1em;
+	padding-bottom: 2em;
 }
 
 #layout-main
@@ -16,15 +13,10 @@
 	min-height: 60em;
 }
 
-#layout-nav
-{
-	padding-bottom: 2em;
-}
-
 #layout-menu
 {
 	display: block;
-	margin-left: -13em;
+	margin-left: 1em;
 	position: relative;
 	width: 10em;
 	padding-top: 1px;
