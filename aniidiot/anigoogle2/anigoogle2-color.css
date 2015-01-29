@@ -15,11 +15,10 @@ button.confirmButton {
 	color: inherit;
 }
 
-span.link,
 a,
 th a,
-#layout-main div.main_all div.header div.account ul.tabs li.signup a
-{
+span.link,
+#layout-main div.main_all div.header div.account ul.tabs li.signup a {
 	color: #105289;
 }
 
@@ -419,20 +418,21 @@ a.tooltip span.text {
 	background-color: transparent;
 }
 
+th a,
+table th,
+#layout-main > h1,
+#layout-main div.g_timedentry h4,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
-#layout-main > h1,
-table th,
-th a,
-#layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all > div.g_section > h4 a,
-#layout-menu li.sub-menu ul li:hover,
-#layout-menu li.sub-menu ul li:hover a,
 #layout-main div.userpage_all div.g_menu ul li:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover .v_high,
 #layout-main div.userpage_all div.g_menu ul li:hover a {
 	color: #FFFFFF;
 }
@@ -441,15 +441,15 @@ th,
 th a,
 #layout-main > h1,
 #layout-main table tr.header,
+#layout-main div.g_timedentry h4,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
 #layout-main div.votes_all div.graph div.header,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.forum div.g_bubble.threads,
-#layout-menu li.sub-menu ul li:hover,
-#layout-menu li.sub-menu ul li:hover a,
-#layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
