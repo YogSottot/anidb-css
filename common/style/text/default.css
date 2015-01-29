@@ -414,7 +414,7 @@ div.relations .g_bubble.stripe div.type,
 
 #layout-main div.anime_all div.info div.caststaff div h4
 {
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 a.tooltip:hover
