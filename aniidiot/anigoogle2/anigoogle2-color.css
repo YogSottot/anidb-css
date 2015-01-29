@@ -28,7 +28,7 @@ th a,
 	color: #00008b;
 }
 
-#layout-menu > li ul
+#layout-menu li.sub-menu ul
 {
 	background-color: #FFFFFF;
 	border-color: #000000;
