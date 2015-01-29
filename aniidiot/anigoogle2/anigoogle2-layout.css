@@ -28,12 +28,6 @@
     margin: 0.4em !important
 }
 
-#layout-main div.main_all div.datablocks > div,
-#layout-main div.main_all div.news.forum > div,
-#layout-main div.main_all div.header > div {
-	margin: 0 4px;
-}
-
 #layout-main div.main_all div.header div.latestnews .g_bubble.stripe,
 #layout-main div.main_all div.datablocks .g_bubble.stripe {
 	margin: 0.35em 0 !important;
