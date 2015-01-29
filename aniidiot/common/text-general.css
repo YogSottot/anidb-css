@@ -1,3 +1,8 @@
+html {
+  font-size: 10.5px;
+  letter-spacing: 0.2px;
+}
+
 a.i_icon:hover,
 a.i_inline:hover,
 a.i_button:hover
