@@ -52,7 +52,7 @@ th a {
     color: #C0DAF0;
 }
 
-table th:hover,
+table th.sortable:hover,
 h4 a:hover,
 th a:hover {
 	color: #CC181E !important;
