@@ -214,20 +214,20 @@ div.pagination span a
 #layout-main div.forum a.topictitle
 {
 	font-family:"Trebuchet MS",Helvetica,Arial,Sans-serif;
-	font-size:1.2em;
+	font-size:12px;
 	font-weight:bold;
 }
 
 #layout-main div.forum div.statistics h3
 {
-	font-size:1.05em;
+	font-size:10px;
 	font-weight:bold;
 	text-transform:uppercase;
 }
 
 #layout-main div.forum div.statistics p
 {
-	font-size:1.1em;
+	font-size:11px;
 	line-height:1.3em;
 }
 
@@ -241,7 +241,7 @@ div.pagination span a
 #layout-main div.forum div.postbody div.code code
 {
 	font-family:Monaco,"Andale Mono","Courier New",Courier,mono;
-	font-size:1.2em;
+	font-size:12px;
 }
 
 #layout-main div.forum div.options-box span.desc
@@ -253,7 +253,7 @@ div.pagination span a
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2
 {
-	font-size:1.6em;
+	font-size:16px;
 	font-weight:bold;
 }
 
@@ -295,7 +295,7 @@ th.sortable
 #layout-main div.forumsearch_form dt,
 #layout-main div.forum div.add-box dl dt
 {
-	font-size:1.1em;
+	font-size:11px;
 	font-weight:bold;
 }
 
@@ -312,7 +312,7 @@ h4.collapsed span
 
 #layout-main div.main_all div.header div.account ul.tabs li
 {
-	font-size: 1.3em;
+	font-size: 13px;
 }
 
 #layout-main div.forum ul.topics dd.posts,
@@ -322,7 +322,7 @@ h4.collapsed span
 #layout-main div.userpage_all div.userdetails div.block caption,
 #layout-main div.picupload_all input[type="file"]
 {
-	font-size:1.2em;
+	font-size:12px;
 }
 
 #layout-main div.forum div.events p,
@@ -354,7 +354,7 @@ h4.collapsed span
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.main_all div.datablocks > div.account
 {
-	font-size:1.1em;
+	font-size:11px;
 }
 
 h1,
@@ -431,7 +431,7 @@ a.tooltip span.text
 
 #layout-main div.tag-column h5
 {
-	font-size: 1.1em;
+	font-size: 11px;
 	font-weight:bold;
 }
 
@@ -459,7 +459,7 @@ a.tooltip span.text
 #layout-main div.admin_tags_all div.actions select,
 #layout-main div.addtagentityrel_all #tag-groups span.link
 {
-	font-size: 1.2em;
+	font-size: 12px;
 }
 
 #layout-main div.addcreatoranimerel_all div.content h4 span.nolink {
