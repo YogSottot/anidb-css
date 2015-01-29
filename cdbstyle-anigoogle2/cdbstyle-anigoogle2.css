@@ -1,0 +1,21 @@
+@import "../aniidiot/anigoogle2/anigoogle2.css";
+
+@import "cdbstyle-anigoogle2-icons.css";
+
+@import "../cdbstyle/cdbstyle-colour.css";
+
+@import "../cdbstyle/cdbstyle-text.css";
+@import "../cdbstyle/cdbstyle-layout.css";
+@import "../cdbstyle/colour/mylist.css";
+@import "../cdbstyle/colour/wishlist.css";
+@import "../cdbstyle/colour/features.css";
+
+th a, h1 a.shortlink
+{
+  color: #5577FF;
+}
+
+#layout-footer:after
+{
+  content:"Design by CDB-Man. Improvements on DerIdiot`s Anigoogle2.";
+}

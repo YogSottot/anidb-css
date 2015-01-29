@@ -81,7 +81,7 @@ input[type="password"],
 #layout-search input.submit {
 	float: right;
 	width: 80px;
-	margin: 0 0 0 4px;
+	margin: 0 0 0 3px;
 	padding: 5px;
 }
 
@@ -236,16 +236,13 @@ h4,
 	margin: 2px 0 0;
 }
 
-#layout-menu li.sub-menu ul li {
-	padding: 2px 8px;
-}
-
+#layout-menu li.sub-menu ul li,
 #layout-main .g_definitionlist table tr td,
 #layout-main div.g_definitionlist tr th,
 #layout-main div.g_menu ul li,
 #layout-main div.userpage_all div.buddies ul li,
 #layout-main div.userpage_all div.favreviewers ul li {
-	padding: 3px 8px;
+	padding: 2px 8px;
 }
 
 #layout-main div.animeatt_reviews div.review div.text

@@ -7,16 +7,15 @@ button.confirmButton {
 	text-shadow: none;
 }
 
+#layout-search input.submit,
 #layout-main div.main_all div.rightbar h4 span,
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
-#layout-main div.anime_all div.info div.caststaff div h4 span,
+#layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab,
 #layout-main > h1,
-#layout-main div.tabbed_pane ul.tabs li,
-#layout-tabs ul.main-tabs,
 #layout-main div.edit_actions span,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
@@ -29,18 +28,18 @@ h4 span {
 #layout-main div.main_all div.rightbar h4 span,
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
-#layout-main div.anime_all div.info div.caststaff div h4 span,
+#layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all > div.g_section > h4 a,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
-#layout-menu li.sub-menu span.tab,
-#layout-main div.edit_actions span {
+#layout-menu li.sub-menu span.tab {
 	font-weight: bold;
 }
 
+h4 span,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-main div.block div.data table th,
 #layout-main div.edit_actions span,
@@ -53,14 +52,23 @@ h4 span {
 #layout-main div.main_all div.rightbar h4 span,
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
-#layout-main div.anime_all div.info div.caststaff div h4 span,
 #layout-main div.g_timedentry h4,
+#layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all > div.g_section > h4 a,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
-#layout-menu li.sub-menu span.tab,
-h4 span {
+#layout-menu li.sub-menu span.tab {
 	text-transform: uppercase;
+}
+
+#layout-main div.edit_actions span + span:before,
+#layout-main div.edit_actions span:before,
+#layout-main div.edit_actions span:after {
+	content: "";
+}
+
+#layout-main div.edit_actions a {
+	font-weight: normal;
 }

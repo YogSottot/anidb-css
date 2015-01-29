@@ -2,26 +2,22 @@
 #layout-main div.ep_all div.staffblock + div.staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td
 {
-	border-top: 1px double #34394D;
+	border-top: 1px double;
 }
 
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected
 {
-	border-bottom: 2px double #B9BBBF;
+	border-bottom: 2px double;
 }
 
 #layout-menu li.sub-menu li:first-child:hover
 {
-	-moz-border-radius: 5px 5px 0px 0px;
-	-webkit-border-radius: 5px 5px 0px 0px;
 	border-radius: 5px 5px 0px 0px;
 }
 
 #layout-menu li.sub-menu li:last-child:hover
 {
-	-moz-border-radius: 0px 0px 5px 5px;
-	-webkit-border-radius: 0px 0px 5px 5px;
 	border-radius: 0px 0px 5px 5px;
 }
 
@@ -31,15 +27,13 @@ button,
 #layout-main div.g_menu.filter_menu div.settings input[type="text"],
 #layout-main div.g_menu.filter_menu div.settings select
 {
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	border: 1px solid;
 }
 
 #layout-menu li.sub-menu li + li
 {
-	border-top: 1px solid #454959;
+	border-top: 1px solid;
 }
 
 #layout-main > h1,
@@ -51,53 +45,11 @@ button,
 	border: 1px solid;
 }
 
-#layout-search input.text
-{
-    box-shadow: 1px 1px 2px #8E8E8E inset;
-}
-
-#layout-search select
-{
-    box-shadow: 0 1px 2px #8E8E8E inset;
-}
-
-
 a.tooltip span.text:after
 {
 	border-width: 10px;
-	margin-left: -10px;
 }
 a.tooltip span.text:before
 {
 	border-width: 11px;
-	margin-left: -11px;
-}
-
-tr + tr td,
-tr + tr th,
-li.g_odd + li,
-li + li.g_odd,
-#layout-main #tagtree div.tag-column div.tag,
-#layout-main div div.explanation div.description dl + dl,
-#layout-main div.report_all div.body ul li + li,
-#layout-main div.g_definitionlist tr th,
-#layout-main div.votes_all div.graph div.group + div.group_odd,
-#layout-main div.votes_all div.graph div.group_odd + div.group,
-#layout-main div.votes_all div.graph.eps div.row + div.row,
-#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag
-{
-	border-top: 1px solid #999999;
-}
-
-#layout-main div.mylist_all td+td,
-#layout-main div.myvotes_all td+td,
-#layout-main div.mywishlist_all tr td+td,
-#layout-main div.animelist_all tr td+td,
-#layout-main div.lexicon_all table.animelist tr td+td,
-#layout-main div.mynotifies_all tr td+td,
-#layout-main div.mydb_all table tr td + td,
-#layout-main div.modlatest_all table tr td + td,
-#layout-main div.latest2_all table tr td + td,
-#layout-main div.latest2_all table tr.rowspan td:first-child {
-	border-left: 1px solid #999999;
 }

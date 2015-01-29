@@ -25,17 +25,6 @@ revert to old stars on file entries
   background-image: url("../icons/icon/anidb_rate_star.gif");
 }
 
-#layout-menu li.sub-menu ul
-{
-  background:url("../anidbstyle2/images/menuback.png") repeat transparent;
-}
-
-#layout-menu li.sub-menu ul li:hover,
-#layout-menu li.sub-menu ul li:active
-{
-  background:url("../anidbstyle2/images/menuhover.png") repeat left top transparent;
-}
-
 
 /*logo @1024*/
 #layout-search

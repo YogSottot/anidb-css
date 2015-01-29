@@ -1,3 +1,8 @@
+html {
+  font-size: 10.5px;
+  letter-spacing: 0.2px;
+}
+
 a.i_icon:hover,
 a.i_inline:hover,
 a.i_button:hover
@@ -13,14 +18,14 @@ a.i_button:hover
 #layout-search select,
 #layout-search input.text,
 #layout-search input.submit,
-#layout-menu > li,
+#layout-menu li.sub-menu,
 #layout-tabs,
 input[type="text"],
 input[type="password"],
 textarea,
 #layout-main div.userpage_all div.content > h3
 {
-	font-size: 1.2em;
+	font-size: 12px;
 }
 
 select,
@@ -34,17 +39,17 @@ input[type="button"],
 input[type="submit"],
 #layout-nav input.submit
 {
-	font-size: 1.1em;
+	font-size: 11px;
 }
 
 #layout-main div.animeatt_reviews div.review h4,
 #layout-main div.userpage_all div.blog div.g_timedentry h4 {
-	font-size: 1.4em;
+	font-size: 14px;
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
-	font-size: .9em;
+	font-size: 9px;
 }
 
 #menu-account li.alert span:before,
@@ -76,7 +81,6 @@ input[type="button"]
 #layout-main div.tag-column div.tag[weight="600"] .name a {
 	font-size: 14px;
 }
-
 
 #layout-footer:after
 {

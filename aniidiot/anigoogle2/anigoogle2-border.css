@@ -69,3 +69,7 @@ a.tooltip span.text,
 #layout-main div.userpage_all div.g_menu ul li {
 	border: none !important;
 }
+
+#layout-main div.edit_actions a {
+	border: 1px solid;
+}

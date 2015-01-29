@@ -80,3 +80,12 @@
 	padding: 2px;
 	width: 7.8em;
 }
+
+a.tooltip span.text:after
+{
+	margin-left: -10px;
+}
+a.tooltip span.text:before
+{
+	margin-left: -11px;
+}

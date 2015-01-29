@@ -1,14 +1,10 @@
-#layout-content,
-#layout-nav
-{
-	margin-left: 13.2em;
-	padding-left: 1em;
-}
-
 #layout-content
 {
+	margin-left: 12.6em;
 	margin-top: -10.5em;
+	padding-left: 1em;
 	padding-top: 1em;
+	padding-bottom: 2em;
 }
 
 #layout-main
@@ -17,17 +13,10 @@
 	min-height: 60em;
 }
 
-#layout-nav
-{
-	padding-bottom: 2em;
-}
-
 #layout-menu
 {
 	display: block;
-	margin-left: -13em;
-	padding-left: 1em;
-	padding-right: 1em;
+	margin-left: 0.9em;
 	position: relative;
 	width: 10em;
 	padding-top: 1px;
@@ -79,7 +68,7 @@
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs
 {
-	margin: 95px 3px;
+	margin: 96px 3px;
 }
 
 #layout-nav
@@ -97,7 +86,7 @@
 
 #layout-hint + #layout-nav #layout-search
 {
-	top: 2em;
+	top: 20px;
 }
 
 #layout-menu li.sub-menu ul li
@@ -121,7 +110,7 @@
 
 #layout-search
 {
-	top: 0.5em;
+	top: 5px;
 	height: 94px;
 	margin-left: 0;
 	width: 100%;
@@ -135,19 +124,19 @@
 }
 
 #layout-search div.search form > div {
-    float: right;
-    padding-right: 1em;
-    padding-top: 3em;
+	position: absolute;
+	left: auto;
+	right: 0.5em;
+	top: 2.8em;
     width: 450px;
 }
 
 #layout-search div.search a.advsearch
 {
 	display: block;
-	margin-right: 0;
-	margin-top: 1.5em;
 	position: absolute;
-	right: 1em;
+    right: 0.8em;
+    top: 1.7em;
 }
 
 #layout-menu li.sub-menu ul li > a,

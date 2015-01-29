@@ -40,3 +40,12 @@
 #layout-menu li.sub-menu.main span.tab {
     display: none;
 }
+
+#layout-main div.edit_actions a {
+	padding: 2px 8px;
+}
+
+#layout-main div.edit_actions {
+	height: 2em;
+	margin-top: -2em;
+}
