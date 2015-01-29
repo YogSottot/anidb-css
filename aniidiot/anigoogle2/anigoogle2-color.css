@@ -432,6 +432,7 @@ th a,
 #layout-main div.userpage_all > div.g_section > h4 a,
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a,
+#layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover a {
 	color: #FFFFFF;
 }
