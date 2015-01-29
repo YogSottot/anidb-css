@@ -270,3 +270,7 @@
 #layout-main div.admin_tags_all div.actions .chosen-container {
 	margin-top: -4px;
 }
+
+#layout-main div.admin_all div.bans div.g_definitionlist tr th {
+    width: 25em;
+}
