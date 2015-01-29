@@ -1,3 +1,54 @@
+/*https://fortawesome.github.io BEGIN*/
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('fonts/fontawesome-webfont.eot?v=4.3.0');
+	src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.i_comment_add,
+.i_comment_revisions,
+.i_comment_move,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_info,
+.i_comment_creq,
+.i_comment_setactive,
+.i_comment_delete,
+.i_comment_undelete,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_topic_lock,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_topic_locked,
+.i_topic_subscribe,
+.i_topic_unsubscribe,
+.i_pm_delete,
+.i_pm_reply,
+.i_review_add {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+}
+
+.i_topic_unlock:before {
+	content: "\f09c";
+}
+.i_topic_lock:before {
+	content: "\f023";
+}
+/*https://fortawesome.github.io END*/
+
+
 .i_plus {
 	background-image: url(../icons/orange/plus.gif);
 }
