@@ -23,6 +23,11 @@
 	margin: 0.4em 0.15em !important
 }
 
+#layout-main div.userpage_all .userprefs .content .g_bubble.stripe,
+#layout-main div.userpage_all .clubs .content .g_bubble.stripe {
+    margin: 0.4em !important
+}
+
 #layout-main div.main_all div.datablocks > div,
 #layout-main div.main_all div.news.forum > div,
 #layout-main div.main_all div.header > div {
