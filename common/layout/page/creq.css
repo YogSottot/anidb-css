@@ -99,7 +99,7 @@
 }
 
 #layout-main div.creq_hist div.forum div.cmt_entries div.postbody div.content {
-    margin-left: 14em;
+	margin-left: 14em;
 }
 
 #layout-main div.creq_hist div.forum dl.profile img
@@ -111,4 +111,16 @@
 	margin-left: 1.5em;
 	margin-right: 1.5em;
 	text-align: left;
+}
+
+#layout-main div.creq_all div.creq_raw td.old,
+#layout-main div.creq_all div.creq_raw td.new {
+	max-width: 50em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#layout-main div.creq_all div.creq_raw table th.old,
+#layout-main div.creq_all div.creq_raw table th.new {
+	width: 50%;
 }
