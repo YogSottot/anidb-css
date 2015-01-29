@@ -1,0 +1,61 @@
+.i_plus {
+	background-image: url(../icons/orange/plus.gif);
+}
+
+.i_minus {
+	background-image: url(../icons/orange/minus.gif);
+}
+
+.i_forum_link {
+	background-image: url(../icons/orange/forum_link.gif);
+}
+
+.i_help {
+	background:transparent url(../icons/orange/ask2.gif) no-repeat scroll right center;
+}
+
+.i_top {
+	background:transparent url(../icons/orange/icon_back_top.gif) no-repeat scroll 0 50%;
+}
+
+.i_vrs_2 {
+	background-image:url(../icons/orange/anidb_vrs_2.gif);
+}
+
+.i_vrs_3 {
+	background-image:url(../icons/orange/anidb_vrs_3.gif);
+}
+
+.i_vrs_4 {
+	background-image:url(../icons/orange/anidb_vrs_4.gif);
+}
+
+.i_vrs_5 {
+	background-image:url(../icons/orange/anidb_vrs_5.gif);
+}
+
+.i_vrs_6 {
+	background-image:url(../icons/orange/anidb_vrs_6.gif);
+}
+
+.i_vrs_7 {
+	background-image:url(../icons/orange/anidb_vrs_7.gif);
+}
+
+.i_vrs_8 {
+	background-image:url(../icons/orange/anidb_vrs_8.gif);
+}
+
+.i_vrs_9 {
+	background-image:url(../icons/orange/anidb_vrs_9.gif);
+}
+
+.i_rate_halfstar,
+.i_rate_star,
+.i_rate_veryhigh,
+.i_rate_high,
+.i_rate_med,
+.i_rate_low,
+.i_rate_verylow {
+	background-image: url(../icons/icon/anidb_rate_star.png);
+}
