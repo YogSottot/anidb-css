@@ -246,6 +246,8 @@ button[type="submit"],
 #layout-main div.forum div.poll div.data,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.forum div.g_bubble.navbar div.bottom,
+#layout-main div.forum ul.topiclist dd,
+#layout-main div.forum li.row + li.row,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
 	border-color: #CCCCCC;
 }
@@ -309,8 +311,7 @@ button[type="submit"],
 tr + tr td,
 li.g_odd + li,
 li + li.g_odd,
-#layout-main div.forum li.row + li.row,
-#layout-main div.forum ul.topiclist dd,
+#layout-main div div.explanation div.description dl + dl,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
@@ -320,7 +321,6 @@ li + li.g_odd,
 	border-top-color: #E8E8E8;
 }
 
-#layout-main div div.explanation div.description dl + dl,
 #layout-main div.characterlist_all tr td + td,
 #layout-main div.creatorlist_all tr td + td,
 #layout-main div.clublist_all tr td + td,
