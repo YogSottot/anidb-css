@@ -189,14 +189,13 @@ html {
 }
 
 .g_bubble .g_odd,
-#layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul.main-tabs > li.selected,
 #layout-tabs ul.main-tabs > li:hover,
+#layout-main div.tabbed_pane ul.tabs li,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover,
 #layout-main div.search_all div.suggestions,
 #layout-main div.forum ul.topics li.row,
-#layout-content
-{
+#layout-content {
 	background-color: #FFFFFF;
 }
 
@@ -431,7 +430,7 @@ table th,
 #layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover .v_high,
 #layout-main div.userpage_all div.g_menu ul li:hover a {
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 }
 
 th,
