@@ -1,6 +1,6 @@
 #layout-content
 {
-	margin-left: 13em;
+	margin-left: 12.6em;
 	margin-top: -10.5em;
 	padding-left: 1em;
 	padding-top: 1em;
@@ -16,7 +16,7 @@
 #layout-menu
 {
 	display: block;
-	margin-left: 1em;
+	margin-left: 0.9em;
 	position: relative;
 	width: 10em;
 	padding-top: 1px;
@@ -86,7 +86,7 @@
 
 #layout-hint + #layout-nav #layout-search
 {
-	top: 2em;
+	top: 20px;
 }
 
 #layout-menu li.sub-menu ul li
@@ -110,7 +110,7 @@
 
 #layout-search
 {
-	top: 0.5em;
+	top: 5px;
 	height: 94px;
 	margin-left: 0;
 	width: 100%;
