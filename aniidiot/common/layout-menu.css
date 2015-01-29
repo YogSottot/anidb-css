@@ -1,7 +1,6 @@
-#layout-content,
-#layout-nav
+#layout-content
 {
-	margin-left: 13.2em;
+	margin-left: 13em;
 	padding-left: 1em;
 }
 
@@ -26,8 +25,6 @@
 {
 	display: block;
 	margin-left: -13em;
-	padding-left: 1em;
-	padding-right: 1em;
 	position: relative;
 	width: 10em;
 	padding-top: 1px;
