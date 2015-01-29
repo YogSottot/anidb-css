@@ -247,6 +247,7 @@ button[type="submit"],
 }
 
 #layout-main div.forum div.g_bubble.threads,
+#layout-main tr.header th.sortable:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong
 {
 	color:#000000;
