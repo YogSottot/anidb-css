@@ -18,6 +18,10 @@ button.confirmButton {
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul.main-tabs,
 #layout-main div.edit_actions span,
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.userpage_all > div.g_section > h4 a,
 h4 span {
 	font-family: Arial,Helvetica,sans-serif;
 }
@@ -26,6 +30,10 @@ h4 span {
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
 #layout-main div.anime_all div.info div.caststaff div h4 span,
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.userpage_all > div.g_section > h4 a,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab,
@@ -46,6 +54,10 @@ h4 span {
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
 #layout-main div.anime_all div.info div.caststaff div h4 span,
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.userpage_all > div.g_section > h4 a,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab,
