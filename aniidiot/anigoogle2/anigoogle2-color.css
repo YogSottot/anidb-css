@@ -36,7 +36,7 @@ span.link,
 #layout-nav div.menu_hr,
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag
 {
-	border-top-color: #E0E0E0;
+	border-top-color: #E8E8E8;
 }
 
 #layout-main tr.header th.sortable:hover,
@@ -93,7 +93,7 @@ button[type="submit"]:hover,
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp
 {
-	border-top-color: #E0E0E0;
+	border-top-color: #E8E8E8;
 	color: #999999;
 }
 
@@ -212,7 +212,7 @@ select,
 #layout-main div.anime_all div.info div.image img,
 #layout-content,
 #layout-main div.forum div.quickreply textarea {
-	border-color: #E0E0E0;
+	border-color: #E8E8E8;
 }
 
 .g_button,
@@ -254,9 +254,9 @@ button[type="submit"],
 
 #layout-main div.main_all div.header div.account ul.tabs li
 {
-	border-top-color: #E0E0E0;
-	border-left-color: #E0E0E0;
-	border-right-color: #E0E0E0;
+	border-top-color: #E8E8E8;
+	border-left-color: #E8E8E8;
+	border-right-color: #E8E8E8;
 }
 
 #layout-main div.forum div.g_bubble.rules
@@ -305,7 +305,7 @@ li + li.g_odd,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
 #layout-main #tagtree div.tag-column div.tag
 {
-	border-top-color: #E0E0E0;
+	border-top-color: #E8E8E8;
 }
 
 #layout-main div.mylist_all td+td,
@@ -318,7 +318,7 @@ li + li.g_odd,
 #layout-main div.modlatest_all table tr td + td,
 #layout-main div.latest2_all table tr td + td,
 #layout-main div.latest2_all table tr.rowspan td:first-child {
-	border-left-color: #E0E0E0;
+	border-left-color: #E8E8E8;
 }
 
 tr + tr th,
@@ -330,11 +330,11 @@ tr + tr th,
 #layout-main div.anime_all table.stafflist + table.stafflist,
 #layout-main div.anime_all div.episodes tr.newtype td
 {
-	border-top-color: #E0E0E0;
+	border-top-color: #E8E8E8;
 }
 
 #layout-main div.tag-column .tag-block + .tag-block {
-	border-left-color: #CCCCCC;
+	border-left-color: #E8E8E8;
 }
 
 /*tooltip*/
@@ -352,7 +352,7 @@ a.tooltip span.text {
 /*quicksearch*/
 #layout-search ul.quicksearch {
 	background-color: #FFFFFF;
-	border-color: #E0E0E0;
+	border-color: #E8E8E8;
 }
 
 /*tag cloud*/
