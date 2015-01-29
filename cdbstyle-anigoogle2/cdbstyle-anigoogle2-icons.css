@@ -1,0 +1,60 @@
+/*
+use normal star instead of dark star as default
+dark: ../icons/icon/anidb_rate_star_dark.png
+*/
+.i_rate_halfstar,
+.i_rate_star,
+.i_rate_veryhigh,
+.i_rate_high,
+.i_rate_med,
+.i_rate_low,
+.i_rate_verylow {
+  background-image: url("../icons/icon/anidb_rate_star.png");
+}
+
+/*
+revert to old stars on file entries
+*/
+.quality .i_rate_halfstar,
+.quality .i_rate_star,
+.quality .i_rate_veryhigh,
+.quality .i_rate_high,
+.quality .i_rate_med,
+.quality .i_rate_low,
+.quality .i_rate_verylow {
+  background-image: url("../icons/icon/anidb_rate_star.gif");
+}
+
+
+/*logo @1024*/
+#layout-search
+{
+  background:url("../anidbstyle2/images/logo.png") no-repeat scroll left top transparent;
+}
+
+/*logo @ 1280*/
+@media screen and (min-width: 1235px)
+{
+	#layout-search
+	{
+		background:url("../anidbstyle2/images/logo-wide.png") no-repeat scroll left top transparent;
+	}
+}
+
+/*logo @ 1650*/
+@media screen and (min-width: 1575px)
+{
+	#layout-search
+	{
+		background:url("../anidbstyle2/images/logo-wider.png") no-repeat scroll left top transparent;
+	}
+}
+
+/*logo @ 1920*/
+@media screen and (min-width: 1860px)
+{
+	#layout-search
+	{
+		background:url("../anidbstyle2/images/logo-widest.png") no-repeat scroll left top transparent;
+	}
+}

@@ -110,6 +110,16 @@
 		<thumbnail>cdbstyle/images/thumbnail.png</thumbnail>
 		<screenshot>cdbstyle/images/screenshot.png</screenshot>
 	</style>
+	<style name="cdbstyle-anigoogle2">
+		<title>CDBstyle-Anigoogle2</title>
+		<creator>CDB-Man</creator>
+		<update>28.01.2015</update>
+		<status>constant development and updates</status>
+		<description>CDB`s improvements on DerIdiot`s Anigoogle2.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
+		<path/>
+		<thumbnail>cdbstyle/images/thumbnail.png</thumbnail>
+		<screenshot>cdbstyle/images/screenshot.png</screenshot>
+	</style>
 	<style name="dark-style">
 		<title>Dark Style</title>
 		<creator>sylwira</creator>
