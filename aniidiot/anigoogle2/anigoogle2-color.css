@@ -75,9 +75,11 @@ input[type="submit"]:hover,
 input[type="button"]:hover,
 button[type="submit"]:hover,
 #layout-main ul.g_list li:hover,
-#layout-main div.search_all div.suggestions span:hover
-{
-	color: #AA0000;
+#layout-main div.search_all div.suggestions span:hover,
+#layout-main div.chartag-list a:hover,
+#layout-main div.tag-column a:hover,
+#layout-menu li.sub-menu span.tab {
+	color: #CC181E !important;
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp a,
@@ -410,7 +412,6 @@ a.tooltip span.text {
 
 #layout-main div.chartag-list a:hover,
 #layout-main div.tag-column a:hover {
-	color: #AA0000 !important;
 	opacity: 1.0 !important;
 }
 
@@ -455,10 +456,6 @@ th a,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
 	background-color: #444444;
-}
-
-#layout-menu li.sub-menu span.tab {
-	color: #cc181e;
 }
 
 /*box shadow*/
