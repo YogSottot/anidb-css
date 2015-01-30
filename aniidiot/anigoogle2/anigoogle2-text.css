@@ -31,7 +31,6 @@ button.confirmButton {
 .i_pm_reply span,
 .i_topic_subscribe span,
 .i_topic_unsubscribe span,
-#layout-search .submit,
 #layout-main div.main_all div.rightbar h4 span,
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
@@ -63,6 +62,7 @@ h4 span {
 	font-weight: bold;
 }
 
+button,
 h4 span,
 .i_comment_add span,
 .i_topic_add span,
