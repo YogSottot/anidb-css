@@ -47,6 +47,7 @@ button,
 	-moz-osx-font-smoothing: grayscale;
 	transform: translate(0, 0);
 	line-height: 16px;
+	margin: 0;
 }
 
 button,
