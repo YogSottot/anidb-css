@@ -50,7 +50,6 @@ button,
 button,
 #layout-tabs ul li a,
 #layout-search .submit,
-#layout-main div.msg_all div.buttons li a,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
@@ -60,9 +59,17 @@ button,
 	line-height: 16px;
 }
 
+button:before,
+#layout-tabs ul li a:before,
+#layout-main ul.g_list li.back a:before,
+#layout-main ul.g_list li.reload a:before,
+#layout-main div.msg_all div.buttons li a:before,
+#layout-main div.creq_all .links a:before {
+	padding-right: 6px;
+}
+
 button:before {
 	content: "\f00c";
-	padding-right: 6px;
 }
 .i_topic_unlock:before {
 	content: "\f09c";
@@ -127,20 +134,16 @@ button:before {
 }
 #layout-main ul.g_list li.back a:before {
 	content: "\f112";
-	padding-right: 6px;
 }
 #layout-main ul.g_list li.reload a:before {
 	content: "\f021";
-	padding-right: 6px;
 }
 #layout-main div.creq_all .links .creq_list a:before {
 	content: "\f0ca";
-	padding-right: 6px;
 }
 #layout-main div.creq_all .links .next_new_creq a:before,
 #layout-main div.creq_all .links .next_creq a:before {
 	content: "\f061";
-	padding-right: 6px;
 }
 #layout-main div.creq_all .creq_buttons button.lock:before {
 	content: "\f023";
@@ -175,7 +178,6 @@ button.prev:before {
 }
 #layout-tabs ul li a:before {
 	content: "\f114";
-	padding-right: 6px;
 }
 /*https://fortawesome.github.io END*/
 
