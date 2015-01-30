@@ -2107,10 +2107,6 @@ div.quotebody div.quoteof
 	color: #01702e;
 }
 
-button + button
-{
-margin-left: 5px;
-}
 a.button,
 input.button,
 button.button,

@@ -24,9 +24,7 @@ input[type="password"],
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.pagination span a,
-#layout-main div.pagination span strong,
-#layout-main div.forum div.search form input,
-#layout-main div.forum div.search form select
+#layout-main div.pagination span strong
 {
 	padding: 2px 4px;
 }
@@ -318,8 +316,8 @@ h4,
 	display: inline-block;
 }
 
-#layout-main div.group_all div.addfilem.options tr.group input,
-#layout-main div.filter_menu span.actions.old input
+#layout-main div.group_all div.addfilem.options tr.group button,
+#layout-main div.filter_menu span.actions.old button
 {
 	margin-top: 3px;
 }
@@ -361,8 +359,7 @@ h4,
 	padding: 1px 8px 0 7px;
 }
 
-#layout-main div.forum div.search form input + select,
-button + button
+#layout-main div.forum div.search form input + select
 {
 	margin-left: 0.5em;
 }

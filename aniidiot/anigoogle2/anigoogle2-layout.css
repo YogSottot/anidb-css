@@ -128,3 +128,7 @@
 #layout-search .submit {
 	line-height: 13px !important;
 }
+
+#layout-main div.g_menu.filter_menu button.delete {
+	margin-top: 0.3em;
+}
