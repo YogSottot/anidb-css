@@ -28,14 +28,34 @@
 .i_topic_unsubscribe,
 .i_pm_delete,
 .i_pm_reply,
-.i_review_add {
+.i_review_add,
+button[type="submit"],
+#layout-tabs ul li a,
+#layout-search .submit,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main ul.g_list li.reload a,
+#layout-main ul.g_list li.back a {
 	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 14px/1;
+	font-family: FontAwesome, Arial,Helvetica,sans-serif;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	transform: translate(0, 0);
-	font-size: 14px;
+}
+
+button[type="submit"],
+#layout-tabs ul li a,
+#layout-search .submit,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main ul.g_list li.reload a,
+#layout-main ul.g_list li.back a {
+	padding-left: 4px;
+	line-height: 16px;
 }
 
 .i_topic_unlock:before {
@@ -91,6 +111,73 @@
 }
 .i_pm_reply:before {
 	content: "\f112";
+}
+#layout-search .submit:before {
+	content: "\f002";
+}
+
+#layout-main ul.g_list li.back a:before {
+	content: "\f112";
+	padding-right: 6px;
+}
+
+#layout-main ul.g_list li.reload a:before {
+	content: "\f021";
+	padding-right: 6px;
+}
+
+#layout-main div.creq_all .links .creq_list a:before {
+	content: "\f0ca";
+	padding-right: 6px;
+}
+
+#layout-main div.creq_all .links .next_new_creq a:before,
+#layout-main div.creq_all .links .next_creq a:before {
+	content: "\f061";
+	padding-right: 6px;
+}
+
+button[type="submit"]:before {
+	content: "\f00c";
+	padding-right: 6px;
+}
+
+#layout-main div.creq_all .creq_buttons  button.deny:before {
+	content: "\f00d";
+}
+
+#layout-main div.creq_all .creq_buttons  button.lock:before {
+	content: "\f023";
+}
+
+#layout-main div.creq_all .creq_buttons  button.unlock:before {
+	content: "\f09c";
+}
+
+#layout-main div.creq_all .creq_buttons  button.revoke:before,
+#layout-main div.creq_all .creq_buttons  button.revert:before {
+	content: "\f0e2";
+}
+
+#layout-main div.creq_all .creq_buttons  button.assign:before {
+	content: "\f234";
+}
+
+#layout-main div.creq_all .creq_messages  button.reply:before {
+	content: "\f112";
+}
+
+#layout-main div.creq_all .creq_messages  button.note:before {
+	content: "\f016";
+}
+
+#layout-main div.creq_all .creq_messages  button.annotation:before {
+	content: "\f044";
+}
+
+#layout-tabs ul li a:before {
+	content: "\f114";
+	padding-right: 6px;
 }
 /*https://fortawesome.github.io END*/
 
