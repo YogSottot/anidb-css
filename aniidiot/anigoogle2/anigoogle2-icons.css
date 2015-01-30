@@ -96,8 +96,8 @@ button:before {
 	content: "\f00c";
 }
 #layout-main div.creq_all .creq_buttons button.deny:before,
-#layout-main div.msg_all div.buttons li button.delete:before,
-#layout-main div.msg_all div.buttons li a.delete:before,
+#layout-main div.msg_all div.buttons button.delete:before,
+#layout-main div.msg_all div.buttons li.delete a:before,
 .i_comment_creq:before,
 .i_pm_delete:before,
 .i_topic_delete:before,
@@ -118,7 +118,7 @@ button:before {
 .i_topic_unsubscribe:before {
 	content: "\f09e";
 }
-#layout-main div.msg_all div.buttons li a.new:before,
+#layout-main div.msg_all div.buttons li.new a:before,
 .i_pm_reply:before {
 	content: "\f112";
 }
