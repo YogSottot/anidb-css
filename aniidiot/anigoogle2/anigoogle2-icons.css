@@ -51,11 +51,12 @@ button,
 button,
 #layout-tabs ul li a,
 #layout-search .submit,
+#layout-main ul.g_list li.reload a,
+#layout-main ul.g_list li.back a
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
-#layout-main ul.g_list li.reload a,
-#layout-main ul.g_list li.back a {
+#layout-main div.msg_all ul.g_list li.sent a {
 	padding-left: 4px;
 }
 
@@ -63,6 +64,7 @@ button:before,
 #layout-tabs ul li a:before,
 #layout-main ul.g_list li.back a:before,
 #layout-main ul.g_list li.reload a:before,
+#layout-main div.msg_all ul.g_list li.sent a:before,
 #layout-main div.msg_all div.buttons li a:before,
 #layout-main div.creq_all .links a:before {
 	padding-right: 6px;
@@ -178,6 +180,9 @@ button.prev:before {
 }
 #layout-tabs ul li a:before {
 	content: "\f114";
+}
+#layout-main div.msg_all ul.g_list li.sent a:before {
+	content: "\f003";
 }
 /*https://fortawesome.github.io END*/
 
