@@ -5,6 +5,7 @@
 	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 }
 
+button,
 .i_comment_add,
 .i_comment_revisions,
 .i_comment_move,
@@ -29,7 +30,6 @@
 .i_pm_delete,
 .i_pm_reply,
 .i_review_add,
-button*,
 #layout-tabs ul li a,
 #layout-search .submit,
 #layout-main div.creq_all .links .next_new_creq a,
