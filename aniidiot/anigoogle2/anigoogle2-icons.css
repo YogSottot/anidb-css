@@ -37,8 +37,8 @@ button,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
-#layout-main ul.g_list li.reload a,
-#layout-main ul.g_list li.back a {
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li {
 	display: inline-block;
 	font-size: 14px/1;
 	font-family: FontAwesome, Arial,Helvetica,sans-serif;
@@ -53,8 +53,7 @@ button,
 button,
 #layout-tabs ul li a,
 #layout-search .submit,
-#layout-main ul.g_list li.reload a,
-#layout-main ul.g_list li.back a
+#layout-main ul.g_list li a,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
@@ -64,16 +63,15 @@ button,
 
 button:before,
 #layout-tabs ul li a:before,
-#layout-main ul.g_list li.back a:before,
-#layout-main ul.g_list li.reload a:before,
+#layout-main ul.g_list li a:before,
 #layout-main div.msg_all ul.g_list li.sent a:before,
 #layout-main div.msg_all div.buttons li a:before,
 #layout-main div.creq_all .links a:before {
 	padding-right: 6px;
 }
 
-#layout-main ul.g_list li.add,
-#layout-main ul.g_list li.submit,
+#layout-main ul.g_list li.add a:before,
+#layout-main ul.g_list li.submit a:before,
 button:before {
 	content: "\f00c";
 }
@@ -105,14 +103,14 @@ button.edit:before,
 .i_comment_quote:before {
 	content: "\f10d";
 }
-#layout-main ul.g_list li.help a:before:before,
+#layout-main ul.g_list li.help a:before,
 .i_comment_info:before {
 	content: "\f05a";
 }
 .i_comment_setactive:before {
 	content: "\f00c";
 }
-#layout-main ul.g_list li.cancel,
+#layout-main ul.g_list li.cancel a:before,
 #layout-main div.creq_all .creq_buttons button.deny:before,
 #layout-main div.msg_all div.buttons button.delete:before,
 #layout-main div.msg_all div.buttons li.delete a:before,
@@ -182,11 +180,11 @@ button.delete:before,
 button.reset:before {
 	content: "\f0e2";
 }
-#layout-main ul.g_list li.next,
+#layout-main ul.g_list li.next a:before,
 button.next:before {
 	content: "\f061";
 }
-#layout-main ul.g_list li.prev,
+#layout-main ul.g_list li.prev a:before,
 button.prev:before {
 	content: "\f060";
 }
