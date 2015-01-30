@@ -32,6 +32,7 @@ button,
 .i_review_add,
 #layout-tabs ul li a,
 #layout-search .submit,
+#layout-main div.msg_all div.buttons li a,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
@@ -49,6 +50,7 @@ button,
 button,
 #layout-tabs ul li a,
 #layout-search .submit,
+#layout-main div.msg_all div.buttons li a,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
@@ -93,6 +95,9 @@ button:before {
 .i_comment_setactive:before {
 	content: "\f00c";
 }
+#layout-main div.creq_all .creq_buttons button.deny:before,
+#layout-main div.msg_all div.buttons li button.delete:before,
+#layout-main div.msg_all div.buttons li a.delete:before,
 .i_comment_creq:before,
 .i_pm_delete:before,
 .i_topic_delete:before,
@@ -113,6 +118,7 @@ button:before {
 .i_topic_unsubscribe:before {
 	content: "\f09e";
 }
+#layout-main div.msg_all div.buttons li a.new:before,
 .i_pm_reply:before {
 	content: "\f112";
 }
@@ -135,9 +141,6 @@ button:before {
 #layout-main div.creq_all .links .next_creq a:before {
 	content: "\f061";
 	padding-right: 6px;
-}
-#layout-main div.creq_all .creq_buttons button.deny:before {
-	content: "\f00d";
 }
 #layout-main div.creq_all .creq_buttons button.lock:before {
 	content: "\f023";
