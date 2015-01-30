@@ -45,6 +45,7 @@ button,
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	transform: translate(0, 0);
+	line-height: 16px;
 }
 
 button,
@@ -56,7 +57,6 @@ button,
 #layout-main ul.g_list li.reload a,
 #layout-main ul.g_list li.back a {
 	padding-left: 4px;
-	line-height: 16px;
 }
 
 button:before,
