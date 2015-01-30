@@ -58,6 +58,10 @@ button[type="submit"],
 	line-height: 16px;
 }
 
+button[type="submit"]:before {
+	content: "\f00c";
+	padding-right: 6px;
+}
 .i_topic_unlock:before {
 	content: "\f09c";
 }
@@ -115,66 +119,48 @@ button[type="submit"],
 #layout-search .submit:before {
 	content: "\f002";
 }
-
 #layout-main ul.g_list li.back a:before {
 	content: "\f112";
 	padding-right: 6px;
 }
-
 #layout-main ul.g_list li.reload a:before {
 	content: "\f021";
 	padding-right: 6px;
 }
-
 #layout-main div.creq_all .links .creq_list a:before {
 	content: "\f0ca";
 	padding-right: 6px;
 }
-
 #layout-main div.creq_all .links .next_new_creq a:before,
 #layout-main div.creq_all .links .next_creq a:before {
 	content: "\f061";
 	padding-right: 6px;
 }
-
-button[type="submit"]:before {
-	content: "\f00c";
-	padding-right: 6px;
-}
-
 #layout-main div.creq_all .creq_buttons  button.deny:before {
 	content: "\f00d";
 }
-
 #layout-main div.creq_all .creq_buttons  button.lock:before {
 	content: "\f023";
 }
-
 #layout-main div.creq_all .creq_buttons  button.unlock:before {
 	content: "\f09c";
 }
-
 #layout-main div.creq_all .creq_buttons  button.revoke:before,
 #layout-main div.creq_all .creq_buttons  button.revert:before {
 	content: "\f0e2";
 }
-
 #layout-main div.creq_all .creq_buttons  button.assign:before {
 	content: "\f234";
 }
-
 #layout-main div.creq_all .creq_messages  button.reply:before {
 	content: "\f112";
 }
-
 #layout-main div.creq_all .creq_messages  button.note:before {
 	content: "\f016";
 }
-
 #layout-main div.creq_all .creq_messages  button.annotation:before {
 	content: "\f044";
 }
-
 #layout-tabs ul li a:before {
 	content: "\f114";
 	padding-right: 6px;
