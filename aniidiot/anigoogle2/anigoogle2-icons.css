@@ -72,6 +72,8 @@ button:before,
 	padding-right: 6px;
 }
 
+#layout-main ul.g_list li.add,
+#layout-main ul.g_list li.submit,
 button:before {
 	content: "\f00c";
 }
@@ -103,12 +105,14 @@ button.edit:before,
 .i_comment_quote:before {
 	content: "\f10d";
 }
+#layout-main ul.g_list li.help a:before:before,
 .i_comment_info:before {
 	content: "\f05a";
 }
 .i_comment_setactive:before {
 	content: "\f00c";
 }
+#layout-main ul.g_list li.cancel,
 #layout-main div.creq_all .creq_buttons button.deny:before,
 #layout-main div.msg_all div.buttons button.delete:before,
 #layout-main div.msg_all div.buttons li.delete a:before,
