@@ -41,7 +41,6 @@ input[type="submit"]:hover,
 .g_bubble .name-colored:hover,
 a.tooltip span.text,
 #imagepreview,
-button[type="submit"]:hover,
 #layout-main div.search_all div.suggestions span:hover
 {
 	color: #FFFFFF;
@@ -193,7 +192,6 @@ input[type="submit"]:hover,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
-button[type="submit"]:hover,
 #layout-main div.search_all div.suggestions span:hover
 {
 	background-color: #555555;
@@ -359,7 +357,6 @@ span.test,
 button,
 input[type="button"],
 input[type="submit"],
-button[type="submit"],
 *.g_button a,
 div.quotebody,
 #layout-main ul.g_list li,

@@ -14,7 +14,7 @@ table {
 
 input[type="submit"],
 input[type="button"],
-button[type="submit"],
+button,
 *.g_bubble,
 *.g_button a,
 input[type="text"],

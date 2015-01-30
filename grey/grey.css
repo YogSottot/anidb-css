@@ -583,7 +583,7 @@ background: url(images/whitepixel.png);
 text-align: right;
 }
 #layout-search form input.submit,
-form button[type="submit"]
+form button
 {
 margin: 0;
 padding: 0;
@@ -595,7 +595,7 @@ border-color: #565656;
 background: url(images/whitepixel.png);
 }
 #layout-search form input.submit:hover,
-form button[type="submit"]:hover
+form button:hover
 {
 color: #ff6000;
 background: url(images/redpixel.png);

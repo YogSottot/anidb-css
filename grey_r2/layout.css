@@ -329,7 +329,7 @@ border-bottom-width:1px;
 }
 #layout-main div.forum div.search form input,
 #layout-main div.forum div.search form select,
-#layout-main div.forum div.search form button[type="submit"],
+#layout-main div.forum div.search form button,
 #layout-main div.forum div.search form input[type="submit"],
 #layout-main div.forum ul.topics,
 #layout-main div.forum div.g_bubble.threads

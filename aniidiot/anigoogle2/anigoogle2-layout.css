@@ -106,9 +106,21 @@
 .i_topic_unsubscribe span {
 	display: inline-block;
 	padding-left: 5px;
-	vertical-align: 8%;
 }
 
 #layout-main div.forum div.buttons a + a {
     margin-left: 0.4em;
+}
+
+#layout-main div.forum div.topic_actions {
+	height: 16px;
+}
+
+#layout-main div.creq_all .creq_buttons input[type="text"] {
+	line-height: 16px;
+	padding: 2px 4px 4px;
+}
+
+#layout-search .submit {
+	line-height: 13px;
 }

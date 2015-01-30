@@ -29,7 +29,7 @@
 .i_pm_delete,
 .i_pm_reply,
 .i_review_add,
-button[type="submit"],
+button*,
 #layout-tabs ul li a,
 #layout-search .submit,
 #layout-main div.creq_all .links .next_new_creq a,
@@ -46,7 +46,7 @@ button[type="submit"],
 	transform: translate(0, 0);
 }
 
-button[type="submit"],
+button,
 #layout-tabs ul li a,
 #layout-search .submit,
 #layout-main div.creq_all .links .next_new_creq a,
@@ -58,7 +58,7 @@ button[type="submit"],
 	line-height: 16px;
 }
 
-button[type="submit"]:before {
+button:before {
 	content: "\f00c";
 	padding-right: 6px;
 }
@@ -136,30 +136,39 @@ button[type="submit"]:before {
 	content: "\f061";
 	padding-right: 6px;
 }
-#layout-main div.creq_all .creq_buttons  button.deny:before {
+#layout-main div.creq_all .creq_buttons button.deny:before {
 	content: "\f00d";
 }
-#layout-main div.creq_all .creq_buttons  button.lock:before {
+#layout-main div.creq_all .creq_buttons button.lock:before {
 	content: "\f023";
 }
-#layout-main div.creq_all .creq_buttons  button.unlock:before {
+#layout-main div.creq_all .creq_buttons button.unlock:before {
 	content: "\f09c";
 }
-#layout-main div.creq_all .creq_buttons  button.revoke:before,
-#layout-main div.creq_all .creq_buttons  button.revert:before {
+#layout-main div.creq_all .creq_buttons button.revoke:before,
+#layout-main div.creq_all .creq_buttons button.revert:before {
 	content: "\f0e2";
 }
-#layout-main div.creq_all .creq_buttons  button.assign:before {
+#layout-main div.creq_all .creq_buttons button.assign:before {
 	content: "\f234";
 }
-#layout-main div.creq_all .creq_messages  button.reply:before {
+#layout-main div.creq_all .creq_messages button.reply:before {
 	content: "\f112";
 }
-#layout-main div.creq_all .creq_messages  button.note:before {
+#layout-main div.creq_all .creq_messages button.note:before {
 	content: "\f016";
 }
-#layout-main div.creq_all .creq_messages  button.annotation:before {
+#layout-main div.creq_all .creq_messages button.annotation:before {
 	content: "\f044";
+}
+button.reset:before {
+	content: "\f0e2";
+}
+button.next:before {
+	content: "\f061";
+}
+button.prev:before {
+	content: "\f060";
 }
 #layout-tabs ul li a:before {
 	content: "\f114";

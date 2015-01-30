@@ -608,7 +608,7 @@
 	padding: 2px 3px;
 }
 
-#layout-main div.forum div.search form button[type="submit"],
+#layout-main div.forum div.search form button,
 #layout-main div.forum div.search form input[type="submit"]
 {
 	padding: 3px;

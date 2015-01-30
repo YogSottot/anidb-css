@@ -386,7 +386,7 @@ div.pagination span a
 	padding: 1px 4px;
 }
 
-div .filter_menu span.actions button[type="submit"],
+div .filter_menu span.actions button,
 div .filter_menu span.actions input[type="submit"] {
 	margin: 0.2em;
 }

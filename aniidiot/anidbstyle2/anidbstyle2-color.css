@@ -54,7 +54,6 @@ button:hover,
 span.test:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover,
-button[type="submit"]:hover,
 #layout-main ul.g_list li:hover a,
 #layout-main ul.g_list li.selected,
 #layout-main ul.g_list li.selected:hover,
@@ -160,7 +159,7 @@ input[type="submit"]:hover,
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
-button[type="submit"]:hover,
+button:hover,
 #layout-main div.search_all div.suggestions span:hover
 {
 	background-color:#58636E;

@@ -391,11 +391,17 @@ button + button
 	padding: 4px;
 }
 
-#layout-main div.forum div.search form button[type="submit"],
+#layout-main div.forum div.search form button,
 #layout-main div.forum div.search form input[type="submit"] {
 	padding: 4px 4px 3px;
 }
 
 #layout-main div.userpage_all div.stats table th {
 	width: 8.5em;
+}
+
+#layout-main div.profile_all div.pane div.settings.block li,
+#layout-main div.profile_all div.pane > ul li,
+#layout-main div.profile_all div.pane.general div.body div.pane div ul li {
+	line-height: 16px;
 }

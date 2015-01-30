@@ -89,7 +89,7 @@ a:hover,
 #layout-main div.forum a.username-colored,
 input[type="submit"]:hover,
 input[type="button"]:hover,
-button[type="submit"]:hover,
+button:hover,
 #layout-main div.search_all div.suggestions span:hover
 {
 	color: #AA0000;
@@ -170,7 +170,7 @@ a.tooltip > span.text.g_bubble,
 #layout-main div.forum div.g_bubble.events,
 input[type="submit"]:hover,
 input[type="button"]:hover,
-button[type="submit"]:hover,
+button:hover,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.search_all div.suggestions span:hover,
@@ -226,7 +226,7 @@ select,
 span.test,
 input[type="submit"],
 input[type="button"],
-button[type="submit"],
+button,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover
 {
