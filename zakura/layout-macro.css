@@ -89,7 +89,7 @@ body.nonav form textarea {
 	color: #1e2495;
 }
 
-#layout-search input.submit {
+#layout-search .submit {
 	height: 1.8em;
 	padding-bottom: 0.2em;
 	width: 4.5em;
@@ -119,7 +119,7 @@ div.spoiler,
 #layout-main div.pagination span a,
 #layout-main div.pagination span strong,
 #layout-search input.text,
-#layout-search input.submit,
+#layout-search .submit,
 span.test,
 button,
 #layout-main ul.g_list li,

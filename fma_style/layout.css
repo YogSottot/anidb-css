@@ -275,7 +275,7 @@ background: transparent url(images/buttons/help-static-red.png) no-repeat 0.7em 
 	padding: 3px;
 }
 
-#layout-search input.submit {
+#layout-search .submit {
 	height: 2.3em;
 	width: 4.5em;
 }
@@ -328,7 +328,7 @@ div.quotebody,
 #layout-main div.pagination span a,
 #layout-main div.pagination span strong,
 #layout-search input.text,
-#layout-search input.submit,
+#layout-search .submit,
 span.test,
 button,
 #layout-main ul.g_list li,
@@ -386,6 +386,7 @@ div.pagination span a
 	padding: 1px 4px;
 }
 
+div .filter_menu span.actions button[type="submit"],
 div .filter_menu span.actions input[type="submit"] {
 	margin: 0.2em;
 }

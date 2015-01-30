@@ -1060,6 +1060,7 @@ vertical-align: baseline }
 
 	#layout-main div.forum div.search form input, 
 	#layout-main div.forum div.search form select,
+	#layout-main div.forum div.search form button[type="submit"]
 	#layout-main div.forum div.search form input[type="submit"]	{
 	padding: 4px }
 	

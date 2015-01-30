@@ -10,14 +10,14 @@ a.i_button:hover
 	text-decoration: none;
 }
 
-#layout-search input.submit
+#layout-search .submit
 {
 	text-transform: capitalize;
 }
 
 #layout-search select,
 #layout-search input.text,
-#layout-search input.submit,
+#layout-search .submit,
 #layout-menu li.sub-menu,
 #layout-tabs,
 input[type="text"],

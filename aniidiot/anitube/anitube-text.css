@@ -10,7 +10,7 @@ a.i_button:hover
 	text-decoration:none;
 }
 
-#layout-search input.submit
+#layout-search .submit
 {
 	text-transform:capitalize;
 }
@@ -23,7 +23,7 @@ a.i_button:hover
 }
 
 #layout-search input.text,
-#layout-search input.submit,
+#layout-search .submit,
 #layout-menu > li,
 #layout-tabs,
 #layout-search select

@@ -326,7 +326,8 @@ button[type="submit"],
 #layout-main div.forum div.g_bubble.navbar div.bottom,
 #layout-main div.forum ul.topiclist dd,
 #layout-main div.forum li.row + li.row,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
+#layout-main div.msg_all div.forum ul.topics dd.check {
 	border-color: #CCCCCC;
 }
 

@@ -305,7 +305,7 @@ div.pagination span a
 	color: #1e2495;
 }
 
-#layout-search input.submit
+#layout-search .submit
 {
 	float: right;
 	width: 80px;
@@ -333,7 +333,7 @@ div.pagination span a
 }
 
 /*#layout-search input.text,*/
-#layout-search input.submit
+#layout-search .submit
 {
 	float: none;
 }

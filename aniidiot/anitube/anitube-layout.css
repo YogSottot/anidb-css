@@ -44,7 +44,7 @@ input, select {
 	width:400px;
 }
 
-#layout-search input.submit
+#layout-search .submit
 {
 	margin:0;
 	width:100px;
