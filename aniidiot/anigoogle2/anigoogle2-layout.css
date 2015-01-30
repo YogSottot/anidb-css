@@ -122,5 +122,5 @@
 }
 
 #layout-search .submit {
-	line-height: 13px;
+	line-height: 13px !important;
 }
