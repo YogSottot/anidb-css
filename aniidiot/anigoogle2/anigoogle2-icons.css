@@ -30,7 +30,7 @@
 .i_pm_reply,
 .i_review_add {
 	display: inline-block;
-	font-family: 'FontAwesome';
+	font: normal normal normal 14px/1 FontAwesome;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -42,7 +42,7 @@
 	content: "\f09c";
 }
 .i_topic_locked:before,
-.i_topic_lock:before:before {
+.i_topic_lock:before {
 	content: "\f023";
 }
 .i_review_add:before,

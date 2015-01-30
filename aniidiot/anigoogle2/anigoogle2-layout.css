@@ -100,6 +100,7 @@
 .i_topic_unsubscribe {
 	height: 16px;
 	width: auto;
+	line-height: 15px;
 }
 
 .i_comment_add span,
@@ -126,8 +127,9 @@
 .i_pm_reply span,
 .i_topic_subscribe span,
 .i_topic_unsubscribe span {
-	display: inline;
+	display: inline-block;
 	padding-left: 6px;
+	vertical-align: 8%;
 }
 
 #layout-main div.forum div.buttons a + a {
