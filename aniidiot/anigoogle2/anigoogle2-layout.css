@@ -127,6 +127,7 @@
 .i_topic_subscribe span,
 .i_topic_unsubscribe span {
 	display: inline;
+	padding-left: 6px;
 }
 
 #layout-main div.forum div.buttons a + a {

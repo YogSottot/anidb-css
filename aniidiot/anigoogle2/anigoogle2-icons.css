@@ -41,8 +41,56 @@
 .i_topic_unlock:before {
 	content: "\f09c";
 }
+.i_topic_locked,
 .i_topic_lock:before {
 	content: "\f023";
+}
+.i_review_add,
+.i_topic_add,
+.i_comment_add {
+	content: "\f075";
+}
+.i_comment_revisions {
+	content: "\f044";
+}
+.i_topic_move,
+.i_comment_move {
+	content: "\f0b2";
+}
+.i_comment_edit {
+	content: "\f040";
+}
+.i_comment_quote {
+	content: "\f10d";
+}
+.i_comment_info {
+	content: "\f05a";
+}
+.i_comment_setactive {
+	content: "\f00c";
+}
+.i_comment_creq,
+.i_pm_delete,
+.i_topic_delete,
+.i_comment_delete {
+	content: "\f00d";
+}
+.i_topic_undelete,
+.i_comment_undelete {
+	content: "\f021";
+}
+.i_topic_history {
+	content: "\f1da";
+}
+.i_topic_split {
+	content: "\f07d";
+}
+.i_topic_subscribe,
+.i_topic_unsubscribe {
+	content: "\f09e";
+}
+.i_pm_reply {
+	content: "\f112";
 }
 /*https://fortawesome.github.io END*/
 
