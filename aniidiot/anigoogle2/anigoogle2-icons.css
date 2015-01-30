@@ -95,6 +95,7 @@ button:before {
 	content: "\f0b2";
 }
 button.default:before,
+button.update:before,
 button.edit:before,
 .i_comment_edit:before {
 	content: "\f040";
