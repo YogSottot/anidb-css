@@ -108,6 +108,7 @@
 	padding-left: 5px;
 }
 
+#layout-main div.msg_all ul.g_list + button,
 #layout-main div.forum div.buttons a + a {
     margin-left: 0.4em;
 }
