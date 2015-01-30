@@ -108,9 +108,12 @@
 	padding-left: 5px;
 }
 
-#layout-main div.cmt_entries div.postbody span.actions a + a,
 #layout-main div.forum div.buttons a + a {
     margin-left: 0.4em;
+}
+
+#layout-main div.cmt_entries div.postbody span.actions a + a {
+    margin-right: 0.4em;
 }
 
 #layout-main div.forum div.topic_actions {
