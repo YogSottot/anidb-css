@@ -212,6 +212,14 @@ button.load:before {
 #layout-main ul.g_list li.export a:before {
 	content: "\f08e";
 }
+button.add:before {
+	content: "\f067";
+}
+button.tmpratenow:before,
+button.ratenow:before,
+button.vote:before {
+	content: "\f087";
+}
 /*https://fortawesome.github.io END*/
 
 
