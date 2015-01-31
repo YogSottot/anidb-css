@@ -72,7 +72,6 @@ button:before,
 	padding-right: 6px;
 }
 
-#layout-main ul.g_list li.add a:before,
 #layout-main ul.g_list li.submit a:before,
 button:before {
 	content: "\f00c";
@@ -107,6 +106,7 @@ button.edit:before,
 .i_comment_quote:before {
 	content: "\f10d";
 }
+#layout-main ul.g_list li.info a:before,
 #layout-main ul.g_list li.help a:before,
 .i_comment_info:before {
 	content: "\f05a";
@@ -115,6 +115,7 @@ button.edit:before,
 	content: "\f00c";
 }
 #layout-main ul.g_list li.cancel a:before,
+#layout-main ul.g_list li.delete a:before,
 #layout-main div.creq_all .creq_buttons button.deny:before,
 #layout-main div.msg_all div.buttons button.delete:before,
 #layout-main div.msg_all div.buttons li.delete a:before,
@@ -129,11 +130,12 @@ button.delete:before,
 .i_comment_undelete:before {
 	content: "\f021";
 }
-.i_topic_history:before {
+.i_topic_history:before,
+#layout-main ul.g_list li.history a:before {
 	content: "\f1da";
 }
 .i_topic_split:before {
-	content: "\f07d";
+	content: "\f0ec";
 }
 .i_topic_subscribe:before,
 .i_topic_unsubscribe:before {
@@ -213,13 +215,17 @@ button.load:before {
 #layout-main ul.g_list li.export a:before {
 	content: "\f08e";
 }
-button.add:before {
+button.add:before,
+#layout-main ul.g_list li.add a:before {
 	content: "\f067";
 }
 button.tmpratenow:before,
 button.ratenow:before,
 button.vote:before {
 	content: "\f087";
+}
+#layout-main ul.g_list li.merge a:before {
+	content: "\f066";
 }
 /*https://fortawesome.github.io END*/
 
