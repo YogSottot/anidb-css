@@ -46,8 +46,8 @@
 }
 
 #layout-main div.edit_actions {
-	height: 2em;
-	margin-top: -2em;
+    height: 2.5em;
+    margin-top: -2.5em;
 }
 
 .i_comment_add,
@@ -132,4 +132,8 @@
 
 #layout-main div.g_menu.filter_menu button.delete {
 	margin-top: 0.3em;
+}
+
+#layout-main ul.g_list + ul.g_list {
+	margin-bottom: 1.5em;
 }

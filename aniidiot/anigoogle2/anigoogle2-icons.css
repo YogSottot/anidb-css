@@ -30,6 +30,7 @@ button,
 .i_pm_delete,
 .i_pm_reply,
 .i_review_add,
+#layout-main div.edit_actions a,
 #layout-tabs ul li a,
 #layout-search .submit,
 #layout-main div.msg_all div.buttons li a,
@@ -63,6 +64,7 @@ button,
 
 button:before,
 #layout-tabs ul li a:before,
+#layout-main div.edit_actions a:before
 #layout-main ul.g_list li a:before,
 #layout-main div.msg_all ul.g_list li.sent a:before,
 #layout-main div.msg_all div.buttons li a:before,
@@ -94,6 +96,7 @@ button:before {
 .i_comment_move:before {
 	content: "\f0b2";
 }
+#layout-main div.edit_actions span.modify a:before,
 button.default:before,
 button.update:before,
 button.edit:before,
