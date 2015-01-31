@@ -93,7 +93,8 @@ button:before {
 	content: "\f044";
 }
 .i_topic_move:before,
-.i_comment_move:before {
+.i_comment_move:before,
+#layout-main ul.g_list li.move a:before {
 	content: "\f0b2";
 }
 #layout-main div.edit_actions span.modify a:before,
