@@ -205,6 +205,13 @@ button.load:before {
 #layout-main ul.g_list li.stats a:before {
 	content: "\f080";
 }
+#layout-main ul.g_list li.relations a:before,
+#layout-main ul.g_list li.votes a:before {
+	content: "\f201";
+}
+#layout-main ul.g_list li.export a:before {
+	content: "\f08e";
+}
 /*https://fortawesome.github.io END*/
 
 
