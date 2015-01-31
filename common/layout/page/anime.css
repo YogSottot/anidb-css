@@ -63,7 +63,7 @@
 
 #layout-main div.anime_all #tabbed_pane_main
 {
-	margin: 1.5em 1em 1em;
+	margin: 1.5em 1em;
 }
 
 #layout-main div.anime_all div.reviews table.reviewlist th.approval
@@ -131,6 +131,7 @@
 	min-width: 5em;
 }
 
+#layout-main div.anime_all #tabbed_pane_main
 #layout-main div.anime_all div.tabbed_pane {
 	margin: 0.25em;
 }
