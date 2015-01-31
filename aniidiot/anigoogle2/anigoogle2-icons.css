@@ -96,6 +96,7 @@ button:before {
 #layout-main ul.g_list li.move a:before {
 	content: "\f0b2";
 }
+#layout-main ul.g_list li.edit a:before,
 #layout-main div.edit_actions span.modify a:before,
 button.default:before,
 button.update:before,
