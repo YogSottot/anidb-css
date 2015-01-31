@@ -133,7 +133,3 @@
 #layout-main div.g_menu.filter_menu button.delete {
 	margin-top: 0.3em;
 }
-
-#layout-main ul.g_list + ul.g_list {
-	margin-bottom: 1.5em;
-}
