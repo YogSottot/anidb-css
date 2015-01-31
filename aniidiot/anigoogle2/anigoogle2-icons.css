@@ -151,6 +151,8 @@ button.delete:before,
 #layout-main ul.g_list li.reload a:before {
 	content: "\f021";
 }
+#layout-main ul.g_list li.latest a:before,
+#layout-main ul.g_list li.list a:before,
 #layout-main div.creq_all .links .creq_list a:before {
 	content: "\f0ca";
 }
@@ -199,6 +201,9 @@ button.prev:before {
 }
 button.load:before {
 	content: "\f115";
+}
+#layout-main ul.g_list li.stats a:before {
+	content: "\f080";
 }
 /*https://fortawesome.github.io END*/
 
