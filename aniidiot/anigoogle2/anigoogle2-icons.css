@@ -352,7 +352,7 @@ button.vote:before {
 	content: "\f06e";
 	cursor:pointer;
 }
-.i_seen_yes:after {
+.i_seen_no:after {
 	content: "\f070";
 	cursor:pointer;
 }
