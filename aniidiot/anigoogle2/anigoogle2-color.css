@@ -50,14 +50,14 @@ input[type="button"]:hover,
 	color: #AA0000 !important;
 }
 
-.i_vrs_2:hover,
-.i_vrs_3:hover,
-.i_vrs_4:hover,
-.i_vrs_5:hover,
-.i_vrs_6:hover,
-.i_vrs_7:hover,
-.i_vrs_8:hover,
-.i_vrs_9:hover {
+.i_vrs_2:hover span,
+.i_vrs_3:hover span,
+.i_vrs_4:hover span,
+.i_vrs_5:hover span,
+.i_vrs_6:hover span,
+.i_vrs_7:hover span,
+.i_vrs_8:hover span,
+.i_vrs_9:hover span {
 	background-color: #AA0000;
 }
 
