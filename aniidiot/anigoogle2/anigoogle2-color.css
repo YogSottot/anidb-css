@@ -18,6 +18,7 @@ button.confirmButton {
 a,
 th a,
 span.link,
+h4 span.nolink a,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
 	color: #105289;
 }
