@@ -347,12 +347,12 @@ button.vote:before {
 	content: "\f00d";
 	cursor:pointer;
 }
-.i_seen,
-.i_seen_yes {
+.i_seen:after,
+.i_seen_yes:after {
 	content: "\f06e";
 	cursor:pointer;
 }
-.i_seen_yes {
+.i_seen_yes:after {
 	content: "\f070";
 	cursor:pointer;
 }
