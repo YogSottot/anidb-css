@@ -17,19 +17,21 @@ button.confirmButton {
 
 a,
 th a,
+.i_icon,
 span.link,
 h4 span.nolink a,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
 	color: #105289;
 }
 
-.g_bubble .name-colored,
-span.link:hover,
 a:hover,
-.g_button a:hover,
+button:hover,
+span.link:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
-button:hover,
+.i_icon:hover,
+.g_button a:hover,
+.g_bubble .name-colored,
 #layout-main a.filter:hover,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
