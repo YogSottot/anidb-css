@@ -273,13 +273,15 @@ button.vote:before {
 }
 
 /*image only - no text*/
+.i_vote,
+.i_group_comment,
+.i_file_edit,
 .i_minus,
 .i_plus {
 	height: auto;
 	width:16px;
 	font-size:16px;
 }
-
 .i_plus:after {
 	content: "\f0fe";
 	cursor:pointer;
