@@ -5,6 +5,9 @@
 	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 }
 
+.i_seen,
+.i_seen_yes,
+.i_seen_no,
 .i_file_addmylist,
 .i_file_removemylist,
 .i_top,
@@ -43,6 +46,9 @@
 	background-image: none !important;
 }
 
+.i_seen,
+.i_seen_yes,
+.i_seen_no,
 .i_file_addmylist,
 .i_file_removemylist,
 .i_top,
@@ -285,6 +291,9 @@ button.vote:before {
 }
 
 /*image only - no text*/
+.i_seen,
+.i_seen_yes,
+.i_seen_no,
 .i_file_addmylist,
 .i_file_removemylist,
 .i_top,
@@ -336,6 +345,15 @@ button.vote:before {
 }
 .i_file_removemylist:after {
 	content: "\f00d";
+	cursor:pointer;
+}
+.i_seen,
+.i_seen_yes {
+	content: "\f06e";
+	cursor:pointer;
+}
+.i_seen_yes {
+	content: "\f070";
 	cursor:pointer;
 }
 /*image only - no text*/
