@@ -380,7 +380,7 @@ button.down:before {
 	cursor:pointer;
 }
 .i_file_details:after {
-	content: "\f14c;
+	content: "\f14c";
 	cursor:pointer;
 }
 .i_mylist:after {
