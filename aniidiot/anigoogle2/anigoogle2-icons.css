@@ -310,7 +310,7 @@ button.vote:before {
 .i_plus {
 	height: auto;
 	width:16px;
-	font-size:16px;
+	font-size:14px;
 }
 .i_plus:after {
 	content: "\f0fe";
