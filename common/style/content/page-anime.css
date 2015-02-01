@@ -1,11 +1,11 @@
 #layout-main div.anime_all a.action:before
 {
-	content: "[";
+	content: "(";
 }
 
 #layout-main div.anime_all a.action:after
 {
-	content: "]";
+	content: ")";
 }
 
 #layout-main div.anime_all div.groups td.mylist:before
