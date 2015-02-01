@@ -120,6 +120,7 @@ h4 span,
 	content: "";
 }
 
+#layout-main table.filelist tr.undumped td.id a,
 #layout-main div.edit_actions a {
 	font-weight: normal;
 }
