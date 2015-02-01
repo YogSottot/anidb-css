@@ -74,7 +74,7 @@
 	vertical-align:top;
 	white-space:pre-wrap;
 	min-width:50%;
-	width:auto;
+	max-width:1em; /*otherwise the text-overflow doesn't work... <_<*/
 }
 
 #layout-main div.creq_all table.creqlist td.entry,
