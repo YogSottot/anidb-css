@@ -131,9 +131,8 @@
 	min-width: 5em;
 }
 
-#layout-main div.anime_all #tabbed_pane_main
-#layout-main div.anime_all div.tabbed_pane {
-	margin: 0.25em;
+#layout-main div.anime_all #tabbed_pane_main {
+	margin: 0 0.4em 0.4em;
 }
 
 #layout-main div.anime_all div.info div.caststaff
@@ -157,7 +156,7 @@
 
 #layout-main div.anime_all div.info div.caststaff > div
 {
-	margin: 0.25em;
+	margin: 0.4em;
 	padding: 4px;
 	width: 100%;
 }
