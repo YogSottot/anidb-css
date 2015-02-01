@@ -357,8 +357,8 @@ button.vote:before {
 	color: #FFFFFF;
 	font-weight: bold;
 	border-radius: 3px;
-	padding: 2px;
-	font-size: 9px;
+	padding: 3px 2px;
+	font-size: 8px;
 	text-align: center;
 }
 /*icon created from text*/
