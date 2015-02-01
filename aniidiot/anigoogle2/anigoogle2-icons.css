@@ -37,7 +37,7 @@
 .i_pm_reply,
 .i_topic_subscribe,
 .i_topic_unsubscribe {
-	background-image: none;
+	background-image: none !important;
 }
 
 .i_help,
