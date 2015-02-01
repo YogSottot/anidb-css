@@ -97,14 +97,9 @@ a.tooltip span.text,
 	border: 1px solid;
 }
 
+#layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs li {
 	border-left: none;
 	border-right: none;
 	border-top: none;
-}
-
-#layout-tabs ul.main-tabs > li,
-#layout-tabs ul li,
-	#layout-main div.tabbed_pane ul.tabs li {
-	box-shadow: 1px -1px 2px 0px rgba(0, 0, 0, 0.2);
 }
