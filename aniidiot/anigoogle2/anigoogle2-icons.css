@@ -219,7 +219,8 @@ button.search:before,
 #layout-main ul.g_list li.back a:before {
 	content: "\f112";
 }
-#layout-main ul.g_list li.reload a:before {
+#layout-main ul.g_list li.reload a:before,
+#layout-main ul.g_list li.convert a:before {
 	content: "\f021";
 }
 #layout-main ul.g_list li.latest a:before,
@@ -257,7 +258,6 @@ button.reset:before {
 	content: "\f0e2";
 }
 #layout-main ul.g_list li.next a:before,
-#layout-main ul.g_list li.proceed a:before,
 button.next:before {
 	content: "\f061";
 }
@@ -295,6 +295,9 @@ button.vote:before {
 }
 #layout-main ul.g_list li.merge a:before {
 	content: "\f066";
+}
+#layout-main ul.g_list li.users a:before {
+	content: "\f0c0";
 }
 
 /*image only - no text*/
