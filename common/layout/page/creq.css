@@ -55,14 +55,10 @@
 
 #layout-main div.creq_all .creq_data td.field,
 #layout-main div.creq_all .creq_raw td.field {
-	min-width: 25em;
-	max-width: 25em;
 	width: 25em;
 }
 
 #layout-main div.creq_all .creq_data td.ignore {
-	min-width: 5em;
-	max-width: 5em;
 	width: 5em;
 }
 
@@ -70,7 +66,7 @@
 #layout-main div.creq_all .creq_data table td.new,
 #layout-main div.creq_all .creq_raw table td.old,
 #layout-main div.creq_all .creq_raw table td.new {
-	min-width: 50%;
+	width: 50%;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	vertical-align:top;
