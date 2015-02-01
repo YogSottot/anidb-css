@@ -149,7 +149,7 @@ button:before {
 .i_review_add:before,
 .i_topic_add:before,
 .i_comment_add:before {
-	content: "\f075";
+	content: "\f0e5";
 }
 .i_comment_revisions:before {
 	content: "\f044";
