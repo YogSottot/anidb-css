@@ -367,7 +367,7 @@ button.vote:before {
 	cursor:pointer;
 }
 .i_mylist:after {
-	content: "\f07b";
+	content: "\f187";
 	cursor:pointer;
 }
 /*image only - no text*/
