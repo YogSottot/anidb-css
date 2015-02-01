@@ -375,7 +375,6 @@ button.vote:before {
 }
 .i_state_verified:after {
 	content: "\f00c";
-	cursor:pointer;
 }
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
