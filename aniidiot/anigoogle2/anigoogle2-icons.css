@@ -149,6 +149,7 @@ button.delete:before,
 .i_pm_reply:before {
 	content: "\f112";
 }
+button.search:before,
 #layout-search .submit:before {
 	content: "\f002";
 }
