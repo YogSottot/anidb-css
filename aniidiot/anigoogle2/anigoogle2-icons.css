@@ -148,7 +148,8 @@ button:before {
 }
 .i_review_add:before,
 .i_topic_add:before,
-.i_comment_add:before {
+.i_comment_add:before,
+#layout-main div.edit_actions span.add a:before {
 	content: "\f075";
 }
 .i_comment_revisions:before {
@@ -225,6 +226,7 @@ button.search:before,
 }
 #layout-main ul.g_list li.latest a:before,
 #layout-main ul.g_list li.list a:before,
+#layout-main div.edit_actions span.show a:before,
 #layout-main div.creq_all .links .creq_list a:before {
 	content: "\f0ca";
 }
