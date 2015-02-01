@@ -116,15 +116,18 @@ button.edit:before,
 	content: "\f00c";
 }
 #layout-main ul.g_list li.cancel a:before,
-#layout-main ul.g_list li.delete a:before,
-#layout-main div.creq_all .creq_buttons button.deny:before,
-#layout-main div.msg_all div.buttons button.delete:before,
-#layout-main div.msg_all div.buttons li.delete a:before,
+#layout-main div.creq_all .creq_buttons button.deny:before {
+	content: "\f05e";
+}
+
 button.delete:before,
 .i_comment_creq:before,
 .i_pm_delete:before,
 .i_topic_delete:before,
-.i_comment_delete:before {
+.i_comment_delete:before,
+#layout-main ul.g_list li.delete a:before,
+#layout-main div.msg_all div.buttons button.delete:before,
+#layout-main div.msg_all div.buttons li.delete a:before {
 	content: "\f00d";
 }
 .i_topic_undelete:before,
