@@ -88,15 +88,6 @@ th a:hover {
 	background-color:#CCCCCC;
 }
 
-#layout-tabs ul.main-tabs > li,
-#layout-tabs ul.main-tabs > li:hover,
-#layout-tabs ul.main-tabs > li.selected,
-#layout-main div.main_all div.header div.account ul.tabs li,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover
-{
-	border-bottom-color: #FFFFFF;
-}
-
 #layout-main div.animeatt_reviews div.review span.stamp a,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp a
 {
@@ -367,16 +358,6 @@ button,
 {
 	box-shadow: 0 1px 2px #E0E0E0 inset;
 }
-
-#layout-main div.tabbed_pane_cfg ul.tabs li:hover,
-#layout-main div.tabbed_pane_cfg ul.tabs li.selected,
-#layout-main div.tabbed_pane ul.tabs li,
-#layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
-	border-bottom-color: #F1F1F1;
-}
-
 
 #layout-main div.tabbed_pane_cfg div.body,
 #layout-main div.tabbed_pane_cfg ul.tabs li

@@ -65,7 +65,9 @@ a.tooltip span.text,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.anime_all div.info div.caststaff div table,
 #layout-main div.userpage_all > div.g_section > h4,
-#layout-main div.userpage_all div.g_menu ul li {
+#layout-main div.userpage_all div.g_menu ul li,
+#layout-tabs ul.main-tabs > li,
+#layout-main div.tabbed_pane ul.tabs li {
 	border: none !important;
 }
 
@@ -95,11 +97,4 @@ a.tooltip span.text,
 .i_topic_unsubscribe,
 #layout-main div.edit_actions a {
 	border: 1px solid;
-}
-
-#layout-tabs ul.main-tabs > li,
-#layout-main div.tabbed_pane ul.tabs li {
-	border-left: none;
-	border-right: none;
-	border-top: none;
 }
