@@ -50,6 +50,17 @@ input[type="button"]:hover,
 	color: #AA0000 !important;
 }
 
+.i_vrs_2:hover,
+.i_vrs_3:hover,
+.i_vrs_4:hover,
+.i_vrs_5:hover,
+.i_vrs_6:hover,
+.i_vrs_7:hover,
+.i_vrs_8:hover,
+.i_vrs_9:hover {
+	background-color: #AA0000;
+}
+
 h4 a,
 th a {
     color: #C0DAF0;
