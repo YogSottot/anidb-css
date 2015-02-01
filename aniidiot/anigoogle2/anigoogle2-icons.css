@@ -257,6 +257,7 @@ button.reset:before {
 	content: "\f0e2";
 }
 #layout-main ul.g_list li.next a:before,
+#layout-main ul.g_list li.proceed a:before,
 button.next:before {
 	content: "\f061";
 }
