@@ -10,7 +10,7 @@
 @import "../cdbstyle/colour/wishlist.css";
 @import "../cdbstyle/colour/features.css";
 
-th a, h1 a, h2 a, h3 a, h4 a, h1 a.shortlink {
+th a, h1 a, h1 a.shortlink {
   color: #5577FF;
   color: #C0DAF0;
 }
