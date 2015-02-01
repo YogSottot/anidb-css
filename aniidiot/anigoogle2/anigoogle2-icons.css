@@ -5,6 +5,9 @@
 	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 }
 
+.i_vote,
+.i_file_edit,
+.i_group_comment,
 .i_minus,
 .i_plus,
 .i_comment_add,
@@ -35,6 +38,9 @@
 }
 
 button,
+.i_vote,
+.i_group_comment,
+.i_file_edit,
 .i_minus,
 .i_plus,
 .i_comment_add,
@@ -265,6 +271,7 @@ button.vote:before {
 #layout-main ul.g_list li.merge a:before {
 	content: "\f066";
 }
+
 /*image only - no text*/
 .i_minus,
 .i_plus {
@@ -280,6 +287,17 @@ button.vote:before {
 .i_minus:after {
 	content: "\f146";
 	cursor:pointer;
+}
+.i_group_comment:after {
+	content: "\f075";
+	cursor:pointer;
+}
+.i_file_edit:after {
+	content: "\f040";
+	cursor:pointer;
+}
+.i_vote:after {
+	content: "\f087";
 }
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
