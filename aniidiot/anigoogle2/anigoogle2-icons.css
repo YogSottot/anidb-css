@@ -6,6 +6,8 @@
 }
 
 button,
+.i_minus,
+.i_plus,
 .i_comment_add,
 .i_comment_revisions,
 .i_comment_move,
@@ -43,6 +45,8 @@ button,
 	display: inline-block;
 	font-size: 14px/1;
 	font-family: FontAwesome, Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: normal;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -232,16 +236,24 @@ button.vote:before {
 #layout-main ul.g_list li.merge a:before {
 	content: "\f066";
 }
-/*https://fortawesome.github.io END*/
-
-
+/*image only - no text*/
+.i_minus,
 .i_plus {
-	background-image: url(../icons/orange/plus.gif);
+	height: auto;
+	width:16px;
+	font-size:16px;
 }
 
-.i_minus {
-	background-image: url(../icons/orange/minus.gif);
+.i_plus:after {
+	content: "\f0fe";
+	cursor:pointer;
 }
+.i_minus:after {
+	content: "\f146";
+	cursor:pointer;
+}
+/*image only - no text*/
+/*https://fortawesome.github.io END*/
 
 .i_forum_link {
 	background-image: url(../icons/orange/forum_link.gif);
