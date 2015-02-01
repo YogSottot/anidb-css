@@ -71,7 +71,7 @@
 	text-overflow: ellipsis;
 	vertical-align:top;
 	white-space:pre-wrap;
-	min-width:50%;
+	min-width:45%;
 	max-width:1em; /*otherwise the text-overflow doesn't work... <_<*/
 }
 
