@@ -148,8 +148,7 @@ button:before {
 }
 .i_review_add:before,
 .i_topic_add:before,
-.i_comment_add:before,
-#layout-main div.edit_actions span.add a:before {
+.i_comment_add:before {
 	content: "\f075";
 }
 .i_comment_revisions:before {
@@ -289,7 +288,8 @@ button.load:before {
 	content: "\f08e";
 }
 button.add:before,
-#layout-main ul.g_list li.add a:before {
+#layout-main ul.g_list li.add a:before,
+#layout-main div.edit_actions span.add a:before {
 	content: "\f067";
 }
 button.tmpratenow:before,
