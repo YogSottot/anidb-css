@@ -341,7 +341,7 @@ button.down:before {
 	cursor:pointer;
 }
 .i_group_comment:after {
-	content: "\f075";
+	content: "\f0e5";
 	cursor:pointer;
 }
 .i_ep_edit:after,
@@ -380,7 +380,7 @@ button.down:before {
 	cursor:pointer;
 }
 .i_file_details:after {
-	content: "\f0f6";
+	content: "\f08e";
 	cursor:pointer;
 }
 .i_mylist:after {
