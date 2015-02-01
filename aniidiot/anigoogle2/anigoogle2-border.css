@@ -50,6 +50,7 @@ table,
 table li+li,
 a.tooltip span.text,
 #imagepreview,
+#layout-content,
 #layout-hint,
 #layout-menu > li ul,
 #layout-menu li.sub-menu li + li,
@@ -94,4 +95,16 @@ a.tooltip span.text,
 .i_topic_unsubscribe,
 #layout-main div.edit_actions a {
 	border: 1px solid;
+}
+
+#layout-main div.tabbed_pane ul.tabs li {
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+#layout-tabs ul.main-tabs > li,
+#layout-tabs ul li,
+	#layout-main div.tabbed_pane ul.tabs li {
+	box-shadow: 1px -1px 2px 0px rgba(0, 0, 0, 0.2);
 }

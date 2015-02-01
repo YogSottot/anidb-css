@@ -268,13 +268,11 @@ input[type="password"],
 input.text,
 textarea,
 select,
-#layout-tabs ul.main-tabs > li,
 #layout-search select,
 #layout-search input.text,
 #layout-main div.search_all div.suggestions,
 #layout-main div.avatar img,
 #layout-main div.anime_all div.info div.image img,
-#layout-content,
 #layout-main div.forum div.quickreply textarea {
 	border-color: #E8E8E8;
 }
@@ -367,10 +365,6 @@ button,
 #layout-search select
 {
 	box-shadow: 0 1px 2px #E0E0E0 inset;
-}
-
-#layout-main div.tabbed_pane ul.tabs li {
-	border-color: #F1F1F1;
 }
 
 #layout-main div.tabbed_pane_cfg ul.tabs li:hover,
@@ -557,6 +551,7 @@ th a,
 /*box shadow*/
 .g_bubble,
 #layout-hint,
+#layout-content,
 #layout-main div.g_msg,
 #layout-menu li.sub-menu ul,
 #layout-main div.userpage_all div.g_menu ul,
@@ -601,6 +596,11 @@ button,
 #layout-main div.pagination span a,
 #layout-main div.edit_actions a {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+#layout-tabs ul.main-tabs > li,
+#layout-main div.tabbed_pane ul.tabs li {
+	box-shadow: 1px -1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 #imagepreview,
