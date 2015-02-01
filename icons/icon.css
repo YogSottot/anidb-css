@@ -13,12 +13,6 @@ a.i_icon:hover, a.i_inline:hover
 	margin-right: 0;
 }
 
-.i_inline
-{
-	padding: 2px 8px 2px 8px;
-	margin: 4px;
-}
-
 .i_icon span, .i_button span, .i_inline span
 {
 	display: none;

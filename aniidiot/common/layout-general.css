@@ -349,11 +349,6 @@ h4,
 	margin-bottom: 2px;
 }
 
-#layout-main div.profile_all div.pane div.permissions a.i_inline
-{
-	padding: 1px 8px 0 7px;
-}
-
 #layout-main div.forum div.search form input + select
 {
 	margin-left: 0.5em;
