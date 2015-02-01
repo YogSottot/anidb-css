@@ -330,49 +330,38 @@ button.vote:before {
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
 
-.i_forum_link {
-	background-image: url(../icons/orange/forum_link.gif);
-}
-
-.i_help {
-	background:transparent url(../icons/orange/ask2.gif) no-repeat scroll right center;
-}
-
-.i_top {
-	background:transparent url(../icons/orange/icon_back_top.gif) no-repeat scroll 0 50%;
-}
-
-.i_vrs_2 {
-	background-image:url(../icons/orange/anidb_vrs_2.gif);
-}
-
-.i_vrs_3 {
-	background-image:url(../icons/orange/anidb_vrs_3.gif);
-}
-
-.i_vrs_4 {
-	background-image:url(../icons/orange/anidb_vrs_4.gif);
-}
-
-.i_vrs_5 {
-	background-image:url(../icons/orange/anidb_vrs_5.gif);
-}
-
-.i_vrs_6 {
-	background-image:url(../icons/orange/anidb_vrs_6.gif);
-}
-
-.i_vrs_7 {
-	background-image:url(../icons/orange/anidb_vrs_7.gif);
-}
-
-.i_vrs_8 {
-	background-image:url(../icons/orange/anidb_vrs_8.gif);
-}
-
+/*icon created from text*/
+.i_vrs_2,
+.i_vrs_3,
+.i_vrs_4,
+.i_vrs_5,
+.i_vrs_6,
+.i_vrs_7,
+.i_vrs_8,
 .i_vrs_9 {
-	background-image:url(../icons/orange/anidb_vrs_9.gif);
+	background-image: none;
+	height: 16px;
+	width: 16px;
 }
+
+.i_vrs_2 span,
+.i_vrs_3 span,
+.i_vrs_4 span,
+.i_vrs_5 span,
+.i_vrs_6 span,
+.i_vrs_7 span,
+.i_vrs_8 span,
+.i_vrs_9 span {
+	display: inline-block;
+	background-color: #105289;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 2px;
+	font-size: 9px;
+	text-align: center;
+}
+/*icon created from text*/
 
 .i_rate_halfstar,
 .i_rate_star,
