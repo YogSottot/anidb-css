@@ -257,10 +257,12 @@ button.reset:before {
 	content: "\f0e2";
 }
 #layout-main ul.g_list li.next a:before,
+button.right:before,
 button.next:before {
 	content: "\f061";
 }
 #layout-main ul.g_list li.prev a:before,
+button.left:before,
 button.prev:before {
 	content: "\f060";
 }
@@ -294,6 +296,12 @@ button.vote:before {
 }
 #layout-main ul.g_list li.merge a:before {
 	content: "\f066";
+}
+button.up:before {
+	content: "\f062";
+}
+button.down:before {
+	content: "\f063";
 }
 
 /*image only - no text*/
