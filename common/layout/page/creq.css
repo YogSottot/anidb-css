@@ -63,7 +63,7 @@
 #layout-main div.creq_all .creq_data table td.new,
 #layout-main div.creq_all .creq_raw table td.old,
 #layout-main div.creq_all .creq_raw table td.new {
-	min-width: 50%;
+	width: 100%;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	vertical-align:top;
