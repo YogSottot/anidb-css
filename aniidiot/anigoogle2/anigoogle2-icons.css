@@ -366,7 +366,7 @@ button.vote:before {
 	cursor:pointer;
 }
 .i_file_details:after {
-	content: "\f15c";
+	content: "\f0f6";
 	cursor:pointer;
 }
 .i_mylist:after {
