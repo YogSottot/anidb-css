@@ -5,9 +5,12 @@
 	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 }
 
+.i_help,
 .i_vote,
-.i_file_edit,
 .i_group_comment,
+.i_ep_edit,
+.i_file_add,
+.i_file_edit,
 .i_minus,
 .i_plus,
 .i_comment_add,
@@ -37,9 +40,11 @@
 	background-image: none;
 }
 
-button,
+.i_help,
 .i_vote,
 .i_group_comment,
+.i_ep_edit,
+.i_file_add,
 .i_file_edit,
 .i_minus,
 .i_plus,
@@ -67,6 +72,7 @@ button,
 .i_pm_delete,
 .i_pm_reply,
 .i_review_add,
+button,
 #layout-main div.edit_actions a,
 #layout-tabs ul li a,
 #layout-search .submit,
@@ -273,8 +279,11 @@ button.vote:before {
 }
 
 /*image only - no text*/
+.i_help,
 .i_vote,
 .i_group_comment,
+.i_ep_edit,
+.i_file_add,
 .i_file_edit,
 .i_minus,
 .i_plus {
@@ -294,12 +303,20 @@ button.vote:before {
 	content: "\f075";
 	cursor:pointer;
 }
+.i_ep_edit:after,
 .i_file_edit:after {
 	content: "\f040";
 	cursor:pointer;
 }
+.i_file_add:after {
+	content: "\f067";
+	cursor:pointer;
+}
 .i_vote:after {
 	content: "\f087";
+}
+.i_help:after {
+	content: "\f05a";
 }
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
