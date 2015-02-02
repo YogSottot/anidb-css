@@ -769,7 +769,7 @@
 	padding: 1em;
 }
 
-div.g_bubble..code,
+div.g_bubble.code,
 div.g_bubble.spoiler,
 div.g_bubble.quotebody {
     margin: 0.5em;
