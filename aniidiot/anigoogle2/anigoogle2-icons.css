@@ -217,6 +217,7 @@ button.search:before,
 #layout-search .submit:before {
 	content: "\f002";
 }
+#layout-main ul.g_list li.show a:before,
 #layout-main ul.g_list li.back a:before {
 	content: "\f112";
 }
