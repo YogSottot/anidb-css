@@ -120,6 +120,12 @@ h4 span,
 	content: "";
 }
 
+a.button,
+input.button,
+button.button,
+a.confirmButton,
+input.confirmButton,
+button.confirmButton,
 #layout-main table.filelist tr.undumped td.id a,
 #layout-main div.edit_actions a {
 	font-weight: normal;

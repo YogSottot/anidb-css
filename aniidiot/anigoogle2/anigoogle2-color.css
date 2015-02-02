@@ -13,6 +13,8 @@ input.confirmButton,
 button.confirmButton {
 	background-image: none;
 	color: inherit;
+	border-color: inherit;
+	background-color: inherit;
 }
 
 a,
