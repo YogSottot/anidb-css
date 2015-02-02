@@ -14,8 +14,10 @@
 	padding-top: 2px;
 }
 
+.i_forum_link,
 #layout-menu li.ed2kdump,
-#layout-menu li.mysignatures {
+#layout-menu li.mysignatures,
+#layout-menu li.sub-menu.main span.tab {
 	display: none;
 }
 
@@ -35,10 +37,6 @@
 
 #layout-menu li.sub-menu span.tab {
 	display: block;
-}
-
-#layout-menu li.sub-menu.main span.tab {
-	display: none;
 }
 
 #layout-main div.edit_actions a {
