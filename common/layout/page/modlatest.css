@@ -90,3 +90,9 @@
 #layout-main div.modlatest_all table td.length {
 	text-align: right;
 }
+
+@media screen and (min-width: 1350px) {
+	#layout-main .modlatest_all ul.limit {
+		margin-top: -3.3em;
+	}
+}
