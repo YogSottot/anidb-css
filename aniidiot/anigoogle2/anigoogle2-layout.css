@@ -87,6 +87,10 @@
 	margin-left: 0.4em !important;
 }
 
+#layout-main ul.g_list {
+	min-height: 2.2em;
+}
+
 #layout-main div.cmt_entries div.postbody span.actions a + a {
 	margin-right: 0.4em;
 	margin-left: 0 !important;
