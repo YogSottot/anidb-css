@@ -221,7 +221,8 @@ button.search:before,
 	content: "\f112";
 }
 #layout-main ul.g_list li.reload a:before,
-#layout-main ul.g_list li.convert a:before {
+#layout-main ul.g_list li.convert a:before,
+button.reboot:before {
 	content: "\f021";
 }
 #layout-main ul.g_list li.latest a:before,
