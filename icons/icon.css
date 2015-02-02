@@ -14,6 +14,10 @@ a.i_icon:hover, a.i_inline:hover
 	margin-right: 0;
 }
 
+select + .i_icon {
+	margin-left: 0.5em;
+}
+
 .i_icon span, .i_button span, .i_inline span
 {
 	display: none;
