@@ -1,17 +1,14 @@
 #layout-menu li.sub-menu ul li#user-profile,
 #layout-menu li.sub-menu ul li#user-login,
 #layout-menu li.sub-menu ul li#user-logout,
-#layout-menu li.sub-menu ul {
-    background: none;
-}
-
+#layout-menu li.sub-menu ul,
 a.button,
 input.button,
 button.button,
 a.confirmButton,
 input.confirmButton,
 button.confirmButton {
-	background-image: none;
+	background: none;
 }
 
 a,

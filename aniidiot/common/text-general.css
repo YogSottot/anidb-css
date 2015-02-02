@@ -63,9 +63,9 @@ input[type="button"]
 	cursor: pointer;
 }
 
-#layout-main div.spoiler input.button
+#layout-main div.spoiler button.button
 {
-	font-weight: 400;
+	font-weight: normal;
 }
 
 #layout-main div.chartag-list span.size6 a,
@@ -80,9 +80,4 @@ input[type="button"]
 #layout-main div.tag-column div.tag[weight="500"] .name a,
 #layout-main div.tag-column div.tag[weight="600"] .name a {
 	font-size: 14px;
-}
-
-#layout-footer:after
-{
-	content: "design by hrm & deridiot inspired by google";
 }
