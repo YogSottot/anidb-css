@@ -84,6 +84,16 @@
 	margin-left: 0.2em !important;
 }
 
+#layout-main ul.g_list + button,
+#layout-main div.forum div.buttons a + a {
+	margin-left: 0.4em !important;
+}
+
+#layout-main div.cmt_entries div.postbody span.actions a + a {
+	margin-right: 0.4em;
+	margin-left: 0 !important;
+}
+
 .i_comment_add span,
 .i_topic_add span,
 .i_topic_history span,
@@ -110,15 +120,6 @@
 .i_topic_unsubscribe span {
 	display: inline-block;
 	padding-left: 5px;
-}
-
-#layout-main ul.g_list + button,
-#layout-main div.forum div.buttons a + a {
-	margin-left: 0.4em;
-}
-
-#layout-main div.cmt_entries div.postbody span.actions a + a {
-	margin-right: 0.4em;
 }
 
 #layout-main div.forum div.topic_actions {
