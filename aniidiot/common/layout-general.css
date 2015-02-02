@@ -36,7 +36,7 @@ input[type="submit"],
 input[type="password"],
 #layout-nav input.submit,
 #layout-main ul.g_list li a,
-#layout-main ul.g_list li span,
+#layout-main ul.g_list li span.nolink,
 #layout-main div.pagination span a,
 #layout-main div.pagination span strong
 {
