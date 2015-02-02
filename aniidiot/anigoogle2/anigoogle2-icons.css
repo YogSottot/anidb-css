@@ -184,7 +184,6 @@ button.edit:before,
 #layout-main div.creq_all .creq_buttons button.deny:before {
 	content: "\f05e";
 }
-
 button.delete:before,
 .i_comment_creq:before,
 .i_pm_delete:before,
@@ -316,6 +315,9 @@ button.down:before {
 button.upload,
 .g_button.upload a:before {
 	content: "\f093";
+}
+#layout-main ul.g_list li.filter a:before {
+	content: "\f0b0";
 }
 
 /*image only - no text*/
