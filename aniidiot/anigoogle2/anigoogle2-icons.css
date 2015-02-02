@@ -261,13 +261,13 @@ button.reboot:before {
 button.reset:before {
 	content: "\f0e2";
 }
-#layout-main ul.g_list li.next span:before,
+#layout-main ul.g_list li.next span.nolink:before,
 #layout-main ul.g_list li.next a:before,
 button.right:before,
 button.next:before {
 	content: "\f061";
 }
-#layout-main ul.g_list li.prev span:before,
+#layout-main ul.g_list li.prev span.nolink:before,
 #layout-main ul.g_list li.prev a:before,
 button.left:before,
 button.prev:before {
