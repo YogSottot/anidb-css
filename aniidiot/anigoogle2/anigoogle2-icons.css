@@ -90,7 +90,7 @@
 .i_pm_delete,
 .i_pm_reply,
 .i_review_add,
-span.upload a,
+.g_button.upload a,
 button,
 #layout-main div.edit_actions a,
 #layout-tabs ul li a,
@@ -116,7 +116,7 @@ button,
 }
 
 button,
-span.upload a,
+.g_button.upload a,
 #layout-search .submit,
 #layout-main ul.g_list li a,
 #layout-main div.creq_all .links .next_new_creq a,
@@ -127,7 +127,7 @@ span.upload a,
 }
 
 button:before,
-span.upload a:before,
+.g_button.upload a:before,
 #layout-tabs ul li a:before,
 #layout-main div.edit_actions a:before,
 #layout-main ul.g_list li a:before,
@@ -312,7 +312,7 @@ button.down:before {
 	content: "\f0c0";
 }
 
-span.upload a:before {
+.g_button.upload a:before {
 	content: "\f093";
 }
 

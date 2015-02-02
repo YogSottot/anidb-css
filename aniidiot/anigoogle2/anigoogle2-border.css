@@ -98,6 +98,7 @@ a.tooltip span.text,
 .i_pm_reply,
 .i_topic_subscribe,
 .i_topic_unsubscribe,
+.g_button,
 #layout-main div.edit_actions a {
 	border: 1px solid;
 }
