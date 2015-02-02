@@ -1848,7 +1848,7 @@ width: 99%;
 {
 text-align: center;
 }
-#layout-content div.latest_all td.name.file
+#layout-content div.modlatest_all td.name.file
 {
 padding-left: 1em;
 }
@@ -1976,7 +1976,7 @@ background-image: url(images/bluepixel.png);
 {
 background-image: url(images/greenpixel.png);
 }
-#layout-content div.latest_all div.latest_files_list tr td a.filter
+#layout-content div.modlatest_all div.latest_files_list tr td a.filter
 {
 color: orange;
 }
