@@ -764,14 +764,14 @@
 	padding: 1em;
 }
 
-div.quotebody
+div.g_bubble.quotebody
 {
 	margin-left: 1em;
 	margin-right: .5em;
 	padding: .4em;
 }
 
-div.quotebody div.quote div.quotebody
+div.g_bubble.quotebody div.quote div.g_bubble.quotebody
 {
 	margin-right: .2em;
 	margin-top: 1em;

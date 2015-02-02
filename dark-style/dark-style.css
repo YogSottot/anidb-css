@@ -2022,12 +2022,12 @@ div.anime_all div.image
 {
 	color:#8266b8;
 }
-div.quotebody
+div.g_bubble.quotebody
 {
 	background-color: black;
 }
 
-div.quotebody div.quoteof
+div.g_bubble.quotebody div.quoteof
 {
 	background-color: #545270;
 	color:white;

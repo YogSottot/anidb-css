@@ -320,7 +320,7 @@ body.nonav form textarea {
 h4,
 *.g_button a,
 *.g_msg,
-div.quotebody,
+div.g_bubble.quotebody,
 #layout-main h1,
 #layout-main ul.g_list li,
 #layout-main .latest_all .g_list.filter li,

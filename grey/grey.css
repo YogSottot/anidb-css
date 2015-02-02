@@ -2114,24 +2114,24 @@ width: 16em;
 border-right: #898989 1px dashed;
 margin-right: 0;
 }
-#layout-main div.quotebody
+#layout-main div.g_bubble.quotebody
 {
 margin-left: 2em;
 background: url(images/bg_3.gif);
 border: #898989 1px dashed;
 }
-#layout-main div.quotebody div.quotebody:nth-of-type(2n+1),
+#layout-main div.g_bubble.quotebody div.g_bubble.quotebody:nth-of-type(2n+1),
 #layout-main div.forum div.postbody div.code
 {
 background: url(images/bg_1.gif);
 }
-#layout-main div.quotebody div.quoteof
+#layout-main div.g_bubble.quotebody div.quoteof
 {
 color: #5aacd3;
 font-weight: bold;
 margin-left: 0.5em;
 }
-#layout-main div.quotebody div.quote
+#layout-main div.g_bubble.quotebody div.quote
 {
 margin-left: 1.4em;
 margin-bottom: 0.5em;
@@ -2204,7 +2204,7 @@ margin-bottom: 0pt;
 margin-left: 0pt;
 }
 /*FORUM*/
-div.quotebody div.quote div.g_odd
+div.g_bubble.quotebody div.quote div.g_odd
 {
 background-image: url(images/bg_2.gif);
 }
@@ -2359,7 +2359,7 @@ span.diff,
 #layout-main div.anime_all div.groups td.state.complete a,
 #layout-main div.group_released td.state.finished a,
 #layout-main div.group_released td.state.complete a,
-div.quotebody div.quoteof,
+div.g_bubble.quotebody div.quoteof,
 #layout-main div.forum a.username-colored,
 #layout-main div.forum div.navbar span.breadcrumbs,
 #layout-main div.forum ul.topics dd.lastpost span a,

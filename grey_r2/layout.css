@@ -411,7 +411,7 @@ td.vote.temp
 font-weight:normal;
 }
 div.spoiler,
-#layout-main div.quotebody
+#layout-main div.g_bubble.quotebody
 {
 border-style:dashed;
 border-width:1px;

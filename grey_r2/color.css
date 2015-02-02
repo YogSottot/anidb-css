@@ -37,7 +37,7 @@ background-color:transparent;
 }
 html,
 #layout-content,
-#layout-main div.quotebody div.quotebody:nth-of-type(2n+1),
+#layout-main div.g_bubble.quotebody div.g_bubble.quotebody:nth-of-type(2n+1),
 #layout-main div.forum div.postbody div.code,
 .g_bubble .g_bubble .g_bubble
 {
@@ -89,9 +89,9 @@ span.g_odd,
 #layout-content div.creq_all tr.deleted > td,
 #layout-content div.animeatt_reviews > div.review > h4,
 #layout-content div.animeatt_reviews > div.review > div.text,
-div.quotebody div.quote div.g_odd,
+div.g_bubble.quotebody div.quote div.g_odd,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
-#layout-main div.quotebody div.quoteof,
+#layout-main div.g_bubble.quotebody div.quoteof,
 #layout-footer,
 #layout-main div.timeline_all div.timeline ul.legend li span,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.block,
@@ -141,7 +141,7 @@ background-color:hsla(127, 54%, 25%, 0.6);
 {
 background-color:hsla(0, 100%, 50%, 0.3);
 }
-#layout-main div.quotebody,
+#layout-main div.g_bubble.quotebody,
 #layout-main div.forum div.postbody dl.codebox dt,
 #layout-main div.forum div.g_bubble.poll,
 #layout-main div.forum div.g_bubble.events,
@@ -383,7 +383,7 @@ div.spoiler,
 #layout-main div.cmt_entries dl.profile,
 #layout-main div.msg_all div.forum ul.topics dd.check,
 #layout-main div.forum ul.topiclist dd,
-#layout-main div.quotebody,
+#layout-main div.g_bubble.quotebody,
 .g_bubble,
 .g_bubble.stripe > div.data div.name,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,

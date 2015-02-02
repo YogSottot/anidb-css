@@ -2,7 +2,7 @@
 h4,
 *.g_button a,
 *.g_msg,
-div.quotebody,
+div.g_bubble.quotebody,
 span.test,
 button,
 input[type="text"],
