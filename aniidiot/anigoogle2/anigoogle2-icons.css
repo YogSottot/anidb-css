@@ -100,8 +100,8 @@ button,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
-#layout-main ul.g_list li a,
-#layout-main ul.g_list li span {
+#layout-main ul.g_list li > a,
+#layout-main ul.g_list li > span {
 	display: inline-block;
 	font-size: 14px/1;
 	font-family: FontAwesome, Arial,Helvetica,sans-serif;
@@ -118,8 +118,8 @@ button,
 button,
 .g_button.upload a,
 #layout-search .submit,
-#layout-main ul.g_list li a,
-#layout-main ul.g_list li span,
+#layout-main ul.g_list li > a,
+#layout-main ul.g_list li > span,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a {
@@ -130,8 +130,8 @@ button:before,
 .g_button.upload a:before,
 #layout-tabs ul li a:before,
 #layout-main div.edit_actions a:before,
-#layout-main ul.g_list li span:before,
-#layout-main ul.g_list li a:before,
+#layout-main ul.g_list li > span:before,
+#layout-main ul.g_list li > a:before,
 #layout-main div.msg_all div.buttons li a:before,
 #layout-main div.creq_all .links a:before {
 	padding-right: 6px;
