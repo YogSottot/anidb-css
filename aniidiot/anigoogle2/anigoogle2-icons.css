@@ -378,6 +378,7 @@ button.upload,
 	content: "\f00d";
 	cursor:pointer;
 }
+button.preview:before,
 .i_seen:after,
 .i_seen_yes:after {
 	content: "\f06e";
