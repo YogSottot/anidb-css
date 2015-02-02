@@ -45,7 +45,6 @@ input[type="button"],
 
 /*less borders*/
 .g_bubble,
-.g_button a,
 table,
 table li+li,
 a.tooltip span.text,
@@ -98,7 +97,6 @@ a.tooltip span.text,
 .i_pm_reply,
 .i_topic_subscribe,
 .i_topic_unsubscribe,
-.g_button a,
 #layout-main div.edit_actions a {
 	border: 1px solid;
 }
