@@ -101,7 +101,7 @@ button,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
 #layout-main ul.g_list li a,
-#layout-main ul.g_list li {
+#layout-main ul.g_list li span {
 	display: inline-block;
 	font-size: 14px/1;
 	font-family: FontAwesome, Arial,Helvetica,sans-serif;
@@ -119,6 +119,7 @@ button,
 .g_button.upload a,
 #layout-search .submit,
 #layout-main ul.g_list li a,
+#layout-main ul.g_list li span,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
@@ -260,11 +261,13 @@ button.search:before,
 button.reset:before {
 	content: "\f0e2";
 }
+#layout-main ul.g_list li.next span:before,
 #layout-main ul.g_list li.next a:before,
 button.right:before,
 button.next:before {
 	content: "\f061";
 }
+#layout-main ul.g_list li.prev span:before,
 #layout-main ul.g_list li.prev a:before,
 button.left:before,
 button.prev:before {
