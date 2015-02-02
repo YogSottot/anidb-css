@@ -770,9 +770,15 @@
 	padding: 1em;
 }
 
+div.g_bubble.spoiler,
 div.g_bubble.quotebody {
     margin: 0.5em;
     padding: 4px 8px;
+}
+
+#layout-main div.g_bubble.spoiler span.spoiler {
+	display:block;
+	margin-bottom: 1em;
 }
 
 #layout-main div.forum div.content img,
