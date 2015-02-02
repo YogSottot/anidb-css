@@ -183,6 +183,7 @@ button.confirmButton:hover,
 	background-color: #F1F1F1;
 }
 
+html,
 .i_comment_add,
 .i_topic_add,
 .i_topic_history,
@@ -224,7 +225,7 @@ button.confirmButton,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.pagination span a,
-html {
+#layout-search ul.quicksearch .g_bubble.stripe {
 	background-color: #F8F8F8;
 }
 
@@ -367,7 +368,7 @@ li + li.g_odd,
 }
 
 #layout-search ul.quicksearch li + li {
-	border-top-color: #E8E8E8 !important;
+	border-top-color: #CCCCCC !important;
 }
 
 #layout-main div.tag-column .tag-block + .tag-block,
