@@ -13,6 +13,13 @@ input[size="60"]
 	width: 36em;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+	vertical-align: middle;
+	margin-right: 0.1em;
+	margin-bottom: 0.3em;
+}
+
 select,
 button,
 span.test,
