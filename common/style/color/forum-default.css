@@ -69,17 +69,6 @@
 	opacity: 0.3;
 }
 
-div.g_bubble.quotebody
-{
-	background-color: #EBEADD;
-	border: 1px solid #DBDBDB;
-}
-
-div.g_bubble.quotebody div.quote div.g_odd
-{
-	background-color: #EFEED9;
-}
-
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored

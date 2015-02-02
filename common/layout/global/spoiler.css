@@ -1,8 +1,4 @@
-div.spoiler {
-	padding: 0.6em;
-}
-
-div.spoiler span.spoiler {
+#layout-main div.g_bubble.spoiler span.spoiler {
 	display:block;
 	margin-bottom: 1em;
 }

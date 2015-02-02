@@ -63,7 +63,7 @@ input[type="button"]
 	cursor: pointer;
 }
 
-#layout-main div.spoiler button.button
+#layout-main div.g_bubble.spoiler button.button
 {
 	font-weight: normal;
 }

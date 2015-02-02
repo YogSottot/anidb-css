@@ -1122,9 +1122,9 @@ color: #FFFFFF }
 #layout-main div.forum div.g_bubble.options-box {
 background-color: #F9F9F9 }
 
-div.g_bubble.quotebody, 
+#layout-main div.g_bubble.quotebody, 
 div.code,
-div.spoiler {
+#layout-main div.g_bubble.spoiler {
 background-color: white;
 border: 1px solid lightgray }
 

@@ -379,7 +379,7 @@ border-bottom:2px solid #008800;
 {
 color:#ff6000;
 }
-div.spoiler,
+#layout-main div.g_bubble.spoiler,
 #layout-main div.cmt_entries dl.profile,
 #layout-main div.msg_all div.forum ul.topics dd.check,
 #layout-main div.forum ul.topiclist dd,

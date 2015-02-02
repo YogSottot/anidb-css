@@ -2389,12 +2389,12 @@ font-size: 120%;
 {
 display: none;
 }
-div.spoiler
+#layout-main div.g_bubble.spoiler
 {
 padding: 0.6em;
 border: #898989 1px dashed;
 }
-div.spoiler span.spoiler
+#layout-main div.g_bubble.spoiler span.spoiler
 {
 display:block;
 margin-bottom: 1em;
