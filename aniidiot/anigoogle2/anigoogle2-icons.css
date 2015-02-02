@@ -100,8 +100,8 @@ button,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
-#layout-main ul.g_list li > a,
-#layout-main ul.g_list li > span {
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink {
 	display: inline-block;
 	font-size: 14px/1;
 	font-family: FontAwesome, Arial,Helvetica,sans-serif;
