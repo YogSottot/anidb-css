@@ -312,7 +312,7 @@ button.down:before {
 	content: "\f0c0";
 }
 
-span.upload a {
+span.upload a:before {
 	content: "\f093";
 }
 
