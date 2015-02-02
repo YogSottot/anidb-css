@@ -316,6 +316,7 @@ h4,
 #layout-main ul.g_list li
 {
 	display: inline-block;
+	vertical-align: top;
 }
 
 #layout-main div.group_all div.addfilem.options tr.group button,
