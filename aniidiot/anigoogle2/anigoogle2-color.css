@@ -97,8 +97,7 @@ th a:hover {
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.forum hr,
-#layout-main div.cmt_all div.cmt_add hr,
-.g_bubble.spoiler input.button
+#layout-main div.cmt_all div.cmt_add hr
 {
 	background-color:#CCCCCC;
 }
@@ -155,7 +154,6 @@ span.g_odd,
 div.g_odd,
 .g_bubble,
 .g_bubble .g_bubble .g_bubble,
-.g_bubble.spoiler input.button:hover,
 a.tooltip > span.text.g_bubble,
 .g_button a:hover,
 .g_button a,
