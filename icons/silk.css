@@ -205,13 +205,19 @@
 *.i_events_birthday
 {
 	background-image: url(../icons/silk/events_birthday.png);
+	height: 16px;
+	width: 16px;
 }
 *.i_events_event
 {
 	background-image: url(../icons/silk/events_event.png);
+	height: 16px;
+	width: 16px;
 }
 *.i_events_maintenance
 {
 	background-image: url(../icons/silk/events_maintenance.png);
+	height: 16px;
+	width: 16px;
 }
 
