@@ -441,6 +441,7 @@
 	padding-bottom: 0.5em;
 }
 
+#layout-main div.forum div.events div.data p .i_inline,
 #layout-main div.forum div.events div.data p .i_icon {
 	margin-right: 0.3em;
 	float: left;
