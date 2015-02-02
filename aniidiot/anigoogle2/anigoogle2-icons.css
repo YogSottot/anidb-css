@@ -311,7 +311,7 @@ button.down:before {
 #layout-main ul.g_list li.users a:before {
 	content: "\f0c0";
 }
-
+button.upload,
 .g_button.upload a:before {
 	content: "\f093";
 }
