@@ -199,18 +199,6 @@ h4,
 	margin: 1px 1px 1px 6px;
 }
 
-#layout-main .latest_all .g_list.filter
-{
-	margin-top: 0;
-}
-
-#layout-main .latest_all .g_list.filter li,
-#layout-main ul.g_list li
-{
-	margin-top: .5em;
-	margin-right: .3em;
-}
-
 #layout-hint
 {
 	position: relative;
