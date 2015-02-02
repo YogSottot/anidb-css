@@ -3,6 +3,7 @@ a.i_icon:hover, a.i_inline:hover
 	text-decoration: none;
 }
 
+.i_inline,
 .i_icon
 {
 	background-repeat: no-repeat;

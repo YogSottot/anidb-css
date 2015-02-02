@@ -13,9 +13,17 @@ input[size="60"]
 	width: 36em;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+	vertical-align: middle;
+	margin-right: 0.1em;
+	margin-bottom: 0.3em;
+}
+
 select,
 button,
 span.test,
+.g_button a,
 a.button,
 input.button,
 button.button,
@@ -27,8 +35,8 @@ input[type="button"],
 input[type="submit"],
 input[type="password"],
 #layout-nav input.submit,
-#layout-main ul.g_list li,
-#layout-main ul.g_list li.g_odd,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span,
 #layout-main div.pagination span a,
 #layout-main div.pagination span strong
 {
@@ -198,18 +206,6 @@ h4,
 	margin: 1px 1px 1px 6px;
 }
 
-#layout-main .latest_all .g_list.filter
-{
-	margin-top: 0;
-}
-
-#layout-main .latest_all .g_list.filter li,
-#layout-main ul.g_list li
-{
-	margin-top: .5em;
-	margin-right: .3em;
-}
-
 #layout-hint
 {
 	position: relative;
@@ -315,6 +311,7 @@ h4,
 #layout-main ul.g_list li
 {
 	display: inline-block;
+	vertical-align: top;
 }
 
 #layout-main div.group_all div.addfilem.options tr.group button,

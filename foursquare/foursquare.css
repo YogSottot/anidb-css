@@ -692,7 +692,7 @@ border: 2px solid #EEE }
 	#layout-main .g_content table.filelist {
 	border: none }
 	
-	#layout-main .g_content.latest_all table.filelist,
+	#layout-main .g_content.modlatest_all table.filelist,
 	#layout-main .g_content.mydb_all table.filelist,
 	#layout-main .g_content.anime_all .g_section.mylistfiles table.filelist,
 	#layout-main .g_content.group_all .g_section.ep_files table.filelist {

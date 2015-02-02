@@ -14,7 +14,7 @@ input[type="submit"],
 input[type="button"],
 #layout-main h1,
 #layout-main ul.g_list li,
-#layout-main .latest_all .g_list.filter li,
+#layout-main .modlatest_all .g_list.filter li,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.pagination span a,
 #layout-main div.pagination span strong,
@@ -45,7 +45,6 @@ input[type="button"],
 
 /*less borders*/
 .g_bubble,
-.g_button a,
 table,
 table li+li,
 a.tooltip span.text,
@@ -60,6 +59,9 @@ a.tooltip span.text,
 #layout-main div.g_timedentry h4,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
+#layout-main div.forum div.g_bubble.rules,
+#layout-main div.tabbed_pane_cfg div.body,
+#layout-main div.tabbed_pane_cfg ul.tabs li,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.animeatt_all div.review > h4,
@@ -97,4 +99,8 @@ a.tooltip span.text,
 .i_topic_unsubscribe,
 #layout-main div.edit_actions a {
 	border: 1px solid;
+}
+
+#layout-search ul.quicksearch li + li {
+	border-top: 1px solid !important;
 }

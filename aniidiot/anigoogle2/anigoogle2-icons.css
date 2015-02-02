@@ -90,6 +90,7 @@
 .i_pm_delete,
 .i_pm_reply,
 .i_review_add,
+.g_button.upload a,
 button,
 #layout-main div.edit_actions a,
 #layout-tabs ul li a,
@@ -100,7 +101,7 @@ button,
 #layout-main div.creq_all .links .next_creq a,
 #layout-main div.creq_all .links .creq_list a,
 #layout-main ul.g_list li a,
-#layout-main ul.g_list li {
+#layout-main ul.g_list li span {
 	display: inline-block;
 	font-size: 14px/1;
 	font-family: FontAwesome, Arial,Helvetica,sans-serif;
@@ -115,21 +116,22 @@ button,
 }
 
 button,
-#layout-tabs ul li a,
+.g_button.upload a,
 #layout-search .submit,
 #layout-main ul.g_list li a,
+#layout-main ul.g_list li span,
 #layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.creq_all .links .next_creq a,
-#layout-main div.creq_all .links .creq_list a,
-#layout-main div.msg_all ul.g_list li.sent a {
+#layout-main div.creq_all .links .creq_list a {
 	padding-left: 4px;
 }
 
 button:before,
+.g_button.upload a:before,
 #layout-tabs ul li a:before,
 #layout-main div.edit_actions a:before,
+#layout-main ul.g_list li span:before,
 #layout-main ul.g_list li a:before,
-#layout-main div.msg_all ul.g_list li.sent a:before,
 #layout-main div.msg_all div.buttons li a:before,
 #layout-main div.creq_all .links a:before {
 	padding-right: 6px;
@@ -258,11 +260,13 @@ button.search:before,
 button.reset:before {
 	content: "\f0e2";
 }
+#layout-main ul.g_list li.next span:before,
 #layout-main ul.g_list li.next a:before,
 button.right:before,
 button.next:before {
 	content: "\f061";
 }
+#layout-main ul.g_list li.prev span:before,
 #layout-main ul.g_list li.prev a:before,
 button.left:before,
 button.prev:before {
@@ -308,6 +312,10 @@ button.down:before {
 }
 #layout-main ul.g_list li.users a:before {
 	content: "\f0c0";
+}
+button.upload,
+.g_button.upload a:before {
+	content: "\f093";
 }
 
 /*image only - no text*/
