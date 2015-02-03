@@ -266,6 +266,7 @@
 #layout-main div.admin_tags_all div.actions select {
 	padding: 6px 2px;
 	width: 34.7em;
+	vertical-align: middle;
 }
 
 #layout-main div.admin_tags_all div.taglist_table {
