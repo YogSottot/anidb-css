@@ -61,7 +61,6 @@ body.nonav #layout-main h1
 	margin-bottom: 1em;
 }
 
-#layout-main div.tags_all .taglist_table + .g_list,
 #layout-main table + .g_list
 {
 	margin-top: 1em;
