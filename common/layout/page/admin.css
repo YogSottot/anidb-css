@@ -1,3 +1,28 @@
+#layout-main div.admin_all div.g_menu {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-justify-content: space-around;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	justify-content: space-around;
+    float: none;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+
+#layout-main div.admin_all div.g_menu .sub-menu {
+margin-bottom: 0.5em;
+}
+
 #layout-main div.dbstats_all table ol
 {
 	width: 20em;

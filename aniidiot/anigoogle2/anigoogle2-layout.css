@@ -149,3 +149,7 @@
 #layout-search ul.quicksearch .g_bubble.stripe {
 	margin: 0 !important;
 }
+
+#layout-main div.admin_all div.g_menu h4 {
+	text-align: left;
+}

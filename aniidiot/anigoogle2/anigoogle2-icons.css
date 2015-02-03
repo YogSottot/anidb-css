@@ -148,7 +148,6 @@ button:before {
 .i_topic_lock:before {
 	content: "\f023";
 }
-.i_review_add:before,
 .i_topic_add:before,
 .i_comment_add:before {
 	content: "\f0e5";
@@ -294,6 +293,7 @@ button.load:before {
 #layout-main ul.g_list li.export a:before {
 	content: "\f08e";
 }
+.i_review_add:before,
 button.add:before,
 #layout-main ul.g_list li.add a:before,
 #layout-main div.edit_actions span.add a:before {

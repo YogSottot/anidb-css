@@ -216,3 +216,8 @@
 {
     max-height: 100px;
 }
+
+.g_bubble.stripe > div.data div.tags {
+	max-height: 2.5em;
+	overflow:hidden;
+}

@@ -7,6 +7,7 @@ button.confirmButton {
 	text-shadow: none;
 }
 
+h4 span,
 .i_comment_add span,
 .i_topic_add span,
 .i_topic_history span,
@@ -45,10 +46,11 @@ button.confirmButton {
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all > div.g_section > h4 a,
-h4 span {
+#layout-main div.admin_all div.g_menu h4 span {
 	font-family: Arial,Helvetica,sans-serif;
 }
 
+#layout-main div.admin_all div.g_menu h4 span,
 #layout-main div.main_all div.rightbar h4 span,
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
@@ -100,6 +102,7 @@ h4 span,
 	text-transform: capitalize;
 }
 
+#layout-main div.admin_all div.g_menu h4 span,
 #layout-main div.main_all div.rightbar h4 span,
 #layout-main div.main_all div.datablocks h4 span,
 #layout-main div.main_all div.header h4 span,
