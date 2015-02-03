@@ -20,6 +20,15 @@ input[type="checkbox"] {
 	margin-bottom: 0.3em;
 }
 
+input[type="text"],
+input[type="password"] {
+    height: 16px;
+}
+
+select {
+	height: 22px;
+}
+
 select,
 button,
 span.test,
@@ -365,7 +374,6 @@ h4,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus {
 	margin: 0px;
 }
-
 
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td input[type="text"] {
     width: 98%;
