@@ -360,13 +360,14 @@ h4,
     padding: 2px 4px 3px;
 }
 
-#layout-main div.forum div.search form button,
 #layout-main div.forum div.search form select {
     padding: 2px 4px;
+    height: 23px;
 }
 
-#layout-main div.forum div.search form select {
-    height: 23px;
+#layout-main div.forum div.search form button {
+    padding: 2px 4px;
+    vertical-align:top;
 }
 
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td
