@@ -25,7 +25,7 @@
 	float: right;
 }
 
-#layout-main ul.jump
+#layout-main table + ul.jump
 {
 	margin-top: 1em;
 }
