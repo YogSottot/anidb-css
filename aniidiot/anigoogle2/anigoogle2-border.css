@@ -39,7 +39,10 @@ input[type="button"],
 .g_bubble,
 #layout-content,
 #layout-menu li.sub-menu,
-#layout-menu li.sub-menu ul {
+#layout-menu li.sub-menu ul,
+.chosen-container-single .chosen-drop,
+.chosen-container-multi .chosen-choices li.search-choice,
+.chosen-container-single .chosen-single {
 	border-radius: 0 !important;
 }
 
