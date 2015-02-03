@@ -47,7 +47,9 @@ input[type="password"],
 #layout-main ul.g_list li a,
 #layout-main ul.g_list li span.nolink,
 #layout-main div.pagination span a,
-#layout-main div.pagination span strong
+#layout-main div.pagination span strong,
+#layout-main div.forum div.search form select,
+#layout-main div.forum div.search form button
 {
 	padding: 2px 4px;
 }
@@ -359,15 +361,6 @@ button,
 
 #layout-main div.forum div.search form input {
     padding: 2px 4px 3px;
-}
-
-#layout-main div.forum div.search form select {
-    padding: 2px 4px;
-}
-
-#layout-main div.forum div.search form button {
-    padding: 2px 4px;
-    vertical-align:top;
 }
 
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td
