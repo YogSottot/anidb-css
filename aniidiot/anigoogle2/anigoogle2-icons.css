@@ -180,6 +180,7 @@ button.edit:before,
 .i_comment_setactive:before {
 	content: "\f00c";
 }
+#layout-main ul.g_list li.abort a:before,
 #layout-main ul.g_list li.cancel a:before,
 #layout-main div.creq_all .creq_buttons button.deny:before {
 	content: "\f05e";
