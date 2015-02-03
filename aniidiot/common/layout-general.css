@@ -379,11 +379,6 @@ h4,
     width: 98%;
 }
 
-#layout-main div.forum div.search form select,
-#layout-main div.forum div.search form input {
-	padding: 4px;
-}
-
 #layout-main div.forum div.search form button,
 #layout-main div.forum div.search form input[type="submit"] {
 	padding: 4px 4px 3px;
