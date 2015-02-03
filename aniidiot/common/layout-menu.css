@@ -1,3 +1,13 @@
+html,
+body {
+	height:100%;
+}
+
+#layout-content,
+#layout-main {
+	min-height:100%;
+}
+
 #layout-content
 {
 	margin-left: 12.6em;
@@ -10,7 +20,6 @@
 #layout-main
 {
 	margin-left: 0;
-	min-height: 60em;
 }
 
 #layout-menu

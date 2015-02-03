@@ -24,3 +24,7 @@
 #layout-search div.search a.advsearch {
 	font-size: 9px;
 }
+
+#layout-menu span.tab {
+	cursor: auto;
+}
