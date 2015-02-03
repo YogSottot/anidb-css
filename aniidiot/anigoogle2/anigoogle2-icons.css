@@ -259,6 +259,7 @@ button.reboot:before {
 #layout-main div.creq_all .creq_messages button.annotation:before {
 	content: "\f044";
 }
+#layout-main ul.g_list li.reset a:before,
 button.reset:before {
 	content: "\f0e2";
 }
