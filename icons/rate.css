@@ -71,3 +71,6 @@
 .i_rate_error {
 	background-image: url(../icons/icon/anidb_rate_star_red.png);
 }
+.i_rate_unknown {
+	background-image: url(../icons/icon/anidb_rate_unknown.gif);
+}

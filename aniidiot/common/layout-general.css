@@ -54,11 +54,6 @@ input[type="password"],
 	padding: 2px 4px;
 }
 
-.i_inline,
-.i_icon {
-	display: inline-block;
-}
-
 #layout-nav
 {
 	display: block;
