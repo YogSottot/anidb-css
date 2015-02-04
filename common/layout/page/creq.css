@@ -125,7 +125,7 @@
 
 #layout-main .creq_all .tabbed_pane ul li {
 	margin: 0px 2px;
-	min-width: 4em;
+	min-width: 3.4em;
 	max-width: 8em;
 	text-overflow: ".";
 	overflow: hidden;
