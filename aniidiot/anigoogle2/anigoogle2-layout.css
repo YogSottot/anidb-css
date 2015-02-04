@@ -123,11 +123,6 @@
 	height: 16px;
 }
 
-#layout-main div.creq_all .creq_buttons input[type="text"] {
-	line-height: 16px;
-	padding: 2px 4px 4px;
-}
-
 #layout-main div.g_menu.filter_menu button.delete {
 	margin-top: 0.3em;
 }
