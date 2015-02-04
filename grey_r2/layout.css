@@ -329,6 +329,7 @@ border-bottom-width:1px;
 }
 #layout-main div.forum div.search form input,
 #layout-main div.forum div.search form select,
+#layout-main div.forum div.search form button,
 #layout-main div.forum div.search form input[type="submit"],
 #layout-main div.forum ul.topics,
 #layout-main div.forum div.g_bubble.threads
@@ -352,7 +353,6 @@ width:5em;
 {
 border:none
 }
-button + button,
 div.buttons li a,
 div.buttons ul + input
 {
@@ -410,8 +410,8 @@ td.vote.temp
 {
 font-weight:normal;
 }
-div.spoiler,
-#layout-main div.quotebody
+#layout-main div.g_bubble.spoiler,
+#layout-main div.g_bubble.quotebody
 {
 border-style:dashed;
 border-width:1px;

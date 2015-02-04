@@ -1,0 +1,55 @@
+#layout-main div.anime_all div.staffblock + div.staffblock table,
+#layout-main div.ep_all div.staffblock + div.staffblock table,
+#layout-main div.anime_all div.episodes tr.newtype td
+{
+	border-top: 1px double;
+}
+
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected
+{
+	border-bottom: 2px double;
+}
+
+#layout-menu li.sub-menu li:first-child:hover
+{
+	border-radius: 5px 5px 0px 0px;
+}
+
+#layout-menu li.sub-menu li:last-child:hover
+{
+	border-radius: 0px 0px 5px 5px;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+#layout-main div.g_menu.filter_menu div.settings input[type="text"],
+#layout-main div.g_menu.filter_menu div.settings select
+{
+	border-radius: 5px;
+	border: 1px solid;
+}
+
+#layout-menu li.sub-menu li + li
+{
+	border-top: 1px solid;
+}
+
+#layout-main > h1,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.news h4,
+#layout-main div.g_timedentry h4,
+#layout-main div.userpage_all > div.g_section > h4
+{
+	border: 1px solid;
+}
+
+a.tooltip span.text:after
+{
+	border-width: 10px;
+}
+a.tooltip span.text:before
+{
+	border-width: 11px;
+}

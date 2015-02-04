@@ -3,20 +3,19 @@ a.i_icon:hover, a.i_inline:hover
 	text-decoration: none;
 }
 
+.i_inline,
 .i_icon
 {
 	background-repeat: no-repeat;
-	display: block;
+	display: inline-block;
 	width: 15px;
 	height: 13px;
 	margin-left: 1px;
 	margin-right: 0;
 }
 
-.i_inline
-{
-	padding: 2px 8px 2px 8px;
-	margin: 4px;
+select + .i_icon {
+	margin-left: 0.5em;
 }
 
 .i_icon span, .i_button span, .i_inline span

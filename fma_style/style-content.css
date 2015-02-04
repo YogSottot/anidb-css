@@ -533,7 +533,7 @@ background-repeat: no-repeat;
 background-position: 2px center;
 }
 
-div.quotebody {
+div.g_bubble.quotebody {
 	background-color: #F4F4F4;
 	background-image: url(images/layout/quote.gif);
 	background-repeat:no-repeat;

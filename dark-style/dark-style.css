@@ -871,19 +871,19 @@ div.hint2_all th
 	padding-right:5em;
 }
 
-div.latest_all td.status
+div.modlatest_all td.status
 {
 	width:250px;
 }
 
-div.latest_all td.name,
+div.modlatest_all td.name,
 div.animelist_all td.name
 {
 	text-align:left;
 	width:auto;
 }
 
-div.latest_all td.action a
+div.modlatest_all td.action a
 {
 	float:right;
 	margin:0 2px;
@@ -1670,7 +1670,7 @@ div.hint2_all select,
 div.creq_all div.creq_list_closed table,
 div.up2date_all table.files,
 div.up2date_all table.sequels,
-div.latest_all table,
+div.modlatest_all table,
 div.animelist_all table,
 div.grouplist_all table,
 div.userlist_all table,
@@ -2022,12 +2022,12 @@ div.anime_all div.image
 {
 	color:#8266b8;
 }
-div.quotebody
+div.g_bubble.quotebody
 {
 	background-color: black;
 }
 
-div.quotebody div.quoteof
+div.g_bubble.quotebody div.quoteof
 {
 	background-color: #545270;
 	color:white;
@@ -2107,10 +2107,6 @@ div.quotebody div.quoteof
 	color: #01702e;
 }
 
-button + button
-{
-margin-left: 5px;
-}
 a.button,
 input.button,
 button.button,

@@ -1,0 +1,462 @@
+/*https://fortawesome.github.io BEGIN*/
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+}
+
+.i_state_verified,
+.i_mylist,
+.i_file_details,
+.i_seen,
+.i_seen_yes,
+.i_seen_no,
+.i_file_addmylist,
+.i_file_removemylist,
+.i_top,
+.i_help,
+.i_vote,
+.i_revote,
+.i_group_comment,
+.i_ep_edit,
+.i_file_add,
+.i_file_edit,
+.i_minus,
+.i_plus,
+.i_comment_add,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_comment_revisions,
+.i_comment_move,
+.i_topic_lock,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_delete,
+.i_comment_info,
+.i_comment_creq,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_comment_setactive,
+.i_topic_locked,
+.i_comment_undelete,
+.i_pm_delete,
+.i_review_add,
+.i_pm_reply,
+.i_topic_subscribe,
+.i_topic_unsubscribe {
+	background-image: none !important;
+}
+
+.i_state_verified,
+.i_mylist,
+.i_file_details,
+.i_seen,
+.i_seen_yes,
+.i_seen_no,
+.i_file_addmylist,
+.i_file_removemylist,
+.i_top,
+.i_help,
+.i_vote,
+.i_revote,
+.i_group_comment,
+.i_ep_edit,
+.i_file_add,
+.i_file_edit,
+.i_minus,
+.i_plus,
+.i_comment_add,
+.i_comment_revisions,
+.i_comment_move,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_info,
+.i_comment_creq,
+.i_comment_setactive,
+.i_comment_delete,
+.i_comment_undelete,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_topic_lock,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_topic_locked,
+.i_topic_subscribe,
+.i_topic_unsubscribe,
+.i_pm_delete,
+.i_pm_reply,
+.i_review_add,
+.g_button.upload a,
+button,
+#layout-main div.edit_actions a,
+#layout-tabs ul li a,
+#layout-search .submit,
+#layout-main div.msg_all div.buttons li a,
+#layout-main div.msg_all ul.g_list li.sent a,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink {
+	display: inline-block;
+	font-size: 14px/1;
+	font-family: FontAwesome, Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	line-height: 16px;
+	margin: 0;
+}
+
+button,
+.g_button.upload a,
+#layout-search .submit,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .creq_list a {
+	padding-left: 4px;
+}
+
+button:before,
+.g_button.upload a:before,
+#layout-tabs ul li a:before,
+#layout-main div.edit_actions a:before,
+#layout-main ul.g_list li span.nolink:before,
+#layout-main ul.g_list li a:before,
+#layout-main div.msg_all div.buttons li a:before,
+#layout-main div.creq_all .links a:before {
+	padding-right: 6px;
+}
+
+#layout-main ul.g_list li.submit a:before,
+button:before {
+	content: "\f00c";
+}
+.i_topic_unlock:before {
+	content: "\f09c";
+}
+.i_topic_locked:before,
+.i_topic_lock:before {
+	content: "\f023";
+}
+.i_topic_add:before,
+.i_comment_add:before {
+	content: "\f0e5";
+}
+.i_comment_revisions:before {
+	content: "\f044";
+}
+.i_topic_move:before,
+.i_comment_move:before,
+#layout-main ul.g_list li.move a:before {
+	content: "\f0b2";
+}
+#layout-main ul.g_list li.edit a:before,
+#layout-main div.edit_actions span.modify a:before,
+button.default:before,
+button.update:before,
+button.edit:before,
+.i_comment_edit:before {
+	content: "\f040";
+}
+.i_comment_quote:before {
+	content: "\f10d";
+}
+#layout-main ul.g_list li.info a:before,
+#layout-main ul.g_list li.help a:before,
+.i_comment_info:before {
+	content: "\f05a";
+}
+.i_comment_setactive:before {
+	content: "\f00c";
+}
+#layout-main ul.g_list li.abort a:before,
+#layout-main ul.g_list li.cancel a:before,
+#layout-main div.creq_all .creq_buttons button.deny:before {
+	content: "\f05e";
+}
+button.delete:before,
+.i_comment_creq:before,
+.i_pm_delete:before,
+.i_topic_delete:before,
+.i_comment_delete:before,
+#layout-main ul.g_list li.delete a:before,
+#layout-main div.msg_all div.buttons button.delete:before,
+#layout-main div.msg_all div.buttons li.delete a:before {
+	content: "\f00d";
+}
+.i_topic_undelete:before,
+.i_comment_undelete:before {
+	content: "\f021";
+}
+.i_topic_history:before,
+#layout-main ul.g_list li.history a:before {
+	content: "\f1da";
+}
+.i_topic_split:before {
+	content: "\f0ec";
+}
+.i_topic_subscribe:before,
+.i_topic_unsubscribe:before {
+	content: "\f09e";
+}
+
+button.search:before,
+#layout-search .submit:before {
+	content: "\f002";
+}
+#layout-main ul.g_list li.show a:before,
+#layout-main ul.g_list li.back a:before {
+	content: "\f112";
+}
+#layout-main ul.g_list li.reload a:before,
+#layout-main ul.g_list li.convert a:before,
+button.reboot:before {
+	content: "\f021";
+}
+#layout-main ul.g_list li.latest a:before,
+#layout-main ul.g_list li.list a:before,
+#layout-main div.edit_actions span.show a:before,
+#layout-main div.creq_all .links .creq_list a:before {
+	content: "\f0ca";
+}
+#layout-main div.creq_all .links .next_new_creq a:before,
+#layout-main div.creq_all .links .next_creq a:before {
+	content: "\f061";
+}
+#layout-main div.creq_all .creq_buttons button.lock:before {
+	content: "\f023";
+}
+#layout-main div.creq_all .creq_buttons button.unlock:before {
+	content: "\f09c";
+}
+#layout-main div.creq_all .creq_buttons button.revoke:before,
+#layout-main div.creq_all .creq_buttons button.revert:before {
+	content: "\f0e2";
+}
+#layout-main div.creq_all .creq_buttons button.assign:before {
+	content: "\f234";
+}
+#layout-main div.creq_all .creq_messages button.reply:before {
+	content: "\f112";
+}
+#layout-main div.creq_all .creq_messages button.note:before {
+	content: "\f016";
+}
+#layout-main div.creq_all .creq_messages button.annotation:before {
+	content: "\f044";
+}
+#layout-main ul.g_list li.reset a:before,
+button.reset:before {
+	content: "\f0e2";
+}
+#layout-main ul.g_list li.next span.nolink:before,
+#layout-main ul.g_list li.next a:before,
+button.right:before,
+button.next:before {
+	content: "\f061";
+}
+#layout-main ul.g_list li.prev span.nolink:before,
+#layout-main ul.g_list li.prev a:before,
+button.left:before,
+button.prev:before {
+	content: "\f060";
+}
+#layout-tabs ul li a:before {
+	content: "\f07b";
+}
+button.reply:before,
+.i_pm_reply:before,
+#layout-main div.msg_all div.buttons li.new a:before,
+#layout-main div.msg_all ul.g_list li.sent a:before {
+	content: "\f003";
+}
+button.load:before {
+	content: "\f115";
+}
+#layout-main ul.g_list li.stats a:before {
+	content: "\f080";
+}
+#layout-main ul.g_list li.relations a:before,
+#layout-main ul.g_list li.votes a:before {
+	content: "\f201";
+}
+#layout-main ul.g_list li.export a:before {
+	content: "\f08e";
+}
+.i_review_add:before,
+button.add:before,
+#layout-main ul.g_list li.add a:before,
+#layout-main div.edit_actions span.add a:before {
+	content: "\f067";
+}
+button.tmpratenow:before,
+button.ratenow:before,
+button.vote:before {
+	content: "\f087";
+}
+#layout-main ul.g_list li.merge a:before {
+	content: "\f066";
+}
+button.up:before {
+	content: "\f062";
+}
+button.down:before {
+	content: "\f063";
+}
+#layout-main ul.g_list li.users a:before {
+	content: "\f0c0";
+}
+button.upload,
+.g_button.upload a:before {
+	content: "\f093";
+}
+#layout-main ul.g_list li.filter a:before {
+	content: "\f0b0";
+}
+button.spoiler:before,
+button.preview:before {
+	content: "\f06e";
+}
+
+/*image only - no text*/
+.i_state_verified,
+.i_mylist,
+.i_file_details,
+.i_seen,
+.i_seen_yes,
+.i_seen_no,
+.i_file_addmylist,
+.i_file_removemylist,
+.i_top,
+.i_help,
+.i_vote,
+.i_revote,
+.i_group_comment,
+.i_ep_edit,
+.i_file_add,
+.i_file_edit,
+.i_minus,
+.i_plus {
+	height: auto;
+	width:16px;
+	font-size:14px;
+}
+.i_plus:after {
+	content: "\f0fe";
+	cursor:pointer;
+}
+.i_minus:after {
+	content: "\f146";
+	cursor:pointer;
+}
+.i_group_comment:after {
+	content: "\f0e5";
+	cursor:pointer;
+}
+.i_ep_edit:after,
+.i_file_edit:after {
+	content: "\f040";
+	cursor:pointer;
+}
+.i_file_addmylist:after,
+.i_file_add:after {
+	content: "\f067";
+	cursor:pointer;
+}
+.i_vote:after {
+	content: "\f087";
+	cursor:pointer;
+}
+.i_help:after {
+	content: "\f05a";
+	cursor:pointer;
+}
+.i_top:after {
+	content: "\f0aa";
+	cursor:pointer;
+}
+.i_file_removemylist:after {
+	content: "\f00d";
+	cursor:pointer;
+}
+.i_revote:after {
+	content: "\f00c";
+	cursor:pointer;
+}
+.i_seen:after,
+.i_seen_yes:after {
+	content: "\f06e";
+	cursor:pointer;
+}
+.i_seen_no:after {
+	content: "\f070";
+	cursor:pointer;
+}
+.i_file_details:after {
+	content: "\f14c";
+	cursor:pointer;
+}
+.i_mylist:after {
+	content: "\f187";
+	cursor:pointer;
+}
+.i_state_verified:after {
+	content: "\f00c";
+}
+/*image only - no text*/
+/*https://fortawesome.github.io END*/
+
+/*icon created from text*/
+.i_vrs_2,
+.i_vrs_3,
+.i_vrs_4,
+.i_vrs_5,
+.i_vrs_6,
+.i_vrs_7,
+.i_vrs_8,
+.i_vrs_9 {
+	background-image: none;
+	height: 16px;
+	width: 16px;
+}
+
+.i_vrs_2 span,
+.i_vrs_3 span,
+.i_vrs_4 span,
+.i_vrs_5 span,
+.i_vrs_6 span,
+.i_vrs_7 span,
+.i_vrs_8 span,
+.i_vrs_9 span {
+	display: inline-block;
+	background-color: #105289;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 2px;
+	font-size: 8px;
+	text-align: center;
+}
+/*icon created from text*/
+
+.i_rate_halfstar,
+.i_rate_star,
+.i_rate_veryhigh,
+.i_rate_high,
+.i_rate_med,
+.i_rate_low,
+.i_rate_verylow {
+	background-image: url(../icons/icon/anidb_rate_star.png);
+}

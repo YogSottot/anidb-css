@@ -89,3 +89,9 @@
 	-webkit-column-rule:none;
 	column-rule:none;
 }
+
+#layout-main div.tag_all table tr td
+{
+	padding-left:0.5em;
+	padding-right:0.5em;
+}

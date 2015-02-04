@@ -1,0 +1,15 @@
+@import "../../sub/common.css";
+@import "../../common/style/color/status-black.css";
+@import "../../common/libs/chosen/style-dark.css";
+@import "../common-menu.css";
+@import "../icons-grey.css";
+@import "../logos.css";
+@import "../aniblackle/aniblackle-border.css";
+@import "../aniblackle/aniblackle-color.css";
+@import "aniblackle-menu-border.css";
+@import "aniblackle-menu-color.css";
+
+#layout-footer:after
+{
+	content:"design by deridiot inspired by blackle - banner by fafnir aka permidion";
+}

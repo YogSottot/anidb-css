@@ -52,7 +52,7 @@
 #layout-main div.main_all div.datablocks > div,
 #layout-main div.main_all div.news.forum > div,
 #layout-main div.main_all div.header > div {
-	margin: 0 2.5px;
+	margin: 0 4px 15px;
 }
 
 #layout-main div.main_all div.datablocks > div {
@@ -99,7 +99,7 @@
 
 @media screen and (min-width: 1350px) {
 	#layout-main div.main_all div.datablocks > div {
-    		max-width: calc(33% - 5px);
+    		max-width: calc(33% - 8px);
 	}
 
 	#layout-main div.main_all #latestaired,
@@ -110,7 +110,7 @@
 
 @media screen and (min-width: 1580px) {
 	#layout-main div.main_all div.datablocks > div {
-    		max-width: calc(25% - 5px);
+    		max-width: calc(25% - 8px);
 	}
 
 	#layout-main div.main_all #latestaired,

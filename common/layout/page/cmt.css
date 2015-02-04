@@ -61,7 +61,7 @@
 
 #layout-main div.cmt_entries div.postbody p.author
 {
-	margin: 0 15em .6em 0;
+	margin: 0 15em 1em 0;
 	padding: 2pt 0 5px;
 }
 
@@ -210,7 +210,6 @@
 
 #layout-main div.forum hr
 {
-	clear: both;
 	display: block;
 	height: 1px;
 	margin: 5px 0;
@@ -347,7 +346,6 @@
 #layout-main div.forum div.postbody div.code
 {
 	line-height: 1.4em;
-	padding: 3px;
 }
 
 #layout-main div.forum div.postbody div.code div.title
@@ -440,6 +438,12 @@
 	padding: 0;
 	text-align: left;
 	padding-bottom: 0.5em;
+}
+
+#layout-main div.forum div.events div.data p .i_inline,
+#layout-main div.forum div.events div.data p .i_icon {
+	margin-right: 0.3em;
+	float: left;
 }
 
 #layout-main div.forum div.events div.data > p,
@@ -609,6 +613,7 @@
 	padding: 2px 3px;
 }
 
+#layout-main div.forum div.search form button,
 #layout-main div.forum div.search form input[type="submit"]
 {
 	padding: 3px;
@@ -764,17 +769,16 @@
 	padding: 1em;
 }
 
-div.quotebody
-{
-	margin-left: 1em;
-	margin-right: .5em;
-	padding: .4em;
+div.g_bubble.code,
+div.g_bubble.spoiler,
+div.g_bubble.quotebody {
+    margin: 0.5em;
+    padding: 4px 8px;
 }
 
-div.quotebody div.quote div.quotebody
-{
-	margin-right: .2em;
-	margin-top: 1em;
+#layout-main div.g_bubble.spoiler span.spoiler {
+	display:block;
+	margin-bottom: 1em;
 }
 
 #layout-main div.forum div.content img,

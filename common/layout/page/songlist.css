@@ -2,3 +2,9 @@
 {
 	width: 100%
 }
+
+#layout-main div.songlist_all table.songlist tr td
+{
+	padding-left:0.5em;
+	padding-right:0.5em;
+}

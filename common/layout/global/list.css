@@ -15,17 +15,17 @@
 	display: inline;
 }
 
-#layout-main ul.g_list li.prev
+#layout-main ul.jump li.prev
 {
 	float: left;
 }
 
-#layout-main ul.g_list li.next
+#layout-main ul.jump li.next
 {
 	float: right;
 }
 
-#layout-main ul.jump
+#layout-main table + ul.jump
 {
 	margin-top: 1em;
 }

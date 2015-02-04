@@ -55,7 +55,7 @@
 
 .g_bubble.stripe > div.data
 {
-	margin: 0.5em 0.5em 0.5em 6em
+	margin: 0.5em 0.5em 0.5em 6em;
 }
 
 .g_bubble.stripe > div.data div + div
@@ -66,7 +66,6 @@
 .g_bubble.stripe > div.data div.name
 {
 	margin-bottom: 0.5em;
-	margin-right: 5em;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
 }
@@ -74,6 +73,7 @@
 .g_bubble.stripe > div.data div.actions.icons
 {
 	float: right;
+	margin-right: 0.3em;
 }
 
 .g_bubble.stripe > div.data div.text
@@ -175,11 +175,6 @@
 	width:300px;
 }
 
-.g_bubble.stripe.medium > div.data
-{
-	width:235px;
-}
-
 .g_bubble.stripe.max > div.data div.name,
 .g_bubble.stripe.medium > div.data div.name
 {
@@ -204,7 +199,7 @@
 
 .g_bubble.stripe.medium
 {
-	min-height:90px;
+	min-height:105px;
 }
 
 .g_bubble.stripe.recommendation
@@ -215,4 +210,9 @@
 .g_bubble.stripe.recommendation > div.data div.text
 {
     max-height: 100px;
+}
+
+.g_bubble.stripe > div.data div.tags {
+	max-height: 2.5em;
+	overflow:hidden;
 }

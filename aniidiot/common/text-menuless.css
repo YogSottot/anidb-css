@@ -1,0 +1,10 @@
+#layout-nav div.main_search a.advsearch {
+	font-family: arial,sans-serif;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+#layout-nav div.main_search input.text,
+#layout-nav div.main_search select {
+	font-size: 1.2em;
+}

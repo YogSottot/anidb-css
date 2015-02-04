@@ -202,10 +202,16 @@ div.pagination span a
 	text-transform:capitalize;
 }
 
+#statusBox,
 #layout-main div.forum li.header dt,
 #layout-main div.forum li.header dd
 {
 	font-family:Arial,Helvetica,sans-serif;
+}
+
+#layout-main div.forum li.header dt,
+#layout-main div.forum li.header dd
+{
 	font-size:1em;
 	font-weight:bold;
 	text-transform:uppercase;
@@ -214,20 +220,20 @@ div.pagination span a
 #layout-main div.forum a.topictitle
 {
 	font-family:"Trebuchet MS",Helvetica,Arial,Sans-serif;
-	font-size:1.2em;
+	font-size:13px;
 	font-weight:bold;
 }
 
 #layout-main div.forum div.statistics h3
 {
-	font-size:1.05em;
+	font-size:10px;
 	font-weight:bold;
 	text-transform:uppercase;
 }
 
 #layout-main div.forum div.statistics p
 {
-	font-size:1.1em;
+	font-size:11px;
 	line-height:1.3em;
 }
 
@@ -241,7 +247,7 @@ div.pagination span a
 #layout-main div.forum div.postbody div.code code
 {
 	font-family:Monaco,"Andale Mono","Courier New",Courier,mono;
-	font-size:1.2em;
+	font-size:12px;
 }
 
 #layout-main div.forum div.options-box span.desc
@@ -253,7 +259,7 @@ div.pagination span a
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2
 {
-	font-size:1.6em;
+	font-size:16px;
 	font-weight:bold;
 }
 
@@ -295,7 +301,7 @@ th.sortable
 #layout-main div.forumsearch_form dt,
 #layout-main div.forum div.add-box dl dt
 {
-	font-size:1.1em;
+	font-size:11px;
 	font-weight:bold;
 }
 
@@ -312,7 +318,7 @@ h4.collapsed span
 
 #layout-main div.main_all div.header div.account ul.tabs li
 {
-	font-size: 1.3em;
+	font-size: 13px;
 }
 
 #layout-main div.forum ul.topics dd.posts,
@@ -322,7 +328,7 @@ h4.collapsed span
 #layout-main div.userpage_all div.userdetails div.block caption,
 #layout-main div.picupload_all input[type="file"]
 {
-	font-size:1.2em;
+	font-size:12px;
 }
 
 #layout-main div.forum div.events p,
@@ -354,7 +360,7 @@ h4.collapsed span
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.main_all div.datablocks > div.account
 {
-	font-size:1.1em;
+	font-size:11px;
 }
 
 h1,
@@ -378,7 +384,7 @@ span.diff,
 #layout-main div.anime_all div.groups td.state.complete a,
 #layout-main div.group_released td.state.finished a,
 #layout-main div.group_released td.state.complete a,
-div.quotebody div.quoteof,
+div.g_bubble.quotebody div.quoteof,
 #layout-main div.forum a.username-colored,
 #layout-main div.forum div.navbar span.breadcrumbs,
 #layout-main div.forum ul.topics dd.lastpost span a,
@@ -414,9 +420,12 @@ div.relations .g_bubble.stripe div.type,
 
 #layout-main div.anime_all div.info div.caststaff div h4
 {
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
+#statusBox,
+ul.format-modes li.selected,
+ul.format-modes li:hover,
 a.tooltip:hover
 {
 	text-decoration:none;
@@ -431,7 +440,7 @@ a.tooltip span.text
 
 #layout-main div.tag-column h5
 {
-	font-size: 1.1em;
+	font-size: 11px;
 	font-weight:bold;
 }
 
@@ -459,7 +468,7 @@ a.tooltip span.text
 #layout-main div.admin_tags_all div.actions select,
 #layout-main div.addtagentityrel_all #tag-groups span.link
 {
-	font-size: 1.2em;
+	font-size: 12px;
 }
 
 #layout-main div.addcreatoranimerel_all div.content h4 span.nolink {
@@ -474,4 +483,9 @@ a.tooltip span.text
 
 #layout-main #chartags a.tooltip span.cnt {
     font-size: 10px;
+}
+
+#statusBox,
+#obj-tooltip {
+	font-size: x-small;
 }

@@ -1,0 +1,45 @@
+#layout-content
+{
+	border-bottom-color:#444444;
+	border-left-color:#666666;
+	border-top-color:#666666;
+}
+
+#layout-menu li.sub-menu:hover,
+#layout-menu li.sub-menu
+{
+	border-color:#666666 #444444 #444444 #666666;
+}
+
+#layout-menu
+{
+	border-right-color:#666666;
+}
+
+#layout-menu > li ul
+{
+	background-color: inherit;
+}
+
+#layout-menu li.sub-menu:hover,
+#layout-menu li.sub-menu
+{
+	background-color:#404040;
+}
+
+#layout-menu li.sub-menu li + li
+{
+	border-top-color:#555555;
+}
+
+#layout-menu li.sub-menu li:hover,
+#layout-menu li.sub-menu li:active
+{
+	background: transparent url(images/stripe-darkgrey.png) repeat left top;
+}
+
+/*clickable logo*/
+#layout-menu li.sub-menu ul li.main a:hover {
+	background-color: transparent;
+	background-image: none;
+}

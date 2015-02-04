@@ -63,7 +63,7 @@
 
 #layout-main div.anime_all #tabbed_pane_main
 {
-	margin: 1.5em 1em 1em;
+	margin: 1.5em 1em;
 }
 
 #layout-main div.anime_all div.reviews table.reviewlist th.approval
@@ -131,8 +131,8 @@
 	min-width: 5em;
 }
 
-#layout-main div.anime_all div.tabbed_pane {
-	margin: 0.25em;
+#layout-main div.anime_all #tabbed_pane {
+	margin: 0 0.4em 0.4em;
 }
 
 #layout-main div.anime_all div.info div.caststaff
@@ -156,9 +156,10 @@
 
 #layout-main div.anime_all div.info div.caststaff > div
 {
-	margin: 0.25em;
+	margin: 0.4em;
 	padding: 4px;
 	width: 100%;
+	position: relative;
 }
 
 #layout-main div.anime_all div.info div.caststaff div.staff
@@ -200,10 +201,14 @@
 	min-width:12em;
 }
 
-#layout-main div.anime_all div.info div.caststaff div td.action
-{
-	padding-top: 1em;
-	text-align: right;
+#layout-main div.anime_all div.info div.caststaff tr.more {
+	height:19px;
+}
+
+#layout-main div.anime_all div.info div.caststaff tr.more td.action {
+	position: absolute;
+	bottom: 3px;
+	right: 4px;
 }
 
 #layout-main div.anime_all div.groups td.action

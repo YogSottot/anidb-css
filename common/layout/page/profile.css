@@ -124,12 +124,6 @@
 	padding: 4px;
 }
 
-#layout-main div.profile_all div.pane.general div.body div.pane div ul li a.i_inline
-{
-	padding: 5px 10px 0;
-	margin: 0;
-}
-
 #layout-main div.profile_all div.account tr th
 {
 	width: 20em;
@@ -164,19 +158,12 @@
 
 #layout-main div.profile_all div.pane div.settings.block li input
 {
-	max-width: 37em;
+	max-width: 18em;
 }
 
 #layout-main div.profile_all div.pane div.settings.block li select
 {
 	margin-bottom: 0.2em;
-}
-
-#layout-main div.profile_all div.tabbed_pane div.default_languages a.i_inline,
-#layout-main div.profile_all div.pane div.settings.block li a.i_inline,
-#layout-main div.profile_all div.pane > ul li a.i_inline
-{
-	padding: 4px 8px 0 7px;
 }
 
 #layout-main div.profile_all div.pane div.settings.block table
@@ -187,12 +174,6 @@
 #layout-main div.profile_all div.pane div.settings.block table + ul
 {
 	margin-top: 0.2em;
-}
-
-#layout-main div.profile_all div.settings.block span.checkbox span.text
-{
-	display: table;
-	margin: -1.7em 0 0 4.5em;
 }
 
 #layout-main div.tabbed_pane div.pane div.userdata_add ul

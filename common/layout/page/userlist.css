@@ -7,3 +7,9 @@
 {
 	float:right;
 }
+
+#layout-main div.userlist_all table.users tr td
+{
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
