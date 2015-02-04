@@ -159,6 +159,7 @@
 	margin: 0.4em;
 	padding: 4px;
 	width: 100%;
+	position: relative;
 }
 
 #layout-main div.anime_all div.info div.caststaff div.staff
@@ -200,10 +201,14 @@
 	min-width:12em;
 }
 
-#layout-main div.anime_all div.info div.caststaff div td.action
-{
-	padding-top: 1em;
-	text-align: right;
+#layout-main div.anime_all div.info div.caststaff tr.more {
+	height:19px;
+}
+
+#layout-main div.anime_all div.info div.caststaff tr.more td.action {
+	position: absolute;
+	bottom: 3px;
+	right: 4px;
 }
 
 #layout-main div.anime_all div.groups td.action

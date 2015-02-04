@@ -16,6 +16,7 @@
 .i_top,
 .i_help,
 .i_vote,
+.i_revote,
 .i_group_comment,
 .i_ep_edit,
 .i_file_add,
@@ -60,6 +61,7 @@
 .i_top,
 .i_help,
 .i_vote,
+.i_revote,
 .i_group_comment,
 .i_ep_edit,
 .i_file_add,
@@ -323,6 +325,10 @@ button.upload,
 #layout-main ul.g_list li.filter a:before {
 	content: "\f0b0";
 }
+button.spoiler:before,
+button.preview:before {
+	content: "\f06e";
+}
 
 /*image only - no text*/
 .i_state_verified,
@@ -336,6 +342,7 @@ button.upload,
 .i_top,
 .i_help,
 .i_vote,
+.i_revote,
 .i_group_comment,
 .i_ep_edit,
 .i_file_add,
@@ -384,8 +391,10 @@ button.upload,
 	content: "\f00d";
 	cursor:pointer;
 }
-button.spoiler:before,
-button.preview:before,
+.i_revote:after {
+	content: "\f00c";
+	cursor:pointer;
+}
 .i_seen:after,
 .i_seen_yes:after {
 	content: "\f06e";
