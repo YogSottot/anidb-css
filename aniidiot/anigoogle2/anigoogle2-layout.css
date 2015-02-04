@@ -82,11 +82,6 @@
 	margin-left: 0.2em !important;
 }
 
-#layout-main ul.g_list + button,
-#layout-main div.forum div.buttons a + a {
-	margin-left: 0.4em !important;
-}
-
 #layout-main ul.g_list {
 	min-height: 2.2em;
 }
@@ -147,4 +142,8 @@
 
 #layout-main div.admin_all div.g_menu h4 {
 	text-align: left;
+}
+
+#layout-search ul.quicksearch {
+	margin: 0 0 0 3px;
 }

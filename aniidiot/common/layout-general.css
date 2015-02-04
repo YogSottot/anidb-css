@@ -419,3 +419,8 @@ button,
 #layout-main .creq_all .creq_header + ul.g_list {
 	margin-top: 0.5em;
 }
+
+#layout-main ul.g_list + button,
+#layout-main div.forum div.buttons a + a {
+	margin-left: 0.4em !important;
+}
