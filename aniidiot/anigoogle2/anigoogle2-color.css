@@ -322,6 +322,15 @@ button.confirmButton,
 	border-color: #CCCCCC;
 }
 
+select:hover,
+select:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus {
+    border-color: #CCCCCC !important;
+}
+
 #layout-main div.animeatt_reviews div.review span.stamp a,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp a,
 #layout-main div.animeatt_reviews div.review span.stamp,
