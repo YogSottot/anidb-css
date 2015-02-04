@@ -26,7 +26,7 @@ input[type="password"] {
 }
 
 select {
-	height: 23px;
+	min-height: 23px;
 }
 
 select,
@@ -52,6 +52,11 @@ input[type="password"],
 #layout-main div.forum div.search form button
 {
 	padding: 2px 4px;
+}
+
+.i_inline,
+.i_icon {
+	display: inline-block;
 }
 
 #layout-nav
@@ -321,6 +326,21 @@ button,
 	vertical-align: top;
 }
 
+.g_button.upload a,
+button,
+#layout-main div.edit_actions a,
+#layout-tabs ul li a,
+#layout-search .submit,
+#layout-main div.msg_all div.buttons li a,
+#layout-main div.msg_all ul.g_list li.sent a,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink {
+	line-height: 16px;
+}
+
 #layout-main div.group_all div.addfilem.options tr.group button,
 #layout-main div.filter_menu span.actions.old button
 {
@@ -354,7 +374,6 @@ button,
 
 #layout-main div.g_menu.filter_menu div.settings input[type="text"]
 {
-	padding: 2px;
 	width: 12em;
 	margin-bottom: 2px;
 }
@@ -393,4 +412,9 @@ button,
 
 #layout-main div.votes_all div.container + div.container {
 	margin-left: 0.5em;
+}
+
+#layout-main div.g_menu.filter_menu button.delete + label,
+#layout-main .creq_all .creq_header + ul.g_list {
+	margin-top: 0.5em;
 }
