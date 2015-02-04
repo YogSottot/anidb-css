@@ -80,6 +80,16 @@
 		<screenshot>anigoogle/images/screenshot.png</screenshot>
 		<thumbnail>anigoogle/images/thumbnail.png</thumbnail>
 	</style>
+	<style name="anigoogle2">
+		<title>Anigoogle 2</title>
+		<creator>Der Idiot</creator>
+		<update>04.02.2015</update>
+		<status>in development</status>
+		<description>Style inspired by Google/Youtube</description>
+		<path/>
+		<screenshot>anigoogle/images/screenshot.png</screenshot>
+		<thumbnail>anigoogle/images/thumbnail.png</thumbnail>
+	</style>
 	<style name="anigoogle-menu">
 		<title>Anigoogle with Menu</title>
 		<creator>Der Idiot</creator>
