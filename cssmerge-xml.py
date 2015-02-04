@@ -45,6 +45,7 @@ def cssm(cssfile="/"):
 			dirname   = path.lstrip('./').replace('/','-')
 			if 'aniidiot' in dirname:
 				crap, dirname = path.rsplit('/', 1)
+			xml(unicode(dirname),path)
 			out = __out+dirname
 			if os.path.exists(out) is False:
 				os.mkdir(out)
