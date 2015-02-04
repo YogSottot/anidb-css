@@ -66,7 +66,7 @@
 .g_bubble.stripe > div.data div.name
 {
 	margin-bottom: 0.5em;
-	margin-right: 5em;
+	margin-right: 0.5em;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
 }
