@@ -63,8 +63,8 @@ input[type="password"],
 #layout-main div.pagination span a,
 #layout-main div.pagination span strong,
 #layout-main div.forum div.search form select,
-#layout-main div.forum div.search form button
-{
+#layout-main div.forum div.search form button,
+#layout-main div.forum div.search form input {
 	padding: 2px 4px;
 }
 
@@ -391,10 +391,6 @@ button,
 {
 	width: 12em;
 	margin-bottom: 2px;
-}
-
-#layout-main div.forum div.search form input {
-    padding: 2px 4px 3px;
 }
 
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td
