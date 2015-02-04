@@ -148,6 +148,10 @@ body {
     top: 1.7em;
 }
 
+#layout-search .submit {
+	line-height: 13px !important;
+}
+
 #layout-menu li.sub-menu ul li > a,
 #layout-menu li.sub-menu ul li > label
 {
