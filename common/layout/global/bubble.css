@@ -55,7 +55,7 @@
 
 .g_bubble.stripe > div.data
 {
-	margin: 0.5em 0.5em 0.5em 6em
+	margin: 0.5em;
 }
 
 .g_bubble.stripe > div.data div + div
@@ -204,7 +204,7 @@
 
 .g_bubble.stripe.medium
 {
-	min-height:90px;
+	min-height:105px;
 }
 
 .g_bubble.stripe.recommendation

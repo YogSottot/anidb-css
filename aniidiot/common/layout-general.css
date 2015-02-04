@@ -1,20 +1,21 @@
-input[size="10"]
-{
+input[size="10"] {
 	width: 6em;
 }
 
-input[size="50"]
-{
+input[size="50"] {
 	width: 27.5em;
 }
 
-input[size="60"]
-{
+input[size="60"] {
 	width: 36em;
 }
 
+input[size="80"] {
+	width: 48em;
+}
+
 textarea {
-    width: 36em;
+    width: 48em;
     height: 8em;
 }
 
