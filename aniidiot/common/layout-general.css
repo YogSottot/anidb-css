@@ -13,6 +13,11 @@ input[size="60"]
 	width: 36em;
 }
 
+textarea {
+    width: 36em;
+    height: 8em;
+}
+
 input[type="radio"],
 input[type="checkbox"] {
 	vertical-align: middle;
