@@ -405,10 +405,14 @@ select,
 	border-bottom-color:#7D7D7D;
 }
 
-div.g_bubble.quotebody
-{
+.g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
 	background-color: #E6E4D1;
-	border-color: #9A9A9A #7D7D7D #7D7D7D #9A9A9A;
+}
+
+.g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+	background-color: #F0EDD5;
 }
 
 #layout-main div.main_all div.datablocks h4,
