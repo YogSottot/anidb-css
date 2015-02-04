@@ -110,7 +110,6 @@ body.nonav #layout-main h1
 #layout-main div.anime_all div.episodes td.action .i_icon
 {
 	float: left;
-	/*padding: 0px 1px 0px 1px;*/
 }
 
 #layout-main td.icons.quality .i_icon
@@ -130,92 +129,45 @@ body.nonav #layout-main h1
 	display: none;
 }
 
-#obj-tooltip
-{
-	position: absolute;
-	left: 0px;
-	width: 300px;
-	padding: 2px;
-	visibility: hidden;
-	z-index: 100;
-	font-size: x-small;
-}
-
-#obj-pointer
-{
-	position: absolute;
-	left: -300px;
-	width: 15px;
-	height: 13px;
-	z-index: 101;
-	visibility: hidden;
-}
-
 #layout-hint
 {
 	position: absolute;
 	top: 0;
 	width: 99.8%;
-	border: 1px solid #AFAF00;
-	background-color: #FFFFDF;
 	text-align: center;
 	z-index:10;
 }
 
-/* this is in common/layout/common.css, put it in someother place if it irks you :P */
 ul.format-modes
 {
 	list-style: none;
 }
 
-ul.format-modes li
-{
+ul.format-modes li {
 	display: inline;
 	padding: 0px 5px 2px 5px;
-	border: solid 1px black;
+	border: 1px solid;
 	margin: 2px;
-	background-color: rgb(191, 194, 201);
 	cursor: pointer;
 }
 
-ul.format-modes li.selected, ul.format-modes li:hover
-{
-	background-color: #8492B5;
-	text-decoration: none;
-}
-
-/* status bar stuff for anime3 scripts (it's in common/layout/common.css) */
 #statusBox { 
 	position: fixed;
 	left: 2px;
 	top: 2px;
 	min-width: 120px;
 	z-index: 0;
-	font-family: Arial,Helvetica,sans-serif;
-	text-decoration: none;
-	color: #000000;
 	text-align: left;
-	background-color: #FFFFFF;
-	font-size: x-small; /*
-	padding: 2px;
-	border: 1px solid rgb(227, 227, 227); */
 }
 
 div.loadingbar {
-	background: white top left no-repeat;
 	padding: 0;
 	margin: 5px 0 0 0;
 	background-position: 1px 0;
 	width: 120px;
 	height: 12px;
-	border: 1px solid black;
+	border: 1px solid;
 }
-
-div.loadingbar_green { background: url(../icons/layout/loadingbar_green.png); }
-div.loadingbar_red { background: url(../icons/layout/loadingbar_red.png); }
-div.loadingbar_orange { background: url(../icons/layout/loadingbar_orange.png); }
-div.loadingbar_yellow { background: url(../icons/layout/loadingbar_yellow.png); }
-div.loadingbar_blue { background: url(../icons/layout/loadingbar_blue.png); }
 
 table + select
 {

@@ -71,3 +71,32 @@ th a, h1 a.shortlink
 {
 	background-color:transparent;
 }
+
+#layout-hint {
+	border: 1px solid #AFAF00;
+	background-color: #FFFFDF;
+}
+
+#statusBox { 
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+div.loadingbar {
+	background: white top left no-repeat;
+}
+
+div.loadingbar_green { background: url(../icons/layout/loadingbar_green.png); }
+div.loadingbar_red { background: url(../icons/layout/loadingbar_red.png); }
+div.loadingbar_orange { background: url(../icons/layout/loadingbar_orange.png); }
+div.loadingbar_yellow { background: url(../icons/layout/loadingbar_yellow.png); }
+div.loadingbar_blue { background: url(../icons/layout/loadingbar_blue.png); }
+
+ul.format-modes li.selected,
+ul.format-modes li:hover {
+	background-color: #8492B5;
+}
+
+ul.format-modes li {
+	background-color: rgb(191, 194, 201);
+}

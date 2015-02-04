@@ -202,10 +202,16 @@ div.pagination span a
 	text-transform:capitalize;
 }
 
+#statusBox,
 #layout-main div.forum li.header dt,
 #layout-main div.forum li.header dd
 {
 	font-family:Arial,Helvetica,sans-serif;
+}
+
+#layout-main div.forum li.header dt,
+#layout-main div.forum li.header dd
+{
 	font-size:1em;
 	font-weight:bold;
 	text-transform:uppercase;
@@ -417,6 +423,9 @@ div.relations .g_bubble.stripe div.type,
 	text-transform: capitalize;
 }
 
+#statusBox,
+ul.format-modes li.selected,
+ul.format-modes li:hover,
 a.tooltip:hover
 {
 	text-decoration:none;
@@ -474,4 +483,9 @@ a.tooltip span.text
 
 #layout-main #chartags a.tooltip span.cnt {
     font-size: 10px;
+}
+
+#statusBox,
+#obj-tooltip {
+	font-size: x-small;
 }

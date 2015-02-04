@@ -1,7 +1,23 @@
 #obj-tooltip
 {
+	position: absolute;
+	left: 0px;
 	width: 16em;
+	padding: 2px;
+	visibility: hidden;
+	z-index: 100;
 }
+
+#obj-pointer
+{
+	position: absolute;
+	left: -300px;
+	width: 15px;
+	height: 13px;
+	z-index: 101;
+	visibility: hidden;
+}
+
 #obj-tooltip div.releaseinfotooltip ul li
 {
 	padding: 2px;
