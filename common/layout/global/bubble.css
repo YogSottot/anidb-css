@@ -55,7 +55,7 @@
 
 .g_bubble.stripe > div.data
 {
-	margin: 0.5em;
+	margin: 0.5em 0.5em 0.5em 5em;
 }
 
 .g_bubble.stripe > div.data div + div
@@ -66,7 +66,6 @@
 .g_bubble.stripe > div.data div.name
 {
 	margin-bottom: 0.5em;
-	margin-left: 5.5em;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
 }
@@ -173,11 +172,6 @@
 .g_bubble.stripe.medium
 {
 	width:300px;
-}
-
-.g_bubble.stripe.medium > div.data
-{
-	width:235px;
 }
 
 .g_bubble.stripe.max > div.data div.name,
