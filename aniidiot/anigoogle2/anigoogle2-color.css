@@ -356,8 +356,6 @@ tr + tr td,
 li.g_odd + li,
 li + li.g_odd,
 #layout-nav div.menu_hr,
-#layout-main div.anime_all table.stafflist + table.stafflist,
-#layout-main div.anime_all div.episodes tr.newtype td,
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
@@ -370,6 +368,8 @@ li + li.g_odd,
 	border-top-color: #E8E8E8;
 }
 
+#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.anime_all div.episodes tr.newtype td,
 #layout-search ul.quicksearch li + li {
 	border-top-color: #CCCCCC !important;
 }
