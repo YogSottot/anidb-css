@@ -15,8 +15,6 @@
 }
 
 .i_forum_link,
-#layout-menu li.ed2kdump,
-#layout-menu li.mysignatures,
 #layout-menu li.sub-menu.main span.tab {
 	display: none;
 }
