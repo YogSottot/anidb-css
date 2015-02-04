@@ -1,20 +1,21 @@
-#layout-main div.calendar_all > div.middle div.filter_menu ~ div.content
-{
-	margin-right: 17.5em;
-}
-
-#layout-main div.calendar_all > div.middle div.filter_menu.collapsed ~ div.content
-{
-	margin-right:2.5em;
-}
-
-#layout-main div.calendar_all > div.top input.year,
-#layout-main div.calendar_all > div.bottom input.year
-{
+#layout-main div.calendar_all .g_section input.year {
 	width: 4em;
 	text-align: center;
 }
 
 #layout-main div.calendar_all .date_selector + .g_list {
 	margin-top: -2.3em;
+}
+
+#layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
+	margin-right: 17.5em;
+}
+
+#layout-main div.calendar_all .g_section.middle div.filter_menu.collapsed ~ div.content {
+	margin-right:2.5em;
+}
+
+#layout-main div.calendar_all .g_section.top,
+#layout-main div.calendar_all .g_section.bottom {
+	height: 2em;
 }
