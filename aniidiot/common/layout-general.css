@@ -60,6 +60,11 @@ input[type="password"],
 	padding: 2px 4px;
 }
 
+h4,
+#layout-main div.g_timedentry h4 {
+	line-height: 1.4em;
+}
+
 #layout-nav
 {
 	display: block;
