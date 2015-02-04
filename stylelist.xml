@@ -23,7 +23,7 @@
 	<style name="anidbstyle">
 		<title>AniDBstyle</title>
 		<creator>akujin</creator>
-		<update>30.07.2014</update>
+		<update/>
 		<status>in development</status>
 		<description>Generally aims to emulate the old table layout as closely as possible, but with much looser underlying markup. Converted to css by Rar,PetriW and epoximator.</description>
 		<path/>
@@ -43,7 +43,7 @@
 	<style name="anidbstyle_hacks">
 		<title>AniDBstyle Hacks</title>
 		<creator>Amour</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status>stable (v6)</status>
 		<description>hacks for the default css (IE7 compatibility)</description>
 		<path/>
@@ -53,7 +53,7 @@
 	<style name="anidbstyle_diebuster">
 		<title>AniDBstyle</title>
 		<creator>edokun</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status>up2date</status>
 		<description>based on anidbstyle</description>
 		<path/>
@@ -63,7 +63,7 @@
 	<style name="anidbstyle-dongato">
 		<title>AniDB Style DonGato's revision</title>
 		<creator>DonGato</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status>in sync with 0.1.50</status>
 		<description>it only works well with Firefox (sorry don't have any more time to spend with IE/Opera)</description>
 		<path/>
@@ -74,7 +74,7 @@
 		<title>Anigoogle</title>
 		<creator>Der Idiot</creator>
 		<update>09.04.2009</update>
-		<status>in development</status>
+		<status>retired</status>
 		<description>Style inspired by Google.</description>
 		<path/>
 		<screenshot>anigoogle/images/screenshot.png</screenshot>
@@ -93,7 +93,7 @@
 	<style name="anitube">
 		<title>Anitube</title>
 		<creator>Der Idiot</creator>
-		<update>30.07.2014</update>
+		<update>27.09.2008</update>
 		<status>in development</status>
 		<description>Style inspired by Youtube.</description>
 		<path/>
@@ -103,7 +103,7 @@
 	<style name="cdbstyle">
 		<title>CDBstyle</title>
 		<creator>CDB-Man</creator>
-		<update>02.01.2015</update>
+		<update>28.01.2015</update>
 		<status>constant development and updates</status>
 		<description>CDB`s improvements on DerIdiot`s AniDBstyle2.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
 		<path/>
@@ -117,8 +117,8 @@
 		<status>constant development and updates</status>
 		<description>CDB`s improvements on DerIdiot`s Anigoogle2.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
 		<path/>
-		<thumbnail>cdbstyle/images/thumbnail.png</thumbnail>
-		<screenshot>cdbstyle/images/screenshot.png</screenshot>
+		<thumbnail>cdbstyle-anigoogle2/images/thumbnail.png</thumbnail>
+		<screenshot>cdbstyle-anigoogle2/images/screenshot.png</screenshot>
 	</style>
 	<style name="dark-style">
 		<title>Dark Style</title>
@@ -133,7 +133,7 @@
 	<style name="fma_style">
 		<title>Fullmetal Alchemist Style</title>
 		<creator>jkaze</creator>
-		<update>30.07.2014</update>
+		<update>04.10.2009</update>
 		<status>Beta v2</status>
 		<description>Viewing some Fullmetal Alchemist characters in the top, with simple design!</description>
 		<path/>
@@ -143,7 +143,7 @@
 	<style name="foursquare">
 		<title>Foursquare</title>
 		<creator>Vaneska</creator>
-		<update>29.03.2013</update>
+		<update>21.10.2014</update>
 		<status>In Development</status>
 		<description>A Grey and White Theme with Customized Icons, based on Sub Brown 2.</description>
 		<path/>
@@ -153,8 +153,8 @@
 	<style name="geassmode">
 		<title>Geass Mode</title>
 		<creator>antennen</creator>
-		<update>05.10.2014</update>
-		<status>In development</status>
+		<update>26.12.2014</update>
+		<status>in development</status>
 		<description>Aiming to be a clean and usable design. Banner features C.C. and Kallen from Code Geass.</description>
 		<path/>
 		<screenshot>geassmode/images/screenshot.png</screenshot>
@@ -183,7 +183,7 @@
 	<style name="haruhistylex">
 		<title>HaruhiStyleX.AniDB</title>
 		<creator>TheJAG</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status>not maintained anymore and replaced by v2</status>
 		<description>NOTE! This style contains adult content. HaruhiStyleX.AniDB is developed for Opera at a resolution of 1280x1024 and may not work in any other webbrowser or lower resolutions. (Based on Harustyle by b1hn.)</description>
 		<path/>
@@ -193,7 +193,7 @@
 	<style name="haruhistylex-v1.5">
 		<title/>
 		<creator/>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status/>
 		<description/>
 		<path/>
@@ -203,7 +203,7 @@
 	<style name="harustyle">
 		<title>Harustyle</title>
 		<creator>b1nh</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status>In development
 </status>
 		<description>Completely recoded based on epox' gray css. Everything should work now.</description>
@@ -214,7 +214,7 @@
 	<style name="harustylele">
 		<title>Harustyle LE</title>
 		<creator>b1nh</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status/>
 		<description/>
 		<path/>
@@ -224,7 +224,7 @@
 	<style name="harustyle-fixed_menu">
 		<title>Harustyle (fixed menu edition)</title>
 		<creator>mehyaa</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status/>
 		<description/>
 		<path/>
@@ -244,7 +244,7 @@
 	<style name="sub-blue">
 		<title>sub-blue</title>
 		<creator>epoximator</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status/>
 		<description/>
 		<path/>
@@ -254,7 +254,7 @@
 	<style name="sub-brown">
 		<title>sub-brown</title>
 		<creator>epoximator</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status/>
 		<description/>
 		<path/>
@@ -264,7 +264,7 @@
 	<style name="sub-brown2">
 		<title>brown2</title>
 		<creator>PetriW</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status/>
 		<description/>
 		<path/>
@@ -284,7 +284,7 @@
 	<style name="sub-norwegian-blue">
 		<title>norwegian-blue</title>
 		<creator>PetriW</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status/>
 		<description/>
 		<path/>
@@ -294,7 +294,7 @@
 	<style name="sub-silver">
 		<title>sub-silver</title>
 		<creator>epoximator</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status/>
 		<description/>
 		<path/>
@@ -314,7 +314,7 @@
 	<style name="zakura-fixed_menu">
 		<title>Zakura (fixed menu edition)</title>
 		<creator>ricce</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status/>
 		<description/>
 		<path/>
@@ -324,11 +324,21 @@
 	<style name="zakura-menu">
 		<title>sub-zakura-menu</title>
 		<creator>fahrenheit</creator>
-		<update>30.07.2014</update>
+		<update>26.12.2014</update>
 		<status>Test</status>
 		<description>Based on Zakura by Zak and Nice-day by Epoximator</description>
 		<path></path>
 		<screenshot>zakura-menu/images/screenshot.png</screenshot>
 		<thumbnail>zakura-menu/images/thumbnail.png</thumbnail>
+	</style>
+	<style name="anigoogle2">
+		<title>Anigoogle2</title>
+		<creator>Der Idiot</creator>
+		<update>28.01.2015</update>
+		<status>in development</status>
+		<description>Style inspired by Google/Youtube</description>
+		<path/>
+		<thumbnail>anigoogle2/images/thumbnail.png</thumbnail>
+		<screenshot>anigoogle2/images/screenshot.png</screenshot>
 	</style>
 </css_styles>

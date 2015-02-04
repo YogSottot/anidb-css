@@ -39,20 +39,21 @@ def cssm(cssfile="/"):
 	if os.path.exists(__out) is False:
 		os.mkdir(__out)
 
-    for line in file('stylelist','rU').readlines():
-        if not line.startswith('#') and line.find(cssfile) > 0:
-            path,name = line.rstrip('\n').rsplit('/',1)
-            dirname   = path.lstrip('./').replace('/','-')
-            if 'aniidiot' in dirname:
-                crap, dirname = path.rsplit('/', 1)
-            out = __out+dirname
-            if os.path.exists(out) is False:
-                os.mkdir(out)
-            try:
-                cssmerge(line.rstrip('\n'), file(out + '/' + dirname + '.css', 'w'))
-            except Exception as e:
-                print out + '/' + path.lstrip('./').replace('/','-') + '.css'
-                print e
+	for line in file('stylelist','rU').readlines():
+		if not line.startswith('#') and line.find(cssfile) > 0:
+			path,name = line.rstrip('\n').rsplit('/',1)
+			dirname   = path.lstrip('./').replace('/','-')
+			if 'aniidiot' in dirname:
+				crap, dirname = path.rsplit('/', 1)
+			xml(unicode(dirname),path)
+			out = __out+dirname
+			if os.path.exists(out) is False:
+				os.mkdir(out)
+			try:
+				cssmerge(line.rstrip('\n'), file(out + '/' + dirname + '.css', 'w'))
+			except Exception as e:
+				print out + '/' + path.lstrip('./').replace('/','-') + '.css'
+				print e
 
 def xml(newstyle,path):
 	svn = {'day':18,'month':5,'year':2007} #date of the svn start. less bollocks now
