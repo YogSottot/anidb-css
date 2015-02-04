@@ -116,7 +116,7 @@ input[type="password"],
 #layout-search select {
 	margin-left: -5px;
 	padding: 4px 8px;
-	min-height: auto;
+	min-height: 0;
 }
 
 #layout-main > h1
