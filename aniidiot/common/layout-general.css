@@ -13,11 +13,25 @@ input[size="60"]
 	width: 36em;
 }
 
+textarea {
+    width: 36em;
+    height: 8em;
+}
+
 input[type="radio"],
 input[type="checkbox"] {
 	vertical-align: middle;
 	margin-right: 0.1em;
 	margin-bottom: 0.3em;
+}
+
+input[type="text"],
+input[type="password"] {
+    height: 16px;
+}
+
+select {
+	min-height: 23px;
 }
 
 select,
@@ -38,7 +52,9 @@ input[type="password"],
 #layout-main ul.g_list li a,
 #layout-main ul.g_list li span.nolink,
 #layout-main div.pagination span a,
-#layout-main div.pagination span strong
+#layout-main div.pagination span strong,
+#layout-main div.forum div.search form select,
+#layout-main div.forum div.search form button
 {
 	padding: 2px 4px;
 }
@@ -100,6 +116,7 @@ input[type="password"],
 #layout-search select {
 	margin-left: -5px;
 	padding: 4px 8px;
+	min-height: auto;
 }
 
 #layout-main > h1
@@ -302,11 +319,27 @@ h4,
 	display: block;
 }
 
+button,
 *.g_button,
 #layout-main ul.g_list li
 {
 	display: inline-block;
 	vertical-align: top;
+}
+
+.g_button.upload a,
+button,
+#layout-main div.edit_actions a,
+#layout-tabs ul li a,
+#layout-search .submit,
+#layout-main div.msg_all div.buttons li a,
+#layout-main div.msg_all ul.g_list li.sent a,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink {
+	line-height: 16px;
 }
 
 #layout-main div.group_all div.addfilem.options tr.group button,
@@ -342,14 +375,12 @@ h4,
 
 #layout-main div.g_menu.filter_menu div.settings input[type="text"]
 {
-	padding: 2px;
 	width: 12em;
 	margin-bottom: 2px;
 }
 
-#layout-main div.forum div.search form input + select
-{
-	margin-left: 0.5em;
+#layout-main div.forum div.search form input {
+    padding: 2px 4px 3px;
 }
 
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td
@@ -366,19 +397,8 @@ h4,
 	margin: 0px;
 }
 
-
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td input[type="text"] {
     width: 98%;
-}
-
-#layout-main div.forum div.search form select,
-#layout-main div.forum div.search form input {
-	padding: 4px;
-}
-
-#layout-main div.forum div.search form button,
-#layout-main div.forum div.search form input[type="submit"] {
-	padding: 4px 4px 3px;
 }
 
 #layout-main div.userpage_all div.stats table th {
@@ -393,4 +413,14 @@ h4,
 
 #layout-main div.votes_all div.container + div.container {
 	margin-left: 0.5em;
+}
+
+#layout-main div.g_menu.filter_menu button.delete + label,
+#layout-main .creq_all .creq_header + ul.g_list {
+	margin-top: 0.5em;
+}
+
+#layout-main ul.g_list + button,
+#layout-main div.forum div.buttons a + a {
+	margin-left: 0.4em !important;
 }

@@ -52,8 +52,21 @@
 	width: 8em;
 }
 
-#layout-main div.userpage_all div.blog div.pagination
-{
+#layout-main div.userpage_all div.blog div.topic_actions {
+	height: 100%;
+	margin-bottom: 0 0 1em 0;
+}
+
+#layout-main div.userpage_all div.blog div.buttons {
+	text-align: left;
+}
+
+#layout-main div.userpage_all div.blog div.buttons + div.pagination {
+	text-align: right;
+	margin-top: -1.7em;
+}
+
+#layout-main div.userpage_all div.blog div.pagination {
 	float: none;
 	text-align: right;
 }
@@ -81,8 +94,6 @@
 	min-height: 100px;
 }
 
-#layout-main div.userpage_all div.history ul.nav,
-#layout-main div.userpage_all div.history ul.filter,
 #layout-main div.userpage_all div.userprefs h4
 {
 	text-align: center;
@@ -132,13 +143,6 @@
 	clear: none;
 	margin-left: 0em;
 	margin-right: 0em;
-}
-
-#layout-main div.userpage_all div.blog div.buttons,
-#layout-main div.userpage_all div.blog div.buttons + div.pagination
-{
-	display: inline-block;
-	width: 48%;
 }
 
 #layout-main div.userpage_all div.blog div.g_timedentry.comment,

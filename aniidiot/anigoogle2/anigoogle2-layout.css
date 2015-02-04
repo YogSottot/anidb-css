@@ -82,11 +82,6 @@
 	margin-left: 0.2em !important;
 }
 
-#layout-main ul.g_list + button,
-#layout-main div.forum div.buttons a + a {
-	margin-left: 0.4em !important;
-}
-
 #layout-main ul.g_list {
 	min-height: 2.2em;
 }
@@ -133,17 +128,8 @@
 	padding: 2px 4px 4px;
 }
 
-#layout-search .submit {
-	line-height: 13px !important;
-}
-
 #layout-main div.g_menu.filter_menu button.delete {
 	margin-top: 0.3em;
-}
-
-#layout-main div.g_menu.filter_menu button.delete + label,
-#layout-main .creq_all .creq_header + ul.g_list {
-	margin-top: 0.5em;
 }
 
 #layout-search ul.quicksearch .g_bubble.stripe {
@@ -152,4 +138,8 @@
 
 #layout-main div.admin_all div.g_menu h4 {
 	text-align: left;
+}
+
+#layout-search ul.quicksearch {
+	margin: 0 0 0 3px;
 }

@@ -148,6 +148,10 @@ body {
     top: 1.7em;
 }
 
+#layout-search .submit {
+	line-height: 13px !important;
+}
+
 #layout-menu li.sub-menu ul li > a,
 #layout-menu li.sub-menu ul li > label
 {
@@ -187,7 +191,3 @@ body {
 	}
 }
 /*clickable logo*/
-
-#layout-search ul.quicksearch {
-	margin: 0 0 0 3px;
-}
