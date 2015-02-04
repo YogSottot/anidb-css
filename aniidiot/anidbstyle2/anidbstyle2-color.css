@@ -405,13 +405,23 @@ select,
 	border-bottom-color:#7D7D7D;
 }
 
-.g_bubble.quotebody,
-.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+.forum .comment .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble {
 	background-color: #E6E4D1;
 }
 
-.g_bubble.quotebody .g_bubble.quotebody,
-.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+.forum .comment .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.forum .comment .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble {
 	background-color: #F0EDD5;
 }
 
