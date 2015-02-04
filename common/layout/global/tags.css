@@ -198,10 +198,7 @@
 
 #layout-main div.tag-column .tag-block{
 	width: 250px;
-}
-
-#layout-main div.tag-column .tag-block + .tag-block {
-	padding-left: 3px;
+	padding: 0 0.5em;
 }
 
 #layout-main div.tag-column .tag-block .parent:not(:first-child) {
