@@ -91,15 +91,15 @@ th a:hover {
 #layout-main div.manga_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done
 {
-	background-color: #6193FF;
-	border-bottom-color: #6193FF;
+	background-color: #40aae3;
+	border-bottom-color: #40aae3;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
 #layout-main div.manga_all div.groups td.epbar div.done.mylist,
 #layout-main div.group_all div.group_released td.epbar div.done.mylist
 {
-	border-bottom-color: #6CF06C;
+	border-bottom-color: #27e353;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.notdone,
