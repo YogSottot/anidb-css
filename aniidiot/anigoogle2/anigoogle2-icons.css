@@ -209,11 +209,7 @@ button.delete:before,
 .i_topic_unsubscribe:before {
 	content: "\f09e";
 }
-button.reply:before,
-.i_pm_reply:before,
-#layout-main div.msg_all div.buttons li.new a:before {
-	content: "\f112";
-}
+
 button.search:before,
 #layout-search .submit:before {
 	content: "\f002";
@@ -278,6 +274,9 @@ button.prev:before {
 #layout-tabs ul li a:before {
 	content: "\f07b";
 }
+button.reply:before,
+.i_pm_reply:before,
+#layout-main div.msg_all div.buttons li.new a:before,
 #layout-main div.msg_all ul.g_list li.sent a:before {
 	content: "\f003";
 }
