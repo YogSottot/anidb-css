@@ -409,7 +409,7 @@ button.preview:before {
 	cursor:pointer;
 }
 .i_mylist:after {
-	content: "\f187";
+	content: "\f0ca";
 	cursor:pointer;
 }
 .i_state_verified:after {
