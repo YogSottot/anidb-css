@@ -113,3 +113,20 @@
 	margin-right: 1em;
 	text-align: left;
 }
+
+#layout-main div.creq_all div.tabbed_pane ul.tabs {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin: 1px 1px 0px 6px;
+}
+
+#layout-main .creq_all .tabbed_pane ul li {
+	margin: 0px 2px;
+	min-width: 3.4em;
+	text-overflow: ".";
+	overflow: hidden;
+	white-space: nowrap;
+}

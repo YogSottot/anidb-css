@@ -169,6 +169,9 @@ a.tooltip > span.text.g_bubble,
 .g_bubble,
 .g_bubble.g_odd,
 .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_odd .g_bubble .g_odd,
 #layout-main div.forum div.g_bubble.events,
 #layout-main div.forum div.g_bubble.search,
@@ -209,6 +212,8 @@ div.g_odd,
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-main div.forum ul.topics li.row,
 #layout-tabs ul.main-tabs li.selected,
 #layout-tabs ul.main-tabs li:hover,
@@ -405,10 +410,18 @@ select,
 	border-bottom-color:#7D7D7D;
 }
 
-div.g_bubble.quotebody
-{
+.g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
 	background-color: #E6E4D1;
-	border-color: #9A9A9A #7D7D7D #7D7D7D #9A9A9A;
+}
+
+.g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+	background-color: #F0EDD5;
 }
 
 #layout-main div.main_all div.datablocks h4,

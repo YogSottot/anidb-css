@@ -284,3 +284,8 @@
 {
 	border-bottom: none;
 }
+
+#layout-main div.main_all .datablocks s.g_bubble.stripe > div.data {
+	max-height: 8em;
+	overflow:hidden;
+}

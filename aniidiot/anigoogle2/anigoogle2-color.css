@@ -116,6 +116,9 @@ span.g_odd,
 div.g_odd,
 .g_bubble,
 .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 a.tooltip > span.text.g_bubble,
 .g_button a:hover,
 .i_comment_add:hover,
@@ -154,6 +157,7 @@ button.confirmButton:hover,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-main ul.g_list li:hover,
+#layout-main ul.g_list li.g_odd:hover,
 #layout-main ul.g_list li.selected,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
@@ -235,6 +239,8 @@ button.confirmButton,
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-menu li.sub-menu ul,
 #layout-tabs ul.main-tabs > li.selected,
 #layout-tabs ul.main-tabs > li:hover,
@@ -311,6 +317,7 @@ button.confirmButton,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2,
 #layout-main div.forum div.events div.data > p,
+#layout-main div.forum div.poll div.data p,
 #layout-main div.forum div.postbody div.code div.title,
 #layout-main div.forum div.poll div.data,
 #layout-main div.forum div.g_bubble.threads,
@@ -320,6 +327,17 @@ button.confirmButton,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
 #layout-main div.msg_all div.forum ul.topics dd.check {
 	border-color: #CCCCCC;
+}
+
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus {
+    border-color: #CCCCCC !important;
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp a,
@@ -587,4 +605,18 @@ a.tooltip span.text {
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover {
 	background-color: #E8E8E8;
+}
+
+.g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+	background-color: #E6E4D1;
+}
+
+.g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+	background-color: #F0EDD5;
 }
