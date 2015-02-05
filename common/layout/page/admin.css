@@ -1,4 +1,4 @@
-#layout-main div.admin_all div.g_menu {
+#layout-main div.admin_all div.g_menu.admin {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -19,7 +19,7 @@
     width: 50em;
 }
 
-#layout-main div.admin_all div.g_menu .sub-menu {
+#layout-main div.admin_all div.g_menu.admin .sub-menu {
 margin-bottom: 0.5em;
 }
 
