@@ -125,9 +125,27 @@
 
 #layout-main .creq_all .tabbed_pane ul li {
 	margin: 0px 2px;
-	min-width: 3.4em;
-	text-overflow: ".";
+	min-width: 3em;
 	overflow: hidden;
-	white-space: nowrap;
 	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.creq_all div.tabbed_pane ul.tabs {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	#layout-main .creq_all .tabbed_pane ul li {
+		min-width: 0em;
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	#layout-main .creq_all .tabbed_pane ul li {
+		white-space: normal;
+	}
 }
