@@ -781,6 +781,10 @@ div.g_bubble.quotebody {
 	margin-bottom: 1em;
 }
 
+#layout-main div.g_bubble.spoiler button.spoiler {
+	margin: 0.5em;
+}
+
 #layout-main div.forum div.content img,
 #layout-main div.news div.newsitem img
 {
