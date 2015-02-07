@@ -1,5 +1,4 @@
-html
-{
+html {
 	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
 	font-size:10px;
 }
@@ -12,38 +11,32 @@ li,
 dt,
 dd,
 span,
-a
-{
+a {
 	font-weight:inherit;
 }
 
 a,
 del,
-ins
-{
+ins {
 	text-decoration:none;
 }
 
-h1
-{
+h1 {
 	font-size:160%;
 }
 
-h1 a
-{
+h1 a {
 	font-size:100%;
 }
 
 h4,
 caption,
-#layout-main #chartags h3
-{
+#layout-main #chartags h3 {
 	font-size:120%;
 }
 
 .tab,
-h4 span
-{
+h4 span {
 	-cursor:hand;
 	cursor:pointer;
 }
@@ -56,30 +49,26 @@ span.date,
 span.user,
 td.rating,
 #menu-account li.alert,
-#layout-main div.anime_all div.g_section.mylist td.title
-{
+#layout-main div.anime_all div.g_section.mylist td.title {
 	white-space:nowrap;
 }
 
 span.date,
 span.user a.id,
 td.id,
-td.size
-{
+td.size {
 	letter-spacing:-1px;
 }
 
 span.time,
 span.user a.id,
 td.rating span,
-a.filter
-{
+a.filter {
 	font-size:80%;
 	vertical-align:top;
 }
 
-.file_all dd.group span.time
-{
+.file_all dd.group span.time {
 	display:none;
 }
 
@@ -89,8 +78,7 @@ td.number,
 td.size,
 td.epno,
 td.duration,
-#layout-main div.up2date_file_list table td.mylist
-{
+#layout-main div.up2date_file_list table td.mylist {
 	text-align:right;
 }
 
@@ -106,8 +94,7 @@ td.quality,
 td.title,
 td.name,
 #layout-main div.main_all div.news h4,
-#layout-main div.profile_all .g_info
-{
+#layout-main div.profile_all .g_info {
 	text-align:left;
 }
 
@@ -138,44 +125,37 @@ td.check,
 .g_section,
 #layout-footer p,
 #layout-main div.profile_all p,
-#layout-main table.grouplist td.number.eps
-{
+#layout-main table.grouplist td.number.eps {
 	text-align:center;
 }
 
 .tiny,
 small,
 #layout-main .name span.main,
-#layout-main .name span.match
-{
+#layout-main .name span.match {
 	font-size:95%;
 }
 
-#layout-main div.userlist_all table td.hidden:after
-{
+#layout-main div.userlist_all table td.hidden:after {
 	color:red;
 	content:" hidden";
 }
 
-#layout-main div.anime_all div.groups td.state.unknown
-{
+#layout-main div.anime_all div.groups td.state.unknown {
 	content:"N/A";
 }
 
-#layout-main div.addfile_add tr.subheader td
-{
+#layout-main div.addfile_add tr.subheader td {
 	font-weight:bold;
 	height:2em;
 }
 
-#layout-main div.anime_all div.groups td.mylist
-{
+#layout-main div.anime_all div.groups td.mylist {
 	font-weight:bold;
 	text-align:center;
 }
 
-#layout-main div.japan_time
-{
+#layout-main div.japan_time {
 	font-size:120%;
 	font-weight:bold;
 	text-align:left;
@@ -183,8 +163,7 @@ small,
 
 button,
 input[type="button"],
-input[type="submit"]
-{
+input[type="submit"] {
 	padding:1px;
 }
 
@@ -194,8 +173,7 @@ span.test,
 .g_list li,
 .g_list li a,
 div.pagination span strong,
-div.pagination span a
-{
+div.pagination span a {
 	-moz-user-select:none;
 	-user-select:none;
 	padding:1px 2px;
@@ -204,61 +182,52 @@ div.pagination span a
 
 #statusBox,
 #layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd
-{
+#layout-main div.forum li.header dd {
 	font-family:Arial,Helvetica,sans-serif;
 }
 
 #layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd
-{
+#layout-main div.forum li.header dd {
 	font-size:1em;
 	font-weight:bold;
 	text-transform:uppercase;
 }
 
-#layout-main div.forum a.topictitle
-{
+#layout-main div.forum a.topictitle {
 	font-family:"Trebuchet MS",Helvetica,Arial,Sans-serif;
 	font-size:13px;
 	font-weight:bold;
 }
 
-#layout-main div.forum div.statistics h3
-{
+#layout-main div.forum div.statistics h3 {
 	font-size:10px;
 	font-weight:bold;
 	text-transform:uppercase;
 }
 
-#layout-main div.forum div.statistics p
-{
+#layout-main div.forum div.statistics p {
 	font-size:11px;
 	line-height:1.3em;
 }
 
-#layout-main div.forum div.postbody div.code div.title
-{
+#layout-main div.forum div.postbody div.code div.title {
 	font-family:"Lucida Grande","Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
 	font-size:1em;
 	font-weight:bold;
 }
 
-#layout-main div.forum div.postbody div.code code
-{
+#layout-main div.forum div.postbody div.code code {
 	font-family:Monaco,"Andale Mono","Courier New",Courier,mono;
 	font-size:12px;
 }
 
-#layout-main div.forum div.options-box span.desc
-{
+#layout-main div.forum div.options-box span.desc {
 	font-style:italic;
 	font-weight:normal;
 }
 
 #layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2
-{
+#layout-main div.forum div.poll h2 {
 	font-size:16px;
 	font-weight:bold;
 }
@@ -266,15 +235,13 @@ div.pagination span a
 #layout-main div.forum ul.topiclist li.row dl.icon dt.icon span.title,
 #layout-main div.forumsearch_form dt span.desc,
 #layout-main div.creq_all .state.return th.field,
-#layout-main div.creq_all .state.new th.field
-{
+#layout-main div.creq_all .state.new th.field {
 	font-weight:normal;
 }
 
 button:hover,
 input[type="submit"]:hover,
-th.sortable
-{
+th.sortable {
 	cursor:pointer;
 }
 
@@ -292,32 +259,27 @@ th.sortable
 }
 
 #layout-main div.anime_all div.groups td.state.dropped,
-#layout-main div.group_released td.state.dropped
-{
+#layout-main div.group_released td.state.dropped {
 	text-decoration:underline;
 }
 
 #layout-main div.msg_all div.header dt,
 #layout-main div.forumsearch_form dt,
-#layout-main div.forum div.add-box dl dt
-{
+#layout-main div.forum div.add-box dl dt {
 	font-size:11px;
 	font-weight:bold;
 }
 
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
-#layout-main div.addtagentityrel_all div.addbox div.tag-column span.link
-{
+#layout-main div.addtagentityrel_all div.addbox div.tag-column span.link {
 	line-height:1.5em;
 }
 
-h4.collapsed span
-{
+h4.collapsed span {
 	text-decoration:line-through;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li
-{
+#layout-main div.main_all div.header div.account ul.tabs li {
 	font-size: 13px;
 }
 
@@ -326,8 +288,7 @@ h4.collapsed span
 #layout-main div.forum ul.topics dd.topics,
 #layout-main div.addtagentityrel_all div.addbox div.tag-group h3,
 #layout-main div.userpage_all div.userdetails div.block caption,
-#layout-main div.picupload_all input[type="file"]
-{
+#layout-main div.picupload_all input[type="file"] {
 	font-size:12px;
 }
 
@@ -335,8 +296,7 @@ h4.collapsed span
 #layout-main div.forum div.poll p,
 #layout-main div.forum div.postbody div.code,
 #layout-main div.userpage_all div.block caption,
-#layout-main div.userpage_all div.block h3
-{
+#layout-main div.userpage_all div.block h3 {
 	font-size:1em;
 }
 
@@ -358,8 +318,7 @@ h4.collapsed span
 #layout-main div.forum div.quickreply textarea,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
-#layout-main div.main_all div.datablocks > div.account
-{
+#layout-main div.main_all div.datablocks > div.account {
 	font-size:11px;
 }
 
@@ -412,62 +371,53 @@ div.relations .g_bubble.stripe div.type,
 
 .g_italic,
 #layout-main div.main_all div.header div.latestnews div.posted,
-#layout-main div.profile_all div.account tr th p.note
-{
+#layout-main div.profile_all div.account tr th p.note {
 	font-style: italic;
 	font-weight: normal;
 }
 
-#layout-main div.anime_all div.info div.caststaff div h4
-{
+#layout-main div.anime_all div.info div.caststaff div h4 {
 	text-transform: capitalize;
 }
 
 #statusBox,
 ul.format-modes li.selected,
 ul.format-modes li:hover,
-a.tooltip:hover
-{
+a.tooltip:hover {
 	text-decoration:none;
 }
 
-a.tooltip span.text
-{
+a.tooltip span.text {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
 }
 
-#layout-main div.tag-column h5
-{
+#layout-main div.tag-column h5 {
 	font-size: 11px;
 	font-weight:bold;
 }
 
 #layout-main div.addtagentityrel_all #tag-groups span.link.unset,
 #layout-main div.addtagentityrel_all #tag-list div.tag.delete span.name,
-#layout-main div.tag-column span.not_added
-{
+#layout-main div.tag-column span.not_added {
 	text-decoration: line-through;
 }
 
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.addtagentityrel_all #tag-groups span.link,
 #layout-main div.addtagentityrel_all #tag-list div.tag span.actions,
-#layout-main div.search_all div.suggestions span
-{
+#layout-main div.search_all div.suggestions span {
 	cursor: pointer;
 }
 
 #layout-main div.addtagentityrel_all #tag-list div.tag.abstract span.actions,
-#layout-main div.addtagentityrel_all #tag-list div.tag.forbidden span.actions
-{
+#layout-main div.addtagentityrel_all #tag-list div.tag.forbidden span.actions {
 	cursor: auto;
 }
 
 #layout-main div.admin_tags_all div.actions select,
-#layout-main div.addtagentityrel_all #tag-groups span.link
-{
+#layout-main div.addtagentityrel_all #tag-groups span.link {
 	font-size: 12px;
 }
 

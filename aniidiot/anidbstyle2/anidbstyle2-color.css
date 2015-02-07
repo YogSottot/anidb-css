@@ -1,7 +1,7 @@
 #layout-search div.search,
 #layout-menu li.sub-menu ul li#user-logout a,
 #layout-menu li.sub-menu ul li#user-xauth button,
-#layout-main div.spoiler button.button
+#layout-main div.spoiler button.spoiler
 {
 	background: none;
 }
@@ -62,7 +62,7 @@ input[type="submit"]:hover,
 #layout-main tr.header th.sortable:hover,
 #layout-menu li.user-xauth input[type="button"],
 #layout-search .submit:hover,
-#layout-main div.spoiler button.button:hover,
+#layout-main div.spoiler button.spoiler:hover,
 *.g_button a:hover,
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.pagination span a:hover,
@@ -155,7 +155,7 @@ input[type="submit"]:hover,
 #layout-main tr.header th.sortable:hover,
 #layout-menu li.user-xauth input[type="button"],
 #layout-search .submit:hover,
-#layout-main div.spoiler button.button:hover,
+#layout-main div.spoiler button.spoiler:hover,
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
@@ -250,7 +250,7 @@ th,
 #layout-menu li.sub-menu ul li#user-xkeep:hover,
 #layout-menu li.sub-menu ul li#user-xauth:hover,
 #layout-main div.anime_all div.info div.caststaff div h4,
-#layout-main div.spoiler button.button,
+#layout-main div.spoiler button.spoiler,
 input[type="text"],
 input[type="password"],
 input.text,
@@ -414,14 +414,14 @@ select,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #E6E4D1;
+	background-color: #E6E4D1 !important;
 }
 
 .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #F0EDD5;
+	background-color: #F0EDD5 !important;
 }
 
 #layout-main div.main_all div.datablocks h4,

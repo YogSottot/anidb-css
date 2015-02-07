@@ -611,12 +611,12 @@ a.tooltip span.text {
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #E6E4D1;
+	background-color: #E6E4D1 !important;
 }
 
 .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #F0EDD5;
+	background-color: #F0EDD5 !important;
 }
