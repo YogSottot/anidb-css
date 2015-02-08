@@ -90,12 +90,10 @@ body {
 	padding: 0;
 }
 
-#layout-menu li.sub-menu.alert ul li span,
 #layout-menu li.sub-menu ul li > a span {
 	padding: 0 8px;
 }
 
-#layout-menu li.sub-menu.alert ul li span,
 #layout-menu li.sub-menu ul li.user-xkeep > label,
 #layout-main h1.main,
 #layout-main div.main_all {

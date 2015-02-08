@@ -262,16 +262,6 @@ h4,
 	padding: 8px;
 }
 
-#layout-menu li.sub-menu.alert ul li span {
-	display: inline-block;
-	margin-top:0.25em;
-}
-
-#layout-tabs li.news,
-#layout-menu li.sub-menu.alert ul li span a {
-	display: inline;
-}
-
 #layout-main div.main_all div.rightbar li span {
 	position: absolute;
 }
