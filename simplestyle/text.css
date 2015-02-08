@@ -23,16 +23,6 @@
 	font-weight:bolder;
 }
 
-#layout-menu li.genren:before
-{
-	content:"(";
-}
-
-#layout-menu li.genren:after
-{
-	content:")";
-}
-
 #layout-menu a
 {
 	font-size:12px;

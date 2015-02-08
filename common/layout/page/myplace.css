@@ -1,54 +1,45 @@
-#layout-main div.userpage_all div.stats div table td.value
-{
+#layout-main div.userpage_all div.stats div table td.value {
 	text-align: right;
 }
 
 #layout-main div.userpage_all div.buddies ul li,
-#layout-main div.userpage_all div.favreviewers ul li
-{
+#layout-main div.userpage_all div.favreviewers ul li {
 	padding: 1px 6px;
 }
 
 
-#layout-main div.userpage_all div.charts div
-{
+#layout-main div.userpage_all div.charts div {
 	display: inline-block;
 }
 
-#layout-main div.userpage_all div.charts div.votedistribution
-{
+#layout-main div.userpage_all div.charts div.votedistribution {
 	padding-left: 50px;
 }
 
-#layout-main div.userpage_all div.userdetails p
-{
+#layout-main div.userpage_all div.userdetails p {
 	margin-left: 4em;
 	margin-right: 2em;
 	margin-top: 2em;
 	text-align: left;
 }
 
-#layout-main div.userpage_all div.charts
-{
+#layout-main div.userpage_all div.charts {
 	height: 540px;
 }
 
-#layout-main div.userpage_all div.cmt_entries
-{
+#layout-main div.userpage_all div.cmt_entries {
 	clear: none;
 	display: inline-block;
 	width: 100%;
 }
 
 #layout-main div.userpage_all div.charts div.error,
-#layout-main div.userpage_all div.forum div.error
-{
+#layout-main div.userpage_all div.forum div.error {
 	clear: none;
 	float: none;
 }
 
-#layout-main div.userpage_all div.stats table th
-{
+#layout-main div.userpage_all div.stats table th {
 	width: 8em;
 }
 
@@ -71,31 +62,26 @@
 	text-align: right;
 }
 
-#layout-main div.userpage_all div.blog div.topic_actions a
-{
+#layout-main div.userpage_all div.blog div.topic_actions a {
 	float: none;
 	text-align: left;
 }
 
 #layout-main div.userpage_all div.cmt_entries div.postbody div.content,
-#layout-main div.userpage_all div.cmt_entries div.postbody div.signature
-{
+#layout-main div.userpage_all div.cmt_entries div.postbody div.signature {
 	margin-left: 1em;
 }
 
-#layout-main div.userpage_all div.cmt_entries div.postbody p.author
-{
+#layout-main div.userpage_all div.cmt_entries div.postbody p.author {
 	padding-left: 1em;
 }
 
 #layout-main div.userpage_all div.blog div.g_timedentry,
-#layout-main div.userpage_all div.blog div.g_timedentry div.body
-{
+#layout-main div.userpage_all div.blog div.g_timedentry div.body {
 	min-height: 100px;
 }
 
-#layout-main div.userpage_all div.userprefs h4
-{
+#layout-main div.userpage_all div.userprefs h4 {
 	text-align: center;
 }
 
@@ -103,79 +89,66 @@
 #layout-main div.userpage_all div.history ul.filter,
 #layout-main div.userpage_all > div.g_section,
 #layout-main div.userpage_all div.forum,
-#layout-main div.userpage_all div.blog div.g_msg.note
-{
+#layout-main div.userpage_all div.blog div.g_msg.note {
 	clear: none;
 }
 
 #layout-main div.userpage_all > div.g_section,
-#layout-main div.userpage_all div.forum
-{
+#layout-main div.userpage_all div.forum {
 	margin-left: 21em;
 }
 
-#layout-main div.userpage_all div.g_section + div.g_section
-{
+#layout-main div.userpage_all div.g_section + div.g_section {
 	margin-top: 1.5em;
 }
 
 #layout-main div.userpage_all div.latest div + div,
 #layout-main div.userpage_all div.stats div + div,
-#layout-main div.userpage_all div.g_menu div + div
-{
+#layout-main div.userpage_all div.g_menu div + div {
 	margin-top: 1em;
 }
 
 #layout-main div.userpage_all div.userdetails .block div table,
 #layout-main div.userpage_all div.history table,
-#layout-main div.userpage_all div.stats table
-{
+#layout-main div.userpage_all div.stats table {
 	width: 100%;
 }
 
-#layout-main div.userpage_all div.userdetails .block div table th
-{
+#layout-main div.userpage_all div.userdetails .block div table th {
 	width: 7em;
 }
 
-#layout-main div.userpage_all div.userdetails div.desc
-{
+#layout-main div.userpage_all div.userdetails div.desc {
 	clear: none;
 	margin-left: 0em;
 	margin-right: 0em;
 }
 
 #layout-main div.userpage_all div.blog div.g_timedentry.comment,
-#layout-main div.userpage_all div.blog div.g_timedentry.comment div.body
-{
+#layout-main div.userpage_all div.blog div.g_timedentry.comment div.body {
 	min-height: 0;
 }
 
-#layout-main div.userpage_all div.blog div.g_timedentry div.poll
-{
+#layout-main div.userpage_all div.blog div.g_timedentry div.poll {
 	margin-top: .5em;
 }
 
-#layout-main div.userpage_all div.blog div.blogcomments div.topic_actions
-{
+#layout-main div.userpage_all div.blog div.blogcomments div.topic_actions {
 	margin-bottom: 1em;
 	margin-top: 0;
 }
 
-#layout-main div.userpage_all div.blog div.g_timedentry
-{
+#layout-main div.userpage_all div.blog div.g_timedentry {
 	margin-bottom: 1em;
 }
 
-#layout-main div.userpage_all div.blog div.g_timedentry h4
-{
+#layout-main div.userpage_all div.blog div.g_timedentry h4 {
 	display: table-cell;
 	padding-left: 0.5em;
 	padding-right: 1.5em;
 }
 
-#layout-main div.userpage_all div.blog div.g_timedentry span.stamp
-{
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
 	margin-bottom: 1.5em;
 	margin-top: 0;
 	padding-top: 1px;
@@ -184,13 +157,11 @@
 }
 
 #layout-main div.userpage_all div.blog div.blogcomments h4,
-#layout-main div.userpage_all div.blog div.g_timedentry p.cmt
-{
+#layout-main div.userpage_all div.blog div.g_timedentry p.cmt {
 	text-align: left;
 }
 
-#layout-main div.userpage_all div.latest_recommendations > div.edit_actions
-{
+#layout-main div.userpage_all div.latest_recommendations > div.edit_actions {
 	text-align: right;
 	margin-right: 1em;
 	margin-top: -1.6em;
@@ -198,38 +169,32 @@
 }
 
 #layout-main div.userpage_all div.badges > div.badge,
-#layout-main div.userpage_all div.userprefs > div > div
-{
+#layout-main div.userpage_all div.userprefs > div > div {
 	display: inline-table;
 	vertical-align: top;
 }
 
-#layout-main div.userpage_all > div.g_section div.content
-{
+#layout-main div.userpage_all > div.g_section div.content {
 	margin-top:0.5em;
 	clear: none;
 	width:100%;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation
-{
+#layout-main div.userpage_all .g_bubble.stripe.recommendation {
     height: 125px;
     position: relative;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.data div.text
-{
+#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.data div.text {
     max-height: inherit;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.data
-{
+#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.data {
     height: 95px;
     overflow-y: auto;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.author
-{
+#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.author {
     bottom: 0;
     position: absolute;
     margin: 0.5em 0.5em 0.5em 6em;

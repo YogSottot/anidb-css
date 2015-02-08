@@ -40,7 +40,6 @@
 	background-image: url(../icons/state/anidb_atype_other.gif); 
 }
 
-*.i_recap
-{
+*.i_recap {
 	background-image: url(../icons/icon/anidb_recap.gif);
 }

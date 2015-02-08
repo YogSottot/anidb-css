@@ -1,22 +1,18 @@
-#layout-main div.myrecs_all .g_bubble.stripe.recommendation
-{
+#layout-main div.myrecs_all .g_bubble.stripe.recommendation {
     height: 125px;
     position: relative;
 }
 
-#layout-main div.myrecs_all .g_bubble.stripe.recommendation > div.data div.text
-{
+#layout-main div.myrecs_all .g_bubble.stripe.recommendation > div.data div.text {
     max-height: inherit;
 }
 
-#layout-main div.myrecs_all .g_bubble.stripe.recommendation > div.data
-{
+#layout-main div.myrecs_all .g_bubble.stripe.recommendation > div.data {
     height: 95px;
     overflow-y: auto;
 }
 
-#layout-main div.myrecs_all .g_bubble.stripe.recommendation > div.author
-{
+#layout-main div.myrecs_all .g_bubble.stripe.recommendation > div.author {
     bottom: 0;
     position: absolute;
     margin: 0.5em 0.5em 0.5em 6em;

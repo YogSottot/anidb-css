@@ -1,6 +1,5 @@
 body.nonav #layout-main,
-body.nonav #layout-footer
-{
+body.nonav #layout-footer {
 	width: auto;
 	height: 90%;
 	margin:0;
@@ -8,46 +7,38 @@ body.nonav #layout-footer
 }
 
 #layout-nav input,
-#layout-nav button
-{
+#layout-nav button {
 	width: 100%;
 }
 
 
 #layout-main table,
-#layout-main table caption
-{
+#layout-main table caption {
 	margin: 0 auto 0 auto;
 }
 
-#layout-nav #user-xkeep input
-{
+#layout-nav #user-xkeep input {
 	border: none;
 	width: auto;
 }
 
-body.nonav
-{
+body.nonav {
 	padding: 0;
 }
-body.nonav #layout-main h1
-{
+body.nonav #layout-main h1 {
 	display: none;
 }
 
-.hide
-{
+.hide {
 	display: none !important;
 }
 
 #layout-menu span.tab,
-#layout-tabs
-{
+#layout-tabs {
 	display: none;
 }
 
-#layout-menu span.tab
-{
+#layout-menu span.tab {
 	position: absolute; /*IE6*/
 }
 
@@ -56,18 +47,15 @@ body.nonav #layout-main h1
 #layout-main .g_list,
 #layout-main .g_msg,
 #layout-main div.addepm div.ep,
-#layout-main div.cmt_all div.topic_actions
-{
+#layout-main div.cmt_all div.topic_actions {
 	margin-bottom: 1em;
 }
 
-#layout-main table + .g_list
-{
+#layout-main table + .g_list {
 	margin-top: 1em;
 }
 
-#layout-main .g_end
-{
+#layout-main .g_end {
 	padding: 0;
 	margin: 0;
 	clear: right;
@@ -75,31 +63,26 @@ body.nonav #layout-main h1
 }
 
 #layout-main .g_section,
-#layout-main .g_list
-{
+#layout-main .g_list {
 	clear: both;
 }
 
-#layout-main .g_list.type
-{
+#layout-main .g_list.type {
 	float: left;
 }
 
-#layout-main .g_list.limit
-{
+#layout-main .g_list.limit {
 	float: right;
 }
 
 #layout-main div.anime_all div.info tr.official td.value span.icons,
 #layout-main div table td.name span.icons,
 #layout-main div table td.title span.icons,
-#layout-main table.filelist td.source span.icons
-{
+#layout-main table.filelist td.source span.icons {
 	float: right;
 }
 
-#layout-main div table td.title span.icons.language
-{
+#layout-main div table td.title span.icons.language {
 	float:left;
 	padding-right: 0.3em;
 }
@@ -107,30 +90,25 @@ body.nonav #layout-main h1
 #layout-main .icons .i_icon,
 #layout-main div.group_released tr td.languages span.i_icon,
 #layout-main div.anime_all div.groups td.languages span.i_icon,
-#layout-main div.anime_all div.episodes td.action .i_icon
-{
+#layout-main div.anime_all div.episodes td.action .i_icon {
 	float: left;
 }
 
-#layout-main td.icons.quality .i_icon
-{
+#layout-main td.icons.quality .i_icon {
 	padding: 0px;
 }
 
 #layout-main div.ep_all table.filelist,
-#layout-main div.ed2kdump_box textarea
-{
+#layout-main div.ed2kdump_box textarea {
 	width: 98%;
 }
 
 
-#layout-main div.mylist_list table td.rating.votes span.count
-{
+#layout-main div.mylist_list table td.rating.votes span.count {
 	display: none;
 }
 
-#layout-hint
-{
+#layout-hint {
 	position: absolute;
 	top: 0;
 	width: 99.8%;
@@ -138,8 +116,7 @@ body.nonav #layout-main h1
 	z-index:10;
 }
 
-ul.format-modes
-{
+ul.format-modes {
 	list-style: none;
 }
 
@@ -169,12 +146,10 @@ div.loadingbar {
 	border: 1px solid;
 }
 
-table + select
-{
+table + select {
 	margin-top:1em;
 }
 
-*.shuttle
-{
+*.shuttle {
 	min-width:15em;
 }

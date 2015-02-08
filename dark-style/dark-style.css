@@ -416,8 +416,7 @@ tr.files:hover td
 	padding-top:0;
 }
 
-div.data th,
-div.addgenren_all div.add th
+div.data th
 {
 	text-align:left;
 	width:100px;
@@ -684,16 +683,6 @@ div.rel_all div.animerel img
 	display:block;
 }
 
-div.addgenren_all table
-{
-	width:600px;
-}
-
-div.addgenren_all table td.action
-{
-	width:175px;
-}
-
 div.animehist_all div.users,
 div.animehist_all div.files
 {
@@ -887,35 +876,6 @@ div.modlatest_all td.action a
 {
 	float:right;
 	margin:0 2px;
-}
-
-div.genren_all div.controls a
-{
-	cursor:pointer;
-}
-
-div.genren_all a.i_icon
-{
-	cursor:pointer;
-	float:left;
-	margin-right:-35px;
-	position:relative;
-	right:20px;
-}
-
-div.genren_all ul
-{
-	margin:0 0 0 20px;
-}
-
-div.genren_all li
-{
-	padding:1px 3px;
-}
-
-div.genren_all li span
-{
-	display:block;
 }
 
 #layout-footer
@@ -1550,7 +1510,6 @@ fieldset,
 #user-profile a span,
 #user-logout a span,
 div.search_all li.collapsed ul,
-div.genren_all li.collapsed ul,
 *.i_icon span,
 *.i_button span,
 *.i_inline span,
@@ -1593,8 +1552,7 @@ div.producer_all div.block,
 div.group_all div.block,
 div.main_all div.rightbar p,
 div.latestanimes_all div.latestanimes_form,
-div.myplace_all table td,
-div.genren_all div.controls
+div.myplace_all table td
 {
 	text-align:center;
 }
@@ -1723,8 +1681,6 @@ div.anime_all div.groups td.cmts,
 div.anime_all div.episodes td.id,
 div.anime_all div.episodes td.duration,
 div.anime_all div.episodes td.files,
-div.addgenren_list td.id,
-div.addgenren_list td.weight,
 div.animehist_all td.eps,
 div.animehist_all td.files,
 div.animehist_all td.groups,
@@ -1786,9 +1742,6 @@ div.anime_all div.episodes td.users,
 div.anime_all div.episodes td.mylist,
 div.anime_all div.episodes td.file,
 div.anime_all table.filelist td.title,
-div.addgenren_list td.action,
-div.addgenren_form td.weight,
-div.addgenren_form td.check,
 div.animehist_all td.users,
 div.animehist_all td.review,
 div.addanimetitle_all td.date,
@@ -1876,7 +1829,6 @@ div.myvotes_all td.date,
 div.myvotes_all td.action,
 div.buddylist_all td.date,
 div.mynotifies_all td.date,
-div.latest_all td.category,
 div.latest_all td.date,
 div.userlist_all td.date
 {

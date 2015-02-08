@@ -1,42 +1,34 @@
-#layout-main div.myvotes_all table
-{
+#layout-main div.myvotes_all table {
 	width: 100%
 }
 
-#layout-main div.myvotes_all ul.filter
-{
+#layout-main div.myvotes_all ul.filter {
 	float:left;
 	clear:none;
 }
-#layout-main div.myvotes_all td
-{
+#layout-main div.myvotes_all td {
 	padding-left:1em;
 	padding-right:1em;
 }
 
 #layout-main div.myvotes_all td.date,
 #layout-main div.myvotes_all td.vote,
-#layout-main div.myvotes_all td.state
-{
+#layout-main div.myvotes_all td.state {
 	width:6em;
 }
 
-#layout-main div.myvotes_all td.cast
-{
+#layout-main div.myvotes_all td.cast {
 	width:8em;
 }
 
-#layout-main div.myvotes_all td.action
-{
+#layout-main div.myvotes_all td.action {
 	width:10em;
 }
 
-#layout-main div.myvotes_all td.thumb
-{
+#layout-main div.myvotes_all td.thumb {
 	width:5em;
 }
 
-#layout-main div.myvotes_all td.number
-{
+#layout-main div.myvotes_all td.number {
 	width:3em;
 }

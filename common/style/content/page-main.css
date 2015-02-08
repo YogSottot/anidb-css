@@ -1,9 +1,7 @@
-#layout-main div.main_all div.header div.latestnews span.counter:before
-{
+#layout-main div.main_all div.header div.latestnews span.counter:before {
 	content: "[";
 }
 
-#layout-main div.main_all div.header div.latestnews span.counter:after
-{
+#layout-main div.main_all div.header div.latestnews span.counter:after {
 	content: "]";
 }

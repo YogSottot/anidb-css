@@ -31,7 +31,6 @@ a:hover
 }
 
 /* remove row odd coloring */
-div.addgenren_form .g_odd,
 div.anime_form .g_odd,
 div.ed2kdump_options .g_odd,
 div.episode_add .g_odd,
@@ -416,7 +415,6 @@ div.data caption
 }
 
 /* improved search options spacing */
-#layout-main ul#cattree .cat a,
 div.permissions span.name
 {
 	display: inline-block;

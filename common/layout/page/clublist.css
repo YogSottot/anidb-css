@@ -1,16 +1,13 @@
-#layout-main div.clublist_all table.clublist th.name
-{
+#layout-main div.clublist_all table.clublist th.name {
 	width: 98%
 }
 
-#layout-main div.clublist_all div.note
-{
+#layout-main div.clublist_all div.note {
 	clear:none;
 	margin-right:17em;
 }
 
-#layout-main div.clublist_all table.clublist tr td
-{
+#layout-main div.clublist_all table.clublist tr td {
 	padding-left:0.5em;
 	padding-right:0.5em;
 }

@@ -1,8 +1,7 @@
 #layout-main div.buddylist_all th.last_online,
 #layout-main div.buddylist_all th.size,
 #layout-main div.buddylist_all th.date,
-#layout-main div.buddylist_all th.name
-{
+#layout-main div.buddylist_all th.name {
 	width: 10em;
 }
 
@@ -11,34 +10,28 @@
 #layout-main div.buddylist_all th.files,
 #layout-main div.buddylist_all th.image,
 #layout-main div.buddylist_all th.taste,
-#layout-main div.buddylist_all th.friendship
-{
+#layout-main div.buddylist_all th.friendship {
 	width: 5em;
 }
 
-#layout-main div.buddylist_all th.size
-{
+#layout-main div.buddylist_all th.size {
 	width: 8em;
 }
 
-#layout-main div.buddylist_all th.actions
-{
+#layout-main div.buddylist_all th.actions {
 	width:25em;
 }
 
-#layout-main div.buddylist_all td.action span.action
-{
+#layout-main div.buddylist_all td.action span.action {
 	float: right;
 	margin-right: 0.5em;
 }
 
-#layout-main div.buddylist_all th.actions
-{
+#layout-main div.buddylist_all th.actions {
 	width:25em;
 }
 
-@media screen and (min-width: 1200px)
-{
+@media screen and (min-width: 1200px) {
 	#layout-main div.buddylist_all th.name
 	{
 		width: 20%;
@@ -48,12 +41,10 @@
 #layout-main div.buddylist_all td.acnt,
 #layout-main div.buddylist_all td.epcnt,
 #layout-main div.buddylist_all td.fcnt,
-#layout-main div.buddylist_all td.size
-{
+#layout-main div.buddylist_all td.size {
 	text-align: right;
 }
 
-#layout-main div.buddylist_all td.name
-{
+#layout-main div.buddylist_all td.name {
 	text-align: left;
 }

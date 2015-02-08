@@ -22,12 +22,6 @@
 	margin-bottom:1em;
 }
 
-#layout-menu li.genre,
-#layout-menu li.genren
-{
-	display:inline;
-}
-
 #layout-menu li.help
 {
 	display:block;

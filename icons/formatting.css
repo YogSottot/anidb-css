@@ -1,6 +1,5 @@
 div.format-buttons input + input,
-div.format-buttons select
-{
+div.format-buttons select {
 	margin-left:.5em;
 }
 
@@ -252,14 +251,12 @@ a.confirmButton, input.confirmButton, button.confirmButton {
 	text-align: left;
 }
 
-#widget_addlink div.content table
-{
+#widget_addlink div.content table {
 	border: none;
 	margin: 0.5em;
 }
 
-#widget_addlink div.content table input
-{
+#widget_addlink div.content table input {
 	width: 350px;
 }
 

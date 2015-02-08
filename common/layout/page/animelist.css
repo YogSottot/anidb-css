@@ -1,12 +1,10 @@
 #layout-main div.animelist_all td.awards span.i_icon,
 #layout-main div.animelist_all div.filters ul li span,
-#layout-main div.animelist_all div.filters ul li span span
-{
+#layout-main div.animelist_all div.filters ul li span span {
     display: inline-block;
 }
 
-#layout-main div.animelist_all div.filters ul li span span span
-{
+#layout-main div.animelist_all div.filters ul li span span span {
     display: none;
 }
 
@@ -15,36 +13,30 @@
 }
 
 #layout-main div.animelist_all div.note,
-#layout-main div.animelist_all div.fullsearch_form
-{
+#layout-main div.animelist_all div.fullsearch_form {
 	clear:none;
 }
 
 #layout-main div.animelist_all table.animelist tr th,
-#layout-main div.animelist_all table.animelist tr td
-{
+#layout-main div.animelist_all table.animelist tr td {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
 
 #layout-main div.animelist_all table.animelist tr td.count,
-#layout-main div.animelist_all table.animelist tr td.date
-{
+#layout-main div.animelist_all table.animelist tr td.date {
 	text-align: right;
 }
 
-#layout-main div.animelist_all table.animelist tr td.rating
-{
+#layout-main div.animelist_all table.animelist tr td.rating {
 	text-align: left;
 }
 
-#layout-main div.animelist_all table.animelist tr td.name
-{
+#layout-main div.animelist_all table.animelist tr td.name {
 	width:50%;
 }
 
-@media screen and (min-width: 1200px)
-{
+@media screen and (min-width: 1200px) {
 	#layout-main div.animelist_all table.animelist tr td.name
 	{
 		width:75%;
