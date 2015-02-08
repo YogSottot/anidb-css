@@ -9,7 +9,6 @@
 @import "anidbstyle2-color.css";
 @import "anidbstyle2-text.css";
 
-#layout-footer:after
-{
+#layout-footer:after {
 	content:"design by deridiot inspired by anidbstyle";
 }

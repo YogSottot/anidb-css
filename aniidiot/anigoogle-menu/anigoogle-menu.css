@@ -6,7 +6,6 @@
 @import "../anigoogle/anigoogle-color.css";
 @import "anigoogle-menu-color.css";
 
-#layout-footer:after
-{
+#layout-footer:after {
 	content: "design by hrm & deridiot inspired by google";
 }

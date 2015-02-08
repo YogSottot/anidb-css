@@ -72,8 +72,7 @@ th a:hover {
 
 #layout-main tr.header th.sortable:hover,
 #layout-main div.forum hr,
-#layout-main div.cmt_all div.cmt_add hr
-{
+#layout-main div.cmt_all div.cmt_add hr {
 	background-color:#CCCCCC;
 }
 
@@ -82,30 +81,26 @@ th a:hover {
 #layout-main div.anime_all div.data table.relationlist tr,
 #layout-main div.profile_all div.tabbed_pane div.general table tr,
 #layout-main div.anime_all div.data table.relationlist tr,
-#layout-main div.tabbed_pane div.body div.pane ul li
-{
+#layout-main div.tabbed_pane div.body div.pane ul li {
 	background-color: inherit;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done,
 #layout-main div.manga_all div.groups td.epbar div.done,
-#layout-main div.group_all div.group_released td.epbar div.done
-{
+#layout-main div.group_all div.group_released td.epbar div.done {
 	background-color: #40aae3;
 	border-bottom-color: #40aae3;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
 #layout-main div.manga_all div.groups td.epbar div.done.mylist,
-#layout-main div.group_all div.group_released td.epbar div.done.mylist
-{
+#layout-main div.group_all div.group_released td.epbar div.done.mylist {
 	border-bottom-color: #27e353;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.notdone,
 #layout-main div.manga_all div.groups td.epbar div.notdone,
-#layout-main div.group_all div.group_released td.epbar div.notdone
-{
+#layout-main div.group_all div.group_released td.epbar div.notdone {
 	background-color: #C3D8FF;
 	border-bottom-color: #C3D8FF;
 }
@@ -345,8 +340,7 @@ input[type="password"]:focus {
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 #layout-main div.main_all div.header div.latestnews div.posted,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd
-{
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd {
 	color:#666666;
 }
 
@@ -360,13 +354,11 @@ input.confirmButton,
 button.confirmButton,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main tr.header th.sortable:hover,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong
-{
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong {
 	color:#000000;
 }
 
-#layout-main div.forum div.g_bubble.rules
-{
+#layout-main div.forum div.g_bubble.rules {
 	background-color:#ECD5D8;
 }
 
@@ -416,8 +408,7 @@ li + li.g_odd,
 }
 
 tr + tr th,
-#layout-main div.g_definitionlist tr th
-{
+#layout-main div.g_definitionlist tr th {
 	border-top-color: #888888;
 }
 

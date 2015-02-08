@@ -1,23 +1,19 @@
-#layout-menu
-{
+#layout-menu {
 	font-size: 11px;
 }
 
 #layout-menu li.sub-menu,
-#layout-tabs
-{
+#layout-tabs {
 	font-size: 1em;
 }
 
-#layout-nav div.search a.advsearch
-{
+#layout-nav div.search a.advsearch {
 	font-family: arial,sans-serif;
 	text-decoration: underline;
 }
 
 #layout-nav div.search a.advsearch,
-#layout-menu li.sub-menu ul li a
-{
+#layout-menu li.sub-menu ul li a {
 	text-transform: capitalize;
 }
 

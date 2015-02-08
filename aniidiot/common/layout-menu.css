@@ -8,8 +8,7 @@ body {
 	min-height:100%;
 }
 
-#layout-content
-{
+#layout-content {
 	margin-left: 12.6em;
 	margin-top: -10.5em;
 	padding-left: 1em;
@@ -17,13 +16,11 @@ body {
 	padding-bottom: 1em;
 }
 
-#layout-main
-{
+#layout-main {
 	margin-left: 0;
 }
 
-#layout-menu
-{
+#layout-menu {
 	display: block;
 	margin-left: 0.9em;
 	position: relative;
@@ -31,36 +28,31 @@ body {
 	padding-top: 1px;
 }
 
-#layout-menu > li
-{
+#layout-menu > li {
 	display: block;
 	float: none;
 	padding-left: 0;
 	padding-right: 0;
 }
 
-#layout-menu > li ul
-{
+#layout-menu > li ul {
 	display: block;
 	margin-left: 0;
 	padding: 0;
 	position: relative;
 }
 
-#layout-menu li.sub-menu
-{
+#layout-menu li.sub-menu {
 	display: block;
 	margin-bottom: 0.5em;
 }
 
 #layout-nav div.menu_hr,
-#layout-menu span.tab
-{
+#layout-menu span.tab {
 	display: none;
 }
 
-#layout-tabs ul li
-{
+#layout-tabs ul li {
 	display: inline-block;
 	padding: 0;
 }
@@ -70,18 +62,15 @@ body {
 	padding: 2px 10px;
 }
 
-#layout-tabs
-{
+#layout-tabs {
 	margin: 83px 3px;
 }
 
-#layout-hint + #layout-nav + #layout-content #layout-tabs
-{
+#layout-hint + #layout-nav + #layout-content #layout-tabs {
 	margin: 96px 3px;
 }
 
-#layout-nav
-{
+#layout-nav {
 	margin-top: 102px;
 	height: 1px;
 	padding-bottom: 0;
@@ -93,40 +82,34 @@ body {
 	margin-top: 0;
 }
 
-#layout-hint + #layout-nav #layout-search
-{
+#layout-hint + #layout-nav #layout-search {
 	top: 20px;
 }
 
-#layout-menu li.sub-menu ul li
-{
+#layout-menu li.sub-menu ul li {
 	padding: 0;
 }
 
 #layout-menu li.sub-menu.alert ul li span,
-#layout-menu li.sub-menu ul li > a span
-{
+#layout-menu li.sub-menu ul li > a span {
 	padding: 0 8px;
 }
 
 #layout-menu li.sub-menu.alert ul li span,
 #layout-menu li.sub-menu ul li.user-xkeep > label,
 #layout-main h1.main,
-#layout-main div.main_all
-{
+#layout-main div.main_all {
 	display: block;
 }
 
-#layout-search
-{
+#layout-search {
 	top: 5px;
 	height: 94px;
 	margin-left: 0;
 	width: 100%;
 }
 
-#layout-search div.search
-{
+#layout-search div.search {
 	margin-left: 0;
 	margin-top: 0;
 	height: 94px;
@@ -140,8 +123,7 @@ body {
     width: 450px;
 }
 
-#layout-search div.search a.advsearch
-{
+#layout-search div.search a.advsearch {
 	display: block;
 	position: absolute;
     right: 0.8em;
@@ -153,8 +135,7 @@ body {
 }
 
 #layout-menu li.sub-menu ul li > a,
-#layout-menu li.sub-menu ul li > label
-{
+#layout-menu li.sub-menu ul li > label {
 	line-height: 17px;
 }
 

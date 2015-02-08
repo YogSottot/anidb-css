@@ -1,12 +1,10 @@
 /*logo @1024*/
-#layout-search
-{
+#layout-search {
 	background:url("images/logo.png") no-repeat scroll left top transparent;
 }
 
 /*logo @ 1280*/
-@media screen and (min-width: 1235px)
-{
+@media screen and (min-width: 1235px) {
 	#layout-search
 	{
 		background:url("images/logo-wide.png") no-repeat scroll left top transparent;
@@ -14,8 +12,7 @@
 }
 
 /*logo @ 1650*/
-@media screen and (min-width: 1575px)
-{
+@media screen and (min-width: 1575px) {
 	#layout-search
 	{
 		background:url("images/logo-wider.png") no-repeat scroll left top transparent;
@@ -23,8 +20,7 @@
 }
 
 /*logo @ 1920*/
-@media screen and (min-width: 1860px)
-{
+@media screen and (min-width: 1860px) {
 	#layout-search
 	{
 		background:url("images/logo-widest.png") no-repeat scroll left top transparent;

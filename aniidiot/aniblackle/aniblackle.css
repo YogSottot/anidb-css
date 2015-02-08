@@ -6,7 +6,6 @@
 @import "aniblackle-border.css";
 @import "aniblackle-color.css";
 
-#layout-footer:after
-{
+#layout-footer:after {
 	content:"design by deridiot inspired by blackle";
 }

@@ -1,57 +1,47 @@
-#layout-nav div.main_search div.search
-{
+#layout-nav div.main_search div.search {
 	margin-left: -11em;
 }
 
-#layout-nav.main_nav
-{
+#layout-nav.main_nav {
 	height: 25em;
 }
 
-#layout-nav div.main_search input.text
-{
+#layout-nav div.main_search input.text {
 	padding: 3px;
 }
 
-#layout-nav div.main_search select
-{
+#layout-nav div.main_search select {
 	padding: 3px;
 	margin-top: 7em;
 }
 
-#layout-nav div.main_search input.submit
-{
+#layout-nav div.main_search input.submit {
 	float: left;
 	margin-left: 7.5em;
 	margin-top: .2em;
 	width: 150px;
 }
 
-#layout-nav div.main_search div.search form
-{
+#layout-nav div.main_search div.search form {
 	width: 45.5em;
 }
 
-#layout-nav div.main_search div.search input.text
-{
+#layout-nav div.main_search div.search input.text {
 	width: 300px;
 }
 
-#layout-nav div.main_search input.random
-{
+#layout-nav div.main_search input.random {
 	margin-left: .5em;
 }
 
 #layout-menu ul li,
 #layout-menu > li:hover ul,
 #layout-nav div.main_search a.advsearch,
-#layout-nav div.main_search form.random
-{
+#layout-nav div.main_search form.random {
 	display: block;
 }
 
-#layout-nav div.main_search
-{
+#layout-nav div.main_search {
 	height: 110px;
 	margin-left: auto;
 	margin-right: auto;
@@ -60,8 +50,7 @@
 	width: 268px;
 }
 
-#layout-nav div.main_search a.advsearch
-{
+#layout-nav div.main_search a.advsearch {
 	left: 350px;
 	margin: 0;
 	position: absolute;
