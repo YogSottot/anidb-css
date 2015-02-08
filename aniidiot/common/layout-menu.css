@@ -177,3 +177,15 @@ body {
 	}
 }
 /*clickable logo*/
+
+#layout-menu li.sub-menu #alert-notif > span a {
+    display: inline-block;
+    width: auto;
+    margin-right: -0.5em;
+    line-height: 17px;
+}
+
+#layout-menu li.sub-menu #alert-notif > span a span {
+	padding-left: 0;
+	padding-right: 0;
+}
