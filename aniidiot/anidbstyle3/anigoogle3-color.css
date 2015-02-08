@@ -3,20 +3,52 @@ tr {
 	background-color: inherit;
 }
 
-#layout-main div.edit_actions a {
-	background-color: #34394D;
-	color: lightblue;
-	border-color: #34394D;
+.i_icon:hover,
+.g_button a:hover,
+button:hover,
+span.link:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+h4 a:hover,
+th a:hover,
+table th.sortable:hover,
+#layout-main ul.g_list li:hover,
+#layout-main div.edit_actions a:hover,
+#layout-main .g_list li:hover,
+#layout-main .g_list a:hover {
+	color: #C0DAF0 !important;
 }
 
-#layout-main div.edit_actions a:hover {
-	background-color: #58636E;
+table th,
+#layout-main > h1,
+#layout-main div.g_timedentry h4,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.votes_all div.graph div.header,
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4,
+#layout-main div.anime_all div.info div.caststaff div h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.userpage_all div.g_menu ul li:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover .v_high,
+#layout-main div.userpage_all div.g_menu ul li:hover a {
+	color: #CCCCCC !important;
+}
+
+#layout-main div.edit_actions a {
+	color: #C0DAF0;
+	border-color: #34394D;
 }
 
 #layout-menu .sub-menu {
 	background-color: inherit !important;
 }
 
+th,
+th a,
+#layout-main div.edit_actions a,
 #layout-menu .sub-menu ul {
 	background-color: #34394D;
 }
@@ -69,3 +101,11 @@ button,
 #layout-main > h1 {
 	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
 }
+
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover {
+	background-color: #58636E;
+}
+

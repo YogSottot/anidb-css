@@ -149,6 +149,8 @@ input[type="submit"]:hover,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 button:hover,
+#layout-main div.format-buttons .f_button:hover,
+#layout-main div.format-buttons .f_button.selected,
 #layout-main div.search_all div.suggestions span:hover {
 	background-color:#58636E;
 }
@@ -263,9 +265,8 @@ select,
 	color: #B32947;
 }
 
-#layout-main div.format-buttons *.f_button:hover,
-#layout-main div.format-buttons *.f_button.selected {
-	background-color: #B5BED6;
+#layout-main div.format-buttons .f_button {
+	background-color: #CCCCCC;
 }
 
 span.test,
