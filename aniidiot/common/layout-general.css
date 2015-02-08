@@ -282,7 +282,7 @@ h4,
 
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a {
-	padding: 0.5em 0;
+	line-height:25px;
 }
 
 #layout-main tr.header th.sortable a,
