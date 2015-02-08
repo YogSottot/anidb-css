@@ -148,8 +148,6 @@ input[type="submit"]:hover,
 #layout-main div.spoiler button.spoiler:hover,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
-#layout-main div.format-buttons .f_button:hover,
-#layout-main div.format-buttons .f_button.selected,
 #layout-main div.search_all div.suggestions span:hover {
 	background-color:#58636E;
 }
@@ -291,6 +289,7 @@ select,
 #layout-main div.pagination span strong,
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
+#layout-main div.format-buttons .f_button,
 #layout-main div.g_menu.filter_menu div.settings input[type="text"],
 #layout-main div.g_menu.filter_menu div.settings select,
 #layout-main div.forum div.g_bubble.navbar div.bottom,
