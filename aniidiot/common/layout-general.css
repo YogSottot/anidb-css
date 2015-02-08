@@ -278,6 +278,7 @@ h4,
 /*bit of extra width for the icon tom look less squished*/
 #layout-main tr.header th.sortable {
 	padding: 0 0.5em 0 1em;
+	height:25px;
 }
 
 #layout-main tr.header th,
