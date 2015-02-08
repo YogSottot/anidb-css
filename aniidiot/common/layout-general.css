@@ -73,20 +73,17 @@ h4,
 	line-height: 1.4em;
 }
 
-#layout-nav
-{
+#layout-nav {
 	display: block;
 	height: 6em;
 }
 
-#layout-main
-{
+#layout-main {
 	margin-left: 1em;
 	margin-right: 1em;
 }
 
-#layout-menu
-{
+#layout-menu {
 	display: block;
 	left: 0;
 	position: absolute;
@@ -133,26 +130,22 @@ h4,
 	min-height: 0;
 }
 
-#layout-main > h1
-{
+#layout-main > h1 {
 	display: block;
 	text-align: left;
 	padding: 4px;
 }
 
-#layout-footer p
-{
+#layout-footer p {
 	margin-bottom: 0;
 }
 
 #layout-main h1.main,
-#layout-main div.main_all
-{
+#layout-main div.main_all {
 	display: none;
 }
 
-#layout-menu > li ul
-{
+#layout-menu > li ul {
 	display: none;
 	position: absolute;
 	z-index: 105;
@@ -160,34 +153,29 @@ h4,
 	padding: 0;
 }
 
-#layout-menu span.tab
-{
+#layout-menu span.tab {
 	display: block;
 	position: relative;
 }
 
-#layout-menu > li
-{
+#layout-menu > li {
 	display: block;
 	float: left;
 	padding-left: .7em;
 	padding-right: .7em;
 }
 
-#layout-nav div.menu_hr
-{
+#layout-nav div.menu_hr {
 	display: block;
 	margin-top: 2.5em;
 }
 
 #layout-nav input,
-#layout-nav button
-{
+#layout-nav button {
 	padding-left: 0;
 }
 
-#layout-tabs
-{
+#layout-tabs {
 	display: block;
 	position: absolute;
 	right: 0;
@@ -195,70 +183,58 @@ h4,
 	margin: 0;
 }
 
-#layout-tabs ul li
-{
+#layout-tabs ul li {
 	display: inline;
 	padding: 4px 6px 3px;
 	line-height: 15px;
 }
 
-#layout-tabs ul
-{
+#layout-tabs ul {
 	display: block;
 	text-align: right;
 }
 
-#layout-menu li.sub-menu span.tab
-{
+#layout-menu li.sub-menu span.tab {
 	padding-bottom: .5em;
 	padding-top: .5em;
 }
 
-#layout-footer
-{
+#layout-footer {
 	text-align: center;
 }
 
-#layout-content div.dbstats_all
-{
+#layout-content div.dbstats_all {
 	padding-left: 9.6em;
 	padding-right: 8em;
 }
 
 h4,
-#layout-main div.g_timedentry h4
-{
+#layout-main div.g_timedentry h4 {
 	padding: .3em;
 }
 
-#layout-main div.tabbed_pane ul.tabs
-{
+#layout-main div.tabbed_pane ul.tabs {
 	text-align: left;
 	margin: 1px 1px 1px 6px;
 }
 
-#layout-hint
-{
+#layout-hint {
 	position: relative;
 }
 
-#layout-hint + #layout-nav + #layout-content #layout-tabs
-{
+#layout-hint + #layout-nav + #layout-content #layout-tabs {
 	margin: 1.8em .3em;
 }
 
-#layout-hint + #layout-nav #layout-menu
-{
+#layout-hint + #layout-nav #layout-menu {
 	margin-top: 1.1em;
 }
 
-#layout-hint + #layout-nav #layout-search
-{
+#layout-hint + #layout-nav #layout-search {
 	top: 4.5em;
 }
 
-#layout-main .g_definitionlist
-{
+#layout-main .g_definitionlist {
 	margin: 2px 0 0;
 }
 
@@ -272,19 +248,16 @@ h4,
 	padding: 2px 8px;
 }
 
-#layout-main div.animeatt_reviews div.review div.text
-{
+#layout-main div.animeatt_reviews div.review div.text {
 	margin-top: 1em;
 	padding: 8px;
 }
 
-#layout-main div.g_timedentry div.avatar
-{
+#layout-main div.g_timedentry div.avatar {
 	margin: 1.5em 1em 1em;
 }
 
-#layout-main div.g_timedentry div.body
-{
+#layout-main div.g_timedentry div.body {
 	margin-top: .5em;
 	padding: 8px;
 }
@@ -295,54 +268,46 @@ h4,
 }
 
 #layout-tabs li.news,
-#layout-menu li.sub-menu.alert ul li span a
-{
+#layout-menu li.sub-menu.alert ul li span a {
 	display: inline;
 }
 
-#layout-main div.main_all div.rightbar li span
-{
+#layout-main div.main_all div.rightbar li span {
 	position: absolute;
 }
 
-#layout-main div.main_all div.rightbar li a
-{
+#layout-main div.main_all div.rightbar li a {
 	display: table;
 	margin-left: 4em;
 }
 
 #menu-account li.alert span:before,
-#menu-account li.alert span:after
-{
+#menu-account li.alert span:after {
 	padding: 0.2em;
 }
 
-.g_msg
-{
+.g_msg {
 	padding: 0.5em 1em;
 }
 
-#layout-main tr.header th.sortable
-{
-	padding: 0px;
+/*bit of extra width for the icon tom look less squished*/
+#layout-main tr.header th.sortable {
+	padding: 0 0.5em 0 0;
 }
 
 #layout-main tr.header th,
-#layout-main tr.header th.sortable a
-{
-	padding: 5px 0px;
+#layout-main tr.header th.sortable a {
+	padding: 0.5em 0;
 }
 
 #layout-main tr.header th.sortable a,
-#layout-menu li.sub-menu ul li a
-{
+#layout-menu li.sub-menu ul li a {
 	display: block;
 }
 
 button,
 *.g_button,
-#layout-main ul.g_list li
-{
+#layout-main ul.g_list li {
 	display: inline-block;
 	vertical-align: top;
 }
@@ -363,19 +328,16 @@ button,
 }
 
 #layout-main div.group_all div.addfilem.options tr.group button,
-#layout-main div.filter_menu span.actions.old button
-{
+#layout-main div.filter_menu span.actions.old button {
 	margin-top: 3px;
 }
 
 #layout-main div.news_all div.news p.comment,
-#layout-main div.main_all div.news p.comment
-{
+#layout-main div.main_all div.news p.comment {
 	margin: -2.3em 0 0;
 }
 
-#layout-main div.news h4
-{
+#layout-main div.news h4 {
 	padding: 6px;
 }
 
@@ -383,18 +345,15 @@ button,
 #layout-main div.anime_all div.info div.image img,
 #layout-main .g_image image,
 #layout-main .g_definitionlist,
-#layout-main div.g_content
-{
+#layout-main div.g_content {
 	padding: 1px;
 }
 
-#layout-main .block .g_definitionlist table
-{
+#layout-main .block .g_definitionlist table {
 	margin: 0;
 }
 
-#layout-main div.g_menu.filter_menu div.settings input[type="text"]
-{
+#layout-main div.g_menu.filter_menu div.settings input[type="text"] {
 	width: 12em;
 	margin-bottom: 2px;
 }
