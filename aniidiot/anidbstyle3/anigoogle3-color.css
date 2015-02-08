@@ -1,5 +1,6 @@
 .g_bubble .g_odd,
-tr {
+tr,
+#layout-menu li.sub-menu {
 	background-color: inherit;
 }
 
@@ -107,7 +108,6 @@ th a,
 #layout-menu .sub-menu ul {
 	background-color: #34394D;
 	border-color: #34394D;
-
 }
 
 th,
