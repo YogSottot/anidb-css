@@ -45,7 +45,12 @@
 
 #layout-main div.userpage_all div.blog div.topic_actions {
 	height: 100%;
-	margin-bottom: 0 0 1em 0;
+	margin: 0 0 1em 0;
+}
+
+#layout-main div.userpage_all div.blog div.topic_actions a {
+	float: none;
+	text-align: left;
 }
 
 #layout-main div.userpage_all div.blog div.buttons {
@@ -60,11 +65,6 @@
 #layout-main div.userpage_all div.blog div.pagination {
 	float: none;
 	text-align: right;
-}
-
-#layout-main div.userpage_all div.blog div.topic_actions a {
-	float: none;
-	text-align: left;
 }
 
 #layout-main div.userpage_all div.cmt_entries div.postbody div.content,
