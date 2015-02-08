@@ -181,11 +181,20 @@ body {
 #layout-menu li.sub-menu .alert > span a {
     display: inline-block;
     width: auto;
-    margin-right: -0.5em;
+    margin-right: -0.3em;
     line-height: 17px;
 }
 
 #layout-menu li.sub-menu .alert > span a span {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+#menu-account li.alert a span:before,
+#menu-account li.alert a span:after {
+	padding: 0 1px;
+}
+
+#layout-menu li.sub-menu .alert > span a:first-child {
+    padding-left: 0.7em;
 }
