@@ -29,7 +29,7 @@ revert to old stars on file entries
 /*logo @1024*/
 #layout-search
 {
-  background:url("../anidbstyle2/images/logo.png") no-repeat scroll left top transparent;
+  background:url("../anigoogle2/images/logo.png") no-repeat scroll left top transparent;
 }
 
 /*logo @ 1280*/
@@ -37,7 +37,7 @@ revert to old stars on file entries
 {
 	#layout-search
 	{
-		background:url("../anidbstyle2/images/logo-wide.png") no-repeat scroll left top transparent;
+		background:url("../anigoogle2/images/logo-wide.png") no-repeat scroll left top transparent;
 	}
 }
 
@@ -46,7 +46,7 @@ revert to old stars on file entries
 {
 	#layout-search
 	{
-		background:url("../anidbstyle2/images/logo-wider.png") no-repeat scroll left top transparent;
+		background:url("../anigoogle2/images/logo-wider.png") no-repeat scroll left top transparent;
 	}
 }
 
@@ -55,6 +55,6 @@ revert to old stars on file entries
 {
 	#layout-search
 	{
-		background:url("../anidbstyle2/images/logo-widest.png") no-repeat scroll left top transparent;
+		background:url("../anigoogle2/images/logo-widest.png") no-repeat scroll left top transparent;
 	}
 }
