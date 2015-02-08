@@ -1,48 +1,40 @@
 #layout-main div.mylist_all table.animelist th.title,
 #layout-main div.mylist_all table.animelist table.eplist,
-#layout-main div.mylist_all table.animelist table.filelist
-{
+#layout-main div.mylist_all table.animelist table.filelist {
 	width: 98%;
 }
 
 /*opera fix for linebreaks in mylist */
-#layout-main div.mylist_all td.stats
-{
+#layout-main div.mylist_all td.stats {
 	white-space: nowrap;
 }
 
-#layout-main div.mylist_all div.filter_menu div.settings
-{
+#layout-main div.mylist_all div.filter_menu div.settings {
 	margin-top: 0.5em;
 }
 
-#layout-main div.mylist_all td.name
-{
+#layout-main div.mylist_all td.name {
 	padding-right:1em;
 }
 
 #layout-main div.mylist_all td.stats,
 #layout-main div.mylist_all td.rating,
-#layout-main div.mylist_all td.vote
-{
+#layout-main div.mylist_all td.vote {
 	padding-left:1em;
 	padding-right:1em;
 }
 
-#layout-main div.mylist_all td.stats
-{
+#layout-main div.mylist_all td.stats {
 	min-width:6em;
 }
 
 #layout-main div.mylist_all td.rating,
-#layout-main div.mylist_all td.vote
-{
+#layout-main div.mylist_all td.vote {
 	min-width:4em;
 	text-align:left;
 }
 
-#layout-main div.mylist_all td.type
-{
+#layout-main div.mylist_all td.type {
 	padding-left:4px;
 	padding-right:4px;
 	white-space:nowrap;

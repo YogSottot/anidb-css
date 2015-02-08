@@ -1,29 +1,24 @@
-#layout-tabs
-{
+#layout-tabs {
 	margin: 1px;
 	display: block;
 }
 
-#layout-tabs ul
-{
+#layout-tabs ul {
 	display: inline;
 	border: none;
 }
 
-#layout-tabs ul li
-{
+#layout-tabs ul li {
 	display: inline;
 	margin:0 0 0 3px;
 	padding: 0;
 }
 
-#layout-tabs ul li:first-child
-{
+#layout-tabs ul li:first-child {
 	margin:0 0 0 6px;
 }
 
-#layout-tabs ul li a
-{
+#layout-tabs ul li a {
 	padding: 1px 6px 1px 6px;
 	border-bottom: 0;
 }

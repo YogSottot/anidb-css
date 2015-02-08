@@ -1,6 +1,5 @@
 #layout-main div.addanimetitle_form input[type="text"],
-#layout-main div.addeptitle_form p input[type="text"]
-{
+#layout-main div.addeptitle_form p input[type="text"] {
 	width: 21em;
 }
 
@@ -11,8 +10,7 @@
 #layout-main div.addanimetitle_form span input,
 #layout-main div.addeptitle_form p span input,
 #layout-main div.recommendation_add span,
-#layout-main div.recommendation_add textarea
-{
+#layout-main div.recommendation_add textarea {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -22,13 +20,11 @@
 #layout-main div.addanimetitle_form p span label,
 #layout-main div.addeptitle_form p span label,
 #layout-main div.addanimetitle_form p span.header,
-#layout-main div.addeptitle_form p span.header
-{
+#layout-main div.addeptitle_form p span.header {
 	display: none;
 }
 
-#layout-main div.addseq_form div.explanation
-{
+#layout-main div.addseq_form div.explanation {
 	margin-left: 2em;
 	margin-right: 2em;
 }

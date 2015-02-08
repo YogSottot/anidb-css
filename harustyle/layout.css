@@ -84,11 +84,6 @@ body > #layout-content
 	display: none;
 }
 
-#layout-menu li.genre, #layout-menu li.genren
-{
-	display: inline;
-}
-
 #layout-menu li.forum
 {
 	font-weight: bold;

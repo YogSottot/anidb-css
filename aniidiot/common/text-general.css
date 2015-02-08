@@ -1,17 +1,14 @@
 html {
   font-size: 10.5px;
-  letter-spacing: 0.2px;
 }
 
 a.i_icon:hover,
 a.i_inline:hover,
-a.i_button:hover
-{
+a.i_button:hover {
 	text-decoration: none;
 }
 
-#layout-search .submit
-{
+#layout-search .submit {
 	text-transform: capitalize;
 }
 
@@ -23,8 +20,7 @@ a.i_button:hover
 input[type="text"],
 input[type="password"],
 textarea,
-#layout-main div.userpage_all div.content > h3
-{
+#layout-main div.userpage_all div.content > h3 {
 	font-size: 12px;
 }
 
@@ -37,8 +33,7 @@ input[type="checkbox"],
 button,
 input[type="button"],
 input[type="submit"],
-#layout-nav input.submit
-{
+#layout-nav input.submit {
 	font-size: 11px;
 }
 
@@ -52,19 +47,16 @@ input[type="submit"],
 	font-size: 9px;
 }
 
-#menu-account li.alert span:before,
-#menu-account li.alert span:after
-{
+#menu-account li.alert a span:before,
+#menu-account li.alert a span:after {
 	content: "!";
 }
 
-input[type="button"]
-{
+input[type="button"] {
 	cursor: pointer;
 }
 
-#layout-main div.g_bubble.spoiler button.button
-{
+#layout-main div.g_bubble.spoiler button.spoiler {
 	font-weight: normal;
 }
 

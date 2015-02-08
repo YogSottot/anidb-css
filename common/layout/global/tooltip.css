@@ -1,5 +1,4 @@
-#obj-tooltip
-{
+#obj-tooltip {
 	position: absolute;
 	left: 0px;
 	width: 16em;
@@ -8,8 +7,7 @@
 	z-index: 100;
 }
 
-#obj-pointer
-{
+#obj-pointer {
 	position: absolute;
 	left: -300px;
 	width: 15px;
@@ -18,22 +16,18 @@
 	visibility: hidden;
 }
 
-#obj-tooltip div.releaseinfotooltip ul li
-{
+#obj-tooltip div.releaseinfotooltip ul li {
 	padding: 2px;
 }
-#obj-tooltip div.releaseinfotooltip ul li span.icons
-{
+#obj-tooltip div.releaseinfotooltip ul li span.icons {
 	float: right;
 }
-#obj-tooltip div.releaseinfotooltip ul li span.icons .i_icon
-{
+#obj-tooltip div.releaseinfotooltip ul li span.icons .i_icon {
 	float: left;
 }
 
 /*Bubble Tooltip*/
-a.tooltip span.text
-{
+a.tooltip span.text {
 	z-index:1000;
 	display:none;
 	padding: 14px 20px;
@@ -47,15 +41,13 @@ a.tooltip span.text
 	word-wrap: normal;
 }
 
-a.tooltip:hover span.text
-{
+a.tooltip:hover span.text {
 	display:inline;
 	position:absolute;
 }
 
 a.tooltip span.text:after,
-a.tooltip span.text:before
-{
+a.tooltip span.text:before {
 	bottom: 100%;
 	height: 0;
 	width: 0;
@@ -65,11 +57,9 @@ a.tooltip span.text:before
 	pointer-events: none;
 }
 
-a.tooltip span.text:after
-{
+a.tooltip span.text:after {
 	margin-left: -10px;
 }
-a.tooltip span.text:before
-{
+a.tooltip span.text:before {
 	margin-left: -13px;
 }

@@ -1,22 +1,18 @@
-html
-{
+html {
 	background:white;
 }
 
 span.link,
-a
-{
+a {
 	color:#105289;
 }
 
 span.link:hover,
-a:hover
-{
+a:hover {
 	color:#AA0000;
 }
 
-table
-{
+table {
 	border-top-color:blue;
 }
 
@@ -24,31 +20,26 @@ tr.g_odd,
 li.g_odd,
 span.g_odd,
 #layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd
-{
+#layout-main div.votes_all div.graph.eps div.g_odd {
 	background-color:#e5ecf9;
 }
 
-#layout-main > h1
-{
+#layout-main > h1 {
 	background-color: #FFFFFF;
 	border-top: none;
 }
 
-#layout-nav
-{
+#layout-nav {
 	background-image:url(images/logo.gif);
 	background-repeat:no-repeat;
 }
 
-#layout-menu > li ul
-{
+#layout-menu > li ul {
 	background-color:#FFF;
 	border-color:#000;
 }
 
-#layout-tabs ul.main-tabs > li.selected
-{
+#layout-tabs ul.main-tabs > li.selected {
 	background-color: #FFFFFF;
 	border-bottom-color:#FFFFFF;
 }
@@ -57,21 +48,18 @@ span.g_odd,
 #layout-main ul.g_list li.selected,
 #layout-tabs ul.main-tabs > li,
 #layout-menu li.sub-menu:hover,
-#layout-menu li.sub-menu ul li:hover
-{
+#layout-menu li.sub-menu ul li:hover {
 	background-color:#E5ECF9;
 }
 
-#layout-main div.pagination span a
-{
+#layout-main div.pagination span a {
 	background-color:#ECEDEE;
 	border-color:#B4BAC0;
 	color:#5C758C;
 }
 
 #layout-main div.pagination span a:hover,
-#layout-main div.pagination span strong
-{
+#layout-main div.pagination span strong {
 	background-color:#4692BF;
 	border-color:#4692BF;
 	color:#FFFFFF;
@@ -79,16 +67,14 @@ span.g_odd,
 
 #layout-main ul.g_list li,
 #layout-tabs ul.main-tabs > li,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li {
 	border-color:#c3d0ec;
 }
 
 #layout-main div.votes_all div.graph div.header,
 #layout-main table tr.header,
 #layout-main div.news_all div.g_timedentry h4,
-#layout-main div.main_all div.g_timedentry h4
-{
+#layout-main div.main_all div.g_timedentry h4 {
 	background-color:#c3d9ff;
 }
 
@@ -107,8 +93,7 @@ span.g_odd,
 #layout-main div.animelist_all table tr.mylist,
 #layout-main div.group_released table tr.mylist,
 #layout-main div.addcreatoranimerel_all tr.identical,
-#layout-main table.animelist tr.mylist
-{
+#layout-main table.animelist tr.mylist {
 	background-color:#94c694;
 }
 
@@ -125,8 +110,7 @@ span.g_odd,
 #layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
 #layout-main div.animelist_all table tr.g_odd.mylist,
 #layout-main div.group_released table tr.g_odd.mylist,
-#layout-main table.animelist tr.g_odd.mylist
-{
+#layout-main table.animelist tr.g_odd.mylist {
 	background-color:#86b186;
 }
 
@@ -134,38 +118,32 @@ span.g_odd,
 #layout-main tr.g_fs_lame,
 #layout-main input.exclude,
 #layout-main table.filelist tr.invalid,
-#layout-main table.filelist tr.g_odd.deprecated
-{
+#layout-main table.filelist tr.g_odd.deprecated {
 	background-color:#c9aaaa;
 }
 
-#layout-main table.filelist tr.generic
-{
+#layout-main table.filelist tr.generic {
 	background-color:#EEEEEE;
 }
 
 #layout-main div.pagination span a:hover,
-#layout-main div.pagination span strong
-{
+#layout-main div.pagination span strong {
 	background-color:#E5ECF9;
 	border-color:#E5ECF9;
 	color: #000000;
 }
 
-#layout-main div.pagination span a
-{
+#layout-main div.pagination span a {
 	background-color:#FFFFFF;
 	border-color:#E5ECF9;
 	color: #000000;
 }
 
-#layout-main div.pagination span a:hover
-{
+#layout-main div.pagination span a:hover {
 	color:#AA0000;
 }
 
 #layout-main ul.g_list li, #layout-tabs ul.main-tabs > li,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li {
 	border-color:#CCCCCC;
 }

@@ -9,7 +9,6 @@
 @import "anigoogle2-icons.css";
 @import "anigoogle2-color.css";
 
-#layout-footer:after
-{
+#layout-footer:after {
 	content:"design by deridiot inspired by google/youtube";
 }

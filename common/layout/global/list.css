@@ -1,31 +1,25 @@
-#layout-main ul.g_list
-{
+#layout-main ul.g_list {
 	clear: both;
 	text-align: center;
 	min-height: 1.4em;
 }
 
-#layout-main ul.g_list.nav
-{
+#layout-main ul.g_list.nav {
 	text-align: left;	
 }
 
-#layout-main ul.g_list li
-{
+#layout-main ul.g_list li {
 	display: inline;
 }
 
-#layout-main ul.jump li.prev
-{
+#layout-main ul.jump li.prev {
 	float: left;
 }
 
-#layout-main ul.jump li.next
-{
+#layout-main ul.jump li.next {
 	float: right;
 }
 
-#layout-main table + ul.jump
-{
+#layout-main table + ul.jump {
 	margin-top: 1em;
 }

@@ -1,4 +1,4 @@
-#layout-main div.admin_all div.g_menu {
+#layout-main div.admin_all div.g_menu.admin {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -19,31 +19,27 @@
     width: 50em;
 }
 
-#layout-main div.admin_all div.g_menu .sub-menu {
+#layout-main div.admin_all div.g_menu.admin .sub-menu {
 margin-bottom: 0.5em;
 }
 
-#layout-main div.dbstats_all table ol
-{
+#layout-main div.dbstats_all table ol {
 	width: 20em;
 }
 
 #layout-main div.stats_all table,
-#layout-main div.dbstats_all table
-{
+#layout-main div.dbstats_all table {
 	border: none;
 	border-spacing: 1em;
 }
 
 #layout-main div.stats_all table td,
-#layout-main div.dbstats_all table td
-{
+#layout-main div.dbstats_all table td {
 	border: none;
 }
 
 #layout-main div.admin_menu ul,
-#layout-main div.admin_cat_menu ul
-{
+#layout-main div.admin_cat_menu ul {
 	margin-left: auto;
 	margin-right: auto;
 	width: 22em;
@@ -52,34 +48,29 @@ margin-bottom: 0.5em;
 }
 
 #layout-main div.admin_menu ul li,
-#layout-main div.admin_cat_menu ul li
-{
+#layout-main div.admin_cat_menu ul li {
 	padding: 2px 4px;
 }
 
 #layout-main div.admin_all div.characterrelation dl,
-#layout-main div.admin_all div.creatorrelation dl
-{
+#layout-main div.admin_all div.creatorrelation dl {
 	display:block;
 	margin:0 0 0.2em;
 }
 
 #layout-main div.admin_all div.characterrelation dl dt,
-#layout-main div.admin_all div.creatorrelation dl dt
-{
+#layout-main div.admin_all div.creatorrelation dl dt {
 	clear:none;
 	float:left;
 }
 
 #layout-main div.admin_all div.characterrelation dl dd,
-#layout-main div.admin_all div.creatorrelation dl dd
-{
+#layout-main div.admin_all div.creatorrelation dl dd {
 	margin-left:20em;
 }
 
 #layout-main div.admin_all div.characterrelation div.inner,
-#layout-main div.admin_all div.creatorrelation div.inner
-{
+#layout-main div.admin_all div.creatorrelation div.inner {
 	margin-bottom:1em;
 	margin-left:auto;
 	margin-right:auto;
@@ -87,88 +78,67 @@ margin-bottom: 0.5em;
 }
 
 #layout-main div.admin_all div.characterrelation input[type="text"],
-#layout-main div.admin_all div.creatorrelation input[type="text"]
-{
+#layout-main div.admin_all div.creatorrelation input[type="text"] {
 	width:300px;
 }
 
 #layout-main div.admin_all div.characterrelation dl dd label,
-#layout-main div.admin_all div.creatorrelation dl dd label
-{
+#layout-main div.admin_all div.creatorrelation dl dd label {
 	display:block;
 }
 
-#layout-main div.admin_all div.admin_genren_edit textarea
-{
-	width:500px;
-	height:300px;
-}
-
-#layout-main div.avmf_all div.avmf_list table,
-#layout-main div.admin_all div.admin_genren table
-{
+#layout-main div.avmf_all div.avmf_list table {
 	width:100%;
 }
 
-#layout-main div.admin_all table.creatoranimerel td.count
-{
+#layout-main div.admin_all table.creatoranimerel td.count {
 	width:6em;
 }
 
 #layout-main div.avmf_all div.avmf_list ul.g_list + table,
 #layout-main div.log_all div.log_list ul.g_list + table,
-#layout-main div.admin_all div.admin_user_avatars  ul.g_list + table
-{
+#layout-main div.admin_all div.admin_user_avatars  ul.g_list + table {
 	margin-top:1em;
 }
 
-#layout-main div.admin_all table.creditlist
-{
+#layout-main div.admin_all table.creditlist {
 	width:98%;
 }
 
-#layout-main div.admin_all table.creditlist td.no
-{
+#layout-main div.admin_all table.creditlist td.no {
 	min-width: 5em;
 	max-width: 5em;
 }
 
-#layout-main div.admin_all table.creditlist td.bool
-{
+#layout-main div.admin_all table.creditlist td.bool {
 	min-width: 4em;
 	max-width: 4em;
 }
 
-#layout-main div.admin_all table.creditlist td.action
-{
+#layout-main div.admin_all table.creditlist td.action {
 	min-width: 25em;
 	max-width: 25em;
 }
 
-#layout-main div.admin_all table.creditlist td.addedby
-{
+#layout-main div.admin_all table.creditlist td.addedby {
 	min-width: 10em;
 	max-width: 10em;
 }
 
-#layout-main div.admin_all table.creditlist td.credit
-{
+#layout-main div.admin_all table.creditlist td.credit {
 	min-width: 20em;
 	max-width: 20em;
 }
 
-#layout-main div.admin_all table.creditlist td+td
-{
+#layout-main div.admin_all table.creditlist td+td {
 	padding-left: 1em;
 }
 
-#layout-main div.admin_all table.creditlist td.description
-{
+#layout-main div.admin_all table.creditlist td.description {
 	width: 50%;
 }
 
-#layout-main div.admin_all table.creditlist td.action
-{
+#layout-main div.admin_all table.creditlist td.action {
 	text-align:left;
 }
 
@@ -208,74 +178,61 @@ margin-bottom: 0.5em;
 
 /*tags*/
 #layout-main div.admin_tags_all table.tags th,
-#layout-main div.admin_tags_all table.tags td
-{
+#layout-main div.admin_tags_all table.tags td {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
 
-#layout-main div.admin_tags_all table.tags td.name
-{
+#layout-main div.admin_tags_all table.tags td.name {
 	width: 80%;
 }
 
-#layout-main div.admin_tags_all table.tags td.name.added
-{
+#layout-main div.admin_tags_all table.tags td.name.added {
 	white-space: nowrap;
 }
 
-#layout-main div.admin_tags_all table.tags td.action
-{
+#layout-main div.admin_tags_all table.tags td.action {
 	min-width: 11em;
 }
 
-#layout-main div.admin_tags_all table.tags td.group
-{
+#layout-main div.admin_tags_all table.tags td.group {
 	white-space: nowrap;
 }
 
-#layout-main div.admin_all div.tag.merge th
-{
+#layout-main div.admin_all div.tag.merge th {
 	min-width: 1em;
 	max-width: 1em;
 }
-#layout-main div.admin_all div.tag.merge th.head
-{
+#layout-main div.admin_all div.tag.merge th.head {
 	min-width: 7.5em;
 	max-width: 7.5em;
 }
-#layout-main div.admin_all div.tag.merge th.data
-{
+#layout-main div.admin_all div.tag.merge th.data {
 	width: 33%;
 }
 
-#layout-main div.admin_all div.tag.merge td
-{
+#layout-main div.admin_all div.tag.merge td {
 	vertical-align:top;
 	padding:5px;
 }
 
 #layout-main div.admin_all div.tag.merge td.input,
-#layout-main div.admin_all div.tag.merge td.check
-{
+#layout-main div.admin_all div.tag.merge td.check {
 	vertical-align:middle;
 }
 
-#layout-main div.admin_all div.tag.merge textarea
-{
+#layout-main div.admin_all div.tag.merge textarea {
 	width:95%;
 	height:10em;
 }
 
 #layout-main div.admin_all div.tag.merge table.options th,
-#layout-main div.admin_all div.tag.merge table.parents th
-{
+#layout-main div.admin_all div.tag.merge table.parents th {
 	min-width: 6em;
 	max-width: 6em;
 }
 
-#layout-main div.admin_all div.tag.merge td table
-{
+#layout-main div.admin_all div.tag.merge td table {
 	width:100%;
 }
 

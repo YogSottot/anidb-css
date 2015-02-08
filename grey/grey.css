@@ -1128,38 +1128,6 @@ margin: 0;
 {
 display: block;
 }
-#layout-content div.genren_all
-{
-text-align: center;
-}
-#layout-content div.genren_all div.categories
-{
-width: 90%;
-margin: 1em auto 1em auto;
-text-align: left;
-}
-#layout-content div.genren_all div.controls
-{
-text-align: center;
-}
-#layout-content div.genren_all a.i_icon,
-#layout-content #cattree a.i_icon
-{
-position: relative;
-right: 18px;
-float: left;
-margin-right: -15px;
-}
-#layout-content div.genren_all li,
-#layout-content #cattree li
-{
-list-style: none outside;
-line-height: 14px;
-}
-#layout-content #cattree li.collapsed ul
-{
-display: none;
-}
 #layout-content div.group_released td.state.complete,
 #layout-content div.group_released td.state.finished
 {

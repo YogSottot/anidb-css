@@ -1,16 +1,14 @@
 #layout-search div.search,
 #layout-menu li.sub-menu ul li#user-logout a,
 #layout-menu li.sub-menu ul li#user-xauth button,
-#layout-main div.spoiler button.button
-{
+#layout-main div.spoiler button.spoiler {
 	background: none;
 }
 
 span.link,
 a:visited,
 a:active,
-a:link
-{
+a:link {
 	color: #105289;
 }
 
@@ -21,23 +19,19 @@ span.link:hover,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover a,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.topictitle:hover,
-#layout-main div.forum a.username-colored
-{
+#layout-main div.forum a.username-colored {
 	color: #AA0000;
 }
 
-#layout-main div.cmt_all div.comment h4
-{
+#layout-main div.cmt_all div.comment h4 {
 	background-color: #969AA6;
 }
 
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li {
 	background-color: #D3D5D9;
 }
 
-#layout-content
-{
+#layout-content {
 	border-bottom-color:#7D7D7D;
 	border-left-color:#9A9A9A;
 	border-top-color:#9A9A9A;
@@ -45,8 +39,7 @@ span.link:hover,
 
 table,
 #layout-main div.main_all div.rightbar h4,
-#layout-main div.anime_all div.info div.caststaff div table
-{
+#layout-main div.anime_all div.info div.caststaff div table {
 	border-top-color: #DDDDDD;
 }
 
@@ -60,11 +53,11 @@ input[type="submit"]:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.g_odd:hover,
 #layout-main tr.header th.sortable:hover,
+#layout-main tr.header th.sortable:hover a,
 #layout-menu li.user-xauth input[type="button"],
 #layout-search .submit:hover,
-#layout-main div.spoiler button.button:hover,
+#layout-main div.spoiler button.spoiler:hover,
 *.g_button a:hover,
-#layout-main tr.header th.sortable:hover a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 #layout-main div.animeatt_all div.review > h4,
@@ -75,8 +68,7 @@ input[type="submit"]:hover,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.forum li.header dt,
 #layout-main div.forum li.header dd,
-#layout-main div.search_all div.suggestions span:hover
-{
+#layout-main div.search_all div.suggestions span:hover {
 	color: #DDDDDD;
 }
 
@@ -111,8 +103,7 @@ textarea,
 select,
 #layout-search select,
 #layout-search input.text,
-#layout-main div.search_all div.suggestions
-{
+#layout-main div.search_all div.suggestions {
 	color: #CCCCCC;
 }
 
@@ -126,8 +117,7 @@ select,
 #layout-main th > span.link,
 #layout-main th > a:visited,
 #layout-main th > a:active,
-#layout-main th > a:link
-{
+#layout-main th > a:link {
 	color: #A2BFD7;
 }
 
@@ -137,8 +127,7 @@ select,
 #layout-main div.g_timedentry h4 a:hover,
 #layout-main div.g_timedentry p.comment a:hover,
 #layout-main div.userpage_all > div.g_section > h4 a:hover,
-#layout-main div.animeatt_all div.review > h4 a:hover
-{
+#layout-main div.animeatt_all div.review > h4 a:hover {
 	color: #FFAA55;
 }
 
@@ -153,15 +142,14 @@ input[type="submit"]:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.g_odd:hover,
 #layout-main tr.header th.sortable:hover,
+#layout-main tr.header th.sortable:hover a
 #layout-menu li.user-xauth input[type="button"],
 #layout-search .submit:hover,
-#layout-main div.spoiler button.button:hover,
-#layout-main tr.header th.sortable:hover a,
+#layout-main div.spoiler button.spoiler:hover,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 button:hover,
-#layout-main div.search_all div.suggestions span:hover
-{
+#layout-main div.search_all div.suggestions span:hover {
 	background-color:#58636E;
 }
 
@@ -184,8 +172,7 @@ a.tooltip > span.text.g_bubble,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
-#layout-main div.addtagentityrel_all div.suggestions > span:hover
-{
+#layout-main div.addtagentityrel_all div.suggestions > span:hover {
 	background-color: #B9BBBF;
 }
 
@@ -202,8 +189,7 @@ div.g_odd,
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd,
-#layout-main div.addtagentityrel_all #tag-list div.g_odd
-{
+#layout-main div.addtagentityrel_all #tag-list div.g_odd {
 	background-color: #B1B3B5;
 }
 
@@ -218,8 +204,7 @@ div.g_odd,
 #layout-tabs ul.main-tabs li.selected,
 #layout-tabs ul.main-tabs li:hover,
 #layout-content,
-body.nonav
-{
+body.nonav {
 	background-color: #CFD1D4;
 }
 
@@ -250,7 +235,7 @@ th,
 #layout-menu li.sub-menu ul li#user-xkeep:hover,
 #layout-menu li.sub-menu ul li#user-xauth:hover,
 #layout-main div.anime_all div.info div.caststaff div h4,
-#layout-main div.spoiler button.button,
+#layout-main div.spoiler button.spoiler,
 input[type="text"],
 input[type="password"],
 input.text,
@@ -261,30 +246,25 @@ select,
 #layout-menu li.sub-menu ul,
 #layout-main div.pagination span a,
 #layout-main div.forum div.g_bubble.threads,
-#layout-main div.search_all div.suggestions
-{
+#layout-main div.search_all div.suggestions {
 	background-color: #34394D;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li.signup
-{
+#layout-main div.main_all div.header div.account ul.tabs li.signup {
 	background-color: #AA0000;
 }
 
-#layout-main div.tabbed_pane div.body div.pane ul *.g_odd
-{
+#layout-main div.tabbed_pane div.body div.pane ul *.g_odd {
 	background-color: inherit;
 }
 
-#menu-account li.alert span:before,
-#menu-account li.alert span:after
-{
+#menu-account li.alert a span:before,
+#menu-account li.alert a span:after {
 	color: #B32947;
 }
 
 #layout-main div.format-buttons *.f_button:hover,
-#layout-main div.format-buttons *.f_button.selected
-{
+#layout-main div.format-buttons *.f_button.selected {
 	background-color: #B5BED6;
 }
 
@@ -312,8 +292,7 @@ select,
 #layout-main div.g_menu.filter_menu div.settings select,
 #layout-main div.forum div.g_bubble.navbar div.bottom,
 #layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd
-{
+#layout-main div.votes_all div.graph.eps div.g_odd {
 	border-color: #34394D;
 }
 
@@ -330,8 +309,7 @@ select,
 #layout-main div.forum div.events div.data > p,
 #layout-main div.forum div.poll div.data p,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
-#layout-main div.addtagentityrel_all div.suggestions > span:hover
-{
+#layout-main div.addtagentityrel_all div.suggestions > span:hover {
 	border-color:#9A9A9A #7D7D7D #7D7D7D #9A9A9A;
 }
 
@@ -341,8 +319,7 @@ select,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-menu li.sub-menu ul li#user-xpass input,
 #layout-menu li.sub-menu ul li#user-xname input,
-#layout-main div.tag-column .tag-block + .tag-block
-{
+#layout-main div.tag-column .tag-block + .tag-block {
 	border-color: #9A9A9A;
 }
 
@@ -351,62 +328,53 @@ select,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.news h4,
 #layout-main div.g_timedentry h4,
-#layout-main div.userpage_all > div.g_section > h4
-{
+#layout-main div.userpage_all > div.g_section > h4 {
 	border-color: #EEEEEE #8E8E8E #8E8E8E #EEEEEE;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done,
-#layout-main div.group_all div.group_released td.epbar div.done
-{
+#layout-main div.group_all div.group_released td.epbar div.done {
 	background-color: #4F99E8;
 	border-bottom-color: #4F99E8;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
-#layout-main div.group_all div.group_released td.epbar div.done.mylist
-{
+#layout-main div.group_all div.group_released td.epbar div.done.mylist {
 	border-bottom-color: #7BE07B;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done,
-#layout-main div.group_all div.group_released td.epbar div.done
-{
+#layout-main div.group_all div.group_released td.epbar div.done {
 	background-color: #4F75E8;
 	border-bottom-color: #4F75E8;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.notdone,
-#layout-main div.group_all div.group_released td.epbar div.notdone
-{
+#layout-main div.group_all div.group_released td.epbar div.notdone {
 	background-color: #C3CFFF;
 	border-bottom-color: #C3CFFF;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
-#layout-main div.group_all div.group_released td.epbar div.done.mylist
-{
+#layout-main div.group_all div.group_released td.epbar div.done.mylist {
 	border-bottom-color: #7EF27E;
 }
 
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong,
 #layout-tabs ul.main-tabs li.selected a,
-#layout-tabs ul.main-tabs li:hover a
-{
+#layout-tabs ul.main-tabs li:hover a {
 	color: #000000;
 }
 
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd,
-#layout-main div.forum div.events h2
-{
+#layout-main div.forum div.events h2 {
 	color: #666666;
 }
 
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2,
 #layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p
-{
+#layout-main div.forum div.poll div.data p {
 	border-bottom-color:#7D7D7D;
 }
 
@@ -414,63 +382,55 @@ select,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #E6E4D1;
+	background-color: #E6E4D1 !important;
 }
 
 .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #F0EDD5;
+	background-color: #F0EDD5 !important;
 }
 
 #layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
-{
+#layout-main div.main_all div.header h4 {
 	background-color:#34394D;
 	color:#DDDDDD;
 	border-color:#EEEEEE #8E8E8E #8E8E8E #EEEEEE;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li
-{
+#layout-main div.main_all div.header div.account ul.tabs li {
 	border-top-color: #9A9A9A;
 	border-left-color: #9A9A9A;
 	border-right-color: #7D7D7D;
 }
 
 #layout-main div.main_all div.header div.account ul.tabs li,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover
-{
+#layout-main div.main_all div.header div.account ul.tabs li.signup:hover {
 	background-color:#CFD1D4;
 	border-bottom-color: #CFD1D4;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li.signup a
-{
+#layout-main div.main_all div.header div.account ul.tabs li.signup a {
 	color: #CFD1D4;
 }
 
-#layout-main div.main_all div.header div.latestnews div.posted
-{
+#layout-main div.main_all div.header div.latestnews div.posted {
 	color:#666666;
 }
 
-#layout-main div.forum div.g_bubble.rules
-{
+#layout-main div.forum div.g_bubble.rules {
 	background-color:#ECD5D8;
 	color:#BC2A4D;
 	border-color: #DEBFC3 #C4939F #C4939F #DEBFC3;
 }
 
 #layout-tabs ul.main-tabs > li:hover,
-#layout-tabs ul.main-tabs > li.selected
-{
+#layout-tabs ul.main-tabs > li.selected {
 	border-bottom-color: #CFD1D4;
 }
 
-#layout-tabs ul.main-tabs > li
-{
+#layout-tabs ul.main-tabs > li {
 	border-bottom-color: #34394d;
 }
 
@@ -485,14 +445,12 @@ a.tooltip span.text {
 	opacity: 0.9;
 }
 
-a.tooltip span.text:after
-{
+a.tooltip span.text:after {
 	border-color: rgba(211, 213, 217, 0);
 	border-bottom-color: #d3d5d9;
 }
 
-a.tooltip span.text:before
-{
+a.tooltip span.text:before {
 	border-color: rgba(154, 154, 154, 0);
 	border-bottom-color: #9a9a9a;
 }
@@ -575,8 +533,7 @@ li + li.g_odd,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
-#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag
-{
+#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag {
 	border-top-color: #999999;
 }
 
@@ -602,31 +559,26 @@ li + li.g_odd,
 	border-left-color: #999999;
 }
 
-#layout-search input.text
-{
+#layout-search input.text {
     box-shadow: 1px 1px 2px #8E8E8E inset;
 }
 
-#layout-search select
-{
+#layout-search select {
     box-shadow: 0 1px 2px #8E8E8E inset;
 }
 
-#layout-menu li.sub-menu li + li
-{
+#layout-menu li.sub-menu li + li {
 	border-top-color: #454959;
 }
 
 #layout-main div.anime_all div.staffblock + div.staffblock table,
 #layout-main div.ep_all div.staffblock + div.staffblock table,
-#layout-main div.anime_all div.episodes tr.newtype td
-{
+#layout-main div.anime_all div.episodes tr.newtype td {
 	border-top-color: #34394D;
 }
 
 #layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
+#layout-main div.tabbed_pane ul.tabs li.selected {
 	border-bottom-color: #B9BBBF;
 }
 

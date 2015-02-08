@@ -1,17 +1,14 @@
-table
-{
+table {
 	border-collapse:separate;
 	border-top:1px solid;
 }
 
 #layout-main div.hint2_all table,
-#layout-main div.anime_all div.info div.data table
-{
+#layout-main div.anime_all div.info div.data table {
 	border-top:none;
 }
 
-#layout-tabs ul.main-tabs > li.selected
-{
+#layout-tabs ul.main-tabs > li.selected {
 	border-bottom:2px solid;
 }
 
@@ -22,22 +19,18 @@ table
 #layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-search select.type,
-#layout-menu > li ul
-{
+#layout-menu > li ul {
 	border:1px solid;
 }
 
-#layout-tabs ul.main-tabs > li
-{
+#layout-tabs ul.main-tabs > li {
 	border-bottom:none;
 }
 
-#layout-menu li.sub-menu + li.sub-menu
-{
+#layout-menu li.sub-menu + li.sub-menu {
 	border-left:1px solid #CCCCCC;
 }
 
-#layout-main > h1
-{
+#layout-main > h1 {
 	border-bottom:1px solid #CCCCCC;
 }

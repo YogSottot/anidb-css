@@ -1,10 +1,8 @@
-*.i_plus
-{
+*.i_plus {
 	background-image: url(../icons/blue/plus.gif);
 }
 
-*.i_minus
-{
+*.i_minus {
 	background-image: url(../icons/blue/minus.gif);
 }
 

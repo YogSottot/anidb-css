@@ -1,6 +1,5 @@
 /*edit form*/
-#layout-main div.g_definitionlist.tagedit_form table table
-{
+#layout-main div.g_definitionlist.tagedit_form table table {
 	width:100%;
 }
 
@@ -8,49 +7,41 @@
 #layout-main div.g_definitionlist.tagedit_form table.options th.character,
 #layout-main div.g_definitionlist.tagedit_form table.options th.creator,
 #layout-main div.g_definitionlist.tagedit_form table.options th.episode,
-#layout-main div.g_definitionlist.tagedit_form table.options th.manga
-{
+#layout-main div.g_definitionlist.tagedit_form table.options th.manga {
 	width:5em;
 }
 
 #layout-main div.g_definitionlist.tagedit_form table.types td,
-#layout-main div.g_definitionlist.tagedit_form table.blocked td
-{
+#layout-main div.g_definitionlist.tagedit_form table.blocked td {
 	vertical-align: top;
 	width:10em;
 }
 
 
-#layout-main div.addtagentityrel_all div.tag-column
-{
+#layout-main div.addtagentityrel_all div.tag-column {
 	margin: 0.2em;
 }
 
-#layout-main div.addtagentityrel_all div.tags_add textarea
-{
+#layout-main div.addtagentityrel_all div.tags_add textarea {
 	height: 25em;
 	width: 50em;
 }
 
-#layout-main div.addtagentityrel_all div.editform div.table
-{
+#layout-main div.addtagentityrel_all div.editform div.table {
 	width: 55em;
 	display: inline-table;
 }
 
-#layout-main div.addtagentityrel_all div.editform table td
-{
+#layout-main div.addtagentityrel_all div.editform table td {
 	min-width: 8em;
 	line-height: 2.2em;
 }
 
-#layout-main div.addtagentityrel_all div.editform table td.name
-{
+#layout-main div.addtagentityrel_all div.editform table td.name {
 	width: 100%;
 }
 
-#layout-main div.addtagentityrel_all div.tag-column div.tag span.name
-{
+#layout-main div.addtagentityrel_all div.tag-column div.tag span.name {
 	width: 20.5em;
 }
 
@@ -114,8 +105,7 @@
 	display: block;
 }
 
-#layout-main div.tag-column
-{
+#layout-main div.tag-column {
 	padding: 8px;
 	display: -webkit-box;
 	display: -moz-box;
@@ -144,13 +134,11 @@
 	align-items: center;
 }
 
-#layout-main div.tag-column div.tag > span
-{
+#layout-main div.tag-column div.tag > span {
 	line-height:1.5em;
 }
 
-#layout-main div.tag-column div.tag span.name
-{
+#layout-main div.tag-column div.tag span.name {
 	-webkit-flex-grow: 1;
 	-moz-flex-grow: 1;
 	-ms-flex-grow: 1;
@@ -176,8 +164,7 @@
     min-width: 2em;
 }
 
-#layout-main div.tag-column div.tag span.indent
-{
+#layout-main div.tag-column div.tag span.indent {
 	white-space:pre;
 	float: left;
 	line-height: 1.6em;
@@ -187,8 +174,7 @@
 	padding-top: 1em;
 }
 
-#layout-main div.tag-column h5
-{
+#layout-main div.tag-column h5 {
 	text-align: center;
 }
 
@@ -226,8 +212,7 @@
 	content: ":";
 }
 
-#layout-main div.chartag-list
-{
+#layout-main div.chartag-list {
 	display: block;
 	text-align: justify;
 	line-height: 1;
@@ -235,8 +220,7 @@
 	width: 100%;
 }
 
-#layout-main div.chartag-list span.tag
-{
+#layout-main div.chartag-list span.tag {
 	display: inline-block;
 	line-height:25px;
 	white-space: nowrap;
@@ -266,8 +250,7 @@
 	}
 }
 
-#layout-main div.chartag-list span.tag span.text
-{
+#layout-main div.chartag-list span.tag span.text {
 	white-space: normal;
 }
 

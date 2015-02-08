@@ -1,5 +1,4 @@
-.g_bubble.stripe
-{
+.g_bubble.stripe {
 	display: inline-block;
 	width: 400px;
 	text-align: left;
@@ -9,8 +8,7 @@
 	min-height:7.7em;
 }
 
-.g_bubble.stripe > div.image
-{
+.g_bubble.stripe > div.image {
 	margin: 0.5em;
 	width: 5em;
 	height: 5.5em;
@@ -18,13 +16,11 @@
 	float: left;
 }
 
-.g_bubble.stripe > div.image div.tooltip
-{
+.g_bubble.stripe > div.image div.tooltip {
 	display: none;
 }
 
-.g_bubble.stripe > div.image:hover div.tooltip
-{
+.g_bubble.stripe > div.image:hover div.tooltip {
 	display: block;
 	width: 400px;
 	text-align: left;
@@ -33,19 +29,16 @@
 	margin: 2em 0 0 3em;
 }
 
-.g_bubble.stripe > div.image div.tooltip div.comments div.content
-{
+.g_bubble.stripe > div.image div.tooltip div.comments div.content {
 	padding: 0 4px 4px;
 	word-wrap: break-word;
 }
 
-.g_bubble.stripe > div.image div.tooltip div.comments div.postbody + div.postbody
-{
+.g_bubble.stripe > div.image div.tooltip div.comments div.postbody + div.postbody {
 	margin-top: 0.5em;
 }
 
-.g_bubble
-{
+.g_bubble {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -53,38 +46,32 @@
 	border-width:1px;
 }
 
-.g_bubble.stripe > div.data
-{
+.g_bubble.stripe > div.data {
 	margin: 0.5em 0.5em 0.5em 6em;
 }
 
-.g_bubble.stripe > div.data div + div
-{
+.g_bubble.stripe > div.data div + div {
 	margin-top:0.2em;
 }
 
-.g_bubble.stripe > div.data div.name
-{
+.g_bubble.stripe > div.data div.name {
 	margin-bottom: 0.5em;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
 }
 
-.g_bubble.stripe > div.data div.actions.icons
-{
+.g_bubble.stripe > div.data div.actions.icons {
 	float: right;
 	margin-right: 0.3em;
 }
 
-.g_bubble.stripe > div.data div.text
-{
+.g_bubble.stripe > div.data div.text {
 	word-wrap: break-word;
 	overflow-y:auto;
 	max-height:7em;
 }
 
-.g_bubble.box
-{
+.g_bubble.box {
 	display: inline-block;
 	width: 300px;
 	text-align: left;
@@ -96,8 +83,7 @@
 	word-wrap: break-word;
 }
 
-.g_bubble.box > div.image
-{
+.g_bubble.box > div.image {
 	margin:0 0.5em 0.5em;
 	float: left;
 	max-height:180px;
@@ -105,110 +91,90 @@
 	overflow:hidden;
 }
 
-.g_bubble.box > div.top
-{
+.g_bubble.box > div.top {
 	padding: 0.5em 0.5em 0 0.5em;
 }
 
-.g_bubble.box > div.data
-{
+.g_bubble.box > div.data {
 	margin: 0.2em 0.5em 0.5em;
 }
 
-.g_bubble.box > div.data div + div
-{
+.g_bubble.box > div.data div + div {
 	margin-top:0.2em;
 }
 
-.g_bubble.box > div.top div.name
-{
+.g_bubble.box > div.top div.name {
 	margin-bottom: 0.5em;
 	margin-right: 7em;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
 }
 
-.g_bubble.box > div.top div.actions.icons
-{
+.g_bubble.box > div.top div.actions.icons {
 	float: right;
 	margin-top:-0.2em;
 }
 
-.g_bubble.box > div.data div.desc
-{
+.g_bubble.box > div.data div.desc {
 	clear:left;
 }
 
-.g_bubble.stripe.mini
-{
+.g_bubble.stripe.mini {
 	width:225px;
 }
 
-.g_bubble.stripe.mini > div.data
-{
+.g_bubble.stripe.mini > div.data {
 	width: auto;
 }
 
-.g_bubble.stripe.mini > div.data div.name 
-{
+.g_bubble.stripe.mini > div.data div.name  {
 	margin-right: 0;
 }
 
-.g_bubble.stripe.small
-{
+.g_bubble.stripe.small {
 	width:250px;
 }
 
-.g_bubble.stripe.small > div.data
-{
+.g_bubble.stripe.small > div.data {
 	width:185px;
 }
 
-.g_bubble.stripe.small > div.data div.name 
-{
+.g_bubble.stripe.small > div.data div.name  {
 	margin-right: 2em;
 }
 
 .g_bubble.stripe.medium > div.image:hover div.tooltip,
-.g_bubble.stripe.medium
-{
+.g_bubble.stripe.medium {
 	width:300px;
 }
 
 .g_bubble.stripe.max > div.data div.name,
-.g_bubble.stripe.medium > div.data div.name
-{
+.g_bubble.stripe.medium > div.data div.name {
 	margin-right: 2em;
 }
 
-.g_bubble.stripe.max
-{
+.g_bubble.stripe.max {
 	width:98%;
 }
 
-.g_bubble.stripe.max > div.data
-{
+.g_bubble.stripe.max > div.data {
 	width: auto;
 }
 
 .g_bubble.stripe.medium div.data div.eprange,
-.g_bubble.stripe.max > div.image:hover div.tooltip
-{
+.g_bubble.stripe.max > div.image:hover div.tooltip {
 	display:none;
 }
 
-.g_bubble.stripe.medium
-{
+.g_bubble.stripe.medium {
 	min-height:105px;
 }
 
-.g_bubble.stripe.recommendation
-{
+.g_bubble.stripe.recommendation {
     height: 125px;
 }
 
-.g_bubble.stripe.recommendation > div.data div.text
-{
+.g_bubble.stripe.recommendation > div.data div.text {
     max-height: 100px;
 }
 

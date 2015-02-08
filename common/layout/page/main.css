@@ -1,35 +1,29 @@
-#layout-main div.main_all div.rightbar li span
-{
+#layout-main div.main_all div.rightbar li span {
 	position:absolute;
 }
 
 #layout-main div.main_all div.rightbar li a,
-#layout-main div.main_all div.rightbar li span + span
-{
+#layout-main div.main_all div.rightbar li span + span {
 	display: table;
 	margin-left: 4.5em;
 	position: relative;
 }
 
-#layout-main div.main_all div.rightbar
-{
+#layout-main div.main_all div.rightbar {
 	width: 19em;
 	float: right;
 }
 
-#layout-main div.main_all div.rightbar h3
-{
+#layout-main div.main_all div.rightbar h3 {
 	margin-top: 1em;
 }
 
-#layout-main div.main_all div.rightbar ol
-{
+#layout-main div.main_all div.rightbar ol {
 	list-style-type: none;
 	margin-left: 0;
 }
 
-#layout-main div.main_all div.rightbar > div
-{
+#layout-main div.main_all div.rightbar > div {
 	margin-bottom:1em;
 }
 
@@ -61,26 +55,22 @@
 	max-width: calc(50% - 8px);
 }
 
-#layout-main div.main_all div.datablocks > div.account
-{
+#layout-main div.main_all div.datablocks > div.account {
 	width:30em;
 }
 
-#layout-main div.main_all div.datablocks div.stripe
-{
+#layout-main div.main_all div.datablocks div.stripe {
 	height:8.7em;
 	max-height: 8.7em;
 	width:100%;
 }
 
-#layout-main div.main_all div.datablocks div.similaranime div.stripe div.data
-{
+#layout-main div.main_all div.datablocks div.similaranime div.stripe div.data {
 	margin:0.5em 6em;
 }
 
 #layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
-{
+#layout-main div.main_all div.header h4 {
 	margin-bottom:0.2em;
 }
 
@@ -122,21 +112,18 @@
 }
 
 #layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
-{
+#layout-main div.main_all div.header h4 {
 	border: 1px solid;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs
-{
+#layout-main div.main_all div.header div.account ul.tabs {
 	margin-bottom:-1px;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li
-{
+#layout-main div.main_all div.header div.account ul.tabs li {
 	display:inline-block;
 	padding:0.2em 0;
 	text-align:center;
@@ -144,116 +131,96 @@
 }
 
 #layout-main div.main_all div.header div.account div.login input[type="text"],
-#layout-main div.main_all div.header div.account div.login input[type="password"]
-{
+#layout-main div.main_all div.header div.account div.login input[type="password"] {
 	padding:4px;
 	width:16.5em;
 }
 
-#layout-main div.main_all div.header div.account table
-{
+#layout-main div.main_all div.header div.account table {
 	margin:0.4em auto;
 }
 
-#layout-main div.main_all div.header div.account table th
-{
+#layout-main div.main_all div.header div.account table th {
 	padding:4px 8px;
 }
 
 #layout-main div.main_all div.header div.account,
-#layout-main div.main_all div.header div.about
-{
+#layout-main div.main_all div.header div.about {
 	padding:0.5em;
 }
 
 #layout-main div.main_all div.datablocks,
 #layout-main div.main_all div.news.forum,
-#layout-main div.main_all div.header
-{
+#layout-main div.main_all div.header {
 	clear:none;
 	margin-right:20em;
 }
 
-#layout-main div.main_all div.header div.account
-{
+#layout-main div.main_all div.header div.account {
 	float:right;
 	width:30.5em;
 }
 
 #layout-main div.main_all div.header div.about ul li + li,
-#layout-main div.main_all div.header div.about div.content > span + span
-{
+#layout-main div.main_all div.header div.about div.content > span + span {
 	padding-top:0.5em;
 }
 
-#layout-main div.main_all div.header div.about h4
-{
+#layout-main div.main_all div.header div.about h4 {
 	margin-right:26em;
 }
 
-#layout-main div.main_all div.header div.about ul
-{
+#layout-main div.main_all div.header div.about ul {
 	list-style-type:disc;
 	padding-left:1.5em;
 }
 
-#layout-main div.main_all div.header div.latestnews
-{
+#layout-main div.main_all div.header div.latestnews {
 	clear:none;
 }
 
-#layout-main div.main_all div.header div.content
-{
+#layout-main div.main_all div.header div.content {
 	text-align:left;
 }
 
-#layout-main div.main_all div.header div.latestnews span.counter
-{
+#layout-main div.main_all div.header div.latestnews span.counter {
 	float: right;
 }
 
-#layout-main div.main_all div.header div.latestnews > div
-{
+#layout-main div.main_all div.header div.latestnews > div {
 	text-align:center;
 }
 
-#layout-main div.main_all div.header div.latestnews div.stripe
-{
+#layout-main div.main_all div.header div.latestnews div.stripe {
 	width:100%;
 }
 
-#layout-main div.main_all div.header div.latestnews div.stripe div.data
-{
+#layout-main div.main_all div.header div.latestnews div.stripe div.data {
 	float:none;
 	margin-left:6em;
 	width:auto;
 }
 
-#layout-main div.main_all div.header div.latestnews div.posted
-{
+#layout-main div.main_all div.header div.latestnews div.posted {
 	margin-bottom:0.5em;
 }
 
 #layout-main div.main_all div.datablocks div.stripe div.data div.name,
-#layout-main div.main_all div.header div.latestnews div.stripe div.name
-{
+#layout-main div.main_all div.header div.latestnews div.stripe div.name {
 	margin-right:0;
 }
 
 #layout-main div.main_all div.datablocks div.similaranime div.image.other,
-#layout-main div.main_all div.header div.account ul.tabs li.signup
-{
+#layout-main div.main_all div.header div.account ul.tabs li.signup {
 	float:right;
 }
 
 #layout-main div.main_all div.header div.account ul.tabs li a,
-#layout-main div.main_all div.header div.about div.content > span
-{
+#layout-main div.main_all div.header div.about div.content > span {
 	display:block;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li
-{
+#layout-main div.main_all div.header div.account ul.tabs li {
 	-moz-border-radius:0.5em 0.5em 0 0;
 	-webkit-border-radius:0.5em 0.5em 0 0;
 	border-radius:0.5em 0.5em 0 0;
@@ -262,26 +229,22 @@
 	border-right: 1px solid;
 }
 
-#layout-main div.main_all div.header div.account div.login
-{
+#layout-main div.main_all div.header div.account div.login {
 	-moz-border-radius:0 0 0.5em 0.5em;
 	-webkit-border-radius:0 0 0.5em 0.5em;
 	border-radius:0 0 0.5em 0.5em;
 }
 
-#layout-main div.main_all div.header div.account table
-{
+#layout-main div.main_all div.header div.account table {
 	border-top: none;
 }
 
 #layout-main div.main_all div.header div.account ul.tabs li,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover
-{
+#layout-main div.main_all div.header div.account ul.tabs li.signup:hover {
 	border-bottom: 1px double;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li.signup
-{
+#layout-main div.main_all div.header div.account ul.tabs li.signup {
 	border-bottom: none;
 }
 

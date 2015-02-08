@@ -1,10 +1,8 @@
-#layout-main div.admin_menu ul li:hover
-{
+#layout-main div.admin_menu ul li:hover {
 	background: transparent url(images/stripe-ltgrey.gif) repeat left top;
 }
 
-#layout-nav div.main_search
-{
+#layout-nav div.main_search {
 	background-image: url(images/logo.gif);
 	background-repeat: no-repeat;
 }

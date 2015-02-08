@@ -99,8 +99,8 @@
 	vertical-align: middle;
 }
 
-#menu-account li.alert span:before,
-#menu-account li.alert span:after
+#menu-account li.alert a span:before,
+#menu-account li.alert a span:after
 {
 	content: "!";
 	color: red;
