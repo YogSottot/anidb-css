@@ -19,6 +19,17 @@ table th.sortable:hover,
 	color: #C0DAF0 !important;
 }
 
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus {
+    border-color: inherit !important;
+}
+
 table th,
 #layout-main > h1,
 #layout-main div.g_timedentry h4,
