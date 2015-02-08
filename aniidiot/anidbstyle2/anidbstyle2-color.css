@@ -258,8 +258,8 @@ select,
 	background-color: inherit;
 }
 
-#menu-account li.alert span:before,
-#menu-account li.alert span:after {
+#menu-account li.alert a span:before,
+#menu-account li.alert a span:after {
 	color: #B32947;
 }
 

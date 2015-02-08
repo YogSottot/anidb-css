@@ -127,8 +127,8 @@ span.diff,
 #layout-main div.creq_all .state.new,
 #layout-main div.creq_all span.type.del,
 #layout-main div.anime_all div.groups td.mylist.new,
-#menu-account li.alert span:before,
-#menu-account li.alert span:after {
+#menu-account li.alert a span:before,
+#menu-account li.alert a span:after {
 	color: #B32947;
 }
 

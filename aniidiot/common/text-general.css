@@ -47,8 +47,8 @@ input[type="submit"],
 	font-size: 9px;
 }
 
-#menu-account li.alert span:before,
-#menu-account li.alert span:after {
+#menu-account li.alert a span:before,
+#menu-account li.alert a span:after {
 	content: "!";
 }
 
