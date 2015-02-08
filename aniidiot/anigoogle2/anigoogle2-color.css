@@ -13,7 +13,6 @@ button.confirmButton {
 
 a,
 th a,
-h1 a,
 .i_icon,
 span.link,
 h4 span.nolink a,
@@ -61,6 +60,7 @@ input[type="button"]:hover,
 }
 
 h4 a,
+h1 a,
 th a {
     color: #C0DAF0;
 }
