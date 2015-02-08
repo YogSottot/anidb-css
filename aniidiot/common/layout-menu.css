@@ -114,7 +114,7 @@ body {
 #layout-main h1.main,
 #layout-main div.main_all
 {
-	display: inline-block;
+	display: block;
 }
 
 #layout-search
