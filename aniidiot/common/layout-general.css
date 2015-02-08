@@ -267,7 +267,8 @@ h4,
 #layout-main div.g_definitionlist tr th,
 #layout-main div.g_menu ul li,
 #layout-main div.userpage_all div.buddies ul li,
-#layout-main div.userpage_all div.favreviewers ul li {
+#layout-main div.userpage_all div.favreviewers ul li,
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs td {
 	padding: 2px 8px;
 }
 
@@ -396,11 +397,6 @@ button,
 {
 	width: 12em;
 	margin-bottom: 2px;
-}
-
-#layout-main div.addsongcollectionrel_all div.massadd_new_songs td
-{
-	padding: 2px 8px;
 }
 
 #layout-main div.addtagentityrel_all div.suggestions > span {
