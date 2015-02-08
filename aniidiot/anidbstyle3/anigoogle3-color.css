@@ -217,6 +217,7 @@ button,
 #layout-menu li.sub-menu ul li:hover a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
+#layout-main div.edit_actions a:hover,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
 	background-color: #58636E;
