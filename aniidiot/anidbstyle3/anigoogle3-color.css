@@ -120,3 +120,7 @@ button,
 	background-color: #58636E;
 }
 
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.userpage_all div.g_menu ul li.g_odd {
+	background-color: #B9BBBF;
+}
