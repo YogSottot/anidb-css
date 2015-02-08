@@ -42,7 +42,7 @@ def cssm(cssfile="/"):
         if not line.startswith('#') and line.find(cssfile) > 0:
             path,name = line.rstrip('\n').rsplit('/',1)
             dirname   = path.lstrip('./').replace('/','-')
-            if 'aniidiot' in dirname:
+            if 'aniidiot' in dirname or 'cdb' in dirname:
                 crap, dirname = path.rsplit('/', 1)
             out = __out+dirname
             if os.path.exists(out) is False:
