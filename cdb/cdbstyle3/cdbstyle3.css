@@ -1,0 +1,16 @@
+@import "../aniidiot/anidbstyle3/anidbstyle3.css";
+
+@import "cdbstyle3-icons.css";
+
+@import "../cdbstyle-colour.css";
+@import "../cdbstyle-text.css";
+@import "../cdbstyle-layout.css";
+
+@import "../colour/mylist.css";
+@import "../colour/wishlist.css";
+@import "../colour/features.css";
+
+#layout-footer:after
+{
+  content:"Design by CDB-Man. Improvements on DerIdiot`s AniDBstyle3.";
+}
