@@ -1,0 +1,122 @@
+.g_bubble .g_odd,
+tr {
+	background-color: inherit;
+}
+
+.i_icon:hover,
+.g_button a:hover,
+button:hover,
+span.link:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+h4 a:hover,
+th a:hover,
+table th.sortable:hover,
+#layout-main ul.g_list li:hover,
+#layout-main div.edit_actions a:hover,
+#layout-main .g_list li:hover,
+#layout-main .g_list a:hover {
+	color: #C0DAF0 !important;
+}
+
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus {
+    border-color: inherit !important;
+}
+
+table th,
+#layout-main > h1,
+#layout-main div.g_timedentry h4,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.votes_all div.graph div.header,
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4,
+#layout-main div.anime_all div.info div.caststaff div h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.userpage_all div.g_menu ul li:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover .v_high,
+#layout-main div.userpage_all div.g_menu ul li:hover a {
+	color: #CCCCCC !important;
+}
+
+#layout-main div.edit_actions a {
+	color: #C0DAF0;
+	border-color: #34394D;
+}
+
+#layout-menu .sub-menu {
+	background-color: inherit !important;
+}
+
+th,
+th a,
+#layout-main div.edit_actions a,
+#layout-menu .sub-menu ul {
+	background-color: #34394D;
+}
+
+.i_comment_add,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_comment_revisions,
+.i_comment_move,
+.i_topic_lock,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_delete,
+.i_comment_info,
+.i_comment_creq,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_comment_setactive,
+.i_topic_locked,
+.i_comment_undelete,
+.i_pm_delete,
+.i_review_add,
+.i_pm_reply,
+.i_topic_subscribe,
+.i_topic_unsubscribe,
+.g_button a,
+input[type="submit"],
+input[type="button"],
+button,
+#layout-search select,
+#layout-search input.text,
+#layout-main ul.g_list li,
+#layout-main div.pagination span a,
+#layout-main div.edit_actions a {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.g_bubble,
+#layout-hint,
+#layout-content,
+#layout-main div.g_msg,
+#layout-menu li.sub-menu ul,
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main > h1 {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover {
+	background-color: #58636E;
+}
+
