@@ -265,6 +265,11 @@ select,
 }
 
 #layout-main div.format-buttons .f_button {
+	background-color: #BBBBBB;
+}
+
+#layout-main div.format-buttons *.f_button:hover,
+#layout-main div.format-buttons *.f_button.selected {
 	background-color: #CCCCCC;
 }
 
@@ -283,8 +288,6 @@ textarea,
 select,
 #layout-search select,
 #layout-search input.text,
-#layout-main div.format-buttons *.f_button:hover,
-#layout-main div.format-buttons *.f_button.selected,
 #layout-main div.pagination span strong,
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
