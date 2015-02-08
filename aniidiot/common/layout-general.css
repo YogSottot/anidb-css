@@ -288,6 +288,11 @@ h4,
 	padding: 8px;
 }
 
+#layout-menu li.sub-menu ul li.alert span {
+	display: inline-block;
+	margin-top:0.25em;
+}
+
 #layout-tabs li.news,
 #layout-menu li.sub-menu ul li.alert span a
 {
