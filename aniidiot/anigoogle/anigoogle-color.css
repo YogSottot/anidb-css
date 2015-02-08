@@ -122,7 +122,8 @@ button:hover,
 	border-bottom-color: #C3D8FF;
 }
 
-#layout-main tr.header th.sortable:hover {
+#layout-main tr.header th.sortable:hover,
+#layout-main tr.header th.sortable:hover a {
 	background-color: #D5E2F7;
 	color: #000000;
 }

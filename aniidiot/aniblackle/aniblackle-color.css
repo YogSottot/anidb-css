@@ -284,7 +284,8 @@ th,
 	background-color: inherit;
 }
 
-#layout-main tr.header th.sortable:hover {
+#layout-main tr.header th.sortable:hover,
+#layout-main tr.header th.sortable:hover a {
 	background-color: #666666;
 	color: #DDDDDD;
 }
