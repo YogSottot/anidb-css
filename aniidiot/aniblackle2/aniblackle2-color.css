@@ -233,6 +233,10 @@ button.confirmButton,
 .g_definitionlist .g_odd .g_bubble,
 .g_definitionlist .g_bubble .g_bubble,
 .g_definitionlist .g_bubble .g_bubble .g_bubble .g_bubble,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-main div.edit_actions a,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
@@ -504,11 +508,8 @@ table th,
 	color: #CCCCCC !important;
 }
 
-
 #layout-main > h1,
 #layout-main div.g_timedentry h4,
-#layout-menu li.sub-menu ul li:hover,
-#layout-menu li.sub-menu ul li:hover a,
 #layout-main div.votes_all div.graph div.header,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.main_all div.datablocks h4,
@@ -516,10 +517,8 @@ table th,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
-#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
-#layout-main div.userpage_all div.g_menu ul li:hover {
-	background-color: #444444;
+#layout-main div.userpage_all > div.g_section > h4 {
+	background-color: #333333;
 }
 
 /*box shadow*/
