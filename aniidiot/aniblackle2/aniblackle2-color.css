@@ -611,14 +611,14 @@ a.tooltip span.text {
 }
 
 #layout-main div.g_msg.error {
-	background-color: #916A6A;
+	background-color: #5E4B4B;
 }
 
 #layout-main div.g_msg.warning {
-	background-color: #9A6D4C;
+	background-color: #664E3C;
 }
 
 #layout-hint,
 #layout-main div.g_msg.note {
-	background-color: #B3B379;
+	background-color: #54544B;
 }
