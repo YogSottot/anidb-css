@@ -189,6 +189,25 @@ button,
 	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
+#layout-tabs ul.main-tabs > li,
+#layout-main div.tabbed_pane ul.tabs li {
+	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2)
+}
+
+#imagepreview,
+a.tooltip span.text {
+	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+	opacity: 0.95;
+	background-color: #E8E8E8 !important;
+}
+
+/*disable shadow so it doesn't overlap with the quicksearch pane*/
+#layout-search ul.quicksearch .g_bubble.stripe,
+#layout-search input.text.focus,
+#layout-search input.text.focus + select {
+	box-shadow: none;
+}
+
 .i_comment_add:hover,
 .i_topic_add:hover,
 .i_topic_history:hover,
