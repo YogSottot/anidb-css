@@ -116,7 +116,7 @@ html,
 input,
 select,
 textarea,
-#layout-main table tr.header, {
+#layout-main table tr.header {
 	background-color: #111111;
 }
 
