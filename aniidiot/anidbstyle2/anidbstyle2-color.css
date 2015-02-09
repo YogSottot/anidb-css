@@ -465,10 +465,8 @@ select,
 a.tooltip span.text {
 	background-color: #d3d5d9 !important;
 	color: #000000;
-	-moz-box-shadow: 0px 0px 8px 4px #666;
-	-webkit-box-shadow: 0px 0px 8px 4px #666;
-	box-shadow: 0px 0px 8px 4px #666;
-	opacity: 0.9;
+	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+	opacity: 0.95;
 }
 
 a.tooltip span.text:after {
