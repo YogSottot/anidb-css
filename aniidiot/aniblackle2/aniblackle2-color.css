@@ -20,7 +20,7 @@ span.link,
 h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
-	color: #105289;
+	color: #728972;
 }
 
 h1 a:hover,
@@ -110,6 +110,10 @@ th a:hover {
 	border-bottom-color: #C3D8FF;
 }
 
+html {
+	background-color: #111111;
+}
+
 tr.g_odd,
 li.g_odd,
 span.g_odd,
@@ -144,7 +148,7 @@ a.tooltip > span.text.g_bubble,
 .i_review_add:hover,
 .i_pm_reply:hover,
 .i_topic_subscribe:hover,
-.i_topic_unsubscribe:hover
+.i_topic_unsubscribe:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
@@ -189,7 +193,6 @@ button.confirmButton:hover,
 	background-color: #222222;
 }
 
-html,
 .i_comment_add,
 .i_topic_add,
 .i_topic_history,
@@ -232,7 +235,7 @@ button.confirmButton,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.pagination span a,
 #layout-search ul.quicksearch .g_bubble.stripe {
-	background-color: #111111;
+	background-color: #333333;
 }
 
 .g_bubble .g_odd,
@@ -349,6 +352,7 @@ input[type="password"]:focus {
 	color:#BBBBBB;
 }
 
+html,
 #imagepreview,
 a.tooltip span.text,
 a.button,
@@ -371,7 +375,9 @@ button.confirmButton,
 tr + tr td,
 li.g_odd + li,
 li + li.g_odd,
+tr + tr th,
 #layout-nav div.menu_hr,
+#layout-main div.g_definitionlist tr th
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
