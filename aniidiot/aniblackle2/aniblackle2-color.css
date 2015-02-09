@@ -48,7 +48,7 @@ input[type="button"]:hover,
 #layout-menu li.sub-menu span.tab,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2 {
-	color: #105289 !important;
+	color: #963838 !important;
 }
 
 .i_vrs_2:hover span,
@@ -59,7 +59,7 @@ input[type="button"]:hover,
 .i_vrs_7:hover span,
 .i_vrs_8:hover span,
 .i_vrs_9:hover span {
-	background-color: #105289;
+	background-color: #963838;
 }
 
 h4 a,
@@ -165,8 +165,6 @@ a.confirmButton:hover,
 input.confirmButton:hover,
 button.confirmButton:hover,
 #layout-menu li.sub-menu ul,
-#layout-tabs ul.main-tabs > li.selected,
-#layout-tabs ul.main-tabs > li:hover,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.forum ul.topics li.g_odd.row,
@@ -254,6 +252,8 @@ button.confirmButton,
 .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+#layout-tabs ul.main-tabs > li.selected,
+#layout-tabs ul.main-tabs > li:hover,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover,
 #layout-main div.search_all div.suggestions,
 #layout-main div.forum ul.topics li.row,
@@ -383,7 +383,7 @@ li.g_odd + li,
 li + li.g_odd,
 tr + tr th,
 #layout-nav div.menu_hr,
-#layout-main div.g_definitionlist tr th
+#layout-main div.g_definitionlist tr th,
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
