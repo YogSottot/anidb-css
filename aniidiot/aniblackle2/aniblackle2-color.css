@@ -1,0 +1,614 @@
+#layout-menu li.sub-menu ul li#user-profile,
+#layout-menu li.sub-menu ul li#user-login,
+#layout-menu li.sub-menu ul li#user-logout,
+#layout-menu li.sub-menu ul,
+a.button,
+input.button,
+button.button,
+a.confirmButton,
+input.confirmButton,
+button.confirmButton {
+	background: none;
+}
+
+a,
+a:visited,
+a:active,
+a:link,
+.i_icon,
+span.link,
+h4 span.nolink a,
+#layout-main a.filter,
+#layout-main div.main_all div.header div.account ul.tabs li.signup a {
+	color: #105289;
+}
+
+h1 a:hover,
+a:hover,
+button:hover,
+span.link:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.i_icon:hover,
+.g_button a:hover,
+.g_bubble .name-colored,
+#layout-main div.admin_all div.g_menu h4 span,
+#layout-main a.filter:hover,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main div.main_all div.header div.account ul.tabs li.signup:hover a,
+#layout-main div.forum a.topictitle:hover,
+#layout-main ul.g_list li:hover,
+#layout-main div.search_all div.suggestions span:hover,
+#layout-main div.chartag-list a:hover,
+#layout-main div.tag-column a:hover,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
+#layout-main div.cmt_entries a.username-colored,
+#layout-main div.forum a.username-colored,
+#layout-menu li.sub-menu span.tab,
+#layout-main div.forum div.events h2,
+#layout-main div.forum div.poll h2 {
+	color: #AA0000 !important;
+}
+
+.i_vrs_2:hover span,
+.i_vrs_3:hover span,
+.i_vrs_4:hover span,
+.i_vrs_5:hover span,
+.i_vrs_6:hover span,
+.i_vrs_7:hover span,
+.i_vrs_8:hover span,
+.i_vrs_9:hover span {
+	background-color: #AA0000;
+}
+
+h4 a,
+h1 a,
+th a {
+    color: #C0DAF0 !important;
+}
+
+table th.sortable:hover,
+h4 a:hover,
+th a:hover {
+	color: #CC181E !important;
+}
+
+#layout-main tr.header th.sortable:hover,
+#layout-main tr.header th.sortable:hover a,
+#layout-main div.forum hr,
+#layout-main div.cmt_all div.cmt_add hr {
+	background-color:#CCCCCC;
+}
+
+#layout-main table.filelist tr.generic,
+#layout-main table.file.entities tr.generic,
+#layout-main div.anime_all div.data table.relationlist tr,
+#layout-main div.profile_all div.tabbed_pane div.general table tr,
+#layout-main div.anime_all div.data table.relationlist tr,
+#layout-main div.tabbed_pane div.body div.pane ul li {
+	background-color: inherit;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done,
+#layout-main div.manga_all div.groups td.epbar div.done,
+#layout-main div.group_all div.group_released td.epbar div.done {
+	background-color: #40aae3;
+	border-bottom-color: #40aae3;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done.mylist,
+#layout-main div.manga_all div.groups td.epbar div.done.mylist,
+#layout-main div.group_all div.group_released td.epbar div.done.mylist {
+	border-bottom-color: #27e353;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.notdone,
+#layout-main div.manga_all div.groups td.epbar div.notdone,
+#layout-main div.group_all div.group_released td.epbar div.notdone {
+	background-color: #C3D8FF;
+	border-bottom-color: #C3D8FF;
+}
+
+tr.g_odd,
+li.g_odd,
+span.g_odd,
+div.g_odd,
+.g_bubble,
+.g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+a.tooltip > span.text.g_bubble,
+.g_button a:hover,
+.i_comment_add:hover,
+.i_topic_add:hover,
+.i_topic_history:hover,
+.i_topic_delete:hover,
+.i_topic_move:hover,
+.i_topic_split:hover,
+.i_comment_revisions:hover,
+.i_comment_move:hover,
+.i_topic_lock:hover,
+.i_comment_edit:hover,
+.i_comment_quote:hover,
+.i_comment_delete:hover,
+.i_comment_info:hover,
+.i_comment_creq:hover,
+.i_topic_undelete:hover,
+.i_topic_unlock:hover,
+.i_comment_setactive:hover,
+.i_topic_locked:hover,
+.i_comment_undelete:hover,
+.i_pm_delete:hover,
+.i_review_add:hover,
+.i_pm_reply:hover,
+.i_topic_subscribe:hover,
+.i_topic_unsubscribe:hover
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+a.button:hover,
+input.button:hover,
+button.button:hover,
+a.confirmButton:hover,
+input.confirmButton:hover,
+button.confirmButton:hover,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main ul.g_list li:hover,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main ul.g_list li.selected,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-tabs ul.main-tabs > li,
+#layout-main div.tabbed_pane_cfg div.body,
+#layout-main div.tabbed_pane_cfg ul.tabs li:hover,
+#layout-main div.tabbed_pane_cfg ul.tabs li.selected,
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-main div.main_all div.header div.account ul.tabs li.signup,
+#layout-main div.forum div.g_bubble.events,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.search_all div.suggestions span:hover,
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus,
+#layout-main div.forum div.g_bubble.poll,
+#layout-main div.forum div.g_bubble.header,
+#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.navbar,
+#layout-main div.forum div.g_bubble.posting-box,
+#layout-main div.forum div.g_bubble.submit-box,
+#layout-main div.forum div.g_bubble.options-box,
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.userpage_all div.g_menu ul li.g_odd,
+#layout-main div.edit_actions a:hover,
+#layout-search ul.quicksearch .g_bubble.stripe:hover {
+	background-color: #222222;
+}
+
+html,
+.i_comment_add,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_comment_revisions,
+.i_comment_move,
+.i_topic_lock,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_delete,
+.i_comment_info,
+.i_comment_creq,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_comment_setactive,
+.i_topic_locked,
+.i_comment_undelete,
+.i_pm_delete,
+.i_review_add,
+.i_pm_reply,
+.i_topic_subscribe,
+.i_topic_unsubscribe,
+.g_button a,
+input[type="submit"],
+input[type="button"],
+button,
+a.button,
+input.button,
+button.button,
+a.confirmButton,
+input.confirmButton,
+button.confirmButton,
+.g_definitionlist .g_odd .g_bubble,
+.g_definitionlist .g_bubble .g_bubble,
+.g_definitionlist .g_bubble .g_bubble .g_bubble .g_bubble,
+#layout-main div.edit_actions a,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li.g_odd,
+#layout-main div.pagination span a,
+#layout-search ul.quicksearch .g_bubble.stripe {
+	background-color: #111111;
+}
+
+.g_bubble .g_odd,
+.g_odd .g_bubble,
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+#layout-menu li.sub-menu ul,
+#layout-tabs ul.main-tabs > li.selected,
+#layout-tabs ul.main-tabs > li:hover,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-main div.main_all div.header div.account ul.tabs li.signup:hover,
+#layout-main div.search_all div.suggestions,
+#layout-main div.forum ul.topics li.row,
+#layout-search ul.quicksearch,
+#layout-content {
+	background-color: #000000;
+}
+
+input[type="text"],
+input[type="password"],
+input.text,
+textarea,
+select,
+#layout-search ul.quicksearch,
+#layout-search select,
+#layout-search input.text,
+#layout-main div.search_all div.suggestions,
+#layout-main div.avatar img,
+#layout-main div.anime_all div.info div.image img,
+#layout-main div.forum div.quickreply textarea {
+	border-color: #333333;
+}
+
+.i_comment_add,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_comment_revisions,
+.i_comment_move,
+.i_topic_lock,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_delete,
+.i_comment_info,
+.i_comment_creq,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_comment_setactive,
+.i_topic_locked,
+.i_comment_undelete,
+.i_pm_delete,
+.i_review_add,
+.i_pm_reply,
+.i_topic_subscribe,
+.i_topic_unsubscribe,
+.g_button a,
+input[type="submit"],
+input[type="button"],
+button,
+a.button,
+input.button,
+button.button,
+a.confirmButton,
+input.confirmButton,
+button.confirmButton,
+.f_button:hover,
+.f_button.selected,
+.g_bubble.stripe > div.data div.name,
+#layout-main ul.g_list li,
+#layout-main div.pagination span a,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main div.edit_actions a,
+#layout-main div.forum div.signature,
+#layout-main div.forum div.events dl + dl,
+#layout-main div.forum div.poll dl + dl,
+#layout-main div.cmt_entries dl.profile,
+#layout-main div.forum div.events h2,
+#layout-main div.forum div.poll h2,
+#layout-main div.forum div.events div.data > p,
+#layout-main div.forum div.poll div.data p,
+#layout-main div.forum div.postbody div.code div.title,
+#layout-main div.forum div.poll div.data,
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.forum div.g_bubble.navbar div.bottom,
+#layout-main div.forum ul.topiclist dd,
+#layout-main div.forum li.row + li.row,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
+#layout-main div.msg_all div.forum ul.topics dd.check {
+	border-color: #666666;
+}
+
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus {
+    border-color: #CCCCCC !important;
+}
+
+#layout-main div.animeatt_reviews div.review span.stamp a,
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp a,
+#layout-main div.animeatt_reviews div.review span.stamp,
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
+#layout-main div.main_all div.header div.latestnews div.posted,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd {
+	color:#BBBBBB;
+}
+
+#imagepreview,
+a.tooltip span.text,
+a.button,
+input.button,
+button.button,
+a.confirmButton,
+input.confirmButton,
+button.confirmButton,
+#layout-main div.forum div.g_bubble.threads,
+#layout-main tr.header th.sortable:hover,
+#layout-main tr.header th.sortable:hover a,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong {
+	color:#CCCCCC;
+}
+
+#layout-main div.forum div.g_bubble.rules {
+	background-color:#ECD5D8;
+}
+
+tr + tr td,
+li.g_odd + li,
+li + li.g_odd,
+#layout-nav div.menu_hr,
+#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
+#layout-main div.animeatt_reviews div.review span.stamp,
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
+#layout-main div div.explanation div.description dl + dl,
+#layout-main div.report_all div.body ul li + li,
+#layout-main div.votes_all div.graph div.group + div.group_odd,
+#layout-main div.votes_all div.graph div.group_odd + div.group,
+#layout-main div.votes_all div.graph.eps div.row + div.row,
+#layout-main #tagtree div.tag-column div.tag {
+	border-top-color: #555555;
+}
+
+#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.anime_all div.episodes tr.newtype td,
+#layout-search ul.quicksearch li + li {
+	border-top-color: #CCCCCC !important;
+}
+
+#layout-main div.tag-column .tag-block + .tag-block,
+#layout-main div.characterlist_all tr td + td,
+#layout-main div.creatorlist_all tr td + td,
+#layout-main div.clublist_all tr td + td,
+#layout-main div.collectionlist_all tr td + td,
+#layout-main div.grouplist_all tr td + td,
+#layout-main div.songlist_all tr td + td,
+#layout-main div.taglist_all tr td + td,
+#layout-main div.userlist_all tr td + td,
+#layout-main div.tag_all tr td + td,
+#layout-main div.mylist_all td+td,
+#layout-main div.myvotes_all td+td,
+#layout-main div.mywishlist_all tr td+td,
+#layout-main div.animelist_all tr td+td,
+#layout-main div.lexicon_all table.animelist tr td+td,
+#layout-main div.mynotifies_all tr td+td,
+#layout-main div.mydb_all table tr td + td,
+#layout-main div.modlatest_all table tr td + td,
+#layout-main div.latest2_all table tr td + td,
+#layout-main div.latest2_all table tr.rowspan td:first-child {
+	border-left-color: #333333;
+}
+
+/*tooltip*/
+a.tooltip span.text:after,
+a.tooltip span.text:before {
+	border-color: rgba(232, 232, 232, 0);
+	border-bottom-color: #333333;
+}
+
+/*tag cloud*/
+#layout-main div.tag-column div.tag[weight="0"] .name a {
+	color: rgba(0, 0, 0, 0.6);
+}
+#layout-main div.tag-column div.tag.abstract[weight="0"] .name a,
+#layout-main div.tag-column span.not_added a {
+	color: rgba(0, 0, 0, 0.3);
+}
+#layout-main div.chartag-list span.size0 a,
+#layout-main div.chartag-list span.size1 a,
+#layout-main div.tag-column div.tag[weight="100"] .name a {
+	color: rgba(16, 82, 137, 0.5);
+}
+#layout-main div.chartag-list span.size2 a,
+#layout-main div.tag-column div.tag[weight="200"] .name a {
+	color: rgba(16, 82, 137, 0.6);
+}
+#layout-main div.chartag-list span.size3 a,
+#layout-main div.tag-column div.tag[weight="300"] .name a {
+	color: rgba(16, 82, 137, 0.7);
+}
+#layout-main div.chartag-list span.size4 a,
+#layout-main div.chartag-list span.size5 a,
+#layout-main div.tag-column div.tag[weight="400"] .name a {
+	color: rgba(16, 82, 137, 0.8);
+}
+#layout-main div.chartag-list span.size6 a,
+#layout-main div.chartag-list span.size7 a,
+#layout-main div.tag-column div.tag[weight="500"] .name a {
+	color: rgba(16, 82, 137, 1.0);
+}
+#layout-main div.chartag-list span.size8 a,
+#layout-main div.chartag-list span.size9 a,
+#layout-main div.chartag-list span.size10 a,
+#layout-main div.tag-column div.tag[weight="600"] .name a {
+	color: rgba(16, 82, 137, 1.0);
+}
+#layout-main div.tag-column div.tag[weight="100"] .weight {
+	opacity: 0.3;
+}
+#layout-main div.tag-column div.tag[weight="200"] .weight {
+	opacity: 0.4;
+}
+#layout-main div.tag-column div.tag[weight="300"] .weight {
+	opacity: 0.6;
+}
+#layout-main div.tag-column div.tag[weight="400"] .weight {
+	opacity: 0.8;
+}
+
+#layout-main div.chartag-list a:hover,
+#layout-main div.tag-column a:hover {
+	opacity: 1.0 !important;
+}
+
+#layout-search div.g_bubble.search {
+	background-color: transparent;
+}
+
+table th,
+#layout-main > h1,
+#layout-main div.g_timedentry h4,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.votes_all div.graph div.header,
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4,
+#layout-main div.anime_all div.info div.caststaff div h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.userpage_all div.g_menu ul li:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover .v_high,
+#layout-main div.userpage_all div.g_menu ul li:hover a {
+	color: #CCCCCC !important;
+}
+
+th,
+th a,
+#layout-main > h1,
+#layout-main table tr.header,
+#layout-main div.g_timedentry h4,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.votes_all div.graph div.header,
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.datablocks h4,
+#layout-main div.main_all div.header h4,
+#layout-main div.anime_all div.info div.caststaff div h4,
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover {
+	background-color: #444444;
+}
+
+/*box shadow*/
+.g_bubble,
+#layout-hint,
+#layout-content,
+#layout-main div.g_msg,
+#layout-menu li.sub-menu ul,
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main > h1 {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.i_comment_add,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_comment_revisions,
+.i_comment_move,
+.i_topic_lock,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_delete,
+.i_comment_info,
+.i_comment_creq,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_comment_setactive,
+.i_topic_locked,
+.i_comment_undelete,
+.i_pm_delete,
+.i_review_add,
+.i_pm_reply,
+.i_topic_subscribe,
+.i_topic_unsubscribe,
+.g_button a,
+input[type="submit"],
+input[type="button"],
+button,
+#layout-search select,
+#layout-search input.text,
+#layout-main ul.g_list li,
+#layout-main div.pagination span a,
+#layout-main div.edit_actions a {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+#layout-tabs ul.main-tabs > li,
+#layout-main div.tabbed_pane ul.tabs li {
+	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2)
+}
+
+#imagepreview,
+a.tooltip span.text {
+	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+	opacity: 0.95;
+	background-color: #333333 !important;
+}
+
+/*disable shadow so it doesn't overlap with the quicksearch pane*/
+#layout-search ul.quicksearch .g_bubble.stripe,
+#layout-search input.text.focus,
+#layout-search input.text.focus + select {
+	box-shadow: none;
+}
+
+/*clickable logo*/
+#layout-menu li.sub-menu ul li.main a:hover {
+	background-color: transparent;
+	background-image: none;
+}
+
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
+#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
+#layout-main div.forum ul.topics li.row:hover,
+#layout-main div.forum ul.topics li.g_odd.row:hover {
+	background-color: #555555;
+}
+
+.g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+	background-color: #E6E4D1 !important;
+}
+
+.g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+	background-color: #F0EDD5 !important;
+}
