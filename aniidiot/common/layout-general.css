@@ -1,3 +1,8 @@
+td,
+th {
+    padding: 1px 0.5em;
+}
+
 input[size="10"] {
 	width: 6em;
 }
