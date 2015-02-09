@@ -12,6 +12,9 @@ button.confirmButton {
 }
 
 a,
+a:visited,
+a:active,
+a:link,
 th a,
 .i_icon,
 span.link,
@@ -38,7 +41,7 @@ input[type="button"]:hover,
 #layout-main ul.g_list li:hover,
 #layout-main div.search_all div.suggestions span:hover,
 #layout-main div.chartag-list a:hover,
-#layout-main div.tag-column a:hover
+#layout-main div.tag-column a:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.username-colored,
