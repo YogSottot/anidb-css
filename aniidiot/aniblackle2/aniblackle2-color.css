@@ -20,7 +20,7 @@ span.link,
 h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
-	color: #728972;
+	color: #7E967E;
 }
 
 h1 a:hover,
@@ -48,7 +48,7 @@ input[type="button"]:hover,
 #layout-menu li.sub-menu span.tab,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2 {
-	color: #963838 !important;
+	color: #A64E4E !important;
 }
 
 .i_vrs_2:hover span,
