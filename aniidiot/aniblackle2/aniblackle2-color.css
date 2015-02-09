@@ -609,3 +609,16 @@ a.tooltip span.text {
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
 	background-color: #F0EDD5 !important;
 }
+
+#layout-main div.g_msg.error {
+	background-color: #916A6A;
+}
+
+#layout-main div.g_msg.warning {
+	background-color: #9A6D4C;
+}
+
+#layout-hint,
+#layout-main div.g_msg.note {
+	background-color: #B3B379;
+}
