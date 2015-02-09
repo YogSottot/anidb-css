@@ -171,12 +171,6 @@ button,
 	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2)
 }
 
-#imagepreview,
-a.tooltip span.text {
-	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
-	opacity: 0.95;
-}
-
 /*disable shadow so it doesn't overlap with the quicksearch pane*/
 #layout-search ul.quicksearch .g_bubble.stripe,
 #layout-search input.text.focus,

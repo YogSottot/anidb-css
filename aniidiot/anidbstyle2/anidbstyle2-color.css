@@ -469,14 +469,10 @@ a.tooltip span.text {
 	opacity: 0.95;
 }
 
+a.tooltip span.text:before,
 a.tooltip span.text:after {
 	border-color: rgba(211, 213, 217, 0);
 	border-bottom-color: #d3d5d9;
-}
-
-a.tooltip span.text:before {
-	border-color: rgba(154, 154, 154, 0);
-	border-bottom-color: #9a9a9a;
 }
 
 /*quicksearch*/
