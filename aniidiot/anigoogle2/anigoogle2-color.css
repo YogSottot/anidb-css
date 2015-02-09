@@ -12,7 +12,9 @@ button.confirmButton {
 }
 
 a,
-th a,
+a:visited,
+a:active,
+a:link,
 .i_icon,
 span.link,
 h4 span.nolink a,
@@ -21,6 +23,7 @@ h4 span.nolink a,
 	color: #105289;
 }
 
+h1 a:hover,
 a:hover,
 button:hover,
 span.link:hover,
@@ -38,7 +41,7 @@ input[type="button"]:hover,
 #layout-main ul.g_list li:hover,
 #layout-main div.search_all div.suggestions span:hover,
 #layout-main div.chartag-list a:hover,
-#layout-main div.tag-column a:hover
+#layout-main div.tag-column a:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.username-colored,
@@ -62,7 +65,7 @@ input[type="button"]:hover,
 h4 a,
 h1 a,
 th a {
-    color: #C0DAF0;
+    color: #C0DAF0 !important;
 }
 
 table th.sortable:hover,

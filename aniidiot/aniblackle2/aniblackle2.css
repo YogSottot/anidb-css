@@ -1,16 +1,15 @@
 @import "../../sub/common.css";
-@import "../../common/style/color/status-pastel.css";
-@import "../../common/libs/chosen/style-white.css";
+@import "../../common/style/color/status-black.css";
+@import "../../common/libs/chosen/style-dark.css";
 @import "../common-menu.css";
 @import "../logos.css";
 @import "../anigoogle2/anigoogle2-border.css";
 @import "../anigoogle2/anigoogle2-layout.css";
 @import "../anigoogle2/anigoogle2-text.css";
 @import "../anigoogle2/anigoogle2-icons.css";
-@import "../anidbstyle2/anidbstyle2-color.css";
-@import "anidbstyle3-color.css";
+@import "../aniblackle/aniblackle-color.css";
+@import "aniblackle2-color.css";
 
-#layout-footer:after
-{
-	content:"design by deridiot";
+#layout-footer:after {
+	content:"design by deridiot inspired by blackle";
 }

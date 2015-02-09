@@ -1,0 +1,216 @@
+.g_bubble .g_odd,
+tr,
+#layout-menu li.sub-menu {
+	background-color: inherit;
+}
+
+.i_comment_add:hover,
+.i_topic_add:hover,
+.i_topic_history:hover,
+.i_topic_delete:hover,
+.i_topic_move:hover,
+.i_topic_split:hover,
+.i_comment_revisions:hover,
+.i_comment_move:hover,
+.i_topic_lock:hover,
+.i_comment_edit:hover,
+.i_comment_quote:hover,
+.i_comment_delete:hover,
+.i_comment_info:hover,
+.i_comment_creq:hover,
+.i_topic_undelete:hover,
+.i_topic_unlock:hover,
+.i_comment_setactive:hover,
+.i_topic_locked:hover,
+.i_comment_undelete:hover,
+.i_pm_delete:hover,
+.i_review_add:hover,
+.i_pm_reply:hover,
+.i_topic_subscribe:hover,
+.i_topic_unsubscribe:hover,
+.g_button a:hover,
+button:hover,
+span.link:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+h4 a:hover,
+th a:hover,
+table th.sortable:hover,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main ul.g_list li:hover,
+#layout-main div.edit_actions a:hover,
+#layout-main .g_list li:hover,
+#layout-main .g_list a:hover {
+	color: #C0DAF0 !important;
+}
+
+#layout-main div.main_all div.header h4,
+#layout-main div.userpage_all div.g_menu ul li:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover .v_high,
+#layout-main div.userpage_all div.g_menu ul li:hover a {
+	color: #DDDDDD !important;
+}
+
+#layout-menu .sub-menu {
+	background-color: inherit !important;
+}
+
+.i_comment_add,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_comment_revisions,
+.i_comment_move,
+.i_topic_lock,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_delete,
+.i_comment_info,
+.i_comment_creq,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_comment_setactive,
+.i_topic_locked,
+.i_comment_undelete,
+.i_pm_delete,
+.i_review_add,
+.i_pm_reply,
+.i_topic_subscribe,
+.i_topic_unsubscribe,
+#layout-main div.edit_actions a {
+	background-color: #34394D;
+	border-color: #34394D;
+}
+
+th,
+th a,
+.i_comment_add,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_comment_revisions,
+.i_comment_move,
+.i_topic_lock,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_delete,
+.i_comment_info,
+.i_comment_creq,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_comment_setactive,
+.i_topic_locked,
+.i_comment_undelete,
+.i_pm_delete,
+.i_review_add,
+.i_pm_reply,
+.i_topic_subscribe,
+.i_topic_unsubscribe,
+#layout-main div.edit_actions a {
+	color: #CCCCCC !important;
+}
+
+.i_comment_add,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_comment_revisions,
+.i_comment_move,
+.i_topic_lock,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_delete,
+.i_comment_info,
+.i_comment_creq,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_comment_setactive,
+.i_topic_locked,
+.i_comment_undelete,
+.i_pm_delete,
+.i_review_add,
+.i_pm_reply,
+.i_topic_subscribe,
+.i_topic_unsubscribe,
+.g_button a,
+input[type="submit"],
+input[type="button"],
+button,
+#layout-search select,
+#layout-search input.text,
+#layout-main ul.g_list li,
+#layout-main div.pagination span a,
+#layout-main div.edit_actions a {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.g_bubble,
+#layout-hint,
+#layout-content,
+#layout-main div.g_msg,
+#layout-menu li.sub-menu ul,
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.g_timedentry h4,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.userpage_all > div.g_section > h4,
+#layout-main > h1 {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+#layout-tabs ul.main-tabs > li,
+#layout-main div.tabbed_pane ul.tabs li {
+	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2)
+}
+
+/*disable shadow so it doesn't overlap with the quicksearch pane*/
+#layout-search ul.quicksearch .g_bubble.stripe,
+#layout-search input.text.focus,
+#layout-search input.text.focus + select {
+	box-shadow: none;
+}
+
+.i_comment_add:hover,
+.i_topic_add:hover,
+.i_topic_history:hover,
+.i_topic_delete:hover,
+.i_topic_move:hover,
+.i_topic_split:hover,
+.i_comment_revisions:hover,
+.i_comment_move:hover,
+.i_topic_lock:hover,
+.i_comment_edit:hover,
+.i_comment_quote:hover,
+.i_comment_delete:hover,
+.i_comment_info:hover,
+.i_comment_creq:hover,
+.i_topic_undelete:hover,
+.i_topic_unlock:hover,
+.i_comment_setactive:hover,
+.i_topic_locked:hover,
+.i_comment_undelete:hover,
+.i_pm_delete:hover,
+.i_review_add:hover,
+.i_pm_reply:hover,
+.i_topic_subscribe:hover,
+.i_topic_unsubscribe:hover,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a,
+#layout-main div.edit_actions a:hover,
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover {
+	background-color: #58636E;
+}
+
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.userpage_all div.g_menu ul li.g_odd {
+	background-color: #B9BBBF;
+}

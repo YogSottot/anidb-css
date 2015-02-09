@@ -67,12 +67,6 @@
 	display: inline-block;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody span.actions,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody span.actions a,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd div.vote.icons {
-	float: right;
-}
-
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody span.actions {
 	padding-right: 4px;
 	padding-top: 4px;
