@@ -7,11 +7,11 @@
 @import "../anigoogle2/anigoogle2-layout.css";
 @import "../anigoogle2/anigoogle2-text.css";
 @import "../anigoogle2/anigoogle2-icons.css";
-@import "../anigoogle2/anigoogle2-color.css";
+/*@import "../anigoogle2/anigoogle2-color.css";*/
 @import "../anidbstyle2/anidbstyle2-color.css";
-@import "anigoogle3-color.css";
+@import "anidbstyle3-color.css";
 
 #layout-footer:after
 {
-	content:"design by deridiot inspired by google/youtube";
+	content:"design by deridiot";
 }
