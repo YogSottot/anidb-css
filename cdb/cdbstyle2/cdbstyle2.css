@@ -1,6 +1,8 @@
-@import "../aniidiot/anidbstyle2/anidbstyle2.css";
+@import "../../aniidiot/anidbstyle2/anidbstyle2.css";
 
 @import "cdbstyle2-icons.css";
+
+@import "../cdbstyle-icons.css";
 
 @import "../cdbstyle-colour.css";
 @import "../cdbstyle-text.css";
