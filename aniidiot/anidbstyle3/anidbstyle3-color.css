@@ -175,7 +175,6 @@ button,
 a.tooltip span.text {
 	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
 	opacity: 0.95;
-	background-color: #E8E8E8 !important;
 }
 
 /*disable shadow so it doesn't overlap with the quicksearch pane*/
