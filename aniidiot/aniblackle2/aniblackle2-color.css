@@ -62,12 +62,6 @@ input[type="button"]:hover,
 	background-color: #963838;
 }
 
-h4 a,
-h1 a,
-th a {
-    color: #C0DAF0 !important;
-}
-
 table th.sortable:hover,
 h4 a:hover,
 th a:hover {
