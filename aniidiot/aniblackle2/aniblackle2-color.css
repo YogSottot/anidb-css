@@ -110,10 +110,13 @@ th a:hover {
 	border-bottom-color: #C3D8FF;
 }
 
+th,
+th a,
 html,
 input,
 select,
-textarea {
+textarea,
+#layout-main table tr.header, {
 	background-color: #111111;
 }
 
@@ -506,10 +509,8 @@ table th,
 	color: #CCCCCC !important;
 }
 
-th,
-th a,
+
 #layout-main > h1,
-#layout-main table tr.header,
 #layout-main div.g_timedentry h4,
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a,
