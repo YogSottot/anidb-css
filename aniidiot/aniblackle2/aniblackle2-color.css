@@ -72,7 +72,7 @@ th a:hover {
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
-	background-color:#CCCCCC;
+	background-color:#666666;
 }
 
 #layout-main table.filelist tr.generic,
