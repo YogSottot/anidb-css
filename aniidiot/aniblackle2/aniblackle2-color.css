@@ -311,8 +311,6 @@ button.button,
 a.confirmButton,
 input.confirmButton,
 button.confirmButton,
-.f_button:hover,
-.f_button.selected,
 .g_bubble.stripe > div.data div.name,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
@@ -520,6 +518,17 @@ table th,
 #layout-main div.userpage_all > div.g_section > h4 {
 	background-color: #333333;
 }
+
+/*remove this once format buttons don't use black icons anymore*/
+.f_button:hover,
+.f_button.selected {
+	background-color: #AAAAAA;
+}
+
+input.f_button {
+	background-color: #CCCCCC;
+}
+/*end*/
 
 /*box shadow*/
 .g_bubble,
