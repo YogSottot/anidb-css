@@ -91,20 +91,17 @@ th a:hover {
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done,
-#layout-main div.manga_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done {
 	background-color: #40aae3;
 	border-bottom-color: #40aae3;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
-#layout-main div.manga_all div.groups td.epbar div.done.mylist,
 #layout-main div.group_all div.group_released td.epbar div.done.mylist {
 	border-bottom-color: #27e353;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.notdone,
-#layout-main div.manga_all div.groups td.epbar div.notdone,
 #layout-main div.group_all div.group_released td.epbar div.notdone {
 	background-color: #C3D8FF;
 	border-bottom-color: #C3D8FF;
@@ -144,7 +141,7 @@ a.tooltip > span.text.g_bubble,
 .i_review_add:hover,
 .i_pm_reply:hover,
 .i_topic_subscribe:hover,
-.i_topic_unsubscribe:hover
+.i_topic_unsubscribe:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
