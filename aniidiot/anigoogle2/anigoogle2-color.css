@@ -62,7 +62,7 @@ input[type="button"]:hover,
 	background-color: #AA0000;
 }
 
-h4 a,
+h4 a:not(.i_icon),
 h1 a,
 th a {
     color: #C0DAF0 !important;
@@ -565,7 +565,8 @@ button,
 #layout-search input.text,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
-#layout-main div.edit_actions a {
+#layout-main div.edit_actions a,
+#layout-main div.forum div.quickreply textarea {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
