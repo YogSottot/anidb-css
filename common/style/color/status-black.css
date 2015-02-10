@@ -9,7 +9,7 @@
 #layout-main table.filelist tr.invalid,
 #layout-main table.file.entities tr.deprecated,
 #layout-main table.file.entities tr.invalid {
-	background-color: #543030;
+	background-color: #573535;
 }
 
 #layout-main .different,
@@ -19,7 +19,7 @@
 #layout-main table.filelist tr.g_odd.invalid,
 #layout-main table.file.entities tr.g_odd.deprecated,
 #layout-main table.file.entities tr.g_odd.invalid {
-	background-color: #634040;
+	background-color: #5C3C3C;
 }
 
 #layout-main div.addcreatoranimerel_all tr.right_only,
@@ -55,12 +55,12 @@
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
 .g_bubble.box.mylist > div.top {
-	background-color:#2D3B2D;
+	background-color:#2F402F;
 }
 
 /* IE fix */
 #layout-main div:not(.ed2kdump_all) tr td.mylist {
-	background-color:#2D3B2D;
+	background-color:#2F402F;
 }
 
 #layout-main td.g_odd ins,
