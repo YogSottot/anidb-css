@@ -75,3 +75,13 @@
 #layout-hint + #layout-nav #layout-search {
 	top: 0;
 }
+
+#layout-search .text {
+	width:400px;
+}
+
+html,
+body,
+#layout-content {
+	height: 100%;
+}
