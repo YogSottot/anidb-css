@@ -18,7 +18,8 @@ th a, h1 a, h1 a.shortlink {
 }
 
 #layout-main .mylist,
-#layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped) {
+#layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped),
+#layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped) a {
   color: #000000;
 }
 
