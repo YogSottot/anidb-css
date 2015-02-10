@@ -79,9 +79,3 @@
 #layout-search .text {
 	width:400px;
 }
-
-html,
-body,
-#layout-content {
-	height: 100%;
-}
