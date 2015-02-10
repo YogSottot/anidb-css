@@ -67,7 +67,7 @@
 	top: 0.5em;
 }
 
-#layout-hint + #layout-nav #layout-search {
+#layout-hint + #layout-nav.main_nav #layout-search {
 	top: 17em;
 }
 
