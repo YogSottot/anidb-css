@@ -82,12 +82,12 @@
 #layout-main table.animelist tr.g_odd.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a {
-	background-color:#304030;
+	background-color:#324732;
 }
 
 /* IE fix */
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist {
-	background-color:#304030;
+	background-color:#324732;
 }
 
 #layout-main div.timeline_all div.timeline ul.row li.dropped a,
