@@ -1,7 +1,3 @@
-#layout-menu > li ul {
-	margin-top: 0.3em;
-}
-
 #layout-search div.search form > div {
 	width: 50em;
 }
@@ -11,7 +7,7 @@
 }
 
 #layout-nav.main_nav {
-	height: 25em;
+	height: 35em;
 }
 
 #layout-nav div.main_search select,
@@ -50,7 +46,6 @@
 	height: 110px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10%;
 	position: relative;
 	width: 268px;
 }
@@ -73,7 +68,7 @@
 }
 
 #layout-hint + #layout-nav #layout-search {
-	top: 0;
+	top: 17em;
 }
 
 #layout-search .text {
