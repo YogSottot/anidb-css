@@ -71,7 +71,7 @@
 	top: 0.5em;
 }
 
-#layout-hint + #layout-nav.main_nav #layout-search {
+#layout-search.main_search {
 	top: 17em;
 }
 
