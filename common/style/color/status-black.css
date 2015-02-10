@@ -60,7 +60,7 @@
 
 /* IE fix */
 #layout-main div:not(.ed2kdump_all) tr td.mylist {
-	background-color:#364a36;
+	background-color:#2D3B2D;
 }
 
 #layout-main td.g_odd ins,
@@ -87,7 +87,7 @@
 
 /* IE fix */
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist {
-	background-color:#283628;
+	background-color:#304030;
 }
 
 #layout-main div.timeline_all div.timeline ul.row li.dropped a,
@@ -120,7 +120,7 @@
 #layout-main div.timeline_all div.timeline ul.row li.stalled a,
 #layout-main div.timeline_all div.timeline ul.row li.completed a,
 #layout-main div.timeline_all div.timeline ul.row li.dropped a {
-	color:#A0A0A0;
+	color:#C0C00;
 }
 
 /*epbar colors*/
