@@ -2,6 +2,10 @@
 	width: 59em;
 }
 
+#layout-search div.main_search div.search form > div {
+	width: 50em;
+}
+
 #layout-nav div.main_search div.search {
 	margin-left: -11em;
 }
