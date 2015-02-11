@@ -20,7 +20,7 @@ span.link,
 h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
-	color: #8BA68B;
+	color: #96B396;
 }
 
 h1 a:hover,
@@ -48,7 +48,7 @@ input[type="button"]:hover,
 #layout-menu li.sub-menu span.tab,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2 {
-	color: #A64E4E !important;
+	color: #B55353 !important;
 }
 
 .i_vrs_2:hover span,
@@ -59,7 +59,7 @@ input[type="button"]:hover,
 .i_vrs_7:hover span,
 .i_vrs_8:hover span,
 .i_vrs_9:hover span {
-	background-color: #963838;
+	background-color: #B55353;
 }
 
 table th.sortable:hover,
