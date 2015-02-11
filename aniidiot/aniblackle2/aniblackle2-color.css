@@ -621,7 +621,7 @@ a.tooltip span.text {
 }
 
 #layout-main div.g_msg.error {
-	background-color: #5E4B4B;
+	background-color: #704343;
 }
 
 #layout-main div.g_msg.warning {
@@ -630,5 +630,9 @@ a.tooltip span.text {
 
 #layout-hint,
 #layout-main div.g_msg.note {
-	background-color: #33331B;
+	background-color: #63633D;
+}
+
+#layout-main div.g_msg.success {
+	background-color: #538A53;
 }
