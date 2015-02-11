@@ -343,7 +343,7 @@
 
 #layout-main div.forum div.events,
 #layout-main div.forum div.poll {
-	margin-bottom: .5em;
+	margin-bottom: 1em;
 	padding-bottom: .5em;
 }
 
@@ -700,10 +700,17 @@ div.g_bubble.quotebody {
 
 /*polls*/
 #layout-main div.forum .g_bubble.poll .row {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
 	text-align: left;
 	padding: 1em 0.5em;
-	align-items: center;
 }
 #layout-main div.forum .g_bubble.poll .row > div.option {
 	width: 30%;
