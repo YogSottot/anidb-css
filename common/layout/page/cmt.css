@@ -355,13 +355,9 @@
 	margin-right: 1em;
 }
 
-#layout-main div.forum div.poll div.question {
-	padding-bottom: 0;
-}
-
 #layout-main div.forum div.events div.event,
 #layout-main div.forum div.poll div.question {
-	padding-top: .5em;
+	padding-top: 1em;
 }
 
 #layout-main div.forum div.events div.data p,
@@ -732,8 +728,8 @@ div.g_bubble.quotebody {
 	text-align: right;
 }
 
-#layout-main div.forum .g_bubble.poll .action {
-	margin-bottom: 1em;
+#layout-main div.forum .g_bubble.poll form > .result {
+	padding: 0.5em 0;
 }
 
 #layout-main div.forum .g_bubble.poll .row + .row {
