@@ -87,8 +87,7 @@ a.tooltip > span.text.g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-main div.forum div.g_bubble.header,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.forum div.g_bubble.navbar,
 #layout-main div.forum div.g_bubble.search,
@@ -206,18 +205,15 @@ input[type="submit"]:hover,
 	border-top: none;
 }
 
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
+#layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.forum ul.topiclist li {
 	color: inherit;
 }
 
 #layout-main a.filter,
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll div,
+#layout-main div.forum .g_bubble.infobox div,
 #layout-main div.cmt_entries dl.profile dd,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd,
-#layout-main div.forum div.events dl dd {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd {
 	color: #888888;
 }
 
@@ -337,13 +333,10 @@ div.g_bubble.quotebody,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
 #layout-main div.forum div.signature,
-#layout-main div.forum div.events dl + dl,
-#layout-main div.forum .g_bubble.poll .row + .row,
+#layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.forum div.quickreply textarea,
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
-#layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p,
+#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover {
 	border-color: #666666 #444444 #444444 #666666;

@@ -226,8 +226,7 @@ div.pagination span a {
 	font-weight:normal;
 }
 
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2 {
+#layout-main div.forum .g_bubble.infobox h2 {
 	font-size:16px;
 	font-weight:bold;
 }
@@ -292,8 +291,7 @@ h4.collapsed span {
 	font-size:12px;
 }
 
-#layout-main div.forum div.events p,
-#layout-main div.forum div.poll p,
+#layout-main div.forum .g_bubble.infobox p.subtitle,
 #layout-main div.forum div.postbody div.code,
 #layout-main div.userpage_all div.block caption,
 #layout-main div.userpage_all div.block h3 {
@@ -308,9 +306,7 @@ h4.collapsed span {
 #layout-main div.forum ul.topics dt,
 #layout-main div.forum dd.lastpost,
 #layout-main div.forum div.options-box dt,
-#layout-main div.forum div.poll div.option,
-#layout-main div.forum div.events dl dd,
-#layout-main div.forum div.events dl dt,
+#layout-main div.forum .g_bubble.infobox div.left,
 #layout-main div.msg_all div.header dd,
 #layout-main div.forum div.rules,
 #layout-main div.forum div.navbar span.notify,
@@ -349,9 +345,8 @@ div.g_bubble.quotebody div.quoteof,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum dl.icon dt,
 #layout-main div.forum div.options-box dt,
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll div.option,
-#layout-main div.forum div.poll div.bar,
+#layout-main div.forum .g_bubble.infobox div.left,
+#layout-main div.forum .g_bubble.infobox div.bar,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.userpage_all div.discussions tr.unread td,
 #layout-main div.userpage_all div.msg tr.unread td,

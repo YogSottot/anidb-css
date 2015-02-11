@@ -255,19 +255,16 @@ select,
 }
 
 #layout-main div.forum div.signature,
-#layout-main div.forum div.events dl + dl,
-#layout-main div.forum .g_bubble.poll .row + .row,
+#layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.cmt_entries dl.profile,
 #layout-main div.forum div.quickreply textarea,
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
-#layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p
+#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle
 {
 	border-color:#47C2FF;
 }
 
-#layout-main div.forum div.g_bubble.poll div.bar
+#layout-main div.forum .g_bubble.infobox div.bar
 {
 	background-color: #105289;
 	border-bottom-color: #092e4d;

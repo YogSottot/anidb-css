@@ -1,6 +1,6 @@
 span.link,
 a,
-#layout-main div.forum div.g_bubble.poll div.question h2
+#layout-main div.forum .g_bubble.infobox div.title h2
 {
 color:#ADD8E6;
 border-bottom-color:white;
@@ -108,7 +108,7 @@ background-color:hsla(34, 95%, 44%, 0.4);
 }
 #layout-content table.animelist tr.complete td,
 #layout-content table.stafflist tr.complete td,
-#layout-main div.forum div.poll div.bar,
+#layout-main div.forum .g_bubble.infobox div.bar,
 #layout-main div.timeline_all div.timeline ul.row li.stalled,
 .g_bubble.stripe.mylist.complete
 {
@@ -143,8 +143,7 @@ background-color:hsla(0, 100%, 50%, 0.3);
 }
 #layout-main div.g_bubble.quotebody,
 #layout-main div.forum div.postbody dl.codebox dt,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.export_all div.g_bubble.exportblock
 {
 background-image:url(../grey/images/bg_3.gif);
@@ -352,7 +351,7 @@ border:0;
 {
 color:red;
 }
-#layout-main div.forum div.poll div.bar
+#layout-main div.forum .g_bubble.infobox div.bar
 {
 border-color:#3c37a5;
 }

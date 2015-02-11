@@ -58,8 +58,7 @@
 }
 
 #layout-main div.forum div.g_bubble.header,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.navbar,
 #layout-main div.forum div.g_bubble.search,
 #layout-main div.forum div.g_bubble.posting-box,

@@ -341,73 +341,6 @@
 	width: 12em;
 }
 
-#layout-main div.forum div.events,
-#layout-main div.forum div.poll {
-	margin-bottom: 1em;
-	padding-bottom: .5em;
-}
-
-#layout-main div.forum div.events div.event,
-#layout-main div.forum div.events div.data,
-#layout-main div.forum div.poll div.question,
-#layout-main div.forum div.poll div.data {
-	margin-left: 1em;
-	margin-right: 1em;
-}
-
-#layout-main div.forum div.events div.event,
-#layout-main div.forum div.poll div.question {
-	padding-top: 1em;
-}
-
-#layout-main div.forum div.events div.data p,
-#layout-main div.forum div.poll div.data p {
-	line-height: 1.2em;
-	text-align: left;
-	padding: 1em 0;
-}
-
-#layout-main div.forum div.events div.data p .i_inline,
-#layout-main div.forum div.events div.data p .i_icon {
-	margin-right: 0.3em;
-	float: left;
-}
-
-#layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p {
-	padding: 1em 0.5em;
-}
-
-#layout-main div.forum div.events dl {
-	padding: 0;
-	width: 100%;
-}
-
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.events dl dd {
-	display: block;
-	float: left;
-	text-align: left;
-}
-
-#layout-main div.forum div.events dl dd {
-	margin-top: 1em;
-	width: 60%;
-}
-
-#layout-main div.forum div.events dl dt {
-	width: 30%;
-}
-
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2 {
-	border-bottom: 1px solid;
-	display: block;
-	line-height: 1.4em;
-	padding-bottom: .5em;
-	text-align: left;
-}
-
 #layout-main div.forum div.add-box dl dd {
 	margin-left: 20em;
 }
@@ -518,20 +451,12 @@
 }
 
 #layout-main div.forum div.signature,
-#layout-main div.forum div.g_bubble.navbar div.bottom,
-#layout-main div.forum div.events dl + dl {
+#layout-main div.forum div.g_bubble.navbar div.bottom {
 	border-top: 1px solid;
 }
 
-#layout-main div.forum div.postbody div.code div.title,
-#layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p {
+#layout-main div.forum div.postbody div.code div.title {
 	border-bottom: 1px solid;
-}
-
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.events dl dd {
-	border-left: none;
 }
 
 #layout-main div.cmt_add p.g_howto,
@@ -695,7 +620,40 @@ div.g_bubble.quotebody {
 }
 
 /*polls*/
-#layout-main div.forum .g_bubble.poll .row {
+#layout-main div.forum .g_bubble.infobox {
+	margin-bottom: 1em;
+	padding-bottom: .5em;
+}
+
+#layout-main div.forum .g_bubble.infobox div.title,
+#layout-main div.forum .g_bubble.infobox div.data {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#layout-main div.forum .g_bubble.infobox div.title {
+	padding-top: 1em;
+}
+
+#layout-main div.forum .g_bubble.infobox div.data div.left {
+	line-height: 1.2em;
+	text-align: left;
+}
+
+#layout-main div.forum .g_bubble.infobox div.data div.left .i_icon {
+	margin-right: 0.3em;
+	float: left;
+}
+
+#layout-main div.forum .g_bubble.infobox h2 {
+	border-bottom: 1px solid;
+	display: block;
+	line-height: 1.4em;
+	padding-bottom: .5em;
+	text-align: left;
+}
+
+#layout-main div.forum .g_bubble.infobox .row {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -708,35 +666,47 @@ div.g_bubble.quotebody {
 	text-align: left;
 	padding: 1em 0.5em;
 }
-#layout-main div.forum .g_bubble.poll .row > div.option {
+
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle {
+	border-bottom: 1px solid;
+	padding: 1em 0.5em;
+	text-align: left;
+}
+
+#layout-main div.forum .g_bubble.infobox .row > div.left {
 	width: 30%;
 }
-#layout-main div.forum .g_bubble.poll .row > div.result {
+
+#layout-main div.forum .g_bubble.infobox .row > div.middle {
 	width: 50%;
 }
 
-#layout-main div.forum .g_bubble.poll .row > div.result .bar {
+#layout-main div.forum .g_bubble.infobox .row > div.middle.text {
+	width: 100%;
+}
+
+#layout-main div.forum .g_bubble.infobox .row > div.middle .bar {
 	min-width: 2%;
 	padding: 2px 4px;
 	border-bottom: 1px solid;
 	border-right: 1px solid;
 }
 
-#layout-main div.forum .g_bubble.poll .row > div.vote,
-#layout-main div.forum .g_bubble.poll .row > div.percent {
+#layout-main div.forum .g_bubble.infobox .row > div.vote,
+#layout-main div.forum .g_bubble.infobox .row > div.percent {
 	width: 5em;
 	text-align: right;
 }
 
-#layout-main div.forum .g_bubble.poll form > .result {
+#layout-main div.forum .g_bubble.infobox form > .result {
 	padding: 0.5em 0;
 }
 
-#layout-main div.forum .g_bubble.poll .row + .row {
+#layout-main div.forum .g_bubble.infobox .row + .row {
 	border-top: 1px solid;
 }
 
-#layout-main div.forum .g_bubble.poll .row > div + div {
+#layout-main div.forum .g_bubble.infobox .row > div + div {
 	padding-left: 1em;
 }
 /*</polls>*/

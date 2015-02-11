@@ -797,8 +797,7 @@ background-color: white }
 /* Border */
 
 #layout-main div.forum div.signature, 
-#layout-main div.forum div.g_bubble.navbar div.bottom, 
-#layout-main div.forum div.events dl + dl {
+#layout-main div.forum div.g_bubble.navbar div.bottom {
 border-top: 1px solid #EEE }
 
 #layout-main div.forum hr, 
@@ -1091,29 +1090,24 @@ background-color: white }
 #layout-main div.forum div.cmt_entries.history h4 { border: none }
 
 #layout-main div.forum div.signature, 
-#layout-main div.forum div.events dl + dl, 
-#layout-main div.forum .g_bubble.poll .row + .row, 
+#layout-main div.forum .g_bubble.infobox .row + .row, 
 #layout-main div.cmt_entries dl.profile, 
 #layout-main div.forum div.quickreply textarea, 
-#layout-main div.forum div.events h2, 
-#layout-main div.forum div.poll h2, 
-#layout-main div.forum div.events div.data > p, 
-#layout-main div.forum div.poll div.data p {
+#layout-main div.forum .g_bubble.infobox h2, 
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle {
 border-color: lightgray }
 
-	#layout-main div.forum div.events div.data > p, 
-	#layout-main div.forum div.poll div.data p {
+	#layout-main div.forum .g_bubble.infobox div.data p.subtitle {
 	padding: 0.5em 0 }
 
-#layout-main div.forum div.g_bubble.poll div.bar {
+#layout-main div.forum .g_bubble.infobox div.bar {
 background-color: #5BBCCE;
 border-bottom-color: #36A2B6;
 border-right-color: #36A2B6;
 color: #FFFFFF }
 
 #layout-main div.forum div.g_bubble.header,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.navbar,
 #layout-main div.forum div.g_bubble.search,
 #layout-main div.forum div.g_bubble.posting-box,

@@ -93,7 +93,7 @@ body.nonav {
 #layout-main div.timeline_all div.timeline ul.row li.stalled,
 #layout-main table tr.mylist,
 #layout-main table tr.g_odd.mylist,
-#layout-main div.forum div.poll div.bar, 
+#layout-main div.forum .g_bubble.infobox div.bar, 
 .g_bubble.stripe.mylist.complete
 {
 background-color:#C6DEFF;

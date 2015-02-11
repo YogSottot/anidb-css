@@ -42,7 +42,7 @@ th {
 	background-color: #c3d9ff;
 }
 
-#layout-main div.forum div.g_bubble.poll,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum div.g_bubble.search,
 #layout-main div.forum div.g_bubble.navbar,
@@ -153,7 +153,6 @@ a.tooltip > span.text.g_bubble,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.main_all div.header div.account ul.tabs li.signup,
-#layout-main div.forum div.g_bubble.events,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
@@ -246,8 +245,7 @@ button,
 	border-color:#FFFFFF;
 }
 
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2 {
+#layout-main div.forum .g_bubble.infobox h2 {
 	color:#006699;
 }
 

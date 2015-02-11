@@ -38,8 +38,7 @@ span.link:hover,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored,
 #layout-menu li.sub-menu span.tab,
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2 {
+#layout-main div.forum .g_bubble.infobox h2 {
 	color: #AA0000;
 }
 
@@ -180,7 +179,6 @@ a.tooltip > span.text.g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_odd .g_bubble .g_odd,
-#layout-main div.forum div.g_bubble.events,
 #layout-main div.forum div.g_bubble.search,
 #layout-main div.forum div.g_bubble.navbar,
 #layout-main div.forum div.g_bubble.posting-box,
@@ -323,14 +321,11 @@ select,
 #layout-main div.avatar img,
 #layout-main div.anime_all div.info div.image img,
 #layout-main div.forum div.signature,
-#layout-main div.forum div.events dl + dl,
-#layout-main div.forum .g_bubble.poll .row + .row,
+#layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.cmt_entries dl.profile,
 #layout-main div.forum div.quickreply textarea,
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
-#layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p,
+#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover {
 	border-color:#9A9A9A #7D7D7D #7D7D7D #9A9A9A;
@@ -392,15 +387,12 @@ select,
 	color: #000000;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd,
-#layout-main div.forum div.events h2 {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd {
 	color: #666666;
 }
 
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
-#layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p {
+#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle {
 	border-bottom-color:#7D7D7D;
 }
 
