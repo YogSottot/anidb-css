@@ -638,7 +638,6 @@ div.g_bubble.quotebody {
 #layout-main div.forum .g_bubble.infobox div.data div.left {
 	line-height: 1.2em;
 	text-align: left;
-	padding: 1em 0;
 }
 
 #layout-main div.forum .g_bubble.infobox div.data div.left .i_icon {
@@ -671,6 +670,7 @@ div.g_bubble.quotebody {
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle {
 	border-bottom: 1px solid;
 	padding: 1em 0.5em;
+	text-align: left;
 }
 
 #layout-main div.forum .g_bubble.infobox .row > div.left {
