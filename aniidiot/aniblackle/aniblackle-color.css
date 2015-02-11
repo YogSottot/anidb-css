@@ -214,10 +214,9 @@ input[type="submit"]:hover,
 
 #layout-main a.filter,
 #layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll dl dt,
+#layout-main div.forum div.poll div,
 #layout-main div.cmt_entries dl.profile dd,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd,
-#layout-main div.forum div.poll dl dd,
 #layout-main div.forum div.events dl dd {
 	color: #888888;
 }
@@ -339,7 +338,7 @@ div.g_bubble.quotebody,
 #layout-main div.main_all div.header h4,
 #layout-main div.forum div.signature,
 #layout-main div.forum div.events dl + dl,
-#layout-main div.forum div.poll dl + dl,
+#layout-main div.forum .g_bubble.poll .row + .row,
 #layout-main div.forum div.quickreply textarea,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2,

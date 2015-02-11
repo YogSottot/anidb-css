@@ -798,8 +798,7 @@ background-color: white }
 
 #layout-main div.forum div.signature, 
 #layout-main div.forum div.g_bubble.navbar div.bottom, 
-#layout-main div.forum div.events dl + dl, 
-#layout-main div.forum div.poll dl + dl {
+#layout-main div.forum div.events dl + dl {
 border-top: 1px solid #EEE }
 
 #layout-main div.forum hr, 
@@ -1093,7 +1092,7 @@ background-color: white }
 
 #layout-main div.forum div.signature, 
 #layout-main div.forum div.events dl + dl, 
-#layout-main div.forum div.poll dl + dl, 
+#layout-main div.forum .g_bubble.poll .row + .row, 
 #layout-main div.cmt_entries dl.profile, 
 #layout-main div.forum div.quickreply textarea, 
 #layout-main div.forum div.events h2, 
@@ -1106,7 +1105,7 @@ border-color: lightgray }
 	#layout-main div.forum div.poll div.data p {
 	padding: 0.5em 0 }
 
-#layout-main div.forum div.g_bubble.poll div.pollbar {
+#layout-main div.forum div.g_bubble.poll div.bar {
 background-color: #5BBCCE;
 border-bottom-color: #36A2B6;
 border-right-color: #36A2B6;

@@ -343,7 +343,7 @@
 
 #layout-main div.forum div.events,
 #layout-main div.forum div.poll {
-	margin-bottom: .5em;
+	margin-bottom: 1em;
 	padding-bottom: .5em;
 }
 
@@ -351,7 +351,6 @@
 #layout-main div.forum div.events div.data,
 #layout-main div.forum div.poll div.question,
 #layout-main div.forum div.poll div.data {
-	display: block;
 	margin-left: 1em;
 	margin-right: 1em;
 }
@@ -383,24 +382,16 @@
 	padding: 1em 0.5em;
 }
 
-#layout-main div.forum div.events dl,
-#layout-main div.forum div.poll dl {
+#layout-main div.forum div.events dl {
 	padding: 0;
 	width: 100%;
 }
 
 #layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll dl dt,
-#layout-main div.forum div.events dl dd,
-#layout-main div.forum div.poll dl dd {
+#layout-main div.forum div.events dl dd {
 	display: block;
 	float: left;
 	text-align: left;
-}
-
-#layout-main div.forum div.poll dl dd {
-	margin-top: 1em;
-	width: 10%;
 }
 
 #layout-main div.forum div.events dl dd {
@@ -408,20 +399,8 @@
 	width: 60%;
 }
 
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll dl dt {
+#layout-main div.forum div.events dl dt {
 	width: 30%;
-}
-
-#layout-main div.forum div.poll div.data div.resultbar {
-	margin-left: 30%;
-	margin-top: 1em;
-	text-align: left;
-}
-
-#layout-main div.forum div.poll div.data div.resultbar a,
-#layout-main div.forum div.poll div.data div.resultbar input {
-	margin-left: 10px;
 }
 
 #layout-main div.forum div.events h2,
@@ -431,19 +410,6 @@
 	line-height: 1.4em;
 	padding-bottom: .5em;
 	text-align: left;
-}
-
-#layout-main div.forum div.poll div.pollbar {
-	border-bottom: 1px solid;
-	border-right: 1px solid;
-	min-width: 2%;
-	overflow: visible;
-	padding: 0 2px;
-	text-align: right;
-}
-
-#layout-main div.forum div.poll dl dd.votebox {
-	width: 15px;
 }
 
 #layout-main div.forum div.add-box dl dd {
@@ -557,8 +523,7 @@
 
 #layout-main div.forum div.signature,
 #layout-main div.forum div.g_bubble.navbar div.bottom,
-#layout-main div.forum div.events dl + dl,
-#layout-main div.forum div.poll dl + dl {
+#layout-main div.forum div.events dl + dl {
 	border-top: 1px solid;
 }
 
@@ -569,9 +534,7 @@
 }
 
 #layout-main div.forum div.events dl dt,
-#layout-main div.forum div.events dl dd,
-#layout-main div.forum div.poll dl dt,
-#layout-main div.forum div.poll dl dd {
+#layout-main div.forum div.events dl dd {
 	border-left: none;
 }
 
@@ -639,7 +602,6 @@
 	margin-top: .5em;
 }
 
-#layout-main div.forum div.poll dl dd.resultbar,
 #layout-main div.forum div.add-box dl.name input,
 #layout-main div.forum div.add-box dl.description input {
 	width: 50%;
@@ -653,8 +615,8 @@
 div.g_bubble.code,
 div.g_bubble.spoiler,
 div.g_bubble.quotebody {
-    margin: 0.5em;
-    padding: 4px 8px;
+	margin: 0.5em;
+	padding: 4px 8px;
 }
 
 #layout-main div.g_bubble.spoiler span.spoiler {
@@ -734,4 +696,46 @@ div.g_bubble.quotebody {
 #layout-main div.postbody div.content ul {
 	margin-left: 0;
 	padding-left: 4em;
+}
+
+/*polls*/
+#layout-main div.forum .g_bubble.poll .row {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
+	text-align: left;
+	padding: 1em 0.5em;
+}
+#layout-main div.forum .g_bubble.poll .row > div.option {
+	width: 30%;
+}
+#layout-main div.forum .g_bubble.poll .row > div.result {
+	width: 50%;
+}
+
+#layout-main div.forum .g_bubble.poll .row > div.result .bar {
+	min-width: 2%;
+	padding: 2px 4px;
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+}
+
+#layout-main div.forum .g_bubble.poll .row > div.vote,
+#layout-main div.forum .g_bubble.poll .row > div.percent {
+	width: 5em;
+	text-align: right;
+}
+
+#layout-main div.forum .g_bubble.poll .row + .row {
+	border-top: 1px solid;
+}
+
+#layout-main div.forum .g_bubble.poll .row > div + div {
+	padding-left: 1em;
 }

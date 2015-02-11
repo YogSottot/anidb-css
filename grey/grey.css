@@ -2231,7 +2231,7 @@ background-image: url(images/bg_2.gif)
 {
 border-top-color:#121212;
 }
-#layout-main div.forum div.poll div.pollbar
+#layout-main div.forum div.poll div.bar
 {
 background-color:#105289;
 border-bottom-color:#092e4d;
@@ -2245,17 +2245,17 @@ border-bottom-color:#989898;
 color: #ff6000;
 }
 #layout-main div.forum div.events dl+dl,
-#layout-main div.forum div.poll dl+dl
+#layout-main div.forum .g_bubble.poll .row + .row
 {
 border-top-color:#989898;
 }
 #layout-main div.forum div.events dl,
-#layout-main div.forum div.poll dl
+#layout-main div.forum div.poll div
 {
 color:#676767;
 }
 #layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll dl dt
+#layout-main div.forum div.poll div
 {
 color: white;
 }
@@ -2293,7 +2293,7 @@ color:#BC2A4D;
 border-color:#A9A9A9;
 }
 #layout-main div.forum div.events dl dd,
-#layout-main div.forum div.poll dl dd
+#layout-main div.forum div.poll div
 {
 color:#878787;
 }
@@ -2335,8 +2335,8 @@ div.g_bubble.quotebody div.quoteof,
 #layout-main div.forum dl.icon dt,
 #layout-main div.forum div.options-box dt,
 #layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll dl dt,
-#layout-main div.forum div.poll div.pollbar
+#layout-main div.forum div.poll div,
+#layout-main div.forum div.poll div.bar
 {
 font-weight:bold;
 }
