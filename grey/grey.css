@@ -2212,8 +2212,7 @@ background-image: url(images/bg_2.gif)
 #layout-main div.forum div.g_bubble.options-box,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.export_all div.exportblock
 {
 background-image: url(images/bg_3.gif)
@@ -2231,36 +2230,31 @@ background-image: url(images/bg_2.gif)
 {
 border-top-color:#121212;
 }
-#layout-main div.forum div.poll div.bar
+#layout-main div.forum .g_bubble.infobox div.bar
 {
 background-color:#105289;
 border-bottom-color:#092e4d;
 border-right-color:#092e4d;
 color:#FFFFFF;
 }
-#layout-main div.forum div.poll h2,
-#layout-main div.forum div.events h2
+#layout-main div.forum .g_bubble.infobox h2
 {
 border-bottom-color:#989898;
 color: #ff6000;
 }
-#layout-main div.forum div.events dl+dl,
-#layout-main div.forum .g_bubble.poll .row + .row
+#layout-main div.forum .g_bubble.infobox .row + .row
 {
 border-top-color:#989898;
 }
-#layout-main div.forum div.events dl,
-#layout-main div.forum div.poll div
+#layout-main div.forum .g_bubble.infobox div
 {
 color:#676767;
 }
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll div
+#layout-main div.forum .g_bubble.infobox div
 {
 color: white;
 }
-#layout-main div.forum div.events,
-#layout-main div.forum div.poll
+#layout-main div.forum .g_bubble.infobox
 {
 border-bottom-color:#4A4A5A;
 }
@@ -2292,8 +2286,7 @@ color:#BC2A4D;
 {
 border-color:#A9A9A9;
 }
-#layout-main div.forum div.events dl dd,
-#layout-main div.forum div.poll div
+#layout-main div.forum .g_bubble.infobox div
 {
 color:#878787;
 }
@@ -2334,9 +2327,8 @@ div.g_bubble.quotebody div.quoteof,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum dl.icon dt,
 #layout-main div.forum div.options-box dt,
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll div,
-#layout-main div.forum div.poll div.bar
+#layout-main div.forum .g_bubble.infobox div,
+#layout-main div.forum .g_bubble.infobox div.bar
 {
 font-weight:bold;
 }

@@ -181,30 +181,24 @@ input[type="submit"]
 	background-color:#555555;
 }
 
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
+#layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.forum ul.topiclist li
 {
 	color:inherit;
 }
 
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll div,
+#layout-main div.forum .g_bubble.infobox div,
 #layout-main div.cmt_entries dl.profile dd,
-#layout-main div.forum div.poll div,
-#layout-main div.forum div.events dl dd
+#layout-main div.forum .g_bubble.infobox div
 {
 	color:#888888;
 }
 
 #layout-main div.forum div.signature,
-#layout-main div.forum div.events dl + dl,
-#layout-main div.forum .g_bubble.poll .row + .row,
+#layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.forum div.quickreply textarea,
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
-#layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p
+#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle
 {
 	border-color:#666666 #444444 #444444 #666666;
 }
@@ -241,8 +235,8 @@ input[type="submit"]
 #layout-main div.tabbed_pane_main div.similaranime div.stripe div.tooltip div.postbody,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody,
 #layout-main div.forum div.g_bubble.header,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
+
 #layout-main div.forum div.g_bubble.comment,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.forum div.g_bubble.navbar,

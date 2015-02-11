@@ -1951,8 +1951,7 @@ div.anime_all div.image
 }
 
 #layout-main div.forum div.g_bubble.header,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.comment,
 #layout-main div.forum div.g_bubble.navbar,
 #layout-main div.forum div.g_bubble.search,
@@ -1985,15 +1984,14 @@ div.g_bubble.quotebody div.quoteof
 	color:white;
 	padding-left: 5px;
 }
-#layout-main div.forum div.poll div.bar
+#layout-main div.forum .g_bubble.infobox div.bar
 {
 	background-color:#412b5e;
 	border-bottom-color:#261937;
 	border-right-color:#261937;
 	color:#FFFFFF;
 }
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
+#layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.forum a.topictitle
 {
 	color:#d3adec;
