@@ -64,7 +64,11 @@ input[type="button"]:hover,
 
 h4 a:not(.i_icon),
 h1 a,
-th a {
+h1 a:link,
+h1 a:visited,
+th a,
+th a:link,
+th a:visited {
     color: #C0DAF0 !important;
 }
 
