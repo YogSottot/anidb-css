@@ -541,7 +541,7 @@ input.f_button {
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main > h1 {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.2);
 }
 
 .i_comment_add,
@@ -578,17 +578,17 @@ button,
 #layout-main div.pagination span a,
 #layout-main div.edit_actions a,
 #layout-main div.forum div.quickreply textarea {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.1);
 }
 
 #layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs li {
-	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2)
+	box-shadow: 2px -2px 2px -1px rgba(255, 255, 255, 0.2)
 }
 
 #imagepreview,
 a.tooltip span.text {
-	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 8px 4px 0 rgba(255, 255, 255, 0.2);
 	opacity: 0.95;
 	background-color: #333333 !important;
 }
