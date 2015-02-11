@@ -8,8 +8,9 @@
 #layout-main table.filelist tr.deprecated,
 #layout-main table.filelist tr.invalid,
 #layout-main table.file.entities tr.deprecated,
-#layout-main table.file.entities tr.invalid {
-	background-color: #543030;
+#layout-main table.file.entities tr.invalid
+{
+	background-color: #564444;
 }
 
 #layout-main .different,
@@ -18,12 +19,14 @@
 #layout-main table.filelist tr.g_odd.deprecated,
 #layout-main table.filelist tr.g_odd.invalid,
 #layout-main table.file.entities tr.g_odd.deprecated,
-#layout-main table.file.entities tr.g_odd.invalid {
-	background-color: #634040;
+#layout-main table.file.entities tr.g_odd.invalid
+{
+	background-color: #776161;
 }
 
 #layout-main div.addcreatoranimerel_all tr.right_only,
-#layout-main div.addcreatorsongrel_all tr.right_only {
+#layout-main div.addcreatorsongrel_all tr.right_only
+{
 	background-color: #EFC7B2;
 }
 
@@ -54,12 +57,14 @@
 #layout-main div.timeline_all div.timeline ul.row li.completed a,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
-.g_bubble.box.mylist > div.top {
-	background-color:#222E22;
+.g_bubble.box.mylist > div.top
+{
+	background-color:#364a36;
 }
 
 /* IE fix */
-#layout-main div:not(.ed2kdump_all) tr td.mylist {
+#layout-main div:not(.ed2kdump_all) tr td.mylist
+{
 	background-color:#364a36;
 }
 
@@ -81,25 +86,29 @@
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a {
-	background-color:#283628;
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a
+{
+	background-color:#4c614c;
 }
 
 /* IE fix */
-#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist {
-	background-color:#283628;
+#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist
+{
+	background-color:#4c614c;
 }
 
 #layout-main div.timeline_all div.timeline ul.row li.dropped a,
 #layout-main table.filelist tr.generic,
-#layout-main table.file.entities tr.generic {
+#layout-main table.file.entities tr.generic
+{
 	background-color:#444444;
 }
 
 #layout-main div.addcreatoranimerel_all tr.same_name,
 #layout-main div.addcreatorsongrel_all tr.same_name,
 #layout-main div.addsongcollectionrel_all tr.same_name,
-#layout-main div.addcharanimerel_all tr.same_name {
+#layout-main div.addcharanimerel_all tr.same_name
+{
 	background-color: #FFFFDF;
 }
 
@@ -119,25 +128,29 @@
 #layout-main div.addcreatoranimerel_all table,
 #layout-main div.timeline_all div.timeline ul.row li.stalled a,
 #layout-main div.timeline_all div.timeline ul.row li.completed a,
-#layout-main div.timeline_all div.timeline ul.row li.dropped a {
+#layout-main div.timeline_all div.timeline ul.row li.dropped a
+{
 	color:#A0A0A0;
 }
 
 /*epbar colors*/
 #layout-main div.anime_all div.groups td.epbar div.notdone,
-#layout-main div.group_all div.group_released td.epbar div.notdone {
+#layout-main div.group_all div.group_released td.epbar div.notdone
+{
 	background-color:#c6c3ff;
 	border-bottom: 2px solid #c6c3ff;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done,
-#layout-main div.group_all div.group_released td.epbar div.done {
+#layout-main div.group_all div.group_released td.epbar div.done
+{
 	background-color:#6361ff;
 	border-bottom: 2px solid #6361ff;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
-#layout-main div.group_all div.group_released td.epbar div.done.mylist {
+#layout-main div.group_all div.group_released td.epbar div.done.mylist
+{
 	border-bottom: 2px solid #00ff00;
 }
 
@@ -150,16 +163,19 @@ span.diff,
 #layout-main div.creq_all .state.new,
 #layout-main div.creq_all span.type.del,
 #layout-main div.anime_all div.groups td.mylist.new,
-#menu-account li.alert a span:before,
-#menu-account li.alert a span:after {
+#menu-account li.alert span:before,
+#menu-account li.alert span:after
+{
 	color: #B32947;
 }
 
 /*vote graphs*/
-#layout-main div.votes_all div.graph div.bar div.colored {
+#layout-main div.votes_all div.graph div.bar div.colored
+{
 	background-color:green;
 }
 
-#layout-main div.votes_all div.graph div.bar.my div.colored {
+#layout-main div.votes_all div.graph div.bar.my div.colored
+{
 	background-color:#CD9D29;
 }

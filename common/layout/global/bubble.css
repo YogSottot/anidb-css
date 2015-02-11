@@ -150,7 +150,7 @@
 
 .g_bubble.stripe.max > div.data div.name,
 .g_bubble.stripe.medium > div.data div.name {
-	margin-right: 2em;
+	margin-right: 2.5em;
 }
 
 .g_bubble.stripe.max {
@@ -176,9 +176,4 @@
 
 .g_bubble.stripe.recommendation > div.data div.text {
     max-height: 100px;
-}
-
-.g_bubble.stripe > div.data div.tags {
-	max-height: 2.5em;
-	overflow:hidden;
 }

@@ -351,10 +351,8 @@
 #layout-main div.forum div.events div.data,
 #layout-main div.forum div.poll div.question,
 #layout-main div.forum div.poll div.data {
-	display: block;
 	margin-left: 1em;
 	margin-right: 1em;
-	padding-bottom: 1em;
 }
 
 #layout-main div.forum div.poll div.question {
@@ -369,9 +367,8 @@
 #layout-main div.forum div.events div.data p,
 #layout-main div.forum div.poll div.data p {
 	line-height: 1.2em;
-	padding: 0;
 	text-align: left;
-	padding-bottom: 0.5em;
+	padding: 1em 0;
 }
 
 #layout-main div.forum div.events div.data p .i_inline,
@@ -385,51 +382,25 @@
 	padding: 1em 0.5em;
 }
 
-#layout-main div.forum div.events dl,
-#layout-main div.forum div.poll dl {
-	height: 1%;
-	line-height: 120%;
-	margin-top: 5px;
-	padding: 5px 0 0;
+#layout-main div.forum div.events dl {
+	padding: 0;
 	width: 100%;
 }
 
-#layout-main div.forum div.events dl dd,
-#layout-main div.forum div.poll dl dd {
+#layout-main div.forum div.events dl dt,
+#layout-main div.forum div.events dl dd {
 	display: block;
 	float: left;
-	line-height: 120%;
-	margin-bottom: 3px;
-	margin-left: 0;
-	padding: 0 5px;
-	vertical-align: top;
-	width: 10%;
+	text-align: left;
 }
 
 #layout-main div.forum div.events dl dd {
+	margin-top: 1em;
 	width: 60%;
 }
 
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll dl dt {
-	display: block;
-	float: left;
-	line-height: 120%;
-	margin: 0;
-	padding: 0 5px 0 0;
-	text-align: left;
+#layout-main div.forum div.events dl dt {
 	width: 30%;
-}
-
-#layout-main div.forum div.poll div.data div.resultbar {
-	margin-left: 30%;
-	margin-top: 1em;
-	text-align: left;
-}
-
-#layout-main div.forum div.poll div.data div.resultbar a,
-#layout-main div.forum div.poll div.data div.resultbar input {
-	margin-left: 10px;
 }
 
 #layout-main div.forum div.events h2,
@@ -439,19 +410,6 @@
 	line-height: 1.4em;
 	padding-bottom: .5em;
 	text-align: left;
-}
-
-#layout-main div.forum div.poll div.pollbar {
-	border-bottom: 1px solid;
-	border-right: 1px solid;
-	min-width: 2%;
-	overflow: visible;
-	padding: 0 2px;
-	text-align: right;
-}
-
-#layout-main div.forum div.poll dl dd.votebox {
-	width: 15px;
 }
 
 #layout-main div.forum div.add-box dl dd {
@@ -565,8 +523,7 @@
 
 #layout-main div.forum div.signature,
 #layout-main div.forum div.g_bubble.navbar div.bottom,
-#layout-main div.forum div.events dl + dl,
-#layout-main div.forum div.poll dl + dl {
+#layout-main div.forum div.events dl + dl {
 	border-top: 1px solid;
 }
 
@@ -577,9 +534,7 @@
 }
 
 #layout-main div.forum div.events dl dt,
-#layout-main div.forum div.events dl dd,
-#layout-main div.forum div.poll dl dt,
-#layout-main div.forum div.poll dl dd {
+#layout-main div.forum div.events dl dd {
 	border-left: none;
 }
 
@@ -647,7 +602,6 @@
 	margin-top: .5em;
 }
 
-#layout-main div.forum div.poll dl dd.resultbar,
 #layout-main div.forum div.add-box dl.name input,
 #layout-main div.forum div.add-box dl.description input {
 	width: 50%;
@@ -661,8 +615,8 @@
 div.g_bubble.code,
 div.g_bubble.spoiler,
 div.g_bubble.quotebody {
-    margin: 0.5em;
-    padding: 4px 8px;
+	margin: 0.5em;
+	padding: 4px 8px;
 }
 
 #layout-main div.g_bubble.spoiler span.spoiler {
@@ -742,4 +696,39 @@ div.g_bubble.quotebody {
 #layout-main div.postbody div.content ul {
 	margin-left: 0;
 	padding-left: 4em;
+}
+
+/*polls*/
+#layout-main div.forum .g_bubble.poll .row {
+	display: flex;
+	text-align: left;
+	padding: 1em 0.5em;
+	align-items: center;
+}
+#layout-main div.forum .g_bubble.poll .row > div.option {
+	width: 30%;
+}
+#layout-main div.forum .g_bubble.poll .row > div.result {
+	width: 100%;
+}
+
+#layout-main div.forum .g_bubble.poll .row > div.result .bar {
+	min-width: 2%;
+	padding: 0 2px;
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+}
+
+#layout-main div.forum .g_bubble.poll .row > div.vote,
+#layout-main div.forum .g_bubble.poll .row > div.percent {
+	width: 5em;
+	text-align: right;
+}
+
+#layout-main div.forum .g_bubble.poll .row + .row {
+	border-top: 1px solid;
+}
+
+#layout-main div.forum .g_bubble.poll .row > div + div {
+	padding-left: 1em;
 }

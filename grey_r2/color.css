@@ -108,7 +108,7 @@ background-color:hsla(34, 95%, 44%, 0.4);
 }
 #layout-content table.animelist tr.complete td,
 #layout-content table.stafflist tr.complete td,
-#layout-main div.forum div.poll div.pollbar,
+#layout-main div.forum div.poll div.bar,
 #layout-main div.timeline_all div.timeline ul.row li.stalled,
 .g_bubble.stripe.mylist.complete
 {
@@ -352,7 +352,7 @@ border:0;
 {
 color:red;
 }
-#layout-main div.forum div.poll div.pollbar
+#layout-main div.forum div.poll div.bar
 {
 border-color:#3c37a5;
 }

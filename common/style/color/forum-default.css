@@ -11,7 +11,7 @@
 
 #layout-main div.forum div.signature,
 #layout-main div.forum div.events dl + dl,
-#layout-main div.forum div.poll dl + dl,
+#layout-main div.forum .g_bubble.poll .row + .row,
 #layout-main div.cmt_entries dl.profile,
 #layout-main div.forum div.quickreply textarea,
 #layout-main div.forum div.events h2,
@@ -21,22 +21,11 @@
 	border-color:#9A9CA1;
 }
 
-#layout-main div.forum div.g_bubble.poll div.pollbar {
+#layout-main div.forum .g_bubble.poll .row > div.result .bar {
 	background-color: #105289;
 	border-bottom-color: #092e4d;
 	border-right-color: #092e4d;
 	color: #FFFFFF;
-}
-
-#layout-main div.forum div.g_bubble.header,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
-#layout-main div.forum div.g_bubble.navbar,
-#layout-main div.forum div.g_bubble.search,
-#layout-main div.forum div.g_bubble.posting-box,
-#layout-main div.forum div.g_bubble.submit-box,
-#layout-main div.forum div.g_bubble.options-box {
-	background-color:#ACAEB4;
 }
 
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,

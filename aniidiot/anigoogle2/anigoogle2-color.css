@@ -20,7 +20,7 @@ span.link,
 h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
-	color: #105289;
+	color: #105289 !important;
 }
 
 h1 a:hover,
@@ -62,9 +62,13 @@ input[type="button"]:hover,
 	background-color: #AA0000;
 }
 
-h4 a,
+h4 a:not(.i_icon),
 h1 a,
-th a {
+h1 a:link,
+h1 a:visited,
+th a,
+th a:link,
+th a:visited {
     color: #C0DAF0 !important;
 }
 
@@ -224,6 +228,10 @@ button.confirmButton,
 .g_definitionlist .g_odd .g_bubble,
 .g_definitionlist .g_bubble .g_bubble,
 .g_definitionlist .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 #layout-main div.edit_actions a,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
@@ -235,8 +243,12 @@ button.confirmButton,
 .g_bubble .g_odd,
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-menu li.sub-menu ul,
 #layout-tabs ul.main-tabs > li.selected,
@@ -309,7 +321,7 @@ button.confirmButton,
 #layout-main div.edit_actions a,
 #layout-main div.forum div.signature,
 #layout-main div.forum div.events dl + dl,
-#layout-main div.forum div.poll dl + dl,
+#layout-main div.forum .g_bubble.poll .row + .row,
 #layout-main div.cmt_entries dl.profile,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2,
@@ -565,7 +577,8 @@ button,
 #layout-search input.text,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
-#layout-main div.edit_actions a {
+#layout-main div.edit_actions a,
+#layout-main div.forum div.quickreply textarea {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 

@@ -20,7 +20,7 @@ span.link,
 h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
-	color: #7E967E;
+	color: #96B396 !important;
 }
 
 h1 a:hover,
@@ -48,7 +48,7 @@ input[type="button"]:hover,
 #layout-menu li.sub-menu span.tab,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2 {
-	color: #A64E4E !important;
+	color: #B55353 !important;
 }
 
 .i_vrs_2:hover span,
@@ -59,7 +59,7 @@ input[type="button"]:hover,
 .i_vrs_7:hover span,
 .i_vrs_8:hover span,
 .i_vrs_9:hover span {
-	background-color: #963838;
+	background-color: #B55353;
 }
 
 table th.sortable:hover,
@@ -72,7 +72,7 @@ th a:hover {
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
-	background-color:#666666;
+	background-color:#444444;
 }
 
 #layout-main table.filelist tr.generic,
@@ -233,6 +233,10 @@ button.confirmButton,
 .g_definitionlist .g_odd .g_bubble,
 .g_definitionlist .g_bubble .g_bubble,
 .g_definitionlist .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
@@ -248,8 +252,12 @@ button.confirmButton,
 .g_bubble .g_odd,
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-tabs ul.main-tabs > li.selected,
 #layout-tabs ul.main-tabs > li:hover,
@@ -311,8 +319,6 @@ button.button,
 a.confirmButton,
 input.confirmButton,
 button.confirmButton,
-.f_button:hover,
-.f_button.selected,
 .g_bubble.stripe > div.data div.name,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
@@ -321,7 +327,7 @@ button.confirmButton,
 #layout-main div.edit_actions a,
 #layout-main div.forum div.signature,
 #layout-main div.forum div.events dl + dl,
-#layout-main div.forum div.poll dl + dl,
+#layout-main div.forum .g_bubble.poll .row + .row,
 #layout-main div.cmt_entries dl.profile,
 #layout-main div.forum div.events h2,
 #layout-main div.forum div.poll h2,
@@ -371,7 +377,7 @@ button.confirmButton,
 #layout-main tr.header th.sortable:hover,
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong {
-	color:#CCCCCC;
+	color:#DDDDDD;
 }
 
 #layout-main div.forum div.g_bubble.rules {
@@ -521,6 +527,17 @@ table th,
 	background-color: #333333;
 }
 
+/*remove this once format buttons don't use black icons anymore*/
+.f_button:hover,
+.f_button.selected {
+	background-color: #AAAAAA;
+}
+
+input.f_button {
+	background-color: #CCCCCC;
+}
+/*end*/
+
 /*box shadow*/
 .g_bubble,
 #layout-hint,
@@ -532,7 +549,7 @@ table th,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main > h1 {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.1);
 }
 
 .i_comment_add,
@@ -567,18 +584,19 @@ button,
 #layout-search input.text,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
-#layout-main div.edit_actions a {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+#layout-main div.edit_actions a,
+#layout-main div.forum div.quickreply textarea {
+	box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.1);
 }
 
 #layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs li {
-	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2)
+	box-shadow: 2px -2px 2px -1px rgba(255, 255, 255, 0.2)
 }
 
 #imagepreview,
 a.tooltip span.text {
-	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 8px 4px 0 rgba(255, 255, 255, 0.2);
 	opacity: 0.95;
 	background-color: #333333 !important;
 }
@@ -600,18 +618,18 @@ a.tooltip span.text {
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #E6E4D1 !important;
+	background-color: #404037 !important;
 }
 
 .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #F0EDD5 !important;
+	background-color: #4F4F3F !important;
 }
 
 #layout-main div.g_msg.error {
-	background-color: #5E4B4B;
+	background-color: #704343;
 }
 
 #layout-main div.g_msg.warning {
@@ -620,5 +638,9 @@ a.tooltip span.text {
 
 #layout-hint,
 #layout-main div.g_msg.note {
-	background-color: #54544B;
+	background-color: #63633D;
+}
+
+#layout-main div.g_msg.success {
+	background-color: #538A53;
 }
