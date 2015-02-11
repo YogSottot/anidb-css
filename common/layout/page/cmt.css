@@ -681,6 +681,10 @@ div.g_bubble.quotebody {
 	width: 50%;
 }
 
+#layout-main div.forum .g_bubble.infobox .row > div.middle.text {
+	width: 100%;
+}
+
 #layout-main div.forum .g_bubble.infobox .row > div.middle .bar {
 	min-width: 2%;
 	padding: 2px 4px;
