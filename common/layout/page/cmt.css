@@ -709,12 +709,12 @@ div.g_bubble.quotebody {
 	width: 30%;
 }
 #layout-main div.forum .g_bubble.poll .row > div.result {
-	width: 100%;
+	width: 50%;
 }
 
 #layout-main div.forum .g_bubble.poll .row > div.result .bar {
 	min-width: 2%;
-	padding: 0 2px;
+	padding: 2px 4px;
 	border-bottom: 1px solid;
 	border-right: 1px solid;
 }
