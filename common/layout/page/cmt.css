@@ -385,10 +385,7 @@
 
 #layout-main div.forum div.events dl,
 #layout-main div.forum div.poll dl {
-	height: 1%;
-	line-height: 120%;
-	margin-top: 5px;
-	padding: 5px 0 0;
+	padding: 0;
 	width: 100%;
 }
 
