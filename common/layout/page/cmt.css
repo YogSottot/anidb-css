@@ -389,30 +389,27 @@
 	width: 100%;
 }
 
+#layout-main div.forum div.events dl dt,
+#layout-main div.forum div.poll dl dt,
 #layout-main div.forum div.events dl dd,
 #layout-main div.forum div.poll dl dd {
 	display: block;
 	float: left;
-	line-height: 120%;
-	margin-bottom: 3px;
-	margin-left: 0;
-	padding: 0 5px;
-	vertical-align: top;
+	text-align: left;
+}
+
+#layout-main div.forum div.poll dl dd {
+	margin-top: 1em;
 	width: 10%;
 }
 
 #layout-main div.forum div.events dl dd {
+	margin-top: 1em;
 	width: 60%;
 }
 
 #layout-main div.forum div.events dl dt,
 #layout-main div.forum div.poll dl dt {
-	display: block;
-	float: left;
-	line-height: 120%;
-	margin: 0;
-	padding: 0 5px 0 0;
-	text-align: left;
 	width: 30%;
 }
 
