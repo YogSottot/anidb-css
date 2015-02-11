@@ -732,6 +732,10 @@ div.g_bubble.quotebody {
 	text-align: right;
 }
 
+#layout-main div.forum .g_bubble.poll .row > div.action {
+	margin-bottom: 1em;
+}
+
 #layout-main div.forum .g_bubble.poll .row + .row {
 	border-top: 1px solid;
 }
@@ -739,3 +743,4 @@ div.g_bubble.quotebody {
 #layout-main div.forum .g_bubble.poll .row > div + div {
 	padding-left: 1em;
 }
+/*</polls>*/
