@@ -368,9 +368,8 @@
 #layout-main div.forum div.events div.data p,
 #layout-main div.forum div.poll div.data p {
 	line-height: 1.2em;
-	padding: 0;
 	text-align: left;
-	padding-bottom: 0.5em;
+	padding: 0.5em 0;
 }
 
 #layout-main div.forum div.events div.data p .i_inline,
