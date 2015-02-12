@@ -26,3 +26,7 @@
 #layout-main div.mywishlist_all tr td.check {
 	width:1em;
 }
+
+#layout-main div.mywishlist_all table#whistlist {
+	margin-bottom: 1em;
+}
