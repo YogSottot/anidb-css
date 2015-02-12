@@ -49,3 +49,7 @@ span.i_icon.rel.i_marker {
 span.smiley {
 	display:inline-block;
 }
+
+button + .i_icon {
+	padding-left: 0.5em;
+}
