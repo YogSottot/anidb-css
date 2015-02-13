@@ -34,7 +34,7 @@ th a, h1 a, h1 a.shortlink {
   color: #000000 !important;
 }
 
-#layout-main div.mylist.g_bubble:not(.dropped) :not(.name):not(.name-colored) a {
+#layout-main div.mylist.g_bubble:not(.dropped) :not(.name) a:not(.name-colored) {
   color: #105289 !important;
 }
 
