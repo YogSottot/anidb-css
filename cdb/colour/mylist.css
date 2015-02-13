@@ -158,11 +158,11 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 /*black for .dropped */
 #layout-main > :not(.timeline_all) .mylist.dropped,
 #layout-main .mylist.dropped > :not(.image) > :not(.tooltip) a.name-colored,
-#layout-main .mylist.dropped .name label a,
+#layout-main .mylist.dropped .name a,
 #layout-main table.animelist .dropped,
-#layout-main table.animelist .dropped .name label a,
+#layout-main table.animelist .dropped .name a,
 #layout-main table.wishlist .dropped,
-#layout-main table.wishlist .dropped .name label a,
+#layout-main table.wishlist .dropped .name a,
 #layout-main div.timeline_all div.timeline ul.row li.dropped a,
 .g_bubble.box.mylist.dropped > div.top
 {
@@ -174,11 +174,11 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 }
 #layout-main > :not(.timeline_all) .mylist.g_odd.dropped,
 #layout-main .mylist.g_odd.dropped > :not(.image) > :not(.tooltip) a.name-colored,
-#layout-main .mylist.g_odd.dropped .name label a,
+#layout-main .mylist.g_odd.dropped .name a,
 #layout-main table.animelist .g_odd.dropped,
-#layout-main table.animelist .g_odd.dropped .name label a,
+#layout-main table.animelist .g_odd.dropped .name a,
 #layout-main table.wishlist .g_odd.dropped,
-#layout-main table.wishlist .g_odd.dropped .name label a,
+#layout-main table.wishlist .g_odd.dropped .name a,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.dropped a,
 .g_odd.g_bubble.box.mylist.dropped > div.top,
 #layout-main > :not(.timeline_all) .g_odd .mylist.dropped
