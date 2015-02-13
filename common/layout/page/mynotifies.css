@@ -9,3 +9,7 @@
 	padding-left:0.5em;
 	padding-right:0.5em;
 }
+
+#layout-main div.mynotifies_all table .action td {
+	padding: 1em 0;
+}
