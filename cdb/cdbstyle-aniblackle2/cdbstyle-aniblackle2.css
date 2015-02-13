@@ -21,15 +21,15 @@ th a, h1 a, h1 a.shortlink {
 #layout-main table.filelist tr.good a,
 #layout-main table.filelist tr.deprecated,
 #layout-main table.filelist tr.deprecated a,
-#layout-main .mylist tr.mylist,
-#layout-main .mylist tr.mylist a,
+#layout-main .mylist tr.mylist:not(.dropped),
+#layout-main .mylist tr.mylist:not(.dropped) a,
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped),
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped) a,
-#layout-main table.animelist tr.mylist,
-#layout-main table.animelist tr.mylist a,
-#layout-main table.wishlist tr.mylist,
-#layout-main table.wishlist tr.mylist a,
-#layout-main div.timeline_all div.timeline ul.row li a {
+#layout-main table.animelist tr.mylist:not(.dropped),
+#layout-main table.animelist tr.mylist:not(.dropped) a,
+#layout-main table.wishlist tr.mylist:not(.dropped),
+#layout-main table.wishlist tr.mylist:not(.dropped) a,
+#layout-main div.timeline_all div.timeline ul.row li:not(.dropped) a {
   color: #000000 !important;
 }
 
