@@ -12,19 +12,14 @@
 		/* dimensions: spanning the background from edge to edge */
 		position:fixed;
 		top: 0; right: 0; bottom: 0; left: 0;
-		z-index: 2;
+		z-index: 999;
 
 		/* position: centering content */
 		text-align: center;
 
 		/* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
 		white-space: nowrap;
-
-		/* styling */
 		cursor: pointer;
-		background: #333;
-		/* IE8 "hack" for nested featherlights */
-		background: rgba(0, 0, 0, 0);
 	}
 
 	/* support for nested featherlights. Does not work in IE8 (use JS to fix) */
@@ -63,8 +58,6 @@
 		margin-right: 5%;
 		max-height: 95%;
 
-		/* styling */
-		background: #fff;
 		cursor: auto;
 
 		/* reset white-space wrapping */
@@ -88,18 +81,12 @@
 		line-height: 25px;
 		width: 25px;
 
-		/* styling */
 		cursor: pointer;
 		text-align: center;
-		font: Arial, sans-serif;
-		background: #fff; /* Set the background in case it overlaps the content */
-		background: rgba(255, 255, 255, 0.3);
-		color: #000;
 	}
 
 
 	.featherlight .featherlight-image {
-		/* styling */
 		width: 100%;
 	}
 
@@ -111,7 +98,6 @@
 	}
 
 	.featherlight iframe {
-		/* styling */
 		border: none;
 	}
 }
