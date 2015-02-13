@@ -64,9 +64,9 @@ body,
 	content:"Design by Breadstone. Coding by B1nh";
 }
 
-#layout-menu #newmessages:before,
-#layout-menu #newnotifies:before,
-#layout-menu #newmessages:after,
+#layout-menu .newmessages:before,
+#layout-menu .newnotifies:before,
+#layout-menu .newmessages:after,
 #layout-menu a.history:after
 {
 	content:"!";

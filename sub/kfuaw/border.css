@@ -71,7 +71,7 @@ img, a
 }
 
 #layout-menu li ul li:first-child a,
-#layout-menu li ul li#alert-notif a#newnotifies
+#layout-menu li ul li#alert-notif a.newnotifies
 {
 	border-width: 2px 1px 0 1px;
 }

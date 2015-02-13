@@ -18,9 +18,9 @@ a:link
 	color:#bbbbbb;
 }
 
-#layout-menu #newmessages:before,
-#layout-menu #newnotifies:before,
-#layout-menu #newmessages:after,
+#layout-menu .newmessages:before,
+#layout-menu .newnotifies:before,
+#layout-menu .newmessages:after,
 #layout-menu a.history:after
 {
 	color:red;
@@ -94,8 +94,8 @@ textarea {
 #layout-menu a:link,
 #layout-menu a:visited,
 html,
-#layout-menu #newnotifies,
-#layout-menu #newmessages,
+#layout-menu .newnotifies,
+#layout-menu .newmessages,
 #layout-menu div.usermenu p.user,
 #layout-content div.g_msg.note h3,
 #layout-main td del,
