@@ -18,13 +18,16 @@ th a, h1 a, h1 a.shortlink {
 }
 
 #layout-main .mylist,
+#layout-main .mylist a,
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped),
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped) a {
   color: #000000;
 }
 
 #layout-main table.animelist,
+#layout-main table.animelist a,
 #layout-main table.wishlist,
+#layout-main table.wishlist a,
 #layout-main div.timeline_all div.timeline ul.row li a {
   color: #000000 !important;
 }
