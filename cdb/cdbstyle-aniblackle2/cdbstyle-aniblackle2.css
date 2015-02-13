@@ -17,12 +17,14 @@ th a, h1 a, h1 a.shortlink {
   color: #C0DAF0;
 }
 
+#layout-main table.filelist tr.good,
+#layout-main table.filelist tr.good a,
+#layout-main table.filelist tr.deprecated,
+#layout-main table.filelist tr.deprecated a,
 #layout-main .mylist,
 #layout-main .mylist a,
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped),
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped) a,
-#layout-main table.filelist tr.good,
-#layout-main table.filelist tr.good a,
 #layout-main table.animelist,
 #layout-main table.animelist a,
 #layout-main table.wishlist,
