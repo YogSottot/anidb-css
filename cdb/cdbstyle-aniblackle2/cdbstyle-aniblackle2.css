@@ -23,8 +23,7 @@ th a, h1 a, h1 a.shortlink {
 #layout-main table.filelist tr.deprecated a,
 #layout-main .mylist tr.mylist:not(.dropped),
 #layout-main .mylist tr.mylist:not(.dropped) a,
-#layout-main div.mylist.g_bubble:not(.dropped),
-#layout-main div.mylist.g_bubble:not(.dropped) a,
+#layout-main div.mylist.g_bubble:not(.dropped) :not(.name),
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped),
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped) a,
 #layout-main table.animelist tr.mylist:not(.dropped),
@@ -33,6 +32,10 @@ th a, h1 a, h1 a.shortlink {
 #layout-main table.wishlist tr.mylist:not(.dropped) a,
 #layout-main div.timeline_all div.timeline ul.row li:not(.dropped) a {
   color: #000000 !important;
+}
+
+#layout-main div.mylist.g_bubble:not(.dropped) :not(.name) a {
+  color: #105289 !important;
 }
 
 #layout-footer:after
