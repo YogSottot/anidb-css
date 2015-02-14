@@ -640,3 +640,7 @@ a.tooltip span.text {
 #layout-main div.g_msg.success {
 	background-color: #538A53;
 }
+
+.ajax-file-upload:hover {
+	opacity: 0.6;
+}

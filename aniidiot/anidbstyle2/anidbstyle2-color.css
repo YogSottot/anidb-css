@@ -605,3 +605,7 @@ li + li.g_odd,
 #layout-main div.cmt_all div.cmt_add hr {
     background-color: #9A9A9A;
 }
+
+.ajax-file-upload:hover {
+	opacity: 0.6;
+}

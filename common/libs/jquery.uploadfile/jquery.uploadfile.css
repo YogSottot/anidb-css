@@ -1,0 +1,63 @@
+.ajax-file-upload-statusbar {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin: 5px;
+	padding: 5px 5px 5px 5px
+}
+.ajax-file-upload-filename {
+	width: 100%;
+	height: auto;
+	margin: 0 5px 5px 10px;
+}
+.ajax-file-upload-progress {
+	margin: 0 10px 5px 10px;
+	position: relative;
+	width: 250px;
+	padding: 1px;
+	border-radius: 3px;
+	display: inline-block
+}
+.ajax-file-upload-bar {
+	width: 0;
+	height: 20px;
+}
+.ajax-file-upload-percent {
+	position: absolute;
+	display: inline-block;
+	top: 3px;
+	left: 48%
+}
+.ajax-file-upload-red {
+	display: inline-block;
+	padding: 4px 15px;
+	cursor: pointer;
+	vertical-align: top;
+	margin-right:5px;
+}
+.ajax-file-upload-green {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	padding: 4px 15px;
+	cursor: pointer;
+	vertical-align: top;
+	margin-right:5px;
+}
+.ajax-file-upload {
+	padding: 15px 20px;
+	cursor:pointer;
+	line-height:20px;
+	height:25px;
+	margin:0 10px 0 0;
+	display: inline-block;
+	padding: 6px 10px 4px 10px;
+	vertical-align:middle;
+}
+.ajax-upload-dragdrop {
+	text-align:left;
+	vertical-align:middle;
+	padding:10px;
+}
+.ajax-file-upload-uploaded_filename {
+	margin-left: 0.5em;
+}

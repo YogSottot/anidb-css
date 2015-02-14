@@ -625,3 +625,6 @@ a.tooltip span.text {
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
 	background-color: #F0EDD5 !important;
 }
+.ajax-file-upload:hover {
+	opacity: 0.6;
+}
