@@ -1,8 +1,6 @@
 .ajax-file-upload-statusbar {
-	margin-top: 10px;
-	margin-right: 10px;
-	margin: 5px;
-	padding: 5px 5px 5px 5px
+	margin: 0.5em;
+	padding: 10px;
 }
 .ajax-file-upload-filename {
 	width: 100%;
