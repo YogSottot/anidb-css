@@ -335,6 +335,7 @@ button.confirmButton,
 #layout-main div.forum ul.topiclist dd,
 #layout-main div.forum li.row + li.row,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
+#layout-main div.forum div.cmt_entries.history h4,
 #layout-main div.msg_all div.forum ul.topics dd.check {
 	border-color: #666666;
 }
