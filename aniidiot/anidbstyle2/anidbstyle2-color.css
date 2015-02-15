@@ -611,6 +611,7 @@ li + li.g_odd,
 #layout-main div.profile_all div.tabbed_pane div.general table tr,
 #layout-main div.profile_all div.tabbed_pane div.body div.pane ul li,
 #layout-main div.report_all div.tabbed_pane div.body div.pane ul li,
+#layout-main div.tabbed_pane div.body div.pane ul.contribute li,
 #layout-main div.anime_all div.data table.relationlist tr {
 	background-color: inherit;
 }
