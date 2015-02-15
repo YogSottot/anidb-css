@@ -137,3 +137,7 @@
 		white-space: normal;
 	}
 }
+
+#layout-main .creq_all .format-buttons {
+	text-align: center;
+}
