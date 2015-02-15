@@ -91,8 +91,8 @@
 }
 
 
-#layout-main div.group_all div.group_released td.epbar div,
-#layout-main div.anime_all div.groups td.epbar div {
+#layout-main div.group_all div.group_released td.epbar > div div,
+#layout-main div.anime_all div.groups td.epbar > div div {
 	float: left;
 	height: 8px;
 }
