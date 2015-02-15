@@ -220,7 +220,6 @@ div.pagination span strong
 }
 
 #layout-main div.forum div.g_bubble.comment,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.forum ul.topics li.g_odd.row {
     background-color: #dee3e7;
 }

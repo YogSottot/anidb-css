@@ -187,7 +187,6 @@ a.tooltip > span.text.g_bubble,
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
 #layout-main div.forum ul.topics li.g_odd.row,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover {
 	background-color: #B9BBBF;
@@ -202,8 +201,6 @@ div.g_odd,
 #layout-main div.format-buttons input,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd,
 #layout-main div.addtagentityrel_all #tag-list div.g_odd {

@@ -52,8 +52,6 @@ th {
 	background-color: #CADCEB;
 }
 
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover {
 	background-color:#CBD6DE;

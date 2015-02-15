@@ -110,7 +110,6 @@ a.tooltip > span.text.g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-main div.forum ul.topics li.g_odd.row,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd {
 	background-color: #333333;
@@ -179,8 +178,6 @@ input[type="submit"]:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.selected,
 #layout-main div.pagination span a,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.search_all div.suggestions span:hover {

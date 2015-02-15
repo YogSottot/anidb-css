@@ -741,8 +741,6 @@ th,
 #layout-main div.forum div.g_bubble.posting-box,
 #layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.main_all div.news h4,
@@ -1075,7 +1073,6 @@ margin-bottom: 0.5em }
 #layout-main div.forum li.header dd {
 color: #7e8072 }
 
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row, 
 #layout-main div.forum ul.topics li.g_odd.row {
 background-color: white }
 
