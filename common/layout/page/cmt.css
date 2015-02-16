@@ -227,7 +227,7 @@
 	padding-top: 3em;
 }
 
-#layout-main div.forum div.posting-box > div > div {
+#layout-main div.forum div.posting-box div.subject div.field {
 	clear: none;
 	float: left;
 	font-size: 1.1em;
@@ -326,7 +326,7 @@
 	width: 85%;
 }
 
-#layout-main div.forum div.options-box > div > div > div {
+#layout-main div.forum div.options-box div.value {
 	margin-left: 15em;
 }
 
@@ -344,7 +344,7 @@
 	width: 12em;
 }
 
-#layout-main div.forum div.add-box > div > div > div {
+#layout-main div.forum div.add-box div.value {
 	margin-left: 20em;
 }
 
@@ -501,28 +501,27 @@
 	clear: both;
 }
 
-#layout-main div.forum div.posting-box > div > div,
-#layout-main div.forum div.options-box > div > div,
-#layout-main div.forum div.add-box > div > div,
-#layout-main div.forumsearch_form > div > div {
-	display: block;
+#layout-main div.forum div.posting-box > div,
+#layout-main div.forum div.options-box > div,
+#layout-main div.forum div.add-box > div,
+#layout-main div.forumsearch_form > div {
 	height: 1%;
 	margin: 0;
 	overflow: hidden;
 }
 
-#layout-main div.forum div.options-box > div > div,
-#layout-main div.forum div.add-box > div > div > div {
+#layout-main div.forum div.options-box div.field,
+#layout-main div.forum div.add-box div div.field {
 	clear: none;
 	float: left;
 }
 
-#layout-main div.forum div.posting-box > div > div + div,
-#layout-main div.forum div.options-box > div > div + div,
+#layout-main div.forum div.posting-box > div + div,
+#layout-main div.forum div.options-box > div + div,
 #layout-main div.forum div.options-box div.polls,
-#layout-main div.forum div.add-box > div > div + div,
+#layout-main div.forum div.add-box > div + div,
 #layout-main div.forum ul.topics div.actions a + a,
-#layout-main div.forumsearch_form > div > div + div {
+#layout-main div.forumsearch_form > div + div {
 	margin-top: .5em;
 }
 
@@ -568,7 +567,7 @@ div.g_bubble.quotebody {
 	padding-bottom: 0.2em;
 }
 
-#layout-main div.forum div.cmt_entries.history > div > div {
+#layout-main div.forum div.cmt_entries.history > div {
 	overflow: auto;
 	height: 300px;
 	margin-top: 0.3em;
