@@ -84,6 +84,10 @@
 	margin-top: 1.5em;
 }
 
+#layout-main div.forum ul.topiclist div.check,
+#layout-main div.forum ul.topiclist div.to,
+#layout-main div.forum ul.topiclist div.type,
+#layout-main div.forum ul.topiclist div.read,
 #layout-main div.forum ul.topiclist div.views,
 #layout-main div.forum ul.topiclist div.actions,
 #layout-main div.forum ul.topiclist div.lastpost,
@@ -93,6 +97,17 @@
 	margin-left: 0;
 	padding-left: .5em;
 	padding-right: .5em;
+}
+
+#layout-main div.forum ul.topiclist div.check,
+#layout-main div.forum ul.topiclist div.to,
+#layout-main div.forum ul.topiclist div.type,
+#layout-main div.forum ul.topiclist div.read,
+#layout-main div.forum ul.topiclist div.posts,
+#layout-main div.forum ul.topiclist div.views,
+#layout-main div.forum ul.topiclist div.topics {
+	text-align: center;
+	width: 8%;
 }
 
 #layout-main div.msg_all div.forum ul.topics div.check {
@@ -128,13 +143,6 @@
 #layout-main div.forum li.header div.segment {
 	border-left-width: 0;
 	padding:7px 5px 5px;
-}
-
-#layout-main div.forum ul.topiclist div.posts,
-#layout-main div.forum ul.topiclist div.views,
-#layout-main div.forum ul.topiclist div.topics {
-	text-align: center;
-	width: 8%;
 }
 
 #layout-main div.forum ul.topics div.posts,
