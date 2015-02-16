@@ -84,7 +84,9 @@
 	margin-top: 1.5em;
 }
 
-#layout-main div.forum ul.topiclist div.row div:not(.icon) {
+#layout-main div.forum ul.topiclist div.actions,
+#layout-main div.forum ul.topiclist div.lastpost,
+#layout-main div.forum ul.topiclist div.posts {
 	border-left: 1px solid;
 	float: left;
 	margin-left: 0;
