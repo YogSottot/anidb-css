@@ -437,6 +437,7 @@
 
 #layout-main div.forumsearch_form div.value {
 	margin-left: 30%;
+	text-align: left;
 }
 
 #layout-main div.g_bubble.forumsearch_form input[type="text"] {
@@ -507,7 +508,7 @@
 #layout-main div.forum div.posting-box > div,
 #layout-main div.forum div.options-box > div,
 #layout-main div.forum div.add-box > div,
-#layout-main div.forumsearch_form > div {
+#layout-main div.forumsearch_form > form > div {
 	height: 1%;
 	margin: 0;
 	overflow: hidden;
@@ -519,7 +520,7 @@
 	float: left;
 }
 
-#layout-main div.forumsearch_form > div + div,
+#layout-main div.forumsearch_form > form > div + div,
 #layout-main div.forum div.add-box > div + div,
 #layout-main div.forum div.posting-box > div + div,
 #layout-main div.forum div.options-box > div > div + div,
