@@ -416,13 +416,13 @@ font-weight:normal;
 border-style:dashed;
 border-width:1px;
 }
-#layout-main div.cmt_entries dl.profile,
-#layout-main div.msg_all div.forum ul.topics dd.check,
+#layout-main div.cmt_entries div.profile,
+#layout-main div.msg_all div.forum ul.topics div.check,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title
 {
 border-right-style:dashed;
 }
-#layout-main div.forum ul.topiclist dd
+#layout-main div.forum ul.topiclist div.row div
 {
 border-left-style:dashed;
 }

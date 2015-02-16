@@ -181,13 +181,11 @@ div.pagination span a {
 }
 
 #statusBox,
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd {
+#layout-main div.forum li.header div.segment {
 	font-family:Arial,Helvetica,sans-serif;
 }
 
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd {
+#layout-main div.forum li.header div.segment {
 	font-size:1em;
 	font-weight:bold;
 	text-transform:uppercase;
@@ -231,8 +229,8 @@ div.pagination span a {
 	font-weight:bold;
 }
 
-#layout-main div.forum ul.topiclist li.row dl.icon dt.icon div.title,
-#layout-main div.forumsearch_form dt span.desc,
+#layout-main div.forum ul.topiclist li.row div.icon div.icon div.title,
+#layout-main div.forumsearch_form div span.desc,
 #layout-main div.creq_all .state.return th.field,
 #layout-main div.creq_all .state.new th.field {
 	font-weight:normal;
@@ -262,9 +260,8 @@ th.sortable {
 	text-decoration:underline;
 }
 
-#layout-main div.msg_all div.header dt,
-#layout-main div.forumsearch_form dt,
-#layout-main div.forum div.add-box dl dt {
+#layout-main div.msg_all div.header div,
+#layout-main div.forumsearch_form div.field {
 	font-size:11px;
 	font-weight:bold;
 }
@@ -282,9 +279,9 @@ h4.collapsed span {
 	font-size: 13px;
 }
 
-#layout-main div.forum ul.topics dd.posts,
-#layout-main div.forum ul.topics dd.views,
-#layout-main div.forum ul.topics dd.topics,
+#layout-main div.forum ul.topics div.posts,
+#layout-main div.forum ul.topics div.views,
+#layout-main div.forum ul.topics div.topics,
 #layout-main div.addtagentityrel_all div.addbox div.tag-group h3,
 #layout-main div.userpage_all div.userdetails div.block caption,
 #layout-main div.picupload_all input[type="file"] {
@@ -298,16 +295,18 @@ h4.collapsed span {
 	font-size:1em;
 }
 
+#layout-main div.msg_all div.header div,
+#layout-main div.forum div.options-box div.field,
+#layout-main div.forum div.posting-box div.field,
+#layout-main div.forum div.add-box div.field,
 #layout-main div.forum div.navbar span.breadcrumbs,
 #layout-main div.forum div.navbar span.info,
 #layout-main div.forum div.navbar span.messages,
 #layout-main div.forum div.linklist,
 #layout-main div.forum div.signature,
-#layout-main div.forum ul.topics dt,
-#layout-main div.forum dd.lastpost,
-#layout-main div.forum div.options-box dt,
+#layout-main div.forum ul.topics div,
+#layout-main div.forum div.lastpost,
 #layout-main div.forum .g_bubble.infobox div.left,
-#layout-main div.msg_all div.header dd,
 #layout-main div.forum div.rules,
 #layout-main div.forum div.navbar span.notify,
 #layout-main div.forum div.quickreply textarea,
@@ -341,10 +340,12 @@ span.diff,
 div.g_bubble.quotebody div.quoteof,
 #layout-main div.forum a.username-colored,
 #layout-main div.forum div.navbar span.breadcrumbs,
-#layout-main div.forum ul.topics dd.lastpost span a,
+#layout-main div.forum ul.topics div.lastpost span a,
 #layout-main div.cmt_entries a.username-colored,
-#layout-main div.forum dl.icon dt,
-#layout-main div.forum div.options-box dt,
+#layout-main div.forum div.icon div.icon,
+#layout-main div.forum div.options-box div.field,
+#layout-main div.forum div.posting-box div.field,
+#layout-main div.forum div.add-box div.field,
 #layout-main div.forum .g_bubble.infobox div.left,
 #layout-main div.forum .g_bubble.infobox div.bar,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
@@ -359,7 +360,7 @@ div.relations .g_bubble.stripe div.type,
 .g_bubble.box > div.data div.date,
 #layout-main div.main_all div.header div.account ul.tabs li,
 #layout-main div.search_all div.search_results strong,
-#layout-main div.tag-column  .parent {
+#layout-main div.tag-column .parent {
 	font-weight:bold;
 }
 

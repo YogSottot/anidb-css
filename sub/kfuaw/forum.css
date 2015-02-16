@@ -95,7 +95,7 @@
 	border-width:3px 1px 3px 1px;
 }
 
-#layout-main div.cmt_entries dl.profile
+#layout-main div.cmt_entries div.profile
 {
 	border-right:none;
 }
@@ -116,7 +116,7 @@
 	height:1.2em;
 }
 
-#layout-main div.cmt_entries dl.profile + div.postbody p.author
+#layout-main div.cmt_entries div.profile + div.postbody p.author
 {
 	-moz-border-radius-topleft:0em;
 	-webkit-border-top-left-radius:0em;
@@ -142,8 +142,8 @@
 	display: block;
 }
 
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd
+#layout-main div.forum li.header div,
+#layout-main div.forum li.header div
 {
 	margin: .2em 0;
 }

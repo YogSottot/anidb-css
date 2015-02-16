@@ -229,12 +229,12 @@ div.pagination span a
 	border-color:#E4E4E4 #D5CCCC #D5CCCC #E4E4E4;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div
 {
 	color:#666666;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong
 {
 	color:#000000;
 }

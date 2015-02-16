@@ -1,18 +1,6 @@
-#layout-main div.msg_all div.header dt {
-	clear:none;
-	float:left;
-}
-
 #layout-main div.msg_all div.header {
 	margin-bottom: 1em;
 	padding:0.5em 1em;
-}
-
-#layout-main div.msg_all div.header dl {
-	display:block;
-	height:1%;
-	margin:0;
-	overflow:hidden;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions {
@@ -20,30 +8,24 @@
 	margin-bottom:1em;
 }
 
-#layout-main div.msg_all div.forum ul.topiclist dd.to,
-#layout-main div.msg_all div.forum ul.topiclist dd.type,
-#layout-main div.msg_all div.forum ul.topiclist dd.read,
-#layout-main div.msg_all div.forum ul.topiclist dd.action {
+#layout-main div.msg_all div.forum ul.topiclist div.actions,
+#layout-main div.msg_all div.forum ul.topiclist div.to,
+#layout-main div.msg_all div.forum ul.topiclist div.type,
+#layout-main div.msg_all div.forum ul.topiclist div.read {
 	text-align:center;
 	width:10%;
 }
 
-#layout-main div.msg_all div.forum ul.topiclist dd.check {
+#layout-main div.msg_all div.forum ul.topiclist div.check {
 	text-align:center;
 	width:2.5em;
 }
 
-#layout-main div.msg_all div.forum ul.topics dd.check {
+#layout-main div.msg_all div.forum ul.topics div.check {
+	border-left: none;
+	border-right:1px solid;
 	padding-left:0;
-}
-
-#layout-main div.msg_all div.forum ul.topics dd {
-	padding-top:1em;
-	height:2em;
-}
-
-#layout-main div.msg_all div.forum ul.topics dt {
-	padding:0 0.5em 0.3em;
+	padding-top: 1em;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions {
@@ -61,4 +43,11 @@
 
 #layout-main div.msg_all div.forum div.topic_actions div.buttons ul li {
 	margin-top: 0;
+}
+
+#layout-main div.msg_all div.forum ul.topics div.actions,
+#layout-main div.msg_all div.forum ul.topics div.to,
+#layout-main div.msg_all div.forum ul.topics div.type,
+#layout-main div.msg_all div.forum ul.topics div.read {
+	line-height: 2.5em;
 }

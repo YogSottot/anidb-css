@@ -1,5 +1,5 @@
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd {
+#layout-main div.forum li.header div,
+#layout-main div.forum li.header div {
 	color:#FFFFFF;
 }
 
@@ -11,7 +11,7 @@
 
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
-#layout-main div.cmt_entries dl.profile,
+#layout-main div.cmt_entries div.profile,
 #layout-main div.forum div.quickreply textarea,
 #layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle {
@@ -39,7 +39,7 @@
 }
 
 #layout-main div.forum div.deleted,
-#layout-main div.forum li.deleted dl.icon {
+#layout-main div.forum li.deleted div.row.icon {
 	opacity: 0.3;
 }
 

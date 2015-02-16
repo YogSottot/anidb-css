@@ -142,7 +142,7 @@ background-color:hsla(127, 54%, 25%, 0.6);
 background-color:hsla(0, 100%, 50%, 0.3);
 }
 #layout-main div.g_bubble.quotebody,
-#layout-main div.forum div.postbody dl.codebox dt,
+#layout-main div.forum div.postbody div.codebox div,
 #layout-main div.forum .g_bubble.infobox,
 #layout-main div.export_all div.g_bubble.exportblock
 {
@@ -314,7 +314,7 @@ border-color:hsla(0, 100%, 25%, 0.4);
 background-color:hsla(0, 100%, 25%, 0.4);
 }
 #layout-main div.forum div.deleted,
-#layout-main div.forum li.deleted dl.icon
+#layout-main div.forum li.deleted div.icon
 {
 opacity:0.5;
 }
@@ -379,9 +379,9 @@ border-bottom:2px solid #008800;
 color:#ff6000;
 }
 #layout-main div.g_bubble.spoiler,
-#layout-main div.cmt_entries dl.profile,
-#layout-main div.msg_all div.forum ul.topics dd.check,
-#layout-main div.forum ul.topiclist dd,
+#layout-main div.cmt_entries div.profile,
+#layout-main div.msg_all div.forum ul.topics div.check,
+#layout-main div.forum ul.topiclist div.row div,
 #layout-main div.g_bubble.quotebody,
 .g_bubble,
 .g_bubble.stripe > div.data div.name,

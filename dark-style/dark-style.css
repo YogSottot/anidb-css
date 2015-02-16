@@ -1963,7 +1963,7 @@ div.anime_all div.image
 {
 	background-color:#1a1a1a;
 }
-#layout-main div.cmt_entries dl.profile dd strong
+#layout-main div.cmt_entries div.profile div strong
 {
 	color: white;
 }
