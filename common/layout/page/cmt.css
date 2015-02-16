@@ -143,8 +143,8 @@
 	line-height: 2.5em;
 }
 
-#layout-main div.forum a.username-colored {
-	display: inline!important;
+#layout-main div.forum div.profile a.username-colored {
+	display: block;
 }
 
 #layout-main div.forum ul.topiclist li.row div {
@@ -616,6 +616,10 @@ div.g_bubble.quotebody {
 #layout-main div.postbody div.content ul {
 	margin-left: 0;
 	padding-left: 4em;
+}
+
+#layout-main div.cmt_entries div.profile div.rank {
+	margin-bottom: 1.4em;
 }
 
 /*polls*/
