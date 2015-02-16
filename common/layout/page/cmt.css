@@ -546,8 +546,7 @@ div.g_bubble.quotebody {
 	padding: 4px 8px;
 }
 
-#layout-main div.g_bubble.spoiler span.spoiler {
-	display:block;
+#layout-main div.g_bubble.spoiler div.spoiler_body {
 	margin-bottom: 1em;
 }
 
