@@ -22,8 +22,7 @@
 
 #layout-main div.msg_all div.forum ul.topiclist div.to,
 #layout-main div.msg_all div.forum ul.topiclist div.type,
-#layout-main div.msg_all div.forum ul.topiclist div.read,
-#layout-main div.msg_all div.forum ul.topiclist div.action {
+#layout-main div.msg_all div.forum ul.topiclist div.read {
 	text-align:center;
 	width:10%;
 }
@@ -35,15 +34,6 @@
 
 #layout-main div.msg_all div.forum ul.topics div.check {
 	padding-left:0;
-}
-
-#layout-main div.msg_all div.forum ul.topics div {
-	padding-top:1em;
-	height:2em;
-}
-
-#layout-main div.msg_all div.forum ul.topics div {
-	padding:0 0.5em 0.3em;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions {

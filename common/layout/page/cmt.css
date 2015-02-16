@@ -99,10 +99,6 @@
 	padding-right: .5em;
 }
 
-#layout-main div.forum ul.topiclist div.check,
-#layout-main div.forum ul.topiclist div.to,
-#layout-main div.forum ul.topiclist div.type,
-#layout-main div.forum ul.topiclist div.read,
 #layout-main div.forum ul.topiclist div.posts,
 #layout-main div.forum ul.topiclist div.views,
 #layout-main div.forum ul.topiclist div.topics {
