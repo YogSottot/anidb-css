@@ -227,7 +227,7 @@
 	padding-top: 3em;
 }
 
-#layout-main div.forum div.posting-box > div {
+#layout-main div.forum div.posting-box > div > div {
 	clear: none;
 	float: left;
 	font-size: 1.1em;
@@ -501,10 +501,10 @@
 	clear: both;
 }
 
-#layout-main div.forum div.posting-box > div,
-#layout-main div.forum div.options-box > div,
-#layout-main div.forum div.add-box > div,
-#layout-main div.forumsearch_form > div {
+#layout-main div.forum div.posting-box > div > div,
+#layout-main div.forum div.options-box > div > div,
+#layout-main div.forum div.add-box > div > div,
+#layout-main div.forumsearch_form > div > div {
 	display: block;
 	height: 1%;
 	margin: 0;
@@ -568,7 +568,7 @@ div.g_bubble.quotebody {
 	padding-bottom: 0.2em;
 }
 
-#layout-main div.forum div.cmt_entries.history > div {
+#layout-main div.forum div.cmt_entries.history > div > div {
 	overflow: auto;
 	height: 300px;
 	margin-top: 0.3em;
