@@ -72,6 +72,7 @@ a.tooltip span.text,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all div.g_menu ul li,
 #layout-tabs ul.main-tabs > li,
+#layout-main div.cmt_entries div.profile,
 #layout-main div.tabbed_pane ul.tabs li {
 	border: none !important;
 }
