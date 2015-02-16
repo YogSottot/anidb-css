@@ -1,18 +1,6 @@
-#layout-main div.msg_all div.header div {
-	clear:none;
-	float:left;
-}
-
 #layout-main div.msg_all div.header {
 	margin-bottom: 1em;
 	padding:0.5em 1em;
-}
-
-#layout-main div.msg_all div.header div {
-	display:block;
-	height:1%;
-	margin:0;
-	overflow:hidden;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions {
@@ -20,6 +8,7 @@
 	margin-bottom:1em;
 }
 
+#layout-main div.msg_all div.forum ul.topiclist div.actions,
 #layout-main div.msg_all div.forum ul.topiclist div.to,
 #layout-main div.msg_all div.forum ul.topiclist div.type,
 #layout-main div.msg_all div.forum ul.topiclist div.read {
