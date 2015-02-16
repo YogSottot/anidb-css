@@ -227,7 +227,7 @@
 	padding-top: 3em;
 }
 
-#layout-main div.forum div.posting-box div {
+#layout-main div.forum div.posting-box > div {
 	clear: none;
 	float: left;
 	font-size: 1.1em;
@@ -326,7 +326,7 @@
 	width: 85%;
 }
 
-#layout-main div.forum div.options-box div div {
+#layout-main div.forum div.options-box > div > div > div {
 	margin-left: 15em;
 }
 
@@ -344,7 +344,7 @@
 	width: 12em;
 }
 
-#layout-main div.forum div.add-box div div {
+#layout-main div.forum div.add-box > div > div > div {
 	margin-left: 20em;
 }
 
@@ -501,28 +501,28 @@
 	clear: both;
 }
 
-#layout-main div.forum div.posting-box div,
-#layout-main div.forum div.options-box div,
-#layout-main div.forum div.add-box div,
-#layout-main div.forumsearch_form div {
+#layout-main div.forum div.posting-box > div,
+#layout-main div.forum div.options-box > div,
+#layout-main div.forum div.add-box > div,
+#layout-main div.forumsearch_form > div {
 	display: block;
 	height: 1%;
 	margin: 0;
 	overflow: hidden;
 }
 
-#layout-main div.forum div.options-box div,
-#layout-main div.forum div.add-box div div {
+#layout-main div.forum div.options-box > div > div,
+#layout-main div.forum div.add-box > div > div > div {
 	clear: none;
 	float: left;
 }
 
-#layout-main div.forum div.posting-box div + div,
-#layout-main div.forum div.options-box div + div,
+#layout-main div.forum div.posting-box > div > div + div,
+#layout-main div.forum div.options-box > div > div + div,
 #layout-main div.forum div.options-box div.polls,
-#layout-main div.forum div.add-box div + div,
+#layout-main div.forum div.add-box > div > div + div,
 #layout-main div.forum ul.topics div.actions a + a,
-#layout-main div.forumsearch_form div + div {
+#layout-main div.forumsearch_form > div > div + div {
 	margin-top: .5em;
 }
 
