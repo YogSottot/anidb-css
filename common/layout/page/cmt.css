@@ -422,7 +422,7 @@
 	padding: 3px;
 }
 
-#layout-main div.forumsearch_form > div {
+#layout-main div.forumsearch_form div.field {
 	clear: none;
 	float: left;
 	margin-right: 1em;
