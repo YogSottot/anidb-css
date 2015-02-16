@@ -682,15 +682,15 @@ div.g_bubble.quotebody {
 	width: 30%;
 }
 
-#layout-main div.forum .g_bubble.infobox .row > div.middive {
+#layout-main div.forum .g_bubble.infobox .row > div.middle {
 	width: 50%;
 }
 
-#layout-main div.forum .g_bubble.infobox .row > div.middive.text {
+#layout-main div.forum .g_bubble.infobox .row > div.middle.text {
 	width: 100%;
 }
 
-#layout-main div.forum .g_bubble.infobox .row > div.middive .bar {
+#layout-main div.forum .g_bubble.infobox .row > div.middle .bar {
 	min-width: 2%;
 	padding: 2px 4px;
 	border-bottom: 1px solid;
