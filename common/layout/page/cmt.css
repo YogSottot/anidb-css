@@ -348,6 +348,7 @@
 
 #layout-main div.forum div.add-box div.value {
 	margin-left: 20em;
+	text-align: left;
 }
 
 #layout-main div.forum div.add-box div.name input,
