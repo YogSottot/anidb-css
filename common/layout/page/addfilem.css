@@ -1,0 +1,12 @@
+#layout-main div.addfilem_all select.groups {
+	display: block;
+	margin-bottom: 0.3em;
+}
+
+#layout-main div.addfilem_all label {
+	display: block;
+}
+
+#layout-main div.addfilem_all select + label {
+	margin-top: 0.3em;
+}

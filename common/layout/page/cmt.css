@@ -162,8 +162,7 @@
 	width: 11px;
 }
 
-#layout-main div.forum ul.topiclist li.row dl.icon dt.icon span.title {
-	display: block;
+#layout-main div.forum ul.topiclist li.row dl.icon dt.icon div.title {
 	padding-left: 3em;
 }
 

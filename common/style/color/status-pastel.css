@@ -107,6 +107,7 @@
 	border-bottom: 2px solid #c6c3ff;
 }
 
+.ajax-file-upload-bar,
 #layout-main div.anime_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done {
 	background-color:#6361ff;
@@ -122,6 +123,7 @@
 .v_neg,
 .v_high,
 span.diff,
+.ajax-file-upload-error,
 #layout-main td.reviewed.no a,
 #layout-main div.creq_all .state.return,
 #layout-main div.creq_all .state.new,

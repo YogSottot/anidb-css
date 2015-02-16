@@ -679,7 +679,7 @@ th.descending
 #menu-user li.user,
 .file_all dd.group span.time,
 .g_timedentry .avatar,
-.grouplist span.completion img,
+.grouplist div.completion img,
 .i_audio,
 .i_video,
 .main_all .rightbar h3,
@@ -696,7 +696,7 @@ ul.contribution li,
 	display:block;
 }
 
-.grouplist span.completion:after,
+.grouplist div.completion:after,
 #layout-menu a[title^=""]:after
 {
 	content:attr(title);

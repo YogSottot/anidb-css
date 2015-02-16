@@ -111,6 +111,7 @@
 	border-bottom: 2px solid #c6c3ff;
 }
 
+.ajax-file-upload-bar,
 #layout-main div.anime_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done {
 	background-color:#6361ff;

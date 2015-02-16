@@ -150,6 +150,10 @@ table + select {
 	margin-top:1em;
 }
 
-*.shuttle {
+.shuttle {
 	min-width:15em;
+}
+
+.g_info ul {
+	text-align: center;
 }

@@ -187,7 +187,6 @@ a.tooltip > span.text.g_bubble,
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
 #layout-main div.forum ul.topics li.g_odd.row,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover {
 	background-color: #B9BBBF;
@@ -202,8 +201,6 @@ div.g_odd,
 #layout-main div.format-buttons input,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd,
 #layout-main div.addtagentityrel_all #tag-list div.g_odd {
@@ -313,6 +310,7 @@ select,
 #layout-main div.g_menu.filter_menu div.settings select,
 #layout-main div.forum div.g_bubble.navbar div.bottom,
 #layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.forum div.cmt_entries.history h4,
 #layout-main div.votes_all div.graph.eps div.g_odd {
 	border-color: #34394D;
 }
@@ -603,4 +601,17 @@ li + li.g_odd,
 #layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
     background-color: #9A9A9A;
+}
+
+.ajax-file-upload:hover {
+	opacity: 0.6;
+}
+
+#layout-main div.anime_all div.data table.relationlist tr,
+#layout-main div.profile_all div.tabbed_pane div.general table tr,
+#layout-main div.profile_all div.tabbed_pane div.body div.pane ul li,
+#layout-main div.report_all div.tabbed_pane div.body div.pane ul li,
+#layout-main div.tabbed_pane div.body div.pane ul.contribute li,
+#layout-main div.anime_all div.data table.relationlist tr {
+	background-color: inherit;
 }

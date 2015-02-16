@@ -57,7 +57,7 @@
 				margin:0 !important; padding:0 !important;
 				display:inline !important;
 			}
-			#layout-menu li.sub-menu #menu-account li span a#newnotifies:before { content:"Notifies: "; }
+			#layout-menu li.sub-menu #menu-account li span a.newnotifies:before { content:"Notifies: "; }
 			#layout-menu li.sub-menu #menu-account li span a.history:before { content:"("; }
 			#layout-menu li.sub-menu #menu-account li span a.history:after { content:"istory"; }
 			#layout-menu li.sub-menu #menu-account li span a.nextnotify:after { content:"ext)"; }

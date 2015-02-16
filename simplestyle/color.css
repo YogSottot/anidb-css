@@ -60,9 +60,9 @@ input[type="button"]
 	color:#ffffff;
 }
 
-#layout-menu #newmessages:before,
-#layout-menu #newnotifies:before,
-#layout-menu #newmessages:after,
+#layout-menu .newmessages:before,
+#layout-menu .newnotifies:before,
+#layout-menu .newmessages:after,
 #layout-menu a.history:after
 {
 	color:red;
@@ -272,7 +272,6 @@ select,
 	color: #FFFFFF;
 }
 
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.forum ul.topics li.g_odd.row
 {
 	color: #000000;
@@ -285,7 +284,6 @@ select,
 	background-color: #98CB1B;
 }
 
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row a.topictitle,
 #layout-main div.forum ul.topics li.g_odd.row a.topictitle
 {
 	color: #47C2FF;
