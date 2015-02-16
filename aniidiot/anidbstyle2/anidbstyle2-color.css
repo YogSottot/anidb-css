@@ -90,7 +90,6 @@ input[type="submit"]:hover,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.forum li.header div,
-#layout-main div.forum li.header div,
 #layout-main div.search_all div.suggestions span:hover {
 	color: #DDDDDD;
 }
@@ -335,7 +334,7 @@ select,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-menu li.sub-menu ul li#user-xpass input,
 #layout-menu li.sub-menu ul li#user-xname input,
-#layout-main div.forum ul.topiclist div,
+#layout-main div.forum ul.topiclist div.row div,
 #layout-main div.forum li.row + li.row,
 #layout-main div.msg_all div.forum ul.topics div.check,
 #layout-main div.tag-column .tag-block + .tag-block {

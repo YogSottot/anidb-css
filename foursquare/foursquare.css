@@ -1078,7 +1078,7 @@ background-color: white }
 
 #layout-main div.msg_all div.forum ul.topics div.check { border-right: 1px solid #EEE }
 
-#layout-main div.forum ul.topiclist div { border-left: 1px solid #EEE }
+#layout-main div.forum ul.topiclist div.row div { border-left-color: #EEE }
 
 #layout-main div.forum li.row + li.row { border-top: 1px solid #EEE }
 
