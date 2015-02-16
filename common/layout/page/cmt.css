@@ -1,4 +1,4 @@
-#layout-main div.forum div.icon div {
+#layout-main div.forum div.segment.icon {
 	background-position: 5px 50%;
 	background-repeat: no-repeat;
 }
@@ -84,9 +84,9 @@
 	margin-top: 1.5em;
 }
 
-#layout-main div.forum ul.topiclist div {
+#layout-main div.forum ul.topiclist div.lastpost,
+#layout-main div.forum ul.topiclist div.posts {
 	border-left: 1px solid;
-	display: block;
 	float: left;
 	margin-left: 0;
 	padding-left: .5em;
@@ -98,26 +98,24 @@
 	border-right:1px solid;
 }
 
-#layout-main div.forum li.header div.icon {
+#layout-main div.forum li.header div.row.icon {
 	min-height: 0;
 	width: 100%;
 }
 
-#layout-main div.forum ul.topiclist div {
-	display: block;
+#layout-main div.forum ul.topiclist div.row {
 	height: 1%;
 	margin: 0;
 	overflow: hidden;
 	position: relative;
 }
 
-#layout-main div.forum div.icon {
+#layout-main div.forum div.row.icon {
 	height: auto!important;
 	min-height: 35px;
 }
 
-#layout-main div.forum ul.topiclist div {
-	display: block;
+#layout-main div.forum ul.topiclist div.segment.icon {
 	float: left;
 	width: 50%;
 	padding: 0.2em 0.5em 0.4em;
@@ -147,7 +145,7 @@
 	display: block;
 }
 
-#layout-main div.forum ul.topiclist li.row div {
+#layout-main div.forum ul.topiclist li.row div.row {
 	padding: 2px 0;
 }
 
@@ -162,11 +160,11 @@
 	width: 11px;
 }
 
-#layout-main div.forum ul.topiclist li.row div.icon div.icon div.title {
+#layout-main div.forum ul.topiclist li.row div.row div.icon div.title {
 	padding-left: 3em;
 }
 
-#layout-main div.forum ul.topiclist li.row div.icon {
+#layout-main div.forum ul.topiclist li.row div.row.icon {
 	padding-left: .3em;
 }
 
