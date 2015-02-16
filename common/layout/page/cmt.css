@@ -84,6 +84,7 @@
 	margin-top: 1.5em;
 }
 
+#layout-main div.forum ul.topiclist div.views,
 #layout-main div.forum ul.topiclist div.actions,
 #layout-main div.forum ul.topiclist div.lastpost,
 #layout-main div.forum ul.topiclist div.posts {
@@ -140,6 +141,10 @@
 #layout-main div.forum ul.topics div.views,
 #layout-main div.forum ul.topics div.topics {
 	line-height: 2.5em;
+}
+
+#layout-main div.forum ul.topics div.row {
+	min-height: 2.5em;
 }
 
 #layout-main div.forum div.profile a.username-colored {
@@ -516,7 +521,7 @@
 #layout-main div.forum div.options-box div + div,
 #layout-main div.forum div.options-box div.polls,
 #layout-main div.forum div.add-box div + div,
-#layout-main div.forum ul.topics div.actions a +a,
+#layout-main div.forum ul.topics div.actions a + a,
 #layout-main div.forumsearch_form div + div {
 	margin-top: .5em;
 }
@@ -583,10 +588,6 @@ div.g_bubble.quotebody {
 	float: right;
 	margin-right: 0.5em;
 	margin-top: 0.5em;
-}
-
-#layout-main div.forum ul.topics div {
-	min-height: 2.5em;
 }
 
 #layout-main div.tabbed_pane div.body div.pane div.forum ul.topics {
