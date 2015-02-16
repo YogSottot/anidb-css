@@ -39,7 +39,7 @@
 }
 
 #layout-main div.forum div.deleted,
-#layout-main div.forum li.deleted dl.icon {
+#layout-main div.forum li.deleted div.row.icon {
 	opacity: 0.3;
 }
 

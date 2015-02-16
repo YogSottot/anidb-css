@@ -181,13 +181,11 @@ div.pagination span a {
 }
 
 #statusBox,
-#layout-main div.forum li.header div,
-#layout-main div.forum li.header div {
+#layout-main div.forum li.header div.segment {
 	font-family:Arial,Helvetica,sans-serif;
 }
 
-#layout-main div.forum li.header div,
-#layout-main div.forum li.header div {
+#layout-main div.forum li.header div.segment {
 	font-size:1em;
 	font-weight:bold;
 	text-transform:uppercase;
