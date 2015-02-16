@@ -106,11 +106,6 @@
 	width: 8%;
 }
 
-#layout-main div.msg_all div.forum ul.topics div.check {
-	border-left: none;
-	border-right:1px solid;
-}
-
 #layout-main div.forum li.header div.row.icon {
 	min-height: 0;
 	width: 100%;

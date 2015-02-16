@@ -33,7 +33,10 @@
 }
 
 #layout-main div.msg_all div.forum ul.topics div.check {
+	border-left: none;
+	border-right:1px solid;
 	padding-left:0;
+	padding-top: 1em;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions {
@@ -53,7 +56,6 @@
 	margin-top: 0;
 }
 
-#layout-main div.msg_all div.forum ul.topics div.check,
 #layout-main div.msg_all div.forum ul.topics div.actions,
 #layout-main div.msg_all div.forum ul.topics div.to,
 #layout-main div.msg_all div.forum ul.topics div.type,
