@@ -296,6 +296,8 @@ h4.collapsed span {
 	font-size:1em;
 }
 
+#layout-main div.msg_all div.header div,
+#layout-main div.forum div.posting-box div.field,
 #layout-main div.forum div.navbar span.breadcrumbs,
 #layout-main div.forum div.navbar span.info,
 #layout-main div.forum div.navbar span.messages,
@@ -305,7 +307,6 @@ h4.collapsed span {
 #layout-main div.forum div.lastpost,
 #layout-main div.forum div.options-box div,
 #layout-main div.forum .g_bubble.infobox div.left,
-#layout-main div.msg_all div.header div,
 #layout-main div.forum div.rules,
 #layout-main div.forum div.navbar span.notify,
 #layout-main div.forum div.quickreply textarea,
@@ -342,7 +343,8 @@ div.g_bubble.quotebody div.quoteof,
 #layout-main div.forum ul.topics div.lastpost span a,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum div.icon div.icon,
-#layout-main div.forum div.options-box div,
+#layout-main div.forum div.options-box div.field,
+#layout-main div.forum div.posting-box div.field
 #layout-main div.forum .g_bubble.infobox div.left,
 #layout-main div.forum .g_bubble.infobox div.bar,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
@@ -357,7 +359,7 @@ div.relations .g_bubble.stripe div.type,
 .g_bubble.box > div.data div.date,
 #layout-main div.main_all div.header div.account ul.tabs li,
 #layout-main div.search_all div.search_results strong,
-#layout-main div.tag-column  .parent {
+#layout-main div.tag-column .parent {
 	font-weight:bold;
 }
 

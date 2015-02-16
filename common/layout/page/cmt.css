@@ -227,11 +227,9 @@
 	padding-top: 3em;
 }
 
-#layout-main div.forum div.posting-box div.subject div.field {
+#layout-main div.forum div.posting-box div.field {
 	clear: none;
 	float: left;
-	font-size: 1.1em;
-	font-weight: 700;
 	padding-top: 3px;
 }
 
@@ -516,12 +514,19 @@
 	float: left;
 }
 
-#layout-main div.forum div.posting-box > div + div,
-#layout-main div.forum div.options-box > div + div,
-#layout-main div.forum div.options-box div.polls,
+#layout-main div.forum div.posting-box div.value,
+#layout-main div.forum div.options-box div.value,
+#layout-main div.forum div.add-box div div.value {
+	margin-left: 10em;
+	text-align: left;
+}
+
+#layout-main div.forumsearch_form > div + div,
 #layout-main div.forum div.add-box > div + div,
-#layout-main div.forum ul.topics div.actions a + a,
-#layout-main div.forumsearch_form > div + div {
+#layout-main div.forum div.posting-box > div + div,
+#layout-main div.forum div.options-box > div > div + div,
+#layout-main div.forum div.options-box div.polls,
+#layout-main div.forum ul.topics div.actions a + a {
 	margin-top: .5em;
 }
 
