@@ -52,3 +52,11 @@
 #layout-main div.msg_all div.forum div.topic_actions div.buttons ul li {
 	margin-top: 0;
 }
+
+#layout-main div.msg_all div.forum ul.topiclist div.check,
+#layout-main div.msg_all div.forum ul.topiclist div.actions,
+#layout-main div.msg_all div.forum ul.topiclist div.to,
+#layout-main div.msg_all div.forum ul.topiclist div.type,
+#layout-main div.msg_all div.forum ul.topiclist div.read {
+	line-height: 2.5em;
+}
