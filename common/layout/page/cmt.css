@@ -139,9 +139,8 @@
 	clear:none;
 }
 
-#layout-main div.forum li.header div.segment.icon,
 #layout-main div.forum li.header div.segment {
-	border-left: none;
+	border-left: none !important;
 	padding:7px 5px 5px;
 }
 
