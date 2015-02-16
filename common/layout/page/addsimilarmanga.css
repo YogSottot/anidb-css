@@ -20,13 +20,13 @@
 	width: 15em;
 }
 
-#layout-main div.addsimilarmanga_all div.addsimilarmanga_entries dl.profile
+#layout-main div.addsimilarmanga_all div.addsimilarmanga_entries div.profile
 {
 	display: block;
 	margin: 0 1em 0.5em;
 }
 
-#layout-main div.addsimilarmanga_all div.addsimilarmanga_entries dl.profile dd
+#layout-main div.addsimilarmanga_all div.addsimilarmanga_entries div.profile div
 {
 	clear: none;
 	float: none;
@@ -81,7 +81,7 @@
 
 #layout-main div.addsimilarmanga_all div.addsimilarmanga_entries div.postbody span.actions,
 #layout-main div.addsimilarmanga_all div.addsimilarmanga_entries div.postbody span.actions a,
-#layout-main div.addsimilarmanga_all div.addsimilarmanga_entries dl.profile dd div.vote.icons
+#layout-main div.addsimilarmanga_all div.addsimilarmanga_entries div.profile div div.vote.icons
 {
 	float: right;
 }

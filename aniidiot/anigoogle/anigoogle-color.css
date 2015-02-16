@@ -221,7 +221,7 @@ button,
 }
 
 #layout-main div.main_all div.header div.latestnews div.posted,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div {
 	color:#666666;
 }
 
@@ -231,7 +231,7 @@ button,
 	color:#555555;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong {
 	color:#000000;
 }
 

@@ -18,12 +18,12 @@
 	width: 15em;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile {
 	display: block;
 	margin: 0 1em 0.5em;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div {
 	clear: none;
 	float: none;
 	margin-left: 0;

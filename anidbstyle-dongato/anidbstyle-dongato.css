@@ -466,7 +466,7 @@ div.cmt_all div.topic_actions
 }
 
 /* fix for comments placement */
-div.g_timedentry.comment dd.user_icons
+div.g_timedentry.comment div.user_icons
 {
 	margin-top: 6px;
 }

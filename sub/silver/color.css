@@ -175,12 +175,12 @@ div.pagination span strong
 	color: #AA0000;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div
 {
 	color:#666666;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong
 {
 	color:#000000;
 }

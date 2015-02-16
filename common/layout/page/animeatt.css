@@ -49,7 +49,7 @@
 	clear: none;
 }
 
-#layout-main div.animeatt_all div.forum div.options-box dl dd {
+#layout-main div.animeatt_all div.forum div.options-box dl div {
 	margin-left:20em;
 }
 #layout-main div.animeatt_all div.animeatt_info h4,

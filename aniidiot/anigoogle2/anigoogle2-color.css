@@ -324,18 +324,18 @@ button.confirmButton,
 #layout-main div.edit_actions a,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
-#layout-main div.cmt_entries dl.profile,
+#layout-main div.cmt_entries div.profile,
 #layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 #layout-main div.forum div.postbody div.code div.title,
 #layout-main div.forum .g_bubble.infobox div.data,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.forum div.g_bubble.navbar div.bottom,
-#layout-main div.forum ul.topiclist dd,
+#layout-main div.forum ul.topiclist div,
 #layout-main div.forum li.row + li.row,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
 #layout-main div.forum div.cmt_entries.history h4,
-#layout-main div.msg_all div.forum ul.topics dd.check {
+#layout-main div.msg_all div.forum ul.topics div.check {
 	border-color: #CCCCCC;
 }
 
@@ -355,7 +355,7 @@ input[type="password"]:focus {
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 #layout-main div.main_all div.header div.latestnews div.posted,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div {
 	color:#666666;
 }
 
@@ -370,7 +370,7 @@ button.confirmButton,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main tr.header th.sortable:hover,
 #layout-main tr.header th.sortable:hover a,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong {
 	color:#000000;
 }
 

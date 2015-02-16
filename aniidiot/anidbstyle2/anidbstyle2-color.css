@@ -89,8 +89,8 @@ input[type="submit"]:hover,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd,
+#layout-main div.forum li.header div,
+#layout-main div.forum li.header div,
 #layout-main div.search_all div.suggestions span:hover {
 	color: #DDDDDD;
 }
@@ -320,7 +320,7 @@ select,
 #layout-main div.anime_all div.info div.image img,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
-#layout-main div.cmt_entries dl.profile,
+#layout-main div.cmt_entries div.profile,
 #layout-main div.forum div.quickreply textarea,
 #layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
@@ -335,9 +335,9 @@ select,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-menu li.sub-menu ul li#user-xpass input,
 #layout-menu li.sub-menu ul li#user-xname input,
-#layout-main div.forum ul.topiclist dd,
+#layout-main div.forum ul.topiclist div,
 #layout-main div.forum li.row + li.row,
-#layout-main div.msg_all div.forum ul.topics dd.check,
+#layout-main div.msg_all div.forum ul.topics div.check,
 #layout-main div.tag-column .tag-block + .tag-block {
 	border-color: #9A9A9A;
 }
@@ -379,13 +379,13 @@ select,
 	border-bottom-color: #7EF27E;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong,
 #layout-tabs ul.main-tabs li.selected a,
 #layout-tabs ul.main-tabs li:hover a {
 	color: #000000;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div {
 	color: #666666;
 }
 

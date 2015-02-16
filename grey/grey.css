@@ -1824,11 +1824,11 @@ padding-left: 1em;
 {
 text-align: left;
 }
-#layout-content div.profile_all div.css_style div.info dl dt
+#layout-content div.profile_all div.css_style div.info div div
 {
 font-weight: bold;
 }
-#layout-content div.profile_all div.css_style div.info dl dd
+#layout-content div.profile_all div.css_style div.info div div
 {
 margin-left: 7em;
 width: 20em;
@@ -2068,15 +2068,15 @@ border: #898989 1px dashed;
 margin-bottom: 0;
 padding-bottom: 0;
 }
-#layout-main dl.profile dd
+#layout-main div.profile div
 {
 color: #5aacd3;
 }
-#layout-main dl.profile dd strong
+#layout-main div.profile div strong
 {
 color: #FFFFFF;
 }
-#layout-main div.cmt_entries dl.profile
+#layout-main div.cmt_entries div.profile
 {
 width: 16em;
 border-right: #898989 1px dashed;
@@ -2180,17 +2180,17 @@ background-image: url(images/bg_2.gif);
 {
 background-image: url(images/redpixel.png);
 }
-#layout-main div.forum dl.icon
+#layout-main div.forum div.icon
 {
 background-position:10px 50%;
 background-repeat:no-repeat;
 }
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd
+#layout-main div.forum li.header div,
+#layout-main div.forum li.header div
 {
 color:#FFFFFF;
 }
-#layout-main div.forum dl.icon dt
+#layout-main div.forum div.icon div
 {
 background-position:5px 50%;
 background-repeat:no-repeat;
@@ -2218,7 +2218,7 @@ background-image: url(images/bg_2.gif)
 background-image: url(images/bg_3.gif)
 }
 #layout-main div.forum div.deleted,
-#layout-main div.forum li.deleted dl.icon
+#layout-main div.forum li.deleted div.icon
 {
 opacity:0.3;
 }
@@ -2323,10 +2323,10 @@ span.diff,
 div.g_bubble.quotebody div.quoteof,
 #layout-main div.forum a.username-colored,
 #layout-main div.forum div.navbar span.breadcrumbs,
-#layout-main div.forum ul.topics dd.lastpost span a,
+#layout-main div.forum ul.topics div.lastpost span a,
 #layout-main div.cmt_entries a.username-colored,
-#layout-main div.forum dl.icon dt,
-#layout-main div.forum div.options-box dt,
+#layout-main div.forum div.icon div,
+#layout-main div.forum div.options-box div,
 #layout-main div.forum .g_bubble.infobox div,
 #layout-main div.forum .g_bubble.infobox div.bar
 {

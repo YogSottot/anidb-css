@@ -145,8 +145,8 @@ th,
 	background-color:#E9E6D9;
 }
 
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd
+#layout-main div.forum li.header div,
+#layout-main div.forum li.header div
 {
 	color:#E9E6D9;
 }

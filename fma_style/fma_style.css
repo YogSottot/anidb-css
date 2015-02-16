@@ -232,7 +232,7 @@ div.main_all div.news h4 {
 	margin-bottom:1em;
 }
 
-#layout-main div.cmt_entries dl.profile
+#layout-main div.cmt_entries div.profile
 {
 	border-right: 1px solid #D1D7DC;
 	display:inline;
@@ -242,7 +242,7 @@ div.main_all div.news h4 {
 	width:15em;
 }
 
-#layout-main div.cmt_entries dl.profile dd
+#layout-main div.cmt_entries div.profile div
 {
 	clear:none;
 	float:none;
@@ -250,17 +250,17 @@ div.main_all div.news h4 {
 	color:#666666;
 }
 
-#layout-main div.cmt_entries dl.profile dd.user
+#layout-main div.cmt_entries div.profile div.user
 {
 	padding-top:4px;
 }
 
-#layout-main div.cmt_entries dl.profile dd strong
+#layout-main div.cmt_entries div.profile div strong
 {
 	color:#000000;
 }
 
-#layout-main div.cmt_entries dl.profile dd.user_icons span.icons
+#layout-main div.cmt_entries div.profile div.user_icons span.icons
 {
 	float: none;
 }
@@ -446,12 +446,12 @@ div.pagination span strong,
 	color: #AA0000;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div
 {
 	color:#666666;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong
 {
 	color:#000000;
 }

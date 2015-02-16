@@ -789,7 +789,7 @@ background-color: #f9f9f9 }
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody {
 background-color: white }
 
-	#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong { color: #7e8072 }
+	#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong { color: #7e8072 }
 
 	
 /* Border */
@@ -1069,16 +1069,16 @@ padding-bottom: 2px;
 border: none;
 margin-bottom: 0.5em }
 
-#layout-main div.forum li.header dt, 
-#layout-main div.forum li.header dd {
+#layout-main div.forum li.header div, 
+#layout-main div.forum li.header div {
 color: #7e8072 }
 
 #layout-main div.forum ul.topics li.g_odd.row {
 background-color: white }
 
-#layout-main div.msg_all div.forum ul.topics dd.check { border-right: 1px solid #EEE }
+#layout-main div.msg_all div.forum ul.topics div.check { border-right: 1px solid #EEE }
 
-#layout-main div.forum ul.topiclist dd { border-left: 1px solid #EEE }
+#layout-main div.forum ul.topiclist div { border-left: 1px solid #EEE }
 
 #layout-main div.forum li.row + li.row { border-top: 1px solid #EEE }
 
@@ -1088,7 +1088,7 @@ background-color: white }
 
 #layout-main div.forum div.signature, 
 #layout-main div.forum .g_bubble.infobox .row + .row, 
-#layout-main div.cmt_entries dl.profile, 
+#layout-main div.cmt_entries div.profile, 
 #layout-main div.forum div.quickreply textarea, 
 #layout-main div.forum .g_bubble.infobox h2, 
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle {

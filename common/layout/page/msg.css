@@ -1,4 +1,4 @@
-#layout-main div.msg_all div.header dt {
+#layout-main div.msg_all div.header div {
 	clear:none;
 	float:left;
 }
@@ -8,7 +8,7 @@
 	padding:0.5em 1em;
 }
 
-#layout-main div.msg_all div.header dl {
+#layout-main div.msg_all div.header div {
 	display:block;
 	height:1%;
 	margin:0;
@@ -20,29 +20,29 @@
 	margin-bottom:1em;
 }
 
-#layout-main div.msg_all div.forum ul.topiclist dd.to,
-#layout-main div.msg_all div.forum ul.topiclist dd.type,
-#layout-main div.msg_all div.forum ul.topiclist dd.read,
-#layout-main div.msg_all div.forum ul.topiclist dd.action {
+#layout-main div.msg_all div.forum ul.topiclist div.to,
+#layout-main div.msg_all div.forum ul.topiclist div.type,
+#layout-main div.msg_all div.forum ul.topiclist div.read,
+#layout-main div.msg_all div.forum ul.topiclist div.action {
 	text-align:center;
 	width:10%;
 }
 
-#layout-main div.msg_all div.forum ul.topiclist dd.check {
+#layout-main div.msg_all div.forum ul.topiclist div.check {
 	text-align:center;
 	width:2.5em;
 }
 
-#layout-main div.msg_all div.forum ul.topics dd.check {
+#layout-main div.msg_all div.forum ul.topics div.check {
 	padding-left:0;
 }
 
-#layout-main div.msg_all div.forum ul.topics dd {
+#layout-main div.msg_all div.forum ul.topics div {
 	padding-top:1em;
 	height:2em;
 }
 
-#layout-main div.msg_all div.forum ul.topics dt {
+#layout-main div.msg_all div.forum ul.topics div {
 	padding:0 0.5em 0.3em;
 }
 

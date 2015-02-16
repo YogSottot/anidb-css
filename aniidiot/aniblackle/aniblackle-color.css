@@ -116,7 +116,7 @@ a.tooltip > span.text.g_bubble,
 }
 
 
-#layout-main div.cmt_entries dl.profile dd strong {
+#layout-main div.cmt_entries div.profile div strong {
 	color: #666666;
 }
 
@@ -151,7 +151,7 @@ div.g_bubble.quotebody,
 #layout-main table thead tr,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 .g_bubble .name-colored,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd strong,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong,
 #layout-main div.main_all div.header div.latestnews div.posted {
 	color: #CCCCCC;
 }
@@ -189,7 +189,7 @@ input[type="submit"]:hover,
 }
 
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
-#layout-main div.cmt_entries dl.profile {
+#layout-main div.cmt_entries div.profile {
 	border-right-color: #666666;
 }
 
@@ -209,8 +209,8 @@ input[type="submit"]:hover,
 
 #layout-main a.filter,
 #layout-main div.forum .g_bubble.infobox div,
-#layout-main div.cmt_entries dl.profile dd,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries dl.profile dd {
+#layout-main div.cmt_entries div.profile div,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div {
 	color: #888888;
 }
 
@@ -352,7 +352,7 @@ table,
 	border-top-color: #666666;
 }
 
-#layout-main div.forum ul.topics dd {
+#layout-main div.forum ul.topics div {
 	border-left-color:#444444;
 }
 

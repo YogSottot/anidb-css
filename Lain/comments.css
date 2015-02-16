@@ -5,7 +5,7 @@ dd.user{
 }
 dd.user img{height: 100px; width: 100px;}
 dd.user>a.username-colored{margin-bottom: 2px;}
-dl.profile{
+div.profile{
 	width: 220px !important;
 	margin: 0 !important;
 }
