@@ -324,6 +324,11 @@
 	width: 85%;
 }
 
+#layout-main div.forum div.posting-box div.value {
+	margin-left: 10em;
+	text-align: left;
+}
+
 #layout-main div.forum div.options-box div.value {
 	margin-left: 15em;
 }
@@ -375,7 +380,7 @@
 
 #layout-main div.forum div.quickreply textarea {
 	border: 1px solid;
-	height: 10em;
+	height: 11em;
 	line-height: 1.2em;
 	padding: 2px;
 	width: 40%;
@@ -512,13 +517,6 @@
 #layout-main div.forum div.add-box div div.field {
 	clear: none;
 	float: left;
-}
-
-#layout-main div.forum div.posting-box div.value,
-#layout-main div.forum div.options-box div.value,
-#layout-main div.forum div.add-box div div.value {
-	margin-left: 10em;
-	text-align: left;
 }
 
 #layout-main div.forumsearch_form > div + div,
