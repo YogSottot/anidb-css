@@ -88,3 +88,7 @@
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
 	border-right: 1px solid;
 }
+
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile a.name-colored {
+    display: block;
+}
