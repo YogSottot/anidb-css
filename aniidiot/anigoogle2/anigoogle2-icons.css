@@ -117,6 +117,10 @@ button,
 	margin: 0;
 }
 
+.g_button.upload a {
+	line-height: 18px;
+}
+
 button,
 .g_button.upload a,
 #layout-search .submit,
