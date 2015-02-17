@@ -276,6 +276,7 @@ select,
 #layout-main div.search_all div.suggestions,
 #layout-main div.avatar img,
 #layout-main div.anime_all div.info div.image img,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea,
 #layout-main div.forum div.quickreply textarea {
 	border-color: #E8E8E8;
 }
