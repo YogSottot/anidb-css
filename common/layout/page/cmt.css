@@ -624,7 +624,11 @@ div.g_bubble.quotebody {
 	margin-bottom: 1.4em;
 }
 
-#layout-main div.forum a.topictitle {
+#layout-main div.forum .segment div.title {
+    min-height: 2.7em;
+}
+
+#layout-main div.forum .segment div.title a.topictitle {
 	display: block;
 }
 
