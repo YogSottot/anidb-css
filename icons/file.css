@@ -184,3 +184,15 @@
 .i_avmf_delete {
 	background-image: url(../icons/icon/anidb_avmf_delete.gif);
 }
+
+*.video.video_10bit {
+	width: 28px;
+	background-image: url(../icons/icon/anidb_video_10bit.gif);
+}
+*.video.video_3d {
+	background-image: url(../icons/icon/anidb_video_3d.gif);
+}
+*.video.creditless {
+	background-image: url(../icons/icon/anidb_video_creditless.gif);
+}
+
