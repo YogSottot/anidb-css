@@ -624,6 +624,10 @@ div.g_bubble.quotebody {
 	margin-bottom: 1.4em;
 }
 
+#layout-main div.forum a.topictitle {
+	display: block;
+}
+
 /*polls*/
 #layout-main div.forum .g_bubble.infobox {
 	margin-bottom: 1em;
