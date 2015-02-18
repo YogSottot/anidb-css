@@ -249,7 +249,9 @@
 #layout-main div.forum div.posting-box div.message-box textarea {
 	height: 20em;
 	margin-left: 0;
-	width: 99%;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
 }
 
 #layout-main div.forum div.posting-box div.message-box {
