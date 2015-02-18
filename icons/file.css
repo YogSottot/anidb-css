@@ -104,27 +104,38 @@
 }
 
 *.i_ext {
-	background-image: url(../icons/icon/anidb_other.gif);
+    width: 38px;
+    background-image: none !important;
 }
 
-*.i_ext.mkv {
-	background-image: url(../icons/icon/anidb_ext_mkv.gif);
+*.i_ext span {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 1px;
+    font-size: 9px;
+    width: 36px;
+    text-align: center;
 }
 
-*.i_ext.ogm {
-	background-image: url(../icons/icon/anidb_ext_ogm.gif);
+*.i_ext.video span {
+    background-color: #0B0B61;
 }
-
-*.i_ext.avi {
-	background-image: url(../icons/icon/anidb_ext_avi.gif);
+*.i_ext.audio span {
+    background-color: #610B0B;
 }
-
-*.i_ext.mp4 {
-	background-image: url(../icons/icon/anidb_ext_mp4.gif);
+*.i_ext.subtitle span {
+    background-color: #0B3B0B;
 }
-
-*.i_ext.wmv {
-	background-image: url(../icons/icon/anidb_ext_wmv.gif);
+*.i_ext.archive span {
+    background-color: #380B61;
+}
+*.i_ext.linker span {
+    background-color: #5F4C0B;
+}
+*.i_ext.other span {
+    background-color: #424242;
 }
 
 *.i_ext.srt {
