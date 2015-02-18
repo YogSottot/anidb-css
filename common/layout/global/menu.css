@@ -109,7 +109,7 @@
 	margin: 0;
 }
 
-#layout-main div.filter_menu.expanded + .g_bubble.note {
+#layout-main div.filter_menu.expanded + .g_bubble.g_msg {
 	margin-right: 18em;
 	clear: none;
 }
