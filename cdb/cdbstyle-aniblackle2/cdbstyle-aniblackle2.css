@@ -17,21 +17,26 @@ th a, h1 a, h1 a.shortlink {
   color: #C0DAF0;
 }
 
+/* make <a> blue */
+
 #layout-main table.filelist tr.good,
-#layout-main table.filelist tr.good a,
 #layout-main table.filelist tr.deprecated,
-#layout-main table.filelist tr.deprecated a,
 #layout-main .mylist tr.mylist:not(.dropped),
-#layout-main .mylist tr.mylist:not(.dropped) a,
 #layout-main div.mylist.g_bubble:not(.dropped) :not(.name):not(.name-colored),
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped),
-#layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped) a,
 #layout-main table.animelist tr.mylist:not(.dropped),
+#layout-main table.wishlist tr.mylist:not(.dropped) {
+  color: #000000 !important;
+}
+
+#layout-main table.filelist tr.good a,
+#layout-main table.filelist tr.deprecated a,
+#layout-main .mylist tr.mylist:not(.dropped) a,
+#layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped) a,
 #layout-main table.animelist tr.mylist:not(.dropped) a,
-#layout-main table.wishlist tr.mylist:not(.dropped),
 #layout-main table.wishlist tr.mylist:not(.dropped) a,
 #layout-main div.timeline_all div.timeline ul.row li:not(.dropped) a {
-  color: #000000 !important;
+  color: #105289 !important;
 }
 
 #layout-main div.mylist.g_bubble:not(.dropped) :not(.name) a:not(.name-colored) {
