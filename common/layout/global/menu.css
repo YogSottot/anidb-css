@@ -97,7 +97,7 @@
 }
 
 /** Thingie to hide/show g_menu's */
-.filter_menu h3 a {
+#layout-main div.filter_menu h3 a {
 	cursor: pointer;
 	float: right;
 }
@@ -107,4 +107,13 @@
 #layout-main div.filter_menu + div > form > table,
 #layout-main div.filter_menu + table {
 	margin: 0;
+}
+
+#layout-main div.filter_menu.expanded + .g_msg {
+	margin-right: 18em;
+	clear: none;
+}
+#layout-main div.filter_menu.collapsed + .g_msg {
+	margin-right: 3em;
+	clear: none;
 }

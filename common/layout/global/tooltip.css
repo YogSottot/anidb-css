@@ -27,27 +27,30 @@
 }
 
 /*Bubble Tooltip*/
-a.tooltip span.text {
-	z-index:1000;
-	display:none;
-	padding: 14px 20px;
-	margin-top:50px;
-	margin-left:-160px;
-	width:240px;
-	line-height:16px;
+.tooltip {
 	position: relative;
+}
+
+.tooltip span.text {
+	display:none;
+	left: -100px;
+	line-height: 16px;
+	margin-top: 50px;
+	padding: 14px 20px;
+	position: absolute;
 	text-align: justify;
 	white-space: normal;
+	width: 240px;
 	word-wrap: normal;
+	z-index: 1000;
 }
 
-a.tooltip:hover span.text {
+.tooltip:hover span.text {
 	display:inline;
-	position:absolute;
 }
 
-a.tooltip span.text:after,
-a.tooltip span.text:before {
+.tooltip span.text:after,
+.tooltip span.text:before {
 	bottom: 100%;
 	height: 0;
 	width: 0;
@@ -57,9 +60,9 @@ a.tooltip span.text:before {
 	pointer-events: none;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	margin-left: -10px;
 }
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	margin-left: -13px;
 }
