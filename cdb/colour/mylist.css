@@ -183,7 +183,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 .g_odd.g_bubble.box.mylist.dropped > div.top,
 #layout-main > :not(.timeline_all) .g_odd .mylist.dropped
 {
-  background-color: #222222 !important;
+  background-color: #333333 !important;
   color: #FFFFFF !important;
 }
 #layout-main .mylist.g_odd.dropped div.tooltip {
