@@ -437,40 +437,40 @@ a.tooltip span.text:before {
 
 /*tag cloud*/
 #layout-main div.tag-column div.tag[data-anidb-weight="0"] .name a {
-	color: rgba(0, 0, 0, 0.6);
+	color: rgba(0, 0, 0, 0.6) !important;
 }
 #layout-main div.tag-column div.tag.abstract[data-anidb-weight="0"] .name a,
 #layout-main div.tag-column span.not_added a {
-	color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3) !important;
 }
 #layout-main div.chartag-list span.size0 a,
 #layout-main div.chartag-list span.size1 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a {
-	color: rgba(16, 82, 137, 0.5);
+	color: rgba(16, 82, 137, 0.5) !important;
 }
 #layout-main div.chartag-list span.size2 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
-	color: rgba(16, 82, 137, 0.6);
+	color: rgba(16, 82, 137, 0.6) !important;
 }
 #layout-main div.chartag-list span.size3 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="300"] .name a {
-	color: rgba(16, 82, 137, 0.7);
+	color: rgba(16, 82, 137, 0.7) !important;
 }
 #layout-main div.chartag-list span.size4 a,
 #layout-main div.chartag-list span.size5 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a {
-	color: rgba(16, 82, 137, 0.8);
+	color: rgba(16, 82, 137, 0.8) !important;
 }
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size7 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a {
-	color: rgba(16, 82, 137, 1.0);
+	color: rgba(16, 82, 137, 1.0) !important;
 }
 #layout-main div.chartag-list span.size8 a,
 #layout-main div.chartag-list span.size9 a,
 #layout-main div.chartag-list span.size10 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
-	color: rgba(16, 82, 137, 1.0);
+	color: rgba(16, 82, 137, 1.0) !important;
 }
 #layout-main div.tag-column div.tag[data-anidb-weight="100"] .weight {
 	opacity: 0.3;
