@@ -444,31 +444,31 @@ a.tooltip span.text:before {
 #layout-main div.chartag-list span.size0 a,
 #layout-main div.chartag-list span.size1 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a {
-	color: rgba(255,255,255, 0.2) !important;
+	color: rgba(255,255,255, 0.4) !important;
 }
 #layout-main div.chartag-list span.size2 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
-	color: rgba(255,255,255, 0.4) !important;
+	color: rgba(255,255,255, 0.6) !important;
 }
 #layout-main div.chartag-list span.size3 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="300"] .name a {
-	color: rgba(255,255,255, 0.6) !important;
+	color: rgba(255,255,255, 0.8) !important;
 }
 #layout-main div.chartag-list span.size4 a,
 #layout-main div.chartag-list span.size5 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a {
-	color: rgba(255,255,255, 0.8) !important;
+	color: rgba(255,255,255, 1.0) !important;
 }
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size7 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a {
-	color: #B55353 !important;
+	color: rgba(181, 83, 83, 0.8) !important;
 }
 #layout-main div.chartag-list span.size8 a,
 #layout-main div.chartag-list span.size9 a,
 #layout-main div.chartag-list span.size10 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
-	color: #B55353 !important;
+	color: rgba(181, 83, 83, 1.0) !important;
 }
 #layout-main div.tag-column div.tag[data-anidb-weight="100"] .weight {
 	opacity: 0.3;
