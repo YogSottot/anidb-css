@@ -462,13 +462,13 @@ a.tooltip span.text:before {
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size7 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a {
-	color: #CCCCCC !important;
+	color: #B55353 !important;
 }
 #layout-main div.chartag-list span.size8 a,
 #layout-main div.chartag-list span.size9 a,
 #layout-main div.chartag-list span.size10 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
-	color: #CCCCCC !important;
+	color: #B55353 !important;
 }
 #layout-main div.tag-column div.tag[data-anidb-weight="100"] .weight {
 	opacity: 0.3;
