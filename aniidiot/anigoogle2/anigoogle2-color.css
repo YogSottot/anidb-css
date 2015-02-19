@@ -21,6 +21,7 @@ h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
 	color: #105289 !important;
+	outline: 0 !important;
 }
 
 h1 a:hover,
