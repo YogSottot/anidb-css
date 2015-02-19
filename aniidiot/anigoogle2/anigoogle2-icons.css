@@ -106,7 +106,7 @@ button,
 #layout-main ul.g_list li span.nolink {
 	display: inline-block;
 	font-size: 14px/1;
-	font-family: FontAwesome, Arial,Helvetica,sans-serif;
+	font-family: FontAwesome,Arial,Helvetica,sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	text-rendering: auto;
@@ -435,7 +435,7 @@ button.preview:before {
 	background-image: none !important;
 	background-color: #105289;
 	border-radius: 3px;
-	height: 16px;
+	height: 14px;
 	width: 16px;
 }
 
@@ -455,25 +455,26 @@ button.preview:before {
 .i_vrs_9 span {
 	color: #FFFFFF;
 	display: inline-block !important;
-	font-size: 8px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 9px;
 	font-weight: bold;
 	text-align: center;
 	width:100%;
 }
 
-*.i_ext.audio {
+.i_ext.audio {
     background-color: #AA0000;
 }
-*.i_ext.subtitle {
+.i_ext.subtitle {
     background-color: #356E35;
 }
-*.i_ext.archive {
+.i_ext.archive {
     background-color: #5A3A78;
 }
-*.i_ext.linker {
+.i_ext.linker {
     background-color: #BD7E19;
 }
-*.i_ext.other {
+.i_ext.other {
     background-color: #444444;
 }
 /*icon created from text*/
