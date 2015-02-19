@@ -432,7 +432,7 @@ button.preview:before {
 .i_vrs_7,
 .i_vrs_8,
 .i_vrs_9 {
-	background-image: none;
+	background-image: none !important;
 	background-color: #105289;
 	border-radius: 3px;
 	height: 16px;
@@ -440,7 +440,7 @@ button.preview:before {
 }
 
 .i_ext {
-	width: 30px;
+	width: 38px;
 }
 
 .i_ext span,
@@ -458,6 +458,22 @@ button.preview:before {
 	font-weight: bold;
 	text-align: center;
 	width:100%;
+}
+
+*.i_ext.audio {
+    background-color: #AA0000;
+}
+*.i_ext.subtitle {
+    background-color: #356E35;
+}
+*.i_ext.archive {
+    background-color: #5A3A78;
+}
+*.i_ext.linker {
+    background-color: #BD7E19;
+}
+*.i_ext.other {
+    background-color: #444444;
 }
 /*icon created from text*/
 
