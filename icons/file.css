@@ -103,41 +103,6 @@
 	background-image: url(../icons/icon/anidb_video_wmv.gif);
 }
 
-*.i_ext {
-    width: 38px;
-    background-image: none !important;
-}
-
-*.i_ext span {
-    display: inline-block;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 3px;
-    padding: 1px;
-    font-size: 9px;
-    width: 36px;
-    text-align: center;
-}
-
-*.i_ext.video span {
-    background-color: #0B0B61;
-}
-*.i_ext.audio span {
-    background-color: #610B0B;
-}
-*.i_ext.subtitle span {
-    background-color: #0B3B0B;
-}
-*.i_ext.archive span {
-    background-color: #380B61;
-}
-*.i_ext.linker span {
-    background-color: #5F4C0B;
-}
-*.i_ext.other span {
-    background-color: #424242;
-}
-
 *.i_ext.srt {
 	background-image: url(../icons/icon/anidb_ext_srt.gif);
 }
@@ -196,14 +161,17 @@
 	background-image: url(../icons/icon/anidb_avmf_delete.gif);
 }
 
-*.video.video_10bit {
+.video.video_10bit {
 	width: 28px;
 	background-image: url(../icons/icon/anidb_video_10bit.gif);
 }
-*.video.video_3d {
+.video.video_3d {
 	background-image: url(../icons/icon/anidb_video_3d.gif);
 }
-*.video.creditless {
+.video.creditless {
 	background-image: url(../icons/icon/anidb_video_creditless.gif);
 }
 
+.i_ext span {
+	display: none;
+}
