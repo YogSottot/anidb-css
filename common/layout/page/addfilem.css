@@ -1,10 +1,19 @@
+#layout-main div.addfilem_all table {
+	width: 60em;
+}
+
 #layout-main div.addfilem_all select.groups {
 	display: block;
 	margin-bottom: 0.3em;
 }
 
+#layout-main div.addfilem_all div.flags {
+	margin-top: 0.5em;
+}
+
 #layout-main div.addfilem_all label {
-	display: block;
+	display: inline-block;
+	width: 15em;
 }
 
 #layout-main div.addfilem_all select + label {
