@@ -19,3 +19,7 @@
 #layout-main div.addfilem_all select + label {
 	margin-top: 0.3em;
 }
+
+#layout-main div.addfilem_all form > .options {
+	margin-bottom: 1em;
+}
