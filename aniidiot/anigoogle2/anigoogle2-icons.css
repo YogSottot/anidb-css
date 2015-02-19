@@ -440,6 +440,7 @@ button.preview:before {
 }
 
 .i_ext {
+	display: inline-block !important;
 	width: 38px;
 }
 
@@ -453,7 +454,7 @@ button.preview:before {
 .i_vrs_8 span,
 .i_vrs_9 span {
 	color: #FFFFFF;
-	display: inline-block;
+	display: inline-block !important;
 	font-size: 8px;
 	font-weight: bold;
 	text-align: center;
