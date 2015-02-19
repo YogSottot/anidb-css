@@ -433,9 +433,14 @@ button.preview:before {
 .i_vrs_8,
 .i_vrs_9 {
 	background-image: none;
-	display: inline-block;
+	background-color: #105289;
+	border-radius: 3px;
 	height: 16px;
 	width: 16px;
+}
+
+.i_ext {
+	width: 25px;
 }
 
 .i_ext span,
@@ -447,19 +452,13 @@ button.preview:before {
 .i_vrs_7 span,
 .i_vrs_8 span,
 .i_vrs_9 span {
-	background-color: #105289;
-	border-radius: 3px;
 	color: #FFFFFF;
 	display: inline-block;
 	font-size: 8px;
 	font-weight: bold;
 	padding: 2px;
 	text-align: center;
-	width: 16px;
-}
-.i_ext,
-.i_ext span {
-	width: 25px;
+	width:100%;
 }
 /*icon created from text*/
 
