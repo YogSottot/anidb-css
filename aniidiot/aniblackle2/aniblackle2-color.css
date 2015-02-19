@@ -108,6 +108,7 @@ html,
 input,
 select,
 textarea,
+.i_ext span,
 #layout-main table tr.header,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover {
@@ -643,4 +644,24 @@ a.tooltip span.text {
 
 .ajax-file-upload:hover {
 	opacity: 0.6;
+}
+
+
+.i_ext.video {
+    background-color: #152E66;
+}
+.i_ext.audio {
+    background-color: #6B1515;
+}
+.i_ext.subtitle {
+    background-color: #0E5716;
+}
+.i_ext.archive {
+    background-color: #4D1B7A;
+}
+.i_ext.linker {
+    background-color: #7A6311;
+}
+.i_ext.other {
+    background-color: #555555;
 }
