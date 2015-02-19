@@ -108,7 +108,6 @@ html,
 input,
 select,
 textarea,
-.i_ext span,
 #layout-main table tr.header,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover {
@@ -362,6 +361,7 @@ input[type="password"]:focus {
 }
 
 html,
+.i_ext span,
 #imagepreview,
 a.tooltip span.text,
 a.button,
@@ -645,7 +645,6 @@ a.tooltip span.text {
 .ajax-file-upload:hover {
 	opacity: 0.6;
 }
-
 
 .i_ext.video {
     background-color: #152E66;
