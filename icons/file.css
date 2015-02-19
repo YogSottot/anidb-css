@@ -103,10 +103,6 @@
 	background-image: url(../icons/icon/anidb_video_wmv.gif);
 }
 
-*.i_ext.srt {
-	background-image: url(../icons/icon/anidb_ext_srt.gif);
-}
-
 *.i_ftype_video {
 	background-image: url(../icons/icon/anidb_video.gif);
 }
@@ -172,6 +168,7 @@
 	background-image: url(../icons/icon/anidb_video_creditless.gif);
 }
 
+.i_ext,
 .i_ext span {
-	display: none;
+	display: none !important;
 }
