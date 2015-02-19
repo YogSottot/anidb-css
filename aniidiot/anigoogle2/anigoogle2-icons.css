@@ -440,7 +440,7 @@ button.preview:before {
 }
 
 .i_ext {
-	width: 25px;
+	width: 30px;
 }
 
 .i_ext span,
@@ -456,7 +456,6 @@ button.preview:before {
 	display: inline-block;
 	font-size: 8px;
 	font-weight: bold;
-	padding: 2px;
 	text-align: center;
 	width:100%;
 }
