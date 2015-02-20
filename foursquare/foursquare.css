@@ -1904,6 +1904,19 @@ background-position: left }
 background-image: url(images/icons/icon/anidb_videoStream.png) }
 
 
+/* Video Icons */
+
+.video.video_10bit {
+width: 15px;
+background-image: url(images/icons/icon/anidb_video_10bit.png) }
+
+.video.video_3d {
+background-image: url(images/icons/icon/anidb_video_3d.png) }
+
+.video.creditless {
+background-image: url(images/icons/icon/anidb_video_creditless.png) }
+
+
 /* Audio Flags */
 
 .i_audio_x-in {
