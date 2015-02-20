@@ -1,14 +1,10 @@
 #layout-main div.export_all div.exportblock + div.exportblock {
-	margin-top: 2em;
-}
-
-#layout-main div.export_all div.exportblock h4 {
-	padding-bottom: 0.5em;
+	margin-top: 1em;
 }
 
 #layout-main div.export_all div.exportblock div.content {
 	text-align: left;
-	padding-left: 2em;
+	padding: 1em;
 }
 
 #layout-main div.export_all div.exportblock div.content a.example {
