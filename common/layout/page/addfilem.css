@@ -30,6 +30,10 @@
 	box-sizing: border-box;
 }
 
+#layout-main div.addfilem.form div.dump p.actions {
+	margin-top: 1em;
+}
+
 /*TODO: kill after update*/
 #layout-main div.addfilem.form dl.options dt {
 	text-align: left;
