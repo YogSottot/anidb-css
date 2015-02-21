@@ -67,9 +67,9 @@ h4 a:not(.i_icon),
 h1 a,
 h1 a:link,
 h1 a:visited,
-th a,
-th a:link,
-th a:visited,
+th a:not(.i_icon),
+th a:not(.i_icon),:link,
+th a:not(.i_icon),:visited,
 #layout-main div.userpage_all .achievements h4 a.i_help {
     color: #C0DAF0 !important;
 }
