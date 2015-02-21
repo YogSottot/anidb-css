@@ -63,13 +63,13 @@ input[type="button"] {
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size9 a,
 #layout-main div.chartag-list span.size10 a,
-#layout-main div.tag-column div.tag[weight="0"] .name a,
-#layout-main div.tag-column div.tag[weight="400"] .name a,
-#layout-main div.tag-column div.tag[weight="600"] .name a {
+#layout-main div.tag-column div.tag[data-anidb-weight="0"] .name a,
+#layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a,
+#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
 	font-weight: bold;
 }
 
-#layout-main div.tag-column div.tag[weight="500"] .name a,
-#layout-main div.tag-column div.tag[weight="600"] .name a {
+#layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a,
+#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
 	font-size: 14px;
 }

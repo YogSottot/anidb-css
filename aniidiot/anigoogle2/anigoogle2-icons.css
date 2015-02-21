@@ -106,7 +106,7 @@ button,
 #layout-main ul.g_list li span.nolink {
 	display: inline-block;
 	font-size: 14px/1;
-	font-family: FontAwesome, Arial,Helvetica,sans-serif;
+	font-family: FontAwesome,Arial,Helvetica,sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	text-rendering: auto;
@@ -423,6 +423,7 @@ button.preview:before {
 /*https://fortawesome.github.io END*/
 
 /*icon created from text*/
+.i_ext,
 .i_vrs_2,
 .i_vrs_3,
 .i_vrs_4,
@@ -431,11 +432,19 @@ button.preview:before {
 .i_vrs_7,
 .i_vrs_8,
 .i_vrs_9 {
-	background-image: none;
-	height: 16px;
+	background-image: none !important;
+	background-color: #105289;
+	border-radius: 3px;
+	height: 14px;
 	width: 16px;
 }
 
+.i_ext {
+	display: inline-block !important;
+	width: 38px;
+}
+
+.i_ext span,
 .i_vrs_2 span,
 .i_vrs_3 span,
 .i_vrs_4 span,
@@ -444,14 +453,29 @@ button.preview:before {
 .i_vrs_7 span,
 .i_vrs_8 span,
 .i_vrs_9 span {
-	display: inline-block;
-	background-color: #105289;
 	color: #FFFFFF;
+	display: inline-block !important;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 9px;
 	font-weight: bold;
-	border-radius: 3px;
-	padding: 2px;
-	font-size: 8px;
 	text-align: center;
+	width:100%;
+}
+
+.i_ext.audio {
+    background-color: #AA0000;
+}
+.i_ext.subtitle {
+    background-color: #356E35;
+}
+.i_ext.archive {
+    background-color: #5A3A78;
+}
+.i_ext.linker {
+    background-color: #BD7E19;
+}
+.i_ext.other {
+    background-color: #444444;
 }
 /*icon created from text*/
 
