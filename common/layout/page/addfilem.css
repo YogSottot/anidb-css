@@ -1,7 +1,3 @@
-#layout-main div.addfilem_all table {
-	width: 60em;
-}
-
 #layout-main div.addfilem_all select.groups {
 	display: block;
 	margin-bottom: 0.3em;
@@ -22,4 +18,7 @@
 
 #layout-main div.addfilem_all form > .options {
 	margin-bottom: 1em;
+	width: 60em;
+	margin-left: auto;
+	margin-right: auto;
 }
