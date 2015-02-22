@@ -8,11 +8,11 @@
 }
 
 #layout-main div.mywishlist_all tr td.name {
-	width:50%;
+	width:99%;
 }
 
 #layout-main div.mywishlist_all tr td.comment {
-	width:30%;
+	min-width:30em;
 }
 
 #layout-main div.mywishlist_all tr td.rating,
