@@ -132,3 +132,14 @@
 #layout-search ul.quicksearch {
 	margin: 0 0 0 3px;
 }
+
+#layout-main div.main_all div.header div.account ul.tabs {
+    margin-bottom: -2px;
+}
+
+#layout-menu li.sub-menu ul li button,
+#layout-menu li.sub-menu ul li input {
+    display: block;
+    padding: 2px 8px 0 8px;
+    box-sizing: border-box;
+}
