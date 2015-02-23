@@ -180,10 +180,11 @@ body {
 /*clickable logo*/
 
 #layout-menu li.sub-menu ul li span {
-	display: inline-block;
+	display: block;
 }
 
 #layout-menu li.sub-menu .alert > span a {
+    display: inline-block;
     width: auto;
     margin-right: -0.3em;
 }
