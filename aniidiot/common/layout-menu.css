@@ -179,10 +179,6 @@ body {
 }
 /*clickable logo*/
 
-#layout-menu li.sub-menu ul li span {
-	display: block;
-}
-
 #layout-menu li.sub-menu .alert > span a {
     display: inline-block;
     width: auto;
@@ -192,22 +188,6 @@ body {
 #layout-menu li.sub-menu .alert > span a span {
 	padding-left: 0;
 	padding-right: 0;
-}
-
-#layout-menu li.sub-menu ul li > span button,
-#layout-menu li.sub-menu ul li > span input[type="text"],
-#layout-menu li.sub-menu ul li > span input[type="password"] {
-    box-sizing: border-box;
-	height: 24px;
-}
-
-#layout-menu li.sub-menu ul li > span input[type="text"],
-#layout-menu li.sub-menu ul li > span input[type="password"] {
-	padding: 2px 4px;
-}
-
-#layout-menu li.sub-menu ul #user-xauth > span {
-	padding-bottom: 0.5em;
 }
 
 #menu-account li.alert a span:before,
