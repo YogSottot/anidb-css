@@ -31,7 +31,7 @@
     padding: 2px 8px 0 8px;
 }
 
-#layout-menu li.sub-menu ul li > span button {
+#layout-menu li.sub-menu ul #user-xauth > span {
 	padding-bottom: 0.5em;
 }
 
