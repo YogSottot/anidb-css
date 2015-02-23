@@ -76,10 +76,6 @@ body {
 	padding-bottom: 0;
 }
 
-#layout-content {
-	overflow: hidden;
-}
-
 #layout-hint + #layout-nav #layout-menu,
 #layout-menu,
 #layout-content {
