@@ -266,6 +266,7 @@ input[type="submit"]:hover,
 	color: #AA0000;
 }
 
+#layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
 	background-color: #666666;
 }
