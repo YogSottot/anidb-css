@@ -74,6 +74,9 @@ body {
 	margin-top: 102px;
 	height: 1px;
 	padding-bottom: 0;
+}
+
+#layout-content {
 	overflow: hidden;
 }
 
