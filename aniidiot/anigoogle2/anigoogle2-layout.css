@@ -137,9 +137,12 @@
     margin-bottom: -2px;
 }
 
-#layout-menu li.sub-menu ul li button,
-#layout-menu li.sub-menu ul li input {
+#layout-menu li.sub-menu ul li > button,
+#layout-menu li.sub-menu ul li > input {
+    margin: 2px 8px 0 8px;
+    box-sizing: border-box;
+}
+#layout-menu li.sub-menu ul li > label {
     display: block;
     padding: 2px 8px 0 8px;
-    box-sizing: border-box;
 }
