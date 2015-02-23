@@ -10,7 +10,7 @@
 }
 
 #layout-menu li.sub-menu ul li > span,
-#layout-menu li.sub-menu ul li > a > span {
+#layout-menu li.sub-menu ul li > a {
 	padding-top: 2px;
 }
 
