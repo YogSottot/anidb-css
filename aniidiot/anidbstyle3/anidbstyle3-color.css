@@ -217,10 +217,11 @@ button,
 }
 
 #layout-menu li.sub-menu ul li > span button {
-	background-color: #CFD1D4;
+	background-color: #CFD1D4 !important;
 	color: #000000;
 }
 
 #layout-menu li.sub-menu ul li > span button:hover {
+	background-color: #B9BBBF !important;
 	color: #AA0000 !important;
 }
