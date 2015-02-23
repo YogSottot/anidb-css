@@ -9,3 +9,7 @@
 #layout-main div.file_relations div {
 	margin-top: 0.6em;
 }
+
+#layout-main div.addstream_all table label {
+	display: block;
+}
