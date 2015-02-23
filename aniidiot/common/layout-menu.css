@@ -90,6 +90,7 @@ body {
 	padding: 0;
 }
 
+#layout-menu li.sub-menu ul li > span,
 #layout-menu li.sub-menu ul li > a span {
 	padding: 0 8px;
 }
@@ -182,7 +183,6 @@ body {
     display: inline-block;
     width: auto;
     margin-right: -0.3em;
-    line-height: 17px;
 }
 
 #layout-menu li.sub-menu .alert > span a span {
@@ -190,11 +190,23 @@ body {
 	padding-right: 0;
 }
 
+#layout-menu li.sub-menu ul li > span button,
+#layout-menu li.sub-menu ul li > span input[type="text"],
+#layout-menu li.sub-menu ul li > span input[type="password"] {
+    box-sizing: border-box;
+	height: 24px;
+}
+
+#layout-menu li.sub-menu ul li > span input[type="text"],
+#layout-menu li.sub-menu ul li > span input[type="password"] {
+	padding: 2px 4px;
+}
+
+#layout-menu li.sub-menu ul #user-xauth > span {
+	padding-bottom: 0.5em;
+}
+
 #menu-account li.alert a span:before,
 #menu-account li.alert a span:after {
 	padding: 0 1px;
-}
-
-#layout-menu li.sub-menu .alert > span a:first-child {
-    padding-left: 0.7em;
 }

@@ -9,30 +9,15 @@
 	width: 100%;
 }
 
+#layout-menu li.sub-menu ul li > span,
 #layout-menu li.sub-menu ul li a span {
 	display: block;
 	padding-top: 2px;
 }
 
-#layout-menu li.sub-menu ul li > span button,
-#layout-menu li.sub-menu ul li > span input[type="text"],
-#layout-menu li.sub-menu ul li > span input[type="password"] {
-    box-sizing: border-box;
-	height: 24px;
-}
-
-#layout-menu li.sub-menu ul li > span input[type="text"],
-#layout-menu li.sub-menu ul li > span input[type="password"] {
-	padding: 2px 4px;
-}
-
-#layout-menu li.sub-menu ul li > span {
-    display: block;
-    padding: 2px 8px 0 8px;
-}
-
-#layout-menu li.sub-menu ul #user-xauth > span {
-	padding-bottom: 0.5em;
+#layout-menu li.sub-menu ul li > a,
+#layout-menu li.sub-menu ul li > label {
+	line-height: 15px;
 }
 
 .i_forum_link,
