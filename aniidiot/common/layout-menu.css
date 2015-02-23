@@ -134,6 +134,7 @@ body {
 }
 
 #layout-menu li.sub-menu ul li > a,
+#layout-menu li.sub-menu ul li > span,
 #layout-menu li.sub-menu ul li > label {
 	line-height: 17px;
 }

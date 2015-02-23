@@ -12,12 +12,12 @@
 #layout-menu li.sub-menu ul li > span,
 #layout-menu li.sub-menu ul li > a > span {
 	display: block;
-	padding-top: 2px;
 }
 
 #layout-menu li.sub-menu ul li > a,
+#layout-menu li.sub-menu ul li > span,
 #layout-menu li.sub-menu ul li > label {
-	line-height: 15px;
+	line-height: 20px;
 }
 
 .i_forum_link,
