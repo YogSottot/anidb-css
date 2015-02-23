@@ -74,6 +74,7 @@ body {
 	margin-top: 102px;
 	height: 1px;
 	padding-bottom: 0;
+	overflow: hidden;
 }
 
 #layout-hint + #layout-nav #layout-menu,
