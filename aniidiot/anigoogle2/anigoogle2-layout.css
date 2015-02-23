@@ -15,13 +15,24 @@
 }
 
 #layout-menu li.sub-menu ul li > span button,
-#layout-menu li.sub-menu ul li > span input {
+#layout-menu li.sub-menu ul li > span input[type="text"],
+#layout-menu li.sub-menu ul li > span input[type="password"] {
     box-sizing: border-box;
 	height: 24px;
 }
+
+#layout-menu li.sub-menu ul li > span input[type="text"],
+#layout-menu li.sub-menu ul li > span input[type="password"] {
+	padding: 2px 4px;
+}
+
 #layout-menu li.sub-menu ul li > span {
     display: block;
     padding: 2px 8px 0 8px;
+}
+
+#layout-menu li.sub-menu ul li > span button {
+	padding-bottom: 0.5em;
 }
 
 .i_forum_link,
