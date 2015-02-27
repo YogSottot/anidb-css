@@ -87,7 +87,7 @@ table th.sortable:hover,
 }
 
 #layout-main #stafflist2 {
-	border-color: #34394D;
+	border-color: #34394D !important;
 }
 
 th,
