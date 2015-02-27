@@ -57,10 +57,9 @@ span.link:hover,
 }
 
 table,
-#layout-main #stafflist2,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.anime_all div.info div.caststaff div table {
-	border-top-color: #DDDDDD !important;
+	border-top-color: #DDDDDD;
 }
 
 button:hover,

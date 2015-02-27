@@ -86,6 +86,10 @@ table th.sortable:hover,
 	border-color: #34394D;
 }
 
+#layout-main #stafflist2 {
+	border-color: #34394D;
+}
+
 th,
 th a,
 .i_comment_add,
