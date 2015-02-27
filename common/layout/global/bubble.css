@@ -72,14 +72,9 @@
 }
 
 .g_bubble.box {
-	display: inline-block;
 	width: 300px;
 	text-align: left;
-	vertical-align: top;
-	height:375px;
-	margin-bottom:1em;
-	margin-right:0.5em;
-	overflow:hidden;
+	margin:0.5em;
 	word-wrap: break-word;
 }
 
