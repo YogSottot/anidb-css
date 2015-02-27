@@ -21,6 +21,7 @@ h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
 	color: #96B396 !important;
+	outline: 0 !important;
 }
 
 h1 a:hover,
@@ -398,6 +399,7 @@ tr + tr th,
 	border-top-color: #555555;
 }
 
+#layout-main #stafflist2,
 #layout-main div.anime_all table.stafflist + table.stafflist,
 #layout-main div.anime_all div.episodes tr.newtype td,
 #layout-search ul.quicksearch li + li {

@@ -108,6 +108,7 @@ a.tooltip span.text,
 	border: 1px solid;
 }
 
+#layout-main #stafflist2,
 #layout-search ul.quicksearch li + li {
 	border-top: 1px solid !important;
 }
