@@ -245,6 +245,14 @@ button.confirmButton,
 	background-color: #F8F8F8;
 }
 
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus,
 .g_bubble .g_odd,
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
@@ -614,7 +622,8 @@ a.tooltip span.text {
 
 select,
 textarea,
-input[type="text"] {
+input[type="text"],
+input[type="password"] {
 	background-color: #FDFDFD;
 }
 
