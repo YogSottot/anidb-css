@@ -45,3 +45,7 @@
 #layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
 	display: none;
 }
+
+#layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
+	margin-left: 4px;
+}
