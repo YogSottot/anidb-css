@@ -430,10 +430,10 @@ button.preview:before {
 .i_state_verified:after {
 	content: "\f00c";
 }
-.i_tab_default {
+.i_tab_default:after {
 	content: "\f024";
 }
-.i_tab_reset {
+.i_tab_reset:after {
 	content: "\f05e";
 }
 /*image only - no text*/
