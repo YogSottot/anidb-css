@@ -5,6 +5,8 @@
 	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 }
 
+.i_tab_default,
+.i_tab_reset,
 .i_state_verified,
 .i_mylist,
 .i_file_details,
@@ -50,6 +52,8 @@
 	background-image: none !important;
 }
 
+.i_tab_default,
+.i_tab_reset,
 .i_state_verified,
 .i_mylist,
 .i_file_details,
@@ -335,6 +339,8 @@ button.preview:before {
 }
 
 /*image only - no text*/
+.i_tab_default,
+.i_tab_reset,
 .i_state_verified,
 .i_mylist,
 .i_file_details,
@@ -418,6 +424,12 @@ button.preview:before {
 }
 .i_state_verified:after {
 	content: "\f00c";
+}
+.i_tab_default {
+	content: "\f024";
+}
+.i_tab_reset {
+	content: "\f05e";
 }
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
