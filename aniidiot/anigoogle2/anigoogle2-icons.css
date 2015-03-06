@@ -431,7 +431,7 @@ button.preview:before {
 	content: "\f00c";
 }
 .i_tab_default:after {
-	content: "\f024";
+	content: "\f004";
 }
 .i_tab_reset:after {
 	content: "\f05e";
