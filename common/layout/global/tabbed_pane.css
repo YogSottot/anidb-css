@@ -40,3 +40,8 @@
 #layout-main div.tabbed_pane_main + ul.links {
 	margin-top: 1em;
 }
+
+#layout-main div.tabbed_pane ul.tabs .save_as_default,
+#layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
+	display: none;
+}
