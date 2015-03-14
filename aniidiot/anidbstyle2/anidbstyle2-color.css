@@ -268,7 +268,7 @@ button,
 	background-color: #AA0000;
 }
 
-#layout-main div.tabbed_pane div.body div.pane ul *.g_odd {
+#layout-main div.tabbed_pane div.body div.pane ul li:not(.row) .g_odd {
 	background-color: inherit;
 }
 
