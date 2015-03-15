@@ -48,6 +48,7 @@ td.year,
 span.date,
 span.user,
 td.rating,
+td.nobr,
 #menu-account li.alert,
 #layout-main div.anime_all div.g_section.mylist td.title {
 	white-space:nowrap;
