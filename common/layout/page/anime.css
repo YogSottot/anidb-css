@@ -106,8 +106,12 @@
 	max-width: 50%;
 }
 
+#layout-main div.anime_all div.episodes table.eplist th.state {
+	min-width: 7em;
+}
+
 #layout-main div.anime_all div.episodes table.eplist th.action {
-	min-width: 5em;
+	min-width: 5.5em;
 }
 
 #layout-main div.anime_all #tabbed_pane {
@@ -182,7 +186,7 @@
 }
 
 #layout-main div.anime_all div.groups td.action {
-	min-width: 11em;
+	min-width: 5.5em;
 }
 
 #layout-main div.anime_all div.characters .g_bubble.stripe div.postbody {
