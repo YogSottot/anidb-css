@@ -9,3 +9,7 @@
 #layout-main div.group_all table.filelist td.no {
 	text-align:right;
 }
+
+#layout-main div.group_all div.group_released table#releases th.action {
+	min-width: 5.5em;
+}
