@@ -66,14 +66,6 @@ div.data max width, to maximize the widths of image vs data div blocks (ie on gr
   white-space: nowrap;
 }
 
-/* increase default width of the group epbar/progress bar on the anime page and the group page */
-th.epbar,
-th.progress {
-  min-width: 30%;
-  width: 40%;
-  max-width: 50%;
-}
-
 /* reduce whitespace on the anime page grouplist and eplist, and the group page release list */
 table.grouplist,
 table.eplist,
