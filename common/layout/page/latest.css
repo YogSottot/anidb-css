@@ -48,6 +48,11 @@
 		min-width: 7em;
 	}
 
+	#layout-main div.latest2_all table tr td.thumb,
+	#layout-main div.latest2_all table tr td.type {
+	 	min-width: 5em;
+	}
+
 	#layout-main div.latest2_all div.content td.anime.name {
 		width: 70%;
 	}
