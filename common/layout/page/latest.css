@@ -48,6 +48,10 @@
 }
 /*</forcing icons not to wrap>*/
 
+#layout-main div.latest2_all div.content td.anime.name {
+	width: 70%;
+}
+
 @media screen and (max-width: 1280px) {
 	#layout-main div.latest2_all table tr th,
 	#layout-main div.latest2_all table tr td {
@@ -80,10 +84,6 @@
 	#layout-main div.latest2_all table tr td.thumb,
 	#layout-main div.latest2_all table tr td.type {
 	 	min-width: 5em;
-	}
-
-	#layout-main div.latest2_all div.content td.anime.name {
-		width: 70%;
 	}
 
 	#layout-main div.latest2_all div.content table.completed td.group {
