@@ -24,9 +24,14 @@
 	min-width: 10em;
 }
 
+
+#layout-main div.latest2_all div.content div.files td.anime.name {
+	width: 33%;
+}
+
+#layout-main div.latest2_all div.files div.content td.action,
 #layout-main div.latest2_all div.files div.content td.info {
-	min-width: 23em;
-	max-width: 23em;
+	white-space:nowrap;
 }
 
 @media screen and (max-width: 1280px) {
@@ -69,6 +74,11 @@
 
 	#layout-main div.latest2_all div.content table.completed td.group {
 		width: 30%;
+	}
+
+	#layout-main div.latest2_all div.files div.content td.info {
+		min-width: 23em;
+		max-width: 23em;
 	}
 
 	#layout-main div.latest2_all div.latest_hotanime div.content td.anime.name,
