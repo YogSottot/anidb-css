@@ -15,11 +15,6 @@
 #layout-main div.latest2_all table tr td {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	min-width: 7em;
-}
-
-#layout-main div.latest2_all table tr td.thumb,
-#layout-main div.latest2_all table tr td.type {
 	min-width: 5em;
 }
 
