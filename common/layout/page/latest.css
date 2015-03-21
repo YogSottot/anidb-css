@@ -48,12 +48,12 @@
 		min-width: 7em;
 	}
 
-	#layout-main div.latest2_all div.content td.anime {
+	#layout-main div.latest2_all div.content td.anime.name {
 		width: 70%;
 	}
 
-	#layout-main div.latest2_all div.latest_hotanime div.content td.anime,
-	#layout-main div.latest2_all div.latest_reviews div.content td.anime {
+	#layout-main div.latest2_all div.latest_hotanime div.content td.anime.name,
+	#layout-main div.latest2_all div.latest_reviews div.content td.anime.name {
 		width: 80%;
 	}
 
@@ -80,7 +80,7 @@
 		max-width: 23em;
 	}
 
-	#layout-main div.latest2_all div.latest_recommendations div.content td.anime {
+	#layout-main div.latest2_all div.latest_recommendations div.content td.anime.name {
 		width:30%;
 	}
 
