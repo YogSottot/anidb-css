@@ -29,10 +29,24 @@
 	width: 33%;
 }
 
+/*<forcing icons not to wrap>*/
 #layout-main div.latest2_all div.files div.content td.action,
 #layout-main div.latest2_all div.files div.content td.info {
 	white-space:nowrap;
 }
+
+#layout-main div.latest2_all div.files .i_icon {
+	float: none;
+}
+
+#layout-main div.latest2_all div.files .i_icon + .i_icon {
+	margin-left: -2px !important;
+}
+
+#layout-main div.latest2_all div.files .i_file_details {
+	width:12px;
+}
+/*</forcing icons not to wrap>*/
 
 @media screen and (max-width: 1280px) {
 	#layout-main div.latest2_all table tr th,
