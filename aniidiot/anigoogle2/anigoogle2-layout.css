@@ -25,6 +25,10 @@
 	display: none;
 }
 
+#layout-main div.anime_all div.groups td.action {
+	min-width: 5.5em;
+}
+
 .g_bubble.stripe {
 	margin: 0.4em 0.15em !important
 }
