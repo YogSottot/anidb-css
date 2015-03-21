@@ -15,7 +15,21 @@
 #layout-main div.latest2_all table tr td {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	min-width: 5em;
+	min-width: 7em;
+}
+
+@media screen and (max-width: 1300px) {
+	#layout-main div.latest2_all table tr th,
+	#layout-main div.latest2_all table tr td {
+		min-width: 0;
+	}
+}
+
+@media screen and (max-width: 1500px) {
+	#layout-main div.latest2_all table tr th,
+	#layout-main div.latest2_all table tr td {
+		min-width: 5em;
+	}
 }
 
 #layout-main div.latest2_all div.content th.anime {
