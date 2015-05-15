@@ -195,3 +195,7 @@ body {
 #menu-account li.alert a span:after {
 	padding: 0 1px;
 }
+
+#layout-menu li.sub-menu ul li.user-xauth {
+	height: 30px;
+}
