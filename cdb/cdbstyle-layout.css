@@ -59,6 +59,36 @@ div.data max width, to maximize the widths of image vs data div blocks (ie on gr
   align-items: stretch;
 }
 
+/* nowrap of username on creqhist page (and possibly others) */
+#layout-main td.name.user,
+#layout-main td.name.owner
+{
+  white-space: nowrap;
+}
+
+/* reduce whitespace on the anime page grouplist and eplist, and the group page release list */
+table.grouplist,
+table.eplist,
+table#releases {
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  max-width: 98% !important;
+}
+table.eplist tr td.title,
+table#releases tr td.name {
+  white-space: normal;
+  min-width: 20em;
+}
+table.grouplist tr td.name {
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  white-space: normal;
+  max-width: 20em;
+}
+
 /* userpage */
 /* Disallow line wrap on userpage stats block */
 #layout-main div.userpage_all div.stats div table th.field,
@@ -106,11 +136,4 @@ div.userdetails > div.block > div:nth-last-child(2)
 /* flex-shrink: 1; */
   width: 33%;
   margin: auto;
-}
-
-/* nowrap of username on creqhist page (and possibly others) */
-#layout-main td.name.user,
-#layout-main td.name.owner
-{
-  white-space: nowrap;
 }

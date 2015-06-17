@@ -52,9 +52,9 @@ table.file.entities tr.undumped td.id a:visited,
 table.file.entities tr.undumped td.action
 {
   visibility: visible;
-  background-color: #900000;
-  color: #FFFFFF;
-  font-weight: bold;
+  background-color: #900000 !important;
+  color: #FFFFFF !important;
+  font-weight: bold !important;
 }
 table.filelist tr.undumped td.id a:hover,
 table.file.entities tr.undumped td.id a:hover
