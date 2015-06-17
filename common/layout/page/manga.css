@@ -141,20 +141,16 @@
 	text-align: left;
 }
 
-#layout-main div.manga_all div.info div.caststaff div.cast td.as {
-	width: 1em;
-}
-
 #layout-main div.manga_all div.info div.caststaff div td {
 	padding: 0.2em 0.5em;
 }
 
-#layout-main div.manga_all div.info div.caststaff div.staff td.creator,
+#layout-main div.manga_all div.info div.caststaff div.staff td.type,
 #layout-main div.manga_all div.info div.caststaff div.cast td.char {
 	width:100%;
 }
 
-#layout-main div.manga_all div.info div.caststaff div.cast td.creator,
+#layout-main div.manga_all div.info div.caststaff div.cast td.type,
 #layout-main div.manga_all div.info div.caststaff div.staff td.credit {
 	white-space: nowrap;
 	min-width:12em;
