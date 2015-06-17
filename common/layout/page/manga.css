@@ -1,47 +1,33 @@
-#layout-main div.manga_all div.info th span.i_icon
-{
+#layout-main div.manga_all div.info th span.i_icon {
 	float: right;
 }
 
-#layout-main div.manga_all div.episodes div.mylist_add
-{
+#layout-main div.manga_all div.episodes div.mylist_add {
 	margin-top: 1em;
 }
 
-#layout-main div.manga_all div.mylist table td
-{
+#layout-main div.manga_all div.mylist table td {
 	padding: 1em;
 }
 
-#layout-main div.manga_all div.mylist table td span.i_icon
-{
+#layout-main div.manga_all div.mylist table td span.i_icon {
 	margin-left: 1em;
 }
 
-#layout-main div.manga_all div.awards
-{
+#layout-main div.manga_all div.awards {
 	clear: both;
 	text-align: center;
 }
 
-#layout-main table.eplist table.filelist
-{
+#layout-main table.eplist table.filelist {
 	width: 100%;
 }
 
-#layout-main div.manga_all div.tags
-{
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-#layout-main div.manga_all div.tabbed_pane ul.contribute
-{
+#layout-main div.manga_all div.tabbed_pane ul.contribute {
 	border: none;
 }
 
-#layout-main div.manga_all #grouplist td.icons a + a
-{
+#layout-main div.manga_all #grouplist td.icons a + a {
 	margin-left: 0.5em;
 }
 
@@ -54,163 +40,167 @@
 #layout-main div.manga_all > div.g_section.characters > table,
 #layout-main div.manga_all > div.g_section.staff > table,
 #layout-main div.manga_all > div.g_section.reviews > table,
-#layout-main div.manga_all div.mylistfiles > table.filelist
-{
+#layout-main div.manga_all div.mylistfiles > table.filelist {
 	width: 98%;
 }
 
-#layout-main div.manga_all #tabbed_pane_main
-{
-	margin: 1.5em 1em 1em;
+#layout-main div.manga_all #tabbed_pane_main {
+	margin: 1.5em 1em;
 }
 
-#layout-main div.manga_all div.reviews table.reviewlist th.approval
-{
+#layout-main div.manga_all div.reviews table.reviewlist th.approval {
 	width: 12em;
 }
 
 #layout-main div.manga_all table.stafflist td.comment,
-#layout-main div.manga_all table.stafflist td.eprange
-{
+#layout-main div.manga_all table.stafflist td.eprange {
 	min-width: 10em;
 }
 
 #layout-main div.manga_all div.recommendations td.action,
-#layout-main div.manga_all div.reviews td.action
-{
+#layout-main div.manga_all div.reviews td.action {
 	text-align: right;
 }
 
 #layout-main div.group_all div.group_released td.epbar,
 #layout-main div.manga_all div.groups td.epbar,
 #layout-main div.manga_all table.stafflist td.credit,
-#layout-main div.manga_all table.stafflist td.name
-{
+#layout-main div.manga_all table.stafflist td.name {
 	width: 30%;
 }
 
-#layout-main div.manga_all div.staffblock + div.staffblock
-{
+#layout-main div.manga_all div.staffblock + div.staffblock {
 	margin-top:1.5em;
 }
 
-#layout-main div.manga_all div.staffblock h2
-{
+#layout-main div.manga_all div.staffblock h2 {
 	margin-left:1em;
 	text-align:center;
 	width:30%;
 }
 
 
-#layout-main div.group_all div.group_released td.epbar div,
-#layout-main div.manga_all div.groups td.epbar div
-{
+#layout-main div.group_all div.group_released td.epbar > div div,
+#layout-main div.manga_all div.groups td.epbar > div div {
 	float: left;
 	height: 8px;
 }
 
-#layout-main div.manga_all div.forum div.threads,
-#layout-main div.manga_all div.forum div.note
-{
+#layout-main div.manga_all div.forum {
 	margin-left: 1em;
 	margin-right: 1em;
 }
 
-#layout-main div.manga_all div.episodes table.eplist th.title
-{
+#layout-main div.manga_all div.episodes table.eplist th.title {
 	max-width: 50%;
 }
 
-#layout-main div.manga_all div.episodes table.eplist th.action
-{
-	min-width: 5em;
+#layout-main div.manga_all div.episodes table.eplist th.action {
+	min-width: 5.5em;
 }
 
-#layout-main div.manga_all div.info div.caststaff
-{
-	margin-top: 0.5em;
+#layout-main div.manga_all #tabbed_pane {
+	margin: 0 0.4em 0.4em;
 }
 
-#layout-main div.manga_all div.info div.caststaff > div
-{
-	float: left;
+#layout-main div.manga_all div.info div.caststaff {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+	#layout-main div.manga_all div.info div.caststaff
+	{
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+}
+
+#layout-main div.manga_all div.info div.caststaff > div {
+	margin: 0.4em;
 	padding: 4px;
-	width: 46.5%;
-	margin-right: 0.5em;
+	width: 100%;
+	position: relative;
 }
 
-#layout-main div.manga_all div.info div.caststaff div.cast + div.staff
-{
-	float: right;
-	margin-right: 0;
+#layout-main div.manga_all div.info div.caststaff div.staff {
+	order: 1;
+}
+
+#layout-main div.manga_all div.info div.caststaff div.cast {
+	order: 2;
 }
 
 #layout-main div.manga_all div.info div.caststaff div h4,
-#layout-main div.manga_all div.data td.value form
-{
+#layout-main div.manga_all div.data td.value form {
 	text-align: left;
 }
 
-#layout-main div.manga_all div.info div.caststaff div.cast td.as
-{
+#layout-main div.manga_all div.info div.caststaff div.cast td.as {
 	width: 1em;
 }
 
-#layout-main div.manga_all div.info div.caststaff div td
-{
-	padding: 0.2em 0.5em 0.2em 0;
+#layout-main div.manga_all div.info div.caststaff div td {
+	padding: 0.2em 0.5em;
 }
 
 #layout-main div.manga_all div.info div.caststaff div.staff td.creator,
-#layout-main div.manga_all div.info div.caststaff div.cast td.char
-{
-	padding-right: 0;
+#layout-main div.manga_all div.info div.caststaff div.cast td.char {
+	width:100%;
 }
 
-#layout-main div.manga_all div.info div.caststaff div td.action
-{
-	padding-top: 1em;
-	text-align: right;
+#layout-main div.manga_all div.info div.caststaff div.cast td.creator,
+#layout-main div.manga_all div.info div.caststaff div.staff td.credit {
+	white-space: nowrap;
+	min-width:12em;
 }
 
-#layout-main div.manga_all div.groups td.action
-{
+#layout-main div.manga_all div.info div.caststaff tr.more {
+	height:19px;
+}
+
+#layout-main div.manga_all div.info div.caststaff tr.more td.action {
+	position: absolute;
+	bottom: 3px;
+	right: 4px;
+}
+
+#layout-main div.manga_all div.groups td.action {
 	min-width: 11em;
 }
 
-#layout-main div.manga_all div.characters .g_bubble.stripe div.postbody
-{
+#layout-main div.manga_all div.characters .g_bubble.stripe div.postbody {
 	padding: 4px;
 }
 /*------------------------------------------*/
 
 #layout-main div.manga_all table.elementlist,
-#layout-main div.manga_all table.subelementlist
-{
+#layout-main div.manga_all table.subelementlist {
 width:98%;
 }
 
-#layout-main div.manga_all table.elementlist.mixed tr.parent
-{
+#layout-main div.manga_all table.elementlist.mixed tr.parent {
 background-color: inherit;
 }
 
 #layout-main div.manga_all table.elementlist.mixed,
-#layout-main div.manga_all table.elementlist.mixed  tr.parent td
-{
+#layout-main div.manga_all table.elementlist.mixed  tr.parent td {
 border: none;
 }
 
-#layout-main div.manga_all table.elementlist.mixed tr.parent td
-{
+#layout-main div.manga_all table.elementlist.mixed tr.parent td {
 font-size:140%;
 padding-top: 1em;
 }
 
 #layout-main div.manga_all table.elementlist td.no,
 #layout-main div.manga_all table.elementlist td.rating,
-#layout-main div.manga_all table.elementlist td.votes
-{
+#layout-main div.manga_all table.elementlist td.votes {
 	min-width: 5em;
 	max-width: 5em;
 }
@@ -220,41 +210,34 @@ padding-top: 1em;
 	max-width: 6em;
 }
 
-#layout-main div.manga_all table.elementlist td+td
-{
+#layout-main div.manga_all table.elementlist td+td {
 	padding-left: 1em;
 }
 
-#layout-main div.manga_all table.elementlist td.title
-{
+#layout-main div.manga_all table.elementlist td.title {
 	width: 90%;
 }
 
-#layout-main div.manga_all div.groups td.epbar
-{
+#layout-main div.manga_all div.groups td.epbar {
 	width: 30%;
 }
 
-#layout-main div.manga_all div.groups td.epbar div
-{
+#layout-main div.manga_all div.groups td.epbar div {
 	border-bottom:  2px solid;
 	float: left;
 	height: 8px;
 }
 
-#layout-main div.manga_all div.groups td.epbar div.done
-{
+#layout-main div.manga_all div.groups td.epbar div.done {
 	background-color: #6193FF;
 	border-bottom-color: #6193FF;
 }
 
-#layout-main div.manga_all div.groups td.epbar div.done.mylist
-{
+#layout-main div.manga_all div.groups td.epbar div.done.mylist {
 	border-bottom-color: #6CF06C;
 }
 
-#layout-main div.manga_all div.groups td.epbar div.notdone
-{
+#layout-main div.manga_all div.groups td.epbar div.notdone {
 	background-color: #C3D8FF;
 	border-bottom-color: #C3D8FF;
 }
