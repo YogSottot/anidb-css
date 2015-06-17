@@ -3,10 +3,47 @@
 	margin-bottom: 0.3em;
 }
 
+#layout-main div.addfilem_all div.flags {
+	margin-top: 0.5em;
+}
+
 #layout-main div.addfilem_all label {
-	display: block;
+	display: inline-block;
+	width: 20em;
 }
 
 #layout-main div.addfilem_all select + label {
 	margin-top: 0.3em;
+}
+
+#layout-main div.addfilem_all form > .options {
+	margin-bottom: 1em;
+	width: 60em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#layout-main div.addfilem.form div.dump textarea {
+	width: 100%;
+	height: 30em;
+	white-space: pre;
+	box-sizing: border-box;
+}
+
+#layout-main div.addfilem.form div.dump p.actions {
+	margin-top: 1em;
+}
+
+/*TODO: kill after update*/
+#layout-main div.addfilem.form dl.options dt {
+	text-align: left;
+}
+
+#layout-main div.addfilem.form dl.options dd {
+	margin-left: 8em;
+}
+
+#layout-main div.addfilem.form dl.options dd select {
+	min-width: 10em;
+	max-width: 20.4em;
 }

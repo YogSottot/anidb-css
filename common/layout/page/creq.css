@@ -141,3 +141,7 @@
 #layout-main .creq_all .format-buttons {
 	text-align: center;
 }
+
+#layout-main div.creq_all div.tabbed_pane + .g_list {
+	margin-top: 1em;
+}

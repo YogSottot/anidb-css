@@ -21,6 +21,7 @@ h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
 	color: #96B396 !important;
+	outline: 0 !important;
 }
 
 h1 a:hover,
@@ -326,7 +327,6 @@ button.confirmButton,
 #layout-main div.edit_actions a,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
-#layout-main div.cmt_entries div.profile,
 #layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 #layout-main div.forum div.postbody div.code div.title,
@@ -362,6 +362,7 @@ input[type="password"]:focus {
 }
 
 html,
+.i_ext span,
 #imagepreview,
 a.tooltip span.text,
 a.button,
@@ -398,6 +399,7 @@ tr + tr th,
 	border-top-color: #555555;
 }
 
+#layout-main #stafflist2,
 #layout-main div.anime_all table.stafflist + table.stafflist,
 #layout-main div.anime_all div.episodes tr.newtype td,
 #layout-search ul.quicksearch li + li {
@@ -435,52 +437,52 @@ a.tooltip span.text:before {
 }
 
 /*tag cloud*/
-#layout-main div.tag-column div.tag[weight="0"] .name a {
-	color: rgba(0, 0, 0, 0.6);
+#layout-main div.tag-column div.tag[data-anidb-weight="0"] .name a {
+	color: rgba(240, 240, 192, 1.0) !important;
 }
-#layout-main div.tag-column div.tag.abstract[weight="0"] .name a,
+#layout-main div.tag-column div.tag.abstract[data-anidb-weight="0"] .name a,
 #layout-main div.tag-column span.not_added a {
-	color: rgba(0, 0, 0, 0.3);
+	color: rgba(240, 240, 192, 0.6) !important;
 }
 #layout-main div.chartag-list span.size0 a,
 #layout-main div.chartag-list span.size1 a,
-#layout-main div.tag-column div.tag[weight="100"] .name a {
-	color: rgba(16, 82, 137, 0.5);
+#layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a {
+	color: rgba(255,255,255, 0.4) !important;
 }
 #layout-main div.chartag-list span.size2 a,
-#layout-main div.tag-column div.tag[weight="200"] .name a {
-	color: rgba(16, 82, 137, 0.6);
+#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
+	color: rgba(255,255,255, 0.6) !important;
 }
 #layout-main div.chartag-list span.size3 a,
-#layout-main div.tag-column div.tag[weight="300"] .name a {
-	color: rgba(16, 82, 137, 0.7);
+#layout-main div.tag-column div.tag[data-anidb-weight="300"] .name a {
+	color: rgba(255,255,255, 0.8) !important;
 }
 #layout-main div.chartag-list span.size4 a,
 #layout-main div.chartag-list span.size5 a,
-#layout-main div.tag-column div.tag[weight="400"] .name a {
-	color: rgba(16, 82, 137, 0.8);
+#layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a {
+	color: rgba(255,255,255, 1.0) !important;
 }
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size7 a,
-#layout-main div.tag-column div.tag[weight="500"] .name a {
-	color: rgba(16, 82, 137, 1.0);
+#layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a {
+	color: rgba(181, 83, 83, 0.8) !important;
 }
 #layout-main div.chartag-list span.size8 a,
 #layout-main div.chartag-list span.size9 a,
 #layout-main div.chartag-list span.size10 a,
-#layout-main div.tag-column div.tag[weight="600"] .name a {
-	color: rgba(16, 82, 137, 1.0);
+#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
+	color: rgba(181, 83, 83, 1.0) !important;
 }
-#layout-main div.tag-column div.tag[weight="100"] .weight {
+#layout-main div.tag-column div.tag[data-anidb-weight="100"] .weight {
 	opacity: 0.3;
 }
-#layout-main div.tag-column div.tag[weight="200"] .weight {
+#layout-main div.tag-column div.tag[data-anidb-weight="200"] .weight {
 	opacity: 0.4;
 }
-#layout-main div.tag-column div.tag[weight="300"] .weight {
+#layout-main div.tag-column div.tag[data-anidb-weight="300"] .weight {
 	opacity: 0.6;
 }
-#layout-main div.tag-column div.tag[weight="400"] .weight {
+#layout-main div.tag-column div.tag[data-anidb-weight="400"] .weight {
 	opacity: 0.8;
 }
 
@@ -582,6 +584,7 @@ button,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
 #layout-main div.edit_actions a,
+#layout-main div.addfilem.form div.dump textarea,
 #layout-main div.forum div.quickreply textarea {
 	box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.1);
 }
@@ -644,4 +647,23 @@ a.tooltip span.text {
 
 .ajax-file-upload:hover {
 	opacity: 0.6;
+}
+
+.i_ext.video {
+    background-color: #152E66;
+}
+.i_ext.audio {
+    background-color: #6B1515;
+}
+.i_ext.subtitle {
+    background-color: #0E5716;
+}
+.i_ext.archive {
+    background-color: #4D1B7A;
+}
+.i_ext.linker {
+    background-color: #7A6311;
+}
+.i_ext.other {
+    background-color: #555555;
 }

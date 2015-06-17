@@ -250,6 +250,8 @@
 	height: 20em;
 	margin-left: 0;
 	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
 }
 
 #layout-main div.forum div.posting-box div.message-box {
@@ -546,8 +548,7 @@ div.g_bubble.quotebody {
 	padding: 4px 8px;
 }
 
-#layout-main div.g_bubble.spoiler span.spoiler {
-	display:block;
+#layout-main div.g_bubble.spoiler div.spoiler_body {
 	margin-bottom: 1em;
 }
 
@@ -625,6 +626,14 @@ div.g_bubble.quotebody {
 	margin-bottom: 1.4em;
 }
 
+#layout-main div.forum .segment div.title {
+    min-height: 2.7em;
+}
+
+#layout-main div.forum .segment div.title a.topictitle {
+	display: block;
+}
+
 /*polls*/
 #layout-main div.forum .g_bubble.infobox {
 	margin-bottom: 1em;
@@ -683,15 +692,15 @@ div.g_bubble.quotebody {
 	width: 30%;
 }
 
-#layout-main div.forum .g_bubble.infobox .row > div.middive {
+#layout-main div.forum .g_bubble.infobox .row > div.middle {
 	width: 50%;
 }
 
-#layout-main div.forum .g_bubble.infobox .row > div.middive.text {
+#layout-main div.forum .g_bubble.infobox .row > div.middle.text {
 	width: 100%;
 }
 
-#layout-main div.forum .g_bubble.infobox .row > div.middive .bar {
+#layout-main div.forum .g_bubble.infobox .row > div.middle .bar {
 	min-width: 2%;
 	padding: 2px 4px;
 	border-bottom: 1px solid;

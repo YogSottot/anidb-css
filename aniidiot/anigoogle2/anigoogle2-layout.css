@@ -9,9 +9,15 @@
 	width: 100%;
 }
 
-#layout-menu li.sub-menu ul li a span {
+#layout-menu li.sub-menu ul li > span,
+#layout-menu li.sub-menu ul li > a > span {
 	display: block;
-	padding-top: 2px;
+}
+
+#layout-menu li.sub-menu ul li > a,
+#layout-menu li.sub-menu ul li > span,
+#layout-menu li.sub-menu ul li > label {
+	line-height: 20px;
 }
 
 .i_forum_link,
@@ -80,10 +86,6 @@
 	padding: 3px 6px 1px;
 }
 
-.i_icon + .i_icon {
-	margin-left: 0.2em !important;
-}
-
 #layout-main ul.g_list {
 	min-height: 2.2em;
 }
@@ -139,4 +141,8 @@
 
 #layout-search ul.quicksearch {
 	margin: 0 0 0 3px;
+}
+
+#layout-main div.main_all div.header div.account ul.tabs {
+    margin-bottom: -2px;
 }

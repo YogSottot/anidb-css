@@ -31,7 +31,10 @@
 }
 
 #layout-main div.mydb_all table td.info.icons,
-#layout-main div.modlatest_all table td.info.icons,
+#layout-main div.modlatest_all table td.info.icons {
+	min-width: 20em;
+}
+
 #layout-main div.mydb_all table td.user,
 #layout-main div.modlatest_all table td.user {
 	min-width: 15em;

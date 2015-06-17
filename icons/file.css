@@ -103,34 +103,6 @@
 	background-image: url(../icons/icon/anidb_video_wmv.gif);
 }
 
-*.i_ext {
-	background-image: url(../icons/icon/anidb_other.gif);
-}
-
-*.i_ext.mkv {
-	background-image: url(../icons/icon/anidb_ext_mkv.gif);
-}
-
-*.i_ext.ogm {
-	background-image: url(../icons/icon/anidb_ext_ogm.gif);
-}
-
-*.i_ext.avi {
-	background-image: url(../icons/icon/anidb_ext_avi.gif);
-}
-
-*.i_ext.mp4 {
-	background-image: url(../icons/icon/anidb_ext_mp4.gif);
-}
-
-*.i_ext.wmv {
-	background-image: url(../icons/icon/anidb_ext_wmv.gif);
-}
-
-*.i_ext.srt {
-	background-image: url(../icons/icon/anidb_ext_srt.gif);
-}
-
 *.i_ftype_video {
 	background-image: url(../icons/icon/anidb_video.gif);
 }
@@ -185,14 +157,18 @@
 	background-image: url(../icons/icon/anidb_avmf_delete.gif);
 }
 
-*.video.video_10bit {
+.video.video_10bit {
 	width: 28px;
 	background-image: url(../icons/icon/anidb_video_10bit.gif);
 }
-*.video.video_3d {
+.video.video_3d {
 	background-image: url(../icons/icon/anidb_video_3d.gif);
 }
-*.video.creditless {
+.video.creditless {
 	background-image: url(../icons/icon/anidb_video_creditless.gif);
 }
 
+.i_ext,
+.i_ext span {
+	display: none !important;
+}

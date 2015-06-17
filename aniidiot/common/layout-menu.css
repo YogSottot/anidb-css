@@ -90,6 +90,7 @@ body {
 	padding: 0;
 }
 
+#layout-menu li.sub-menu ul li > span,
 #layout-menu li.sub-menu ul li > a span {
 	padding: 0 8px;
 }
@@ -133,6 +134,7 @@ body {
 }
 
 #layout-menu li.sub-menu ul li > a,
+#layout-menu li.sub-menu ul li > span,
 #layout-menu li.sub-menu ul li > label {
 	line-height: 17px;
 }
@@ -182,7 +184,6 @@ body {
     display: inline-block;
     width: auto;
     margin-right: -0.3em;
-    line-height: 17px;
 }
 
 #layout-menu li.sub-menu .alert > span a span {
@@ -195,6 +196,6 @@ body {
 	padding: 0 1px;
 }
 
-#layout-menu li.sub-menu .alert > span a:first-child {
-    padding-left: 0.7em;
+#layout-menu li.sub-menu ul li.user-xauth {
+	height: 30px;
 }

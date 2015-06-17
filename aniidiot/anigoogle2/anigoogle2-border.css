@@ -54,10 +54,11 @@ a.tooltip span.text,
 #imagepreview,
 #layout-content,
 #layout-hint,
+#layout-tabs ul.main-tabs > li,
 #layout-menu > li ul,
-#layout-menu li.sub-menu li + li,
-#layout-menu li.sub-menu,
 #layout-main > h1,
+#layout-menu li.sub-menu,
+#layout-menu li.sub-menu li + li,
 #layout-main div.g_msg,
 #layout-main div.g_timedentry h4,
 #layout-main div.main_all div.datablocks h4,
@@ -71,7 +72,10 @@ a.tooltip span.text,
 #layout-main div.anime_all div.info div.caststaff div table,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all div.g_menu ul li,
-#layout-tabs ul.main-tabs > li,
+#layout-main div.main_all div.header div.account .loginbox tr.action td,
+#layout-main div.main_all div.header div.account ul.tabs li,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
+#layout-main div.cmt_entries div.profile,
 #layout-main div.tabbed_pane ul.tabs li {
 	border: none !important;
 }
@@ -104,6 +108,7 @@ a.tooltip span.text,
 	border: 1px solid;
 }
 
+#layout-main #stafflist2,
 #layout-search ul.quicksearch li + li {
 	border-top: 1px solid !important;
 }

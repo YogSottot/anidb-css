@@ -86,6 +86,10 @@ table th.sortable:hover,
 	border-color: #34394D;
 }
 
+#layout-main #stafflist2 {
+	border-color: #34394D !important;
+}
+
 th,
 th a,
 .i_comment_add,
@@ -149,6 +153,7 @@ button,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
 #layout-main div.edit_actions a,
+#layout-main div.addfilem.form div.dump textarea,
 #layout-main div.forum div.quickreply textarea {
 	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
 }
@@ -213,4 +218,14 @@ button,
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.userpage_all div.g_menu ul li.g_odd {
 	background-color: #B9BBBF;
+}
+
+#layout-menu li.sub-menu ul li > span button {
+	background-color: #CFD1D4 !important;
+	color: #000000;
+}
+
+#layout-menu li.sub-menu ul li > span button:hover {
+	background-color: #B9BBBF !important;
+	color: #AA0000 !important;
 }

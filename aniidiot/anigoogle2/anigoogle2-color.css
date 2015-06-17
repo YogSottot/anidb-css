@@ -21,6 +21,7 @@ h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
 	color: #105289 !important;
+	outline: 0 !important;
 }
 
 h1 a:hover,
@@ -69,6 +70,7 @@ h1 a:visited,
 th a,
 th a:link,
 th a:visited,
+th .i_icon,
 #layout-main div.userpage_all .achievements h4 a.i_help {
     color: #C0DAF0 !important;
 }
@@ -243,6 +245,14 @@ button.confirmButton,
 	background-color: #F8F8F8;
 }
 
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus,
 .g_bubble .g_odd,
 .g_odd .g_bubble,
 .g_bubble .g_bubble,
@@ -276,6 +286,7 @@ select,
 #layout-main div.search_all div.suggestions,
 #layout-main div.avatar img,
 #layout-main div.anime_all div.info div.image img,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea,
 #layout-main div.forum div.quickreply textarea {
 	border-color: #E8E8E8;
 }
@@ -324,7 +335,6 @@ button.confirmButton,
 #layout-main div.edit_actions a,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
-#layout-main div.cmt_entries div.profile,
 #layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 #layout-main div.forum div.postbody div.code div.title,
@@ -394,6 +404,7 @@ li + li.g_odd,
 	border-top-color: #E8E8E8;
 }
 
+#layout-main #stafflist2,
 #layout-main div.anime_all table.stafflist + table.stafflist,
 #layout-main div.anime_all div.episodes tr.newtype td,
 #layout-search ul.quicksearch li + li {
@@ -436,52 +447,52 @@ a.tooltip span.text:before {
 }
 
 /*tag cloud*/
-#layout-main div.tag-column div.tag[weight="0"] .name a {
-	color: rgba(0, 0, 0, 0.6);
+#layout-main div.tag-column div.tag[data-anidb-weight="0"] .name a {
+	color: rgba(0, 0, 0, 0.6) !important;
 }
-#layout-main div.tag-column div.tag.abstract[weight="0"] .name a,
+#layout-main div.tag-column div.tag.abstract[data-anidb-weight="0"] .name a,
 #layout-main div.tag-column span.not_added a {
-	color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3) !important;
 }
 #layout-main div.chartag-list span.size0 a,
 #layout-main div.chartag-list span.size1 a,
-#layout-main div.tag-column div.tag[weight="100"] .name a {
-	color: rgba(16, 82, 137, 0.5);
+#layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a {
+	color: rgba(16, 82, 137, 0.5) !important;
 }
 #layout-main div.chartag-list span.size2 a,
-#layout-main div.tag-column div.tag[weight="200"] .name a {
-	color: rgba(16, 82, 137, 0.6);
+#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
+	color: rgba(16, 82, 137, 0.6) !important;
 }
 #layout-main div.chartag-list span.size3 a,
-#layout-main div.tag-column div.tag[weight="300"] .name a {
-	color: rgba(16, 82, 137, 0.7);
+#layout-main div.tag-column div.tag[data-anidb-weight="300"] .name a {
+	color: rgba(16, 82, 137, 0.7) !important;
 }
 #layout-main div.chartag-list span.size4 a,
 #layout-main div.chartag-list span.size5 a,
-#layout-main div.tag-column div.tag[weight="400"] .name a {
-	color: rgba(16, 82, 137, 0.8);
+#layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a {
+	color: rgba(16, 82, 137, 0.8) !important;
 }
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size7 a,
-#layout-main div.tag-column div.tag[weight="500"] .name a {
-	color: rgba(16, 82, 137, 1.0);
+#layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a {
+	color: rgba(16, 82, 137, 1.0) !important;
 }
 #layout-main div.chartag-list span.size8 a,
 #layout-main div.chartag-list span.size9 a,
 #layout-main div.chartag-list span.size10 a,
-#layout-main div.tag-column div.tag[weight="600"] .name a {
-	color: rgba(16, 82, 137, 1.0);
+#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
+	color: rgba(16, 82, 137, 1.0) !important;
 }
-#layout-main div.tag-column div.tag[weight="100"] .weight {
+#layout-main div.tag-column div.tag[data-anidb-weight="100"] .weight {
 	opacity: 0.3;
 }
-#layout-main div.tag-column div.tag[weight="200"] .weight {
+#layout-main div.tag-column div.tag[data-anidb-weight="200"] .weight {
 	opacity: 0.4;
 }
-#layout-main div.tag-column div.tag[weight="300"] .weight {
+#layout-main div.tag-column div.tag[data-anidb-weight="300"] .weight {
 	opacity: 0.6;
 }
-#layout-main div.tag-column div.tag[weight="400"] .weight {
+#layout-main div.tag-column div.tag[data-anidb-weight="400"] .weight {
 	opacity: 0.8;
 }
 
@@ -579,6 +590,7 @@ button,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
 #layout-main div.edit_actions a,
+#layout-main div.addfilem.form div.dump textarea,
 #layout-main div.forum div.quickreply textarea {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
@@ -608,6 +620,16 @@ a.tooltip span.text {
 	background-image: none;
 }
 
+select,
+textarea,
+input[type="text"],
+input[type="password"] {
+	background-color: #FDFDFD;
+}
+
+select:disabled,
+textarea:disabled,
+input[type="text"]:disabled,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover {
 	background-color: #E8E8E8;

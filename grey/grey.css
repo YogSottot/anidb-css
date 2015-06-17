@@ -2354,9 +2354,8 @@ display: none;
 padding: 0.6em;
 border: #898989 1px dashed;
 }
-#layout-main div.g_bubble.spoiler span.spoiler
+#layout-main div.g_bubble.spoiler div.spoiler_body
 {
-display:block;
 margin-bottom: 1em;
 }
 a.button,

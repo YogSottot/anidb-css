@@ -48,6 +48,7 @@ td.year,
 span.date,
 span.user,
 td.rating,
+td.nobr,
 #menu-account li.alert,
 #layout-main div.anime_all div.g_section.mylist td.title {
 	white-space:nowrap;
@@ -260,12 +261,6 @@ th.sortable {
 	text-decoration:underline;
 }
 
-#layout-main div.msg_all div.header div,
-#layout-main div.forumsearch_form div.field {
-	font-size:11px;
-	font-weight:bold;
-}
-
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column span.link {
 	line-height:1.5em;
@@ -295,7 +290,8 @@ h4.collapsed span {
 	font-size:1em;
 }
 
-#layout-main div.msg_all div.header div,
+#layout-main div.forumsearch_form div.field,
+#layout-main div.msg_all div.header div.field,
 #layout-main div.forum div.options-box div.field,
 #layout-main div.forum div.posting-box div.field,
 #layout-main div.forum div.add-box div.field,
@@ -325,6 +321,8 @@ caption,
 .v_high,
 .v_med,
 span.diff,
+#layout-main div.forumsearch_form div.field,
+#layout-main div.msg_all div.header div.field,
 #layout-main div.creq_all .state.new,
 #layout-main div.creq_all .state.return,
 #layout-main div.creq_all span.type.del,
