@@ -36,7 +36,7 @@
 	width:50%;
 }
 
-#layout-main div.myhints_all div.animelist_table + u.jump {
+#layout-main div.myhints_all div.animelist_table + ul.jump {
 	margin-top: 1em
 }
 
