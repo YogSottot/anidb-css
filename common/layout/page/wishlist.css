@@ -3,8 +3,8 @@
 }
 
 #layout-main div.mywishlist_all tr td {
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
 #layout-main div.mywishlist_all tr td.name {
@@ -12,7 +12,7 @@
 }
 
 #layout-main div.mywishlist_all tr td.comment {
-	min-width:30em;
+	min-width:10em;
 }
 
 #layout-main div.mywishlist_all tr td.rating,
