@@ -97,9 +97,10 @@
 }
 
 /** Thingie to hide/show g_menu's */
-#layout-main div.filter_menu h3 a {
+#layout-main div.filter_menu h3 a.i_icon {
 	cursor: pointer;
 	float: right;
+	margin-top: 5px;
 }
 
 /*chrome fix for the table overlapping the menu*/
