@@ -194,7 +194,7 @@ div.pagination span a {
 
 #layout-main div.forum a.topictitle {
 	font-family:"Trebuchet MS",Helvetica,Arial,Sans-serif;
-	font-size:13px;
+	font-size:1.3em;
 	font-weight:bold;
 }
 
@@ -205,19 +205,19 @@ div.pagination span a {
 }
 
 #layout-main div.forum div.statistics p {
-	font-size:11px;
+	font-size:1.2em;
 	line-height:1.3em;
 }
 
 #layout-main div.forum div.postbody div.code div.title {
 	font-family:"Lucida Grande","Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
-	font-size:1em;
+	font-size:1.2em;
 	font-weight:bold;
 }
 
 #layout-main div.forum div.postbody div.code code {
 	font-family:Monaco,"Andale Mono","Courier New",Courier,mono;
-	font-size:12px;
+	font-size:1.2em;
 }
 
 #layout-main div.forum div.options-box span.desc {
@@ -226,7 +226,7 @@ div.pagination span a {
 }
 
 #layout-main div.forum .g_bubble.infobox h2 {
-	font-size:16px;
+	font-size:1.6em;
 	font-weight:bold;
 }
 
@@ -271,7 +271,7 @@ h4.collapsed span {
 }
 
 #layout-main div.main_all div.header div.account ul.tabs li {
-	font-size: 13px;
+	font-size: 1.3em;
 }
 
 #layout-main div.forum ul.topics div.posts,
@@ -280,7 +280,7 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-group h3,
 #layout-main div.userpage_all div.userdetails div.block caption,
 #layout-main div.picupload_all input[type="file"] {
-	font-size:12px;
+	font-size:1.2em;
 }
 
 #layout-main div.forum .g_bubble.infobox p.subtitle,
@@ -309,7 +309,7 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.main_all div.datablocks > div.account {
-	font-size:11px;
+	font-size:1.1em;
 }
 
 h1,
@@ -383,11 +383,11 @@ a.tooltip:hover {
 a.tooltip span.text {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 10px;
+	font-size: 1em;
 }
 
 #layout-main div.tag-column h5 {
-	font-size: 11px;
+	font-size: 1.1em;
 	font-weight:bold;
 }
 
@@ -411,7 +411,7 @@ a.tooltip span.text {
 
 #layout-main div.admin_tags_all div.actions select,
 #layout-main div.addtagentityrel_all #tag-groups span.link {
-	font-size: 12px;
+	font-size: 1.2em;
 }
 
 #layout-main div.addcreatoranimerel_all div.content h4 span.nolink {
@@ -425,7 +425,7 @@ a.tooltip span.text {
 }
 
 #layout-main #chartags a.tooltip span.cnt {
-    font-size: 10px;
+    font-size: 1em;
 }
 
 #statusBox,

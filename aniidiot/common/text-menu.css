@@ -1,5 +1,5 @@
 #layout-menu {
-	font-size: 11px;
+	font-size: 1.047em;
 }
 
 #layout-menu li.sub-menu,
@@ -18,7 +18,7 @@
 }
 
 #layout-search div.search a.advsearch {
-	font-size: 9px;
+	font-size: 0.857em;
 }
 
 #layout-menu span.tab {

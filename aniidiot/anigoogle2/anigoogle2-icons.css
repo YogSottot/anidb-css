@@ -114,7 +114,6 @@ button,
 #layout-main ul.g_list li a,
 #layout-main ul.g_list li span.nolink {
 	display: inline-block;
-	font-size: 14px/1;
 	font-family: FontAwesome,Arial,Helvetica,sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -366,7 +365,7 @@ button.preview:before {
 .i_plus {
 	height: auto;
 	width:16px;
-	font-size:14px;
+	font-size: 1.333em;
 }
 .i_plus:after {
 	content: "\f0fe";
@@ -473,7 +472,7 @@ button.preview:before {
 	color: #FFFFFF;
 	display: inline-block !important;
 	font-family: Arial,Helvetica,sans-serif;
-	font-size: 9px;
+	font-size: 0.857em;
 	font-weight: bold;
 	text-align: center;
 	width:100%;
