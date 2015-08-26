@@ -309,7 +309,7 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.main_all div.datablocks > div.account {
-	font-size:1.1em;
+	font-size:1em;
 }
 
 h1,
@@ -383,11 +383,11 @@ a.tooltip:hover {
 a.tooltip span.text {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 #layout-main div.tag-column h5 {
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	font-weight:bold;
 }
 
@@ -425,7 +425,7 @@ a.tooltip span.text {
 }
 
 #layout-main #chartags a.tooltip span.cnt {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 #statusBox,

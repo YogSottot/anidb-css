@@ -44,7 +44,7 @@ input[type="submit"],
 
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
-	font-size: 0.857em;
+	font-size: 0.857rem;
 }
 
 #menu-account li.alert a span:before,
