@@ -1,6 +1,6 @@
 html {
   font-size: 0.68em;
-  font-family: 'Montserrat', Verdana, Tahoma, Arial, Helvetica, sans-serif;
+  font-family: Roboto, Verdana, Tahoma, Arial, Helvetica, sans-serif;
 }
 
 a.i_icon:hover,
@@ -35,7 +35,7 @@ button,
 input[type="button"],
 input[type="submit"],
 #layout-nav input.submit {
-	font-size: 1.05em;
+	font-size: 1.05rem;
 }
 
 #layout-main div.animeatt_reviews div.review h4,
