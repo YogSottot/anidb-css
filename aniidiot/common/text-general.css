@@ -74,3 +74,8 @@ input[type="button"] {
 #layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
 	font-size: 1.33em;
 }
+
+#layout-main div.forum a.topictitle,
+#layout-main div.forum div.postbody div.code div.title {
+	font-family: inherit;
+}
