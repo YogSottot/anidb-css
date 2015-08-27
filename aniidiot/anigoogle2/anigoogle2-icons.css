@@ -114,7 +114,7 @@ button,
 #layout-main ul.g_list li a,
 #layout-main ul.g_list li span.nolink {
 	display: inline-block;
-	font-family: FontAwesome,Arial,Helvetica,sans-serif;
+	font-family: FontAwesome,'Montserrat', Verdana, Tahoma, Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	text-rendering: auto;
@@ -471,7 +471,6 @@ button.preview:before {
 .i_vrs_9 span {
 	color: #FFFFFF;
 	display: inline-block !important;
-	font-family: Arial,Helvetica,sans-serif;
 	font-size: 0.86rem;
 	font-weight: bold;
 	text-align: center;
