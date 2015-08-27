@@ -387,3 +387,7 @@ button,
 #layout-main div.forum div.buttons a + a {
 	margin-left: 0.4em !important;
 }
+
+#layout-main div.block div.data table th {
+	width: 9.5em;
+}
