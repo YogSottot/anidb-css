@@ -1,7 +1,7 @@
 html {
-  font-size: 0.7em;
-  letter-spacing:0.05em;
-  font-family: Roboto, Verdana, Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 0.66em;
+  /*letter-spacing:0.02em;*/
+  font-family: 'Source Sans Pro', Verdana, Tahoma, Arial, Helvetica, sans-serif;
 }
 
 a.i_icon:hover,
