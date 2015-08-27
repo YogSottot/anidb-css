@@ -79,3 +79,10 @@ input[type="button"] {
 #layout-main div.forum div.postbody div.code div.title {
 	font-family: inherit;
 }
+
+span.date,
+span.user a.id,
+td.id,
+td.size {
+	letter-spacing: 0;
+}

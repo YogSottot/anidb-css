@@ -38,6 +38,8 @@
 	font-weight: bold;
 	text-align: center;
 	width:100%;
+	vertical-align: top;
+	line-height: 1.5;
 }
 
 .i_ext.video {
