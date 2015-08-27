@@ -199,6 +199,7 @@ div.pagination span a {
 }
 
 #layout-main div.forum div.statistics h3 {
+	font-size: 0.952em;
 	font-weight:bold;
 	text-transform:uppercase;
 }
