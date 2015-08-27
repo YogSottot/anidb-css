@@ -22,17 +22,17 @@ ins {
 }
 
 h1 {
-	font-size:160%;
+	font-size:1.6rem;
 }
 
 h1 a {
-	font-size:100%;
+	font-size: 1em;
 }
 
 h4,
 caption,
 #layout-main #chartags h3 {
-	font-size:120%;
+	font-size: 1.2rem;
 }
 
 .tab,
@@ -65,7 +65,7 @@ span.time,
 span.user a.id,
 td.rating span,
 a.filter {
-	font-size:80%;
+	font-size:0.8rem;
 	vertical-align:top;
 }
 
@@ -134,7 +134,7 @@ td.check,
 small,
 #layout-main .name span.main,
 #layout-main .name span.match {
-	font-size:95%;
+	font-size:0.95rem;
 }
 
 #layout-main div.userlist_all table td.hidden:after {
@@ -157,7 +157,7 @@ small,
 }
 
 #layout-main div.japan_time {
-	font-size:120%;
+	font-size:1.2rem;
 	font-weight:bold;
 	text-align:left;
 }
@@ -194,12 +194,12 @@ div.pagination span a {
 
 #layout-main div.forum a.topictitle {
 	font-family:"Trebuchet MS",Helvetica,Arial,Sans-serif;
-	font-size:1.238rem;
+	font-size:1.24rem;
 	font-weight:bold;
 }
 
 #layout-main div.forum div.statistics h3 {
-	font-size: 0.952em;
+	font-size: 0.95em;
 	font-weight:bold;
 	text-transform:uppercase;
 }
@@ -221,7 +221,7 @@ div.pagination span a {
 }
 
 #layout-main div.forum .g_bubble.infobox h2 {
-	font-size:1.524em;
+	font-size:1.52em;
 	font-weight:bold;
 }
 
@@ -304,7 +304,7 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.main_all div.datablocks > div.account {
-	font-size:1.047rem;
+	font-size:1.05rem;
 }
 
 h1,
@@ -425,5 +425,5 @@ a.tooltip span.text {
 
 #statusBox,
 #obj-tooltip {
-	font-size: x-small;
+	font-size: 0.85rem;
 }

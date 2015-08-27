@@ -365,7 +365,7 @@ button.preview:before {
 .i_plus {
 	height: auto;
 	width:16px;
-	font-size: 1.333em;
+	font-size: 1.33rem;
 }
 .i_plus:after {
 	content: "\f0fe";
@@ -472,7 +472,7 @@ button.preview:before {
 	color: #FFFFFF;
 	display: inline-block !important;
 	font-family: Arial,Helvetica,sans-serif;
-	font-size: 0.857rem;
+	font-size: 0.86rem;
 	font-weight: bold;
 	text-align: center;
 	width:100%;

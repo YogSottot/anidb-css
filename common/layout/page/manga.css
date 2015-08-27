@@ -177,21 +177,21 @@
 
 #layout-main div.manga_all table.elementlist,
 #layout-main div.manga_all table.subelementlist {
-width:98%;
+	width:98%;
 }
 
 #layout-main div.manga_all table.elementlist.mixed tr.parent {
-background-color: inherit;
+	background-color: inherit;
 }
 
 #layout-main div.manga_all table.elementlist.mixed,
 #layout-main div.manga_all table.elementlist.mixed  tr.parent td {
-border: none;
+	border: none;
 }
 
 #layout-main div.manga_all table.elementlist.mixed tr.parent td {
-font-size:140%;
-padding-top: 1em;
+	font-size:1.4rem;
+	padding-top: 1em;
 }
 
 #layout-main div.manga_all table.elementlist td.no,
