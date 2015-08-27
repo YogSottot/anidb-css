@@ -634,6 +634,10 @@ div.g_bubble.quotebody {
 	display: block;
 }
 
+#layout-main div.forum div.statistics p {
+	line-height:1.3em;
+}
+
 /*polls*/
 #layout-main div.forum .g_bubble.infobox {
 	margin-bottom: 1em;
