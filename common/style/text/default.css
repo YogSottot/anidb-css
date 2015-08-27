@@ -194,7 +194,7 @@ div.pagination span a {
 
 #layout-main div.forum a.topictitle {
 	font-family:"Trebuchet MS",Helvetica,Arial,Sans-serif;
-	font-size:1.3em;
+	font-size:1.238rem;
 	font-weight:bold;
 }
 
@@ -309,7 +309,7 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.main_all div.datablocks > div.account {
-	font-size:1.047em;
+	font-size:1.047rem;
 }
 
 h1,
