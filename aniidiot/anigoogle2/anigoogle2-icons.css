@@ -471,12 +471,12 @@ button.preview:before {
 .i_vrs_9 span {
 	color: #FFFFFF;
 	display: inline-block !important;
-	font-size: 0.86rem;
+	font-size: 0.83rem;
 	font-weight: bold;
 	text-align: center;
 	width:100%;
 	vertical-align: top;
-	line-height: 1.5;
+	line-height: 1.4;
 }
 
 .i_ext.audio {
