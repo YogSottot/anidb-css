@@ -23,7 +23,7 @@ body {
 #layout-menu {
 	display: block;
 	margin-left: 0.9em;
-	position: relative;
+	position: static;
 	width: 10em;
 	padding-top: 1px;
 }
