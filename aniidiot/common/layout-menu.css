@@ -23,6 +23,7 @@ body {
 #layout-menu {
 	display: block;
 	margin-left: 0.9em;
+	position: relative;
 	width: 10em;
 	padding-top: 1px;
 }
@@ -38,6 +39,7 @@ body {
 	display: block;
 	margin-left: 0;
 	padding: 0;
+	position: relative;
 }
 
 #layout-menu li.sub-menu {
@@ -153,6 +155,7 @@ body {
 }
 
 #layout-menu li.sub-menu ul li.main a {
+	position: absolute;
 	height: 75px;
 	margin-top: -100px;
 	width: 44em;
