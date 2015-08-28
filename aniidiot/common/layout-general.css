@@ -94,9 +94,6 @@ h4,
 
 #layout-menu {
 	display: block;
-	left: 0;
-	position: absolute;
-	top: 0;
 	z-index: 105;
 }
 
@@ -156,7 +153,6 @@ h4,
 
 #layout-menu > li ul {
 	display: none;
-	position: absolute;
 	z-index: 105;
 	margin-left: -.7em;
 	padding: 0;
