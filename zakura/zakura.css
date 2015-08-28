@@ -107,7 +107,7 @@
 	display: block;
 	padding-left: 18px;
 	margin-top: 3em;
-	margin-bottom: -4.5em;
+	margin-bottom: -4.75em;
 }
 
 #layout-main h1
@@ -421,6 +421,7 @@ a.tooltip span.text
 #layout-main div.forum a.topictitle {
 	display: inline-block;
 	vertical-align: top;
+	font-size:1.04rem;
 }
 
 button,
