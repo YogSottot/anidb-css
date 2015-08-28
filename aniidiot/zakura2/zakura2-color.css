@@ -1,6 +1,4 @@
-#layout-search {
-	background:url("images/logo.jpg") no-repeat scroll left top transparent;
-}
+/*anidbstyle3 - defaults*/
 
 #layout-search div.search,
 #layout-menu li.sub-menu ul li#user-logout a,
@@ -849,4 +847,25 @@ button,
 #layout-menu li.sub-menu ul li > span button:hover {
 	background-color: #B9BBBF !important;
 	color: #AA0000 !important;
+}
+
+
+/*</anidbstyle 3 defaults FIX THAT SHIT>*/
+
+/*new stuff*/
+body {
+	background: #F8F7FF url("images/bg-content.gif") repeat scroll left top;
+}
+
+#layout-search {
+	background:url("images/logo.jpg") no-repeat scroll left top transparent;
+}
+
+#layout-search div.search {
+	background:url("images/bg-header.gif") no-repeat scroll left top transparent;
+}
+
+#layout-content {
+    border-top: 1px solid #F8F7FF;
+    background-color: #F8F7FF;
 }

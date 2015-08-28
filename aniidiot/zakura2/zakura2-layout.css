@@ -1,0 +1,16 @@
+#layout-search {
+	top: 0;
+}
+
+#layout-search,
+#layout-search div.search {
+	height: 166px;
+}
+
+#layout-nav {
+	margin-top: 200px;
+}
+
+#layout-tabs {
+    margin: 181px 3px 0;
+}
