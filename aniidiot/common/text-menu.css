@@ -1,10 +1,10 @@
 #layout-menu {
-	font-size: 11px;
+	font-size: 1.01rem;
 }
 
 #layout-menu li.sub-menu,
 #layout-tabs {
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 #layout-nav div.search a.advsearch {
@@ -18,7 +18,7 @@
 }
 
 #layout-search div.search a.advsearch {
-	font-size: 9px;
+	font-size: 0.83rem;
 }
 
 #layout-menu span.tab {

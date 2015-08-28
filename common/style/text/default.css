@@ -1,6 +1,6 @@
 html {
 	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
-	font-size:10px;
+	font-size:0.625rem;
 }
 
 div,
@@ -22,17 +22,17 @@ ins {
 }
 
 h1 {
-	font-size:160%;
+	font-size:1.55rem;
 }
 
 h1 a {
-	font-size:100%;
+	font-size: 1em;
 }
 
 h4,
 caption,
 #layout-main #chartags h3 {
-	font-size:120%;
+	font-size: 1.2rem;
 }
 
 .tab,
@@ -65,7 +65,7 @@ span.time,
 span.user a.id,
 td.rating span,
 a.filter {
-	font-size:80%;
+	font-size:0.8rem;
 	vertical-align:top;
 }
 
@@ -134,7 +134,7 @@ td.check,
 small,
 #layout-main .name span.main,
 #layout-main .name span.match {
-	font-size:95%;
+	font-size:0.95rem;
 }
 
 #layout-main div.userlist_all table td.hidden:after {
@@ -157,7 +157,7 @@ small,
 }
 
 #layout-main div.japan_time {
-	font-size:120%;
+	font-size:1.2rem;
 	font-weight:bold;
 	text-align:left;
 }
@@ -187,37 +187,32 @@ div.pagination span a {
 }
 
 #layout-main div.forum li.header div.segment {
-	font-size:1em;
+	font-size:1rem;
 	font-weight:bold;
 	text-transform:uppercase;
 }
 
 #layout-main div.forum a.topictitle {
 	font-family:"Trebuchet MS",Helvetica,Arial,Sans-serif;
-	font-size:13px;
+	font-size:1.15rem;
 	font-weight:bold;
 }
 
 #layout-main div.forum div.statistics h3 {
-	font-size:10px;
+	font-size: 0.95rem;
 	font-weight:bold;
 	text-transform:uppercase;
 }
 
-#layout-main div.forum div.statistics p {
-	font-size:11px;
-	line-height:1.3em;
-}
-
 #layout-main div.forum div.postbody div.code div.title {
 	font-family:"Lucida Grande","Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
-	font-size:1em;
+	font-size:1.2rem;
 	font-weight:bold;
 }
 
 #layout-main div.forum div.postbody div.code code {
 	font-family:Monaco,"Andale Mono","Courier New",Courier,mono;
-	font-size:12px;
+	font-size:1.2rem;
 }
 
 #layout-main div.forum div.options-box span.desc {
@@ -226,7 +221,7 @@ div.pagination span a {
 }
 
 #layout-main div.forum .g_bubble.infobox h2 {
-	font-size:16px;
+	font-size:1.52rem;
 	font-weight:bold;
 }
 
@@ -271,7 +266,7 @@ h4.collapsed span {
 }
 
 #layout-main div.main_all div.header div.account ul.tabs li {
-	font-size: 13px;
+	font-size: 1.3rem;
 }
 
 #layout-main div.forum ul.topics div.posts,
@@ -280,14 +275,14 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-group h3,
 #layout-main div.userpage_all div.userdetails div.block caption,
 #layout-main div.picupload_all input[type="file"] {
-	font-size:12px;
+	font-size:1.2rem;
 }
 
 #layout-main div.forum .g_bubble.infobox p.subtitle,
 #layout-main div.forum div.postbody div.code,
 #layout-main div.userpage_all div.block caption,
 #layout-main div.userpage_all div.block h3 {
-	font-size:1em;
+	font-size:1rem;
 }
 
 #layout-main div.forumsearch_form div.field,
@@ -309,7 +304,7 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.main_all div.datablocks > div.account {
-	font-size:11px;
+	font-size:1.01rem;
 }
 
 h1,
@@ -383,11 +378,11 @@ a.tooltip:hover {
 a.tooltip span.text {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 10px;
+	font-size: 1rem;
 }
 
 #layout-main div.tag-column h5 {
-	font-size: 11px;
+	font-size: 1.1rem;
 	font-weight:bold;
 }
 
@@ -411,7 +406,7 @@ a.tooltip span.text {
 
 #layout-main div.admin_tags_all div.actions select,
 #layout-main div.addtagentityrel_all #tag-groups span.link {
-	font-size: 12px;
+	font-size: 1.2rem;
 }
 
 #layout-main div.addcreatoranimerel_all div.content h4 span.nolink {
@@ -425,10 +420,10 @@ a.tooltip span.text {
 }
 
 #layout-main #chartags a.tooltip span.cnt {
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 #statusBox,
 #obj-tooltip {
-	font-size: x-small;
+	font-size: 0.85rem;
 }
