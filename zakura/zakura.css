@@ -424,7 +424,13 @@ a.tooltip span.text
 	font-size:1.04rem;
 }
 
+#layout-main ul.g_list + button,
+#layout-main div.forum div.buttons a + a {
+	margin-left: 0.4em !important;
+}
+
 button,
 .g_button, #layout-main ul.g_list li {
-	display: inline-table;
+    display: inline-block;
+    vertical-align: top;
 }
