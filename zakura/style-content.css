@@ -62,22 +62,6 @@ div.agcmts_all div.agcmts_head:after
 	color:#de4799;
 }
 
-.g_list li.prev
-{
-	background:transparent url(images/layout/larr.gif) no-repeat left center;
-	float:left;
-	font-weight:normal;
-	padding-left:12px;
-}
-
-.g_list li.next
-{
-	background:transparent url(images/layout/rarr.gif) no-repeat right center;
-	float:right;
-	font-weight:normal;
-	padding-right:12px;
-}
-
 .g_list li.all:before
 {
 	color:#3d3e6e;
