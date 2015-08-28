@@ -543,13 +543,13 @@ th a,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
-	background-color: #7762ED;
+	background-color: #305C97;
 }
 
 /*box shadow*/
 .g_bubble,
 #layout-hint,
-#layout-content,
+#layout-main div.g_content,
 #layout-main div.g_msg,
 #layout-menu li.sub-menu ul,
 #layout-main div.userpage_all div.g_menu ul,
@@ -558,6 +558,10 @@ th a,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main > h1 {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+#layout-content {
+	box-shadow: 0;
 }
 
 .i_comment_add,
