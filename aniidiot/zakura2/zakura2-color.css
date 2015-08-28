@@ -699,6 +699,6 @@ html {
     color: #8E83A9;
 }
 
-#layout-menu ul li {
+#layout-menu li.sub-menu ul li {
     border-bottom-color: #FFECF5;
 }
