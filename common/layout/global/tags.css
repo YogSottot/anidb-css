@@ -257,39 +257,39 @@
 /*character tag cloud sizes*/
 #layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a,
 #layout-main div.chartag-list span.size0 {
-	font-size: 80%;
+	font-size: 0.8rem;
 }
 #layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a,
 #layout-main div.chartag-list span.size1 {
-	font-size: 85%;
+	font-size: 0.85rem;
 }
 #layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a,
 #layout-main div.chartag-list span.size2 {
-	font-size: 90%;
+	font-size: 0.9rem;
 }
 #layout-main div.chartag-list span.size3 {
-	font-size: 95%;
+	font-size: 0.95rem;
 }
 #layout-main div.chartag-list span.size4 {
-	font-size: 100%;
+	font-size: 1rem;
 }
 #layout-main div.chartag-list span.size5 {
-	font-size: 120%;
+	font-size: 1.2rem;
 }
 #layout-main div.chartag-list span.size6 {
-	font-size: 140%;
+	font-size: 1.4rem;
 }
 #layout-main div.chartag-list span.size7 {
-	font-size: 160%;
+	font-size: 1.6rem;
 }
 #layout-main div.chartag-list span.size8 {
-	font-size: 180%;
+	font-size: 1.8rem;
 }
 #layout-main div.chartag-list span.size9 {
-	font-size: 200%;
+	font-size: 2rem;
 }
 #layout-main div.chartag-list span.size10 {
-	font-size: 220%;
+	font-size: 2.2rem;
 }
 
 #layout-main div.chartag-list span.hidden {display:none;}

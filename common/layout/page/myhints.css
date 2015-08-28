@@ -1,0 +1,64 @@
+#layout-main div.myhints_all td.awards span.i_icon,
+#layout-main div.myhints_all div.filters ul li span,
+#layout-main div.myhints_all div.filters ul li span span {
+    display: inline-block;
+}
+
+#layout-main div.myhints_all div.filters ul li span span span {
+    display: none;
+}
+
+#layout-main div.myhints_all div.enabled_filters li > span {
+    display: inline-block;
+}
+
+#layout-main div.myhints_all div.note,
+#layout-main div.myhints_all div.fullsearch_form {
+	clear:none;
+}
+
+#layout-main div.myhints_all table.animelist tr th,
+#layout-main div.myhints_all table.animelist tr td {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+#layout-main div.myhints_all table.animelist tr td.count,
+#layout-main div.myhints_all table.animelist tr td.date {
+	text-align: right;
+}
+
+#layout-main div.myhints_all table.animelist tr td.rating {
+	text-align: left;
+}
+
+#layout-main div.myhints_all table.animelist tr td.name {
+	width:50%;
+}
+
+#layout-main div.myhints_all div.animelist_table + ul.jump {
+	margin-top: 1em
+}
+
+@media screen and (min-width: 1200px) {
+	#layout-main div.myhints_all table.animelist tr td.name
+	{
+		width:75%;
+	}
+
+	#layout-main div.myhints_all table.animelist tr td.rating
+	{
+		text-align: left;
+		min-width:6em;
+	}
+
+	#layout-main div.myhints_all table.animelist tr td.count
+	{
+		min-width:4em;
+	}
+
+	#layout-main div.myhints_all td.type
+	{
+		white-space:nowrap;
+	}
+}

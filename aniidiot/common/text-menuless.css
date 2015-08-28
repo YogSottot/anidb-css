@@ -1,4 +1,5 @@
 #layout-nav div.main_search a.advsearch {
+	font-family: arial,sans-serif;
 	text-decoration: underline;
 	text-transform: capitalize;
 }

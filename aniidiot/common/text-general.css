@@ -1,6 +1,5 @@
 html {
   font-size: 0.68em;
-  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
 }
 
 a.i_icon:hover,
@@ -22,7 +21,7 @@ input[type="text"],
 input[type="password"],
 textarea,
 #layout-main div.userpage_all div.content > h3 {
-	font-size: 1.15em;
+	font-size: 1.15rem;
 }
 
 select,
@@ -40,7 +39,7 @@ input[type="submit"],
 
 #layout-main div.animeatt_reviews div.review h4,
 #layout-main div.userpage_all div.blog div.g_timedentry h4 {
-	font-size: 1.33em;
+	font-size: 1.33rem;
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp,
@@ -72,5 +71,5 @@ input[type="button"] {
 
 #layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a,
 #layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
-	font-size: 1.33em;
+	font-size: 1.33rem;
 }

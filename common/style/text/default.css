@@ -1,6 +1,6 @@
 html {
 	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
-	font-size:10px;
+	font-size:0.625rem;
 }
 
 div,
@@ -187,7 +187,7 @@ div.pagination span a {
 }
 
 #layout-main div.forum li.header div.segment {
-	font-size:1em;
+	font-size:1rem;
 	font-weight:bold;
 	text-transform:uppercase;
 }
@@ -199,20 +199,20 @@ div.pagination span a {
 }
 
 #layout-main div.forum div.statistics h3 {
-	font-size: 0.95em;
+	font-size: 0.95rem;
 	font-weight:bold;
 	text-transform:uppercase;
 }
 
 #layout-main div.forum div.postbody div.code div.title {
 	font-family:"Lucida Grande","Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
-	font-size:1.2em;
+	font-size:1.2rem;
 	font-weight:bold;
 }
 
 #layout-main div.forum div.postbody div.code code {
 	font-family:Monaco,"Andale Mono","Courier New",Courier,mono;
-	font-size:1.2em;
+	font-size:1.2rem;
 }
 
 #layout-main div.forum div.options-box span.desc {
@@ -221,7 +221,7 @@ div.pagination span a {
 }
 
 #layout-main div.forum .g_bubble.infobox h2 {
-	font-size:1.52em;
+	font-size:1.52rem;
 	font-weight:bold;
 }
 
@@ -266,7 +266,7 @@ h4.collapsed span {
 }
 
 #layout-main div.main_all div.header div.account ul.tabs li {
-	font-size: 1.3em;
+	font-size: 1.3rem;
 }
 
 #layout-main div.forum ul.topics div.posts,
@@ -275,14 +275,14 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-group h3,
 #layout-main div.userpage_all div.userdetails div.block caption,
 #layout-main div.picupload_all input[type="file"] {
-	font-size:1.2em;
+	font-size:1.2rem;
 }
 
 #layout-main div.forum .g_bubble.infobox p.subtitle,
 #layout-main div.forum div.postbody div.code,
 #layout-main div.userpage_all div.block caption,
 #layout-main div.userpage_all div.block h3 {
-	font-size:1em;
+	font-size:1rem;
 }
 
 #layout-main div.forumsearch_form div.field,
@@ -406,7 +406,7 @@ a.tooltip span.text {
 
 #layout-main div.admin_tags_all div.actions select,
 #layout-main div.addtagentityrel_all #tag-groups span.link {
-	font-size: 1.2em;
+	font-size: 1.2rem;
 }
 
 #layout-main div.addcreatoranimerel_all div.content h4 span.nolink {

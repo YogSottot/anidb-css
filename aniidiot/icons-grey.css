@@ -161,6 +161,7 @@
 .i_ext span {
 	color: #DDDDDD;
 	display: inline-block !important;
+	font-family: Arial,Helvetica,sans-serif;
 	font-size: 0.83rem;
 	font-weight: bold;
 	text-align: center;
