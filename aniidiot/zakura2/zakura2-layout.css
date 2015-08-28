@@ -54,3 +54,7 @@
 #layout-search div.search a.advsearch {
 	top: 11em;
 }
+
+#layout-search .text {
+	width: 18em;
+}
