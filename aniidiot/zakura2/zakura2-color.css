@@ -509,7 +509,6 @@ a.tooltip span.text:before {
 }
 
 table th,
-#layout-main > h1,
 #layout-main div.g_timedentry h4,
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a,
@@ -528,7 +527,6 @@ table th,
 
 th,
 th a,
-#layout-main > h1,
 #layout-main table tr.header,
 #layout-main div.g_timedentry h4,
 #layout-menu li.sub-menu ul li:hover,
@@ -555,13 +553,13 @@ th a,
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
-#layout-main > h1 {
+#layout-main div.userpage_all > div.g_section > h4 {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
+#layout-main > h1,
 #layout-content {
-	box-shadow: 0;
+	box-shadow: none;
 }
 
 .i_comment_add,
@@ -677,4 +675,14 @@ html {
 #layout-content {
     border-top: 1px solid #F8F7FF;
     background-color: #F8F7FF;
+}
+
+#layout-main > h1 {
+	background-color: inherit;
+	color: #494A9C !important;
+}
+
+.g_definitionlist table th {
+    background-color: transparent;
+    color: #8E83A9;
 }

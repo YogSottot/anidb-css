@@ -3,7 +3,8 @@
 }
 
 #layout-tabs {
-    margin: 160px 3px 0;
+	margin: 190px 0 0 135px;
+	text-align: left;
 }
 
 #layout-search,
@@ -26,4 +27,8 @@
 
 #layout-main div.g_content {
 	padding:1em;
+}
+
+#layout-main > h1 {
+	margin: 0px 0px 0.3em 0.5em;
 }
