@@ -679,10 +679,9 @@ html {
 	background:url("images/logo.jpg") no-repeat scroll left top transparent;
 }
 
-#layout-menu a:hover,
-#layout-menu a:active {
+ #layout-menu li.sub-menu ul li:hover {
     background: transparent url("images/stripe-pink.gif") repeat scroll left top;
-    color: #484B9A;
+    color: #484B9A !important;
 }
 
 #layout-content {
@@ -701,5 +700,5 @@ html {
 }
 
 #layout-menu ul li {
-    border-bottom: 1px solid #FFECF5;
+    border-bottom-color: #FFECF5;
 }
