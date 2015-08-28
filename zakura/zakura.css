@@ -419,5 +419,11 @@ a.tooltip span.text
 }
 
 #layout-main div.forum a.topictitle {
-	font-size: 1.04rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+button,
+.g_button, #layout-main ul.g_list li {
+	display: inline-table;
 }
