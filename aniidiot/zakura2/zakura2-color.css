@@ -702,3 +702,16 @@ html {
 #layout-menu li.sub-menu ul li + li {
     border-top-color: #FFECF5 !important;
 }
+
+#layout-menu #menu-account {
+    background: transparent url("images/bg-login.png") no-repeat scroll right top;
+}
+
+#layout-menu #user-logout a,
+#layout-menu #user-logout a:link,
+#layout-menu #user-logout a:visited {
+    background: transparent url("images/trans-blue.png") repeat scroll left top;
+    border-left: 1px solid #E7C7D5;
+    border-right: 1px solid #E7C7D5;
+    color: #4A63E1;
+}

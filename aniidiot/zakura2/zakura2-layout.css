@@ -58,3 +58,33 @@
 #layout-search .text {
 	width: 18em;
 }
+
+#layout-menu #menu-account {
+    margin: 0;
+    top: 0;
+    left: auto;
+    position: absolute;
+    right: 1em;
+    padding-left: 200px;
+    height: 102px;
+    border: medium none;
+    text-align: right;
+    display: table;
+}
+
+#layout-menu #menu-account li {
+    border-top: none;
+    display: block;
+    float: right;
+}
+
+#layout-menu #menu-account li a {
+    display: table-cell;
+    height: 102px;
+    vertical-align: bottom;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 0 4px;
+    border-bottom: medium none;
+}
