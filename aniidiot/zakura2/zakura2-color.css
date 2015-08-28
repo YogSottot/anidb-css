@@ -700,5 +700,5 @@ html {
 }
 
 #layout-menu li.sub-menu ul li {
-    border-bottom-color: #FFECF5;
+    border-color-top: #FFECF5;
 }
