@@ -16,6 +16,7 @@
 @import "../common/style/content/page-anime.css";
 @import "../common/style/content/page-main.css";
 
+@import "../aniidiot/anigoogle2/anigoogle2-icons.css";
 @import "../icons/all.css";
 @import "../icons/zakura.css";
 
@@ -415,4 +416,8 @@ a.tooltip span.text
 	-webkit-border-radius: 0 5px 0 0;
 	-moz-border-radius: 0 5px 0 0;
     border-radius: 0 5px 0 0;
+}
+
+#layout-main div.forum a.topictitle {
+	font-size: 1.04rem;
 }
