@@ -9,7 +9,7 @@ div.main_all div.rightbar {
 	width: 25%;
 	background: #fcfafb url(images/layout/mamimi.png) no-repeat right top;
 	padding: 14em 0 0;
-	font-size: 0.95em;
+	font-size: 0.95rem;
 	border: 1px solid #e4e4e4;
 	border-right-color: #d5cccc;
 	border-bottom-color: #d5cccc;
@@ -28,7 +28,7 @@ div.main_all div.rightbar h3 {
 div.main_all div.rightbar h4 {
 	color: #4d4993;
 	padding: 0.3em 1em;
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	font-weight: bold;
 }
 div.main_all div.rightbar p {
@@ -99,7 +99,7 @@ div.main_all div.news span.stamp {
 	display: block;
 	color: #859efd;
 	padding: 0.2em;
-	font-size: 0.85em;
+	font-size: 0.85rem;
 }
 div.main_all div.newsitem:last-child {
 	border-bottom: 0;

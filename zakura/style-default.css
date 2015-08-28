@@ -1,7 +1,10 @@
+html {
+	font-size: 0.75em;
+}
+
 body {
 	margin: 0;
 	width: 100%;
-	font: 9pt Verdana,Arial,Helvetica,sans-serif;
 	line-height: 1.5;
 	color: #3d3e6e;
 	background: #f8f7ff url(images/layout/bg-content.gif) repeat left top;
@@ -43,7 +46,7 @@ h4, caption {
 }
 
 .s_small {
-	font-size: 0.9em;
+	font-size: 0.9rem;
 }
 
 abbr {

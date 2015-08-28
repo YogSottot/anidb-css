@@ -48,7 +48,7 @@ div.agcmts_all div.agcmts_head:after
 	border:1px solid #f7edf1;
 	border-bottom:1px solid #d28cb2;
 	color:#d28cb2;
-	font-size:.95em;
+	font-size:.95rem;
 	font-weight:normal;
 	padding:.2em .3em;
 	text-decoration:none;
@@ -60,22 +60,6 @@ div.agcmts_all div.agcmts_head:after
 	background:transparent url(images/layout/stripe-pink2.gif) repeat left top;
 	border:1px solid #eec6dc;
 	color:#de4799;
-}
-
-.g_list li.prev
-{
-	background:transparent url(images/layout/larr.gif) no-repeat left center;
-	float:left;
-	font-weight:normal;
-	padding-left:12px;
-}
-
-.g_list li.next
-{
-	background:transparent url(images/layout/rarr.gif) no-repeat right center;
-	float:right;
-	font-weight:normal;
-	padding-right:12px;
 }
 
 .g_list li.all:before
@@ -192,19 +176,17 @@ g_bubble
 
 .g_list.links
 {
-	background:#dff1ff;
-	background-image:none;
-	border:1px solid #b0dafb;
 	clear:both;
-	padding:.3em 1em .4em;
-	text-align:center;
-	text-transform:capitalize;
 }
 
 .g_list.links li
 {
+	background:#dff1ff;
+	background-image:none;
+	border:1px solid #b0dafb;
 	display:inline;
-	margin:0 .7em;
+	text-align:center;
+	text-transform:capitalize;
 }
 
 input[type="text"],
@@ -289,7 +271,7 @@ table td span.count
 table td
 {
 	border-bottom:1px dotted #d3d7e2;
-	font-size:.95em;
+	font-size:.95rem;
 	padding:.3em .4em;
 }
 
@@ -297,7 +279,7 @@ div.mylist_list table.animelist td td,
 div.anime_all div.episodes table.eplist td td,
 div.anime_info td td
 {
-	font-size:1em;
+	font-size: inherit;
 }
 
 div.mylist_list table.animelist td.action,
@@ -344,7 +326,7 @@ div.mylist_list table.eplist th,
 div.anime_all div.episodes table.filelist th
 {
 	background-color:#a9b0e1;
-	font-size:.95em;
+	font-size:.95rem;
 }
 
 div.mylist_list td.icons.file span

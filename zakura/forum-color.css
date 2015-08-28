@@ -58,3 +58,6 @@
 {
 	background-color: inherit;
 }
+#layout-main div.cmt_entries div.profile {
+	border-right-color: #E4E4E4;
+}

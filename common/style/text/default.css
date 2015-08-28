@@ -1,6 +1,7 @@
 html {
 	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
-	font-size:0.625rem;
+	/*font-size:0.625rem;*/
+	font-size: 10px;
 }
 
 div,
@@ -22,11 +23,11 @@ ins {
 }
 
 h1 {
-	font-size:1.55rem;
+	font-size:1.6rem;
 }
 
 h1 a {
-	font-size: 1em;
+	font-size: inherit;
 }
 
 h4,
@@ -194,7 +195,7 @@ div.pagination span a {
 
 #layout-main div.forum a.topictitle {
 	font-family:"Trebuchet MS",Helvetica,Arial,Sans-serif;
-	font-size:1.15rem;
+	font-size:1.23rem;
 	font-weight:bold;
 }
 
@@ -304,7 +305,7 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.main_all div.datablocks > div.account {
-	font-size:1.01rem;
+	font-size:1.04rem;
 }
 
 h1,

@@ -16,6 +16,7 @@
 @import "../common/style/content/page-anime.css";
 @import "../common/style/content/page-main.css";
 
+@import "../aniidiot/anigoogle2/anigoogle2-icons.css";
 @import "../icons/all.css";
 @import "../icons/zakura.css";
 
@@ -106,7 +107,7 @@
 	display: block;
 	padding-left: 18px;
 	margin-top: 3em;
-	margin-bottom: -4.5em;
+	margin-bottom: -4.75em;
 }
 
 #layout-main h1
@@ -261,7 +262,7 @@ div.pagination span a
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4
 {
-	font-size:1.1em;
+	font-size:1.1rem;
 	font-weight:bold;
 	padding:0.3em 1em;
 }
@@ -415,4 +416,21 @@ a.tooltip span.text
 	-webkit-border-radius: 0 5px 0 0;
 	-moz-border-radius: 0 5px 0 0;
     border-radius: 0 5px 0 0;
+}
+
+#layout-main div.forum a.topictitle {
+	display: inline-block;
+	vertical-align: top;
+	font-size:1.04rem;
+}
+
+#layout-main ul.g_list + button,
+#layout-main div.forum div.buttons a + a {
+	margin-left: 0.4em !important;
+}
+
+button,
+.g_button, #layout-main ul.g_list li {
+    display: inline-block;
+    vertical-align: top;
 }
