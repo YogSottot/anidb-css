@@ -243,7 +243,8 @@ button.confirmButton,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.pagination span a,
-#layout-search ul.quicksearch .g_bubble.stripe {
+#layout-search ul.quicksearch .g_bubble.stripe,
+#layout-main div.g_content {
 	background-color: #F8F8F8;
 }
 
@@ -542,7 +543,7 @@ th a,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
-	background-color: #444444;
+	background-color: #7762ED;
 }
 
 /*box shadow*/

@@ -2,15 +2,28 @@
 	top: 0;
 }
 
+#layout-tabs {
+    margin: 160px 3px 0;
+}
+
 #layout-search,
-#layout-search div.search {
+#layout-search div.search,
+#layout-nav {
 	height: 166px;
 }
 
 #layout-nav {
-	margin-top: 200px;
+	margin-top: 0;
 }
 
-#layout-tabs {
-    margin: 181px 3px 0;
+#layout-content {
+	padding: 0;
+}
+
+#layout-menu {
+	padding-top: 164px;
+}
+
+#layout-main div.g_content {
+	padding:1em;
 }
