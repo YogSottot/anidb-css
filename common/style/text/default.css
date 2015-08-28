@@ -1,6 +1,7 @@
 html {
 	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
-	font-size:0.625rem;
+	/*font-size:0.625rem;*/
+	font-size: 10px;
 }
 
 div,
