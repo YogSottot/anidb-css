@@ -484,7 +484,7 @@
 }
 
 #layout-main div.cmt_entries div.comment span.stamp span.icons,
-#layout-main div.forum div.topic_actions div.buttons,
+#layout-main div.forum div.topic_actions div.buttons a,
 #layout-main div.forum div.g_bubble.navbar span.breadcrumbs,
 #layout-main div.forum div.g_bubble.navbar span.messages,
 #layout-main div.forum div.topic_actions div.linklist {
