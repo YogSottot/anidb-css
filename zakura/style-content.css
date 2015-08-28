@@ -192,19 +192,18 @@ g_bubble
 
 .g_list.links
 {
-	background:#dff1ff;
-	background-image:none;
-	border:1px solid #b0dafb;
 	clear:both;
-	padding:.3em 1em .4em;
-	text-align:center;
-	text-transform:capitalize;
 }
 
 .g_list.links li
 {
+	background:#dff1ff;
+	background-image:none;
+	border:1px solid #b0dafb;
 	display:inline;
-	margin:0 .7em;
+	padding:.3em 1em .4em;
+	text-align:center;
+	text-transform:capitalize;
 }
 
 input[type="text"],
@@ -297,7 +296,7 @@ div.mylist_list table.animelist td td,
 div.anime_all div.episodes table.eplist td td,
 div.anime_info td td
 {
-	font-size:1rem;
+	font-size: inherit;
 }
 
 div.mylist_list table.animelist td.action,
