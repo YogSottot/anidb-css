@@ -22,11 +22,11 @@ ins {
 }
 
 h1 {
-	font-size:1.55rem;
+	font-size:1.6rem;
 }
 
 h1 a {
-	font-size: 1em;
+	font-size: inherit;
 }
 
 h4,
@@ -304,7 +304,7 @@ h4.collapsed span {
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.main_all div.datablocks > div.account {
-	font-size:1.05rem;
+	font-size:1.04rem;
 }
 
 h1,
