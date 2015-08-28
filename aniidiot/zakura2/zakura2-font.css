@@ -2,11 +2,12 @@ body {
     font-size: 1.14em;/*12px*/
 }
 
+#layout-menu,
 table td {
 	font-size: 1.08rem;/*11.5px*/
 }
 
 #layout-main > h1 {
-    font: small-caps bold 1.8rem "Century Gothic","Lucida Grande",sans-serif;
+    font: small-caps bold 2.05rem "Century Gothic","Lucida Grande",sans-serif;
     letter-spacing: 0.1em;
 }

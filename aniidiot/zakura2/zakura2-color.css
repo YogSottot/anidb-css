@@ -22,8 +22,15 @@ span.link,
 h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
-	color: #105289 !important;
+	color: #6470C3 !important;
 	outline: 0 !important;
+}
+
+#layout-menu a,
+#layout-menu a:link,
+#layout-menu a:active,
+#layout-menu a:visited {
+    color: #7C87D8 !important;
 }
 
 h1 a:hover,
@@ -672,6 +679,12 @@ html {
 	background:url("images/logo.jpg") no-repeat scroll left top transparent;
 }
 
+#layout-menu a:hover,
+#layout-menu a:active {
+    background: transparent url("images/stripe-pink.gif") repeat scroll left top;
+    color: #484B9A;
+}
+
 #layout-content {
     border-top: 1px solid #F8F7FF;
     background-color: #F8F7FF;
@@ -685,4 +698,8 @@ html {
 .g_definitionlist table th {
     background-color: transparent;
     color: #8E83A9;
+}
+
+#layout-menu ul li {
+    border-bottom: 1px solid #FFECF5;
 }
