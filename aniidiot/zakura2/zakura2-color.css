@@ -680,8 +680,6 @@ html {
 #layout-menu #user-logout a:link,
 #layout-menu #user-logout a:visited {
 	background: transparent url("images/trans-blue.png") repeat scroll left top;
-	border-left-color: #E7C7D5;
-	border-right-color: #E7C7D5;
 	color: #4A63E1;
 }
 
@@ -691,16 +689,17 @@ html {
     color: #2D42AF;
 }
 
-#layout-menu li a,
-#layout-menu li a:link,
-#layout-menu li a:visited {
+#layout-menu #menu-account li a,
+#layout-menu #menu-account li a:link,
+#layout-menu #menu-account li a:visited {
 	color: #BE518C;
 	background: transparent url("images/trans-pink.png") repeat scroll left top;
 	border-left-color: #E7C7D5;
+	border-right-color: #E7C7D5;
 }
 
-#layout-menu li a:hover,
-#layout-menu li a:active {
+#layout-menu #menu-account li a:hover,
+#layout-menu #menu-account li a:active {
     background: transparent url("images/layout/stripe-pink.png") repeat scroll left top;
     color: #A93373;
 }

@@ -2,18 +2,11 @@
 	border-top: 1px solid !important;
 }
 
-#layout-menu #user-logout a,
-#layout-menu #user-logout a:link,
-#layout-menu #user-logout a:visited,
-#layout-menu #user-profile a,
-#layout-menu #user-profile a:link,
-#layout-menu #user-profile a:visited {
+#layout-menu #menu-account li a {
 	border-left: 1px solid;
 }
 
-#layout-menu #user-logout a,
-#layout-menu #user-logout a:link,
-#layout-menu #user-logout a:visited {
+#layout-menu #menu-account li a {
 	border-right: 1px solid;
 }
 
