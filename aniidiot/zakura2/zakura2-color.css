@@ -30,7 +30,7 @@ h4 span.nolink a,
 #layout-menu a:link,
 #layout-menu a:active,
 #layout-menu a:visited {
-    color: #7C87D8 !important;
+	color: #7C87D8 !important;
 }
 
 h1 a:hover,
@@ -81,7 +81,7 @@ th a:link,
 th a:visited,
 th .i_icon,
 #layout-main div.userpage_all .achievements h4 a.i_help {
-    color: #C0DAF0 !important;
+	color: #C0DAF0 !important;
 }
 
 table th.sortable:hover,
@@ -280,8 +280,7 @@ input[type="password"]:focus,
 #layout-main div.main_all div.header div.account ul.tabs li.signup:hover,
 #layout-main div.search_all div.suggestions,
 #layout-main div.forum ul.topics li.row,
-#layout-search ul.quicksearch,
-#layout-content {
+#layout-search ul.quicksearch {
 	background-color: #FFFFFF;
 }
 
@@ -367,7 +366,7 @@ input[type="text"]:hover,
 input[type="text"]:focus,
 input[type="password"]:hover,
 input[type="password"]:focus {
-    border-color: #CCCCCC !important;
+	border-color: #CCCCCC !important;
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp a,
@@ -669,33 +668,33 @@ html {
 #layout-menu li.sub-menu ul li:hover a,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
-    background: transparent url("images/stripe-pink.gif") repeat scroll left top;
-    color: #484B9A !important;
+	background: transparent url("images/stripe-pink.gif") repeat scroll left top;
+	color: #484B9A !important;
 }
 
 #layout-menu #menu-account {
-    background: transparent url("images/bg-login.png") no-repeat scroll right top;
+	background: transparent url("images/bg-login.png") no-repeat scroll right top;
 }
 
 #layout-menu #user-logout a,
 #layout-menu #user-logout a:link,
 #layout-menu #user-logout a:visited {
-    background: transparent url("images/trans-blue.png") repeat scroll left top;
-    border-left-color: #E7C7D5;
-    border-right-color: #E7C7D5;
-    color: #4A63E1;
+	background: transparent url("images/trans-blue.png") repeat scroll left top;
+	border-left-color: #E7C7D5;
+	border-right-color: #E7C7D5;
+	color: #4A63E1;
 }
 
 #layout-menu #user-profile a,
 #layout-menu #user-profile a:link,
 #layout-menu #user-profile a:visited {
-    color: #BE518C;
-    background: transparent url("images/trans-pink.png") repeat scroll left top;
-    border-left-color: #E7C7D5;
+	color: #BE518C;
+	background: transparent url("images/trans-pink.png") repeat scroll left top;
+	border-left-color: #E7C7D5;
 }
 
-#layout-content {
-    background-color: #F8F7FF;
+#layout-main {
+	background-color: #F8F7FF;
 }
 
 #layout-main > h1 {
@@ -704,12 +703,12 @@ html {
 }
 
 .g_definitionlist table th {
-    background-color: transparent;
-    color: #8E83A9;
+	background-color: transparent;
+	color: #8E83A9;
 }
 
 #layout-menu li.sub-menu ul li + li {
-    border-top-color: #FFECF5 !important;
+	border-top-color: #FFECF5 !important;
 }
 
 #layout-menu #menu-account,

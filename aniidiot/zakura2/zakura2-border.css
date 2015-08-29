@@ -1,5 +1,5 @@
 #layout-menu li.sub-menu ul li + li {
-    border-top: 1px solid !important;
+	border-top: 1px solid !important;
 }
 
 #layout-menu #user-logout a,
@@ -8,11 +8,16 @@
 #layout-menu #user-profile a,
 #layout-menu #user-profile a:link,
 #layout-menu #user-profile a:visited {
-    border-left: 1px solid;
+	border-left: 1px solid;
 }
 
 #layout-menu #user-logout a,
 #layout-menu #user-logout a:link,
 #layout-menu #user-logout a:visited {
-    border-right: 1px solid;
+	border-right: 1px solid;
+}
+
+#layout-menu #menu-account,
+#layout-menu #menu-account li a {
+	border-top: none;
 }

@@ -1,5 +1,5 @@
 body {
-    font-size: 1.14em;/*12px*/
+	font-size: 1.14em;/*12px*/
 }
 
 #layout-menu,
@@ -8,6 +8,12 @@ table td {
 }
 
 #layout-main > h1 {
-    font: small-caps bold 2.05rem "Century Gothic","Lucida Grande",sans-serif;
-    letter-spacing: 0.1em;
+	font: small-caps bold 2.05rem "Century Gothic","Lucida Grande",sans-serif;
+	letter-spacing: 0.1em;
+}
+
+#layout-menu #menu-account li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: bold;
 }

@@ -11,7 +11,11 @@
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-    margin: 225px 0 0 135px;
+	margin: 225px 0 0 135px;
+}
+
+#layout-hint + #layout-nav #layout-menu #menu-account {
+	top: 1.6em;
 }
 
 #layout-search,
@@ -42,17 +46,13 @@
 	padding-bottom: 1.15em;
 }
 
-#layout-menu li.sub-menu ul li.alert,
+/*#layout-menu li.sub-menu ul li.alert,
 #layout-menu li.sub-menu ul li a {
 	height: 22px;
-}
+}*/
 
 #layout-search div.search form > div {
 	top: 9.4em;
-}
-
-#layout-search div.search a.advsearch {
-	top: 11em;
 }
 
 #layout-search .text {
@@ -60,31 +60,25 @@
 }
 
 #layout-menu #menu-account {
-    margin: 0;
-    top: 0;
-    left: auto;
-    position: absolute;
-    right: 1em;
-    padding-left: 200px;
-    height: 102px;
-    border: medium none;
-    text-align: right;
-    display: table;
-}
-
-#layout-menu #menu-account li {
-    border-top: none;
-    display: block;
-    float: right;
+	margin: 0;
+	top: 0;
+	right: 0;
+	left: auto;
+	position: absolute;
+	padding-left: 200px;
+	height: 102px;
+	text-align: right;
 }
 
 #layout-menu #menu-account li a {
-    display: table-cell;
-    height: 102px;
-    vertical-align: bottom;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-weight: bold;
-    padding: 0 4px;
-    border-bottom: medium none;
+	display: table-cell;
+	height: 102px;
+	vertical-align: bottom;
+	padding: 0 4px;
+	width: auto;
+}
+
+#layout-menu #menu-account span.tab,
+#layout-search div.search a.advsearch {
+	display: none;
 }
