@@ -68,6 +68,7 @@
 	padding-left: 200px;
 	height: 102px;
 	text-align: right;
+	display: flex;
 }
 
 #layout-menu #menu-account li a {

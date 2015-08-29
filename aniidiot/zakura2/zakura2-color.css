@@ -685,12 +685,24 @@ html {
 	color: #4A63E1;
 }
 
-#layout-menu #user-profile a,
-#layout-menu #user-profile a:link,
-#layout-menu #user-profile a:visited {
+#layout-menu #user-logout a:hover,
+#layout-menu #user-logout a:active {
+    background: transparent url("images/layout/stripe-blue.png") repeat scroll left top;
+    color: #2D42AF;
+}
+
+#layout-menu li a,
+#layout-menu li a:link,
+#layout-menu li a:visited {
 	color: #BE518C;
 	background: transparent url("images/trans-pink.png") repeat scroll left top;
 	border-left-color: #E7C7D5;
+}
+
+#layout-menu li a:hover,
+#layout-menu li a:active {
+    background: transparent url("images/layout/stripe-pink.png") repeat scroll left top;
+    color: #A93373;
 }
 
 #layout-main {
