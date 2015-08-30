@@ -12,8 +12,23 @@ table td {
 	letter-spacing: 0.1em;
 }
 
+h4,
+.g_section,
+caption {
+	font: 1.4rem "Century Gothic","Lucida Grande",sans-serif;
+}
+
 #layout-menu #menu-account li a {
 	text-decoration: none;
 	text-transform: capitalize;
 	font-weight: bold;
+}
+
+#layout-main div.main_all div.rightbar h4 {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+#layout-main div.main_all div.rightbar {
+	font-size: 0.95rem;
 }

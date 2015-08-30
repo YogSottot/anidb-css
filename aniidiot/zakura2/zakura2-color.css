@@ -727,3 +727,18 @@ html {
 #layout-content {
 	box-shadow: none;
 }
+
+h4,
+.g_section,
+caption {
+	color: #7762ED;
+	background-color: transparent;
+}
+
+#layout-main div.main_all div.rightbar h4 {
+	color: #4D4993;
+}
+
+#layout-main div.main_all div.rightbar {
+	background: #FCFAFB url("images/layout/mamimi.png") no-repeat scroll right top;
+}

@@ -33,10 +33,6 @@
 	margin-left: 11.5em;
 }
 
-#layout-menu {
-	padding-top: 164px;
-}
-
 #layout-main div.g_content {
 	padding:1em;
 }
@@ -52,6 +48,10 @@
 
 #layout-search .text {
 	width: 18em;
+}
+
+#layout-menu {
+	padding-top: 170px;
 }
 
 #layout-menu li.sub-menu ul li.alert,
@@ -91,4 +91,18 @@
 #layout-menu li.sub-menu ul li.main a {
     height: 152px;
     margin-top: -164px;
+}
+
+h4,
+.g_section {
+	text-align: left;
+	margin-bottom: 0.3em;
+}
+
+#layout-main div.main_all div.rightbar h4 {
+    padding: 0.3em 1em;
+}
+
+#layout-main div.main_all div.rightbar {
+    padding: 14em 0px 0px;
 }
