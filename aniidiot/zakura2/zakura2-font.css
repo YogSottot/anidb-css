@@ -14,7 +14,9 @@ table td {
 
 h4,
 caption {
-	font: 1.4rem "Century Gothic","Lucida Grande",sans-serif;
+	font: "Century Gothic","Lucida Grande",sans-serif;
+	font-size: 1.25rem;
+	font-weight: bold;
 }
 
 #layout-menu #menu-account li a {
@@ -23,11 +25,6 @@ caption {
 	font-weight: bold;
 }
 
-#layout-main div.main_all div.rightbar h4 {
-	font-size: 1.1rem;
-	font-weight: bold;
-}
-
 #layout-main div.main_all div.rightbar {
-	font-size: 0.95rem;
+	font-size: 1.08rem;
 }
