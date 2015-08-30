@@ -715,9 +715,20 @@ html {
 
 h4,
 caption {
-	color: #4D4993;
+	color: #7762ED;
 }
 
 #layout-main div.main_all div.rightbar {
 	background: #FCFAFB url("images/mamimi.png") no-repeat scroll right top;
+}
+
+#layout-main div.main_all div.rightbar h4 {
+	color: #4D4993;
+}
+
+#layout-main div.main_all div.rightbar ol li.g_odd {
+    background-color: #FFFFFF;
+}
+#layout-main div.main_all div.rightbar ol li {
+    border-bottom-color: #E4E4E4;
 }

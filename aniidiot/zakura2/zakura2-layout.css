@@ -105,3 +105,8 @@ h4 {
 #layout-main div.main_all div.rightbar {
     padding: 14em 0px 0px;
 }
+
+#layout-main div.main_all div.rightbar ol li {
+    position: relative;
+    padding: 0.3em 0.3em 0.3em 1em;
+}

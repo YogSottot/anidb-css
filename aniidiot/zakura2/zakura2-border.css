@@ -14,3 +14,7 @@
 #layout-menu #menu-account li a {
 	border-top: none;
 }
+
+#layout-main div.main_all div.rightbar ol li {
+    border-bottom: 1px solid;
+}
