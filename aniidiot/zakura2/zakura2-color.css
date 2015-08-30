@@ -445,7 +445,7 @@ li + li.g_odd,
 
 tr + tr th,
 #layout-main div.g_definitionlist tr th {
-	border-top-color: #888888;
+	border-top-color: #EBE1EF;
 }
 
 /*tooltip*/
@@ -697,9 +697,10 @@ html {
 	color: #494A9C !important;
 }
 
-.g_definitionlist table th {
+.g_definitionlist table th,
+.g_definitionlist table th a {
 	background-color: transparent;
-	color: #8E83A9;
+	color: #8E83A9 !important;
 }
 
 #layout-menu li.sub-menu ul li + li {
