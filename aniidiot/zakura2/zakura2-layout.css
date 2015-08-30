@@ -83,3 +83,8 @@
 #layout-search div.search a.advsearch {
 	display: none;
 }
+
+#layout-menu li.sub-menu ul li.main a {
+    height: 152px;
+    margin-top: -164px;
+}
