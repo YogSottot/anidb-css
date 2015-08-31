@@ -692,6 +692,7 @@ button.confirmButton:hover,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.g_odd:hover,
 #layout-main ul.g_list li.selected,
+#layout-main ul.g_list li:hover a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 #layout-main div.edit_actions a:hover {
@@ -738,7 +739,8 @@ button.confirmButton,
 #layout-main div.edit_actions a,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
+#layout-main ul.g_list li a,
 #layout-main div.pagination span a {
 	background-color: #FFF9FB;
-	color: #D28CB2 !important;
+	color: #755B64 !important;
 }
