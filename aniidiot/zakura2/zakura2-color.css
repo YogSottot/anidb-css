@@ -443,8 +443,8 @@ tr + tr th,
 /*tooltip*/
 a.tooltip span.text:after,
 a.tooltip span.text:before {
-	border-color: rgba(232, 232, 232, 0);
-	border-bottom-color: #E8E8E8;
+	border-color: rgba(247, 237, 241, 0);
+	border-bottom-color: #F7EDF1;
 }
 
 /*tag cloud*/
@@ -577,7 +577,7 @@ button,
 a.tooltip span.text {
 	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
 	opacity: 0.95;
-	background-color: #E8E8E8 !important;
+	background-color: #F7EDF1 !important;
 }
 
 /*disable shadow so it doesn't overlap with the quicksearch pane*/
