@@ -736,3 +736,7 @@ caption {
 table {
     border-color: #565AB9 !important;
 }
+
+#layout-footer p {
+    color: #85809F;
+}

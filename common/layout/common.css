@@ -157,3 +157,8 @@ table + select {
 .g_info ul {
 	text-align: center;
 }
+
+#layout-footer p {
+    text-align: center;
+    padding: 0.5em 0;
+}
