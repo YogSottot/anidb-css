@@ -15,11 +15,11 @@ table td {
 }
 
 #layout-tabs {
-	margin: 210px 0 0 140px;
+	margin: 213px 0 0 140px;
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 225px 0 0 140px;
+	margin: 228px 0 0 140px;
 }
 
 #layout-hint + #layout-nav #layout-menu #menu-account {
@@ -47,7 +47,7 @@ table td {
 
 #layout-main > h1 {
 	margin: 0 0 0.3em 0.5em;
-	padding-bottom: 1.15em;
+	padding-bottom: 1em;
 }
 
 #layout-search div.search form > div {
