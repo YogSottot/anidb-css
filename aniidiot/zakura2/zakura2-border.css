@@ -22,9 +22,11 @@ table {
 }
 
 tr + tr td,
+tr + tr th,
 li.g_odd + li,
 li + li.g_odd,
 #layout-nav div.menu_hr,
+#layout-main div.g_definitionlist tr th,
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,

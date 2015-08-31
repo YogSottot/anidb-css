@@ -87,7 +87,7 @@ th a:hover {
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
-	background-color: #305C97;
+	background-color: #A3BADA;
 }
 
 #layout-main table.filelist tr.generic,
@@ -393,6 +393,8 @@ tr + tr td,
 li.g_odd + li,
 li + li.g_odd,
 #layout-nav div.menu_hr,
+#layout-search ul.quicksearch li + li,
+#layout-main div.anime_all div.episodes tr.newtype td,
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
@@ -410,13 +412,6 @@ li + li.g_odd,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 .g_bubble.stripe > div.data div.name {
 	border-bottom-color: #D3D7E2;
-}
-
-#layout-main #stafflist2,
-#layout-main div.anime_all table.stafflist + table.stafflist,
-#layout-main div.anime_all div.episodes tr.newtype td,
-#layout-search ul.quicksearch li + li {
-	border-top-color: #CCCCCC !important;
 }
 
 #layout-main div.tag-column .tag-block + .tag-block,

@@ -32,6 +32,8 @@ caption {
 	font-weight: bold !important;
 }
 
+.g_definitionlist table th,
+.g_definitionlist table th a,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul.main-tabs > li {
     font-size: 1.14rem; /*12px*/
