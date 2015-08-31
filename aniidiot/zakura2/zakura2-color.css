@@ -26,13 +26,6 @@ h4 span.nolink a,
 	outline: 0 !important;
 }
 
-#layout-menu a,
-#layout-menu a:link,
-#layout-menu a:active,
-#layout-menu a:visited {
-	color: #7C87D8 !important;
-}
-
 h1 a:hover,
 a:hover,
 button:hover,
