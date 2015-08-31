@@ -87,7 +87,7 @@ th a:hover {
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
-	background-color:#CCCCCC;
+	background-color: #305C97;
 }
 
 #layout-main table.filelist tr.generic,
@@ -289,7 +289,7 @@ select,
 #layout-main div.anime_all div.info div.image img,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea,
 #layout-main div.forum div.quickreply textarea {
-	border-color: #E8E8E8;
+	border-color: #D3D7E2;
 }
 
 .i_comment_add,
@@ -402,7 +402,7 @@ li + li.g_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
 #layout-main #tagtree div.tag-column div.tag {
-	border-top-color: #E8E8E8;
+	border-top-color: #D3D7E2;
 }
 
 #layout-main #stafflist2,
@@ -432,7 +432,7 @@ li + li.g_odd,
 #layout-main div.modlatest_all table tr td + td,
 #layout-main div.latest2_all table tr td + td,
 #layout-main div.latest2_all table tr.rowspan td:first-child {
-	border-left-color: #E8E8E8;
+	border-left-color: #D3D7E2;
 }
 
 tr + tr th,
@@ -516,7 +516,7 @@ th a,
 #layout-main table tr.header,
 #layout-main div.votes_all div.graph div.header,
 #layout-main div.forum div.g_bubble.threads {
-	background-color: #305C97;
+	background-color: #565AB9;
 }
 
 /*box shadow*/
@@ -605,7 +605,7 @@ textarea:disabled,
 input[type="text"]:disabled,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover {
-	background-color: #E8E8E8;
+	background-color: #D3D7E2;
 }
 
 .g_bubble.quotebody,
@@ -723,4 +723,8 @@ caption {
 }
 #layout-main div.main_all div.rightbar ol li {
     border-bottom-color: #E4E4E4;
+}
+
+table {
+    border-color: #565AB9 !important;
 }
