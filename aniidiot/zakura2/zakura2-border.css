@@ -41,7 +41,8 @@ li + li.g_odd,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
-#layout-main #tagtree div.tag-column div.tag {
+#layout-main #tagtree div.tag-column div.tag,
+#layout-main div.forum .g_bubble.infobox .row + .row {
 	border-top-style: dotted;
 }
 
@@ -66,4 +67,8 @@ li + li.g_odd,
 #layout-main div.latest2_all table tr td + td,
 #layout-main div.latest2_all table tr.rowspan td:first-child {
 	border-left-style: dotted;
+}
+
+.g_bubble.stripe > div.data div.name {
+	border-bottom-style: dotted;
 }
