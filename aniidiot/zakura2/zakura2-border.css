@@ -6,10 +6,6 @@
 	border-left: 1px solid;
 }
 
-#layout-menu #menu-account li a {
-	border-right: 1px solid;
-}
-
 #layout-menu #menu-account,
 #layout-menu #menu-account li a {
 	border-top: none;
