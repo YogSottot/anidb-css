@@ -4,7 +4,7 @@ table td {
 }
 
 #layout-main > h1 {
-	font-family: "Century Gothic","Lucida Grande",sans-serif;
+	font-family: "Century Gothic","Lucida Grande",sans-serif !important;
 	font-size: 2.05rem;
 	font-variant: small-caps;
 	font-weight: bold;
@@ -14,7 +14,7 @@ table td {
 h4,
 h4 span,
 caption {
-	font-family: "Century Gothic","Lucida Grande",sans-serif;
+	font-family: "Century Gothic","Lucida Grande",sans-serif !important;
 	font-size: 1.59rem;
 }
 
@@ -25,7 +25,10 @@ caption {
 }
 
 #layout-main div.main_all div.rightbar h4,
-#layout-main div.main_all div.rightbar h4 span,
+#layout-main div.main_all div.rightbar h4 span {
+	font-size: 1.25rem;
+}
+
 #layout-main div.main_all div.rightbar {
 	font-size: 1.08rem;
 }
