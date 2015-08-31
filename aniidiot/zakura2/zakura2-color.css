@@ -22,7 +22,7 @@ span.link,
 h4 span.nolink a,
 #layout-main a.filter,
 #layout-main div.main_all div.header div.account ul.tabs li.signup a {
-	color: #6470C3 !important;
+	color: #5C68B5 !important;
 	outline: 0 !important;
 }
 
@@ -134,7 +134,6 @@ div.g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-a.tooltip > span.text.g_bubble,
 .g_button a:hover,
 .i_comment_add:hover,
 .i_topic_add:hover,
@@ -715,7 +714,7 @@ html {
 
 h4,
 caption {
-	color: #7762ED;
+	color: #5C68B5;
 }
 
 #layout-main div.main_all div.rightbar {

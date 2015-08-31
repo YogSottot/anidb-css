@@ -16,6 +16,7 @@ h4 span,
 caption {
 	font-family: "Century Gothic","Lucida Grande",sans-serif !important;
 	font-size: 1.59rem;
+	font-weight: normal !important;
 }
 
 #layout-menu #menu-account li a {
@@ -27,6 +28,7 @@ caption {
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.main_all div.rightbar h4 span {
 	font-size: 1.25rem;
+	font-weight: bold !important;
 }
 
 #layout-main div.main_all div.rightbar {
