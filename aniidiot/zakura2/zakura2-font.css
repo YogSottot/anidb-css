@@ -1,21 +1,21 @@
-body {
-	font-size: 1.14em;/*12px*/
-}
-
 #layout-menu,
 table td {
 	font-size: 1.08rem;/*11.5px*/
 }
 
 #layout-main > h1 {
-	font: small-caps bold 2.05rem "Century Gothic","Lucida Grande",sans-serif;
+	font-family: "Century Gothic","Lucida Grande",sans-serif;
+	font-size: 2.05rem;
+	font-variant: small-caps;
+	font-weight: bold;
 	letter-spacing: 0.1em;
 }
 
 h4,
 h4 span,
 caption {
-	font: 1.59rem "Century Gothic","Lucida Grande",sans-serif;
+	font-family: "Century Gothic","Lucida Grande",sans-serif;
+	font-size: 1.59rem;
 }
 
 #layout-menu #menu-account li a {
@@ -24,6 +24,8 @@ caption {
 	font-weight: bold;
 }
 
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.rightbar h4 span,
 #layout-main div.main_all div.rightbar {
 	font-size: 1.08rem;
 }

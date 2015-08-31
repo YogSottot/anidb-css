@@ -7,11 +7,11 @@
 }
 
 #layout-tabs {
-	margin: 210px 0 0 135px;
+	margin: 210px 0 0 140px;
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 225px 0 0 135px;
+	margin: 225px 0 0 140px;
 }
 
 #layout-hint + #layout-nav #layout-menu #menu-account {
@@ -30,7 +30,7 @@
 
 #layout-content {
 	padding: 0;
-	margin-left: 11.5em;
+	margin-left: 13em;
 }
 
 #layout-main div.g_content {
@@ -43,7 +43,7 @@
 }
 
 #layout-search div.search form > div {
-	top: 9.4em;
+	top: 10.7em;
 }
 
 #layout-search .text {
@@ -109,4 +109,10 @@ h4 {
 #layout-main div.main_all div.rightbar ol li {
     position: relative;
     padding: 0.3em 0.3em 0.3em 1em;
+}
+
+#layout-main div.main_all div.datablocks,
+#layout-main div.main_all div.news.forum,
+#layout-main div.main_all div.header {
+    margin-right: 21.5em;
 }
