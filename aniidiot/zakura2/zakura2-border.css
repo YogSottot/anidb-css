@@ -15,10 +15,6 @@
 	border-top: none;
 }
 
-#layout-main div.main_all div.rightbar ol li {
-    border-bottom: 1px solid;
-}
-
 table {
     border: 1px solid !important;
     border-radius: 5px;
@@ -69,6 +65,8 @@ li + li.g_odd,
 	border-left-style: dotted;
 }
 
+#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 .g_bubble.stripe > div.data div.name {
 	border-bottom-style: dotted;
 }

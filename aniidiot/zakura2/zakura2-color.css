@@ -406,6 +406,8 @@ li + li.g_odd,
 	border-top-color: #D3D7E2;
 }
 
+#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 .g_bubble.stripe > div.data div.name {
 	border-bottom-color: #D3D7E2;
 }
@@ -728,7 +730,7 @@ caption {
     background-color: #FFFFFF;
 }
 #layout-main div.main_all div.rightbar ol li {
-    border-bottom-color: #E4E4E4;
+    border-top-color: #E4E4E4;
 }
 
 table {
