@@ -19,7 +19,7 @@ table td {
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 228px 0 0 140px;
+	margin: 230px 0 0 140px;
 }
 
 #layout-hint + #layout-nav #layout-menu #menu-account {
@@ -123,4 +123,8 @@ h4 {
 #layout-main div.main_all div.news.forum,
 #layout-main div.main_all div.header {
     margin-right: 21.5em;
+}
+
+#layout-main div.tabbed_pane ul.tabs {
+	margin: 1px 1px 0px 6px;
 }
