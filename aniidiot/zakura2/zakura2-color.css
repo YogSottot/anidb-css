@@ -511,6 +511,7 @@ table th,
 th,
 th a,
 #layout-main table tr.header,
+#layout-main table tr.header th a,
 #layout-main div.votes_all div.graph div.header,
 #layout-main div.forum div.g_bubble.threads {
 	background-color: #565AB9;
