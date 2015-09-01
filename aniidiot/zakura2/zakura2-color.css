@@ -65,12 +65,6 @@ input[type="button"]:hover,
 	background-color: #AA0000;
 }
 
-/*table th.sortable:hover,
-h4 a:hover,
-th a:hover {
-	color: #CC181E !important;
-}*/
-
 #layout-main tr.header th.sortable:hover,
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.forum hr,
@@ -668,7 +662,7 @@ html {
 #layout-menu #menu-account li a:hover,
 #layout-menu #menu-account li a:active {
 	background: transparent url("images/stripe-pink.png") repeat scroll left top;
-	color: #484B9A !important;
+	color: #A93373 !important;
 }
 
 #layout-menu #menu-account #user-logout a,
