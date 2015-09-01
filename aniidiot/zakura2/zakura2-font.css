@@ -60,3 +60,11 @@ div.mylist_list table.eplist th,
 div.anime_all div.episodes table.filelist th {
 	font-size: 0.95rem;
 }
+
+.s_small {
+	font-size: 0.9rem;
+}
+
+abbr {
+	cursor: help;
+}

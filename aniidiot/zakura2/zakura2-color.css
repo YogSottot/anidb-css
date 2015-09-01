@@ -1,5 +1,3 @@
-/*anidbstyle3 - defaults*/
-
 #layout-menu li.sub-menu ul li#user-profile,
 #layout-menu li.sub-menu ul li#user-login,
 #layout-menu li.sub-menu ul li#user-logout,
@@ -618,9 +616,6 @@ input[type="text"]:disabled,
 	opacity: 0.6;
 }
 
-/*</anidbstyle 3 defaults FIX THAT SHIT>*/
-
-/*new stuff*/
 html {
 	background: #F8F7FF url("images/bg-content.gif") repeat scroll left top;
 	color: #3D3E6E;
@@ -755,4 +750,16 @@ table {
 #layout-main div.anime_all div.episodes table.filelist,
 #layout-main div.mylist_all table.animelist table.filelist {
 	background: #D3D7F3 url("images/stripe-blue.gif") repeat scroll left top;
+}
+
+select.shuttle,
+select.shuttle:hover,
+select.shuttle:focus,
+select option {
+	background:#e0ecfd;
+	color:#3d3e6e;
+}
+
+select option[value="0"] {
+	color:#B14C7C;
 }

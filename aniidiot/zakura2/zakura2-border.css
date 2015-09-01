@@ -1,3 +1,9 @@
+a img,
+:link img,
+:visited img {
+	border: 0;
+}
+
 #layout-menu li.sub-menu ul li + li {
 	border-top: 1px solid !important;
 }
