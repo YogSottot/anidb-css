@@ -180,7 +180,7 @@ button.confirmButton:hover,
 #layout-main div.edit_actions a:hover,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-search ul.quicksearch .g_bubble.stripe:hover,
-table.eplist table.filelist tr.g_odd {
+table table.filelist tr.g_odd {
 	background-color: #F5F7FF;
 }
 
@@ -232,7 +232,7 @@ button.confirmButton,
 #layout-main div.pagination span a,
 #layout-search ul.quicksearch .g_bubble.stripe,
 #layout-main div.g_content,
-table.eplist table.filelist tr {
+table table.filelist tr {
 	background-color: #FFFFFF;
 }
 
@@ -403,8 +403,8 @@ li + li.g_odd,
 	border-bottom-color: #D3D7E2;
 }
 
-table.eplist table.filelist th,
-table.eplist table.filelist td,
+table table.filelist th,
+table table.filelist td,
 #layout-main div.tag-column .tag-block + .tag-block,
 #layout-main div.characterlist_all tr td + td,
 #layout-main div.creatorlist_all tr td + td,
@@ -737,6 +737,6 @@ div.anime_all div.episodes table.filelist th {
 	background-color: #A9B0E1;
 }
 
-table.eplist table.filelist {
+table table.filelist {
 	background: #D3D7F3 url("images/stripe-blue.gif") repeat scroll left top;
 }

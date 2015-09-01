@@ -135,10 +135,11 @@ table th {
 }
 
 
-table.eplist tr.filesrow > td {
+table tr.filesrow > td {
 	padding: 0;
 }
 
-table.eplist table.filelist {
+table table.filelist {
 	padding: 0 0 0 20px;
+	width: 100%;
 }
