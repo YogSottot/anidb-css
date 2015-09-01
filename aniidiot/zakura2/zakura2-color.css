@@ -504,6 +504,7 @@ a.tooltip span.text:before {
 }
 
 table th,
+#layout-main table tr.header th a,
 #layout-main div.votes_all div.graph div.header {
 	color: #FFFFFF !important;
 }
@@ -515,7 +516,6 @@ th a,
 #layout-main div.votes_all div.graph div.header,
 #layout-main div.forum div.g_bubble.threads {
 	background-color: #565AB9;
-	color: #FFFFFF !important;
 }
 
 /*box shadow*/

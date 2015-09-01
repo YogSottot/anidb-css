@@ -21,6 +21,10 @@ caption {
 	font-weight: normal !important;
 }
 
+h4 a.i_icon {
+	font-family: 'FontAwesome',"Century Gothic","Lucida Grande",sans-serif !important;
+}
+
 #layout-menu #menu-account li a {
 	text-decoration: none;
 	text-transform: capitalize;
