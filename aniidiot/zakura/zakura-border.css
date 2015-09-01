@@ -53,7 +53,7 @@ li + li.g_odd,
 #layout-main #tagtree div.tag-column div.tag,
 #layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-search ul.quicksearch li + li {
-	border-top-style: dotted;
+	border-top-style: dotted !important;
 }
 
 #layout-main div.anime_all div.episodes table.filelist th,
