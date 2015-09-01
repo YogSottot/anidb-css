@@ -7,6 +7,10 @@
 
 @import "../zakura/zakura.css";
 
+#layout-hint {
+	position:fixed;
+}
+
 #layout-nav {
 	position: fixed;
 	top: 0px;
@@ -15,15 +19,16 @@
 }
 
 #layout-menu{
-	height: 0;	
+	height: 0;
+	padding-top: 190px;
 }
 
 #layout-content {
 	padding-top: 0;
-	margin-top: 160px;
+	margin-top: 183px;
 	background: transparent;
 }
 
-#layout-footer p:after {
-	content: ". Design by zakness. (Fixed menu by ricce)"
+#layout-footer:after {
+	content: "Design by zakness. (Fixed menu by ricce)"
 }
