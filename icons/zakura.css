@@ -6,7 +6,7 @@ th.c_number,
 .i_inactive {
 	padding-right: 16px;
 	background: url(../icons/zakura/order.gif) no-repeat center right;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 th.c_set.s_forward,
@@ -18,7 +18,7 @@ th.c_number.s_forward,
 .i_descending {
 	padding-right: 16px;
 	background: url(../icons/zakura/order-descending.gif) no-repeat center right;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 th.c_set.s_reverse,
@@ -30,7 +30,7 @@ th.c_number.s_reverse,
 .i_ascending {
 	padding-right: 16px;
 	background: url(../icons/zakura/order-ascending.gif) no-repeat center right;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .i_help {

@@ -65,18 +65,6 @@ input[type="button"]:hover,
 	background-color: #AA0000;
 }
 
-h4 a:not(.i_icon),
-h1 a,
-h1 a:link,
-h1 a:visited,
-th a,
-th a:link,
-th a:visited,
-th .i_icon,
-#layout-main div.userpage_all .achievements h4 a.i_help {
-	color: #C0DAF0 !important;
-}
-
 table th.sortable:hover,
 h4 a:hover,
 th a:hover {
