@@ -115,3 +115,7 @@
 #layout-menu li.sub-menu ul li.main a:hover {
 	background: transparent url("images/stripe-pink.gif") repeat scroll left top;
 }
+
+#layout-main {
+	margin-left: 1em;
+}
