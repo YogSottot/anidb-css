@@ -1120,51 +1120,51 @@ border: 1px solid lightgray }
 
 *.f_bold {
 font-weight: bold;
-background-image: url(http://static.anidb.net/css/icons/formating/bold.gif) !important }
+background-image: url(../icons/formating/bold.gif) !important }
 
 *.f_italic {
 font-style: italic;
-background-image: url(http://static.anidb.net/css/icons/formating/italic.gif) !important }
+background-image: url(../icons/formating/italic.gif) !important }
 
 *.f_underline {
 text-decoration: underline;
-background-image: url(http://static.anidb.net/css/icons/formating/underline.gif) !important }
+background-image: url(../icons/formating/underline.gif) !important }
 
 *.f_strikethrough {
 text-decoration: line-through;
-background-image: url(http://static.anidb.net/css/icons/formating/strikethrough.gif) !important }
+background-image: url(../icons/formating/strikethrough.gif) !important }
 
-*.f_insertorderedlist { background-image: url(http://static.anidb.net/css/icons/formating/orderedlist.gif) !important }
+*.f_insertorderedlist { background-image: url(../icons/formating/orderedlist.gif) !important }
 
-*.f_insertunorderedlist { background-image: url(http://static.anidb.net/css/icons/formating/unorderedlist.gif) !important }
+*.f_insertunorderedlist { background-image: url(../icons/formating/unorderedlist.gif) !important }
 
-*.f_insertlistitem { background-image: url(http://static.anidb.net/css/icons/formating/list_item.gif) !important }
+*.f_insertlistitem { background-image: url(../icons/formating/list_item.gif) !important }
 
-*.f_link { background-image: url(http://static.anidb.net/css/icons/formating/link.gif) !important }
+*.f_link { background-image: url(../icons/formating/link.gif) !important }
 
 *.f_unlink {
-background-image: url(http://static.anidb.net/css/icons/formating/unlink.gif) !important;
+background-image: url(../icons/formating/unlink.gif) !important;
 opacity: 0.60 }
 
-.f_img { background-image: url(http://static.anidb.net/css/icons/formating/image.gif) !important }
+.f_img { background-image: url(../icons/formating/image.gif) !important }
 
-*.f_separator { background-image: url(http://static.anidb.net/css/icons/formating/separator.gif) !important }
+*.f_separator { background-image: url(../icons/formating/separator.gif) !important }
 
-*.f_viewsource { background-image: url(http://static.anidb.net/css/icons/formating/view_text.gif) !important }
+*.f_viewsource { background-image: url(../icons/formating/view_text.gif) !important }
 
-*.f_viewrte { background-image: url(http://static.anidb.net/css/icons/formating/view_source.gif) !important }
+*.f_viewrte { background-image: url(../icons/formating/view_source.gif) !important }
 
-*.f_cleansource { background-image: url(http://static.anidb.net/css/icons/formating/clean_source.gif) !important }
+*.f_cleansource { background-image: url(../icons/formating/clean_source.gif) !important }
 
-*.f_preview { background-image: url(http://static.anidb.net/css/icons/formating/preview.gif) !important }
+*.f_preview { background-image: url(../icons/formating/preview.gif) !important }
 
-*.f_preview { background-image: url(http://static.anidb.net/css/icons/formating/preview.gif) !important }
+*.f_preview { background-image: url(../icons/formating/preview.gif) !important }
 
-*.f_spoiler { background-image: url(http://static.anidb.net/css/icons/formating/spoiler.gif) !important }
+*.f_spoiler { background-image: url(../icons/formating/spoiler.gif) !important }
 
-*.f_code { background-image: url(http://static.anidb.net/css/icons/formating/code.gif) !important }
+*.f_code { background-image: url(../icons/formating/code.gif) !important }
 
-*.f_buddy { background-image: url(http://static.anidb.net/css/icons/formating/user.gif) !important }
+*.f_buddy { background-image: url(../icons/formating/user.gif) !important }
 
 .f_button:hover, .f_button.selected {
 background-color: #EEE;

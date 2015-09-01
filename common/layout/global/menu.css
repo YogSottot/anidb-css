@@ -43,24 +43,24 @@
 #layout-main div.g_menu.filter_menu div.filters ul li,
 #layout-main div.g_menu.filter_menu div.filestatefilters ul li,
 #layout-main div.g_menu.filter_menu div.wishlistfilters ul li {
-    padding:5px;
+	padding:5px;
 }
 
 #layout-main div.g_menu.filter_menu label,
 #layout-main div.g_menu.filter_menu span.options {
-    display:block;
-    text-align:left;
+	display:block;
+	text-align:left;
 }
 
 #layout-main div.g_menu.filter_menu div.user span.user {
-    float: none;
-    margin-top: 2px;
-    height: 14px;
-    display:block;
+	float: none;
+	margin-top: 2px;
+	height: 14px;
+	display:block;
 }
 
 #layout-main div.g_menu.filter_menu p {
-    margin-top: 0.2em;
+	margin-top: 0.2em;
 }
 
 #layout-nav div.menu_hr,
@@ -93,7 +93,7 @@
 }
 
 #layout-main div.g_content div.filter_menu > h3 {
-    margin-right: 0.5em;
+	margin-right: 0.5em;
 }
 
 /** Thingie to hide/show g_menu's */

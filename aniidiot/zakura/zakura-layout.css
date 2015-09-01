@@ -1,0 +1,169 @@
+html {
+	line-height: 1.62;
+}
+
+table td {
+	padding: 0.3em 0.4em;
+}
+
+#layout-search {
+	top: 0;
+}
+
+#layout-tabs ul {
+	text-align: left;
+}
+
+#layout-tabs {
+	margin: 213px 0 0 140px;
+}
+
+#layout-hint + #layout-nav + #layout-content #layout-tabs {
+	margin: 230px 0 0 140px;
+}
+
+#layout-hint + #layout-nav #layout-menu #menu-account {
+	top: 1.7em;
+}
+
+#layout-search,
+#layout-search div.search,
+#layout-nav {
+	height: 166px;
+}
+
+#layout-nav {
+	margin-top: 0;
+}
+
+#layout-content {
+	padding: 0;
+	margin-left: 13em;
+}
+
+#layout-main div.g_content {
+	padding:1em;
+}
+
+#layout-main > h1 {
+	margin: 0 0 0.3em 0.5em;
+	padding-bottom: 1em;
+}
+
+#layout-search div.search form > div {
+	top: 10.7em;
+}
+
+#layout-search .text {
+	width: 18em;
+}
+
+#layout-menu {
+	padding-top: 170px;
+}
+
+#layout-menu li.sub-menu ul li.alert,
+#layout-menu li.sub-menu ul li a {
+	height: 22px;
+}
+
+#layout-menu li.sub-menu #menu-account li {
+	height: auto !important;
+}
+
+#layout-menu #menu-account {
+	margin: 0;
+	top: 0;
+	right: 0;
+	left: auto;
+	position: absolute;
+	padding-left: 200px;
+	height: 102px;
+	text-align: right;
+	display: flex;
+}
+
+#layout-menu li.sub-menu #menu-account li a {
+	display: table-cell;
+	height: 102px;
+	vertical-align: bottom;
+	padding: 0 8px;
+	width: auto;
+}
+
+#layout-menu li.sub-menu #menu-account li.alert a + a {
+	padding-left: 0;
+}
+
+#layout-menu li.sub-menu #menu-account li > span,
+#layout-menu li.sub-menu #menu-account li > a span {
+	padding: 0;
+}
+
+#layout-menu li.sub-menu.account span.tab,
+#layout-search div.search a.advsearch {
+	display: none;
+}
+
+#layout-menu li.sub-menu ul li.main a {
+	height: 152px;
+	margin-top: -164px;
+}
+
+caption,
+h4 {
+	text-align: left;
+	margin-bottom: 0.3em;
+}
+
+#layout-main div.main_all div.rightbar h4 {
+	padding: 0.3em 1em;
+}
+
+#layout-main div.main_all div.rightbar {
+	padding: 14em 0px 0px;
+}
+
+#layout-main div.main_all div.rightbar ol li {
+	position: relative;
+	padding: 0.3em 0.3em 0.3em 1em;
+}
+
+#layout-main div.main_all div.datablocks,
+#layout-main div.main_all div.news.forum,
+#layout-main div.main_all div.header {
+	margin-right: 21.5em;
+}
+
+#layout-main div.tabbed_pane ul.tabs {
+	margin: 1px 1px 0px 6px;
+}
+
+table th {
+	text-align: left;
+}
+
+#layout-main div.mylist_all table.animelist table.eplist tr.files + tr > td,
+table tr.epsrow > td,
+table tr.filesrow > td {
+	padding: 0;
+}
+
+#layout-main div.anime_all div.episodes table.filelist,
+#layout-main div.mylist_all table.animelist table.eplist,
+#layout-main div.mylist_all table.animelist table.filelist {
+	padding: 0 0 0 20px;
+	width: 100%;
+}
+
+#layout-main tr.header th.sortable a {
+	display: flex;
+}
+
+#layout-main tr.header th.sortable a span.text {
+	width: 100%;
+}
+
+#layout-main tr.header th.sortable a span.icon {
+	order: 2;
+}

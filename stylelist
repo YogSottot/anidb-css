@@ -11,6 +11,9 @@
 ./aniidiot/anigoogle-menu/anigoogle-menu.css
 ./aniidiot/anigoogle2/anigoogle2.css
 ./aniidiot/anitube/anitube.css
+./aniidiot/zakura/zakura.css
+./aniidiot/zakura-fixed_menu/zakura-fixed_menu.css
+./aniidiot/zakura-menu/zakura-menu.css
 ./cdb/cdbstyle2/cdbstyle2.css
 ./cdb/cdbstyle3/cdbstyle3.css
 ./cdb/cdbstyle-aniblackle2/cdbstyle-aniblackle2.css
@@ -38,6 +41,3 @@
 ./sub/norwegian-blue/main.css
 ./sub/silver/main.css
 #./yukinaga/yukinaga.css
-./zakura/zakura.css
-./zakura-fixed_menu/zakura-fixed_menu.css
-./zakura-menu/zakura-menu.css

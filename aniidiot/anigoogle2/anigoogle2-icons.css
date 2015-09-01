@@ -481,19 +481,19 @@ button.preview:before {
 }
 
 .i_ext.audio {
-    background-color: #AA0000;
+	background-color: #AA0000;
 }
 .i_ext.subtitle {
-    background-color: #356E35;
+	background-color: #356E35;
 }
 .i_ext.archive {
-    background-color: #5A3A78;
+	background-color: #5A3A78;
 }
 .i_ext.linker {
-    background-color: #BD7E19;
+	background-color: #BD7E19;
 }
 .i_ext.other {
-    background-color: #444444;
+	background-color: #444444;
 }
 /*icon created from text*/
 

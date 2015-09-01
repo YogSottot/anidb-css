@@ -72,7 +72,7 @@ th a:link,
 th a:visited,
 th .i_icon,
 #layout-main div.userpage_all .achievements h4 a.i_help {
-    color: #C0DAF0 !important;
+	color: #C0DAF0 !important;
 }
 
 table th.sortable:hover,
@@ -357,7 +357,7 @@ input[type="text"]:hover,
 input[type="text"]:focus,
 input[type="password"]:hover,
 input[type="password"]:focus {
-    border-color: #CCCCCC !important;
+	border-color: #CCCCCC !important;
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp a,

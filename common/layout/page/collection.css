@@ -8,9 +8,9 @@
 
 #layout-main div.collection_all div.tracks div.medium td.length,
 #layout-main div.collection_all div.tracks div.medium td.rating {
-    width: 6em;
+	width: 6em;
 }
 
 #layout-main div.collection_all div.tracks div.medium td.credit {
-    width: 20em;
+	width: 20em;
 }

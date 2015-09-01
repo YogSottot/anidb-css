@@ -23,7 +23,7 @@ body {
 #layout-menu {
 	display: block;
 	margin-left: 0.9em;
-	position: relative;
+	position: static;
 	width: 10em;
 	padding-top: 1px;
 }
@@ -119,14 +119,14 @@ body {
 	left: auto;
 	right: 0.5em;
 	top: 2.8em;
-    width: 450px;
+	width: 450px;
 }
 
 #layout-search div.search a.advsearch {
 	display: block;
 	position: absolute;
-    right: 0.8em;
-    top: 1.7em;
+	right: 0.8em;
+	top: 1.7em;
 }
 
 #layout-search .submit {
@@ -181,9 +181,9 @@ body {
 /*clickable logo*/
 
 #layout-menu li.sub-menu .alert > span a {
-    display: inline-block;
-    width: auto;
-    margin-right: -0.3em;
+	display: inline-block;
+	width: auto;
+	margin-right: -0.3em;
 }
 
 #layout-menu li.sub-menu .alert > span a span {

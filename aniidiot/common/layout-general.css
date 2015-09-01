@@ -1,6 +1,6 @@
 td,
 th {
-    padding: 1px 0.5em;
+	padding: 1px 0.5em;
 }
 
 input[size="10"] {
@@ -20,8 +20,8 @@ input[size="80"] {
 }
 
 textarea {
-    width: 48em;
-    height: 8em;
+	width: 48em;
+	height: 8em;
 }
 
 input[type="radio"],
@@ -32,7 +32,7 @@ input[type="checkbox"] {
 
 input[type="text"],
 input[type="password"] {
-    height: 18px;
+	height: 18px;
 }
 
 select {
@@ -117,7 +117,7 @@ h4,
 }
 
 #layout-search div.search form > div {
-    width: 450px;
+	width: 450px;
 }
 
 #layout-search .text {
@@ -361,7 +361,7 @@ button,
 }
 
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td input[type="text"] {
-    width: 98%;
+	width: 98%;
 }
 
 #layout-main div.userpage_all div.stats table th {

@@ -26,7 +26,7 @@ input[type="text"]:hover,
 input[type="text"]:focus,
 input[type="password"]:hover,
 input[type="password"]:focus {
-    border-color: #999999 !important;
+	border-color: #999999 !important;
 }
 
 a:hover,
@@ -569,11 +569,11 @@ li + li.g_odd,
 }
 
 #layout-search input.text {
-    box-shadow: 1px 1px 2px #8E8E8E inset;
+	box-shadow: 1px 1px 2px #8E8E8E inset;
 }
 
 #layout-search select {
-    box-shadow: 0 1px 2px #8E8E8E inset;
+	box-shadow: 0 1px 2px #8E8E8E inset;
 }
 
 #layout-menu li.sub-menu li + li {
@@ -599,7 +599,7 @@ li + li.g_odd,
 
 #layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
-    background-color: #9A9A9A;
+	background-color: #9A9A9A;
 }
 
 .ajax-file-upload:hover {

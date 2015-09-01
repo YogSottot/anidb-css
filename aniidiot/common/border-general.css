@@ -177,7 +177,7 @@ input[type="button"],
 }
 
 #layout-search div.results_available select {
-    border-radius: 0 5px 0 0;
+	border-radius: 0 5px 0 0;
 }
 
 #layout-main div.animeatt_reviews div.review h4,
@@ -197,5 +197,5 @@ input[type="button"],
 }
 
 #layout-search input.text.focus + select {
-    border-radius: 0 5px 0 0;
+	border-radius: 0 5px 0 0;
 }

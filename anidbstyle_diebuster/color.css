@@ -147,7 +147,7 @@ input[type="submit"]:hover
 .g_bubble,
 .g_bubble .g_bubble .g_bubble
 {
-    background-color:#E0CFC3;
+	background-color:#E0CFC3;
 }
 
 #layout-main div.forum hr, #layout-main div.cmt_all div.cmt_add hr,

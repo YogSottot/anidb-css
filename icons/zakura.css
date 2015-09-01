@@ -1,11 +1,36 @@
-*.i_descending {
-	padding-left: 11px; background: url(../icons/zakura/order-descending.gif) no-repeat center left;
+th.c_set,
+th.c_setlatin,
+th.c_date,
+th.c_latin,
+th.c_number,
+.i_inactive {
+	padding-right: 16px;
+	background: url(../icons/zakura/order.gif) no-repeat center right;
+	cursor: pointer;
 }
-*.i_ascending {
-	padding-left: 11px; background: url(../icons/zakura/order-ascending.gif) no-repeat center left;
+
+th.c_set.s_forward,
+th.c_setlatin.s_forward,
+th.c_date.s_forward,
+th.c_latin.s_forward,
+th.c_number.s_forward,
+.s_forward,
+.i_descending {
+	padding-right: 16px;
+	background: url(../icons/zakura/order-descending.gif) no-repeat center right;
+	cursor: pointer;
 }
-*.i_inactive {
-	padding-left: 11px; background: url(../icons/zakura/order.gif) no-repeat center left;
+
+th.c_set.s_reverse,
+th.c_setlatin.s_reverse,
+th.c_date.s_reverse,
+th.c_latin.s_reverse,
+th.c_number.s_reverse,
+.s_reverse,
+.i_ascending {
+	padding-right: 16px;
+	background: url(../icons/zakura/order-ascending.gif) no-repeat center right;
+	cursor: pointer;
 }
 
 .i_help {
@@ -148,92 +173,3 @@ img[src*="anidb_no_vote.gif"] {
 	padding-left: 5px;
 	height: 16px;
 }
-
-/*a:focus .i_up, a:hover .i_up, a:active .i_up,
-a:focus .i_down, a:hover .i_down, a:active .i_down {
-	background-position: right;
-}*/
-/*a:focus img[src*="noup1.gif"], a:hover img[src*="noup1.gif"], a:active img[src*="noup1.gif"],
-a:focus img[src*="nodown1.gif"], a:hover img[src*="nodown1.gif"], a:active img[src*="nodown1.gif"] {
-	background-position: -11px top;
-}
-img[src*="file_delete.gif"] {
-	background: transparent url(../icons/zakura/state-del.png) no-repeat left top;
-	width: 0;
-	padding-left: 14px;
-}
-img[src*="file_edit.gif"] {
-	background: transparent url(../icons/zakura/mylist-edit.png) no-repeat left top;
-	width: 0;
-	padding-left: 15px;
-}
-img[src*="anidb_seen_no.gif"] {
-	background: transparent url(../icons/zakura/seen-no.png) no-repeat left top;
-	width: 0;
-	padding-left: 15px;
-}
-img[src*="anidb_seen_yes.gif"] {
-	background: transparent url(../icons/zakura/seen-yes.png) no-repeat left top;
-	width: 0;
-	padding-left: 15px;
-}
-img[src*="anidb_file_addmylist.gif"] {
-	background: transparent url(../icons/zakura/mylist-add.png) no-repeat left top;
-	width: 0;
-	padding-left: 15px;
-}
-img[src*="anidb_file_removemylist.gif"] {
-	background: transparent url(../icons/zakura/mylist-remove.png) no-repeat left top;
-	width: 0;
-	padding-left: 15px;
-}
-img[src*="anidb_file_ed2k.gif"] {
-	background: transparent url(../icons/zakura/ed2k.gif) no-repeat left top;
-	width: 0;
-	padding-left: 15px;
-}
-img[src*="ask2.gif"] {
-	background: transparent url(../icons/zakura/help.png) no-repeat -1px top;
-	width: 0;
-	padding-left: 13px;
-}
-img[src*="ask2.gif"]:hover {
-	background-position: -16px top;
-}
-
-.g_content div.icons {
-	margin: 2px 0.3em 0;
-}
-
-.g_content td.title div.icons {
-	float: right;
-}
-
-.g_content .i_icon,
-div.mylist_list td.icons span,
-div.anime_all td.icons span,
-#obj-tooltip div.icons .i_icon {
-	float: left;
-	display: block;
-	width: 15px;
-	height: 13px;
-	background-repeat: no-repeat;
-	background-position: center;
-	text-indent: -5000px;
-	padding: 0 2px;
-}
-.icon a:hover {
-	border: none !important;
-}
-.i_inline {
-	padding: 8px;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.i_inline span {
-	display: none;
-}
-.i_nodown1, .i_down1, .i_noup1, .i_up1 {
-	width: 9px;
-	height: 10px;
-}*/

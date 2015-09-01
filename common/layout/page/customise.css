@@ -1,9 +1,10 @@
-#layout-main div.customise_all  div.pane > ul,
-#layout-main div.customise_all  div.pane > div {
-	margin: 1em 0.5em;
+#layout-main div.customise_all div.pane > ul,
+#layout-main div.customise_all div.pane > div {
+	padding: 1em 0.5em;
+	box-sizing: border-box;
 }
 
-#layout-main div.customise_all  div.pane > ul li {
+#layout-main div.customise_all div.pane > ul li {
 	line-height: 15px;
 	margin-right:0.1em;
 }
@@ -12,16 +13,16 @@
 	width:40%;
 }
 
-#layout-main div.customise_all  div.languages,
-#layout-main div.customise_all  div.css_style p {
+#layout-main div.customise_all div.languages,
+#layout-main div.customise_all div.css_style p {
 	text-align: center;
 }
 
-#layout-main div.customise_all  div.languages div {
+#layout-main div.customise_all div.languages div {
 	display: inline-table;
 }
 
-#layout-main div.customise_all  div.languages div + div {
+#layout-main div.customise_all div.languages div + div {
 	margin-left: 1em;
 }
 
@@ -58,6 +59,6 @@
 }
 
 #layout-main div.customise_all span.checkbox span.text {
-	display:table;
-	margin:-1.7em 0 0 4.5em;
+	display: table;
+	margin:-1.7em 0 0 5em;
 }

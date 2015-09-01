@@ -325,7 +325,7 @@ tr + tr th,
 }
 
 #layout-main div.tag-column .tag-block + .tag-block {
-    border-left-color: #97aacc;
+	border-left-color: #97aacc;
 }
 
 /*tooltip*/
@@ -345,8 +345,8 @@ a.tooltip span.text {
 
 /*quicksearch*/
 #layout-search ul.quicksearch {
-    background-color: #FFFFFF;
-    border-color: #c9d7f1;
+	background-color: #FFFFFF;
+	border-color: #c9d7f1;
 }
 
 /*tag cloud*/
