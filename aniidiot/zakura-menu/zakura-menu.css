@@ -1,20 +1,24 @@
 @import "../zakura/zakura.css";
 
-#layout-menu li.sub-menu
-{
-	height:20px;
+#layout-menu li.sub-menu.main span.tab {
+	display: block;
 }
 
 #layout-content {
 	margin-left: 0;
+	margin-top: 17px;
 }
 
 #layout-tabs {
 	margin-top: 5em;
 }
 
-#layout-menu > li
-{
+#layout-menu {
+	width: auto;
+	padding-top: 149px;
+}
+
+#layout-menu > li {
 	background-attachement:scroll;
 	background-color:transparent;
 	background-image:url('images/layout/stripe-pink2.gif');
@@ -27,68 +31,58 @@
 	padding-left:18px;
 	padding-right:18px;
 	padding-top:-20px;
+	cursor: pointer;
 }
 
-#layout-menu > li ul
-{
+#layout-menu > li ul {
 	border:1px solid #AFBEC7;
 	border-top:0;
 	display:none;
 	font-weight:400;
 	line-height:normal;
 	margin-left:-19px;
-	margin-top:20px;
+	margin-top:32px;
 	padding:0;
 	position:absolute;
 	width: 144px;
 }
 
-#layout-menu li.sub-menu ul {
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-}
-
-#layout-menu > li.alert
-{
+#layout-menu > li.alert {
 	color:#B00;
 }
 
-#layout-menu a
-{
+#layout-menu a {
 	display:block;
 	padding:3px 8px;
 }
 
-#layout-menu a[title^=""] span
-{
+#layout-menu a[title^=""] span {
 	display:none;
 }
 
-#layout-menu a[title^=""]:after
-{
+#layout-menu a[title^=""]:after {
 	content:attr(title);
 }
 
-#layout-menu span.tab
-{
+#layout-menu span.tab {
 	display:inline;
 	float:right;
 }
 
-#layout-menu > li.account 
-{
+#layout-menu > li.account  {
 	border: none;
 	width: 0;
 	padding:0;
 }
 
-#layout-menu > li.account span.tab
-{
+#layout-menu > li.account span.tab {
 	display: none;
 }
 
-#layout-menu > li:hover ul
-{
+#layout-menu > li:hover ul {
 	display:block;
+}
+
+#layout-menu #menu-account {
+	right: 81px;
 }
