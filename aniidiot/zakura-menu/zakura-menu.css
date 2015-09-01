@@ -13,6 +13,10 @@
 	margin: 247px 0px 0px 17px;
 }
 
+#layout-hint + #layout-nav + #layout-content #layout-tabs {
+	margin: 264px 0px 0px 17px;
+}
+
 #layout-menu {
 	width: auto;
 	padding-top: 166px;
