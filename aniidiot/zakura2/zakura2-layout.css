@@ -87,8 +87,13 @@ table td {
 	display: table-cell;
 	height: 102px;
 	vertical-align: bottom;
-	padding: 0 4px;
+	padding: 0 8px;
 	width: auto;
+}
+
+#layout-menu li.sub-menu #menu-account li > span,
+#layout-menu li.sub-menu #menu-account li > a span {
+	padding: 0;
 }
 
 #layout-menu li.sub-menu.account span.tab,

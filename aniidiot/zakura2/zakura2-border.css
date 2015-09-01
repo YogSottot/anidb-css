@@ -9,7 +9,7 @@
 #layout-main div.mylist_all table.animelist table.eplist td,
 #layout-main div.mylist_all table.animelist table.filelist td,
 #layout-menu #menu-account li {
-	border-left: 1px solid;
+	border-left: 1px solid !important;
 }
 
 #layout-menu #menu-account,
