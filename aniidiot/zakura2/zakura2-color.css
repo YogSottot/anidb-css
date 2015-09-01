@@ -605,14 +605,14 @@ input[type="text"]:disabled,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #E6E4D1 !important;
+	background-color: #FFFFFF !important;
 }
 
 .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-	background-color: #F0EDD5 !important;
+	background-color: #F8F8F8 !important;
 }
 .ajax-file-upload:hover {
 	opacity: 0.6;
@@ -635,11 +635,15 @@ html {
 }
 
 #layout-menu li.sub-menu ul li:hover,
-#layout-menu li.sub-menu ul li:hover a,
-#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
-#layout-main div.userpage_all div.g_menu ul li:hover {
+#layout-menu li.sub-menu ul li:hover a {
 	background: transparent url("images/stripe-pink.gif") repeat scroll left top;
 	color: #484B9A !important;
+}
+
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover {
+	background: transparent url("images/stripe-blue.gif") repeat scroll left top;
+	color: #2D42AF !important;
 }
 
 #layout-menu #menu-account {
@@ -658,7 +662,7 @@ html {
 #layout-menu #menu-account li a:hover,
 #layout-menu #menu-account li a:active {
     background: transparent url("images/stripe-pink.png") repeat scroll left top;
-    color: #A93373;
+    color: #484B9A !important;
 }
 
 #layout-menu #menu-account #user-logout a,
@@ -670,7 +674,7 @@ html {
 
 #layout-menu #menu-account #user-logout a:hover,
 #layout-menu #menu-account #user-logout a:active {
-    background: transparent url("images/stripe-blue.png") repeat scroll left top;
+    background: #D3D7F3 url("images/stripe-blue.png") repeat scroll left top;
     color: #2D42AF !important;
 }
 
