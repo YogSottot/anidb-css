@@ -67,6 +67,7 @@
 #layout-menu span.tab {
 	display:inline;
 	float:right;
+	cursor: pointer;
 }
 
 #layout-menu > li.account  {
@@ -88,7 +89,12 @@
 }
 
 #layout-menu li.sub-menu ul li.main a {
-	height: 22px;
+	height: 28px;
 	width: auto;
 	margin-top: 0;
+}
+
+#layout-menu li.sub-menu ul li a {
+	box-sizing: border-box;
+	height: 28px;
 }
