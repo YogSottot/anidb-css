@@ -688,10 +688,18 @@ html {
 	background: transparent url("images/trans-white.png") repeat left top;
 }
 
+#layout-menu li.sub-menu #menu-account .alert:hover {
+	background: transparent url("images/stripe-white.png") repeat left top;
+}
+
+#layout-menu li.sub-menu #menu-account .alert {
+	color: #ed95bd !important;
+	background: transparent url("images/trans-white.png") repeat left top;
+}
+
 #layout-menu li.sub-menu #menu-account .alert a:hover,
 #layout-menu li.sub-menu #menu-account .alert a:active {
-	color: #ff00c6;
-	background: transparent url("images/stripe-white.png") repeat left top;
+	color: #ff00c6 !important;
 }
 
 #layout-menu li.sub-menu #menu-account .alert a.history,
@@ -700,15 +708,14 @@ html {
 #layout-menu li.sub-menu #menu-account .alert a.nextnotify,
 #layout-menu li.sub-menu #menu-account .alert a.nextnotify:link,
 #layout-menu li.sub-menu #menu-account .alert a.nextnotify:visited {
-	color: #ed95bd;
-	background: transparent url("images/trans-white.png") repeat left top;
+	color: #ed95bd !important;
 }
 
 #layout-menu li.sub-menu #menu-account .alert a.history:hover,
 #layout-menu li.sub-menu #menu-account .alert a.history:active,
 #layout-menu li.sub-menu #menu-account .alert a.nextnotify:hover,
 #layout-menu li.sub-menu #menu-account .alert a.nextnotify:active  {
-	color: #fd0576;
+	color: #fd0576 !important;
 }
 
 #layout-main {
