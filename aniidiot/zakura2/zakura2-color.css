@@ -651,8 +651,7 @@ html {
 }
 
 #layout-menu #menu-account li {
-	border-left-color: #E7C7D5;
-	border-right-color: #E7C7D5;
+	border-left-color: #E7C7D5 !important;
 }
 
 #layout-menu #menu-account li a,
@@ -688,18 +687,10 @@ html {
 	background: transparent url("images/trans-white.png") repeat left top;
 }
 
-#layout-menu li.sub-menu #menu-account .alert:hover {
-	background: transparent url("images/stripe-white.png") repeat left top;
-}
-
-#layout-menu li.sub-menu #menu-account .alert {
-	color: #ed95bd !important;
-	background: transparent url("images/trans-white.png") repeat left top;
-}
-
 #layout-menu li.sub-menu #menu-account .alert a:hover,
 #layout-menu li.sub-menu #menu-account .alert a:active {
 	color: #ff00c6 !important;
+	background: transparent url("images/stripe-white.png") repeat left top;
 }
 
 #layout-menu li.sub-menu #menu-account .alert a.history,
@@ -709,6 +700,17 @@ html {
 #layout-menu li.sub-menu #menu-account .alert a.nextnotify:link,
 #layout-menu li.sub-menu #menu-account .alert a.nextnotify:visited {
 	color: #ed95bd !important;
+	background: transparent url("images/trans-white.png") repeat left top;
+}
+
+#layout-menu li.sub-menu #menu-account .alert a.history,
+#layout-menu li.sub-menu #menu-account .alert a.history:link,
+#layout-menu li.sub-menu #menu-account .alert a.history:visited,
+#layout-menu li.sub-menu #menu-account .alert a.nextnotify,
+#layout-menu li.sub-menu #menu-account .alert a.nextnotify:link,
+#layout-menu li.sub-menu #menu-account .alert a.nextnotify:visited {
+	color: #ed95bd !important;
+	background: transparent url("images/trans-white.png") repeat left top;
 }
 
 #layout-menu li.sub-menu #menu-account .alert a.history:hover,
