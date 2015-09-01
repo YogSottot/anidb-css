@@ -4,11 +4,11 @@
 
 #layout-main div.tag_all div.filters ul li span,
 #layout-main div.tag_all div.filters ul li span span {
-    display: inline-block;
+	display: inline-block;
 }
 
 #layout-main div.tag_all div.filters ul li span span span {
-    display: none;
+	display: none;
 }
 
 #layout-main div.tag_all div.note,
@@ -63,12 +63,12 @@
 }
 
 #layout-main div.tag_all .g_definitionlist div.tag-column {
-    display: inline-table;
-    margin: 0;
-    max-width: 200px;
-    min-width: 200px;
-    padding: 0 0.3em 0 0;
-    vertical-align: top;
+	display: inline-table;
+	margin: 0;
+	max-width: 200px;
+	min-width: 200px;
+	padding: 0 0.3em 0 0;
+	vertical-align: top;
 }
 
 #layout-main div.tag_all div.tag-column div.tag span.weight {

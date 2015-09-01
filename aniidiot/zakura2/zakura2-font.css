@@ -38,7 +38,7 @@ caption {
 .g_definitionlist table th a,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul.main-tabs > li {
-    font-size: 1.14rem; /*12px*/
+	font-size: 1.14rem; /*12px*/
 }
 
 #layout-main tr.header th {
@@ -49,7 +49,7 @@ caption {
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab {
-    text-transform: capitalize;
+	text-transform: capitalize;
 }
 
 div.mylist_list table.eplist th,

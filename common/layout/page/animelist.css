@@ -1,15 +1,15 @@
 #layout-main div.animelist_all td.awards span.i_icon,
 #layout-main div.animelist_all div.filters ul li span,
 #layout-main div.animelist_all div.filters ul li span span {
-    display: inline-block;
+	display: inline-block;
 }
 
 #layout-main div.animelist_all div.filters ul li span span span {
-    display: none;
+	display: none;
 }
 
 #layout-main div.animelist_all div.enabled_filters li > span {
-    display: inline-block;
+	display: inline-block;
 }
 
 #layout-main div.animelist_all div.note,

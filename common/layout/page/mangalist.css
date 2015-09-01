@@ -2,12 +2,12 @@
 #layout-main div.mangalist_all div.filters ul li span,
 #layout-main div.mangalist_all div.filters ul li span span
 {
-    display: inline-block;
+	display: inline-block;
 }
 
 #layout-main div.mangalist_all div.filters ul li span span span
 {
-    display: none;
+	display: none;
 }
 
 #layout-main div.mangalist_all div.note,

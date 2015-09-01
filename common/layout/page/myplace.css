@@ -183,23 +183,23 @@
 }
 
 #layout-main div.userpage_all .g_bubble.stripe.recommendation {
-    height: 125px;
-    position: relative;
+	height: 125px;
+	position: relative;
 }
 
 #layout-main div.userpage_all .g_bubble.stripe.recommendation > div.data div.text {
-    max-height: inherit;
+	max-height: inherit;
 }
 
 #layout-main div.userpage_all .g_bubble.stripe.recommendation > div.data {
-    height: 95px;
-    overflow-y: auto;
+	height: 95px;
+	overflow-y: auto;
 }
 
 #layout-main div.userpage_all .g_bubble.stripe.recommendation > div.author {
-    bottom: 0;
-    position: absolute;
-    margin: 0.5em 0.5em 0.5em 6em;
+	bottom: 0;
+	position: absolute;
+	margin: 0.5em 0.5em 0.5em 6em;
 }
 
 #layout-main div.userpage_all div.userdetails div.block div.news,
@@ -226,8 +226,8 @@
 }
 
 #layout-main div.userpage_all .g_section.discussions > div {
-    display: inline-table;
-    vertical-align: top;
+	display: inline-table;
+	vertical-align: top;
 }
 
 #layout-main div.userpage_all div.g_menu.user > div + div {
@@ -276,8 +276,8 @@
 
 	#layout-main div.userpage_all .userprefs .content .g_bubble.stripe,
 	#layout-main div.userpage_all .clubs .content .g_bubble.stripe {
-	    margin: 0.2em;
-	    min-height: 0;
+		margin: 0.2em;
+		min-height: 0;
 	}
 }
 

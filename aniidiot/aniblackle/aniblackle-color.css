@@ -388,8 +388,8 @@ input[type="button"]:focus::-moz-focus-inner {
 
 /*quicksearch*/
 #layout-search ul.quicksearch {
-    background-color: #404040;
-    border-color: #666666;
+	background-color: #404040;
+	border-color: #666666;
 }
 
 #layout-search ul.quicksearch li:hover,
@@ -489,11 +489,11 @@ li + li.g_odd,
 }
 
 #layout-search input.text {
-    box-shadow: 1px 1px 2px #777777 inset;
+	box-shadow: 1px 1px 2px #777777 inset;
 }
 
 #layout-search select {
-    box-shadow: 0 1px 2px #777777 inset;
+	box-shadow: 0 1px 2px #777777 inset;
 }
 
 button,

@@ -18,16 +18,16 @@
 }
 
 table {
-    border: 1px solid !important;
-    border-radius: 5px;
+	border: 1px solid !important;
+	border-radius: 5px;
 }
 
 #layout-main div.anime_all div.episodes table.filelist,
 #layout-main div.mylist_all table.animelist table.eplist,
 #layout-main div.mylist_all table.animelist table.filelist,
 .g_definitionlist table {
-    border: none !important;
-    border-radius: 0;
+	border: none !important;
+	border-radius: 0;
 }
 
 tr + tr td,

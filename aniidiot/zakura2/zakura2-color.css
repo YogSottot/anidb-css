@@ -667,8 +667,8 @@ html {
 
 #layout-menu #menu-account li a:hover,
 #layout-menu #menu-account li a:active {
-    background: transparent url("images/stripe-pink.png") repeat scroll left top;
-    color: #484B9A !important;
+	background: transparent url("images/stripe-pink.png") repeat scroll left top;
+	color: #484B9A !important;
 }
 
 #layout-menu #menu-account #user-logout a,
@@ -680,8 +680,8 @@ html {
 
 #layout-menu #menu-account #user-logout a:hover,
 #layout-menu #menu-account #user-logout a:active {
-    background: #D3D7F3 url("images/stripe-blue.png") repeat scroll left top;
-    color: #2D42AF !important;
+	background: #D3D7F3 url("images/stripe-blue.png") repeat scroll left top;
+	color: #2D42AF !important;
 }
 
 #layout-main {
@@ -723,18 +723,18 @@ caption {
 }
 
 #layout-main div.main_all div.rightbar ol li.g_odd {
-    background-color: #FFFFFF;
+	background-color: #FFFFFF;
 }
 #layout-main div.main_all div.rightbar ol li {
-    border-top-color: #E4E4E4;
+	border-top-color: #E4E4E4;
 }
 
 table {
-    border-color: #565AB9 !important;
+	border-color: #565AB9 !important;
 }
 
 #layout-footer {
-    color: #85809F;
+	color: #85809F;
 }
 
 #layout-main div.anime_all div.episodes table.filelist th,

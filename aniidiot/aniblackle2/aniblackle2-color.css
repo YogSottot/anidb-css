@@ -349,7 +349,7 @@ input[type="text"]:hover,
 input[type="text"]:focus,
 input[type="password"]:hover,
 input[type="password"]:focus {
-    border-color: #666666 !important;
+	border-color: #666666 !important;
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp a,
@@ -650,20 +650,20 @@ a.tooltip span.text {
 }
 
 .i_ext.video {
-    background-color: #152E66;
+	background-color: #152E66;
 }
 .i_ext.audio {
-    background-color: #6B1515;
+	background-color: #6B1515;
 }
 .i_ext.subtitle {
-    background-color: #0E5716;
+	background-color: #0E5716;
 }
 .i_ext.archive {
-    background-color: #4D1B7A;
+	background-color: #4D1B7A;
 }
 .i_ext.linker {
-    background-color: #7A6311;
+	background-color: #7A6311;
 }
 .i_ext.other {
-    background-color: #555555;
+	background-color: #555555;
 }

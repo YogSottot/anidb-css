@@ -97,8 +97,8 @@ table td {
 }
 
 #layout-menu li.sub-menu ul li.main a {
-    height: 152px;
-    margin-top: -164px;
+	height: 152px;
+	margin-top: -164px;
 }
 
 caption,
@@ -108,22 +108,22 @@ h4 {
 }
 
 #layout-main div.main_all div.rightbar h4 {
-    padding: 0.3em 1em;
+	padding: 0.3em 1em;
 }
 
 #layout-main div.main_all div.rightbar {
-    padding: 14em 0px 0px;
+	padding: 14em 0px 0px;
 }
 
 #layout-main div.main_all div.rightbar ol li {
-    position: relative;
-    padding: 0.3em 0.3em 0.3em 1em;
+	position: relative;
+	padding: 0.3em 0.3em 0.3em 1em;
 }
 
 #layout-main div.main_all div.datablocks,
 #layout-main div.main_all div.news.forum,
 #layout-main div.main_all div.header {
-    margin-right: 21.5em;
+	margin-right: 21.5em;
 }
 
 #layout-main div.tabbed_pane ul.tabs {
@@ -145,4 +145,16 @@ table tr.filesrow > td {
 #layout-main div.mylist_all table.animelist table.filelist {
 	padding: 0 0 0 20px;
 	width: 100%;
+}
+
+#layout-main tr.header th.sortable a {
+	display: flex;
+}
+
+#layout-main tr.header th.sortable a span.text {
+	width: 100%;
+}
+
+#layout-main tr.header th.sortable a span.icon {
+	order: 2;
 }
