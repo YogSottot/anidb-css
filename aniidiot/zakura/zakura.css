@@ -7,10 +7,10 @@
 @import "../anigoogle2/anigoogle2-layout.css";
 @import "../anigoogle2/anigoogle2-text.css";
 @import "../anigoogle2/anigoogle2-icons.css";
-@import "zakura2-border.css";
-@import "zakura2-layout.css";
-@import "zakura2-color.css";
-@import "zakura2-font.css";
+@import "zakura-border.css";
+@import "zakura-layout.css";
+@import "zakura-color.css";
+@import "zakura-font.css";
 
 #layout-footer:after
 {
