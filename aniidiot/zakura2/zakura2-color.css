@@ -75,7 +75,7 @@ th a:hover {
 #layout-main tr.header th.sortable:hover a,
 #layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
-	background-color: #A9B0E1;
+	background-color: #A3BADA;
 }
 
 #layout-main table.file.entities tr.generic,
@@ -514,6 +514,7 @@ th a,
 #layout-main div.votes_all div.graph div.header,
 #layout-main div.forum div.g_bubble.threads {
 	background-color: #565AB9;
+	color: #FFFFFF !important;
 }
 
 /*box shadow*/
