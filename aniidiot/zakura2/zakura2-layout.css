@@ -139,7 +139,8 @@ table tr.filesrow > td {
 	padding: 0;
 }
 
-table table.filelist {
+#layout-main div.mylist_all table.animelist table.eplist,
+#layout-main div.mylist_all table.animelist table.filelist {
 	padding: 0 0 0 20px;
 	width: 100%;
 }

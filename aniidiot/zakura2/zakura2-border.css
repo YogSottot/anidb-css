@@ -2,8 +2,10 @@
 	border-top: 1px solid !important;
 }
 
-table table.filelist th,
-table table.filelist td,
+#layout-main div.mylist_all table.animelist table.eplist th,
+#layout-main div.mylist_all table.animelist table.filelist th,
+#layout-main div.mylist_all table.animelist table.eplist td,
+#layout-main div.mylist_all table.animelist table.filelist td,
 #layout-menu #menu-account li a {
 	border-left: 1px solid;
 }
@@ -18,7 +20,8 @@ table {
     border-radius: 5px;
 }
 
-table table.filelist,
+#layout-main div.mylist_all table.animelist table.eplist,
+#layout-main div.mylist_all table.animelist table.filelist,
 .g_definitionlist table {
     border: none !important;
     border-radius: 0;
@@ -44,8 +47,10 @@ li + li.g_odd,
 	border-top-style: dotted;
 }
 
-table table.filelist th,
-table table.filelist td,
+#layout-main div.mylist_all table.animelist table.eplist th,
+#layout-main div.mylist_all table.animelist table.filelist th,
+#layout-main div.mylist_all table.animelist table.eplist td,
+#layout-main div.mylist_all table.animelist table.filelist td,
 #layout-main div.tag-column .tag-block + .tag-block,
 #layout-main div.characterlist_all tr td + td,
 #layout-main div.creatorlist_all tr td + td,
