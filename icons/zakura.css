@@ -10,11 +10,11 @@
 	background: url(../icons/zakura/order-ascending.gif) no-repeat center right;
     cursor: pointer;
 }
-.c_set,
-.c_setlatin,
-.c_date,
-.c_latin,
-.c_number,
+th.c_set,
+th.c_setlatin,
+th.c_date,
+th.c_latin,
+th.c_number,
 .i_inactive {
 	padding-right: 16px;
 	background: url(../icons/zakura/order.gif) no-repeat center right;
