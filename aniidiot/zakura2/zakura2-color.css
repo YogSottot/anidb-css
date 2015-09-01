@@ -90,7 +90,6 @@ th a:hover {
 	background-color: #A3BADA;
 }
 
-#layout-main table.filelist tr.generic,
 #layout-main table.file.entities tr.generic,
 #layout-main div.anime_all div.data table.relationlist tr,
 #layout-main div.profile_all div.tabbed_pane div.general table tr,
@@ -192,7 +191,8 @@ button.confirmButton:hover,
 #layout-main div.userpage_all div.g_menu ul li.g_odd,
 #layout-main div.edit_actions a:hover,
 #layout-main div.forum ul.topics li.g_odd.row,
-#layout-search ul.quicksearch .g_bubble.stripe:hover {
+#layout-search ul.quicksearch .g_bubble.stripe:hover,
+table.eplist table.filelist tr.g_odd {
 	background-color: #F5F7FF;
 }
 
@@ -243,7 +243,8 @@ button.confirmButton,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.pagination span a,
 #layout-search ul.quicksearch .g_bubble.stripe,
-#layout-main div.g_content {
+#layout-main div.g_content,
+table.eplist table.filelist tr {
 	background-color: #FFFFFF;
 }
 
@@ -414,6 +415,8 @@ li + li.g_odd,
 	border-bottom-color: #D3D7E2;
 }
 
+table.eplist table.filelist th,
+table.eplist table.filelist td,
 #layout-main div.tag-column .tag-block + .tag-block,
 #layout-main div.characterlist_all tr td + td,
 #layout-main div.creatorlist_all tr td + td,
@@ -734,4 +737,14 @@ table {
 
 #layout-footer {
     color: #85809F;
+}
+
+
+div.mylist_list table.eplist th,
+div.anime_all div.episodes table.filelist th {
+	background-color: #A9B0E1;
+}
+
+table.eplist table.filelist {
+	background: #D3D7F3 url("images/stripe-blue.gif") repeat scroll left top;
 }

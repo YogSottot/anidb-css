@@ -1,11 +1,24 @@
-*.i_descending {
-	padding-left: 11px; background: url(../icons/zakura/order-descending.gif) no-repeat center left;
+.s_forward,
+.i_descending {
+	padding-right: 16px;
+	background: url(../icons/zakura/order-descending.gif) no-repeat center right;
+    cursor: pointer;
 }
-*.i_ascending {
-	padding-left: 11px; background: url(../icons/zakura/order-ascending.gif) no-repeat center left;
+.s_reverse,
+.i_ascending {
+	padding-right: 16px;
+	background: url(../icons/zakura/order-ascending.gif) no-repeat center right;
+    cursor: pointer;
 }
-*.i_inactive {
-	padding-left: 11px; background: url(../icons/zakura/order.gif) no-repeat center left;
+.c_set,
+.c_setlatin,
+.c_date,
+.c_latin,
+.c_number,
+.i_inactive {
+	padding-right: 16px;
+	background: url(../icons/zakura/order.gif) no-repeat center right;
+    cursor: pointer;
 }
 
 .i_help {

@@ -128,3 +128,16 @@ h4 {
 #layout-main div.tabbed_pane ul.tabs {
 	margin: 1px 1px 0px 6px;
 }
+
+table th {
+	text-align: left;
+}
+
+
+table.eplist tr.filesrow > td {
+	padding: 0;
+}
+
+table.eplist table.filelist {
+	padding: 0 0 0 20px;
+}
