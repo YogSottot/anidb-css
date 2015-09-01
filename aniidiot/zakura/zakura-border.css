@@ -53,7 +53,7 @@ li + li.g_odd,
 #layout-main #tagtree div.tag-column div.tag,
 #layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-search ul.quicksearch li + li {
-	border-top-style: dotted !important;
+	border-top-style: dotted;
 }
 
 #layout-main div.anime_all div.episodes table.filelist th,
@@ -82,7 +82,7 @@ li + li.g_odd,
 #layout-main div.modlatest_all table tr td + td,
 #layout-main div.latest2_all table tr td + td,
 #layout-main div.latest2_all table tr.rowspan td:first-child {
-	border-left-style: dotted;
+	border-left-style: dotted !important;
 }
 
 #layout-main div.forum .g_bubble.infobox h2,
