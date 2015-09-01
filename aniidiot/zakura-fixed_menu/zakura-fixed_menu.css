@@ -18,15 +18,22 @@
 	z-index: 1;
 }
 
-#layout-menu{
+#layout-menu {
 	height: 0;
-	padding-top: 190px;
 }
 
 #layout-content {
 	padding-top: 0;
-	margin-top: 183px;
+	margin-top: 166px;
 	background: transparent;
+}
+
+#layout-hint + #layout-nav + #layout-content {
+	margin-top: 183px;
+}
+
+#layout-hint + #layout-nav + #layout-menu {
+	padding-top: 190px;
 }
 
 #layout-footer:after {
