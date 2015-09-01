@@ -403,6 +403,8 @@ li + li.g_odd,
 	border-bottom-color: #D3D7E2;
 }
 
+#layout-main div.anime_all div.episodes table.filelist th,
+#layout-main div.anime_all div.episodes table.filelist td,
 #layout-main div.mylist_all table.animelist table.eplist th,
 #layout-main div.mylist_all table.animelist table.filelist th,
 #layout-main div.mylist_all table.animelist table.eplist td,
@@ -734,12 +736,13 @@ table {
 }
 
 
-div.mylist_list table.eplist th,
-div.anime_all div.episodes table.filelist th {
+#layout-main div.anime_all div.episodes table.filelist th,
+#layout-main div.mylist_all table.animelist table.eplist th,
+#layout-main div.mylist_all table.animelist table.filelist th, {
 	background-color: #A9B0E1;
 }
 
-#layout-main div.mylist_all table.animelist table.eplist,
+#layout-main div.anime_all div.episodes table.filelist,
 #layout-main div.mylist_all table.animelist table.filelist {
 	background: #D3D7F3 url("images/stripe-blue.gif") repeat scroll left top;
 }

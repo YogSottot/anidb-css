@@ -134,11 +134,12 @@ table th {
 	text-align: left;
 }
 
-
+table tr.epsrow > td,
 table tr.filesrow > td {
 	padding: 0;
 }
 
+#layout-main div.anime_all div.episodes table.filelist,
 #layout-main div.mylist_all table.animelist table.eplist,
 #layout-main div.mylist_all table.animelist table.filelist {
 	padding: 0 0 0 20px;

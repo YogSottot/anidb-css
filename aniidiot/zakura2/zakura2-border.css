@@ -2,6 +2,8 @@
 	border-top: 1px solid !important;
 }
 
+#layout-main div.anime_all div.episodes table.filelist th,
+#layout-main div.anime_all div.episodes table.filelist td,
 #layout-main div.mylist_all table.animelist table.eplist th,
 #layout-main div.mylist_all table.animelist table.filelist th,
 #layout-main div.mylist_all table.animelist table.eplist td,
@@ -20,6 +22,7 @@ table {
     border-radius: 5px;
 }
 
+#layout-main div.anime_all div.episodes table.filelist,
 #layout-main div.mylist_all table.animelist table.eplist,
 #layout-main div.mylist_all table.animelist table.filelist,
 .g_definitionlist table {
@@ -47,6 +50,8 @@ li + li.g_odd,
 	border-top-style: dotted;
 }
 
+#layout-main div.anime_all div.episodes table.filelist th,
+#layout-main div.anime_all div.episodes table.filelist td,
 #layout-main div.mylist_all table.animelist table.eplist th,
 #layout-main div.mylist_all table.animelist table.filelist th,
 #layout-main div.mylist_all table.animelist table.eplist td,
