@@ -10,7 +10,7 @@
 }
 
 #layout-tabs {
-	margin-top: 5em;
+	margin: 247px 0px 0px 17px;
 }
 
 #layout-menu {
@@ -85,4 +85,10 @@
 
 #layout-menu #menu-account {
 	right: 81px;
+}
+
+#layout-menu li.sub-menu ul li.main a {
+	height: 22px;
+	width: auto;
+	margin-top: 0;
 }
