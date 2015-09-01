@@ -134,6 +134,7 @@ table th {
 	text-align: left;
 }
 
+#layout-main div.mylist_all table.animelist table.eplist tr.files + tr > td,
 table tr.epsrow > td,
 table tr.filesrow > td {
 	padding: 0;

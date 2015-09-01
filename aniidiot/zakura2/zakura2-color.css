@@ -735,10 +735,9 @@ table {
     color: #85809F;
 }
 
-
 #layout-main div.anime_all div.episodes table.filelist th,
 #layout-main div.mylist_all table.animelist table.eplist th,
-#layout-main div.mylist_all table.animelist table.filelist th, {
+#layout-main div.mylist_all table.animelist table.filelist th {
 	background-color: #A9B0E1;
 }
 
