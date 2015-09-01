@@ -421,7 +421,7 @@ li + li.g_odd,
 #layout-main div.modlatest_all table tr td + td,
 #layout-main div.latest2_all table tr td + td,
 #layout-main div.latest2_all table tr.rowspan td:first-child {
-	border-left-color: #D3D7E2;
+	border-left-color: #D3D7E2 !important;
 }
 
 tr + tr th,
@@ -744,7 +744,7 @@ table {
 #layout-main div.anime_all div.episodes table.filelist th,
 #layout-main div.mylist_all table.animelist table.eplist th,
 #layout-main div.mylist_all table.animelist table.filelist th {
-	background-color: #A9B0E1 !important;
+	background-color: #A9B0E1;
 }
 
 #layout-main div.anime_all div.episodes table.filelist,
