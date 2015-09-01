@@ -80,6 +80,7 @@
 	display: none;
 }
 
+#layout-menu li.sub-menu ul li.main span,
 #layout-menu > li:hover ul {
 	display:block;
 }
@@ -99,6 +100,10 @@
 	height: 28px;
 }
 
-#layout-hint + #layout-nav + #layout-menu #menu-account {
+#layout-hint + #layout-nav #layout-menu #menu-account {
     right: 178px;
+}
+
+#layout-menu li.sub-menu ul li.main a {
+	position: static;
 }
