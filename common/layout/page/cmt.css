@@ -693,6 +693,10 @@ div.g_bubble.quotebody {
 	width: 30%;
 }
 
+#layout-main div.forum .g_bubble.infobox.events .row > div.left {
+	width: 30em;
+}
+
 #layout-main div.forum .g_bubble.infobox .row > div.middle {
 	width: 50%;
 }
