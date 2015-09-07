@@ -8,7 +8,8 @@
 }
 
 #layout-menu {
-	width: auto;
+	width: 47.8em;
+	height: 31px;
 }
 
 #layout-menu > li {
@@ -26,8 +27,8 @@
 	display:none;
 	font-weight:400;
 	line-height:normal;
-	margin-left:-17px;
-	margin-top:27px;
+	margin-left:-18px;
+	margin-top:31px;
 	padding:0;
 	position:absolute;
 	width: 144px;
@@ -41,7 +42,6 @@
 #layout-menu span.tab {
 	display:inline;
 	float:right;
-	cursor: pointer;
 }
 
 #layout-menu li.sub-menu ul li.main span,
@@ -88,4 +88,9 @@
 
 #layout-menu li.sub-menu ul li.alert {
 	height: 28px;
+}
+
+#layout-menu li.sub-menu {
+	margin-bottom: 0;
+	cursor: pointer;
 }
