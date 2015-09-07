@@ -4,7 +4,8 @@
 
 #layout-content {
 	margin-left: 0;
-	margin-top: 47px;
+	margin-top: 53px;
+	padding-left: 0.5em;
 }
 
 #layout-menu {
@@ -42,6 +43,7 @@
 #layout-menu span.tab {
 	display:inline;
 	float:right;
+	cursor: pointer;
 }
 
 #layout-menu li.sub-menu ul li.main span,
@@ -74,11 +76,11 @@
 }
 
 #layout-tabs {
-	margin: 110px 3px;
+	margin: 116px 3px;
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 126px 3px;
+	margin: 132px 3px;
 }
 
 #layout-hint + #layout-nav #layout-menu,
