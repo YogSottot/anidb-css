@@ -176,7 +176,6 @@ table table.filelist tr.g_odd {
 	background-color: #F5F7FF;
 }
 
-html,
 .i_comment_add,
 .i_topic_add,
 .i_topic_history,
@@ -617,8 +616,8 @@ input[type="text"]:disabled,
 }
 
 html {
-	background: #F8F7FF url("images/bg-content.gif") repeat scroll left top;
-	color: #3D3E6E;
+	background-color: #111214;
+	color: #696969;
 }
 
 #layout-search {
