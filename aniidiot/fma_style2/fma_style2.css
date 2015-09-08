@@ -10,6 +10,7 @@
 @import "../zakura/zakura-layout.css";
 @import "../zakura/zakura-border.css";
 @import "../zakura/zakura-font.css";
+@import "fma_style2-font.css";
 @import "fma_style2-color.css";
 
 #layout-footer:after {

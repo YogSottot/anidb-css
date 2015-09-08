@@ -46,7 +46,6 @@ input[type="button"]:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.username-colored,
-#layout-menu li.sub-menu span.tab,
 #layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.userpage_all .achievements h4 a.i_help:hover {
 	color: #AA0000 !important;
@@ -173,7 +172,7 @@ button.confirmButton:hover,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-search ul.quicksearch .g_bubble.stripe:hover,
 table table.filelist tr.g_odd {
-	background-color: #F5F7FF;
+	background-color: #F4F9FF;
 }
 
 .i_comment_add,
@@ -224,7 +223,7 @@ button.confirmButton,
 #layout-search ul.quicksearch .g_bubble.stripe,
 #layout-main div.g_content,
 table table.filelist tr {
-	background-color: #FFFFFF;
+	background-color: #F5F5F5;
 }
 
 select:hover,
@@ -687,13 +686,9 @@ html {
 	background: transparent url("images/stripe-white.png") repeat left top;
 }
 
-#layout-main {
-	background-color: #F8F7FF;
-}
-
 #layout-main > h1 {
 	background-color: inherit;
-	color: #494A9C !important;
+	color: #FFFFFF !important;
 }
 
 .g_definitionlist table th,
@@ -761,4 +756,8 @@ select option {
 
 select option[value="0"] {
 	color:#B14C7C;
+}
+
+#layout-menu li.sub-menu span.tab {
+	color: #DDD !important;
 }
