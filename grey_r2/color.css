@@ -25,7 +25,7 @@ tr > th,
 #layout-main div.news h4,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.blog h4,
-#layout-main div.timeline_all div.timeline ul.row li.dropped
+#layout-main div.timeline_all div.timeline ul.row li.liststate_dropped
 {
 background-color:hsla(0, 100%, 25%, 0.4);
 }
@@ -43,9 +43,10 @@ html,
 {
 background-image:url(../grey/images/bg_1.gif);
 }
-#layout-nav,#menu-main,#menu-lists,#menu-private,#menu-mod,#menu-support,#menu-account,
+#layout-nav,
+#layout-menu li.sub-menu ul,
 #layout-main div.forum div.body div.code div.text,
-div.tooltip .g_bubble
+.tooltip .g_bubble
 {
 background-image:url(../grey/images/bg_2.gif);
 }
@@ -101,7 +102,7 @@ background-color:hsla(0, 0%, 0%, 0.4);
 }
 #layout-content table.animelist tr.mylist td,
 #layout-content table.stafflist tr.mylist td,
-#layout-main div.timeline_all div.timeline ul.row li.watching,
+#layout-main div.timeline_all div.timeline ul.row li.listatate_watching,
 .g_bubble.stripe.mylist
 {
 background-color:hsla(34, 95%, 44%, 0.4);
@@ -109,7 +110,7 @@ background-color:hsla(34, 95%, 44%, 0.4);
 #layout-content table.animelist tr.complete td,
 #layout-content table.stafflist tr.complete td,
 #layout-main div.forum .g_bubble.infobox div.bar,
-#layout-main div.timeline_all div.timeline ul.row li.stalled,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled,
 .g_bubble.stripe.mylist.complete
 {
 background-color:hsla(207, 86%, 44%, 0.4);
@@ -128,7 +129,7 @@ background-color:hsla(207, 86%, 44%, 0.4);
 #layout-content table.animelist tr.all_watched td,
 #layout-content table.stafflist tr.all_watched td,
 #layout-content #layout-main div.ed2kdump_all table.filelist .in,
-#layout-main div.timeline_all div.timeline ul.row li.completed,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_completed,
 .g_bubble.stripe.mylist.all_watched
 {
 background-color:hsla(127, 54%, 25%, 0.6);
@@ -419,11 +420,11 @@ margin:auto;
 max-height:none;
 overflow:visible;
 }
-#layout-content div.mylist_list table.animelist tr.watching td
+#layout-content div.mylist_list table.animelist tr.liststate_watching td
 {
 background-image:url(images/orangepixels.png);
 }
-#layout-content div.mylist_list table.animelist tr.watching:hover td
+#layout-content div.mylist_list table.animelist tr.liststate_watching:hover td
 {
 background-image:url(images/orangepixels.png), url(../grey/images/whitepixel.png);
 }
@@ -435,3 +436,4 @@ background-color:#006400;
 {
 background-color:#c1f167;
 }
+

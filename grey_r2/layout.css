@@ -422,7 +422,7 @@ border-width:1px;
 {
 border-right-style:dashed;
 }
-#layout-main div.forum ul.topiclist div.row div
+#layout-main div.forum ul.topiclist div.row div:not(first-of-type)
 {
 border-left-style:dashed;
 }
@@ -490,3 +490,4 @@ display:inline-block;
 {
 margin-left:0.5em;
 }
+
