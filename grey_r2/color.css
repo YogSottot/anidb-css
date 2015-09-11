@@ -102,7 +102,7 @@ background-color:hsla(0, 0%, 0%, 0.4);
 }
 #layout-content table.animelist tr.mylist td,
 #layout-content table.stafflist tr.mylist td,
-#layout-main div.timeline_all div.timeline ul.row li.listatate_watching,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_watching,
 .g_bubble.stripe.mylist
 {
 background-color:hsla(34, 95%, 44%, 0.4);
