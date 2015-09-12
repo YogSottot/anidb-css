@@ -4,7 +4,7 @@
 @import "../common/layout/global/all.css";
 @import "../common/layout/page/all.css";
 @import "../common/libs/all.css";
-@import "../common/libs/chosen/style-grey.css"
+@import "../common/libs/chosen/style-grey.css";
 @import "../common/style/text/default.css";
 @import "../common/style/content/page-anime.css";
 @import "../common/style/content/page-main.css";
@@ -89,7 +89,6 @@ div.buttons li a,
 button,
 *.confirmButton
 {
-margin-top:0.3em;
 border-style:dashed;
 border-width:2px;
 text-shadow:none;
@@ -246,6 +245,9 @@ margin-left:0;
 margin-right:0;
 padding-left:0;
 padding-right:0;
+}
+#layout-content ul.g_list.jump li + li {
+padding-left: 2%;
 }
 #menu-main,#menu-lists,#menu-private,#menu-mod,#menu-support,#menu-account
 {
@@ -468,7 +470,7 @@ margin:0.5em 12em 0 0.5em;
 }
 .g_bubble,#layout-main div.main_all div.datablocks h4,#layout-main div.main_all div.header h4
 {
--moz-border-radius:0;
+border-radius:0;
 border-style:none;
 border-width:0;
 }
