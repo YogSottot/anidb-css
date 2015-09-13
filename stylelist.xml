@@ -180,6 +180,16 @@
 		<thumbnail>cdbstyle3/images/thumbnail.png</thumbnail>
 		<screenshot>cdbstyle3/images/screenshot.png</screenshot>
 	</style>
+	<style name="cdbstyle3-menu">
+		<title>CDBstyle3-menu</title>
+		<creator>CDB-Man</creator>
+		<update>13.09.2015</update>
+		<status>constant development and updates</status>
+		<description>CDB`s improvements on DerIdiot`s AniDBstyle3-menu.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
+		<path/>
+		<thumbnail>cdbstyle3-menu/images/thumbnail.png</thumbnail>
+		<screenshot>cdbstyle3-menu/images/screenshot.png</screenshot>
+	</style>
 	<style name="cdbstyle-aniblackle2">
 		<title>CDBstyle-Aniblackle2</title>
 		<creator>CDB-Man</creator>
@@ -190,6 +200,16 @@
 		<thumbnail>cdbstyle-aniblackle2/images/thumbnail.png</thumbnail>
 		<screenshot>cdbstyle-aniblackle2/images/screenshot.png</screenshot>
 	</style>
+	<style name="cdbstyle-aniblackle2-menu">
+		<title>CDBstyle-Aniblackle2-menu</title>
+		<creator>CDB-Man</creator>
+		<update>13.09.2015</update>
+		<status>constant development and updates</status>
+		<description>CDB`s improvements on DerIdiot`s Aniblackle2-menu.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
+		<path/>
+		<thumbnail>cdbstyle-aniblackle2-menu/images/thumbnail.png</thumbnail>
+		<screenshot>cdbstyle-aniblackle2-menu/images/screenshot.png</screenshot>
+	</style>
 	<style name="cdbstyle-anigoogle2">
 		<title>CDBstyle-Anigoogle2</title>
 		<creator>CDB-Man</creator>
@@ -199,6 +219,16 @@
 		<path/>
 		<thumbnail>cdbstyle-anigoogle2/images/thumbnail.png</thumbnail>
 		<screenshot>cdbstyle-anigoogle2/images/screenshot.png</screenshot>
+	</style>
+	<style name="cdbstyle-anigoogle2-menu">
+		<title>CDBstyle-Anigoogle2-menu</title>
+		<creator>CDB-Man</creator>
+		<update>13.09.2015</update>
+		<status>constant development and updates</status>
+		<description>CDB`s improvements on DerIdiot`s Anigoogle2-menu.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
+		<path/>
+		<thumbnail>cdbstyle-anigoogle2-menu/images/thumbnail.png</thumbnail>
+		<screenshot>cdbstyle-anigoogle2-menu/images/screenshot.png</screenshot>
 	</style>
 	<style name="dark-style">
 		<title>Dark Style</title>

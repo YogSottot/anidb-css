@@ -20,8 +20,11 @@
 ./aniidiot/zakura-menu/zakura-menu.css
 ./cdb/cdbstyle2/cdbstyle2.css
 ./cdb/cdbstyle3/cdbstyle3.css
+./cdb/cdbstyle3-menu/cdbstyle3-menu.css
 ./cdb/cdbstyle-aniblackle2/cdbstyle-aniblackle2.css
+./cdb/cdbstyle-aniblackle2-menu/cdbstyle-aniblackle2-menu.css
 ./cdb/cdbstyle-anigoogle2/cdbstyle-anigoogle2.css
+./cdb/cdbstyle-anigoogle2-menu/cdbstyle-anigoogle2-menu.css
 ./dark-style/dark-style.css
 ./fma_style/fma_style.css
 ./foursquare/foursquare.css
