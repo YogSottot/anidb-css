@@ -50,6 +50,17 @@
 		<screenshot>anidbstyle2/images/screenshot.png</screenshot>
 		<thumbnail>anidbstyle2/images/thumbnail.png</thumbnail>
 	</style>
+	</style>
+		<style name="aniblackle2-menu">
+		<title>AniBlackle 2 - floated menu</title>
+		<creator>Der Idiot</creator>
+		<update>28.01.2015</update>
+		<status>in development</status>
+		<description>Style inspired by Google/Youtube/AniDB</description>
+		<path/>
+		<thumbnail>aniblackle2-menu/images/thumbnail.png</thumbnail>
+		<screenshot>aniblackle2-menu/images/screenshot.png</screenshot>
+	</style>
 	<style name="anidbstyle3">
 		<title>AniDB Style 3</title>
 		<creator>Der Idiot</creator>
@@ -59,6 +70,15 @@
 		<path/>
 		<thumbnail>anidbstyle3/images/thumbnail.png</thumbnail>
 		<screenshot>anidbstyle3/images/screenshot.png</screenshot>
+	<style name="anidbstyle3-menu">
+		<title>AniDB Style 3 - floated menu</title>
+		<creator>Der Idiot</creator>
+		<update>28.01.2015</update>
+		<status>in development</status>
+		<description>Style inspired by Google/Youtube/AniDB</description>
+		<path/>
+		<thumbnail>anidbstyle3-menu/images/thumbnail.png</thumbnail>
+		<screenshot>anidbstyle3-menu/images/screenshot.png</screenshot>
 	</style>
 	<style name="anidbstyle_hacks">
 		<title>AniDBstyle Hacks</title>
@@ -100,6 +120,16 @@
 		<screenshot>anigoogle/images/screenshot.png</screenshot>
 		<thumbnail>anigoogle/images/thumbnail.png</thumbnail>
 	</style>
+	<style name="anigoogle-menu">
+		<title>Anigoogle with Menu</title>
+		<creator>Der Idiot</creator>
+		<update>27.08.2015</update>
+		<status>in development</status>
+		<description>Style inspired by google (originally); banner by edekock</description>
+		<path/>
+		<screenshot>anigoogle-menu/images/screenshot.png</screenshot>
+		<thumbnail>anigoogle-menu/images/thumbnail.png</thumbnail>
+	</style>
 	<style name="anigoogle2">
 		<title>Anigoogle2</title>
 		<creator>Der Idiot</creator>
@@ -110,15 +140,15 @@
 		<screenshot>anigoogle2/images/screenshot.png</screenshot>
 		<thumbnail>anigoogle2/images/thumbnail.png</thumbnail>
 	</style>
-	<style name="anigoogle-menu">
-		<title>Anigoogle with Menu</title>
+	<style name="anigoogle2-menu">
+		<title>Anigoogle2 - floated menu</title>
 		<creator>Der Idiot</creator>
-		<update>27.08.2015</update>
+		<update>28.01.2015</update>
 		<status>in development</status>
-		<description>Style inspired by google (originally); banner by edekock</description>
+		<description>Style inspired by Google/Youtube</description>
 		<path/>
-		<screenshot>anigoogle-menu/images/screenshot.png</screenshot>
-		<thumbnail>anigoogle-menu/images/thumbnail.png</thumbnail>
+		<thumbnail>anigoogle2-menu/images/thumbnail.png</thumbnail>
+		<screenshot>anigoogle2-menu/images/screenshot.png</screenshot>
 	</style>
 	<style name="anitube">
 		<title>Anitube</title>
@@ -379,35 +409,5 @@
 		<path/>
 		<screenshot>zakura-menu/images/screenshot.png</screenshot>
 		<thumbnail>zakura-menu/images/thumbnail.png</thumbnail>
-	</style>
-	<style name="aniblackle2-menu">
-		<title>AniBlackle 2 - floated menu</title>
-		<creator>Der Idiot</creator>
-		<update>28.01.2015</update>
-		<status>in development</status>
-		<description>Style inspired by Google/Youtube/AniDB</description>
-		<path/>
-		<thumbnail>aniblackle2-menu/images/thumbnail.png</thumbnail>
-		<screenshot>aniblackle2-menu/images/screenshot.png</screenshot>
-	</style>
-	<style name="anidbstyle3-menu">
-		<title>AniDB Style 3 - floated menu</title>
-		<creator>Der Idiot</creator>
-		<update>28.01.2015</update>
-		<status>in development</status>
-		<description>Style inspired by Google/Youtube/AniDB</description>
-		<path/>
-		<thumbnail>anidbstyle3-menu/images/thumbnail.png</thumbnail>
-		<screenshot>anidbstyle3-menu/images/screenshot.png</screenshot>
-	</style>
-	<style name="anigoogle2-menu">
-		<title>Anigoogle2 - floated menu</title>
-		<creator>Der Idiot</creator>
-		<update>28.01.2015</update>
-		<status>in development</status>
-		<description>Style inspired by Google/Youtube</description>
-		<path/>
-		<thumbnail>anigoogle2-menu/images/thumbnail.png</thumbnail>
-		<screenshot>anigoogle2-menu/images/screenshot.png</screenshot>
 	</style>
 </css_styles>
