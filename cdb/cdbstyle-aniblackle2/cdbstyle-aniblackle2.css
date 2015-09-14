@@ -17,6 +17,7 @@ th a, h1 a, h1 a.shortlink {
   color: #C0DAF0;
 }
 
+/* change font colour to black for anything that gets mylist state highlights */
 #layout-main td ins,
 #layout-main td.g_odd ins,
 #layout-main td del,
@@ -33,6 +34,7 @@ th a, h1 a, h1 a.shortlink {
   color: #000000 !important;
 }
 
+/* change link font colour to blue for anything that gets mylist state highlights */
 #layout-main table.filelist tr.good a,
 #layout-main table.filelist tr.deprecated a,
 #layout-main table.filelist tr.good span.i_icon,
