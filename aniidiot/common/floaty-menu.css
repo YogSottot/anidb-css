@@ -39,6 +39,9 @@
 	display:block;
 	padding:3px 8px;
 }
+#layout-menu a.history {
+	padding:3px 0px;
+}
 
 #layout-menu span.tab {
 	display:inline;
