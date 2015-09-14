@@ -50,7 +50,6 @@
 		<screenshot>anidbstyle2/images/screenshot.png</screenshot>
 		<thumbnail>anidbstyle2/images/thumbnail.png</thumbnail>
 	</style>
-	</style>
 		<style name="aniblackle2-menu">
 		<title>AniBlackle 2 - floated menu</title>
 		<creator>Der Idiot</creator>
@@ -70,6 +69,7 @@
 		<path/>
 		<thumbnail>anidbstyle3/images/thumbnail.png</thumbnail>
 		<screenshot>anidbstyle3/images/screenshot.png</screenshot>
+	/style>
 	<style name="anidbstyle3-menu">
 		<title>AniDB Style 3 - floated menu</title>
 		<creator>Der Idiot</creator>
