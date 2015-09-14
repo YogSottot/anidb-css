@@ -26,9 +26,9 @@ textarea
 {
   text-align: left;
 }
-#layout-content #layout-tabs
+#layout-hint + #layout-nav + #layout-content #layout-tabs
 {
-  margin-left: 13em !important;
+  margin-left: 13em;
 }
 
 /* imagepreview */
