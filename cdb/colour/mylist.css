@@ -18,13 +18,13 @@ Font colour changes possibly require additional steps. See dropped state black f
 
 NOTE: The order the colours are applied matters!  Current order is correct!
 1. red default
-2. red .collecting
+2. red .liststate_collecting
 3. blue .complete
-4. orange .completed
+4. orange .liststate_completed
 5. green .all_watched
-6. black .dropped
-7. orange .watching
-8. red .stalled
+6. black .liststate_dropped
+7. orange .liststate_watching
+8. red .liststate_stalled
 
 */
 /*default colour: red for if not fully collected (missing files), and have not started*/
@@ -77,21 +77,21 @@ NOTE: The order the colours are applied matters!  Current order is correct!
   background-color: #E67878;
 }
 
-/* red for default .collecting state */
-#layout-main > :not(.timeline_all) .mylist.collecting,
-#layout-main table.animelist .collecting,
-#layout-main table.wishlist .collecting,
-#layout-main div.timeline_all div.timeline ul.row li.collecting a,
-.g_bubble.box.mylist.collecting > div.top
+/* red for default .liststate_collecting state */
+#layout-main > :not(.timeline_all) .mylist.liststate_collecting,
+#layout-main table.animelist .liststate_collecting,
+#layout-main table.wishlist .liststate_collecting,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_collecting a,
+.g_bubble.box.mylist.liststate_collecting > div.top
 {
   background-color: #E69696 !important;
 }
-#layout-main > :not(.timeline_all) .mylist.g_odd.collecting,
-#layout-main table.animelist .g_odd.collecting,
-#layout-main table.wishlist .g_odd.collecting,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.collecting a,
-.g_odd.g_bubble.box.mylist.collecting > div.top,
-#layout-main > :not(.timeline_all) .g_odd .mylist.collecting
+#layout-main > :not(.timeline_all) .mylist.g_odd.liststate_collecting,
+#layout-main table.animelist .g_odd.liststate_collecting,
+#layout-main table.wishlist .g_odd.liststate_collecting,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_collecting a,
+.g_odd.g_bubble.box.mylist.liststate_collecting > div.top,
+#layout-main > :not(.timeline_all) .g_odd .mylist.liststate_collecting
 {
   background-color: #E67878 !important;
 }
@@ -115,21 +115,21 @@ NOTE: The order the colours are applied matters!  Current order is correct!
   background-color: #68CACE !important;
 }
 
-/*orange for mylist state .completed */
-#layout-main > :not(.timeline_all) .mylist.completed,
-#layout-main table.animelist .completed,
-#layout-main table.wishlist .completed,
-#layout-main div.timeline_all div.timeline ul.row li.completed a,
-.g_bubble.box.mylist.completed > div.top
+/*orange for mylist state .liststate_completed */
+#layout-main > :not(.timeline_all) .mylist.liststate_completed,
+#layout-main table.animelist .liststate_completed,
+#layout-main table.wishlist .liststate_completed,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_completed a,
+.g_bubble.box.mylist.liststate_completed > div.top
 {
   background-color: #FFB84D !important;
 }
-#layout-main > :not(.timeline_all) .mylist.g_odd.completed,
-#layout-main table.animelist .g_odd.completed,
-#layout-main table.wishlist .g_odd.completed,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
-.g_odd.g_bubble.box.mylist.completed > div.top,
-#layout-main > :not(.timeline_all) .g_odd .mylist.completed
+#layout-main > :not(.timeline_all) .mylist.g_odd.liststate_completed,
+#layout-main table.animelist .g_odd.liststate_completed,
+#layout-main table.wishlist .g_odd.liststate_completed,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_completed a,
+.g_odd.g_bubble.box.mylist.liststate_completed > div.top,
+#layout-main > :not(.timeline_all) .g_odd .mylist.liststate_completed
 {
   background-color: #FFA319 !important;
 }
@@ -153,75 +153,75 @@ NOTE: The order the colours are applied matters!  Current order is correct!
   background-color: #85D485 !important;
 }
 
-/*black for .dropped */
-#layout-main > :not(.timeline_all) .mylist.dropped,
-#layout-main .mylist.dropped > :not(.image) > :not(.tooltip) a.name-colored,
-#layout-main .mylist.dropped .name a,
-#layout-main table.animelist .dropped,
-#layout-main table.animelist .dropped .name a,
-#layout-main table.wishlist .dropped,
-#layout-main table.wishlist .dropped .name a,
-#layout-main div.timeline_all div.timeline ul.row li.dropped a,
-.g_bubble.box.mylist.dropped > div.top
+/*black for .liststate_dropped */
+#layout-main > :not(.timeline_all) .mylist.liststate_dropped,
+#layout-main .mylist.liststate_dropped > :not(.image) > :not(.tooltip) a.name-colored,
+#layout-main .mylist.liststate_dropped .name a,
+#layout-main table.animelist .liststate_dropped,
+#layout-main table.animelist .liststate_dropped .name a,
+#layout-main table.wishlist .liststate_dropped,
+#layout-main table.wishlist .liststate_dropped .name a,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_dropped a,
+.g_bubble.box.mylist.liststate_dropped > div.top
 {
   background-color: #444444 !important;
   color: #FFFFFF !important;
 }
-#layout-main .mylist.dropped div.tooltip {
+#layout-main .mylist.liststate_dropped div.tooltip {
   color: initial;
 }
-#layout-main > :not(.timeline_all) .mylist.g_odd.dropped,
-#layout-main .mylist.g_odd.dropped > :not(.image) > :not(.tooltip) a.name-colored,
-#layout-main .mylist.g_odd.dropped .name a,
-#layout-main table.animelist .g_odd.dropped,
-#layout-main table.animelist .g_odd.dropped .name a,
-#layout-main table.wishlist .g_odd.dropped,
-#layout-main table.wishlist .g_odd.dropped .name a,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.dropped a,
-.g_odd.g_bubble.box.mylist.dropped > div.top,
-#layout-main > :not(.timeline_all) .g_odd .mylist.dropped
+#layout-main > :not(.timeline_all) .mylist.g_odd.liststate_dropped,
+#layout-main .mylist.g_odd.liststate_dropped > :not(.image) > :not(.tooltip) a.name-colored,
+#layout-main .mylist.g_odd.liststate_dropped .name a,
+#layout-main table.animelist .g_odd.liststate_dropped,
+#layout-main table.animelist .g_odd.liststate_dropped .name a,
+#layout-main table.wishlist .g_odd.liststate_dropped,
+#layout-main table.wishlist .g_odd.liststate_dropped .name a,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_dropped a,
+.g_odd.g_bubble.box.mylist.liststate_dropped > div.top,
+#layout-main > :not(.timeline_all) .g_odd .mylist.liststate_dropped
 {
   background-color: #333333 !important;
   color: #FFFFFF !important;
 }
-#layout-main .mylist.g_odd.dropped div.tooltip {
+#layout-main .mylist.g_odd.liststate_dropped div.tooltip {
   color: initial;
 }
 
-/*orange for .watching */
-#layout-main > :not(.timeline_all) .mylist.watching,
-#layout-main table.animelist .watching,
-#layout-main table.wishlist .watching,
-#layout-main div.timeline_all div.timeline ul.row li.watching a,
-.g_bubble.box.mylist.watching > div.top
+/*orange for .liststate_watching */
+#layout-main > :not(.timeline_all) .mylist.liststate_watching,
+#layout-main table.animelist .liststate_watching,
+#layout-main table.wishlist .liststate_watching,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_watching a,
+.g_bubble.box.mylist.liststate_watching > div.top
 {
   background-color: #FFB84D !important;
 }
-#layout-main > :not(.timeline_all) .mylist.g_odd.watching,
-#layout-main table.animelist .g_odd.watching,
-#layout-main table.wishlist .g_odd.watching,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.watching a,
-.g_odd.g_bubble.box.mylist.watching > div.top,
-#layout-main > :not(.timeline_all) .g_odd .mylist.watching
+#layout-main > :not(.timeline_all) .mylist.g_odd.liststate_watching,
+#layout-main table.animelist .g_odd.liststate_watching,
+#layout-main table.wishlist .g_odd.liststate_watching,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_watching a,
+.g_odd.g_bubble.box.mylist.liststate_watching > div.top,
+#layout-main > :not(.timeline_all) .g_odd .mylist.liststate_watching
 {
   background-color: #FFA319 !important;
 }
 
-/*red for .stalled */
-#layout-main > :not(.timeline_all) .mylist.stalled,
-#layout-main table.animelist .stalled,
-#layout-main table.wishlist .stalled,
-#layout-main div.timeline_all div.timeline ul.row li.stalled a,
-.g_bubble.box.mylist.stalled > div.top
+/*red for .liststate_stalled */
+#layout-main > :not(.timeline_all) .mylist.liststate_stalled,
+#layout-main table.animelist .liststate_stalled,
+#layout-main table.wishlist .liststate_stalled,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a,
+.g_bubble.box.mylist.liststate_stalled > div.top
 {
   background-color: #E69696 !important;
 }
-#layout-main > :not(.timeline_all) .mylist.g_odd.stalled,
-#layout-main table.animelist .g_odd.stalled,
-#layout-main table.wishlist .g_odd.stalled,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a,
-.g_odd.g_bubble.box.mylist.stalled > div.top,
-#layout-main > :not(.timeline_all) .g_odd .mylist.stalled
+#layout-main > :not(.timeline_all) .mylist.g_odd.liststate_stalled,
+#layout-main table.animelist .g_odd.liststate_stalled,
+#layout-main table.wishlist .g_odd.liststate_stalled,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a,
+.g_odd.g_bubble.box.mylist.liststate_stalled > div.top,
+#layout-main > :not(.timeline_all) .g_odd .mylist.liststate_stalled
 {
   background-color: #E67878 !important;
 }
