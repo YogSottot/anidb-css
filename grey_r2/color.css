@@ -449,6 +449,7 @@ background-color:#c1f167;
 {
 text-align: center !important;
 background-color: hsla(0, 100%, 00%, 0.4);
+background-image: none !important;
 color: grey;
 font-weight: bold !important;;
 width: 32px;
