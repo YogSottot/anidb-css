@@ -50,6 +50,10 @@ background-image:url(../grey/images/bg_1.gif);
 {
 background-image:url(../grey/images/bg_2.gif);
 }
+.fancybox-wrap div.g_msg.error,
+.fancybox-wrap div.g_msg.warning,
+.fancybox-wrap div.g_msg.note,
+.fancybox-wrap div.g_msg.success,
 #layout-main div.g_msg.error,
 #layout-main div.g_msg.warning,
 #layout-main div.g_msg.note,
@@ -253,18 +257,22 @@ background-color:hsla(0, 100%, 25%, 0.8);
 color:#ff6000;
 border-color:#797979;
 }
+.fancybox-wrap div.g_msg.error,
 #layout-main div.g_msg.error
 {
 border:1px solid #c40d0d;
 }
+.fancybox-wrap div.g_msg.warning,
 #layout-main div.g_msg.warning
 {
 border:1px solid #ff6000;
 }
+.fancybox-wrap div.g_msg.note,
 #layout-main div.g_msg.note
 {
 border:1px solid #575757;
 }
+.fancybox-wrap div.g_msg.success,
 #layout-main div.g_msg.success
 {
 border:1px solid #1D6125;
@@ -273,19 +281,23 @@ border:1px solid #1D6125;
 #menu-account li.alert > span > a:first-of-type:after,
 #layout-content div.group_all div.group_released table td.notalldumped,
 #layout-nav #layout-menu li.alert > span,
+.fancybox-wrap div.g_msg.error h3,
 #layout-main div.g_msg.error h3
 {
 color:red;
 }
+.fancybox-wrap div.g_msg.warning h3,
 #layout-main div.g_msg.warning h3,
 #layout-hint span a
 {
 color:#FF6000;
 }
+.fancybox-wrap div.g_msg.note h3,
 #layout-main div.g_msg.note h3
 {
 color:gray;
 }
+.fancybox-wrap div.g_msg.success h3,
 #layout-main div.g_msg.success h3
 {
 color:#2EB42E;

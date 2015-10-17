@@ -907,32 +907,40 @@ padding: 10px }
 
 /* MSG's */
 
+.fancybox-wrap div.g_msg.error,
 #layout-main div.g_msg.error {
 background-color: #FCE7E7;
 outline: 1px solid #e48a7c;
 border: 1px solid white }
 
+	.fancybox-wrap div.g_msg.error h3,
 	#layout-main div.g_msg.error h3 { color: #e48a7c }
 
+.fancybox-wrap div.g_msg.note,
 #layout-main div.g_msg.note {
 background-color: #EAF6F8;
 outline: 1px solid #aad5dd;
 border: 1px solid white }
 
+	.fancybox-wrap div.g_msg.note h3,
 	#layout-main div.g_msg.note h3 { color: #5bbcce }
 
+.fancybox-wrap div.g_msg.success,
 #layout-main div.g_msg.success {
 background-color: #EEF8EA;
 outline: 1px solid #AACE94;
 border: 1px solid white }
 
+	.fancybox-wrap div.g_msg.success h3,
 	#layout-main div.g_msg.success h3 { color: #AACE94 }
 
+.fancybox-wrap div.g_msg.warning,
 #layout-main div.g_msg.warning {
 background-color: #FCE7E7;
 outline: 1px solid #e48a7c;
 border: 1px solid white }
 
+	.fancybox-wrap div.g_msg.warning h3,
 	#layout-main div.g_msg.warning h3 { color: #e48a7c }
 	
 

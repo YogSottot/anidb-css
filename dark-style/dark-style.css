@@ -2019,39 +2019,46 @@ div.g_bubble.quotebody div.quoteof
 	color: #7c668d;
 }
 
+.fancybox-wrap div.g_msg.error,
 #layout-main div.g_msg.error
 {
 	border: 1px solid #7c0000;
 	background-color: #250000;
 }
+.fancybox-wrap div.g_msg.warning,
 #layout-main div.g_msg.warning
 {
 	border: 1px solid #4c2e00;
 	background-color: #201400;
 }
+.fancybox-wrap div.g_msg.note,
 #layout-main div.g_msg.note
 {
 	border: 1px solid #575757;
 	background-color:#171717;
 }
+.fancybox-wrap div.g_msg.success,
 #layout-main div.g_msg.success
 {
 	border: 1px solid #002710;
 	background-color: #001107;
 }
-
+.fancybox-wrap div.g_msg.error h3,
 #layout-main div.g_msg.error h3
 {
 	color: #FF0000;
 }
+.fancybox-wrap div.g_msg.warning h3,
 #layout-main div.g_msg.warning h3
 {
 	color: #af6b00;
 }
+.fancybox-wrap div.g_msg.note h3,
 #layout-main div.g_msg.note h3
 {
 	color: white;
 }
+.fancybox-wrap div.g_msg.success h3,
 #layout-main div.g_msg.success h3
 {
 	color: #01702e;

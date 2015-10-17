@@ -214,39 +214,47 @@ input[type="submit"]:hover,
 	color: #888888;
 }
 
+.fancybox-wrap div.g_msg.error,
 #layout-main div.g_msg.error {
 	border-color: #6F1212;
 	background-color: #916A6A;
 }
 
+.fancybox-wrap div.g_msg.warning,
 #layout-main div.g_msg.warning {
 	border-color: #64320C;
 	background-color: #9A6D4C;
 }
 
 #layout-hint,
+.fancybox-wrap div.g_msg.note,
 #layout-main div.g_msg.note {
 	border-color: #6E6E50;
 	background-color: #B3B379;
 }
 
+.fancybox-wrap div.g_msg.success,
 #layout-main div.g_msg.success {
 	border-color: #066506;
 	background-color: #769E76;
 }
 
+.fancybox-wrap div.g_msg.error h3,
 #layout-main div.g_msg.error h3 {
 	color: #6F1212;
 }
 
+.fancybox-wrap div.g_msg.warning h3,
 #layout-main div.g_msg.warning h3 {
 	color: #64320C;
 }
 
+.fancybox-wrap div.g_msg.note h3,
 #layout-main div.g_msg.note h3 {
 	color: #6E6E50;
 }
 
+.fancybox-wrap div.g_msg.success h3,
 #layout-main div.g_msg.success h3 {
 	color: #066506;
 }
