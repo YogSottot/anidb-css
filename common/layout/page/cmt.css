@@ -635,6 +635,11 @@ div.g_bubble.quotebody {
 	display: block;
 }
 
+#layout-main div.forum div.content .youtube iframe {
+	width: 640px;
+	height: 480px;
+}
+
 /*polls*/
 #layout-main div.forum .g_bubble.infobox {
 	margin-bottom: 1em;
