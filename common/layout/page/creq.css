@@ -108,6 +108,7 @@
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
+	flex-wrap: wrap;
 	margin: 1px 1px 0px 6px;
 }
 
