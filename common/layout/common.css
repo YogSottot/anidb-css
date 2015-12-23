@@ -17,7 +17,8 @@ body.nonav #layout-footer {
 	margin: 0 auto 0 auto;
 }
 
-#layout-nav #user-xkeep input {
+#layout-nav #user-xkeep input,
+#layout-nav #user-xkeep2 input {
 	border: none;
 	width: auto;
 }
