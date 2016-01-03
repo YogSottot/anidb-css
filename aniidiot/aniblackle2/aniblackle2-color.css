@@ -62,14 +62,14 @@ input[type="button"]:hover,
 	background-color: #B55353;
 }
 
-table th.sortable:hover,
+table th.sortable:hover:not(.sorter-false),
 h4 a:hover,
 th a:hover {
 	color: #CC181E !important;
 }
 
-#layout-main tr.header th.sortable:hover,
-#layout-main tr.header th.sortable:hover a,
+#layout-main tr.header th.sortable:hover:not(.sorter-false),
+#layout-main tr.header th.sortable:hover:not(.sorter-false) a,
 #layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
 	background-color:#444444;
@@ -372,8 +372,8 @@ a.confirmButton,
 input.confirmButton,
 button.confirmButton,
 #layout-main div.forum div.g_bubble.threads,
-#layout-main tr.header th.sortable:hover,
-#layout-main tr.header th.sortable:hover a,
+#layout-main tr.header th.sortable:hover:not(.sorter-false),
+#layout-main tr.header th.sortable:hover:not(.sorter-false) a,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong {
 	color:#DDDDDD;
 }

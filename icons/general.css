@@ -77,7 +77,7 @@ th.c_setlatin,
 th.c_date,
 th.c_latin,
 th.c_number,
-*.i_inactive {
+*.i_inactive:not(.sorter-false) {
 	background-image: url(../icons/test/arrow_inactive.png);
 	background-repeat: no-repeat;
 	background-attachment: scroll;

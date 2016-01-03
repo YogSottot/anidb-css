@@ -1574,7 +1574,7 @@ background-image: url(images/icons/four/sort.png) }
 	th.c_date,
 	th.c_latin,
 	th.c_number,
-	*.i_inactive {
+	*.i_inactive:not(.sorter-false) {
 	background-image: url(images/icons/test/arrow_inactive.png) }
 
 	th.s_forward,

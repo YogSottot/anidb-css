@@ -3,7 +3,7 @@ th.c_setlatin,
 th.c_date,
 th.c_latin,
 th.c_number,
-.i_inactive {
+.i_inactive:not(.sorter-false) {
 	padding-right: 16px;
 	background: url(../icons/zakura/order.gif) no-repeat center right;
 	cursor: pointer;
