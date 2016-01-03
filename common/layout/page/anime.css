@@ -36,7 +36,7 @@
 	padding: 0 0.5em 0.5em;
 }
 
-#layout-main div.anime_all > .g_section {
+#layout-main div.anime_all > .g_section:not(.info) {
 	margin: 1.5em 1em;
 }
 
