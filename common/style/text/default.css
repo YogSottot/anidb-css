@@ -235,7 +235,7 @@ div.pagination span a {
 
 button:hover,
 input[type="submit"]:hover,
-th.sortable {
+th.sortable:not(.sorter-false) {
 	cursor:pointer;
 }
 

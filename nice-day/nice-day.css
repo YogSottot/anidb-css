@@ -658,7 +658,7 @@ tr.mylist td
 	padding:3px 8px;
 }
 
-th.sortable
+th.sortable:not(.sorter-false)
 {
 	cursor:pointer;
 }

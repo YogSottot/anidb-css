@@ -22,7 +22,7 @@
 		#layout-main table tr.header th.c_setlatin,
 		#layout-main table tr.header th.c_latin,
 		#layout-main table tr.header th.c_number,
-		#layout-main table tr.header th.sortable {
+		#layout-main table tr.header th.sortable:not(.sorter-false) {
 			color:#dbdbdb; background-position:right center;
 			cursor:pointer;
 		}
