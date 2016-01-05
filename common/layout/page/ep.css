@@ -32,11 +32,3 @@
 #layout-main div.ep_all div.info table th {
 	width:10em;
 }
-
-#layout-main div.ep_all div.desc {
-	clear:left;
-	margin-left:1em;
-	margin-right:1em;
-	margin-top:1em;
-	padding:1em;
-}

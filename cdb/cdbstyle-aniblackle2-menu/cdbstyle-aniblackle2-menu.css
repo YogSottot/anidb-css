@@ -1,0 +1,62 @@
+@import "../../aniidiot/aniblackle2-menu/aniblackle2-menu.css";
+
+@import "cdbstyle-aniblackle2-menu-icons.css";
+
+@import "../cdbstyle-icons.css";
+
+@import "../cdbstyle-colour.css";
+@import "../cdbstyle-text.css";
+@import "../cdbstyle-layout.css";
+
+@import "../colour/mylist.css";
+@import "../colour/wishlist.css";
+@import "../colour/features.css";
+
+th a, h1 a, h1 a.shortlink {
+  color: #5577FF;
+  color: #C0DAF0;
+}
+
+/* change font colour to black for anything that gets mylist state highlights */
+#layout-main td ins,
+#layout-main td.g_odd ins,
+#layout-main td del,
+#layout-main td.g_odd del,
+#layout-main table.filelist tr.good,
+#layout-main table.filelist tr.deprecated,
+#layout-main table.filelist tr.mylist:not(.dropped),
+#layout-main .mylist tr.mylist:not(.dropped),
+#layout-main div.mylist.g_bubble:not(.dropped) :not(.name):not(.name-colored),
+#layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped),
+#layout-main table.animelist tr.mylist:not(.dropped),
+#layout-main table.wishlist tr.mylist:not(.dropped),
+#layout-main table#releases tr.mylist:not(.dropped) {
+  color: #000000 !important;
+}
+
+/* change link font colour to blue for anything that gets mylist state highlights */
+#layout-main table.filelist tr.good a,
+#layout-main table.filelist tr.deprecated a,
+#layout-main table.filelist tr.good span.i_icon,
+#layout-main table.filelist tr.deprecated span.i_icon,
+#layout-main table.filelist tr.mylist:not(.dropped) a,
+#layout-main .mylist tr.mylist:not(.dropped) a,
+#layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.dropped) a,
+#layout-main table.animelist tr.mylist:not(.dropped) a,
+#layout-main table.wishlist tr.mylist:not(.dropped) a,
+#layout-main div.timeline_all div.timeline ul.row li:not(.dropped) a,
+#layout-main div.mylist.g_bubble:not(.dropped) :not(.name) a:not(.name-colored),
+#layout-main table#releases tr.mylist:not(.dropped) a {
+  color: #105289 !important;
+}
+
+/* reduce left hand margin for top tabs for lack of left hand menu */
+#layout-hint + #layout-nav + #layout-content #layout-tabs
+{
+  margin-left: 0.5em;
+}
+
+#layout-footer:after
+{
+  content:"Design by CDB-Man. Improvements on DerIdiot`s Aniblackle2.";
+}

@@ -4,7 +4,7 @@
 #layout-main div.myvotes_all table tr td.low,
 #layout-main div.addcreatoranimerel_all tr.left_only,
 #layout-main div.addcreatorsongrel_all tr.left_only,
-#layout-main div.timeline_all div.timeline ul.row li.stalled a,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a,
 #layout-main table.filelist tr.deprecated,
 #layout-main table.filelist tr.invalid,
 #layout-main table.file.entities tr.deprecated,
@@ -16,7 +16,7 @@
 #layout-main div.myvotes_all table tr.g_odd td.low,
 #layout-main div.addcreatoranimerel_all tr.right_only,
 #layout-main div.addcreatorsongrel_all tr.right_only,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a,
 #layout-main table.filelist tr.g_odd.deprecated,
 #layout-main table.filelist tr.g_odd.invalid,
 #layout-main table.file.entities tr.g_odd.deprecated,
@@ -32,6 +32,7 @@
 #layout-main div.msg_all tr.mod,
 #layout-main div.myvotes_all table tr td.high,
 #layout-main div.mynotifies_all table tr.mylist,
+#layout-main div.myreviews_all table tr.mylist,
 #layout-main div.latest2_all table tr.mylist,
 #layout-main div.latest2_all table tr td.mylist,
 #layout-main div.character_all div.tabbed_pane_main table tr.mylist,
@@ -48,7 +49,7 @@
 #layout-main div.addcreatorsongrel_all tr.identical,
 #layout-main table.animelist tr.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td, /* deprecated? */
-#layout-main div.timeline_all div.timeline ul.row li.completed a,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_completed a,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
 .g_bubble.box.mylist > div.top {
@@ -66,6 +67,7 @@
 #layout-main div.msg_all tr.g_odd.mod,
 #layout-main div.myvotes_all table tr.g_odd td.high,
 #layout-main div.mynotifies_all table tr.g_odd.mylist,
+#layout-main div.myreviews_all table tr.g_odd.mylist,
 #layout-main div.latest2_all table tr.g_odd.mylist,
 #layout-main div.latest2_all table tr.g_odd td.mylist,
 #layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
@@ -78,7 +80,7 @@
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a {
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_completed a {
 	background-color:#f0ffe3;
 }
 
@@ -92,7 +94,7 @@
 	background-color:#F8F8F8;
 }
 
-#layout-main div.timeline_all div.timeline ul.row li.dropped a,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_dropped a,
 #layout-main div.addcreatoranimerel_all tr.same_name,
 #layout-main div.addcreatorsongrel_all tr.same_name,
 #layout-main div.addsongcollectionrel_all tr.same_name,

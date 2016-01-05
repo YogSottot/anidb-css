@@ -2,7 +2,6 @@
 @import "addepm.css";
 @import "addfilem.css";
 @import "addsimilaranime.css";
-@import "addsimilarmanga.css";
 @import "addtagentityrel.css";
 @import "admin.css";
 @import "anime.css";
@@ -30,10 +29,6 @@
 @import "irc.css";
 @import "latest.css";
 @import "main.css";
-@import "manga.css";
-@import "mangaatt.css";
-@import "mangalist.css";
-@import "mangaelement.css";
 @import "modlatest.css";
 @import "msg.css";
 @import "myhints.css";

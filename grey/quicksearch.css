@@ -1,7 +1,7 @@
 #layout-search ul.quicksearch
 {
 background-color:transparent !important;
-background-image: url(images/bg_1.gif) !important;
+background-image: url(../grey/images/bg_1.gif) !important;
 border:1px solid #85878C !important;
 border-top: none !important;
 color: white !important;
@@ -16,6 +16,13 @@ background-color: hsla(0, 0%, 0%, 0.4) !important;
 #layout-search ul.quicksearch li.selected
 {
 color: #ADD8E6 !important;
-background: transparent url(images/whitepixel.png) !important;
+background: transparent url(../grey/images/whitepixel.png) !important;
 font-weight: normal !important;
 }
+#layout-search select, #layout-search input.text {
+height: auto !important;
+}
+#layout-search select {
+padding: 0 !important;
+}
+

@@ -22,7 +22,7 @@
 		#layout-main table tr.header th.c_setlatin,
 		#layout-main table tr.header th.c_latin,
 		#layout-main table tr.header th.c_number,
-		#layout-main table tr.header th.sortable {
+		#layout-main table tr.header th.sortable:not(.sorter-false) {
 			color:#dbdbdb; background-position:right center;
 			cursor:pointer;
 		}
@@ -32,7 +32,7 @@
 		#layout-main table tr.header th.c_setlatin:hover,
 		#layout-main table tr.header th.c_latin:hover,
 		#layout-main table tr.header th.c_number:hover,
-		#layout-main table tr.header th.sortable:hover {
+		#layout-main table tr.header th.sortable:hover:not(.sorter-false) {
 			color:#ababab; background-color:#444;
 		}
 			#layout-main table tr.header th a {

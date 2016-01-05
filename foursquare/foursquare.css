@@ -2,7 +2,7 @@
 *  Foursquare V.1.1
 *  Based on SubBrown2
 *  AniDB Stylesheet
-*  21.10.2014
+*  07.09.2015
 */
 
 
@@ -248,56 +248,56 @@ background-color: #EEE }
 
 	/* - Collecting */
 
-	#layout-main .mylist.collecting,
-	#layout-main table.animelist .collecting,
-	#layout-main table.wishlist .collecting,
-	#layout-main div.timeline_all div.timeline ul.row li.collecting a,
-	.g_bubble.box.mylist.collecting > div.top {
-	background-color: #D7F0FC !important }
+	#layout-main .mylist.liststate_collecting,
+	#layout-main table.animelist .liststate_collecting,
+	#layout-main table.wishlist .liststate_collecting,
+	#layout-main div.timeline_all div.timeline ul.row li.liststate_collecting a,
+	.g_bubble.box.mylist.liststate_collecting > div.top {
+	background-color: #E2F5FF !important }
 
-		#layout-main .mylist.g_odd.collecting,
-		#layout-main table.animelist .g_odd.collecting,
-		#layout-main table.wishlist .g_odd.collecting,
-		#layout-main div.timeline_all div.timeline ul.row.g_odd li.collecting a,
-		.g_odd.g_bubble.box.mylist.collecting > div.top,
-		#layout-main .g_odd .mylist.collecting {
-		background-color: #E2F5FF !important }
+		#layout-main .mylist.g_odd.liststate_collecting,
+		#layout-main table.animelist .g_odd.liststate_collecting,
+		#layout-main table.wishlist .g_odd.liststate_collecting,
+		#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_collecting a,
+		.g_odd.g_bubble.box.mylist.liststate_collecting > div.top,
+		#layout-main .g_odd .mylist.liststate_collecting {
+		background-color: #D7F0FC !important }
 
 
 	/* - Watching */
 
-	#layout-main .mylist.watching,
-	#layout-main table.animelist .watching,
-	#layout-main table.wishlist .watching,
-	#layout-main div.timeline_all div.timeline ul.row li.watching a,
-	.g_bubble.box.mylist.watching > div.top {
-	 background-color: #CCEDD0 !important }
+	#layout-main .mylist.liststate_watching,
+	#layout-main table.animelist .liststate_watching,
+	#layout-main table.wishlist .liststate_watching,
+	#layout-main div.timeline_all div.timeline ul.row li.liststate_watching a,
+	.g_bubble.box.mylist.liststate_watching > div.top {
+	 background-color: #DCF5DF !important }
 
-		#layout-main .mylist.g_odd.watching,
-		#layout-main table.animelist .g_odd.watching,
-		#layout-main table.wishlist .g_odd.watching,
-		#layout-main div.timeline_all div.timeline ul.row.g_odd li.watching a,
-		.g_odd.g_bubble.box.mylist.watching > div.top,
-		#layout-main .g_odd .mylist.watching {
-		background-color: #DCF5DF !important }
+		#layout-main .mylist.g_odd.liststate_watching,
+		#layout-main table.animelist .g_odd.liststate_watching,
+		#layout-main table.wishlist .g_odd.liststate_watching,
+		#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_watching a,
+		.g_odd.g_bubble.box.mylist.liststate_watching > div.top,
+		#layout-main .g_odd .mylist.liststate_watching {
+		background-color: #CCEDD0 !important }
 
 
 	/* - Stalled */
 
-	#layout-main .mylist.stalled,
-	#layout-main table.animelist .stalled,
-	#layout-main table.wishlist .stalled,
-	#layout-main div.timeline_all div.timeline ul.row li.stalled a,
-	.g_bubble.box.mylist.stalled > div.top {
-	background-color: #F9DFA5 !important }
+	#layout-main .mylist.liststate_stalled,
+	#layout-main table.animelist .liststate_stalled,
+	#layout-main table.wishlist .liststate_stalled,
+	#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a,
+	.g_bubble.box.mylist.liststate_stalled > div.top {
+	background-color: #FFEDC4 !important }
 
-		#layout-main .mylist.g_odd.stalled,
-		#layout-main table.animelist .g_odd.stalled,
-		#layout-main table.wishlist .g_odd.stalled,
-		#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a,
-		.g_odd.g_bubble.box.mylist.stalled > div.top,
-		#layout-main .g_odd .mylist.stalled { 
-		background-color: #FFEDC4 !important }
+		#layout-main .mylist.g_odd.liststate_stalled,
+		#layout-main table.animelist .g_odd.liststate_stalled,
+		#layout-main table.wishlist .g_odd.liststate_stalled,
+		#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a,
+		.g_odd.g_bubble.box.mylist.liststate_stalled > div.top,
+		#layout-main .g_odd .mylist.liststate_stalled { 
+		background-color: #F9DFA5 !important }
 
 
 /* Tables */
@@ -545,9 +545,9 @@ color: #5BBCCE }
 
 #layout-main div.mylist_list tr.all_watched td.stats { color: #7e8072 }  
 
-#layout-main div.mylist_list tr.stalled td.stats { color: #e2ba5b }  
+#layout-main div.mylist_list tr.liststate_stalled td.stats { color: #e2ba5b }  
 
-#layout-main div.mylist_list tr.watching td.stats { color: #90B978 }
+#layout-main div.mylist_list tr.liststate_watching td.stats { color: #90B978 }
 
 #layout-main div.g_section.mylist_list table.animelist {
 border-radius: 2px;
@@ -762,7 +762,7 @@ background-color: #f9f9f9 }
 #layout-main div.myvotes_all table tr td.low, 
 #layout-main div.addcreatoranimerel_all tr.left_only, 
 #layout-main div.addcreatorsongrel_all tr.left_only, 
-#layout-main div.timeline_all div.timeline ul.row li.stalled a, 
+#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a, 
 #layout-main table.filelist tr.deprecated {
 background-color: #FAE7E7 }
 
@@ -774,7 +774,7 @@ background-color: #DCF4FC }
 #layout-main div.myvotes_all table tr.g_odd td.low, 
 #layout-main div.addcreatoranimerel_all tr.right_only, 
 #layout-main div.addcreatorsongrel_all tr.right_only, 
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a, 
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a, 
 #layout-main table.filelist tr.g_odd.deprecated, 
 #layout-main table.filelist tr.g_odd.invalid {
 background-color: #EED9D9 }
@@ -907,32 +907,40 @@ padding: 10px }
 
 /* MSG's */
 
+.fancybox-wrap div.g_msg.error,
 #layout-main div.g_msg.error {
 background-color: #FCE7E7;
 outline: 1px solid #e48a7c;
 border: 1px solid white }
 
+	.fancybox-wrap div.g_msg.error h3,
 	#layout-main div.g_msg.error h3 { color: #e48a7c }
 
+.fancybox-wrap div.g_msg.note,
 #layout-main div.g_msg.note {
 background-color: #EAF6F8;
 outline: 1px solid #aad5dd;
 border: 1px solid white }
 
+	.fancybox-wrap div.g_msg.note h3,
 	#layout-main div.g_msg.note h3 { color: #5bbcce }
 
+.fancybox-wrap div.g_msg.success,
 #layout-main div.g_msg.success {
 background-color: #EEF8EA;
 outline: 1px solid #AACE94;
 border: 1px solid white }
 
+	.fancybox-wrap div.g_msg.success h3,
 	#layout-main div.g_msg.success h3 { color: #AACE94 }
 
+.fancybox-wrap div.g_msg.warning,
 #layout-main div.g_msg.warning {
 background-color: #FCE7E7;
 outline: 1px solid #e48a7c;
 border: 1px solid white }
 
+	.fancybox-wrap div.g_msg.warning h3,
 	#layout-main div.g_msg.warning h3 { color: #e48a7c }
 	
 
@@ -992,10 +1000,10 @@ border-right: 1px solid #EEE }
 color: #7e8072;
 background: #DCF4FC }
 
-#layout-main div.timeline_all div.timeline ul.row li.completed a {
+#layout-main div.timeline_all div.timeline ul.row li.liststate_completed a {
 background-color: #DFF5D0 }
 
-	#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a {
+	#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_completed a {
 	background-color: #D7E9CB }
 
 
@@ -1566,7 +1574,7 @@ background-image: url(images/icons/four/sort.png) }
 	th.c_date,
 	th.c_latin,
 	th.c_number,
-	*.i_inactive {
+	*.i_inactive:not(.sorter-false) {
 	background-image: url(images/icons/test/arrow_inactive.png) }
 
 	th.s_forward,

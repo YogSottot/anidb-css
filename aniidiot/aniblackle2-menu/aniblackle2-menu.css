@@ -1,0 +1,19 @@
+@import "../aniblackle2/aniblackle2.css";
+@import "../common/floaty-menu.css";
+
+#layout-menu {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	background-color: #333;
+}
+
+#layout-menu li.sub-menu + li.sub-menu {
+	border-left: 1px solid #666666 !important;
+}
+
+#layout-menu li.sub-menu:hover {
+	background-color: #222222;
+}
+
+#layout-menu li.sub-menu:hover span.tab {
+	color: #96B396 !important;
+}

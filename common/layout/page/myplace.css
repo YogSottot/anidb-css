@@ -117,12 +117,6 @@
 	width: 7em;
 }
 
-#layout-main div.userpage_all div.userdetails div.desc {
-	clear: none;
-	margin-left: 0em;
-	margin-right: 0em;
-}
-
 #layout-main div.userpage_all div.blog div.g_timedentry.comment,
 #layout-main div.userpage_all div.blog div.g_timedentry.comment div.body {
 	min-height: 0;

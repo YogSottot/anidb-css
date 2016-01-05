@@ -23,7 +23,7 @@
 	<style name="aniblackle-menu">
 		<title>Aniblackle with Menu</title>
 		<creator>Der Idiot</creator>
-		<update>01.05.2010</update>
+		<update>27.08.2015</update>
 		<status>in development</status>
 		<description>Style inspired by blackle; banner by fafnir aka permidion</description>
 		<path/>
@@ -50,15 +50,35 @@
 		<screenshot>anidbstyle2/images/screenshot.png</screenshot>
 		<thumbnail>anidbstyle2/images/thumbnail.png</thumbnail>
 	</style>
-	<style name="anidbstyle3">
-		<title>AniDB Style 3</title>
+	<style name="aniblackle2-menu">
+		<title>AniBlackle 2 - floated menu</title>
 		<creator>Der Idiot</creator>
 		<update>28.01.2015</update>
 		<status>in development</status>
 		<description>Style inspired by Google/Youtube/AniDB</description>
 		<path/>
+		<thumbnail>aniblackle2-menu/images/thumbnail.png</thumbnail>
+		<screenshot>aniblackle2-menu/images/screenshot.png</screenshot>
+	</style>
+	<style name="anidbstyle3">
+		<title>AniDB Style 3</title>
+		<creator>Der Idiot</creator>
+		<update>27.08.2015</update>
+		<status>in development</status>
+		<description>Style inspired by Google/Youtube/AniDB</description>
+		<path/>
 		<thumbnail>anidbstyle3/images/thumbnail.png</thumbnail>
 		<screenshot>anidbstyle3/images/screenshot.png</screenshot>
+	</style>
+	<style name="anidbstyle3-menu">
+		<title>AniDB Style 3 - floated menu</title>
+		<creator>Der Idiot</creator>
+		<update>28.01.2015</update>
+		<status>in development</status>
+		<description>Style inspired by Google/Youtube/AniDB</description>
+		<path/>
+		<thumbnail>anidbstyle3-menu/images/thumbnail.png</thumbnail>
+		<screenshot>anidbstyle3-menu/images/screenshot.png</screenshot>
 	</style>
 	<style name="anidbstyle_hacks">
 		<title>AniDBstyle Hacks</title>
@@ -100,6 +120,16 @@
 		<screenshot>anigoogle/images/screenshot.png</screenshot>
 		<thumbnail>anigoogle/images/thumbnail.png</thumbnail>
 	</style>
+	<style name="anigoogle-menu">
+		<title>Anigoogle with Menu</title>
+		<creator>Der Idiot</creator>
+		<update>27.08.2015</update>
+		<status>in development</status>
+		<description>Style inspired by google (originally); banner by edekock</description>
+		<path/>
+		<screenshot>anigoogle-menu/images/screenshot.png</screenshot>
+		<thumbnail>anigoogle-menu/images/thumbnail.png</thumbnail>
+	</style>
 	<style name="anigoogle2">
 		<title>Anigoogle2</title>
 		<creator>Der Idiot</creator>
@@ -110,15 +140,15 @@
 		<screenshot>anigoogle2/images/screenshot.png</screenshot>
 		<thumbnail>anigoogle2/images/thumbnail.png</thumbnail>
 	</style>
-	<style name="anigoogle-menu">
-		<title>Anigoogle with Menu</title>
+	<style name="anigoogle2-menu">
+		<title>Anigoogle2 - floated menu</title>
 		<creator>Der Idiot</creator>
-		<update>09.04.2009</update>
+		<update>28.01.2015</update>
 		<status>in development</status>
-		<description>Style inspired by google (originally); banner by edekock</description>
+		<description>Style inspired by Google/Youtube</description>
 		<path/>
-		<screenshot>anigoogle-menu/images/screenshot.png</screenshot>
-		<thumbnail>anigoogle-menu/images/thumbnail.png</thumbnail>
+		<thumbnail>anigoogle2-menu/images/thumbnail.png</thumbnail>
+		<screenshot>anigoogle2-menu/images/screenshot.png</screenshot>
 	</style>
 	<style name="anitube">
 		<title>Anitube</title>
@@ -150,7 +180,17 @@
 		<thumbnail>cdbstyle3/images/thumbnail.png</thumbnail>
 		<screenshot>cdbstyle3/images/screenshot.png</screenshot>
 	</style>
-		<style name="cdbstyle-aniblackle2">
+	<style name="cdbstyle3-menu">
+		<title>CDBstyle3-menu</title>
+		<creator>CDB-Man</creator>
+		<update>13.09.2015</update>
+		<status>constant development and updates</status>
+		<description>CDB`s improvements on DerIdiot`s AniDBstyle3-menu.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
+		<path/>
+		<thumbnail>cdbstyle3-menu/images/thumbnail.png</thumbnail>
+		<screenshot>cdbstyle3-menu/images/screenshot.png</screenshot>
+	</style>
+	<style name="cdbstyle-aniblackle2">
 		<title>CDBstyle-Aniblackle2</title>
 		<creator>CDB-Man</creator>
 		<update>09.02.2015</update>
@@ -159,6 +199,16 @@
 		<path/>
 		<thumbnail>cdbstyle-aniblackle2/images/thumbnail.png</thumbnail>
 		<screenshot>cdbstyle-aniblackle2/images/screenshot.png</screenshot>
+	</style>
+	<style name="cdbstyle-aniblackle2-menu">
+		<title>CDBstyle-Aniblackle2-menu</title>
+		<creator>CDB-Man</creator>
+		<update>13.09.2015</update>
+		<status>constant development and updates</status>
+		<description>CDB`s improvements on DerIdiot`s Aniblackle2-menu.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
+		<path/>
+		<thumbnail>cdbstyle-aniblackle2-menu/images/thumbnail.png</thumbnail>
+		<screenshot>cdbstyle-aniblackle2-menu/images/screenshot.png</screenshot>
 	</style>
 	<style name="cdbstyle-anigoogle2">
 		<title>CDBstyle-Anigoogle2</title>
@@ -169,6 +219,16 @@
 		<path/>
 		<thumbnail>cdbstyle-anigoogle2/images/thumbnail.png</thumbnail>
 		<screenshot>cdbstyle-anigoogle2/images/screenshot.png</screenshot>
+	</style>
+	<style name="cdbstyle-anigoogle2-menu">
+		<title>CDBstyle-Anigoogle2-menu</title>
+		<creator>CDB-Man</creator>
+		<update>13.09.2015</update>
+		<status>constant development and updates</status>
+		<description>CDB`s improvements on DerIdiot`s Anigoogle2-menu.  Contains ergonomics updates, such as: increased gradients, additional mylist entry colour highlighting, reduced whitespace, etc.  More info: http://wiki.anidb.net/w/User:CDB-Man/CDBstyle and http://anidb.net/post363796</description>
+		<path/>
+		<thumbnail>cdbstyle-anigoogle2-menu/images/thumbnail.png</thumbnail>
+		<screenshot>cdbstyle-anigoogle2-menu/images/screenshot.png</screenshot>
 	</style>
 	<style name="dark-style">
 		<title>Dark Style</title>
@@ -343,19 +403,19 @@
 	<style name="sub-silver">
 		<title>sub-silver</title>
 		<creator>epoximator</creator>
-		<update/>
-		<status/>
-		<description/>
-		<path/>
+		<update></update>
+		<status></status>
+		<description></description>
+		<path></path>
 		<screenshot>sub-silver/images/screenshot.png</screenshot>
 		<thumbnail>sub-silver/images/thumbnail.png</thumbnail>
 	</style>
 	<style name="zakura">
 		<title>Zakura</title>
-		<creator>Zak</creator>
-		<update/>
-		<status/>
-		<description/>
+		<creator>zakness</creator>
+		<update>01.09.2015</update>
+		<status>in development</status>
+		<description>written originally by zak. redone by deridiot</description>
 		<path/>
 		<screenshot>zakura/images/screenshot.png</screenshot>
 		<thumbnail>zakura/images/thumbnail.png</thumbnail>
@@ -373,10 +433,10 @@
 	<style name="zakura-menu">
 		<title>sub-zakura-menu</title>
 		<creator>fahrenheit</creator>
-		<update></update>
+		<update/>
 		<status>Test</status>
 		<description>Based on Zakura by Zak and Nice-day by Epoximator</description>
-		<path></path>
+		<path/>
 		<screenshot>zakura-menu/images/screenshot.png</screenshot>
 		<thumbnail>zakura-menu/images/thumbnail.png</thumbnail>
 	</style>

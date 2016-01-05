@@ -25,7 +25,7 @@ tr > th,
 #layout-main div.news h4,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.blog h4,
-#layout-main div.timeline_all div.timeline ul.row li.dropped
+#layout-main div.timeline_all div.timeline ul.row li.liststate_dropped
 {
 background-color:hsla(0, 100%, 25%, 0.4);
 }
@@ -43,12 +43,17 @@ html,
 {
 background-image:url(../grey/images/bg_1.gif);
 }
-#layout-nav,#menu-main,#menu-lists,#menu-private,#menu-mod,#menu-support,#menu-account,
+#layout-nav,
+#layout-menu li.sub-menu ul,
 #layout-main div.forum div.body div.code div.text,
-div.tooltip .g_bubble
+.tooltip .g_bubble
 {
 background-image:url(../grey/images/bg_2.gif);
 }
+.fancybox-wrap div.g_msg.error,
+.fancybox-wrap div.g_msg.warning,
+.fancybox-wrap div.g_msg.note,
+.fancybox-wrap div.g_msg.success,
 #layout-main div.g_msg.error,
 #layout-main div.g_msg.warning,
 #layout-main div.g_msg.note,
@@ -83,6 +88,7 @@ button,
 tr.g_odd,
 li.g_odd,
 span.g_odd,
+div.g_odd,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd,
 #layout-content div.creq_all tr.revoked > td,
@@ -101,7 +107,7 @@ background-color:hsla(0, 0%, 0%, 0.4);
 }
 #layout-content table.animelist tr.mylist td,
 #layout-content table.stafflist tr.mylist td,
-#layout-main div.timeline_all div.timeline ul.row li.watching,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_watching,
 .g_bubble.stripe.mylist
 {
 background-color:hsla(34, 95%, 44%, 0.4);
@@ -109,7 +115,7 @@ background-color:hsla(34, 95%, 44%, 0.4);
 #layout-content table.animelist tr.complete td,
 #layout-content table.stafflist tr.complete td,
 #layout-main div.forum .g_bubble.infobox div.bar,
-#layout-main div.timeline_all div.timeline ul.row li.stalled,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled,
 .g_bubble.stripe.mylist.complete
 {
 background-color:hsla(207, 86%, 44%, 0.4);
@@ -128,7 +134,7 @@ background-color:hsla(207, 86%, 44%, 0.4);
 #layout-content table.animelist tr.all_watched td,
 #layout-content table.stafflist tr.all_watched td,
 #layout-content #layout-main div.ed2kdump_all table.filelist .in,
-#layout-main div.timeline_all div.timeline ul.row li.completed,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_completed,
 .g_bubble.stripe.mylist.all_watched
 {
 background-color:hsla(127, 54%, 25%, 0.6);
@@ -251,18 +257,22 @@ background-color:hsla(0, 100%, 25%, 0.8);
 color:#ff6000;
 border-color:#797979;
 }
+.fancybox-wrap div.g_msg.error,
 #layout-main div.g_msg.error
 {
 border:1px solid #c40d0d;
 }
+.fancybox-wrap div.g_msg.warning,
 #layout-main div.g_msg.warning
 {
 border:1px solid #ff6000;
 }
+.fancybox-wrap div.g_msg.note,
 #layout-main div.g_msg.note
 {
 border:1px solid #575757;
 }
+.fancybox-wrap div.g_msg.success,
 #layout-main div.g_msg.success
 {
 border:1px solid #1D6125;
@@ -271,19 +281,23 @@ border:1px solid #1D6125;
 #menu-account li.alert > span > a:first-of-type:after,
 #layout-content div.group_all div.group_released table td.notalldumped,
 #layout-nav #layout-menu li.alert > span,
+.fancybox-wrap div.g_msg.error h3,
 #layout-main div.g_msg.error h3
 {
 color:red;
 }
+.fancybox-wrap div.g_msg.warning h3,
 #layout-main div.g_msg.warning h3,
 #layout-hint span a
 {
 color:#FF6000;
 }
+.fancybox-wrap div.g_msg.note h3,
 #layout-main div.g_msg.note h3
 {
 color:gray;
 }
+.fancybox-wrap div.g_msg.success h3,
 #layout-main div.g_msg.success h3
 {
 color:#2EB42E;
@@ -419,11 +433,11 @@ margin:auto;
 max-height:none;
 overflow:visible;
 }
-#layout-content div.mylist_list table.animelist tr.watching td
+#layout-content div.mylist_list table.animelist tr.liststate_watching td
 {
 background-image:url(images/orangepixels.png);
 }
-#layout-content div.mylist_list table.animelist tr.watching:hover td
+#layout-content div.mylist_list table.animelist tr.liststate_watching:hover td
 {
 background-image:url(images/orangepixels.png), url(../grey/images/whitepixel.png);
 }
@@ -435,3 +449,35 @@ background-color:#006400;
 {
 background-color:#c1f167;
 }
+.i_ext,
+.i_vrs_2,
+.i_vrs_3,
+.i_vrs_4,
+.i_vrs_5,
+.i_vrs_6,
+.i_vrs_7,
+.i_vrs_8,
+.i_vrs_9
+{
+text-align: center !important;
+background-color: hsla(0, 100%, 00%, 0.4);
+background-image: none !important;
+color: grey;
+font-weight: bold !important;;
+width: 32px;
+border-radius: 3px;
+margin-right: 0.5em;
+}
+.i_ext span,
+.i_vrs_2 span,
+.i_vrs_3 span,
+.i_vrs_4 span,
+.i_vrs_5 span,
+.i_vrs_6 span,
+.i_vrs_7 span,
+.i_vrs_8 span,
+.i_vrs_9 span
+{
+display: inline-block !important;
+}
+
