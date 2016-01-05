@@ -40,6 +40,10 @@
 	width: 100%;
 }
 
+#layout-main div.anime_all div.mylistadd table {
+	width: auto!important;
+}
+
 #layout-main table.eplist table.filelist {
 	padding: 0 0.5em 0.5em;
 }
