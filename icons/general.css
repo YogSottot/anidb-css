@@ -119,9 +119,9 @@ th.s_reverse,
 }
 
 #loading {
-	background: #000 url("../icons/jquery.fancybox/fancybox_loading.gif") no-repeat scroll center center;
+	background: #000 url(../icons/jquery.fancybox/fancybox_loading.gif) no-repeat scroll center center;
 }
 
 #overlay {
-	background: transparent url("../icons/jquery.fancybox/fancybox_overlay.png") repeat scroll 0% 0%;
+	background: transparent url(../icons/jquery.fancybox/fancybox_overlay.png) repeat scroll 0% 0%;
 }
