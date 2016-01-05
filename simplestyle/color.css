@@ -25,7 +25,7 @@ input[type="button"]
 	font-size:14px;
 }
 
-#layout-content div.desc
+#layout-content div.g_section.desc
 {
 	border:1px #9CCD17 solid;
 	color:#3FB2E7;

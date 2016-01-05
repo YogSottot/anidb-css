@@ -97,7 +97,7 @@
 /* *** */
 /* Anime: fix to description position */
 /* *** */
-#layout-main div.info div.desc
+#layout-main div.g_section.desc
 {
 	clear: both;
 }

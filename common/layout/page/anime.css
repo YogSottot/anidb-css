@@ -23,7 +23,15 @@
 	border: none;
 }
 
-#layout-main div.anime_all #grouplist td.icons a + a {
+#layout-main div.anime_all #groupfilter .icons {
+	float: left;
+}
+
+#layout-main div.anime_all #groupfilter .icons span.i_icon {
+	cursor: pointer;
+}
+
+#layout-main div.anime_all #groupfilter .icons span + span {
 	margin-left: 0.5em;
 }
 
@@ -36,7 +44,7 @@
 	padding: 0 0.5em 0.5em;
 }
 
-#layout-main div.anime_all > .g_section:not(.info) {
+#layout-main div.anime_all > .g_section:not(.info):not(.vote):not(.mylist) {
 	margin: 1.5em 1em;
 }
 

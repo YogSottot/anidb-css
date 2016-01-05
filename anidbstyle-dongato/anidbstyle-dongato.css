@@ -339,8 +339,7 @@ div.userdetails div.block
 }
 
 /* center and align description */
-div.group_info div.desc,
-div.producer_info div.desc
+div.group_info div.g_section.desc
 {
 	margin-top: 2em;
 	text-align: center;

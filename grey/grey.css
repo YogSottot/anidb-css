@@ -1716,7 +1716,7 @@ text-decoration: none;
 {
 text-align: center;
 }
-#layout-content div.group_info div.desc
+#layout-content div.group_info div.g_section.desc
 {
 text-align: center;
 }
@@ -2516,7 +2516,7 @@ padding-left: 4px;
 }
 td,
 ul,
-div.desc,
+div.g_section.desc,
 .body,
 td.id a.i_icon,
 th.field,
