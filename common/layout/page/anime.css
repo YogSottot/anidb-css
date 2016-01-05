@@ -35,7 +35,7 @@
 	margin-left: 0.5em;
 }
 
-#layout-main div.anime_all > .g_section table,
+#layout-main div.anime_all > .g_section:not(.vote):not(.mylist) table,
 #layout-main div.anime_all > .g_section form table {
 	width: 100%;
 }
@@ -44,7 +44,7 @@
 	padding: 0 0.5em 0.5em;
 }
 
-#layout-main div.anime_all > .g_section:not(.info):not(.vote):not(.mylist) {
+#layout-main div.anime_all > .g_section:not(.info) {
 	margin: 1.5em 1em;
 }
 
