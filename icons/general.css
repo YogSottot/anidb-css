@@ -118,9 +118,10 @@ th.s_reverse,
 	background: transparent url(../icons/formating/icon_expand.gif) top right no-repeat;
 }
 
-*.i_loading {
-	background: transparent url(../icons/icon/anidb_loading.gif) top right no-repeat;
-	height: 48px;
-	width: 48px;
-	background-size: contain;
+#loading {
+	background: #000 url("../icons/jquery.fancybox/fancybox_loading.gif") no-repeat scroll center center;
+}
+
+#overlay {
+	background: transparent url("../icons/jquery.fancybox/fancybox_overlay.png") repeat scroll 0% 0%;
 }

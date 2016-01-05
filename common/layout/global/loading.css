@@ -1,5 +1,4 @@
 #loading {
-	background: #000 url("/icons/jquery.fancybox/fancybox_loading.gif") no-repeat scroll center center;
 	border-radius: 5px;
 	position: fixed;
 	top: 50%;
@@ -7,7 +6,6 @@
 }
 
 #overlay {
-	background: transparent url("/icons/jquery.fancybox/fancybox_overlay.png") repeat scroll 0% 0%;
 	position: fixed;
 	z-index: 10000;
 	top: 0;
