@@ -25,6 +25,8 @@
 #layout-main .css_style + p {
 	clear: left;
 }
+
+#layout-main div.block + div.g_bubble.desc,
 #layout-main div.g_section.desc {
 	margin: 1em 0;
 	padding: 1em;
