@@ -19,6 +19,7 @@
 .i_seen_yes,
 .i_seen_no,
 .i_file_addmylist,
+.i_file_editmylist,
 .i_file_removemylist,
 .i_top,
 .i_help,
@@ -66,6 +67,7 @@
 .i_seen_yes,
 .i_seen_no,
 .i_file_addmylist,
+.i_file_editmylist,
 .i_file_removemylist,
 .i_top,
 .i_help,
@@ -352,6 +354,7 @@ button.preview:before {
 .i_seen_yes,
 .i_seen_no,
 .i_file_addmylist,
+.i_file_editmylist,
 .i_file_removemylist,
 .i_top,
 .i_help,
@@ -399,6 +402,10 @@ button.preview:before {
 }
 .i_top:after {
 	content: "\f0aa";
+	cursor:pointer;
+}
+.i_file_editmylist:after {
+	content: "\f044";
 	cursor:pointer;
 }
 .i_file_removemylist:after {
