@@ -49,7 +49,7 @@
 }
 
 #layout-main div.anime_all > .g_section:not(.info) {
-	margin: 1.5em 1em;
+	margin: 1.5em 0.5em;
 }
 
 #layout-main div.anime_all div.reviews table.reviewlist th.approval {
