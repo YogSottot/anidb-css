@@ -114,6 +114,10 @@
 	background-image: url(../icons/state/anidb_state_onhdd.gif);
 }
 
+*.i_state_onserver {
+	background-image: url(../icons/state/anidb_state_onserver.png);
+}
+
 *.i_state_unknown {
 	background-image: url(../icons/state/anidb_state_unknown.gif);
 }
