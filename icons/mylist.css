@@ -112,14 +112,20 @@
 
 *.i_state_oncd {
 	background-image: url(../icons/state/anidb_state_oncd.png);
+	width: 16px;
+	height: 16px;
 }
 
 *.i_state_onhdd {
 	background-image: url(../icons/state/anidb_state_onhdd.png);
+	width: 16px;
+	height: 16px;
 }
 
 *.i_state_onserver {
 	background-image: url(../icons/state/anidb_state_onserver.png);
+	width: 16px;
+	height: 16px;
 }
 
 *.i_state_unknown {
