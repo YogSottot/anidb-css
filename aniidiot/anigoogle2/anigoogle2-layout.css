@@ -1,0 +1,148 @@
+#layout-menu li.sub-menu {
+	margin-bottom: 0.5em;
+}
+
+#layout-menu li.sub-menu ul li.alert,
+#layout-menu li.sub-menu ul li a {
+	height: 20px;
+	display: block;
+	width: 100%;
+}
+
+#layout-menu li.sub-menu ul li > span,
+#layout-menu li.sub-menu ul li > a > span {
+	display: block;
+}
+
+#layout-menu li.sub-menu ul li > a,
+#layout-menu li.sub-menu ul li > span,
+#layout-menu li.sub-menu ul li > label {
+	line-height: 20px;
+}
+
+.i_forum_link,
+#layout-menu li.sub-menu.main span.tab {
+	display: none;
+}
+
+#layout-main div.anime_all div.groups td.action {
+	min-width: 5.5em;
+}
+
+.g_bubble.stripe {
+	margin: 0.4em 0.15em !important
+}
+
+#layout-main div.userpage_all .userprefs .content .g_bubble.stripe,
+#layout-main div.userpage_all .clubs .content .g_bubble.stripe {
+	margin: 0.4em !important
+}
+
+#layout-main div.main_all div.header div.latestnews .g_bubble.stripe,
+#layout-main div.main_all div.datablocks .g_bubble.stripe {
+	margin: 0.35em 0 !important;
+}
+
+#layout-menu li.sub-menu span.tab {
+	display: block;
+}
+
+#layout-main div.edit_actions a {
+	padding: 2px 8px;
+}
+
+#layout-main div.edit_actions {
+	height: 2.5em;
+	margin-top: -2.51em;
+}
+
+.i_comment_add,
+.i_topic_add,
+.i_topic_history,
+.i_topic_delete,
+.i_topic_move,
+.i_topic_split,
+.i_comment_revisions,
+.i_comment_move,
+.i_topic_lock,
+.i_comment_edit,
+.i_comment_quote,
+.i_comment_delete,
+.i_comment_info,
+.i_comment_creq,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_comment_setactive,
+.i_topic_locked,
+.i_comment_undelete,
+.i_pm_delete,
+.i_review_add,
+.i_pm_reply,
+.i_topic_subscribe,
+.i_topic_unsubscribe {
+	height: 16px;
+	width: auto;
+	line-height: 15px;
+	padding: 3px 6px 1px;
+}
+
+#layout-main ul.g_list {
+	min-height: 2.2em;
+}
+
+#layout-main div.cmt_entries div.postbody span.actions a + a {
+	margin-right: 0.4em;
+	margin-left: 0 !important;
+}
+
+.i_comment_add span,
+.i_topic_add span,
+.i_topic_history span,
+.i_topic_delete span,
+.i_topic_move span,
+.i_topic_split span,
+.i_comment_revisions span,
+.i_comment_move span,
+.i_topic_lock span,
+.i_comment_edit span,
+.i_comment_quote span,
+.i_comment_delete span,
+.i_comment_info span,
+.i_comment_creq span,
+.i_topic_undelete span,
+.i_topic_unlock span,
+.i_comment_setactive span,
+.i_topic_locked span,
+.i_comment_undelete span,
+.i_pm_delete span,
+.i_review_add span,
+.i_pm_reply span,
+.i_topic_subscribe span,
+.i_topic_unsubscribe span {
+	display: inline-block;
+	padding-left: 5px;
+}
+
+#layout-main div.forum div.topic_actions {
+	height: 16px;
+}
+
+#layout-main div.g_menu.filter_menu button.delete {
+	margin-top: 0.3em;
+}
+
+#layout-search ul.quicksearch .g_bubble.stripe {
+	margin: 0 !important;
+}
+
+#layout-main div.admin_all div.g_menu h4 {
+	text-align: left;
+}
+
+#layout-search ul.quicksearch {
+	margin: 0 0 0 3px;
+}
+
+#layout-main div.main_all div.header div.account ul.tabs {
+	margin-bottom: -2px;
+}

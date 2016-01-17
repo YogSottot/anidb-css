@@ -1,101 +1,88 @@
-#layout-main div.g_menu
-{
+#layout-main div.g_menu {
 	float: right;
 	margin-bottom: 1em;
 }
 
-#layout-main div.g_menu ul
-{
+#layout-main div.g_menu ul {
 	margin-top: 2px;
 }
 
-#layout-main div.g_menu ul li
-{
+#layout-main div.g_menu ul li {
 	padding: 1px 6px 1px 6px;
 }
 
-#layout-main div.g_menu ul.state
-{
+#layout-main div.g_menu ul.state {
 	height: 15px;
 	padding-top: 2px;
 	padding-bottom: 1px;
 }
 
-#layout-main div.g_menu ul.state li
-{
+#layout-main div.g_menu ul.state li {
 	float: left;
 	padding: 0px 2px 0px 1px;
 }
 
-#layout-main div.g_menu ul.state + ul
-{
+#layout-main div.g_menu ul.state + ul {
 	clear: left;
 }
 
-#layout-main div.g_menu.filter_menu
-{
-	width: 16.2em;
+#layout-main div.g_menu.filter_menu {
+	width: 16.5em;
 	margin-left:1em;
 }
 
+#layout-main div.g_menu.filter_menu.collapsed {
+	width: auto;
+}
+
 #layout-main div.g_menu.filter_menu div.wishlistfilters,
-#layout-main div.g_menu.filter_menu div.filestatefilters
-{
+#layout-main div.g_menu.filter_menu div.filestatefilters {
 	margin-top:1em;
 }
 
 #layout-main div.g_menu.filter_menu div.filters ul li,
 #layout-main div.g_menu.filter_menu div.filestatefilters ul li,
-#layout-main div.g_menu.filter_menu div.wishlistfilters ul li
-{
-    padding:5px;
+#layout-main div.g_menu.filter_menu div.wishlistfilters ul li {
+	padding:5px;
 }
 
 #layout-main div.g_menu.filter_menu label,
-#layout-main div.g_menu.filter_menu span.options
-{
-    display:block;
-    text-align:left;
+#layout-main div.g_menu.filter_menu span.options {
+	display:block;
+	text-align:left;
 }
 
-#layout-main div.g_menu.filter_menu div.user span.user
-{
-    float: none;
-    margin-top: 2px;
-    height: 14px;
-    display:block;
+#layout-main div.g_menu.filter_menu div.user span.user {
+	float: none;
+	margin-top: 2px;
+	height: 14px;
+	display:block;
 }
 
-#layout-main div.g_menu.filter_menu p
-{
-    margin-top: 0.2em;
+#layout-main div.g_menu.filter_menu p {
+	margin-top: 0.2em;
 }
 
 #layout-nav div.menu_hr,
 #layout-search a.advsearch,
-#layout-search form.random
-{
+#layout-search form.random {
 	display:none;
 }
 
-#layout-main div.g_menu.filter_menu div.settings select
-{
+#layout-main div.g_menu.filter_menu div.settings select {
 	width:100%;
 }
 
-#layout-main div.g_menu.filter_menu div.settings div.inner
-{
+#layout-main div.g_menu.filter_menu div.settings div.inner {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
 
-#layout-main div.g_menu.filter_menu div.settings input[type="text"]
-{
+#layout-main div.g_menu.filter_menu div.settings input[type="text"] {
 	width: 10.5em;
 }
 
-#layout-main div.g_menu.filter_menu div.settings span
-{
+#layout-main div.g_menu.filter_menu div.settings span {
 	display: block;
 	margin-top: 0.3em;
 	text-align:center;
@@ -106,20 +93,28 @@
 }
 
 #layout-main div.g_content div.filter_menu > h3 {
-    margin-right: 0.5em;
+	margin-right: 0.5em;
 }
 
 /** Thingie to hide/show g_menu's */
-.filter_menu h3 a
-{
+#layout-main div.filter_menu h3 a.i_icon {
 	cursor: pointer;
 	float: right;
+	margin-top: 5px;
 }
 
 /*chrome fix for the table overlapping the menu*/
 #layout-main div.filter_menu + form > table,
 #layout-main div.filter_menu + div > form > table,
-#layout-main div.filter_menu + table
-{
+#layout-main div.filter_menu + table {
 	margin: 0;
+}
+
+#layout-main div.filter_menu.expanded + .g_msg {
+	margin-right: 18em;
+	clear: none;
+}
+#layout-main div.filter_menu.collapsed + .g_msg {
+	margin-right: 3em;
+	clear: none;
 }

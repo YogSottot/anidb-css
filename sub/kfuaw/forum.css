@@ -1,4 +1,4 @@
-#layout-main div.forum div.poll div.pollbar,
+#layout-main div.forum .g_bubble.infobox div.bar,
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum div.g_bubble.navbar,
 #layout-main div.forum div.g_bubble.search,
@@ -56,9 +56,6 @@
 	background-color:#aaaaaa;
 }
 
-/*
-#layout-main div.cmt_entries a.username-colored:hover,
-#layout-main div.forum a.username-colored:hover,*/
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum ul.topiclist li
 {
@@ -77,9 +74,7 @@
 	background-color:#bbbbbb;
 }
 
-#layout-main div.forum a.topictitle/*,
-#layout-main div.cmt_entries a.username-colored,
-#layout-main div.forum a.username-colored*/
+#layout-main div.forum a.topictitle
 {
 	color: #555555;
 }
@@ -89,8 +84,7 @@
 	padding-right:0;
 }
 
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum div.g_bubble.comment
 {
@@ -101,7 +95,7 @@
 	border-width:3px 1px 3px 1px;
 }
 
-#layout-main div.cmt_entries dl.profile
+#layout-main div.cmt_entries div.profile
 {
 	border-right:none;
 }
@@ -122,7 +116,7 @@
 	height:1.2em;
 }
 
-#layout-main div.cmt_entries dl.profile + div.postbody p.author
+#layout-main div.cmt_entries div.profile + div.postbody p.author
 {
 	-moz-border-radius-topleft:0em;
 	-webkit-border-top-left-radius:0em;
@@ -137,8 +131,7 @@
 	padding-right:0.5em;
 }
 
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2
+#layout-main div.forum .g_bubble.infobox h2
 {
 	color:#444444;
 }
@@ -149,8 +142,8 @@
 	display: block;
 }
 
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd
+#layout-main div.forum li.header div,
+#layout-main div.forum li.header div
 {
 	margin: .2em 0;
 }

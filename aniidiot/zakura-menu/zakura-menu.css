@@ -1,0 +1,121 @@
+@import "../zakura/zakura.css";
+
+#layout-menu li.sub-menu.main span.tab {
+	display: block;
+}
+
+#layout-content {
+	margin-left: 0;
+	margin-top: 34px;
+}
+
+#layout-tabs {
+	margin: 247px 0px 0px 17px;
+}
+
+#layout-hint + #layout-nav + #layout-content #layout-tabs {
+	margin: 264px 0px 0px 17px;
+}
+
+#layout-menu {
+	width: auto;
+	padding-top: 166px;
+}
+
+#layout-menu > li {
+	background-attachement:scroll;
+	background-color:transparent;
+	background-image:url('images/layout/stripe-pink2.gif');
+	border:1px solid #eec6dc;
+	color:#de4799;
+	display:block;
+	float:left;
+	font-weight:700;
+	line-height:20px;
+	padding-left:18px;
+	padding-right:18px;
+	padding-top:-20px;
+	cursor: pointer;
+}
+
+#layout-menu > li ul {
+	border:1px solid #AFBEC7;
+	border-top:0;
+	display:none;
+	font-weight:400;
+	line-height:normal;
+	margin-left:-17px;
+	margin-top:32px;
+	padding:0;
+	position:absolute;
+	width: 144px;
+}
+
+#layout-menu > li.alert {
+	color:#B00;
+}
+
+#layout-menu a {
+	display:block;
+	padding:3px 8px;
+}
+
+#layout-menu a[title^=""] span {
+	display:none;
+}
+
+#layout-menu a[title^=""]:after {
+	content:attr(title);
+}
+
+#layout-menu span.tab {
+	display:inline;
+	float:right;
+	cursor: pointer;
+}
+
+#layout-menu > li.account  {
+	border: none;
+	width: 0;
+	padding:0;
+}
+
+#layout-menu > li.account span.tab {
+	display: none;
+}
+
+#layout-menu li.sub-menu ul li.main span,
+#layout-menu > li:hover ul {
+	display:block;
+}
+
+#layout-menu #menu-account {
+	right: 81px;
+}
+
+#layout-menu li.sub-menu ul li.main a {
+	height: 28px;
+	width: auto;
+	margin-top: 0;
+}
+
+#layout-menu li.sub-menu ul li a {
+	box-sizing: border-box;
+	height: 28px;
+}
+
+#layout-hint + #layout-nav #layout-menu #menu-account {
+    right: 178px;
+}
+
+#layout-menu li.sub-menu ul li.main a {
+	position: static;
+}
+
+#layout-menu li.sub-menu ul li.main a:hover {
+	background: transparent url("images/stripe-pink.gif") repeat scroll left top;
+}
+
+#layout-main {
+	margin-left: 1em;
+}

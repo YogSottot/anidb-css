@@ -1,94 +1,79 @@
-#layout-main div.animeatt_reviews div.review
-{
+#layout-main div.animeatt_reviews div.review {
 	clear: right;
 }
-#layout-main div.animeatt_reviews div.review div.bar
-{
+#layout-main div.animeatt_reviews div.review div.bar {
 	margin-top:1em;
 	float: right;
 	width: 11em;
 }
-#layout-main div.animeatt_reviews div.review div.bar table
-{
+#layout-main div.animeatt_reviews div.review div.bar table {
 	width: 100%;
 }
-#layout-main div.animeatt_reviews div.review div.text
-{
+#layout-main div.animeatt_reviews div.review div.text {
 	text-align: left;
 	margin-right: 12em;
 	padding: 0.5em;
 }
-#layout-main div.animeatt_reviews div.review div.rating table td.value
-{
+#layout-main div.animeatt_reviews div.review div.rating table td.value {
 	text-align: right;
 }
 
-#layout-main div.animeatt_comment
-{
+#layout-main div.animeatt_comment {
 	text-align: left;	
 }
 
-#layout-main div.animeatt_comment textarea
-{
+#layout-main div.animeatt_comment textarea {
 	width: 96%;
 	height: 10em;
 }
 
-#layout-main div.animeatt_all div.topic_actions
-{
+#layout-main div.animeatt_all div.topic_actions {
 	height: 25px;
 }
 
-#layout-main div.animeatt_all div.topic_actions div.buttons a
-{
+#layout-main div.animeatt_all div.topic_actions div.buttons a {
 	float: left;
 }
 
-#layout-main div.animeatt_all div.topic_actions span.icons
-{
+#layout-main div.animeatt_all div.topic_actions span.icons {
 	float: right;
 }
 
-#layout-main div.animeatt_reviews div.review div.text
-{
+#layout-main div.animeatt_reviews div.review div.text {
 	min-height: 330px;
 }
 
-#layout-main div.animeatt_reviews div.review div.text + div.note
-{
+#layout-main div.animeatt_reviews div.review div.text + div.note {
 	margin-top: 1em;
 	margin-right: 12em;
 	clear: none;
 }
 
-#layout-main div.animeatt_all div.forum div.options-box dl dd
-{
+#layout-main div.animeatt_all div.forum div.options-box dl div {
 	margin-left:20em;
 }
 #layout-main div.animeatt_all div.animeatt_info h4,
-#layout-main div.animeatt_all div.animeatt_info p
-{
+#layout-main div.animeatt_all div.animeatt_info p {
 	text-align: left;
 }
 
-#layout-main div.animeatt_all div.animeatt_info ol
-{
+#layout-main div.animeatt_all div.animeatt_info ol {
 	list-style:decimal inside none;
 	text-align: left;
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp {
-    display: block;
-    margin-bottom: 1.5em;
-    margin-top: 0;
-    padding-top: 1px;
-    text-align: left;
-    width:45%;
+	display: block;
+	margin-bottom: 1.5em;
+	margin-top: 0;
+	padding-top: 1px;
+	text-align: left;
+	width:45%;
 }
 
 #layout-main div.animeatt_reviews div.review h4 {
-    display: table-cell;
-    padding-left: 0.5em;
-    padding-right: 1.5em;
-    text-align: left;
+	display: table-cell;
+	padding-left: 0.5em;
+	padding-right: 1.5em;
+	text-align: left;
 }

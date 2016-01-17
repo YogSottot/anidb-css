@@ -4,7 +4,7 @@
 *.i_ascending {
 	padding-left: 11px; background: url(images/icons/order-ascending.gif) no-repeat center left;
 }
-*.i_inactive {
+*.i_inactive:not(.sorter-false) {
 	padding-left: 11px; background: url(images/icons/order.gif) no-repeat center left;
 }
 

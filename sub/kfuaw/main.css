@@ -78,7 +78,7 @@ body
 	/*padding: 1em .8em .8em .8em;*/
 }
 
-#layout-search input.submit,
+#layout-search .submit,
 #layout-main div.profile_all div.pane.general div.body div.pane div ul
 {
 	padding: 0;
@@ -165,7 +165,7 @@ body
 	width: 10em;
 }
 
-#layout-search input.submit
+#layout-search .submit
 {
 }
 

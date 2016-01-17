@@ -98,8 +98,7 @@ th,
 
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.comment,
 #layout-main div.main_all .g_bubble
 {
@@ -127,8 +126,6 @@ th,
 #layout-main div.forum div.g_bubble.posting-box,
 #layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.main_all div.rightbar h4,
@@ -138,7 +135,6 @@ th,
 	background-color:#BEBCAD;
 }
 
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.forum ul.topics li.g_odd.row
 {
 	background-color:#E0DBC9;
@@ -149,8 +145,8 @@ th,
 	background-color:#E9E6D9;
 }
 
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd
+#layout-main div.forum li.header div,
+#layout-main div.forum li.header div
 {
 	color:#E9E6D9;
 }

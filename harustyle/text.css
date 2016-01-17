@@ -28,13 +28,3 @@
 	color: red;
 	font-weight: bolder;
 }
-
-#layout-menu li.genren:before
-{
-	content: "(";
-}
-
-#layout-menu li.genren:after
-{
-	content: ")";
-}

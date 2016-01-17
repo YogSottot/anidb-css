@@ -1,643 +1,514 @@
-*.i_audio_al
-{
+*.i_audio_al {
 	background-image: url(../icons/flags/anidb_audio_albanian.gif);
 }
 
-*.i_sub_al
-{
+*.i_sub_al {
 	background-image: url(../icons/flags/anidb_sub_albanian.gif);
 }
 
-*.i_audio_ar
-{
+*.i_audio_ar {
 	background-image: url(../icons/flags/anidb_audio_arabic.gif);
 }
 
-*.i_sub_ar
-{
+*.i_sub_ar {
 	background-image: url(../icons/flags/anidb_sub_arabic.gif);
 }
 
-*.i_audio_bd
-{
+*.i_audio_bd {
 	background-image: url(../icons/flags/anidb_audio_bengali.gif);
 }
 
-*.i_sub_bd
-{
+*.i_sub_bd {
 	background-image: url(../icons/flags/anidb_sub_bengali.gif);
 }
 
-*.i_audio_bg
-{
+*.i_audio_bg {
 	background-image: url(../icons/flags/anidb_audio_bulgarian.gif);
 }
 
-*.i_sub_bg
-{
+*.i_sub_bg {
 	background-image: url(../icons/flags/anidb_sub_bulgarian.gif);
 }
 
-*.i_audio_ca
-{
+*.i_audio_ca {
 	background-image: url(../icons/flags/anidb_audio_catalan.gif);
 }
 
-*.i_sub_ca
-{
+*.i_sub_ca {
 	background-image: url(../icons/flags/anidb_sub_catalan.gif);
 }
 
-*.i_audio_cs
-{
+*.i_audio_cs {
 	background-image: url(../icons/flags/anidb_audio_czech.gif);
 }
 
-*.i_sub_cs
-{
+*.i_sub_cs {
 	background-image: url(../icons/flags/anidb_sub_czech.gif);
 }
 
-*.i_audio_da
-{
+*.i_audio_da {
 	background-image: url(../icons/flags/anidb_audio_danish.gif);
 }
 
-*.i_sub_da
-{
+*.i_sub_da {
 	background-image: url(../icons/flags/anidb_sub_danish.gif);
 }
 
-*.i_audio_gl
-{
+*.i_audio_gl {
 	background-image: url(../icons/flags/anidb_audio_galician.gif);
 }
 
-*.i_sub_gl
-{
+*.i_sub_gl {
 	background-image: url(../icons/flags/anidb_sub_galician.gif);
 }
 
-*.i_audio_de
-{
+*.i_audio_de {
 	background-image: url(../icons/flags/anidb_audio_german.gif);
 }
 
-*.i_sub_de
-{
+*.i_sub_de {
 	background-image: url(../icons/flags/anidb_sub_german.gif);
 }
 
-*.i_audio_et
-{
+*.i_audio_et {
 	background-image: url(../icons/flags/anidb_audio_estonian.gif);
 }
 
-*.i_sub_et
-{
+*.i_sub_et {
 	background-image: url(../icons/flags/anidb_sub_estonian.gif);
 }
 
-*.i_audio_es
-{
+*.i_audio_es {
 	background-image: url(../icons/flags/anidb_audio_spanish.gif);
 }
 
-*.i_sub_es
-{
+*.i_sub_es {
 	background-image: url(../icons/flags/anidb_sub_spanish.gif);
 }
 
-*.i_audio_es-LA
-{
+*.i_audio_es-LA {
 	background-image: url(../icons/flags/anidb_audio_hispanic.gif);
 }
 
-*.i_sub_es-LA
-{
+*.i_sub_es-LA {
 	background-image: url(../icons/flags/anidb_sub_hispanic.gif);
 }
 
-*.i_audio_el
-{
+*.i_audio_el {
 	background-image: url(../icons/flags/anidb_audio_greek.gif);
 }
 
-*.i_sub_el
-{
+*.i_sub_el {
 	background-image: url(../icons/flags/anidb_sub_greek.gif);
 }
 
-*.i_audio_en
-{
+*.i_audio_en {
 	background-image: url(../icons/flags/anidb_audio_english.gif);
 }
 
-*.i_sub_en
-{
+*.i_sub_en {
 	background-image: url(../icons/flags/anidb_sub_english.gif);
 }
 
-*.i_audio_eo
-{
+*.i_audio_eo {
 	background-image: url(../icons/flags/anidb_audio_esperanto.gif);
 }
 
-*.i_sub_eo
-{
+*.i_sub_eo {
 	background-image: url(../icons/flags/anidb_sub_esperanto.gif);
 }
 
-*.i_audio_fi
-{
+*.i_audio_fi {
 	background-image: url(../icons/flags/anidb_audio_finnish.gif);
 }
 
-*.i_sub_fi
-{
+*.i_sub_fi {
 	background-image: url(../icons/flags/anidb_sub_finnish.gif);
 }
 
-*.i_audio_fr
-{
+*.i_audio_fr {
 	background-image: url(../icons/flags/anidb_audio_french.gif);
 }
 
-*.i_sub_fr
-{
+*.i_sub_fr {
 	background-image: url(../icons/flags/anidb_sub_french.gif);
 }
 
-*.i_audio_he
-{
+*.i_audio_he {
 	background-image: url(../icons/flags/anidb_audio_hebrew.gif);
 }
 
-*.i_sub_he
-{
+*.i_sub_he {
 	background-image: url(../icons/flags/anidb_sub_hebrew.gif);
 }
 
-*.i_audio_hr
-{
+*.i_audio_hr {
 	background-image: url(../icons/flags/anidb_audio_croatian.gif);
 }
 
-*.i_sub_hr
-{
+*.i_sub_hr {
 	background-image: url(../icons/flags/anidb_sub_croatian.gif);
 }
 
-*.i_audio_hu
-{
+*.i_audio_hu {
 	background-image: url(../icons/flags/anidb_audio_hungarian.gif);
 }
 
-*.i_sub_hu
-{
+*.i_sub_hu {
 	background-image: url(../icons/flags/anidb_sub_hungarian.gif);
 }
 
-*.i_audio_id
-{
+*.i_audio_id {
 	background-image: url(../icons/flags/anidb_audio_indonesian.gif);
 }
 
-*.i_sub_id
-{
+*.i_sub_id {
 	background-image: url(../icons/flags/anidb_sub_indonesian.gif);
 }
 
-*.i_audio_is
-{
+*.i_audio_is {
 	background-image: url(../icons/flags/anidb_audio_icelandic.gif);
 }
 
-*.i_sub_is
-{
+*.i_sub_is {
 	background-image: url(../icons/flags/anidb_sub_icelandic.gif);
 }
 
-*.i_audio_it
-{
+*.i_audio_it {
 	background-image: url(../icons/flags/anidb_audio_italian.gif);
 }
 
-*.i_sub_it
-{
+*.i_sub_it {
 	background-image: url(../icons/flags/anidb_sub_italian.gif);
 }
 
-*.i_audio_ja
-{
+*.i_audio_ja {
 	background-image: url(../icons/flags/anidb_audio_japanese.gif);
 }
 
-*.i_sub_ja
-{
+*.i_sub_ja {
 	background-image: url(../icons/flags/anidb_sub_japanese.gif);
 }
 
-*.i_audio_jv
-{
+*.i_audio_jv {
 	background-image: url(../icons/flags/anidb_audio_javanese.gif);
 }
 
-*.i_sub_jv
-{
+*.i_sub_jv {
 	background-image: url(../icons/flags/anidb_sub_javanese.gif);
 }
 
-*.i_audio_ka
-{
+*.i_audio_ka {
 	background-image: url(../icons/flags/anidb_audio_georgian.gif);
 }
 
-*.i_sub_ka
-{
+*.i_sub_ka {
 	background-image: url(../icons/flags/anidb_sub_georgian.gif);
 }
 
-*.i_audio_ko
-{
+*.i_audio_ko {
 	background-image: url(../icons/flags/anidb_audio_korean.gif);
 }
 
-*.i_sub_ko
-{
+*.i_sub_ko {
 	background-image: url(../icons/flags/anidb_sub_korean.gif);
 }
 
-*.i_audio_la
-{
+*.i_audio_la {
 	background-image: url(../icons/flags/anidb_audio_latin.gif);
 }
 
-*.i_sub_la
-{
+*.i_sub_la {
 	background-image: url(../icons/flags/anidb_sub_latin.gif);
 }
 
-*.i_audio_lv
-{
+*.i_audio_lv {
 	background-image: url(../icons/flags/anidb_audio_latvian.gif);
 }
 
-*.i_sub_lv
-{
+*.i_sub_lv {
 	background-image: url(../icons/flags/anidb_sub_latvian.gif);
 }
 
-*.i_audio_lt
-{
+*.i_audio_lt {
 	background-image: url(../icons/flags/anidb_audio_lithuanian.gif);
 }
 
-*.i_sub_lt
-{
+*.i_sub_lt {
 	background-image: url(../icons/flags/anidb_sub_lithuanian.gif);
 }
 
-*.i_audio_my
-{
+*.i_audio_my {
 	background-image: url(../icons/flags/anidb_audio_malay.gif);
 }
 
-*.i_sub_my
-{
+*.i_sub_my {
 	background-image: url(../icons/flags/anidb_sub_malay.gif);
 }
 
-*.i_audio_nl
-{
+*.i_audio_nl {
 	background-image: url(../icons/flags/anidb_audio_dutch.gif);
 }
 
-*.i_sub_nl
-{
+*.i_sub_nl {
 	background-image: url(../icons/flags/anidb_sub_dutch.gif);
 }
 
-*.i_audio_no
-{
+*.i_audio_no {
 	background-image: url(../icons/flags/anidb_audio_norwegian.gif);
 }
 
-*.i_sub_no
-{
+*.i_sub_no {
 	background-image: url(../icons/flags/anidb_sub_norwegian.gif);
 }
 
-*.i_audio_pl
-{
+*.i_audio_pl {
 	background-image: url(../icons/flags/anidb_audio_polish.gif);
 }
 
-*.i_sub_pl
-{
+*.i_sub_pl {
 	background-image: url(../icons/flags/anidb_sub_polish.gif);
 }
 
-*.i_audio_pt
-{
+*.i_audio_pt {
 	background-image: url(../icons/flags/anidb_audio_portuguese.gif);
 }
 
-*.i_sub_pt
-{
+*.i_sub_pt {
 	background-image: url(../icons/flags/anidb_sub_portuguese.gif);
 }
 
-*.i_audio_pt-BR
-{
+*.i_audio_pt-BR {
 	background-image: url(../icons/flags/anidb_audio_brasilian.gif);
 }
 
-*.i_sub_pt-BR
-{
+*.i_sub_pt-BR {
 	background-image: url(../icons/flags/anidb_sub_brasilian.gif);
 }
 
-*.i_audio_ro
-{
+*.i_audio_ro {
 	background-image: url(../icons/flags/anidb_audio_romanian.gif);
 }
 
-*.i_sub_ro
-{
+*.i_sub_ro {
 	background-image: url(../icons/flags/anidb_sub_romanian.gif);
 }
 
-*.i_audio_ru
-{
+*.i_audio_ru {
 	background-image: url(../icons/flags/anidb_audio_russian.gif);
 }
 
-*.i_sub_ru
-{
+*.i_sub_ru {
 	background-image: url(../icons/flags/anidb_sub_russian.gif);
 }
 
-*.i_audio_sk
-{
+*.i_audio_sk {
 	background-image: url(../icons/flags/anidb_audio_slovak.gif);
 }
 
-*.i_sub_sk
-{
+*.i_sub_sk {
 	background-image: url(../icons/flags/anidb_sub_slovak.gif);
 }
 
-*.i_audio_sl
-{
+*.i_audio_sl {
 	background-image: url(../icons/flags/anidb_audio_slovenian.gif);
 }
 
-*.i_sub_sl
-{
+*.i_sub_sl {
 	background-image: url(../icons/flags/anidb_sub_slovenian.gif);
 }
 
-*.i_audio_sr
-{
+*.i_audio_sr {
 	background-image: url(../icons/flags/anidb_audio_serbian.gif);
 }
 
-*.i_sub_sr
-{
+*.i_sub_sr {
 	background-image: url(../icons/flags/anidb_sub_serbian.gif);
 }
 
-*.i_audio_sv
-{
+*.i_audio_sv {
 	background-image: url(../icons/flags/anidb_audio_swedish.gif);
 }
 
-*.i_sub_sv
-{
+*.i_sub_sv {
 	background-image: url(../icons/flags/anidb_sub_swedish.gif);
 }
 
-*.i_audio_ta
-{
+*.i_audio_ta {
 	background-image: url(../icons/flags/anidb_audio_tamil.gif);
 }
 
-*.i_sub_ta
-{
+*.i_sub_ta {
 	background-image: url(../icons/flags/anidb_sub_tamil.gif);
 }
 
-*.i_audio_tt
-{
+*.i_audio_tt {
 	background-image: url(../icons/flags/anidb_audio_tartar.gif);
 }
 
-*.i_sub_tt
-{
+*.i_sub_tt {
 	background-image: url(../icons/flags/anidb_sub_tartar.gif);
 }
 
-*.i_audio_th
-{
+*.i_audio_th {
 	background-image: url(../icons/flags/anidb_audio_thai.gif);
 }
 
-*.i_sub_th
-{
+*.i_sub_th {
 	background-image: url(../icons/flags/anidb_sub_thai.gif);
 }
 
-*.i_audio_tr
-{
+*.i_audio_tr {
 	background-image: url(../icons/flags/anidb_audio_turkish.gif);
 }
 
-*.i_sub_tr
-{
+*.i_sub_tr {
 	background-image: url(../icons/flags/anidb_sub_turkish.gif);
 }
 
-*.i_audio_uk
-{
+*.i_audio_uk {
 	background-image: url(../icons/flags/anidb_audio_ukrainian.gif);
 }
 
-*.i_sub_uk
-{
+*.i_sub_uk {
 	background-image: url(../icons/flags/anidb_sub_ukrainian.gif);
 }
 
-*.i_audio_vi
-{
+*.i_audio_vi {
 	background-image: url(../icons/flags/anidb_audio_vietnamese.gif);
 }
 
-*.i_sub_vi
-{
+*.i_sub_vi {
 	background-image: url(../icons/flags/anidb_sub_vietnamese.gif);
 }
 
-*.i_audio_x-in
-{
+*.i_audio_x-in {
 	background-image: url(../icons/flags/anidb_audio_instrumental.gif);
 }
 
-*.i_audio_x-jat
-{
+*.i_audio_x-jat {
 	background-image: url(../icons/flags/anidb_audio_japanese-transcription.gif);
 }
-*.i_audio_x-kot
-{
+*.i_audio_x-kot {
 	background-image: url(../icons/flags/anidb_audio_korean-transcription.gif);
 }
 
-*.i_sub_x-jat
-{
+*.i_sub_x-jat {
 	background-image: url(../icons/flags/anidb_sub_japanese-transcription.gif);
 }
 
-*.i_audio_x-other
-{
+*.i_audio_x-other {
 	background-image: url(../icons/flags/anidb_audio_unknown.gif);
 }
 
-*.i_sub_x-other
-{
+*.i_sub_x-other {
 	background-image: url(../icons/flags/anidb_sub_unknown.gif);
 }
 
-*.i_audio_x-unk
-{
+*.i_audio_x-unk {
 	background-image: url(../icons/flags/anidb_audio_unknown.gif);
 }
 
-*.i_sub_x-unk
-{
+*.i_sub_x-unk {
 	background-image: url(../icons/flags/anidb_sub_unknown.gif);
 }
 
-*.i_audio_zh
-{
+*.i_audio_zh {
 	background-image: url(../icons/flags/anidb_audio_chinese.gif);
 }
 
-*.i_sub_zh
-{
+*.i_sub_zh {
 	background-image: url(../icons/flags/anidb_sub_chinese.gif);
 }
 
-*.i_audio_zh-x-yue
-{
+*.i_audio_zh-x-yue {
 	background-image: url(../icons/flags/anidb_audio_cantonese.gif);
 }
 
-*.i_audio_zh-x-cmn
-{
+*.i_audio_zh-x-cmn {
 	background-image: url(../icons/flags/anidb_audio_mandarin.gif);
 }
 
-*.i_audio_zh-x-nan
-{
+*.i_audio_zh-x-nan {
 	background-image: url(../icons/flags/anidb_audio_taiwanese.gif);
 }
 
-*.i_audio_zh-Hans
-{
+*.i_audio_zh-Hans {
 	background-image: url(../icons/flags/anidb_audio_simplified.gif);
 }
 
-*.i_sub_zh-Hans
-{
+*.i_sub_zh-Hans {
 	background-image: url(../icons/flags/anidb_sub_simplified.gif);
 }
 
-*.i_audio_zh-Hant
-{
+*.i_audio_zh-Hant {
 	background-image: url(../icons/flags/anidb_audio_traditional.gif);
 }
 
-*.i_sub_zh-Hant
-{
+*.i_sub_zh-Hant {
 	background-image: url(../icons/flags/anidb_sub_traditional.gif);
 }
 
-*.i_audio_mn
-{
+*.i_audio_mn {
 	background-image: url(../icons/flags/anidb_audio_mongolian.gif);
 }
 
-*.i_sub_mn
-{
+*.i_sub_mn {
 	background-image: url(../icons/flags/anidb_sub_mongolian.gif);
 }
 
-*.i_audio_tl
-{
+*.i_audio_tl {
 	background-image: url(../icons/flags/anidb_audio_filipino.gif);
 }
 
-*.i_sub_tl
-{
+*.i_sub_tl {
 	background-image: url(../icons/flags/anidb_sub_filipino.gif);
 }
 
-*.i_audio_fa
-{
+*.i_audio_fa {
 	background-image: url(../icons/flags/anidb_audio_persian.gif);
 }
 
-*.i_sub_fa
-{
+*.i_sub_fa {
 	background-image: url(../icons/flags/anidb_sub_persian.gif);
 }
 
-*.i_audio_si
-{
+*.i_audio_si {
 	background-image: url(../icons/flags/anidb_audio_shinhala.gif);
 }
 
-*.i_sub_si
-{
+*.i_sub_si {
 	background-image: url(../icons/flags/anidb_sub_shinhala.gif);
 }
 
-*.i_audio_hi
-{
+*.i_audio_hi {
 	background-image: url(../icons/flags/anidb_audio_hindi.gif);
 }
 
-*.i_sub_hi
-{
+*.i_sub_hi {
 	background-image: url(../icons/flags/anidb_sub_hindi.gif);
 }
 
-*.i_audio_ur
-{
+*.i_audio_ur {
 	background-image: url(../icons/flags/anidb_audio_urdu.gif);
 }
 
-*.i_sub_ur
-{
+*.i_sub_ur {
 	background-image: url(../icons/flags/anidb_sub_urdu.gif);
 }
 
-*.i_audio_ht
-{
+*.i_audio_ht {
 	background-image: url(../icons/flags/anidb_audio_creole.gif);
 }
 
-*.i_sub_ht
-{
+*.i_sub_ht {
 	background-image: url(../icons/flags/anidb_sub_creole.gif);
 }
 
-*.i_audio_x-zht
-{
+*.i_audio_x-zht {
 	background-image: url(../icons/flags/anidb_audio_chinese-transcription.gif);
 }
 
-*.i_sub_x-zht
-{
+*.i_sub_x-zht {
 	background-image: url(../icons/flags/anidb_sub_chinese-transcription.gif);
 }

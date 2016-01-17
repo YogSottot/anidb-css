@@ -1,0 +1,168 @@
+#layout-main td del,
+#layout-main tr.g_fs_lame,
+#layout-main input.exclude,
+#layout-main div.myvotes_all table tr td.low,
+#layout-main div.addcreatoranimerel_all tr.left_only,
+#layout-main div.addcreatorsongrel_all tr.left_only,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a,
+#layout-main table.filelist tr.deprecated,
+#layout-main table.filelist tr.invalid,
+#layout-main table.file.entities tr.deprecated,
+#layout-main table.file.entities tr.invalid {
+	background-color: #573535;
+}
+
+#layout-main .different,
+#layout-main div.myvotes_all table tr.g_odd td.low,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a,
+#layout-main table.filelist tr.g_odd.deprecated,
+#layout-main table.filelist tr.g_odd.invalid,
+#layout-main table.file.entities tr.g_odd.deprecated,
+#layout-main table.file.entities tr.g_odd.invalid {
+	background-color: #5C3C3C;
+}
+
+#layout-main div.addcreatoranimerel_all tr.right_only,
+#layout-main div.addcreatorsongrel_all tr.right_only {
+	background-color: #EFC7B2;
+}
+
+#layout-main .identical,
+#layout-main td ins,
+#layout-main input.include,
+#layout-main table.filelist tr.good,
+#layout-main table.file.entities tr.good,
+#layout-main div.msg_all tr.mod,
+#layout-main div.myvotes_all table tr td.high,
+#layout-main div.mynotifies_all table tr.mylist,
+#layout-main div.myreviews_all table tr.mylist,
+#layout-main div.latest2_all table tr.mylist,
+#layout-main div.latest2_all table tr td.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
+#layout-main div.anime_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.animelist_all table tr.mylist,
+#layout-main div.group_released table tr.mylist,
+#layout-main div.forum div.comment div.content strong,
+#layout-main div.forum a.topictitle strong,
+#layout-main div.addcreatoranimerel_all tr.identical,
+#layout-main div.addcreatorsongrel_all tr.identical,
+#layout-main table.animelist tr.mylist,
+#layout-main div.latestanimes_all div.g_section.mylist tr.mylist td, /* deprecated? */
+#layout-main div.timeline_all div.timeline ul.row li.liststate_completed a,
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
+.g_bubble.stripe.mylist,
+.g_bubble.box.mylist > div.top {
+	background-color:#2F402F;
+}
+
+/* IE fix */
+#layout-main div:not(.ed2kdump_all) tr td.mylist {
+	background-color:#2F402F;
+}
+
+#layout-main td.g_odd ins,
+#layout-main table.filelist tr.g_odd.good,
+#layout-main table.file.entities tr.g_odd.good,
+#layout-main div.msg_all tr.g_odd.mod,
+#layout-main div.myvotes_all table tr.g_odd td.high,
+#layout-main div.mynotifies_all table tr.g_odd.mylist,
+#layout-main div.myreviews_all table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd td.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.animelist_all table tr.g_odd.mylist,
+#layout-main div.group_released table tr.g_odd.mylist,
+#layout-main table.animelist tr.g_odd.mylist,
+#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_completed a {
+	background-color:#324732;
+}
+
+/* IE fix */
+#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist {
+	background-color:#324732;
+}
+
+#layout-main div.timeline_all div.timeline ul.row li.liststate_dropped a,
+#layout-main table.filelist tr.generic,
+#layout-main table.file.entities tr.generic {
+	background-color:#444444;
+}
+
+#layout-main div.addcreatoranimerel_all tr.same_name,
+#layout-main div.addcreatorsongrel_all tr.same_name,
+#layout-main div.addsongcollectionrel_all tr.same_name,
+#layout-main div.addcharanimerel_all tr.same_name {
+	background-color: #FFFFDF;
+}
+
+#layout-main td del,
+#layout-main td ins,
+#layout-main div.msg_all tr.mod,
+#layout-main table.animelist,
+#layout-main div.group_released table,
+#layout-main div.producer_related_anime table,
+#layout-main td ins,
+#layout-main div.myvotes_all table tr td.high,
+#layout-main div.character_all div.tabbed_pane_main table,
+#layout-main div.creator_all div.tabbed_pane_main table,
+#layout-main div.anime_all div.tabbed_pane_main table,
+#layout-main div.animelist_all table,
+#layout-main div.addcreatoranimerel_all table,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_completed a,
+#layout-main div.timeline_all div.timeline ul.row li.liststate_dropped a {
+	color:#C0C0C0;
+}
+
+/*epbar colors*/
+#layout-main div.anime_all div.groups td.epbar div.notdone,
+#layout-main div.group_all div.group_released td.epbar div.notdone {
+	background-color:#c6c3ff;
+	border-bottom: 2px solid #c6c3ff;
+}
+
+.ajax-file-upload-bar,
+#layout-main div.anime_all div.groups td.epbar div.done,
+#layout-main div.group_all div.group_released td.epbar div.done {
+	background-color:#6361ff;
+	border-bottom: 2px solid #6361ff;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done.mylist,
+#layout-main div.group_all div.group_released td.epbar div.done.mylist {
+	border-bottom: 2px solid #00ff00;
+}
+
+.g_vital a,
+.v_neg,
+.v_high,
+span.diff,
+.ajax-file-upload-error,
+#layout-main td.reviewed.no a,
+#layout-main div.creq_all .state.return,
+#layout-main div.creq_all .state.new,
+#layout-main div.creq_all span.type.del,
+#layout-main div.anime_all div.groups td.mylist.new,
+#menu-account li.alert a span:before,
+#menu-account li.alert a span:after {
+	color: #B32947;
+}
+
+/*vote graphs*/
+#layout-main div.votes_all div.graph div.bar div.colored {
+	background-color:green;
+}
+
+#layout-main div.votes_all div.graph div.bar.my div.colored {
+	background-color:#CD9D29;
+}

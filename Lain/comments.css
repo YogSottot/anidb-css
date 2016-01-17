@@ -1,15 +1,15 @@
-dd.user{
+div.user{
 	width: 105px !important;
 	float: left !important;
 	padding-top: 0 !important;
 }
-dd.user img{height: 100px; width: 100px;}
-dd.user>a.username-colored{margin-bottom: 2px;}
-dl.profile{
+div.user img{height: 100px; width: 100px;}
+div.user>a.username-colored{margin-bottom: 2px;}
+div.profile{
 	width: 220px !important;
 	margin: 0 !important;
 }
-dd>strong{color: white !important}
+div>strong{color: white !important}
 .postfooter {
 	height:0 !important;
 	position:relative;

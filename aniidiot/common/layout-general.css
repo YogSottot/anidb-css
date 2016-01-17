@@ -1,0 +1,393 @@
+td,
+th {
+	padding: 1px 0.5em;
+}
+
+input[size="10"] {
+	width: 7em;
+}
+
+input[size="50"] {
+	width: 27.5em;
+}
+
+input[size="60"] {
+	width: 36em;
+}
+
+input[size="80"] {
+	width: 48em;
+}
+
+textarea {
+	width: 48em;
+	height: 8em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	margin-right: 0.1em;
+	margin-bottom: 0.3em;
+}
+
+input[type="text"],
+input[type="password"] {
+	height: 18px;
+}
+
+select {
+	min-height: 24px;
+}
+
+button,
+select,
+input[type="text"],
+input[type="password"],
+input[type="radio"],
+input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+select,
+button,
+span.test,
+.g_button a,
+a.button,
+input.button,
+button.button,
+a.confirmButton,
+input.confirmButton,
+button.confirmButton,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="password"],
+#layout-nav input.submit,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink,
+#layout-main div.pagination span a,
+#layout-main div.pagination span strong,
+#layout-main div.forum div.search form select,
+#layout-main div.forum div.search form button,
+#layout-main div.forum div.search form input {
+	padding: 2px 4px;
+}
+
+.i_icon + .i_icon {
+	margin-left: 0.2em !important;
+}
+
+h4,
+#layout-main div.g_timedentry h4 {
+	line-height: 1.4em;
+}
+
+#layout-nav {
+	display: block;
+	height: 6em;
+}
+
+#layout-main {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#layout-menu {
+	display: block;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 105;
+}
+
+#layout-search {
+	display: block;
+	height: 53px;
+	left: 0;
+	margin-left: 1em;
+	position: absolute;
+	top: 3em;
+	width: 60em;
+}
+
+#layout-search div.search {
+	margin-left: 16em;
+	margin-top: 1.3em;
+	width: 100%;
+}
+
+#layout-search div.search form > div {
+	width: 450px;
+}
+
+#layout-search .text {
+	width: 237px;
+	margin: 0;
+	padding: 4px 8px;
+}
+
+#layout-search .submit {
+	float: right;
+	width: 80px;
+	margin: 0 0 0 3px;
+	padding: 5px;
+}
+
+#layout-search select {
+	margin-left: -4px;
+	padding: 4px 8px;
+	min-height: 0;
+}
+
+#layout-main > h1 {
+	display: block;
+	text-align: left;
+	padding: 4px;
+}
+
+#layout-footer p {
+	margin-bottom: 0;
+}
+
+#layout-main h1.main,
+#layout-main div.main_all {
+	display: none;
+}
+
+#layout-menu > li ul {
+	display: none;
+	position: absolute;
+	z-index: 105;
+	margin-left: -.7em;
+	padding: 0;
+}
+
+#layout-menu span.tab {
+	display: block;
+	position: relative;
+}
+
+#layout-menu > li {
+	display: block;
+	float: left;
+	padding-left: .7em;
+	padding-right: .7em;
+}
+
+#layout-nav div.menu_hr {
+	display: block;
+	margin-top: 2.5em;
+}
+
+#layout-nav input,
+#layout-nav button {
+	padding-left: 0;
+}
+
+#layout-tabs {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0;
+}
+
+#layout-tabs ul li {
+	display: inline;
+	padding: 4px 6px 3px;
+	line-height: 15px;
+}
+
+#layout-tabs ul {
+	display: block;
+	text-align: right;
+}
+
+#layout-menu li.sub-menu span.tab {
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+
+#layout-footer {
+	text-align: center;
+}
+
+#layout-content div.dbstats_all {
+	padding-left: 9.6em;
+	padding-right: 8em;
+}
+
+h4,
+#layout-main div.g_timedentry h4 {
+	padding: .3em;
+}
+
+#layout-main div.tabbed_pane ul.tabs {
+	text-align: left;
+	margin: 1px 1px 1px 6px;
+}
+
+#layout-hint {
+	position: relative;
+}
+
+#layout-hint + #layout-nav + #layout-content #layout-tabs {
+	margin: 17px .3em;
+}
+
+#layout-hint + #layout-nav #layout-menu {
+	margin-top: 1.1em;
+}
+
+#layout-hint + #layout-nav #layout-search {
+	top: 4.5em;
+}
+
+#layout-main .g_definitionlist {
+	margin: 2px 0 0;
+}
+
+#layout-menu li.sub-menu ul li,
+#layout-main .g_definitionlist table tr td,
+#layout-main div.g_definitionlist tr th,
+#layout-main div.g_menu ul li,
+#layout-main div.userpage_all div.buddies ul li,
+#layout-main div.userpage_all div.favreviewers ul li,
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs td {
+	padding: 2px 8px;
+}
+
+#layout-main div.animeatt_reviews div.review div.text {
+	margin-top: 1em;
+	padding: 8px;
+}
+
+#layout-main div.g_timedentry div.avatar {
+	margin: 1.5em 1em 1em;
+}
+
+#layout-main div.g_timedentry div.body {
+	margin-top: .5em;
+	padding: 8px;
+}
+
+#layout-main div.main_all div.rightbar li span {
+	position: absolute;
+}
+
+#layout-main div.main_all div.rightbar li a {
+	display: table;
+	margin-left: 4em;
+}
+
+.g_msg {
+	padding: 0.5em 1em;
+}
+
+/*bit of extra width for the icon tom look less squished*/
+#layout-main tr.header th.sortable:not(.sorter-false) {
+	padding: 0 0.5em 0 1em;
+}
+
+#layout-main tr.header th,
+#layout-main tr.header th.sortable a {
+	line-height:20px;
+}
+
+#layout-main tr.header th.sortable a,
+#layout-menu li.sub-menu ul li a {
+	display: block;
+}
+
+button,
+*.g_button,
+#layout-main ul.g_list li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.g_button.upload a,
+button,
+#layout-main div.edit_actions a,
+#layout-tabs ul li a,
+#layout-search .submit,
+#layout-main div.msg_all div.buttons li a,
+#layout-main div.msg_all ul.g_list li.sent a,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink {
+	line-height: 16px;
+}
+
+#layout-main div.filter_menu span.actions.old button {
+	margin-top: 3px;
+}
+
+#layout-main div.news_all div.news p.comment,
+#layout-main div.main_all div.news p.comment {
+	margin: -2.3em 0 0;
+}
+
+#layout-main div.news h4 {
+	padding: 6px;
+}
+
+#layout-main div.avatar img,
+#layout-main div.anime_all div.info div.image img,
+#layout-main .g_image image,
+#layout-main .g_definitionlist,
+#layout-main div.g_content {
+	padding: 1px;
+}
+
+#layout-main .block .g_definitionlist table {
+	margin: 0;
+}
+
+#layout-main div.g_menu.filter_menu div.settings input[type="text"] {
+	width: 12em;
+	margin-bottom: 2px;
+}
+
+#layout-main div.addtagentityrel_all div.suggestions > span {
+	margin: 1px;
+}
+
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus {
+	margin: 0px;
+}
+
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs td input[type="text"] {
+	width: 98%;
+}
+
+#layout-main div.userpage_all div.stats table th {
+	width: 8.5em;
+}
+
+#layout-main div.profile_all div.pane div.settings.block li,
+#layout-main div.profile_all div.pane > ul li,
+#layout-main div.profile_all div.pane.general div.body div.pane div ul li {
+	line-height: 16px;
+}
+
+#layout-main div.votes_all div.container + div.container {
+	margin-left: 0.5em;
+}
+
+#layout-main div.g_menu.filter_menu button.delete + label,
+#layout-main .creq_all .creq_header + ul.g_list {
+	margin-top: 0.5em;
+}
+
+#layout-main ul.g_list + button,
+#layout-main div.forum div.buttons a + a {
+	margin-left: 0.4em !important;
+}
+
+#layout-main div.block div.data table th {
+	width: 10em;
+}

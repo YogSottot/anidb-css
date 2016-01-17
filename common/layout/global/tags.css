@@ -1,6 +1,5 @@
 /*edit form*/
-#layout-main div.g_definitionlist.tagedit_form table table
-{
+#layout-main div.g_definitionlist.tagedit_form table table {
 	width:100%;
 }
 
@@ -8,49 +7,41 @@
 #layout-main div.g_definitionlist.tagedit_form table.options th.character,
 #layout-main div.g_definitionlist.tagedit_form table.options th.creator,
 #layout-main div.g_definitionlist.tagedit_form table.options th.episode,
-#layout-main div.g_definitionlist.tagedit_form table.options th.manga
-{
+#layout-main div.g_definitionlist.tagedit_form table.options th.manga {
 	width:5em;
 }
 
 #layout-main div.g_definitionlist.tagedit_form table.types td,
-#layout-main div.g_definitionlist.tagedit_form table.blocked td
-{
+#layout-main div.g_definitionlist.tagedit_form table.blocked td {
 	vertical-align: top;
 	width:10em;
 }
 
 
-#layout-main div.addtagentityrel_all div.tag-column
-{
+#layout-main div.addtagentityrel_all div.tag-column {
 	margin: 0.2em;
 }
 
-#layout-main div.addtagentityrel_all div.tags_add textarea
-{
+#layout-main div.addtagentityrel_all div.tags_add textarea {
 	height: 25em;
 	width: 50em;
 }
 
-#layout-main div.addtagentityrel_all div.editform div.table
-{
+#layout-main div.addtagentityrel_all div.editform div.table {
 	width: 55em;
 	display: inline-table;
 }
 
-#layout-main div.addtagentityrel_all div.editform table td
-{
+#layout-main div.addtagentityrel_all div.editform table td {
 	min-width: 8em;
 	line-height: 2.2em;
 }
 
-#layout-main div.addtagentityrel_all div.editform table td.name
-{
+#layout-main div.addtagentityrel_all div.editform table td.name {
 	width: 100%;
 }
 
-#layout-main div.addtagentityrel_all div.tag-column div.tag span.name
-{
+#layout-main div.addtagentityrel_all div.tag-column div.tag span.name {
 	width: 20.5em;
 }
 
@@ -114,8 +105,7 @@
 	display: block;
 }
 
-#layout-main div.tag-column
-{
+#layout-main div.tag-column {
 	padding: 8px;
 	display: -webkit-box;
 	display: -moz-box;
@@ -144,13 +134,11 @@
 	align-items: center;
 }
 
-#layout-main div.tag-column div.tag > span
-{
+#layout-main div.tag-column div.tag > span {
 	line-height:1.5em;
 }
 
-#layout-main div.tag-column div.tag span.name
-{
+#layout-main div.tag-column div.tag span.name {
 	-webkit-flex-grow: 1;
 	-moz-flex-grow: 1;
 	-ms-flex-grow: 1;
@@ -169,14 +157,14 @@
 
 #layout-main div.tag-column div.tag span.weight {
 	min-width: 4.7em;
+	text-align: left;
 }
 
 #layout-main div.tag-column div.tag span.state {
-    min-width: 2em;
+	min-width: 2em;
 }
 
-#layout-main div.tag-column div.tag span.indent
-{
+#layout-main div.tag-column div.tag span.indent {
 	white-space:pre;
 	float: left;
 	line-height: 1.6em;
@@ -186,8 +174,7 @@
 	padding-top: 1em;
 }
 
-#layout-main div.tag-column h5
-{
+#layout-main div.tag-column h5 {
 	text-align: center;
 }
 
@@ -197,10 +184,7 @@
 
 #layout-main div.tag-column .tag-block{
 	width: 250px;
-}
-
-#layout-main div.tag-column .tag-block + .tag-block {
-	padding-left: 3px;
+	padding: 0 0.5em;
 }
 
 #layout-main div.tag-column .tag-block .parent:not(:first-child) {
@@ -228,8 +212,7 @@
 	content: ":";
 }
 
-#layout-main div.chartag-list
-{
+#layout-main div.chartag-list {
 	display: block;
 	text-align: justify;
 	line-height: 1;
@@ -237,8 +220,7 @@
 	width: 100%;
 }
 
-#layout-main div.chartag-list span.tag
-{
+#layout-main div.chartag-list span.tag {
 	display: inline-block;
 	line-height:25px;
 	white-space: nowrap;
@@ -268,47 +250,46 @@
 	}
 }
 
-#layout-main div.chartag-list span.tag span.text
-{
+#layout-main div.chartag-list span.tag span.text {
 	white-space: normal;
 }
 
 /*character tag cloud sizes*/
-#layout-main div.tag-column div.tag[weight="100"] .name a,
+#layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a,
 #layout-main div.chartag-list span.size0 {
-	font-size: 80%;
+	font-size: 0.8rem;
 }
-#layout-main div.tag-column div.tag[weight="200"] .name a,
+#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a,
 #layout-main div.chartag-list span.size1 {
-	font-size: 85%;
+	font-size: 0.85rem;
 }
-#layout-main div.tag-column div.tag[weight="200"] .name a,
+#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a,
 #layout-main div.chartag-list span.size2 {
-	font-size: 90%;
+	font-size: 0.9rem;
 }
 #layout-main div.chartag-list span.size3 {
-	font-size: 95%;
+	font-size: 0.95rem;
 }
 #layout-main div.chartag-list span.size4 {
-	font-size: 100%;
+	font-size: 1rem;
 }
 #layout-main div.chartag-list span.size5 {
-	font-size: 120%;
+	font-size: 1.2rem;
 }
 #layout-main div.chartag-list span.size6 {
-	font-size: 140%;
+	font-size: 1.4rem;
 }
 #layout-main div.chartag-list span.size7 {
-	font-size: 160%;
+	font-size: 1.6rem;
 }
 #layout-main div.chartag-list span.size8 {
-	font-size: 180%;
+	font-size: 1.8rem;
 }
 #layout-main div.chartag-list span.size9 {
-	font-size: 200%;
+	font-size: 2rem;
 }
 #layout-main div.chartag-list span.size10 {
-	font-size: 220%;
+	font-size: 2.2rem;
 }
 
 #layout-main div.chartag-list span.hidden {display:none;}

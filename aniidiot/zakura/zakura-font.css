@@ -1,0 +1,70 @@
+#layout-main div.main_all div.rightbar,
+#layout-menu,
+table td {
+	font-size: 1.08rem;/*11.5px*/
+}
+
+#layout-main > h1 {
+	font-family: "Century Gothic","Lucida Grande",sans-serif !important;
+	font-size: 2.05rem;
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+h4,
+h4 a,
+h4 span,
+caption {
+	font-family: "Century Gothic","Lucida Grande",sans-serif !important;
+	font-size: 1.59rem;
+	font-weight: normal !important;
+}
+
+h4 a.i_icon {
+	font-family: 'FontAwesome',"Century Gothic","Lucida Grande",sans-serif !important;
+}
+
+#layout-menu #menu-account li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.rightbar h4 span {
+	font-size: 1.25rem;
+	font-weight: bold !important;
+}
+
+#layout-main tr.header th,
+.g_definitionlist table th,
+.g_definitionlist table th a,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-tabs ul.main-tabs > li {
+	font-size: 1.14rem; /*12px*/
+}
+
+#layout-main tr.header th {
+	font-weight: normal;
+}
+
+#layout-main div.admin_all div.g_menu h4 span,
+#layout-main tr.header th,
+#layout-main tr.header th.sortable a,
+#layout-menu li.sub-menu span.tab {
+	text-transform: capitalize;
+}
+
+div.mylist_list table.eplist th,
+div.anime_all div.episodes table.filelist th {
+	font-size: 0.95rem;
+}
+
+.s_small {
+	font-size: 0.9rem;
+}
+
+abbr {
+	cursor: help;
+}

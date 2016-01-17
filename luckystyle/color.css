@@ -18,9 +18,9 @@ a:link
 	color:#bbbbbb;
 }
 
-#layout-menu #newmessages:before,
-#layout-menu #newnotifies:before,
-#layout-menu #newmessages:after,
+#layout-menu .newmessages:before,
+#layout-menu .newnotifies:before,
+#layout-menu .newmessages:after,
 #layout-menu a.history:after
 {
 	color:red;
@@ -94,8 +94,8 @@ textarea {
 #layout-menu a:link,
 #layout-menu a:visited,
 html,
-#layout-menu #newnotifies,
-#layout-menu #newmessages,
+#layout-menu .newnotifies,
+#layout-menu .newmessages,
 #layout-menu div.usermenu p.user,
 #layout-content div.g_msg.note h3,
 #layout-main td del,
@@ -156,8 +156,7 @@ input[type="submit"]
 	border-right-color:#404040;
 }
 
-#layout-main div.forum ul.topics li.g_odd.row,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row
+#layout-main div.forum ul.topics li.g_odd.row
 {
 	background-color:#333333;
 }
@@ -173,38 +172,30 @@ input[type="submit"]
 	opacity:0.6;
 }
 
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover
 {
 	background-color:#555555;
 }
 
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
+#layout-main div.forum .g_bubble.infobox h2,
 #layout-main div.forum ul.topiclist li
 {
 	color:inherit;
 }
 
-#layout-main div.forum div.events dl dt,
-#layout-main div.forum div.poll dl dt,
-#layout-main div.cmt_entries dl.profile dd,
-#layout-main div.forum div.poll dl dd,
-#layout-main div.forum div.events dl dd
+#layout-main div.forum .g_bubble.infobox div,
+#layout-main div.cmt_entries div.profile div,
+#layout-main div.forum .g_bubble.infobox div
 {
 	color:#888888;
 }
 
 #layout-main div.forum div.signature,
-#layout-main div.forum div.events dl + dl,
-#layout-main div.forum div.poll dl + dl,
+#layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.forum div.quickreply textarea,
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
-#layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p
+#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle
 {
 	border-color:#666666 #444444 #444444 #666666;
 }
@@ -216,12 +207,12 @@ input[type="submit"]
 	border-top-color:#666666;
 }
 
-#layout-main div.forum ul.topics dd
+#layout-main div.forum ul.topics div
 {
 	border-left-color:#444444;
 }
 
-#layout-main div.cmt_entries dl.profile {
+#layout-main div.cmt_entries div.profile {
 	border-right-color:#444444;
 }
 
@@ -241,8 +232,8 @@ input[type="submit"]
 #layout-main div.tabbed_pane_main div.similaranime div.stripe div.tooltip div.postbody,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody,
 #layout-main div.forum div.g_bubble.header,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
+
 #layout-main div.forum div.g_bubble.comment,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.forum div.g_bubble.navbar,

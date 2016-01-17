@@ -1,0 +1,77 @@
+#layout-menu li.sub-menu ul li#user-xname,
+#layout-menu li.sub-menu ul li#user-xpass {
+	padding-bottom: 0.2em;
+}
+
+#layout-menu li.sub-menu ul li.alert {
+	clear: right;
+}
+
+#layout-menu li.sub-menu ul li#user-profile a,
+#layout-menu li.sub-menu ul li#user-logout a,
+#layout-menu li.sub-menu ul li#user-signup a,
+#layout-menu li.sub-menu ul li#user-xauth button {
+	height: 12px;
+	display: block;
+}
+
+#layout-menu li.sub-menu ul li#user-profile span,
+#layout-menu li.sub-menu ul li#user-logout span,
+#layout-menu li.sub-menu ul li#user-xauth button span,
+#layout-menu li.sub-menu ul li#user-signup a span {
+	display: none;
+}
+
+#layout-menu li.sub-menu ul li#user-profile,
+#layout-menu li.sub-menu ul li#user-signup {
+	height: 12px;
+	width: 42px;
+	margin: 3px 10px 3px 8px;
+	padding: 0;
+}
+
+#layout-menu li.sub-menu ul li#user-logout,
+#layout-menu li.sub-menu ul li#user-xauth {
+	height: 12px;
+	width: 42px;
+	margin: -16px 2px 3px 58px;
+	padding: 0;
+}
+
+#layout-menu li.sub-menu ul li#user-logout {
+	padding-bottom: 0.4em;
+}
+
+#layout-menu li.sub-menu ul li#user-profile,
+#layout-menu li.sub-menu ul li#user-signup {
+	margin-top: 7px;
+}
+
+#layout-menu li.sub-menu ul li#user-profile a,
+#layout-menu li.sub-menu ul li#user-logout a {
+	padding: 0;
+}
+
+#layout-nav li.user-xname input,
+#layout-nav li.user-xpass input,
+#layout-nav li.user-xkeep label {
+	margin: 0 8px;
+}
+
+#layout-nav li.user-xname input,
+#layout-nav li.user-xpass input {
+	width: 90px;
+}
+
+#layout-main div.main_all div.login input[type="text"],
+#layout-main div.main_all div.login input[type="password"] {
+	padding: 2px;
+	width: 7.8em;
+}
+
+a.tooltip span.text:after {
+	margin-left: -10px;
+}
+a.tooltip span.text:before {
+	margin-left: -11px;
+}

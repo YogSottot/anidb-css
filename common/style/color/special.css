@@ -1,5 +1,4 @@
-.v_pos
-{
+.v_pos {
 	color: #006600;
 }
 
@@ -7,51 +6,44 @@
 .v_neg,
 .v_high,
 span.diff,
+.ajax-file-upload-error,
 #layout-main td.reviewed.no a,
 #layout-main div.creq_all .state.return,
 #layout-main div.creq_all .state.new,
 #layout-main div.creq_all span.type.del,
-#layout-main div.anime_all div.groups td.mylist.new
-{
+#layout-main div.anime_all div.groups td.mylist.new {
 	color: red;
 }
 
-#layout-main div.msg_all tr.mod
-{
+#layout-main div.msg_all tr.mod {
 	background-color: orange;
 }
 
-#layout-main div.mylist_list tr.all_watched td.stats
-{
+#layout-main div.mylist_list tr.all_watched td.stats {
 	color: #006400;
 }
 
 #layout-main table ul li.g_odd,
 #layout-main table table td.g_odd,
-#layout-main ul.g_list li.g_odd
-{
+#layout-main ul.g_list li.g_odd {
 	background-color: transparent;
 }
 
 #layout-main a.filter,
 #layout-main .name span.main,
-#layout-main .name span.match
-{
+#layout-main .name span.match {
 	color: gray;
 }
 
-input.g_error
-{
+input.g_error {
 	background-color: #FFDDDD;
 }
 
-th a, h1 a.shortlink
-{
+th a, h1 a.shortlink {
 	color: inherit;
 }
 
-#layout-main div.tabbed_pane ul.tabs
-{
+#layout-main div.tabbed_pane ul.tabs {
 	background-color:transparent;
 	border:none;
 }
@@ -59,15 +51,42 @@ th a, h1 a.shortlink
 #layout-main div.g_timedentry ol,
 #layout-main div.g_timedentry ul,
 #layout-main div.cmt_add div.preview-box ol,
-#layout-main div.cmt_add div.preview-box ul
-{
+#layout-main div.cmt_add div.preview-box ul {
 	background-color:inherit;
 	border:none;
 }
 
 #layout-main div.stats_all table tr,
 #layout-main div.dbstats_all table tr,
-#layout-tabs ul
-{
+#layout-tabs ul {
 	background-color:transparent;
+}
+
+#layout-hint {
+	border: 1px solid #AFAF00;
+	background-color: #FFFFDF;
+}
+
+#statusBox { 
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+div.loadingbar {
+	background: white top left no-repeat;
+}
+
+div.loadingbar_green { background: url(../icons/layout/loadingbar_green.png); }
+div.loadingbar_red { background: url(../icons/layout/loadingbar_red.png); }
+div.loadingbar_orange { background: url(../icons/layout/loadingbar_orange.png); }
+div.loadingbar_yellow { background: url(../icons/layout/loadingbar_yellow.png); }
+div.loadingbar_blue { background: url(../icons/layout/loadingbar_blue.png); }
+
+ul.format-modes li.selected,
+ul.format-modes li:hover {
+	background-color: #8492B5;
+}
+
+ul.format-modes li {
+	background-color: rgb(191, 194, 201);
 }

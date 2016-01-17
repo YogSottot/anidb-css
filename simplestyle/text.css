@@ -23,16 +23,6 @@
 	font-weight:bolder;
 }
 
-#layout-menu li.genren:before
-{
-	content:"(";
-}
-
-#layout-menu li.genren:after
-{
-	content:")";
-}
-
 #layout-menu a
 {
 	font-size:12px;
@@ -75,9 +65,9 @@ a:link
 	text-transform:capitalize;
 }
 
-#layout-menu #newmessages:before,
-#layout-menu #newnotifies:before,
-#layout-menu #newmessages:after,
+#layout-menu .newmessages:before,
+#layout-menu .newnotifies:before,
+#layout-menu .newmessages:after,
 #layout-menu a.history:after
 {
 	content:"!";
@@ -135,13 +125,13 @@ a:link
 
 body,
 #layout-menu,
-#layout-menu div.usermenu #newnews
+#layout-menu div.usermenu .newnews
 {
 	font-size:10px;
 }
 
 #layout-content div.main_all div.news span.stamp,
-#layout-menu div.usermenu #newnotifies,
+#layout-menu div.usermenu .newnotifies,
 #layout-menu div.usermenu a.nextnotify
 {
 	font-size:11px;

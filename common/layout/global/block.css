@@ -1,5 +1,4 @@
-#layout-main div.block
-{
+#layout-main div.block {
 	width: 100%;
 	margin-top: 0.5em;
 	display: -webkit-box;
@@ -12,38 +11,32 @@
 	-webkit-justify-content: center;
 	justify-content: center;
 }
-#layout-main div.block > div.image
-{
+#layout-main div.block > div.image {
 	min-width: 400px;
 	text-align: center;
 	margin-right: 1em;
 	margin-left: 1.5em;
 }
-#layout-main div.block > div.data
-{
+#layout-main div.block > div.data {
 	margin-right: 1em;
 	min-width: 400px;
 	width: 50%;
 }
-#layout-main .css_style + p
-{
+#layout-main .css_style + p {
 	clear: left;
 }
-#layout-main div.block + div.desc
-{
-	margin-top: 1em;
-	margin-left: 1em;
-	margin-right: 1em;
+
+#layout-main div.block + div.g_bubble.desc,
+#layout-main div.g_section.desc {
+	margin: 1em 0;
 	padding: 1em;
 }
 
-#layout-main div.block div.data table
-{
+#layout-main div.block div.data table {
 	width:100%;
 	margin: 0;
 }
 
-#layout-main div.block div.data table th
-{
+#layout-main div.block div.data table th {
 	width: 10em;
 }

@@ -128,8 +128,7 @@ input[type="submit"]:hover
 
 #layout-main div.forum ul.topics li.row,
 #layout-main div.forum div.g_bubble.header,
-#layout-main div.forum div.g_bubble.poll,
-#layout-main div.forum div.g_bubble.events,
+#layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.navbar,
 #layout-main div.forum div.g_bubble.search,
 #layout-main div.forum div.g_bubble.posting-box,
@@ -142,14 +141,13 @@ input[type="submit"]:hover
 }
 
 #layout-main div.forum div.g_bubble.comment,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
 .g_bubble,
 .g_bubble .g_bubble .g_bubble
 {
-    background-color:#E0CFC3;
+	background-color:#E0CFC3;
 }
 
 #layout-main div.forum hr, #layout-main div.cmt_all div.cmt_add hr,
@@ -158,8 +156,6 @@ input[type="submit"]:hover
 	background-color:#9E2C30;
 }
 
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover
 {

@@ -128,7 +128,6 @@ tr.action td.value
 }
 
 .image,
-div.desc,
 p.action,
 p.mylistadd,
 tr.action td.submit,
@@ -506,7 +505,6 @@ td.rating
 }
 
 .g_section,
-div.desc,
 .css_style + p
 {
 	clear:left;
@@ -526,7 +524,7 @@ tr.newtype td
 .g_msg,
 .g_timedentry .body,
 .review h4,
-div.desc,
+div.g_section.desc,
 p.action,
 p.mylistadd,
 td,
@@ -555,7 +553,7 @@ ul.tabs li.tab
 .g_info,
 .g_msg,
 .g_timedentry .body,
-div.desc,
+div.g_section.desc,
 p.action,
 p.mylistadd,
 tr.action td.submit,
@@ -580,7 +578,7 @@ body.nonav
 .g_timedentry .body,
 blockquote,
 body,
-div.desc,
+div.g_section.desc,
 p.action,
 p.mylistadd,
 tr.action td.submit,
@@ -658,7 +656,7 @@ tr.mylist td
 	padding:3px 8px;
 }
 
-th.sortable
+th.sortable:not(.sorter-false)
 {
 	cursor:pointer;
 }
@@ -679,7 +677,7 @@ th.descending
 #menu-user li.user,
 .file_all dd.group span.time,
 .g_timedentry .avatar,
-.grouplist span.completion img,
+.grouplist div.completion img,
 .i_audio,
 .i_video,
 .main_all .rightbar h3,
@@ -696,7 +694,7 @@ ul.contribution li,
 	display:block;
 }
 
-.grouplist span.completion:after,
+.grouplist div.completion:after,
 #layout-menu a[title^=""]:after
 {
 	content:attr(title);

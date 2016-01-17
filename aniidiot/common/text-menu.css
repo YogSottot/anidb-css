@@ -1,0 +1,26 @@
+#layout-menu {
+	font-size: 1.04rem;
+}
+
+#layout-menu li.sub-menu,
+#layout-tabs {
+	font-size: inherit;
+}
+
+#layout-nav div.search a.advsearch {
+	font-family: arial,sans-serif;
+	text-decoration: underline;
+}
+
+#layout-nav div.search a.advsearch,
+#layout-menu li.sub-menu ul li a {
+	text-transform: capitalize;
+}
+
+#layout-search div.search a.advsearch {
+	font-size: 0.86rem;
+}
+
+#layout-menu span.tab {
+	cursor: auto;
+}

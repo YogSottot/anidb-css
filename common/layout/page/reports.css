@@ -1,19 +1,15 @@
-#layout-main div.report_all div.body ul li
-{
+#layout-main div.report_all div.body ul li {
 	padding: 2px 4px;
 }
 
-#layout-main div.report_all td.left
-{
+#layout-main div.report_all td.left {
 	text-align: left;
 }
 
-#layout-main div.report_all td.right
-{
+#layout-main div.report_all td.right {
 	text-align: right;
 }
 
-#layout-main div.report_all td.center
-{
+#layout-main div.report_all td.center {
 	text-align: center;
 }

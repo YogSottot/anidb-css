@@ -1,25 +1,20 @@
-html, body
-{
+html, body {
 	padding: 0;
 }
 
-#layout-nav
-{
+#layout-nav {
 	position: absolute;
 	width: 13em;
 }
 
-#layout-content
-{
+#layout-content {
 	margin-left: 13em;
 }
 
-#layout-main
-{
+#layout-main {
 	padding: 1em;
 }
 
-#layout-footer
-{
+#layout-footer {
 	margin-left: 13em;
 }

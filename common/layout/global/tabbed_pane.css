@@ -1,51 +1,51 @@
-#layout-main div.tabbed_pane div.body
-{
+#layout-main div.tabbed_pane div.body {
 	padding: 0.4em;
 }
 
-#layout-main div.tabbed_pane div.pane ul
-{
+#layout-main div.tabbed_pane div.pane ul {
 	width: 100%;
 	display: inline-block;
 	vertical-align: top;
 }
-#layout-main div.tabbed_pane div.pane.hide
-{
+#layout-main div.tabbed_pane div.pane.hide {
 	display: none;
 }
 
-#layout-main div.tabbed_pane ul.tabs
-{
+#layout-main div.tabbed_pane ul.tabs {
 	margin: 1px 1px 1px 6px;
 }
 
 /*#layout-main div.tabbed_pane div.pane table,
 #layout-main div.tabbed_pane div.pane table td,
 #layout-main div.tabbed_pane div.pane ul,
-#layout-main div.tabbed_pane div.pane ul li
-{
+#layout-main div.tabbed_pane div.pane ul li {
 	background: inherit;
 }*/
 
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li {
 	cursor: pointer;
 	display: inline;
 	padding: 1px 6px 1px 6px;
 	border-bottom: 0;
 }
 
-#layout-main div.tabbed_pane_main
-{
+#layout-main div.tabbed_pane_main {
 	clear:both;
 }
 
-#layout-main div.tabbed_pane_main table
-{
+#layout-main div.tabbed_pane_main table {
 	width: 98%
 }
 
-#layout-main div.tabbed_pane_main + ul.links
-{
+#layout-main div.tabbed_pane_main + ul.links {
 	margin-top: 1em;
+}
+
+#layout-main div.tabbed_pane ul.tabs .save_as_default,
+#layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
+	display: none;
+}
+
+#layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
+	margin-left: 4px;
 }

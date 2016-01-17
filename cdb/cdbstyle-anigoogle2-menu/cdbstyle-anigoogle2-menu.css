@@ -1,0 +1,29 @@
+@import "../../aniidiot/anigoogle2-menu/anigoogle2-menu.css";
+
+@import "cdbstyle-anigoogle2-menu-icons.css";
+
+@import "../cdbstyle-icons.css";
+
+@import "../cdbstyle-colour.css";
+@import "../cdbstyle-text.css";
+@import "../cdbstyle-layout.css";
+
+@import "../colour/mylist.css";
+@import "../colour/wishlist.css";
+@import "../colour/features.css";
+
+th a, h1 a, h1 a.shortlink {
+  color: #5577FF;
+  color: #C0DAF0;
+}
+
+/* reduce left hand margin for top tabs for lack of left hand menu */
+#layout-hint + #layout-nav + #layout-content #layout-tabs
+{
+  margin-left: 0.5em;
+}
+
+#layout-footer:after
+{
+  content:"Design by CDB-Man. Improvements on DerIdiot`s Anigoogle2-menu.";
+}

@@ -31,7 +31,6 @@ a:hover
 }
 
 /* remove row odd coloring */
-div.addgenren_form .g_odd,
 div.anime_form .g_odd,
 div.ed2kdump_options .g_odd,
 div.episode_add .g_odd,
@@ -340,8 +339,7 @@ div.userdetails div.block
 }
 
 /* center and align description */
-div.group_info div.desc,
-div.producer_info div.desc
+div.group_info div.g_section.desc
 {
 	margin-top: 2em;
 	text-align: center;
@@ -416,7 +414,6 @@ div.data caption
 }
 
 /* improved search options spacing */
-#layout-main ul#cattree .cat a,
 div.permissions span.name
 {
 	display: inline-block;
@@ -468,7 +465,7 @@ div.cmt_all div.topic_actions
 }
 
 /* fix for comments placement */
-div.g_timedentry.comment dd.user_icons
+div.g_timedentry.comment div.user_icons
 {
 	margin-top: 6px;
 }

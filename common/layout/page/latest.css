@@ -1,108 +1,130 @@
-#layout-main h1.latest2
-{
+#layout-main h1.latest2 {
 	margin-bottom:0.5em;
 }
 
-#layout-main div.latest2_all div.content + div.content
-{
+#layout-main div.latest2_all div.content + div.content {
 	margin-top: 1em;
 }
 
-#layout-main div.latest2_all div.content h4
-{
-	font-size: 1.4em;
+#layout-main div.latest2_all div.content h4 {
+	font-size: 1.4rem;
 	text-align: left;
 }
 
-#layout-main div.latest2_all table tr th,
-#layout-main div.latest2_all table tr td {
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	min-width: 7em;
+#layout-main div.latest2_all div.filter_menu ~ div.content {
+	margin-right:17.5em;
 }
 
-#layout-main div.latest2_all table tr td.thumb,
-#layout-main div.latest2_all table tr td.type {
-	min-width: 5em;
+#layout-main div.latest2_all div.filter_menu.collapsed ~ div.content {
+	margin-right:0;
 }
 
-#layout-main div.latest2_all div.content th.anime
-{
-	width: 70%;
-}
-
-#layout-main div.latest2_all div.latest_hotanime div.content th.anime,
-#layout-main div.latest2_all div.latest_reviews div.content th.anime
-{
-	width: 80%;
-}
-
-#layout-main div.latest2_all div.latest_sequels div.content th.anime_a,
-#layout-main div.latest2_all div.latest_sequels div.content th.anime_b
-{
-	width:50%;
-}
-
-#layout-main div.latest2_all div.latest_anime div.content th.name
-{
-	width: 90%;
-}
-
-#layout-main div.latest2_all div.animelist_all td.type,
-#layout-main div.latest2_all div.latest_similaranime div.content td.user.name,
-#layout-main div.latest2_all div.latest_recommendations div.content td.user.name,
-#layout-main div.latest2_all div.latest_reviews div.content td.user.name,
-#layout-main div.latest2_all div.latest_anime div.content td.type
-{
-	white-space:nowrap;
-}
-
-#layout-main div.latest2_all div.content table.filelist th.group
-{
+#layout-main div.latest2_all div.content table.filelist td.group {
 	width: 15%;
 	min-width: 10em;
 }
 
-#layout-main div.latest2_all div.content table.completed th.group
-{
+
+#layout-main div.latest2_all div.content div.files td.anime.name {
+	width: 33%;
+}
+
+/*<forcing icons not to wrap>*/
+#layout-main div.latest2_all div.files div.content td.action,
+#layout-main div.latest2_all div.files div.content td.info {
+	white-space:nowrap;
+}
+
+#layout-main div.latest2_all div.files .i_icon:not(.i_expanded):not(.i_collapsed) {
+	float: none;
+}
+
+#layout-main div.latest2_all div.files .i_icon + .i_icon {
+	margin-left: -2px !important;
+}
+
+#layout-main div.latest2_all div.files .i_file_details {
+	width:12px;
+}
+/*</forcing icons not to wrap>*/
+
+@media screen and (max-width: 1280px) {
+	#layout-main div.latest2_all table tr th,
+	#layout-main div.latest2_all table tr td {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	#layout-main div.latest2_all table tr th,
+	#layout-main div.latest2_all table tr td {
+		min-width: 5em;
+	}
+
+	#layout-main div.latest2_all div.animelist_all td.type,
+	#layout-main div.latest2_all div.latest_similaranime div.content td.user.name,
+	#layout-main div.latest2_all div.latest_recommendations div.content td.user.name,
+	#layout-main div.latest2_all div.latest_reviews div.content td.user.name,
+	#layout-main div.latest2_all div.latest_anime div.content td.type {
+		white-space:nowrap;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	#layout-main div.latest2_all table tr th,
+	#layout-main div.latest2_all table tr td {
+		min-width: 7em;
+	}
+
+	#layout-main div.latest2_all table tr td.thumb,
+	#layout-main div.latest2_all table tr td.type {
+	 	min-width: 5em;
+	}
+
+	#layout-main div.latest2_all div.files div.content td.info {
+		min-width: 23em;
+		max-width: 23em;
+	}
+}
+
+#layout-main div.latest2_all div.content td.anime.name {
+	width: 70%;
+}
+
+#layout-main div.latest2_all div.latest_completed div.content td.group {
 	width: 30%;
 }
 
-#layout-main div.latest2_all div.content td.info
-{
-	min-width: 16em;
-	max-width: 16em;
+#layout-main div.latest2_all div.latest_hotanime div.content td.anime.name,
+#layout-main div.latest2_all div.latest_reviews div.content td.anime.name {
+	width: 80%;
 }
 
-#layout-main div.latest2_all div.content td.info a.fid
-{
-	float:left;
-	margin-right:0.5em;
+#layout-main div.latest2_all div.latest_sequels div.content td.anime_a,
+#layout-main div.latest2_all div.latest_sequels div.content td.anime_b {
+	width:50%;
 }
 
-#layout-main div.latest2_all div.content td.episode
-{
+#layout-main div.latest2_all div.latest_anime div.content td.name {
+	width: 90%;
+}
+
+#layout-main div.latest2_all div.latest_recommendations div.content td.anime.name {
+	width:30%;
+}
+
+#layout-main div.latest2_all div.latest_similaranime div.content td.anime.name {
+	width:20%;
+}
+
+#layout-main div.latest2_all div.content td.episode {
 	min-width: 3em;
 	max-width: 3em;
 	text-align: right;
 }
 
-#layout-main div.latest2_all div.filter_menu ~ div.content
-{
-	margin-right:17.2em;
-}
-
-#layout-main div.latest2_all div.filter_menu.collapsed ~ div.content
-{
-	margin-right:0;
-}
-
-#layout-main div.latest2_all div.latest_recommendations div.content th.anime
-{
-	width:30%;
-}
-
-#layout-main div.latest2_all div.latest_similaranime div.content td.anime.name
-{
-	width:20%;
+#layout-main div.latest2_all div.content td.info a.fid {
+	float: left;
+	margin-right: 0.5em;
 }

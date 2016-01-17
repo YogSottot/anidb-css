@@ -1,26 +1,14 @@
-#layout-main div.song_all div.info div.tabbed_pane
-{
+#layout-main div.song_all div.info div.tabbed_pane {
 	min-width:50em;
 	max-width:50%;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-#layout-main div.song_all div.info table
-{
+#layout-main div.song_all div.info table {
 	width:100%;
 }
 
-#layout-main div.song_all div.info table th
-{
+#layout-main div.song_all div.info table th {
 	width:10em;
-}
-
-#layout-main div.song_all div.desc
-{
-	clear:left;
-	margin-left:1em;
-	margin-right:1em;
-	margin-top:1em;
-	padding:1em;
 }

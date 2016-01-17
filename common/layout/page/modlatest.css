@@ -31,7 +31,10 @@
 }
 
 #layout-main div.mydb_all table td.info.icons,
-#layout-main div.modlatest_all table td.info.icons,
+#layout-main div.modlatest_all table td.info.icons {
+	min-width: 20em;
+}
+
 #layout-main div.mydb_all table td.user,
 #layout-main div.modlatest_all table td.user {
 	min-width: 15em;
@@ -89,4 +92,10 @@
 #layout-main div.mydb_all table td.length,
 #layout-main div.modlatest_all table td.length {
 	text-align: right;
+}
+
+@media screen and (min-width: 1350px) {
+	#layout-main .modlatest_all ul.limit {
+		margin-top: -3.3em;
+	}
 }

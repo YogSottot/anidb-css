@@ -1,8 +1,3 @@
-.i_inline
-{
-    padding: 2px 9px;
-}
-
 #layout-content
 {
 	margin-left:202px;
@@ -49,15 +44,15 @@
 	text-align:left;
 }
 
-#layout-menu #newmessages:before,
-#layout-menu #newnotifies:before,
-#layout-menu #newmessages:after,
+#layout-menu .newmessages:before,
+#layout-menu .newnotifies:before,
+#layout-menu .newmessages:after,
 #layout-menu a.history:after
 {
 	padding:0.2em;
 }
 
-#layout-menu #newmessages
+#layout-menu .newmessages
 {
 	display:block;
 }
@@ -193,11 +188,4 @@ div,
 #layout-content div.g_definitionlist table.relationlist
 {
 	padding:1px;
-}
-
-#layout-main div.profile_all div.tabbed_pane div.default_languages a.i_inline,
-#layout-main div.profile_all div.pane div.settings.block li a.i_inline,
-#layout-main div.profile_all div.pane > ul li a.i_inline
-{
-    padding: 5px 10px 0 7px;
 }

@@ -1,0 +1,14 @@
+@import "../../sub/common.css";
+@import "../../common/style/color/status-pastel.css";
+@import "../../common/libs/chosen/style-grey.css";
+@import "../common-menu.css";
+@import "../icons-orange.css";
+@import "../logos.css";
+@import "anidbstyle2-layout.css";
+@import "anidbstyle2-border.css";
+@import "anidbstyle2-color.css";
+@import "anidbstyle2-text.css";
+
+#layout-footer:after {
+	content:"design by deridiot inspired by anidbstyle";
+}

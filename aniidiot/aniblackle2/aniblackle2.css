@@ -1,0 +1,14 @@
+@import "../../sub/common.css";
+@import "../../common/style/color/status-darker.css";
+@import "../../common/libs/chosen/style-dark.css";
+@import "../common-menu.css";
+@import "../logos.css";
+@import "../anigoogle2/anigoogle2-border.css";
+@import "../anigoogle2/anigoogle2-layout.css";
+@import "../anigoogle2/anigoogle2-text.css";
+@import "../anigoogle2/anigoogle2-icons.css";
+@import "aniblackle2-color.css";
+
+#layout-footer:after {
+	content:"design by deridiot inspired by blackle";
+}

@@ -1,0 +1,38 @@
+#layout-menu {
+	background-color: #FFFFFF;
+}
+
+#layout-menu li.sub-menu {
+	background-color: #ECF4FD;
+}
+
+#layout-menu li.sub-menu li:hover,
+#layout-menu li.sub-menu li:active {
+	background: transparent url(images/stripe-ltgrey.gif) repeat left top;
+}
+
+#layout-menu li.sub-menu {
+	border-color: #C9D7F1 #97AACC #97AACC #C9D7F1;
+}
+
+#layout-menu > li ul {
+	background-color: inherit;
+	border-color: inherit;
+}
+
+#layout-content {
+	border-bottom-color: #97AACC;
+	border-left-color: #C9D7F1;
+	border-top-color: #C9D7F1;
+}
+
+
+#layout-menu li.sub-menu li+li {
+	border-top-color: #DEE8FA;
+}
+
+/*clickable logo*/
+#layout-menu li.sub-menu ul li.main a:hover {
+	background-color: transparent;
+	background-image: none;
+}

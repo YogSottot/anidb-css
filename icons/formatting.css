@@ -1,6 +1,5 @@
 div.format-buttons input + input,
-div.format-buttons select
-{
+div.format-buttons select {
 	margin-left:.5em;
 }
 
@@ -14,8 +13,8 @@ text-align:left;
 *.f_button {
 background-repeat: no-repeat;
 background-position: center;
-width: 21px;
-height: 21px;
+width: 24px;
+height: 24px;
 margin-left: 0;
 margin-right: 0;
 border: 1px solid #D6D3CE;
@@ -29,7 +28,6 @@ margin-right: 2px;
 height: 21px;
 border: 1px solid;
 border-color: #D6D3CE;
-background-color: #FFFFFF;
 margin-right: 2px;
 vertical-align: top;
 }
@@ -252,14 +250,12 @@ a.confirmButton, input.confirmButton, button.confirmButton {
 	text-align: left;
 }
 
-#widget_addlink div.content table
-{
+#widget_addlink div.content table {
 	border: none;
 	margin: 0.5em;
 }
 
-#widget_addlink div.content table input
-{
+#widget_addlink div.content table input {
 	width: 350px;
 }
 

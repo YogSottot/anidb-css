@@ -25,7 +25,7 @@ input[type="button"]
 	font-size:14px;
 }
 
-#layout-content div.desc
+#layout-content div.g_section.desc
 {
 	border:1px #9CCD17 solid;
 	color:#3FB2E7;
@@ -60,9 +60,9 @@ input[type="button"]
 	color:#ffffff;
 }
 
-#layout-menu #newmessages:before,
-#layout-menu #newnotifies:before,
-#layout-menu #newmessages:after,
+#layout-menu .newmessages:before,
+#layout-menu .newnotifies:before,
+#layout-menu .newmessages:after,
 #layout-menu a.history:after
 {
 	color:red;
@@ -241,8 +241,8 @@ select,
 	color: #FFFFFF;
 }
 
-#layout-main div.forum li.header dt,
-#layout-main div.forum li.header dd
+#layout-main div.forum li.header div,
+#layout-main div.forum li.header div
 {
 	color:#FFFFFF;
 }
@@ -255,19 +255,16 @@ select,
 }
 
 #layout-main div.forum div.signature,
-#layout-main div.forum div.events dl + dl,
-#layout-main div.forum div.poll dl + dl,
-#layout-main div.cmt_entries dl.profile,
+#layout-main div.forum .g_bubble.infobox .row + .row,
+#layout-main div.cmt_entries div.profile,
 #layout-main div.forum div.quickreply textarea,
-#layout-main div.forum div.events h2,
-#layout-main div.forum div.poll h2,
-#layout-main div.forum div.events div.data > p,
-#layout-main div.forum div.poll div.data p
+#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle
 {
 	border-color:#47C2FF;
 }
 
-#layout-main div.forum div.g_bubble.poll div.pollbar
+#layout-main div.forum .g_bubble.infobox div.bar
 {
 	background-color: #105289;
 	border-bottom-color: #092e4d;
@@ -275,7 +272,6 @@ select,
 	color: #FFFFFF;
 }
 
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row,
 #layout-main div.forum ul.topics li.g_odd.row
 {
 	color: #000000;
@@ -288,7 +284,6 @@ select,
 	background-color: #98CB1B;
 }
 
-#layout-main div.tabbed_pane div.body div.pane div.forum ul.topics li.g_odd.row a.topictitle,
 #layout-main div.forum ul.topics li.g_odd.row a.topictitle
 {
 	color: #47C2FF;
@@ -313,13 +308,13 @@ select,
 	opacity: 0.3;
 }
 
-div.quotebody
+div.g_bubble.quotebody
 {
 	background-color: #EBEADD;
 	border: 1px solid #DBDBDB;
 }
 
-div.quotebody div.quote div.g_odd
+div.g_bubble.quotebody div.quote div.g_odd
 {
 	background-color: #EFEED9;
 }

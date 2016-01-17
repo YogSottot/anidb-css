@@ -1,0 +1,41 @@
+/*------------------------------------
+    AniDB CSS - Zakura - Fixed Menu
+		
+    zakura.css: www.zakness.com
+    this code by ricce
+-------------------------------------*/
+
+@import "../zakura/zakura.css";
+
+#layout-hint {
+	position:fixed;
+}
+
+#layout-nav {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+#layout-menu {
+	height: 0;
+}
+
+#layout-content {
+	padding-top: 0;
+	margin-top: 166px;
+	background: transparent;
+}
+
+#layout-hint + #layout-nav + #layout-content {
+	margin-top: 183px;
+}
+
+#layout-hint + #layout-nav + #layout-menu {
+	padding-top: 190px;
+}
+
+#layout-footer:after {
+	content: "Design by zakness. (Fixed menu by ricce)"
+}

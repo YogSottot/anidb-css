@@ -60,12 +60,12 @@ span.link:hover,
 	color: #ff0000;
 }
 
-#layout-menu #newnotifies
+#layout-menu .newnotifies
 {
 	color: white; /* text color - notifies */
 }
 
-#layout-menu #newmessages
+#layout-menu .newmessages
 {
 	display: block;
 	color: white;

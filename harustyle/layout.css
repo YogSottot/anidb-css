@@ -84,11 +84,6 @@ body > #layout-content
 	display: none;
 }
 
-#layout-menu li.genre, #layout-menu li.genren
-{
-	display: inline;
-}
-
 #layout-menu li.forum
 {
 	font-weight: bold;
@@ -120,9 +115,9 @@ body > #layout-content
 	display: none;
 }
 
-#layout-menu #newmessages:before,
-#layout-menu #newnotifies:before,
-#layout-menu #newmessages:after,
+#layout-menu .newmessages:before,
+#layout-menu .newnotifies:before,
+#layout-menu .newmessages:after,
 #layout-menu a.history:after
 {
 	content: "!";
@@ -130,7 +125,7 @@ body > #layout-content
 	padding: 0.2em;
 }
 
-#layout-menu #newmessages
+#layout-menu .newmessages
 {
 	display: block;
 }

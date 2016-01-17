@@ -1,34 +1,32 @@
-#layout-main div.mywishlist_all div.filter_menu div.settings
-{
+#layout-main div.mywishlist_all div.filter_menu div.settings {
 	margin-top: 0.5em;
 }
 
-#layout-main div.mywishlist_all tr td
-{
-	padding-left: 1em;
-	padding-right: 1em;
+#layout-main div.mywishlist_all tr td {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
-#layout-main div.mywishlist_all tr td.name
-{
-	width:50%;
+#layout-main div.mywishlist_all tr td.name {
+	width:99%;
 }
 
-#layout-main div.mywishlist_all tr td.comment
-{
-	width:30%;
+#layout-main div.mywishlist_all tr td.comment {
+	min-width:10em;
 }
 
 #layout-main div.mywishlist_all tr td.rating,
-#layout-main div.mywishlist_all tr td.stats
-{
+#layout-main div.mywishlist_all tr td.stats {
 	width:6em;
 }
 
 #layout-main div.mywishlist_all tr td.nfy,
 #layout-main div.mywishlist_all tr td.priority,
 #layout-main div.mywishlist_all tr td.releaseinfo,
-#layout-main div.mywishlist_all tr td.check
-{
+#layout-main div.mywishlist_all tr td.check {
 	width:1em;
+}
+
+#layout-main div.mywishlist_all .whistlist_edit {
+	margin-top: 1em;
 }

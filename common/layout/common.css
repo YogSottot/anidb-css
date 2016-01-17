@@ -1,6 +1,5 @@
 body.nonav #layout-main,
-body.nonav #layout-footer
-{
+body.nonav #layout-footer {
 	width: auto;
 	height: 90%;
 	margin:0;
@@ -8,46 +7,39 @@ body.nonav #layout-footer
 }
 
 #layout-nav input,
-#layout-nav button
-{
+#layout-nav button {
 	width: 100%;
 }
 
 
 #layout-main table,
-#layout-main table caption
-{
+#layout-main table caption {
 	margin: 0 auto 0 auto;
 }
 
-#layout-nav #user-xkeep input
-{
+#layout-nav #user-xkeep input,
+#layout-nav #user-xkeep2 input {
 	border: none;
 	width: auto;
 }
 
-body.nonav
-{
+body.nonav {
 	padding: 0;
 }
-body.nonav #layout-main h1
-{
+body.nonav #layout-main h1 {
 	display: none;
 }
 
-.hide
-{
+.hide {
 	display: none !important;
 }
 
 #layout-menu span.tab,
-#layout-tabs
-{
+#layout-tabs {
 	display: none;
 }
 
-#layout-menu span.tab
-{
+#layout-menu span.tab {
 	position: absolute; /*IE6*/
 }
 
@@ -56,18 +48,15 @@ body.nonav #layout-main h1
 #layout-main .g_list,
 #layout-main .g_msg,
 #layout-main div.addepm div.ep,
-#layout-main div.cmt_all div.topic_actions
-{
+#layout-main div.cmt_all div.topic_actions {
 	margin-bottom: 1em;
 }
 
-#layout-main table + .g_list
-{
+#layout-main table + .g_list {
 	margin-top: 1em;
 }
 
-#layout-main .g_end
-{
+#layout-main .g_end {
 	padding: 0;
 	margin: 0;
 	clear: right;
@@ -75,31 +64,26 @@ body.nonav #layout-main h1
 }
 
 #layout-main .g_section,
-#layout-main .g_list
-{
+#layout-main .g_list {
 	clear: both;
 }
 
-#layout-main .g_list.type
-{
+#layout-main .g_list.type {
 	float: left;
 }
 
-#layout-main .g_list.limit
-{
+#layout-main .g_list.limit {
 	float: right;
 }
 
 #layout-main div.anime_all div.info tr.official td.value span.icons,
 #layout-main div table td.name span.icons,
 #layout-main div table td.title span.icons,
-#layout-main table.filelist td.source span.icons
-{
+#layout-main table.filelist td.source span.icons {
 	float: right;
 }
 
-#layout-main div table td.title span.icons.language
-{
+#layout-main div table td.title span.icons.language {
 	float:left;
 	padding-right: 0.3em;
 }
@@ -107,124 +91,75 @@ body.nonav #layout-main h1
 #layout-main .icons .i_icon,
 #layout-main div.group_released tr td.languages span.i_icon,
 #layout-main div.anime_all div.groups td.languages span.i_icon,
-#layout-main div.anime_all div.episodes td.action .i_icon
-{
+#layout-main div.anime_all div.episodes td.action .i_icon {
 	float: left;
-	/*padding: 0px 1px 0px 1px;*/
 }
 
-#layout-main td.icons.quality .i_icon
-{
+#layout-main td.icons.quality .i_icon {
 	padding: 0px;
 }
 
 #layout-main div.ep_all table.filelist,
-#layout-main div.ed2kdump_box textarea
-{
+#layout-main div.ed2kdump_box textarea {
 	width: 98%;
 }
 
 
-#layout-main div.mylist_list table td.rating.votes span.count
-{
+#layout-main div.mylist_list table td.rating.votes span.count {
 	display: none;
 }
 
-#obj-tooltip
-{
-	position: absolute;
-	left: 0px;
-	width: 300px;
-	border: 1px solid black;
-	padding: 2px;
-	background-color: #ffffe0;
-	visibility: hidden;
-	z-index: 100;
-	font-size: x-small;
-}
-
-#obj-pointer
-{
-	position: absolute;
-	left: -300px;
-	width: 15px;
-	height: 13px;
-	z-index: 101;
-	visibility: hidden;
-}
-
-#layout-hint
-{
+#layout-hint {
 	position: absolute;
 	top: 0;
 	width: 99.8%;
-	border: 1px solid #AFAF00;
-	background-color: #FFFFDF;
 	text-align: center;
 	z-index:10;
 }
 
-/* this is in common/layout/common.css, put it in someother place if it irks you :P */
-ul.format-modes
-{
+ul.format-modes {
 	list-style: none;
 }
 
-ul.format-modes li
-{
+ul.format-modes li {
 	display: inline;
 	padding: 0px 5px 2px 5px;
-	border: solid 1px black;
+	border: 1px solid;
 	margin: 2px;
-	background-color: rgb(191, 194, 201);
 	cursor: pointer;
 }
 
-ul.format-modes li.selected, ul.format-modes li:hover
-{
-	background-color: #8492B5;
-	text-decoration: none;
-}
-
-/* status bar stuff for anime3 scripts (it's in common/layout/common.css) */
 #statusBox { 
 	position: fixed;
 	left: 2px;
 	top: 2px;
 	min-width: 120px;
 	z-index: 0;
-	font-family: Arial,Helvetica,sans-serif;
-	text-decoration: none;
-	color: #000000;
 	text-align: left;
-	background-color: #FFFFFF;
-	font-size: x-small; /*
-	padding: 2px;
-	border: 1px solid rgb(227, 227, 227); */
 }
 
 div.loadingbar {
-	background: white top left no-repeat;
 	padding: 0;
 	margin: 5px 0 0 0;
 	background-position: 1px 0;
 	width: 120px;
 	height: 12px;
-	border: 1px solid black;
+	border: 1px solid;
 }
 
-div.loadingbar_green { background: url(../icons/layout/loadingbar_green.png); }
-div.loadingbar_red { background: url(../icons/layout/loadingbar_red.png); }
-div.loadingbar_orange { background: url(../icons/layout/loadingbar_orange.png); }
-div.loadingbar_yellow { background: url(../icons/layout/loadingbar_yellow.png); }
-div.loadingbar_blue { background: url(../icons/layout/loadingbar_blue.png); }
-
-table + select
-{
+table + select {
 	margin-top:1em;
 }
 
-*.shuttle
-{
+.shuttle {
 	min-width:15em;
+}
+
+.g_info ul {
+	text-align: center;
+}
+
+#layout-footer {
+	text-align: center;
+	padding: 0.5em 0;
 }
