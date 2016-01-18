@@ -37,6 +37,10 @@ th a, h1 a, h1 a.shortlink {
 
 /* change link font colour to blue for anything that gets mylist state highlights */
 #layout-main div.timeline_all div.timeline ul.row li:not(.liststate_dropped) a,
+#layout-main td ins a,
+#layout-main td.g_odd ins a,
+#layout-main td del a,
+#layout-main td.g_odd del a,
 #layout-main table.filelist tr.good a,
 #layout-main table.filelist tr.deprecated a,
 #layout-main table.filelist tr.good span.i_icon,
