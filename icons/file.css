@@ -82,6 +82,10 @@
 	background-image: url(../icons/orange/anidb_vrs_9.gif);
 }
 
+*.i_chapters {
+	background-image: url(../icons/icon/anidb_chapters.png);
+}
+
 *.i_crc_unv {
 	background-image: url(../icons/icon/anidb_crc_unv.gif);
 }
