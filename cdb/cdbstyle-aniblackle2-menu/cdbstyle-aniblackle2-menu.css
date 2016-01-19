@@ -17,42 +17,179 @@ th a, h1 a, h1 a.shortlink {
   color: #C0DAF0;
 }
 
-/* change font colour to black for anything that gets mylist state highlights */
+/* change font colour to black for anything that gets green highlights, except for liststate_dropped */
+#layout-main .identical,
 #layout-main td ins,
-#layout-main td.g_odd ins,
-#layout-main td del,
-#layout-main td.g_odd del,
+#layout-main input.include,
 #layout-main table.filelist tr.good,
-#layout-main table.filelist tr.deprecated,
-#layout-main table.filelist tr.mylist:not(.liststate_dropped),
-#layout-main .mylist tr.mylist:not(.liststate_dropped),
-#layout-main div.mylist.g_bubble:not(.liststate_dropped) :not(.name):not(.name-colored),
-#layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.liststate_dropped),
+#layout-main table.file.entities tr.good,
+#layout-main div.myvotes_all table tr td.high,
+#layout-main .mylist:not(.liststate_dropped),
+#layout-main div.producer_all table tr.mylist:not(.liststate_dropped),
+#layout-main div.latest2_all table tr.mylist:not(.liststate_dropped),
+#layout-main div.latest2_all table tr td.mylist:not(.liststate_dropped),
+#layout-main div.character_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped),
+#layout-main div.creator_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped),
+#layout-main div.collection_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped),
+#layout-main div.song_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped),
+#layout-main div.song_all div.tabbed_pane_main table tr td.mylist:not(.liststate_dropped),
+#layout-main div.anime_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped),
+#layout-main div.animelist_all table tr.mylist:not(.liststate_dropped),
+#layout-main div.group_released table tr.mylist:not(.liststate_dropped),
+#layout-main div.forum div.comment div.content strong,
+#layout-main div.forum a.topictitle strong,
+#layout-main div.addcreatoranimerel_all tr.identical,
+#layout-main div.addcreatorsongrel_all tr.identical,
 #layout-main table.animelist tr.mylist:not(.liststate_dropped),
-#layout-main table.wishlist tr.mylist:not(.liststate_dropped),
-#layout-main table.characterlist tr.mylist:not(.liststate_dropped),
-#layout-main table#releases tr.mylist:not(.liststate_dropped) {
+#layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.mylist:not(.liststate_dropped) td,  /* deprecated? */
+#layout-main div.timeline_all div.timeline ul.row li.completed a,
+#layout-main div:not(.ed2kdump_all) tr td.mylist:not(.liststate_dropped),
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist:not(.liststate_dropped),
+.g_bubble.stripe.mylist:not(.liststate_dropped),
+.g_bubble.box.mylist:not(.liststate_dropped) > div.top
+{
+  color: #000000 !important;
+}
+#layout-main td.g_odd ins,
+#layout-main table.filelist tr.g_odd.good,
+#layout-main table.file.entities tr.g_odd.good,
+#layout-main div.myvotes_all table tr.g_odd td.high,
+#layout-main .g_odd.mylist:not(.liststate_dropped),
+#layout-main div.producer_all table tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main div.latest2_all table tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main div.latest2_all table tr.g_odd td.mylist:not(.liststate_dropped),
+#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist:not(.liststate_dropped),
+#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main div.animelist_all table tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main div.group_released table tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main table.animelist tr.g_odd.mylist:not(.liststate_dropped),
+#layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.g_odd.mylist:not(.liststate_dropped) td, /* deprecated? */
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a,
+#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist:not(.liststate_dropped),
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist:not(.liststate_dropped),
+.g_odd.g_bubble.stripe.mylist:not(.liststate_dropped),
+.g_odd.g_bubble.box.mylist:not(.liststate_dropped) > div.top
+{
+  color: #000000 !important;
+}
+/* change font colour to black for anything that gets red highlights */
+#layout-main td del,
+#layout-main tr.g_fs_lame,
+#layout-main input.exclude,
+#layout-main div.myvotes_all table tr td.low,
+#layout-main div.addcreatoranimerel_all tr.left_only,
+#layout-main div.addcreatorsongrel_all tr.left_only,
+#layout-main div.timeline_all div.timeline ul.row li.stalled a,
+#layout-main table.filelist tr.deprecated,
+#layout-main table.filelist tr.invalid,
+#layout-main table.file.entities tr.deprecated,
+#layout-main table.file.entities tr.invalid
+{
+  color: #000000 !important;
+}
+#layout-main td.g_odd del,
+#layout-main .different,
+#layout-main div.myvotes_all table tr.g_odd td.low,
+#layout-main div.addcreatoranimerel_all tr.right_only,
+#layout-main div.addcreatorsongrel_all tr.right_only,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a,
+#layout-main table.filelist tr.g_odd.deprecated,
+#layout-main table.filelist tr.g_odd.invalid,
+#layout-main table.file.entities tr.g_odd.deprecated,
+#layout-main table.file.entities tr.g_odd.invalid
+{
   color: #000000 !important;
 }
 
-/* change link font colour to blue for anything that gets mylist state highlights */
-#layout-main div.timeline_all div.timeline ul.row li:not(.liststate_dropped) a,
+/* change link colour to blue for anything that gets green highlights, except for liststate_dropped */
+#layout-main .identical a,
 #layout-main td ins a,
-#layout-main td.g_odd ins a,
-#layout-main td del a,
-#layout-main td.g_odd del a,
+#layout-main input.include a,
 #layout-main table.filelist tr.good a,
-#layout-main table.filelist tr.deprecated a,
-#layout-main table.filelist tr.good span.i_icon,
-#layout-main table.filelist tr.deprecated span.i_icon,
-#layout-main table.filelist tr.mylist:not(.liststate_dropped) a,
-#layout-main .mylist tr.mylist:not(.liststate_dropped) a,
-#layout-main div.mylist.g_bubble:not(.liststate_dropped) :not(.name) a:not(.name-colored),
-#layout-main div.mylist_all tr[id^="a"]:not(.epsrow):not(.liststate_dropped) a,
+#layout-main table.file.entities tr.good a,
+#layout-main div.myvotes_all table tr td.high a,
+#layout-main .mylist:not(.liststate_dropped) a,
+#layout-main div.producer_all table tr.mylist:not(.liststate_dropped) a,
+#layout-main div.latest2_all table tr.mylist:not(.liststate_dropped) a,
+#layout-main div.latest2_all table tr td.mylist:not(.liststate_dropped) a,
+#layout-main div.character_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped) a,
+#layout-main div.creator_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped) a,
+#layout-main div.collection_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped) a,
+#layout-main div.song_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped) a,
+#layout-main div.song_all div.tabbed_pane_main table tr td.mylist:not(.liststate_dropped) a,
+#layout-main div.anime_all div.tabbed_pane_main table tr.mylist:not(.liststate_dropped) a,
+#layout-main div.animelist_all table tr.mylist:not(.liststate_dropped) a,
+#layout-main div.group_released table tr.mylist:not(.liststate_dropped) a,
+#layout-main div.forum div.comment div.content strong a,
+#layout-main div.forum a.topictitle strong a,
+#layout-main div.addcreatoranimerel_all tr.identical a,
+#layout-main div.addcreatorsongrel_all tr.identical a,
 #layout-main table.animelist tr.mylist:not(.liststate_dropped) a,
-#layout-main table.wishlist tr.mylist:not(.liststate_dropped) a,
-#layout-main table.characterlist tr.mylist:not(.liststate_dropped) a,
-#layout-main table#releases tr.mylist:not(.liststate_dropped) a {
+#layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.mylist:not(.liststate_dropped) td a,  /* deprecated? */
+#layout-main div.timeline_all div.timeline ul.row li.completed a a,
+#layout-main div:not(.ed2kdump_all) tr td.mylist:not(.liststate_dropped) a,
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist:not(.liststate_dropped) a,
+.g_bubble.stripe.mylist:not(.liststate_dropped) a,
+.g_bubble.box.mylist:not(.liststate_dropped) > div.top a
+{
+  color: #105289 !important;
+}
+#layout-main td.g_odd ins a,
+#layout-main table.filelist tr.g_odd.good a,
+#layout-main table.file.entities tr.g_odd.good a,
+#layout-main div.myvotes_all table tr.g_odd td.high a,
+#layout-main .g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.producer_all table tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.latest2_all table tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.latest2_all table tr.g_odd td.mylist:not(.liststate_dropped) a,
+#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist:not(.liststate_dropped) a,
+#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.animelist_all table tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.group_released table tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main table.animelist tr.g_odd.mylist:not(.liststate_dropped) a,
+#layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.g_odd.mylist:not(.liststate_dropped) td a, /* deprecated? */
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.completed a a,
+#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist:not(.liststate_dropped) a,
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist:not(.liststate_dropped) a,
+.g_odd.g_bubble.stripe.mylist:not(.liststate_dropped) a,
+.g_odd.g_bubble.box.mylist:not(.liststate_dropped) > div.top a
+{
+  color: #105289 !important;
+}
+/* change link colour to blue for anything that gets red highlights */
+#layout-main td del a,
+#layout-main tr.g_fs_lame a,
+#layout-main input.exclude a,
+#layout-main div.myvotes_all table tr td.low a,
+#layout-main div.addcreatoranimerel_all tr.left_only a,
+#layout-main div.addcreatorsongrel_all tr.left_only a,
+#layout-main div.timeline_all div.timeline ul.row li.stalled a a,
+#layout-main table.filelist tr.deprecated a,
+#layout-main table.filelist tr.invalid a,
+#layout-main table.file.entities tr.deprecated a,
+#layout-main table.file.entities tr.invalid a
+{
+  color: #105289 !important;
+}
+#layout-main td.g_odd del a,
+#layout-main .different a,
+#layout-main div.myvotes_all table tr.g_odd td.low a,
+#layout-main div.addcreatoranimerel_all tr.right_only a,
+#layout-main div.addcreatorsongrel_all tr.right_only a,
+#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a a,
+#layout-main table.filelist tr.g_odd.deprecated a,
+#layout-main table.filelist tr.g_odd.invalid a,
+#layout-main table.file.entities tr.g_odd.deprecated a,
+#layout-main table.file.entities tr.g_odd.invalid a
+{
   color: #105289 !important;
 }
 
