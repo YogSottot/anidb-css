@@ -1,7 +1,17 @@
-#layout-main div.mylist_all table.animelist th.title,
+#layout-main div.mylist_all table.animelist th.title {
+	width:98%;
+}
+
 #layout-main div.mylist_all table.animelist table.eplist,
 #layout-main div.mylist_all table.animelist table.filelist {
-	width: 98%;
+	width: 100%;
+	padding: 0px 0.5em;
+}
+
+#layout-main div.mylist_all table.filelist tr.action td.submit,
+#layout-main div.mylist_all table.eplist tr.action td.submit {
+	text-align: left;
+	padding: 0.5em;
 }
 
 /*opera fix for linebreaks in mylist */
@@ -38,10 +48,4 @@
 	padding-left:4px;
 	padding-right:4px;
 	white-space:nowrap;
-}
-
-#layout-main div.mylist_all table.filelist tr.action td.submit,
-#layout-main div.mylist_all table.eplist tr.action td.submit {
-	text-align: left;
-	padding: 0.5em;
 }
