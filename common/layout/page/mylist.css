@@ -39,3 +39,9 @@
 	padding-right:4px;
 	white-space:nowrap;
 }
+
+#layout-main div.mylist_all table.filelist tr.action td.submit,
+#layout-main div.mylist_all table.eplist tr.action td.submit {
+	text-align: left;
+	padding: 0.5em;
+}
