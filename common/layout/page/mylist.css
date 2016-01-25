@@ -49,3 +49,7 @@
 	padding-right:4px;
 	white-space:nowrap;
 }
+
+#layout-main div.mylist_all table.eplist th {
+	padding: 0 1em;
+}
