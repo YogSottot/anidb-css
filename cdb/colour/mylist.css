@@ -44,7 +44,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main div:not(.ed2kdump_all) tr td.mylist,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
-.g_bubble.box.mylist > div.top,
+.g_bubble.box.mylist/* > div.top*/,
 #layout-main div.mylist_all tr[id^="a"]:not(.epsrow),
 /* #layout-main table.wishlist tbody tr, */
 #layout-main table.wishlist tr.mylist,
@@ -68,7 +68,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist,
 .g_odd.g_bubble.stripe.mylist,
-.g_odd.g_bubble.box.mylist > div.top,
+.g_odd.g_bubble.box.mylist/* > div.top*/,
 #layout-main div.mylist_all tr.g_odd[id^="a"]:not(.epsrow),
 /* #layout-main table.wishlist tbody tr.g_odd, */
 #layout-main table.wishlist tr.g_odd.mylist,
@@ -82,7 +82,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .liststate_collecting,
 #layout-main table.wishlist .liststate_collecting,
 #layout-main div.timeline_all div.timeline ul.row li.liststate_collecting a,
-.g_bubble.box.mylist.liststate_collecting > div.top
+.g_bubble.box.mylist.liststate_collecting/* > div.top*/
 {
   background-color: #E69696 !important;
 }
@@ -90,7 +90,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .g_odd.liststate_collecting,
 #layout-main table.wishlist .g_odd.liststate_collecting,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_collecting a,
-.g_odd.g_bubble.box.mylist.liststate_collecting > div.top,
+.g_odd.g_bubble.box.mylist.liststate_collecting/* > div.top*/,
 #layout-main > :not(.timeline_all) .g_odd .mylist.liststate_collecting
 {
   background-color: #E67878 !important;
@@ -101,7 +101,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .complete,
 #layout-main table.wishlist .complete,
 #layout-main div.timeline_all div.timeline ul.row li.complete a,
-.g_bubble.box.mylist.complete > div.top
+.g_bubble.box.mylist.complete/* > div.top*/
 {
   background-color: #8DDFE4 !important;
 }
@@ -109,7 +109,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .g_odd.complete,
 #layout-main table.wishlist .g_odd.complete,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.complete a,
-.g_odd.g_bubble.box.mylist.complete > div.top,
+.g_odd.g_bubble.box.mylist.complete/* > div.top*/,
 #layout-main > :not(.timeline_all) .g_odd .mylist.complete
 {
   background-color: #68CACE !important;
@@ -120,7 +120,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .liststate_completed,
 #layout-main table.wishlist .liststate_completed,
 #layout-main div.timeline_all div.timeline ul.row li.liststate_completed a,
-.g_bubble.box.mylist.liststate_completed > div.top
+.g_bubble.box.mylist.liststate_completed/* > div.top*/
 {
   background-color: #FFB84D !important;
 }
@@ -128,7 +128,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .g_odd.liststate_completed,
 #layout-main table.wishlist .g_odd.liststate_completed,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_completed a,
-.g_odd.g_bubble.box.mylist.liststate_completed > div.top,
+.g_odd.g_bubble.box.mylist.liststate_completed/* > div.top*/,
 #layout-main > :not(.timeline_all) .g_odd .mylist.liststate_completed
 {
   background-color: #FFA319 !important;
@@ -139,7 +139,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .all_watched,
 #layout-main table.wishlist .all_watched,
 #layout-main div.timeline_all div.timeline ul.row li.all_watched a,
-.g_bubble.box.mylist.all_watched > div.top
+.g_bubble.box.mylist.all_watched/* > div.top*/
 {
   background-color: #A0E6A0 !important;
 }
@@ -147,7 +147,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .g_odd.all_watched,
 #layout-main table.wishlist .g_odd.all_watched,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.all_watched a,
-.g_odd.g_bubble.box.mylist.all_watched > div.top,
+.g_odd.g_bubble.box.mylist.all_watched/* > div.top*/,
 #layout-main > :not(.timeline_all) .g_odd .mylist.all_watched
 {
   background-color: #85D485 !important;
@@ -162,7 +162,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.wishlist .liststate_dropped,
 #layout-main table.wishlist .liststate_dropped .name a,
 #layout-main div.timeline_all div.timeline ul.row li.liststate_dropped a,
-.g_bubble.box.mylist.liststate_dropped > div.top
+.g_bubble.box.mylist.liststate_dropped/* > div.top*/
 {
   background-color: #444444 !important;
   color: #FFFFFF !important;
@@ -178,7 +178,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.wishlist .g_odd.liststate_dropped,
 #layout-main table.wishlist .g_odd.liststate_dropped .name a,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_dropped a,
-.g_odd.g_bubble.box.mylist.liststate_dropped > div.top,
+.g_odd.g_bubble.box.mylist.liststate_dropped/* > div.top*/,
 #layout-main > :not(.timeline_all) .g_odd .mylist.liststate_dropped
 {
   background-color: #333333 !important;
@@ -193,7 +193,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .liststate_watching,
 #layout-main table.wishlist .liststate_watching,
 #layout-main div.timeline_all div.timeline ul.row li.liststate_watching a,
-.g_bubble.box.mylist.liststate_watching > div.top
+.g_bubble.box.mylist.liststate_watching/* > div.top*/
 {
   background-color: #FFB84D !important;
 }
@@ -201,7 +201,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .g_odd.liststate_watching,
 #layout-main table.wishlist .g_odd.liststate_watching,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_watching a,
-.g_odd.g_bubble.box.mylist.liststate_watching > div.top,
+.g_odd.g_bubble.box.mylist.liststate_watching/* > div.top*/,
 #layout-main > :not(.timeline_all) .g_odd .mylist.liststate_watching
 {
   background-color: #FFA319 !important;
@@ -212,7 +212,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .liststate_stalled,
 #layout-main table.wishlist .liststate_stalled,
 #layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a,
-.g_bubble.box.mylist.liststate_stalled > div.top
+.g_bubble.box.mylist.liststate_stalled/* > div.top*/
 {
   background-color: #E69696 !important;
 }
@@ -220,7 +220,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main table.animelist .g_odd.liststate_stalled,
 #layout-main table.wishlist .g_odd.liststate_stalled,
 #layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a,
-.g_odd.g_bubble.box.mylist.liststate_stalled > div.top,
+.g_odd.g_bubble.box.mylist.liststate_stalled/* > div.top*/,
 #layout-main > :not(.timeline_all) .g_odd .mylist.liststate_stalled
 {
   background-color: #E67878 !important;
