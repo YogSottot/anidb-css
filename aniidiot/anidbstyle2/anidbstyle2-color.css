@@ -135,7 +135,9 @@ select,
 #layout-main th > span.link,
 #layout-main th > a:visited,
 #layout-main th > a:active,
-#layout-main th > a:link {
+#layout-main th > a:link,
+th .i_icon,
+#layout-main div.userpage_all .achievements h4 a.i_help {
 	color: #A2BFD7;
 }
 
