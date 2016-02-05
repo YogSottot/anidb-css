@@ -354,7 +354,12 @@ div.relations .g_bubble.stripe div.type,
 .g_bubble.box > div.data div.date,
 #layout-main div.main_all div.header div.account ul.tabs li,
 #layout-main div.search_all div.search_results strong,
-#layout-main div.tag-column .parent {
+#layout-main div.tag-column .parent,
+.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove,
+.select2-container--classic .select2-selection--single .select2-selection__clear,
+.select2-container--default .select2-selection--multiple .select2-selection__clear,
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove,
+.select2-container--default .select2-selection--single .select2-selection__clear {
 	font-weight:bold;
 }
 
@@ -420,6 +425,7 @@ a.tooltip span.text {
 	font-style: normal;
 }
 
+.select2-container .select2-search--inline .select2-search__field,
 #layout-main #chartags a.tooltip span.cnt {
 	font-size: 1rem;
 }
