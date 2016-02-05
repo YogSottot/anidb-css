@@ -1,5 +1,7 @@
 @import "../../sub/common.css";
 @import "../../common/style/color/status-pastel.css";
+@import "../../common/libs/select2/border-round.css";
+@import "../../common/libs/select2/style-white.css";
 @import "../common-menuless.css";
 @import "../icons-blue.css";
 @import "anigoogle-icons.css";
