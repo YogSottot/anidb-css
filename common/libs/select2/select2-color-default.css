@@ -4,9 +4,6 @@
     background-color: #FFFFFF;
     filter: alpha(opacity=0);
 }
-.select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #444444;
-}
 
 /*base colors*/
 .select2-dropdown,
@@ -21,6 +18,11 @@
 .select2-container--default .select2-selection--multiple .select2-selection__choice,
 .select2-container--default .select2-search--dropdown .select2-search__field {
     border-color: #AAAAAA;
+}
+
+/*default font color top element*/
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444444;
 }
 
 /*arrow*/
@@ -51,7 +53,7 @@
     color: #333333;
 }
 
-/*previously selected item*/
+/*disabled items*/
 .select2-container--default .select2-results__option[aria-disabled=true] {
     color: #999999;
 }
@@ -69,5 +71,5 @@
 /*option hover*/
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
     background-color: #5897fb !important;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }

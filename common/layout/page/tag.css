@@ -91,3 +91,11 @@
 	padding-left:0.5em;
 	padding-right:0.5em;
 }
+
+#addtag_animetb_parentid + .select2,
+#addtag_eptb_parentid + .select2,
+#addtag_chartb_parentid + .select2,
+#addtag_creatortb_parentid + .select2,
+#addtag_mangatb_parentid + .select2 {
+	width: 37em !important;
+}
