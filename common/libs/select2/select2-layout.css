@@ -228,3 +228,13 @@
     display: block;
     padding: 6px;
 }
+
+/*custom layout stuff*/
+.select2-option {
+	display: flex;
+	align-items: center;
+}
+
+.select2-option img {
+	margin-right: 1em;
+}
