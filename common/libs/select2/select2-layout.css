@@ -238,3 +238,10 @@
 .select2-option img {
 	margin-right: 1em;
 }
+
+.select2-option span.thumb {
+    height: 70px;
+    text-align: center;
+	display: flex;
+	align-items: center;
+}
