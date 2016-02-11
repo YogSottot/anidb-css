@@ -1015,33 +1015,33 @@ padding: 3px;
 background-color: white }
 
 /*tooltips*/
-a.tooltip {
+.tooltip {
 	outline:none;
 }
 
-a.tooltip span.text:after,
-a.tooltip span.text:before {
+.tooltip span.text:after,
+.tooltip span.text:before {
 	border: solid transparent;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-width: 10px;
 }
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	border-width: 13px;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-color: rgba(249, 249, 249, 0);
 	border-bottom-color: #f9f9f9;
 }
 
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	border-color: rgba(238, 238, 238, 0);
 	border-bottom-color: #eeeeee;
 }
 
-a.tooltip span.text {
+.tooltip span.text {
 	-moz-box-shadow: 0px 0px 2px 0px #666;
 	-webkit-box-shadow: 0px 0px 2px 0px #666;
 	box-shadow: 0px 0px 2px 0px #666;

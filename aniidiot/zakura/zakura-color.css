@@ -352,7 +352,7 @@ input[type="password"]:focus {
 }
 
 #imagepreview,
-a.tooltip span.text,
+.tooltip span.text,
 a.button,
 input.button,
 button.button,
@@ -430,8 +430,8 @@ tr + tr th,
 }
 
 /*tooltip*/
-a.tooltip span.text:after,
-a.tooltip span.text:before {
+.tooltip span.text:after,
+.tooltip span.text:before {
 	border-color: rgba(255, 249, 251, 0);
 	border-bottom-color: #fff9fb;
 }
@@ -565,7 +565,7 @@ button,
 }
 
 #imagepreview,
-a.tooltip span.text {
+.tooltip span.text {
 	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
 	opacity: 0.97;
 	background-color: #fff9fb !important;

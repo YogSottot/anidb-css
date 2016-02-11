@@ -38,9 +38,9 @@ button,
 	border: 1px solid;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-width: 10px;
 }
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	border-width: 11px;
 }

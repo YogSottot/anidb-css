@@ -123,7 +123,7 @@ div.g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-a.tooltip > span.text.g_bubble,
+.tooltip > span.text.g_bubble,
 .g_button a:hover,
 .i_comment_add:hover,
 .i_topic_add:hover,
@@ -363,7 +363,7 @@ input[type="password"]:focus {
 html,
 .i_ext span,
 #imagepreview,
-a.tooltip span.text,
+.tooltip span.text,
 a.button,
 input.button,
 button.button,
@@ -429,8 +429,8 @@ tr + tr th,
 }
 
 /*tooltip*/
-a.tooltip span.text:after,
-a.tooltip span.text:before {
+.tooltip span.text:after,
+.tooltip span.text:before {
 	border-color: rgba(232, 232, 232, 0);
 	border-bottom-color: #333333;
 }
@@ -594,7 +594,7 @@ button,
 }
 
 #imagepreview,
-a.tooltip span.text {
+.tooltip span.text {
 	box-shadow: 0 8px 4px 0 rgba(255, 255, 255, 0.2);
 	opacity: 0.95;
 	background-color: #333333 !important;

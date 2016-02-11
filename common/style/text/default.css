@@ -377,11 +377,11 @@ div.relations .g_bubble.stripe div.type,
 #statusBox,
 ul.format-modes li.selected,
 ul.format-modes li:hover,
-a.tooltip:hover {
+.tooltip:hover {
 	text-decoration:none;
 }
 
-a.tooltip span.text {
+.tooltip span.text {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1rem;
@@ -426,7 +426,7 @@ a.tooltip span.text {
 }
 
 .select2-container .select2-search--inline .select2-search__field,
-#layout-main #chartags a.tooltip span.cnt {
+#layout-main #chartags .tooltip span.cnt {
 	font-size: 1rem;
 }
 

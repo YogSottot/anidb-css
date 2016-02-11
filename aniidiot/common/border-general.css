@@ -96,19 +96,19 @@ table,
 	border-top: 1px solid;
 }
 
-a.tooltip {
+.tooltip {
 	outline:none;
 }
 
-a.tooltip span.text:after,
-a.tooltip span.text:before {
+.tooltip span.text:after,
+.tooltip span.text:before {
 	border: solid transparent;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-width: 10px;
 }
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	border-width: 13px;
 }
 
