@@ -43,10 +43,11 @@
 
 /*popup*/
 #anidb > .fancybox-wrap div.block > div.image {
-	min-width: 400px;
+	min-width: 0;
+	width: 150px;
 }
 
 #anidb > .fancybox-wrap div.block > div.data {
-	min-width: 0;
-	width: 150px;
+	min-width: 400px;
+	width: 100%;
 }
