@@ -45,9 +45,14 @@
 #anidb > .fancybox-wrap div.block > div.image {
 	min-width: 0;
 	width: 150px;
+	margin-left: 1em;
 }
 
 #anidb > .fancybox-wrap div.block > div.data {
 	min-width: 400px;
-	width: 100%;
+	width: calc(100% - 185px);
+}
+
+#anidb > .fancybox-wrap div.info.popup > h4 {
+	display: none;
 }
