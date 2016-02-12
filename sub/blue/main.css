@@ -21,3 +21,15 @@
 #layout-search ul.quicksearch {
 	display: none !important;
 }
+
+/*tooltips*/
+.tooltip {
+	outline:none;
+}
+
+.tooltip span.text:after {
+	border-width: 10px;
+}
+.tooltip span.text:before {
+	border-width: 13px;
+}

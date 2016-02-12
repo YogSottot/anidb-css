@@ -106,3 +106,27 @@ th,
 	background-color: transparent;
 	border:none;
 }
+
+/*tooltips*/
+.tooltip span.text:after,
+.tooltip span.text:before {
+	border: solid transparent;
+}
+
+.tooltip span.text:after {
+	border-color: rgba(231, 240, 255, 0);
+	border-bottom-color: #e7f0ff;
+}
+
+.tooltip span.text:before {
+	border-color: rgba(231, 240, 255, 0);
+	border-bottom-color: #e7f0ff;
+}
+
+.tooltip span.text {
+	-moz-box-shadow: 0px 0px 8px 4px #666;
+	-webkit-box-shadow: 0px 0px 8px 4px #666;
+	box-shadow: 0px 0px 8px 4px #666;
+	opacity: 0.9;
+	color: #000000;
+}
