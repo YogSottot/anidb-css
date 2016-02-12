@@ -47,3 +47,8 @@
 	min-width: 10em;
 	max-width: 20.4em;
 }
+
+#layout-main div.addfilem.form #applytoall {
+	display: block;
+	margin: 0.5em;
+}
