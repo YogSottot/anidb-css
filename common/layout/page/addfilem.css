@@ -34,21 +34,20 @@
 	margin-top: 1em;
 }
 
-/*TODO: kill after update*/
-#layout-main div.addfilem.form dl.options dt {
-	text-align: left;
-}
-
-#layout-main div.addfilem.form dl.options dd {
-	margin-left: 8em;
-}
-
-#layout-main div.addfilem.form dl.options dd select {
-	min-width: 10em;
-	max-width: 20.4em;
-}
-
 #layout-main div.addfilem.form #applytoall {
 	display: block;
 	margin: 0.5em;
+}
+#layout-main div.addfilem_all select {
+	padding: 3px 4px;
+}
+
+#layout-main div.addfilem_all #toggle_template_options,
+#layout-main div.addfilem_all #template_options button + button {
+	margin-left: 0.3em
+}
+
+#layout-main div.addfilem_all #template_options input {
+	display:block;
+	margin: 0.2em 0;
 }

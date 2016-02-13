@@ -249,6 +249,8 @@ button.reboot:before {
 #layout-main div.creq_all .links .next_creq a:before {
 	content: "\f061";
 }
+
+button.set_default:before,
 #layout-main div.creq_all .creq_buttons button.lock:before {
 	content: "\f023";
 }
