@@ -51,3 +51,7 @@
 	display:block;
 	margin: 0.2em 0;
 }
+
+#layout-main div.addfilem_all ul.note {
+	padding-top: 0.3em;
+}
