@@ -21,6 +21,8 @@
 .i_file_addmylist,
 .i_file_editmylist,
 .i_file_removemylist,
+.i_wishlist_edit,
+.i_wishlist_remove,
 .i_top,
 .i_help,
 .i_vote,
@@ -69,6 +71,8 @@
 .i_file_addmylist,
 .i_file_editmylist,
 .i_file_removemylist,
+.i_wishlist_edit,
+.i_wishlist_remove,
 .i_top,
 .i_help,
 .i_vote,
@@ -358,6 +362,8 @@ button.preview:before {
 .i_file_addmylist,
 .i_file_editmylist,
 .i_file_removemylist,
+.i_wishlist_edit,
+.i_wishlist_remove,
 .i_top,
 .i_help,
 .i_vote,
@@ -406,10 +412,12 @@ button.preview:before {
 	content: "\f0aa";
 	cursor:pointer;
 }
+.i_wishlist_edit:after,
 .i_file_editmylist:after {
 	content: "\f044";
 	cursor:pointer;
 }
+.i_wishlist_remove:after,
 .i_file_removemylist:after {
 	content: "\f00d";
 	cursor:pointer;
