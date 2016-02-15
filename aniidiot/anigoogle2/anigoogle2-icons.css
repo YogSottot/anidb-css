@@ -12,6 +12,8 @@
 
 .i_tab_default,
 .i_tab_reset,
+.i_notify,
+.i_nonotify,
 .i_state_verified,
 .i_mylist,
 .i_file_details,
@@ -62,6 +64,8 @@
 
 .i_tab_default,
 .i_tab_reset,
+.i_notify,
+.i_nonotify,
 .i_state_verified,
 .i_mylist,
 .i_file_details,
@@ -353,6 +357,8 @@ button.preview:before {
 /*image only - no text*/
 .i_tab_default,
 .i_tab_reset,
+.i_notify,
+.i_nonotify,
 .i_state_verified,
 .i_mylist,
 .i_file_details,
@@ -452,6 +458,13 @@ button.preview:before {
 .i_tab_reset:after {
 	content: "\f05e";
 }
+.i_notify:after {
+	content: "\f0f3";
+}
+.i_nonotify:after {
+	content: "\f1f6";
+}
+
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
 
