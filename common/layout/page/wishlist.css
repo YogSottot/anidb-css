@@ -35,3 +35,7 @@
 #layout-main div.mywishlist_all .whistlist_edit .options label {
 	display:block;
 }
+
+#layout-main div.mywishlist_all #wishlist_edit table {
+	width:100%;
+}

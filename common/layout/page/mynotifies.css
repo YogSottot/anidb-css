@@ -13,3 +13,7 @@
 #layout-main div.mynotifies_all table .action td {
 	padding: 1em 0;
 }
+
+#layout-main div.mynotifies_all #notification_edit table {
+	width:100%;
+}
