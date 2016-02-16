@@ -485,11 +485,11 @@ button.preview:before {
 }
 .i_list_empty:before {
     position: absolute;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: bold;
-    text-align: center;
-    width:12px;
-    padding-top: 1px;
+    text-align: right;
+    width:16px;
+    padding-top: 2px;
 	cursor:pointer;
 }
 .i_wishlist_blacklist:before {
