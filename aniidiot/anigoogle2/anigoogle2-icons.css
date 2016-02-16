@@ -484,8 +484,8 @@ button.preview:before {
 }
 .i_list_empty:before {
     position: absolute;
-    font-size: 1rem;
-    margin-left: 0px;
+    font-size: 0.9rem;
+    margin-left: 1px;
     margin-top: 1px !important;
     font-weight: bold;
 }
@@ -495,7 +495,6 @@ button.preview:before {
 }
 .i_wishlist_buddy:before {
     content: '\f007';
-    color: #30ba30;
 }
 .i_wishlist_toget:before {
     content: '\f063';
@@ -503,11 +502,9 @@ button.preview:before {
 }
 .i_wishlist_towatch:before {
     content: '\f06e';
-    color: #30ba30;
 }
 .i_wishlist_undefined:before {
     content: '\f128';
-    color: #30ba30;
 }
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
