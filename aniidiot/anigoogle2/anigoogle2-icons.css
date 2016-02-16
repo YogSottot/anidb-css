@@ -490,6 +490,7 @@ button.preview:before {
     width:16px;
     padding-top: 2px;
 	cursor:pointer;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 .i_wishlist_blacklist:before {
     content: '\f05e';
