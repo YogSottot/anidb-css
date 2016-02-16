@@ -489,6 +489,7 @@ button.preview:before {
     font-weight: bold;
     text-align: center;
     width:12px;
+    padding-top: 1px;
 }
 .i_wishlist_blacklist:before {
     content: '\f05e';
