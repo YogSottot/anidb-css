@@ -486,8 +486,6 @@ button.preview:before {
 .i_list_empty:before {
     position: absolute;
     font-size: 0.9rem;
-    margin-left: 1px;
-    margin-top: 1px !important;
     font-weight: bold;
     text-align: center;
     width:12px;
