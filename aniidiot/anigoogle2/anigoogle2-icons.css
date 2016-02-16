@@ -489,21 +489,21 @@ button.preview:before {
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 .i_wishlist_blacklist:before {
-    content: '\f05e';
+    content: "\f05e";
     color: #ff4e4e;
 }
 .i_wishlist_buddy:before {
-    content: '\f007';
+    content: "\f007";
 }
 .i_wishlist_toget:before {
-    content: '\f063';
+    content: "\f063";
     color: #30ba30;
 }
 .i_wishlist_towatch:before {
-    content: '\f06e';
+    content: "\f06e";
 }
 .i_wishlist_undefined:before {
-    content: '\f128';
+    content: "\f128";
     margin-left: -2px;
 }
 .i_wishlist_blacklist:after,
