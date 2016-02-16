@@ -486,7 +486,6 @@ button.preview:before {
 .i_list_empty:before {
     position: absolute;
     font-size: 1rem;
-    font-weight: bold;
     text-align: right;
     width:16px;
     padding-top: 2px;
@@ -508,6 +507,7 @@ button.preview:before {
 }
 .i_wishlist_undefined:before {
     content: '\f128';
+    margin-left: -2px;
 }
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
