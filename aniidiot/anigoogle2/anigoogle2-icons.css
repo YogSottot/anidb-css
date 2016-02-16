@@ -10,7 +10,19 @@
 	display: inline;
 }
 
-.i_icon_stack,
+.i_wishlist_blacklist,
+.i_wishlist_buddy,
+.i_wishlist_toget,
+.i_wishlist_towatch,
+.i_wishlist_undefined,
+.i._tv_series,
+.i_tv_special,
+.i_icon i_music_video,
+.i_ova,
+.i_movie,
+.i_web,
+.i_unknown,
+.i_other,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -65,7 +77,19 @@
 	background-image: none !important;
 }
 
-.i_icon_stack,
+.i_wishlist_blacklist,
+.i_wishlist_buddy,
+.i_wishlist_toget,
+.i_wishlist_towatch,
+.i_wishlist_undefined,
+.i._tv_series,
+.i_tv_special,
+.i_icon i_music_video,
+.i_ova,
+.i_movie,
+.i_web,
+.i_unknown,
+.i_other,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -361,7 +385,19 @@ button.preview:before {
 }
 
 /*image only - no text*/
-.i_icon_stack,
+.i_wishlist_blacklist,
+.i_wishlist_buddy,
+.i_wishlist_toget,
+.i_wishlist_towatch,
+.i_wishlist_undefined,
+.i._tv_series,
+.i_tv_special,
+.i_icon i_music_video,
+.i_ova,
+.i_movie,
+.i_web,
+.i_unknown,
+.i_other,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -392,6 +428,21 @@ button.preview:before {
 	height: auto;
 	width:16px;
 	font-size:1.33rem;
+}
+/*stacked icons*/
+.i_tv_special:before,
+.i_wishlist_blacklist:before,
+.i_wishlist_buddy:before,
+.i_wishlist_toget:before,
+.i_wishlist_towatch:before,
+.i_wishlist_undefined:before {
+    position: absolute;
+    font-size: 1rem;
+    text-align: right;
+    width:16px;
+    padding-top: 2px;
+	cursor:pointer;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 .i_plus:after {
 	content: "\f0fe";
@@ -434,7 +485,7 @@ button.preview:before {
 }
 .i_general_delete:after,
 .i_file_removemylist:after {
-	content: "\f00d";
+	content: "\f014";
 	cursor:pointer;
 }
 .i_revote:after {
@@ -479,15 +530,6 @@ button.preview:before {
 .i_general_history:after {
 	content: "\f254";
 }
-.i_icon_stack:before {
-    position: absolute;
-    font-size: 1rem;
-    text-align: right;
-    width:16px;
-    padding-top: 2px;
-	cursor:pointer;
-	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
-}
 .i_wishlist_blacklist:before {
     content: "\f05e";
     color: #ff4e4e;
@@ -514,6 +556,44 @@ button.preview:before {
 	content: "\f016";
 	cursor:pointer;
 }
+
+.i_tv_special:before {
+	content: "\f005";
+	cursor:pointer;
+}
+
+.i_tv_special:after,
+.i_tv_series:after {
+	content: "\f26c";
+	cursor:pointer;
+}
+
+.i_icon i_music_video:after {
+	content: "\f001";
+	cursor:pointer;
+}
+
+.i_ova:after {
+	content: "\f192";
+	cursor:pointer;
+}
+
+.i_movie:after {
+	content: "\f008";
+	cursor:pointer;
+}
+
+.i_web:after {
+	content: "\f0ac";
+	cursor:pointer;
+}
+
+.i_unknown:after,
+.i_other:after {
+	content: "\f128";
+	cursor:pointer;
+}
+
 
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
