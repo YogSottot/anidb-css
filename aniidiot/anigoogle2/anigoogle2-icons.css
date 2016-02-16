@@ -10,6 +10,7 @@
 	display: inline;
 }
 
+.i_icon_stack,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -23,7 +24,6 @@
 .i_file_addmylist,
 .i_file_editmylist,
 .i_file_removemylist,
-.i_list_empty,
 .i_general_edit,
 .i_general_delete,
 .i_general_blacklist,
@@ -65,6 +65,7 @@
 	background-image: none !important;
 }
 
+.i_icon_stack,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -78,7 +79,6 @@
 .i_file_addmylist,
 .i_file_editmylist,
 .i_file_removemylist,
-.i_list_empty,
 .i_general_edit,
 .i_general_delete,
 .i_general_blacklist,
@@ -361,6 +361,7 @@ button.preview:before {
 }
 
 /*image only - no text*/
+.i_icon_stack,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -374,7 +375,6 @@ button.preview:before {
 .i_file_addmylist,
 .i_file_editmylist,
 .i_file_removemylist,
-.i_list_empty,
 .i_general_edit,
 .i_general_delete,
 .i_general_blacklist,
@@ -479,11 +479,7 @@ button.preview:before {
 .i_general_history:after {
 	content: "\f254";
 }
-.i_list_empty:after {
-	content: "\f016";
-	cursor:pointer;
-}
-.i_list_empty:before {
+.i_icon_stack:before {
     position: absolute;
     font-size: 1rem;
     text-align: right;
@@ -510,6 +506,15 @@ button.preview:before {
     content: '\f128';
     margin-left: -2px;
 }
+.i_wishlist_blacklist:after,
+.i_wishlist_buddy:after,
+.i_wishlist_toget:after,
+.i_wishlist_towatch:after,
+.i_wishlist_undefined:after {
+	content: "\f016";
+	cursor:pointer;
+}
+
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
 
