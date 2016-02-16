@@ -15,14 +15,6 @@
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
-.i_tv_series,
-.i_tv_special,
-.i_music_video,
-.i_ova,
-.i_movie,
-.i_web,
-.i_unknown,
-.i_other,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -82,14 +74,6 @@
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
-.i_tv_series,
-.i_tv_special,
-.i_music_video,
-.i_ova,
-.i_movie,
-.i_web,
-.i_unknown,
-.i_other,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -390,14 +374,6 @@ button.preview:before {
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
-.i_tv_series,
-.i_tv_special,
-.i_music_video,
-.i_ova,
-.i_movie,
-.i_web,
-.i_unknown,
-.i_other,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -554,43 +530,6 @@ button.preview:before {
 .i_wishlist_towatch:after,
 .i_wishlist_undefined:after {
 	content: "\f016";
-	cursor:pointer;
-}
-
-.i_tv_special:before {
-	content: "\f005";
-	cursor:pointer;
-}
-
-.i_tv_special:after,
-.i_tv_series:after {
-	content: "\f26c";
-	cursor:pointer;
-}
-
-.i_music_video:after {
-	content: "\f001";
-	cursor:pointer;
-}
-
-.i_ova:after {
-	content: "\f192";
-	cursor:pointer;
-}
-
-.i_movie:after {
-	content: "\f008";
-	cursor:pointer;
-}
-
-.i_web:after {
-	content: "\f0ac";
-	cursor:pointer;
-}
-
-.i_unknown:after,
-.i_other:after {
-	content: "\f128";
 	cursor:pointer;
 }
 
