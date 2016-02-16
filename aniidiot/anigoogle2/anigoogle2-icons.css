@@ -15,9 +15,9 @@
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
-.i._tv_series,
+.i_tv_series,
 .i_tv_special,
-.i_icon i_music_video,
+.i_music_video,
 .i_ova,
 .i_movie,
 .i_web,
@@ -82,9 +82,9 @@
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
-.i._tv_series,
+.i_tv_series,
 .i_tv_special,
-.i_icon i_music_video,
+.i_music_video,
 .i_ova,
 .i_movie,
 .i_web,
@@ -390,9 +390,9 @@ button.preview:before {
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
-.i._tv_series,
+.i_tv_series,
 .i_tv_special,
-.i_icon i_music_video,
+.i_music_video,
 .i_ova,
 .i_movie,
 .i_web,
@@ -568,7 +568,7 @@ button.preview:before {
 	cursor:pointer;
 }
 
-.i_icon i_music_video:after {
+.i_music_video:after {
 	content: "\f001";
 	cursor:pointer;
 }
