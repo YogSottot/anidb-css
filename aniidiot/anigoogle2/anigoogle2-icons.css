@@ -10,6 +10,9 @@
 	display: inline;
 }
 
+.i_pri_low,
+.i_pri_med,
+.i_pri_high,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -69,6 +72,9 @@
 	background-image: none !important;
 }
 
+.i_pri_low,
+.i_pri_med,
+.i_pri_high,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -369,6 +375,9 @@ button.preview:before {
 }
 
 /*image only - no text*/
+.i_pri_low,
+.i_pri_med,
+.i_pri_high,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -530,9 +539,24 @@ button.preview:before {
 .i_wishlist_towatch:after,
 .i_wishlist_undefined:after {
 	content: "\f016";
-	cursor:pointer;
+	cursor:default;
 }
 
+.i_pri_low {
+	content: "\f244";
+	cursor:default;
+	color: green;
+}
+.i_pri_med {
+	content: "\f242";
+	cursor:default;
+	color: yellow;
+}
+.i_pri_high {
+	content: "\f240";
+	cursor:default;
+	color: red;
+}
 
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
