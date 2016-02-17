@@ -10,9 +10,6 @@
 	display: inline;
 }
 
-.i_pri_low,
-.i_pri_med,
-.i_pri_high,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -72,9 +69,6 @@
 	background-image: none !important;
 }
 
-.i_pri_low,
-.i_pri_med,
-.i_pri_high,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -375,9 +369,6 @@ button.preview:before {
 }
 
 /*image only - no text*/
-.i_pri_low,
-.i_pri_med,
-.i_pri_high,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -540,22 +531,6 @@ button.preview:before {
 .i_wishlist_undefined:after {
 	content: "\f016";
 	cursor:default;
-}
-
-.i_pri_low:after {
-	content: "\f243";
-	cursor:default;
-	color: #43b920;
-}
-.i_pri_med:after {
-	content: "\f242";
-	cursor:default;
-	color: #c2c033;
-}
-.i_pri_high:after {
-	content: "\f240";
-	cursor:default;
-	color: #f66187;
 }
 
 /*image only - no text*/
