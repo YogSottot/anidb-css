@@ -28,6 +28,7 @@
 .i_file_addmylist,
 .i_file_editmylist,
 .i_file_removemylist,
+.i_liststate_edit,
 .i_general_edit,
 .i_general_delete,
 .i_general_blacklist,
@@ -87,6 +88,7 @@
 .i_file_addmylist,
 .i_file_editmylist,
 .i_file_removemylist,
+.i_liststate_edit,
 .i_general_edit,
 .i_general_delete,
 .i_general_blacklist,
@@ -387,6 +389,7 @@ button.preview:before {
 .i_file_addmylist,
 .i_file_editmylist,
 .i_file_removemylist,
+.i_liststate_edit,
 .i_general_edit,
 .i_general_delete,
 .i_general_blacklist,
@@ -454,6 +457,7 @@ button.preview:before {
 	content: "\f0aa";
 	cursor:pointer;
 }
+.i_liststate_edit:after,
 .i_general_edit:after,
 .i_file_editmylist:after {
 	content: "\f044";
