@@ -542,17 +542,17 @@ button.preview:before {
 	cursor:default;
 }
 
-.i_pri_low {
+.i_pri_low:after {
 	content: "\f244";
 	cursor:default;
 	color: green;
 }
-.i_pri_med {
+.i_pri_med:after {
 	content: "\f242";
 	cursor:default;
 	color: yellow;
 }
-.i_pri_high {
+.i_pri_high:after {
 	content: "\f240";
 	cursor:default;
 	color: red;
