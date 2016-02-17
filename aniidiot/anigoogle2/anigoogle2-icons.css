@@ -545,27 +545,17 @@ button.preview:before {
 .i_pri_low:after {
 	content: "\f243";
 	cursor:default;
-	color: #f66187;
+	color: #43b920;
 }
 .i_pri_med:after {
 	content: "\f241";
 	cursor:default;
-	color: #e1df14;
+	color: #c2c033;
 }
 .i_pri_high:after {
 	content: "\f240";
 	cursor:default;
-	color: #43b920;
-}
-
-.i_pri_low,
-.i_pri_med,
-.i_pri_high {
-	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	transform: rotate(90deg);
+	color: #f66187;
 }
 
 /*image only - no text*/
