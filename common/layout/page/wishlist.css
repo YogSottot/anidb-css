@@ -39,3 +39,7 @@
 #wishlist_edit table {
 	width:100%;
 }
+
+#layout-main div.mywishlist_all td.type {
+	white-space:nowrap;
+}
