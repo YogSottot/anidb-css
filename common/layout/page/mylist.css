@@ -23,10 +23,6 @@
 	margin-top: 0.5em;
 }
 
-#layout-main div.mylist_all td.name {
-	padding-right:1em;
-}
-
 #layout-main div.mylist_all td.stats,
 #layout-main div.mylist_all td.rating,
 #layout-main div.mylist_all td.vote {
