@@ -606,6 +606,13 @@ button.preview:before {
 .i_ext.other {
 	background-color: #444444;
 }
+
+.i_video_480,
+.i_video_720,
+.i_video_1080 {
+	background-color: #D19224;
+}
+
 /*icon created from text*/
 
 .i_rate_halfstar,
