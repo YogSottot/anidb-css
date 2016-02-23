@@ -23,6 +23,9 @@
 	background:url("images/menuhover.png") repeat left top transparent;
 }
 
+.i_video_480,
+.i_video_720,
+.i_video_1080,
 .i_ext {
 	background-image: none !important;
 	border-radius: 3px;
@@ -31,6 +34,9 @@
 	width: 38px;
 }
 
+.i_video_480 span,
+.i_video_720 span,
+.i_video_1080 span,
 .i_ext span {
 	color: #FFFFFF;
 	display: inline-block !important;
@@ -60,6 +66,11 @@
 }
 .i_ext.other {
 	background-color: #444444;
+}
+.i_video_480,
+.i_video_720,
+.i_video_1080 {
+	background-color: #8A56AA;
 }
 
 /*logo @1024*/

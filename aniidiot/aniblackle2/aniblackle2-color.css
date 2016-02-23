@@ -361,6 +361,9 @@ input[type="password"]:focus {
 }
 
 html,
+.i_video_480 span,
+.i_video_720 span,
+.i_video_1080 span,
 .i_ext span,
 #imagepreview,
 .tooltip span.text,
@@ -669,4 +672,9 @@ button,
 }
 .i_ext.other {
 	background-color: #555555;
+}
+.i_video_480,
+.i_video_720,
+.i_video_1080 {
+	background-color: #8A56AA;
 }
