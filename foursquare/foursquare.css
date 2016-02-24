@@ -251,7 +251,7 @@ background-color: #EEE }
 	#layout-main .mylist.liststate_collecting,
 	#layout-main table.animelist .liststate_collecting,
 	#layout-main table.wishlist .liststate_collecting,
-	#layout-main div.timeline_all div..liststate_collecting a,
+	#layout-main div.timeline_all div.liststate_collecting a,
 	.g_bubble.box.mylist.liststate_collecting > div.top {
 	background-color: #E2F5FF !important }
 
@@ -269,7 +269,7 @@ background-color: #EEE }
 	#layout-main .mylist.liststate_watching,
 	#layout-main table.animelist .liststate_watching,
 	#layout-main table.wishlist .liststate_watching,
-	#layout-main div.timeline_all div..liststate_watching a,
+	#layout-main div.timeline_all div.liststate_watching a,
 	.g_bubble.box.mylist.liststate_watching > div.top {
 	 background-color: #DCF5DF !important }
 
@@ -287,7 +287,7 @@ background-color: #EEE }
 	#layout-main .mylist.liststate_stalled,
 	#layout-main table.animelist .liststate_stalled,
 	#layout-main table.wishlist .liststate_stalled,
-	#layout-main div.timeline_all div..liststate_stalled a,
+	#layout-main div.timeline_all div.liststate_stalled a,
 	.g_bubble.box.mylist.liststate_stalled > div.top {
 	background-color: #FFEDC4 !important }
 
@@ -762,7 +762,7 @@ background-color: #f9f9f9 }
 #layout-main div.myvotes_all table tr td.low, 
 #layout-main div.addcreatoranimerel_all tr.left_only, 
 #layout-main div.addcreatorsongrel_all tr.left_only, 
-#layout-main div.timeline_all div..liststate_stalled a, 
+#layout-main div.timeline_all div.liststate_stalled a, 
 #layout-main table.filelist tr.deprecated {
 background-color: #FAE7E7 }
 
@@ -1000,7 +1000,7 @@ border-right: 1px solid #EEE }
 color: #7e8072;
 background: #DCF4FC }
 
-#layout-main div.timeline_all div..liststate_completed a {
+#layout-main div.timeline_all div.liststate_completed a {
 background-color: #DFF5D0 }
 
 	#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_completed a {

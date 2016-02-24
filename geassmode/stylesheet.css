@@ -89,8 +89,8 @@ body.nonav {
 /* COLOR HIGHLIGHTNING */
 #layout-content table.animelist tr.complete td,
 #layout-content table.stafflist tr.complete td,
-#layout-main div.timeline_all div..collecting,
-#layout-main div.timeline_all div..stalled,
+#layout-main div.timeline_all div.collecting,
+#layout-main div.timeline_all div.stalled,
 #layout-main table tr.mylist,
 #layout-main table tr.g_odd.mylist,
 #layout-main div.forum .g_bubble.infobox div.bar, 
@@ -117,7 +117,7 @@ background-color:#C6DEFF;
 #layout-content table.animelist tr.all_watched td, 
 #layout-content table.stafflist tr.all_watched td, 
 #layout-main div.ed2kdump_all table.filelist .in,
-#layout-main div.timeline_all div..completed,
+#layout-main div.timeline_all div.completed,
 #layout-main table tr.mylist.all_watched.collecting,
 .g_bubble.stripe.mylist.all_watched
 {

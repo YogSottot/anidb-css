@@ -800,7 +800,7 @@ background-image: url(images/greenpixel.png);
 #layout-content div.group_all tr.invalid td,
 #layout-content div.ep_all tr.invalid td,
 #layout-content div.mydb_all tr.lame td,
-#layout-main div.timeline_all div..dropped
+#layout-main div.timeline_all div.dropped
 {
 background-image: url(images/badredpixel.png);
 }
@@ -1928,19 +1928,19 @@ padding: 1px;
 }
 #layout-content table.animelist tr.mylist td,
 .g_bubble.stripe.mylist,
-#layout-main div.timeline_all div..watching
+#layout-main div.timeline_all div.watching
 {
 background-image: url(images/orangepixel.png);
 }
 #layout-content table.animelist tr.complete td,
 .g_bubble.stripe.mylist.complete,
-#layout-main div.timeline_all div..stalled
+#layout-main div.timeline_all div.stalled
 {
 background-image: url(images/bluepixel.png);
 }
 #layout-content table.animelist tr.all_watched td,
 .g_bubble.stripe.mylist.all_watched,
-#layout-main div.timeline_all div..completed
+#layout-main div.timeline_all div.completed
 {
 background-image: url(images/greenpixel.png);
 }
