@@ -69,7 +69,6 @@ th a, h1 a, h1 a.shortlink {
 #layout-main div.group_released table tr.g_odd.mylist:not(.liststate_dropped),
 #layout-main table.animelist tr.g_odd.mylist:not(.liststate_dropped),
 #layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.g_odd.mylist:not(.liststate_dropped) td, /* deprecated? */
-#layout-main div.timeline_all div.timeline ul.row.g_odd li:not(.liststate_dropped) a:not(.name-colored),
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist:not(.liststate_dropped),
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist:not(.liststate_dropped),
 .g_odd.g_bubble.stripe.mylist:not(.liststate_dropped),
@@ -99,7 +98,6 @@ th a, h1 a, h1 a.shortlink {
 #layout-main div.myvotes_all table tr.g_odd td.low,
 #layout-main div.addcreatoranimerel_all tr.right_only,
 #layout-main div.addcreatorsongrel_all tr.right_only,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a,
 #layout-main table.filelist tr.g_odd.deprecated,
 #layout-main table.filelist tr.g_odd.invalid,
 #layout-main table.file.entities tr.g_odd.deprecated,
@@ -160,7 +158,6 @@ th a, h1 a, h1 a.shortlink {
 #layout-main div.group_released table tr.g_odd.mylist:not(.liststate_dropped) a:not(.name-colored),
 #layout-main table.animelist tr.g_odd.mylist:not(.liststate_dropped) a:not(.name-colored),
 #layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.g_odd.mylist:not(.liststate_dropped) td a:not(.name-colored), /* deprecated? */
-#layout-main div.timeline_all div.timeline ul.row.g_odd li:not(.liststate_dropped) a:not(.name-colored),
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist:not(.liststate_dropped) a:not(.name-colored),
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist:not(.liststate_dropped) a:not(.name-colored),
 .g_odd.g_bubble.stripe.mylist:not(.liststate_dropped) a:not(.name-colored),
@@ -190,7 +187,6 @@ th a, h1 a, h1 a.shortlink {
 #layout-main div.myvotes_all table tr.g_odd td.low a:not(.name-colored),
 #layout-main div.addcreatoranimerel_all tr.right_only a:not(.name-colored),
 #layout-main div.addcreatorsongrel_all tr.right_only a:not(.name-colored),
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.stalled a a:not(.name-colored),
 #layout-main table.filelist tr.g_odd.deprecated a:not(.name-colored),
 #layout-main table.filelist tr.g_odd.invalid a:not(.name-colored),
 #layout-main table.file.entities tr.g_odd.deprecated a:not(.name-colored),

@@ -251,14 +251,13 @@ background-color: #EEE }
 	#layout-main .mylist.liststate_collecting,
 	#layout-main table.animelist .liststate_collecting,
 	#layout-main table.wishlist .liststate_collecting,
-	#layout-main div.timeline_all div.liststate_collecting a,
+	#layout-main div.timeline_all div.liststate_collecting,
 	.g_bubble.box.mylist.liststate_collecting > div.top {
 	background-color: #E2F5FF !important }
 
 		#layout-main .mylist.g_odd.liststate_collecting,
 		#layout-main table.animelist .g_odd.liststate_collecting,
 		#layout-main table.wishlist .g_odd.liststate_collecting,
-		#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_collecting a,
 		.g_odd.g_bubble.box.mylist.liststate_collecting > div.top,
 		#layout-main .g_odd .mylist.liststate_collecting {
 		background-color: #D7F0FC !important }
@@ -269,14 +268,13 @@ background-color: #EEE }
 	#layout-main .mylist.liststate_watching,
 	#layout-main table.animelist .liststate_watching,
 	#layout-main table.wishlist .liststate_watching,
-	#layout-main div.timeline_all div.liststate_watching a,
+	#layout-main div.timeline_all div.liststate_watching,
 	.g_bubble.box.mylist.liststate_watching > div.top {
 	 background-color: #DCF5DF !important }
 
 		#layout-main .mylist.g_odd.liststate_watching,
 		#layout-main table.animelist .g_odd.liststate_watching,
 		#layout-main table.wishlist .g_odd.liststate_watching,
-		#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_watching a,
 		.g_odd.g_bubble.box.mylist.liststate_watching > div.top,
 		#layout-main .g_odd .mylist.liststate_watching {
 		background-color: #CCEDD0 !important }
@@ -287,14 +285,13 @@ background-color: #EEE }
 	#layout-main .mylist.liststate_stalled,
 	#layout-main table.animelist .liststate_stalled,
 	#layout-main table.wishlist .liststate_stalled,
-	#layout-main div.timeline_all div.liststate_stalled a,
+	#layout-main div.timeline_all div.liststate_stalled,
 	.g_bubble.box.mylist.liststate_stalled > div.top {
 	background-color: #FFEDC4 !important }
 
 		#layout-main .mylist.g_odd.liststate_stalled,
 		#layout-main table.animelist .g_odd.liststate_stalled,
 		#layout-main table.wishlist .g_odd.liststate_stalled,
-		#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a,
 		.g_odd.g_bubble.box.mylist.liststate_stalled > div.top,
 		#layout-main .g_odd .mylist.liststate_stalled { 
 		background-color: #F9DFA5 !important }
@@ -762,7 +759,7 @@ background-color: #f9f9f9 }
 #layout-main div.myvotes_all table tr td.low, 
 #layout-main div.addcreatoranimerel_all tr.left_only, 
 #layout-main div.addcreatorsongrel_all tr.left_only, 
-#layout-main div.timeline_all div.liststate_stalled a, 
+#layout-main div.timeline_all div.liststate_stalled, 
 #layout-main table.filelist tr.deprecated {
 background-color: #FAE7E7 }
 
@@ -774,7 +771,6 @@ background-color: #DCF4FC }
 #layout-main div.myvotes_all table tr.g_odd td.low, 
 #layout-main div.addcreatoranimerel_all tr.right_only, 
 #layout-main div.addcreatorsongrel_all tr.right_only, 
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a, 
 #layout-main table.filelist tr.g_odd.deprecated, 
 #layout-main table.filelist tr.g_odd.invalid {
 background-color: #EED9D9 }
@@ -1002,9 +998,6 @@ background: #DCF4FC }
 
 #layout-main div.timeline_all div.liststate_completed a {
 background-color: #DFF5D0 }
-
-	#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_completed a {
-	background-color: #D7E9CB }
 
 
 /* Tooltip */

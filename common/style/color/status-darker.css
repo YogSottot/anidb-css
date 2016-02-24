@@ -4,7 +4,7 @@
 #layout-main div.myvotes_all table tr td.low,
 #layout-main div.addcreatoranimerel_all tr.left_only,
 #layout-main div.addcreatorsongrel_all tr.left_only,
-#layout-main div.timeline_all div.liststate_stalled a,
+#layout-main div.timeline_all div.liststate_stalled,
 #layout-main table.filelist tr.deprecated,
 #layout-main table.filelist tr.invalid,
 #layout-main table.file.entities tr.deprecated,
@@ -14,7 +14,6 @@
 
 #layout-main .different,
 #layout-main div.myvotes_all table tr.g_odd td.low,
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a,
 #layout-main table.filelist tr.g_odd.deprecated,
 #layout-main table.filelist tr.g_odd.invalid,
 #layout-main table.file.entities tr.g_odd.deprecated,
@@ -52,7 +51,7 @@
 #layout-main div.addcreatorsongrel_all tr.identical,
 #layout-main table.animelist tr.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td, /* deprecated? */
-#layout-main div.timeline_all div.liststate_completed a,
+#layout-main div.timeline_all div.liststate_completed,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
 .g_bubble.box.mylist > div.top {
@@ -82,8 +81,7 @@
 #layout-main div.animelist_all table tr.g_odd.mylist,
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
-#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_completed a {
+#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td {
 	background-color:#324732;
 }
 
@@ -92,7 +90,7 @@
 	background-color:#324732;
 }
 
-#layout-main div.timeline_all div.liststate_dropped a,
+#layout-main div.timeline_all div.liststate_dropped,
 #layout-main table.filelist tr.generic,
 #layout-main table.file.entities tr.generic {
 	background-color:#444444;
@@ -118,9 +116,9 @@
 #layout-main div.anime_all div.tabbed_pane_main table,
 #layout-main div.animelist_all table,
 #layout-main div.addcreatoranimerel_all table,
-#layout-main div.timeline_all div.liststate_stalled a,
-#layout-main div.timeline_all div.liststate_completed a,
-#layout-main div.timeline_all div.liststate_dropped a {
+#layout-main div.timeline_all div.liststate_stalled,
+#layout-main div.timeline_all div.liststate_completed,
+#layout-main div.timeline_all div.liststate_dropped {
 	color:#C0C0C0;
 }
 
