@@ -40,7 +40,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main div.animelist_all table tr.mylist,
 #layout-main div.group_released table tr.mylist,
 #layout-main table.animelist tr.mylist,
-#layout-main div.timeline_all div,
+#layout-main div.timeline_all div.timeline_entry,
 #layout-main div:not(.ed2kdump_all) tr td.mylist,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
