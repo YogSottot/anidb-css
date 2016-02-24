@@ -1,4 +1,4 @@
-div.g_timeline {
+/*div.g_timeline {
 	margin:30px auto;
 	overflow:scroll;
 	max-height:700px;
@@ -49,3 +49,13 @@ div.g_timeline ul.row {
 		display:block;
 		overflow:hidden;
 	}
+*/
+
+#layout-main div.timeline_all div.timeline_entry {
+	padding: 0.5em;
+}
+
+#layout-main div.timeline_all .vis-item.vis-range .vis-item-content {
+	padding: 0;
+	width:100%;
+}
