@@ -1,0 +1,9 @@
+@import "vis/vis.min.css";
+
+.vis-active {
+	box-shadow: 0 0 3px #BBBBBB;
+}
+
+.vis-item.vis-range {
+	min-width: 5px;
+}
