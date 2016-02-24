@@ -27,7 +27,7 @@ odd = dark
 #layout-main div.addcreatorsongrel_all tr.identical,
 #layout-main table.animelist tr.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,  /* deprecated? */
-#layout-main div.timeline_all div.timeline ul.row li.liststate_completed a,
+#layout-main div.timeline_all div..liststate_completed a,
 #layout-main div:not(.ed2kdump_all) tr td.mylist,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
@@ -69,7 +69,7 @@ odd = dark
 #layout-main div.myvotes_all table tr td.low,
 #layout-main div.addcreatoranimerel_all tr.left_only,
 #layout-main div.addcreatorsongrel_all tr.left_only,
-#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a,
+#layout-main div.timeline_all div..liststate_stalled a,
 #layout-main table.filelist tr.deprecated,
 #layout-main table.filelist tr.invalid,
 #layout-main table.file.entities tr.deprecated,
