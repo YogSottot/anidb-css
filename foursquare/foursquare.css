@@ -38,7 +38,6 @@ Green: #689a4a / Light: #EEF8EA
 @import "../common/style/color/msgbox-default.css";
 @import "../common/style/color/forum-default.css";
 @import "../common/style/color/special.css";
-@import "../common/style/color/timeline-default.css";
 @import "../common/style/color/status-creme.css";
 @import "../common/style/color/similar-anime-default.css";
 
@@ -973,26 +972,7 @@ margin: 10px 0 }
 
 /* Timeline */
 
-#layout-main div.timeline_all div.timeline div.g_timeline { 
-border-radius: 2px;
--moz-border-radius: 2px;
--webkit-border-radius: 2px;
-border: 2px solid #EEE }
-
-#layout-main div.timeline_all div.timeline div.g_timeline,
-#layout-main div.timeline_all div.timeline ul {
-background: #f9f9f9 }
-
-#layout-main div.timeline_all div.timeline ul.legend {
-border-bottom:1px solid #f90 }
-
-#layout-main div.timeline_all div.timeline ul.legend li span {
-color: #7e8072;
-background: white;
-border-bottom: 1px solid #EEE;
-border-right: 1px solid #EEE }
-
-#layout-main div.timeline_all div.timeline li a {
+#layout-main div.timeline_all div.timeline div.timeline_entry {
 color: #7e8072;
 background: #DCF4FC }
 

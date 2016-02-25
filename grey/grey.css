@@ -2590,22 +2590,3 @@ border:1px solid gray;
 {
 background-color:hsla(0, 100%, 100%, 0.4);
 }
-#layout-main div.timeline_all div.timeline ul.legend li span
-{
-border:1px solid grey;
-border-left-width:0;
-}
-#layout-main div.timeline_all div.timeline ul.legend li:first-of-type span
-{
-border-left-width:1px;
-}
-#layout-main div.timeline_all div.g_timeline ul.legend
-{
-margin-bottom:0.5em;
-}
-div.g_timeline
-{
-margin:auto;
-max-height:none;
-overflow:visible;
-}
