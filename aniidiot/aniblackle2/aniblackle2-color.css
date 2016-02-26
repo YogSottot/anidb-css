@@ -678,3 +678,22 @@ button,
 .i_video_1080 {
 	background-color: #8A56AA;
 }
+
+/*timeline*/
+#layout-main div.timeline_all .vis-panel.vis-top,
+#layout-main div.timeline_all .vis-panel.vis-bottom {
+	background-color: #444444;
+}
+
+#layout-main div.timeline_all .vis-panel.vis-top .vis-time-axis .vis-text,
+#layout-main div.timeline_all .vis-panel.vis-bottom .vis-time-axis .vis-text {
+	color: #DDDDDD;
+}
+
+#layout-main div.timeline_all .vis-time-axis .vis-grid.vis-minor {
+	border-color: #777777;
+}
+
+#layout-main div.timeline_all .vis-time-axis .vis-grid.vis-major {
+	border-color: #666666;
+}
