@@ -7,3 +7,12 @@
 .vis-item.vis-range {
 	min-width: 5px;
 }
+
+.vis-center>.vis-content {
+	overflow: auto;
+	height: 100%;
+}
+
+.vis-current-time {
+	z-index:0;
+}
