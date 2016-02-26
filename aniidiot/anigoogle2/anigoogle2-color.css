@@ -658,9 +658,9 @@ input[type="text"]:disabled,
 }
 
 .vis-time-axis .vis-grid.vis-minor {
-	border-color: #CCCCCC;
+	border-color: #DDDDDD;
 }
 
 .vis-time-axis .vis-grid.vis-major {
-	border-color: #DDDDDD;
+	border-color: #CCCCCC;
 }

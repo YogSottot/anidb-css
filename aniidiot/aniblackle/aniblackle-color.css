@@ -531,9 +531,9 @@ input[type="button"] {
 }
 
 #layout-main div.timeline_all .vis-time-axis .vis-grid.vis-minor {
-	border-color: #777777;
+	border-color: #666666;
 }
 
 #layout-main div.timeline_all .vis-time-axis .vis-grid.vis-major {
-	border-color: #666666;
+	border-color: #777777;
 }
