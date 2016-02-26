@@ -20,6 +20,10 @@
 	width:6em;
 }
 
+#layout-main div.mywishlist_all tr td.action {
+	min-width:5em;
+}
+
 #layout-main div.mywishlist_all tr td.nfy,
 #layout-main div.mywishlist_all tr td.priority,
 #layout-main div.mywishlist_all tr td.releaseinfo,

@@ -697,3 +697,13 @@ button,
 #layout-main div.timeline_all .vis-time-axis .vis-grid.vis-major {
 	border-color: #777777;
 }
+
+/*stroke around the wishlist icons*/
+.i_tv_special::before,
+.i_wishlist_blacklist::before,
+.i_wishlist_buddy::before,
+.i_wishlist_toget::before,
+.i_wishlist_towatch::before,
+.i_wishlist_undefined::before {
+	text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
