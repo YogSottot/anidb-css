@@ -616,3 +616,22 @@ li + li.g_odd,
 #layout-main div.anime_all div.data table.relationlist tr {
 	background-color: inherit;
 }
+
+/*timeline*/
+#layout-main div.timeline_all .vis-panel.vis-top,
+#layout-main div.timeline_all .vis-panel.vis-bottom {
+	background-color: #34394D;
+}
+
+#layout-main div.timeline_all .vis-panel.vis-top .vis-time-axis .vis-text,
+#layout-main div.timeline_all .vis-panel.vis-bottom .vis-time-axis .vis-text {
+	color: #CCCCCC;
+}
+
+#layout-main div.timeline_all .vis-time-axis .vis-grid.vis-minor {
+	border-color: #CCCCCC;
+}
+
+#layout-main div.timeline_all .vis-time-axis .vis-grid.vis-major {
+	border-color: #DDDDDD;
+}

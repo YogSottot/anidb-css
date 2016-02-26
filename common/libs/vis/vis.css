@@ -16,3 +16,17 @@
 .vis-current-time {
 	z-index:0;
 }
+
+.vis-time-axis .vis-grid.vis-major,
+.vis-time-axis .vis-grid.vis-minor {
+	z-index:1;
+}
+
+.vis-item.vis-range {
+	z-index: 2;
+}
+
+.vis-panel.vis-top .vis-time-axis .vis-text,
+.vis-panel.vis-bottom .vis-time-axis .vis-text {
+	font-weight: bold;
+}
