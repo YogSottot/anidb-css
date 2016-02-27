@@ -35,6 +35,7 @@
 .i_general_history,
 .i_top,
 .i_help,
+.i_info,
 .i_vote,
 .i_revote,
 .i_group_comment,
@@ -95,6 +96,7 @@
 .i_general_history,
 .i_top,
 .i_help,
+.i_info,
 .i_vote,
 .i_revote,
 .i_group_comment,
@@ -396,6 +398,7 @@ button.preview:before {
 .i_general_history,
 .i_top,
 .i_help,
+.i_info,
 .i_vote,
 .i_revote,
 .i_group_comment,
@@ -449,6 +452,7 @@ button.preview:before {
 	content: "\f087";
 	cursor:pointer;
 }
+.i_info:after,
 .i_help:after {
 	content: "\f05a";
 	cursor:pointer;

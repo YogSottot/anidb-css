@@ -72,6 +72,7 @@
 	width:16px;
 }
 
+*.i_info,
 *.i_general_static {
 	background-image:url(../icons/silk/general_static.png);
 	height:16px;
