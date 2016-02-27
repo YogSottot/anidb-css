@@ -6,3 +6,7 @@
 .select2-container .select2-dropdown {
 	z-index: 10000;
 }
+
+.select2-results__option {
+	padding: 2px 4px;
+}
