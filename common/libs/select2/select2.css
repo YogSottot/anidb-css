@@ -4,5 +4,5 @@
 
 /*handle fancybox overlay*/
 .select2-container {
-	z-index: 1001;
+	z-index: 10000;
 }
