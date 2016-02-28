@@ -83,6 +83,9 @@ body.nonav #layout-main h1 {
 	float: right;
 }
 
+
+
+#layout-main .g_bubble.stripe .name span.icons.tooltip,
 #layout-main div table td.name span.icons.tooltip,
 #layout-main div table td.title span.icons.language {
 	float:left;
