@@ -402,3 +402,10 @@
 #jmaf_animation2016 { background-image: url(../icons/awards/anidb_jmaf_animation2016.png); }
 #jmaf_animation2017 { background-image: url(../icons/awards/anidb_jmaf_animation2017.png); }
 
+/* The Oscars - Academy Award for Best Animated Feature Film */
+#oscars_feature2003 { background-image: url(../icons/awards/anidb_oscars_feature2003.png); }
+
+/* The Oscars - Academy Award for Best Animated Short Film */
+#oscars_short2000 { background-image: url(../icons/awards/anidb_oscars_short2000.png); }
+#oscars_short2009 { background-image: url(../icons/awards/anidb_oscars_short2009.png); }
+
