@@ -182,3 +182,8 @@
 .i_ext span {
 	display: none !important;
 }
+
+/*supplementary subtitles*/
+.i_flag.supplementary {
+	opacity: 0.4;
+}
