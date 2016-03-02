@@ -31,10 +31,9 @@
 	width:1em;
 }
 
-#layout-main div.mywishlist_all .whistlist_edit {
-	margin-top: 1em;
+#layout-main div.mywishlist_all .whistlist_edit .g_definitionlist.edit {
+	margin: 2em 0;
 }
-
 
 #layout-main div.mywishlist_all .whistlist_edit .options label {
 	display:block;
