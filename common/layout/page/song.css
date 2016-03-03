@@ -12,3 +12,7 @@
 #layout-main div.song_all div.info table th {
 	width:10em;
 }
+
+#layout-main div.song_all  table.stafflist td.creator > a {
+	display: block;
+}

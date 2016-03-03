@@ -14,3 +14,7 @@
 #layout-main div.collection_all div.tracks div.medium td.credit {
 	width: 20em;
 }
+
+#layout-main div.collection_all  table.tracklist td.creator > a {
+	display: block;
+}
