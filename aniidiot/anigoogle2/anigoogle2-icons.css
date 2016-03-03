@@ -538,7 +538,12 @@ button.preview:before {
 .i_wishlist_towatch:after,
 .i_wishlist_undefined:after {
 	content: "\f016";
-	cursor:default;
+	cursor: default;
+}
+
+.i_stats:after {
+	content: "\f080";
+	cursor: pointer;
 }
 
 /*image only - no text*/
