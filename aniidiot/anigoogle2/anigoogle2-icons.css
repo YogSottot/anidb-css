@@ -10,6 +10,7 @@
 	display: inline;
 }
 
+.i_stats,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -71,6 +72,7 @@
 	background-image: none !important;
 }
 
+.i_stats,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -373,6 +375,7 @@ button.preview:before {
 }
 
 /*image only - no text*/
+.i_stats,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
