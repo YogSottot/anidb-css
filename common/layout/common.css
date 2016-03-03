@@ -92,6 +92,12 @@ body.nonav #layout-main h1 {
 	padding-right: 0.3em;
 }
 
+#layout-main .g_bubble.stripe .name span.icons.tooltip {
+    display: inline-block;
+    float: none;
+    width: 16px;
+}
+
 #layout-main .icons .i_icon,
 #layout-main div.group_released tr td.languages span.i_icon,
 #layout-main div.anime_all div.groups td.languages span.i_icon,

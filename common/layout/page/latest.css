@@ -35,6 +35,10 @@
 	white-space:nowrap;
 }
 
+#layout-main div.latest2_all div.files div.content td.action {
+	text-align:left;
+}
+
 #layout-main div.latest2_all div.files .i_icon:not(.i_expanded):not(.i_collapsed) {
 	float: none;
 }
