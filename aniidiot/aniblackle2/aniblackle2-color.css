@@ -401,8 +401,7 @@ tr + tr th,
 	border-top-color: #555555;
 }
 
-#layout-main #stafflist2,
-#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td,
 #layout-search ul.quicksearch li + li {
 	border-top-color: #888888 !important;

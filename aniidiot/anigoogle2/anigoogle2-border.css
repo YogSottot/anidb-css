@@ -109,6 +109,6 @@ table li+li,
 	border-top: 1px solid !important;
 }
 
-#layout-main div.anime_all #stafflist1 + #stafflist2 {
-	border-top: 2px solid !important;
+#layout-main div.anime_all .staffblock + .staffblock table {
+	border-top: 1px double !important;
 }

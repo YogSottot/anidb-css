@@ -193,7 +193,7 @@ input[type="submit"]:hover,
 	border-right-color: #666666;
 }
 
-#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td {
 	border-top-color: #777777;
 }

@@ -86,7 +86,7 @@ table th.sortable:hover:not(.sorter-false),
 	border-color: #34394D;
 }
 
-#layout-main #stafflist2 {
+#layout-main div.anime_all .staffblock + .staffblock table {
 	border-color: #34394D !important;
 }
 

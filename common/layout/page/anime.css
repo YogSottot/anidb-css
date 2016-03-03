@@ -200,7 +200,3 @@
 #layout-main div.anime_all table.songlist td.creator > a {
 	display: block;
 }
-
-#layout-main div.anime_all #stafflist1 + #stafflist2 {
-	border-top: 2px solid;
-}
