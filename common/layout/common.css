@@ -91,6 +91,7 @@ body.nonav #layout-main h1 {
 #layout-main div table td.name span.icons.tooltip,
 #layout-main .g_bubble.stripe .name span.icons.tooltip {
     display: inline-block;
+    vertical-align: bottom;
     float: none;
     width: 16px;
 	padding-right: 0.3em;
