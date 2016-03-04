@@ -5,3 +5,7 @@
 #layout-main div.anime_all div.groups td.mylist:after {
 	content: " *";
 }
+
+tr.rating td.value span.myvote:before {
+	content: ", ";
+}
