@@ -120,6 +120,7 @@ img, a
 	border:none;
 }
 
+#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td
 {

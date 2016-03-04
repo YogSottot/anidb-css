@@ -331,6 +331,7 @@ background-color:hsla(0, 100%, 25%, 0.4);
 {
 opacity:0.5;
 }
+#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td
 {

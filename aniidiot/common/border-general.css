@@ -68,7 +68,6 @@ tr + tr th,
 #layout-main div.myvotes_all td+td,
 #layout-main div.mywishlist_all tr td+td,
 #layout-main div.animelist_all tr td+td,
-#layout-main div.lexicon_all table.animelist tr td+td,
 #layout-main div.mynotifies_all tr td+td,
 #layout-main div.mydb_all table tr td + td,
 #layout-main div.modlatest_all table tr td + td,
@@ -78,6 +77,7 @@ tr + tr th,
 	border-left: 1px solid;
 }
 
+#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td {
 	border-top: 2px dotted;

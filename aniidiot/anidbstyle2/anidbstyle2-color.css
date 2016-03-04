@@ -582,8 +582,8 @@ li + li.g_odd,
 	border-top-color: #454959;
 }
 
-#layout-main div.anime_all div.staffblock + div.staffblock table,
-#layout-main div.ep_all div.staffblock + div.staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
+#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td {
 	border-top-color: #34394D;
 }
