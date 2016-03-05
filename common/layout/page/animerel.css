@@ -1,3 +1,11 @@
+#layout-main div.rel_all table.animelist tr td {
+	min-width: 5em;
+}
+
+#layout-main div.rel_all table.animelist tr td.type {
+	white-space: nowrap;
+}
+
 #layout-main div.rel_all table.animelist tr td.name {
 	width:50%;
 }
