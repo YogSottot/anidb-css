@@ -5,6 +5,7 @@
 #layout-main div.rel_all table.animelist tr td.relation,
 #layout-main div.rel_all table.animelist tr td.type {
 	white-space: nowrap;
+	text-align: center;
 }
 
 #layout-main div.rel_all table.animelist tr td.name {
