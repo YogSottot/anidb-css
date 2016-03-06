@@ -461,7 +461,7 @@ button.preview:before {
 }
 .i_help:after {
 	content: "\f059";
-	cursor:pointer;
+	cursor:help;
 }
 .i_top:after {
 	content: "\f0aa";
