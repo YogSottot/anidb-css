@@ -455,9 +455,12 @@ button.preview:before {
 	content: "\f087";
 	cursor:pointer;
 }
-.i_info:after,
-.i_help:after {
+.i_info:after {
 	content: "\f05a";
+	cursor:pointer;
+}
+.i_help:after {
+	content: "\f059";
 	cursor:pointer;
 }
 .i_top:after {
