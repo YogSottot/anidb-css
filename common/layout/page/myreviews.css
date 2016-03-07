@@ -1,0 +1,11 @@
+#layout-main div.myrecs_all table.animelist {
+	width: 100%;
+}
+
+#layout-main div.myrecs_all table.animelist td {
+	min-width: 5em;
+}
+
+#layout-main div.myrecs_all table.animelist td.name {
+	width: 90%;
+}
