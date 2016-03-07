@@ -7,6 +7,7 @@
 *.i_award_jmaf { background-image: url(../icons/awards/anidb_jmaf.gif); }
 *.i_award_japa { background-image: url(../icons/awards/anidb_japa.gif); }
 *.i_award_apsa { background-image: url(../icons/awards/anidb_apsa.gif); }
+*.i_award_oscars { background-image: url(../icons/awards/anidb_oscars.gif); }
 *.i_award_top10 { background-image: url(../icons/awards/anidb_top10.png); }
 *.i_award_arc2000 { background-image: url(../icons/awards/anidb_arc2000award.gif); }
 *.i_award_arc2001 { background-image: url(../icons/awards/anidb_arc2001award.gif); }
@@ -341,6 +342,7 @@
 /* Asia Pacific Screen Awards - Best Animated Feature Film */
 #apsa2007 { background-image: url(../icons/awards/anidb_apsa2007.png); }
 #apsa2012 { background-image: url(../icons/awards/anidb_apsa2012.png); }
+#apsa2015 { background-image: url(../icons/awards/anidb_apsa2015.png); }
 
 /* Japan Academy Prize Association - Animation of the Year */
 #japa2007 { background-image: url(../icons/awards/anidb_japa2007.png); }
@@ -351,6 +353,9 @@
 #japa2012 { background-image: url(../icons/awards/anidb_japa2012.png); }
 #japa2013 { background-image: url(../icons/awards/anidb_japa2013.png); }
 #japa2014 { background-image: url(../icons/awards/anidb_japa2014.png); }
+#japa2015 { background-image: url(../icons/awards/anidb_japa2015.png); }
+#japa2016 { background-image: url(../icons/awards/anidb_japa2016.png); }
+#japa2017 { background-image: url(../icons/awards/anidb_japa2017.png); }
 
 /* Japan Media Arts Festival - Manga Grand Prize */
 #jmaf_manga1997 { background-image: url(../icons/awards/anidb_jmaf_manga1997.png); }
@@ -371,6 +376,9 @@
 #jmaf_manga2012 { background-image: url(../icons/awards/anidb_jmaf_manga2012.png); }
 #jmaf_manga2013 { background-image: url(../icons/awards/anidb_jmaf_manga2013.png); }
 #jmaf_manga2014 { background-image: url(../icons/awards/anidb_jmaf_manga2014.png); }
+#jmaf_manga2015 { background-image: url(../icons/awards/anidb_jmaf_manga2015.png); }
+#jmaf_manga2016 { background-image: url(../icons/awards/anidb_jmaf_manga2016.png); }
+#jmaf_manga2017 { background-image: url(../icons/awards/anidb_jmaf_manga2017.png); }
 
 /* Japan Media Arts Festival - Animation Grand Prize */
 #jmaf_animation1997 { background-image: url(../icons/awards/anidb_jmaf_animation1997.png); }
@@ -391,4 +399,14 @@
 #jmaf_animation2012 { background-image: url(../icons/awards/anidb_jmaf_animation2012.png); }
 #jmaf_animation2013 { background-image: url(../icons/awards/anidb_jmaf_animation2013.png); }
 #jmaf_animation2014 { background-image: url(../icons/awards/anidb_jmaf_animation2014.png); }
+#jmaf_animation2015 { background-image: url(../icons/awards/anidb_jmaf_animation2015.png); }
+#jmaf_animation2016 { background-image: url(../icons/awards/anidb_jmaf_animation2016.png); }
+#jmaf_animation2017 { background-image: url(../icons/awards/anidb_jmaf_animation2017.png); }
+
+/* The Oscars - Academy Award for Best Animated Feature Film */
+#oscars_feature2003 { background-image: url(../icons/awards/anidb_oscars_feature2003.png); }
+
+/* The Oscars - Academy Award for Best Animated Short Film */
+#oscars_short2000 { background-image: url(../icons/awards/anidb_oscars_short2000.png); }
+#oscars_short2009 { background-image: url(../icons/awards/anidb_oscars_short2009.png); }
 
