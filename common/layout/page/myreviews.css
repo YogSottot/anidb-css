@@ -3,9 +3,13 @@
 }
 
 #layout-main div.myreviews_all table.animelist td {
-	min-width: 5em;
+	min-width: 10em;
 }
 
 #layout-main div.myreviews_all table.animelist td.name {
 	width: 90%;
+}
+
+#layout-main div.myreviews_all table.animelist td.number {
+	text-align: right;
 }
