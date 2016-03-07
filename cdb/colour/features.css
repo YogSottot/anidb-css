@@ -12,10 +12,10 @@
 	Highlight in red any missing char-char and anime-anime relations in the table-fied views
 	* Courtesy of Worf
 */
-#layout-main div.g_content.rel_all td.type.crel.missing,
-#layout-main div.g_content.characterrel_all td.type.crel.missing,
+#layout-main div.g_content.rel_all td.relation.missing,
+#layout-main div.g_content.characterrel_all td.relation.missing,
 #layout-main div.g_content.characterrel_all td.type.ended.missing,
-#layout-main div.g_content.addcharanimerel_all td.type.crel.missing,
+#layout-main div.g_content.addcharanimerel_all td.relation.missing,
 #layout-main div.g_content.addcharanimerel_all td.type.ended.missing
 {
    visibility: visible;
