@@ -232,7 +232,7 @@ h4,
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 17px .3em;
+	margin: 17px .3em 0;
 }
 
 #layout-hint + #layout-nav #layout-menu {
