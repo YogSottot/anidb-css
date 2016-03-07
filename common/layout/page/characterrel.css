@@ -1,7 +1,7 @@
 #layout-main div.characterrel_all table.characterlist tr td {
 	min-width: 5em;
 }
-´
+
 #layout-main div.characterrel_all table.characterlist tr td.relation,
 #layout-main div.characterrel_all table.characterlist tr td.type {
 	white-space: nowrap;
