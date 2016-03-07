@@ -77,7 +77,6 @@
 #layout-main div.addcreatoranimerel_all div.explanation div.description tr + tr td,
 #layout-main div.addcreatorsongrel_all div.explanation div.description tr + tr td {
 	margin-top: 0.25em;
-	padding: 0.25em 0 0.3em;
 }
 
 #layout-main div.addsongcollectionrel_all div.massadd textarea {
