@@ -1,12 +1,15 @@
-#layout-main div.userlist_all table.users {
+#layout-main div.userlist_all table.userlist {
 	width: 100%
 }
 
-#layout-main div.userlist_all table.users td.user a.i_icon {
+#layout-main div.userlist_all table.userlist td.user a.i_icon {
 	float:right;
 }
 
-#layout-main div.userlist_all table.users tr td {
-	padding-left:0.5em;
-	padding-right:0.5em;
+#layout-main div.userlist_all table.userlist tr td {
+	text-align: right
+}
+
+#layout-main div.userlist_all table.userlist tr td.name {
+	text-align: left
 }
