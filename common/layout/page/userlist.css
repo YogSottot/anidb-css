@@ -7,11 +7,11 @@
 }
 
 #layout-main div.userlist_all table.userlist tr td {
-	text-align: right
+	text-align: right;
 	min-width: 5em;
 }
 
 #layout-main div.userlist_all table.userlist tr td.name {
-	text-align: left
+	text-align: left;
 	width: 50%;
 }
