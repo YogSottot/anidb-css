@@ -19,8 +19,7 @@
 }
 #anidb div.block > div.data {
 	margin-right: 1em;
-	min-width: 400px;
-	width: 50%;
+	min-width: 50%;
 }
 #anidb .css_style + p {
 	clear: left;
