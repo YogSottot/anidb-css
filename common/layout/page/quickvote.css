@@ -10,3 +10,7 @@
 #layout-main div.quickvote_all table.votes tr td.new {
 	min-width: 42em;
 }
+
+#layout-main div.quickvote_all table.votes tfoot tr.action td {
+	margin: 1em 0.5em;
+}
