@@ -8,6 +8,7 @@
 @import "../anigoogle2/anigoogle2-text.css";
 @import "../anigoogle2/anigoogle2-icons.css";
 @import "aniblackle2-color.css";
+@import "aniblackle2-icons.css";
 
 #layout-footer:after {
 	content:"design by deridiot inspired by blackle";
