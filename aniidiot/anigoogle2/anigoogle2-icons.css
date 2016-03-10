@@ -10,6 +10,10 @@
 	display: inline;
 }
 
+.i_general_vote_up,
+.i_general_vote_down,
+.i_general_vote_revoke,
+.i_general_revert,
 .i_stats,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
@@ -72,6 +76,10 @@
 	background-image: none !important;
 }
 
+.i_general_vote_up,
+.i_general_vote_down,
+.i_general_vote_revoke,
+.i_general_revert,
 .i_stats,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
@@ -375,6 +383,10 @@ button.preview:before {
 }
 
 /*image only - no text*/
+.i_general_vote_up,
+.i_general_vote_down,
+.i_general_vote_revoke,
+.i_general_revert,
 .i_stats,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
@@ -549,6 +561,21 @@ button.preview:before {
 
 .i_stats:after {
 	content: "\f080";
+	cursor: pointer;
+}
+
+.i_general_vote_revoke:after,
+.i_general_revert:after {
+	content: "\f0e2";
+	cursor: pointer;
+}
+
+.i_general_vote_up:after {
+	content: "\f087";
+	cursor: pointer;
+}
+.i_general_vote_down:after {
+	content: "\f088";
 	cursor: pointer;
 }
 
