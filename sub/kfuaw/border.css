@@ -117,7 +117,7 @@ img, a
 	border-bottom: black 2px solid;
 }
 
-#layout-main div.avatar img
+#layout-main div.avatar .image
 {
 	border: 1px solid #cbd6e5;
 }

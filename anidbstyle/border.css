@@ -25,7 +25,7 @@ img, a
 	margin: 0;
 }
 
-#layout-main div.avatar img,
+#layout-main div.avatar .image,
 #layout-main div.anime_all div.info div.image img
 {
 	border: 1px solid;

@@ -68,7 +68,7 @@ img, a
 	border-top: 1px double #66604d;
 }
 
-#layout-main div.avatar img
+#layout-main div.avatar .image
 {
 	border: 1px solid #8c8673;
 }

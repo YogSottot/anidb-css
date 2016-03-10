@@ -130,10 +130,12 @@ th.s_reverse,
 	background-image: url(../icons/icon/noavatar_black.png);
 	width: 72px;
 	height: 72px;
+	display: block;
 }
 
 .i_noavatar_thumb {
 	background-image: url(../icons/icon/noavatar_thumb_black.png);
 	width: 50px;
 	height: 50px;
+	display: block;
 }

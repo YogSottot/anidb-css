@@ -851,7 +851,7 @@ border-top: 1px lightGrey solid }
 padding: 4px 1px 7px 1px;
 border-bottom: black 2px solid }
 
-#layout-main div.avatar img { border: 1px solid #cbd6e5 }
+#layout-main div.avatar .image { border: 1px solid #cbd6e5 }
 
 #layout-main {
 border-radius: 2px;
