@@ -218,7 +218,8 @@ input[type="submit"]:hover,
 .fancybox-wrap div.g_msg.error,
 #layout-main div.g_msg.error {
 	border-color: #6F1212;
-	background-color: #916A6A;
+	background-color: #704343;
+	color:#DDDDDD;
 }
 
 .fancybox-wrap div.g_msg.warning,
@@ -238,11 +239,6 @@ input[type="submit"]:hover,
 #layout-main div.g_msg.success {
 	border-color: #066506;
 	background-color: #769E76;
-}
-
-.fancybox-wrap div.g_msg.error h3,
-#layout-main div.g_msg.error h3 {
-	color: #6F1212;
 }
 
 .fancybox-wrap div.g_msg.warning h3,
