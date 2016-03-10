@@ -54,8 +54,7 @@
 	#layout-tabs .applet,
 	#layout-tabs .quickvote,
 	#layout-tabs .myreviews,
-	#layout-tabs .myrecs,
-	#layout-tabs . {
-		display: none;
+	#layout-tabs .myrecs {
+		display: none !important;
 	}
 }
