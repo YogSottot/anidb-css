@@ -7,6 +7,10 @@ input[size="10"] {
 	width: 7em;
 }
 
+input[size="15"] {
+	width: 10em;
+}
+
 input[size="50"] {
 	width: 27.5em;
 }
