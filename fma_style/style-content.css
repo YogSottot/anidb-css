@@ -439,13 +439,6 @@ table .g_list {
 margin: 1em 0;
 }
 
-div.animelist_all table.anime_list,
-div.grouplist_all table.group_list,
-div.userlist_all table.users,
-div.producerlist_all table.producer_list {
-width: 100%;
-}
-
 .g_list.filter {
 text-align: right;
 }
@@ -489,20 +482,20 @@ background-image: url(images/buttons/up2.gif);
 }
 
 /* anime list rating */
-div.animelist_all table.anime_list td.rating {
+div.animelist_all table.animelist td.rating {
 color: #aaa;
 }
 
-div.animelist_all table.anime_list td.rating.mid {
+div.animelist_all table.animelist td.rating.mid {
 color: #444;
 }
 
-div.animelist_all table.anime_list td.rating.high {
+div.animelist_all table.animelist td.rating.high {
 color: #000;
 font-weight: bold;
 }
 
-div.animelist_all table.anime_list td.rating.low {
+div.animelist_all table.animelist td.rating.low {
 color: #999;
 }
 
