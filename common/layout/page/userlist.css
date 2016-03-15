@@ -15,3 +15,8 @@
 	text-align: left;
 	width: 50%;
 }
+
+#layout-main div.userlist_all table.userlist tr td.cnt,
+#layout-main div.userlist_all table.userlist tr td.size {
+	white-space: nowrap;
+}
