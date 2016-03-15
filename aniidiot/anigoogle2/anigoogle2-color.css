@@ -649,17 +649,3 @@ input[type="text"]:disabled,
 .ajax-file-upload:hover {
 	opacity: 0.6;
 }
-
-/*timeline*/
-.vis-panel.vis-top,
-.vis-panel.vis-bottom {
-	background-color: #F8F8F8;
-}
-
-.vis-time-axis .vis-grid.vis-minor {
-	border-color: #DDDDDD;
-}
-
-.vis-time-axis .vis-grid.vis-major {
-	border-color: #CCCCCC;
-}

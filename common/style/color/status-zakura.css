@@ -4,7 +4,7 @@
 #layout-main div.myvotes_all table tr td.low,
 #layout-main div.addcreatoranimerel_all tr.left_only,
 #layout-main div.addcreatorsongrel_all tr.left_only,
-#layout-main div.timeline_all div.liststate_stalled,
+#layout-main div.timeline_all .liststate_stalled,
 #layout-main table.filelist tr.deprecated,
 #layout-main table.filelist tr.invalid,
 #layout-main table.file.entities tr.deprecated,
@@ -16,6 +16,7 @@
 #layout-main div.myvotes_all table tr.g_odd td.low,
 #layout-main div.addcreatoranimerel_all tr.right_only,
 #layout-main div.addcreatorsongrel_all tr.right_only,
+#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_stalled,
 #layout-main table.filelist tr.g_odd.deprecated,
 #layout-main table.filelist tr.g_odd.invalid,
 #layout-main table.file.entities tr.g_odd.deprecated,
@@ -49,7 +50,7 @@
 #layout-main div.addcreatorsongrel_all tr.identical,
 #layout-main table.animelist tr.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td, /* deprecated? */
-#layout-main div.timeline_all div.liststate_completed,
+#layout-main div.timeline_all .liststate_completed,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
 .g_bubble.box.mylist > div.top {
@@ -80,7 +81,8 @@
 #layout-main div.animelist_all table tr.g_odd.mylist,
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
-#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td {
+#layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td,
+#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed {
 	background-color:#f0ffe3;
 }
 
@@ -94,7 +96,7 @@
 	background-color:#F8F8F8;
 }
 
-#layout-main div.timeline_all div.liststate_dropped,
+#layout-main div.timeline_all .liststate_dropped,
 #layout-main div.addcreatoranimerel_all tr.same_name,
 #layout-main div.addcreatorsongrel_all tr.same_name,
 #layout-main div.addsongcollectionrel_all tr.same_name,

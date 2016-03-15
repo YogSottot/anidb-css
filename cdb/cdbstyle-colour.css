@@ -27,7 +27,7 @@ odd = dark
 #layout-main div.addcreatorsongrel_all tr.identical,
 #layout-main table.animelist tr.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.mylist td,  /* deprecated? */
-#layout-main div.timeline_all div.liststate_completed,
+#layout-main div.timeline_all .liststate_completed,
 #layout-main div:not(.ed2kdump_all) tr td.mylist,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
 .g_bubble.stripe.mylist,
@@ -53,6 +53,7 @@ odd = dark
 #layout-main div.group_released table tr.g_odd.mylist,
 #layout-main table.animelist tr.g_odd.mylist,
 #layout-main div.latestanimes_all div.g_section.mylist tr.g_odd.mylist td, /* deprecated? */
+#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed,
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist,
 .g_odd.g_bubble.stripe.mylist,
@@ -68,7 +69,7 @@ odd = dark
 #layout-main div.myvotes_all table tr td.low,
 #layout-main div.addcreatoranimerel_all tr.left_only,
 #layout-main div.addcreatorsongrel_all tr.left_only,
-#layout-main div.timeline_all div.liststate_stalled,
+#layout-main div.timeline_all .liststate_stalled,
 #layout-main table.filelist tr.deprecated,
 #layout-main table.filelist tr.invalid,
 #layout-main table.file.entities tr.deprecated,
@@ -81,6 +82,7 @@ odd = dark
 #layout-main div.myvotes_all table tr.g_odd td.low,
 #layout-main div.addcreatoranimerel_all tr.right_only,
 #layout-main div.addcreatorsongrel_all tr.right_only,
+#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_stalled,
 #layout-main table.filelist tr.g_odd.deprecated,
 #layout-main table.filelist tr.g_odd.invalid,
 #layout-main table.file.entities tr.g_odd.deprecated,

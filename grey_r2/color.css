@@ -25,7 +25,7 @@ tr > th,
 #layout-main div.news h4,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.blog h4,
-#layout-main div.timeline_all div.liststate_dropped
+#layout-main div.timeline_all .liststate_dropped
 {
 background-color:hsla(0, 100%, 25%, 0.4);
 }
@@ -99,6 +99,7 @@ div.g_bubble.quotebody div.quote div.g_odd,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.g_bubble.quotebody div.quoteof,
 #layout-footer,
+#layout-main div.timeline_all div.timeline ul.legend li span,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.block,
 #layout-main div.pane.default_languages div.titles tr:nth-of-type(2n+1) > *
 {
@@ -106,7 +107,7 @@ background-color:hsla(0, 0%, 0%, 0.4);
 }
 #layout-content table.animelist tr.mylist td,
 #layout-content table.stafflist tr.mylist td,
-#layout-main div.timeline_all div.liststate_watching,
+#layout-main div.timeline_all .liststate_watching,
 .g_bubble.stripe.mylist
 {
 background-color:hsla(34, 95%, 44%, 0.4);
@@ -114,7 +115,7 @@ background-color:hsla(34, 95%, 44%, 0.4);
 #layout-content table.animelist tr.complete td,
 #layout-content table.stafflist tr.complete td,
 #layout-main div.forum .g_bubble.infobox div.bar,
-#layout-main div.timeline_all div.liststate_stalled,
+#layout-main div.timeline_all .liststate_stalled,
 .g_bubble.stripe.mylist.complete
 {
 background-color:hsla(207, 86%, 44%, 0.4);
@@ -133,7 +134,7 @@ background-color:hsla(207, 86%, 44%, 0.4);
 #layout-content table.animelist tr.all_watched td,
 #layout-content table.stafflist tr.all_watched td,
 #layout-content #layout-main div.ed2kdump_all table.filelist .in,
-#layout-main div.timeline_all div.liststate_completed,
+#layout-main div.timeline_all .liststate_completed,
 .g_bubble.stripe.mylist.all_watched
 {
 background-color:hsla(127, 54%, 25%, 0.6);
@@ -311,7 +312,7 @@ tr:hover > td,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
 #layout-main div.tabbed_pane div.pane table tr:hover > td,
-#layout-main div.timeline_all div.:hover,
+#layout-main div.timeline_all .timeline_entry:hover,
 ul.contribute li:hover
 {
 background-image:url(../grey/images/whitepixel.png);
@@ -413,6 +414,25 @@ background-color:hsla(0, 0%, 10%, 0.4);
 #layout-main div.userpage_all div.charts div.mylisthistory div.image
 {
 background-color:hsla(0, 100%, 100%, 0.4);
+}
+#layout-main div.timeline_all div.timeline ul.legend li span
+{
+border:1px solid grey;
+border-left-width:0;
+}
+#layout-main div.timeline_all div.timeline ul.legend li:first-of-type span
+{
+border-left-width:1px;
+}
+#layout-main div.timeline_all div.g_timeline ul.legend
+{
+margin-bottom:0.5em;
+}
+div.g_timeline
+{
+margin:auto;
+max-height:none;
+overflow:visible;
 }
 #layout-content div.mylist_list table.animelist tr.liststate_watching td
 {

@@ -762,17 +762,3 @@ select option {
 select option[value="0"] {
 	color:#B14C7C;
 }
-
-/*timeline*/
-.vis-panel.vis-top,
-.vis-panel.vis-bottom {
-	background-color: #f8f7ff;
-}
-
-.vis-time-axis .vis-grid.vis-minor {
-	border-color: #EEEEEE;
-}
-
-.vis-time-axis .vis-grid.vis-major {
-	border-color: #DDDDDD;
-}
