@@ -1,7 +1,6 @@
 div.g_timeline {
-	margin:30px auto;
-	overflow:scroll;
-	max-height:700px;
+	overflow:auto;
+	height: 750px;
 }
 div.g_timeline ul {
 	white-space:nowrap;
