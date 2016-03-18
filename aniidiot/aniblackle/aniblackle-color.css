@@ -6,7 +6,7 @@ textarea,
 html,
 #layout-main div.mylist_list tr.all_watched td.stats,
 *.g_button a,
-#layout-main table ul li.g_odd,
+#anidb table ul li.g_odd,
 #layout-main table table td.g_odd,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.main_all div.datablocks h4,
@@ -36,7 +36,7 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored:hover,
 .g_bubble .name-colored:hover,
-a.tooltip span.text,
+.tooltip span.text,
 #imagepreview,
 #layout-main div.search_all div.suggestions span:hover {
 	color: #FFFFFF;
@@ -79,7 +79,7 @@ span.g_odd,
 div.g_odd,
 .g_bubble.g_odd,
 .g_bubble,
-a.tooltip > span.text.g_bubble,
+.tooltip > span.text.g_bubble,
 .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
@@ -193,7 +193,8 @@ input[type="submit"]:hover,
 	border-right-color: #666666;
 }
 
-#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.ep_all .staffblock + .staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td {
 	border-top-color: #777777;
 }
@@ -217,7 +218,8 @@ input[type="submit"]:hover,
 .fancybox-wrap div.g_msg.error,
 #layout-main div.g_msg.error {
 	border-color: #6F1212;
-	background-color: #916A6A;
+	background-color: #704343;
+	color:#DDDDDD;
 }
 
 .fancybox-wrap div.g_msg.warning,
@@ -237,11 +239,6 @@ input[type="submit"]:hover,
 #layout-main div.g_msg.success {
 	border-color: #066506;
 	background-color: #769E76;
-}
-
-.fancybox-wrap div.g_msg.error h3,
-#layout-main div.g_msg.error h3 {
-	color: #6F1212;
 }
 
 .fancybox-wrap div.g_msg.warning h3,
@@ -331,7 +328,7 @@ div.g_bubble.quotebody,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.anime_all div.info div.image img,
-#layout-main div.avatar img,
+#layout-main div.avatar .image,
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
@@ -365,18 +362,18 @@ table,
 	border-left-color:#444444;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-color: rgba(64, 64, 64, 0);
 	border-bottom-color: #404040;
 }
 
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	border-color: rgba(64, 64, 64, 0);
 	border-bottom-color: #404040;
 }
 
 #imagepreview,
-a.tooltip span.text {
+.tooltip span.text {
 	-moz-box-shadow: 0px 0px 8px 4px #666;
 	-webkit-box-shadow: 0px 0px 8px 4px #666;
 	box-shadow: 0px 0px 8px 4px #666;
@@ -487,7 +484,6 @@ li + li.g_odd,
 #layout-main div.myvotes_all td+td,
 #layout-main div.mywishlist_all tr td+td,
 #layout-main div.animelist_all tr td+td,
-#layout-main div.lexicon_all table.animelist tr td+td,
 #layout-main div.mynotifies_all tr td+td,
 #layout-main div.mydb_all table tr td + td,
 #layout-main div.modlatest_all table tr td + td,

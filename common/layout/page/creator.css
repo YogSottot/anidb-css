@@ -1,0 +1,10 @@
+#layout-main div.creator_all div.selector {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#layout-main div.creator_all div.selector .select2 {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}

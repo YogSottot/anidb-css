@@ -83,7 +83,7 @@
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 132px 3px;
+	margin: 132px 3px 0;
 }
 
 #layout-hint + #layout-nav #layout-menu,

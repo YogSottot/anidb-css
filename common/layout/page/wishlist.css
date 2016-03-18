@@ -20,6 +20,10 @@
 	width:6em;
 }
 
+#layout-main div.mywishlist_all tr td.action {
+	min-width:5em;
+}
+
 #layout-main div.mywishlist_all tr td.nfy,
 #layout-main div.mywishlist_all tr td.priority,
 #layout-main div.mywishlist_all tr td.releaseinfo,
@@ -27,6 +31,18 @@
 	width:1em;
 }
 
-#layout-main div.mywishlist_all .whistlist_edit {
-	margin-top: 1em;
+#layout-main div.mywishlist_all .whistlist_edit .g_definitionlist.edit {
+	margin: 2em 0;
+}
+
+#layout-main div.mywishlist_all .whistlist_edit .options label {
+	display:block;
+}
+
+#wishlist_edit table {
+	width:100%;
+}
+
+#layout-main div.mywishlist_all td.type {
+	white-space:nowrap;
 }

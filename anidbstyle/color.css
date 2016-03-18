@@ -123,6 +123,10 @@ input[size="10"]
 	width: 6em;
 }
 
+input[size="15"] {
+	width: 10em;
+}
+
 input[size="60"]
 {
 	width: 36em;

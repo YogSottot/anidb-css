@@ -43,7 +43,8 @@ img, a
 	border-top: 1px solid #006699;
 }
 
-#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.ep_all .staffblock + .staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td
 {
 	border-top: 1px double #006699;

@@ -1,4 +1,4 @@
-#layout-main div.block {
+#anidb div.block {
 	width: 100%;
 	margin-top: 0.5em;
 	display: -webkit-box;
@@ -11,32 +11,48 @@
 	-webkit-justify-content: center;
 	justify-content: center;
 }
-#layout-main div.block > div.image {
+#anidb div.block > div.image {
 	min-width: 400px;
 	text-align: center;
 	margin-right: 1em;
 	margin-left: 1.5em;
 }
-#layout-main div.block > div.data {
+#anidb div.block > div.data {
 	margin-right: 1em;
-	min-width: 400px;
-	width: 50%;
+	min-width: 50%;
 }
-#layout-main .css_style + p {
+#anidb .css_style + p {
 	clear: left;
 }
 
-#layout-main div.block + div.g_bubble.desc,
-#layout-main div.g_section.desc {
+#anidb div.block + div.g_bubble.desc,
+#anidb div.g_section.desc {
 	margin: 1em 0;
 	padding: 1em;
 }
 
-#layout-main div.block div.data table {
+#anidb div.block div.data table {
 	width:100%;
 	margin: 0;
 }
 
-#layout-main div.block div.data table th {
+#anidb div.block div.data table th {
 	width: 10em;
+}
+
+/*popup*/
+#anidb > .fancybox-wrap div.block > div.image {
+	min-width: 0;
+	min-height: 225px;
+	width: 150px;
+	margin-left: 1em;
+}
+
+#anidb > .fancybox-wrap div.block > div.data {
+	min-width: 400px;
+	width: calc(100% - 185px);
+}
+
+#anidb > .fancybox-wrap div.info.popup > h4 {
+	display: none;
 }

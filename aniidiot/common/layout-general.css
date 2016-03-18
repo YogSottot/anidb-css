@@ -7,6 +7,10 @@ input[size="10"] {
 	width: 7em;
 }
 
+input[size="15"] {
+	width: 10em;
+}
+
 input[size="50"] {
 	width: 27.5em;
 }
@@ -232,7 +236,7 @@ h4,
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 17px .3em;
+	margin: 17px .3em 0;
 }
 
 #layout-hint + #layout-nav #layout-menu {
@@ -334,7 +338,7 @@ button,
 	padding: 6px;
 }
 
-#layout-main div.avatar img,
+#layout-main div.avatar .image,
 #layout-main div.anime_all div.info div.image img,
 #layout-main .g_image image,
 #layout-main .g_definitionlist,

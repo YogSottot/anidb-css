@@ -75,7 +75,6 @@ th a:hover {
 	background-color:#444444;
 }
 
-#layout-main table.filelist tr.generic,
 #layout-main table.file.entities tr.generic,
 #layout-main div.anime_all div.data table.relationlist tr,
 #layout-main div.profile_all div.tabbed_pane div.general table tr,
@@ -124,7 +123,7 @@ div.g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-a.tooltip > span.text.g_bubble,
+.tooltip > span.text.g_bubble,
 .g_button a:hover,
 .i_comment_add:hover,
 .i_topic_add:hover,
@@ -278,7 +277,7 @@ select,
 #layout-search select,
 #layout-search input.text,
 #layout-main div.search_all div.suggestions,
-#layout-main div.avatar img,
+#layout-main div.avatar .image,
 #layout-main div.g_definitionlist tr th,
 #layout-main div.anime_all div.info div.image img,
 #layout-main div.forum div.quickreply textarea {
@@ -362,9 +361,12 @@ input[type="password"]:focus {
 }
 
 html,
+.i_video_480 span,
+.i_video_720 span,
+.i_video_1080 span,
 .i_ext span,
 #imagepreview,
-a.tooltip span.text,
+.tooltip span.text,
 a.button,
 input.button,
 button.button,
@@ -399,8 +401,8 @@ tr + tr th,
 	border-top-color: #555555;
 }
 
-#layout-main #stafflist2,
-#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.ep_all .staffblock + .staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td,
 #layout-search ul.quicksearch li + li {
 	border-top-color: #888888 !important;
@@ -420,7 +422,6 @@ tr + tr th,
 #layout-main div.myvotes_all td+td,
 #layout-main div.mywishlist_all tr td+td,
 #layout-main div.animelist_all tr td+td,
-#layout-main div.lexicon_all table.animelist tr td+td,
 #layout-main div.mynotifies_all tr td+td,
 #layout-main div.mydb_all table tr td + td,
 #layout-main div.modlatest_all table tr td + td,
@@ -430,8 +431,8 @@ tr + tr th,
 }
 
 /*tooltip*/
-a.tooltip span.text:after,
-a.tooltip span.text:before {
+.tooltip span.text:after,
+.tooltip span.text:before {
 	border-color: rgba(232, 232, 232, 0);
 	border-bottom-color: #333333;
 }
@@ -595,7 +596,7 @@ button,
 }
 
 #imagepreview,
-a.tooltip span.text {
+.tooltip span.text {
 	box-shadow: 0 8px 4px 0 rgba(255, 255, 255, 0.2);
 	opacity: 0.95;
 	background-color: #333333 !important;
@@ -670,4 +671,19 @@ a.tooltip span.text {
 }
 .i_ext.other {
 	background-color: #555555;
+}
+.i_video_480,
+.i_video_720,
+.i_video_1080 {
+	background-color: #8A56AA;
+}
+
+/*stroke around the wishlist icons*/
+.i_tv_special::before,
+.i_wishlist_blacklist::before,
+.i_wishlist_buddy::before,
+.i_wishlist_toget::before,
+.i_wishlist_towatch::before,
+.i_wishlist_undefined::before {
+	text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }

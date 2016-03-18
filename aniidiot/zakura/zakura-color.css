@@ -266,7 +266,7 @@ select,
 #layout-search select,
 #layout-search input.text,
 #layout-main div.search_all div.suggestions,
-#layout-main div.avatar img,
+#layout-main div.avatar .image,
 #layout-main div.anime_all div.info div.image img,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea,
 #layout-main div.forum div.quickreply textarea {
@@ -352,7 +352,7 @@ input[type="password"]:focus {
 }
 
 #imagepreview,
-a.tooltip span.text,
+.tooltip span.text,
 a.button,
 input.button,
 button.button,
@@ -415,7 +415,6 @@ li + li.g_odd,
 #layout-main div.myvotes_all td+td,
 #layout-main div.mywishlist_all tr td+td,
 #layout-main div.animelist_all tr td+td,
-#layout-main div.lexicon_all table.animelist tr td+td,
 #layout-main div.mynotifies_all tr td+td,
 #layout-main div.mydb_all table tr td + td,
 #layout-main div.modlatest_all table tr td + td,
@@ -430,8 +429,8 @@ tr + tr th,
 }
 
 /*tooltip*/
-a.tooltip span.text:after,
-a.tooltip span.text:before {
+.tooltip span.text:after,
+.tooltip span.text:before {
 	border-color: rgba(255, 249, 251, 0);
 	border-bottom-color: #fff9fb;
 }
@@ -565,7 +564,7 @@ button,
 }
 
 #imagepreview,
-a.tooltip span.text {
+.tooltip span.text {
 	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
 	opacity: 0.97;
 	background-color: #fff9fb !important;

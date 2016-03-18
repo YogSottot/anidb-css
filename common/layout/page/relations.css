@@ -14,9 +14,7 @@
 #layout-main div.addseq_all div.explanation div.description dl + dl,
 #layout-main div.addsongsongrel_all div.explanation div.description dl + dl,
 #layout-main div.addcharcharrel_all div.explanation div.description dl + dl,
-#layout-main div.addcreatorcreatorrel_all div.explanation div.description dl + dl,
-#layout-main div.addcreatoranimerel_all div.explanation div.description tr + tr,
-#layout-main div.addcreatorsongrel_all div.explanation div.description tr + tr {
+#layout-main div.addcreatorcreatorrel_all div.explanation div.description dl + dl {
 	margin-top: 0.25em;
 	padding: 0.25em 0;
 }
@@ -45,6 +43,11 @@
 #layout-main div.addcreatorcreatorrel_all div.explanation div.description dd,
 #layout-main div.addcreatorsongrel_all div.explanation div.description dd {
 	margin-left: 31em;
+}
+
+#layout-main div.addcreatoranimerel_all div.explanation div.description tr + tr,
+#layout-main div.addcreatorsongrel_all div.explanation div.description tr + tr {
+	height: 16px;
 }
 
 #layout-main div.addcreatoranimerel_all div.massadd div.text textarea,
@@ -77,7 +80,6 @@
 #layout-main div.addcreatoranimerel_all div.explanation div.description tr + tr td,
 #layout-main div.addcreatorsongrel_all div.explanation div.description tr + tr td {
 	margin-top: 0.25em;
-	padding: 0.25em 0 0.3em;
 }
 
 #layout-main div.addsongcollectionrel_all div.massadd textarea {
@@ -142,8 +144,8 @@
 	padding-right:1em;
 }
 
-#layout-main div.g_content.rel_all td.type.crel.missing,
-#layout-main div.g_content.characterrel_all td.type.crel.missing,
-#layout-main div.g_content.addcharanimerel_all td.type.crel.missing {
+#layout-main div.g_content.rel_all td.relation.missing,
+#layout-main div.g_content.characterrel_all td.relation.missing,
+#layout-main div.g_content.addcharanimerel_all td.relation.missing {
 	visibility: hidden;
 }

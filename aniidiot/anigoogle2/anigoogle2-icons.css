@@ -1,8 +1,8 @@
 /*https://fortawesome.github.io BEGIN*/
 @font-face {
 	font-family: 'FontAwesome';
-	src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
-	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+	src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
 }
 
 #layout-main div.tabbed_pane ul.tabs .save_as_default,
@@ -10,8 +10,20 @@
 	display: inline;
 }
 
+.i_general_vote_up,
+.i_general_vote_down,
+.i_general_vote_revoke,
+.i_general_revert,
+.i_stats,
+.i_wishlist_blacklist,
+.i_wishlist_buddy,
+.i_wishlist_toget,
+.i_wishlist_towatch,
+.i_wishlist_undefined,
 .i_tab_default,
 .i_tab_reset,
+.i_notify,
+.i_nonotify,
 .i_state_verified,
 .i_mylist,
 .i_file_details,
@@ -19,9 +31,16 @@
 .i_seen_yes,
 .i_seen_no,
 .i_file_addmylist,
+.i_file_editmylist,
 .i_file_removemylist,
+.i_liststate_edit,
+.i_general_edit,
+.i_general_delete,
+.i_general_blacklist,
+.i_general_history,
 .i_top,
 .i_help,
+.i_info,
 .i_vote,
 .i_revote,
 .i_group_comment,
@@ -57,8 +76,20 @@
 	background-image: none !important;
 }
 
+.i_general_vote_up,
+.i_general_vote_down,
+.i_general_vote_revoke,
+.i_general_revert,
+.i_stats,
+.i_wishlist_blacklist,
+.i_wishlist_buddy,
+.i_wishlist_toget,
+.i_wishlist_towatch,
+.i_wishlist_undefined,
 .i_tab_default,
 .i_tab_reset,
+.i_notify,
+.i_nonotify,
 .i_state_verified,
 .i_mylist,
 .i_file_details,
@@ -66,9 +97,16 @@
 .i_seen_yes,
 .i_seen_no,
 .i_file_addmylist,
+.i_file_editmylist,
 .i_file_removemylist,
+.i_liststate_edit,
+.i_general_edit,
+.i_general_delete,
+.i_general_blacklist,
+.i_general_history,
 .i_top,
 .i_help,
+.i_info,
 .i_vote,
 .i_revote,
 .i_group_comment,
@@ -247,6 +285,8 @@ button.reboot:before {
 #layout-main div.creq_all .links .next_creq a:before {
 	content: "\f061";
 }
+
+button.set_default:before,
 #layout-main div.creq_all .creq_buttons button.lock:before {
 	content: "\f023";
 }
@@ -343,8 +383,20 @@ button.preview:before {
 }
 
 /*image only - no text*/
+.i_general_vote_up,
+.i_general_vote_down,
+.i_general_vote_revoke,
+.i_general_revert,
+.i_stats,
+.i_wishlist_blacklist,
+.i_wishlist_buddy,
+.i_wishlist_toget,
+.i_wishlist_towatch,
+.i_wishlist_undefined,
 .i_tab_default,
 .i_tab_reset,
+.i_notify,
+.i_nonotify,
 .i_state_verified,
 .i_mylist,
 .i_file_details,
@@ -352,9 +404,16 @@ button.preview:before {
 .i_seen_yes,
 .i_seen_no,
 .i_file_addmylist,
+.i_file_editmylist,
 .i_file_removemylist,
+.i_liststate_edit,
+.i_general_edit,
+.i_general_delete,
+.i_general_blacklist,
+.i_general_history,
 .i_top,
 .i_help,
+.i_info,
 .i_vote,
 .i_revote,
 .i_group_comment,
@@ -366,6 +425,21 @@ button.preview:before {
 	height: auto;
 	width:16px;
 	font-size:1.33rem;
+}
+/*stacked icons*/
+.i_tv_special:before,
+.i_wishlist_blacklist:before,
+.i_wishlist_buddy:before,
+.i_wishlist_toget:before,
+.i_wishlist_towatch:before,
+.i_wishlist_undefined:before {
+    position: absolute;
+    font-size: 1rem;
+    text-align: right;
+    width:16px;
+    padding-top: 2px;
+	cursor:pointer;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 .i_plus:after {
 	content: "\f0fe";
@@ -393,16 +467,27 @@ button.preview:before {
 	content: "\f087";
 	cursor:pointer;
 }
-.i_help:after {
+.i_info:after {
 	content: "\f05a";
 	cursor:pointer;
+}
+.i_help:after {
+	content: "\f059";
+	cursor:help;
 }
 .i_top:after {
 	content: "\f0aa";
 	cursor:pointer;
 }
+.i_liststate_edit:after,
+.i_general_edit:after,
+.i_file_editmylist:after {
+	content: "\f044";
+	cursor:pointer;
+}
+.i_general_delete:after,
 .i_file_removemylist:after {
-	content: "\f00d";
+	content: "\f014";
 	cursor:pointer;
 }
 .i_revote:after {
@@ -435,10 +520,72 @@ button.preview:before {
 .i_tab_reset:after {
 	content: "\f05e";
 }
+.i_notify:after {
+	content: "\f0f3";
+}
+.i_nonotify:after {
+	content: "\f1f7";
+}
+.i_general_blacklist:after {
+	content: "\f05e";
+}
+.i_general_history:after {
+	content: "\f252";
+}
+.i_wishlist_blacklist:before {
+    content: "\f05e";
+    color: #ff4e4e;
+}
+.i_wishlist_buddy:before {
+    content: "\f007";
+}
+.i_wishlist_toget:before {
+    content: "\f063";
+    color: #30ba30;
+}
+.i_wishlist_towatch:before {
+    content: "\f06e";
+}
+.i_wishlist_undefined:before {
+    content: "\f128";
+    margin-left: -2px;
+}
+.i_wishlist_blacklist:after,
+.i_wishlist_buddy:after,
+.i_wishlist_toget:after,
+.i_wishlist_towatch:after,
+.i_wishlist_undefined:after {
+	content: "\f016";
+	cursor: default;
+}
+
+.i_stats:after {
+	content: "\f080";
+	cursor: pointer;
+}
+
+.i_general_vote_revoke:after,
+.i_general_revert:after {
+	content: "\f0e2";
+	cursor: pointer;
+}
+
+.i_general_vote_up:after {
+	content: "\f087";
+	cursor: pointer;
+}
+.i_general_vote_down:after {
+	content: "\f088";
+	cursor: pointer;
+}
+
 /*image only - no text*/
 /*https://fortawesome.github.io END*/
 
 /*icon created from text*/
+.i_video_480,
+.i_video_720,
+.i_video_1080,
 .i_ext,
 .i_vrs_2,
 .i_vrs_3,
@@ -455,11 +602,17 @@ button.preview:before {
 	width: 16px;
 }
 
+.i_video_480,
+.i_video_720,
+.i_video_1080,
 .i_ext {
 	display: inline-block !important;
 	width: 38px;
 }
 
+.i_video_480 span,
+.i_video_720 span,
+.i_video_1080 span,
 .i_ext span,
 .i_vrs_2 span,
 .i_vrs_3 span,
@@ -495,6 +648,12 @@ button.preview:before {
 .i_ext.other {
 	background-color: #444444;
 }
+.i_video_480,
+.i_video_720,
+.i_video_1080 {
+	background-color: #8A56AA;
+}
+
 /*icon created from text*/
 
 .i_rate_halfstar,

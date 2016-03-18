@@ -1,0 +1,17 @@
+#loading {
+	border-radius: 5px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+#overlay {
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left:0;
+}

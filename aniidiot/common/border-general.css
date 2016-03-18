@@ -35,7 +35,7 @@ select,
 #layout-main ul.g_list li,
 #layout-tabs ul.main-tabs > li,
 #layout-menu > li ul,
-#layout-main div.avatar img,
+#layout-main div.avatar .image,
 #layout-main div.anime_all div.info div.image img,
 #layout-main div.search_all div.suggestions {
 	border: 1px solid;
@@ -68,7 +68,6 @@ tr + tr th,
 #layout-main div.myvotes_all td+td,
 #layout-main div.mywishlist_all tr td+td,
 #layout-main div.animelist_all tr td+td,
-#layout-main div.lexicon_all table.animelist tr td+td,
 #layout-main div.mynotifies_all tr td+td,
 #layout-main div.mydb_all table tr td + td,
 #layout-main div.modlatest_all table tr td + td,
@@ -78,9 +77,10 @@ tr + tr th,
 	border-left: 1px solid;
 }
 
-#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.ep_all .staffblock + .staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td {
-	border-top: 1px double;
+	border-top: 2px dotted;
 }
 
 table,
@@ -96,19 +96,19 @@ table,
 	border-top: 1px solid;
 }
 
-a.tooltip {
+.tooltip {
 	outline:none;
 }
 
-a.tooltip span.text:after,
-a.tooltip span.text:before {
+.tooltip span.text:after,
+.tooltip span.text:before {
 	border: solid transparent;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-width: 10px;
 }
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	border-width: 13px;
 }
 
@@ -124,6 +124,8 @@ a,
 	border: none;
 }
 
+#layout-main div.mylist_all table.filelist tr.action td.submit,
+#layout-main div.mylist_all table.eplist tr.action td.submit,
 #layout-main div.animeatt_reviews div.review h4,
 #layout-main div.userpage_all div.blog div.g_timedentry h4,
 #layout-main div.anime_all div.info div.caststaff div tr.more td,

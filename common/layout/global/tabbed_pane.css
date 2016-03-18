@@ -49,3 +49,12 @@
 #layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
 	margin-left: 4px;
 }
+
+@media screen and (max-width: 1600px) {
+	#layout-tabs .applet,
+	#layout-tabs .quickvote,
+	#layout-tabs .myreviews,
+	#layout-tabs .myrecs {
+		display: none !important;
+	}
+}

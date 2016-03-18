@@ -13,3 +13,9 @@
 #layout-main div.group_all div.group_released table#releases th.action {
 	min-width: 5.5em;
 }
+
+#layout-main div.group_all .animegroup tr.anime td.value span.icons,
+#layout-main div.group_all .animegroup tr.group td.value span.icons {
+	float:left;
+	padding-right: 0.3em;
+}

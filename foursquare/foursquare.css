@@ -32,7 +32,7 @@ Green: #689a4a / Light: #EEF8EA
 @import "../common/layout/macro/collapsed.css";
 
 @import "../common/libs/all.css";
-@import "../common/libs/chosen/style-white.css";
+@import "../common/libs/select2/style-white.css";
 
 @import "../common/style/color/quicksearch.css";
 @import "../common/style/color/msgbox-default.css";
@@ -251,14 +251,13 @@ background-color: #EEE }
 	#layout-main .mylist.liststate_collecting,
 	#layout-main table.animelist .liststate_collecting,
 	#layout-main table.wishlist .liststate_collecting,
-	#layout-main div.timeline_all div.timeline ul.row li.liststate_collecting a,
+	#layout-main div.timeline_all .liststate_collecting,
 	.g_bubble.box.mylist.liststate_collecting > div.top {
 	background-color: #E2F5FF !important }
 
 		#layout-main .mylist.g_odd.liststate_collecting,
 		#layout-main table.animelist .g_odd.liststate_collecting,
 		#layout-main table.wishlist .g_odd.liststate_collecting,
-		#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_collecting a,
 		.g_odd.g_bubble.box.mylist.liststate_collecting > div.top,
 		#layout-main .g_odd .mylist.liststate_collecting {
 		background-color: #D7F0FC !important }
@@ -269,14 +268,13 @@ background-color: #EEE }
 	#layout-main .mylist.liststate_watching,
 	#layout-main table.animelist .liststate_watching,
 	#layout-main table.wishlist .liststate_watching,
-	#layout-main div.timeline_all div.timeline ul.row li.liststate_watching a,
+	#layout-main div.timeline_all .liststate_watching,
 	.g_bubble.box.mylist.liststate_watching > div.top {
 	 background-color: #DCF5DF !important }
 
 		#layout-main .mylist.g_odd.liststate_watching,
 		#layout-main table.animelist .g_odd.liststate_watching,
 		#layout-main table.wishlist .g_odd.liststate_watching,
-		#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_watching a,
 		.g_odd.g_bubble.box.mylist.liststate_watching > div.top,
 		#layout-main .g_odd .mylist.liststate_watching {
 		background-color: #CCEDD0 !important }
@@ -287,14 +285,13 @@ background-color: #EEE }
 	#layout-main .mylist.liststate_stalled,
 	#layout-main table.animelist .liststate_stalled,
 	#layout-main table.wishlist .liststate_stalled,
-	#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a,
+	#layout-main div.timeline_all .liststate_stalled,
 	.g_bubble.box.mylist.liststate_stalled > div.top {
 	background-color: #FFEDC4 !important }
 
 		#layout-main .mylist.g_odd.liststate_stalled,
 		#layout-main table.animelist .g_odd.liststate_stalled,
 		#layout-main table.wishlist .g_odd.liststate_stalled,
-		#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a,
 		.g_odd.g_bubble.box.mylist.liststate_stalled > div.top,
 		#layout-main .g_odd .mylist.liststate_stalled { 
 		background-color: #F9DFA5 !important }
@@ -762,7 +759,7 @@ background-color: #f9f9f9 }
 #layout-main div.myvotes_all table tr td.low, 
 #layout-main div.addcreatoranimerel_all tr.left_only, 
 #layout-main div.addcreatorsongrel_all tr.left_only, 
-#layout-main div.timeline_all div.timeline ul.row li.liststate_stalled a, 
+#layout-main div.timeline_all .liststate_stalled, 
 #layout-main table.filelist tr.deprecated {
 background-color: #FAE7E7 }
 
@@ -774,7 +771,6 @@ background-color: #DCF4FC }
 #layout-main div.myvotes_all table tr.g_odd td.low, 
 #layout-main div.addcreatoranimerel_all tr.right_only, 
 #layout-main div.addcreatorsongrel_all tr.right_only, 
-#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_stalled a, 
 #layout-main table.filelist tr.g_odd.deprecated, 
 #layout-main table.filelist tr.g_odd.invalid {
 background-color: #EED9D9 }
@@ -847,7 +843,8 @@ padding: 1px }
 border: none;
 margin: 0 }
 
-#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.ep_all .staffblock + .staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td {
 border-top: 1px lightGrey solid }
 
@@ -855,7 +852,7 @@ border-top: 1px lightGrey solid }
 padding: 4px 1px 7px 1px;
 border-bottom: black 2px solid }
 
-#layout-main div.avatar img { border: 1px solid #cbd6e5 }
+#layout-main div.avatar .image { border: 1px solid #cbd6e5 }
 
 #layout-main {
 border-radius: 2px;
@@ -977,13 +974,13 @@ margin: 10px 0 }
 
 /* Timeline */
 
-#layout-main div.timeline_all div.timeline div.g_timeline { 
+#layout-main div.timeline_all div.timeline .timeline_entry { 
 border-radius: 2px;
 -moz-border-radius: 2px;
 -webkit-border-radius: 2px;
 border: 2px solid #EEE }
 
-#layout-main div.timeline_all div.timeline div.g_timeline,
+#layout-main div.timeline_all div.timeline .timeline_entry,
 #layout-main div.timeline_all div.timeline ul {
 background: #f9f9f9 }
 
@@ -996,14 +993,14 @@ background: white;
 border-bottom: 1px solid #EEE;
 border-right: 1px solid #EEE }
 
-#layout-main div.timeline_all div.timeline li a {
+#layout-main div.timeline_all div.timeline .timeline_entry {
 color: #7e8072;
 background: #DCF4FC }
 
-#layout-main div.timeline_all div.timeline ul.row li.liststate_completed a {
+#layout-main div.timeline_all div.timeline ul.row .liststate_completed {
 background-color: #DFF5D0 }
 
-	#layout-main div.timeline_all div.timeline ul.row.g_odd li.liststate_completed a {
+	#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed {
 	background-color: #D7E9CB }
 
 
@@ -1015,33 +1012,33 @@ padding: 3px;
 background-color: white }
 
 /*tooltips*/
-a.tooltip {
+.tooltip {
 	outline:none;
 }
 
-a.tooltip span.text:after,
-a.tooltip span.text:before {
+.tooltip span.text:after,
+.tooltip span.text:before {
 	border: solid transparent;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-width: 10px;
 }
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	border-width: 13px;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-color: rgba(249, 249, 249, 0);
 	border-bottom-color: #f9f9f9;
 }
 
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	border-color: rgba(238, 238, 238, 0);
 	border-bottom-color: #eeeeee;
 }
 
-a.tooltip span.text {
+.tooltip span.text {
 	-moz-box-shadow: 0px 0px 2px 0px #666;
 	-webkit-box-shadow: 0px 0px 2px 0px #666;
 	box-shadow: 0px 0px 2px 0px #666;

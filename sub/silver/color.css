@@ -230,39 +230,39 @@ div.pagination span strong
 }
 
 /*tooltips*/
-a.tooltip
+.tooltip
 {
 	outline:none;
 }
 
-a.tooltip span.text:after,
-a.tooltip span.text:before
+.tooltip span.text:after,
+.tooltip span.text:before
 {
 	border: solid transparent;
 }
 
-a.tooltip span.text:after
+.tooltip span.text:after
 {
 	border-width: 10px;
 }
-a.tooltip span.text:before
+.tooltip span.text:before
 {
 	border-width: 13px;
 }
 
-a.tooltip span.text:after
+.tooltip span.text:after
 {
 	border-color: rgba(222, 227, 231, 0);
 	border-bottom-color: #dee3e7;
 }
 
-a.tooltip span.text:before
+.tooltip span.text:before
 {
 	border-color: rgba(209, 215, 220, 0);
 	border-bottom-color: #d1d7dc;
 }
 
-a.tooltip span.text
+.tooltip span.text
 {
 	-moz-box-shadow: 0px 0px 8px 4px #666;
 	-webkit-box-shadow: 0px 0px 8px 4px #666;

@@ -28,7 +28,7 @@
 	margin: 41px 3px;
 }
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 55px 3px;
+	margin: 55px 3px 0;
 }
 
 #layout-content {

@@ -1,15 +1,11 @@
-#layout-main div.anime_all a.action:before {
-	content: "(";
-}
-
-#layout-main div.anime_all a.action:after {
-	content: ")";
-}
-
 #layout-main div.anime_all div.groups td.mylist:before {
 	content: "* ";
 }
 
 #layout-main div.anime_all div.groups td.mylist:after {
 	content: " *";
+}
+
+tr.rating td.value span.myvote:before {
+	content: ", ";
 }

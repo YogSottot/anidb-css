@@ -173,6 +173,17 @@
 }
 
 .i_ext,
+.i_video_480,
+.i_video_720,
+.i_video_1080,
+.i_video_480 span,
+.i_video_720 span,
+.i_video_1080 span,
 .i_ext span {
 	display: none !important;
+}
+
+/*supplementary subtitles*/
+.i_flag.supplementary {
+	opacity: 0.4;
 }

@@ -134,7 +134,7 @@ span.g_odd,
 div.g_odd,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.forum ul.topics li.g_odd.row,
-a.tooltip > span.text.g_bubble,
+.tooltip > span.text.g_bubble,
 .g_bubble,
 .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
@@ -202,7 +202,7 @@ select,
 .g_button a,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
-#layout-main div.avatar img,
+#layout-main div.avatar .image,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
 #layout-main div.anime_all div.info div.image img,
@@ -305,7 +305,6 @@ li + li.g_odd,
 #layout-main div.myvotes_all td+td,
 #layout-main div.mywishlist_all tr td+td,
 #layout-main div.animelist_all tr td+td,
-#layout-main div.lexicon_all table.animelist tr td+td,
 #layout-main div.mynotifies_all tr td+td,
 #layout-main div.mydb_all table tr td + td,
 #layout-main div.modlatest_all table tr td + td,
@@ -319,7 +318,8 @@ tr + tr th,
 	border-top-color: #E8F0FF;
 }
 
-#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.ep_all .staffblock + .staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td {
 	border-top-color: #C9D7F1;
 }
@@ -329,13 +329,13 @@ tr + tr th,
 }
 
 /*tooltip*/
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-color: rgba(236, 244, 253, 0);
 	border-bottom-color: #ECF4FD;
 }
 
 #imagepreview,
-a.tooltip span.text {
+.tooltip span.text {
 	-moz-box-shadow: 0px 0px 8px 4px #666;
 	-webkit-box-shadow: 0px 0px 8px 4px #666;
 	box-shadow: 0px 0px 8px 4px #666;

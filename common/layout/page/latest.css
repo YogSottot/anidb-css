@@ -35,16 +35,8 @@
 	white-space:nowrap;
 }
 
-#layout-main div.latest2_all div.files .i_icon:not(.i_expanded):not(.i_collapsed) {
-	float: none;
-}
-
-#layout-main div.latest2_all div.files .i_icon + .i_icon {
-	margin-left: -2px !important;
-}
-
-#layout-main div.latest2_all div.files .i_file_details {
-	width:12px;
+#layout-main div.latest2_all div.files div.content td.action {
+	text-align:left;
 }
 /*</forcing icons not to wrap>*/
 

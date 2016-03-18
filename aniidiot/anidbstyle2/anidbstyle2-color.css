@@ -135,7 +135,9 @@ select,
 #layout-main th > span.link,
 #layout-main th > a:visited,
 #layout-main th > a:active,
-#layout-main th > a:link {
+#layout-main th > a:link,
+th .i_icon,
+#layout-main div.userpage_all .achievements h4 a.i_help {
 	color: #A2BFD7;
 }
 
@@ -170,7 +172,7 @@ input[type="submit"]:hover,
 	background-color:#58636E;
 }
 
-a.tooltip > span.text.g_bubble,
+.tooltip > span.text.g_bubble,
 .g_bubble,
 .g_bubble.g_odd,
 .g_bubble .g_bubble .g_bubble,
@@ -315,7 +317,7 @@ select,
 }
 
 .g_bubble,
-#layout-main div.avatar img,
+#layout-main div.avatar .image,
 #layout-main div.anime_all div.info div.image img,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
@@ -451,15 +453,15 @@ select,
 
 /*tooltip*/
 #imagepreview,
-a.tooltip span.text {
+.tooltip span.text {
 	background-color: #d3d5d9 !important;
 	color: #000000;
 	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
 	opacity: 0.95;
 }
 
-a.tooltip span.text:before,
-a.tooltip span.text:after {
+.tooltip span.text:before,
+.tooltip span.text:after {
 	border-color: rgba(211, 213, 217, 0);
 	border-bottom-color: #d3d5d9;
 }
@@ -580,8 +582,8 @@ li + li.g_odd,
 	border-top-color: #454959;
 }
 
-#layout-main div.anime_all div.staffblock + div.staffblock table,
-#layout-main div.ep_all div.staffblock + div.staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
+#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td {
 	border-top-color: #34394D;
 }

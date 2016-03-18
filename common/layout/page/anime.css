@@ -49,7 +49,7 @@
 }
 
 #layout-main div.anime_all > .g_section:not(.info) {
-	margin: 1.5em 1em;
+	margin: 1.5em 0.5em;
 }
 
 #layout-main div.anime_all div.reviews table.reviewlist th.approval {
@@ -78,7 +78,7 @@
 }
 
 #layout-main div.anime_all div.staffblock + div.staffblock {
-	margin-top:1.5em;
+	margin-top:3em;
 }
 
 #layout-main div.anime_all div.staffblock h2 {
@@ -183,4 +183,21 @@
 
 #layout-main div.anime_all div.characters .g_bubble.stripe div.postbody {
 	padding: 4px;
+}
+
+#layout-main div.anime_all #mylistadd_full {
+	padding: 0.5em;
+	width: 47em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#layout-main div.anime_all table.songlist td.reltype {
+	min-width: 10em;
+	white-space: nowrap;
+}
+
+#layout-main div.anime_all div.info div.caststaff div td.name a,
+#layout-main div.anime_all table.songlist td.creator > a {
+	display: block;
 }

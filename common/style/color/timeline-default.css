@@ -18,7 +18,7 @@
 	border-right:1px solid #f90;
 }
 
-#layout-main div.timeline_all div.timeline li a {
+#layout-main div.timeline_all .timeline_entry {
 	color:#333333;
 	background:#dfdfdf;
 }

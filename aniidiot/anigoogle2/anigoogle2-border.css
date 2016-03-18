@@ -39,10 +39,7 @@ input[type="button"],
 .g_bubble,
 #layout-content,
 #layout-menu li.sub-menu,
-#layout-menu li.sub-menu ul,
-.chosen-container-single .chosen-drop,
-.chosen-container-multi .chosen-choices li.search-choice,
-.chosen-container-single .chosen-single {
+#layout-menu li.sub-menu ul {
 	border-radius: 0 !important;
 }
 
@@ -50,7 +47,7 @@ input[type="button"],
 .g_bubble,
 table,
 table li+li,
-a.tooltip span.text,
+.tooltip span.text,
 #imagepreview,
 #layout-content,
 #layout-hint,
@@ -108,7 +105,12 @@ a.tooltip span.text,
 	border: 1px solid;
 }
 
-#layout-main #stafflist2,
 #layout-search ul.quicksearch li + li {
 	border-top: 1px solid !important;
+}
+
+#layout-main div.ep_all .staffblock + .staffblock table,
+#layout-main div.anime_all div.episodes tr.newtype td,
+#layout-main div.anime_all .staffblock + .staffblock table {
+	border-top: 2px dotted !important;
 }

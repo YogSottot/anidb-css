@@ -34,7 +34,8 @@ img, a
 	margin: 0;
 }
 
-#layout-main div.anime_all table.stafflist + table.stafflist,
+#layout-main div.ep_all .staffblock + .staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td
 {
 	border-top: 2px #006699 double;
@@ -46,7 +47,7 @@ img, a
 	border-bottom: black 2px solid;
 }
 
-#layout-main div.avatar img
+#layout-main div.avatar .image
 {
 	border: 1px solid #cbd6e5;
 }

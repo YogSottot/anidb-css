@@ -86,7 +86,8 @@ table th.sortable:hover:not(.sorter-false),
 	border-color: #34394D;
 }
 
-#layout-main #stafflist2 {
+#layout-main div.ep_all .staffblock + .staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table {
 	border-color: #34394D !important;
 }
 
@@ -228,4 +229,14 @@ button,
 #layout-menu li.sub-menu ul li > span button:hover {
 	background-color: #B9BBBF !important;
 	color: #AA0000 !important;
+}
+
+/*stroke around the wishlist icons*/
+.i_tv_special::before,
+.i_wishlist_blacklist::before,
+.i_wishlist_buddy::before,
+.i_wishlist_toget::before,
+.i_wishlist_towatch::before,
+.i_wishlist_undefined::before {
+	text-shadow: 1px 1px 0 #CFD1D4, -1px -1px 0 #CFD1D4, 1px -1px 0 #CFD1D4, -1px 1px 0 #CFD1D4, 1px 1px 0 #CFD1D4;
 }

@@ -118,9 +118,24 @@ th.s_reverse,
 	background: transparent url(../icons/formating/icon_expand.gif) top right no-repeat;
 }
 
-*.i_loading {
-	background: transparent url(../icons/icon/anidb_loading.gif) top right no-repeat;
-	height: 48px;
-	width: 48px;
-	background-size: contain;
+#loading {
+	background: #000 url(../icons/libs/jquery.fancybox/fancybox_loading.gif) no-repeat scroll center center;
+}
+
+#overlay {
+	background: transparent url(../icons/libs/jquery.fancybox/fancybox_overlay.png) repeat scroll 0% 0%;
+}
+
+.i_noavatar {
+	background-image: url(../icons/icon/noavatar_black.png);
+	width: 72px;
+	height: 72px;
+	display: inline-block;
+}
+
+.i_noavatar_thumb {
+	background-image: url(../icons/icon/noavatar_thumb_black.png);
+	width: 50px;
+	height: 50px;
+	display: inline-block;
 }

@@ -1,0 +1,12 @@
+@import "select2-layout.css";
+@import "select2-border.css";
+@import "select2-cursor.css";
+
+/*handle fancybox overlay*/
+.select2-container .select2-dropdown {
+	z-index: 10000;
+}
+
+.select2-results__option {
+	padding: 2px 4px;
+}

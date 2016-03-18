@@ -1,5 +1,5 @@
-#layout-main div.anime_all div.staffblock + div.staffblock table,
-#layout-main div.ep_all div.staffblock + div.staffblock table,
+#layout-main div.anime_all .staffblock + .staffblock table,
+#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all div.episodes tr.newtype td {
 	border-top: 1px double;
 }
@@ -38,9 +38,9 @@ button,
 	border: 1px solid;
 }
 
-a.tooltip span.text:after {
+.tooltip span.text:after {
 	border-width: 10px;
 }
-a.tooltip span.text:before {
+.tooltip span.text:before {
 	border-width: 11px;
 }
