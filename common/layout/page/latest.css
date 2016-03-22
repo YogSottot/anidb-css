@@ -54,6 +54,11 @@
 		min-width: 5em;
 	}
 
+	#layout-main div.latest2_all div.files div.content td.info {
+		min-width: 10em;
+		max-width: 10em;
+	}
+
 	#layout-main div.latest2_all div.animelist_all td.type,
 	#layout-main div.latest2_all div.latest_similaranime div.content td.user.name,
 	#layout-main div.latest2_all div.latest_recommendations div.content td.user.name,
@@ -75,8 +80,8 @@
 	}
 
 	#layout-main div.latest2_all div.files div.content td.info {
-		min-width: 23em;
-		max-width: 23em;
+		min-width: 30em;
+		max-width: 30em;
 	}
 }
 
