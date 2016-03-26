@@ -10,6 +10,16 @@
 		<screenshot>aniblackle/images/screenshot.png</screenshot>
 		<thumbnail>aniblackle/images/thumbnail.png</thumbnail>
 	</style>
+	<style name="aniblackle-menu">
+		<title>Aniblackle with Menu</title>
+		<creator>Der Idiot</creator>
+		<update>27.08.2015</update>
+		<status>in development</status>
+		<description>Style inspired by blackle; banner by fafnir aka permidion</description>
+		<path/>
+		<screenshot>aniblackle-menu/images/screenshot.png</screenshot>
+		<thumbnail>aniblackle-menu/images/thumbnail.png</thumbnail>
+	</style>
 	<style name="aniblackle2">
 		<title>AniBlackle 2</title>
 		<creator>Der Idiot</creator>
@@ -20,15 +30,15 @@
 		<thumbnail>aniblackle2/images/thumbnail.png</thumbnail>
 		<screenshot>aniblackle2/images/screenshot.png</screenshot>
 	</style>
-	<style name="aniblackle-menu">
-		<title>Aniblackle with Menu</title>
+	<style name="aniblackle2-menu">
+		<title>AniBlackle 2 - floated menu</title>
 		<creator>Der Idiot</creator>
-		<update>27.08.2015</update>
+		<update>28.01.2015</update>
 		<status>in development</status>
-		<description>Style inspired by blackle; banner by fafnir aka permidion</description>
+		<description>Style inspired by Google/Youtube/AniDB</description>
 		<path/>
-		<screenshot>aniblackle-menu/images/screenshot.png</screenshot>
-		<thumbnail>aniblackle-menu/images/thumbnail.png</thumbnail>
+		<thumbnail>aniblackle2-menu/images/thumbnail.png</thumbnail>
+		<screenshot>aniblackle2-menu/images/screenshot.png</screenshot>
 	</style>
 	<style name="anidbstyle">
 		<title>AniDBstyle</title>
@@ -50,16 +60,6 @@
 		<screenshot>anidbstyle2/images/screenshot.png</screenshot>
 		<thumbnail>anidbstyle2/images/thumbnail.png</thumbnail>
 	</style>
-	<style name="aniblackle2-menu">
-		<title>AniBlackle 2 - floated menu</title>
-		<creator>Der Idiot</creator>
-		<update>28.01.2015</update>
-		<status>in development</status>
-		<description>Style inspired by Google/Youtube/AniDB</description>
-		<path/>
-		<thumbnail>aniblackle2-menu/images/thumbnail.png</thumbnail>
-		<screenshot>aniblackle2-menu/images/screenshot.png</screenshot>
-	</style>
 	<style name="anidbstyle3">
 		<title>AniDB Style 3</title>
 		<creator>Der Idiot</creator>
@@ -80,16 +80,6 @@
 		<thumbnail>anidbstyle3-menu/images/thumbnail.png</thumbnail>
 		<screenshot>anidbstyle3-menu/images/screenshot.png</screenshot>
 	</style>
-	<style name="anidbstyle_hacks">
-		<title>AniDBstyle Hacks</title>
-		<creator>Amour</creator>
-		<update>18.02.2008</update>
-		<status>stable (v6)</status>
-		<description>hacks for the default css (IE7 compatibility)</description>
-		<path/>
-		<screenshot>anidbstyle_hacks/images/screenshot.png</screenshot>
-		<thumbnail>anidbstyle_hacks/images/thumbnail.png</thumbnail>
-	</style>
 	<style name="anidbstyle_diebuster">
 		<title>AniDBstyle</title>
 		<creator>edokun</creator>
@@ -109,6 +99,16 @@
 		<path/>
 		<screenshot>anidbstyle-dongato/images/screenshot.png</screenshot>
 		<thumbnail>anidbstyle-dongato/images/thumbnail.png</thumbnail>
+	</style>
+	<style name="anidbstyle_hacks">
+		<title>AniDBstyle Hacks</title>
+		<creator>Amour</creator>
+		<update>18.02.2008</update>
+		<status>stable (v6)</status>
+		<description>hacks for the default css (IE7 compatibility)</description>
+		<path/>
+		<screenshot>anidbstyle_hacks/images/screenshot.png</screenshot>
+		<thumbnail>anidbstyle_hacks/images/thumbnail.png</thumbnail>
 	</style>
 	<style name="anigoogle">
 		<title>Anigoogle</title>
