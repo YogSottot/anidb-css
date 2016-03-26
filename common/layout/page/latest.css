@@ -76,7 +76,7 @@
 	}
 
 	#layout-main div.latest2_all div.content td.anime.name {
-		width: 40%;
+		width: auto;
 	}
 }
 
@@ -97,7 +97,7 @@
 	}
 
 	#layout-main div.latest2_all div.content td.anime.name {
-		width: 70%;
+		width: 40%;
 	}
 }
 
