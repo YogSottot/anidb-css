@@ -81,6 +81,14 @@ body.dragging * {
 }
 
 .sortable_shuttle ol.jssortable li.pane > ol.pane {
-    margin-left: 2em;
-    margin-top: -1.5em;
+	margin-left: 2em;
+   	margin-top: -1.5em;
+}
+
+.sortable_shuttle ol.jssortable li.pane > ol.pane.i_general_delete {
+   	display: block;
+   	width: auto;
+   	padding: 0.35em 0 0 0.5em;
+   	margin-lefT: 1.5em;
+   	margin-top: -1.1em;
 }
