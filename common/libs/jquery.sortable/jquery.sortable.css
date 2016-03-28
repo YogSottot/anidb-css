@@ -4,8 +4,8 @@ body.dragging * {
 }
 
 .sortable_shuttle {
-	width: 50em;
-	display: flex;
+	width: 50em !important;
+	display: inline-flex;
 	flex-wrap: wrap;
 }
 
