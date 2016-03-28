@@ -10,6 +10,7 @@
 	display: inline;
 }
 
+.moveable,
 .i_general_vote_up,
 .i_general_vote_down,
 .i_general_vote_revoke,
@@ -76,6 +77,7 @@
 	background-image: none !important;
 }
 
+.moveable,
 .i_general_vote_up,
 .i_general_vote_down,
 .i_general_vote_revoke,
@@ -178,6 +180,7 @@ button,
 	padding-left: 4px;
 }
 
+.moveable,
 button:before,
 .g_button.upload a:before,
 #layout-tabs ul li a:before,
@@ -381,7 +384,9 @@ button.spoiler:before,
 button.preview:before {
 	content: "\f06e";
 }
-
+.moveable:before {
+	content: "\f047";
+}
 /*image only - no text*/
 .i_general_vote_up,
 .i_general_vote_down,
@@ -558,18 +563,15 @@ button.preview:before {
 	content: "\f016";
 	cursor: default;
 }
-
 .i_stats:after {
 	content: "\f080";
 	cursor: pointer;
 }
-
 .i_general_vote_revoke:after,
 .i_general_revert:after {
 	content: "\f0e2";
 	cursor: pointer;
 }
-
 .i_general_vote_up:after {
 	content: "\f087";
 	cursor: pointer;
