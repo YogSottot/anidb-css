@@ -7,6 +7,7 @@ body.dragging * {
 	width: 50em !important;
 	display: inline-flex !important;
 	flex-wrap: wrap;
+	text-align: left;
 }
 
 .sortable_shuttle .dragged {
@@ -68,6 +69,7 @@ body.dragging * {
 
 .sortable_shuttle .moveable {
 	cursor: move;
+	display: list-item;
 }
 
 .sortable_shuttle ol.jssortable li + li {
