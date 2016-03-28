@@ -72,6 +72,10 @@ body.dragging * {
 	display: list-item;
 }
 
+.sortable_shuttle .g_bubble {
+	padding: 0.5em;
+}
+
 .sortable_shuttle ol.jssortable li + li {
 	margin-top: 0.5em;
 }
