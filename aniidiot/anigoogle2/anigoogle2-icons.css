@@ -180,7 +180,7 @@ button,
 	padding-left: 4px;
 }
 
-.moveable,
+.moveable:before,
 button:before,
 .g_button.upload a:before,
 #layout-tabs ul li a:before,
