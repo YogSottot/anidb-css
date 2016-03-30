@@ -7,6 +7,7 @@ button.confirmButton {
 	text-shadow: none;
 }
 
+h2 span,
 h4 span,
 .i_comment_add span,
 .i_topic_add span,
@@ -69,6 +70,7 @@ h4 span,
 }
 
 button,
+h2 span,
 h4 span,
 .g_button a,
 .i_comment_add span,

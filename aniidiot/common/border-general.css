@@ -202,7 +202,7 @@ input[type="button"],
 	border-radius: 0 5px 0 0;
 }
 
-.g_section > h4,
-.g_section > form > h4 {
+.g_section > h2,
+.g_section > form > h2 {
 	border-bottom: 1px solid;
 }

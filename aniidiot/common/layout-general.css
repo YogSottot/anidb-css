@@ -82,6 +82,10 @@ input[type="password"],
 	margin-left: 0.2em !important;
 }
 
+h2 {
+	line-height: 1.6em;
+}
+
 h4,
 #layout-main div.g_timedentry h4 {
 	line-height: 1.4em;

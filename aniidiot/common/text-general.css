@@ -70,11 +70,11 @@ input[type="button"] {
 	font-size: 1.33rem;
 }
 
-.g_section > h4 span::before,
-.g_section > form > h4 span::before {
+.g_section > h2 span::before,
+.g_section > form > h2 span::before {
 	content: "» ";
 }
-.g_section > h4 span::after,
-.g_section > form > h4 span::after {
+.g_section > h2 span::after,
+.g_section > form > h2 span::after {
 	content: " «";
 }

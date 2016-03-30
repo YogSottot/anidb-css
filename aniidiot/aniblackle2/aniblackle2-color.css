@@ -284,8 +284,8 @@ select,
 	border-color: #333333;
 }
 
-.g_section > h4,
-.g_section > form > h4,
+.g_section > h2,
+.g_section > form > h2,
 .i_comment_add,
 .i_topic_add,
 .i_topic_history,

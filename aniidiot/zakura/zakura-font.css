@@ -12,6 +12,14 @@ table td {
 	letter-spacing: 0.1em;
 }
 
+h2,
+h2 a,
+h2 span {
+	font-family: "Century Gothic","Lucida Grande",sans-serif !important;
+	font-size: 1.8rem;
+	font-weight: normal !important;
+}
+
 h4,
 h4 a,
 h4 span,
