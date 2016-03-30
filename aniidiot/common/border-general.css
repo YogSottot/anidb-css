@@ -12,8 +12,6 @@ table {
 	border-bottom: 2px double;
 }
 
-.g_section > h4,
-.g_section > form > h4,
 input[type="submit"],
 input[type="button"],
 button,
@@ -202,4 +200,9 @@ input[type="button"],
 
 #layout-search input.text.focus + select {
 	border-radius: 0 5px 0 0;
+}
+
+.g_section > h4,
+.g_section > form > h4 {
+	border-bottom: 1px solid;
 }
