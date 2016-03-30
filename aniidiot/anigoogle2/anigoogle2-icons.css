@@ -7,7 +7,7 @@
 
 #layout-main div.tabbed_pane ul.tabs .save_as_default,
 #layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
-	display: inline;
+	display: inline-block;
 }
 
 .moveable,

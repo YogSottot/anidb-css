@@ -206,6 +206,10 @@
 	display: block;
 }
 
+#layout-main div.anime_all div.info > h4 {
+	display: none;
+}
+
 @media screen and (min-width: 1200px) {
 	#layout-main div.anime_all.sidebar > div.info {
 		float: left;
@@ -215,10 +219,6 @@
 	#layout-main div.anime_all.sidebar > div.info div.edit_actions {
 		margin-right: 1.2em;
 		margin: 0 0.3em 0.5em 0;
-	}
-
-	#layout-main div.anime_all.sidebar div.info > h2 {
-		display: none;
 	}
 
 	#layout-main div.anime_all.sidebar > div.info,

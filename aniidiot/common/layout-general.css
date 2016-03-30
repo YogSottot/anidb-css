@@ -231,15 +231,6 @@ h4,
 	padding: .3em;
 }
 
-#layout-main div.tabbed_pane ul.tabs {
-	text-align: left;
-	margin: 1px 1px 1px 6px;
-}
-
-#layout-main div.tabbed_pane ul.tabs li {
-	padding: 5px 10px 2px;
-}
-
 #layout-hint {
 	position: relative;
 }
