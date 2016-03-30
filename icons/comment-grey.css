@@ -219,6 +219,7 @@
 	background-repeat: no-repeat;
 }
 
+*.i_msg_bulk,
 *.i_topic_announcement_locked,
 *.i_topic_global_locked {
 	background-image:url(../icons/phpbb/topic_announce_locked.gif);
@@ -254,6 +255,7 @@
 	background-repeat: no-repeat;
 }
 
+*.i_msg_bulk_unread,
 *.i_topic_announcement_locked_unread,
 *.i_topic_global_locked_unread {
 	background-image:url(../icons/phpbb/topic_announce_locked_unread.gif);
