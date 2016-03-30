@@ -1,4 +1,4 @@
-#layout-main div.tabbed_pane div.body table,
+#layout-main div.g_section:not(.info) div.tabbed_pane div.body table,
 #layout-main div.tabbed_pane div.body {
 	padding: 0.5em;
 }
