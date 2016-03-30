@@ -12,11 +12,13 @@ table {
 	border-bottom: 2px double;
 }
 
+.g_section > h4
+.g_section > form > h4,
 input[type="submit"],
 input[type="button"],
 button,
-*.g_bubble,
-*.g_button a,
+.g_bubble,
+.g_button a,
 input[type="text"],
 input[type="password"],
 input.text,

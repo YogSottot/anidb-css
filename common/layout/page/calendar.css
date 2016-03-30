@@ -35,3 +35,15 @@
 	-moz-justify-content: space-around;
 	justify-content: space-around;
 }
+
+#layout-main div.calendar_all div.content > * {
+	-ms-flex-grow: 1;
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	flex-grow: 1;
+}
+
+#layout-main div.calendar_all .g_bubble.box > div.data div.desc {
+	max-height: 15em;
+	overflow:hidden;
+}

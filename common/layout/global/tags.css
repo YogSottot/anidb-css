@@ -184,7 +184,7 @@
 
 #layout-main div.tag-column .tag-block{
 	width: 250px;
-	padding: 0 0.5em;
+	padding: 0.5em;
 }
 
 #layout-main div.tag-column .tag-block .parent:not(:first-child) {

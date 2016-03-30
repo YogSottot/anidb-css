@@ -40,11 +40,19 @@
 }
 /*</forcing icons not to wrap>*/
 
+#layout-main div.latest2_all div.content table{
+	width: 100%;
+}
+
 @media screen and (max-width: 1280px) {
 	#layout-main div.latest2_all table tr th,
 	#layout-main div.latest2_all table tr td {
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	#layout-main div.latest2_all div.content td.anime.name {
+		width: auto;
 	}
 }
 
@@ -54,17 +62,16 @@
 		min-width: 5em;
 	}
 
-	#layout-main div.latest2_all div.files div.content td.info {
-		min-width: 10em;
-		max-width: 10em;
-	}
-
 	#layout-main div.latest2_all div.animelist_all td.type,
 	#layout-main div.latest2_all div.latest_similaranime div.content td.user.name,
 	#layout-main div.latest2_all div.latest_recommendations div.content td.user.name,
 	#layout-main div.latest2_all div.latest_reviews div.content td.user.name,
 	#layout-main div.latest2_all div.latest_anime div.content td.type {
 		white-space:nowrap;
+	}
+
+	#layout-main div.latest2_all div.content td.anime.name {
+		width: auto;
 	}
 }
 
@@ -83,10 +90,10 @@
 		min-width: 30em;
 		max-width: 30em;
 	}
-}
 
-#layout-main div.latest2_all div.content td.anime.name {
-	width: 70%;
+	#layout-main div.latest2_all div.content td.anime.name {
+		width: 40%;
+	}
 }
 
 #layout-main div.latest2_all div.latest_completed div.content td.group {
