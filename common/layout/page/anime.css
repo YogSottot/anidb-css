@@ -249,12 +249,12 @@
 		box-sizing: border-box;
 	}
 
-	#layout-main div.anime_all.sidebar  #tabbed_pane {
+	#layout-main div.anime_all.sidebar #tabbed_pane {
 		margin: 0 0.4em;
 	}
 
 	#layout-main div.anime_all.sidebar div.info div.caststaff > div {
-		padding:1em;
+		padding: 1em;
 		margin: 1em 0.4em 0;
 	}
 
