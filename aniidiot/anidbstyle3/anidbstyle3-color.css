@@ -86,7 +86,7 @@ table th.sortable:hover:not(.sorter-false),
 	border-color: #34394D;
 }
 
-.g_section > h4
+.g_section > h4,
 .g_section > form > h4,
 #layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all .staffblock + .staffblock table {

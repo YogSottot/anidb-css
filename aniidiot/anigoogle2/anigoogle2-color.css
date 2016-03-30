@@ -274,7 +274,7 @@ input[type="password"]:focus,
 	background-color: #FFFFFF;
 }
 
-.g_section > h4
+.g_section > h4,
 .g_section > form > h4,
 input[type="text"],
 input[type="password"],

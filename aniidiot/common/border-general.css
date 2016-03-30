@@ -12,7 +12,7 @@ table {
 	border-bottom: 2px double;
 }
 
-.g_section > h4
+.g_section > h4,
 .g_section > form > h4,
 input[type="submit"],
 input[type="button"],
