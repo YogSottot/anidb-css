@@ -187,7 +187,9 @@ table + select {
 	padding: 0.5em 0.5em 0;
 }
 
-h6 span {
+.g_section > form > h6 > span,
+.g_section > h6 span {
     padding: 0.5em 0.5em 0;
     text-align: left;
+    display: block;
 }
