@@ -49,7 +49,11 @@
 }
 
 #layout-main div.anime_all > .g_section:not(.info) {
-	margin: 1.5em 0.5em;
+	margin: 0em 0.5em 1.5em;
+}
+
+#layout-main div.anime_all > .g_section.tabbed_pane {
+	margin: 2.5em 0.5em;
 }
 
 #layout-main div.anime_all div.reviews table.reviewlist th.approval {
@@ -200,4 +204,61 @@
 #layout-main div.anime_all div.info div.caststaff div td.name a,
 #layout-main div.anime_all table.songlist td.creator > a {
 	display: block;
+}
+
+@media screen and (min-width: 1200px) {
+	#layout-main div.anime_all.sidebar > div.info {
+		float: left;
+	}
+
+	#layout-main div.anime_all.sidebar > div.info div.edit_actions {
+		margin-right: 1.2em;
+		margin: 0 0.3em 0.5em 0;
+	}
+
+	#layout-main div.anime_all.sidebar div.info > h4 {
+		display: none;
+	}
+
+	#layout-main div.anime_all.sidebar > div.info,
+	#layout-main div.anime_all.sidebar div.block,
+	#layout-main div.anime_all.sidebar div.block > div.image,
+	#layout-main div.anime_all.sidebar div.block > div.data {
+		min-width: unset;
+		width: 425px;
+	}
+
+	#layout-main div.anime_all.sidebar div.info div.caststaff,
+	#layout-main div.anime_all.sidebar div.block {
+		flex-wrap: wrap;
+	}
+
+	#layout-main div.anime_all.sidebar div.block > div.data {
+		margin-top: 1em;
+		margin-right: 0;
+	}
+
+	#layout-main div.anime_all.sidebar div.block > div.image {
+		margin: 0;
+	}
+
+	#layout-main div.anime_all.sidebar > .g_section.resized {
+		width: calc(100% - 440px);
+		clear: none;
+		float: right;
+		box-sizing: border-box;
+	}
+
+	#layout-main div.anime_all.sidebar  #tabbed_pane {
+		margin: 0 0.4em;
+	}
+
+	#layout-main div.anime_all.sidebar div.info div.caststaff > div {
+		padding:1em;
+		margin: margin: 1em 0.4em 0;
+	}
+
+	#layout-main div.anime_all.sidebar div.block {
+		margin-top: 3em;
+	}
 }
