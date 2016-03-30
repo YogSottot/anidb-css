@@ -13,7 +13,7 @@
 #layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.cmt_entries div.profile,
 #layout-main div.forum div.quickreply textarea,
-#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox h3,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle {
 	border-color:#9A9CA1;
 }

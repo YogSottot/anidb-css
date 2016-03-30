@@ -1196,11 +1196,6 @@ display: block;
 {
 display: none;
 }
-#layout-content div.hint2_hinter h2
-{
-font-size: 160%;
-margin: 0.5em 0 0 0;
-}
 #layout-content div.hint2_hinter li
 {
 text-align: left;
@@ -2237,7 +2232,7 @@ border-bottom-color:#092e4d;
 border-right-color:#092e4d;
 color:#FFFFFF;
 }
-#layout-main div.forum .g_bubble.infobox h2
+#layout-main div.forum .g_bubble.infobox h3
 {
 border-bottom-color:#989898;
 color: #ff6000;

@@ -85,7 +85,7 @@
 	margin-top:3em;
 }
 
-#layout-main div.anime_all div.staffblock h2 {
+#layout-main div.anime_all div.staffblock h3 {
 	margin-left:1em;
 	text-align:center;
 	width:30%;
@@ -217,7 +217,7 @@
 		margin: 0 0.3em 0.5em 0;
 	}
 
-	#layout-main div.anime_all.sidebar div.info > h4 {
+	#layout-main div.anime_all.sidebar div.info > h2 {
 		display: none;
 	}
 

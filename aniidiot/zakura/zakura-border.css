@@ -84,7 +84,7 @@ li + li.g_odd,
 	border-left-style: dotted !important;
 }
 
-#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox h3,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 .g_bubble.stripe > div.data div.name {
 	border-bottom-style: dotted;

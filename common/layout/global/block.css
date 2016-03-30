@@ -53,6 +53,7 @@
 	width: calc(100% - 185px);
 }
 
+#anidb > .fancybox-wrap div.info.popup > h2,
 #anidb > .fancybox-wrap div.info.popup > h4 {
 	display: none;
 }

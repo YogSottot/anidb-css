@@ -174,15 +174,15 @@ table + select {
 	padding: 0.5em 0;
 }
 
-.g_section > h4,
-.g_section > form > h4 {
+.g_section > h2,
+.g_section > form > h2 {
 	padding:0;
 	text-align:left;
 	margin-bottom: 0.4em;
 }
 
-.g_section > form > h4 > span,
-.g_section > h4 > span {
+.g_section > form > h2 > span,
+.g_section > h2 > span {
 	display: block;
 	padding: 0.5em 0.5em 0;
 }

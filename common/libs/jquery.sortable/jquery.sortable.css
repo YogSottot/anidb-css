@@ -23,6 +23,10 @@ body.dragging * {
 	box-sizing: border-box;
 }
 
+.sortable_shuttle h4 {
+	text-align: left;
+}
+
 .sortable_shuttle h4 + button {
 	margin-top: -2.45em;
 	float: right;

@@ -30,7 +30,8 @@ h1 a {
 	font-size: inherit;
 }
 
-h4 span {
+h2,
+h2 span {
 	font-size: 1.4rem;
 }
 
@@ -42,6 +43,7 @@ caption,
 }
 
 .tab,
+h2 span,
 h4 span {
 	-cursor:hand;
 	cursor:pointer;
@@ -174,6 +176,7 @@ input[type="submit"] {
 	padding:1px;
 }
 
+h2 span,
 h4 span,
 h6 span,
 span.test,
@@ -227,7 +230,7 @@ div.pagination span a {
 	font-weight:normal;
 }
 
-#layout-main div.forum .g_bubble.infobox h2 {
+#layout-main div.forum .g_bubble.infobox h3 {
 	font-size:1.52rem;
 	font-weight:bold;
 }
@@ -255,6 +258,7 @@ th.sortable:not(.sorter-false) {
 #layout-main div.forum span.postedited,
 #layout-main div.anime_all div.characters a.primary,
 #layout-main div.tag-column div.tag.abstract,
+h2.collapsed span,
 h4.collapsed span {
 	font-style:italic;
 }
