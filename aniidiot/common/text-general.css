@@ -38,11 +38,6 @@ input[type="submit"],
 	font-size: 1.04rem;
 }
 
-#layout-main div.animeatt_reviews div.review h4,
-#layout-main div.userpage_all div.blog div.g_timedentry h4 {
-	font-size: 1.33rem;
-}
-
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
 	font-size: 0.86rem;
@@ -77,9 +72,9 @@ input[type="button"] {
 
 .g_section > h4 span::before,
 .g_section > form > h4 span::before {
-	content: "» ";
+	content: "Â» ";
 }
 .g_section > h4 span::after,
 .g_section > form > h4 span::after {
-	content: " «";
+	content: " Â«";
 }
