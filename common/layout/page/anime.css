@@ -53,7 +53,7 @@
 }
 
 #layout-main div.anime_all > .g_section.tabbed_pane {
-	margin: 2.5em 0.5em;
+	margin: 2.5em 0.5em 1.5em;
 }
 
 #layout-main div.anime_all div.reviews table.reviewlist th.approval {
@@ -90,7 +90,6 @@
 	text-align:center;
 	width:30%;
 }
-
 
 #layout-main div.group_all div.group_released td.epbar > div div,
 #layout-main div.anime_all div.groups td.epbar > div div {
@@ -265,5 +264,9 @@
 
 	#layout-main div.anime_all.sidebar textarea {
 		width: 20em;
+	}
+
+	#layout-main div.anime_all.sidebar > .g_section.resized.tabbed_pane {
+		margin: 1em 0.5em 1.5em;
 	}
 }
