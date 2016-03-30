@@ -274,8 +274,6 @@ input[type="password"]:focus,
 	background-color: #FFFFFF;
 }
 
-.g_section > h4,
-.g_section > form > h4,
 input[type="text"],
 input[type="password"],
 input.text,
@@ -290,6 +288,11 @@ select,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea,
 #layout-main div.forum div.quickreply textarea {
 	border-color: #E8E8E8;
+}
+
+.g_section > h4,
+.g_section > form > h4 {
+	border-color: #F1F1F1;
 }
 
 .i_comment_add,
