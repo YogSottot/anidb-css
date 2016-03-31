@@ -24,6 +24,7 @@
 
 .g_bubblewrap > .fullwidth {
 	width: 100%;
+	max-width: 100%;
 }
 
 .g_bubble.stripe {
