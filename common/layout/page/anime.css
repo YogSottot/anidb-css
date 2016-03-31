@@ -214,6 +214,10 @@
 	margin-top: 0;
 }
 
+#layout-main div.anime_all .g_section.voteoption h3.span {
+	white-space: nowrap;
+}
+
 @media screen and (min-width: 1200px) {
 	#layout-main div.anime_all.sidebar > div.info {
 		float: left;

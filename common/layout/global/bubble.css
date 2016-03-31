@@ -19,6 +19,11 @@
 	-webkit-flex-grow: 1;
 	-moz-flex-grow: 1;
 	flex-grow: 1;
+	max-width: 50%;
+}
+
+.g_bubblewrap > .fullwidth {
+	width: 100%;
 }
 
 .g_bubble.stripe {
