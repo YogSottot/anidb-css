@@ -9,3 +9,11 @@
 tr.rating td.value span.myvote:before {
 	content: ", ";
 }
+
+#layout-main div.anime_all .myvote > a:before {
+	content: '['
+}
+
+#layout-main div.anime_all .myvote > a:after {
+	content: ']'
+}
