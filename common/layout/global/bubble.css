@@ -211,6 +211,8 @@
 	padding: 0.5em;
 }
 
-.g_section:not(.tabbed_pane) > .g_bubble > table {
+/*hack because css4 child selectors aren'T supported yet by any browser*/
+#layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
 	margin: -0.5em;
+	width: calc(100% + 1em);
 }
