@@ -218,6 +218,17 @@
 	white-space: nowrap;
 }
 
+#layout-main div.anime_all .g_section.mylist_status.vote_status .container {
+	box-sizing: border-box;
+	height: 8em;
+}
+
+@media screen and (min-width: 1630px) {
+	#layout-main div.anime_all .g_section.mylist_status.vote_status > div + div {
+		margin-left: 1em;
+	}
+}
+
 @media screen and (min-width: 1200px) {
 	#layout-main div.anime_all.sidebar > div.info {
 		float: left;
