@@ -6,14 +6,14 @@
 	content: " *";
 }
 
-tr.rating td.value span.myvote:before {
+#layout-main tr.rating td.value span.myvote:not(:empty):before {
 	content: ", ";
 }
 
-#layout-main div.anime_all .myvote > a:before {
+#layout-main span.myvote > a:before {
 	content: '['
 }
 
-#layout-main div.anime_all .myvote > a:after {
+#layout-main span.myvote > a:after {
 	content: ']'
 }
