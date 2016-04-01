@@ -18,6 +18,8 @@ h4 span.nolink a,
 	color: #105289;
 }
 
+.g_section > h2,
+.g_section > form > h2,
 select:hover,
 select:focus,
 textarea:hover,
