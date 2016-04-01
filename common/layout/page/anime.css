@@ -35,6 +35,7 @@
 	margin-left: 0.5em;
 }
 
+#layout-main div.anime_all > .g_section table,
 #layout-main div.anime_all > .g_section form table {
 	width: 100%;
 }
