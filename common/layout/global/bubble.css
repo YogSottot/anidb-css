@@ -19,11 +19,25 @@
 	-webkit-flex-grow: 1;
 	-moz-flex-grow: 1;
 	flex-grow: 1;
-	max-width: 50%;
 }
 
 .g_bubblewrap > .fullwidth {
 	width: 100%;
+	max-width: 100%;
+}
+
+.g_bubblewrap > .g_bubble.box,
+.g_bubblewrap > .g_bubble.stripe {
+	max-width: 500px;
+}
+
+.g_bubblewrap > .g_bubble.stripe.mini,
+.g_bubblewrap > .g_bubble.stripe.small,
+.g_bubblewrap > .g_bubble.stripe.medium {
+	max-width: 400px;
+}
+
+.g_bubblewrap > .g_bubble.stripe.max {
 	max-width: 100%;
 }
 
