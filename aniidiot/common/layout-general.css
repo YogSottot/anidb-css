@@ -312,7 +312,7 @@ button,
 
 .g_button.upload a,
 button,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions spasn > *,
 #layout-tabs ul li a,
 #layout-search .submit,
 #layout-main div.msg_all div.buttons li a,

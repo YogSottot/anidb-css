@@ -134,7 +134,7 @@ a.confirmButton,
 input.confirmButton,
 button.confirmButton,
 #layout-main table.filelist tr.undumped td.id a,
-#layout-main div.edit_actions a {
+#layout-main div.edit_actions span > * {
 	font-weight: normal;
 }
 

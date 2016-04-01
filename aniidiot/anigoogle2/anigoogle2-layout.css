@@ -38,7 +38,7 @@
 	display: block;
 }
 
-#layout-main div.edit_actions a {
+#layout-main div.edit_actions span > * {
 	padding: 2px 8px;
 }
 

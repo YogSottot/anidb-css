@@ -40,7 +40,7 @@ table th.sortable:hover:not(.sorter-false),
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a,
 #layout-main ul.g_list li:hover,
-#layout-main div.edit_actions a:hover,
+#layout-main div.edit_actions span > *:hover,
 #layout-main .g_list li:hover,
 #layout-main .g_list a:hover {
 	color: #C0DAF0 !important;
@@ -81,7 +81,7 @@ table th.sortable:hover:not(.sorter-false),
 .i_pm_reply,
 .i_topic_subscribe,
 .i_topic_unsubscribe,
-#layout-main div.edit_actions a {
+#layout-main div.edit_actions span > * {
 	background-color: #34394D;
 	border-color: #34394D;
 }
@@ -117,7 +117,7 @@ th a,
 .i_pm_reply,
 .i_topic_subscribe,
 .i_topic_unsubscribe,
-#layout-main div.edit_actions a {
+#layout-main div.edit_actions span > * {
 	color: #CCCCCC !important;
 }
 
@@ -153,7 +153,7 @@ button,
 #layout-search input.text,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 #layout-main div.addfilem.form div.dump textarea,
 #layout-main div.forum div.quickreply textarea {
 	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
@@ -210,7 +210,7 @@ button,
 .i_topic_unsubscribe:hover,
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a,
-#layout-main div.edit_actions a:hover,
+#layout-main div.edit_actions span > *:hover,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
 	background-color: #58636E;

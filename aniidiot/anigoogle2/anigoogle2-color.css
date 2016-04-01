@@ -188,7 +188,7 @@ button.confirmButton:hover,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.userpage_all div.g_menu ul li.g_odd,
-#layout-main div.edit_actions a:hover,
+#layout-main div.edit_actions span > *:hover,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-search ul.quicksearch .g_bubble.stripe:hover {
 	background-color: #F1F1F1;
@@ -236,7 +236,7 @@ button.confirmButton,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.pagination span a,
@@ -333,7 +333,7 @@ button.confirmButton,
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.forum .g_bubble.infobox h3,
@@ -589,7 +589,7 @@ button,
 #layout-search input.text,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 #layout-main div.addfilem.form div.dump textarea,
 #layout-main div.forum div.quickreply textarea {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
@@ -650,4 +650,9 @@ input[type="text"]:disabled,
 }
 .ajax-file-upload:hover {
 	opacity: 0.6;
+}
+
+/*to counter the green background color we need a darker color*/
+.g_bubble.stripe.mylist > div.data div.name {
+	border-color: #AAAAAA;
 }
