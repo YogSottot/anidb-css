@@ -202,12 +202,8 @@
 	min-height:105px;
 }
 
-.g_bubble.stripe.recommendation {
-	height: 125px;
-}
-
 .g_bubble.stripe.recommendation > div.data div.text {
-	max-height: 100px;
+	max-height: auto;
 }
 
 .g_section > .g_bubble table,
