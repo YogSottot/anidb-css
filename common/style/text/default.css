@@ -185,8 +185,12 @@ span.test,
 .g_list li a,
 div.pagination span strong,
 div.pagination span a {
-	-moz-user-select:none;
-	-user-select:none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
 	padding:1px 2px;
 	text-transform:capitalize;
 }
@@ -421,7 +425,12 @@ ul.format-modes li:hover,
 }
 
 #layout-main div.addcreatoranimerel_all div.content h4 span.nolink {
-	-moz-user-select: text;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
 	cursor: default;
 	text-transform:none;
 }
@@ -439,4 +448,14 @@ ul.format-modes li:hover,
 #layout-footer,
 #obj-tooltip {
 	font-size: 0.85rem;
+}
+
+span.link {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+
 }
