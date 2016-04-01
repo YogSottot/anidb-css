@@ -206,7 +206,11 @@
 	max-height: unset;
 }
 
-#layout-main div.anime_all > .g_section.tabbed_pane > .g_bubble table,
+.g_section.tabbed_pane > .g_bubble table,
 .g_section > .g_bubble {
 	padding: 0.5em;
+}
+
+.g_section:not(.tabbed_pane) > .g_bubble > table {
+	margin: -0.5em;
 }
