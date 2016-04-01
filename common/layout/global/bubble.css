@@ -8,10 +8,10 @@
 	-ms-flex-wrap: wrap;
 	-moz-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-ms-justify-content: space-around;
-	-webkit-justify-content: space-around;
-	-moz-justify-content: space-around;
-	justify-content: space-around;
+	-ms-justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	-moz-justify-content: flex-start;
+	justify-content: flex-start;
 }
 
 .g_bubblewrap > * {
