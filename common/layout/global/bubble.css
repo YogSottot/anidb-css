@@ -203,7 +203,7 @@
 }
 
 .g_bubble.stripe.recommendation > div.data div.text {
-	max-height: auto;
+	max-height: unset;
 }
 
 .g_section > .g_bubble table,
