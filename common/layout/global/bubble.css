@@ -8,10 +8,10 @@
 	-ms-flex-wrap: wrap;
 	-moz-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-ms-justify-content: flex-start;
-	-webkit-justify-content: flex-start;
-	-moz-justify-content: flex-start;
-	justify-content: flex-start;
+	-ms-justify-content: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
 }
 
 .g_bubblewrap > * {
@@ -51,7 +51,7 @@
 	position: relative;
 	vertical-align: top;
 	margin: 0.5em;
-	min-height:7.7em;
+	min-height: 7.7em;
 }
 
 .g_bubble.stripe > div.image {
@@ -211,7 +211,7 @@
 	padding: 0.5em;
 }
 
-/*hack because css4 child selectors aren'T supported yet by any browser*/
+/*hack because css4 child selectors aren't supported yet by any browser*/
 #layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
 	margin: -0.5em;
 	width: calc(100% + 1em);
