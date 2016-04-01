@@ -216,7 +216,7 @@ button:before {
 	content: "\f0b2";
 }
 #layout-main ul.g_list li.edit a:before,
-#layout-main div.edit_actions span.modify a:before,
+#layout-main div.edit_actions span.modify > *:before,
 button.default:before,
 button.update:before,
 button.edit:before,
@@ -280,7 +280,7 @@ button.reboot:before {
 }
 #layout-main ul.g_list li.latest a:before,
 #layout-main ul.g_list li.list a:before,
-#layout-main div.edit_actions span.show a:before,
+#layout-main div.edit_actions span.show > *:before,
 #layout-main div.creq_all .links .creq_list a:before {
 	content: "\f0ca";
 }
@@ -353,7 +353,7 @@ button.load:before {
 .i_review_add:before,
 button.add:before,
 #layout-main ul.g_list li.add a:before,
-#layout-main div.edit_actions span.add a:before {
+#layout-main div.edit_actions span.add > *:before {
 	content: "\f067";
 }
 button.tmpratenow:before,
