@@ -21,6 +21,7 @@
 	flex-grow: 1;
 }
 
+.g_bubblewrap > .g_msg,
 .g_bubblewrap > .fullwidth {
 	width: 100%;
 	max-width: 100%;
