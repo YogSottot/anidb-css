@@ -10,7 +10,7 @@
 	display: inline-block;
 }
 
-.moveable,
+.i_moveable,
 .i_general_vote_up,
 .i_general_vote_down,
 .i_general_vote_revoke,
@@ -77,7 +77,7 @@
 	background-image: none !important;
 }
 
-.moveable,
+.i_moveable,
 .i_general_vote_up,
 .i_general_vote_down,
 .i_general_vote_revoke,
@@ -180,7 +180,7 @@ button,
 	padding-left: 4px;
 }
 
-.moveable:before,
+.i_moveable:before,
 button:before,
 .g_button.upload a:before,
 #layout-tabs ul li a:before,
@@ -384,7 +384,7 @@ button.spoiler:before,
 button.preview:before {
 	content: "\f06e";
 }
-.moveable:before {
+.i_moveable:before {
 	content: "\f047";
 }
 /*image only - no text*/
