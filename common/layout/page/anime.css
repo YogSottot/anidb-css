@@ -290,3 +290,11 @@
 		margin: 1em 0.5em 1.5em;
 	}
 }
+
+/*IE hack for not being able to handle max-width in conjunction with flex-grow: MS does not intent to fix this for anything below Edge*/
+#anidb.internet_explorer div.anime_all .g_section.mylist_status.vote_status .container {
+	-ms-justify-content: space-around;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	justify-content: space-around;
+}
