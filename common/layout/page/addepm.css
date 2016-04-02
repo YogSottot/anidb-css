@@ -5,3 +5,7 @@
 #layout-main div.addepm_all .ep .row input + input {
 	margin-left: 0.5em;
 }
+
+#layout-main div.addepm_all .ep button + button {
+	margin-left: 0.3em;
+}
