@@ -95,7 +95,12 @@ body.nonav #layout-main h1 {
     vertical-align: bottom;
     float: none;
     width: 16px;
-	padding-right: 0.3em;
+}
+
+#layout-main div table td.name span.icons.tooltip .i_info,
+#layout-main .g_bubble.box .name span.icons.tooltip .i_info,
+#layout-main .g_bubble.stripe .name span.icons.tooltip .i_info {
+	padding-right: 0.5em;
 }
 
 #layout-main .icons .i_icon,
