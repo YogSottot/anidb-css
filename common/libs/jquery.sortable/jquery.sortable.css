@@ -51,6 +51,7 @@ body.dragging * {
 	display: list-item;
 }
 
+.sortable_shuttle .i_general_delete,
 .sortable_shuttle .i_seen_no,
 .sortable_shuttle .i_seen_yes {
 	cursor: pointer;
