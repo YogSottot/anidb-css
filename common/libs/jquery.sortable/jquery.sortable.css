@@ -46,7 +46,16 @@ body.dragging * {
 	display: none;
 }
 
-.sortable_shuttle ol.jssortable {
+.sortable_shuttle .moveable {
+	cursor: move;
+	display: list-item;
+}
+
+.sortable_shuttle .g_bubble {
+	padding: 0.5em;
+}
+
+.sortable_shuttle ol {
 	margin: 0;
 	min-height: 1.5em;
 }
@@ -69,15 +78,6 @@ body.dragging * {
 	border: 5px solid transparent;
 	border-left-color: red;
 	border-right: none;
-}
-
-.sortable_shuttle .moveable {
-	cursor: move;
-	display: list-item;
-}
-
-.sortable_shuttle .g_bubble {
-	padding: 0.5em;
 }
 
 .sortable_shuttle ol.jssortable li + li {
