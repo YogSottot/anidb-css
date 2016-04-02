@@ -21,6 +21,7 @@
 	flex-grow: 1;
 }
 
+/*IE hack for not being able to handle max-width in conjunction with flex-grow: MS does not intent to fix this for anything below Edge*/
 #anidb.internet_explorer .g_bubblewrap > * {
 	-ms-flex-grow: 0;
 	-webkit-flex-grow: 0;
