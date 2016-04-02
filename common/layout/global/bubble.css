@@ -21,6 +21,13 @@
 	flex-grow: 1;
 }
 
+#anidb.internet_explorer .g_bubblewrap > * {
+	-ms-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-moz-flex-grow: 0;
+	flex-grow: 0;
+}
+
 .g_bubblewrap > .g_msg,
 .g_bubblewrap > .fullwidth {
 	width: 100%;
@@ -117,8 +124,6 @@
 
 .g_bubble.stripe > div.data div.text {
 	word-wrap: break-word;
-	overflow-y:auto;
-	max-height:7em;
 }
 
 .g_bubble.box {
