@@ -10,6 +10,7 @@
 @import "../aniblackle/aniblackle-icons.css";
 @import "aniblackle-menu-border.css";
 @import "aniblackle-menu-color.css";
+@import "aniblackle-menu-layout.css";
 
 #layout-footer:after {
 	content:"design by deridiot inspired by blackle - banner by fafnir aka permidion";
