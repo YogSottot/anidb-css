@@ -263,7 +263,7 @@
 	}
 
 	#layout-main div.anime_all.sidebar > .g_section.resized {
-		width: calc(100% - 440px);
+		width: calc(100% - 445px);
 		clear: none;
 		float: right;
 		box-sizing: border-box;
