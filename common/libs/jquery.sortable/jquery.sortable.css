@@ -46,12 +46,13 @@ body.dragging * {
 	display: none;
 }
 
-.sortable_shuttle .i_moveable {
+.sortable_shuttle .moveable {
 	cursor: move;
 	display: list-item;
 }
 
-.sortable_shuttle .i_icon {
+.sortable_shuttle .i_seen_no,
+.sortable_shuttle .i_seen_yes {
 	cursor: pointer;
 }
 

@@ -194,4 +194,8 @@
 
 .i_moveable {
 	background-image: url(../icons/silk/general_move.png);
+	width: 16px;
+	height: 16px;
+	padding-right: 0.5em;
+	vertical-align: bottom;
 }
