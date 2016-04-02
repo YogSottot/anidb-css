@@ -298,3 +298,11 @@
 	-moz-justify-content: space-around;
 	justify-content: space-around;
 }
+
+#layout-main div.anime_all .wishlist td.value > div {
+	display: inline-block;
+}
+
+#layout-main div.anime_all .wishlist td.value > div.state {
+	float: right;
+}

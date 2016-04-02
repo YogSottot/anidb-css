@@ -671,3 +671,7 @@ button.preview:before {
 .i_rate_verylow {
 	background-image: url(../icons/icon/anidb_rate_star.png);
 }
+
+.i_icon {
+	text-align: center;
+}
