@@ -320,6 +320,6 @@
 }
 
 #layout-main div.anime_all .notification td.value > div.state span.text,
-#layout-main div.anime_all .wishlist td.value > div.state.text {
+#layout-main div.anime_all .wishlist td.value > div.state span.text {
 	padding-right: 0.5em;
 }
