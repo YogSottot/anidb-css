@@ -395,7 +395,3 @@ button,
 #layout-main div.block div.data table th {
 	width: 10em;
 }
-
-#layout-main div.tabbed_pane div.body {
-	margin-top: -1px;
-}
