@@ -47,8 +47,10 @@ th.c_number.s_reverse,
 .i_down1, .i_up1		{background-position: -11px center;}
 .i_nodown1, .i_down1	{background-image: url(../icons/zakura/down.gif);}
 .i_noup1, .i_up1		{background-image: url(../icons/zakura/up.gif);}
+*.i_tab_collapse,
 .i_minus				{background-image: url(../icons/zakura/minus.gif);}
 .i_plus					{background-image: url(../icons/zakura/plus.gif);}
+*.i_tab_collapse:hover,
 .i_minus:hover			{background-position: right}
 .i_plus:hover			{background-position: right}
 

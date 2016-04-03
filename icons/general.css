@@ -35,6 +35,7 @@
 	background: url(../icons/orange/plus.gif) no-repeat right;
 }
 
+*.i_tab_collapse,
 *.i_minus {
 	background: url(../icons/orange/minus.gif) no-repeat right;
 }

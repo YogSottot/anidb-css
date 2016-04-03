@@ -1536,6 +1536,7 @@ cursor: help; /* just for teh funs */ }
 
 *.i_plus { background: url(images/icons/four/plus.png) no-repeat right }
 
+*.i_tab_collapse,
 *.i_minus { background: url(images/icons/four/minus.png) no-repeat right }
 
 *.i_comment { background-image: url(images/icons/icon/anidb_comment.png) }

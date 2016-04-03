@@ -21,6 +21,7 @@
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
+.i_tab_collapse,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -89,6 +90,7 @@
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
+.i_tab_collapse,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -400,6 +402,7 @@ button.preview:before {
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
+.i_tab_collapse,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -522,6 +525,9 @@ button.preview:before {
 }
 .i_state_verified:after {
 	content: "\f00c";
+}
+.i_tab_collapse:after {
+	content: "\f146";
 }
 .i_tab_default:after {
 	content: "\f004";

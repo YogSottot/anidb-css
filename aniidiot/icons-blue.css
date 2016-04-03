@@ -2,6 +2,7 @@
 	background-image: url(../icons/blue/plus.gif);
 }
 
+*.i_tab_collapse,
 *.i_minus {
 	background-image: url(../icons/blue/minus.gif);
 }

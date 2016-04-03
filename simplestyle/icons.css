@@ -17,6 +17,7 @@
 	width:15px;
 }
 
+*.i_tab_collapse,
 *.i_minus
 {
 	background-image:url(images/icons/minus.gif);
