@@ -31,18 +31,19 @@ h1 a {
 }
 
 h2,
-h2 span {
-	font-size: 1.4rem;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
 h4,
 h6,
 caption,
 #layout-main #chartags h3 {
 	font-size: 1.2rem;
+}
+
+/*temporarily restricted*/
+#layout-main div.anime_all h2 {
+	font-size: 1.4rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .tab,
