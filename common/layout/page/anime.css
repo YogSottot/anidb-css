@@ -245,7 +245,7 @@
 	#layout-main div.anime_all.sidebar div.block > div.image,
 	#layout-main div.anime_all.sidebar div.block > div.data {
 		min-width: unset;
-		width: 425px;
+		width: 435px;
 	}
 
 	#layout-main div.anime_all.sidebar div.info div.caststaff,
@@ -263,7 +263,7 @@
 	}
 
 	#layout-main div.anime_all.sidebar > .g_section.resized {
-		width: calc(100% - 445px);
+		width: calc(100% - 455px);
 		clear: none;
 		float: right;
 		box-sizing: border-box;
@@ -288,6 +288,15 @@
 
 	#layout-main div.anime_all.sidebar > .g_section.resized.tabbed_pane {
 		margin: 1em 0.5em 1.5em;
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist th {
+		min-width: 8.8em;
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist td {
+		width: 100%;
+		padding-right: 0;
 	}
 }
 
