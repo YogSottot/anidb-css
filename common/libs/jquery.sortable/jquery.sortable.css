@@ -92,7 +92,6 @@ body.dragging * {
 
 .sortable_shuttle ol.jssortable li.pane > ol.pane {
 	margin-left: 2em;
-   	margin-top: -1.5em;
 }
 
 .sortable_shuttle ol.jssortable li.pane > ol.pane.i_general_delete {
@@ -101,4 +100,23 @@ body.dragging * {
    	padding: 0.35em 0 0 0.5em;
    	margin-lefT: 1.5em;
    	margin-top: -1.1em;
+}
+
+.sortable_shuttle ol.jssortable li.pane > div {
+	float:left;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	flex-direction: column;
+}
+
+.sortable_shuttle ol.jssortable li.pane > div span.i_seen_no,
+.sortable_shuttle ol.jssortable li.pane > div span.i_seen_yes {
+	margin-left: -0.1em !important;
+	margin-top: 0.25em;
 }
