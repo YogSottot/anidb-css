@@ -299,9 +299,10 @@
 	justify-content: space-around;
 }
 
-#layout-main div.anime_all .notificationt td.value > div,
+#layout-main div.anime_all .notification td.value > div,
 #layout-main div.anime_all .wishlist td.value > div {
 	display: inline-block;
+	vertical-align: middle;
 }
 
 #layout-main div.anime_all .notification td.value > div.state,
