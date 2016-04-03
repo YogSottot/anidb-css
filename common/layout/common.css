@@ -179,8 +179,9 @@ table + select {
 	padding: 0.5em 0;
 }
 
-.g_section > h2,
-.g_section > form > h2 {
+/*temporarily restricted*/
+#layout-main div.anime_all .g_section > h2,
+#layout-main div.anime_all .g_section > form > h2 {
 	padding:0;
 	text-align:left;
 	margin-bottom: 0.4em;
