@@ -176,9 +176,9 @@ input[type="submit"] {
 	padding:1px;
 }
 
-h2 span,
-h4 span,
-h6 span,
+h2 > span,
+h4 > span,
+h6 > span,
 span.test,
 .tabbed_pane ul.tabs li,
 .g_list li,
