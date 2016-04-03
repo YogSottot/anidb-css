@@ -52,7 +52,7 @@
 	margin: 0em 0.5em 1.5em;
 }
 
-#layout-main div.anime_all > .g_section.tabbed_pane {
+#layout-main div.anime_all > .g_section.tabbed_pane:not(.hidden) {
 	margin: 2.5em 0.5em 1.5em;
 }
 
