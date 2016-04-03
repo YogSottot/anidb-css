@@ -90,6 +90,10 @@ body.dragging * {
 	margin-top: 0.5em;
 }
 
+.sortable_shuttle ol.jssortable li.pane {
+	min-height: 3em;
+}
+
 .sortable_shuttle ol.jssortable li.pane > ol.pane {
 	margin-left: 2em;
 }
