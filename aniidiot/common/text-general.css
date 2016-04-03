@@ -38,11 +38,6 @@ input[type="submit"],
 	font-size: 1.04rem;
 }
 
-#layout-main div.animeatt_reviews div.review h4,
-#layout-main div.userpage_all div.blog div.g_timedentry h4 {
-	font-size: 1.33rem;
-}
-
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
 	font-size: 0.86rem;
@@ -73,4 +68,14 @@ input[type="button"] {
 #layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a,
 #layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
 	font-size: 1.33rem;
+}
+
+/*temporarily restricted*/
+#layout-main div.anime_all .g_section > h2 > span::before,
+#layout-main div.anime_all .g_section > form > h2 > span::before {
+	content: "» ";
+}
+#layout-main div.anime_all .g_section > h2 > span::after,
+#layout-main div.anime_all .g_section > form > h2 > span::after {
+	content: " «";
 }

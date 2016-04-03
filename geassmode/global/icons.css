@@ -1,6 +1,7 @@
 *.i_icon:hover {
 	border:none;
 }
+*.i_tab_collapse,
 *.i_minus {
 	background-image:url(images/icons/a_contract.png);
 }

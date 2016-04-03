@@ -54,6 +54,7 @@
 	background-image:url('images/buttons/none.gif');
 }
 
+*.i_tab_collapse,
 *.i_minus
 {
 	background-image:url('images/buttons/minus.gif');

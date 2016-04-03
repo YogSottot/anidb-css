@@ -7,9 +7,10 @@
 
 #layout-main div.tabbed_pane ul.tabs .save_as_default,
 #layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
-	display: inline;
+	display: inline-block;
 }
 
+.i_moveable,
 .i_general_vote_up,
 .i_general_vote_down,
 .i_general_vote_revoke,
@@ -20,6 +21,7 @@
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
+.i_tab_collapse,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -34,6 +36,7 @@
 .i_file_editmylist,
 .i_file_removemylist,
 .i_liststate_edit,
+.i_general_add,
 .i_general_edit,
 .i_general_delete,
 .i_general_blacklist,
@@ -76,6 +79,7 @@
 	background-image: none !important;
 }
 
+.i_moveable,
 .i_general_vote_up,
 .i_general_vote_down,
 .i_general_vote_revoke,
@@ -86,6 +90,7 @@
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
+.i_tab_collapse,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -100,6 +105,7 @@
 .i_file_editmylist,
 .i_file_removemylist,
 .i_liststate_edit,
+.i_general_add,
 .i_general_edit,
 .i_general_delete,
 .i_general_blacklist,
@@ -141,7 +147,7 @@
 .i_review_add,
 .g_button.upload a,
 button,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 #layout-tabs ul li a,
 #layout-search .submit,
 #layout-main div.msg_all div.buttons li a,
@@ -178,10 +184,11 @@ button,
 	padding-left: 4px;
 }
 
+.i_moveable:before,
 button:before,
 .g_button.upload a:before,
 #layout-tabs ul li a:before,
-#layout-main div.edit_actions a:before,
+#layout-main div.edit_actions span > *:before,
 #layout-main ul.g_list li span.nolink:before,
 #layout-main ul.g_list li a:before,
 #layout-main div.msg_all div.buttons li a:before,
@@ -213,7 +220,7 @@ button:before {
 	content: "\f0b2";
 }
 #layout-main ul.g_list li.edit a:before,
-#layout-main div.edit_actions span.modify a:before,
+#layout-main div.edit_actions span.modify > *:before,
 button.default:before,
 button.update:before,
 button.edit:before,
@@ -277,7 +284,7 @@ button.reboot:before {
 }
 #layout-main ul.g_list li.latest a:before,
 #layout-main ul.g_list li.list a:before,
-#layout-main div.edit_actions span.show a:before,
+#layout-main div.edit_actions span.show > *:before,
 #layout-main div.creq_all .links .creq_list a:before {
 	content: "\f0ca";
 }
@@ -350,7 +357,7 @@ button.load:before {
 .i_review_add:before,
 button.add:before,
 #layout-main ul.g_list li.add a:before,
-#layout-main div.edit_actions span.add a:before {
+#layout-main div.edit_actions span.add > *:before {
 	content: "\f067";
 }
 button.tmpratenow:before,
@@ -381,7 +388,9 @@ button.spoiler:before,
 button.preview:before {
 	content: "\f06e";
 }
-
+.i_moveable:before {
+	content: "\f047";
+}
 /*image only - no text*/
 .i_general_vote_up,
 .i_general_vote_down,
@@ -393,6 +402,7 @@ button.preview:before {
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
+.i_tab_collapse,
 .i_tab_default,
 .i_tab_reset,
 .i_notify,
@@ -407,6 +417,7 @@ button.preview:before {
 .i_file_editmylist,
 .i_file_removemylist,
 .i_liststate_edit,
+.i_general_add,
 .i_general_edit,
 .i_general_delete,
 .i_general_blacklist,
@@ -458,6 +469,7 @@ button.preview:before {
 	content: "\f040";
 	cursor:pointer;
 }
+.i_general_add:after,
 .i_file_addmylist:after,
 .i_file_add:after {
 	content: "\f067";
@@ -514,6 +526,9 @@ button.preview:before {
 .i_state_verified:after {
 	content: "\f00c";
 }
+.i_tab_collapse:after {
+	content: "\f068";
+}
 .i_tab_default:after {
 	content: "\f004";
 }
@@ -558,18 +573,15 @@ button.preview:before {
 	content: "\f016";
 	cursor: default;
 }
-
 .i_stats:after {
 	content: "\f080";
 	cursor: pointer;
 }
-
 .i_general_vote_revoke:after,
 .i_general_revert:after {
 	content: "\f0e2";
 	cursor: pointer;
 }
-
 .i_general_vote_up:after {
 	content: "\f087";
 	cursor: pointer;
@@ -664,4 +676,15 @@ button.preview:before {
 .i_rate_low,
 .i_rate_verylow {
 	background-image: url(../icons/icon/anidb_rate_star.png);
+}
+
+.i_icon {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.i_icon.i_tab_collapse,
+.i_icon.i_tab_default,
+.i_icon.i_tab_reset {
+	vertical-align: top;
 }

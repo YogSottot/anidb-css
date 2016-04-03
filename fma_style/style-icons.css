@@ -22,8 +22,10 @@
 .i_down1, .i_up1		{background-position: -11px center;}
 .i_nodown1, .i_down1	{background-image: url(images/icons/down.gif);}
 .i_noup1, .i_up1		{background-image: url(images/icons/up.gif);}
+.i_tab_collapse,
 .i_minus				{background-image: url(images/icons/minus.gif);}
 .i_plus					{background-image: url(images/icons/plus.gif);}
+.i_tab_collapse:hover,
 .i_minus:hover			{background-image: url(images/icons/minus_over.gif);}
 .i_plus:hover			{background-image: url(images/icons/plus_over.gif);}
 

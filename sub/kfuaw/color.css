@@ -24,7 +24,7 @@ a,
 #layout-main div.userpage_all div.g_section h4 a:hover,
 a.i_icon:hover,
 a.i_inline:hover,
-#layout-main div.edit_actions a:hover
+#layout-main div.edit_actions span > *:hover
 {
 	text-decoration: none;
 }
@@ -36,7 +36,7 @@ a.i_inline:hover,
 #layout-main div.tabbed_pane ul.tabs li a,
 #layout-main div.userpage_all div.g_section h4 a,
 #layout-main table caption a,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 .fancybox-wrap div.g_msg.note a,
 #layout-main div.g_msg.note a,
 #layout-main div.cmt_entries div.postbody div.content a,

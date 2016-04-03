@@ -35,7 +35,7 @@
 	margin-left: 0.5em;
 }
 
-#layout-main div.anime_all > .g_section:not(.vote):not(.mylist) table,
+#layout-main div.anime_all > .g_section table,
 #layout-main div.anime_all > .g_section form table {
 	width: 100%;
 }
@@ -49,7 +49,11 @@
 }
 
 #layout-main div.anime_all > .g_section:not(.info) {
-	margin: 1.5em 0.5em;
+	margin: 0em 0.5em 1.5em;
+}
+
+#layout-main div.anime_all > .g_section.tabbed_pane:not(.hidden) {
+	margin: 2.5em 0.5em 1.5em;
 }
 
 #layout-main div.anime_all div.reviews table.reviewlist th.approval {
@@ -81,12 +85,11 @@
 	margin-top:3em;
 }
 
-#layout-main div.anime_all div.staffblock h2 {
+#layout-main div.anime_all div.staffblock h3 {
 	margin-left:1em;
 	text-align:center;
 	width:30%;
 }
-
 
 #layout-main div.group_all div.group_released td.epbar > div div,
 #layout-main div.anime_all div.groups td.epbar > div div {
@@ -200,4 +203,127 @@
 #layout-main div.anime_all div.info div.caststaff div td.name a,
 #layout-main div.anime_all table.songlist td.creator > a {
 	display: block;
+}
+
+#layout-main div.anime_all div.info > h4 {
+	display: none;
+}
+
+#layout-main div.anime_all > div.info div.edit_actions {
+	height: 4em;
+	margin-top: 0;
+}
+
+#layout-main div.anime_all .g_section.voteoption h3.span {
+	white-space: nowrap;
+}
+
+#layout-main div.anime_all .g_section.mylist_status.vote_status .container {
+	box-sizing: border-box;
+	height: 8em;
+}
+
+@media screen and (min-width: 1630px) {
+	#layout-main div.anime_all .g_section.mylist_status.vote_status > div + div {
+		margin-left: 1em;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#layout-main div.anime_all.sidebar > div.info {
+		float: left;
+		margin-bottom: 2em;
+	}
+
+	#layout-main div.anime_all.sidebar > div.info div.edit_actions {
+		margin: 0 0.8em 0.5em 0;
+		height: auto;
+	}
+
+	#layout-main div.anime_all.sidebar > div.info,
+	#layout-main div.anime_all.sidebar div.block,
+	#layout-main div.anime_all.sidebar div.block > div.image,
+	#layout-main div.anime_all.sidebar div.block > div.data {
+		min-width: unset;
+		width: 435px;
+	}
+
+	#layout-main div.anime_all.sidebar div.info div.caststaff,
+	#layout-main div.anime_all.sidebar div.block {
+		flex-wrap: wrap;
+	}
+
+	#layout-main div.anime_all.sidebar div.block > div.data {
+		margin-top: 1em;
+		margin-right: 0;
+	}
+
+	#layout-main div.anime_all.sidebar div.block > div.image {
+		margin: 0;
+	}
+
+	#layout-main div.anime_all.sidebar > .g_section.resized {
+		width: calc(100% - 455px);
+		clear: none;
+		float: right;
+		box-sizing: border-box;
+	}
+
+	#layout-main div.anime_all.sidebar #tabbed_pane {
+		margin: 0 0.4em;
+	}
+
+	#layout-main div.anime_all.sidebar div.info div.caststaff > div {
+		padding: 0.5em;
+		margin: 1em 0.4em 0;
+	}
+
+	#layout-main div.anime_all.sidebar div.block {
+		margin-top: 3em;
+	}
+
+	#layout-main div.anime_all.sidebar textarea {
+		width: 20em;
+	}
+
+	#layout-main div.anime_all.sidebar > .g_section.resized.tabbed_pane {
+		margin: 1em 0.5em 1.5em;
+	}
+
+	#layout-main div.anime_all.sidebar > .g_section.info + .g_section.resized.tabbed_pane {
+	    margin-top: 0;
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist th {
+		min-width: 8.8em;
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist td {
+		width: 100%;
+		padding-right: 0;
+	}
+}
+
+/*IE hack for not being able to handle max-width in conjunction with flex-grow: MS does not intent to fix this for anything below Edge*/
+#anidb.internet_explorer div.anime_all .g_section.mylist_status.vote_status .container {
+	-ms-justify-content: space-around;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	justify-content: space-around;
+}
+
+#layout-main div.anime_all .notification td.value > div,
+#layout-main div.anime_all .wishlist td.value > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#layout-main div.anime_all .notification td.value > div.action,
+#layout-main div.anime_all .wishlist td.value > div.action {
+	min-width: 10em;
+}
+
+#layout-main div.anime_all .notification td.value > div.state span.text,
+#layout-main div.anime_all .wishlist td.value > div.state span.text {
+	padding-right: 0.5em;
 }

@@ -63,7 +63,7 @@ body {
 }
 
 #layout-tabs {
-	margin: 83px 3px;
+	margin: 83px 3px 0;
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {

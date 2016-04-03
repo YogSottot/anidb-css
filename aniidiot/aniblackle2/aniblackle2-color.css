@@ -47,7 +47,7 @@ input[type="button"]:hover,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.username-colored,
 #layout-menu li.sub-menu span.tab,
-#layout-main div.forum .g_bubble.infobox h2 {
+#layout-main div.forum .g_bubble.infobox h3 {
 	color: #B55353 !important;
 }
 
@@ -189,7 +189,7 @@ button.confirmButton:hover,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.userpage_all div.g_menu ul li.g_odd,
-#layout-main div.edit_actions a:hover,
+#layout-main div.edit_actions span > *:hover,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-search ul.quicksearch .g_bubble.stripe:hover {
 	background-color: #222222;
@@ -240,7 +240,7 @@ button.confirmButton,
 #layout-menu li.sub-menu ul li:hover a,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
 #layout-main div.pagination span a,
@@ -284,6 +284,8 @@ select,
 	border-color: #333333;
 }
 
+.g_section > h2,
+.g_section > form > h2,
 .i_comment_add,
 .i_topic_add,
 .i_topic_history,
@@ -323,10 +325,10 @@ button.confirmButton,
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
-#layout-main div.forum .g_bubble.infobox h2,
+#layout-main div.forum .g_bubble.infobox h3,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 #layout-main div.forum div.postbody div.code div.title,
 #layout-main div.forum .g_bubble.infobox div.data,
@@ -584,7 +586,7 @@ button,
 #layout-search input.text,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 #layout-main div.addfilem.form div.dump textarea,
 #layout-main div.forum div.quickreply textarea {
 	box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.1);

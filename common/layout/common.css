@@ -95,6 +95,11 @@ body.nonav #layout-main h1 {
     vertical-align: bottom;
     float: none;
     width: 16px;
+}
+
+#layout-main div table td.name span.icons.tooltip .i_info,
+#layout-main .g_bubble.box .name span.icons.tooltip .i_info,
+#layout-main .g_bubble.stripe .name span.icons.tooltip .i_info {
 	padding-right: 0.3em;
 }
 
@@ -172,4 +177,25 @@ table + select {
 #layout-footer {
 	text-align: center;
 	padding: 0.5em 0;
+}
+
+/*temporarily restricted*/
+#layout-main div.anime_all .g_section > h2,
+#layout-main div.anime_all .g_section > form > h2 {
+	padding:0;
+	text-align:left;
+	margin-bottom: 0.4em;
+}
+
+.g_section > form > h2 > span,
+.g_section > h2 > span {
+	display: block;
+	padding: 0.5em 0.5em 0;
+}
+
+.g_section > form > h6 > span,
+.g_section > h6 span {
+    padding: 0.5em 0.5em 0;
+    text-align: left;
+    display: block;
 }

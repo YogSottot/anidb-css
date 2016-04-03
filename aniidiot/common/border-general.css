@@ -15,8 +15,8 @@ table {
 input[type="submit"],
 input[type="button"],
 button,
-*.g_bubble,
-*.g_button a,
+.g_bubble,
+.g_button a,
 input[type="text"],
 input[type="password"],
 input.text,
@@ -83,7 +83,6 @@ tr + tr th,
 	border-top: 2px dotted;
 }
 
-table,
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 #layout-main div.anime_all div.info div.caststaff div table,
@@ -200,4 +199,10 @@ input[type="button"],
 
 #layout-search input.text.focus + select {
 	border-radius: 0 5px 0 0;
+}
+
+/*temporarily restricted*/
+#layout-main div.anime_all .g_section > h2,
+#layout-main div.anime_all .g_section > form > h2 {
+	border-bottom: 1px solid;
 }

@@ -79,7 +79,11 @@ input[type="password"],
 }
 
 .i_icon + .i_icon {
-	margin-left: 0.2em !important;
+	margin-left: 0.25em !important;
+}
+
+h2 {
+	line-height: 1.6em;
 }
 
 h4,
@@ -227,11 +231,6 @@ h4,
 	padding: .3em;
 }
 
-#layout-main div.tabbed_pane ul.tabs {
-	text-align: left;
-	margin: 1px 1px 1px 6px;
-}
-
 #layout-hint {
 	position: relative;
 }
@@ -253,15 +252,13 @@ h4,
 }
 
 #layout-menu li.sub-menu ul li,
+#layout-main .g_definitionlist table tr td,
+#layout-main div.g_definitionlist tr th,
 #layout-main div.g_menu ul li,
 #layout-main div.userpage_all div.buddies ul li,
 #layout-main div.userpage_all div.favreviewers ul li,
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs td {
 	padding: 2px 8px;
-}
-
-#layout-main .g_definitionlist table tr th {
-	padding: 1px 8px;
 }
 
 #layout-main div.animeatt_reviews div.review div.text {
@@ -315,7 +312,7 @@ button,
 
 .g_button.upload a,
 button,
-#layout-main div.edit_actions a,
+#layout-main div.edit_actions span > *,
 #layout-tabs ul li a,
 #layout-search .submit,
 #layout-main div.msg_all div.buttons li a,

@@ -1,4 +1,5 @@
 /*rounded corners*/
+h2,
 h4,
 *.g_button a,
 *.g_msg,
@@ -101,7 +102,7 @@ table li+li,
 .i_pm_reply,
 .i_topic_subscribe,
 .i_topic_unsubscribe,
-#layout-main div.edit_actions a {
+#layout-main div.edit_actions span > * {
 	border: 1px solid;
 }
 

@@ -6,6 +6,14 @@
 	content: " *";
 }
 
-tr.rating td.value span.myvote:before {
+#layout-main tr.rating td.value span.myvote:not(:empty):before {
 	content: ", ";
+}
+
+#layout-main span.myvote > a:before {
+	content: '['
+}
+
+#layout-main span.myvote > a:after {
+	content: ']'
 }

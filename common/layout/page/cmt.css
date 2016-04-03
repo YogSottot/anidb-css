@@ -174,9 +174,9 @@
 }
 
 #layout-main div.forum div.g_bubble.threads {
-	padding-bottom: 0.4em;
 	border:none;
-	margin-bottom: 0.5em;
+	padding: 0 0 0.4em;
+	margin: 0.5em;
 }
 
 #layout-main div.forum hr {
@@ -666,7 +666,7 @@ div.g_bubble.quotebody {
 	float: left;
 }
 
-#layout-main div.forum .g_bubble.infobox h2 {
+#layout-main div.forum .g_bubble.infobox h3 {
 	border-bottom: 1px solid;
 	display: block;
 	line-height: 1.4em;

@@ -29,15 +29,6 @@
 	min-width: 5.5em;
 }
 
-.g_bubble.stripe {
-	margin: 0.4em 0.15em !important
-}
-
-#layout-main div.userpage_all .userprefs .content .g_bubble.stripe,
-#layout-main div.userpage_all .clubs .content .g_bubble.stripe {
-	margin: 0.4em !important
-}
-
 #layout-main div.main_all div.header div.latestnews .g_bubble.stripe,
 #layout-main div.main_all div.datablocks .g_bubble.stripe {
 	margin: 0.35em 0 !important;
@@ -47,13 +38,12 @@
 	display: block;
 }
 
-#layout-main div.edit_actions a {
+#layout-main div.edit_actions span > * {
 	padding: 2px 8px;
 }
 
 #layout-main div.edit_actions {
-	height: 2.5em;
-	margin-top: -2.51em;
+	margin-top: -3em;
 }
 
 .i_comment_add,

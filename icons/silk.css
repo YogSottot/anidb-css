@@ -1,3 +1,4 @@
+.i_general_add,
 .i_general_added {
 	background-image:url(../icons/silk/general_added.png);
 	height:16px;
@@ -190,4 +191,12 @@
 
 .i_stats {
 	background-image: url(../icons/silk/general_stats.png);
+}
+
+.i_moveable {
+	background-image: url(../icons/silk/general_move.png);
+	width: 16px;
+	height: 16px;
+	padding-right: 0.5em;
+	vertical-align: bottom;
 }

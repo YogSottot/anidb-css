@@ -1,11 +1,66 @@
+.g_bubblewrap {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-justify-content: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
+}
+
+.g_bubblewrap > * {
+	-ms-flex-grow: 1;
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	flex-grow: 1;
+}
+
+/*IE hack for not being able to handle max-width in conjunction with flex-grow: MS does not intent to fix this for anything below Edge*/
+#anidb.internet_explorer .g_bubblewrap > * {
+	-ms-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-moz-flex-grow: 0;
+	flex-grow: 0;
+}
+
+.g_bubblewrap > .g_msg,
+.g_bubblewrap > .fullwidth {
+	width: 100%;
+	max-width: 100%;
+}
+
+.g_bubblewrap > .g_bubble.stripe {
+	max-width: 500px;
+}
+
+.g_bubblewrap > .g_bubble.box,
+.g_bubblewrap > .g_bubble.stripe.medium {
+	max-width: 400px;
+}
+
+.g_bubblewrap > .g_bubble.stripe.mini,
+.g_bubblewrap > .g_bubble.stripe.small {
+	max-width: 350px;
+}
+
+.g_bubblewrap > .g_bubble.stripe.max {
+	max-width: 100%;
+}
+
 .g_bubble.stripe {
 	display: inline-block;
 	width: 400px;
 	text-align: left;
 	position: relative;
 	vertical-align: top;
-	margin-bottom: 0.3em;
-	min-height:7.7em;
+	margin: 0.5em;
+	min-height: 7.7em;
 }
 
 .g_bubble.stripe > div.image {
@@ -70,8 +125,6 @@
 
 .g_bubble.stripe > div.data div.text {
 	word-wrap: break-word;
-	overflow-y:auto;
-	max-height:7em;
 }
 
 .g_bubble.box {
@@ -121,20 +174,12 @@
 	width:225px;
 }
 
-.g_bubble.stripe.mini > div.data {
-	width: auto;
-}
-
 .g_bubble.stripe.mini > div.data div.name  {
 	margin-right: 0;
 }
 
 .g_bubble.stripe.small {
 	width:250px;
-}
-
-.g_bubble.stripe.small > div.data {
-	width:185px;
 }
 
 .g_bubble.stripe.small > div.data div.name  {
@@ -155,10 +200,6 @@
 	width:98%;
 }
 
-.g_bubble.stripe.max > div.data {
-	width: auto;
-}
-
 .g_bubble.stripe.medium div.data div.eprange,
 .g_bubble.stripe.max > div.image:hover div.tooltip {
 	display:none;
@@ -168,10 +209,17 @@
 	min-height:105px;
 }
 
-.g_bubble.stripe.recommendation {
-	height: 125px;
+.g_bubble.stripe.recommendation > div.data div.text {
+	max-height: unset;
 }
 
-.g_bubble.stripe.recommendation > div.data div.text {
-	max-height: 100px;
+.g_section.tabbed_pane > .g_bubble table,
+.g_section > .g_bubble {
+	padding: 0.5em;
+}
+
+/*hack because css4 child selectors aren't supported yet by any browser*/
+#layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
+	margin: -0.5em;
+	width: calc(100% + 1em);
 }
