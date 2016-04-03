@@ -33,6 +33,9 @@ h1 a {
 h2,
 h2 span {
 	font-size: 1.4rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 h4,
