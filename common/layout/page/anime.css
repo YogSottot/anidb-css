@@ -290,6 +290,10 @@
 		margin: 1em 0.5em 1.5em;
 	}
 
+	#layout-main div.anime_all.sidebar > .g_section.info + .g_section.resized.tabbed_pane {
+	    margin-top: 0;
+	}
+
 	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist th {
 		min-width: 8.8em;
 	}
