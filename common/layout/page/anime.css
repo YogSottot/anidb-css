@@ -286,7 +286,7 @@
 		width: 20em;
 	}
 
-	#layout-main div.anime_all.sidebar > .g_section.resized.tabbed_pane {
+	#layout-main div.anime_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden)s {
 		margin: 1em 0.5em 1.5em;
 	}
 
