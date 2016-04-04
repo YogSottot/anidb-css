@@ -216,6 +216,7 @@
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .mylist {
 	width: calc(100% - 50em);
+	min-width: 30em;
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .container {
@@ -242,7 +243,7 @@
 	white-space: nowrap;
 }
 
-#layout-main div.anime_all .g_section.voteoption + .voteoption {
+#layout-main div.anime_all.sidebar .g_section.voteoption + .voteoption {
 	margin-left: 1em;
 }
 
@@ -322,6 +323,32 @@
 	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist td {
 		width: 100%;
 		padding-right: 0;
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.voteoption {
+		width: 100%;
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status > .vote {
+		width: 25em;
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status .mylist {
+	    width: calc(100% - 26em);
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	#layout-main div.anime_all.sidebar .g_section.voteoption {
+		width: auto;
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status > .vote {
+		width: 49em;
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status .mylist {
+	    width: calc(100% - 50em);
 	}
 }
 
