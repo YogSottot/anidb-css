@@ -320,7 +320,7 @@
 	    margin-top: 0;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.info div.data .pane > .g_definitionlist th {
+	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist table:not(.relationlist) th {
 		min-width: 8.8em;
 	}
 
