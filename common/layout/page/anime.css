@@ -214,14 +214,17 @@
 	margin-top: 0;
 }
 
+#layout-main div.anime_all .g_section.mylist
+	width: calc(100% - 50em);
+}
+
 #layout-main div.anime_all .g_section.mylist_status.vote_status .container {
 	box-sizing: border-box;
 	min-height: 8em;
 }
 
 #layout-main div.anime_all .g_section.mylist > .g_bubble > table {
-	width: auto;
-	margin: margin: 0 auto 0 auto;
+	margin: 0 auto 0 auto;
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .mylist td a {
