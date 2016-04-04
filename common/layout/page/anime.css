@@ -216,10 +216,10 @@
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .container {
 	box-sizing: border-box;
-	height: 100%;
+	min-height: 8em;
 }
 
-#layout-main div.anime_all .g_section.mylist_status.vote_status > .g_bubble > table {
+#layout-main div.anime_all .g_section.mylist > .g_bubble > table {
 	width: auto;
 	margin: margin: 0 auto 0 auto;
 }
