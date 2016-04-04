@@ -214,7 +214,7 @@
 	margin-top: 0;
 }
 
-#layout-main div.anime_all .g_section.mylist_status.vote_status .mylist
+#layout-main div.anime_all .g_section.mylist_status.vote_status .mylist {
 	width: calc(100% - 50em);
 }
 
