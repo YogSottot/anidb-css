@@ -29,8 +29,7 @@
 	flex-grow: 0;
 }
 
-.g_bubblewrap > .g_msg,
-.g_bubblewrap > .fullwidth {
+.g_bubblewrap > .g_msg {
 	width: 100%;
 	max-width: 100%;
 }

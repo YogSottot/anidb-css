@@ -214,13 +214,27 @@
 	margin-top: 0;
 }
 
+#layout-main div.anime_all .g_section.mylist_status.vote_status .container {
+	box-sizing: border-box;
+	min-height: 8em;
+}
+
+#layout-main div.anime_all .g_section.mylist_status.vote_status .mylist td a {
+	display: block;
+	white-space: normal;
+}
+
+#layout-main div.anime_all .g_section.mylist_status.vote_status .vote {
+	width: 50em;
+	white-space: normal;
+}
+
 #layout-main div.anime_all .g_section.voteoption h3.span {
 	white-space: nowrap;
 }
 
-#layout-main div.anime_all .g_section.mylist_status.vote_status .container {
-	box-sizing: border-box;
-	height: 8em;
+#layout-main div.anime_all .g_section.voteoption + voteoption {
+	margin-left: 1em;
 }
 
 @media screen and (min-width: 1630px) {
