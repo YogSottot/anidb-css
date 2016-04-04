@@ -329,29 +329,29 @@
 		padding-right: 0;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.voteoption {
+	#layout-main div.anime_all.sidebar .g_section.voteoption.resized {
 		width: 100%;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status > .vote {
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > .vote {
 		width: 25em;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status .mylist {
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized .mylist {
 	    width: calc(100% - 26em);
 	}
 }
 
 @media screen and (min-width: 1500px) {
-	#layout-main div.anime_all.sidebar .g_section.voteoption {
+	#layout-main div.anime_all.sidebar .g_section.voteoption.resized {
 		width: auto;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status > .vote {
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > .vote {
 		width: 49em;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status .mylist {
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized .mylist {
 	    width: calc(100% - 50em);
 	}
 }
