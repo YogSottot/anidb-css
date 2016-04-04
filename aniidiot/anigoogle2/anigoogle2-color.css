@@ -291,7 +291,7 @@ select,
 }
 
 #layout-main div.anime_all .g_section > h2,
-.g_section > form > h2,
+#layout-main div.anime_all .g_section > form > h2,
 .i_comment_add,
 .i_topic_add,
 .i_topic_history,
