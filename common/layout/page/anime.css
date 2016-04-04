@@ -215,7 +215,7 @@
 }
 
 #layout-main div.anime_all .g_section.mylist
-	width: calc(100% - 50em);
+	width: calc(100% - 5em);
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .container {
@@ -225,6 +225,7 @@
 
 #layout-main div.anime_all .g_section.mylist > .g_bubble > table {
 	margin: 0 auto 0 auto;
+	width: 100%;
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .mylist td a {
