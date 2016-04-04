@@ -216,7 +216,12 @@
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .container {
 	box-sizing: border-box;
-	min-height: 8em;
+	height: 100%;
+}
+
+#layout-main div.anime_all .g_section.mylist_status.vote_status .mylist table {
+	width: auto;
+	margin: margin: 0 auto 0 auto;
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .mylist td a {
@@ -229,11 +234,11 @@
 	white-space: normal;
 }
 
-#layout-main div.anime_all .g_section.voteoption h3.span {
+#layout-main div.anime_all .g_section.voteoption h3 {
 	white-space: nowrap;
 }
 
-#layout-main div.anime_all .g_section.voteoption + voteoption {
+#layout-main div.anime_all .g_section.voteoption + .voteoption {
 	margin-left: 1em;
 }
 
