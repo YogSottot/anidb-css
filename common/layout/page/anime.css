@@ -324,8 +324,8 @@
 		min-width: 8.8em;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist table.relationlist th {
-		min-width: 5em;
+	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist table.relationlist td {
+		width: auto;
 	}
 
 	#layout-main div.anime_all.sidebar .g_section.info div.data .g_definitionlist td {
