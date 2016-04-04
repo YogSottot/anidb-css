@@ -219,7 +219,7 @@
 	height: 100%;
 }
 
-#layout-main div.anime_all .g_section.mylist_status.vote_status .mylist table {
+#layout-main div.anime_all .g_section.mylist_status.vote_status > .g_bubble > table {
 	width: auto;
 	margin: margin: 0 auto 0 auto;
 }
