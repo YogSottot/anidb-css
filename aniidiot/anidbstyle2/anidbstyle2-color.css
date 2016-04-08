@@ -320,7 +320,7 @@ select,
 
 .g_bubble,
 #layout-main div.avatar .image,
-#layout-main div.anime_all div.info div.image img,
+#layout-main .g_image img,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.cmt_entries div.profile,

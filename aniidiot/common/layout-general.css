@@ -339,8 +339,7 @@ button,
 }
 
 #layout-main div.avatar .image,
-#layout-main div.anime_all div.info div.image img,
-#layout-main .g_image image,
+#layout-main .g_image img,
 #layout-main .g_definitionlist,
 #layout-main div.g_content {
 	padding: 1px;
