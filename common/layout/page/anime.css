@@ -220,7 +220,7 @@
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .mylist {
 	width: calc(100% - 50em);
-	min-width: 30em;
+	min-width: 50em;
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .container {

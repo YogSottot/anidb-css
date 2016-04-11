@@ -2004,7 +2004,7 @@ margin-left: 10px;
 {
 cursor: default;
 }
-#layout-main .g_image image,
+#layout-main .g_image img,
 #layout-main .g_definitionlist
 {
 padding: 1px;
@@ -2415,7 +2415,7 @@ display: table-cell;
 margin-left: auto;
 margin-right: auto;
 }
-#layout-main div.latestanimes_all .g_image image,
+#layout-main div.latestanimes_all .g_image img,
 #layout-main div.latestanimes_all div.g_definitionlist
 {
 display: table-cell;
