@@ -290,6 +290,6 @@
 	display: none !important;
 }
 
-#layout-main div.tabbed_pane div.body {
-	margin-top: 3px;
+#layout-main div.tabbed_pane ul.tabs {
+	height: 1.7em;
 }
