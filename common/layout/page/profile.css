@@ -154,3 +154,7 @@
 #layout-main div.userdata_add span.current {
 	float: right;
 }
+
+#layout-main div.profile_all div.css_style p {
+	text-align: center;
+}
