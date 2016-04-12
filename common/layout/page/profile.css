@@ -155,6 +155,7 @@
 	float: right;
 }
 
+#layout-main div.profile_all div.tabbed_pane div.permissions form > p,
 #layout-main div.profile_all div.css_style p {
 	text-align: center;
 }
