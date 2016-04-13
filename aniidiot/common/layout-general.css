@@ -338,8 +338,7 @@ button,
 	padding: 6px;
 }
 
-#layout-main div.avatar .image,
-#layout-main .g_image,
+.g_image,
 #layout-main .g_definitionlist,
 #layout-main div.g_content {
 	padding: 1px;

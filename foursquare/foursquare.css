@@ -823,7 +823,7 @@ padding: 2px }
 
 #layout-main .g_list,
 #layout-main .g_description,
-#layout-main .g_image,
+.g_image,
 #layout-main div.main_all div.news h4,
 #layout-main div.g_definitionlist table {
 border: 2px #EEE solid }
@@ -835,7 +835,7 @@ border: 2px #EEE solid }
 #layout-main ul.jump {
 border: none }
 
-#layout-main .g_image,
+.g_image,
 #layout-main .g_definitionlist {
 padding: 1px }
 
@@ -852,7 +852,7 @@ border-top: 1px lightGrey solid }
 padding: 4px 1px 7px 1px;
 border-bottom: black 2px solid }
 
-#layout-main div.avatar .image { border: 1px solid #cbd6e5 }
+.g_image { border: 1px solid #cbd6e5 }
 
 #layout-main {
 border-radius: 2px;

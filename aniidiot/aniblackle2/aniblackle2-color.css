@@ -277,9 +277,8 @@ select,
 #layout-search select,
 #layout-search input.text,
 #layout-main div.search_all div.suggestions,
-#layout-main div.avatar .image,
 #layout-main div.g_definitionlist tr th,
-#layout-main .g_image,
+.g_image,
 #layout-main div.forum div.quickreply textarea {
 	border-color: #333333;
 }

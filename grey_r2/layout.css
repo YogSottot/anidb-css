@@ -272,7 +272,7 @@ ul#layout-menu li {
 float:left;
 margin-left:10px;
 }
-#layout-main .g_image,
+.g_image,
 #layout-main .g_definitionlist
 {
 padding:1px;
