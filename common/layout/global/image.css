@@ -22,6 +22,20 @@
 	text-align: center;
 }
 
+/*sidebar*/
+@media screen and (min-width: 1200px) {
+	#layout-main div.anime_all.sidebar > div.info .g_image.missing::after {
+	    left: 7%;
+	    top: 35%;
+	    transform: rotate(-25deg);
+	}
+
+	#layout-main div.anime_all.sidebar > div.info .g_image.missing {
+	    height: 200px;
+	    width: 425px;
+	}
+}
+
 /*small*/
 .g_image.missing.small {
 	height: 180px;
