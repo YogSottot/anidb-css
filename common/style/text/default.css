@@ -4,6 +4,10 @@ html {
 	font-size: 10px;
 }
 
+.i_icon[title] {
+	cursor: help;
+}
+
 div,
 p,
 th,
