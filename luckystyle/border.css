@@ -142,8 +142,6 @@ a,
 
 .tooltip span.text
 {
-	-moz-box-shadow: 0px 0px 8px 4px #777777;
-	-webkit-box-shadow: 0px 0px 8px 4px #777777;
 	box-shadow: 0px 0px 8px 4px #777777;
 	opacity: 0.9;
 	color: #FFFFFF;

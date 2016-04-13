@@ -170,7 +170,7 @@ button,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main > h1 {
-	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
 }
 
 #layout-tabs ul.main-tabs > li,

@@ -283,7 +283,6 @@ select,
 #layout-search select,
 #layout-search input.text,
 #layout-main div.search_all div.suggestions,
-.g_image,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea,
 #layout-main div.forum div.quickreply textarea {
 	border-color: #E8E8E8;
@@ -544,10 +543,10 @@ th a,
 }
 
 /*box shadow*/
+.g_image,
 .g_bubble,
 #layout-hint,
 #layout-content,
-.g_image,
 #layout-main div.g_msg,
 #layout-menu li.sub-menu ul,
 #layout-main div.userpage_all div.g_menu ul,
@@ -555,7 +554,7 @@ th a,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main > h1 {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .i_comment_add,

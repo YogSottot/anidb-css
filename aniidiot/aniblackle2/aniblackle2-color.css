@@ -278,7 +278,6 @@ select,
 #layout-search input.text,
 #layout-main div.search_all div.suggestions,
 #layout-main div.g_definitionlist tr th,
-.g_image,
 #layout-main div.forum div.quickreply textarea {
 	border-color: #333333;
 }
@@ -552,7 +551,7 @@ input.f_button {
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main > h1 {
-	box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.1);
+	box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.1);
 }
 
 .i_comment_add,
