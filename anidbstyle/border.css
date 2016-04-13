@@ -134,6 +134,7 @@ img, a
 	border-top:1px solid;
 }
 
+.g_bubble.box > div.top div.name,
 .g_bubble.stripe > div.data div.name,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title
 {

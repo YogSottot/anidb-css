@@ -214,6 +214,7 @@ button,
 	border-color: #C9D7F1 #97AACC #97AACC #C9D7F1;
 }
 
+.g_bubble.box > div.top div.name,
 .g_bubble.stripe > div.data div.name,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
 	border-color: #97AACC;

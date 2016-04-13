@@ -331,6 +331,7 @@ select,
 	border-color:#9A9A9A #7D7D7D #7D7D7D #9A9A9A;
 }
 
+.g_bubble.box > div.top div.name,
 .g_bubble.stripe > div.data div.name,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
 #layout-tabs ul.main-tabs li,
