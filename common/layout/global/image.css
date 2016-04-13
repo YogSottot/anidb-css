@@ -19,6 +19,7 @@
 	content: "No Picture";
 	transform: rotate(-53deg);
 	font-size: 2.5rem;
+	text-align: center;
 }
 
 /*small*/
@@ -58,4 +59,12 @@
 #style_thumbnail.g_image.missing::after {
     left: 13%;
     top: 33%;
+}
+
+/*thumbnails in tables*/
+td.thumb {
+	height: 7em;
+	text-align: center;
+	vertical-align: middle;
+	width: 5em;
 }
