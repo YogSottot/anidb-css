@@ -19,14 +19,14 @@ img, a
 }
 #layout-main .g_list,
 #layout-main .g_description,
-#layout-main .g_image img,
+#layout-main .g_image,
 #layout-main .g_timedentry h4,
 #layout-main .g_definitionlist table
 {
 	border: 1px #98AAB1 dotted;
 }
 
-#layout-main .g_image img,
+#layout-main .g_image,
 #layout-main .g_definitionlist
 {
 	padding: 1px;

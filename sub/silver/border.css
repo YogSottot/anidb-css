@@ -51,7 +51,7 @@ img, a
 #layout-menu ul, 
 #layout-main .g_list,
 #layout-main .g_description,
-#layout-main .g_image img,
+#layout-main .g_image,
 #layout-main div.g_timedentry,
 #layout-main div.g_definitionlist table,
 #layout-main div.addepm div.ep,
@@ -74,7 +74,7 @@ img, a
 	padding: 1px;
 }
 
-#layout-main .g_image img,
+#layout-main .g_image,
 #layout-main .g_definitionlist
 {
 	padding: 1px;

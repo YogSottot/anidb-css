@@ -13,7 +13,7 @@ img, a
 	border: none;
 }
 
-#layout-main .g_image img,
+#layout-main .g_image,
 #layout-main .g_definitionlist
 {
 	padding: 1px;
@@ -26,7 +26,7 @@ img, a
 }
 
 #layout-main div.avatar .image,
-#layout-main .g_image img
+#layout-main .g_image
 {
 	border: 1px solid;
 	border-color: #717377 #E8E9EC #E8E9EC #717377;

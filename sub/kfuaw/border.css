@@ -88,12 +88,12 @@ img, a
 }
 
 #layout-main .g_description,
-#layout-main .g_image img
+#layout-main .g_image
 {
 	border: 1px #98AAB1 dotted;
 }
 
-#layout-main .g_image img
+#layout-main .g_image
 {
 	padding: 1px;
 }
