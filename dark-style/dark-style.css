@@ -750,29 +750,6 @@ div.search_all li ul
 	margin:0 20px;
 }
 
-div.latestanimes_all div.latestanimes_anime
-{
-	clear:both;
-	overflow:auto;
-}
-
-div.latestanimes_all h3
-{
-	margin:10px;
-}
-
-div.latestanimes_all img
-{
-	display:block;
-	padding:0;
-	width:150px;
-}
-
-div.latestanimes_all div.data
-{
-	width:750px;
-}
-
 div.myplace_all div.g_menu
 {
 	float:left;
@@ -1463,13 +1440,6 @@ img[src*="nodown1.gif"]:hover
 	background-image:url(images/down1_over.gif);
 }
 
-img[src*="nopic.gif"],
-div.latestanimes_all img[src*="nopic.gif"]
-{
-	background:url(images/nopic.gif) center center no-repeat;
-	display:inline;
-}
-
 span.link:hover,
 a:hover,
 input[type="submit"]:hover,
@@ -1485,7 +1455,6 @@ input[type="button"]:hover
 .g_list a,
 .g_actionlist a,
 .g_jumplist a,
-.latestanimes_form a,
 .g_vital a,
 .news a,
 ul#menu-lists a
@@ -1496,7 +1465,6 @@ ul#menu-lists a
 .g_list a:hover,
 .g_actionlist a:hover,
 .g_jumplist a:hover,
-.latestanimes_form a:hover,
 .g_vital a:hover,
 .news a:hover,
 ul#menu-lists a:hover,
@@ -1552,7 +1520,6 @@ div.creq_all p,
 div.producer_all div.block,
 div.group_all div.block,
 div.main_all div.rightbar p,
-div.latestanimes_all div.latestanimes_form,
 div.myplace_all table td
 {
 	text-align:center;
@@ -1571,7 +1538,6 @@ div.g_menu ul.state li,
 a.g_navprev,
 div.anime_all div.episodes td.quality span.i_icon,
 div.ep_all td.quality span.i_icon,
-div.latestanimes_all div.g_image,
 div.myplace_all div.stats_mylist,
 div.myplace_all div.stats_roles
 {
@@ -1619,7 +1585,6 @@ div.producer_all div.producer_related_anime table,
 div.group_all div.group_released table,
 div.search_all table,
 div.search_all table tr.title td input,
-div.latestanimes_all div.data table,
 div.myplace_all table,
 div.msg_all div.send_form input[id="msg.title"],
 div.msg_all div.send_form textarea[id="msg.body"],
@@ -1650,8 +1615,7 @@ div.up2date_all div.up2date_sequels_filter,
 }
 
 div.anime_all div.episodes td.action,
-div.anime_all div.episodes td.codec,
-div.latestanimes_all select.month
+div.anime_all div.episodes td.codec
 {
 	width:40px;
 }
@@ -1946,11 +1910,6 @@ div.anime_all div.image
 }
 
 /*common overwrite stuff*/
-#layout-main div.latestanimes_anime h3
-{
-	margin: 10px auto;
-}
-
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.comment,

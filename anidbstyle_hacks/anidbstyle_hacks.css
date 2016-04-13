@@ -39,14 +39,6 @@
 /* *** */
 
 /* *** */
-/* Calendar: fix to titles size */
-/* *** */
-#layout-content div.latestanimes_anime h3
-{
-	font-size: 12px;
-}
-
-/* *** */
 /* Anime List: the year value should display on one line only */
 /* MyDbEntries: the date value should display on one line only */
 /* *** */

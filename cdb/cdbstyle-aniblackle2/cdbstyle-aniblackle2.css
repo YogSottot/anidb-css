@@ -41,7 +41,6 @@ th a, h1 a, h1 a.shortlink {
 #layout-main div.addcreatoranimerel_all tr.identical,
 #layout-main div.addcreatorsongrel_all tr.identical,
 #layout-main table.animelist tr.mylist:not(.liststate_dropped),
-#layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.mylist:not(.liststate_dropped) td,  /* deprecated? */
 #layout-main div.timeline_all .timeline_entry:not(.liststate_dropped),
 #layout-main div:not(.ed2kdump_all) tr td.mylist:not(.liststate_dropped),
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist:not(.liststate_dropped),
@@ -68,7 +67,6 @@ th a, h1 a, h1 a.shortlink {
 #layout-main div.animelist_all table tr.g_odd.mylist:not(.liststate_dropped),
 #layout-main div.group_released table tr.g_odd.mylist:not(.liststate_dropped),
 #layout-main table.animelist tr.g_odd.mylist:not(.liststate_dropped),
-#layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.g_odd.mylist:not(.liststate_dropped) td, /* deprecated? */
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist:not(.liststate_dropped),
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist:not(.liststate_dropped),
 .g_odd.g_bubble.stripe.mylist:not(.liststate_dropped),
@@ -130,7 +128,6 @@ th a, h1 a, h1 a.shortlink {
 #layout-main div.addcreatoranimerel_all tr.identical a:not(.name-colored),
 #layout-main div.addcreatorsongrel_all tr.identical a:not(.name-colored),
 #layout-main table.animelist tr.mylist:not(.liststate_dropped) a:not(.name-colored),
-#layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.mylist:not(.liststate_dropped) td a:not(.name-colored),  /* deprecated? */
 #layout-main div.timeline_all .timeline_entry:not(.liststate_dropped),
 #layout-main div:not(.ed2kdump_all) tr td.mylist:not(.liststate_dropped) a:not(.name-colored),
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist:not(.liststate_dropped) a:not(.name-colored),
@@ -157,7 +154,6 @@ th a, h1 a, h1 a.shortlink {
 #layout-main div.animelist_all table tr.g_odd.mylist:not(.liststate_dropped) a:not(.name-colored),
 #layout-main div.group_released table tr.g_odd.mylist:not(.liststate_dropped) a:not(.name-colored),
 #layout-main table.animelist tr.g_odd.mylist:not(.liststate_dropped) a:not(.name-colored),
-#layout-main div.latestanimes_all div.g_section.mylist:not(.liststate_dropped) tr.g_odd.mylist:not(.liststate_dropped) td a:not(.name-colored), /* deprecated? */
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist:not(.liststate_dropped) a:not(.name-colored),
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist:not(.liststate_dropped) a:not(.name-colored),
 .g_odd.g_bubble.stripe.mylist:not(.liststate_dropped) a:not(.name-colored),
