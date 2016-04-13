@@ -1,0 +1,61 @@
+.g_image.missing.missing:after {
+	color: #999999;
+}
+
+/*full size*/
+.g_image.missing {
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+}
+
+.g_image.missing:after {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	content: "No Picture";
+	transform: rotate(-53deg);
+	font-size: 2.5rem;
+}
+
+/*small*/
+.g_image.missing.small {
+	height: 180px;
+	width: 150px;
+}
+
+.g_image.missing.small:after {
+	left: 48%;
+	top: 17%;
+	transform: rotate(-51deg);
+	font-size: 2rem;
+}
+
+/*thumb*/
+.g_image.missing.thumb,
+.g_image.missing.thumbcrop {
+	height: 55px;
+	width: 50px;
+}
+
+.g_image.missing.thumb:after,
+.g_image.missing.thumbcrop:after {
+	left: 25%;
+	top: 17%;
+	content: "No Pic";
+	transform: rotate(-50deg);
+	font-size: 1.3rem;
+}
+
+/*css preview image on profile*/
+#style_thumbnail.g_image.missing::after {
+    font-size: 2rem;
+    transform: rotate(-30deg);
+}
+#style_thumbnail.g_image.missing::after {
+    left: 13%;
+    top: 33%;
+}
