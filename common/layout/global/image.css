@@ -29,9 +29,9 @@
 }
 
 .g_image.missing.small:after {
-	left: 48%;
-	top: 17%;
-	transform: rotate(-51deg);
+	left: 38%;
+	top: 25%;
+	transform: rotate(-50deg);
 	font-size: 2rem;
 }
 
