@@ -143,33 +143,33 @@ th.c_number.s_reverse,
 	height: 15px !important;
 }
 
-img[src*="anidb_pri_low.gif"] {
+.i_pri_low {
 	background: transparent url(../icons/zakura/priority-low.png) no-repeat left top;
 	width: 0;
 	padding-left: 15px;
 }
-img[src*="anidb_pri_med.gif"] {
+.i_pri_med {
 	background: transparent url(../icons/zakura/priority-med.png) no-repeat left top;
 	width: 0;
 	padding-left: 15px;
 }
-img[src*="anidb_pri_high.gif"] {
+.i_pri_high {
 	background: transparent url(../icons/zakura/priority-high.png) no-repeat left top;
 	width: 0;
 	padding-left: 15px;
 }
-img[src*="anidb_notify.gif"] {
+.i_notify {
 	background: transparent url(../icons/zakura/notify.png) no-repeat left top;
 	width: 0;
 	padding-left: 15px;
 }
-img[src*="anidb_nonotify.gif"] {
+.i_nonotify {
 	background: transparent url(../icons/zakura/notify-no.png) no-repeat left top;
 	width: 0;
 	padding-left: 15px;
 }
 
-img[src*="anidb_no_vote.gif"] {
+.i_no_vote {
 	background: transparent url(../icons/zakura/vote-no.gif) no-repeat left 3px;
 	width: 0;
 	padding-left: 5px;

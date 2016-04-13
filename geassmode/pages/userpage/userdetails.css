@@ -1,7 +1,7 @@
 #layout-main div.userpage_all div.userdetails {
 	border:none;
 }
-	#layout-main div.userpage_all div.userdetails img {
+	#layout-main div.userpage_all div.userdetails .g_image {
 		border:5px solid #393634;
 	}
 

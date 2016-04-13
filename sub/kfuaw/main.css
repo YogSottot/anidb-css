@@ -574,13 +574,13 @@ body.nonav #layout-main div.g_content h4
 	padding:0;
 }
 
-#layout-main div.image img
+#layout-main div.image .g_image
 {
 	padding: .5em;
 	border: .5em solid #363639;
 }
 
-#layout-main .g_bubble div.image img
+#layout-main .g_bubble div.image .g_image
 {
 	padding: 0;
 	border: none;

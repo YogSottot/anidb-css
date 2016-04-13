@@ -23,7 +23,7 @@
 	#layout-main div.cmt_all div.g_bubble.comment div.profile div.user {
 		padding:0;
 	}
-	#layout-main div.cmt_all div.g_bubble.comment div.profile img {
+	#layout-main div.cmt_all div.g_bubble.comment div.profile .g_image {
 		background:#fff;
 		border:5px solid #595654;
 	}

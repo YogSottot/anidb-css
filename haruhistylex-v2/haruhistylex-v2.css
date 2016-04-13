@@ -378,7 +378,7 @@ ul
 	min-height:120px;
 }
 
-#layout-main > div.g_content > div.g_section > div.g_timedentry > div.body > img
+#layout-main > div.g_content > div.g_section > div.g_timedentry > div.body > .g_image
 {
 	max-width:570px;
 }

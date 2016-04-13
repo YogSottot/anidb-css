@@ -45,7 +45,7 @@ a
 	text-decoration:none;
 }
 
-a img
+.g_image
 {
 	border:0;
 }
@@ -541,7 +541,7 @@ div.anime_all div.awards
 	text-align:center;
 }
 
-div.anime_all div.awards a img
+div.anime_all div.awards a .g_image
 {
 	margin:5px 1px;
 }
@@ -1344,47 +1344,52 @@ div.modlatest_all td.action a
 	width:9px;
 }
 
-img[src*="anidb_mainichiaward.gif"]
+.i_award_mainichi
 {
 	background:url(images/anidb_awardmainichi.gif) center center no-repeat;
 	padding-right:15px;
 	width:0;
 }
 
-img[src*="anidb_ar2002award.gif"],
-img[src*="anidb_ar2003award.gif"],
-img[src*="anidb_ar2004award.gif"],
-img[src*="anidb_ar2005award.gif"],
-img[src*="anidb_ar2006award.gif"],
-img[src*="anidb_ar2007award.gif"]
+.i_award_arc2000,
+.i_award_arc2001,
+.i_award_arc2002,
+.i_award_arc2003,
+.i_award_arc2004,
+.i_award_arc2005,
+.i_award_arc2006,
+.i_award_arc2007,
+.i_award_arc2008,
+.i_award_arc2009,
+.i_award_arc2010,
+.i_award_arc2011,
+.i_award_arc2012
 {
 	background:url(images/anidb_awardar.gif) center center no-repeat;
 	padding-right:15px;
 	width:0;
 }
 
-img[src*="anidb_rate_star.gif"]
+.i_award_top10
 {
 	background:url(images/anidb_awardstar.gif) center center no-repeat;
 	padding-right:15px;
 	width:0;
 }
 
-img[src*="minus.gif"]
-{
+.i_minus {
 	background:url(images/minus.gif) center 1px no-repeat;
 	padding-right:13px;
 	width:0;
 }
 
-img[src*="plus.gif"]
-{
+.i_plus {
 	background:url(images/plus.gif) center 1px no-repeat;
 	padding-right:13px;
 	width:0;
 }
 
-img[src*="ask2.gif"]
+.i_help
 {
 	background:url(images/ask2.gif) center 1px no-repeat;
 	cursor:help;
@@ -1394,7 +1399,8 @@ img[src*="ask2.gif"]
 	width:0;
 }
 
-img[src*="up1.gif"]
+.i_ascending,
+.i_arrow_up
 {
 	background:url(images/up1.gif) center center no-repeat;
 	display:block;
@@ -1403,7 +1409,8 @@ img[src*="up1.gif"]
 	width:0;
 }
 
-img[src*="down1.gif"]
+.i_descending,
+.i_arrow_down
 {
 	background:url(images/down1.gif) center center no-repeat;
 	display:block;
@@ -1412,7 +1419,7 @@ img[src*="down1.gif"]
 	width:0;
 }
 
-img[src*="noup1.gif"]
+.i_inactive
 {
 	background:url(images/noup1.gif) center center no-repeat;
 	display:block;
@@ -1421,23 +1428,9 @@ img[src*="noup1.gif"]
 	width:0;
 }
 
-img[src*="noup1.gif"]:hover
+.i_inactive:hover
 {
 	background-image:url(images/up1_over.gif);
-}
-
-img[src*="nodown1.gif"]
-{
-	background:url(images/nodown1.gif) center center no-repeat;
-	display:block;
-	float:right;
-	padding-left:15px;
-	width:0;
-}
-
-img[src*="nodown1.gif"]:hover
-{
-	background-image:url(images/down1_over.gif);
 }
 
 span.link:hover,
@@ -1848,21 +1841,15 @@ div.mywishlist_all table,
 	width:auto;
 }
 
-*.i_help:hover,
-img[src*="ask2.gif"]:hover
-{
+.i_help:hover {
 	background-image:url(images/ask2_over.gif);
 }
 
-*.i_minus:hover,
-img[src*="minus.gif"]:hover
-{
+.i_minus:hover {
 	background-image:url(images/minus_over.gif);
 }
 
-*.i_plus:hover,
-img[src*="plus.gif"]:hover
-{
+.i_plus:hover {
 	background-image:url(images/plus_over.gif);
 }
 

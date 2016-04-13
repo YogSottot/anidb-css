@@ -57,7 +57,7 @@
 	margin: 0 22px 0 20px !important;
 	height: 0px;
 }
-.newsitem>div.avatar img{
+.newsitem>div.avatar .g_image {
 }
 
 .rightbar>p,.rightbar>h4:first-child,.rightbar h3{display:none;}

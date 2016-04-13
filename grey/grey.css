@@ -89,7 +89,7 @@ a:active
 {
 color: red;
 }
-a img, img
+a img, img, .g_image
 {
 border: 0;
 }

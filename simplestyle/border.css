@@ -76,6 +76,7 @@ select
 #layout-main div.main_all div.header h4,
 table table,
 img,
+.g_image,
 a
 {
 	border:none;
