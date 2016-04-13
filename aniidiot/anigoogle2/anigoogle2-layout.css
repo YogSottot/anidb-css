@@ -136,3 +136,7 @@
 #layout-main div.main_all div.header div.account ul.tabs {
 	margin-bottom: -2px;
 }
+
+.g_image {
+	padding: 0;
+}
