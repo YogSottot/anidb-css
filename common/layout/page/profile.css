@@ -25,6 +25,11 @@
 	width: 220px;
 }
 
+
+#style_thumbnail.missing {
+	height: 150px;
+}
+
 #image_viewer {
 	margin: 50px;
 }
