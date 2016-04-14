@@ -66,11 +66,11 @@
 }
 
 /*css preview image on profile*/
-#style_thumbnail.g_image.missing::after {
+#css_selector .g_image.missing::after {
     font-size: 2rem;
     transform: rotate(-30deg);
 }
-#style_thumbnail.g_image.missing::after {
+#css_selector .g_image.missing::after {
     left: 13%;
     top: 33%;
 }
