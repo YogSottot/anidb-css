@@ -35,6 +35,10 @@
 	margin-right: 0;
 }
 
+#layout-search ul.quicksearch .g_bubble.stripe > div.image {
+	padding: 0.4em;
+}
+
 #layout-search ul.quicksearch.songlist .g_bubble.stripe {
 	min-height: 4.4em;
 }
