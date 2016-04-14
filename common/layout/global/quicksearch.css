@@ -35,7 +35,7 @@
 	margin-right: 0;
 }
 
-#layout-search ul.quicksearch .g_bubble.stripe > div.image {
+#layout-search ul.quicksearch .g_bubble.stripe div.image {
 	padding: 0.4em;
 }
 

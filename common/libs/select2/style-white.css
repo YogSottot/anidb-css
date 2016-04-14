@@ -24,3 +24,7 @@
 .select2-container--default .select2-selection--single .select2-selection__rendered {
     color: #000000;
 }
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] .g_image.missing::after {
+    color: #ffffff !important;
+}
