@@ -230,6 +230,14 @@ padding: 23px 0 0 0 }
 #layout-main div.votes_all div.graph.eps div.g_odd {
 background-color: #EEE }
 
+#layout-main div.tabbed_pane ul.tabs {
+	height: 23px;
+}
+
+#layout-main div.tabbed_pane ul.tabs li {
+	vertical-align: bottom;
+}
+
 #layout-tabs ul li a,
 #layout-tabs ul li.g_odd a,
 #layout-main div.tabbed_pane ul.tabs li {
