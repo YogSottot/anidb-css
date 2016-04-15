@@ -33,6 +33,11 @@
 	width:10em;
 }
 
+#css_selector button.prev,
+#css_selector button.next {
+	height: 28px;
+}
+
 #image_viewer {
 	margin: 50px;
 }
