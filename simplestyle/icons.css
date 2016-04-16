@@ -53,30 +53,25 @@
 	width:15px;
 }
 
-img[src*="down1.gif"]
+.i_descending,
+.i_arrow_down
 {
 	background:url(images/icons/down.gif) no-repeat top;
 	height:13px;
 	width:15px;
 }
 
-img[src*="up1.gif"]
+.i_ascending,
+.i_arrow_up
 {
 	background:url(images/icons/up1.gif) no-repeat top;
 	height:13px;
 	width:15px;
 }
 
-img[src*="nodown1.gif"]
+.i_inactive
 {
 	background:transparent url(images/icons/nodown1.gif) no-repeat left top;
-	height:13px;
-	width:15px;
-}
-
-img[src*="noup1.gif"]
-{
-	background:transparent url(images/icons/noup.gif) no-repeat left top;
 	height:13px;
 	width:15px;
 }

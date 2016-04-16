@@ -43,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 
-a img, :link img, :visited img {
+.g_image, a img, :link img, :visited img {
 	border: 0;
 }
 

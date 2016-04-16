@@ -202,10 +202,9 @@ select,
 .g_button a,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
-#layout-main div.avatar .image,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
-#layout-main .g_image img,
+.g_image,
 span.test,
 input[type="submit"],
 input[type="button"],
@@ -215,6 +214,7 @@ button,
 	border-color: #C9D7F1 #97AACC #97AACC #C9D7F1;
 }
 
+.g_bubble.box > div.top div.name,
 .g_bubble.stripe > div.data div.name,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
 	border-color: #97AACC;
@@ -336,8 +336,6 @@ tr + tr th,
 
 #imagepreview,
 .tooltip span.text {
-	-moz-box-shadow: 0px 0px 8px 4px #666;
-	-webkit-box-shadow: 0px 0px 8px 4px #666;
 	box-shadow: 0px 0px 8px 4px #666;
 	opacity: 0.9;
 	color: #000000;

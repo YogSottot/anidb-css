@@ -3,7 +3,7 @@ div.user{
 	float: left !important;
 	padding-top: 0 !important;
 }
-div.user img{height: 100px; width: 100px;}
+div.user .g_image {height: 100px; width: 100px;}
 div.user>a.username-colored{margin-bottom: 2px;}
 div.profile{
 	width: 220px !important;

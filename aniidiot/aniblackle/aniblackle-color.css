@@ -327,8 +327,7 @@ input[type="submit"],
 div.g_bubble.quotebody,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
-#layout-main .g_image img,
-#layout-main div.avatar .image,
+.g_image,
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
@@ -374,8 +373,6 @@ table,
 
 #imagepreview,
 .tooltip span.text {
-	-moz-box-shadow: 0px 0px 8px 4px #666;
-	-webkit-box-shadow: 0px 0px 8px 4px #666;
 	box-shadow: 0px 0px 8px 4px #666;
 	opacity: 0.9;
 	color: #FFFFFF;

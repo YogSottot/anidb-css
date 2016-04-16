@@ -14,8 +14,7 @@ select
 	border:1px #3FB2E7 solid;
 }
 
-#layout-content div.avatar img,
-#layout-content div.anime_all div.info div.image img
+.g_image
 {
 	border:1px solid #9CCD17;
 }
@@ -77,6 +76,7 @@ select
 #layout-main div.main_all div.header h4,
 table table,
 img,
+.g_image,
 a
 {
 	border:none;

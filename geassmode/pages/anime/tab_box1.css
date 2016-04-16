@@ -4,6 +4,6 @@
 #layout-main div.anime_all div.g_section.info div.image {
 	margin-top:25px;
 }
-	#layout-main div.anime_all div.g_section.info div.image img {
+	#layout-main div.anime_all div.g_section.info div.image .g_image {
 		border:5px solid #595654;
 	}

@@ -89,7 +89,7 @@ a:active
 {
 color: red;
 }
-a img, img
+a img, img, .g_image
 {
 border: 0;
 }
@@ -2004,7 +2004,7 @@ margin-left: 10px;
 {
 cursor: default;
 }
-#layout-main .g_image img,
+.g_image,
 #layout-main .g_definitionlist
 {
 padding: 1px;
@@ -2137,10 +2137,6 @@ background: url(images/orangepixel.png);
 #layout-content #layout-main div.tabbed_pane ul.contribute li.g_odd
 {
 background: url(images/bg_2.gif);
-}
-#layout-content #layout-main div.latestanimes_all div.latestanimes_anime h3
-{
-text-align: center;
 }
 #layout-main div.profile_all div.tabbed_pane div.permissions div.permissions div label select
 {
@@ -2394,50 +2390,6 @@ margin-right:1em;
 #layout-main div.cmt_entries div.postbody div.signature
 {
 margin-left: 18em;
-}
-#layout-main div.latestanimes_anime
-{
-padding-left: auto;
-padding-right: auto;
-margin-left: auto;
-margin-right: auto;
-clear: none;
-max-width: 800px;
-}
-#layout-main div.latestanimes_anime .i_icon
-{
-float: right;
-}
-#layout-main div.latestanimes_anime div.g_image
-{
-float: none;
-display: table-cell;
-margin-left: auto;
-margin-right: auto;
-}
-#layout-main div.latestanimes_all .g_image img,
-#layout-main div.latestanimes_all div.g_definitionlist
-{
-display: table-cell;
-vertical-align: top;
-margin-left: auto;
-margin-right: auto;
-}
-#layout-main div.latestanimes_anime h3
-{
-margin-left: auto;
-margin-right: auto;
-display: table-caption;
-width: auto;
-}
-th.c_set,
-th.c_setlatin,
-th.c_date,
-th.c_latin,
-th.c_number,
-#layout-main th a.inactive {
-background: url(images/redpixel.png);
-padding-left: inherit;
 }
 th.s_forward, 
 #layout-main th a.descending {

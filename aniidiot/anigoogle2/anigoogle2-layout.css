@@ -1,3 +1,7 @@
+.g_image {
+	padding: 0;
+}
+
 #layout-menu li.sub-menu {
 	margin-bottom: 0.5em;
 }

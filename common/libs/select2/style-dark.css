@@ -37,6 +37,7 @@
     border-bottom-color: #DDDDDD;
 }
 
+.select2-container--default .select2-results__option--highlighted[aria-selected] .g_image.missing::after,
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
     background-color: #96B396 !important;
     color: #000000 !important;

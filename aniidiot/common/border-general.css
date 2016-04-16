@@ -35,8 +35,7 @@ select,
 #layout-main ul.g_list li,
 #layout-tabs ul.main-tabs > li,
 #layout-menu > li ul,
-#layout-main div.avatar .image,
-#layout-main .g_image img,
+.g_image,
 #layout-main div.search_all div.suggestions {
 	border: 1px solid;
 }
@@ -113,6 +112,7 @@ tr + tr th,
 
 table table,
 img,
+.g_image,
 a,
 #layout-search div.g_bubble.search,
 #layout-main .block .g_definitionlist table,

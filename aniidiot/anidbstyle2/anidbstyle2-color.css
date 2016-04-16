@@ -319,8 +319,7 @@ select,
 }
 
 .g_bubble,
-#layout-main div.avatar .image,
-#layout-main .g_image img,
+.g_image,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.cmt_entries div.profile,
@@ -332,6 +331,7 @@ select,
 	border-color:#9A9A9A #7D7D7D #7D7D7D #9A9A9A;
 }
 
+.g_bubble.box > div.top div.name,
 .g_bubble.stripe > div.data div.name,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title,
 #layout-tabs ul.main-tabs li,

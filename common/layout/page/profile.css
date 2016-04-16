@@ -2,27 +2,40 @@
 	border: none;
 }
 
-#layout-main div.css_style div.info dl dd {
-	margin-left: 7em;
-	width: 60%;
-}
-
 #layout-main div.profile_all div.block div.image {
-	width: 40%;
-}
-
-#layout-main div.profile_all div.block div.info dl {
-	margin-left: 0;
+	width: 250px;
+	min-width: 250px;
 }
 
 #style_url {
 	width: 75%;
 }
 
-#style_thumbnail {
+#css_selector .g_image {
 	padding: 3px;
 	text-align: center;
 	width: 220px;
+}
+
+#css_selector .g_image.missing {
+	height: 150px;
+}
+
+#css_selector .g_definitionlist {
+	width: 800px
+}
+
+#css_selector .g_definitionlist table {
+	width:100%
+}
+
+#css_selector .g_definitionlist table th {
+	width:10em;
+}
+
+#css_selector button.prev,
+#css_selector button.next {
+	height: 28px;
 }
 
 #image_viewer {
@@ -153,4 +166,9 @@
 
 #layout-main div.userdata_add span.current {
 	float: right;
+}
+
+#layout-main div.profile_all div.tabbed_pane div.permissions form > p,
+#layout-main div.profile_all div.css_style p {
+	text-align: center;
 }

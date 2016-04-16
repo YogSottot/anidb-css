@@ -230,6 +230,14 @@ padding: 23px 0 0 0 }
 #layout-main div.votes_all div.graph.eps div.g_odd {
 background-color: #EEE }
 
+#layout-main div.tabbed_pane ul.tabs {
+	height: 23px;
+}
+
+#layout-main div.tabbed_pane ul.tabs li {
+	vertical-align: bottom;
+}
+
 #layout-tabs ul li a,
 #layout-tabs ul li.g_odd a,
 #layout-main div.tabbed_pane ul.tabs li {
@@ -378,8 +386,6 @@ text-shadow: none }
 	input[type="reset"]:active, 
 	input[type="button"]:active {
 	border: 1px solid #c8c8c8;
-	-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,.2);
-	-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.2);
 	box-shadow:inset 0 1px 2px rgba(0,0,0,.2) }
 
 
@@ -823,7 +829,7 @@ padding: 2px }
 
 #layout-main .g_list,
 #layout-main .g_description,
-#layout-main .g_image img,
+.g_image,
 #layout-main div.main_all div.news h4,
 #layout-main div.g_definitionlist table {
 border: 2px #EEE solid }
@@ -835,7 +841,7 @@ border: 2px #EEE solid }
 #layout-main ul.jump {
 border: none }
 
-#layout-main .g_image img,
+.g_image,
 #layout-main .g_definitionlist {
 padding: 1px }
 
@@ -852,7 +858,7 @@ border-top: 1px lightGrey solid }
 padding: 4px 1px 7px 1px;
 border-bottom: black 2px solid }
 
-#layout-main div.avatar .image { border: 1px solid #cbd6e5 }
+.g_image { border: 1px solid #cbd6e5 }
 
 #layout-main {
 border-radius: 2px;

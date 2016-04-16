@@ -4,6 +4,10 @@ html {
 	font-size: 10px;
 }
 
+.i_icon[title] {
+	cursor: help;
+}
+
 div,
 p,
 th,
@@ -137,8 +141,7 @@ td.check,
 .g_input,
 .g_section,
 #layout-footer p,
-#layout-main div.profile_all p,
-#layout-main table.grouplist td.number.eps {
+td.number.eps {
 	text-align:center;
 }
 
@@ -367,6 +370,7 @@ div.relations .g_bubble.stripe div.type,
 #layout-main div.main_all div.header div.account ul.tabs li,
 #layout-main div.search_all div.search_results strong,
 #layout-main div.tag-column .parent,
+.select2-container--default .select2-results__group,
 .select2-container--classic .select2-selection--multiple .select2-selection__choice__remove,
 .select2-container--classic .select2-selection--single .select2-selection__clear,
 .select2-container--default .select2-selection--multiple .select2-selection__clear,

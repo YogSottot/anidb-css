@@ -277,9 +277,7 @@ select,
 #layout-search select,
 #layout-search input.text,
 #layout-main div.search_all div.suggestions,
-#layout-main div.avatar .image,
 #layout-main div.g_definitionlist tr th,
-#layout-main .g_image img,
 #layout-main div.forum div.quickreply textarea {
 	border-color: #333333;
 }
@@ -320,6 +318,7 @@ button.button,
 a.confirmButton,
 input.confirmButton,
 button.confirmButton,
+.g_bubble.box > div.top div.name,
 .g_bubble.stripe > div.data div.name,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
@@ -542,6 +541,7 @@ input.f_button {
 
 /*box shadow*/
 .g_bubble,
+.g_image,
 #layout-hint,
 #layout-content,
 #layout-main div.g_msg,
@@ -551,7 +551,7 @@ input.f_button {
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all > div.g_section > h4,
 #layout-main > h1 {
-	box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.1);
+	box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.1);
 }
 
 .i_comment_add,

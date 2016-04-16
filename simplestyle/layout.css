@@ -180,11 +180,9 @@ div,
 	display:none;
 }
 
-#layout-content .g_image img,
+#layout-content .g_image,
 #layout-content .g_definitionlist,
-#layout-content div.g_definitionlist table,
-#layout-content div.avatar img,
-#layout-content div.anime_all div.info div.image img,
+#layout-content div.g_definitionlist table,,
 #layout-content div.g_definitionlist table.relationlist
 {
 	padding:1px;

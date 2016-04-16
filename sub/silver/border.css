@@ -18,7 +18,7 @@ table table
 	border: none;
 }
 
-img, a
+.g_image, img, a
 {
 	border: none;
 }
@@ -51,13 +51,10 @@ img, a
 #layout-menu ul, 
 #layout-main .g_list,
 #layout-main .g_description,
-#layout-main .g_image img,
+.g_image,
 #layout-main div.g_timedentry,
 #layout-main div.g_definitionlist table,
-#layout-main div.latestanimes_form,
 #layout-main div.addepm div.ep,
-#layout-main div.block div.image img,
-#layout-main div.avatar .image,
 #layout-main div.review div.text,
 #layout-main div.tabbed_pane div.body,
 #layout-main div.tabbed_pane ul.tabs li
@@ -70,12 +67,12 @@ img, a
 	border: 1px solid #03699c;
 }
 
-#layout-main div.block div.image img
+.g_image
 {
 	padding: 1px;
 }
 
-#layout-main .g_image img,
+.g_image,
 #layout-main .g_definitionlist
 {
 	padding: 1px;

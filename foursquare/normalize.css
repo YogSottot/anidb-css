@@ -30,7 +30,7 @@ a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background
 
 	a:focus { outline: thin dotted }
 	a:hover, a:active { outline: 0; border: none }
-	a img, a img:hover { border: none; text-decoration: none }
+	.g_image, a img, a img:hover { border: none; text-decoration: none }
 
 ol, ul { list-style: none }
 

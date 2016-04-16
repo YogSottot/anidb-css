@@ -329,8 +329,7 @@ ul
 	width:100%;
 }
 
-#layout-main > div.g_content > div.g_section > div.g_timedentry,
-#layout-main > div.g_content > div.g_section.latestanimes_anime
+#layout-main > div.g_content > div.g_section > div.g_timedentry
 {
 	margin:0 auto 50px auto;
 	width:650px;
@@ -379,7 +378,7 @@ ul
 	min-height:120px;
 }
 
-#layout-main > div.g_content > div.g_section > div.g_timedentry > div.body > img
+#layout-main > div.g_content > div.g_section > div.g_timedentry > div.body > .g_image
 {
 	max-width:570px;
 }
@@ -407,13 +406,6 @@ ul
 {
   /*position:relative;
   left:30px;*/
-  display:none;
-}
-
-#layout-main > div.g_content > div.g_section > div.g_image
-{
-  /*float:left;
-  display:inline;*/
   display:none;
 }
 

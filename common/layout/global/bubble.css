@@ -63,9 +63,9 @@
 }
 
 .g_bubble.stripe > div.image {
-	margin: 0.5em;
+	padding: 0.5em 0.8em 0.5em 0.5em;
 	width: 5em;
-	height: 5.5em;
+	height: 6em;
 	overflow: hidden;
 	float: left;
 }
@@ -134,7 +134,8 @@
 }
 
 .g_bubble.box > div.image {
-	margin:0 0.5em 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.3em 0.8em 0.5em 0.5em;
 	float: left;
 	max-height:180px;
 	width:150px;
@@ -155,9 +156,7 @@
 
 .g_bubble.box > div.top div.name {
 	margin-bottom: 0.5em;
-	margin-right: 7em;
-	border-bottom-style:solid;
-	border-bottom-width:1px;
+	border-bottom: 1px solid;
 }
 
 .g_bubble.box > div.top div.actions.icons {

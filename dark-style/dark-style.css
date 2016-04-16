@@ -45,7 +45,7 @@ a
 	text-decoration:none;
 }
 
-a img
+.g_image
 {
 	border:0;
 }
@@ -541,7 +541,7 @@ div.anime_all div.awards
 	text-align:center;
 }
 
-div.anime_all div.awards a img
+div.anime_all div.awards a .g_image
 {
 	margin:5px 1px;
 }
@@ -748,29 +748,6 @@ div.search_all li.collapsed
 div.search_all li ul
 {
 	margin:0 20px;
-}
-
-div.latestanimes_all div.latestanimes_anime
-{
-	clear:both;
-	overflow:auto;
-}
-
-div.latestanimes_all h3
-{
-	margin:10px;
-}
-
-div.latestanimes_all img
-{
-	display:block;
-	padding:0;
-	width:150px;
-}
-
-div.latestanimes_all div.data
-{
-	width:750px;
 }
 
 div.myplace_all div.g_menu
@@ -1367,47 +1344,52 @@ div.modlatest_all td.action a
 	width:9px;
 }
 
-img[src*="anidb_mainichiaward.gif"]
+.i_award_mainichi
 {
 	background:url(images/anidb_awardmainichi.gif) center center no-repeat;
 	padding-right:15px;
 	width:0;
 }
 
-img[src*="anidb_ar2002award.gif"],
-img[src*="anidb_ar2003award.gif"],
-img[src*="anidb_ar2004award.gif"],
-img[src*="anidb_ar2005award.gif"],
-img[src*="anidb_ar2006award.gif"],
-img[src*="anidb_ar2007award.gif"]
+.i_award_arc2000,
+.i_award_arc2001,
+.i_award_arc2002,
+.i_award_arc2003,
+.i_award_arc2004,
+.i_award_arc2005,
+.i_award_arc2006,
+.i_award_arc2007,
+.i_award_arc2008,
+.i_award_arc2009,
+.i_award_arc2010,
+.i_award_arc2011,
+.i_award_arc2012
 {
 	background:url(images/anidb_awardar.gif) center center no-repeat;
 	padding-right:15px;
 	width:0;
 }
 
-img[src*="anidb_rate_star.gif"]
+.i_award_top10
 {
 	background:url(images/anidb_awardstar.gif) center center no-repeat;
 	padding-right:15px;
 	width:0;
 }
 
-img[src*="minus.gif"]
-{
+.i_minus {
 	background:url(images/minus.gif) center 1px no-repeat;
 	padding-right:13px;
 	width:0;
 }
 
-img[src*="plus.gif"]
-{
+.i_plus {
 	background:url(images/plus.gif) center 1px no-repeat;
 	padding-right:13px;
 	width:0;
 }
 
-img[src*="ask2.gif"]
+.i_help
 {
 	background:url(images/ask2.gif) center 1px no-repeat;
 	cursor:help;
@@ -1417,7 +1399,8 @@ img[src*="ask2.gif"]
 	width:0;
 }
 
-img[src*="up1.gif"]
+.i_ascending,
+.i_arrow_up
 {
 	background:url(images/up1.gif) center center no-repeat;
 	display:block;
@@ -1426,7 +1409,8 @@ img[src*="up1.gif"]
 	width:0;
 }
 
-img[src*="down1.gif"]
+.i_descending,
+.i_arrow_down
 {
 	background:url(images/down1.gif) center center no-repeat;
 	display:block;
@@ -1435,7 +1419,7 @@ img[src*="down1.gif"]
 	width:0;
 }
 
-img[src*="noup1.gif"]
+.i_inactive
 {
 	background:url(images/noup1.gif) center center no-repeat;
 	display:block;
@@ -1444,30 +1428,9 @@ img[src*="noup1.gif"]
 	width:0;
 }
 
-img[src*="noup1.gif"]:hover
+.i_inactive:hover
 {
 	background-image:url(images/up1_over.gif);
-}
-
-img[src*="nodown1.gif"]
-{
-	background:url(images/nodown1.gif) center center no-repeat;
-	display:block;
-	float:right;
-	padding-left:15px;
-	width:0;
-}
-
-img[src*="nodown1.gif"]:hover
-{
-	background-image:url(images/down1_over.gif);
-}
-
-img[src*="nopic.gif"],
-div.latestanimes_all img[src*="nopic.gif"]
-{
-	background:url(images/nopic.gif) center center no-repeat;
-	display:inline;
 }
 
 span.link:hover,
@@ -1485,7 +1448,6 @@ input[type="button"]:hover
 .g_list a,
 .g_actionlist a,
 .g_jumplist a,
-.latestanimes_form a,
 .g_vital a,
 .news a,
 ul#menu-lists a
@@ -1496,7 +1458,6 @@ ul#menu-lists a
 .g_list a:hover,
 .g_actionlist a:hover,
 .g_jumplist a:hover,
-.latestanimes_form a:hover,
 .g_vital a:hover,
 .news a:hover,
 ul#menu-lists a:hover,
@@ -1552,7 +1513,6 @@ div.creq_all p,
 div.producer_all div.block,
 div.group_all div.block,
 div.main_all div.rightbar p,
-div.latestanimes_all div.latestanimes_form,
 div.myplace_all table td
 {
 	text-align:center;
@@ -1571,7 +1531,6 @@ div.g_menu ul.state li,
 a.g_navprev,
 div.anime_all div.episodes td.quality span.i_icon,
 div.ep_all td.quality span.i_icon,
-div.latestanimes_all div.g_image,
 div.myplace_all div.stats_mylist,
 div.myplace_all div.stats_roles
 {
@@ -1619,7 +1578,6 @@ div.producer_all div.producer_related_anime table,
 div.group_all div.group_released table,
 div.search_all table,
 div.search_all table tr.title td input,
-div.latestanimes_all div.data table,
 div.myplace_all table,
 div.msg_all div.send_form input[id="msg.title"],
 div.msg_all div.send_form textarea[id="msg.body"],
@@ -1650,8 +1608,7 @@ div.up2date_all div.up2date_sequels_filter,
 }
 
 div.anime_all div.episodes td.action,
-div.anime_all div.episodes td.codec,
-div.latestanimes_all select.month
+div.anime_all div.episodes td.codec
 {
 	width:40px;
 }
@@ -1884,21 +1841,15 @@ div.mywishlist_all table,
 	width:auto;
 }
 
-*.i_help:hover,
-img[src*="ask2.gif"]:hover
-{
+.i_help:hover {
 	background-image:url(images/ask2_over.gif);
 }
 
-*.i_minus:hover,
-img[src*="minus.gif"]:hover
-{
+.i_minus:hover {
 	background-image:url(images/minus_over.gif);
 }
 
-*.i_plus:hover,
-img[src*="plus.gif"]:hover
-{
+.i_plus:hover {
 	background-image:url(images/plus_over.gif);
 }
 
@@ -1946,11 +1897,6 @@ div.anime_all div.image
 }
 
 /*common overwrite stuff*/
-#layout-main div.latestanimes_anime h3
-{
-	margin: 10px auto;
-}
-
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.comment,

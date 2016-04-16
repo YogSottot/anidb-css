@@ -8,13 +8,13 @@ table table
 	border: none;
 }
 
-img, a,
+.g_image, img, a,
 #layout-search div.g_bubble.search
 {
 	border: none;
 }
 
-#layout-content .g_image img,
+#layout-content .g_image,
 #layout-content .g_definitionlist
 {
 	padding: 1px;

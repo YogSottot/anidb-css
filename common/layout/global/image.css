@@ -1,0 +1,84 @@
+.g_image.missing.missing:after {
+	color: #999999;
+}
+
+/*full size*/
+.g_image.missing {
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+}
+
+.g_image.missing:after {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	content: "No Picture";
+	transform: rotate(-53deg);
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+/*sidebar*/
+@media screen and (min-width: 1200px) {
+	#layout-main div.anime_all.sidebar > div.info .g_image.missing::after {
+	    left: 7%;
+	    top: 35%;
+	    transform: rotate(-25deg);
+	}
+
+	#layout-main div.anime_all.sidebar > div.info .g_image.missing {
+	    height: 200px;
+	    width: 425px;
+	}
+}
+
+/*small*/
+.g_image.missing.small {
+	height: 180px;
+	width: 150px;
+}
+
+.g_image.missing.small:after {
+	left: 38%;
+	top: 25%;
+	transform: rotate(-50deg);
+	font-size: 2rem;
+}
+
+/*thumb*/
+.g_image.missing.thumb,
+.g_image.missing.thumbcrop {
+	height: 55px;
+	width: 50px;
+}
+
+.g_image.missing.thumb:after,
+.g_image.missing.thumbcrop:after {
+	left: 25%;
+	top: 17%;
+	content: "No Pic";
+	transform: rotate(-50deg);
+	font-size: 1.3rem;
+}
+
+/*css preview image on profile*/
+#css_selector .g_image.missing::after {
+    font-size: 2rem;
+    transform: rotate(-30deg);
+}
+#css_selector .g_image.missing::after {
+    left: 13%;
+    top: 33%;
+}
+
+/*thumbnails in tables*/
+td.thumb {
+	height: 7em;
+	text-align: center;
+	vertical-align: middle;
+	width: 5em;
+}

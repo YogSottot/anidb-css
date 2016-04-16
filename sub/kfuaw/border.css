@@ -3,7 +3,7 @@ table
 	border-collapse: seperate;
 }
 
-img, a
+.g_image, img, a
 {
 	border: none;
 }
@@ -88,12 +88,12 @@ img, a
 }
 
 #layout-main .g_description,
-#layout-main .g_image img
+.g_image
 {
 	border: 1px #98AAB1 dotted;
 }
 
-#layout-main .g_image img
+.g_image
 {
 	padding: 1px;
 }
@@ -117,7 +117,7 @@ img, a
 	border-bottom: black 2px solid;
 }
 
-#layout-main div.avatar .image
+.g_image
 {
 	border: 1px solid #cbd6e5;
 }
@@ -155,7 +155,6 @@ body.nonav #layout-main div.g_content,
 #layout-main div.userpage_all div.g_section.clubs h3 + div,
 #layout-main div.g_menu div h4 + ul,
 #layout-main div.g_menu div h4 + p,
-#layout-main div.latestanimes_anime div.data table,
 #layout-main div.main_all div.rightbar h4 + ol,
 #layout-main div.profile_all div.pane.general div.body div.pane div,
 #layout-main div.profile_all div.passwords form div.anidb,
