@@ -70,28 +70,6 @@
 	float: left;
 }
 
-.g_bubble.stripe > div.image div.tooltip {
-	display: none;
-}
-
-.g_bubble.stripe > div.image:hover div.tooltip {
-	display: block;
-	width: 400px;
-	text-align: left;
-	z-index: 10;
-	position: absolute;
-	margin: 2em 0 0 3em;
-}
-
-.g_bubble.stripe > div.image div.tooltip div.comments div.content {
-	padding: 0 4px 4px;
-	word-wrap: break-word;
-}
-
-.g_bubble.stripe > div.image div.tooltip div.comments div.postbody + div.postbody {
-	margin-top: 0.5em;
-}
-
 .g_bubble {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -184,7 +162,6 @@
 	margin-right: 2em;
 }
 
-.g_bubble.stripe.medium > div.image:hover div.tooltip,
 .g_bubble.stripe.medium {
 	width:300px;
 }
@@ -198,8 +175,7 @@
 	width:98%;
 }
 
-.g_bubble.stripe.medium div.data div.eprange,
-.g_bubble.stripe.max > div.image:hover div.tooltip {
+.g_bubble.stripe.medium div.data div.eprange {
 	display:none;
 }
 
