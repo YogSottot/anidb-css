@@ -243,6 +243,7 @@
 	white-space: normal;
 }
 
+#layout-main div.anime_all .g_section.groups td.name,
 #layout-main div.anime_all .g_section.voteoption h3 {
 	white-space: nowrap;
 }
