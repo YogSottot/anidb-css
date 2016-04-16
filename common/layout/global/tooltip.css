@@ -8,7 +8,7 @@
 	left: -100px;
 	line-height: 16px;
 	margin-top: 50px;
-	padding: 14px 20px;
+	padding: 1em;
 	position: absolute;
 	text-align: justify;
 	white-space: normal;
@@ -49,6 +49,10 @@
 	width: calc(100% - 6em);
 	left: 0;
 	margin: 3em 3em 0;
+}
+
+.g_bubble.stripe.medium > .data > .actions > .tooltip span.text {
+	width: calc(100% - 8em);
 }
 
 .g_bubble.stripe > .data > .actions > .tooltip span.text.comments {
