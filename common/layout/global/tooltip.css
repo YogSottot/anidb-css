@@ -48,8 +48,11 @@
 .g_bubble.stripe > .data > .actions > .tooltip span.text {
 	width: calc(100% - 6em);
 	left: 0;
-	padding: 0;
 	margin: 3em 3em 0;
+}
+
+.g_bubble.stripe > .data > .actions > .tooltip span.text.comments {
+	padding: 0;
 }
 
 .g_bubble.stripe > .data > .actions > .tooltip span.text.comments div.postbody {
