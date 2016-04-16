@@ -41,18 +41,22 @@
 
 
 /*similar anime comments*/
-.tooltip span.text.comments {
-	width: 450px;
-	left: -465px;
-	padding: 0;
-	margin-top: 3em;
+.g_bubble.stripe > .data > .actions > .tooltip {
+	position: unset;
 }
 
-.tooltip span.text.comments div.postbody {
+.g_bubble.stripe > .data > .actions > .tooltip span.text {
+	width: calc(100% - 6em);
+	left: 0;
+	padding: 0;
+	margin: 3em 3em 0;
+}
+
+.g_bubble.stripe > .data > .actions > .tooltip span.text.comments div.postbody {
 	margin: 1em;
 }
 
-.tooltip span.text.comments div.postbody p.author {
+.g_bubble.stripe > .data > .actions > .tooltip span.text.comments div.postbody p.author {
 	padding: 0.5em 0.5em 0px;
 }
 
