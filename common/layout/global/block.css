@@ -20,6 +20,7 @@
 #anidb div.block > div.data {
 	margin-right: 1em;
 	min-width: 50%;
+	z-index: 1;
 }
 #anidb .css_style + p {
 	clear: left;
