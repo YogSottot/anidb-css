@@ -4,7 +4,7 @@ html {
 	font-size: 10px;
 }
 
-.i_icon[title] {
+span.i_icon[title] {
 	cursor: help;
 }
 
