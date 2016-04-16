@@ -46,13 +46,13 @@
 }
 
 .g_bubble.stripe > .data .tooltip span.text {
-	width: calc(100% - 6em);
+	width: calc(100% - 4em);
 	left: 0;
-	margin: 3em 3em 0;
+	margin: 2em 2em 0;
 }
 
 .g_bubble.stripe.medium > .data .tooltip span.text {
-	width: calc(100% - 8em);
+	width: calc(100% - 6em);
 }
 
 .g_bubble.stripe > .data .tooltip span.text.comments {
