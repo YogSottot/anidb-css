@@ -4,6 +4,10 @@
 		margin-bottom: 2em;
 	}
 
+	#layout-main .sidebar div.info > h4 {
+		display: none;
+	}
+
 	#layout-main .sidebar > div.info div.edit_actions {
 		margin: 0 0.8em 0.5em 0;
 		height: auto;
