@@ -201,8 +201,8 @@ input[type="button"],
 	border-radius: 0 5px 0 0;
 }
 
-/*temporarily restricted*/
-#layout-main div.anime_all .g_section > h2,
-#layout-main div.anime_all .g_section > form > h2 {
+
+#layout-main .g_section > h2,
+#layout-main .g_section > form > h2 {
 	border-bottom: 1px solid;
 }

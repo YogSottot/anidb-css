@@ -1,0 +1,75 @@
+@media screen and (min-width: 1200px) {
+	#layout-main .sidebar > div.info {
+		float: left;
+		margin-bottom: 2em;
+	}
+
+	#layout-main .sidebar > div.info div.edit_actions {
+		margin: 0 0.8em 0.5em 0;
+		height: auto;
+	}
+
+	#layout-main .sidebar > div.info,
+	#layout-main .sidebar div.block,
+	#layout-main .sidebar div.block > div.image,
+	#layout-main .sidebar div.block > div.data {
+		min-width: unset;
+		width: 435px;
+	}
+
+	#layout-main .sidebar div.info div.caststaff,
+	#layout-main .sidebar div.block {
+		flex-wrap: wrap;
+	}
+
+	#layout-main .sidebar div.block > div.data {
+		margin-top: 1em;
+		margin-right: 0;
+	}
+
+	#layout-main .sidebar div.block > div.image {
+		margin: 0;
+	}
+
+	#layout-main .sidebar > .g_section.resized {
+		width: calc(100% - 455px);
+		clear: none;
+		float: right;
+		box-sizing: border-box;
+	}
+
+	#layout-main .sidebar #tabbed_pane {
+		margin: 0 0.4em;
+	}
+
+	#layout-main .sidebar div.block {
+		margin-top: 3em;
+	}
+
+	#layout-main .sidebar > .g_section.resized.tabbed_pane:not(.hidden) {
+		margin: 1em 0.5em 1.5em;
+	}
+
+	#layout-main .sidebar > .g_section.info + .g_section.resized.tabbed_pane {
+	    margin-top: 0;
+	}
+
+	#layout-main .sidebar .g_section.info div.data .g_definitionlist th {
+		min-width: 8.8em;
+	}
+
+	#layout-main .sidebar .g_section.info div.data .g_definitionlist td.list,
+	#layout-main .sidebar .g_section.info div.data .g_definitionlist td.type {
+		width: auto;
+		padding: 2px 8px;
+	}
+
+	#layout-main .sidebar .g_section.info div.data .g_definitionlist td {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	#layout-main .sidebar .g_section.mylist_status.vote_status.resized .voteoption {
+		width: 100%;
+	}
+}
