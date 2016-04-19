@@ -4,11 +4,11 @@
 		margin-bottom: 2em;
 	}
 
-	#layout-main .sidebar div.info > h4 {
+	#layout-main .sidebar .g_section.info > h4 {
 		display: none;
 	}
 
-	#layout-main .sidebar .g_section.info div.edit_actions {
+	#layout-main .sidebar.g_content .g_section.info div.edit_actions {
 		margin: 0 0.8em 0.5em 0;
 		height: auto;
 	}
@@ -21,7 +21,6 @@
 		width: 435px;
 	}
 
-	#layout-main .sidebar div.info div.caststaff,
 	#layout-main .sidebar div.block {
 		flex-wrap: wrap;
 	}
@@ -80,4 +79,13 @@
 	#layout-main .sidebar .g_section.mylist_status.vote_status.resized .voteoption {
 		width: 100%;
 	}
+}
+
+#layout-main .g_section.vote_status .container {
+	box-sizing: border-box;
+}
+
+#layout-main .g_content:not(.sidebar) .g_section.info div.edit_actions {
+	height: 4em;
+	margin-top: 0;
 }

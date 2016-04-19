@@ -205,11 +205,6 @@
 	display: block;
 }
 
-#layout-main div.anime_all:not(.sidebar) .g_section.info div.edit_actions {
-	height: 4em;
-	margin-top: 0;
-}
-
 #layout-main div.anime_all > .g_section.mylist_status.vote_status {
 	margin-bottom: 0.5em;
 }
@@ -273,6 +268,10 @@
 
 	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized .mylist {
 	    width: calc(100% - 26em);
+	}
+
+	#layout-main div.anime_all.sidebar .g_section.info div.caststaff {
+		flex-wrap: wrap;
 	}
 }
 
