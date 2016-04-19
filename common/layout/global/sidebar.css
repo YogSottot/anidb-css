@@ -35,13 +35,6 @@
 		margin: 0;
 	}
 
-	#layout-main .sidebar > .g_section.resized {
-		width: calc(100% - 455px);
-		clear: none;
-		float: right;
-		box-sizing: border-box;
-	}
-
 	#layout-main .sidebar #tabbed_pane {
 		margin: 0 0.4em;
 	}
@@ -50,11 +43,22 @@
 		margin-top: 3em;
 	}
 
-	#layout-main .sidebar > .g_section.resized.tabbed_pane:not(.hidden) {
+	#layout-main .sidebar > .g_section.resized,
+	#layout-main .sidebar > .creator_entry > .g_section.resized,
+	#layout-main .sidebar > .character_entry > .g_section.resized {
+		width: calc(100% - 455px);
+		clear: none;
+		float: right;
+		box-sizing: border-box;
+	}
+
+	#layout-main .sidebar > .g_section.resized.tabbed_pane:not(.hidden),
+	#layout-main .sidebar > .creator_entry > .g_section.resized.tabbed_pane:not(.hidden),
+	#layout-main .sidebar > .character_entry > .g_section.resized.tabbed_pane:not(.hidden) {
 		margin: 1em 0.5em 1.5em;
 	}
 
-	#layout-main .sidebar > .g_section.info + .g_section.resized.tabbed_pane {
+	#layout-main .sidebar .g_section.info + .g_section.resized.tabbed_pane {
 	    margin-top: 0;
 	}
 
