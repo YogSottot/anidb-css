@@ -24,13 +24,13 @@
 
 /*sidebar*/
 @media screen and (min-width: 1200px) {
-	#layout-main .sidebar > div.info .g_image.missing::after {
+	#layout-main .sidebar .g_section.info .g_image.missing::after {
 	    left: 7%;
 	    top: 35%;
 	    transform: rotate(-25deg);
 	}
 
-	#layout-main .sidebar > div.info .g_image.missing {
+	#layout-main .sidebar .g_section.info .g_image.missing {
 	    height: 200px;
 	    width: 425px;
 	}

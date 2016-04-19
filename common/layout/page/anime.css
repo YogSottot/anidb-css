@@ -205,7 +205,7 @@
 	display: block;
 }
 
-#layout-main div.anime_all:not(.sidebar) > div.info div.edit_actions {
+#layout-main div.anime_all:not(.sidebar) .g_section.info div.edit_actions {
 	height: 4em;
 	margin-top: 0;
 }

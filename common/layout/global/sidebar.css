@@ -1,5 +1,5 @@
 @media screen and (min-width: 1200px) {
-	#layout-main .sidebar > div.info {
+	#layout-main .sidebar .g_section.info {
 		float: left;
 		margin-bottom: 2em;
 	}
@@ -8,12 +8,12 @@
 		display: none;
 	}
 
-	#layout-main .sidebar > div.info div.edit_actions {
+	#layout-main .sidebar .g_section.info div.edit_actions {
 		margin: 0 0.8em 0.5em 0;
 		height: auto;
 	}
 
-	#layout-main .sidebar > div.info,
+	#layout-main .sidebar .g_section.info,
 	#layout-main .sidebar div.block,
 	#layout-main .sidebar div.block > div.image,
 	#layout-main .sidebar div.block > div.data {
