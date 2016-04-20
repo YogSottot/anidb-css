@@ -25,6 +25,7 @@ body.dragging * {
 
 .sortable_shuttle .left > ol {
 	min-height: calc(100% - 2.4em);
+	box-sizing: border-box;
 }
 
 .sortable_shuttle h4 {
