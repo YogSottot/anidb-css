@@ -23,6 +23,10 @@ body.dragging * {
 	box-sizing: border-box;
 }
 
+.sortable_shuttle .left > ol {
+	min-height: calc(100% - 2.4em);
+}
+
 .sortable_shuttle h4 {
 	text-align: left;
 }
