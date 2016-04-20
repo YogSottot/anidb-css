@@ -16,3 +16,7 @@
 #layout-main div.character_all > div > .g_section.tabbed_pane:not(.hidden) {
 	margin: 2.5em 0.5em 1.5em;
 }
+
+#layout-main div.character_all > div > .g_section table {
+	width: 100%;
+}
