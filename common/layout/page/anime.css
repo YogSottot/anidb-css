@@ -258,8 +258,8 @@
 	padding-right: 0.5em;
 }
 
-#layout-main div.anime_all .g_section.chartags .container,
-#layout-main div.anime_all .g_section.animetags .container {
+#layout-main div.anime_all .g_section.tabbed_pane .g_section.chartags .container,
+#layout-main div.anime_all .g_section.tabbed_pane .g_section.animetags .container {
 	margin: 0 0.5em;
 }
 
