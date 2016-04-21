@@ -242,6 +242,26 @@
     min-width: 50em;
 }
 
+#layout-main div.anime_all .notification td.value > div,
+#layout-main div.anime_all .wishlist td.value > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#layout-main div.anime_all .notification td.value > div.action,
+#layout-main div.anime_all .wishlist td.value > div.action {
+	min-width: 10em;
+}
+
+#layout-main div.anime_all .notification td.value > div.state span.text,
+#layout-main div.anime_all .wishlist td.value > div.state span.text {
+	padding-right: 0.5em;
+}
+
+#layout-main div.anime_all div.forum div.g_bubble.threads {
+	margin: 0;
+}
+
 @media screen and (min-width: 1500px) {
 	#layout-main div.anime_all.sidebar div.info div.caststaff > div {
 		padding: 0.5em;
@@ -276,20 +296,4 @@
 	-webkit-justify-content: space-around;
 	-moz-justify-content: space-around;
 	justify-content: space-around;
-}
-
-#layout-main div.anime_all .notification td.value > div,
-#layout-main div.anime_all .wishlist td.value > div {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#layout-main div.anime_all .notification td.value > div.action,
-#layout-main div.anime_all .wishlist td.value > div.action {
-	min-width: 10em;
-}
-
-#layout-main div.anime_all .notification td.value > div.state span.text,
-#layout-main div.anime_all .wishlist td.value > div.state span.text {
-	padding-right: 0.5em;
 }
