@@ -23,7 +23,7 @@
 }
 
 /*sidebar*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1500px) {
 	#layout-main .sidebar .g_section.info .g_image.missing::after {
 	    left: 7%;
 	    top: 35%;
