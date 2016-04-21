@@ -9,7 +9,7 @@
 }
 
 #layout-main h2 + div.edit_actions {
-	margin-top: 3em;
+	margin-top: -3em;
 }
 
 #layout-main .g_content:not(.sidebar) .g_section.info div.edit_actions,
