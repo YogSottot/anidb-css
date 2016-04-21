@@ -5,9 +5,12 @@ body.dragging * {
 
 .sortable_shuttle {
 	width: 50em !important;
-	display: inline-flex !important;
-	flex-wrap: wrap;
 	text-align: left;
+}
+
+.sortable_shuttle > .container {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .sortable_shuttle .dragged {
@@ -36,6 +39,10 @@ body.dragging * {
 .sortable_shuttle h4 + button {
 	margin-top: -2.45em;
 	float: right;
+}
+
+.sortable_shuttle .options {
+	margin-top: 1em;
 }
 
 .sortable_shuttle .right {
