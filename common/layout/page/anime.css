@@ -252,7 +252,7 @@
     min-width: 50em;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1500px) {
 	#layout-main div.anime_all.sidebar div.info div.caststaff > div {
 		padding: 0.5em;
 		margin: 1em 0.4em 0;
@@ -262,20 +262,10 @@
 		width: 20em;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > .vote {
-		width: 25em;
-	}
-
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized .mylist {
-	    width: calc(100% - 26em);
-	}
-
 	#layout-main div.anime_all.sidebar .g_section.info div.caststaff {
 		flex-wrap: wrap;
 	}
-}
 
-@media screen and (min-width: 1500px) {
 	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized .voteoption {
 		width: auto;
 	}
