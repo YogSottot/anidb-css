@@ -9,7 +9,7 @@
 	}
 
 	#layout-main .sidebar.g_content .g_section.info div.edit_actions {
-		margin: 0 0.8em 0.5em 0;
+		margin: 0 0.3em 0.5em 0;
 		height: auto;
 	}
 
@@ -18,7 +18,7 @@
 	#layout-main .sidebar div.block > div.image,
 	#layout-main .sidebar div.block > div.data {
 		min-width: unset;
-		width: 435px;
+		width: 41em;
 	}
 
 	#layout-main .sidebar div.block {
@@ -34,7 +34,7 @@
 		margin: 0;
 	}
 
-	#layout-main .sidebar #tabbed_pane {
+	#layout-main .sidebar .g_section.info .tabbed_pane {
 		margin: 0 0.4em;
 	}
 
