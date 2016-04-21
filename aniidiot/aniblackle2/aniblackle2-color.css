@@ -282,8 +282,8 @@ select,
 	border-color: #333333;
 }
 
-#layout-main div.anime_all .g_section > h2,
-#layout-main div.anime_all .g_section > form > h2,
+#layout-main .g_section > h2,
+#layout-main .g_section > form > h2,
 .i_comment_add,
 .i_topic_add,
 .i_topic_history,
