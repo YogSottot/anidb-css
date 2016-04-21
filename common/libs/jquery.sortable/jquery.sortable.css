@@ -32,7 +32,7 @@ body.dragging * {
 	box-sizing: border-box;
 }
 
-.sortable_shuttle h4 {
+.sortable_shuttle .container h4 {
 	text-align: left;
 }
 
