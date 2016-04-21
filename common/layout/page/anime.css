@@ -258,8 +258,9 @@
 	padding-right: 0.5em;
 }
 
-#layout-main div.anime_all div.forum div.g_bubble.threads {
-	margin: 0;
+#layout-main div.anime_all .g_section.chartags .container,
+#layout-main div.anime_all .g_section.animetags .container {
+	padding: 0 0.5em;
 }
 
 @media screen and (min-width: 1500px) {
