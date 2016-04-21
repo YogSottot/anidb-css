@@ -260,7 +260,7 @@
 
 #layout-main div.anime_all .g_section.chartags .container,
 #layout-main div.anime_all .g_section.animetags .container {
-	padding: 0 0.5em;
+	margin: 0 0.5em;
 }
 
 @media screen and (min-width: 1500px) {
