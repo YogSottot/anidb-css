@@ -41,6 +41,10 @@ body.dragging * {
 	float: right;
 }
 
+.sortable_shuttle .options {
+	margin-top: 1em;
+}
+
 .sortable_shuttle .right {
 	width: calc(50% - 1em);
 	margin-left: 1em;
