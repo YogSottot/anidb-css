@@ -84,8 +84,3 @@
 #layout-main .g_section.vote_status .container {
 	box-sizing: border-box;
 }
-
-#layout-main .g_content:not(.sidebar) .g_section.info div.edit_actions {
-	height: 4em;
-	margin-top: 0;
-}
