@@ -206,7 +206,11 @@
 }
 
 #layout-main div.anime_all > .g_section.mylist_status.vote_status {
-	margin-bottom: 0.5em;
+	margin: 0;
+}
+
+#layout-main div.anime_all > .g_section.mylist_status.vote_status > div.g_section {
+	margin: 1em 0.5em;
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .container {
@@ -231,10 +235,6 @@
 
 #layout-main div.anime_all .g_section.voteoption {
 	margin: 0 1em;
-}
-
-#layout-main div.anime_all .g_section.mylist_status.vote_status > div + div {
-	margin-left: 1em;
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status:not(.resized) .mylist table {
