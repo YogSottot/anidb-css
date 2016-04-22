@@ -22,6 +22,16 @@
 	float: right;
 }
 
+#layout-main div.userpage_all div.userdetails .block div table,
+#layout-main div.userpage_all div.history table,
+#layout-main div.userpage_all div.stats table {
+	width: 100%;
+}
+
+#layout-main div.userpage_all div.userdetails .block div table th {
+	width: 7em;
+}
+
 /*badges*/
 #layout-main div.userpage_all .g_section.achievements > .container {
 	margin-bottom: 2em;
