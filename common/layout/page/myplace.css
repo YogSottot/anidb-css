@@ -32,6 +32,12 @@
 	width: 7em;
 }
 
+/*main block data*/
+#layout-main div.userpage_all > div.g_section {
+	width: 21em;
+	clear: left;
+}
+
 /*badges*/
 #layout-main div.userpage_all .g_section.achievements > .container >  .container {
 	margin-bottom: 2em;
@@ -47,7 +53,7 @@
 	-webkit-flex-grow: 0;
 	-moz-flex-grow: 0;
 	flex-grow: 0;
-	margin: 0.25em;
+	margin: 0.5em;
 }
 
 /*discussions*/
