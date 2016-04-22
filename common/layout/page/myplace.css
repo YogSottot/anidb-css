@@ -6,3 +6,28 @@
 	padding-right: 0.5em;
 	width: 19em;
 }
+
+#layout-main div.userpage_all div.g_menu.user > div + div,
+#layout-main div.userpage_all div.latest div + div,
+#layout-main div.userpage_all div.stats div + div,
+#layout-main div.userpage_all div.g_menu div + div {
+	margin-top: 1em;
+}
+
+#layout-main div.userpage_all div.g_menu.user > div a {
+	display: block;
+}
+
+#layout-main div.userpage_all div.g_menu.user > div span.v_high {
+	float: right;
+}
+
+#layout-main div.userpage_all .g_bubble.stripe.recommendation {
+	position: relative;
+}
+
+#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.author {
+	bottom: 0;
+	position: absolute;
+	margin: 0.5em 0.5em 0.5em 6em;
+}
