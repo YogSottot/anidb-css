@@ -36,7 +36,7 @@ th a,
 #layout-main div.main_all div.header h4,
 #layout-main table tr.header,
 #layout-main div.votes_all div.graph div.header,
-#layout-main div.anime_all div.info div.extra div h4,
+#layout-main div.info div.extra div h4,
 #layout-main div.main_all div.rightbar h4,
 th {
 	background-color: #c3d9ff;
@@ -404,7 +404,7 @@ tr + tr th,
 
 table,
 #layout-main > h1,
-#layout-main div.anime_all div.info div.extra div table,
+#layout-main div.info div.extra div table,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.g_timedentry h4,

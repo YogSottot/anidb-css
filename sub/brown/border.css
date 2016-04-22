@@ -87,14 +87,7 @@ table table,
 	border-bottom: 1px #E9E6D9 double;
 }
 
-#layout-main div.anime_all div.info div.extra div.cast table,
-#layout-main div.anime_all div.info div.extra div.staff table
+#layout-main div.info div.extra div table
 {
 	border: none;
-}
-
-#layout-main div.anime_all div.info div.extra div.cast,
-#layout-main div.anime_all div.info div.extra div.staff
-{
-	border:1px dotted #999380;
 }
