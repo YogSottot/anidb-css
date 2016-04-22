@@ -48,7 +48,6 @@ h4 span,
 #layout-main div.edit_actions span,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.admin_all div.g_menu h4 span {
 	font-family: Arial,Helvetica,sans-serif;
 }
@@ -61,7 +60,6 @@ h4 span,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.votes_all div.graph div.header,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
@@ -108,7 +106,6 @@ h4 span,
 #layout-main div.g_timedentry h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.votes_all div.graph div.header,
 #layout-tabs ul.main-tabs {
 	text-transform: capitalize;

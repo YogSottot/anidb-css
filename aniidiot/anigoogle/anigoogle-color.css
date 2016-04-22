@@ -151,7 +151,6 @@ div.g_odd,
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.main_all div.header div.account ul.tabs li.signup,
 input[type="submit"]:hover,
 input[type="button"]:hover,
@@ -408,10 +407,8 @@ table,
 #layout-main div.anime_all div.info div.caststaff div table,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.g_timedentry h4,
-#layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4 {
+#layout-main div.animeatt_all div.review > h4 {
 	border-top-color: #C3D9FF;
 }
 

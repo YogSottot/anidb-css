@@ -21,7 +21,7 @@ a.i_button:hover {
 input[type="text"],
 input[type="password"],
 textarea,
-#layout-main div.userpage_all div.content > h3 {
+#layout-main div.userpage_all div.container > h3 {
 	font-size: 1.23rem;
 }
 

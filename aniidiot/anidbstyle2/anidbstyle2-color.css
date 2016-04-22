@@ -86,10 +86,8 @@ input[type="submit"]:hover,
 #layout-main div.main_all div.rightbar h4,
 #layout-main > h1,
 #layout-main div.g_timedentry h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.forum li.header div,
 #layout-main div.search_all div.suggestions span:hover {
@@ -132,14 +130,12 @@ select,
 #layout-main div.g_timedentry p.comment a,
 #layout-main div.g_timedentry p.comment,
 #layout-main table tr.header a,
-#layout-main div.userpage_all > div.g_section > h4 a,
 #layout-main div.animeatt_all div.review > h4 a,
 #layout-main th > span.link,
 #layout-main th > a:visited,
 #layout-main th > a:active,
 #layout-main th > a:link,
-th .i_icon,
-#layout-main div.userpage_all .achievements h4 a.i_help {
+th .i_icon {
 	color: #A2BFD7;
 }
 
@@ -148,7 +144,6 @@ th .i_icon,
 #layout-main > h1 a:hover,
 #layout-main div.g_timedentry h4 a:hover,
 #layout-main div.g_timedentry p.comment a:hover,
-#layout-main div.userpage_all > div.g_section > h4 a:hover,
 #layout-main div.animeatt_all div.review > h4 a:hover {
 	color: #FFAA55;
 }
@@ -248,7 +243,6 @@ button,
 #layout-main div.main_all div.rightbar h4,
 #layout-main > h1,
 #layout-main div.g_timedentry h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
 #layout-main table tr.header,
@@ -346,8 +340,7 @@ select,
 #layout-main > h1,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.news h4,
-#layout-main div.g_timedentry h4,
-#layout-main div.userpage_all > div.g_section > h4 {
+#layout-main div.g_timedentry h4 {
 	border-color: #EEEEEE #8E8E8E #8E8E8E #EEEEEE;
 }
 

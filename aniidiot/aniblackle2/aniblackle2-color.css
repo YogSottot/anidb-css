@@ -508,7 +508,6 @@ table th,
 #layout-main div.main_all div.header h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover .v_high,
 #layout-main div.userpage_all div.g_menu ul li:hover a {
@@ -523,8 +522,7 @@ table th,
 #layout-main div.main_all div.header h4,
 #layout-main div.anime_all div.info div.caststaff div h4,
 #layout-main div.forum div.g_bubble.threads,
-#layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4 {
+#layout-main div.animeatt_all div.review > h4 {
 	background-color: #333333;
 }
 
@@ -549,7 +547,6 @@ input.f_button {
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main > h1 {
 	box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.1);
 }
