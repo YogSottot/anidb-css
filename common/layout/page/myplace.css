@@ -1,4 +1,4 @@
-/*menu position*/
+/*menu*/
 #layout-main div.userpage_all div.g_menu {
 	clear: left;
 	float: left;
@@ -22,12 +22,21 @@
 	float: right;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation {
-	position: relative;
+/*badges*/
+#layout-main div.userpage_all .g_section.achievements > .container {
+	margin-bottom: 2em;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.author {
-	bottom: 0;
-	position: absolute;
-	margin: 0.5em 0.5em 0.5em 6em;
+#layout-main div.userpage_all .g_section.achievements .g_bubblewrap > .badge {
+	-ms-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-moz-flex-grow: 0;
+	flex-grow: 0;
+	margin: 0.25em;
+}
+
+/*discussions*/
+#layout-main div.userpage_all .g_section.discussions table {
+	padding: 0.5em;
+    width: 100%;
 }
