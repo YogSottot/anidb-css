@@ -209,7 +209,7 @@
 	margin: -0.5em 0;
 }
 
-#layout-main div.anime_all>  .g_section.mylist_status.vote_status:not(.resized) .vote {
+#layout-main div.anime_all>  .g_section.mylist_status.vote_status:not(.resized) > div.g_bubblewrap > .vote {
 	width: 100%;
 }
 
@@ -285,11 +285,11 @@
 		width: auto;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized .vote {
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap > .vote {
 		width: 51em;
 	}
 
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized .mylist {
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap > .mylist {
 	    width: calc(100% - 52em);
 	}
 }
