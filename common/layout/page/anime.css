@@ -209,10 +209,6 @@
 	margin: -0.5em 0;
 }
 
-#layout-main div.anime_all > .g_section.mylist_status.vote_status:not(.resized) > div.g_bubblewrap > .vote {
-	width: 100%;
-}
-
 #layout-main div.anime_all > .g_section.mylist_status.vote_status:not(.resized) > div.g_bubblewrap > div.g_section {
 	margin: 0.6em 0.5em;
 }
