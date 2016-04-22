@@ -281,6 +281,7 @@
 		width: auto;
 	}
 
+	#layout-main div.anime_all.sidebar div.tabbed_pane.resized .g_section.mylist_status.vote_status > div.g_bubblewrap,
 	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap {
 		-ms-justify-content: space-between;
 		-webkit-justify-content: space-between;
@@ -288,11 +289,13 @@
 		justify-content: space-between;
 	}
 
+	#layout-main div.anime_all.sidebar div.tabbed_pane.resized .g_section.mylist_status.vote_status > div.g_bubblewrap > .vote,
 	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap > .vote {
 		width: 51em;
 		flex-grow: 0;
 	}
 
+	#layout-main div.anime_all.sidebar div.tabbed_pane.resized .g_section.mylist_status.vote_status > div.g_bubblewrap > .mylist,
 	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap > .mylist {
 	    width: calc(100% - 52em);
 	    flex-grow: 0;
