@@ -1,24 +1,21 @@
 /*menu*/
 #layout-main div.userpage_all div.g_menu {
-	clear: left;
-	float: left;
+	float: right;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	width: 19em;
 }
 
-#layout-main div.userpage_all div.g_menu.user > div + div,
-#layout-main div.userpage_all div.latest div + div,
-#layout-main div.userpage_all div.stats div + div,
+#layout-main div.userpage_all div.g_menu > div.user > div + div,
 #layout-main div.userpage_all div.g_menu div + div {
 	margin-top: 1em;
 }
 
-#layout-main div.userpage_all div.g_menu.user > div a {
+#layout-main div.userpage_all div.g_menu > div.user > div a {
 	display: block;
 }
 
-#layout-main div.userpage_all div.g_menu.user > div span.v_high {
+#layout-main div.userpage_all div.g_menu > div.user > div span.v_high {
 	float: right;
 }
 
