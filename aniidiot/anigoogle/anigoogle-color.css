@@ -404,10 +404,8 @@ tr + tr th,
 
 table,
 #layout-main > h1,
+#layout-main div.g_timedentry h4,
 #layout-main div.info div.extra div table,
-#layout-main div.g_timedentry h4,
-#layout-main div.animeatt_all div.review > h4,
-#layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4 {
 	border-top-color: #C3D9FF;
 }

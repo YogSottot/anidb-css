@@ -1,21 +1,17 @@
 /*menu*/
 #layout-main div.userpage_all div.g_menu {
-	float: right;
+	float: left;
+	clear: left;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	width: 19em;
+	width: 24em;
 }
 
-#layout-main div.userpage_all div.g_menu > div.user > div + div,
-#layout-main div.userpage_all div.g_menu div + div {
-	margin-top: 1em;
-}
-
-#layout-main div.userpage_all div.g_menu > div.user > div a {
+#layout-main div.userpage_all div.g_menu.user > div a {
 	display: block;
 }
 
-#layout-main div.userpage_all div.g_menu > div.user > div span.v_high {
+#layout-main div.userpage_all div.g_menu.user > div span.v_high {
 	float: right;
 }
 
@@ -32,7 +28,6 @@
 /*main block data*/
 #layout-main div.userpage_all > div.g_section {
 	clear: none;
-	margin-left: 21em;
 }
 
 /*badges*/
