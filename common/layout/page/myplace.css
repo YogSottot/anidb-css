@@ -65,8 +65,10 @@
 		width: 24em;
 	}
 
-	#layout-main div.userpage_all.sidebar > > .g_section.resized {
-		width: 100%;
-		margin-left: 25em;
+	#layout-main div.userpage_all.sidebar > .g_section.resized {
+		width: auto;
+		margin-left: 25.5em;
+		float: none;
+		clear: right;
 	}
 }
