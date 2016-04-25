@@ -7,6 +7,14 @@
 	width: 24em;
 }
 
+#layout-main div.userpage_all div.g_menu {
+	float: left;
+	clear: left;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	width: 24em;
+}
+
 #layout-main div.userpage_all div.g_menu.user > div a {
 	display: block;
 }
@@ -49,7 +57,10 @@
 }
 
 /*discussions*/
-#layout-main div.userpage_all .g_section.discussions table {
+#layout-main div.userpage_all .g_section.discussions div.g_definitionlist {
 	padding: 0.5em;
+}
+
+#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 	width: 100%;
 }
