@@ -45,7 +45,7 @@
 	#layout-main .sidebar > .g_section.resized,
 	#layout-main .sidebar > .creator_entry > .g_section.resized,
 	#layout-main .sidebar > .character_entry > .g_section.resized {
-		width: calc(100% - 455px);
+		width: calc(100% - 42em);
 		clear: none;
 		float: right;
 		box-sizing: border-box;

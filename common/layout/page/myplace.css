@@ -7,14 +7,6 @@
 	width: 24em;
 }
 
-#layout-main div.userpage_all div.g_menu {
-	float: left;
-	clear: left;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	width: 24em;
-}
-
 #layout-main div.userpage_all div.g_menu.user > div a {
 	display: block;
 }
@@ -63,4 +55,19 @@
 
 #layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 	width: 100%;
+}
+
+@media screen and (min-width: 1500px) {
+	#layout-main div.userpage_all.sidebar .g_section.info,
+	#layout-main div.userpage_all.sidebar div.block,
+	#layout-main div.userpage_all.sidebar div.block > div.image,
+	#layout-main div.userpage_all.sidebar div.block > div.data {
+		width: 24em;
+	}
+
+	#layout-main div.userpage_all.sidebar > .creator_entry > .g_section.resized,
+	#layout-main div.userpage_all.sidebar > .character_entry > .g_section.resized {
+		width: 100%;
+		margin-left: 25em;
+	}
 }
