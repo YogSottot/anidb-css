@@ -65,8 +65,7 @@
 		width: 24em;
 	}
 
-	#layout-main div.userpage_all.sidebar > .creator_entry > .g_section.resized,
-	#layout-main div.userpage_all.sidebar > .character_entry > .g_section.resized {
+	#layout-main div.userpage_all.sidebar > > .g_section.resized {
 		width: 100%;
 		margin-left: 25em;
 	}
