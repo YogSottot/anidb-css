@@ -81,7 +81,7 @@
 		width: 24em;
 	}
 
-	#layout-main div.userpage_all.sidebar div.block {
+	#layout-main .sidebar .g_section.info {
 		margin-top: 0;
 	}
 
