@@ -1,5 +1,5 @@
 /*menu*/
-#layout-main div.userpage_all div.g_menu {
+#layout-main div.userpage_all div.g_menu.left {
 	float: left;
 	clear: left;
 	padding-left: 0.5em;
@@ -7,11 +7,19 @@
 	width: 24em;
 }
 
-#layout-main div.userpage_all div.g_menu.user > div a {
+#layout-main div.userpage_all div.g_menu.right {
+	float: right;
+	clear: right;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	width: 15em;
+}
+
+#layout-main div.userpage_all div.g_menu > div.user > div a {
 	display: block;
 }
 
-#layout-main div.userpage_all div.g_menu.user > div span.v_high {
+#layout-main div.userpage_all div.g_menu > div.user > div span.v_high {
 	float: right;
 }
 
@@ -68,7 +76,8 @@
 	#layout-main div.userpage_all.sidebar > .g_section.resized {
 		width: auto;
 		margin-left: 25.5em;
+		margin-right: 10.5em;
 		float: none;
-		clear: right;
+		clear: unset;
 	}
 }
