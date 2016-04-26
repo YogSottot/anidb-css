@@ -81,7 +81,7 @@
 
 #layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 	width: 100%;
-	min-width: 50em;
+	min-width: 40em;
 }
 
 #layout-main div.userpage_all .g_section.discussions div.g_definitionlist th {
@@ -123,7 +123,7 @@
 	#layout-main div.userpage_all div.g_menu.right {
 		float: right;
 		clear: right;
-		width: 15em;
+		width: 16em;
 	}
 
 	#layout-main div.userpage_all div.g_menu.left {
@@ -133,7 +133,7 @@
 	#layout-main div.userpage_all.sidebar > .g_section,
 	#layout-main div.userpage_all > .g_section {
 		margin-left: 25em;
-		margin-right: 16em;
+		margin-right: 17em;
 	}
 
 	#layout-main div.userpage_all.sidebar > .g_section.resized,
