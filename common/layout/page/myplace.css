@@ -96,6 +96,10 @@
 	#layout-main div.userpage_all > .g_section.info {
 		display: block;
 	}
+
+	#layout-main div.userpage_all > .g_section.info div.block > div.image {
+		min-width: 100px;
+	}
 }
 
 @media screen and (min-width: 1500px) {
