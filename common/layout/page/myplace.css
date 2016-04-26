@@ -9,6 +9,7 @@
 	width: 20em;
 }
 
+#layout-main div.g_menu > div + div,
 #layout-main div.g_menu > div > div + div {
 	margin-top: 1em;
 }
