@@ -33,6 +33,14 @@
 	float: none;
 }
 
+#layout-main div.userpage_all > .g_section:not(.info) {
+	margin: 0em 0.5em 1.5em;
+}
+
+#layout-main div.userpage_all > .g_section.tabbed_pane:not(.hidden) {
+	margin: 2.5em 0.5em 1.5em;
+}
+
 /*badges*/
 #layout-main div.userpage_all .g_section.achievements > .container > .container {
 	margin: 0.5em;
