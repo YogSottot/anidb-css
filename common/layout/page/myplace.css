@@ -129,7 +129,7 @@
 		display: block;
 	}
 
-	#layout-main div.userpage_all > .g_section.info {
+	#layout-main div.userpage_all.sidebar > .g_section.info {
 		display: none;
 	}
 
