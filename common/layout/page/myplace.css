@@ -73,11 +73,11 @@
 		margin-right: 0;
 	}
 
-	#layout-main div.userpage_all div.g_menu.left div.userdetails {
+	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: none;
 	}
 
-	#layout-main div.userpage_all > .g_section.userdetails {
+	#layout-main div.userpage_all > .g_section.info {
 		display: block;
 	}
 }
@@ -90,11 +90,11 @@
 		width: 24em;
 	}
 
-	#layout-main div.userpage_all div.g_menu.left div.userdetails {
+	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: block;
 	}
 
-	#layout-main div.userpage_all > .g_section.userdetails {
+	#layout-main div.userpage_all > .g_section.info {
 		display: none;
 	}
 }
