@@ -1,9 +1,16 @@
 /*menu*/
+#layout-main div.g_menu {
+	margin-bottom: 0;
+}
 #layout-main div.userpage_all div.g_menu.right,
 #layout-main div.userpage_all div.g_menu.left {
 	float: left;
 	clear: left;
 	width: 20em;
+}
+
+#layout-main div.g_menu > div + div {
+	margin-bottom: 0.5em;
 }
 
 #layout-main div.userpage_all div.g_menu > div.user > div a {
@@ -83,6 +90,8 @@
 
 	#layout-main div.userpage_all.sidebar .g_section.info {
 		margin-top: 0;
+    	float: none;
+    	margin-bottom: 0;
 	}
 
 	#layout-main div.userpage_all div.g_menu.left div.info {
