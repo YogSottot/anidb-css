@@ -108,6 +108,7 @@
 
 	#layout-main div.userpage_all.sidebar > .g_section.resized,
 	#layout-main div.userpage_all > .g_section.resized {
+		margin-left: 25em;
 		margin-right: 0;
 	}
 
