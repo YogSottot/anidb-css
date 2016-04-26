@@ -81,7 +81,7 @@
 		width: 24em;
 	}
 
-	#layout-main .sidebar .g_section.info {
+	#layout-main div.userpage_all.sidebar .g_section.info {
 		margin-top: 0;
 	}
 
@@ -113,11 +113,13 @@
 	#layout-main div.userpage_all > .g_section.resized {
 		margin-left: 25em;
 		margin-right: 0;
+		clear: right;
 	}
 
 	#layout-main div.userpage_all.sidebar > .g_section.full,
 	#layout-main div.userpage_all > .g_section.full {
 		margin-left: 0;
 		margin-right: 0;
+		clear: both;
 	}
 }
