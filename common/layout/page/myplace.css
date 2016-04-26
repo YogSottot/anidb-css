@@ -45,12 +45,12 @@
 #layout-main div.userpage_all > div.g_section {
 	clear: none;
 	width: auto;
-	margin-left: 21em;
+	margin-left: 21.5em;
 	float: none;
 }
 
 #layout-main div.userpage_all > .g_section:not(.info) {
-	margin: 0em 0.5em 1.5em 21em;
+	margin: 0em 0.5em 1.5em 21.5em;
 }
 
 #layout-main div.userpage_all.sidebar > .g_section.full,
@@ -144,13 +144,13 @@
 
 	#layout-main div.userpage_all.sidebar > .g_section,
 	#layout-main div.userpage_all > .g_section {
-		margin-left: 25em;
-		margin-right: 17em;
+		margin-left: 25.5em;
+		margin-right: 17.5em;
 	}
 
 	#layout-main div.userpage_all.sidebar > .g_section.resized,
 	#layout-main div.userpage_all > .g_section.resized {
-		margin-left: 25em;
+		margin-left: 25.5em;
 		margin-right: 0;
 		clear: right;
 	}
