@@ -100,15 +100,18 @@
 		width: 24em;
 	}
 
+	#layout-main div.userpage_all.sidebar > .g_section,
 	#layout-main div.userpage_all > .g_section {
 		margin-left: 25em;
 		margin-right: 16em;
 	}
 
+	#layout-main div.userpage_all.sidebar > .g_section.resized,
 	#layout-main div.userpage_all > .g_section.resized {
 		margin-right: 0;
 	}
 
+	#layout-main div.userpage_all.sidebar > .g_section.full,
 	#layout-main div.userpage_all > .g_section.full {
 		margin-left: 0;
 		margin-right: 0;
