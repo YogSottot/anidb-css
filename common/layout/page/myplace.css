@@ -69,6 +69,11 @@
 	margin: 0.1em;
 }
 
+/*favourites*/
+#layout-main div.userpage_all .g_section.favourites > .container > .container {
+	margin: 0.5em;
+}
+
 /*discussions*/
 #layout-main div.userpage_all .g_section.discussions div.g_definitionlist {
 	padding: 0.5em;
