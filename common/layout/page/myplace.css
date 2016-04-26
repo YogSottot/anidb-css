@@ -21,11 +21,11 @@
 	float: right;
 }
 
-#layout-main div.g_menu div.stats {
+#layout-main div.g_menu div.stats td.value {
 	text-align: right;
 }
 
-#layout-main div.g_menu div.stats div.stats_roles{
+#layout-main div.g_menu div.stats div.stats_roles td.value {
 	text-align: left;
 }
 
