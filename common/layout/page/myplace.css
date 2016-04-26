@@ -3,7 +3,7 @@
 #layout-main div.userpage_all div.g_menu.left {
 	float: left;
 	clear: left;
-	width: 24em;
+	width: 20em;
 }
 
 #layout-main div.userpage_all div.g_menu > div.user > div a {
@@ -58,16 +58,11 @@
 
 #layout-main div.userpage_all > .g_section.resized {
 	width: auto;
-	margin-left: 25em;
-	margin-right: 16em;
+	margin-left: 21em;
 	float: none;
 }
 
 @media screen and (max-width: 1500px) {
-	#layout-main div.userpage_all > .g_section.resized {
-		margin-right: 0;
-	}
-
 	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: none;
 	}
@@ -85,6 +80,10 @@
 		width: 24em;
 	}
 
+	#layout-main div.userpage_all.sidebar div.block {
+		margin-top: 0;
+	}
+
 	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: block;
 	}
@@ -97,5 +96,14 @@
 		float: right;
 		clear: right;
 		width: 15em;
+	}
+
+	#layout-main div.userpage_all div.g_menu.left {
+		width: 24em;
+	}
+
+	#layout-main div.userpage_all > .g_section.resized {
+		margin-left: 25em;
+		margin-right: 16em;
 	}
 }
