@@ -34,12 +34,7 @@
 }
 
 /*badges*/
-#layout-main div.userpage_all .g_section.achievements > .container >  .container {
-	margin-bottom: 2em;
-}
-
-#layout-main div.userpage_all .g_section.achievements .g_bubblewrap.g_bubble {
-	padding:1em;
+#layout-main div.userpage_all .g_section.achievements > .container > .container {
 	margin: 0.5em;
 }
 
@@ -48,7 +43,7 @@
 	-webkit-flex-grow: 0;
 	-moz-flex-grow: 0;
 	flex-grow: 0;
-	margin: 0.5em;
+	margin: 0.1em;
 }
 
 /*discussions*/
