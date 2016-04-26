@@ -1,14 +1,9 @@
 /*menu*/
+#layout-main div.userpage_all div.g_menu.right,
 #layout-main div.userpage_all div.g_menu.left {
 	float: left;
 	clear: left;
 	width: 24em;
-}
-
-#layout-main div.userpage_all div.g_menu.right {
-	float: right;
-	clear: right;
-	width: 15em;
 }
 
 #layout-main div.userpage_all div.g_menu > div.user > div a {
@@ -96,5 +91,11 @@
 
 	#layout-main div.userpage_all > .g_section.info {
 		display: none;
+	}
+
+	#layout-main div.userpage_all div.g_menu.right {
+		float: right;
+		clear: right;
+		width: 15em;
 	}
 }
