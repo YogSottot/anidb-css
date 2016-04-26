@@ -9,8 +9,8 @@
 	width: 20em;
 }
 
-#layout-main div.g_menu > div + div {
-	margin-bottom: 0.5em;
+#layout-main div.g_menu > div > div + div {
+	margin-top: 1em;
 }
 
 #layout-main div.userpage_all div.g_menu > div.user > div a {
@@ -19,6 +19,14 @@
 
 #layout-main div.userpage_all div.g_menu > div.user > div span.v_high {
 	float: right;
+}
+
+#layout-main div.g_menu div.stats {
+	text-align: right;
+}
+
+#layout-main div.g_menu div.stats div.stats_roles{
+	text-align: left;
 }
 
 #layout-main div.userpage_all div.userdetails .block div table,
@@ -68,6 +76,11 @@
 
 #layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 	width: 100%;
+	min-width: 50em;
+}
+
+#layout-main div.userpage_all .g_section.discussions div.g_definitionlist th {
+	width: 8em;
 }
 
 @media screen and (max-width: 1500px) {
