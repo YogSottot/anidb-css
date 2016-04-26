@@ -25,8 +25,12 @@
 }
 
 /*main block data*/
+#layout-main div.userpage_all.sidebar > .g_section.resized,
 #layout-main div.userpage_all > div.g_section {
 	clear: none;
+	width: auto;
+	margin-left: 21em;
+	float: none;
 }
 
 /*badges*/
@@ -54,12 +58,6 @@
 
 #layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 	width: 100%;
-}
-
-#layout-main div.userpage_all > .g_section {
-	width: auto;
-	margin-left: 21em;
-	float: none;
 }
 
 @media screen and (max-width: 1500px) {
