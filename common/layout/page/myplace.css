@@ -37,8 +37,6 @@
 	width: 100%;
 }
 
-
-
 #layout-main div.userpage_all div.userdetails .block div table th {
 	width: 7em;
 }
@@ -89,6 +87,10 @@
 }
 
 /*favourites*/
+#layout-main div.userpage_all .g_section.favourites > .container {
+	margin: 0;
+}
+
 #layout-main div.userpage_all .g_section.favourites > .container > .container {
 	margin: 1.5em;
 }
