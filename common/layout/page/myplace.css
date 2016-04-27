@@ -49,6 +49,10 @@
 	float: none;
 }
 
+#layout-main div.userpage_all > div.g_section ul.g_list {
+	clear: none;
+}
+
 #layout-main div.userpage_all > .g_section {
 	margin: 0em 0.5em 1.5em 21.5em;
 }
@@ -164,4 +168,9 @@
 	#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 		min-width: 40em;
 	}
+}
+
+/*IE hack for not being able to handle wraps in nested flex*/
+#anidb.internet_explorer div.userpage_all .g_section.achievements > .g_bubblewrap {
+	display: block;
 }
