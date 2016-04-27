@@ -113,6 +113,15 @@
 	padding: 0.5em;
 }
 
+/*latest entries*/
+#layout-main div.userpage_all .g_section.latest .container {
+	padding: 0.5em;
+}
+
+#layout-main div.userpage_all .g_section.latest table, {
+	width:100%;
+}
+
 @media screen and (max-width: 1500px) {
 	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: none;
@@ -175,6 +184,7 @@
 		clear: right;
 	}
 
+	#layout-main div.userpage_all .g_section.latest table,
 	#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 		min-width: 40em;
 	}
