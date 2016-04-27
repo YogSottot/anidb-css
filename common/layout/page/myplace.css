@@ -155,6 +155,7 @@
 		margin-right: 17.5em;
 	}
 
+	#layout-main div.userpage_all.sidebar > .g_section.resized,
 	#layout-main div.userpage_all > .g_section.resized {
 		margin-right: 0;
 		clear: right;
