@@ -93,7 +93,6 @@
 
 #layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 	width: 100%;
-	min-width: 40em;
 }
 
 #layout-main div.userpage_all .g_section.discussions div.g_definitionlist th {
@@ -159,5 +158,9 @@
 	#layout-main div.userpage_all > .g_section.resized {
 		margin-right: 0;
 		clear: right;
+	}
+
+	#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
+		min-width: 40em;
 	}
 }
