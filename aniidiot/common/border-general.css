@@ -35,7 +35,6 @@ select,
 #layout-main ul.g_list li,
 #layout-tabs ul.main-tabs > li,
 #layout-menu > li ul,
-.g_image,
 #layout-main div.search_all div.suggestions {
 	border: 1px solid;
 }
