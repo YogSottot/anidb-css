@@ -358,7 +358,7 @@ table,
 	border-top:none;
 }
 
-#layout-main div.anime_all div.info div.caststaff div h4,
+#layout-main div.anime_all div.info div.extra div h4,
 #layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs > li,
 #layout-main div.main_all div.rightbar h4
@@ -368,8 +368,8 @@ table,
 	border-radius:5px 5px 0 0;
 }
 
-#layout-main div.anime_all div.info div.caststaff div.cast table,
-#layout-main div.anime_all div.info div.caststaff div.staff table
+#layout-main div.anime_all div.info div.extra div.cast table,
+#layout-main div.anime_all div.info div.extra div.staff table
 {
 	border: none;
 }

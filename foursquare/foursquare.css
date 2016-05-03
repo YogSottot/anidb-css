@@ -888,12 +888,12 @@ border-bottom: 1px #EEE solid }
 #layout-main div.tabbed_pane ul.tabs li:hover {
 border-bottom: 1px #EEE solid }
 
-#layout-main div.anime_all div.info div.caststaff div.cast table,
-#layout-main div.anime_all div.info div.caststaff div.staff table {
+#layout-main div.anime_all div.info div.extra div.cast table,
+#layout-main div.anime_all div.info div.extra div.staff table {
 border: none }
 
-#layout-main div.anime_all div.info div.caststaff div.cast,
-#layout-main div.anime_all div.info div.caststaff div.staff {
+#layout-main div.anime_all div.info div.extra div.cast,
+#layout-main div.anime_all div.info div.extra div.staff {
 border: 2px solid #EEE }
 
 #layout-search div.g_bubble.search {

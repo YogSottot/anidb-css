@@ -223,14 +223,14 @@ table table
 	border: none;
 }
 
-#layout-main div.anime_all div.info div.caststaff div.cast table,
-#layout-main div.anime_all div.info div.caststaff div.staff table
+#layout-main div.anime_all div.info div.extra div.cast table,
+#layout-main div.anime_all div.info div.extra div.staff table
 {
 	border: none;
 }
 
-#layout-main div.anime_all div.info div.caststaff div.cast,
-#layout-main div.anime_all div.info div.caststaff div.staff,
+#layout-main div.anime_all div.info div.extra div.cast,
+#layout-main div.anime_all div.info div.extra div.staff,
 .g_bubble
 {
 	-moz-border-radius:0.4em;
