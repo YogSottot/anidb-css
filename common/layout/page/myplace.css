@@ -158,6 +158,15 @@
 		display: none;
 	}
 
+	/*handling too long strings*/
+	#layout-main div.userpage_all.sidebar .g_section.info div.data .g_definitionlist td {
+	    display: inline-block;
+	    height: auto;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    width: 13em;
+	}
+
 	#layout-main div.userpage_all div.g_menu.right {
 		float: right;
 		clear: right;
