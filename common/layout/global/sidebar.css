@@ -9,8 +9,9 @@
 	}
 
 	#layout-main .sidebar.g_content .g_section.info div.edit_actions {
-		margin: 0 0.3em 0.5em 0;
+		width: 100%;
 		height: auto;
+		margin-right: 0;
 	}
 
 	#layout-main .sidebar .g_section.info,
@@ -18,7 +19,7 @@
 	#layout-main .sidebar div.block > div.image,
 	#layout-main .sidebar div.block > div.data {
 		min-width: unset;
-		width: 41em;
+		width: 40.5em;
 	}
 
 	#layout-main .sidebar div.block {
@@ -35,17 +36,17 @@
 	}
 
 	#layout-main .sidebar .g_section.info .tabbed_pane {
-		margin: 0 0.4em;
+		margin: 0;
 	}
 
-	#layout-main .sidebar div.block {
+	#layout-main .sidebar .g_section.info {
 		margin-top: 3em;
 	}
 
 	#layout-main .sidebar > .g_section.resized,
 	#layout-main .sidebar > .creator_entry > .g_section.resized,
 	#layout-main .sidebar > .character_entry > .g_section.resized {
-		width: calc(100% - 455px);
+		width: calc(100% - 42em);
 		clear: none;
 		float: right;
 		box-sizing: border-box;
@@ -54,7 +55,7 @@
 	#layout-main .sidebar > .g_section.resized.tabbed_pane:not(.hidden),
 	#layout-main .sidebar > .creator_entry > .g_section.resized.tabbed_pane:not(.hidden),
 	#layout-main .sidebar > .character_entry > .g_section.resized.tabbed_pane:not(.hidden) {
-		margin: 1em 0.5em 1.5em;
+		margin: 1em 0 1.5em;
 	}
 
 	#layout-main .sidebar .g_section.info + .g_section.resized.tabbed_pane {

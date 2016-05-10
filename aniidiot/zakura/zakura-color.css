@@ -47,8 +47,7 @@ input[type="button"]:hover,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.username-colored,
 #layout-menu li.sub-menu span.tab,
-#layout-main div.forum .g_bubble.infobox h3,
-#layout-main div.userpage_all .achievements h4 a.i_help:hover {
+#layout-main div.forum .g_bubble.infobox h3 {
 	color: #AA0000 !important;
 }
 
@@ -70,6 +69,8 @@ input[type="button"]:hover,
 	background-color: #A3BADA;
 }
 
+
+#layout-main div.userpage_all .g_section.achievements > .container > .container,
 #layout-main table.file.entities tr.generic,
 #layout-main div.anime_all div.data table.relationlist tr,
 #layout-main div.profile_all div.tabbed_pane div.general table tr,
@@ -515,7 +516,6 @@ th a,
 }
 
 /*box shadow*/
-.g_image,
 .g_bubble,
 #layout-hint,
 #layout-main div.g_content,

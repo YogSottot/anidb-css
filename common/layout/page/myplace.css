@@ -1,112 +1,36 @@
-#layout-main div.userpage_all div.stats div table td.value {
+/*menu*/
+#layout-main div.g_menu {
+	margin-bottom: 0;
+}
+#layout-main div.userpage_all div.g_menu.right,
+#layout-main div.userpage_all div.g_menu.left {
+	float: left;
+	clear: left;
+	width: 20em;
+}
+
+#layout-main div.g_menu > div,
+#layout-main div.g_menu > div > div {
+	margin-bottom: 1em;
+}
+
+#layout-main div.userpage_all div.g_menu > div.user > div a {
+	display: block;
+}
+
+#layout-main div.userpage_all div.g_menu > div.user > div span.v_high {
+	float: right;
+}
+
+#layout-main div.g_menu div.stats td.value {
 	text-align: right;
 }
 
-#layout-main div.userpage_all div.buddies ul li,
-#layout-main div.userpage_all div.favreviewers ul li {
-	padding: 1px 6px;
-}
-
-
-#layout-main div.userpage_all div.charts div {
-	display: inline-block;
-}
-
-#layout-main div.userpage_all div.charts div.votedistribution {
-	padding-left: 50px;
-}
-
-#layout-main div.userpage_all div.userdetails p {
-	margin-left: 4em;
-	margin-right: 2em;
-	margin-top: 2em;
+#layout-main div.g_menu div.stats div.stats_roles td.value {
 	text-align: left;
 }
 
-#layout-main div.userpage_all div.charts {
-	height: 540px;
-}
-
-#layout-main div.userpage_all div.cmt_entries {
-	clear: none;
-	display: inline-block;
-	width: 100%;
-}
-
-#layout-main div.userpage_all div.charts div.error,
-#layout-main div.userpage_all div.forum div.error {
-	clear: none;
-	float: none;
-}
-
-#layout-main div.userpage_all div.stats table th {
-	width: 8em;
-}
-
-#layout-main div.userpage_all div.blog div.topic_actions {
-	height: 22px;
-	margin: 0 0 1em 0;
-}
-
-#layout-main div.userpage_all div.blog div.topic_actions a {
-	float: none;
-}
-
-#layout-main div.userpage_all div.blog div.buttons {
-	text-align: left;
-}
-
-#layout-main div.userpage_all div.blog div.buttons + div.pagination {
-	text-align: right;
-	margin-top: -1.7em;
-}
-
-#layout-main div.userpage_all div.blog div.pagination {
-	float: none;
-	text-align: right;
-}
-
-#layout-main div.userpage_all div.cmt_entries div.postbody div.content,
-#layout-main div.userpage_all div.cmt_entries div.postbody div.signature {
-	margin-left: 1em;
-}
-
-#layout-main div.userpage_all div.cmt_entries div.postbody p.author {
-	padding-left: 1em;
-}
-
-#layout-main div.userpage_all div.blog div.g_timedentry,
-#layout-main div.userpage_all div.blog div.g_timedentry div.body {
-	min-height: 100px;
-}
-
-#layout-main div.userpage_all div.userprefs h4 {
-	text-align: center;
-}
-
-#layout-main div.userpage_all div.history ul.nav,
-#layout-main div.userpage_all div.history ul.filter,
-#layout-main div.userpage_all > div.g_section,
-#layout-main div.userpage_all div.forum,
-#layout-main div.userpage_all div.blog div.g_msg.note {
-	clear: none;
-}
-
-#layout-main div.userpage_all > div.g_section,
-#layout-main div.userpage_all div.forum {
-	margin-left: 21em;
-}
-
-#layout-main div.userpage_all div.g_section + div.g_section {
-	margin-top: 1.5em;
-}
-
-#layout-main div.userpage_all div.latest div + div,
-#layout-main div.userpage_all div.stats div + div,
-#layout-main div.userpage_all div.g_menu div + div {
-	margin-top: 1em;
-}
-
+#layout-main div.userpage_all div.charts div.mylisthistory.added,
 #layout-main div.userpage_all div.userdetails .block div table,
 #layout-main div.userpage_all div.history table,
 #layout-main div.userpage_all div.stats table {
@@ -117,146 +41,156 @@
 	width: 7em;
 }
 
-#layout-main div.userpage_all div.blog div.g_timedentry.comment,
-#layout-main div.userpage_all div.blog div.g_timedentry.comment div.body {
-	min-height: 0;
+/*main block data*/
+#layout-main div.userpage_all.sidebar > .g_section.resized,
+#layout-main div.userpage_all > div.g_section {
+	clear: none;
+	width: auto;
+	margin-left: 21.5em;
+	float: none;
 }
 
-#layout-main div.userpage_all div.blog div.g_timedentry div.poll {
-	margin-top: .5em;
-}
-
-#layout-main div.userpage_all div.blog div.blogcomments div.topic_actions {
-	margin-bottom: 1em;
-	margin-top: 0;
-}
-
-#layout-main div.userpage_all div.blog div.g_timedentry {
-	margin-bottom: 1em;
-}
-
-#layout-main div.userpage_all div.blog div.g_timedentry h4 {
-	display: table-cell;
-	padding-left: 0.5em;
-	padding-right: 1.5em;
-}
-
-#layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
-	margin-bottom: 1.5em;
-	margin-top: 0;
-	padding-top: 1px;
-	text-align: left;
-	width: 45%;
-}
-
-#layout-main div.userpage_all div.blog div.blogcomments h4,
-#layout-main div.userpage_all div.blog div.g_timedentry p.cmt {
-	text-align: left;
-}
-
-#layout-main div.userpage_all div.latest_recommendations > div.edit_actions {
-	text-align: right;
-	margin-right: 1em;
-	margin-top: -1.6em;
-	float:none;
-}
-
-#layout-main div.userpage_all div.badges > div.badge,
-#layout-main div.userpage_all div.userprefs > div > div {
-	display: inline-table;
-	vertical-align: top;
-}
-
-#layout-main div.userpage_all > div.g_section div.content {
-	margin-top:0.5em;
+#layout-main div.userpage_all > div.g_section ul.g_list {
 	clear: none;
 }
 
-#layout-main div.userpage_all > div.g_section.userprefs div.content {
-	width:100%;
+#layout-main div.userpage_all > .g_section {
+	margin: 0em 0.5em 1.5em 21.5em;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation {
-	height: 125px;
-	position: relative;
+#layout-main div.userpage_all.sidebar > .g_section.full,
+#layout-main div.userpage_all > .g_section.full {
+	margin-left: 0;
+	margin-right: 0;
+	clear: both;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.data div.text {
-	max-height: inherit;
+#layout-main div.userpage_all > .g_section.tabbed_pane:not(.hidden) {
+	margin: 2.5em 0.5em 1.5em;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.data {
-	height: 95px;
-	overflow-y: auto;
+#layout-main div.userpage_all > .g_section.info > h4 {
+	display: none;
 }
 
-#layout-main div.userpage_all .g_bubble.stripe.recommendation > div.author {
-	bottom: 0;
-	position: absolute;
-	margin: 0.5em 0.5em 0.5em 6em;
+/*badges*/
+#layout-main div.userpage_all .g_section.achievements > .container > .container {
+	margin: 0.5em;
 }
 
-#layout-main div.userpage_all div.userdetails div.block div.news,
-#layout-main div.userpage_all div.userdetails div.block div.notify,
-#layout-main div.userpage_all div.userdetails div.block div.user_info {
+#layout-main div.userpage_all .g_section.achievements .g_bubblewrap > .badge {
+	-ms-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-moz-flex-grow: 0;
+	flex-grow: 0;
+	margin: 0.1em;
+}
+
+/*favourites*/
+#layout-main div.userpage_all .g_section.favourites > .container {
+	padding: 0;
+}
+
+#layout-main div.userpage_all .g_section.favourites > .container > .container {
+	margin: 1.5em;
+}
+
+/*discussions*/
+#layout-main div.userpage_all .g_section.discussions div.g_definitionlist {
+	padding: 0.5em;
+}
+
+#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 	width: 100%;
 }
 
-#layout-main div.userpage_all div.userdetails div.block div.image {
-	min-width: 12em;
-	margin:0;
-	-webkit-align-self: center;
-	-ms-align-self: center;
-	-moz-align-self: center;
-	align-self: center;
+#layout-main div.userpage_all .g_section.discussions div.g_definitionlist th {
+	width: 8em;
 }
 
-#layout-main div.userpage_all div.userdetails div.block > div + div {
-	padding-left: 0.5em;
+/*clubs*/
+#layout-main div.userpage_all .g_section.clubs .container > div {
+	padding: 0.5em;
 }
 
-#layout-main div.userpage_all div.userdetails div.block {
-	margin-top: 0;
+/*latest entries*/
+#layout-main div.userpage_all .g_section.latest .container {
+	padding: 0.5em;
 }
 
-#layout-main div.userpage_all .g_section.discussions > div {
-	display: inline-table;
-	vertical-align: top;
+#layout-main div.userpage_all .g_section.latest table {
+	width:100%;
 }
 
-#layout-main div.userpage_all div.g_menu.user > div + div {
-	margin-top: 2em;
+@media screen and (max-width: 1500px) {
+	#layout-main div.userpage_all div.g_menu.left div.info {
+		display: none;
+	}
+
+	#layout-main div.userpage_all > .g_section.info {
+		display: block;
+	}
+
+	#layout-main div.userpage_all > .g_section.info div.block > div.image {
+		min-width: 100px;
+	}
 }
 
-#layout-main div.userpage_all div.g_menu.user > div a {
+@media screen and (min-width: 1500px) {
+	#layout-main div.userpage_all.sidebar .g_section.info,
+	#layout-main div.userpage_all.sidebar div.block,
+	#layout-main div.userpage_all.sidebar div.block > div.image,
+	#layout-main div.userpage_all.sidebar div.block > div.data {
+		width: 24em;
+	}
+
+	#layout-main div.userpage_all.sidebar .g_section.info {
+		margin-top: 0;
+		float: none;
+		margin-bottom: 0;
+	}
+
+	#layout-main div.userpage_all div.g_menu.left div.info {
+		display: block;
+	}
+
+	#layout-main div.userpage_all.sidebar > .g_section.info {
+		display: none;
+	}
+
+	#layout-main div.userpage_all div.g_menu.right {
+		float: right;
+		clear: right;
+		width: 16em;
+	}
+
+	#layout-main div.userpage_all.sidebar div.g_menu.left {
+		width: 24em;
+	}
+
+	#layout-main div.userpage_all.sidebar > .g_section.resized,
+	#layout-main div.userpage_all.sidebar > .g_section {
+		margin-left: 25.5em;
+	}
+
+
+	#layout-main div.userpage_all > .g_section {
+		margin-right: 17.5em;
+	}
+
+	#layout-main div.userpage_all.sidebar > .g_section.resized,
+	#layout-main div.userpage_all > .g_section.resized {
+		margin-right: 0;
+		clear: right;
+	}
+
+	#layout-main div.userpage_all .g_section.latest table,
+	#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
+		min-width: 40em;
+	}
+}
+
+/*IE hack for not being able to handle wraps in nested flex*/
+#anidb.internet_explorer div.userpage_all .g_section.achievements > .g_bubblewrap {
 	display: block;
-}
-
-#layout-main div.userpage_all div.g_menu.user > div span.v_high {
-	float: right;
-}
-
-#layout-main div.userpage_all div.stats div table th.field {
-	white-space: nowrap;
-}
-
-#layout-main div.userpage_all div.g_section div.signature {
-	margin-top: 0.5em;
-}
-
-/*hack because webkit sucks*/
-#layout-main div.userpage_all .g_bubble.stripe {
-	position: inherit;
-}
-
-/*menu position*/
-#layout-main div.userpage_all div.g_menu {
-	clear: left;
-	float: left;
-}
-
-#layout-main div.userpage_all div.g_menu {
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	width: 19em;
 }

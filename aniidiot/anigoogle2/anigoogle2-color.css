@@ -47,8 +47,7 @@ input[type="button"]:hover,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.username-colored,
 #layout-menu li.sub-menu span.tab,
-#layout-main div.forum .g_bubble.infobox h3,
-#layout-main div.userpage_all .achievements h4 a.i_help:hover {
+#layout-main div.forum .g_bubble.infobox h3 {
 	color: #AA0000 !important;
 }
 
@@ -70,8 +69,7 @@ h1 a:visited,
 th a,
 th a:link,
 th a:visited,
-th .i_icon,
-#layout-main div.userpage_all .achievements h4 a.i_help {
+th .i_icon {
 	color: #C0DAF0 !important;
 }
 
@@ -88,6 +86,8 @@ th a:hover {
 	background-color:#CCCCCC;
 }
 
+
+#layout-main div.userpage_all .g_section.achievements > .container > .container,
 #layout-main table.file.entities tr.generic,
 #layout-main div.anime_all div.data table.relationlist tr,
 #layout-main div.profile_all div.tabbed_pane div.general table tr,
@@ -513,9 +513,8 @@ table th,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
-#layout-main div.anime_all div.info div.extra div h4,
+#layout-main div.info div.extra div h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover .v_high,
 #layout-main div.userpage_all div.g_menu ul li:hover a {
@@ -533,17 +532,15 @@ th a,
 #layout-main div.main_all div.rightbar h4,
 #layout-main div.main_all div.datablocks h4,
 #layout-main div.main_all div.header h4,
-#layout-main div.anime_all div.info div.extra div h4,
+#layout-main div.info div.extra div h4,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
 	background-color: #444444;
 }
 
 /*box shadow*/
-.g_image,
 .g_bubble,
 #layout-hint,
 #layout-content,
@@ -552,7 +549,6 @@ th a,
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.userpage_all > div.g_section > h4,
 #layout-main > h1 {
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }

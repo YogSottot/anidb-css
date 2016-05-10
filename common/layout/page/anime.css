@@ -49,11 +49,11 @@
 }
 
 #layout-main div.anime_all > .g_section:not(.info) {
-	margin: 0em 0.5em 1.5em;
+	margin: 0em 0 1.5em;
 }
 
 #layout-main div.anime_all > .g_section.tabbed_pane:not(.hidden) {
-	margin: 2.5em 0.5em 1.5em;
+	margin: 2.5em 0 1.5em;
 }
 
 #layout-main div.anime_all div.reviews table.reviewlist th.approval {
@@ -110,32 +110,15 @@
 }
 
 #layout-main div.anime_all #tabbed_pane {
-	margin: 0 0.4em 0.4em;
+	margin: 0 0 0.4em;
 }
 
-#layout-main div.anime_all div.info div.extra {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+#layout-main div.anime_all div.data td.value form {
+	text-align: left;
 }
 
-@media screen and (max-width: 1200px) {
-	#layout-main div.anime_all div.info div.extra
-	{
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		-moz-flex-wrap: wrap;
-		flex-wrap: wrap;
-	}
-}
-
-#layout-main div.anime_all div.info div.extra > div {
-	margin: 0.4em;
-	padding: 4px;
-	width: 100%;
-	position: relative;
+#layout-main div.anime_all div.info div.extra div td {
+	padding: 0.2em 0.5em;
 }
 
 #layout-main div.anime_all div.info div.extra div.staff {
@@ -146,17 +129,8 @@
 	order: 2;
 }
 
-#layout-main div.anime_all div.info div.extra div h4,
-#layout-main div.anime_all div.data td.value form {
-	text-align: left;
-}
-
 #layout-main div.anime_all div.info div.extra div.cast td.as {
 	width: 1em;
-}
-
-#layout-main div.anime_all div.info div.extra div td {
-	padding: 0.2em 0.5em;
 }
 
 #layout-main div.anime_all div.info div.extra div.staff td.creator,
@@ -269,7 +243,7 @@
 @media screen and (min-width: 1500px) {
 	#layout-main div.anime_all.sidebar div.info div.extra > div {
 		padding: 0.5em;
-		margin: 1em 0.4em 0;
+		margin: 1em 0 0;
 	}
 
 	#layout-main div.anime_all.sidebar textarea {

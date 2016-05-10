@@ -286,7 +286,6 @@ h4.collapsed span {
 #layout-main div.forum ul.topics div.views,
 #layout-main div.forum ul.topics div.topics,
 #layout-main div.addtagentityrel_all div.addbox div.tag-group h3,
-#layout-main div.userpage_all div.userdetails div.block caption,
 #layout-main div.picupload_all input[type="file"] {
 	font-size:1.2rem;
 }
@@ -356,9 +355,6 @@ div.g_bubble.quotebody div.quoteof,
 #layout-main div.forum .g_bubble.infobox div.left,
 #layout-main div.forum .g_bubble.infobox div.bar,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
-#layout-main div.userpage_all div.discussions tr.unread td,
-#layout-main div.userpage_all div.msg tr.unread td,
-#layout-main div.userpage_all div.news tr.unread td,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.profile_all div.account tr th,
 .g_bubble .name-colored,
