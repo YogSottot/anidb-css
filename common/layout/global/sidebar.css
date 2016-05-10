@@ -19,7 +19,7 @@
 	#layout-main .sidebar div.block > div.image,
 	#layout-main .sidebar div.block > div.data {
 		min-width: unset;
-		width: 41em;
+		width: 40.5em;
 	}
 
 	#layout-main .sidebar div.block {
