@@ -200,6 +200,7 @@
 }
 
 /*IE hack for not being able to handle wraps in nested flex*/
+#anidb.internet_explorer div.userpage_all .g_section.favourites > .g_bubblewrap,
 #anidb.internet_explorer div.userpage_all .g_section.achievements > .g_bubblewrap {
 	display: block;
 }
