@@ -1,7 +1,3 @@
-#layout-menu li.sub-menu {
-	background-color: inherit;
-}
-
 .i_comment_add:hover,
 .i_topic_add:hover,
 .i_topic_history:hover,
@@ -51,6 +47,8 @@ table th.sortable:hover:not(.sorter-false),
 	color: #DDDDDD !important;
 }
 
+
+#layout-main div.userpage_all .g_section.achievements > .container > .container,
 #layout-menu .sub-menu {
 	background-color: inherit !important;
 }

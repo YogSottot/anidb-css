@@ -86,6 +86,8 @@ th a:hover {
 	background-color:#CCCCCC;
 }
 
+
+#layout-main div.userpage_all .g_section.achievements > .container > .container,
 #layout-main table.file.entities tr.generic,
 #layout-main div.anime_all div.data table.relationlist tr,
 #layout-main div.profile_all div.tabbed_pane div.general table tr,
