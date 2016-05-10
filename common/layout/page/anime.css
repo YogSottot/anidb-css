@@ -49,11 +49,11 @@
 }
 
 #layout-main div.anime_all > .g_section:not(.info) {
-	margin: 0em 0.5em 1.5em;
+	margin: 0em 0 1.5em;
 }
 
 #layout-main div.anime_all > .g_section.tabbed_pane:not(.hidden) {
-	margin: 2.5em 0.5em 1.5em;
+	margin: 2.5em 0 1.5em;
 }
 
 #layout-main div.anime_all div.reviews table.reviewlist th.approval {
@@ -110,7 +110,7 @@
 }
 
 #layout-main div.anime_all #tabbed_pane {
-	margin: 0 0.4em 0.4em;
+	margin: 0 0 0.4em;
 }
 
 #layout-main div.anime_all div.data td.value form {
@@ -243,7 +243,7 @@
 @media screen and (min-width: 1500px) {
 	#layout-main div.anime_all.sidebar div.info div.extra > div {
 		padding: 0.5em;
-		margin: 1em 0.4em 0;
+		margin: 1em 0 0;
 	}
 
 	#layout-main div.anime_all.sidebar textarea {

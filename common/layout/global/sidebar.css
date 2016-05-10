@@ -35,7 +35,7 @@
 	}
 
 	#layout-main .sidebar .g_section.info .tabbed_pane {
-		margin: 0 0.4em;
+		margin: 0;
 	}
 
 	#layout-main .sidebar .g_section.info {
@@ -54,7 +54,7 @@
 	#layout-main .sidebar > .g_section.resized.tabbed_pane:not(.hidden),
 	#layout-main .sidebar > .creator_entry > .g_section.resized.tabbed_pane:not(.hidden),
 	#layout-main .sidebar > .character_entry > .g_section.resized.tabbed_pane:not(.hidden) {
-		margin: 1em 0.5em 1.5em;
+		margin: 1em 0 1.5em;
 	}
 
 	#layout-main .sidebar .g_section.info + .g_section.resized.tabbed_pane {

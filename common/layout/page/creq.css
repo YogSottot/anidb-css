@@ -61,7 +61,6 @@
 #layout-main div.creq_all .creq_raw table td.new {
 	overflow: hidden;
 	text-overflow: ellipsis;
-	vertical-align:top;
 	white-space:pre-wrap;
 	min-width:45%;
 	max-width:1em; /*otherwise the text-overflow doesn't work... <_<*/
