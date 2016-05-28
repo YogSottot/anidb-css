@@ -134,6 +134,14 @@
 	margin-left: 1em;
 }
 
+#layout-main div.userpage_all div.cmt_entries div.postbody p.author {
+	padding-left: 0.5em;
+}
+
+#layout-main div.userpage_all div.forum div.topic_actions {
+	margin-top: 0;
+}
+
 @media screen and (max-width: 1500px) {
 	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: none;
