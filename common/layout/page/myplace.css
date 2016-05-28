@@ -42,6 +42,7 @@
 }
 
 /*main block data*/
+#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden),
 #layout-main div.userpage_all.sidebar > .g_section.resized,
 #layout-main div.userpage_all > div.g_section {
 	clear: none;
@@ -179,20 +180,17 @@
 		width: 24em;
 	}
 
+	#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden),
 	#layout-main div.userpage_all.sidebar > .g_section.resized,
 	#layout-main div.userpage_all.sidebar > .g_section {
 		margin-left: 25.5em;
+		margin-right: 0;
+		clear: right;
 	}
 
 
 	#layout-main div.userpage_all > .g_section {
 		margin-right: 17.5em;
-	}
-
-	#layout-main div.userpage_all.sidebar > .g_section.resized,
-	#layout-main div.userpage_all > .g_section.resized {
-		margin-right: 0;
-		clear: right;
 	}
 
 	#layout-main div.userpage_all .g_section.latest table,
