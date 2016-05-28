@@ -147,6 +147,11 @@
 	text-align: left;
 }
 
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
+	text-align: left;
+	margin-left: 0.5em;
+}
+
 @media screen and (max-width: 1500px) {
 	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: none;
