@@ -42,6 +42,7 @@
 }
 
 /*main block data*/
+#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden),
 #layout-main div.userpage_all.sidebar > .g_section.resized,
 #layout-main div.userpage_all > div.g_section {
 	clear: none;
@@ -50,6 +51,7 @@
 	float: none;
 }
 
+#layout-main div.userpage_all div.pane > div.g_section,
 #layout-main div.userpage_all > div.g_section ul.g_list {
 	clear: none;
 }
@@ -66,7 +68,8 @@
 }
 
 #layout-main div.userpage_all > .g_section.tabbed_pane:not(.hidden) {
-	margin: 2.5em 0.5em 1.5em;
+	margin-top: 2.5em;
+	margin-bottom: 1.5em;
 }
 
 #layout-main div.userpage_all > .g_section.info > h4 {
@@ -120,6 +123,34 @@
 
 #layout-main div.userpage_all .g_section.latest table {
 	width:100%;
+}
+
+/*guestbook*/
+#layout-main div.userpage_all div.g_section.comments > div.container > div.g_section.forum,
+#layout-main div.userpage_all div.cmt_entries div.postfooter {
+	clear: none;
+}
+
+#layout-main div.userpage_all div.cmt_entries div.postbody div.content {
+	margin-left: 1em;
+}
+
+#layout-main div.userpage_all div.cmt_entries div.postbody p.author {
+	padding-left: 0.5em;
+}
+
+#layout-main div.userpage_all div.forum div.topic_actions {
+	margin-top: 0;
+}
+
+/*blog*/
+#layout-main div.userpage_all div.blog div.g_timedentry p.cmt {
+	text-align: left;
+}
+
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
+	text-align: left;
+	margin-left: 0.5em;
 }
 
 @media screen and (max-width: 1500px) {
@@ -177,20 +208,24 @@
 		width: 24em;
 	}
 
+	#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden),
 	#layout-main div.userpage_all.sidebar > .g_section.resized,
 	#layout-main div.userpage_all.sidebar > .g_section {
 		margin-left: 25.5em;
 	}
 
-
-	#layout-main div.userpage_all > .g_section {
-		margin-right: 17.5em;
-	}
-
+	#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden),
 	#layout-main div.userpage_all.sidebar > .g_section.resized,
+	#layout-main div.userpage_all.sidebar > .g_section,
 	#layout-main div.userpage_all > .g_section.resized {
 		margin-right: 0;
 		clear: right;
+	}
+
+	#layout-main div.userpage_all.sidebar > .g_section,
+	#layout-main div.userpage_all > .g_section {
+		margin-right: 17.5em;
+		clear: none;
 	}
 
 	#layout-main div.userpage_all .g_section.latest table,
