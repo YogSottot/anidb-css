@@ -188,9 +188,10 @@
 		clear: right;
 	}
 
-
+	#layout-main div.userpage_all.sidebar > .g_section,
 	#layout-main div.userpage_all > .g_section {
 		margin-right: 17.5em;
+		clear: none;
 	}
 
 	#layout-main div.userpage_all .g_section.latest table,
