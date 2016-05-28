@@ -43,7 +43,6 @@
 
 /*main block data*/
 #layout-main div.userpage_all.sidebar > .g_section.resized,
-#layout-main div.userpage_all div.pane > div.g_section,
 #layout-main div.userpage_all > div.g_section {
 	clear: none;
 	width: auto;
@@ -51,6 +50,7 @@
 	float: none;
 }
 
+#layout-main div.userpage_all div.pane > div.g_section,
 #layout-main div.userpage_all > div.g_section ul.g_list {
 	clear: none;
 }
