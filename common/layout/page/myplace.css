@@ -142,6 +142,11 @@
 	margin-top: 0;
 }
 
+/*blog*/
+#layout-main div.userpage_all div.blog div.g_timedentry p.cmt {
+	text-align: left;
+}
+
 @media screen and (max-width: 1500px) {
 	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: none;
