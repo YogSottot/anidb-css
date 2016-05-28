@@ -125,6 +125,15 @@
 	width:100%;
 }
 
+/*guestbook*/
+#layout-main div.userpage_all div.cmt_entries div.postfooter {
+	clear: none;
+}
+
+#layout-main div.userpage_all div.cmt_entries div.postbody div.content {
+	margin-left: 1em;
+}
+
 @media screen and (max-width: 1500px) {
 	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: none;
