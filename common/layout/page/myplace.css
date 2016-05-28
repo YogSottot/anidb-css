@@ -43,6 +43,7 @@
 
 /*main block data*/
 #layout-main div.userpage_all.sidebar > .g_section.resized,
+#layout-main div.userpage_all div.pane > div.g_section,
 #layout-main div.userpage_all > div.g_section {
 	clear: none;
 	width: auto;
@@ -66,7 +67,8 @@
 }
 
 #layout-main div.userpage_all > .g_section.tabbed_pane:not(.hidden) {
-	margin: 2.5em 0.5em 1.5em;
+	margin-top: 2.5em;
+	margin-bottom: 1.5em;
 }
 
 #layout-main div.userpage_all > .g_section.info > h4 {
