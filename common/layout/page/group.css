@@ -32,3 +32,13 @@
 #layout-main div.group_all .notification td.value > div.state span.text {
 	padding-right: 0.5em;
 }
+
+#layout-main div.group_all div.group_released td.epbar {
+	width: 10%;
+	min-width: 10em;
+}
+
+#layout-main div.group_all div.group_released td.epbar > div div {
+	float: left;
+	height: 8px;
+}
