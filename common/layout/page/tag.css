@@ -99,3 +99,8 @@
 #addtag_mangatb_parentid + .select2 {
 	width: 37em !important;
 }
+
+#layout-main div.tag_all span.footer {
+	display: block;
+	clear: right;
+}
