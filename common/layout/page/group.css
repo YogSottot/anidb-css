@@ -1,5 +1,5 @@
 #layout-main div.group_all table.filelist {
-	width:98%;
+	width:100%;
 }
 
 #layout-main div.group_all table.filelist td + td {
@@ -41,4 +41,8 @@
 #layout-main div.group_all div.group_released td.epbar > div div {
 	float: left;
 	height: 8px;
+}
+
+#layout-main div.group_all table.filelist td.action {
+	min-width: 8em;
 }
