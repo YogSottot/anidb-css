@@ -16,3 +16,10 @@
 #layout-main div.song_all  table.stafflist td.creator > a {
 	display: block;
 }
+
+@media screen and (min-width: 1500px) {
+	#layout-main div.song_all.sidebar div.info div.tabbed_pane {
+		min-width: unset;
+		max-width: unset;
+	}
+}
