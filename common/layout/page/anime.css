@@ -74,7 +74,6 @@
 	text-align: right;
 }
 
-#layout-main div.group_all div.group_released td.epbar,
 #layout-main div.anime_all div.groups td.epbar,
 #layout-main div.anime_all table.stafflist td.credit,
 #layout-main div.anime_all table.stafflist td.name {
@@ -91,7 +90,6 @@
 	width:30%;
 }
 
-#layout-main div.group_all div.group_released td.epbar > div div,
 #layout-main div.anime_all div.groups td.epbar > div div {
 	float: left;
 	height: 8px;
