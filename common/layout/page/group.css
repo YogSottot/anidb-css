@@ -1,13 +1,13 @@
-#layout-main div.group_all table.filelist {
+#layout-main div.group_all table.animelist {
 	width:100%;
 }
 
-#layout-main div.group_all table.filelist td + td {
-	padding-left: 1em;
+#layout-main div.group_all table.animelist td.no {
+	text-align:right;
 }
 
-#layout-main div.group_all table.filelist td.no {
-	text-align:right;
+#layout-main div.group_all table.animelist td.action {
+	min-width: 8em;
 }
 
 #layout-main div.group_all div.group_released table#releases th.action {
@@ -41,8 +41,4 @@
 #layout-main div.group_all div.group_released td.epbar > div div {
 	float: left;
 	height: 8px;
-}
-
-#layout-main div.group_all table.filelist td.action {
-	min-width: 8em;
 }
