@@ -1,4 +1,3 @@
-#layout-main div.group_all.animegroup div.info table,
 #layout-main div.group_all.animegroup table.filelist,
 #layout-main div.group_all table.animelist {
 	width:100%;
@@ -54,4 +53,19 @@
 	margin-bottom: 0.5em;
 	margin-top: -2.5em;
 	text-align: right;
+}
+
+#layout-main div.group_all.animegroup div.info table {
+	min-width:50em;
+	max-width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+@media screen and (min-width: 1500px) {
+	#layout-main div.group_all.animegroup.sidebar div.info table {
+		width:100%;
+		min-width: unset;
+		max-width: unset;
+	}
 }
