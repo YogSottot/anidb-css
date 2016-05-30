@@ -1,9 +1,14 @@
-#layout-main div.group_all table.filelist,
+#layout-main div.group_all.animegroup div.info table,
+#layout-main div.group_all.animegroup table.filelist,
 #layout-main div.group_all table.animelist {
 	width:100%;
 }
 
-#layout-main div.group_all table.filelist td.no,
+#layout-main div.group_all.animegroup div.info table th {
+	width:10em;
+}
+
+#layout-main div.group_all.animegroup table.filelist td.no,
 #layout-main div.group_all table.animelist td.no {
 	text-align:right;
 }
