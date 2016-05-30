@@ -49,3 +49,9 @@
 	float: left;
 	height: 8px;
 }
+
+#layout-main div.group_all h2 + h4 {
+	margin-bottom: 0.5em;
+	margin-top: -2.5em;
+	text-align: right;
+}
