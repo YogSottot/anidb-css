@@ -20,3 +20,8 @@
 #layout-main div.creator_all > div > .g_section table {
 	width: 100%;
 }
+
+#layout-main div.creatortext_all div.edit_actions {
+	margin-top: 0;
+	margin-bottom: -2em;
+}
