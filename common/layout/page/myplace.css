@@ -99,10 +99,6 @@
 }
 
 /*discussions*/
-#layout-main div.userpage_all .g_section.discussions div.g_definitionlist {
-	padding: 0.5em;
-}
-
 #layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 	width: 100%;
 }
