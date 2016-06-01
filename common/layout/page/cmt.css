@@ -76,11 +76,10 @@
 }
 
 #layout-main div.cmt_entries div.postbody p.author {
-	margin: -1.5em 25em 1em 0.5em;
+	margin: -2em 25em 1em 0.5em;
 }
 
 #layout-main div.cmt_entries div.postbody span.actions {
-	display: block;
 	padding-right: 0.5em;
 	padding-top: 0.5em;
 }
