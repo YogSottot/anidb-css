@@ -136,10 +136,6 @@
 	margin-left: 1em;
 }
 
-#layout-main div.userpage_all div.cmt_entries div.postbody p.author {
-	padding-left: 0.5em;
-}
-
 #layout-main div.userpage_all div.forum div.topic_actions {
 	margin-top: 0;
 }
@@ -232,10 +228,6 @@
 	#layout-main div.userpage_all .g_section.latest table,
 	#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 		min-width: 40em;
-	}
-
-	#layout-main div.userpage_all div.cmt_entries div.postfooter {
-		clear: none;
 	}
 }
 
