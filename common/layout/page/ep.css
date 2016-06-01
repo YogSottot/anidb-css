@@ -25,6 +25,7 @@
 	margin-right:auto;
 }
 
+#layout-main div.ep_all table.filelist,
 #layout-main div.ep_all div.info table {
 	width:100%;
 }
