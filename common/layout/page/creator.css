@@ -25,3 +25,7 @@
 	margin-top: 0;
 	margin-bottom: -2em;
 }
+
+#layout-main div.creatortext_all > .g_section.tabbed_pane:not(.hidden) {
+	margin: 2.5em 0 1.5em;
+}

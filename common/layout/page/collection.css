@@ -18,3 +18,7 @@
 #layout-main div.collection_all  table.tracklist td.creator > a {
 	display: block;
 }
+
+#layout-main div.collection_all > .g_section.tabbed_pane:not(.hidden) {
+	margin: 2.5em 0 1.5em;
+}
