@@ -1,7 +1,6 @@
 @media screen and (min-width: 1500px) {
 	#layout-main .sidebar .g_section.info {
 		float: left;
-		margin-bottom: 2em;
 	}
 
 	#layout-main .sidebar .g_section.info > h4 {
