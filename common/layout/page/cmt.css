@@ -1,3 +1,4 @@
+#layout-main div.forum div.topic_actions,
 #layout-main div.cmt_entries div.postfooter,
 #layout-main div.cmt_entries div.postbody span.actions {
 	display: -webkit-box;
@@ -5,22 +6,22 @@
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-flex-direction: row-reverse;
-	-ms-flex-flex-direction: row-reverse;
-	-moz-flex-flex-direction: row-reverse;
-	flex-direction: row-reverse;
 }
 
 #layout-main div.forum div.topic_actions {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
 	-webkit-flex-justify-content: space-between;
 	-ms-flex-justify-content: space-between;
 	-moz-flex-justify-content: space-between;
 	justify-content: space-between;
+}
+
+#layout-main div.forum_all div.forum div.topic_actions,
+#layout-main div.cmt_entries div.postfooter,
+#layout-main div.cmt_entries div.postbody span.actions {
+	-webkit-flex-flex-direction: row-reverse;
+	-ms-flex-flex-direction: row-reverse;
+	-moz-flex-flex-direction: row-reverse;
+	flex-direction: row-reverse;
 }
 
 #layout-main div.forum div.segment.icon {
