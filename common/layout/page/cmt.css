@@ -80,9 +80,10 @@
 	margin: -2.5em 25em 1em 0.5em;
 }
 
-#layout-main div.cmt_entries div.postbody span.actions {
+#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions {
 	padding-right: 0.5em;
 	padding-top: 0.5em;
+	height: 2.1em;
 }
 
 #layout-main div.cmt_entries div.postfooter {
