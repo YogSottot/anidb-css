@@ -84,11 +84,15 @@
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.profile {
 	margin:4px 8px -10pt 8pt;
-	width:12em;
+	width:8em;
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.postbody div.content {
-	margin-left: 14em;
+	margin-left: 10em;
+}
+
+#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) {
+	padding: 0;
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.profile .g_image {
