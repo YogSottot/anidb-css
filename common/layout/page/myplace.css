@@ -126,19 +126,15 @@
 }
 
 /*guestbook*/
+#layout-main div.userpage_all div.cmt_entries div.postfooter,
 #layout-main div.userpage_all div.g_section.forum .rules,
 #layout-main div.userpage_all div.g_section.comments .g_msg,
-#layout-main div.userpage_all div.g_section.comments > div.container > div.g_section.forum,
-#layout-main div.userpage_all div.cmt_entries div.postfooter {
+#layout-main div.userpage_all div.g_section.comments > div.container > div.g_section.forum {
 	clear: none;
 }
 
 #layout-main div.userpage_all div.cmt_entries div.postbody div.content {
 	margin-left: 1em;
-}
-
-#layout-main div.userpage_all div.cmt_entries div.postbody p.author {
-	padding-left: 0.5em;
 }
 
 #layout-main div.userpage_all div.forum div.topic_actions {

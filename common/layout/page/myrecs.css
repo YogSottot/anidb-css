@@ -1,15 +1,5 @@
 #layout-main div.myrecs_all .g_bubble.stripe.recommendation {
-	height: 125px;
 	position: relative;
-}
-
-#layout-main div.myrecs_all .g_bubble.stripe.recommendation > div.data div.text {
-	max-height: inherit;
-}
-
-#layout-main div.myrecs_all .g_bubble.stripe.recommendation > div.data {
-	height: 95px;
-	overflow-y: auto;
 }
 
 #layout-main div.myrecs_all .g_bubble.stripe.recommendation > div.author {
