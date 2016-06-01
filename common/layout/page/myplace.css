@@ -128,8 +128,7 @@
 /*guestbook*/
 #layout-main div.userpage_all div.g_section.forum .rules,
 #layout-main div.userpage_all div.g_section.comments .g_msg,
-#layout-main div.userpage_all div.g_section.comments > div.container > div.g_section.forum,
-#layout-main div.userpage_all div.cmt_entries div.postfooter {
+#layout-main div.userpage_all div.g_section.comments > div.container > div.g_section.forum {
 	clear: none;
 }
 
@@ -233,6 +232,10 @@
 	#layout-main div.userpage_all .g_section.latest table,
 	#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
 		min-width: 40em;
+	}
+
+	#layout-main div.userpage_all div.cmt_entries div.postfooter {
+		clear: none;
 	}
 }
 
