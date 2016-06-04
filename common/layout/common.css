@@ -187,7 +187,7 @@ table + select {
 .g_section > form > h2 > span,
 .g_section > h2 > span {
 	display: block;
-	padding: 0.5em 0.5em 0;
+	padding: 0.25em 0.5em;
 }
 
 .g_section > form > h6 > span,

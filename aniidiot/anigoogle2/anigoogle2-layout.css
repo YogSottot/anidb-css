@@ -132,6 +132,7 @@
 	margin: 0 0 0 3px;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs {
-	margin-bottom: -2px;
+.g_section > form > h2 > span,
+.g_section > h2 > span {
+	padding: 0.5em 0.5em 0;
 }

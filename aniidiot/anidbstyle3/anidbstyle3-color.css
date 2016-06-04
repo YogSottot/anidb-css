@@ -234,3 +234,9 @@ button,
 .i_wishlist_undefined::before {
 	text-shadow: 1px 1px 0 #CFD1D4, -1px -1px 0 #CFD1D4, 1px -1px 0 #CFD1D4, -1px 1px 0 #CFD1D4, 1px 1px 0 #CFD1D4;
 }
+
+#layout-main div.main_all div.g_section > h2 {
+	background-color: inherit;
+	color: inherit;
+	border-color: #9A9A9A;
+}
