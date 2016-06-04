@@ -168,7 +168,7 @@
 /*OLD!!!!*/
 /*login/registration*/
 #layout-main div.main_all div.account ul.tabs {
-	margin-bottom:-1px;
+	margin-bottom:-5px;
 }
 
 #layout-main div.main_all div.account ul.tabs li {
@@ -192,11 +192,6 @@
 	padding:4px 8px;
 }
 
-#layout-main div.main_all div.account,
-#layout-main div.main_all div.about {
-	padding:0.5em;
-}
-
 #layout-main div.main_all div.account {
 	float:right;
 	width:30.5em;
@@ -204,21 +199,6 @@
 
 #layout-main div.main_all div.account ul.tabs li a {
 	display:block;
-}
-
-#layout-main div.main_all div.account ul.tabs li {
-	-moz-border-radius:0.5em 0.5em 0 0;
-	-webkit-border-radius:0.5em 0.5em 0 0;
-	border-radius:0.5em 0.5em 0 0;
-	border-top: 1px solid;
-	border-left: 1px solid;
-	border-right: 1px solid;
-}
-
-#layout-main div.main_all div.account div.login {
-	-moz-border-radius:0 0 0.5em 0.5em;
-	-webkit-border-radius:0 0 0.5em 0.5em;
-	border-radius:0 0 0.5em 0.5em;
 }
 
 #layout-main div.main_all div.account table {
@@ -235,9 +215,9 @@
 }
 
 /*about anidb*/
-#layout-main div.main_all div.about ul li + li,
-#layout-main div.main_all div.about div.content > span + span {
-	padding-top:0.5em;
+#layout-main div.main_all div.about div.g_section {
+	clear: none;
+	text-align: left;
 }
 
 #layout-main div.main_all div.about ul {
@@ -245,6 +225,6 @@
 	padding-left:1.5em;
 }
 
-#layout-main div.main_all div.about div.content > span {
-	display:block;
+#layout-main div.main_all div.about ul li + li {
+	padding-top:0.5em;
 }
