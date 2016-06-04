@@ -40,7 +40,6 @@ table th.sortable:hover:not(.sorter-false),
 	color: #C0DAF0 !important;
 }
 
-#layout-main div.main_all div.g_section > h2,
 #layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover .v_high,
 #layout-main div.userpage_all div.g_menu ul li:hover a {
