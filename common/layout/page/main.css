@@ -167,42 +167,23 @@
 
 /*OLD!!!!*/
 /*login/registration*/
-#layout-main div.main_all div.account ul.tabs {
-	margin-bottom:-5px;
-}
-
-#layout-main div.main_all div.account ul.tabs li {
-	display:inline-block;
-	padding:0.2em 0;
-	text-align:center;
-	width:48%;
-}
-
-#layout-main div.main_all div.account div.login input[type="text"],
-#layout-main div.main_all div.account div.login input[type="password"] {
-	padding:4px;
-	width:16.5em;
-}
-
-#layout-main div.main_all div.account table {
-	margin:0.4em auto;
-}
-
-#layout-main div.main_all div.account table th {
-	padding:4px 8px;
-}
-
 #layout-main div.main_all div.account {
 	float:right;
 	width:30.5em;
 }
 
-#layout-main div.main_all div.account ul.tabs li a {
-	display:block;
+#layout-main div.main_all div.account ul.tabs {
+	margin-bottom:-5px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
 }
 
-#layout-main div.main_all div.account table {
-	border-top: none;
+#layout-main div.main_all div.account ul.tabs li + li {
+	padding-left: 0.5em;
 }
 
 #layout-main div.main_all div.account ul.tabs li,
@@ -212,6 +193,24 @@
 
 #layout-main div.main_all div.account ul.tabs li.signup {
 	border-bottom: none;
+}
+
+#layout-main div.main_all div.account ul.tabs li a {
+	display: block;
+}
+
+#layout-main div.main_all div.account table {
+	margin:0.4em auto;
+}
+
+#layout-main div.main_all div.account table th {
+	padding: 4px 8px;
+}
+
+#layout-main div.main_all div.account div.login input[type="text"],
+#layout-main div.main_all div.account div.login input[type="password"] {
+	padding:4px;
+	width:16.5em;
 }
 
 /*about anidb*/
