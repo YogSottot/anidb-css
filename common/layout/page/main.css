@@ -34,13 +34,6 @@
 	height: 8.5em;
 }
 
-#layout-main div.main_all #latestaired,
-#layout-main div.main_all #latestended,
-#layout-main div.main_all #randanime,
-#layout-main div.main_all #randcreator {
-	display:none;
-}
-
 @media screen and (max-width: 1000px) {
 	#layout-main div.main_all div.datablocks > div {
 			max-width: none;
@@ -49,7 +42,7 @@
 
 @media screen and (min-width: 1350px) {
 	#layout-main div.main_all div.datablocks > div {
-			max-width: calc(33% - 11px);
+			max-width: calc(33% - 7px);
 	}
 
 	#layout-main div.main_all #latestaired,
@@ -62,13 +55,21 @@
 	#layout-main div.main_all div.datablocks > div {
 			max-width: calc(25% - 11px);
 	}
+}
 
-	#layout-main div.main_all #latestaired,
-	#layout-main div.main_all #latestended,
-	#layout-main div.main_all #randanime,
-	#layout-main div.main_all #randcreator {
-		display:block;
-	}
+/*latest*/
+#layout-main div.main_all div.latest {
+	margin-bottom: 1em;
+}
+
+
+#layout-main div.main_all div.latest > div {
+	margin: 0px 0.5em;
+}
+
+#layout-main div.main_all div.latest div.container {
+    height: calc(100% - 3.6em);
+    box-sizing: border-box;
 }
 
 /*OLD!!!!*/
