@@ -169,7 +169,8 @@
 /*login/registration*/
 #layout-main div.main_all div.account {
 	float:right;
-	width:30.5em;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 #layout-main div.main_all div.account ul.tabs {
@@ -195,7 +196,8 @@
 }
 
 #layout-main div.main_all div.account table {
-	margin:0.4em auto;
+	margin:0;
+	padding:0.5em;
 }
 
 #layout-main div.main_all div.account table th {

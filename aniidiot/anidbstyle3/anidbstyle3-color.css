@@ -172,7 +172,7 @@ button,
 }
 
 #layout-main div.main_all div.account ul.tabs li {
-	box-shadow: 0px -1px 3px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 /*disable shadow so it doesn't overlap with the quicksearch pane*/

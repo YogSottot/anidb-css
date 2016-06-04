@@ -49,3 +49,8 @@ button,
 .tooltip span.text:before {
 	border-width: 11px;
 }
+
+#layout-main div.main_all div.account tr + tr th,
+#layout-main div.main_all div.account tr + tr td {
+	border: none;
+}
