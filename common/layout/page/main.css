@@ -1,51 +1,10 @@
-#layout-main div.main_all div.rightbar li span {
-	position:absolute;
+/*global*/
+#layout-main div.main_all div.header .g_bubble.stripe div.name {
+	margin-right:0;
 }
 
-#layout-main div.main_all div.rightbar li a,
-#layout-main div.main_all div.rightbar li span + span {
-	display: table;
-	margin-left: 4.5em;
-	position: relative;
-}
-
-#layout-main div.main_all div.rightbar {
-	width: 19em;
-	float: right;
-}
-
-#layout-main div.main_all div.rightbar h3 {
-	margin-top: 1em;
-}
-
-#layout-main div.main_all div.rightbar ol {
-	list-style-type: none;
-	margin-left: 0;
-}
-
-#layout-main div.main_all div.rightbar > div {
-	margin-bottom:1em;
-}
-
-#layout-main div.main_all div.datablocks {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	-moz-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-justify-content: center;
-	-moz-justify-content: center;
-	-ms-justify-content: center;
-	justify-content: center;
-}
-
-#layout-main div.main_all div.datablocks > div,
-#layout-main div.main_all div.news.forum > div,
-#layout-main div.main_all div.header > div {
+/*top5 lists*/
+#layout-main div.main_all div.datablocks > div {
 	margin: 0 4px 15px;
 }
 
@@ -69,9 +28,12 @@
 	margin:0.5em 6em;
 }
 
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4 {
-	margin-bottom:0.2em;
+#layout-main div.main_all div.datablocks div.similaranime div.image.other {
+	float:right;
+}
+
+#layout-main div.main_all div.datablocks .g_bubble.stripe > div.data {
+	height: 8.5em;
 }
 
 #layout-main div.main_all #latestaired,
@@ -111,14 +73,8 @@
 	}
 }
 
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4 {
-	border: 1px solid;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-}
-
+/*OLD!!!!*/
+/*login/registration*/
 #layout-main div.main_all div.header div.account ul.tabs {
 	margin-bottom:-1px;
 }
@@ -149,74 +105,12 @@
 	padding:0.5em;
 }
 
-#layout-main div.main_all div.datablocks,
-#layout-main div.main_all div.news.forum,
-#layout-main div.main_all div.header {
-	clear:none;
-	margin-right:20em;
-}
-
 #layout-main div.main_all div.header div.account {
 	float:right;
 	width:30.5em;
 }
 
-#layout-main div.main_all div.header div.about ul li + li,
-#layout-main div.main_all div.header div.about div.content > span + span {
-	padding-top:0.5em;
-}
-
-#layout-main div.main_all div.header div.about h4 {
-	margin-right:26em;
-}
-
-#layout-main div.main_all div.header div.about ul {
-	list-style-type:disc;
-	padding-left:1.5em;
-}
-
-#layout-main div.main_all div.header div.latestnews {
-	clear:none;
-}
-
-#layout-main div.main_all div.header div.content {
-	text-align:left;
-}
-
-#layout-main div.main_all div.header div.latestnews span.counter {
-	float: right;
-}
-
-#layout-main div.main_all div.header div.latestnews > div {
-	text-align:center;
-}
-
-#layout-main div.main_all div.header div.latestnews div.stripe {
-	width:100%;
-}
-
-#layout-main div.main_all div.header div.latestnews div.stripe div.data {
-	float:none;
-	margin-left:6em;
-	width:auto;
-}
-
-#layout-main div.main_all div.header div.latestnews div.posted {
-	margin-bottom:0.5em;
-}
-
-#layout-main div.main_all div.datablocks div.stripe div.data div.name,
-#layout-main div.main_all div.header div.latestnews div.stripe div.name {
-	margin-right:0;
-}
-
-#layout-main div.main_all div.datablocks div.similaranime div.image.other,
-#layout-main div.main_all div.header div.account ul.tabs li.signup {
-	float:right;
-}
-
-#layout-main div.main_all div.header div.account ul.tabs li a,
-#layout-main div.main_all div.header div.about div.content > span {
+#layout-main div.main_all div.header div.account ul.tabs li a {
 	display:block;
 }
 
@@ -248,6 +142,17 @@
 	border-bottom: none;
 }
 
-#layout-main div.main_all .datablocks .g_bubble.stripe > div.data {
-	height: 8.5em;
+/*about anidb*/
+#layout-main div.main_all div.header div.about ul li + li,
+#layout-main div.main_all div.header div.about div.content > span + span {
+	padding-top:0.5em;
+}
+
+#layout-main div.main_all div.header div.about ul {
+	list-style-type:disc;
+	padding-left:1.5em;
+}
+
+#layout-main div.main_all div.header div.about div.content > span {
+	display:block;
 }
