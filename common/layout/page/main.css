@@ -209,7 +209,7 @@
 }
 
 /*about anidb*/
-#layout-main div.main_all div.about {
+#layout-main div.main_all div.about > div {
 	text-align: left;
 }
 
