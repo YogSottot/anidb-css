@@ -1,5 +1,10 @@
 /*global*/
-#layout-main div.main_all div.header .g_bubble.stripe div.name {
+#layout-main div.main_all {
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+}
+
+#layout-main div.main_all .g_bubble.stripe div.name {
 	margin-right: 0;
 }
 
