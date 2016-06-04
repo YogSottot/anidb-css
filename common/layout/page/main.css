@@ -44,11 +44,19 @@
 	#layout-main div.main_all div.datablocks > div {
 		max-width: calc(33% - 7px);
 	}
+
+	#layout-main div.main_all #similaranime {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 1580px) {
 	#layout-main div.main_all div.datablocks > div {
 		max-width: calc(25% - 11px);
+	}
+
+	#layout-main div.main_all #similaranime {
+		display: block;
 	}
 }
 
