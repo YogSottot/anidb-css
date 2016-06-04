@@ -167,46 +167,46 @@
 
 /*OLD!!!!*/
 /*login/registration*/
-#layout-main div.main_all div.header div.account ul.tabs {
+#layout-main div.main_all div.account ul.tabs {
 	margin-bottom:-1px;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li {
+#layout-main div.main_all div.account ul.tabs li {
 	display:inline-block;
 	padding:0.2em 0;
 	text-align:center;
 	width:48%;
 }
 
-#layout-main div.main_all div.header div.account div.login input[type="text"],
-#layout-main div.main_all div.header div.account div.login input[type="password"] {
+#layout-main div.main_all div.account div.login input[type="text"],
+#layout-main div.main_all div.account div.login input[type="password"] {
 	padding:4px;
 	width:16.5em;
 }
 
-#layout-main div.main_all div.header div.account table {
+#layout-main div.main_all div.account table {
 	margin:0.4em auto;
 }
 
-#layout-main div.main_all div.header div.account table th {
+#layout-main div.main_all div.account table th {
 	padding:4px 8px;
 }
 
-#layout-main div.main_all div.header div.account,
-#layout-main div.main_all div.header div.about {
+#layout-main div.main_all div.account,
+#layout-main div.main_all div.about {
 	padding:0.5em;
 }
 
-#layout-main div.main_all div.header div.account {
+#layout-main div.main_all div.account {
 	float:right;
 	width:30.5em;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li a {
+#layout-main div.main_all div.account ul.tabs li a {
 	display:block;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li {
+#layout-main div.main_all div.account ul.tabs li {
 	-moz-border-radius:0.5em 0.5em 0 0;
 	-webkit-border-radius:0.5em 0.5em 0 0;
 	border-radius:0.5em 0.5em 0 0;
@@ -215,36 +215,36 @@
 	border-right: 1px solid;
 }
 
-#layout-main div.main_all div.header div.account div.login {
+#layout-main div.main_all div.account div.login {
 	-moz-border-radius:0 0 0.5em 0.5em;
 	-webkit-border-radius:0 0 0.5em 0.5em;
 	border-radius:0 0 0.5em 0.5em;
 }
 
-#layout-main div.main_all div.header div.account table {
+#layout-main div.main_all div.account table {
 	border-top: none;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover {
+#layout-main div.main_all div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
 	border-bottom: 1px double;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li.signup {
+#layout-main div.main_all div.account ul.tabs li.signup {
 	border-bottom: none;
 }
 
 /*about anidb*/
-#layout-main div.main_all div.header div.about ul li + li,
-#layout-main div.main_all div.header div.about div.content > span + span {
+#layout-main div.main_all div.about ul li + li,
+#layout-main div.main_all div.about div.content > span + span {
 	padding-top:0.5em;
 }
 
-#layout-main div.main_all div.header div.about ul {
+#layout-main div.main_all div.about ul {
 	list-style-type:disc;
 	padding-left:1.5em;
 }
 
-#layout-main div.main_all div.header div.about div.content > span {
+#layout-main div.main_all div.about div.content > span {
 	display:block;
 }

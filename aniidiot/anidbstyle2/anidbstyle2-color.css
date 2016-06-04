@@ -14,7 +14,7 @@ th a,
 span.link,
 h4 span.nolink a,
 #layout-main a.filter,
-#layout-main div.main_all div.header div.account ul.tabs li.signup a {
+#layout-main div.main_all div.account ul.tabs li.signup a {
 	color: #105289;
 }
 
@@ -35,7 +35,7 @@ a:hover,
 span.link:hover,
 .g_bubble .name-colored,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover a,
+#layout-main div.main_all div.account ul.tabs li.signup:hover a,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored,
@@ -261,7 +261,7 @@ button,
 	background-color: #34394D;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li.signup {
+#layout-main div.main_all div.account ul.tabs li.signup {
 	background-color: #AA0000;
 }
 
@@ -405,19 +405,19 @@ select,
 	border-color:#EEEEEE #8E8E8E #8E8E8E #EEEEEE;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li {
+#layout-main div.main_all div.account ul.tabs li {
 	border-top-color: #9A9A9A;
 	border-left-color: #9A9A9A;
 	border-right-color: #7D7D7D;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover {
+#layout-main div.main_all div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
 	background-color:#CFD1D4;
 	border-bottom-color: #CFD1D4;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li.signup a {
+#layout-main div.main_all div.account ul.tabs li.signup a {
 	color: #CFD1D4;
 }
 

@@ -278,7 +278,7 @@ h4.collapsed span {
 	line-height:1.5em;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li {
+#layout-main div.main_all div.account ul.tabs li {
 	font-size: 1.3rem;
 }
 
@@ -361,7 +361,7 @@ div.g_bubble.quotebody div.quoteof,
 div.relations .g_bubble.stripe div.type,
 .g_bubble.box > div.top div.name,
 .g_bubble.box > div.data div.date,
-#layout-main div.main_all div.header div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li,
 #layout-main div.search_all div.search_results strong,
 #layout-main div.tag-column .parent,
 .select2-container--default .select2-results__group,
