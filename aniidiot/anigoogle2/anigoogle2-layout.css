@@ -33,10 +33,6 @@
 	min-width: 5.5em;
 }
 
-#layout-main div.main_all .g_bubble.stripe {
-	margin: 0.35em 0 !important;
-}
-
 #layout-menu li.sub-menu span.tab {
 	display: block;
 }
