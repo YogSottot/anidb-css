@@ -167,7 +167,7 @@
 
 /*login/registration*/
 #layout-main div.main_all div.news.forum div.what {
-	min-width: 55em;
+	min-width: 58em;
 }
 
 #layout-main div.main_all div.account {
@@ -177,7 +177,7 @@
 }
 
 #layout-main div.main_all div.account ul.tabs {
-	margin-bottom:-5px;
+	margin-bottom:-2px;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;

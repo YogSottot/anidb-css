@@ -50,7 +50,7 @@ button,
 	border-width: 11px;
 }
 
-#layout-main div.main_all div.account tr + tr th,
-#layout-main div.main_all div.account tr + tr td {
+#layout-main div.main_all div.account table th,
+#layout-main div.main_all div.account table td {
 	border: none;
 }
