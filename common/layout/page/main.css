@@ -5,6 +5,7 @@
 
 /*news*/
 #layout-main div.main_all div.news.forum .stats {
+	min-width: 20em;
 	max-width: 20em;
 }
 
@@ -23,6 +24,41 @@
 	margin: 0 0.5em;
 	height: calc(100% - 3.5em);
 	box-sizing: border-box;
+}
+
+#layout-main div.main_all div.news.forum div.events {
+	min-width: 55em;
+}
+
+#layout-main div.main_all div.news.forum div.events .g_bubble.stripe > div.data {
+	margin-left: 0.5em;
+}
+
+#layout-main div.main_all div.news.forum div.events div.row {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 0.5em;
+}
+
+#layout-main div.main_all div.news.forum div.events div.row .left {
+	width: 20em;
+}
+
+@media screen and (min-width: 1400px) {
+	#layout-main div.main_all div.news.forum {
+		flex-wrap: nowrap;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.main_all div.news.forum .stats {
+		min-width: unset;
+		max-width: unset;
+		width:100%
+	}
 }
 
 /*calendar*/
