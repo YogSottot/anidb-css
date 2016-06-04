@@ -5,23 +5,21 @@
 
 /*top5 lists*/
 #layout-main div.main_all div.datablocks > div {
-	margin: 0 4px 15px;
-}
-
-#layout-main div.main_all div.datablocks > div {
+	margin: 0 0.5em 1em;
 	width:100%;
 	max-width: 400px;
-	max-width: calc(50% - 8px);
+	max-width: calc(50% - 11px);
 }
 
-#layout-main div.main_all div.datablocks > div.account {
-	width:30em;
-}
-
-#layout-main div.main_all div.datablocks div.stripe {
+#layout-main div.main_all div.datablocks .g_bubble.stripe {
 	height:9.5em;
 	max-height: 9.5em;
 	width:100%;
+	margin: 0;
+}
+
+#layout-main div.main_all div.datablocks .g_bubble.stripe + .g_bubble.stripe {
+	margin-top: 1em;
 }
 
 #layout-main div.main_all div.datablocks div.similaranime div.stripe div.data {
@@ -51,7 +49,7 @@
 
 @media screen and (min-width: 1350px) {
 	#layout-main div.main_all div.datablocks > div {
-			max-width: calc(33% - 8px);
+			max-width: calc(33% - 11px);
 	}
 
 	#layout-main div.main_all #latestaired,
@@ -62,7 +60,7 @@
 
 @media screen and (min-width: 1580px) {
 	#layout-main div.main_all div.datablocks > div {
-			max-width: calc(25% - 8px);
+			max-width: calc(25% - 11px);
 	}
 
 	#layout-main div.main_all #latestaired,
