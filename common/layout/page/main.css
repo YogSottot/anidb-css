@@ -36,40 +36,58 @@
 
 @media screen and (max-width: 1000px) {
 	#layout-main div.main_all div.datablocks > div {
-			max-width: none;
+		max-width: none;
 	}
 }
 
 @media screen and (min-width: 1350px) {
 	#layout-main div.main_all div.datablocks > div {
-			max-width: calc(33% - 7px);
-	}
-
-	#layout-main div.main_all #latestaired,
-	#layout-main div.main_all #randcreator {
-		display:block;
+		max-width: calc(33% - 7px);
 	}
 }
 
 @media screen and (min-width: 1580px) {
 	#layout-main div.main_all div.datablocks > div {
-			max-width: calc(25% - 11px);
+		max-width: calc(25% - 11px);
+	}
+}
+
+/*calendar*/
+#layout-main div.main_all div.calendar > h2 {
+	margin: 0 0.3em;
+}
+
+#layout-main div.main_all div.calendar > div.edit_actions {
+	margin-top: -2.5em;
+}
+
+#layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons,
+#layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc {
+	display: none;
+}
+
+#layout-main div.main_all div.calendar .g_bubble.box > div.data {
+	margin-left: 15.5em;
+}
+
+@media screen and (min-width: 1415px) and (max-width: 1730px) {
+	#layout-main div.main_all .g_bubble.box:last-child {
+		display: none;
 	}
 }
 
 /*latest*/
 #layout-main div.main_all div.latest {
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 }
-
 
 #layout-main div.main_all div.latest > div {
 	margin: 0px 0.5em;
 }
 
 #layout-main div.main_all div.latest div.container {
-    height: calc(100% - 3.6em);
-    box-sizing: border-box;
+	height: calc(100% - 3.6em);
+   	box-sizing: border-box;
 }
 
 /*OLD!!!!*/
