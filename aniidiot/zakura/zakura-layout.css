@@ -130,12 +130,6 @@ h4 {
 	padding: 0.3em 0.3em 0.3em 1em;
 }
 
-#layout-main div.main_all div.datablocks,
-#layout-main div.main_all div.news.forum,
-#layout-main div.main_all div.header {
-	margin-right: 21.5em;
-}
-
 #layout-main div.tabbed_pane ul.tabs {
 	margin: 1px 1px 0px 6px;
 }

@@ -460,13 +460,6 @@ div.pagination span strong,
 	font-size:85%;
 }
 
-#layout-main div.main_all div.datablocks,
-#layout-main div.main_all div.news.forum,
-#layout-main div.main_all div.header
-{
-	margin-right:20.5em;
-}
-
 #layout-main div.main_all div.datablocks div.stripe
 {
 	width:100%;

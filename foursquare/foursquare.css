@@ -532,14 +532,6 @@ color: #C2C2C2 }
 color: #5BBCCE }
 
 
-/* Main */
-
-#layout-main div.main_all div.datablocks, 
-#layout-main div.main_all div.news.forum, 
-#layout-main div.main_all div.header {
-margin-right: 22em }
-
-
 /* MyList */
 
 #layout-main div.mylist_list tr td.stats { 
