@@ -179,20 +179,15 @@
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	justify-content: space-around;
+}
+#layout-main div.main_all div.account ul.tabs li {
+	width: 50%;
+	padding: 0.25em 0.5em;
+	display: block;
 }
 
 #layout-main div.main_all div.account ul.tabs li + li {
-	padding-left: 0.5em;
-}
-
-#layout-main div.main_all div.account ul.tabs li,
-#layout-main div.main_all div.account ul.tabs li.signup:hover {
-	border-bottom: 1px double;
-}
-
-#layout-main div.main_all div.account ul.tabs li.signup {
-	border-bottom: none;
+	margin-left: 0.5em;
 }
 
 #layout-main div.main_all div.account ul.tabs li a {
@@ -214,9 +209,12 @@
 }
 
 /*about anidb*/
+#layout-main div.main_all div.about {
+	text-align: left;
+}
+
 #layout-main div.main_all div.about div.g_section {
 	clear: none;
-	text-align: left;
 }
 
 #layout-main div.main_all div.about ul {

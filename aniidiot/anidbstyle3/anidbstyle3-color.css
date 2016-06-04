@@ -166,10 +166,13 @@ button,
 	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
 }
 
-#layout-main div.main_all div.account ul.tabs li,
 #layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs li {
-	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2)
+	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+#layout-main div.main_all div.account ul.tabs li {
+	box-shadow: 0px -1px 3px 0px rgba(0, 0, 0, 0.4);
 }
 
 /*disable shadow so it doesn't overlap with the quicksearch pane*/
