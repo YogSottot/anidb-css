@@ -1,6 +1,70 @@
 /*global*/
 #layout-main div.main_all div.header .g_bubble.stripe div.name {
-	margin-right:0;
+	margin-right: 0;
+}
+
+/*news*/
+#layout-main div.main_all div.news.forum .stats {
+	max-width: 20em;
+}
+
+#layout-main div.main_all div.news.forum .g_bubble.stripe {
+	width:100%;
+	margin:0;
+	height:100%;
+}
+
+#layout-main div.main_all div.news.forum h2 {
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+
+#layout-main div.main_all div.news.forum div.container {
+	margin: 0 0.5em;
+	height: calc(100% - 3.5em);
+	box-sizing: border-box;
+}
+
+/*calendar*/
+#layout-main div.main_all div.calendar {
+	margin-bottom: 0.5em;
+}
+
+#layout-main div.main_all div.calendar > h2 {
+	margin: 0 0.3em;
+}
+
+#layout-main div.main_all div.calendar > div.edit_actions {
+	margin-top: -2.5em;
+}
+
+#layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons,
+#layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc {
+	display: none;
+}
+
+#layout-main div.main_all div.calendar .g_bubble.box > div.data {
+	margin-left: 15.5em;
+}
+
+@media screen and (min-width: 1415px) and (max-width: 1730px) {
+	#layout-main div.main_all .g_bubble.box:last-child {
+		display: none;
+	}
+}
+
+/*latest*/
+#layout-main div.main_all div.latest {
+	margin-bottom: 1em;
+}
+
+#layout-main div.main_all div.latest > div {
+	margin: 0px 0.5em;
+}
+
+#layout-main div.main_all div.latest div.container {
+	height: calc(100% - 3.6em);
+   	box-sizing: border-box;
 }
 
 /*top5 lists*/
@@ -58,44 +122,6 @@
 	#layout-main div.main_all div.datablocks > div:last-child {
 		display: block;
 	}
-}
-
-/*calendar*/
-#layout-main div.main_all div.calendar > h2 {
-	margin: 0 0.3em;
-}
-
-#layout-main div.main_all div.calendar > div.edit_actions {
-	margin-top: -2.5em;
-}
-
-#layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons,
-#layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc {
-	display: none;
-}
-
-#layout-main div.main_all div.calendar .g_bubble.box > div.data {
-	margin-left: 15.5em;
-}
-
-@media screen and (min-width: 1415px) and (max-width: 1730px) {
-	#layout-main div.main_all .g_bubble.box:last-child {
-		display: none;
-	}
-}
-
-/*latest*/
-#layout-main div.main_all div.latest {
-	margin-bottom: 1.5em;
-}
-
-#layout-main div.main_all div.latest > div {
-	margin: 0px 0.5em;
-}
-
-#layout-main div.main_all div.latest div.container {
-	height: calc(100% - 3.6em);
-   	box-sizing: border-box;
 }
 
 /*OLD!!!!*/
