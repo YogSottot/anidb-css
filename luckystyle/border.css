@@ -54,8 +54,7 @@ textarea {
 }
 
 .g_bubble,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4,
+#layout-main div.main_all div.g_section > h2,
 #layout-main div.forum div.g_bubble.threads
 {
 	border-color:#666666 #444444 #444444 #666666;

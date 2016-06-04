@@ -9,9 +9,7 @@ html,
 #anidb table ul li.g_odd,
 #layout-main table table td.g_odd,
 #layout-main ul.g_list li.g_odd,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4,
-#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.g_section > h2,
 #layout-main div.votes_all div.graph div.group_odd,
 #layout-main div.votes_all div.graph.eps div.g_odd,
 #layout-main div.addtagentityrel_all #tag-list div.g_odd {
@@ -66,9 +64,7 @@ select option,
 input,
 textarea,
 html,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4,
-#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.g_section > h2,
 #layout-main div.search_all div.suggestions {
 	background-color: #000000;
 }
@@ -151,7 +147,7 @@ div.g_bubble.quotebody,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 .g_bubble .name-colored,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong,
-#layout-main div.main_all div.header div.latestnews div.posted {
+#layout-main div.main_all div.news.forum div.latestnews div.posted {
 	color: #CCCCCC;
 }
 
@@ -331,8 +327,7 @@ div.g_bubble.quotebody,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 #layout-nav div.menu_hr,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4,
+#layout-main div.main_all div.g_section > h2,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.forum div.quickreply textarea,

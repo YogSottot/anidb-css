@@ -110,9 +110,7 @@ th,
 	border: 1px dotted #999380;
 }
 
-#layout-main div.main_all div.rightbar h4,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
+#layout-main div.main_all div.g_section > h2
 {
 	padding:2px;
 	color:#E9E6D9;
@@ -128,9 +126,7 @@ th,
 #layout-main div.forum div.g_bubble.options-box,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.main_all div.rightbar h4,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
+#layout-main div.main_all div.g_section > h2
 {
 	background-color:#BEBCAD;
 }

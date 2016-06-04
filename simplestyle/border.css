@@ -72,8 +72,7 @@ select
 	border-radius:10px 0 0 0;
 }
 
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4,
+#layout-main div.main_all div.g_section > h2,
 table table,
 img,
 .g_image,

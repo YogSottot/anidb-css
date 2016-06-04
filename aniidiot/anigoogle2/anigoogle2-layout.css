@@ -33,8 +33,7 @@
 	min-width: 5.5em;
 }
 
-#layout-main div.main_all div.header div.latestnews .g_bubble.stripe,
-#layout-main div.main_all div.datablocks .g_bubble.stripe {
+#layout-main div.main_all .g_bubble.stripe {
 	margin: 0.35em 0 !important;
 }
 

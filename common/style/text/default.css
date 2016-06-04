@@ -374,7 +374,7 @@ div.relations .g_bubble.stripe div.type,
 }
 
 .g_italic,
-#layout-main div.main_all div.header div.latestnews div.posted,
+#layout-main div.main_all div.news.forum div.latestnews div.posted,
 #layout-main div.profile_all div.account tr th p.note {
 	font-style: italic;
 	font-weight: normal;

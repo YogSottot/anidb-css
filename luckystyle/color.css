@@ -51,9 +51,7 @@ textarea {
 	color:#FFFFFF;
 }
 
-#layout-content div.main_all div.rightbar h4,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4,
+#layout-main div.main_all div.g_section > h2,
 #layout-content tr.header
 {
 	background-color:#028fcd;
