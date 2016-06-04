@@ -45,7 +45,7 @@
 		max-width: calc(33% - 7px);
 	}
 
-	#layout-main div.main_all #similaranime {
+	#layout-main div.main_all div.datablocks > div:last-child {
 		display: none;
 	}
 }
@@ -55,7 +55,7 @@
 		max-width: calc(25% - 11px);
 	}
 
-	#layout-main div.main_all #similaranime {
+	#layout-main div.main_all div.datablocks > div:last-child {
 		display: block;
 	}
 }
