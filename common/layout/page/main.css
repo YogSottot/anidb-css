@@ -339,16 +339,16 @@
 
 #layout-main div.main_all div.account table {
 	margin:0;
-	padding:0.5em 0 0.5em 0.5em;
+	padding:0.5em 0;
 }
 
 #layout-main div.main_all div.account table th {
-	padding: 4px 8px;
+	display:none;
 }
 
 #layout-main div.main_all div.account div.login input[type="text"],
 #layout-main div.main_all div.account div.login input[type="password"] {
-	padding:4px;
+	padding: 8px;
 	width:16.5em;
 }
 
