@@ -349,7 +349,12 @@
 #layout-main div.main_all div.account div.login input[type="text"],
 #layout-main div.main_all div.account div.login input[type="password"] {
 	padding: 8px;
-	width:16.5em;
+	width:20em;
+}
+
+#layout-main div.main_all div.account div.login button {
+	padding: 8px;
+	width: 10em;
 }
 
 /*about anidb*/
