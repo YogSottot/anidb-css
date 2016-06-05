@@ -619,3 +619,7 @@ tr,
 #layout-main div.main_all div.edit_actions span > * {
 	color: #C0DAF0;
 }
+
+#layout-main div.main_all div.account div.login input::-moz-placeholder {
+    opacity: 1.0;
+}
