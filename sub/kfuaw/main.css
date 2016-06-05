@@ -104,16 +104,6 @@ body
 	display:inline-table;
 }
 
-#layout-main div.main_all div.rightbar h3
-{
-	margin-top:0;
-}
-
-#layout-main div.main_all div.rightbar div + h3
-{
-	margin-top:1em;
-}
-
 #layout-hint
 {
 	position: relative;
@@ -265,8 +255,7 @@ body
 }
 
 .rtop,
-.rbottom,
-#layout-main div.main_all div.rightbar > h4
+.rbottom
 {
 	display: none;
 }
@@ -276,20 +265,8 @@ body
 	margin-right:17em;
 }
 
-#layout-main div.main_all div.rightbar
-{
-	width: 16em;
-}
-
-#layout-main div.main_all div.rightbar div
-{
-	margin: 0 0 .4em 0;
-	
-}
-
 #layout-main div.g_menu h4,
 #layout-main div.cmt_all div.comment h4,
-#layout-main div.main_all div.rightbar h4,
 #layout-main table tr.header
 {
 	padding: .16em;
@@ -390,7 +367,6 @@ body
 #layout-main div.g_menu h4,
 #layout-main div.g_menu caption,
 #layout-main div.latest2_all div.content h4,
-#layout-main div.main_all div.rightbar h4,
 #layout-main div.animeatt_all div.bar caption,
 #layout-main div.animeatt_all div.bar h4
 {
@@ -413,9 +389,9 @@ body
 	margin-right:0;
 }
 
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4,
-#layout-main div.userpage_all  h4,
+#layout-main div.main_all div.g_section > h2
+#layout-main div.userpage_all h2,
+#layout-main div.userpage_all h4,
 #layout-main div.g_menu h4
 {
 	text-align:center;

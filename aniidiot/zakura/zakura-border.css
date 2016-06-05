@@ -28,6 +28,7 @@ table {
 	border-radius: 5px;
 }
 
+#layout-main div.main_all div.news.forum .stats table,
 #layout-main div.anime_all div.episodes table.filelist,
 #layout-main div.mylist_all table.animelist table.eplist,
 #layout-main div.mylist_all table.animelist table.filelist,

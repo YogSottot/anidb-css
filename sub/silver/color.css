@@ -185,8 +185,7 @@ div.pagination span strong
 	color:#000000;
 }
 
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
+#layout-main div.main_all div.g_section > h2
 {
 	background: #3A95C2 url(images/sub-bg-th.gif) repeat-x scroll 0 0;
 	color: #FFFFFF;

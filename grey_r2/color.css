@@ -19,11 +19,9 @@ tr > th,
 #layout-main div.agcmts_entries div.comment h4,
 #layout-main div.dbstats_all h4,
 #layout-main div.stats_all h4,
-#layout-main div.main_all h4,
+#layout-main div.main_all h2,
 #layout-main div.main_edit h4,
-#layout-main div.news_all h4,
 #layout-main div.news h4,
-#layout-main div.main_all div.rightbar h4,
 #layout-main div.blog h4,
 #layout-main div.timeline_all .liststate_dropped
 {

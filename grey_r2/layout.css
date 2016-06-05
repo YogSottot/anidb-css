@@ -7,7 +7,6 @@
 @import "../common/libs/select2/style-grey.css";
 @import "../common/style/text/default.css";
 @import "../common/style/content/page-anime.css";
-@import "../common/style/content/page-main.css";
 span.link,
 a
 {
@@ -455,16 +454,11 @@ width:45%;
 {
 margin:0 1em;
 }
-#layout-main div.main_all div.rightbar li a
-{
-display:table;
-margin-left:3.5em;
-}
 #layout-main div.forum div.body div.code
 {
 margin:0.5em 12em 0 0.5em;
 }
-.g_bubble,#layout-main div.main_all div.datablocks h4,#layout-main div.main_all div.header h4
+.g_bubble,#layout-main div.main_all div.g_section > h2
 {
 border-radius:0;
 border-style:none;
@@ -509,4 +503,8 @@ display:block;
 overflow-x: hidden;
 display:block;
 width:25em;
+}
+
+#layout-main div.main_all div.news.forum .latestnews div.data {
+    max-height: 20em;
 }

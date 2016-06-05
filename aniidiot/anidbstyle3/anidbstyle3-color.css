@@ -40,7 +40,6 @@ table th.sortable:hover:not(.sorter-false),
 	color: #C0DAF0 !important;
 }
 
-#layout-main div.main_all div.header h4,
 #layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover .v_high,
 #layout-main div.userpage_all div.g_menu ul li:hover a {
@@ -169,7 +168,11 @@ button,
 
 #layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs li {
-	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2)
+	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+#layout-main div.main_all div.account ul.tabs li {
+	box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 /*disable shadow so it doesn't overlap with the quicksearch pane*/
@@ -234,4 +237,19 @@ button,
 .i_wishlist_towatch::before,
 .i_wishlist_undefined::before {
 	text-shadow: 1px 1px 0 #CFD1D4, -1px -1px 0 #CFD1D4, 1px -1px 0 #CFD1D4, -1px 1px 0 #CFD1D4, 1px 1px 0 #CFD1D4;
+}
+
+#layout-main div.main_all div.g_section > h2 {
+	background-color: inherit;
+	color: inherit;
+	border-color: #9A9A9A;
+}
+
+#layout-main div.main_all div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
+	border-color: #CFD1D4;
+}
+
+#layout-main div.main_all div.account tr.g_odd {
+	background-color: inherit;
 }

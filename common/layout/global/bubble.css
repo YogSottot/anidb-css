@@ -82,8 +82,8 @@
 	margin: 0.5em 0.5em 0.5em 6em;
 }
 
-.g_bubble.stripe > div.data div + div {
-	margin-top:0.2em;
+.g_bubble.stripe > div.data > div + div {
+	margin-top: 0.2em;
 }
 
 .g_bubble.stripe > div.data div.name {
@@ -115,9 +115,7 @@
 	margin-bottom: 0.5em;
 	padding: 0.3em 0.8em 0.5em 0.5em;
 	float: left;
-	max-height:180px;
 	width:150px;
-	overflow:hidden;
 }
 
 .g_bubble.box > div.top {

@@ -14,7 +14,7 @@ th a,
 span.link,
 h4 span.nolink a,
 #layout-main a.filter,
-#layout-main div.main_all div.header div.account ul.tabs li.signup a {
+#layout-main div.main_all div.account ul.tabs li.signup a {
 	color: #105289;
 }
 
@@ -34,8 +34,9 @@ input[type="password"]:focus {
 a:hover,
 span.link:hover,
 .g_bubble .name-colored,
+#layout-main div.main_all div.edit_actions span > *:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover a,
+#layout-main div.main_all div.account ul.tabs li.signup:hover a,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored,
@@ -59,7 +60,6 @@ span.link:hover,
 }
 
 table,
-#layout-main div.main_all div.rightbar h4,
 #layout-main div.info div.extra div table, {
 	border-top-color: #DDDDDD;
 }
@@ -82,7 +82,6 @@ input[type="submit"]:hover,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 #layout-main div.news h4,
-#layout-main div.main_all div.rightbar h4,
 #layout-main > h1,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
@@ -197,7 +196,14 @@ html,
 #layout-menu,
 #layout-main div.format-buttons input,
 #layout-main div.forum ul.topics li.row:hover,
-#layout-main div.forum ul.topics li.g_odd.row:hover {
+#layout-main div.forum ul.topics li.g_odd.row:hover,
+.g_definitionlist .g_odd .g_bubble,
+.g_definitionlist .g_bubble .g_bubble,
+.g_definitionlist .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd {
 	background-color: #B1B3B5;
 }
 
@@ -238,7 +244,6 @@ button,
 #layout-tabs ul.main-tabs li,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.news h4,
-#layout-main div.main_all div.rightbar h4,
 #layout-main > h1,
 #layout-main div.g_timedentry h4,
 #layout-main ul.g_list li,
@@ -261,7 +266,7 @@ button,
 	background-color: #34394D;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li.signup {
+#layout-main div.main_all div.account ul.tabs li.signup {
 	background-color: #AA0000;
 }
 
@@ -399,30 +404,29 @@ select,
 	background-color: #F0EDD5 !important;
 }
 
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4 {
+#layout-main div.main_all div.g_section > h2 {
 	background-color:#34394D;
 	color:#DDDDDD;
 	border-color:#EEEEEE #8E8E8E #8E8E8E #EEEEEE;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li {
+#layout-main div.main_all div.account ul.tabs li {
 	border-top-color: #9A9A9A;
 	border-left-color: #9A9A9A;
 	border-right-color: #7D7D7D;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li,
-#layout-main div.main_all div.header div.account ul.tabs li.signup:hover {
+#layout-main div.main_all div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
 	background-color:#CFD1D4;
 	border-bottom-color: #CFD1D4;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs li.signup a {
+#layout-main div.main_all div.account ul.tabs li.signup a {
 	color: #CFD1D4;
 }
 
-#layout-main div.main_all div.header div.latestnews div.posted {
+#layout-main div.main_all div.news.forum div.latestnews div.posted {
 	color:#666666;
 }
 
@@ -607,4 +611,20 @@ tr,
 #layout-main div.tabbed_pane div.body div.pane ul.contribute li,
 #layout-main div.anime_all div.data table.relationlist tr {
 	background-color: inherit;
+}
+
+
+#layout-main div.main_all div.edit_actions > span::before,
+#layout-main div.main_all div.edit_actions > span::after,
+#layout-main div.main_all div.edit_actions span > * {
+	color: #C0DAF0;
+}
+
+#layout-main div.main_all div.account div.login input::-moz-placeholder {
+    opacity: 1.0;
+}
+
+#layout-main div.main_all div.account div.login input::-webkit-input-placeholder,
+#layout-main div.main_all div.account div.login input:-ms-input-placeholder {
+    opacity: 1.0;
 }

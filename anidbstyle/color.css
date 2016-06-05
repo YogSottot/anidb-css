@@ -53,9 +53,7 @@ a:hover
 	background-color: #BFC2C9;
 }
 
-#layout-main div.main_all div.rightbar h4,
-#layout-main div.main_all div.datablocks h4,
-#layout-main div.main_all div.header h4
+#layout-main div.main_all div.g_section > h2
 {
 	padding: 2px;
 	color: #bbbbbb;

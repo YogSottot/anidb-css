@@ -33,11 +33,6 @@
 	min-width: 5.5em;
 }
 
-#layout-main div.main_all div.header div.latestnews .g_bubble.stripe,
-#layout-main div.main_all div.datablocks .g_bubble.stripe {
-	margin: 0.35em 0 !important;
-}
-
 #layout-menu li.sub-menu span.tab {
 	display: block;
 }
@@ -137,6 +132,7 @@
 	margin: 0 0 0 3px;
 }
 
-#layout-main div.main_all div.header div.account ul.tabs {
-	margin-bottom: -2px;
+.g_section > form > h2 > span,
+.g_section > h2 > span {
+	padding: 0.5em 0.5em 0;
 }

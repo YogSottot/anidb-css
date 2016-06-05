@@ -13,6 +13,7 @@ a.i_button:hover {
 	text-transform: capitalize;
 }
 
+#layout-main div.main_all div.account div.login button,
 #layout-search select,
 #layout-search input.text,
 #layout-search .submit,

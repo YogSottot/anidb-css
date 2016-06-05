@@ -33,3 +33,7 @@ tr + tr th,
 #layout-main div.tag-column .tag-block + .tag-block {
 	border-left-style: dotted;
 }
+
+#layout-main div.main_all h2 {
+	border-radius: 5px;
+}

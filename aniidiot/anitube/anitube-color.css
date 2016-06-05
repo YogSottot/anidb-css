@@ -73,8 +73,7 @@ span.g_odd,
 
 #layout-main div.votes_all div.graph div.header,
 #layout-main table tr.header,
-#layout-main div.news_all div.g_timedentry h4,
-#layout-main div.main_all div.g_timedentry h4 {
+#layout-main div.main_all h2 {
 	background-color:#c3d9ff;
 }
 

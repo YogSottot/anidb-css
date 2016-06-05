@@ -96,7 +96,7 @@
 
 #layout-main div.forum div.topic_actions {
 	height: 12px;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
 	margin-top: 1.5em;
 }
 
@@ -192,7 +192,7 @@
 #layout-main div.forum div.g_bubble.threads {
 	border:none;
 	padding: 0 0 0.4em;
-	margin: 0.5em;
+	margin: 0.5em 0;
 }
 
 #layout-main div.forum hr {
