@@ -103,6 +103,7 @@
 
 #layout-main div.main_all div.calendar .g_bubble.box {
 	width:165px;
+	max-width:200px;
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box > div.top div.name {
@@ -125,6 +126,58 @@
 #layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons,
 #layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc {
 	display: none;
+}
+
+#layout-main div.main_all div.calendar .g_bubble.box.no4,
+#layout-main div.main_all div.calendar .g_bubble.box.no5,
+#layout-main div.main_all div.calendar .g_bubble.box.no6,
+#layout-main div.main_all div.calendar .g_bubble.box.no7,
+#layout-main div.main_all div.calendar .g_bubble.box.no8,
+#layout-main div.main_all div.calendar .g_bubble.box.no9,
+#layout-main div.main_all div.calendar .g_bubble.box.no10 {
+	display: none;
+}
+
+@media screen and (min-width: 870px) {
+	#layout-main div.main_all div.calendar .g_bubble.box.no4 {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1060px) {
+	#layout-main div.main_all div.calendar .g_bubble.box.no5 {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1230px) {
+	#layout-main div.main_all div.calendar .g_bubble.box.no6 {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	#layout-main div.main_all div.calendar .g_bubble.box.no7 {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1570px) {
+	#layout-main div.main_all div.calendar .g_bubble.box.no8 {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1750px) {
+	#layout-main div.main_all div.calendar .g_bubble.box.no9 {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1910px) {
+	#layout-main div.main_all div.calendar .g_bubble.box.no10 {
+		display: block;
+	}
 }
 
 /*hints*/
