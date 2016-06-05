@@ -65,6 +65,7 @@
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
+	#layout-main div.main_all div.news.forum div.events,
 	#layout-main div.main_all div.news.forum div.what {
 		max-width: calc(100% - 20em);
 	}
