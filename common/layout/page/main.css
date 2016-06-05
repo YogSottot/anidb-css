@@ -101,7 +101,7 @@
 	margin-left: 15.5em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) or (min-width: 2000px) {
 	#layout-main div.main_all div.calendar .g_bubble.box {
 		max-width: unset;
 	}
