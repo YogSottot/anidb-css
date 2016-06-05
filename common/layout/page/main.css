@@ -120,6 +120,7 @@
 
 #layout-main div.main_all div.latest > div {
 	margin: 0px 0.5em;
+	min-width: 45em
 }
 
 #layout-main div.main_all div.latest div.container {
