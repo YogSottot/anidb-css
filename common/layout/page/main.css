@@ -127,6 +127,40 @@
 	}
 }
 
+/*hints*/
+#layout-main div.main_all div.hints h2 {
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.main_all div.hints > div {
+		max-width: none;
+	}
+}
+
+@media screen and (min-width: 1350px) {
+	#layout-main div.main_all div.hints > div {
+		max-width: calc(33% - 7px);
+	}
+
+	#layout-main div.main_all div.hints > div.no7,
+	#layout-main div.main_all div.hints > div.no8 {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 1580px) {
+	#layout-main div.main_all div.hints > div {
+		max-width: calc(25% - 11px);
+	}
+
+	#layout-main div.main_all div.hints > div.no7,
+	#layout-main div.main_all div.hints > div.no8 {
+		display: block;
+	}
+}
+
 /*latest*/
 #layout-main div.main_all div.latest {
 	margin-bottom: 1em;
