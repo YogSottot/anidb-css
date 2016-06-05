@@ -82,8 +82,8 @@
 	margin: 0.5em 0.5em 0.5em 6em;
 }
 
-.g_bubble.stripe > div.data div + div {
-	margin-top:0.2em;
+.g_bubble.stripe > div.data > div + div {
+	margin-top: 0.2em;
 }
 
 .g_bubble.stripe > div.data div.name {
