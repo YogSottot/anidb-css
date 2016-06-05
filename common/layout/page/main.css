@@ -121,7 +121,7 @@
 	}
 }
 
-@media screen and (min-width: 1415px) and (max-width: 1730px) {
+@media screen and (min-width: 1405px) and (max-width: 1730px) {
 	#layout-main div.main_all .g_bubble.box:last-child {
 		display: none;
 	}
