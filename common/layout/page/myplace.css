@@ -139,6 +139,10 @@
 }
 
 /*blog*/
+#layout-main div.userpage_all div.blog .g_msg {
+	clear: none;
+}
+
 #layout-main div.userpage_all div.blog div.g_timedentry p.cmt {
 	text-align: left;
 }
