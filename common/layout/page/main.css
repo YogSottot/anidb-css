@@ -101,31 +101,30 @@
 	margin-top: -2.5em;
 }
 
+#layout-main div.main_all div.calendar .g_bubble.box {
+	width:165px;
+}
+
+#layout-main div.main_all div.calendar .g_bubble.box > div.top div.name {
+	height:4.5em;
+	overflow: hidden;
+}
+
+#layout-main div.main_all div.calendar .g_bubble.box .name span.icons.tooltip .i_info {
+	height:4.5em;
+}
+
+#layout-main div.main_all div.calendar .g_bubble.box > div.image {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0;
+	height:225px;
+}
+
 #layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons,
 #layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc {
 	display: none;
-}
-
-#layout-main div.main_all div.calendar .g_bubble.box > div.data {
-	margin-left: 15.5em;
-}
-
-@media screen and (max-width: 1000px) {
-	#layout-main div.main_all div.calendar .g_bubble.box {
-		max-width: unset;
-	}
-}
-
-@media screen and (min-width: 2000px) {
-	#layout-main div.main_all div.calendar .g_bubble.box {
-		max-width: unset;
-	}
-}
-
-@media screen and (min-width: 1405px) and (max-width: 1730px) {
-	#layout-main div.main_all .g_bubble.box:last-child {
-		display: none;
-	}
 }
 
 /*hints*/
