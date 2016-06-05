@@ -270,7 +270,7 @@
 	}
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (min-width: 1000px) and (max-width: 1350px) {
 	#layout-main div.main_all div.datablocks > div {
 		max-width: calc(50% - 11px);
 	}
