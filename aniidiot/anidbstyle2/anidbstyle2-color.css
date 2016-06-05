@@ -620,6 +620,8 @@ tr,
 	color: #C0DAF0;
 }
 
-#layout-main div.main_all div.account div.login input::-moz-placeholder {
+#layout-main div.main_all div.account div.login input::-webkit-input-placeholder,
+#layout-main div.main_all div.account div.login input::-moz-placeholder,
+#layout-main div.main_all div.account div.login input:-ms-input-placeholder {
     opacity: 1.0;
 }
