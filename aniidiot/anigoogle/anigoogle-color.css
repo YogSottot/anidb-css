@@ -176,6 +176,7 @@ html,
 	background-color: #FFFFFF;
 }
 
+#layout-main .g_section > h2,
 #layout-main div.tabbed_pane ul.tabs li,
 input[type="text"],
 input[type="password"],
