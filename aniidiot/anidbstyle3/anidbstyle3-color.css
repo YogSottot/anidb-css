@@ -245,6 +245,7 @@ button,
 	border-color: #9A9A9A;
 }
 
-#layout-main div.main_all div.account ul.tabs li {
+#layout-main div.main_all div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
 	border-color: #CFD1D4;
 }

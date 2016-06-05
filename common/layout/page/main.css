@@ -200,7 +200,7 @@
 
 #layout-main div.main_all div.account table {
 	margin:0;
-	padding:0.5em;
+	padding:0.5em 0 0.5em 0.5em;
 }
 
 #layout-main div.main_all div.account table th {
