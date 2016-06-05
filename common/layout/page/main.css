@@ -207,8 +207,18 @@
 	height: 8.5em;
 }
 
+@media screen and (max-width: 1000px) {
+	#layout-main div.main_all div.datablocks > div {
+		max-width: none;
+	}
+}
+
 @media screen and (max-width: 1350px) {
 	#layout-main div.main_all div.datablocks > div {
+		max-width: calc(50% - 11px);
+	}
+
+	#layout-main div.main_all div.datablocks .g_bubble.stripe {
 		max-width: none;
 	}
 }
