@@ -71,6 +71,7 @@
 }
 
 @media screen and (max-width: 1000px) {
+	#layout-main div.main_all div.news.forum div.events,
 	#layout-main div.main_all div.news.forum .stats {
 		min-width: unset;
 		max-width: unset;
@@ -98,6 +99,12 @@
 
 #layout-main div.main_all div.calendar .g_bubble.box > div.data {
 	margin-left: 15.5em;
+}
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.main_all div.calendar .g_bubble.box {
+		max-width: unset;
+	}
 }
 
 @media screen and (min-width: 1415px) and (max-width: 1730px) {
