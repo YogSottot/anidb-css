@@ -242,11 +242,9 @@ button,
 #layout-main div.main_all div.g_section > h2 {
 	background-color: inherit;
 	color: inherit;
+	border-color: #9A9A9A;
 }
 
-#layout-main div.main_all div.account ul.tabs li,
-#layout-main div.main_all div.g_section > h2 {
-	background-color: inherit;
-	color: inherit;
-	border-color: #9A9A9A;
+#layout-main div.main_all div.account ul.tabs li {
+	border-color: #CFD1D4;
 }
