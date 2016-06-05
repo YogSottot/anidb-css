@@ -8,6 +8,13 @@
 	margin-right: 0;
 }
 
+.internet_explorer#anidb #layout-main div.main_all .g_bubblewrap > * {
+	-ms-flex-grow: 1;
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	flex-grow: 1;
+}
+
 /*news*/
 #layout-main div.main_all div.news.forum .latestnews div.data {
 	max-height: 20.5em;
