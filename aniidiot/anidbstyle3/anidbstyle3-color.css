@@ -249,3 +249,7 @@ button,
 #layout-main div.main_all div.account ul.tabs li.signup:hover {
 	border-color: #CFD1D4;
 }
+
+#layout-main div.main_all div.account tr.g_odd {
+	background-color: inherit;
+}
