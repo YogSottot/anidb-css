@@ -8,4 +8,5 @@
 
 #layout-main h2 + div.edit_actions {
     margin-top: -2.8em;
+    margin-right: 0.5em;
 }

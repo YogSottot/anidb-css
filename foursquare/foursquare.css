@@ -672,6 +672,10 @@ padding-top: 10px;
 padding-bottom: 10px }
 
 	#layout-main div.edit_actions { margin-top: -2.4em }
+	#layout-main h2 + div.edit_actions {
+	    margin-top: -2.8em;
+	    margin-right: 0.5em;
+	}
 
 #layout-main .g_content table {
 border-radius: 2px;
@@ -737,7 +741,7 @@ th,
 #layout-main div.forum div.g_bubble.options-box,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.main_all div.news h2,
+#layout-main div.main_all h2,
 #layout-main div.cmt_all div.comment h4,
 #layout-main div.g_content.addfilem_all table {
 background-color: #f9f9f9 }
@@ -812,13 +816,12 @@ border: 1px solid lightgray;
 border-color: lightgray }
 
 #layout-main div.main_all div.g_section > h2 {
-border: none;
 padding: 2px }
 
 #layout-main .g_list,
 #layout-main .g_description,
 .g_image,
-#layout-main div.main_all div.news h2,
+#layout-main div.main_all h2,
 #layout-main div.g_definitionlist table {
 border: 2px #EEE solid }
 
@@ -2308,7 +2311,12 @@ background-image: url(images/icons/flags/anidb_audio_chinese-transcription.png) 
 	background-image: url(images/icons/flags/anidb_sub_chinese-transcription.png) }
 
 
-/*disable quicksearch, becaus ei can't be assed >_>*/
+/*disable quicksearch, because i can't be assed >_>*/
 #layout-search ul.quicksearch {
 	display: none !important;
+}
+
+/*double borders hence needs to be slimmer*/
+#layout-main div.main_all div.calendar .g_bubble.box {
+	width: 154px;
 }
