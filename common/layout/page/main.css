@@ -134,29 +134,29 @@
 }
 
 @media screen and (max-width: 1000px) {
-	#layout-main div.main_all div.myhints > div {
+	#layout-main div.main_all div.myhints .g_bubble.stripe {
 		max-width: none;
 	}
 }
 
 @media screen and (min-width: 1350px) {
-	#layout-main div.main_all div.myhints > div {
+	#layout-main div.main_all div.myhints .g_bubble.stripe {
 		max-width: calc(33% - 7px);
 	}
 
-	#layout-main div.main_all div.myhints > div.no7,
-	#layout-main div.main_all div.myhints > div.no8 {
+	#layout-main div.main_all div.myhints .g_bubble.stripe.no7,
+	#layout-main div.main_all div.myhints .g_bubble.stripe.no8 {
 		display: none;
 	}
 }
 
 @media screen and (min-width: 1580px) {
-	#layout-main div.main_all div.myhints > div {
+	#layout-main div.main_all div.myhints .g_bubble.stripe {
 		max-width: calc(25% - 11px);
 	}
 
-	#layout-main div.main_all div.myhints > div.no7,
-	#layout-main div.main_all div.myhints > div.no8 {
+	#layout-main div.main_all div.myhints .g_bubble.stripe.no7,
+	#layout-main div.main_all div.myhints .g_bubble.stripe.no8 {
 		display: block;
 	}
 }
