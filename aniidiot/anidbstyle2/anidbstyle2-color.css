@@ -34,6 +34,9 @@ input[type="password"]:focus {
 a:hover,
 span.link:hover,
 .g_bubble .name-colored,
+#layout-main div.main_all div.edit_actions > span::before:hover,
+#layout-main div.main_all div.edit_actions > span::after:hover,
+#layout-main div.main_all div.edit_actions span > *:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.main_all div.account ul.tabs li.signup:hover a,
 #layout-main div.cmt_entries a.username-colored,
@@ -612,6 +615,9 @@ tr,
 	background-color: inherit;
 }
 
+
+#layout-main div.main_all div.edit_actions > span::before,
+#layout-main div.main_all div.edit_actions > span::after,
 #layout-main div.main_all div.edit_actions span > * {
-	color: #C0DAF0 !important;
+	color: #C0DAF0;
 }
