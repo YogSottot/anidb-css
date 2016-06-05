@@ -117,19 +117,6 @@ h4 {
 	margin-bottom: 0.3em;
 }
 
-#layout-main div.main_all div.rightbar h4 {
-	padding: 0.3em 1em;
-}
-
-#layout-main div.main_all div.rightbar {
-	padding: 14em 0px 0px;
-}
-
-#layout-main div.main_all div.rightbar ol li {
-	position: relative;
-	padding: 0.3em 0.3em 0.3em 1em;
-}
-
 #layout-main div.tabbed_pane ul.tabs {
 	margin: 1px 1px 0px 6px;
 }

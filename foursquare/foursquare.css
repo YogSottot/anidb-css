@@ -737,8 +737,7 @@ th,
 #layout-main div.forum div.g_bubble.options-box,
 #layout-main div.forum ul.topics li.row:hover,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.main_all div.news h4,
-#layout-main div.main_all div.rightbar h4,
+#layout-main div.main_all div.news h2,
 #layout-main div.cmt_all div.comment h4,
 #layout-main div.g_content.addfilem_all table {
 background-color: #f9f9f9 }
@@ -819,7 +818,7 @@ padding: 2px }
 #layout-main .g_list,
 #layout-main .g_description,
 .g_image,
-#layout-main div.main_all div.news h4,
+#layout-main div.main_all div.news h2,
 #layout-main div.g_definitionlist table {
 border: 2px #EEE solid }
 

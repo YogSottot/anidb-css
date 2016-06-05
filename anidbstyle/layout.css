@@ -219,38 +219,6 @@
 	margin: 1em;
 }
 
-#layout-main div.main_all div.rightbar
-{
-	width: 20em;
-}
-
-#layout-main div.main_all div.rightbar p
-{
-	margin: 1.2em 0 0 0;
-}
-
-#layout-main div.main_all div.rightbar h3
-{
-	margin: 1.5em 0 0.4em 0;
-}
-
-#layout-main div.main_all div.rightbar ol
-{
-	margin: 0em 0 0.4em 0;
-	padding: 0;
-}
-
-#layout-main div.main_all div.rightbar li a
-{
-	margin-left: 4em;
-	display: table;
-}
-
-#layout-main div.main_all div.rightbar li span
-{
-	position: absolute;
-}
-
 #layout-main div.main_all div.news
 {
 	margin-right: 21em;

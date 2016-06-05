@@ -517,8 +517,7 @@ th a,
 #layout-main div.g_content,
 #layout-main div.g_msg,
 #layout-menu li.sub-menu ul,
-#layout-main div.userpage_all div.g_menu ul,
-#layout-main div.main_all div.rightbar {
+#layout-main div.userpage_all div.g_menu ul {
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -717,21 +716,6 @@ html {
 h4,
 caption {
 	color: #5C68B5;
-}
-
-#layout-main div.main_all div.rightbar {
-	background: #FCFAFB url("images/mamimi.png") no-repeat scroll right top;
-}
-
-#layout-main div.main_all div.rightbar h4 {
-	color: #4D4993;
-}
-
-#layout-main div.main_all div.rightbar ol li.g_odd {
-	background-color: #FFFFFF;
-}
-#layout-main div.main_all div.rightbar ol li {
-	border-top-color: #E4E4E4;
 }
 
 table {

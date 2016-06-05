@@ -59,7 +59,6 @@ span.link:hover,
 }
 
 table,
-#layout-main div.main_all div.rightbar h4,
 #layout-main div.info div.extra div table, {
 	border-top-color: #DDDDDD;
 }
@@ -82,7 +81,6 @@ input[type="submit"]:hover,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 #layout-main div.news h4,
-#layout-main div.main_all div.rightbar h4,
 #layout-main > h1,
 #layout-main div.g_timedentry h4,
 #layout-main div.animeatt_all div.review > h4,
@@ -238,7 +236,6 @@ button,
 #layout-tabs ul.main-tabs li,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.news h4,
-#layout-main div.main_all div.rightbar h4,
 #layout-main > h1,
 #layout-main div.g_timedentry h4,
 #layout-main ul.g_list li,
