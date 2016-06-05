@@ -34,8 +34,6 @@ input[type="password"]:focus {
 a:hover,
 span.link:hover,
 .g_bubble .name-colored,
-#layout-main div.main_all div.edit_actions > span::before:hover,
-#layout-main div.main_all div.edit_actions > span::after:hover,
 #layout-main div.main_all div.edit_actions span > *:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.main_all div.account ul.tabs li.signup:hover a,
