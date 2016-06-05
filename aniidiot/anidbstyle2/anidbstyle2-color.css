@@ -611,3 +611,7 @@ tr,
 #layout-main div.anime_all div.data table.relationlist tr {
 	background-color: inherit;
 }
+
+#layout-main div.main_all div.edit_actions span > * {
+	color: #C0DAF0 !important;
+}

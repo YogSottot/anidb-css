@@ -20,16 +20,22 @@
 input[type="submit"],
 input[type="button"],
 button,
+#layout-main div.main_all h2,
 #layout-main div.g_menu.filter_menu div.settings input[type="text"],
 #layout-main div.g_menu.filter_menu div.settings select {
 	border-radius: 5px;
-	border: 1px solid;
 }
 
+#layout-main div.main_all h2,
 #layout-menu li.sub-menu li + li {
 	border-top: 1px solid;
 }
 
+input[type="submit"],
+input[type="button"],
+button,
+#layout-main div.g_menu.filter_menu div.settings input[type="text"],
+#layout-main div.g_menu.filter_menu div.settings select,
 #layout-main > h1,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.news h4,
