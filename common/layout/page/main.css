@@ -9,6 +9,11 @@
 }
 
 /*news*/
+#layout-main div.main_all div.news.forum .latestnews div.data {
+	max-height: 20em;
+	overflow: hidden;
+}
+
 #layout-main div.main_all div.news.forum .stats {
 	min-width: 20em;
 	max-width: 20em;
