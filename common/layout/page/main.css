@@ -15,6 +15,10 @@
 	flex-grow: 1;
 }
 
+.internet_explorer#anidb #layout-main div.main_all .stripe.g_bubble > .data .tooltip span.text* {
+	width:300px;
+}
+
 /*news*/
 #layout-main div.main_all div.news.forum .latestnews div.data {
 	max-height: 20.5em;
