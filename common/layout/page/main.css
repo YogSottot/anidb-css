@@ -250,8 +250,6 @@
 }
 
 #layout-main div.main_all div.datablocks .g_bubble.stripe {
-	height:9.5em;
-	max-height: 9.5em;
 	width:100%;
 	margin: 0;
 }
@@ -266,10 +264,6 @@
 
 #layout-main div.main_all div.datablocks div.similaranime div.image.other {
 	float:right;
-}
-
-#layout-main div.main_all div.datablocks .g_bubble.stripe > div.data {
-	height: 8.5em;
 }
 
 @media screen and (max-width: 1000px) {
