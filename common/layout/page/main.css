@@ -27,10 +27,13 @@
 }
 
 #layout-main div.main_all div.news.forum .g_bubble.stripe {
-	width:100%;
 	margin:0;
 	height:100%;
 	max-width: none;
+}
+
+#anidb:not(.internet_explorer) #layout-main div.main_all div.news.forum .g_bubble.stripe {
+	width:100%;
 }
 
 #layout-main div.main_all div.news.forum h2 {
@@ -190,6 +193,11 @@
 	margin-top: -0.5em;
 }
 
+.internet_explorer#anidb #layout-main div.main_all div.myhints div.container {
+	-ms-justify-content: flex-start;
+	justify-content: flex-start;
+}
+
 @media screen and (max-width: 1350px) {
 	#layout-main div.main_all div.myhints .g_bubble.stripe {
 		max-width: none;
@@ -242,8 +250,6 @@
 }
 
 #layout-main div.main_all div.datablocks .g_bubble.stripe {
-	height:9.5em;
-	max-height: 9.5em;
 	width:100%;
 	margin: 0;
 }
@@ -258,10 +264,6 @@
 
 #layout-main div.main_all div.datablocks div.similaranime div.image.other {
 	float:right;
-}
-
-#layout-main div.main_all div.datablocks .g_bubble.stripe > div.data {
-	height: 8.5em;
 }
 
 @media screen and (max-width: 1000px) {
@@ -288,19 +290,11 @@
 	#layout-main div.main_all div.datablocks > div {
 		max-width: calc(33% - 7px);
 	}
-
-	#layout-main div.main_all div.datablocks > div:last-child {
-		display: none;
-	}
 }
 
 @media screen and (min-width: 1580px) {
 	#layout-main div.main_all div.datablocks > div {
 		max-width: calc(25% - 11px);
-	}
-
-	#layout-main div.main_all div.datablocks > div:last-child {
-		display: block;
 	}
 }
 
