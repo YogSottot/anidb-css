@@ -27,14 +27,13 @@
 }
 
 #layout-main div.main_all div.news.forum .g_bubble.stripe {
-	width:100%;
 	margin:0;
 	height:100%;
 	max-width: none;
 }
 
-.internet_explorer#anidb #layout-main div.main_all div.news.forum .g_bubble.stripe {
-	width: unset;
+#anidb:not(.internet_explorer) #layout-main div.main_all div.news.forum .g_bubble.stripe {
+	width:100%;
 }
 
 #layout-main div.main_all div.news.forum h2 {
