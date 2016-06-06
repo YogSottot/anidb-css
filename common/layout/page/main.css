@@ -33,6 +33,10 @@
 	max-width: none;
 }
 
+.internet_explorer#anidb #layout-main div.main_all div.news.forum .g_bubble.stripe {
+	width: unset;
+}
+
 #layout-main div.main_all div.news.forum h2 {
 	margin-left: 0.3em;
 	margin-right: 0.3em;
