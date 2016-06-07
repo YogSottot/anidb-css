@@ -69,6 +69,20 @@
 	width: 20em;
 }
 
+#layout-main div.main_all div.news.forum:not(.events) {
+	flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.main_all div.news.forum div.what,
+	#layout-main div.main_all div.news.forum div.events,
+	#layout-main div.main_all div.news.forum .stats {
+		min-width: unset;
+		max-width: unset;
+		width:100%
+	}
+}
+
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
 	#layout-main div.main_all div.news.forum div.events,
 	#layout-main div.main_all div.news.forum div.what {
@@ -79,16 +93,6 @@
 @media screen and (min-width: 1400px) {
 	#layout-main div.main_all div.news.forum {
 		flex-wrap: nowrap;
-	}
-}
-
-@media screen and (max-width: 1000px) {
-	#layout-main div.main_all div.news.forum div.what,
-	#layout-main div.main_all div.news.forum div.events,
-	#layout-main div.main_all div.news.forum .stats {
-		min-width: unset;
-		max-width: unset;
-		width:100%
 	}
 }
 
@@ -291,11 +295,19 @@
 	#layout-main div.main_all div.datablocks > div {
 		max-width: calc(33% - 7px);
 	}
+
+	#layout-main div.main_all div.datablocks div.no4 {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 1580px) {
 	#layout-main div.main_all div.datablocks > div {
 		max-width: calc(25% - 11px);
+	}
+
+	#layout-main div.main_all div.datablocks div.no4 {
+		display: block;
 	}
 }
 
