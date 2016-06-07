@@ -296,7 +296,7 @@
 		max-width: calc(33% - 7px);
 	}
 
-	#layout-main div.main_all div.datablocks div.no4 {
+	#layout-main div.main_all div.datablocks > div > div:last-child {
 		display: none;
 	}
 }
@@ -306,7 +306,7 @@
 		max-width: calc(25% - 11px);
 	}
 
-	#layout-main div.main_all div.datablocks div.no4 {
+	#layout-main div.main_all div.datablocks > div > div:last-child {
 		display: block;
 	}
 }
