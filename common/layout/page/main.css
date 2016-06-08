@@ -87,7 +87,7 @@
 	#layout-main div.main_all div.news.forum.events div.stats {
 		min-width: unset;
 		max-width: unset;
-		width:100%
+		width:100%;
 		order: 3;
 	}
 }
