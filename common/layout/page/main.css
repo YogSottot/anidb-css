@@ -74,12 +74,25 @@
 }
 
 @media screen and (max-width: 1000px) {
-	#layout-main div.main_all div.news.forum div.what,
-	#layout-main div.main_all div.news.forum div.events,
+	#layout-main div.main_all div.news.forum.events div.latestnews {
+		order: 1;
+		max-width: calc(100% - 20em);
+	}
+
 	#layout-main div.main_all div.news.forum.events div.stats {
+		order: 2;
+	}
+
+	#layout-main div.main_all div.news.forum div.what,
+	#layout-main div.main_all div.news.forum div.events {
+		order: 3;
+	}
+
+	#layout-main div.main_all div.news.forum div.what,
+	#layout-main div.main_all div.news.forum div.events {
 		min-width: unset;
 		max-width: unset;
-		width:100%
+		width:100%;
 	}
 }
 
@@ -87,6 +100,15 @@
 	#layout-main div.main_all div.news.forum div.events,
 	#layout-main div.main_all div.news.forum div.what {
 		max-width: calc(100% - 20em);
+		order: 1;
+	}
+
+	#layout-main div.main_all div.news.forum.events div.stats {
+		order: 2;
+	}
+
+	#layout-main div.main_all div.news.forum.events div.latestnews {
+		order: 3;
 	}
 }
 
