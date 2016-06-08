@@ -83,12 +83,16 @@
 	}
 
 	#layout-main div.main_all div.news.forum div.what,
+	#layout-main div.main_all div.news.forum div.events {
+		order: 3;
+	}
+
+	#layout-main div.main_all div.news.forum div.what,
 	#layout-main div.main_all div.news.forum div.events,
 	#layout-main div.main_all div.news.forum.events div.stats {
 		min-width: unset;
 		max-width: unset;
 		width:100%;
-		order: 3;
 	}
 }
 
