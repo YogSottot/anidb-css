@@ -94,7 +94,7 @@
 		order: 2;
 	}
 
-	#layout-main div.main_all div.news.forum.events div.news {
+	#layout-main div.main_all div.news.forum.events div.latestnews {
 		order: 3;
 	}
 }
