@@ -69,16 +69,18 @@
 	width: 20em;
 }
 
-#layout-main div.main_all div.news.forum:not(.events) {
+#layout-main div.main_all div.news.forum:not(.events):not(.what) {
 	flex-wrap: nowrap;
 }
 
 @media screen and (max-width: 1400px) {
+	#layout-main div.main_all div.news.forum.what div.latestnews,
 	#layout-main div.main_all div.news.forum.events div.latestnews {
 		order: 1;
 		max-width: calc(100% - 20em);
 	}
 
+	#layout-main div.main_all div.news.forum.what div.stats,
 	#layout-main div.main_all div.news.forum.events div.stats {
 		order: 2;
 	}
