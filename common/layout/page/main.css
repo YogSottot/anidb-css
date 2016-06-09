@@ -73,7 +73,7 @@
 	flex-wrap: nowrap;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
 	#layout-main div.main_all div.news.forum.events div.latestnews {
 		order: 1;
 		max-width: calc(100% - 20em);
@@ -97,18 +97,18 @@
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
-	#layout-main div.main_all div.news.forum div.events,
-	#layout-main div.main_all div.news.forum div.what {
+	#layout-main div.main_all div.news.forum.what div.what {
 		max-width: calc(100% - 20em);
 		order: 1;
 	}
 
-	#layout-main div.main_all div.news.forum.events div.stats {
+	#layout-main div.main_all div.news.forum.what div.stats {
 		order: 2;
 	}
 
-	#layout-main div.main_all div.news.forum.events div.latestnews {
+	#layout-main div.main_all div.news.forum.what div.latestnews {
 		order: 3;
+		max-width: unset;
 	}
 }
 
