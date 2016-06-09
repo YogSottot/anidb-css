@@ -98,22 +98,6 @@
 	}
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1400px) {
-	#layout-main div.main_all div.news.forum.what div.what {
-		max-width: calc(100% - 20em);
-		order: 1;
-	}
-
-	#layout-main div.main_all div.news.forum.what div.stats {
-		order: 2;
-	}
-
-	#layout-main div.main_all div.news.forum.what div.latestnews {
-		order: 3;
-		max-width: unset;
-	}
-}
-
 @media screen and (min-width: 1400px) {
 	#layout-main div.main_all div.news.forum {
 		flex-wrap: nowrap;
