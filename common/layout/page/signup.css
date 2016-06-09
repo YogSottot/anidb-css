@@ -25,12 +25,13 @@
 }
 
 #layout-main div.signup_all ul,
-#layout-main div.signup_all .verify_sanity input {
+#layout-main div.signup_all .verify_sanity label {
 	display: block;
 	padding: 4px 0;
 }
 
 #layout-main div.signup_all button {
+	margin: 0.5em;
 	padding: 8px;
 	width: 10em;
 }
