@@ -23,3 +23,14 @@
 	width: 28em;
 	padding: 8px;
 }
+
+#layout-main div.signup_all ul,
+#layout-main div.signup_all .verify_sanity input {
+	display: block;
+	padding: 4px 0;
+}
+
+#layout-main div.signup_all button {
+	padding: 8px;
+	width: 10em;
+}
