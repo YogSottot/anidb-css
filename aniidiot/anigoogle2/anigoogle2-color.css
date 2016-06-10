@@ -593,6 +593,10 @@ button,
 	background-color: #E8E8E8 !important;
 }
 
+#layout-search ul.quicksearch {
+	box-shadow: 0 4px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
 /*disable shadow so it doesn't overlap with the quicksearch pane*/
 #layout-search ul.quicksearch .g_bubble.stripe,
 #layout-search input.text.focus,
