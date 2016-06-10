@@ -43,8 +43,7 @@
 	max-width: 510px;
 }
 
-.g_bubblewrap > .g_bubble.box,
-.g_bubblewrap > .g_bubble.stripe.medium {
+.g_bubblewrap > .g_bubble.box {
 	max-width: 400px;
 }
 
