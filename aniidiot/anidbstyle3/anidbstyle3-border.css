@@ -7,7 +7,9 @@
 	border-bottom: none;
 }
 
+#layout-main div.info div.extra div table,
 #layout-main div.main_all div.account table th,
 #layout-main div.main_all div.account table td {
 	border: none;
+	border-radius: none;
 }
