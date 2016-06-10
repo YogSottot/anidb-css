@@ -36,6 +36,11 @@
 
 .g_bubblewrap > .g_bubble.stripe {
 	max-width: 500px;
+	min-height: unset;
+}
+
+.g_bubblewrap > .g_bubble.stripe.medium {
+	max-width: 510px;
 }
 
 .g_bubblewrap > .g_bubble.box,
@@ -65,8 +70,6 @@
 .g_bubble.stripe > div.image {
 	padding: 0.5em;
 	width: 5em;
-	height: 6em;
-	overflow: hidden;
 	float: left;
 }
 
