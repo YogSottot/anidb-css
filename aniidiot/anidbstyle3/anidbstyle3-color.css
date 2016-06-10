@@ -250,6 +250,11 @@ button,
 	border-color: #CFD1D4;
 }
 
+#layout-main div.info div.extra div h2,
 #layout-main div.main_all div.account tr.g_odd {
 	background-color: inherit;
+}
+
+#layout-main div.info div.extra div h2 {
+	color: inherit;
 }
