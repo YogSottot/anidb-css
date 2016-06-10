@@ -34,6 +34,7 @@
 	max-width: 100%;
 }
 
+.g_bubblewrap > .g_bubble.stripe.medium,
 .g_bubblewrap > .g_bubble.stripe {
 	max-width: 500px;
 	min-height: unset;
@@ -164,6 +165,7 @@
 
 .g_bubble.stripe.medium {
 	width:300px;
+	min-height:105px;
 }
 
 .g_bubble.stripe.max > div.data div.name,
@@ -177,10 +179,6 @@
 
 .g_bubble.stripe.medium div.data div.eprange {
 	display:none;
-}
-
-.g_bubble.stripe.medium {
-	min-height:105px;
 }
 
 .g_bubble.stripe.recommendation > div.data div.text {
