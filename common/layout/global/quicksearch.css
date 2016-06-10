@@ -19,7 +19,7 @@
 }
 
 #layout-search ul.quicksearch .g_bubble.stripe {
-	display: list-item;
+	display: block;
 	border-left: none;
 	border-right: none;
 	-moz-border-radius: 0;
@@ -27,8 +27,9 @@
 	border-radius: 0;
 	margin-top:-1px;
 	margin-bottom: 0;
-	width:auto;
+	width:100%;
 	min-height: 6.4em;
+	box-sizing: border-box;
 }
 
 #layout-search ul.quicksearch .g_bubble.stripe > div.data div.name {
