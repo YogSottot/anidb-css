@@ -143,8 +143,16 @@
 }
 
 #layout-main div.admin_role div.options {
-	width: 60em;
+	width: 45em;
 	margin: 0 auto;
+}
+
+#layout-main div.admin_role div.options input {
+	width: calc(100% - 0.5em);
+}
+
+#layout-main div.admin_role div.options ul {
+	padding: 0.5em;
 }
 
 #layout-main div.admin_role div.blocks > div {
