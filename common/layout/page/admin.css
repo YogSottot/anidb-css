@@ -152,6 +152,10 @@
 	width: 50em;
 }
 
+#layout-main div.admin_role div.blocks div.container {
+	height: calc(100% - 4.5em);
+}
+
 #layout-main div.admin_role div.blocks > div table th {
 	width: 40%;
 }
