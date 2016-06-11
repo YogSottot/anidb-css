@@ -29,6 +29,7 @@
 	margin-right: 17.5em;
 }
 
+#layout-main div.tag_all table.animelist th.tagged_episodes,
 #layout-main div.tag_all table.animelist th.tagged_character {
 	white-space: normal;
 }
