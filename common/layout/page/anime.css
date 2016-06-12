@@ -296,7 +296,7 @@
 	#layout-main div.anime_all div.staff .container,
 	#layout-main div.anime_all div.songs .container,
 	#layout-main div.anime_all div.groups .container,
-	#layout-main div.anime_all div.episodes .container
+	#layout-main div.anime_all div.episodes .container {
 		overflow: auto;
 	}
 
