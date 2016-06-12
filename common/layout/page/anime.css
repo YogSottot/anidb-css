@@ -321,6 +321,10 @@
 	#layout-main div.anime_all div.songs table .rating {
 		display: none;
 	}
+
+	#layout-main div.anime_all textarea {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 600px) {
