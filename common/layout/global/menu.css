@@ -118,3 +118,13 @@
 	margin-right: 3em;
 	clear: none;
 }
+
+@media screen and (max-width: 950px) {
+	#layout-main div.g_menu.filter_menu {
+		display: none !important;
+	}
+
+	#layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
+		margin-right: 0 !important;
+	}
+}

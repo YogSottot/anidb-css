@@ -68,15 +68,6 @@
 	display: flex;
 }
 
-@media screen and (max-width: 1200px) {
-	#layout-main div.info div.extra {
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		-moz-flex-wrap: wrap;
-		flex-wrap: wrap;
-	}
-}
-
 #layout-main div.info div.extra > div {
 	margin: 0.4em;
 	padding: 4px;
@@ -86,4 +77,58 @@
 
 #layout-main div.info div.extra div h2 {
 	text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+	#layout-main div.info div.extra {
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	#layout-main div.info div.extra > div {
+	    margin: 0.5em 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#layout-main .g_section.info > h4 {
+		display: none;
+	}
+
+	#layout-main .g_section.info,
+	#layout-main .g_section.info div.block,
+	#layout-main .g_section.info div.block > div.image,
+	#layout-main .g_section.info div.block > div.data {
+		min-width: unset;
+		width: 100%;
+	}
+
+	#layout-main .g_section.info div.block {
+		flex-wrap: wrap;
+	}
+
+	#layout-main .g_section.info div.block > div.data {
+		margin-top: 1em;
+		margin-right: 0;
+	}
+
+	#layout-main .g_section.info div.block > div.image {
+		margin: 0;
+		overflow: hidden;
+	}
+
+	#layout-main .g_section.info .tabbed_pane {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#layout-main .g_section.info .g_image {
+		width: 100%;
+		height: auto;
+	}
 }

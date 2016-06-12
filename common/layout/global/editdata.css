@@ -43,3 +43,22 @@
 #layout-main div.tag_all ul.links_top {
 	display:none;
 }
+
+@media screen and (max-width: 800px) {
+	#layout-main .g_section.info div.edit_actions {
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#layout-main div.edit_actions,
+	#layout-main .g_section.info div.edit_actions {
+		display: none;
+	}
+
+	#layout-main .g_section.info {
+		margin-top: 0;
+	}
+}
