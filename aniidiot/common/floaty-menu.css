@@ -75,7 +75,7 @@
 
 #layout-search div.search,
 #layout-search {
-	height: 80px;
+	height: 70px;
 }
 
 #layout-tabs {
@@ -88,7 +88,7 @@
 
 #layout-hint + #layout-nav #layout-menu,
 #layout-menu {
-	margin-top: -20px;
+	margin-top: -23px;
 }
 
 #layout-menu li.sub-menu ul li.alert {
