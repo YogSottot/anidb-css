@@ -280,7 +280,7 @@
 }
 
 @media screen and (max-width: 800px) {
-	#layout-main div.main_all div.latest div.container.g_bubblewrap {
+	#layout-main div.main_all div.latest.g_bubblewrap {
 		overflow: auto;
 		-ms-justify-content: flex-start;
 		-webkit-justify-content: flex-start;
