@@ -134,7 +134,7 @@
 
 #layout-main div.main_all div.calendar .g_bubble.box {
 	width:163px;
-	max-width:200px;
+	max-width:250px;
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box > div.top div.name {
@@ -170,7 +170,7 @@
 	display: none;
 }
 
-@media screen and (min-width: 535px) {
+@media screen and (min-width: 550px) {
 	#layout-main div.main_all div.calendar .g_bubble.box.no3 {
 		display: block;
 	}
