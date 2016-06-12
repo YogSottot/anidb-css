@@ -4,7 +4,7 @@
 
 #layout-content {
 	margin-left: 0;
-	margin-top: 53px;
+	margin-top: 5.3em;
 	padding-left: 0.5em;
 }
 
@@ -98,4 +98,31 @@
 #layout-menu li.sub-menu {
 	margin-bottom: 0;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+	#layout-hint + #layout-nav #layout-menu,
+	#layout-menu {
+	    margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#layout-menu li.sub-menu.support {
+		display: none;
+	}
+
+	#layout-menu {
+    	width: 38.7em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+	#layout-menu li.sub-menu.mod {
+		display: none;
+	}
+
+	#layout-menu {
+		width: 30.05em;
+	}
 }

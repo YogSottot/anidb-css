@@ -384,3 +384,7 @@ button,
 #layout-main div.block div.data table th {
 	width: 10em;
 }
+
+#layout-main ul.g_list li {
+	margin-bottom: 0.5em;
+}
