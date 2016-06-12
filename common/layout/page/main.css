@@ -104,6 +104,16 @@
 	}
 }
 
+@media screen and (max-width: 800px) {
+	#layout-main div.main_all div.news.forum div.latestnews {
+		max-width: unset;
+	}
+
+	#layout-main div.main_all div.news.forum div.stats {
+		width: 100%;
+	}
+}
+
 /*calendar*/
 #layout-main div.main_all div.calendar {
 	margin-bottom: 0.5em;
@@ -252,6 +262,16 @@
 #layout-main div.main_all div.latest div.container {
 	height: calc(100% - 3.6em);
    	box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+	#layout-main div.main_all div.latest div.container.g_bubblewrap {
+		overflow: auto;
+		-ms-justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+		-moz-justify-content: flex-start;
+		justify-content: flex-start;
+	}
 }
 
 /*top5 lists*/
