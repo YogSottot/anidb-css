@@ -67,6 +67,8 @@
 
 #layout-main div.main_all div.news.forum div.events div.row .left {
 	width: 20em;
+	margin-right: 0.5em;
+	white-space: nowrap;
 }
 
 #layout-main div.main_all div.news.forum:not(.events):not(.what) {
@@ -104,13 +106,19 @@
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
+	#layout-main div.main_all div.news.forum div.stats,
 	#layout-main div.main_all div.news.forum div.latestnews {
 		max-width: unset !important;
 	}
+}
 
-	#layout-main div.main_all div.news.forum div.stats {
-		width: 100% !important;
+@media screen and (max-width: 800px) {
+	#layout-main div.main_all div.news.forum div.events div.row .left {
+		width: auto;
+	}
+	#layout-main div.main_all div.news.forum div.latestnews {
+		max-width: unset !important;
 	}
 }
 
@@ -154,6 +162,7 @@
 	display: none;
 }
 
+#layout-main div.main_all div.calendar .g_bubble.box.no3,
 #layout-main div.main_all div.calendar .g_bubble.box.no4,
 #layout-main div.main_all div.calendar .g_bubble.box.no5,
 #layout-main div.main_all div.calendar .g_bubble.box.no6,
@@ -162,6 +171,12 @@
 #layout-main div.main_all div.calendar .g_bubble.box.no9,
 #layout-main div.main_all div.calendar .g_bubble.box.no10 {
 	display: none;
+}
+
+@media screen and (min-width: 535px) {
+	#layout-main div.main_all div.calendar .g_bubble.box.no3 {
+		display: block;
+	}
 }
 
 @media screen and (min-width: 870px) {
