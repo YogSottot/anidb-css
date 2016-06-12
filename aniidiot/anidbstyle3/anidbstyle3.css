@@ -16,3 +16,8 @@
 {
 	content:"design by deridiot";
 }
+
+@media screen and (max-width: 1000px) {
+	@import "../common/floaty-menu.css";
+	@import "../anidbstyle3-menu/anidbstyle3-menu-color.css";
+}
