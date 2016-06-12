@@ -322,7 +322,7 @@
 		display: none;
 	}
 
-	#layout-main div.anime_all textarea {
+	#layout-main div.anime_all div.info textarea {
 		width: 100%;
 	}
 }
