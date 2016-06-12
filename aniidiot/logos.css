@@ -11,13 +11,13 @@
 
 @media screen and (max-width: 800px) {
 	#layout-search {
-		background:url("images/logo.png") no-repeat scroll left top transparent;
+		background:url("images/logo.png") no-repeat scroll center top transparent;
 	}
 }
 
 @media screen and (max-width: 510px) {
 	#layout-search {
-		background:url("images/logo-small.png") no-repeat scroll left top transparent;
+		background:url("images/logo-small.png") no-repeat scroll center top transparent;
 	}
 }
 
