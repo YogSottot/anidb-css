@@ -132,7 +132,8 @@
 
 @media screen and (max-width: 450px) {
 	#layout-main .g_section.info .g_image {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
+		width: auto;
 	}
 }

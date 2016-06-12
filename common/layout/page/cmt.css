@@ -751,3 +751,15 @@ div.g_bubble.quotebody {
 	padding-left: 1em;
 }
 /*</polls>*/
+
+@media screen and (max-width: 800px) {
+	#layout-main div.forum ul.topiclist div.posts,
+	#layout-main div.forum ul.topiclist div.views,
+	#layout-main div.forum ul.topiclist div.lastpost {
+		display: none;
+	}
+
+	#layout-main div.forum ul.topiclist div.segment.icon {
+		width:100%;
+	}
+}

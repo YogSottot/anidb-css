@@ -29,10 +29,6 @@
 	display: none;
 }
 
-#layout-main div.anime_all div.groups td.action {
-	min-width: 5.5em;
-}
-
 #layout-menu li.sub-menu span.tab {
 	display: block;
 }
