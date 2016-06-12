@@ -388,3 +388,7 @@ button,
 #layout-main ul.g_list li {
 	margin-bottom: 0.5em;
 }
+
+#layout-main .g_section > .container {
+	overflow: auto;
+}
