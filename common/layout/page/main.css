@@ -106,7 +106,7 @@
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
 	#layout-main div.main_all div.news.forum div.stats,
 	#layout-main div.main_all div.news.forum div.latestnews {
 		max-width: unset !important;
@@ -116,9 +116,6 @@
 @media screen and (max-width: 800px) {
 	#layout-main div.main_all div.news.forum div.events div.row .left {
 		width: auto;
-	}
-	#layout-main div.main_all div.news.forum div.latestnews {
-		max-width: unset !important;
 	}
 }
 
