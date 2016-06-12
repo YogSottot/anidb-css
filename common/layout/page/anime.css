@@ -293,6 +293,8 @@
 		justify-content: flex-start;
 	}
 
+	#layout-main div.anime_all div.reviews .container,
+	#layout-main div.anime_all div.mylistfiles .container,
 	#layout-main div.anime_all div.staff .container,
 	#layout-main div.anime_all div.songs .container,
 	#layout-main div.anime_all div.groups .container,
