@@ -106,11 +106,11 @@
 
 @media screen and (max-width: 800px) {
 	#layout-main div.main_all div.news.forum div.latestnews {
-		max-width: unset;
+		max-width: unset !important;
 	}
 
 	#layout-main div.main_all div.news.forum div.stats {
-		width: 100%;
+		width: 100% !important;
 	}
 }
 
