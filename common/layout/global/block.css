@@ -92,13 +92,17 @@
 	#layout-main div.info div.extra > div {
 	    margin: 0.5em 0;
 	}
-}
 
-@media screen and (max-width: 800px) {
+	#layout-main .g_section.info {
+		margin-top: 2em;
+	}
+
 	#layout-main .g_section.info > h4 {
 		display: none;
 	}
+}
 
+@media screen and (max-width: 800px) {
 	#layout-main .g_section.info,
 	#layout-main .g_section.info div.block,
 	#layout-main .g_section.info div.block > div.image,
