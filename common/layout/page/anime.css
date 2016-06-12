@@ -167,10 +167,6 @@
 	margin-right: auto;
 }
 
-#layout-main div.anime_all #mylistadd_full div.container {
-	padding: 0.5em;
-}
-
 #layout-main div.anime_all table.songlist td.reltype {
 	min-width: 10em;
 	white-space: nowrap;

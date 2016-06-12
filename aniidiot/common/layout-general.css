@@ -390,7 +390,6 @@ button,
 }
 
 #layout-main div.anime_all > .g_section form  .container,
-#layout-main div.anime_all #mylistadd_full,
 #layout-main .g_section > .container {
 	overflow: auto;
 }
