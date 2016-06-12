@@ -75,6 +75,12 @@
 	flex-wrap: nowrap;
 }
 
+@media screen and (min-width: 1400px) {
+	#layout-main div.main_all div.news.forum {
+		flex-wrap: nowrap;
+	}
+}
+
 @media screen and (max-width: 1400px) {
 	#layout-main div.main_all div.news.forum.what div.latestnews,
 	#layout-main div.main_all div.news.forum.events div.latestnews {
@@ -100,9 +106,9 @@
 	}
 }
 
-@media screen and (min-width: 1400px) {
-	#layout-main div.main_all div.news.forum {
-		flex-wrap: nowrap;
+@media screen and (max-width: 800px) {
+	#layout-main div.main_all div.news.forum div.events div.row .left {
+		width: auto;
 	}
 }
 
@@ -110,12 +116,6 @@
 	#layout-main div.main_all div.news.forum div.stats,
 	#layout-main div.main_all div.news.forum div.latestnews {
 		max-width: unset !important;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	#layout-main div.main_all div.news.forum div.events div.row .left {
-		width: auto;
 	}
 }
 
@@ -176,7 +176,7 @@
 	}
 }
 
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 820px) {
 	#layout-main div.main_all div.calendar .g_bubble.box.no4 {
 		display: block;
 	}
