@@ -11,6 +11,7 @@
 #layout-menu {
 	width: 46.7em;
 	height: 31px;
+	margin-left: 0.8em;
 }
 
 #layout-menu > li {
@@ -121,6 +122,11 @@
 	#layout-search div.search form > div {
 		top: 7em;
 		width: 100%;
+		left: -0.9em;
+	}
+
+	#layout-search input.text {
+		margin-left: 1em;
 	}
 
 	#layout-hint + #layout-nav #layout-menu,
