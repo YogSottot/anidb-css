@@ -18,6 +18,7 @@ h4 span.nolink a,
 	color: #105289;
 }
 
+#layout-search ul.quicksearch li + li,
 .g_section > h2,
 .g_section > form > h2,
 select:hover,
