@@ -82,3 +82,7 @@ td.thumb {
 	vertical-align: middle;
 	width: 5em;
 }
+
+td.thumb img {
+	max-width: 5em;
+}
