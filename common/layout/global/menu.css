@@ -123,10 +123,14 @@
 	#layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
 		margin-right: 0 !important;
 	}
+
+	#layout-main div.g_menu.filter_menu {
+		display: none;
+	}
 }
 
-@media screen and (min-width: 640px) and (max-width: 950px) {
-	#layout-main div.g_menu.filter_menu {
-		display: none !important;
+@media screen and (min-width: 640px) {
+	#layout-main div.animelist_all div.g_menu.filter_menu {
+		display: block;
 	}
 }
