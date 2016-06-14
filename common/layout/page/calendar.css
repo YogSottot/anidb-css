@@ -7,6 +7,10 @@
 	margin-top: -2.3em;
 }
 
+#layout-main div.calendar_all .g_section.middle {
+	margin: -0.5em;
+}
+
 #layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
 	margin-right: 17.5em;
 }
