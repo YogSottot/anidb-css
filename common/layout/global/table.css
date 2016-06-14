@@ -1,7 +1,10 @@
 @media screen and (max-width: 1000px) {
+	#layout-main .g_datatable table td span.icons {
+		display: inline-block !important;
+	}
+
 	#layout-main .g_datatable table td.name.main span.icons.tooltip,
 	#layout-main .g_datatable table td.name.main span.icons {
-		display: inline-block;
 		vertical-align: top;
 		padding-top: 0.5em;
 	}
