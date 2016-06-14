@@ -20,3 +20,9 @@
 #layout-main div.character_all > div > .g_section table {
 	width: 100%;
 }
+
+@media screen and (max-width: 950px) {
+	#layout-main div.character_all div.selector {
+		margin-bottom: 3.5em;
+	}
+}
