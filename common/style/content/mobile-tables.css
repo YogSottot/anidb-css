@@ -1,5 +1,5 @@
 @media screen and (max-width: 1000px) {
-	#layout-main div.animelist_all table td:before {
+	#layout-main .g_datatable table td:before {
 		content: attr(data-label);
 	}
 }
