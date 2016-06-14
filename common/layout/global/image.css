@@ -83,6 +83,6 @@ td.thumb {
 	width: 5em;
 }
 
-td.thumb img {
+td.thumb > a img {
 	max-width: 5em;
 }
