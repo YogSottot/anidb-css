@@ -12,6 +12,7 @@
 	display: inline-block;
 	height: 31px;
 	margin-left: 0.8em;
+	width: auto;
 }
 
 #layout-menu > li {
@@ -22,7 +23,6 @@
 	padding-left:18px;
 	padding-right:18px;
 	padding-top:-20px;
-	width: auto;
 }
 
 #layout-menu > li ul {
