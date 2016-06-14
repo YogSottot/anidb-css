@@ -655,6 +655,6 @@ input[type="text"]:disabled,
 	#layout-main .g_datatable table tr td.name.main a,
 	#layout-main .g_datatable table tr td.name.main {
 		background: #444 !important;
-		color: #FFFFFF;
+		color: #FFFFFF !important;
 	}
 }

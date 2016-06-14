@@ -9,7 +9,7 @@
 }
 
 #layout-menu {
-	width: 46.7em;
+	display: inline-block;
 	height: 31px;
 	margin-left: 0.8em;
 }
@@ -102,6 +102,11 @@
 }
 
 @media screen and (max-width: 950px) {
+	#layout-hint {
+		height: 16px;
+		overflow: hidden;
+	}
+
 	#layout-nav {
 		margin-top: 10.6em;
 	}
@@ -111,7 +116,7 @@
 	}
 
 	#layout-hint + #layout-nav + #layout-content #layout-tabs {
-		margin: 17.1em 1em 0 0;
+		margin: 15.6em 1em 0 0;
 	}
 
 	#layout-search div.search a.advsearch {
@@ -143,18 +148,10 @@
 	#layout-menu li.sub-menu.support {
 		display: none;
 	}
-
-	#layout-menu {
-    	width: 38.7em;
-    }
 }
 
 @media screen and (max-width: 450px) {
 	#layout-menu li.sub-menu.mod {
 		display: none;
-	}
-
-	#layout-menu {
-		width: 30.05em;
 	}
 }
