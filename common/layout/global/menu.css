@@ -134,6 +134,10 @@
 	#layout-main div.latest2_all div.filter_menu ~ div.content,
 	#layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
 		margin-right: 0 !important;
+	}
+
+	#layout-main div.latest2_all div.filter_menu,
+	#layout-main div.calendar_all .g_section.middle div.filter_menu {
 		display: none !important;
 	}
 }
