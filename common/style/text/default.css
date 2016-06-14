@@ -460,3 +460,10 @@ span.link {
 	user-select: none; 
 
 }
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.animelist_all table tr td.name > a,
+	#layout-main div.animelist_all table td:before {
+		font-weight: bold;
+	}
+}

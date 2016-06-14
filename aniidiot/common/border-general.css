@@ -202,3 +202,10 @@ input[type="button"],
 #layout-main .g_section > form > h2 {
 	border-bottom: 1px solid;
 }
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.animelist_all table td + td,
+	#layout-main div.animelist_all table tr + tr td {
+		border: none;
+	}
+}

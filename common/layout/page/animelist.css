@@ -58,3 +58,105 @@
 		white-space:nowrap;
 	}
 }
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.animelist_all table td.name span.icons.tooltip,
+	#layout-main div.animelist_all table td.name span.icons {
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 0.5em;
+	}
+
+	#layout-tabs ul.main-tabs > li.forum2,
+	#layout-tabs ul.main-tabs > li.forum3,
+	#layout-main div.animelist_all table + p,
+	#layout-main div.animelist_all table tr td.number,
+	#layout-main div.animelist_all table tr td.awards,
+	#layout-main div.animelist_all table tr td.check,
+	#layout-main div.animelist_all table thead {
+		display: none;
+	}
+
+	#layout-main div.animelist_all table td,
+	#layout-main div.animelist_all table tr {
+		display: block;
+	}
+
+	#layout-main div.animelist_all table tr {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#layout-main div.animelist_all table td {
+		display: block;
+		width: auto !important;
+		padding: 0.2em 0.5em;
+		text-align: left !important;
+		width: 19em !important;
+	}
+
+	#layout-main div.animelist_all table td:before {
+		display: inline-block;
+		width: 10em;
+		vertical-align: top;
+	}
+
+	#layout-main div.animelist_all table tr {
+		margin-bottom: 1.5em;
+	}
+
+	#layout-main div.animelist_all table tr td.name {
+		order: -1;
+		height: auto;
+	}
+
+	#layout-main div.animelist_all table tr td.name > a {
+		margin-left: 0.5em;
+		display: inline-block;
+		width: calc(100% - 5em);
+		padding: 0.5em;
+	}
+
+	#layout-main div.animelist_all table td.thumb::before,
+	#layout-main div.animelist_all table td.name::before {
+		content:"";
+		width: 0;
+	}
+
+	#layout-main div.animelist_all table tr td.thumb,
+	#layout-main div.animelist_all table tr td.name {
+		height: auto;
+		width: 100% !important;
+	}
+
+	#layout-main div.animelist_all table tr td.thumb {
+		padding-top:0.5em;
+	}
+
+	#layout-main div.animelist_all table tr td.thumb img {
+		width: calc(100vw - 3.5em);
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#layout-main div.animelist_all table td.name::before,
+	#layout-main div.animelist_all table td.name span.icons.tooltip {
+		display: none;
+	}
+
+	#layout-main div.animelist_all table tr td.name {
+		padding: 0 0.5em 0 0;
+	}
+
+	#layout-main div.animelist_all table tr td.name > a {
+		margin-left: 0;
+		width: calc(100% - 4em);
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#layout-main div.animelist_all table tr td.thumb {
+		padding: 0.5em 0 0 0;
+	}
+}

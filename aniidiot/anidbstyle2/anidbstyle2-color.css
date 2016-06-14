@@ -629,3 +629,19 @@ tr,
 #layout-main div.main_all div.account div.login input:-ms-input-placeholder {
     opacity: 1.0;
 }
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.animelist_all table tr {
+		box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
+	}
+
+	#layout-main div.animelist_all table tr td.name {
+		background: #444 !important;
+		color: #fff;
+	}
+
+	#layout-main div.animelist_all table tr td.name .i_info::after,
+	#layout-main div.animelist_all table tr td.name a {
+		color: #CEE9FF;
+	}
+}
