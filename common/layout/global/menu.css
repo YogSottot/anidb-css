@@ -124,9 +124,8 @@
 		margin-right: 0 !important;
 	}
 
-	#layout-main div.animelist_all div.g_menu.filter_menu,
 	#layout-main div.g_menu.filter_menu {
-		display: none;
+		display: none !important;
 	}
 }
 
