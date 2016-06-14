@@ -56,9 +56,8 @@
 		padding: 0.5em;
 	}
 
-	#layout-main .g_datatable table td.thumb::before,
-	#layout-main .g_datatable table td.name.main::before {
-		content:"";
+	#layout-main .g_datatable table td.thumb:before,
+	#layout-main .g_datatable table td.name.main:before {
 		width: 0;
 	}
 
@@ -76,10 +75,14 @@
 		width: calc(100vw - 3.5em);
 		max-width: 400px;
 	}
+
+	#layout-main .g_datatable .g_image.missing {
+		display: none !important;
+	}
 }
 
 @media screen and (max-width: 600px) {
-	#layout-main .g_datatable table td.name.main::before,
+	#layout-main .g_datatable table td.name.main:before,
 	#layout-main .g_datatable table td.name.main span.icons.tooltip {
 		display: none;
 	}

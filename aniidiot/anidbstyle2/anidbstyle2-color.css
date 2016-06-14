@@ -615,8 +615,8 @@ tr,
 }
 
 
-#layout-main div.main_all div.edit_actions > span::before,
-#layout-main div.main_all div.edit_actions > span::after,
+#layout-main div.main_all div.edit_actions > span:before,
+#layout-main div.main_all div.edit_actions > span:after,
 #layout-main div.main_all div.edit_actions span > * {
 	color: #C0DAF0;
 }
@@ -640,7 +640,7 @@ tr,
 		color: #fff;
 	}
 
-	#layout-main .g_datatable table tr td.name.main .i_info::after,
+	#layout-main .g_datatable table tr td.name.main .i_info:after,
 	#layout-main .g_datatable table tr td.name.main a {
 		color: #CEE9FF;
 	}

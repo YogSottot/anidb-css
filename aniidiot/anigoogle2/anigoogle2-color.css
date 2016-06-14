@@ -656,7 +656,7 @@ input[type="text"]:disabled,
 		color: #fff;
 	}
 
-	#layout-main .g_datatable table tr td.name.main .i_info::after,
+	#layout-main .g_datatable table tr td.name.main .i_info:after,
 	#layout-main .g_datatable table tr td.name.main a {
 		color: #C0DAF0;
 	}

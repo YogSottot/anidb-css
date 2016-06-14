@@ -2,4 +2,9 @@
 	#layout-main .g_datatable table td:before {
 		content: attr(data-label);
 	}
+
+	#layout-main .g_datatable table td.thumb:before,
+	#layout-main .g_datatable table td.name.main:before {
+		content:"";
+	}
 }
