@@ -631,17 +631,17 @@ tr,
 }
 
 @media screen and (max-width: 1000px) {
-	#layout-main div.animelist_all table tr {
+	#layout-main .g_datatable table tr {
 		box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
 	}
 
-	#layout-main div.animelist_all table tr td.name {
+	#layout-main .g_datatable table tr td.name {
 		background: #444 !important;
 		color: #fff;
 	}
 
-	#layout-main div.animelist_all table tr td.name .i_info::after,
-	#layout-main div.animelist_all table tr td.name a {
+	#layout-main .g_datatable table tr td.name .i_info::after,
+	#layout-main .g_datatable table tr td.name a {
 		color: #CEE9FF;
 	}
 }

@@ -204,8 +204,8 @@ input[type="button"],
 }
 
 @media screen and (max-width: 1000px) {
-	#layout-main div.animelist_all table td + td,
-	#layout-main div.animelist_all table tr + tr td {
+	#layout-main .g_datatable table td + td,
+	#layout-main .g_datatable table tr + tr td {
 		border: none;
 	}
 }
