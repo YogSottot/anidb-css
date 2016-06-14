@@ -41,7 +41,7 @@ input[type="password"] {
 }
 
 button,
-select
+select {
 	height: 24px;
 }
 
