@@ -34,4 +34,10 @@
 	#layout-main div.creator_all div.selector {
 		margin-bottom: 3.5em;
 	}
+
+	#layout-main div.creator_all div.g_section.character .container,
+	#layout-main div.creator_all div.g_section.staff .container,
+	#layout-main div.creator_all div.g_section.creator .container {
+		overflow: auto;
+	}
 }

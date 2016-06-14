@@ -25,4 +25,10 @@
 	#layout-main div.character_all div.selector {
 		margin-bottom: 3.5em;
 	}
+
+	#layout-main div.character_all div.g_section.anime .container,
+	#layout-main div.character_all div.g_section.character .container,
+	#layout-main div.character_all div.g_section.creator .container {
+		overflow: auto;
+	}
 }
