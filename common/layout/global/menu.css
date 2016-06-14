@@ -119,7 +119,7 @@
 	clear: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
 	#layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
 		margin-right: 0 !important;
 	}
