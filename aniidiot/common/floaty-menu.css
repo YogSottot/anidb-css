@@ -81,7 +81,7 @@
 }
 
 #layout-tabs {
-	margin: 116px 3px;
+	margin: 116px 3px 0;
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
@@ -109,15 +109,15 @@
 	}
 
 	#layout-nav {
-		margin-top: 10.6em;
+		margin-top: 11em;
 	}
 
 	#layout-tabs {
-	    margin: 14.1em 1em 0 0;
+	    margin: 14.5em 1em 0 0;
 	}
 
 	#layout-hint + #layout-nav + #layout-content #layout-tabs {
-		margin: 15.6em 1em 0 0;
+		margin: 16em 1em 0 0;
 	}
 
 	#layout-search div.search a.advsearch {
@@ -141,7 +141,7 @@
 
 	#layout-hint + #layout-nav #layout-menu,
 	#layout-menu {
-	    margin-top: 0;
+	    margin-top: -0.25em;
 	}
 }
 
