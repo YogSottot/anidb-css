@@ -206,6 +206,6 @@ input[type="button"],
 @media screen and (max-width: 1000px) {
 	#layout-main .g_datatable table td + td,
 	#layout-main .g_datatable table tr + tr td {
-		border: none;
+		border: none !important;
 	}
 }
