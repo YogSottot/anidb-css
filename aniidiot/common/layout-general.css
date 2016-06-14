@@ -41,7 +41,7 @@ input[type="password"] {
 }
 
 select {
-	min-height: 24px;
+	min-height: 2.1em;
 }
 
 button,
@@ -140,7 +140,7 @@ caption,
 	float: right;
 	width: 80px;
 	margin: 0 0 0 3px;
-	padding: 5px;
+	padding: 4px;
 }
 
 #layout-search select {
@@ -307,7 +307,6 @@ button,
 button,
 #layout-main div.edit_actions span > *,
 #layout-tabs ul li a,
-#layout-search .submit,
 #layout-main div.msg_all div.buttons li a,
 #layout-main div.msg_all ul.g_list li.sent a,
 #layout-main div.creq_all .links .next_new_creq a,
