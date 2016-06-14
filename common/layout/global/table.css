@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px) {
-	#layout-main .g_datatable table td.name span.icons.tooltip,
-	#layout-main .g_datatable table td.name span.icons {
+	#layout-main .g_datatable table td.name.main span.icons.tooltip,
+	#layout-main .g_datatable table td.name.main span.icons {
 		display: inline-block;
 		vertical-align: top;
 		padding-top: 0.5em;
@@ -81,6 +81,7 @@
 	}
 
 	/*move to the end and give it full width*/
+	#layout-main .g_datatable table tr td.last.anime.name,
 	#layout-main .g_datatable table tr td.description,
 	#layout-main .g_datatable table tr td.url.site {
 	    order: 100;
@@ -91,7 +92,7 @@
 
 @media screen and (max-width: 600px) {
 	#layout-main .g_datatable table td.name.main:before,
-	#layout-main .g_datatable table td.name.main span.icons.tooltip {
+	#layout-main .g_datatable table span.icons.tooltip {
 		display: none;
 	}
 
