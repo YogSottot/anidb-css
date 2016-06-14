@@ -44,12 +44,12 @@
 		margin-bottom: 1.5em;
 	}
 
-	#layout-main .g_datatable table tr td.name {
+	#layout-main .g_datatable table tr td.name.main {
 		order: -1;
 		height: auto;
 	}
 
-	#layout-main .g_datatable table tr td.name > a {
+	#layout-main .g_datatable table tr td.name.main > a {
 		margin-left: 0.5em;
 		display: inline-block;
 		width: calc(100% - 5em);
@@ -57,13 +57,13 @@
 	}
 
 	#layout-main .g_datatable table td.thumb::before,
-	#layout-main .g_datatable table td.name::before {
+	#layout-main .g_datatable table td.name.main::before {
 		content:"";
 		width: 0;
 	}
 
 	#layout-main .g_datatable table tr td.thumb,
-	#layout-main .g_datatable table tr td.name {
+	#layout-main .g_datatable table tr td.name.main {
 		height: auto;
 		width: 100% !important;
 	}
@@ -79,16 +79,16 @@
 }
 
 @media screen and (max-width: 600px) {
-	#layout-main .g_datatable table td.name::before,
-	#layout-main .g_datatable table td.name span.icons.tooltip {
+	#layout-main .g_datatable table td.name.main::before,
+	#layout-main .g_datatable table td.name.main span.icons.tooltip {
 		display: none;
 	}
 
-	#layout-main .g_datatable table tr td.name {
+	#layout-main .g_datatable table tr td.name.main {
 		padding: 0 0.5em 0 0;
 	}
 
-	#layout-main .g_datatable table tr td.name > a {
+	#layout-main .g_datatable table tr td.name.main > a {
 		margin-left: 0;
 		width: calc(100% - 4em);
 	}

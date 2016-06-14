@@ -635,13 +635,13 @@ tr,
 		box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
 	}
 
-	#layout-main .g_datatable table tr td.name {
+	#layout-main .g_datatable table tr td.name.main {
 		background: #444 !important;
 		color: #fff;
 	}
 
-	#layout-main .g_datatable table tr td.name .i_info::after,
-	#layout-main .g_datatable table tr td.name a {
+	#layout-main .g_datatable table tr td.name.main .i_info::after,
+	#layout-main .g_datatable table tr td.name.main a {
 		color: #CEE9FF;
 	}
 }

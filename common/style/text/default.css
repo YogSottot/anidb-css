@@ -462,7 +462,7 @@ span.link {
 }
 
 @media screen and (max-width: 1000px) {
-	#layout-main .g_datatable table tr td.name > a,
+	#layout-main .g_datatable table tr td.name.main > a,
 	#layout-main .g_datatable table td:before {
 		font-weight: bold;
 	}

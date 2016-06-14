@@ -651,13 +651,13 @@ input[type="text"]:disabled,
 		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 	}
 
-	#layout-main .g_datatable table tr td.name {
+	#layout-main .g_datatable table tr td.name.main {
 		background: #444 !important;
 		color: #fff;
 	}
 
-	#layout-main .g_datatable table tr td.name .i_info::after,
-	#layout-main .g_datatable table tr td.name a {
+	#layout-main .g_datatable table tr td.name.main .i_info::after,
+	#layout-main .g_datatable table tr td.name.main a {
 		color: #C0DAF0;
 	}
 }

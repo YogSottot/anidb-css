@@ -73,6 +73,10 @@
 	float: left;
 }
 
+.g_bubble.stripe > div.image img {
+	max-width: 5em;
+}
+
 .g_bubble {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -119,6 +123,10 @@
 	padding: 0.3em 0.8em 0.5em 0.5em;
 	float: left;
 	width:150px;
+}
+
+.g_bubble.box > div.image img {
+	max-width: 150px;
 }
 
 .g_bubble.box > div.top {
