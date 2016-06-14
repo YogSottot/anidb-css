@@ -96,7 +96,7 @@
 @media screen and (max-width: 600px) {
 	#layout-main .g_datatable table td.name.main:before,
 	#layout-main .g_datatable table span.icons.tooltip {
-		display: none;
+		display: none !important;
 	}
 
 	#layout-main .g_datatable table tr td.name.main {
