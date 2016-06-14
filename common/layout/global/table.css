@@ -79,6 +79,14 @@
 	#layout-main .g_datatable .g_image.missing {
 		display: none !important;
 	}
+
+	/*move to the end and give it full width*/
+	#layout-main .g_datatable table tr td.description,
+	#layout-main .g_datatable table tr td.url.site {
+	    order: 100;
+	    width: 100% !important;
+	    height: auto;
+	}
 }
 
 @media screen and (max-width: 600px) {
