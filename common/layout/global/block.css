@@ -136,4 +136,8 @@
 		height: auto;
 		width: auto;
 	}
+
+	#layout-main .g_section.info .g_image.missing {
+		display: none;
+	}
 }
