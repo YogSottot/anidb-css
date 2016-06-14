@@ -8,7 +8,7 @@
 }
 
 #layout-main div.calendar_all .g_section.middle {
-	margin: -0.5em;
+	margin: 0 -0.5em 1em;
 }
 
 #layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
@@ -16,7 +16,7 @@
 }
 
 #layout-main div.calendar_all .g_section.middle div.filter_menu.collapsed ~ div.content {
-	margin-right:2.5em;
+	margin-right: 2.5em;
 }
 
 #layout-main div.calendar_all .g_section.top,
