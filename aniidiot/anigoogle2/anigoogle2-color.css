@@ -342,6 +342,10 @@ select,
 	border-color: #CCCCCC;
 }
 
+#layout-main div.edit_actions span > *:hover,
+#layout-main ul.g_list li:hover,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main ul.g_list li.selected,
 button:hover,
 a.button:hover,
 input.button:hover,
@@ -585,7 +589,7 @@ button,
 #layout-main div.edit_actions span > *,
 #layout-main div.addfilem.form div.dump textarea,
 #layout-main div.forum div.quickreply textarea {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 #layout-tabs ul.main-tabs > li,
