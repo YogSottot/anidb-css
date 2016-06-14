@@ -4,7 +4,7 @@
 
 #layout-content {
 	margin-left: 0;
-	margin-top: 5.3em;
+	margin-top: 3.1em;
 	padding-left: 0.5em;
 }
 
@@ -103,6 +103,10 @@
 }
 
 @media screen and (max-width: 950px) {
+	#layout-content {
+		margin-top: 5.3em;
+	}
+
 	#layout-hint {
 		height: 16px;
 		overflow: hidden;
