@@ -569,6 +569,8 @@ input.f_button {
 input[type="submit"],
 input[type="button"],
 button,
+#layout-main div.calendar_all .date_selector input.year,
+#layout-main div.calendar_all .date_selector select,
 #layout-search select,
 #layout-search input.text,
 #layout-main ul.g_list li,
