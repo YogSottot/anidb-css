@@ -40,8 +40,9 @@ input[type="password"] {
 	height: 18px;
 }
 
-select {
-	min-height: 2.1em;
+button,
+select
+	height: 24px;
 }
 
 button,

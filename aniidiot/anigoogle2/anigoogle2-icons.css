@@ -168,10 +168,6 @@ button,
 	margin: 0;
 }
 
-button {
-	line-height: 17px;
-}
-
 .g_button.upload a {
 	line-height: 18px;
 }
