@@ -110,6 +110,10 @@
 	    margin: 14.1em 1em 0 0;
 	}
 
+	#layout-hint + #layout-nav + #layout-content #layout-tabs {
+		margin: 17.1em 1em 0 0;
+	}
+
 	#layout-search div.search a.advsearch {
 		display: none;
 	}
