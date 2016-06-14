@@ -589,7 +589,7 @@ button,
 #layout-main div.edit_actions span > *,
 #layout-main div.addfilem.form div.dump textarea,
 #layout-main div.forum div.quickreply textarea {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 #layout-tabs ul.main-tabs > li,
