@@ -119,11 +119,12 @@
 	clear: none;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
 	#layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
 		margin-right: 0 !important;
 	}
 
+	#layout-main div.animelist_all div.g_menu.filter_menu,
 	#layout-main div.g_menu.filter_menu {
 		display: none;
 	}
