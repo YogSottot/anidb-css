@@ -100,7 +100,7 @@
 
 	#layout-main div.main_all div.news.forum div.what,
 	#layout-main div.main_all div.news.forum div.events {
-		min-width: unset;
+		min-width: unset !important;
 		max-width: unset;
 		width:100%;
 	}
@@ -361,6 +361,7 @@
 	float:right;
 	margin-left: 0.5em;
 	margin-bottom: 0.5em;
+	width: 23em;
 }
 
 #layout-main div.main_all div.account ul.tabs {
@@ -388,6 +389,7 @@
 #layout-main div.main_all div.account table {
 	margin:0;
 	padding:0.5em 0;
+	width: 100%;
 }
 
 #layout-main div.main_all div.account table th {
@@ -397,12 +399,18 @@
 #layout-main div.main_all div.account div.login input[type="text"],
 #layout-main div.main_all div.account div.login input[type="password"] {
 	padding: 8px;
-	width:20em;
+	width: calc(100% - 1.5em);
 }
 
 #layout-main div.main_all div.account div.login button {
 	padding: 8px;
 	width: 10em;
+}
+
+@media screen and (max-width: 500px) {
+	#layout-main div.main_all div.account {
+		width: 100%;
+	}
 }
 
 /*about anidb*/
