@@ -196,3 +196,11 @@ table + select {
     text-align: left;
     display: block;
 }
+
+@media screen and (max-width: 600px) {
+	#layout-main div table td.name span.icons.tooltip,
+	#layout-main .g_bubble.box .name span.icons.tooltip,
+	#layout-main .g_bubble.stripe .name span.icons.tooltip {
+	    display: none;
+	}
+}
