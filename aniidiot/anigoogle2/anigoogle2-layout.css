@@ -109,7 +109,7 @@
 }
 
 #layout-main div.forum div.topic_actions {
-	height: 23px;
+	min-height: 23px;
 }
 
 #layout-main div.g_menu.filter_menu button.delete {

@@ -95,9 +95,10 @@
 }
 
 #layout-main div.forum div.topic_actions {
-	height: 12px;
-	margin-bottom: 0.5em;
-	margin-top: 1.5em;
+	height: auto;
+	min-height: 12px;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 #layout-main div.forum ul.topiclist div.check,
@@ -761,5 +762,11 @@ div.g_bubble.quotebody {
 
 	#layout-main div.forum ul.topiclist div.segment.icon {
 		width:100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#layout-main div.forum div.search form > * {
+		margin-bottom: 0.5em;
 	}
 }
