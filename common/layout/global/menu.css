@@ -149,6 +149,6 @@
 
 	#layout-main div.mywishlist_all div.g_menu.filter_menu,
 	#layout-main div.mylist_all div.g_menu.filter_menu {
-		display: block !important;
+		display: none !important;
 	}
 }
