@@ -775,6 +775,11 @@ div.g_bubble.quotebody {
 	#layout-main div.cmt_entries div.postbody p.author {
 	    margin: 0em 0.5em 1em 0.5em;
 	}
+
+	#layout-main div.forum div.topic_actions div.pagination > * {
+		display: block;
+		margin-top: 0.5em;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -793,11 +798,6 @@ div.g_bubble.quotebody {
 	#layout-main div.cmt_entries div.postbody span.actions > * {
 		margin-bottom: 0.5em;
 		display: inline-block;
-	}
-
-	#layout-main div.forum div.topic_actions div.pagination > * {
-		display: block;
-		margin-top: 0.5em;
 	}
 
 	#layout-main div.forum div.quickreply textarea {
