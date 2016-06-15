@@ -310,9 +310,10 @@
 	}
 
 	#layout-main div.anime_all div.episodes table th.action,
-	#layout-main div.anime_all div.episodes table td.action.episode,
+	#layout-main div.anime_all div.episodes table td.action,
 	#layout-main div.anime_all div.episodes table .epusers,
 	#layout-main div.anime_all div.episodes table .users,
+	#layout-main div.anime_all div.episodes table th.files,
 	#layout-main div.anime_all div.episodes table .number.files {
 		display: none;
 	}
