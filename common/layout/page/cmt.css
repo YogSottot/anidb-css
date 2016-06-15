@@ -787,6 +787,8 @@ div.g_bubble.quotebody {
 		flex-wrap: wrap;
 	}
 
+	#layout-main div.cmt_entries div.comment .display_options > *,
+	#layout-main div.forum div.format-buttons > *,
 	#layout-main div.forum div.search form > *,
 	#layout-main div.cmt_entries div.postbody span.actions > * {
 		margin-bottom: 0.5em;
@@ -795,5 +797,9 @@ div.g_bubble.quotebody {
 	#layout-main div.forum div.topic_actions div.pagination > * {
 		display: block;
 		margin-top: 0.5em;
+	}
+
+	#layout-main div.forum div.quickreply textarea {
+		min-width: 100%;
 	}
 }
