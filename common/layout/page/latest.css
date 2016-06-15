@@ -132,3 +132,9 @@
 	float: left;
 	margin-right: 0.5em;
 }
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.latest2_all div.content {
+		overflow: auto;
+	}
+}
