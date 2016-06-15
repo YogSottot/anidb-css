@@ -849,6 +849,6 @@ div.g_bubble.quotebody {
 	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_move,
 	#layout-main div.forum div.navbar span.icons,
 	#layout-main div.forum div.g_bubble.navbar span.messages {
-		display: none;
+		display: none !important;
 	}
 }
