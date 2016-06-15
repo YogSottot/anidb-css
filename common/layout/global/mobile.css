@@ -1,4 +1,0 @@
-/*disable font boosting/inflation*/
-html * {
-	max-height: 999999px;
-}
