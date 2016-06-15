@@ -70,6 +70,7 @@
 	text-align: left;
 }
 @media screen and (max-width: 800px) {
+	#layout-main div.animeatt_reviews div.review div.text + div.note,
 	#layout-main div.animeatt_reviews div.review div.text {
 		margin-right: 0;
 	}
