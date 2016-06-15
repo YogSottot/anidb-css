@@ -233,6 +233,66 @@
 	}
 }
 
+@media screen and (max-width: 1000px) {
+	#layout-main div.userpage_all .g_section.info {
+		margin-top: 0;
+		float: none;
+		margin-bottom: 0;
+	}
+
+	#layout-main div.userpage_all div.g_menu.left div.info {
+		display: block;
+	}
+
+	#layout-main div.userpage_all div.g_menu.left > div.stats,
+	#layout-main div.userpage_all div.g_menu.left > div.buddies,
+	#layout-main div.userpage_all div.g_menu.right,
+	#layout-main div.userpage_all > .g_section.info {
+		display: none;
+	}
+
+	#layout-main div.userpage_all .g_section.info,
+	#layout-main div.userpage_all div.block,
+	#layout-main div.userpage_all div.block > div.image,
+	#layout-main div.userpage_all div.block > div.data,
+	#layout-main div.userpage_all div.g_menu.left,
+	#layout-main div.userpage_all > div.g_section {
+		width:100%;
+		float: none;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs) {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog) {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook) {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 515px) {
+	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies) {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes) {
+		display: none;
+	}
+}
+
 /*IE hack for not being able to handle wraps in nested flex*/
 #anidb.internet_explorer div.userpage_all .g_section.favourites > .g_bubblewrap,
 #anidb.internet_explorer div.userpage_all .g_section.achievements > .g_bubblewrap {

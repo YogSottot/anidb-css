@@ -53,6 +53,11 @@
 		display: none !important;
 	}
 }
+@media screen and (max-width: 1000px) {
+	#layout-tabs ul {
+		white-space: nowrap;
+	}
+}
 
 @media screen and (max-width: 710px) {
 	#layout-tabs ul.main-tabs > li.customise {
