@@ -654,6 +654,10 @@ div.g_bubble.quotebody {
 
 #layout-main div.forum .segment div.title a.topictitle {
 	display: block;
+	margin-left: -3.5em;
+	padding-left: 3.5em;
+	margin-top: -0.4em;
+	padding-top: 0.4em;
 }
 
 #layout-main div.forum div.content .youtube iframe {
@@ -784,10 +788,14 @@ div.g_bubble.quotebody {
 		min-width: 100%;
 	}
 
+	#layout-main div.forum .display_options > *,
 	#layout-main div.forum div.topic_actions div.pagination > *,
 	#layout-main div.forum div.search form > * {
 		margin-bottom: 0.5em;
 		display: inline-block;
+	}
+
+	#layout-main div.forum div.topic_actions div.pagination > *{
 		margin-right: 0.3em;
 	}
 
@@ -795,8 +803,8 @@ div.g_bubble.quotebody {
 	    width: calc(100% - 17.4em);
 	}
 
-	#layout-main div.forum div.search form input.search {
-	    width: calc(100% - 17.4em);
+	#layout-main div.forum .segment div.title a.topictitle {
+		margin-right: 0.5em;
 	}
 }
 
