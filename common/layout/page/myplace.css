@@ -295,7 +295,7 @@
 }
 
 @media screen and (max-width: 425px) {
-	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes) {
+	#layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes) {
 		display: none;
 	}
 }
