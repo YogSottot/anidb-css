@@ -152,6 +152,11 @@
 	margin-left: 0.5em;
 }
 
+/*signature*/
+#layout-main div.userpage_all .signature img {
+	max-width: 100%;
+}
+
 @media screen and (max-width: 1500px) {
 	#layout-main div.userpage_all div.g_menu.left div.info {
 		display: none;
