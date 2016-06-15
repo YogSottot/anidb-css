@@ -780,6 +780,10 @@ div.g_bubble.quotebody {
 		display: block;
 		margin-top: 0.5em;
 	}
+
+	#layout-main div.forum div.quickreply textarea {
+		min-width: 100%;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -798,10 +802,6 @@ div.g_bubble.quotebody {
 	#layout-main div.cmt_entries div.postbody span.actions > * {
 		margin-bottom: 0.5em;
 		display: inline-block;
-	}
-
-	#layout-main div.forum div.quickreply textarea {
-		min-width: 100%;
 	}
 
 	#layout-main div.cmt_entries div.profile div.user_icons {
