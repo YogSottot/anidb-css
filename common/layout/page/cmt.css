@@ -757,6 +757,10 @@ div.g_bubble.quotebody {
 }
 /*</polls>*/
 
+#layout-main div.forum div.topic_actions div.pagination {
+	margin-top: 0.5em;
+}
+
 @media screen and (max-width: 800px) {
 	#layout-main div.forum ul.topiclist div.posts,
 	#layout-main div.forum ul.topiclist div.views,
@@ -776,15 +780,11 @@ div.g_bubble.quotebody {
 	    margin: 0em 0.5em 1em 0.5em;
 	}
 
-	#layout-main div.forum div.topic_actions div.pagination > * {
-		display: block;
-		margin-top: 0.5em;
-	}
-
 	#layout-main div.forum div.quickreply textarea {
 		min-width: 100%;
 	}
 
+	#layout-main div.forum div.topic_actions div.pagination > *,
 	#layout-main div.forum div.search form > * {
 		margin-bottom: 0.5em;
 		display: inline-block;
@@ -793,9 +793,13 @@ div.g_bubble.quotebody {
 	#layout-main div.forum div.search form input.search {
 	    width: calc(100% - 17.4em);
 	}
+
+	#layout-main div.forum div.search form input.search {
+	    width: calc(100% - 17.4em);
+	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 635px) {
 	#layout-main div.cmt_entries div.postbody span.actions {
 		height: auto !important;
 	}
@@ -822,5 +826,10 @@ div.g_bubble.quotebody {
 
 	#layout-main div.cmt_entries div.postbody div.content {
 		margin-lefT: 11em;
+	}
+
+	#layout-main div.forum div.navbar span.icons,
+	#layout-main div.forum div.g_bubble.navbar span.messages {
+		display: none;
 	}
 }
