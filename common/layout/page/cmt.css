@@ -784,6 +784,15 @@ div.g_bubble.quotebody {
 	#layout-main div.forum div.quickreply textarea {
 		min-width: 100%;
 	}
+
+	#layout-main div.forum div.search form > * {
+		margin-bottom: 0.5em;
+		display: inline-block;
+	}
+
+	#layout-main div.forum div.search form input.search {
+	    width: calc(100% - 17.4em);
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -798,7 +807,6 @@ div.g_bubble.quotebody {
 
 	#layout-main div.cmt_entries .display_options > *,
 	#layout-main div.forum div.format-buttons > *,
-	#layout-main div.forum div.search form > *,
 	#layout-main div.cmt_entries div.postbody span.actions > * {
 		margin-bottom: 0.5em;
 		display: inline-block;
