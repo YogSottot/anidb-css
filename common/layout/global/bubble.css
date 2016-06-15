@@ -198,6 +198,15 @@
 	padding: 0.5em;
 }
 
+.g_bubble.stripe.review > div.data div.text {
+	max-height: 15em;
+	overflow: hidden;
+}
+
+.g_bubble.stripe.review > div.data div.votes > div {
+	display: inline-block;
+}
+
 /*hack because css4 child selectors aren't supported yet by any browser*/
 #layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
 	margin: -0.5em;
@@ -206,6 +215,6 @@
 
 @media screen and (max-width: 450px) {
 	.g_bubble.stripe {
-	    width: 300px;
+		width: 300px;
 	}
 }
