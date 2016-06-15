@@ -787,7 +787,7 @@ div.g_bubble.quotebody {
 		flex-wrap: wrap;
 	}
 
-	#layout-main div.cmt_entries div.comment .display_options > *,
+	#layout-main div.cmt_entries .display_options > *,
 	#layout-main div.forum div.format-buttons > *,
 	#layout-main div.forum div.search form > *,
 	#layout-main div.cmt_entries div.postbody span.actions > * {
