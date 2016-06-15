@@ -49,3 +49,9 @@
 #layout-main div.mylist_all table.eplist th {
 	padding: 0 1em;
 }
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.mylist_all .mylist_list {
+		overflow: auto;
+	}
+}

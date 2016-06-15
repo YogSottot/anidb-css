@@ -46,3 +46,9 @@
 #layout-main div.mywishlist_all td.type {
 	white-space:nowrap;
 }
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.mywishlist_all .wishlist {
+		overflow: auto;
+	}
+}

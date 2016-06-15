@@ -32,3 +32,9 @@
 #layout-main div.myvotes_all td.number {
 	width:3em;
 }
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.myvotes_all > div.g_section {
+		overflow: auto;
+	}
+}

@@ -17,3 +17,9 @@
 #notification_edit table {
 	width:100%;
 }
+
+@media screen and (max-width: 1000px) {
+	#layout-main div.mynotifies_all .mynotifies_list {
+		overflow: auto;
+	}
+}
