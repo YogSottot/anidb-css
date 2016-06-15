@@ -45,6 +45,10 @@ select {
 	height: 24px;
 }
 
+select.shuttle {
+	height: auto;
+}
+
 button,
 select,
 input[type="text"],
