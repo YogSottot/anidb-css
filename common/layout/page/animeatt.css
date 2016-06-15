@@ -69,3 +69,70 @@
 	padding-top: 1px;
 	text-align: left;
 }
+@media screen and (max-width: 800px) {
+	#layout-main div.animeatt_reviews div.review div.text {
+		margin-right: 0;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar {
+		width:auto;
+		float:none;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar > div.avatar {
+		order: 1;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar > div.menu {
+		order: 2;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar > div.rating {
+		order: 3;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar > div.menu h4 {
+		display: none;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar > div.avatar,
+	#layout-main div.animeatt_reviews div.review div.bar > div.menu {
+		width: 50%;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar tbody {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar th {
+		min-width: 6em;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar td {
+		width: 100%;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar tr + tr td,
+	#layout-main div.animeatt_reviews div.review div.bar tr + tr th {
+		border-top: none !important;
+	}
+
+	#layout-main div.animeatt_reviews div.review div.bar tr {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 635px) {
+	#layout-main div.animeatt_reviews div.review div.bar tr {
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#layout-main div.animeatt_reviews div.review div.bar tr {
+		width: 50%;
+	}
+}
