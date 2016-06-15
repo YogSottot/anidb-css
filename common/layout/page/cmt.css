@@ -792,6 +792,7 @@ div.g_bubble.quotebody {
 	#layout-main div.forum div.search form > *,
 	#layout-main div.cmt_entries div.postbody span.actions > * {
 		margin-bottom: 0.5em;
+		display: inline-block;
 	}
 
 	#layout-main div.forum div.topic_actions div.pagination > * {
