@@ -767,15 +767,29 @@ div.g_bubble.quotebody {
 	#layout-main div.forum ul.topiclist div.segment.icon {
 		width:100%;
 	}
-}
 
-@media screen and (max-width: 600px) {
-	#layout-main div.forum div.search form > * {
+	#layout-main div.forum div.topic_actions div.buttons > * {
 		margin-bottom: 0.5em;
 	}
 
+	#layout-main div.cmt_entries div.postbody p.author {
+	    margin: 0em 0.5em 1em 0.5em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#layout-main div.cmt_entries div.postbody p.author {
+	    margin: 3em 0.5em 1em 0.5em;
+	}
+
+	#layout-main div.cmt_entries div.postbody span.actions,
 	#layout-main div.forum div.topic_actions {
 		flex-wrap: wrap;
+	}
+
+	#layout-main div.forum div.search form > *,
+	#layout-main div.cmt_entries div.postbody span.actions > * {
+		margin-bottom: 0.5em;
 	}
 
 	#layout-main div.forum div.topic_actions div.pagination > * {
