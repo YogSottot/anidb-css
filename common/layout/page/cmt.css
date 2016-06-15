@@ -388,6 +388,10 @@
 	padding-top: .3em;
 }
 
+#layout-main div.forum div.topic_actions div.buttons a.i_topic_add {
+	min-width: 11em;
+}
+
 #layout-main div.forum div.topic_actions div.buttons a.i_forum_add,
 #layout-main div.forum div.topic_actions div.buttons a.i_forum_group {
 	float: right;
@@ -768,5 +772,14 @@ div.g_bubble.quotebody {
 @media screen and (max-width: 600px) {
 	#layout-main div.forum div.search form > * {
 		margin-bottom: 0.5em;
+	}
+
+	#layout-main div.forum div.topic_actions {
+		flex-wrap: wrap;
+	}
+
+	#layout-main div.forum div.topic_actions div.pagination > * {
+		display: block;
+		margin-top: 0.5em;
 	}
 }
