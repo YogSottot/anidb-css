@@ -779,7 +779,7 @@ div.g_bubble.quotebody {
 
 @media screen and (max-width: 600px) {
 	#layout-main div.cmt_entries div.postbody span.actions {
-		height: auto;
+		height: auto !important;
 	}
 
 	#layout-main div.cmt_entries div.postbody span.actions,
