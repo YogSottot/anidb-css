@@ -389,7 +389,7 @@
 }
 
 #layout-main div.forum div.topic_actions div.buttons a.i_topic_add {
-	min-width: 11em;
+	min-width: 6em;
 }
 
 #layout-main div.forum div.topic_actions div.buttons a.i_forum_add,
@@ -788,6 +788,7 @@ div.g_bubble.quotebody {
 	#layout-main div.forum div.search form > * {
 		margin-bottom: 0.5em;
 		display: inline-block;
+		margin-right: 0.3em;
 	}
 
 	#layout-main div.forum div.search form input.search {
