@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-	#layout-main div.mywishlist_all .wishlist {
+	#layout-main div.mywishlist_all .wishlist > form {
 		overflow: auto;
 	}
 }

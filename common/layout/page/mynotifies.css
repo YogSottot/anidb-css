@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-	#layout-main div.mynotifies_all .mynotifies_list {
+	#layout-main div.mynotifies_all .mynotifies_list > form {
 		overflow: auto;
 	}
 }
