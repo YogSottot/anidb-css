@@ -45,11 +45,10 @@
 }
 
 #layout-main div.cmt_entries div.profile {
-	border-right: 1px solid;
 	display: inline;
 	float: left;
 	margin: 4px 8px 8pt 8pt;
-	min-height: 80px;
+	min-height: 10em;
 	width: 15em;
 }
 
@@ -825,8 +824,14 @@ div.g_bubble.quotebody {
 		display: inline-block;
 	}
 
+	#layout-main div.cmt_entries div.profile div.joined,
+	#layout-main div.cmt_entries div.profile div.posts,
 	#layout-main div.cmt_entries div.profile div.user_icons {
 		display: none;
+	}
+
+	#layout-main div.cmt_entries div.profile div.rank {
+		margin-bottom: 0;
 	}
 
 	#layout-main div.cmt_entries div.profile {
@@ -834,9 +839,14 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.cmt_entries div.postbody div.content {
-		margin-lefT: 11em;
+		margin-left: 1em;
 	}
 
+	#f_mode,
+	#layout-main div.forum div.topic_actions a.i_topic_split,
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_info,
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_revisions,
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_move,
 	#layout-main div.forum div.navbar span.icons,
 	#layout-main div.forum div.g_bubble.navbar span.messages {
 		display: none;

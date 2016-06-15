@@ -18,10 +18,7 @@ height: 24px;
 margin-left: 0;
 margin-right: 0;
 border: 1px solid #D6D3CE;
-background-color: #FFFFFF;
-margin-right: 2px;
-/* text-indent works badly on IE versions < 8, as IE treats inputs as text */
-/*text-indent: -5000px;*/
+background-color: #FFFFFF;s
 }
 
 .format-buttons select {
