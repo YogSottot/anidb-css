@@ -10,8 +10,3 @@ input[type="button"] {
 	border-radius:5px;
 	border:1px solid;
 }
-
-#layout-main div.animeatt_reviews div.review span.stamp,
-#layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
-	border: 1px solid;
-}

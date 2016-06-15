@@ -65,15 +65,7 @@
 #layout-main div.animeatt_reviews div.review span.stamp {
 	display: block;
 	margin-bottom: 1.5em;
-	margin-top: 0;
+	margin-top: -0.5em;
 	padding-top: 1px;
-	text-align: left;
-	width:45%;
-}
-
-#layout-main div.animeatt_reviews div.review h4 {
-	display: table-cell;
-	padding-left: 0.5em;
-	padding-right: 1.5em;
 	text-align: left;
 }
