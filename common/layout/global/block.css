@@ -128,6 +128,10 @@
 	#layout-main .g_section.info .tabbed_pane {
 		margin: 0;
 	}
+
+	#layout-main .g_section.info .g_image.missing {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 450px) {
@@ -135,9 +139,5 @@
 		max-width: 100%;
 		height: auto;
 		width: auto;
-	}
-
-	#layout-main .g_section.info .g_image.missing {
-		display: none;
 	}
 }
