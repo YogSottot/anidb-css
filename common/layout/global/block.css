@@ -134,6 +134,12 @@
 	}
 }
 
+@media screen and (max-width: 550px) {
+	#layout-main .g_section.info {
+		margin-top: 0;
+	}
+}
+
 @media screen and (max-width: 450px) {
 	#layout-main .g_section.info .g_image {
 		max-width: 100%;

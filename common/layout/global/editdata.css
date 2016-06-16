@@ -24,6 +24,13 @@
 	display:none;
 }
 
+@media screen and (max-width: 950px) {
+	#layout-main .g_section.info div.edit_actions {
+		margin-top: -1em;
+		margin-bottom: 1em;
+	}
+}
+
 @media screen and (max-width: 800px) {
 	#layout-main .g_section.info div.edit_actions {
 		width: 100%;
@@ -36,9 +43,5 @@
 	#layout-main div.edit_actions,
 	#layout-main .g_section.info div.edit_actions {
 		display: none;
-	}
-
-	#layout-main .g_section.info {
-		margin-top: 0;
 	}
 }
