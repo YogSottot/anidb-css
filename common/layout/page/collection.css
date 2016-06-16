@@ -22,3 +22,10 @@
 #layout-main div.collection_all > .g_section.tabbed_pane:not(.hidden) {
 	margin: 2.5em 0 1.5em;
 }
+
+@media screen and (max-width: 950px) {
+	#layout-main div.collection_all div.g_section.anime .container,
+	#layout-main div.collection_all div.g_section.tracklist .container {
+		overflow: auto;
+	}
+}
