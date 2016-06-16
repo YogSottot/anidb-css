@@ -4,7 +4,7 @@
 
 #layout-content {
 	margin-left: 0;
-	margin-top: 3.1em;
+	margin-top: 3.5em;
 	padding-left: 0.5em;
 }
 
@@ -81,11 +81,11 @@
 }
 
 #layout-tabs {
-	margin: 116px 3px 0;
+	margin: 11.4em 0.5em 0;
 }
 
 #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 132px 3px 0;
+	margin: 132px 0.5em 0;
 }
 
 #layout-hint + #layout-nav #layout-menu,

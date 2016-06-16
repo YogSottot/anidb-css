@@ -765,6 +765,10 @@ div.g_bubble.quotebody {
 }
 
 @media screen and (max-width: 800px) {
+	#layout-main div.forum ul.topiclist div.to,
+	#layout-main div.forum ul.topiclist div.type,
+	#layout-main div.forum ul.topiclist div.read,
+	#layout-main div.forum ul.topiclist div.actions,
 	#layout-main div.forum ul.topiclist div.posts,
 	#layout-main div.forum ul.topiclist div.views,
 	#layout-main div.forum ul.topiclist div.lastpost {
