@@ -49,7 +49,7 @@
 	float: left;
 	margin: 0.4em 0.8em 0.8em;
 	min-height: 10em;
-	width: 15em;
+	width: 11em;
 }
 
 #layout-main div.cmt_entries div.profile div {
@@ -71,7 +71,7 @@
 }
 
 #layout-main div.cmt_entries div.postbody div.content {
-	margin-left: 17em;
+	margin-left: 13em;
 	margin-right: 1em;
 }
 
@@ -793,6 +793,7 @@ div.g_bubble.quotebody {
 		display: inline-block;
 	}
 
+	#layout-main div.forum div.topic_actions a.i_topic_split,
 	#layout-main div.forum div.topic_actions div.pagination > span.cnt,
 	#layout-main div.forum div.topic_actions div.pagination > span.range,
 	#layout-main div.forum div.topic_actions div.pagination > span + span::before {
@@ -863,7 +864,7 @@ div.g_bubble.quotebody {
 	}
 
 	#f_mode,
-	#layout-main div.forum div.topic_actions a.i_topic_split,
+	#layout-main div.forum div.topic_actions a.i_topic_move,
 	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_info,
 	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_move,
 	#layout-main div.forum div.navbar span.icons,
