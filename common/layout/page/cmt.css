@@ -793,17 +793,17 @@ div.g_bubble.quotebody {
 		display: inline-block;
 	}
 
-	#layout-main div.forum div.topic_actions div.pagination > span.cnt
+	#layout-main div.forum div.topic_actions div.pagination > span.cnt,
 	#layout-main div.forum div.topic_actions div.pagination > span.range,
 	#layout-main div.forum div.topic_actions div.pagination > span + span::before {
 		display: none;
 	}
 
-	#layout-main div div.forum div.searchnot(.postsearch) form input.search {
+	#layout-main div.forum div.search:not(.postsearch) form input.search {
 	    width: calc(100% - 17.1em);
 	}
 
-	#layout-main div:not(.cmt_all) div.forum div.search.postsearch form input.search {
+	#layout-main div.forum div.search.postsearch form input.search {
 	    width: calc(100% - 6.3em);
 	}
 
@@ -865,6 +865,7 @@ div.g_bubble.quotebody {
 	#f_mode,
 	#layout-main div.forum div.topic_actions a.i_topic_split,
 	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_info,
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_move,
 	#layout-main div.forum div.navbar span.icons,
 	#layout-main div.forum div.g_bubble.navbar span.messages {
 		display: none !important;
