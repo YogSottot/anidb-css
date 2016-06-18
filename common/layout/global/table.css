@@ -75,7 +75,7 @@
 	}
 
 	#layout-main .g_datatable table tr td.thumb img {
-		width: calc(100vw - 3.5em);
+		width: auto;
 		max-width: 400px;
 	}
 
@@ -106,6 +106,10 @@
 	#layout-main .g_datatable table tr td.name.main > a {
 		margin-left: 0;
 		width: calc(100% - 4em);
+	}
+
+	#layout-main .g_datatable table tr td.thumb img {
+		width: calc(100vw - 3.5em);
 	}
 }
 
