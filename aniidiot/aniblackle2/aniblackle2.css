@@ -13,3 +13,8 @@
 #layout-footer:after {
 	content:"design by deridiot inspired by blackle";
 }
+
+@media screen and (max-width: 1000px) {
+	@import "../common/floaty-menu.css";
+	@import "../aniblackle2-menu/aniblackle2-menu-color.css";
+}

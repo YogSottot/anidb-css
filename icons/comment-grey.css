@@ -141,6 +141,12 @@
 	width:77px;
 }
 
+*.i_topic_read {
+	background-image:url(../icons/grey/topic_read.png);
+	height:12px;
+	width:63px;
+}
+
 *.i_comment_revisions {
 	width: 87px;
 	height: 12px;

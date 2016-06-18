@@ -3,6 +3,24 @@
 	background:url("images/logo.png") no-repeat scroll left top transparent;
 }
 
+@media screen and (max-width: 950px) {
+	#layout-search {
+		background:url("images/logo-wide.png") no-repeat scroll left top transparent;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#layout-search {
+		background:url("images/logo.png") no-repeat scroll center top transparent;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	#layout-search {
+		background:url("images/logo-small.png") no-repeat scroll center top transparent;
+	}
+}
+
 /*logo @ 1280*/
 @media screen and (min-width: 1235px) {
 	#layout-search

@@ -9,3 +9,7 @@
 #layout-main h2 + div.edit_actions {
     margin-top: -2.5em;
 }
+
+#layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
+	padding: 2px;
+}

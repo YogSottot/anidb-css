@@ -1,0 +1,16 @@
+#layout-menu {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	background-color: #FFFFFF;
+}
+
+#layout-menu li.sub-menu + li.sub-menu {
+	border-left: 1px solid #CCCCCC !important;
+}
+
+#layout-menu li.sub-menu:hover {
+	background-color: #444444;
+}
+
+#layout-menu li.sub-menu:hover span.tab {
+	color: #FFFFFF !important;
+}

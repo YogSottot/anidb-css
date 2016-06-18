@@ -69,3 +69,13 @@
 		max-width: unset;
 	}
 }
+
+@media screen and (max-width: 950px) {
+	#layout-main div.group_all div.g_section.group_released .container {
+		overflow: auto;
+	}
+
+	#layout-main div.group_all h2 + h4 {
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,116 @@
+@media screen and (max-width: 1000px) {
+	#layout-main .g_datatable table td span.icons {
+		display: inline-block !important;
+	}
+
+	#layout-main .g_datatable table td.name.main span.icons.tooltip,
+	#layout-main .g_datatable table td.name.main span.icons {
+		vertical-align: top;
+		padding-top: 0.5em;
+	}
+
+	#layout-tabs ul.main-tabs > li.forum2,
+	#layout-tabs ul.main-tabs > li.forum3,
+	#layout-main .g_datatable table + p,
+	#layout-main .g_datatable table tr td.number,
+	#layout-main .g_datatable table tr td.awards,
+	#layout-main .g_datatable table tr td.check,
+	#layout-main .g_datatable table thead {
+		display: none;
+	}
+
+	#layout-main .g_datatable table td,
+	#layout-main .g_datatable table tr {
+		display: block;
+	}
+
+	#layout-main .g_datatable table tr {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#layout-main .g_datatable table td {
+		display: block;
+		width: auto !important;
+		padding: 0.2em 0.5em;
+		text-align: left !important;
+		width: 19em !important;
+	}
+
+	#layout-main .g_datatable table td:before {
+		display: inline-block;
+		width: 10em;
+		vertical-align: top;
+	}
+
+	#layout-main .g_datatable table tr {
+		margin-bottom: 1.5em;
+	}
+
+	#layout-main .g_datatable table tr td.name.main {
+		order: -1;
+		height: auto;
+	}
+
+	#layout-main .g_datatable table tr td.name.main > a {
+		margin-left: 0.5em;
+		display: inline-block;
+		width: calc(100% - 5em);
+		padding: 0.5em;
+	}
+
+	#layout-main .g_datatable table td.thumb:before,
+	#layout-main .g_datatable table td.name.main:before {
+		width: 0;
+	}
+
+	#layout-main .g_datatable table tr td.thumb,
+	#layout-main .g_datatable table tr td.name.main {
+		height: auto;
+		width: 100% !important;
+	}
+
+	#layout-main .g_datatable table tr td.thumb {
+		padding-top:0.5em;
+	}
+
+	#layout-main .g_datatable table tr td.thumb img {
+		width: calc(100vw - 3.5em);
+		max-width: 400px;
+	}
+
+	#layout-main .g_datatable .g_image.missing {
+		display: none !important;
+	}
+
+	/*move to the end and give it full width*/
+	#layout-main .g_datatable table tr td.last.anime.name,
+	#layout-main .g_datatable table tr td.description,
+	#layout-main .g_datatable table tr td.url.site {
+	    order: 100;
+	    width: 100% !important;
+	    height: auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#layout-main .g_datatable table td.name.main:before,
+	#layout-main .g_datatable table span.icons.tooltip {
+		display: none !important;
+	}
+
+	#layout-main .g_datatable table tr td.name.main {
+		padding: 0 0.5em 0 0;
+	}
+
+	#layout-main .g_datatable table tr td.name.main > a {
+		margin-left: 0;
+		width: calc(100% - 4em);
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#layout-main div.animelist_all table tr td.thumb {
+		padding: 0.5em 0 0 0;
+	}
+}

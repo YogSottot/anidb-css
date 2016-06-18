@@ -73,6 +73,10 @@
 	float: left;
 }
 
+.g_bubble.stripe > div.image img {
+	max-width: 5em;
+}
+
 .g_bubble {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -119,6 +123,10 @@
 	padding: 0.3em 0.8em 0.5em 0.5em;
 	float: left;
 	width:150px;
+}
+
+.g_bubble.box > div.image img {
+	max-width: 150px;
 }
 
 .g_bubble.box > div.top {
@@ -190,8 +198,23 @@
 	padding: 0.5em;
 }
 
+.g_bubble.stripe.review > div.data div.text {
+	max-height: 15em;
+	overflow: hidden;
+}
+
+.g_bubble.stripe.review > div.data div.votes > div {
+	display: inline-block;
+}
+
 /*hack because css4 child selectors aren't supported yet by any browser*/
 #layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
 	margin: -0.5em;
 	width: calc(100% + 1em);
+}
+
+@media screen and (max-width: 450px) {
+	.g_bubble.stripe {
+		width: 300px;
+	}
 }

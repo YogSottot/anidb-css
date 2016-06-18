@@ -81,8 +81,6 @@ tr + tr th,
 	border-top: 2px dotted;
 }
 
-#layout-main div.animeatt_reviews div.review span.stamp,
-#layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 #layout-main div.info div.extra div table,
 #layout-main > h1,
 #layout-nav div.menu_hr,
@@ -123,7 +121,6 @@ a,
 
 #layout-main div.mylist_all table.filelist tr.action td.submit,
 #layout-main div.mylist_all table.eplist tr.action td.submit,
-#layout-main div.animeatt_reviews div.review h4,
 #layout-main div.userpage_all div.blog div.g_timedentry h4,
 #layout-main div.anime_all div.info div.extra div tr.more td,
 #layout-main div.g_definitionlist tr:first-child th,
@@ -178,11 +175,6 @@ input[type="button"],
 	border-radius: 0 5px 0 0;
 }
 
-#layout-main div.animeatt_reviews div.review h4,
-#layout-main div.userpage_all div.blog div.g_timedentry h4 {
-	border-radius: 0 10px 0 0;
-}
-
 #layout-main div.info div.extra div h2,
 #layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs > li {
@@ -201,4 +193,11 @@ input[type="button"],
 #layout-main .g_section > h2,
 #layout-main .g_section > form > h2 {
 	border-bottom: 1px solid;
+}
+
+@media screen and (max-width: 1000px) {
+	#layout-main .g_datatable table td + td,
+	#layout-main .g_datatable table tr + tr td {
+		border: none !important;
+	}
 }

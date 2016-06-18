@@ -1,35 +1,3 @@
-#layout-main div.edit_actions {
-	float:right;
-	margin-top: -2.5em;
-	margin-right: 0.5em;
-}
-
-#layout-main .g_content:not(.sidebar) .g_section.info div.edit_actions {
-	margin-top: -2.2em;
-}
-
-#layout-main h2 + div.edit_actions {
-	margin-top: -3em;
-}
-
-#layout-main .g_content:not(.sidebar) .g_section.info div.edit_actions,
-#layout-main div.edit_actions {
-	float:right;
-	margin-top: -2.2em;
-	margin-right: 0.5em;
-}
-
-#layout-main div.edit_actions > span:before {
-	content: "[";
-}
-#layout-main div.edit_actions > span:after {
-	content: "]";
-}
-
-#layout-main div.edit_actions > span + span:before {
-	content:" - [";
-}
-
 #layout-main div.anime_all ul.links_top,
 #layout-main div.creator_all ul.links_top,
 #layout-main div.character_all ul.links_top,
@@ -42,4 +10,39 @@
 #layout-main div.song_all ul.links_top,
 #layout-main div.tag_all ul.links_top {
 	display:none;
+}
+
+#layout-main div.edit_actions {
+	float:right;
+	margin-right: 0.5em;
+	height: auto;
+}
+
+#layout-main h2 + div.edit_actions {
+	margin-top: -3em;
+}
+
+#layout-main h4 + div.edit_actions {
+	margin-top: -2.5em;
+	margin-bottom: 1em;
+}
+
+@media screen and (max-width: 950px) {
+	#layout-main .g_msg ~ .g_section.info div.edit_actions {
+		margin-top: -1em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#layout-main .g_section.info div.edit_actions {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#layout-main div.edit_actions,
+	#layout-main .g_section.info div.edit_actions {
+		display: none;
+	}
 }

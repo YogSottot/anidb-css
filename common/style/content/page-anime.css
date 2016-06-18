@@ -17,3 +17,7 @@
 #layout-main span.myvote > a:after {
 	content: ']'
 }
+
+#layout-main .g_bubble.stripe.review > div.data div.votes div.rating span.value:after {
+	content: ", ";
+}

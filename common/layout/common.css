@@ -103,6 +103,11 @@ body.nonav #layout-main h1 {
 	padding-right: 0.3em;
 }
 
+#layout-main div.anime_all div.info div.extra div td.name a + span.icons.tooltip,
+#layout-main div.anime_all table.songlist td.creator > a + span.icons.tooltip {
+	padding-top: 0.2em;
+}
+
 #layout-main .icons .i_icon,
 #layout-main div.group_released tr td.languages span.i_icon,
 #layout-main div.anime_all div.groups td.languages span.i_icon,
@@ -195,4 +200,12 @@ table + select {
     padding: 0.5em 0.5em 0;
     text-align: left;
     display: block;
+}
+
+@media screen and (max-width: 600px) {
+	#layout-main div table td.name span.icons.tooltip,
+	#layout-main .g_bubble.box .name span.icons.tooltip,
+	#layout-main .g_bubble.stripe .name span.icons.tooltip {
+	    display: none;
+	}
 }

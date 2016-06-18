@@ -51,3 +51,16 @@
 #layout-main div.msg_all div.forum ul.topics div.read {
 	line-height: 2.5em;
 }
+
+@media screen and (max-width: 800px) {
+	#layout-main div.msg_all div.forum ul.topiclist div.to,
+	#layout-main div.msg_all div.forum ul.topiclist div.type,
+	#layout-main div.msg_all div.forum ul.topiclist div.read,
+	#layout-main div.msg_all div.forum ul.topiclist div.actions {
+		display: none;
+	}
+
+	#layout-main div.msg_all div.forum ul.topiclist div.segment.icon {
+		width: calc(100% - 4.5em);
+	}
+}

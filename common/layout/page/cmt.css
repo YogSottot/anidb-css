@@ -15,7 +15,6 @@
 	justify-content: space-between;
 }
 
-#layout-main div.forum_all div.forum div.topic_actions,
 #layout-main div.cmt_entries div.postfooter,
 #layout-main div.cmt_entries div.postbody span.actions {
 	-webkit-flex-flex-direction: row-reverse;
@@ -45,12 +44,11 @@
 }
 
 #layout-main div.cmt_entries div.profile {
-	border-right: 1px solid;
 	display: inline;
 	float: left;
-	margin: 4px 8px 8pt 8pt;
-	min-height: 80px;
-	width: 15em;
+	margin: 0.4em 0.8em 0.8em;
+	min-height: 10em;
+	width: 11em;
 }
 
 #layout-main div.cmt_entries div.profile div {
@@ -72,7 +70,7 @@
 }
 
 #layout-main div.cmt_entries div.postbody div.content {
-	margin-left: 17em;
+	margin-left: 13em;
 	margin-right: 1em;
 }
 
@@ -95,9 +93,10 @@
 }
 
 #layout-main div.forum div.topic_actions {
-	height: 12px;
-	margin-bottom: 0.5em;
-	margin-top: 1.5em;
+	height: auto;
+	min-height: 12px;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 #layout-main div.forum ul.topiclist div.check,
@@ -387,6 +386,10 @@
 	padding-top: .3em;
 }
 
+#layout-main div.forum div.topic_actions div.buttons a.i_topic_add {
+	min-width: 6em;
+}
+
 #layout-main div.forum div.topic_actions div.buttons a.i_forum_add,
 #layout-main div.forum div.topic_actions div.buttons a.i_forum_group {
 	float: right;
@@ -428,7 +431,8 @@
 }
 
 #layout-main div.forum div.search form input.search {
-	width: 200px;
+	width: 300px;
+	min-width: 169px;
 }
 
 #layout-main div.forum div.search form input,
@@ -649,6 +653,10 @@ div.g_bubble.quotebody {
 
 #layout-main div.forum .segment div.title a.topictitle {
 	display: block;
+	margin-left: -3.5em;
+	padding-left: 3.5em;
+	margin-top: -0.4em;
+	padding-top: 0.4em;
 }
 
 #layout-main div.forum div.content .youtube iframe {
@@ -751,3 +759,125 @@ div.g_bubble.quotebody {
 	padding-left: 1em;
 }
 /*</polls>*/
+
+#layout-main div.forum div.topic_actions div.linklist,
+#layout-main div.forum div.topic_actions div.pagination {
+	margin-top: 0.3em;
+	margin-right: 0;
+}
+
+@media screen and (max-width: 800px) {
+	#layout-main div.forum ul.topiclist div.posts,
+	#layout-main div.forum ul.topiclist div.views,
+	#layout-main div.forum ul.topiclist div.lastpost {
+		display: none;
+	}
+
+	#layout-main div.forum ul.topiclist div.segment.icon {
+		width: calc(100% - 0.5em);
+	}
+
+	#layout-main div.forum div.topic_actions div.buttons > * {
+		margin-bottom: 0.5em;
+	}
+
+	#layout-main div.cmt_entries div.postbody p.author {
+	    margin: 0em 0.5em 1em 0.5em;
+	}
+
+	#layout-main div.forum div.quickreply textarea {
+		min-width: 100%;
+	}
+
+	#layout-main div.forum .display_options > * {
+		margin-bottom: 0.5em;
+		display: inline-block;
+	}
+
+	#layout-main div.forum div.topic_actions a.i_topic_history,
+	#layout-main div.forum div.topic_actions a.i_topic_split,
+	#layout-main div.forum div.topic_actions div.pagination > span.cnt,
+	#layout-main div.forum div.topic_actions div.pagination > span.range,
+	#layout-main div.forum div.topic_actions div.pagination > span + span::before {
+		display: none;
+	}
+
+	#layout-main div.forum div.search:not(.postsearch) form input.search {
+	    width: calc(100% - 17.1em);
+	}
+
+	#layout-main div.forum div.search.postsearch form input.search {
+	    width: calc(100% - 6.3em);
+	}
+
+	#layout-main div.forum .segment div.title a.topictitle {
+		margin-right: 0.5em;
+	}
+}
+
+@media screen and (max-width: 635px) {
+	#layout-main div.cmt_entries div.postbody span.actions {
+		height: auto !important;
+	}
+
+	#layout-main div.cmt_entries div.postbody span.actions,
+	#layout-main div.forum div.topic_actions {
+		flex-wrap: wrap;
+	}
+
+	#layout-main div.forum div.search:not(.postsearch) form > *,
+	#layout-main div.cmt_entries .display_options > *,
+	#layout-main div.forum div.format-buttons > *,
+	#layout-main div.cmt_entries div.postbody span.actions > * {
+		margin-bottom: 0.5em;
+		display: inline-block;
+	}
+
+	#layout-main div.forum div.search:not(.postsearch) form > fieldset {
+		display: none;
+	}
+
+	#layout-main div.forum div.search:not(.postsearch) form > label {
+		margin-bottom: 0;
+	}
+
+	#layout-main div.forum div.profile a.username-colored,
+	#layout-main div.cmt_entries div.profile div.rank,
+	#layout-main div.cmt_entries div.profile div.joined,
+	#layout-main div.cmt_entries div.profile div.posts,
+	#layout-main div.cmt_entries div.profile div.user_icons {
+		display: none;
+	}
+
+	#layout-main div.forum div.g_bubble.navbar div.bottom {
+		border: none;
+	}
+
+	#layout-main div.cmt_entries div.profile div.rank {
+		margin-bottom: 0;
+	}
+
+	#layout-main div.cmt_entries div.profile {
+		width: 10em;
+		min-height: auto;
+	}
+
+	#layout-main div.cmt_entries div.postbody div.content {
+		margin-left: 1em;
+		display: inline-block;
+	}
+
+	#f_mode,
+	#layout-main div.forum div.g_bubble.navbar span.info,
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_info,
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_move,
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_revisions,
+	#layout-main div.forum div.navbar span.icons,
+	#layout-main div.forum div.g_bubble.navbar span.messages {
+		display: none !important;
+	}
+
+	#layout-main div.cmt_entries div.postbody p.author {
+	    margin-bottom: 5em;
+	}
+}

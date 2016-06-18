@@ -130,6 +130,7 @@ div.g_odd,
 .i_topic_delete:hover,
 .i_topic_move:hover,
 .i_topic_split:hover,
+.i_topic_read:hover,
 .i_comment_revisions:hover,
 .i_comment_move:hover,
 .i_topic_lock:hover,
@@ -198,6 +199,7 @@ html,
 .i_topic_delete,
 .i_topic_move,
 .i_topic_split,
+.i_topic_read,
 .i_comment_revisions,
 .i_comment_move,
 .i_topic_lock,
@@ -270,28 +272,13 @@ input[type="password"]:focus,
 	background-color: #FFFFFF;
 }
 
-input[type="text"],
-input[type="password"],
-input.text,
-textarea,
-select,
-#layout-search ul.quicksearch,
-#layout-search select,
-#layout-search input.text,
-#layout-main div.search_all div.suggestions,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea,
-#layout-main div.forum div.quickreply textarea {
-	border-color: #E8E8E8;
-}
-
-#layout-main .g_section > h2,
-#layout-main .g_section > form > h2,
 .i_comment_add,
 .i_topic_add,
 .i_topic_history,
 .i_topic_delete,
 .i_topic_move,
 .i_topic_split,
+.i_topic_read,
 .i_comment_revisions,
 .i_comment_move,
 .i_topic_lock,
@@ -320,15 +307,28 @@ button.button,
 a.confirmButton,
 input.confirmButton,
 button.confirmButton,
-.f_button:hover,
-.f_button.selected,
-.g_bubble.box > div.top div.name,
-.g_bubble.stripe > div.data div.name,
+input[type="text"],
+input[type="password"],
+input.text,
+textarea,
+select,
 #layout-main ul.g_list li,
 #layout-main div.pagination span a,
-#layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
 #layout-main div.edit_actions span > *,
+#layout-search ul.quicksearch,
+#layout-search select,
+#layout-search input.text,
+#layout-main div.search_all div.suggestions,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea,
+#layout-main div.forum div.quickreply textarea {
+	border-color: #E8E8E8;
+}
+
+#layout-main .g_section > h2,
+#layout-main .g_section > form > h2,
+.g_bubble.box > div.top div.name,
+.g_bubble.stripe > div.data div.name,
 #layout-main div.forum div.signature,
 #layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.forum .g_bubble.infobox h3,
@@ -345,6 +345,20 @@ button.confirmButton,
 	border-color: #CCCCCC;
 }
 
+#layout-main div.edit_actions span > *:hover,
+#layout-main ul.g_list li:hover,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main ul.g_list li.selected,
+button:hover,
+a.button:hover,
+input.button:hover,
+button.button:hover,
+a.confirmButton:hover,
+input.confirmButton:hover,
+button.confirmButton:hover,
+#layout-main div.pagination span a:hover,
+.f_button:hover,
+.f_button.selected,
 select:hover,
 select:focus,
 textarea:hover,
@@ -389,8 +403,6 @@ li.g_odd + li,
 li + li.g_odd,
 #layout-nav div.menu_hr,
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
-#layout-main div.animeatt_reviews div.review span.stamp,
-#layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 #layout-main div div.explanation div.description dl + dl,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
@@ -547,6 +559,7 @@ th a,
 .i_topic_delete,
 .i_topic_move,
 .i_topic_split,
+.i_topic_read,
 .i_comment_revisions,
 .i_comment_move,
 .i_topic_lock,
@@ -569,6 +582,8 @@ th a,
 input[type="submit"],
 input[type="button"],
 button,
+#layout-main div.calendar_all .date_selector input.year,
+#layout-main div.calendar_all .date_selector select,
 #layout-search select,
 #layout-search input.text,
 #layout-main ul.g_list li,
@@ -643,4 +658,18 @@ input[type="text"]:disabled,
 /*to counter the green background color we need a darker color*/
 .g_bubble.stripe.mylist > div.data div.name {
 	border-color: #AAAAAA;
+}
+
+
+@media screen and (max-width: 1000px) {
+	#layout-main .g_datatable table tr {
+		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	#layout-main .g_datatable table tr td.name.main .i_info:after,
+	#layout-main .g_datatable table tr td.name.main a,
+	#layout-main .g_datatable table tr td.name.main {
+		background: #444 !important;
+		color: #FFFFFF !important;
+	}
 }

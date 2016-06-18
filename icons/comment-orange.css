@@ -138,7 +138,13 @@
 *.i_topic_split {
 	background-image: url(../icons/orange/topic_split.png);
 	height:12px;
-	width:77px;
+	width:65px;
+}
+
+*.i_topic_read {
+  background-image:url(../icons/orange/topic_read.png);
+	height:px;
+	width:px;
 }
 
 *.i_comment_revisions {

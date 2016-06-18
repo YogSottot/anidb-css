@@ -53,3 +53,34 @@
 		display: none !important;
 	}
 }
+@media screen and (max-width: 1000px) {
+	#layout-tabs ul {
+		white-space: nowrap;
+	}
+}
+
+@media screen and (max-width: 710px) {
+	#layout-tabs ul.main-tabs > li.customise {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#layout-tabs ul.main-tabs > li.previews {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#layout-tabs ul.main-tabs > li.forum {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#layout-main div.tabbed_pane ul.tabs .contribution,
+	#layout-main div.tabbed_pane ul.tabs .save_as_default,
+	#layout-tabs ul.main-tabs > li.reviews {
+		display: none;
+	}
+}

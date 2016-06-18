@@ -29,3 +29,16 @@
 #layout-main div.creatortext_all > .g_section.tabbed_pane:not(.hidden) {
 	margin: 2.5em 0 1.5em;
 }
+
+@media screen and (max-width: 950px) {
+	#layout-main div.creator_all div.selector {
+		margin-bottom: 3.5em;
+	}
+
+	#layout-main div.creator_all div.g_section.songs .container,
+	#layout-main div.creator_all div.g_section.character .container,
+	#layout-main div.creator_all div.g_section.staff .container,
+	#layout-main div.creator_all div.g_section.creator .container {
+		overflow: auto;
+	}
+}

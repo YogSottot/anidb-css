@@ -1,0 +1,4 @@
+#layout-main div.forum div.topic_actions div.pagination > a + span:before,
+#layout-main div.forum div.topic_actions div.pagination > span + span:before {
+	content: " • ";
+}

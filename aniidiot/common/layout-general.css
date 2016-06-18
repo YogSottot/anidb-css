@@ -40,8 +40,13 @@ input[type="password"] {
 	height: 18px;
 }
 
+button,
 select {
-	min-height: 24px;
+	height: 24px;
+}
+
+select.shuttle {
+	height: auto;
 }
 
 button,
@@ -112,7 +117,7 @@ caption,
 
 #layout-search {
 	display: block;
-	height: 53px;
+	height: 56px;
 	left: 0;
 	margin-left: 1em;
 	position: absolute;
@@ -140,7 +145,8 @@ caption,
 	float: right;
 	width: 80px;
 	margin: 0 0 0 3px;
-	padding: 5px;
+	padding: 4px;
+	height: 28px;
 }
 
 #layout-search select {
@@ -307,7 +313,6 @@ button,
 button,
 #layout-main div.edit_actions span > *,
 #layout-tabs ul li a,
-#layout-search .submit,
 #layout-main div.msg_all div.buttons li a,
 #layout-main div.msg_all ul.g_list li.sent a,
 #layout-main div.creq_all .links .next_new_creq a,
@@ -384,3 +389,12 @@ button,
 #layout-main div.block div.data table th {
 	width: 10em;
 }
+
+#layout-main ul.g_list li {
+	margin-bottom: 0.5em;
+}
+
+/*#layout-main div.anime_all > .g_section form  .container,
+#layout-main .g_section > .container {
+	overflow: auto;
+}*/

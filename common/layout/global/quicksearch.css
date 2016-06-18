@@ -76,3 +76,24 @@
 	position: relative;
 	z-index: 100;
 }
+
+@media screen and (max-width: 950px) {
+	#layout-search ul.quicksearch {
+		margin: 0.1em 0 0 1.9em !important;
+		max-width: 500px;
+	}
+
+	#layout-search ul.quicksearch .g_bubble.stripe {
+		max-width: unset;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#layout-search ul.quicksearch {
+		width: calc(100% - 2em);
+	}
+
+	#layout-search ul.quicksearch .g_bubble.stripe {
+		max-width: 500px;
+	}
+}

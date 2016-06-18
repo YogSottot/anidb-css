@@ -39,6 +39,10 @@
   background-image:url(../icons/blue/topic_split.png);
 }
 
+*.i_topic_read {
+  background-image:url(../icons/blue/topic_read.png);
+}
+
 *.i_comment_revisions {
   background-image:url(../icons/blue/comment_revisions.gif);
 }

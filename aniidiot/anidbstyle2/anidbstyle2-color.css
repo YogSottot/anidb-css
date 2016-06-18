@@ -18,6 +18,7 @@ h4 span.nolink a,
 	color: #105289;
 }
 
+#layout-search ul.quicksearch li + li,
 .g_section > h2,
 .g_section > form > h2,
 select:hover,
@@ -614,8 +615,8 @@ tr,
 }
 
 
-#layout-main div.main_all div.edit_actions > span::before,
-#layout-main div.main_all div.edit_actions > span::after,
+#layout-main div.main_all div.edit_actions > span:before,
+#layout-main div.main_all div.edit_actions > span:after,
 #layout-main div.main_all div.edit_actions span > * {
 	color: #C0DAF0;
 }
@@ -627,4 +628,20 @@ tr,
 #layout-main div.main_all div.account div.login input::-webkit-input-placeholder,
 #layout-main div.main_all div.account div.login input:-ms-input-placeholder {
     opacity: 1.0;
+}
+
+@media screen and (max-width: 1000px) {
+	#layout-main .g_datatable table tr {
+		box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
+	}
+
+	#layout-main .g_datatable table tr td.name.main {
+		background: #444 !important;
+		color: #fff;
+	}
+
+	#layout-main .g_datatable table tr td.name.main .i_info:after,
+	#layout-main .g_datatable table tr td.name.main a {
+		color: #DDDDDD;
+	}
 }

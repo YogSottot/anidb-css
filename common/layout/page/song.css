@@ -27,3 +27,15 @@
 		max-width: unset;
 	}
 }
+@media screen and (max-width: 950px) {
+	#layout-main div.song_all div.g_section.staff .container,
+	#layout-main div.song_all div.g_section.anime .container,
+	#layout-main div.song_all div.g_section.songcollectionrel .container {
+		overflow: auto;
+	}
+
+	#layout-main div.song_all div.info div.tabbed_pane {
+		min-width: unset;
+		max-width: unset;
+	}
+}

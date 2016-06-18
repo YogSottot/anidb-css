@@ -1,23 +1,20 @@
-@import "../anidbstyle3/anidbstyle3.css";
+@import "../../sub/common.css";
+@import "../../common/style/color/status-pastel.css";
+@import "../../common/libs/select2/style-grey.css";
+@import "../common-menu.css";
+@import "../logos.css";
+@import "../anigoogle2/anigoogle2-border.css";
+@import "../anigoogle2/anigoogle2-layout.css";
+@import "../anigoogle2/anigoogle2-text.css";
+@import "../anigoogle2/anigoogle2-icons.css";
+@import "../anidbstyle2/anidbstyle2-color.css";
+@import "../anidbstyle3/anidbstyle3-border.css";
+@import "../anidbstyle3/anidbstyle3-layout.css";
+@import "../anidbstyle3/anidbstyle3-color.css";
 @import "../common/floaty-menu.css";
+@import "anidbstyle3-menu-color.css";
 
-#layout-menu {
-	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-	background-color: #34394D;
-}
-
-#layout-menu li.sub-menu span.tab {
-	color: #DDDDDD !important;
-}
-
-#layout-menu li.sub-menu + li.sub-menu {
-	border-left: 1px solid #999 !important;
-}
-
-#layout-menu li.sub-menu:hover {
-	background-color: #58636E;
-}
-
-#layout-menu li.sub-menu:hover span.tab {
-	color: #C0DAF0 !important;
+#layout-footer:after
+{
+	content:"design by deridiot";
 }

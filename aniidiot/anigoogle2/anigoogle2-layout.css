@@ -29,10 +29,6 @@
 	display: none;
 }
 
-#layout-main div.anime_all div.groups td.action {
-	min-width: 5.5em;
-}
-
 #layout-menu li.sub-menu span.tab {
 	display: block;
 }
@@ -41,16 +37,13 @@
 	padding: 2px 8px;
 }
 
-#layout-main div.edit_actions {
-	margin-top: -3em;
-}
-
 .i_comment_add,
 .i_topic_add,
 .i_topic_history,
 .i_topic_delete,
 .i_topic_move,
 .i_topic_split,
+.i_topic_read,
 .i_comment_revisions,
 .i_comment_move,
 .i_topic_lock,
@@ -90,6 +83,7 @@
 .i_topic_delete span,
 .i_topic_move span,
 .i_topic_split span,
+.i_topic_read span,
 .i_comment_revisions span,
 .i_comment_move span,
 .i_topic_lock span,
@@ -113,7 +107,7 @@
 }
 
 #layout-main div.forum div.topic_actions {
-	height: 23px;
+	min-height: 23px;
 }
 
 #layout-main div.g_menu.filter_menu button.delete {

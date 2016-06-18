@@ -349,15 +349,6 @@ table,
 	border-radius:5px;
 }
 
-#layout-main div.animeatt_reviews div.review h4,
-#layout-main div.userpage_all div.blog div.g_timedentry h4
-{
-	-moz-border-radius:0 10px 0 0;
-	-webkit-border-radius:0 10px 0 0;
-	border-radius:0 10px 0 0;
-	border-top:none;
-}
-
 #layout-main div.info div.extra div h2,
 #layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs > li

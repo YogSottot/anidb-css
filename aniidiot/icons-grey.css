@@ -36,7 +36,11 @@
 }
 
 *.i_topic_split {
-  background-image:url(../icons/grey/topic_split.png);
+	background-image:url(../icons/grey/topic_split.png);
+}
+
+*.i_topic_read {
+  background-image:url(../icons/grey/topic_read.png);
 }
 
 *.i_comment_revisions {

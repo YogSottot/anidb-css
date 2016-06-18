@@ -162,8 +162,7 @@
 }
 
 #layout-main div.anime_all #mylistadd_full {
-	padding: 0.5em;
-	width: 47em;
+	max-width: 47em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -283,4 +282,68 @@
 	-webkit-justify-content: space-around;
 	-moz-justify-content: space-around;
 	justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+	#layout-main div.anime_all .g_section.mylist_status.vote_status .g_bubblewrap {
+		overflow: auto;
+		-ms-justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+		-moz-justify-content: flex-start;
+		justify-content: flex-start;
+	}
+
+	#layout-main div.anime_all div.reviews .container,
+	#layout-main div.anime_all div.mylistfiles .container,
+	#layout-main div.anime_all div.staff .container,
+	#layout-main div.anime_all div.songs .container,
+	#layout-main div.anime_all div.groups .container,
+	#layout-main div.anime_all div.episodes .container {
+		overflow: auto;
+	}
+
+	#layout-main div.anime_all div.groups table .note,
+	#layout-main div.anime_all div.groups table .action,
+	#layout-main div.anime_all div.groups table .threads,
+	#layout-main div.anime_all div.groups table .rating {
+		display: none;
+	}
+
+	#layout-main div.anime_all div.episodes table th.action,
+	#layout-main div.anime_all div.episodes table td.action:not(.expand),
+	#layout-main div.anime_all div.episodes table .epusers,
+	#layout-main div.anime_all div.episodes table .users,
+	#layout-main div.anime_all div.episodes table th.files,
+	#layout-main div.anime_all div.episodes table .number.files {
+		display: none;
+	}
+
+	#layout-main div.anime_all div.songs table .creator,
+	#layout-main div.anime_all div.songs table .credit,
+	#layout-main div.anime_all div.songs table .comment,
+	#layout-main div.anime_all div.songs table .rating {
+		display: none;
+	}
+
+	#layout-main div.anime_all div.info textarea {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#layout-main div.anime_all div.groups table .lastep,
+	#layout-main div.anime_all div.groups table .specials,
+	#layout-main div.anime_all div.groups table .epbar,
+	#layout-main div.anime_all div.groups table .source {
+		display: none;
+	}
+
+	#layout-main div.anime_all div.staff table .comment,
+	#layout-main div.anime_all div.staff table .eprange {
+		display: none;
+	}
+
+	#layout-main div.anime_all div.songs table .eprange {
+		display: none;
+	}
 }

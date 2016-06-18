@@ -77,13 +77,9 @@ button:hover,
 }
 
 #layout-main div.animeatt_reviews div.review span.stamp a,
-#layout-main div.userpage_all div.blog div.g_timedentry span.stamp a {
-	color: #999999;
-}
-
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp a,
 #layout-main div.animeatt_reviews div.review span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
-	border-top-color: #C9D7F1;
 	color: #999999;
 }
 

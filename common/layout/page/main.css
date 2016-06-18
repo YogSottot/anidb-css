@@ -67,10 +67,18 @@
 
 #layout-main div.main_all div.news.forum div.events div.row .left {
 	width: 20em;
+	margin-right: 0.5em;
+	white-space: nowrap;
 }
 
 #layout-main div.main_all div.news.forum:not(.events):not(.what) {
 	flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 1400px) {
+	#layout-main div.main_all div.news.forum {
+		flex-wrap: nowrap;
+	}
 }
 
 @media screen and (max-width: 1400px) {
@@ -92,15 +100,22 @@
 
 	#layout-main div.main_all div.news.forum div.what,
 	#layout-main div.main_all div.news.forum div.events {
-		min-width: unset;
+		min-width: unset !important;
 		max-width: unset;
 		width:100%;
 	}
 }
 
-@media screen and (min-width: 1400px) {
-	#layout-main div.main_all div.news.forum {
-		flex-wrap: nowrap;
+@media screen and (max-width: 800px) {
+	#layout-main div.main_all div.news.forum div.events div.row .left {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#layout-main div.main_all div.news.forum div.stats,
+	#layout-main div.main_all div.news.forum div.latestnews {
+		max-width: unset !important;
 	}
 }
 
@@ -119,7 +134,7 @@
 
 #layout-main div.main_all div.calendar .g_bubble.box {
 	width:163px;
-	max-width:200px;
+	max-width:250px;
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box > div.top div.name {
@@ -144,6 +159,7 @@
 	display: none;
 }
 
+#layout-main div.main_all div.calendar .g_bubble.box.no3,
 #layout-main div.main_all div.calendar .g_bubble.box.no4,
 #layout-main div.main_all div.calendar .g_bubble.box.no5,
 #layout-main div.main_all div.calendar .g_bubble.box.no6,
@@ -154,7 +170,13 @@
 	display: none;
 }
 
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 550px) {
+	#layout-main div.main_all div.calendar .g_bubble.box.no3 {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 820px) {
 	#layout-main div.main_all div.calendar .g_bubble.box.no4 {
 		display: block;
 	}
@@ -254,6 +276,16 @@
    	box-sizing: border-box;
 }
 
+@media screen and (max-width: 800px) {
+	#layout-main div.main_all div.latest.g_bubblewrap {
+		overflow: auto;
+		-ms-justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+		-moz-justify-content: flex-start;
+		justify-content: flex-start;
+	}
+}
+
 /*top5 lists*/
 #layout-main div.main_all div.datablocks > div {
 	margin: 0 0.5em 1em;
@@ -329,6 +361,7 @@
 	float:right;
 	margin-left: 0.5em;
 	margin-bottom: 0.5em;
+	width: 23em;
 }
 
 #layout-main div.main_all div.account ul.tabs {
@@ -356,6 +389,7 @@
 #layout-main div.main_all div.account table {
 	margin:0;
 	padding:0.5em 0;
+	width: 100%;
 }
 
 #layout-main div.main_all div.account table th {
@@ -365,12 +399,18 @@
 #layout-main div.main_all div.account div.login input[type="text"],
 #layout-main div.main_all div.account div.login input[type="password"] {
 	padding: 8px;
-	width:20em;
+	width: calc(100% - 1.5em);
 }
 
 #layout-main div.main_all div.account div.login button {
 	padding: 8px;
 	width: 10em;
+}
+
+@media screen and (max-width: 500px) {
+	#layout-main div.main_all div.account {
+		width: 100%;
+	}
 }
 
 /*about anidb*/
