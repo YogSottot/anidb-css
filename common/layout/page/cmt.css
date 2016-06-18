@@ -424,6 +424,7 @@
 
 #layout-main div.forum div.search form input.search {
 	width: 300px;
+	min-width: 169px;
 }
 
 #layout-main div.forum div.search form input,
