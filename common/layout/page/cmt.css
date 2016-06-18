@@ -174,7 +174,6 @@
 
 #layout-main div.forum ul.topiclist li.row div.row div.icon div.title {
 	padding-left: 3em;
-	margin-right: 1.5em;
 }
 
 #layout-main div.forum ul.topiclist li.row div.row.icon {
@@ -767,7 +766,7 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.forum ul.topiclist div.segment.icon {
-		width:100%;
+		width: calc(100% - 0.5em);
 	}
 
 	#layout-main div.forum div.topic_actions div.buttons > * {
