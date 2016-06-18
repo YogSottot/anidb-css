@@ -865,6 +865,7 @@ div.g_bubble.quotebody {
 	#layout-main div.cmt_entries div.postbody div.content {
 		margin-left: 1em;
 		display: inline-block;
+		width: calc(100% - 2em);
 	}
 
 	#f_mode,
