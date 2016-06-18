@@ -4,29 +4,6 @@
 	z-index: 1000;
 }
 
-#imagepreview.flex {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-}
-
-#imagepreview div.comments {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	margin-left: 5px;
-}
-
-#imagepreview div.comments div.content {
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-bottom: 4px;
+#imagepreview img {
+	max-width: unset !important;
 }
