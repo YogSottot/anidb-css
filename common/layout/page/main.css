@@ -405,6 +405,7 @@
 #layout-main div.main_all div.account div.login button {
 	padding: 8px;
 	width: 10em;
+	height: auto;
 }
 
 @media screen and (max-width: 500px) {

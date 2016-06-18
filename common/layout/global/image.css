@@ -58,11 +58,12 @@
 
 .g_image.missing.thumb:after,
 .g_image.missing.thumbcrop:after {
-	left: 25%;
-	top: 17%;
+	left: 0%;
+	top: 30%;
 	content: "No Pic";
 	transform: rotate(-50deg);
 	font-size: 1.3rem;
+	height: auto;
 }
 
 /*css preview image on profile*/
