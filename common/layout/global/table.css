@@ -109,7 +109,7 @@
 	}
 
 	#layout-main .g_datatable table tr td.thumb img {
-		width: calc(100vw - 3.5em);
+		max-width: calc(100vw - 3.5em);
 	}
 }
 
