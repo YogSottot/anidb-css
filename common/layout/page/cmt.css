@@ -864,6 +864,7 @@ div.g_bubble.quotebody {
 
 	#layout-main div.cmt_entries div.postbody div.content {
 		margin-left: 1em;
+		display: inline-block;
 	}
 
 	#f_mode,
@@ -876,7 +877,7 @@ div.g_bubble.quotebody {
 		display: none !important;
 	}
 
-	#layout-main div.cmt_entries div.postbody div.content {
-		display: inline-block;
+	#layout-main div.cmt_entries div.postbody p.author {
+	    margin-bottom: 5em;
 	}
 }
