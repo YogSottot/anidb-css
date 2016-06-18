@@ -75,7 +75,7 @@
 	}
 
 	#layout-main .g_datatable table tr td.thumb img {
-		width: calc(100vw - 3.5em);
+		width: auto;
 		max-width: 400px;
 	}
 
