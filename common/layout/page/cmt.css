@@ -15,6 +15,14 @@
 	justify-content: space-between;
 }
 
+#layout-main div.cmt_entries div.postfooter,
+#layout-main div.cmt_entries div.postbody span.actions {
+	-webkit-flex-flex-direction: row-reverse;
+	-ms-flex-flex-direction: row-reverse;
+	-moz-flex-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
 #layout-main div.forum div.segment.icon {
 	background-position: 5px 50%;
 	background-repeat: no-repeat;
@@ -851,6 +859,7 @@ div.g_bubble.quotebody {
 
 	#layout-main div.cmt_entries div.profile {
 		width: 10em;
+		min-height: auto;
 	}
 
 	#layout-main div.cmt_entries div.postbody div.content {
