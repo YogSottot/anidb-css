@@ -14,7 +14,7 @@
 	content:"design by deridiot inspired by blackle";
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
 	@import "../common/floaty-menu.css";
 	@import "../aniblackle2-menu/aniblackle2-menu-color.css";
 }

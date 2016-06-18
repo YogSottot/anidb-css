@@ -461,7 +461,7 @@ span.link {
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
 	#layout-main .g_datatable table tr td.name.main > a,
 	#layout-main .g_datatable table td:before {
 		font-weight: bold;

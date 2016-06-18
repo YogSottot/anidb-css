@@ -238,7 +238,7 @@
 	}
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
 	#layout-main div.userpage_all .g_section.info {
 		margin-top: 0;
 		float: none;
