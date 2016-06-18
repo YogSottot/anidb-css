@@ -33,7 +33,7 @@
 	width:3em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
 	#layout-main div.myvotes_all .myvotes_list {
 		overflow: auto;
 	}

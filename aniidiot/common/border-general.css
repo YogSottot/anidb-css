@@ -195,7 +195,7 @@ input[type="button"],
 	border-bottom: 1px solid;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
 	#layout-main .g_datatable table td + td,
 	#layout-main .g_datatable table tr + tr td {
 		border: none !important;
