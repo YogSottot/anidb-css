@@ -15,15 +15,6 @@
 	justify-content: space-between;
 }
 
-#layout-main div.forum_all div.forum div.topic_actions,
-#layout-main div.cmt_entries div.postfooter,
-#layout-main div.cmt_entries div.postbody span.actions {
-	-webkit-flex-flex-direction: row-reverse;
-	-ms-flex-flex-direction: row-reverse;
-	-moz-flex-flex-direction: row-reverse;
-	flex-direction: row-reverse;
-}
-
 #layout-main div.forum div.segment.icon {
 	background-position: 5px 50%;
 	background-repeat: no-repeat;
@@ -760,6 +751,7 @@ div.g_bubble.quotebody {
 }
 /*</polls>*/
 
+#layout-main div.forum div.topic_actions div.linklist,
 #layout-main div.forum div.topic_actions div.pagination {
 	margin-top: 0.3em;
 	margin-right: 0;
