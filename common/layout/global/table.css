@@ -107,6 +107,10 @@
 		margin-left: 0;
 		width: calc(100% - 4em);
 	}
+
+	#layout-main .g_datatable table tr td.thumb img {
+		width: calc(100vw - 3.5em);
+	}
 }
 
 @media screen and (max-width: 450px) {
