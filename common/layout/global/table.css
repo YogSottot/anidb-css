@@ -19,14 +19,17 @@
 		display: none;
 	}
 
-	#layout-main .g_datatable table td,
-	#layout-main .g_datatable table tr {
-		display: block;
-	}
-
 	#layout-main .g_datatable table tr {
 		display: flex;
 		flex-wrap: wrap;
+	}
+
+	#anidb.internet_explorer #layout-main .g_datatable table {
+		width: 100%;
+	}
+
+	#anidb.internet_explorer #layout-main .g_datatable table tr {
+		display: block;
 	}
 
 	#layout-main .g_datatable table td {
