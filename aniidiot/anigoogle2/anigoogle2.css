@@ -17,3 +17,6 @@
 	@import "../common/floaty-menu.css";
 	@import "../anigoogle2-menu/anigoogle2-menu-color.css";
 }
+
+/*has internal media querries - can't use nested because IE sucks*/
+@import "../common/floaty-menu-mobile.css";

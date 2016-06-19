@@ -21,3 +21,6 @@
 	@import "../common/floaty-menu.css";
 	@import "../anidbstyle3-menu/anidbstyle3-menu-color.css";
 }
+
+/*has internal media querries - can't use nested because IE sucks*/
+@import "../common/floaty-menu-mobile.css";

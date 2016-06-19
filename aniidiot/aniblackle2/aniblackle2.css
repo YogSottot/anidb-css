@@ -18,3 +18,6 @@
 	@import "../common/floaty-menu.css";
 	@import "../aniblackle2-menu/aniblackle2-menu-color.css";
 }
+
+/*has internal media querries - can't use nested because IE sucks*/
+@import "../common/floaty-menu-mobile.css";
