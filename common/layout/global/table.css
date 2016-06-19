@@ -53,6 +53,7 @@
 	#layout-main .g_datatable table tr td.name.main {
 		order: -1;
 		height: auto;
+		box-sizing: border-box;
 	}
 
 	#layout-main .g_datatable table tr td.name.main > a {
