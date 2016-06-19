@@ -1,21 +1,21 @@
-#layout-menu li.sub-menu.main span.tab {
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.main span.tab {
 	display: block;
 }
 
-#layout-content {
+#anidb:not(.nodropdownmenu) #layout-content {
 	margin-left: 0;
 	margin-top: 3.5em;
 	padding-left: 0.5em;
 }
 
-#layout-menu {
+#anidb:not(.nodropdownmenu) #layout-menu {
 	display: inline-block;
 	height: 31px;
 	margin-left: 0.8em;
 	width: auto;
 }
 
-#layout-menu > li {
+#anidb:not(.nodropdownmenu) #layout-menu > li {
 	display:block;
 	float:left;
 	font-weight:700;
@@ -25,7 +25,7 @@
 	padding-top:-20px;
 }
 
-#layout-menu > li ul {
+#anidb:not(.nodropdownmenu) #layout-menu > li ul {
 	border-top:0;
 	display:none;
 	font-weight:400;
@@ -37,133 +37,133 @@
 	width: 144px;
 }
 
-#layout-menu a {
+#anidb:not(.nodropdownmenu) #layout-menu a {
 	display:block;
 	padding:3px 8px;
 }
-#layout-menu a.history {
+#anidb:not(.nodropdownmenu) #layout-menu a.history {
 	padding:3px 0px;
 }
 
-#layout-menu span.tab {
+#anidb:not(.nodropdownmenu) #layout-menu span.tab {
 	display:inline;
 	float:right;
 	cursor: pointer;
 }
 
-#layout-menu li.sub-menu ul li.main span,
-#layout-menu > li.sub-menu.touched ul,
-#layout-menu > li.sub-menu:active ul,
-#layout-menu > li.sub-menu:focus ul,
-#layout-menu > li.sub-menu:hover ul {
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main span,
+#anidb:not(.nodropdownmenu) #layout-menu > li.sub-menu.touched ul,
+#anidb:not(.nodropdownmenu) #layout-menu > li.sub-menu:active ul,
+#anidb:not(.nodropdownmenu) #layout-menu > li.sub-menu:focus ul,
+#anidb:not(.nodropdownmenu) #layout-menu > li.sub-menu:hover ul {
 	display:block;
 }
 
-#layout-menu li.sub-menu ul li.main a {
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
 	height: 28px;
 	width: auto;
 	margin-top: 0;
 }
 
-#layout-menu li.sub-menu ul li a {
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li a {
 	box-sizing: border-box;
 	height: 28px;
 }
 
-#layout-menu li.sub-menu ul li.main a {
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
 	position: static;
 }
 
-#layout-main {
+#anidb:not(.nodropdownmenu) #layout-main {
 	margin-left: 0.5em;
 }
 
-#layout-search div.search,
-#layout-search {
+#anidb:not(.nodropdownmenu) #layout-search div.search,
+#anidb:not(.nodropdownmenu) #layout-search {
 	height: 70px;
 }
 
-#layout-tabs {
+#anidb:not(.nodropdownmenu) #layout-tabs {
 	margin: 11.4em 0.5em 0;
 }
 
-#layout-hint + #layout-nav + #layout-content #layout-tabs {
+#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav + #layout-content #layout-tabs {
 	margin: 132px 0.5em 0;
 }
 
-#layout-hint + #layout-nav #layout-menu,
-#layout-menu {
+#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
+#anidb:not(.nodropdownmenu) #layout-menu {
 	margin-top: -23px;
 }
 
-#layout-menu li.sub-menu ul li.alert {
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.alert {
 	height: 28px;
 }
 
-#layout-menu li.sub-menu {
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu {
 	margin-bottom: 0;
 	cursor: pointer;
 }
 
 @media screen and (max-width: 950px) {
-	#layout-content {
+	#anidb:not(.nodropdownmenu) #layout-content {
 		margin-top: 5.3em;
 	}
 
-	#layout-hint {
+	#anidb:not(.nodropdownmenu) #layout-hint {
 		height: 16px;
 		overflow: hidden;
 	}
 
-	#layout-nav {
+	#anidb:not(.nodropdownmenu) #layout-nav {
 		margin-top: 11em;
 	}
 
-	#layout-tabs {
+	#anidb:not(.nodropdownmenu) #layout-tabs {
 	    margin: 14.5em 1em 0 0;
 	}
 
-	#layout-hint + #layout-nav + #layout-content #layout-tabs {
+	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav + #layout-content #layout-tabs {
 		margin: 16em 1em 0 0;
 	}
 
-	#layout-search div.search a.advsearch {
+	#anidb:not(.nodropdownmenu) #layout-search div.search a.advsearch {
 		display: none;
 	}
 
-	#layout-search .text {
+	#anidb:not(.nodropdownmenu) #layout-search .text {
 		width: calc(100% - 18em);
 		margin-left: 0.5em;
 	}
 
-	#layout-search div.search form > div {
+	#anidb:not(.nodropdownmenu) #layout-search div.search form > div {
 		top: 7em;
 		width: 100%;
 		left: -0.9em;
 	}
 
-	#layout-search input.text {
+	#anidb:not(.nodropdownmenu) #layout-search input.text {
 		margin-left: 1em;
 	}
 
-	#layout-hint + #layout-nav #layout-menu,
-	#layout-menu {
+	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
+	#anidb:not(.nodropdownmenu) #layout-menu {
 	    margin-top: -0.25em;
 	}
 
-	#layout-menu > li ul {
+	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
 		padding-top: 1em;
 	}
 }
 
 @media screen and (max-width: 550px) {
-	#layout-menu li.sub-menu.support {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.support {
 		display: none;
 	}
 }
 
 @media screen and (max-width: 450px) {
-	#layout-menu li.sub-menu.mod {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.mod {
 		display: none;
 	}
 }
