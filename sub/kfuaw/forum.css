@@ -21,12 +21,9 @@
 #layout-main div.forum div.g_bubble.threads
 {
 	border: 2px ridge #dddddd;
-	-moz-border-radius: .75em;
-	-webkit-border-radius: .75em;
-	-moz-border-radius-topleft:0;
-	-moz-border-radius-bottomright:0;
-	-webkit-border-top-left-radius:0;
-	-webkit-border-bottom-right-radius:0;
+	border-radius: .75em;
+	border-radius-topleft:0;
+	border-radius-bottomright:0;
 }
 
 #layout-main div.forum ul.topiclist,
@@ -90,8 +87,6 @@
 {
 	background:#eeeeee;
 	border: 1px solid #555555;
-	-moz-border-radius: .6em;
-	-webkit-border-radius: .6em;
 	border-width:3px 1px 3px 1px;
 }
 
@@ -104,12 +99,9 @@
 {
 	background:#b3b3b3 url(images/tab-3.png) repeat-x scroll 0 -7px;
 	margin:0 0 0.5em 0;
-	-moz-border-radius-bottomleft:0;
-	-webkit-border-bottom-left-radius:0;
-	-moz-border-radius-topright:.4em;
-	-webkit-border-top-right-radius:.4em;
-	-moz-border-radius-topleft:.4em;
-	-webkit-border-top-left-radius:.4em;
+	border-radius-bottomleft:0;
+	border-radius-topright:.4em;
+	border-radius-topleft:.4em;
 	border-color:#9A9A9A;
 	border-style:solid;
 	border-width:0 0 1px 1px;
@@ -118,10 +110,8 @@
 
 #layout-main div.cmt_entries div.profile + div.postbody p.author
 {
-	-moz-border-radius-topleft:0em;
-	-webkit-border-top-left-radius:0em;
-	-moz-border-radius-bottomleft:.7em;
-	-webkit-border-bottom-left-radius:.7em;
+	border-radius-topleft:0em;
+	border-radius-bottomleft:.7em;
 	margin:0 0 0.5em 16em;
 }
 

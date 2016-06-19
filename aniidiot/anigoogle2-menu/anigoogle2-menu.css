@@ -9,6 +9,7 @@
 @import "../anigoogle2/anigoogle2-icons.css";
 @import "../anigoogle2/anigoogle2-color.css";
 @import "../common/floaty-menu.css";
+@import "../common/floaty-menu-mobile.css";
 @import "anigoogle2-menu-color.css";
 
 #layout-footer:after {

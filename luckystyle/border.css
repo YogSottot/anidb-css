@@ -32,8 +32,6 @@ textarea {
 }
 
 #layout-search form input.submit {
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
 
@@ -69,7 +67,6 @@ textarea {
 #layout-tabs ul li,
 #layout-tabs ul li.g_odd
 {
-	-moz-border-radius:5px 5px 0 0;
 	border:1px solid #E54B70;
 	border-radius:5px 5px 0 0;
 }
@@ -77,7 +74,6 @@ textarea {
 #layout-main div.tabbed_pane_cfg ul.tabs li,
 #layout-main div.tabbed_pane ul.tabs li
 {
-	-moz-border-radius:5px 5px 0 0;
 	border:1px solid #666666;
 	border-radius:5px 5px 0 0;
 }

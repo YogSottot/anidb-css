@@ -17,7 +17,10 @@
 	content:"design by deridiot";
 }
 
-@media screen and (max-width: 950px) {
+@media all and (max-width: 950px) {
 	@import "../common/floaty-menu.css";
 	@import "../anidbstyle3-menu/anidbstyle3-menu-color.css";
 }
+
+/*has internal media querries - can't use nested because IE sucks*/
+@import "../common/floaty-menu-mobile.css";

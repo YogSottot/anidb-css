@@ -44,7 +44,7 @@
 
 @media screen and (min-width: 1500px) {
 	#layout-main div.ep_all.sidebar div.info div.tabbed_pane {
-		min-width: unset;
-		max-width: unset;
+		min-width: 0;
+		max-width: none;
 	}
 }

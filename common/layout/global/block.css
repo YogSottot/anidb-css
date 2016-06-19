@@ -107,7 +107,7 @@
 	#layout-main .g_section.info div.block,
 	#layout-main .g_section.info div.block > div.image,
 	#layout-main .g_section.info div.block > div.data {
-		min-width: unset;
+		min-width: 0;
 		width: 100%;
 	}
 

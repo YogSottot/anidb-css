@@ -13,8 +13,10 @@
 	content:"design by deridiot inspired by google/youtube";
 }
 
-@media screen and (max-width: 950px) {
+@media all and (max-width: 950px) {
 	@import "../common/floaty-menu.css";
 	@import "../anigoogle2-menu/anigoogle2-menu-color.css";
-
 }
+
+/*has internal media querries - can't use nested because IE sucks*/
+@import "../common/floaty-menu-mobile.css";

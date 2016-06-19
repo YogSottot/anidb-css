@@ -12,6 +12,7 @@
 @import "../anidbstyle3/anidbstyle3-layout.css";
 @import "../anidbstyle3/anidbstyle3-color.css";
 @import "../common/floaty-menu.css";
+@import "../common/floaty-menu-mobile.css";
 @import "anidbstyle3-menu-color.css";
 
 #layout-footer:after

@@ -42,7 +42,7 @@
 
 /*similar anime comments*/
 .g_bubble.stripe > .data .tooltip {
-	position: unset;
+	position: initial;
 }
 
 .g_bubble.stripe > .data .tooltip span.text {

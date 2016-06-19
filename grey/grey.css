@@ -2525,7 +2525,7 @@ display: inline-block;
 }
 .g_bubble
 {
--moz-border-radius:0;
+border-radius:0;
 border-style:none;
 border-width:0;
 }
