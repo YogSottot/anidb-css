@@ -52,6 +52,7 @@
 }
 
 #layout-menu li.sub-menu ul li.main span,
+#layout-menu > li.sub-menu.touched ul,
 #layout-menu > li.sub-menu:active ul,
 #layout-menu > li.sub-menu:focus ul,
 #layout-menu > li.sub-menu:hover ul {
