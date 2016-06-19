@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 510px) {
-	#layout-search {
+	#anidb:not(.nodropdownmenu) #layout-search {
 		background:url("images/logo-small.png") no-repeat scroll center top transparent;
 	}
 }
