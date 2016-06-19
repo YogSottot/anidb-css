@@ -51,7 +51,6 @@ select
 
 #layout-menu li.sub-menu
 {
-	-moz-border-radius:10px;
 	border-radius:10px;
 }
 
@@ -68,7 +67,6 @@ select
 
 #layout-content div.main_all div.rightbar h4
 {
-	-moz-border-radius:10px 0 0;
 	border-radius:10px 0 0 0;
 }
 

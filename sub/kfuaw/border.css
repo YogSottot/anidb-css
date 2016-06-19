@@ -54,12 +54,9 @@ table
 #layout-menu li.sub-menu
 {
 	border:1px solid #555555;
-	-moz-border-radius: .35em;
-	-webkit-border-radius: .35em;
-	-moz-border-radius-topleft:0;
-	-moz-border-radius-bottomleft:0;
-	-webkit-border-top-left-radius:0;
-	-webkit-border-bottom-left-radius:0;
+	border-radius: .35em;
+	border-radius-topleft:0;
+	border-radius-bottomleft:0;
 	border-left: none;
 	border-width: 1px 2px 1px 0;
 }
@@ -134,12 +131,9 @@ body.nonav #layout-main div.g_content,
 #layout-menu,
 #layout-main h1
 {
-	-moz-border-radius: .75em;
-	-webkit-border-radius: .75em;
-	-moz-border-radius-topleft:0;
-	-moz-border-radius-bottomright:0;
-	-webkit-border-top-left-radius:0;
-	-webkit-border-bottom-right-radius:0;
+	border-radius: .75em;
+	border-radius-topleft:0;
+	border-radius-bottomright:0;
 }
 
 #layout-tabs + #layout-main
@@ -169,10 +163,8 @@ body.nonav #layout-main div.g_content,
 #layout-main div.tabbed_pane div.body
 {
 	border: 1px solid #999999;
-	-moz-border-radius: .3em;
-	-webkit-border-radius: .3em;
-	-moz-border-radius-topleft:0;
-	-webkit-border-top-left-radius:0;
+	border-radius: .3em;
+	border-radius-topleft:0;
 }
 
 #layout-main ul.links_bottom
@@ -185,12 +177,9 @@ body.nonav #layout-main div.g_content,
 #layout-main div.tabbed_pane ul.tabs li
 {
 	border: 1px solid #999999;
-	-moz-border-radius: .2em;
-	-webkit-border-radius: .2em;
-	-moz-border-radius-bottomleft:0;
-	-moz-border-radius-bottomright:0;
-	-webkit-border-bottom-left-radius:0;
-	-webkit-border-bottom-right-radius:0;
+	border-radius: .2em;
+	border-radius-bottomleft:0;
+	border-radius-bottomright:0;
 }
 
 #layout-tabs ul li a
@@ -210,8 +199,6 @@ body.nonav #layout-main div.g_content,
 #layout-main ul.g_list li.selected,
 #layout-main ul.g_list li a
 {
-	-moz-border-radius:.5em;
-	-webkit-border-radius: .5em;
 	border-radius: .5em;
 	border:1px solid #999999;
 }
@@ -229,8 +216,6 @@ table table
 
 .g_bubble
 {
-	-moz-border-radius:0.4em;
-	-webkit-border-radius: .4em;
 	border-radius:0.4em;
 	border:1px solid #999999;
 }
