@@ -100,8 +100,8 @@
 
 	#layout-main div.main_all div.news.forum div.what,
 	#layout-main div.main_all div.news.forum div.events {
-		min-width: unset !important;
-		max-width: unset;
+		min-width: 0 !important;
+		max-width: none;
 		width:100%;
 	}
 }
@@ -115,7 +115,7 @@
 @media screen and (max-width: 550px) {
 	#layout-main div.main_all div.news.forum div.stats,
 	#layout-main div.main_all div.news.forum div.latestnews {
-		max-width: unset !important;
+		max-width: none !important;
 	}
 }
 

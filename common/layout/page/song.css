@@ -23,8 +23,8 @@
 
 @media screen and (min-width: 1500px) {
 	#layout-main div.song_all.sidebar div.info div.tabbed_pane {
-		min-width: unset;
-		max-width: unset;
+		min-width: 0;
+		max-width: none;
 	}
 }
 @media screen and (max-width: 950px) {
@@ -35,7 +35,7 @@
 	}
 
 	#layout-main div.song_all div.info div.tabbed_pane {
-		min-width: unset;
-		max-width: unset;
+		min-width: 0;
+		max-width: none;
 	}
 }

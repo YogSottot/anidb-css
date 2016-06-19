@@ -37,7 +37,7 @@
 .g_bubblewrap > .g_bubble.stripe.medium,
 .g_bubblewrap > .g_bubble.stripe {
 	max-width: 500px;
-	min-height: unset;
+	min-height: 0;
 }
 
 .g_bubblewrap > .g_bubble.stripe.medium {
@@ -190,7 +190,7 @@
 }
 
 .g_bubble.stripe.recommendation > div.data div.text {
-	max-height: unset;
+	max-height: none;
 }
 
 .g_section.tabbed_pane > .g_bubble table,

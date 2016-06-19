@@ -84,7 +84,7 @@
 	}
 
 	#layout-search ul.quicksearch .g_bubble.stripe {
-		max-width: unset;
+		max-width: none;
 	}
 }
 
