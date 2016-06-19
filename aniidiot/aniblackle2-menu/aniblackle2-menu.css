@@ -10,6 +10,7 @@
 @import "../aniblackle2/aniblackle2-color.css";
 @import "../aniblackle2/aniblackle2-icons.css";
 @import "../common/floaty-menu.css";
+@import "../common/floaty-menu-mobile.css";
 @import "aniblackle2-menu-color.css";
 
 #layout-footer:after {
