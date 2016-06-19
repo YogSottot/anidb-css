@@ -22,7 +22,7 @@
 	line-height:20px;
 	padding-left:18px;
 	padding-right:18px;
-	padding-top:-20px;
+	padding-top:0;
 }
 
 #anidb:not(.nodropdownmenu) #layout-menu > li ul {
