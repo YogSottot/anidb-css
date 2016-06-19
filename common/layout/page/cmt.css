@@ -407,6 +407,7 @@
 	padding: 2px;
 	width: 40%;
 	min-width: 50em;
+	box-sizing: border-box;
 }
 
 #layout-main div.forum div.quickreply p {
