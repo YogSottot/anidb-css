@@ -1,4 +1,4 @@
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 800px) {
 	#layout-main .g_datatable table td:before {
 		content: attr(data-label);
 	}
