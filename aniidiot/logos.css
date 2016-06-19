@@ -17,9 +17,7 @@
 	#anidb:not(.nodropdownmenu) #layout-search {
 		background:url("images/logo.png") no-repeat scroll center top transparent;
 	}
-}
 
-@media screen and (max-width: 750px) {
 	#anidb.nodropdownmenu #layout-search {
 		background: none;
 	}
