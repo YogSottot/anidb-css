@@ -49,6 +49,10 @@
 	clear: none;
 }
 
+#layout-main div.animeatt_reviews div.review div.text img {
+	max-width:1005;
+}
+
 #layout-main div.animeatt_all div.forum div.options-box dl div {
 	margin-left:20em;
 }
