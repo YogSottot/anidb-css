@@ -119,7 +119,7 @@
 	clear: none;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 800px) {
 	#layout-main div.g_menu.filter_menu {
 		display: block !important;
 	}
