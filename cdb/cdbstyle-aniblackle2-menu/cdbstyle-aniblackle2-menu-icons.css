@@ -5,19 +5,27 @@
 }
 
 @media screen and (max-width: 950px) {
-	#layout-search {
+	#anidb:not(.nodropdownmenu) #layout-search {
 		background:url("../aniblackle2/images/logo-wide.png") no-repeat scroll left top transparent;
+	}
+
+	#anidb.nodropdownmenu #layout-search {
+		background:url("../aniblackle2/images/logo-small.png") no-repeat scroll left top transparent;
 	}
 }
 
 @media screen and (max-width: 800px) {
-	#layout-search {
+	#anidb:not(.nodropdownmenu) #layout-search {
 		background:url("../aniblackle2/images/logo.png") no-repeat scroll center top transparent;
+	}
+
+	#anidb.nodropdownmenu #layout-search {
+		background: none;
 	}
 }
 
 @media screen and (max-width: 510px) {
-	#layout-search {
+	#anidb:not(.nodropdownmenu) #layout-search {
 		background:url("../aniblackle2/images/logo-small.png") no-repeat scroll center top transparent;
 	}
 }
