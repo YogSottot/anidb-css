@@ -1,0 +1,9 @@
+#captcha {
+	width: 28.5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#captcha  button {
+	margin: 1em;
+}
