@@ -868,6 +868,12 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.cmt_entries div.postbody p.author {
+		margin-top: -2.5em;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#layout-main div.cmt_entries div.postbody p.author {
 		margin-top: -5em;
 		margin-bottom: 3em;
 	}
