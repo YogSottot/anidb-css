@@ -72,6 +72,7 @@
 }
 
 @media screen and (max-width: 550px) {
+	#layout-tabs ul.main-tabs > li.fake,
 	#anidb:not(.main) #layout-tabs ul.main-tabs > li.forum {
 		display: none;
 	}
