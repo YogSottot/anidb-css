@@ -271,6 +271,8 @@
 }
 
 @media screen and (max-width: 800px) {
+	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
 	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
 	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
@@ -282,6 +284,8 @@
 }
 
 @media screen and (max-width: 700px) {
+	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
 	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
 	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
@@ -293,6 +297,8 @@
 }
 
 @media screen and (max-width: 600px) {
+	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
 	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
 	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
@@ -304,6 +310,8 @@
 }
 
 @media screen and (max-width: 515px) {
+	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
 	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
 	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
@@ -315,6 +323,8 @@
 }
 
 @media screen and (max-width: 425px) {
+	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
 	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
 	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
