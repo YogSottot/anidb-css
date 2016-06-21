@@ -75,7 +75,7 @@
 }
 
 #layout-main div.cmt_entries div.postbody p.author {
-	margin: -2.5em 25em 1em 0.5em;
+	margin: -2em 25em 1em 0.5em;
 }
 
 #layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions {
@@ -783,7 +783,7 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.cmt_entries div.postbody p.author {
-	    margin: 0em 0.5em 1em 0.5em;
+	    margin: 0.5em;
 	}
 
 	#layout-main div.forum div.quickreply textarea {
