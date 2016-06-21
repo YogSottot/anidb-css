@@ -783,7 +783,7 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.cmt_entries div.postbody p.author {
-	    margin: 0.5em;
+	    margin: 0.5em 0.5em 1em 0.5em;
 	}
 
 	#layout-main div.forum div.quickreply textarea {
@@ -878,7 +878,7 @@ div.g_bubble.quotebody {
 		margin-bottom: 3em;
 	}
 
-	#layout-main div.cmt_entries div.comment div.postbody span.actions {
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions {
 	    padding-top: 2.5em;
 	}
 }

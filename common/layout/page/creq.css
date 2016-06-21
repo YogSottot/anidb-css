@@ -75,6 +75,10 @@
 	margin: 0;
 }
 
+#layout-main div.creq_all div.creq_hist div.cmt_entries div.creq_state .content {
+	display: none;
+}
+
 #layout-main div.creq_all div.creq_hist div.forum div.profile div.posts,
 #layout-main div.creq_all div.creq_hist div.forum div.profile div.joined,
 #layout-main div.creq_all div.creq_hist div.forum div.profile div.user_icons,
@@ -91,7 +95,7 @@
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.postbody div.content {
-	margin-left: 10em;
+	margin-left: 9.5em;
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) {
