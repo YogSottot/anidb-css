@@ -767,6 +767,13 @@ div.g_bubble.quotebody {
 	margin-right: 0;
 }
 
+@media screen and (max-width: 850px) {
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_info,
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_revisions {
+		display: none !important;
+	}
+}
+
 @media screen and (max-width: 800px) {
 	#layout-main div.forum ul.topiclist div.posts,
 	#layout-main div.forum ul.topiclist div.views,
@@ -813,12 +820,6 @@ div.g_bubble.quotebody {
 
 	#layout-main div.forum .segment div.title a.topictitle {
 		margin-right: 0.5em;
-	}
-
-	#layout-main div.forum div.g_bubble.navbar span.info,
-	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_info,
-	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_revisions {
-		display: none !important;
 	}
 }
 
