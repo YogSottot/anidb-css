@@ -131,6 +131,14 @@
 	}
 }
 
+@media screen and (max-width: 850px) {
+	#anidb.creq #layout-tabs ul.main-tabs > li.trusted,
+	#anidb.creq #layout-tabs ul.main-tabs > li.trustednew,
+	#anidb.creq #layout-tabs ul.main-tabs > li.untrusted {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 800px) {
 	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
 		margin-top: -2.5em;
@@ -140,5 +148,12 @@
 @media screen and (max-width: 635px) {
 	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.postbody div.content {
 		margin-left: 1em;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#anidb.creq #layout-tabs ul.main-tabs > li.my,
+	#anidb.creq #layout-tabs ul.main-tabs > li.history {
+		display: none;
 	}
 }
