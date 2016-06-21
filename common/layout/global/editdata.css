@@ -42,7 +42,8 @@
 
 @media screen and (max-width: 550px) {
 	#layout-main div.edit_actions,
-	#layout-main .g_section.info div.edit_actions {
+	#layout-main .g_section.info div.edit_actions span.add,
+	#layout-main .g_section.info div.edit_actions span.modify {
 		display: none;
 	}
 }
