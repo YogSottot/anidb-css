@@ -814,6 +814,12 @@ div.g_bubble.quotebody {
 	#layout-main div.forum .segment div.title a.topictitle {
 		margin-right: 0.5em;
 	}
+
+	#layout-main div.forum div.g_bubble.navbar span.info,
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_info,
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_revisions {
+		display: none !important;
+	}
 }
 
 @media screen and (max-width: 635px) {
@@ -859,9 +865,7 @@ div.g_bubble.quotebody {
 
 	#f_mode,
 	#layout-main div.forum div.g_bubble.navbar span.info,
-	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_info,
 	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_move,
-	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_revisions,
 	#layout-main div.forum div.navbar span.icons,
 	#layout-main div.forum div.g_bubble.navbar span.messages {
 		display: none !important;
