@@ -75,7 +75,7 @@
 }
 
 #layout-main div.cmt_entries div.postbody p.author {
-	margin: -2.5em 25em 1em 0.5em;
+	margin: -2em 25em 1em 0.5em;
 }
 
 #layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions {
@@ -783,7 +783,7 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.cmt_entries div.postbody p.author {
-	    margin: 0em 0.5em 1em 0.5em;
+	    margin: 0.5em 0.5em 1em 0.5em;
 	}
 
 	#layout-main div.forum div.quickreply textarea {
@@ -843,24 +843,12 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.forum div.profile a.username-colored,
-	#layout-main div.cmt_entries div.profile div.rank,
-	#layout-main div.cmt_entries div.profile div.joined,
-	#layout-main div.cmt_entries div.profile div.posts,
-	#layout-main div.cmt_entries div.profile div.user_icons {
+	#layout-main div.cmt_entries div.profile {
 		display: none;
 	}
 
 	#layout-main div.forum div.g_bubble.navbar div.bottom {
 		border: none;
-	}
-
-	#layout-main div.cmt_entries div.profile div.rank {
-		margin-bottom: 0;
-	}
-
-	#layout-main div.cmt_entries div.profile {
-		width: 10em;
-		min-height: auto;
 	}
 
 	#layout-main div.cmt_entries div.postbody div.content {
@@ -871,15 +859,28 @@ div.g_bubble.quotebody {
 
 	#f_mode,
 	#layout-main div.forum div.g_bubble.navbar span.info,
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_info,
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_move,
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_revisions,
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_info,
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_move,
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_revisions,
 	#layout-main div.forum div.navbar span.icons,
 	#layout-main div.forum div.g_bubble.navbar span.messages {
 		display: none !important;
 	}
 
 	#layout-main div.cmt_entries div.postbody p.author {
-	    margin-bottom: 5em;
+		margin-top: -2.5em;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) div.postbody p.author,
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
+		margin-top: -5em !important;
+		margin-bottom: 3em;
+		margin-right: 0 !important;
+	}
+
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions {
+	    padding-top: 2.5em;
 	}
 }

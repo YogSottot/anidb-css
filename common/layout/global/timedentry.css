@@ -1,12 +1,13 @@
-#layout-main div.g_timedentry  {
-	margin-bottom: 2em;
-}
-
 #layout-main div.g_timedentry {
 	min-height: 174px;
 	/*IE*/
 	height: auto !important;
 	height: 174px;
+	margin-bottom: 1em;
+}
+
+#layout-main div.g_timedentry.g_section {
+	clear: none;
 }
 
 #layout-main div.g_timedentry h4 {

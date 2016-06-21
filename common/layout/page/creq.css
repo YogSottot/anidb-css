@@ -72,7 +72,11 @@
 }
 
 #layout-main div.creq_all div.creq_hist div.cmt_entries div.creq_state div.postbody p.author {
-	margin: 0 0 0 0.8em
+	margin: 0;
+}
+
+#layout-main div.creq_all div.creq_hist div.cmt_entries div.creq_state .content {
+	display: none;
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.profile div.posts,
@@ -83,12 +87,15 @@
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.profile {
-	margin:4px 8px -10pt 8pt;
-	width:8em;
+	width: 8em;
+}
+
+#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
+	margin-right: 11em;
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.postbody div.content {
-	margin-left: 10em;
+	margin-left: 9.5em;
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) {
@@ -105,41 +112,9 @@
 	text-align: left;
 }
 
-#layout-main div.creq_all div.tabbed_pane ul.tabs {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex-wrap: wrap;
-	margin: 1px 1px 0px 6px;
-}
-
 #layout-main .creq_all .tabbed_pane ul li {
-	margin: 0px 2px;
 	min-width: 3em;
-	overflow: hidden;
 	text-align: center;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
-@media screen and (max-width: 1000px) {
-	#layout-main div.creq_all div.tabbed_pane ul.tabs {
-		-webkit-flex-wrap: wrap;
-		-moz-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-	}
-	#layout-main .creq_all .tabbed_pane ul li {
-		min-width: 0em;
-	}
-}
-
-@media screen and (max-width: 1350px) {
-	#layout-main .creq_all .tabbed_pane ul li {
-		white-space: normal;
-	}
 }
 
 #layout-main .creq_all .format-buttons {
@@ -148,4 +123,37 @@
 
 #layout-main div.creq_all div.tabbed_pane + .g_list {
 	margin-top: 1em;
+}
+
+@media screen and (max-width: 950px) {
+	#layout-main div.creq_all .g_section.list {
+	    overflow: auto;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	#anidb.creq #layout-tabs ul.main-tabs > li.trusted,
+	#anidb.creq #layout-tabs ul.main-tabs > li.trustednew,
+	#anidb.creq #layout-tabs ul.main-tabs > li.untrusted {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
+		margin-top: -2.5em;
+	}
+}
+
+@media screen and (max-width: 635px) {
+	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.postbody div.content {
+		margin-left: 1em;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#anidb.creq #layout-tabs ul.main-tabs > li.my,
+	#anidb.creq #layout-tabs ul.main-tabs > li.history {
+		display: none;
+	}
 }

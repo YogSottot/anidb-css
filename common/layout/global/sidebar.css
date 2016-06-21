@@ -8,7 +8,7 @@
 		display: none;
 	}
 
-	#layout-main .sidebar.g_content .g_section.info div.edit_actions {
+	#layout-main .sidebar.g_content .g_section.info > div.edit_actions {
 		width: 100%;
 		height: auto;
 		margin-right: 0;
