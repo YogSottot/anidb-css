@@ -15,13 +15,21 @@
 #layout-main div.tabbed_pane ul.tabs {
 	margin-left: 0.5em;
 	text-align: left;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap-reverse;
+	-moz-flex-wrap: wrap-reverse;
+	-ms-flex-wrap: wrap-reverse;
+	flex-wrap: wrap-reverse;
 }
 
 #layout-main div.tabbed_pane ul.tabs li {
-	cursor: pointer;
-	display: inline-block;
 	padding: 0.3em 0.7em;
 	border-bottom: 0;
+	margin: 0.2em 0.2em 0 0;
 }
 
 #layout-main div.tabbed_pane_main {

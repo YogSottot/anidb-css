@@ -245,6 +245,7 @@ div.pagination span a {
 	font-weight:normal;
 }
 
+#layout-main div.tabbed_pane ul.tabs li,
 .i_icon.i_info,
 span.link,
 button:hover,

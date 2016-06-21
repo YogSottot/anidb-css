@@ -105,41 +105,9 @@
 	text-align: left;
 }
 
-#layout-main div.creq_all div.tabbed_pane ul.tabs {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex-wrap: wrap;
-	margin: 1px 1px 0px 6px;
-}
-
 #layout-main .creq_all .tabbed_pane ul li {
-	margin: 0px 2px;
 	min-width: 3em;
-	overflow: hidden;
 	text-align: center;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
-@media screen and (max-width: 1000px) {
-	#layout-main div.creq_all div.tabbed_pane ul.tabs {
-		-webkit-flex-wrap: wrap;
-		-moz-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-	}
-	#layout-main .creq_all .tabbed_pane ul li {
-		min-width: 0em;
-	}
-}
-
-@media screen and (max-width: 1350px) {
-	#layout-main .creq_all .tabbed_pane ul li {
-		white-space: normal;
-	}
 }
 
 #layout-main .creq_all .format-buttons {
@@ -148,4 +116,10 @@
 
 #layout-main div.creq_all div.tabbed_pane + .g_list {
 	margin-top: 1em;
+}
+
+@media screen and (max-width: 950px) {
+	#layout-main div.creq_all .g_section.list {
+	    overflow: auto;
+	}
 }
