@@ -859,9 +859,9 @@ div.g_bubble.quotebody {
 
 	#f_mode,
 	#layout-main div.forum div.g_bubble.navbar span.info,
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_info,
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_move,
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions a.i_comment_revisions,
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_info,
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_move,
+	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_revisions,
 	#layout-main div.forum div.navbar span.icons,
 	#layout-main div.forum div.g_bubble.navbar span.messages {
 		display: none !important;
@@ -878,7 +878,7 @@ div.g_bubble.quotebody {
 		margin-bottom: 3em;
 	}
 
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions {
+	#layout-main div.cmt_entries div.comment div.postbody span.actions {
 	    padding-top: 2.5em;
 	}
 }

@@ -72,7 +72,7 @@
 }
 
 #layout-main div.creq_all div.creq_hist div.cmt_entries div.creq_state div.postbody p.author {
-	margin: 0 0 0 0.8em
+	margin: 0;
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.profile div.posts,
@@ -121,5 +121,9 @@
 @media screen and (max-width: 950px) {
 	#layout-main div.creq_all .g_section.list {
 	    overflow: auto;
+	}
+
+	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.postbody div.content {
+		margin-left: 1em;
 	}
 }
