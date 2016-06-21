@@ -28,13 +28,13 @@
 }
 
 @media screen and (max-width: 950px) {
-	#layout-main .g_msg ~ .g_section.info div.edit_actions {
+	#layout-main .g_msg ~ .g_section.info > div.edit_actions {
 		margin-top: -1em;
 	}
 }
 
 @media screen and (max-width: 800px) {
-	#layout-main .g_section.info div.edit_actions {
+	#layout-main .g_section.info > div.edit_actions {
 		width: 100%;
 		margin-right: 0;
 	}
@@ -43,7 +43,7 @@
 @media screen and (max-width: 550px) {
 	#layout-main div.edit_actions span.add,
 	#layout-main div.edit_actions span.modify,
-	#layout-main .g_section.info div.edit_actions {
+	#layout-main .g_section.info > div.edit_actions {
 		display: none;
 	}
 }
