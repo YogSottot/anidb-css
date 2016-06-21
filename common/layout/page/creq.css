@@ -83,8 +83,11 @@
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.profile {
-	margin:4px 8px -10pt 8pt;
-	width:8em;
+	width: 8em;
+}
+
+#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
+	margin-right: 11em;
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.postbody div.content {
@@ -122,7 +125,9 @@
 	#layout-main div.creq_all .g_section.list {
 	    overflow: auto;
 	}
+}
 
+@media screen and (max-width: 635px) {
 	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.postbody div.content {
 		margin-left: 1em;
 	}
