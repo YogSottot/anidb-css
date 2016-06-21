@@ -843,28 +843,12 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.forum div.profile a.username-colored,
-	#layout-main div.cmt_entries div.profile div.rank,
-	#layout-main div.cmt_entries div.profile div.joined,
-	#layout-main div.cmt_entries div.profile div.posts,
-	#layout-main div.cmt_entries div.profile div.user_icons {
+	#layout-main div.cmt_entries div.profile {
 		display: none;
 	}
 
 	#layout-main div.forum div.g_bubble.navbar div.bottom {
 		border: none;
-	}
-
-	#layout-main div.cmt_entries div.profile img {
-		max-width: 50px;
-	}
-
-	#layout-main div.cmt_entries div.profile div.rank {
-		margin-bottom: 0;
-	}
-
-	#layout-main div.cmt_entries div.profile {
-		width: auto;
-		min-height: auto;
 	}
 
 	#layout-main div.cmt_entries div.postbody div.content {
@@ -885,7 +869,7 @@ div.g_bubble.quotebody {
 
 	#layout-main div.cmt_entries div.postbody p.author {
 		margin-top: -5em;
-		text-align: right;
+		margin-bottom: 3em;
 	}
 
 	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions {
