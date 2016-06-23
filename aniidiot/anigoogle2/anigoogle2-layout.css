@@ -130,3 +130,8 @@
 .g_section > h2 > span {
 	padding: 0.5em 0.5em 0;
 }
+
+#layout-main div.forum div.topic_actions div.linklist,
+#layout-main div.forum div.topic_actions div.pagination {
+	margin-top: 0.3em;
+}
