@@ -9,7 +9,8 @@
 #layout-main div.ep_all ul.links_top,
 #layout-main div.group_all ul.links_top,
 #layout-main div.song_all ul.links_top,
-#layout-main div.tag_all ul.links_top
+#layout-main div.tag_all ul.links_top,
+#layout-main div ul.links_top
 {
   display: block;
 }
@@ -98,6 +99,11 @@ table.grouplist tr td.name {
 }
 
 /* userpage */
+/* highlight unread messages in the Discussions section of userpage */
+#layout-main div.g_content.userpage_all div.g_section.discussions div.g_definitionlist table tr.unread {
+  font-weight: bold;
+}
+
 /* Disallow line wrap on userpage stats block */
 #layout-main div.userpage_all div.stats div table th.field,
 #layout-main div.myplace_all div.stats div table th.field
@@ -110,34 +116,7 @@ table.grouplist tr td.name {
   width: 40em;
 }
 
-/* vertical align the user page avatar */
-#layout-main div.userpage_all div.userdetails div.block div.image {
-  align-self: baseline;
-  margin-top: 1.7em;
-}	
-
-/*
-shrink width of info box on userpages
-
-div.userdetails > div.block > div:nth-last-child(2)
-*/
-#layout-main div.userpage_all div.userdetails div.block div.image,
-#layout-main div.userpage_all div.userdetails div.block div.user_info,
-#layout-main div.userpage_all div.userdetails div.block div.notify
-{
-  width: initial;
-  align-items: stretch;
-}
-
 /* userpage sections flex adding (discussions section only so far) */
-#layout-main .g_section.discussions {
-  display: flex;
-  flex-wrap: wrap;
-}
-#layout-main .g_section.discussions h4 {
-  width: 100%;
-  /*flex-shrink: 0;*/
-}
 #layout-main .g_definitionlist.anime,
 #layout-main .g_definitionlist.clubs,
 #layout-main .g_definitionlist.subscriptions {
