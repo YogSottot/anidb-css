@@ -249,11 +249,13 @@
 		display: block;
 	}
 
-	#layout-main div.userpage_all div.g_menu.left > div.stats,
-	#layout-main div.userpage_all div.g_menu.left > div.buddies,
-	#layout-main div.userpage_all div.g_menu.right,
-	#layout-main div.userpage_all > .g_section.info {
+	#layout-main div.userpage_all div.g_menu.left,
+	#layout-main div.userpage_all div.g_menu.right {
 		display: none;
+	}
+	
+	#layout-main div.userpage_all > .g_section.info {
+		margin-bottom: 2em;
 	}
 
 	#layout-main div.userpage_all .g_section.info,
