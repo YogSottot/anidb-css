@@ -115,12 +115,3 @@ table.grouplist tr td.name {
 {
   width: 40em;
 }
-
-/* userpage sections flex adding (discussions section only so far) */
-#layout-main .g_definitionlist.anime,
-#layout-main .g_definitionlist.clubs,
-#layout-main .g_definitionlist.subscriptions {
-/* flex-shrink: 1; */
-  width: 33%;
-  margin: auto;
-}
