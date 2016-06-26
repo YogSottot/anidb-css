@@ -41,6 +41,11 @@
 	width: 7em;
 }
 
+/* user avatar, info block, and description */
+#layout-main div.userpage_all .g_section.desc img {
+	max-width: 100%;
+}
+
 /*main block data*/
 #layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden),
 #layout-main div.userpage_all.sidebar > .g_section.resized,
