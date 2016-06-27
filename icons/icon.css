@@ -59,11 +59,3 @@ span.smiley {
 button + .i_icon {
 	padding-left: 0.5em;
 }
-
-.i_topic_read {
-	width: auto;
-}
-
-.i_topic_read span {
-	display: block;
-}

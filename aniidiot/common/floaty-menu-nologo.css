@@ -24,12 +24,6 @@
 #layout-search div.search a.advsearch {
 	margin-left: 1em;
 }
-#layout-tabs {
-	margin: 41px 3px;
-}
-#layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 55px 3px 0;
-}
 
 #layout-content {
 	margin-top: 0;

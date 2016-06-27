@@ -104,22 +104,6 @@ input, select {
 	padding:4px;
 }
 
-#layout-tabs {
-	display:block;
-	position:relative;
-	margin: 0 2em 0 0;
-}
-
-#layout-tabs ul li {
-	display:inline;
-	padding:4px 20px 3px;
-}
-
-#layout-tabs ul {
-	display:block;
-	text-align:right;
-}
-
 #layout-menu li.sub-menu span.tab {
 	padding-bottom:.5em;
 	padding-top:.5em;
@@ -151,9 +135,6 @@ caption,
 	padding:.3em;
 }
 
-#layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin:1.2em 0.3em 0;
-}
 #layout-hint + #layout-nav #layout-menu {
 	margin-top:1.1em;
 }
