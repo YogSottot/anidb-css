@@ -143,8 +143,8 @@
 
 *.i_topic_read {
   background-image:url(../icons/orange/topic_read.png);
-	height:px;
-	width:px;
+  height:65px;
+  width:12px;
 }
 
 *.i_comment_revisions {
