@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 550px) {
 	#layout-main div.tabbed_pane ul.tabs li.fake,
-	#anidb:not(.main) #layout-tabs ul.main-tabs > li.forum {
+	#anidb.anime #layout-tabs ul.main-tabs > li.forum {
 		display: none;
 	}
 }
