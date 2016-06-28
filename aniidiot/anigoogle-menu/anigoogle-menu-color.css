@@ -30,9 +30,3 @@
 #layout-menu li.sub-menu li+li {
 	border-top-color: #DEE8FA;
 }
-
-/*clickable logo*/
-#layout-menu li.sub-menu ul li.main a:hover {
-	background-color: transparent;
-	background-image: none;
-}

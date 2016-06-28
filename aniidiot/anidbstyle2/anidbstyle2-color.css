@@ -588,12 +588,6 @@ li + li.g_odd,
 	border-bottom-color: #B9BBBF;
 }
 
-/*clickable logo*/
-#layout-menu li.sub-menu ul li.main a:hover {
-	background-color: transparent;
-	background-image: none;
-}
-
 #layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr {
 	background-color: #9A9A9A;

@@ -30,9 +30,3 @@
 #layout-menu li.sub-menu li:active {
 	background: transparent url(images/stripe-darkgrey.png) repeat left top;
 }
-
-/*clickable logo*/
-#layout-menu li.sub-menu ul li.main a:hover {
-	background-color: transparent;
-	background-image: none;
-}

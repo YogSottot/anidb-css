@@ -64,19 +64,9 @@
 	display:block;
 }
 
-#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
-	height: 28px;
-	width: auto;
-	margin-top: 0;
-}
-
 #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li a {
 	box-sizing: border-box;
 	height: 28px;
-}
-
-#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
-	position: static;
 }
 
 #anidb:not(.nodropdownmenu) #layout-main {

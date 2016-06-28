@@ -201,14 +201,6 @@ caption,
 	padding: .3em;
 }
 
-#layout-hint {
-	position: absolute;
-}
-
-#layout-hint + #layout-nav #layout-menu {
-	margin-top: 1.1em;
-}
-
 #layout-main .g_definitionlist {
 	margin: 2px 0 0;
 }
