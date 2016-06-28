@@ -83,11 +83,6 @@
 	margin-left: 0.5em;
 }
 
-#anidb:not(.nodropdownmenu) #layout-search div.search,
-#anidb:not(.nodropdownmenu) #layout-search {
-	height: 70px;
-}
-
 #anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
 #anidb:not(.nodropdownmenu) #layout-menu {
 	margin-top: -23px;

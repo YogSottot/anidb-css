@@ -11,21 +11,6 @@
 		display: none;
 	}
 
-	#anidb:not(.nodropdownmenu) #layout-search .text {
-		width: calc(100% - 18em);
-		margin-left: 0.5em;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-search div.search form > div {
-		top: 7em;
-		width: 100%;
-		left: -0.9em;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-search input.text {
-		margin-left: 1em;
-	}
-
 	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
 	#anidb:not(.nodropdownmenu) #layout-menu {
 	    margin-top: -0.25em;
