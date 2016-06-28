@@ -3,11 +3,6 @@
 		margin-top: 5.3em;
 	}
 
-	#anidb:not(.nodropdownmenu) #layout-hint {
-		height: 16px;
-		overflow: hidden;
-	}
-
 	#anidb:not(.nodropdownmenu) #layout-nav {
 		margin-top: 11em;
 	}

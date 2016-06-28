@@ -92,10 +92,6 @@
 	margin: 11.4em 0.5em 0;
 }
 
-#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 132px 0.5em 0;
-}
-
 #anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
 #anidb:not(.nodropdownmenu) #layout-menu {
 	margin-top: -23px;
