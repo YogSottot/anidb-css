@@ -242,7 +242,7 @@ caption,
 }
 
 #layout-hint {
-	position: relative;
+	position: absolute;
 }
 
 #layout-hint + #layout-nav #layout-menu {
