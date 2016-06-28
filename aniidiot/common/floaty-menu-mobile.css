@@ -7,10 +7,6 @@
 		margin-top: 11em;
 	}
 
-	#anidb:not(.nodropdownmenu) #layout-tabs {
-	    margin: -2.9em 1em 1em 0;
-	}
-
 	#anidb:not(.nodropdownmenu) #layout-search div.search a.advsearch {
 		display: none;
 	}

@@ -200,11 +200,14 @@ caption,
 	padding-left: 0;
 }
 
+#layout-tabs {
+	margin: -2.9em 1em 1em 0;
+}
+
 #layout-tabs,
 #layout-tabs ul {
 	display: block;
 	text-align: right;
-
 }
 
 #layout-tabs ul li {
