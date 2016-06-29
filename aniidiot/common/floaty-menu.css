@@ -88,17 +88,9 @@
 	height: 70px;
 }
 
-#anidb:not(.nodropdownmenu) #layout-tabs {
-	margin: 11.4em 0.5em 0;
-}
-
-#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 132px 0.5em 0;
-}
-
 #anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
 #anidb:not(.nodropdownmenu) #layout-menu {
-	margin-top: -23px;
+    margin-top: -0.25em;
 }
 
 #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.alert {

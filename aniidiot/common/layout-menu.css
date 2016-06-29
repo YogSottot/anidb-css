@@ -52,24 +52,6 @@ body {
 	display: none;
 }
 
-#layout-tabs ul li {
-	display: inline-block;
-	padding: 0;
-}
-
-#layout-tabs ul li a {
-	display: inline-block;
-	padding: 2px 10px;
-}
-
-#layout-tabs {
-	margin: 83px 3px 0;
-}
-
-#layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 99px 3px 0;
-}
-
 #layout-nav {
 	margin-top: 102px;
 	height: 1px;
@@ -80,10 +62,6 @@ body {
 #layout-menu,
 #layout-content {
 	margin-top: 0;
-}
-
-#layout-hint + #layout-nav #layout-search {
-	top: 20px;
 }
 
 #layout-menu li.sub-menu ul li {

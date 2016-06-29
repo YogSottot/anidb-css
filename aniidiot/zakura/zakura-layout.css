@@ -14,14 +14,6 @@ table td {
 	text-align: left;
 }
 
-#layout-tabs {
-	margin: 213px 0 0 140px;
-}
-
-#layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 230px 0 0 140px;
-}
-
 #layout-hint + #layout-nav #layout-menu #menu-account {
 	top: 1.7em;
 }

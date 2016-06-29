@@ -3,21 +3,8 @@
 		margin-top: 5.3em;
 	}
 
-	#anidb:not(.nodropdownmenu) #layout-hint {
-		height: 16px;
-		overflow: hidden;
-	}
-
 	#anidb:not(.nodropdownmenu) #layout-nav {
 		margin-top: 11em;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-tabs {
-	    margin: 14.5em 1em 0 0;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav + #layout-content #layout-tabs {
-		margin: 16em 1em 0 0;
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-search div.search a.advsearch {
@@ -31,17 +18,8 @@
 
 	#anidb:not(.nodropdownmenu) #layout-search div.search form > div {
 		top: 7em;
-		width: 100%;
-		left: -0.9em;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-search input.text {
-		margin-left: 1em;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
-	#anidb:not(.nodropdownmenu) #layout-menu {
-	    margin-top: -0.25em;
+		width: calc(100% - 0.5em);
+		left: -0.5em;
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
