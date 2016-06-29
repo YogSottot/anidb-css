@@ -125,6 +125,7 @@
 
 .g_bubble.box > div.image img {
 	max-width: 150px;
+	max-height: 225px;
 }
 
 .g_bubble.box > div.top {

@@ -33,7 +33,10 @@
 
 	#layout-main .sidebar div.block > div.image {
 		margin: 0;
-		overflow: hidden;
+	}
+
+	#layout-main .sidebar div.block > div.image img {
+		max-width: 40em;
 	}
 
 	#layout-main .sidebar .g_section.info .tabbed_pane {
