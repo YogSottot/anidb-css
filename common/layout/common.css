@@ -132,7 +132,7 @@ body.nonav #layout-main h1 {
 	top: 0;
 	width: calc(100% - 2em);
 	text-align: center;
-	z-index:10;
+	z-index:110;
 	padding: 0.25em 1em;
 }
 
