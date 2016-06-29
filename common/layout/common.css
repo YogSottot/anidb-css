@@ -133,7 +133,7 @@ body.nonav #layout-main h1 {
 	width: calc(100% - 2em);
 	text-align: center;
 	z-index:10;
-	padding: 0.5em 1em;
+	padding: 0.25em 1em;
 }
 
 ul.format-modes {

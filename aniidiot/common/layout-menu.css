@@ -64,10 +64,6 @@ body {
 	margin-top: 0;
 }
 
-#layout-hint + #layout-nav #layout-search {
-	top: 20px;
-}
-
 #layout-menu li.sub-menu ul li {
 	padding: 0;
 }
