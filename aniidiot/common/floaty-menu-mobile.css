@@ -3,12 +3,32 @@
 		margin-top: 5.3em;
 	}
 
+	#anidb:not(.nodropdownmenu) #layout-hint {
+		height: 16px;
+		overflow: hidden;
+	}
+
 	#anidb:not(.nodropdownmenu) #layout-nav {
-		margin-top: 12.4em;
+		margin-top: 11em;
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-search div.search a.advsearch {
 		display: none;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-search .text {
+		width: calc(100% - 18em);
+		margin-left: 0.5em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-search div.search form > div {
+		top: 7em;
+		width: 100%;
+		left: -0.9em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-search input.text {
+		margin-left: 1em;
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,

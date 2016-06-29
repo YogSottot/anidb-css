@@ -85,6 +85,12 @@
 	right: 81px;
 }
 
+#layout-menu li.sub-menu ul li.main a {
+	height: 28px;
+	width: auto;
+	margin-top: 0;
+}
+
 #layout-menu li.sub-menu ul li a {
 	box-sizing: border-box;
 	height: 28px;
@@ -92,6 +98,14 @@
 
 #layout-hint + #layout-nav #layout-menu #menu-account {
     right: 178px;
+}
+
+#layout-menu li.sub-menu ul li.main a {
+	position: static;
+}
+
+#layout-menu li.sub-menu ul li.main a:hover {
+	background: transparent url("images/stripe-pink.gif") repeat scroll left top;
 }
 
 #layout-main {

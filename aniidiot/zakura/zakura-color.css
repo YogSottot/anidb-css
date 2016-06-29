@@ -580,6 +580,12 @@ button,
 	box-shadow: none;
 }
 
+/*clickable logo*/
+#layout-menu li.sub-menu ul li.main a:hover {
+	background-color: transparent;
+	background-image: none;
+}
+
 select,
 textarea,
 input[type="text"],

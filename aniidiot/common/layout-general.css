@@ -115,6 +115,46 @@ caption,
 	z-index: 105;
 }
 
+#layout-search {
+	display: block;
+	height: 56px;
+	left: 0;
+	margin-left: 1em;
+	position: absolute;
+	top: 3em;
+	width: 60em;
+}
+
+#layout-search div.search {
+	margin-left: 16em;
+	margin-top: 1.3em;
+	width: 100%;
+}
+
+#layout-search div.search form > div {
+	width: 450px;
+}
+
+#layout-search .text {
+	width: 237px;
+	margin: 0;
+	padding: 4px 8px;
+}
+
+#layout-search .submit {
+	float: right;
+	width: 80px;
+	margin: 0 0 0 3px;
+	padding: 4px;
+	height: 28px;
+}
+
+#layout-search select {
+	margin-left: -4px;
+	padding: 4px 8px;
+	min-height: 0;
+}
+
 #layout-main > h1 {
 	display: block;
 	text-align: left;
@@ -168,6 +208,7 @@ caption,
 #layout-tabs ul {
 	display: block;
 	text-align: right;
+
 }
 
 #layout-tabs ul li {
@@ -338,10 +379,4 @@ button,
 
 #layout-main ul.g_list li {
 	margin-bottom: 0.5em;
-}
-
-#layout-search > a.logo {
-	display: block;
-	height: 94px;
-	width:100%;
 }
