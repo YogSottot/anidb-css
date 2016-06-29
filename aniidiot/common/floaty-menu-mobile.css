@@ -41,6 +41,10 @@
 	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.support {
 		display: none;
 	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
+		width: 110px;
+	}
 }
 
 @media screen and (max-width: 510px) {
