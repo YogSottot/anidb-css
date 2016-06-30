@@ -80,3 +80,7 @@
 	right: 0;
 	top: 5px;
 }
+
+#layout-menu li.sub-menu span.tab {
+	padding-bottom: 0;
+}
