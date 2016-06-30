@@ -249,9 +249,17 @@
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box {
-	width: 159px;
+	width: 158px;
 }
 
 #layout-main div.main_all {
 	width: calc(100% - 1.5em);
+}
+
+#layout-main h2 + div.edit_actions {
+    margin-top: -2.5em;
+}
+
+#layout-main div.main_all div.latest div.container {
+	box-sizing: content-box;
 }
