@@ -74,3 +74,9 @@
 #layout-search .text {
 	width:400px;
 }
+
+#layout-tabs ul {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
