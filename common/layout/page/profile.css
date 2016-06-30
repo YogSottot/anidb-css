@@ -44,7 +44,8 @@
 
 #layout-main div.profile_all div.tabbed_pane div.user_css div textarea {
 	height: 500px;
-	width: 70%;
+	width: calc(100% - 2em);
+	box-sizing: border-box;
 }
 
 #layout-main div.profile_all div.tabbed_pane div.permissions div.detailed h4 {
@@ -171,4 +172,20 @@
 #layout-main div.profile_all div.tabbed_pane div.permissions form > p,
 #layout-main div.profile_all div.css_style p {
 	text-align: center;
+}
+
+@media screen and (max-width: 630px) {
+	#css_selector div.block {
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	#layout-main div.profile_all div.pane div.settings.block {
+		width: 100% !important;
+		margin-right: 0;
+		overflow: auto;
+		display: block;
+	}
 }
