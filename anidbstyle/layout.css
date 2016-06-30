@@ -245,5 +245,5 @@
 }
 
 #layout-main div.tabbed_pane ul.tabs {
-	height: 1.7em;
+	margin-bottom: -1px;
 }
