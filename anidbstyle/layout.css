@@ -247,3 +247,11 @@
 #layout-main div.tabbed_pane ul.tabs {
 	margin-bottom: -1px;
 }
+
+#layout-main div.main_all div.calendar .g_bubble.box {
+	width: 159px;
+}
+
+#layout-main div.main_all {
+	width: calc(100% - 1.5em);
+}
