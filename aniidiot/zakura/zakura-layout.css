@@ -10,6 +10,14 @@ table td {
 	top: 0;
 }
 
+#layout-tabs {
+    margin-top: 4em;
+}
+
+#layout-main {
+	margin-top: -7.4em;
+}
+
 #layout-tabs ul {
 	text-align: left;
 }
