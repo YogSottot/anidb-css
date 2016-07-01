@@ -566,7 +566,6 @@ button,
 #imagepreview,
 .tooltip span.text {
 	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
-	opacity: 0.95;
 	background-color: #E8E8E8 !important;
 }
 
@@ -652,47 +651,26 @@ html {
 	color: #2D42AF !important;
 }
 
-#layout-menu #menu-account li {
-	border-left-color: #E7C7D5 !important;
-}
-
 #layout-menu #menu-account li a,
 #layout-menu #menu-account li a:link,
-#layout-menu #menu-account li a:visited {
-	color: #BE518C !important;
-	background: transparent url("images/trans-pink.png") repeat scroll left top;
-}
-
-#layout-menu #menu-account li a:hover,
-#layout-menu #menu-account li a:active {
-	background: transparent url("images/stripe-pink.png") repeat scroll left top;
-	color: #A93373 !important;
-}
-
+#layout-menu #menu-account li a:visited,
 #layout-menu #menu-account #user-logout a,
 #layout-menu #menu-account #user-logout a:link,
-#layout-menu #menu-account #user-logout a:visited {
-	background: transparent url("images/trans-blue.png") repeat scroll left top;
-	color: #4A63E1 !important;
-}
-
-#layout-menu #menu-account #user-logout a:hover,
-#layout-menu #menu-account #user-logout a:active {
-	background: #D3D7F3 url("images/stripe-blue.png") repeat scroll left top;
-	color: #2D42AF !important;
-}
-
+#layout-menu #menu-account #user-logout a:visited,
 #layout-menu li.sub-menu #menu-account .alert a,
 #layout-menu li.sub-menu #menu-account .alert a:link,
 #layout-menu li.sub-menu #menu-account .alert a:visited {
-	color: #fd0576;
-	background: transparent url("images/trans-white.png") repeat left top;
+	color: #FFFFFF !important;
 }
 
+#layout-menu #menu-account li a:hover,
+#layout-menu #menu-account li a:active,
+#layout-menu #menu-account #user-logout a:hover,
+#layout-menu #menu-account #user-logout a:active,
 #layout-menu li.sub-menu #menu-account .alert a:hover,
 #layout-menu li.sub-menu #menu-account .alert a:active {
-	color: #fd0576 !important;
-	background: transparent url("images/stripe-white.png") repeat left top;
+	color: #FFFFFF !important;
+	background: transparent url("images/layout/top_hover.jpg") repeat left top;
 }
 
 #layout-main {

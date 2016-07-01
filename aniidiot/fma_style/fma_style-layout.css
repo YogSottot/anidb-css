@@ -9,3 +9,11 @@
 #layout-main div.main_all div.calendar .g_bubble.box {
 	width: 162px;
 }
+
+#layout-main div.userpage_all.sidebar .g_section.info div.data .g_definitionlist td {
+	width:10em;
+}
+
+#layout-menu li.sub-menu #menu-account li a {
+	vertical-align: middle;
+}
