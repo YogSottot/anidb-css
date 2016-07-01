@@ -52,6 +52,10 @@
 	width: calc(100% - 2em);
 }
 
+#layout-main div.profile_all div.tabbed_pane div.permissions div.detailed.block.settings {
+	width: 100%;
+}
+
 #layout-main div.profile_all div.tabbed_pane div.permissions div.detailed h4 {
 	margin-bottom: .5em;
 }
