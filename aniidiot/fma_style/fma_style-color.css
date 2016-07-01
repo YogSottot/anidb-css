@@ -19,7 +19,7 @@ a:link,
 span.link,
 h4 span.nolink a,
 #layout-main a.filter {
-	color: #696969 !important;
+	color: #105289 !important;
 	outline: 0 !important;
 }
 
@@ -433,7 +433,7 @@ tr + tr th,
 .tooltip span.text:after,
 .tooltip span.text:before {
 	border-color: rgba(255, 255, 255, 0);
-	background-color: #FFFFFF;
+	background: #FFFFFF;
 }
 
 /*tag cloud*/
@@ -507,7 +507,7 @@ th a,
 #layout-main table tr.header th a,
 #layout-main div.votes_all div.graph div.header,
 #layout-main div.forum div.g_bubble.threads {
-	background-color: #565AB9;
+	background-color: #305C97;
 }
 
 /*box shadow*/
