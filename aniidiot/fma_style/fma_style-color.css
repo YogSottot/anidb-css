@@ -44,7 +44,6 @@ input[type="button"]:hover,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.username-colored,
-#layout-menu li.sub-menu span.tab,
 #layout-main div.forum .g_bubble.infobox h3 {
 	color: #AA0000 !important;
 }
@@ -246,7 +245,6 @@ input[type="password"]:focus,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-#layout-menu li.sub-menu ul,
 #layout-tabs ul.main-tabs > li.selected,
 #layout-tabs ul.main-tabs > li:hover,
 #layout-main div.tabbed_pane ul.tabs li,
@@ -517,7 +515,6 @@ th a,
 #layout-hint,
 #layout-main div.g_content,
 #layout-main div.g_msg,
-#layout-menu li.sub-menu ul,
 #layout-main div.userpage_all div.g_menu ul {
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
@@ -619,21 +616,33 @@ input[type="text"]:disabled,
 }
 
 html {
-	background: #F8F7FF url("images/bg-content.gif") repeat scroll left top;
-	color: #3D3E6E;
+	background-color: #000000;
+	color: #696969;
 }
 
 #layout-search {
-	background:url("images/bg-header.gif") repeat-x scroll left top transparent;
+	background:url("images/bg-header.jpg") repeat-x scroll left top transparent;
 }
 
 #layout-search div.search {
 	background:url("images/logo.jpg") no-repeat scroll left top transparent;
 }
 
+#layout-menu li.sub-menu span.tab {
+	color: #CCCCCC !important;
+}
+
+#layout-menu li.sub-menu ul {
+	background-color: inherit;
+}
+
+#layout-menu li.sub-menu ul a {
+	color: #bcbcbc !important;
+}
+
 #layout-menu li.sub-menu ul li a:hover,
 #layout-menu li.sub-menu ul li a:active {
-	background: transparent url("images/stripe-pink.gif") repeat scroll left top;
+	background: transparent url("images/stripe-grey.gif") repeat scroll left top;
 	color: #484B9A !important;
 }
 
