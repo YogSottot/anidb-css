@@ -110,4 +110,12 @@
 
 #layout-main {
 	margin-left: 1em;
+    padding-top: 8em;
+}
+
+#layout-tabs {
+    margin-top: 0em;
+    margin-left: 1em;
+    position: absolute;
+    top: 24em;
 }
