@@ -11,7 +11,10 @@ table td {
 }
 
 #layout-tabs {
-    margin-top: 4em;
+    margin-top: 0em;
+    margin-left: 1em;
+    position: absolute;
+    top: 24em;
 }
 
 #layout-tabs ul {
