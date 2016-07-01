@@ -4,6 +4,7 @@
 	min-height: 1.4em;
 }
 
+#layout-main .g_definitionlist th,
 #layout-main ul.g_list.nav {
 	text-align: left;	
 }
