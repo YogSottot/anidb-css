@@ -87,16 +87,8 @@
 	text-align: center;
 }
 
-#layout-main div.profile_all div.passwords,
-#layout-main div.profile_all div.tabbed_pane div.default_languages {
-	display: table;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 #layout-main div.profile_all div.passwords > div,
-#layout-main div.profile_all div.passwords form > div,
-#layout-main div.profile_all div.tabbed_pane div.default_languages div {
+#layout-main div.profile_all div.passwords form > div {
 	display: inline-table;
 }
 
@@ -190,7 +182,7 @@
 	width: calc(100% - 1em);
 }
 
-#layout-main div.profile_all div.tabbed_pane div.default_languages div.titles select {
+#layout-main div.profile_all div.tabbed_pane div.default_languages.titles select {
 	width: calc(100% - 2em);
 }
 
