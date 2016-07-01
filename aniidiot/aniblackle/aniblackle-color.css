@@ -17,7 +17,7 @@ html,
 }
 
 #layout-menu > li ul {
-	border-color: #000000;
+	border-color: #666666 #444444 #444444 #666666;
 }
 
 #layout-tabs ul.main-tabs > li:hover,

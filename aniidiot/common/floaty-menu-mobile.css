@@ -25,11 +25,33 @@
 	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
 		padding-top: 1em;
 	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+		width: 750px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+		width: 500px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
+		width: 110px;
+	}
 }
 
 @media screen and (max-width: 550px) {
 	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.support {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+		width: 320px;
 	}
 }
 

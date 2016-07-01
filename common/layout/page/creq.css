@@ -86,10 +86,6 @@
 	display: none;
 }
 
-#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.profile {
-	width: 8em;
-}
-
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
 	margin-right: 11em;
 }
