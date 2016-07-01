@@ -2,7 +2,10 @@
 	border-top: none !important;
 }
 
-#layout-main > div.g_content,
 #layout-main {
 	border-radius: 5px;
+}
+
+#layout-main > div.g_content {
+	border-radius: 0 0 5px 5px;
 }
