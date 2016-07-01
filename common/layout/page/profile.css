@@ -65,7 +65,7 @@
 }
 
 #layout-main div.profile_all div.tabbed_pane div.permissions div.permissions div {
-	float: left;
+	display: inline-block;
 	margin-bottom: .5em;
 }
 
@@ -87,7 +87,6 @@
 }
 
 #layout-main div.profile_all div.tabbed_pane div.permissions div.guest {
-	clear: left;
 	text-align: center;
 }
 
