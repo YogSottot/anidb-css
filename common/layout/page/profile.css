@@ -182,6 +182,10 @@
 	width: calc(100% - 1em);
 }
 
+#layout-main div.profile_all .userdata_form tr.picurl input[type="text"] {
+	width: calc(100% - 14em);
+}
+
 #layout-main div.profile_all div.tabbed_pane div.default_languages .titles select {
 	width: calc(100% - 2em);
 }
