@@ -21,10 +21,6 @@ table td {
 	text-align: left;
 }
 
-#layout-hint + #layout-nav #layout-menu #menu-account {
-	top: 1.7em;
-}
-
 #layout-search,
 #layout-search div.search,
 #layout-nav {

@@ -96,10 +96,6 @@
 	height: 28px;
 }
 
-#layout-hint + #layout-nav #layout-menu #menu-account {
-    right: 178px;
-}
-
 #layout-menu li.sub-menu ul li.main a {
 	position: static;
 }
