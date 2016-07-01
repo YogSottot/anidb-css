@@ -144,3 +144,7 @@ table tr.filesrow > td {
 #layout-main tr.header th.sortable a span.icon {
 	order: 2;
 }
+
+.g_section.tabbed_pane > .g_bubble table {
+	padding: 0
+}
