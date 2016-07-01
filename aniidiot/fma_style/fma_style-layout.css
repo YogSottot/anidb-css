@@ -5,3 +5,7 @@
 #layout-main > h1 {
 	margin-right: 0.5em;
 }
+
+#layout-main div.main_all div.calendar .g_bubble.box {
+	width: 162px;
+}

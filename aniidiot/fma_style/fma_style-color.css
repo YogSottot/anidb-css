@@ -224,7 +224,7 @@ button.confirmButton,
 #layout-search ul.quicksearch .g_bubble.stripe,
 #layout-main div.g_content,
 table table.filelist tr {
-	background-color: #FFFFFF;
+	background-color: #F5F5F5;
 }
 
 select:hover,
@@ -642,18 +642,14 @@ html {
 
 #layout-menu li.sub-menu ul li a:hover,
 #layout-menu li.sub-menu ul li a:active {
-	background: transparent url("images/stripe-grey.gif") repeat scroll left top;
-	color: #484B9A !important;
+	background-color: #333333;
+	color: #cccccc !important;
 }
 
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
 	background: transparent url("images/stripe-blue.gif") repeat scroll left top;
 	color: #2D42AF !important;
-}
-
-#layout-menu #menu-account {
-	background: transparent url("images/bg-login.png") no-repeat scroll right top;
 }
 
 #layout-menu #menu-account li {
@@ -705,7 +701,7 @@ html {
 
 #layout-main > h1 {
 	background-color: inherit;
-	color: #494A9C !important;
+	color: #2B5288 !important;
 }
 
 .g_definitionlist table th,

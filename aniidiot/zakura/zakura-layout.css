@@ -144,3 +144,7 @@ table tr.filesrow > td {
 #layout-main tr.header th.sortable a span.icon {
 	order: 2;
 }
+
+#layout-main div.main_all div.calendar .g_bubble.box > div.top div.name {
+	height: 5.2em;
+}
