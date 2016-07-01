@@ -224,7 +224,7 @@ button.confirmButton,
 #layout-search ul.quicksearch .g_bubble.stripe,
 #layout-main div.g_content,
 table table.filelist tr {
-	background-color: #F5F5F5;
+	background-color: #FFFFFF;
 }
 
 select:hover,
@@ -643,7 +643,7 @@ html {
 #layout-menu li.sub-menu ul li a:hover,
 #layout-menu li.sub-menu ul li a:active {
 	background-color: #333333;
-	color: #cccccc !important;
+	color: #DDDDDD !important;
 }
 
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
@@ -696,7 +696,7 @@ html {
 }
 
 #layout-main {
-	background-color: #F8F7FF;
+	background-color: #F5F5F5;
 }
 
 #layout-main > h1 {
