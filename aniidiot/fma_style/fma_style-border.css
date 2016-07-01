@@ -1,0 +1,15 @@
+#layout-menu li.sub-menu ul li + li {
+	border-top: none !important;
+}
+
+#layout-menu #menu-account li {
+	border: none !important;
+}
+
+#layout-main {
+	border-radius: 5px;
+}
+
+#layout-main > div.g_content {
+	border-radius: 0 0 5px 5px;
+}

@@ -14,6 +14,7 @@
 ./aniidiot/anigoogle2/anigoogle2.css
 ./aniidiot/anigoogle2-menu/anigoogle2-menu.css
 ./aniidiot/anitube/anitube.css
+./aniidiot/fma_style/fma_style.css
 ./aniidiot/zakura/zakura.css
 ./aniidiot/zakura-fixed_menu/zakura-fixed_menu.css
 ./aniidiot/zakura-menu/zakura-menu.css
@@ -25,7 +26,6 @@
 ./cdb/cdbstyle-anigoogle2/cdbstyle-anigoogle2.css
 ./cdb/cdbstyle-anigoogle2-menu/cdbstyle-anigoogle2-menu.css
 ./dark-style/dark-style.css
-./fma_style/fma_style.css
 ./foursquare/foursquare.css
 ./geassmode/stylesheet.css
 ./grey/grey.css
