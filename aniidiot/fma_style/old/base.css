@@ -1,0 +1,595 @@
+@import "../common/normalize.css";
+@import "../common/layout/default.css";
+@import "../common/layout/common.css";
+@import "../common/layout/global/all.css";
+@import "../common/layout/page/all.css";
+@import "../icons/all.css";
+@import "../common/style/color/special.css";
+@import "../common/style/color/forum-default.css";
+@import "../common/style/text/default.css";
+@import "../common/style/content/all.css";
+@import "../common/libs/all.css";
+@import "../common/libs/select2/style-grey.css"
+@import "../common/style/color/quicksearch.css";
+
+/* FMA specific styles */
+@import "style-content.css";
+@import "style-icons.css";
+@import "style-flags.css";
+@import "global.css";
+@import "layout.css";
+@import "forum-color.css";
+
+/* container - right sidebar */
+div.main_all div.rightbar {
+	float: right;
+	width: 25%;
+	background: #fcfafb url(images/layout/mamimi.png) no-repeat right top;
+	padding: 14em 0 0;
+	font-size: 0.95em;
+	border: 1px solid #e4e4e4;
+	border-right-color: #d5cccc;
+	border-bottom-color: #d5cccc;
+}
+
+/* rightbar elements */
+div.main_all div.rightbar h3 {
+	color: #666666;
+	padding: 0.3em 0.75em;
+	margin: 1.5em 0 0;
+	font-size: 1.3em;
+	background-color: #FEF9E9;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FCECBC;
+	border-bottom-color: #FCECBC;
+}
+div.main_all div.rightbar h4 {
+	color: #2b5288;
+	padding: 0.3em 1em;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+div.main_all div.rightbar p {
+	margin: 1em;
+	background: transparent url(images/layout/trans-white.png) repeat left top;
+	border-color: #ffdafc;
+	padding: 0.5em 0.2em;
+	margin: 0;
+	text-align: center;
+}
+div#layout-content div.rightbar p.g_vital a, 
+div#layout-content div.rightbar p.g_vital a:link, 
+div#layout-content div.rightbar p.g_vital a:visited {
+	border-bottom: 1px dotted #fd0576;
+	color: #fd0576;
+	font-weight: bold;
+}
+div#layout-content div.rightbar p.g_vital a:hover, 
+div#layout-content div.rightbar p.g_vital a:active {
+	color: #d90085;
+	border-bottom: 1px dotted #d90085;
+}
+
+/* rightbar top 10 lists */
+div.main_all div.rightbar ol {
+	margin-top: 0;
+	margin-left: 0;
+	padding-left: 0;
+}
+div.main_all div.rightbar ol:last-child {
+	margin-bottom: 0;
+}
+div.main_all div.rightbar ol li {
+	padding: 0.3em;
+	padding-left: 1em;
+	list-style: none;
+	position: relative;
+	border-bottom: 1px solid #e4e4e4;
+}
+div.main_all div.rightbar ol li span {
+	position: absolute;
+	top: 0.3em;
+	left: 1em;
+}
+div.main_all div.rightbar ol li.g_odd,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.votes_all div.graph.eps div.g_odd {
+	background: #fff;
+}
+
+div.main_all div.rightbar ol li a {
+	margin-left: 20%;
+	display: table;
+	border-bottom: none !important;
+}
+
+/* container - news */
+div.main_all div.news {
+	margin: 0 28% 1em 0;
+	padding: 0.5em 1em;
+}
+
+/* news item elements */
+div.main_all div.newsitem {
+	padding-left: 40px;
+	background: transparent url(images/layout/flower1.png) no-repeat left top;
+	border-bottom: 1px solid #f3e7ff;
+	padding-bottom: 1.2em;
+}
+div.main_all div.news h4 {
+	margin-top: 0.7em;
+	margin-bottom: -0.1em;
+	font-size: 1.5em;
+	color: #000;
+}
+div.main_all div.news span.stamp {
+	display: block;
+	color: #859efd;
+	padding: 0.2em;
+	font-size: 0.85em;
+}
+div.main_all div.newsitem:last-child {
+	border-bottom: 0;
+}
+
+
+#layout-main h1 {
+	font-weight:bold;
+	font-size:1.5em;
+	margin: 0 0 0.3em 0.5em;
+	color: #2B5288;
+	width:auto;
+	text-align: left;
+}
+
+
+
+/* news item elements */
+div.main_all div.newsitem {
+	padding-left: 30px;
+	background: transparent url(images/layout/newsitem.png) no-repeat left top;
+}
+div.main_all div.news h4 {
+	font-size:1.2em;
+}
+
+#layout-main div.block > div.image {
+	width: 49%;
+	}
+#layout-main div.block > div.data {
+	width: 49%;
+	}
+
+#layout-main div.block div.data div.tabbed_pane table,
+#layout-main div.block div.data > div > table{
+	width: 99%;
+}
+
+#layout-main div.main_all div.news p.comment
+{
+	float: right;
+	margin: -2em 0 0 0;
+	padding-left: 20px;
+	background: transparent url(images/layout/yellow_cmnt.gif) no-repeat left center;
+}
+
+/*Timed Entry: from sub-zakura*/
+
+#layout-main div.g_timedentry
+{
+	margin-bottom: 2em;
+}
+
+#layout-main div.g_timedentry
+{
+	min-height: 174px;
+	/*IE*/
+	height: auto !important;
+	height: 174px;
+}
+
+#layout-main div.g_timedentry h4
+{
+	padding: 0.1em;
+	margin: 0px;
+	text-align: left;
+}
+
+#layout-main div.g_timedentry div.avatar
+{
+	float: right;
+	margin: 10px;
+	display:inline;
+}
+
+#layout-main div.g_timedentry div.body
+{
+	padding: 0.2em;
+	text-align: left;
+}
+
+#layout-main div.g_timedentry span.stamp
+{
+	display: block;
+	text-align: right;
+	padding-right: 0.5em;
+}
+
+#layout-main div.g_timedentry span.stamp span.icons.user
+{
+	float: right;
+	margin-top: -1.5em;
+}
+
+#layout-main div.cmt_entries div.comment
+{
+	text-align:left;
+	min-height:0pt;
+	margin-bottom:1em;
+}
+
+#layout-main div.cmt_entries div.profile
+{
+	border-right: 1px solid #D1D7DC;
+	display:inline;
+	float:left;
+	margin:0pt 8px 8pt 8pt;
+	min-height:80px;
+	width:15em;
+}
+
+#layout-main div.cmt_entries div.profile div
+{
+	clear:none;
+	float:none;
+	margin-left:0em;
+	color:#666666;
+}
+
+#layout-main div.cmt_entries div.profile div.user
+{
+	padding-top:4px;
+}
+
+#layout-main div.cmt_entries div.profile div strong
+{
+	color:#000000;
+}
+
+#layout-main div.cmt_entries div.profile div.user_icons span.icons
+{
+	float: none;
+}
+
+#layout-main div.cmt_entries div.postbody div.content
+{
+	margin-left: 17em;
+}
+
+#layout-main div.cmt_entries div.postbody p.author
+{
+	margin:0pt 15em 0.6em 0pt;
+	padding:2pt 0pt 5px;
+}
+
+#layout-main div.cmt_entries div.postbody span.actions a
+{
+	float:right;
+	margin-top: 4px;
+}
+
+#layout-main div.cmt_entries div.postfooter
+{
+	clear:both;
+	height:11px;
+	text-align:right;
+	padding-bottom:0.9em;
+}
+
+#layout-main div.cmt_entries div.postfooter a.i_top
+{
+	display:block;
+	float:right;
+}
+
+#layout-main div.cmt_entries a.username-colored
+{
+	color:#AA0000;
+	font-weight:bold;
+}
+
+#layout-main div.cmt_entries hr
+{
+	border-color: #D1D7DC;
+	border-style: solid none none;
+	border-width: 1px 0pt 0pt;
+	clear: both;
+	display: block;
+	height: 1px;
+	margin: 5px 0pt;
+}
+
+/** TABS **/
+#layout-tabs ul.main-tabs li,
+#layout-main div.tabbed_pane ul.tabs li {
+	border: 1px solid;
+	border-color:#305c97;
+}
+
+#layout-main div.tabbed_pane div.body div.* {
+	left: 0px;
+}
+
+div.pagination span a:hover,
+div.pagination span strong,
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected {
+	background-color:#F5F7FF;
+	color:#2B5288;
+}
+
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected {
+	border-color: #e4e4e4 #d5cccc #f5f7ff #e4e4e4;
+}
+
+#layout-tabs ul.main-tabs li:hover,
+#layout-tabs ul.main-tabs li.selected {
+	color:#2B5288;
+	background-color:#F5F5F5;
+	border-bottom:2px double #F5F5F5;
+}
+
+div.pagination span a,
+#layout-tabs ul.main-tabs li,
+#layout-main div.tabbed_pane ul.tabs li {
+	color:#FFFFFF;
+	background-color:#305C97;
+}
+
+/*TABS*/
+#layout-content
+{
+	margin-top: 1.2em;
+}
+
+#layout-tabs
+{
+	display: block;
+	padding-left: 18px;
+}
+#layout-tabs ul.main-tabs
+{
+	margin-top:-1.95em;
+	padding-bottom:0.5em;
+}
+
+#layout-tabs ul.main-tabs li
+{
+	line-height: 1.6em;
+	text-transform: capitalize;
+	display: inline;
+}
+
+#layout-tabs ul.main-tabs li,
+#layout-main div.tabbed_pane ul.tabs li
+{
+	padding: 0.2em 0.5em;
+}
+
+/*epbar colors*/
+#layout-main div.anime_all div.groups td.epbar div.notdone,
+#layout-main div.group_all div.group_released td.epbar div.notdone
+{
+	background-color:#c6c3ff;
+	border-bottom: 2px solid #c6c3ff;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done,
+#layout-main div.group_all div.group_released td.epbar div.done
+{
+	background-color:#6361ff;
+	border-bottom: 2px solid #6361ff;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done.mylist,
+#layout-main div.group_all div.group_released td.epbar div.done.mylist
+{
+	border-bottom: 2px solid #00ff00;
+}
+
+
+#layout-main div.info div.extra div table
+{
+	border: none;
+}
+
+div.pagination span a,
+div.pagination span strong,
+.g_bubble
+{
+	border-color: #E4E4E4 #D5CCCC #D5CCCC #E4E4E4;
+}
+
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble
+{
+	background-color: #EFF3FA;
+}
+
+.g_bubble,
+.g_bubble .g_bubble .g_bubble
+{
+	background-color: #F5F7FF;
+}
+
+.g_bubble.stripe > div.data div.name
+{
+	border-bottom-color: #D3D7E2;
+	border-bottom-style: dotted;
+}
+
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title
+{
+	border-right-color: #D3D7E2;
+	border-right-style: dotted;
+}
+
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
+.g_bubble .name-colored
+{
+	color: #AA0000;
+}
+
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div
+{
+	color:#666666;
+}
+
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong
+{
+	color:#000000;
+}
+
+.g_bubble.stripe
+{
+	font-size:85%;
+}
+
+#layout-main div.main_all div.datablocks div.stripe
+{
+	width:100%;
+	height: 75px;
+	overflow: hidden;
+}
+
+#layout-main div.main_all div.g_section > h2
+{
+	background-color:#305C97;
+	border-color:#565AB9;
+	color:#FFFFFF;
+	font-size:1.1em;
+	font-weight:bold;
+	padding:0.3em 1em;
+}
+
+#layout-main div.main_all div.datablocks div.similaranime div.stripe div.data
+{
+	width:165px;
+}
+
+#layout-main div.main_all div.datablocks div.stripe div.data
+{
+	width:220px;
+}
+
+.g_bubble.stripe.mini > div.data
+{
+	width:130px;
+}
+
+#layout-search div.g_bubble.search
+{
+	background-color: transparent;
+	border:none;
+}
+
+/*vote graphs*/
+#layout-main div.votes_all div.graph div.bar div.colored
+{
+	background-color:green;
+}
+
+#layout-main div.votes_all div.graph div.bar.my div.colored
+{
+	background-color:#CD9D29;
+}
+
+/*profile page - unsetting value from common*/
+#layout-main div.profile_all div.pane div.settings.block li,
+#layout-main div.profile_all div.pane > ul li,
+#layout-main div.profile_all div.pane.general div.body div.pane div ul li {
+    line-height: 1;
+}
+
+#layout-main div.tag-column .tag-block + .tag-block {
+    border-left: 1px dotted #d3d7e2;
+}
+
+/*tooltips*/
+.tooltip
+{
+	outline:none;
+}
+
+.tooltip span.text:after,
+.tooltip span.text:before
+{
+	border: solid transparent;
+}
+
+.tooltip span.text:after
+{
+	border-width: 10px;
+}
+.tooltip span.text:before
+{
+	border-width: 13px;
+}
+
+.tooltip span.text:after
+{
+	border-color: rgba(245, 247, 255, 0);
+	border-bottom-color: #f5f7ff;
+}
+
+.tooltip span.text:before
+{
+	border-color: rgba(228, 228, 228, 0);
+	border-bottom-color: #e4e4e4;
+}
+
+.tooltip span.text
+{
+	box-shadow: 0px 0px 8px 4px #666;
+	opacity: 0.9;
+	color: #000000;
+}
+
+#layout-search select {
+	margin-left: -5px;
+}
+
+/*quicksearch*/
+#layout-search ul.quicksearch {
+	width: calc(100% - 60px);
+}
+
+#layout-search ul.quicksearch {
+    background-color: #FFFFFF;
+    border-color: #e4e4e4;
+}
+
+#layout-search ul.quicksearch li:hover,
+#layout-search ul.quicksearch li.focus {
+	background-color:#f5f7ff;
+}
+
+#layout-search input.text {
+	border-radius: 5px 0 0 5px;
+}
+
+#layout-search select {
+	border-radius: 0px 5px 5px 0px;
+}
+
+#layout-search input.text.focus {
+	border-radius: 5px 0 0;
+}
+
+#layout-search input.text.focus + select {
+    border-radius: 0 5px 0 0;
+}
