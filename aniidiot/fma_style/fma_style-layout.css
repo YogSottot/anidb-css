@@ -1,0 +1,7 @@
+#layout-main div.main_all {
+	margin: 0;
+}
+
+#layout-main > h1 {
+	margin-right: 0.5em;
+}
