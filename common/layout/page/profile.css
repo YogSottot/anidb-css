@@ -178,10 +178,11 @@
 	text-align: center;
 }
 
-#layout-main div.userdata_add div.g_definitionlist tr th {
+#layout-main div.profile_all th {
 	white-space: normal;
 }
 
+#layout-main div.profile_all div.tabbed_pane div.default_languages div.titles select,
 #layout-main div.profile_all .userdata_form .select2-container {
 	width: 100% !important;
 }
