@@ -42,10 +42,14 @@
 	margin: 50px;
 }
 
+#layout-main div.profile_all textarea {
+	width: 100%;
+	box-sizing: border-box;
+}
+
 #layout-main div.profile_all div.tabbed_pane div.user_css div textarea {
 	height: 500px;
 	width: calc(100% - 2em);
-	box-sizing: border-box;
 }
 
 #layout-main div.profile_all div.tabbed_pane div.permissions div.detailed h4 {
@@ -174,6 +178,15 @@
 	text-align: center;
 }
 
+#layout-main div.userdata_add div.g_definitionlist tr th {
+	white-space: normal;
+}
+
+#layout-main div.profile_all .userdata_form input[type="text"],
+#layout-main div.profile_all .userdata_form .select2-container {
+	width: 100% !important;
+}
+
 @media screen and (max-width: 630px) {
 	#css_selector div.block {
 		-webkit-flex-wrap: wrap;
@@ -187,5 +200,10 @@
 		margin-right: 0;
 		overflow: auto;
 		display: block;
+	}
+
+	#css_selector button.prev,
+	#css_selector button.next {
+		display: none;
 	}
 }
