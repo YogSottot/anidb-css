@@ -12,9 +12,9 @@ table td {
 
 #layout-tabs {
     margin-top: 0em;
-    margin-left: 1em;
     position: absolute;
-    top: 24em;
+	top: 20.2em;
+	left: 13em;
 }
 
 #layout-tabs ul {
