@@ -449,8 +449,8 @@ tr + tr th,
 /*tooltip*/
 .tooltip span.text:after,
 .tooltip span.text:before {
-	border-color: rgba(245, 245, 245, 0);
-	border-bottom-color: #F5F5F5;
+	border-color: rgba(232, 232, 232, 0);
+	border-bottom-color: #E8E8E8;
 }
 
 /*tag cloud*/
@@ -602,7 +602,8 @@ button,
 #imagepreview,
 .tooltip span.text {
 	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
-	background-color: #F5F5F5 !important;
+	opacity: 0.95;
+	background-color: #E8E8E8 !important;
 }
 
 #layout-search ul.quicksearch {

@@ -145,6 +145,6 @@ table tr.filesrow > td {
 	order: 2;
 }
 
-#layout-main div.main_all div.calendar .g_bubble.box > div.top div.name {
-	height: 5.2em;
+.g_section.tabbed_pane > .g_bubble table {
+	padding: 0
 }
