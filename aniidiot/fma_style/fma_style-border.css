@@ -3,7 +3,7 @@
 }
 
 #layout-menu #menu-account li {
-	border none !important;
+	border: none !important;
 }
 
 #layout-main {
