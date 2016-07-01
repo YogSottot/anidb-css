@@ -182,13 +182,16 @@
 	white-space: normal;
 }
 
-#layout-main div.profile_all div.tabbed_pane div.default_languages div.titles select,
 #layout-main div.profile_all .userdata_form .select2-container {
 	width: 100% !important;
 }
 
 #layout-main div.profile_all .userdata_form input[type="text"] {
 	width: calc(100% - 1em);
+}
+
+#layout-main div.profile_all div.tabbed_pane div.default_languages div.titles select {
+	width: calc(100% - 2em);
 }
 
 @media screen and (max-width: 630px) {
