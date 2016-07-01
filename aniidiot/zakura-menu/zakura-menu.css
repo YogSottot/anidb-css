@@ -81,10 +81,6 @@
 	display:block;
 }
 
-#layout-menu #menu-account {
-	right: 81px;
-}
-
 #layout-menu li.sub-menu ul li.main a {
 	height: 28px;
 	width: auto;
@@ -106,9 +102,11 @@
 
 #layout-main {
 	margin-left: 1em;
+	padding-top: 3.5em;
+	margin-top: -3.5em;
 }
 
 #layout-tabs {
-	top: 24em;
+	top: 23.5em;
 	left: 1em;
 }
