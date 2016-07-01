@@ -19,7 +19,7 @@ a:link,
 span.link,
 h4 span.nolink a,
 #layout-main a.filter {
-	color: #5C68B5 !important;
+	color: #696969 !important;
 	outline: 0 !important;
 }
 
@@ -432,8 +432,8 @@ tr + tr th,
 /*tooltip*/
 .tooltip span.text:after,
 .tooltip span.text:before {
-	border-color: rgba(255, 249, 251, 0);
-	border-bottom-color: #fff9fb;
+	border-color: rgba(255, 255, 255, 0);
+	background-color: #FFFFFF;
 }
 
 /*tag cloud*/
@@ -730,7 +730,7 @@ table {
 }
 
 #layout-footer {
-	color: #85809F;
+	color: #EEEEEE;
 }
 
 #layout-main div.anime_all div.episodes table.filelist th,
