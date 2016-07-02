@@ -669,7 +669,7 @@ padding-bottom: 10px }
 	#layout-main div.edit_actions { margin-top: -2.4em }
 	#layout-main h2 + div.edit_actions {
 	    margin-top: -2.8em;
-	    margin-right: 0.5em;
+	    margin-right: 1em;
 	}
 
 #layout-main .g_content table {
