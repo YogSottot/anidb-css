@@ -149,3 +149,7 @@ table tr.filesrow > td {
 #layout-main div.main_all div.latest div.container {
 	height: calc(100% - 4.5em);
 }
+
+#layout-main h2 + div.edit_actions {
+    margin-top: -3.2em;
+}
