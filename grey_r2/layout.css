@@ -508,3 +508,12 @@ width:25em;
 #layout-main div.main_all div.news.forum .latestnews div.data {
     max-height: 20em;
 }
+
+#layout-main h2 + div.edit_actions {
+    margin-top: -2.5em;
+    margin-right: 1em;
+}
+
+#layout-main div.main_all div.calendar > div.edit_actions {
+    margin-top: -2em;
+}
