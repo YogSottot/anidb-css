@@ -219,6 +219,10 @@
 }
 
 /*hints*/
+#layout-main div.main_all div.myhints {
+	margin-bottom: 0.5em;
+}
+
 #layout-main div.main_all div.myhints h2 {
 	margin-left: 0.3em;
 	margin-right: 0.3em;
@@ -293,6 +297,10 @@
 }
 
 /*top5 lists*/
+#layout-main div.main_all div.datablocks {
+	margin-bottom: 0;
+}
+
 #layout-main div.main_all div.datablocks > div {
 	margin: 0 0.5em 1em;
 	width:100%;
