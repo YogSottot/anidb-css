@@ -145,6 +145,7 @@ table tr.filesrow > td {
 	order: 2;
 }
 
-.g_section.tabbed_pane > .g_bubble table {
-	padding: 0
+#layout-main div.main_all div.news.forum div.container,
+#layout-main div.main_all div.latest div.container {
+	height: calc(100% - 4.5em);
 }
