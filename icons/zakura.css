@@ -4,7 +4,8 @@ th.c_date,
 th.c_latin,
 th.c_number,
 .i_inactive:not(.sorter-false) {
-	padding-right: 16px;
+	padding-right: 1.5em !important;
+	padding-left: 0.5em !important;
 	background: url(../icons/zakura/order.gif) no-repeat center right;
 	cursor: pointer;
 }
@@ -14,9 +15,10 @@ th.c_setlatin.s_forward,
 th.c_date.s_forward,
 th.c_latin.s_forward,
 th.c_number.s_forward,
-.s_forward,
+th.s_forward,
 .i_descending {
-	padding-right: 16px;
+	padding-right: 1.5em !important;
+	padding-left: 0.5em !important;
 	background: url(../icons/zakura/order-descending.gif) no-repeat center right;
 	cursor: pointer;
 }
@@ -26,11 +28,23 @@ th.c_setlatin.s_reverse,
 th.c_date.s_reverse,
 th.c_latin.s_reverse,
 th.c_number.s_reverse,
-.s_reverse,
+th.s_reverse,
 .i_ascending {
-	padding-right: 16px;
+	padding-right: 1.5em !important;
+	padding-left: 0.5em !important;
 	background: url(../icons/zakura/order-ascending.gif) no-repeat center right;
 	cursor: pointer;
+}
+
+.i_help {
+	background: transparent url(../icons/zakura/help.png) no-repeat left center;
+	cursor: help;
+	border: 0 !important;
+	padding: 4px 8px;
+}
+
+.i_help:hover {
+	background-position: -15px center;
 }
 
 .i_down1, .i_up1		{background-position: -11px center;}
