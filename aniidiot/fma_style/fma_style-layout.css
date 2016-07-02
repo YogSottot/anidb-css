@@ -17,3 +17,8 @@
 #layout-menu li.sub-menu #menu-account li a {
 	vertical-align: middle;
 }
+
+#layout-content,
+#layout-main {
+    min-height: 90em;
+}
