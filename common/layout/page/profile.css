@@ -3,8 +3,8 @@
 }
 
 #layout-main div.profile_all div.block div.image {
-	width: 250px;
-	min-width: 250px;
+	width: 350px;
+	min-width: 350px;
 }
 
 #style_url {
@@ -14,7 +14,7 @@
 #css_selector .g_image {
 	padding: 3px;
 	text-align: center;
-	width: 220px;
+	max-width: 300px;
 }
 
 #css_selector .g_image.missing {
