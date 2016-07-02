@@ -36,17 +36,6 @@ th.s_reverse,
 	cursor: pointer;
 }
 
-.i_help {
-	background: transparent url(../icons/zakura/help.png) no-repeat left center;
-	cursor: help;
-	border: 0 !important;
-	padding: 4px 8px;
-}
-
-.i_help:hover {
-	background-position: -15px center;
-}
-
 .i_down1, .i_up1		{background-position: -11px center;}
 .i_nodown1, .i_down1	{background-image: url(../icons/zakura/down.gif);}
 .i_noup1, .i_up1		{background-image: url(../icons/zakura/up.gif);}
