@@ -33,7 +33,7 @@ html {
 
 #layout-main div.g_content {
 	background-color: #FFFFFF;
-	box-shadow: 2px -1px 3px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0px -1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 a.button,
