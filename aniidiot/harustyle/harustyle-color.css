@@ -16,7 +16,19 @@ html {
 }
 
 #layout-menu li.sub-menu {
+	background-color: #FFFFFF;
+	opacity: 0.9;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#layout-menu li.sub-menu > ul {
 	background-color: #FAE287;
 	background: linear-gradient(to bottom, rgba(249,235,182,1) 0%,rgba(249,208,57,1) 100%);
-	opacity: 0.9;
+}
+
+#layout-menu li.sub-menu span.tab {
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
+	color: #FFFFFF;
+	-webkit-text-stroke: 1px #999999;
+	text-stroke: 1px #999999;
 }

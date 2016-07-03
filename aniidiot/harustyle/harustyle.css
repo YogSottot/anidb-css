@@ -7,6 +7,8 @@
 @import "../anigoogle2/anigoogle2-text.css";
 @import "../anigoogle2/anigoogle2-icons.css";
 @import "harustyle-layout.css";
+@import "harustyle-border.css";
+@import "harustyle-font.css";
 @import "harustyle-color.css";
 
 #layout-footer:after {

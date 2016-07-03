@@ -1,7 +1,7 @@
 #layout-menu {
 	width: 174px;
 	margin-left: 0;
-	padding-top: 1em;
+	padding-top: 0.5em;
 }
 
 #layout-content {
@@ -17,6 +17,24 @@
 }
 
 #layout-menu li.sub-menu {
-	margin-left: 2em;
-	margin-right: 2em;
+	margin-right: 1.5em;
+	margin-bottom: 1em;
+	padding: 0 0.5em 0.5em 2em;
+}
+
+#layout-menu li.sub-menu.main {
+	padding-top: 0.5em;
+}
+
+#layout-menu li.sub-menu span.tab {
+	padding: 0;
+	z-index: 2;
+	padding: 0.2em 0 0;
+	margin-left: -0.7em;
+}
+
+#layout-menu li.sub-menu > ul:not(.main) {
+	z-index: 1;
+	margin-top: -2.5em;
+	padding-top: 2.5em;
 }
