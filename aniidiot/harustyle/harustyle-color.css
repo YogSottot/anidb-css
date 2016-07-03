@@ -104,17 +104,6 @@ tr + tr th,
     border-top-color: #DDDDDD;
 }
 
-h4 a:not(.i_icon),
-h1 a,
-h1 a:link,
-h1 a:visited,
-th a,
-th a:link,
-th a:visited,
-th .i_icon {
-    color: #d2eafa !important;
-}
-
 tr.g_odd,
 li.g_odd,
 span.g_odd,
