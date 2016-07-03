@@ -1,5 +1,5 @@
 html {
-    background: #FFFFFF url("images/menubg.jpg") repeat-y left;
+	background: #FFFFFF url("images/menubg.jpg") repeat-y left;
 }
 
 #layout-search {
@@ -25,6 +25,15 @@ html {
 	color: #FFFFFF;
 	-webkit-text-stroke: 1px #999999;
 	text-stroke: 1px #999999;
+}
+
+#layout-main {
+	background-color: #F5F5F5;
+}
+
+#layout-main div.g_content {
+	background-color: #FFFFFF;
+	box-shadow: 2px -1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 a.button,
@@ -141,6 +150,12 @@ tr.g_odd,
 li.g_odd,
 span.g_odd,
 div.g_odd,
+.g_bubble,
+.g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.tooltip > span.text.g_bubble,
 .g_button a:hover,
 .i_comment_add:hover,
 .i_topic_add:hover,
@@ -194,18 +209,6 @@ button.confirmButton:hover,
 #layout-main div.search_all div.suggestions span:hover,
 #layout-search ul.quicksearch li:hover,
 #layout-search ul.quicksearch li.focus,
-#layout-main div.edit_actions span > *:hover,
-#layout-main div.forum ul.topics li.g_odd.row,
-#layout-search ul.quicksearch .g_bubble.stripe:hover {
-	background-color: #FAE287;
-}
-
-.g_bubble,
-.g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.tooltip > span.text.g_bubble,
 #layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum div.g_bubble.search,
@@ -216,6 +219,9 @@ button.confirmButton:hover,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.userpage_all div.g_menu ul li.g_odd,
+#layout-main div.edit_actions span > *:hover,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-search ul.quicksearch .g_bubble.stripe:hover,
 #layout-menu li.sub-menu > ul {
 	background-color: #FAE287;
 	background: linear-gradient(to bottom, rgba(249,235,182,1) 0%,rgba(249,208,57,1) 100%);
@@ -296,7 +302,7 @@ input[type="password"]:focus,
 #layout-main div.forum ul.topics li.row,
 #layout-search ul.quicksearch,
 #layout-content {
-	background-color: #FFFFFF;
+	background: #FFFFFF;
 }
 
 .i_comment_add,

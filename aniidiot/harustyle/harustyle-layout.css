@@ -5,7 +5,8 @@
 }
 
 #layout-content {
-	margin-left: 17em;
+	margin-left: 174px;
+	padding: 1em 0 0 0;
 }
 
 #layout-nav {
@@ -42,4 +43,26 @@
 
 #layout-main div.main_all div.calendar .g_bubble.box {
 	width: 160px;
+}
+
+#layout-tabs {
+	margin-top: 0em;
+	position: absolute;
+	top: 14em;
+	left: 17em;
+}
+
+#layout-main div.g_content {
+	padding:1em;
+}
+
+#layout-main div.main_all,
+#layout-main {
+	margin: 0;
+}
+
+#layout-main > h1 {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-bottom: 1.8em;
 }
