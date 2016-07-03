@@ -87,3 +87,7 @@
 #layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
 	padding: 2px;
 }
+
+#layout-tabs {
+    margin-top: -3.1em;
+}
