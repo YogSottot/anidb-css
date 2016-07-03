@@ -327,7 +327,7 @@ button,
 	padding: 1px;
 }
 
-#layout-main div.g_content {
+#layout-content #layout-main div.g_content {
 	min-height: 90em;
 }
 
