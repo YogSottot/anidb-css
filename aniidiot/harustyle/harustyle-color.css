@@ -44,15 +44,15 @@ html {
 }
 
 #layout-menu li.sub-menu.listings:after {
-	background: url("images/chibi_02.png");
-	width:33px;
-	top: -12px;
+	background: url("images/chibi_03.png");
+	width:31px;
+	top: -8px;
 	right: -3px;
 }
 
 #layout-menu li.sub-menu.my:after {
-	background: url("images/chibi_03.png");
-	width:31px;
+	background: url("images/chibi_02.png");
+	width:41px;
 	top: -8px;
 	right: -3px;
 }
