@@ -40,41 +40,41 @@ html {
 	background: url("images/chibi_01.png");
 	width:81px;
 	top: -24px;
+	right: -20px;
 }
 
 #layout-menu li.sub-menu.listings:after {
 	background: url("images/chibi_02.png");
-	height:50px;
 	width:33px;
-	top: -24px;
+	top: -12px;
+	right: -3px;
 }
 
 #layout-menu li.sub-menu.my:after {
 	background: url("images/chibi_03.png");
-	height:50px;
 	width:31px;
-	top: -24px;
-}
+	top: -8px;
+	right: -3px;
 
 #layout-menu li.sub-menu.mod:after {
 	background: url("images/chibi_04.png");
-	height:50px;
-	width:81px;
-	top: -24px;
+	width:27px;
+	top: -10px;
+	right: -3px;
 }
 
 #layout-menu li.sub-menu.support:after {
 	background: url("images/chibi_05.png");
-	height:50px;
-	width:81px;
-	top: -24px;
+	width:46px;
+	top: -10px;
+	right: -3px;
 }
 
 #layout-menu li.sub-menu.account:after {
 	background: url("images/chibi_06.png");
-	height:50px;
-	width:81px;
-	top: -24px;
+	width:48px;
+	top: -10px;
+	right: -3px;
 }
 
 a.button,
