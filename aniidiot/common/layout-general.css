@@ -327,6 +327,10 @@ button,
 	padding: 1px;
 }
 
+#layout-main div.g_content {
+	min-height: 90em;
+}
+
 #layout-main .block .g_definitionlist table {
 	margin: 0;
 }
