@@ -1,6 +1,7 @@
 #layout-menu {
 	width: 174px;
 	margin-left: 0;
+	padding-top: 1em;
 }
 
 #layout-content {
@@ -13,7 +14,6 @@
 
 #layout-search {
 	top: 0;
-	padding-top: 1em;
 }
 
 #layout-menu li.sub-menu {
