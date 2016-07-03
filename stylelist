@@ -15,6 +15,8 @@
 ./aniidiot/anigoogle2-menu/anigoogle2-menu.css
 ./aniidiot/anitube/anitube.css
 ./aniidiot/fma_style/fma_style.css
+./aniidiot/harustyle/harustyle.css
+./aniidiot/harustylele/harustylele.css
 ./aniidiot/zakura/zakura.css
 ./aniidiot/zakura-fixed_menu/zakura-fixed_menu.css
 ./aniidiot/zakura-menu/zakura-menu.css
@@ -32,9 +34,6 @@
 ./grey_r2/grey_r2.css
 ./haruhistylex/haruhistylex.css
 ./haruhistylex-v1.5/haruhistylex-v1.5.css
-./harustyle/harustyle.css
-./harustylele/harustylele.css
-./harustyle-fixed_menu/harustyle-fixed_menu.css
 ./luckystyle/luckystyle.css
 ./sub/blue/main.css
 ./sub/brown/main.css

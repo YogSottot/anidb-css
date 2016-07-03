@@ -1,0 +1,80 @@
+#layout-menu {
+	width: 174px;
+	margin-left: 0;
+	padding-top: 0.5em;
+}
+
+#layout-content {
+	margin-left: 174px;
+	padding: 1em 0 0 0;
+}
+
+#layout-nav {
+	margin-top: 92px;
+}
+
+#layout-search {
+	top: 0;
+	height: 92px;
+}
+
+#layout-menu li.sub-menu {
+	margin-right: 1.5em;
+	margin-bottom: 1em;
+	padding: 0 0.3em 0.3em 2em;
+}
+
+#layout-menu li.sub-menu.main {
+	padding-top: 0.5em;
+}
+
+#layout-menu li.sub-menu span.tab {
+	padding: 0;
+	z-index: 2;
+	margin-left: -0.7em;
+}
+
+#layout-menu li.sub-menu > ul:not(#menu-main) {
+	z-index: 1;
+	margin-top: -2.6em;
+	padding-top: 2.5em;
+}
+
+#layout-main div.main_all div.calendar .g_bubble.box {
+	width: 160px;
+}
+
+#layout-tabs {
+	margin-top: 0em;
+	position: absolute;
+	top: 14em;
+	left: 17em;
+}
+
+#layout-main div.g_content {
+	padding:1em;
+}
+
+#layout-main div.main_all,
+#layout-main {
+	margin: 0;
+}
+
+#layout-main > h1 {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-bottom: 1.8em;
+}
+
+#layout-menu li.sub-menu {
+	position:relative;
+	z-index:2;
+}
+
+#layout-menu li.sub-menu:after {
+	display:block;
+	content:"";
+	position:absolute;
+	z-index: 105;
+	height:50px;
+}
