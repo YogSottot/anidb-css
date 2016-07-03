@@ -1,5 +1,5 @@
 html {
-	background: #FFFFFF url("images/menubg.jpg") repeat-y left;
+	background: #F5F5F5 url("images/menubg.jpg") repeat-y left;
 }
 
 #layout-search {
@@ -27,7 +27,7 @@ html {
 	text-stroke: 1px #999999;
 }
 
-#layout-main {
+#layout-content {
 	background-color: #F5F5F5;
 }
 
@@ -150,12 +150,6 @@ tr.g_odd,
 li.g_odd,
 span.g_odd,
 div.g_odd,
-.g_bubble,
-.g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.tooltip > span.text.g_bubble,
 .g_button a:hover,
 .i_comment_add:hover,
 .i_topic_add:hover,
@@ -191,19 +185,31 @@ button.button:hover,
 a.confirmButton:hover,
 input.confirmButton:hover,
 button.confirmButton:hover,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.edit_actions span > *:hover,
+#layout-tabs ul.main-tabs > li,
 #layout-main ul.g_list li:hover,
 #layout-main ul.g_list li.g_odd:hover,
 #layout-main ul.g_list li.selected,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
-#layout-tabs ul.main-tabs > li,
-#layout-main div.tabbed_pane_cfg div.body,
 #layout-main div.tabbed_pane_cfg ul.tabs li:hover,
 #layout-main div.tabbed_pane_cfg ul.tabs li.selected,
 #layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
+table {
+	background-color: #FAE287;
+}
+
+
+.g_bubble,
+.g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.tooltip > span.text.g_bubble,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.tabbed_pane_cfg div.body,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.search_all div.suggestions span:hover,
@@ -219,7 +225,6 @@ button.confirmButton:hover,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.userpage_all div.g_menu ul li.g_odd,
-#layout-main div.edit_actions span > *:hover,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-search ul.quicksearch .g_bubble.stripe:hover,
 #layout-menu li.sub-menu > ul {
@@ -300,8 +305,7 @@ input[type="password"]:focus,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-main div.search_all div.suggestions,
 #layout-main div.forum ul.topics li.row,
-#layout-search ul.quicksearch,
-#layout-content {
+#layout-search ul.quicksearch {
 	background: #FFFFFF;
 }
 
