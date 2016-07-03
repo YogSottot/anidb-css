@@ -1,0 +1,22 @@
+#layout-menu {
+	width: 174px;
+	margin-left: 0;
+}
+
+#layout-content {
+	margin-left: 17em;
+}
+
+#layout-nav {
+	margin-top: 93px;
+}
+
+#layout-search {
+	top: 0;
+	padding-top: 1em;
+}
+
+#layout-menu li.sub-menu {
+	margin-left: 2em;
+	margin-right: 2em;
+}

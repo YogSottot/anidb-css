@@ -4,6 +4,7 @@ html {
 
 #layout-search {
 	background:url("images/topback.png") repeat-x scroll left top transparent;
+	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
 #layout-search div.search {
@@ -12,4 +13,10 @@ html {
 
 #layout-menu {
 	background:url("images/menu.png") no-repeat scroll left top transparent;
+}
+
+#layout-menu li.sub-menu {
+	background-color: #FAE287;
+	background: linear-gradient(to bottom, rgba(249,235,182,1) 0%,rgba(249,208,57,1) 100%);
+	opacity: 0.9;
 }
