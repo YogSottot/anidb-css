@@ -62,11 +62,7 @@ input[type="button"]:hover,
 
 h4 a:not(.i_icon),
 h1 a,
-h1 a:link,
-h1 a:visited,
-th a,
-th a:link,
-th a:visited {
+th a {
 	color: #FFFFFF !important;
 }
 
