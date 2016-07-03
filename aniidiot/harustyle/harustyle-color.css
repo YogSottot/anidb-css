@@ -55,6 +55,7 @@ html {
 	width:31px;
 	top: -8px;
 	right: -3px;
+}
 
 #layout-menu li.sub-menu.mod:after {
 	background: url("images/chibi_04.png");
