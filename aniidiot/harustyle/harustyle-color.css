@@ -1,0 +1,15 @@
+html {
+    background: #FFFFFF url("images/menubg.jpg") repeat-y left;
+}
+
+#layout-search {
+	background:url("images/topback.png") repeat-x scroll left top transparent;
+}
+
+#layout-search div.search {
+	background:url("images/banner.png") no-repeat scroll left top transparent;
+}
+
+#layout-menu {
+	background:url("images/menu.png") no-repeat scroll left top transparent;
+}
