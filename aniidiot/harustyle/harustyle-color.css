@@ -36,6 +36,47 @@ html {
 	box-shadow: 0px -1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
+#layout-menu li.sub-menu.main:after {
+	background: url("images/chibi_01.png");
+	width:81px;
+	top: -24px;
+}
+
+#layout-menu li.sub-menu.listings:after {
+	background: url("images/chibi_02.png");
+	height:50px;
+	width:33px;
+	top: -24px;
+}
+
+#layout-menu li.sub-menu.my:after {
+	background: url("images/chibi_03.png");
+	height:50px;
+	width:31px;
+	top: -24px;
+}
+
+#layout-menu li.sub-menu.mod:after {
+	background: url("images/chibi_04.png");
+	height:50px;
+	width:81px;
+	top: -24px;
+}
+
+#layout-menu li.sub-menu.support:after {
+	background: url("images/chibi_05.png");
+	height:50px;
+	width:81px;
+	top: -24px;
+}
+
+#layout-menu li.sub-menu.account:after {
+	background: url("images/chibi_06.png");
+	height:50px;
+	width:81px;
+	top: -24px;
+}
+
 a.button,
 input.button,
 button.button,
