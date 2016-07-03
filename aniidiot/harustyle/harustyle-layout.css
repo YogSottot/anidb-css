@@ -23,7 +23,7 @@
 }
 
 #layout-menu li.sub-menu.main {
-	padding-top: 0.5em;
+	padding-top: 0.7em;
 }
 
 #layout-menu li.sub-menu span.tab {
@@ -33,7 +33,7 @@
 	margin-left: -0.7em;
 }
 
-#layout-menu li.sub-menu > ul:not(.main) {
+#layout-menu li.sub-menu > ul:not(#menu-main) {
 	z-index: 1;
 	margin-top: -2.5em;
 	padding-top: 2.5em;
