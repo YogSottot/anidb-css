@@ -141,12 +141,6 @@ tr.g_odd,
 li.g_odd,
 span.g_odd,
 div.g_odd,
-.g_bubble,
-.g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.tooltip > span.text.g_bubble,
 .g_button a:hover,
 .i_comment_add:hover,
 .i_topic_add:hover,
@@ -200,6 +194,18 @@ button.confirmButton:hover,
 #layout-main div.search_all div.suggestions span:hover,
 #layout-search ul.quicksearch li:hover,
 #layout-search ul.quicksearch li.focus,
+#layout-main div.edit_actions span > *:hover,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-search ul.quicksearch .g_bubble.stripe:hover {
+	background-color: #FAE287;
+}
+
+.g_bubble,
+.g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.tooltip > span.text.g_bubble,
 #layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum div.g_bubble.search,
@@ -210,9 +216,6 @@ button.confirmButton:hover,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.userpage_all div.g_menu ul li.g_odd,
-#layout-main div.edit_actions span > *:hover,
-#layout-main div.forum ul.topics li.g_odd.row,
-#layout-search ul.quicksearch .g_bubble.stripe:hover,
 #layout-menu li.sub-menu > ul {
 	background-color: #FAE287;
 	background: linear-gradient(to bottom, rgba(249,235,182,1) 0%,rgba(249,208,57,1) 100%);
@@ -561,7 +564,7 @@ th a,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
-	background-color: #444444;
+	background-color: #3496DA;
 }
 
 /*box shadow*/

@@ -39,3 +39,7 @@
 	margin-top: -2.6em;
 	padding-top: 2.5em;
 }
+
+#layout-main div.main_all div.calendar .g_bubble.box {
+	width: 160px;
+}
