@@ -3,34 +3,8 @@
 	background:url("images/banner-small.png") no-repeat scroll left top transparent;
 }
 
-@media screen and (max-width: 950px) {
-	#anidb:not(.nodropdownmenu) #layout-search div.search {
-		background:url("images/banner-wide.png") no-repeat scroll left top transparent;
-	}
-
-	#anidb.nodropdownmenu #layout-search div.search {
-		background:url("images/banner-small.png") no-repeat scroll left top transparent;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	#anidb:not(.nodropdownmenu) #layout-search div.search {
-		background:url("images/banner-small.png") no-repeat scroll center top transparent;
-	}
-
-	#anidb.nodropdownmenu #layout-search div.search {
-		background: none;
-	}
-}
-
-@media screen and (max-width: 510px) {
-	#anidb:not(.nodropdownmenu) #layout-search div.search {
-		background:url("images/banner-small.png") no-repeat scroll center top transparent;
-	}
-}
-
 /*banner @ 1280*/
-@media screen and (min-width: 1235px) {
+@media screen and (min-width: 1100px) {
 	#layout-search div.search
 	{
 		background:url("images/banner-wide.png") no-repeat scroll left top transparent;
@@ -38,7 +12,7 @@
 }
 
 /*banner @ 1650*/
-@media screen and (min-width: 1575px) {
+@media screen and (min-width: 1475px) {
 	#layout-search div.search
 	{
 		background:url("images/banner-wider.png") no-repeat scroll left top transparent;
