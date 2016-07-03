@@ -35,6 +35,6 @@
 
 #layout-menu li.sub-menu > ul:not(#menu-main) {
 	z-index: 1;
-	margin-top: -2.5em;
+	margin-top: -2.6em;
 	padding-top: 2.5em;
 }
