@@ -9,6 +9,7 @@
 @import "harustyle-layout.css";
 @import "harustyle-border.css";
 @import "harustyle-font.css";
+@import "harustyle-banner.css";
 @import "harustyle-color.css";
 
 #layout-footer:after {

@@ -7,10 +7,6 @@ html {
 	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
-#layout-search div.search {
-	background:url("images/banner.png") no-repeat scroll left top transparent;
-}
-
 #layout-menu {
 	background:url("images/menu.png") no-repeat scroll left top transparent;
 }
