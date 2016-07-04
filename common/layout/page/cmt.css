@@ -74,7 +74,7 @@
 	margin-right: 1em;
 }
 
-#layout-main div.cmt_entries div.postbody p.author {
+#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions:not(:empty) + p.author {
 	margin: -2em 25em 1em 0.5em;
 }
 
@@ -889,13 +889,13 @@ div.g_bubble.quotebody {
 
 @media screen and (max-width: 550px) {
 	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) div.postbody p.author,
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions:not(:empty) + p.author {
 		margin-top: -4.5em !important;
 		/*margin-bottom: 3em;*/
 		margin-right: 0 !important;
 	}
 
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions {
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions:not(:empty) {
 	    padding-top: 2.5em;
 	}
 }
