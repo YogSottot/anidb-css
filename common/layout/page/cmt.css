@@ -507,8 +507,7 @@
 #layout-main div.cmt_entries div.comment span.stamp span.icons,
 #layout-main div.forum div.topic_actions div.buttons a,
 #layout-main div.forum div.g_bubble.navbar span.breadcrumbs,
-#layout-main div.forum div.g_bubble.navbar span.messages,
-#layout-main div.forum div.topic_actions div.linklist {
+#layout-main div.forum div.g_bubble.navbar span.messages {
 	float: left;
 }
 
@@ -766,6 +765,18 @@ div.g_bubble.quotebody {
 	margin-right: 0;
 }
 
+#layout-main div.forum div.topic_actions div.pagination + div.linklist {
+	width: 100%;
+	text-align: right;
+}
+
+#layout-main div.forum div.topic_actions {
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
 @media screen and (max-width: 850px) {
 	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_info,
 	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_revisions {
@@ -823,10 +834,6 @@ div.g_bubble.quotebody {
 }
 
 @media screen and (max-width: 635px) {
-	#layout-main div.cmt_entries div.postbody span.actions {
-		height: auto !important;
-	}
-
 	#layout-main div.cmt_entries div.postbody span.actions,
 	#layout-main div.forum div.topic_actions {
 		flex-wrap: wrap;
@@ -871,7 +878,7 @@ div.g_bubble.quotebody {
 		display: none !important;
 	}
 
-	#layout-main div.cmt_entries div.postbody p.author {
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions + p.author {
 		margin-top: -2.5em;
 	}
 }
