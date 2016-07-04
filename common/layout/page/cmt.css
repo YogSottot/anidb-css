@@ -80,6 +80,10 @@
 
 #layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions {
 	padding-right: 0.5em;
+}
+
+#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions > * {
+	padding-right: 0.5em;
 	padding-top: 0.5em;
 	height: 2.1em;
 }
