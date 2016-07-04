@@ -886,8 +886,8 @@ div.g_bubble.quotebody {
 @media screen and (max-width: 550px) {
 	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) div.postbody p.author,
 	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
-		margin-top: -5em !important;
-		margin-bottom: 3em;
+		margin-top: -4.5em !important;
+		/*margin-bottom: 3em;*/
 		margin-right: 0 !important;
 	}
 
