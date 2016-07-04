@@ -882,7 +882,7 @@ div.g_bubble.quotebody {
 		display: none !important;
 	}
 
-	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions + p.author {
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions:not(:empty) + p.author {
 		margin-top: -2.5em;
 	}
 }
