@@ -806,7 +806,7 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
-	    margin: 0.5em 0.5em 1em 0.5em;
+		margin: 0.5em 0.5em 1em 0.5em;
 	}
 
 	#layout-main div.forum div.quickreply textarea {
@@ -827,11 +827,11 @@ div.g_bubble.quotebody {
 	}
 
 	#layout-main div.forum div.search:not(.postsearch) form input.search {
-	    width: calc(100% - 17.1em);
+		width: calc(100% - 17.1em);
 	}
 
 	#layout-main div.forum div.search.postsearch form input.search {
-	    width: calc(100% - 6.3em);
+		width: calc(100% - 6.3em);
 	}
 
 	#layout-main div.forum .segment div.title a.topictitle {
@@ -861,9 +861,23 @@ div.g_bubble.quotebody {
 		margin-bottom: 0;
 	}
 
-	#layout-main div.forum div.profile a.username-colored,
-	#layout-main div.cmt_entries div.profile {
+	#layout-main div.cmt_entries div.profile div.rank,
+	#layout-main div.cmt_entries div.profile div.joined,
+	#layout-main div.cmt_entries div.profile div.posts,
+	#layout-main div.cmt_entries div.profile div.user_icons,
+	#layout-main div.cmt_entries div.profile div.user a.username-colored {
 		display: none;
+	}
+
+	#layout-main div.cmt_entries div.profile {
+		min-height: auto;
+		width: auto;
+	}
+
+	#layout-main div.cmt_entries div.profile .g_image {
+		background-size: 50px 50px;
+		max-height: 50px;
+		max-width: 50px;
 	}
 
 	#layout-main div.forum div.g_bubble.navbar div.bottom {
@@ -892,12 +906,12 @@ div.g_bubble.quotebody {
 @media screen and (max-width: 550px) {
 	#layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) div.postbody p.author,
 	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions:not(:empty) + p.author {
-		margin-top: -4.5em !important;
+		margin-top: -5em !important;
 		/*margin-bottom: 3em;*/
 		margin-right: 0 !important;
 	}
 
 	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions:not(:empty) {
-	    padding-top: 2.5em;
+		padding-top: 2em;
 	}
 }
