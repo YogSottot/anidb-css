@@ -807,7 +807,7 @@ div.g_bubble.quotebody {
 		margin-bottom: 0.5em;
 	}
 
-	#layout-main div.cmt_entries div.postbody p.author {
+	#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
 	    margin: 0.5em 0.5em 1em 0.5em;
 	}
 
