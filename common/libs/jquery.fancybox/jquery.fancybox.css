@@ -221,29 +221,31 @@
 }
 
 /*anidb specific code*/
-#anidb .fancybox-inner {
-	max-width: 100% !important;
-}
-
-@media screen and (max-width: 800px) {
-	#anidb > .fancybox-wrap {
-		max-width: 780px !important;
-	}
-}
-
 @media screen and (max-width: 650px) {
+	#anidb .fancybox-inner {
+		max-width: 600px !important;
+	}
+
 	#anidb > .fancybox-wrap {
 		max-width: 630px !important;
 	}
 }
 
 @media screen and (max-width: 500px) {
+	#anidb .fancybox-inner {
+		max-width: 460px !important;
+	}
+
 	#anidb > .fancybox-wrap {
 		max-width: 480px !important;
 	}
 }
 
 @media screen and (max-width: 400px) {
+	#anidb .fancybox-inner {
+		max-width: 100% !important;
+	}
+
 	#anidb > .fancybox-wrap {
 		max-width: 320px !important;
 	}
