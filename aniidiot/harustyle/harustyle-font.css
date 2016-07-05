@@ -5,3 +5,7 @@
 	text-transform: capitalize;
 	font-family: "Century Gothic","Lucida Grande",sans-serif !important;
 }
+
+#layout-main div.g_definitionlist tr th {
+	font-weight: bold;
+}
