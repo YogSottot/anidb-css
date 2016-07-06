@@ -80,7 +80,7 @@ th.s_reverse,
 /* mylist */
 .i_file_addmylist		{background-image: url(../icons/zakura/mylist-add.png);}
 .i_file_removemylist	{background-image: url(../icons/zakura/mylist-remove.png);}
-.i_mylist				{background-image: url(../icons/zakura/state-inmylist.png);}
+.i_general_list, .i_mylist				{background-image: url(../icons/zakura/state-inmylist.png);}
 
 /* actions */
 .i_file_add				{background-image: url(../icons/zakura/epfile-add.gif);}

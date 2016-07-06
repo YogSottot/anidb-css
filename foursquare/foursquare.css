@@ -1571,7 +1571,7 @@ background-image: url(images/icons/four/sort.png) }
 
 
 /* Mylist Icons */
- 
+.i_general_list,
 *.i_mylist { background-image: url(images/icons/icon/anidb_mylist.png) }
 
 *.i_file_addmylist { background-image: url(images/icons/icon/anidb_file_addmylist.png) }

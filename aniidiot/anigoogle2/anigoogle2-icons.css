@@ -41,6 +41,9 @@
 .i_general_delete,
 .i_general_blacklist,
 .i_general_history,
+.i_general_list,
+.i_general_arrow_up,
+.i_general_arrow_down,
 .i_top,
 .i_help,
 .i_info,
@@ -111,6 +114,9 @@
 .i_general_delete,
 .i_general_blacklist,
 .i_general_history,
+.i_general_list,
+.i_general_arrow_up,
+.i_general_arrow_down,
 .i_top,
 .i_help,
 .i_info,
@@ -369,9 +375,11 @@ button.vote:before {
 #layout-main ul.g_list li.merge a:before {
 	content: "\f066";
 }
+.i_general_arrow_up:after,
 button.up:before {
 	content: "\f062";
 }
+.i_general_arrow_down:after,
 button.down:before {
 	content: "\f063";
 }
@@ -424,6 +432,9 @@ button.preview:before {
 .i_general_delete,
 .i_general_blacklist,
 .i_general_history,
+.i_general_list,
+.i_general_arrow_up,
+.i_general_arrow_down,
 .i_top,
 .i_help,
 .i_info,
@@ -521,10 +532,12 @@ button.preview:before {
 	content: "\f14c";
 	cursor:pointer;
 }
+.i_general_list:after,
 .i_mylist:after {
 	content: "\f0ca";
 	cursor:pointer;
 }
+
 .i_state_verified:after {
 	content: "\f00c";
 }
