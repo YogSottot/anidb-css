@@ -130,9 +130,10 @@ body.nonav #layout-main h1 {
 #layout-hint {
 	position: absolute;
 	top: 0;
-	width: 99.8%;
+	width: calc(100% - 2em);
 	text-align: center;
-	z-index:10;
+	z-index:110;
+	padding: 0.25em 1em;
 }
 
 ul.format-modes {

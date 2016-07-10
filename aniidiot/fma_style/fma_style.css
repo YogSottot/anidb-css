@@ -1,0 +1,22 @@
+@import "../../sub/common.css";
+@import "../../common/style/color/status-pastel.css";
+@import "../../common/libs/select2/style-white.css";
+@import "../../icons/zakura.css";
+@import "../common-menu.css";
+@import "../anigoogle2/anigoogle2-border.css";
+@import "../anigoogle2/anigoogle2-layout.css";
+@import "../anigoogle2/anigoogle2-text.css";
+@import "../anigoogle2/anigoogle2-icons.css";
+@import "../zakura/zakura-border.css";
+@import "../zakura/zakura-layout.css";
+@import "../zakura/zakura-font.css";
+@import "fma_style-border.css";
+@import "fma_style-font.css";
+@import "fma_style-layout.css";
+@import "fma_style-color.css";
+
+
+#layout-footer:after
+{
+	content:"design by jkaze";
+}

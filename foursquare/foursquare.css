@@ -669,7 +669,7 @@ padding-bottom: 10px }
 	#layout-main div.edit_actions { margin-top: -2.4em }
 	#layout-main h2 + div.edit_actions {
 	    margin-top: -2.8em;
-	    margin-right: 0.5em;
+	    margin-right: 1em;
 	}
 
 #layout-main .g_content table {
@@ -839,6 +839,8 @@ padding: 4px 1px 7px 1px;
 border-bottom: black 2px solid }
 
 .g_image { border: 1px solid #cbd6e5 }
+
+	.g_image, a img, a img:hover { border: 1px solid #cbd6e5 }
 
 #layout-main {
 border-radius: 2px;
@@ -1217,6 +1219,8 @@ border-color: silver 1px solid }
 
 *.i_vrs_5 { background-image: url(images/icons/icon/anidb_vrs_5.png) }
 
+*.i_chapters { background-image: url(images/icons/icon/anidb_chapters.png) }
+
 *.i_crc_unv { background-image: url(images/icons/icon/anidb_crc_unv.png) }
 
 *.i_video { background-image: url(images/icons/icon/anidb_video.png) }
@@ -1363,6 +1367,12 @@ width: 80px }
 background: url(images/icons/four/topic_split.png) no-repeat;
 height: 12px;
 width: 80px }
+
+*.i_topic_read {
+background-image:url(images/icons/four/topic_read.png);
+height:12px;
+width:65px;
+}
 
 *.i_topic_unlock {
 background: url(images/icons/four/topic_unlock.png) no-repeat;
@@ -1702,8 +1712,19 @@ background-image: url(images/icons/state/anidb_atype_other.png) }
 	
 /* Silk Icons */
 	
+.i_general_add,
+.i_general_added {
+background-image:url(images/icons/silk/general_added.png);
+height: 13px;
+width: 15px }
+	
 *.i_general_blacklist {
 background-image:url(images/icons/silk/general_blacklist.png);
+height: 13px;
+width: 15px }
+
+.i_general_block {
+background-image:url(images/icons/silk/general_block.png);
 height: 13px;
 width: 15px }
 
@@ -1718,9 +1739,24 @@ background-image:url(images/icons/silk/general_delete.png);
 height: 13px;
 width: 15px }
 
+.i_general_new {
+background-image:url(images/icons/silk/general_new.png);
+height: 13px;
+width: 15px }
+
 *.i_general_edit,
 *.i_general_edit_request {
 background-image:url(images/icons/silk/general_edit.png);
+height: 13px;
+width: 15px }
+
+.i_general_plus {
+background-image:url(images/icons/silk/general_plus.png);
+height: 13px;
+width: 15px }
+
+.i_general_minus {
+background-image:url(images/icons/silk/general_minus.png);
 height: 13px;
 width: 15px }
 
@@ -1743,6 +1779,17 @@ width: 15px }
 background-image:url(images/icons/silk/general_verify.png);
 height: 13px;
 width: 15px }
+
+.i_general_forbidden {
+background-image:url(images/icons/silk/general_forbidden.png);
+height:13px;
+width:15px }
+
+.i_info,
+.i_general_static {
+background-image:url(images/icons/silk/general_static.png);
+height:13px;
+width:15px }
 
 *.i_general_vote_down {
 background-image:url(images/icons/silk/general_vote_down.png);

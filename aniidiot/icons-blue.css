@@ -41,6 +41,7 @@
 
 *.i_topic_read {
   background-image:url(../icons/blue/topic_read.png);
+  width: 65px;
 }
 
 *.i_comment_revisions {

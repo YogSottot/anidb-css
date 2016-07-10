@@ -76,10 +76,6 @@
 	margin-left: -11px;
 }
 
-#layout-tabs {
-	margin-top: 82px;
-}
-
 #layout-main div.tabbed_pane div.body {
 	margin-top: -2px;
 }
@@ -90,4 +86,8 @@
 
 #layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
 	padding: 2px;
+}
+
+#layout-tabs {
+    margin-top: -3.1em;
 }

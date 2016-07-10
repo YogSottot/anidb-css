@@ -67,14 +67,20 @@
 	display: none !important;
 }
 
-#layout-tabs {
-	top: 0.5em;
-}
-
 #layout-search.main_search {
 	top: 17em;
 }
 
 #layout-search .text {
 	width:400px;
+}
+
+#layout-tabs ul {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+#layout-menu li.sub-menu span.tab {
+	padding-bottom: 0;
 }

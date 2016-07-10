@@ -1,0 +1,5 @@
+@import "../harustyle/harustyle.css";
+
+#layout-footer:after {
+	content: "design by b1nh"
+}

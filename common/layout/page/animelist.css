@@ -58,3 +58,11 @@
 		white-space:nowrap;
 	}
 }
+
+@media screen and (max-width: 450px) {
+	#anidb.animelist #layout-tabs li.list,
+	#anidb.forum #layout-tabs li.list,
+	#anidb.calendar #layout-tabs li.list {
+		display: none;
+	}
+}

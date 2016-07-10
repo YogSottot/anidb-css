@@ -10,20 +10,15 @@ table td {
 	top: 0;
 }
 
+#layout-tabs {
+    margin-top: 0em;
+    position: absolute;
+	top: 20.2em;
+	left: 13em;
+}
+
 #layout-tabs ul {
 	text-align: left;
-}
-
-#layout-tabs {
-	margin: 213px 0 0 140px;
-}
-
-#layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 230px 0 0 140px;
-}
-
-#layout-hint + #layout-nav #layout-menu #menu-account {
-	top: 1.7em;
 }
 
 #layout-search,
@@ -148,4 +143,13 @@ table tr.filesrow > td {
 
 #layout-main tr.header th.sortable a span.icon {
 	order: 2;
+}
+
+#layout-main div.main_all div.news.forum div.container,
+#layout-main div.main_all div.latest div.container {
+	height: calc(100% - 4.5em);
+}
+
+#layout-main h2 + div.edit_actions {
+	margin-top: -3.2em;
 }

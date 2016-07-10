@@ -3,21 +3,8 @@
 		margin-top: 5.3em;
 	}
 
-	#anidb:not(.nodropdownmenu) #layout-hint {
-		height: 16px;
-		overflow: hidden;
-	}
-
 	#anidb:not(.nodropdownmenu) #layout-nav {
 		margin-top: 11em;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-tabs {
-	    margin: 14.5em 1em 0 0;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav + #layout-content #layout-tabs {
-		margin: 16em 1em 0 0;
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-search div.search a.advsearch {
@@ -31,27 +18,40 @@
 
 	#anidb:not(.nodropdownmenu) #layout-search div.search form > div {
 		top: 7em;
-		width: 100%;
-		left: -0.9em;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-search input.text {
-		margin-left: 1em;
-	}
-
-	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
-	#anidb:not(.nodropdownmenu) #layout-menu {
-	    margin-top: -0.25em;
+		width: calc(100% - 0.5em);
+		left: -0.5em;
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
 		padding-top: 1em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+		width: 750px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+		width: 500px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
+		width: 110px;
 	}
 }
 
 @media screen and (max-width: 550px) {
 	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.support {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+		width: 320px;
 	}
 }
 

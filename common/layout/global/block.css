@@ -125,6 +125,10 @@
 		overflow: hidden;
 	}
 
+	#layout-main .g_section.info div.block > div.image img {
+		max-width: 100%;
+	}
+
 	#layout-main .g_section.info .tabbed_pane {
 		margin: 0;
 	}

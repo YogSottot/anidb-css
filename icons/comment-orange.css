@@ -142,9 +142,9 @@
 }
 
 *.i_topic_read {
-  background-image:url(../icons/orange/topic_read.png);
-	height:px;
-	width:px;
+	background-image:url(../icons/orange/topic_read.png);
+	height:12px;
+	width:65px;
 }
 
 *.i_comment_revisions {

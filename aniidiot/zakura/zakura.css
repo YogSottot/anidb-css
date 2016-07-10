@@ -12,7 +12,6 @@
 @import "zakura-color.css";
 @import "zakura-font.css";
 
-#layout-footer:after
-{
+#layout-footer:after {
 	content:"design by zakness";
 }

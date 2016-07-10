@@ -9,14 +9,6 @@
 	margin-top: 34px;
 }
 
-#layout-tabs {
-	margin: 247px 0px 0px 17px;
-}
-
-#layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 264px 0px 0px 17px;
-}
-
 #layout-menu {
 	width: auto;
 	padding-top: 166px;
@@ -89,10 +81,6 @@
 	display:block;
 }
 
-#layout-menu #menu-account {
-	right: 81px;
-}
-
 #layout-menu li.sub-menu ul li.main a {
 	height: 28px;
 	width: auto;
@@ -102,10 +90,6 @@
 #layout-menu li.sub-menu ul li a {
 	box-sizing: border-box;
 	height: 28px;
-}
-
-#layout-hint + #layout-nav #layout-menu #menu-account {
-    right: 178px;
 }
 
 #layout-menu li.sub-menu ul li.main a {
@@ -118,4 +102,11 @@
 
 #layout-main {
 	margin-left: 1em;
+	padding-top: 3.5em;
+	margin-top: -3.5em;
+}
+
+#layout-tabs {
+	top: 23.5em;
+	left: 1em;
 }

@@ -1,5 +1,5 @@
-#layout-content,
-#layout-main {
+#anidb:not(.nodropdownmenu) #layout-content,
+#anidb:not(.nodropdownmenu) #layout-main {
 	min-height: 0;
 }
 
@@ -32,7 +32,7 @@
 
 #anidb:not(.nodropdownmenu) #layout-menu > li ul {
 	border-top:0;
-	display:none;
+	visibility: hidden;
 	font-weight:400;
 	line-height:normal;
 	margin-left:-18px;
@@ -56,27 +56,16 @@
 	cursor: pointer;
 }
 
-#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main span,
 #anidb:not(.nodropdownmenu) #layout-menu > li.sub-menu.touched ul,
 #anidb:not(.nodropdownmenu) #layout-menu > li.sub-menu:active ul,
 #anidb:not(.nodropdownmenu) #layout-menu > li.sub-menu:focus ul,
 #anidb:not(.nodropdownmenu) #layout-menu > li.sub-menu:hover ul {
-	display:block;
-}
-
-#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
-	height: 28px;
-	width: auto;
-	margin-top: 0;
+	visibility: visible;
 }
 
 #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li a {
 	box-sizing: border-box;
 	height: 28px;
-}
-
-#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
-	position: static;
 }
 
 #anidb:not(.nodropdownmenu) #layout-main {
@@ -88,17 +77,9 @@
 	height: 70px;
 }
 
-#anidb:not(.nodropdownmenu) #layout-tabs {
-	margin: 11.4em 0.5em 0;
-}
-
-#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin: 132px 0.5em 0;
-}
-
 #anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
 #anidb:not(.nodropdownmenu) #layout-menu {
-	margin-top: -23px;
+    margin-top: -0.25em;
 }
 
 #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.alert {
@@ -108,4 +89,10 @@
 #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu {
 	margin-bottom: 0;
 	cursor: pointer;
+}
+
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+	margin-top: -14em;
+	visibility: visible;
+	height: 75px;
 }
