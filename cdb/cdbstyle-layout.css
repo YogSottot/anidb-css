@@ -23,7 +23,7 @@ textarea
 }
 
 /* shift the main tabs to the left */
-#layout-tabs ul
+/*#layout-tabs ul
 {
   text-align: left;
 }
@@ -38,7 +38,7 @@ textarea
 	{
 		margin-left: 0em;
 	}
-}
+}*/
 
 /* imagepreview */
 /* remove the transparency from imagepreview */
