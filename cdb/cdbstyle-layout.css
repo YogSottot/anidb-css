@@ -23,11 +23,11 @@ textarea
 }
 
 /* shift the main tabs to the left */
-/*#layout-tabs ul
+#layout-tabs ul
 {
   text-align: left;
 }
-#layout-nav + #layout-content #layout-tabs,
+/*#layout-nav + #layout-content #layout-tabs,
 #layout-hint + #layout-nav + #layout-content #layout-tabs
 {
   margin-left: 13em;
