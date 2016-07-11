@@ -54,7 +54,7 @@
 	#layout-main div.ep_all div.g_section.anime .container,
 	#layout-main div.ep_all div.g_section.songs .container,
 	#layout-main div.ep_all div.g_section.ep_files .container,
-	#layout-main div.ep_all div.g_section.ep_character .container {
+	#layout-main div.ep_all div.g_section.ep_cast .container {
 		overflow: auto;
 	}
 
