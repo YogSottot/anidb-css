@@ -27,7 +27,7 @@ textarea
 {
   text-align: left;
 }
-#layout-nav + #layout-content #layout-tabs,
+/*#layout-nav + #layout-content #layout-tabs,
 #layout-hint + #layout-nav + #layout-content #layout-tabs
 {
   margin-left: 13em;
@@ -38,7 +38,7 @@ textarea
 	{
 		margin-left: 0em;
 	}
-}
+}*/
 
 /* imagepreview */
 /* remove the transparency from imagepreview */
