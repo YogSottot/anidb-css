@@ -4,7 +4,7 @@
 }
 
 /*fix for tooltips in lightboxes*/
-.tooltip:hover span.wrapper {
+.fancybox-wrap .tooltip:hover span.wrapper {
 	position: fixed;
 }
 
