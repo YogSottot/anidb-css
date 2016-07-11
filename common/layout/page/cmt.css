@@ -837,6 +837,17 @@ div.g_bubble.quotebody {
 	#layout-main div.forum .segment div.title a.topictitle {
 		margin-right: 0.5em;
 	}
+
+	#layout-main div.forum ul.topiclist li.row div.lastpost {
+		display: block;
+		min-height: 0;
+		margin-left: 3em;
+		margin-top: -1em;
+	}
+
+	#layout-main div.forum ul.topiclist li.row div.lastpost br{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 635px) {
