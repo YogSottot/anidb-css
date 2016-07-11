@@ -39,6 +39,7 @@
 .i_general_add,
 .i_general_edit,
 .i_general_delete,
+.i_general_delete_request,
 .i_general_blacklist,
 .i_general_history,
 .i_general_list,
@@ -113,6 +114,7 @@
 .i_general_add,
 .i_general_edit,
 .i_general_delete,
+.i_general_delete_request,
 .i_general_blacklist,
 .i_general_history,
 .i_general_list,
@@ -433,6 +435,7 @@ button.preview:before {
 .i_general_add,
 .i_general_edit,
 .i_general_delete,
+.i_general_delete_request,
 .i_general_blacklist,
 .i_general_history,
 .i_general_list,
@@ -514,6 +517,7 @@ button.preview:before {
 	cursor:pointer;
 }
 .i_general_delete:after,
+.i_general_delete_request:after,
 .i_file_removemylist:after {
 	content: "\f014";
 	cursor:pointer;
