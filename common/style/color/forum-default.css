@@ -52,3 +52,9 @@
 #layout-main div.forum div.quickreply textarea {
 	border-color: #A9A9A9;
 }
+
+@media screen and (max-width: 800px) {
+	#layout-main div.forum ul.topiclist li.row div.lastpost {
+		border-left: none;
+	}
+}

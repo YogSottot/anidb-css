@@ -2,3 +2,9 @@
 #layout-main div.forum div.topic_actions div.pagination > span + span:before {
 	content: " • ";
 }
+
+@media screen and (max-width: 800px) {
+	#layout-main div.forum ul.topiclist li.row div.lastpost:before {
+		content: "last post";
+	}
+}
