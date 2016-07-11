@@ -1209,7 +1209,7 @@ div.modlatest_all td.action a
 {
 	background-image:url(images/anidb_state_unknown.gif);
 }
-
+.i_general_list,
 *.i_mylist
 {
 	background-image:url(images/anidb_mylist.gif);

@@ -36,6 +36,6 @@
 
 	#layout-main div.song_all div.info div.tabbed_pane {
 		min-width: 0;
-		max-width: none;
+		max-width: 100%;
 	}
 }

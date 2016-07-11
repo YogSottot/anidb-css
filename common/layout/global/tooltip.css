@@ -3,6 +3,11 @@
 	position: relative;
 }
 
+/*fix for tooltips in lightboxes*/
+.fancybox-wrap .tooltip:hover span.wrapper {
+	position: fixed;
+}
+
 .tooltip span.text {
 	display:none;
 	left: -100px;

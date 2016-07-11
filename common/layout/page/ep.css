@@ -48,3 +48,18 @@
 		max-width: none;
 	}
 }
+
+@media screen and (max-width: 950px) {
+	#layout-main div.ep_all div.g_section.staff .container,
+	#layout-main div.ep_all div.g_section.anime .container,
+	#layout-main div.ep_all div.g_section.songs .container,
+	#layout-main div.ep_all div.g_section.ep_files .container,
+	#layout-main div.ep_all div.g_section.ep_cast .container {
+		overflow: auto;
+	}
+
+	#layout-main div.ep_all div.info div.tabbed_pane {
+		min-width: 0;
+		max-width: 100%;
+	}
+}

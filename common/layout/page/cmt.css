@@ -888,6 +888,11 @@ div.g_bubble.quotebody {
 		margin-left: 1em;
 		display: inline-block;
 		width: calc(100% - 2em);
+		margin-top: 2em;
+	}
+
+	#layout-main div.cmt_entries div.profile + div.postbody div.content {
+		margin-top: 0;
 	}
 
 	#f_mode,

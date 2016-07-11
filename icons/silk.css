@@ -5,6 +5,18 @@
 	width:16px;
 }
 
+.i_general_arrow_down {
+	background-image:url(../icons/silk/general_arrow_down.png);
+	height:16px;
+	width:16px;
+}
+
+.i_general_arrow_up {
+	background-image:url(../icons/silk/general_arrow_up.png);
+	height:16px;
+	width:16px;
+}
+
 .i_general_blacklist {
 	background-image:url(../icons/silk/general_blacklist.png);
 	height:16px;
