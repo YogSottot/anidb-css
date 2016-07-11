@@ -44,6 +44,7 @@
 .i_general_list,
 .i_general_arrow_up,
 .i_general_arrow_down,
+.i_general_convert,
 .i_top,
 .i_help,
 .i_info,
@@ -117,6 +118,7 @@
 .i_general_list,
 .i_general_arrow_up,
 .i_general_arrow_down,
+.i_general_convert,
 .i_top,
 .i_help,
 .i_info,
@@ -268,6 +270,7 @@ button.delete:before,
 #layout-main ul.g_list li.history a:before {
 	content: "\f1da";
 }
+.i_general_convert:before,
 .i_topic_split:before {
 	content: "\f0ec";
 }
