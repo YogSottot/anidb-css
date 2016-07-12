@@ -784,8 +784,7 @@ div.g_bubble.quotebody {
 }
 
 #layout-main div.forum .display_options > * {
-	margin-bottom: 0.25em;
-	margin-top: 0.25em;
+	margin: 0.25em;
 	display: inline-block;
 }
 
