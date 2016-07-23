@@ -277,3 +277,9 @@
 #layout-main div.admin_all table.cranime td.action button {
 	float: left;
 }
+
+@media screen and (max-width: 550px) {
+	#layout-main div.admin_all div.g_menu.admin {
+		width: auto;
+	}
+}
