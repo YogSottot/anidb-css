@@ -278,6 +278,27 @@
 	float: left;
 }
 
+@media screen and (max-width: 1000px) {
+	#layout-main div.admin_all div.bans table.banlist th.date,
+	#layout-main div.admin_all div.bans table.banlist .date.added,
+	#layout-main div.admin_all div.bans table.banlist .reason {
+		display:none;
+	}
+
+	#layout-main div.admin_all div.bans table.banlist .date.expire {
+		white-space:normal;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#layout-main div.admin_all div.bans table.banlist .expiry,
+	#layout-main div.admin_all div.bans table.banlist .date,
+	#layout-main div.admin_all div.bans table.banlist .user,
+	#layout-main div.admin_all div.bans table.banlist .ip {
+		display:none;
+	}
+}
+
 @media screen and (max-width: 550px) {
 	#layout-main div.admin_all div.g_menu.admin {
 		width: auto;
