@@ -153,3 +153,15 @@ table tr.filesrow > td {
 #layout-main h2 + div.edit_actions {
 	margin-top: -3.2em;
 }
+
+#layout-hint + #layout-nav {
+	margin-top: 0;
+}
+
+#layout-hint + #layout-nav #layout-menu {
+	margin-top: 2em;
+}
+
+#layout-hint + #layout-nav + #layout-content #layout-tabs {
+	margin-top: 2.1em;
+}

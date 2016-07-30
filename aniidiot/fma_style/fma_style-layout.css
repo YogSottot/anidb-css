@@ -22,15 +22,3 @@
 #layout-content #layout-main {
     min-height: 90em;
 }
-
-#layout-hint + #layout-nav {
-	margin-top: 0;
-}
-
-#layout-hint + #layout-nav #layout-menu {
-	margin-top: 2em;
-}
-
-#layout-hint + #layout-nav + #layout-content #layout-tabs {
-	margin-top: 2.1em;
-}
