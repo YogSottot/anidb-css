@@ -34,7 +34,7 @@
 	margin:0;
 	height:100%;
 	max-width: none;
-	width: calc(100vw - 2em);
+	width: 100%;
 }
 
 #layout-main div.main_all div.news.forum h2 {
@@ -103,6 +103,12 @@
 		min-width: 0 !important;
 		max-width: none;
 		width:100%;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	#layout-main div.main_all div.news.forum .g_bubble.stripe {
+		width: calc(100vw - 2em);
 	}
 }
 
