@@ -18,7 +18,6 @@
 		left: -0.5em;
 	}
 
-	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
 	#anidb:not(.nodropdownmenu) #layout-menu {
 	    margin-top: 10.25em;
 	}
