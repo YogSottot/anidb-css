@@ -77,7 +77,6 @@
 	height: 70px;
 }
 
-#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
 #anidb:not(.nodropdownmenu) #layout-menu {
     margin-top: 7.5em;
 }
@@ -108,5 +107,5 @@
 }
 
 #anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu {
-	margin-top: 12.25em;
+	margin-top: 9.5em;
 }

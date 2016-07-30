@@ -29,6 +29,10 @@
 	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
 		width: calc(100vw - 1.5em);
 	}
+
+	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu {
+		margin-top: 12.25em;
+	}
 }
 
 @media screen and (max-width: 600px) {
