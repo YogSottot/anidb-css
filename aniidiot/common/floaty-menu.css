@@ -9,7 +9,7 @@
 
 #anidb:not(.nodropdownmenu) #layout-content {
 	margin-left: 0;
-	margin-top: 3.5em;
+	margin-top: 6.5em;
 	padding-left: 0.5em;
 }
 
@@ -79,7 +79,7 @@
 
 #anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu,
 #anidb:not(.nodropdownmenu) #layout-menu {
-    margin-top: -0.25em;
+    margin-top: 7.5em;
 }
 
 #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.alert {
@@ -95,4 +95,9 @@
 	margin-top: -14em;
 	visibility: visible;
 	height: 75px;
+}
+
+#anidb:not(.nodropdownmenu) #layout-nav {
+    margin-top: 0;
+    height: 76px;
 }
