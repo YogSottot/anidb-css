@@ -462,6 +462,17 @@ span.link {
 
 }
 
+/*disable menu item selection - mainly matters for touch devices*/
+#layout-menu li.sub-menu.main span.tab,
+#layout-menu li.sub-menu ul li a {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 @media screen and (max-width: 800px) {
 	#layout-main .g_datatable table tr td.name.main > a,
 	#layout-main .g_datatable table td:before {
