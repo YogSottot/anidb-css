@@ -52,7 +52,7 @@
 	left: 17em;
 }
 
-#layout-hint + #layout-nav #layout-tabs {
+#layout-hint + #layout-nav + #layout-content #layout-tabs {
 	top: 16.8em;
 }
 
