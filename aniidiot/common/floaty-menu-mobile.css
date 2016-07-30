@@ -28,13 +28,7 @@
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
-		width: 750px;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
-		width: 500px;
+		width: calc(100vw - 1.5em);
 	}
 }
 
@@ -47,12 +41,6 @@
 @media screen and (max-width: 550px) {
 	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.support {
 		display: none;
-	}
-}
-
-@media screen and (max-width: 510px) {
-	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
-		width: 320px;
 	}
 }
 

@@ -95,6 +95,7 @@
 	margin-top: -14em;
 	visibility: visible;
 	height: 75px;
+	padding:0;
 }
 
 #anidb:not(.nodropdownmenu) #layout-nav {
