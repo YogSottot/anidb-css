@@ -452,18 +452,9 @@ span.test,
 div.pagination span strong,
 div.pagination span a,
 span.nolink,
-span.link {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none; 
-
-}
-
-/*disable menu item selection - mainly matters for touch devices*/
-#layout-menu li.sub-menu.main span.tab,
+span.link,
+#layout-tabs ul li a,
+#layout-menu li.sub-menu span.tab,
 #layout-menu li.sub-menu ul li a {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
