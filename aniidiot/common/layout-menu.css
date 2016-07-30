@@ -58,7 +58,14 @@ body {
 	padding-bottom: 0;
 }
 
-#layout-hint + #layout-nav #layout-menu,
+#layout-hint + #layout-nav {
+	margin-top: 122px;
+}
+
+#layout-hint + #layout-nav #layout-search {
+	margin-top: 2em;
+}
+
 #layout-menu,
 #layout-content {
 	margin-top: 0;

@@ -102,3 +102,11 @@
     margin-top: 0;
     height: 76px;
 }
+
+#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav {
+	height: 96px;
+}
+
+#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu {
+	margin-top: 12.25em;
+}
