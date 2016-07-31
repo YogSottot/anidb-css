@@ -384,3 +384,10 @@ button,
 #layout-main ul.g_list li {
 	margin-bottom: 0.5em;
 }
+
+@media screen and (max-width: 1000px) {
+	input[size="80"],
+	textarea {
+		width: 100%;
+	}
+}

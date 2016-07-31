@@ -91,7 +91,7 @@
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.postbody div.content {
-	margin-left: 9.5em;
+	margin-left: 12em;
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.cmt_entries div.comment:not(.creq_state) {

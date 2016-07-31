@@ -6,3 +6,7 @@
 .g_msg h3 {
 	float:right;
 }
+
+.g_msg > p {
+	text-align: left;
+}

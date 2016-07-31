@@ -145,11 +145,32 @@ table tr.filesrow > td {
 	order: 2;
 }
 
+#layout-main div.main_all {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 #layout-main div.main_all div.news.forum div.container,
 #layout-main div.main_all div.latest div.container {
 	height: calc(100% - 4.5em);
 }
 
+#layout-main div.main_all div.calendar .g_bubble.box {
+	width: 162px;
+}
+
 #layout-main h2 + div.edit_actions {
 	margin-top: -3.2em;
+}
+
+#layout-hint + #layout-nav {
+	margin-top: 0;
+}
+
+#layout-hint + #layout-nav #layout-menu {
+	margin-top: 2em;
+}
+
+#layout-hint + #layout-nav + #layout-content #layout-tabs {
+	margin-top: 2.1em;
 }

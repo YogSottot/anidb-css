@@ -48,7 +48,7 @@
 	float: left;
 	margin: 0.4em 0.8em 0.8em;
 	min-height: 10em;
-	width: 11em;
+	width: 11.5em;
 }
 
 #layout-main div.cmt_entries div.profile div {
@@ -783,6 +783,11 @@ div.g_bubble.quotebody {
 	flex-wrap: wrap;
 }
 
+#layout-main div.forum .display_options > * {
+	margin: 0.25em;
+	display: inline-block;
+}
+
 @media screen and (max-width: 850px) {
 	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_info,
 	#layout-main div.cmt_entries div.comment div.postbody span.actions a.i_comment_revisions {
@@ -811,11 +816,6 @@ div.g_bubble.quotebody {
 
 	#layout-main div.forum div.quickreply textarea {
 		min-width: 100%;
-	}
-
-	#layout-main div.forum .display_options > * {
-		margin-bottom: 0.5em;
-		display: inline-block;
 	}
 
 	#layout-main div.forum div.topic_actions a.i_topic_history,
@@ -860,7 +860,8 @@ div.g_bubble.quotebody {
 	#layout-main div.cmt_entries .display_options > *,
 	#layout-main div.forum div.format-buttons > *,
 	#layout-main div.cmt_entries div.postbody span.actions > * {
-		margin-bottom: 0.5em;
+		margin-bottom: 0.25em;
+		margin-top: 0.25em;
 		display: inline-block;
 	}
 

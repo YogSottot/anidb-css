@@ -80,12 +80,15 @@ body.dragging * {
 	min-height: 1.5em;
 }
 
-.g_sortable .placeholder,
 .sortable_shuttle ol.jssortable li.placeholder {
 	position: relative;
 	margin: 0;
 	padding: 0;
 	border: none;
+}
+
+.g_sortable .placeholder {
+	position: relative;
 }
 
 .g_sortable .placeholder:before,
@@ -100,6 +103,12 @@ body.dragging * {
 	border: 5px solid transparent;
 	border-left-color: red;
 	border-right: none;
+}
+
+.g_sortable .placeholder:before {
+	margin-top: 0;
+	left: -7px;
+	top: -5px;
 }
 
 .sortable_shuttle ol.jssortable li + li {
