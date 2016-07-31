@@ -145,6 +145,11 @@ table tr.filesrow > td {
 	order: 2;
 }
 
+#layout-main div.main_all {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 #layout-main div.main_all div.news.forum div.container,
 #layout-main div.main_all div.latest div.container {
 	height: calc(100% - 4.5em);
