@@ -5,3 +5,7 @@
 #modifyfavourites p.row input {
 	margin-right: 0.5em;
 }
+
+#layout-main div.addfavourite_all table td.name {
+	width: 90%;
+}
