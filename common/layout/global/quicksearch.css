@@ -25,9 +25,12 @@
 	border-radius: 0;
 	margin-top:-1px;
 	margin-bottom: 0;
-	width:100%;
 	min-height: 6.4em;
 	box-sizing: border-box;
+}
+
+#anidb_not(.internet_explorer) #layout-search ul.quicksearch .g_bubble.stripe {
+	width: 100%;
 }
 
 #layout-search ul.quicksearch .g_bubble.stripe > div.data div.name {
