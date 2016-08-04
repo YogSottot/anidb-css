@@ -18,3 +18,9 @@
 	height: 93px;
 	z-index: -1;
 }
+
+/*IE z-indexs bug. crops the image, but fuck ie*/
+#anidb.internet_explorer {
+	height: 75px;
+	z-index: 0;
+}
