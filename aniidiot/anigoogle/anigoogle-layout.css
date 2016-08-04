@@ -17,4 +17,5 @@
 
 #layout-search {
 	height: 93px;
+	z-index: -1;
 }
