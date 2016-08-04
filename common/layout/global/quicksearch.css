@@ -29,7 +29,7 @@
 	box-sizing: border-box;
 }
 
-#anidb_not(.internet_explorer) #layout-search ul.quicksearch .g_bubble.stripe {
+#anidb:not(.internet_explorer) #layout-search ul.quicksearch .g_bubble.stripe {
 	width: 100%;
 }
 
