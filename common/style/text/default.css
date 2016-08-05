@@ -8,6 +8,11 @@ span.i_icon[title] {
 	cursor: help;
 }
 
+span.i_icon.i_general_arrow_down,
+span.i_icon.i_general_arrow_up {
+	cursor: pointer;
+}
+
 div,
 p,
 th,
