@@ -46,7 +46,7 @@ input[type="button"]:hover,
 #layout-main div.forum a.username-colored,
 #layout-menu li.sub-menu span.tab,
 #layout-main div.forum .g_bubble.infobox h3 {
-	color: #AA0000 !important;
+	color: #AE215C !important;
 }
 
 .i_vrs_2:hover span,
@@ -57,7 +57,7 @@ input[type="button"]:hover,
 .i_vrs_7:hover span,
 .i_vrs_8:hover span,
 .i_vrs_9:hover span {
-	background-color: #AA0000;
+	background-color: #AE215C;
 }
 
 #layout-main tr.header th.sortable:hover:not(.sorter-false),
