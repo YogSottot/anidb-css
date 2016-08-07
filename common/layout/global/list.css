@@ -24,3 +24,17 @@
 #layout-main table + ul.jump {
 	margin-top: 1em;
 }
+
+#layout-main ol.g_styledlist {
+	list-style-type: decimal;
+	margin-left: 2em;
+}
+#layout-main ul.g_styledlist {
+	list-style-type: disc;
+	margin-left: 2em;
+}
+
+/*this affects only single li not nested li in ul/ol*/
+#layout-main li.g_styledlist {
+	margin-left: 2em;
+}
