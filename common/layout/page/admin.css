@@ -234,11 +234,11 @@
 #layout-main div.admin_tags_all div.actions button,
 #layout-main div.admin_tags_all div.actions input[type="submit"] {
 	margin-left: 5px;
-	height: 30px;
+	height: 28px;
 }
 
 #layout-main div.admin_tags_all div.actions select {
-	padding: 6px 2px;
+	height: 28px;
 	width: 34.7em;
 	vertical-align: middle;
 }
