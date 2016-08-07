@@ -41,6 +41,19 @@
 	width: 10em;
 }
 
+.g_bubble.desc ol {
+	list-style-type: decimal;
+	margin-left: 0em;
+}
+.g_bubble.desc ul {
+	list-style-type: disc;
+	margin-left: 0em;
+}
+
+.g_bubble.desc li {
+	padding-left: 2em;
+}
+
 /*popup*/
 #anidb > .fancybox-wrap div.block > div.image {
 	min-width: 0;
