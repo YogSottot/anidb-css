@@ -252,6 +252,7 @@ div.pagination span a {
 
 #layout-main div.tabbed_pane ul.tabs li,
 .i_icon.i_info,
+span.tooltip .i_icon.i_info,
 span.link,
 button:hover,
 input[type="submit"]:hover,
