@@ -33,6 +33,10 @@
 	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu {
 		margin-top: 12.25em;
 	}
+
+	#anidb:not(.nodropdownmenu) #layout-content #layout-main div.g_content {
+		min-height: 0;
+	}
 }
 
 @media screen and (max-width: 600px) {
