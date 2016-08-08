@@ -296,7 +296,7 @@
 /*tag tree*/
 #layout-main #tagtree div.tag-column .tag-block {
 	padding:1em;
-	width:600px;
+	width: 60em;
 }
 #tagtree div.tag-column div.tag {
 	-webkit-flex-direction: row;
@@ -400,4 +400,10 @@
 
 #tagtree div.tag-column div.tag span.weight {
 	min-width: 9em;
+}
+
+@media screen and (max-width: 800px) {
+	#layout-main #tagtree div.tag-column .tag-block {
+		width: 100%;
+	}
 }

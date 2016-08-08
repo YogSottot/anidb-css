@@ -636,19 +636,6 @@ div.g_bubble.quotebody {
 	padding:0.8em;
 }
 
-#layout-main div.postbody div.content ol {
-	list-style-type: decimal;
-}
-#layout-main div.postbody div.content ul {
-	list-style-type: disc;
-}
-
-#layout-main div.postbody div.content ol,
-#layout-main div.postbody div.content ul {
-	margin-left: 0;
-	padding-left: 4em;
-}
-
 #layout-main div.cmt_entries div.profile div.rank {
 	margin-bottom: 1.4em;
 }

@@ -53,7 +53,9 @@
 #layout-main div.search_all #atags_include,
 #layout-main div.search_all #atags_exclude,
 #layout-main div.search_all #ctags_include,
-#layout-main div.search_all #ctags_exclude {
+#layout-main div.search_all #ctags_exclude,
+#layout-main div.search_all #etags_include,
+#layout-main div.search_all #etags_exclude {
 	width: 50em;
 }
 
@@ -73,4 +75,16 @@
 	margin:0px;
 	padding:2px 4px;
 	display: block;
+}
+
+@media screen and (max-width: 1000px) {
+	#layout-main #tagtree div.tag-column .tag-block,
+	#layout-main div.search_all #atags_include,
+	#layout-main div.search_all #atags_exclude,
+	#layout-main div.search_all #ctags_include,
+	#layout-main div.search_all #ctags_exclude,
+	#layout-main div.search_all #etags_include,
+	#layout-main div.search_all #etags_exclude {
+		width: 100%;
+	}
 }

@@ -24,3 +24,25 @@
 #layout-main table + ul.jump {
 	margin-top: 1em;
 }
+
+/*ul/ol/li bb code*/
+#layout-main li.g_styledlist {
+	margin-left: 1em;
+}
+
+#layout-main ol.g_styledlist {
+	list-style-type: decimal;
+}
+
+#layout-main ul.g_styledlist {
+	list-style-type: disc;
+}
+
+#layout-main .g_styledlist {
+	margin-left: 2em;
+}
+
+#layout-main ol.g_styledlist > li,
+#layout-main ul.g_styledlist > li {
+	margin-left: 0;
+}
