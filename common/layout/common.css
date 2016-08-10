@@ -130,7 +130,7 @@ body.nonav #layout-main h1 {
 #layout-hint {
 	position: absolute;
 	top: 0;
-	width: calc(100% - 2em);
+	width: calc(100% - 2.1em);
 	text-align: center;
 	z-index:110;
 	padding: 0.25em 1em;
