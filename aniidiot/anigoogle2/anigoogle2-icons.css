@@ -554,7 +554,7 @@ button.preview:before {
 .i_tab_collapse:after {
 	content: "\f068";
 }
-.i_tab_expand,:after {
+.i_tab_expand:after {
 	content: "\f0fe";
 }
 .i_tab_default:after {
