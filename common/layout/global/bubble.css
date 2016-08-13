@@ -145,6 +145,12 @@
 	margin: 0.2em 0.5em 0.5em;
 }
 
+.g_bubble.stripe.box > div.image,
+.g_bubble.stripe.box > div.data {
+	padding: 0;
+	margin: 0.75em;
+}
+
 .g_bubble.box > div.data div + div {
 	margin-top:0.2em;
 }
