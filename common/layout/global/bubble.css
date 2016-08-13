@@ -104,6 +104,11 @@
 	text-overflow: ellipsis;
 }
 
+.g_bubble.stripe > div.data div.name.wrap {
+	white-space: normal;
+	overflow: none;
+}
+
 .g_bubble.stripe > div.data div.actions.icons {
 	float: right;
 	margin-right: 0.3em;
