@@ -44,9 +44,17 @@
 		width: 110px;
 	}
 
-	#layout-menu li.sub-menu ul li > span,
-	#layout-menu li.sub-menu ul li > a span {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > span,
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > a span {
 		padding: 0 5px;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu a {
+		padding: 3px 5px;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu .alert > span a {
+		margin-right: -0.75em;
 	}
 }
 

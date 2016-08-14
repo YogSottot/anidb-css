@@ -46,6 +46,7 @@
 	display:block;
 	padding:3px 8px;
 }
+
 #anidb:not(.nodropdownmenu) #layout-menu a.history {
 	padding:3px 0px;
 }
