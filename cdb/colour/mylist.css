@@ -194,6 +194,16 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 #layout-main .mylist.g_odd.liststate_dropped div.tooltip {
   color: initial;
 }
+#layout-main .mylist.liststate_dropped a,
+#layout-main .mylist.liststate_dropped .i_icon,
+#layout-main .mylist.g_odd.liststate_dropped a,
+#layout-main .mylist.g_odd.liststate_dropped .i_icon,
+#layout-main div.mylist_all .liststate_dropped a,
+#layout-main div.mylist_all .liststate_dropped .i_icon,
+#layout-main div.mylist_all .g_odd.liststate_dropped a,
+#layout-main div.mylist_all .g_odd.liststate_dropped .i_icon {
+	color: #6688FF !important;
+}
 
 /*orange for .liststate_watching */
 #layout-main > :not(.timeline_all) .mylist.liststate_watching,
