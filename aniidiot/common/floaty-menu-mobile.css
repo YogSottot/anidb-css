@@ -23,7 +23,8 @@
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
-		padding-top: 1em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
