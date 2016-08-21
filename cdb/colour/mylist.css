@@ -46,7 +46,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 .g_bubble.stripe.mylist,
 .g_bubble.box.mylist,
 .g_bubble.box.mylist > div.top,
-#layout-main div.mylist_all tr[id^="a"]:not(.epsrow),
+#layout-main div.mylist_all tr[id^="a"]:not(.episodes):not(.files),
 /* #layout-main table.wishlist tbody tr, */
 #layout-main table.wishlist tr.mylist,
 #layout-main div.g_content.userpage_all div.g_section.userprefs div.g_section.content.anime div.g_bubble.stripe.mini.mylist
@@ -71,7 +71,7 @@ NOTE: The order the colours are applied matters!  Current order is correct!
 .g_odd.g_bubble.stripe.mylist,
 .g_odd.g_bubble.box.mylist,
 .g_odd.g_bubble.box.mylist > div.top,
-#layout-main div.mylist_all tr.g_odd[id^="a"]:not(.epsrow),
+#layout-main div.mylist_all tr.g_odd[id^="a"]:not(.episodes):not(.files),
 /* #layout-main table.wishlist tbody tr.g_odd, */
 #layout-main table.wishlist tr.g_odd.mylist,
 #layout-main div.g_content.userpage_all div.g_section.userprefs div.g_section.content.anime div.g_odd.g_bubble.stripe.mini.mylist
