@@ -1520,6 +1520,7 @@ background-repeat: no-repeat }
 background: url(images/icons/four/ask2.png) no-repeat right;
 cursor: help; /* just for teh funs */ }
 
+*.i_tab_expand,
 *.i_plus { background: url(images/icons/four/plus.png) no-repeat right }
 
 *.i_tab_collapse,

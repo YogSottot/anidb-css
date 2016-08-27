@@ -23,7 +23,8 @@
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
-		padding-top: 1em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
@@ -42,6 +43,19 @@
 @media screen and (max-width: 600px) {
 	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
 		width: 110px;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > span,
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > a span {
+		padding: 0 5px;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu a {
+		padding: 3px 5px;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu .alert > span a {
+		margin-right: -0.75em;
 	}
 }
 

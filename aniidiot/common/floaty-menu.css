@@ -46,6 +46,7 @@
 	display:block;
 	padding:3px 8px;
 }
+
 #anidb:not(.nodropdownmenu) #layout-menu a.history {
 	padding:3px 0px;
 }
@@ -91,7 +92,7 @@
 }
 
 #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
-	margin-top: -10.2em;
+	margin-top: -14.2em;
 	visibility: visible;
 	height: 75px;
 	padding:0;

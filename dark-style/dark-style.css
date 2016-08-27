@@ -1332,6 +1332,7 @@ div.modlatest_all td.action a
 	width:9px;
 }
 
+*.i_tab_expand,
 *.i_plus
 {
 	background-image:url(images/plus.gif);

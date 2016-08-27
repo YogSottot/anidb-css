@@ -55,3 +55,7 @@
 #layout-main div.addfilem_all ul.note {
 	padding-top: 0.3em;
 }
+
+#layout-main div.addfilem_all #addfilem_group_list > options {
+	max-width: 45em;
+}

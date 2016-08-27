@@ -80,7 +80,7 @@
 
 @media screen and (max-width: 950px) {
 	#layout-search ul.quicksearch {
-		margin: 0.1em 0 0 1.9em !important;
+		margin: 0.1em 0 0 1.4em !important;
 		max-width: 500px;
 	}
 
@@ -91,7 +91,7 @@
 
 @media screen and (max-width: 500px) {
 	#layout-search ul.quicksearch {
-		width: calc(100% - 2em);
+		width: calc(100% - 1.5em);
 	}
 
 	#layout-search ul.quicksearch .g_bubble.stripe {

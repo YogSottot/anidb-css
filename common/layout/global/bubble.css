@@ -104,6 +104,11 @@
 	text-overflow: ellipsis;
 }
 
+.g_bubble.stripe > div.data div.name.wrap {
+	white-space: normal;
+	overflow: none;
+}
+
 .g_bubble.stripe > div.data div.actions.icons {
 	float: right;
 	margin-right: 0.3em;
@@ -138,6 +143,12 @@
 
 .g_bubble.box > div.data {
 	margin: 0.2em 0.5em 0.5em;
+}
+
+.g_bubble.stripe.box > div.image,
+.g_bubble.stripe.box > div.data {
+	padding: 0;
+	margin: 0.75em;
 }
 
 .g_bubble.box > div.data div + div {

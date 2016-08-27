@@ -3,6 +3,10 @@
 	padding: 0.5em;
 }
 
+#layout-main div.tabbed_pane div.body {
+	min-height: 2em;
+}
+
 #layout-main div.tabbed_pane div.pane ul {
 	width: 100%;
 	display: inline-block;
