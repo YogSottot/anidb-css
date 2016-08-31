@@ -1,5 +1,5 @@
-#layout-menu li.sub-menu ul li#user-xpass input,
-#layout-menu li.sub-menu ul li#user-xname input {
+#layout-menu li.sub-menu ul li#user-xname input,
+#layout-menu li.sub-menu ul li#user-xpass input {
 	font-size: 1.04rem;
 }
 
@@ -8,9 +8,9 @@
 	cursor:pointer;
 }
 
-span.link,
-a:visited,
 a:active,
-a:link {
+a:link,
+a:visited,
+span.link {
 	text-decoration:none;
 }

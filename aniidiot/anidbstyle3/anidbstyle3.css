@@ -12,8 +12,7 @@
 @import "anidbstyle3-layout.css";
 @import "anidbstyle3-color.css";
 
-#layout-footer:after
-{
+#layout-footer:after {
 	content:"design by deridiot";
 }
 

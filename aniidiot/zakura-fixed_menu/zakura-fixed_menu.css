@@ -1,12 +1,10 @@
 /*------------------------------------
     AniDB CSS - Zakura - Fixed Menu
-
     zakura.css: www.zakness.com
     this code by ricce
 -------------------------------------*/
 
 @import "../zakura/zakura.css";
-
 #layout-hint {
 	position:fixed;
 }

@@ -1,36 +1,36 @@
-tr + tr td,
-li.g_odd + li,
 li + li.g_odd,
+li.g_odd + li,
+tr + tr td,
 tr + tr th,
-#layout-main div.g_definitionlist tr th,
+#layout-main #tagtree div.tag-column div.tag,
 #layout-main div div.explanation div.description dl + dl,
+#layout-main div.g_definitionlist tr th,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
-#layout-main div.votes_all div.graph.eps div.row + div.row,
-#layout-main #tagtree div.tag-column div.tag {
+#layout-main div.votes_all div.graph.eps div.row + div.row {
 	border-top-style: dotted;
 }
 
+#layout-main div.animelist_all tr td+td,
 #layout-main div.characterlist_all tr td + td,
-#layout-main div.creatorlist_all tr td + td,
 #layout-main div.clublist_all tr td + td,
 #layout-main div.collectionlist_all tr td + td,
+#layout-main div.creatorlist_all tr td + td,
 #layout-main div.grouplist_all tr td + td,
-#layout-main div.songlist_all tr td + td,
-#layout-main div.taglist_all tr td + td,
-#layout-main div.userlist_all tr td + td,
-#layout-main div.tag_all tr td + td,
-#layout-main div.mylist_all td+td,
-#layout-main div.myvotes_all td+td,
-#layout-main div.mywishlist_all tr td+td,
-#layout-main div.animelist_all tr td+td,
-#layout-main div.mynotifies_all tr td+td,
-#layout-main div.mydb_all table tr td + td,
-#layout-main div.modlatest_all table tr td + td,
 #layout-main div.latest2_all table tr td + td,
 #layout-main div.latest2_all table tr.rowspan td:first-child,
-#layout-main div.tag-column .tag-block + .tag-block {
+#layout-main div.modlatest_all table tr td + td,
+#layout-main div.mydb_all table tr td + td,
+#layout-main div.mylist_all td+td,
+#layout-main div.mynotifies_all tr td+td,
+#layout-main div.myvotes_all td+td,
+#layout-main div.mywishlist_all tr td+td,
+#layout-main div.songlist_all tr td + td,
+#layout-main div.tag-column .tag-block + .tag-block,
+#layout-main div.tag_all tr td + td,
+#layout-main div.taglist_all tr td + td,
+#layout-main div.userlist_all tr td + td {
 	border-left-style: dotted;
 }
 

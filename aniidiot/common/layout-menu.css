@@ -1,5 +1,5 @@
-html,
-body {
+body,
+html {
 	height:100%;
 }
 
@@ -47,8 +47,8 @@ body {
 	margin-bottom: 0.5em;
 }
 
-#layout-nav div.menu_hr,
-#layout-menu span.tab {
+#layout-menu span.tab,
+#layout-nav div.menu_hr {
 	display: none;
 }
 
@@ -66,8 +66,8 @@ body {
 	margin-top: 2em;
 }
 
-#layout-menu,
-#layout-content {
+#layout-content,
+#layout-menu {
 	margin-top: 0;
 }
 
@@ -75,14 +75,14 @@ body {
 	padding: 0;
 }
 
-#layout-menu li.sub-menu ul li > span,
-#layout-menu li.sub-menu ul li > a span {
+#layout-menu li.sub-menu ul li > a span,
+#layout-menu li.sub-menu ul li > span {
 	padding: 0 8px;
 }
 
-#layout-menu li.sub-menu ul li.user-xkeep > label,
+#layout-main div.main_all,
 #layout-main h1.main,
-#layout-main div.main_all {
+#layout-menu li.sub-menu ul li.user-xkeep > label {
 	display: block;
 }
 
@@ -115,15 +115,15 @@ body {
 }
 
 #layout-menu li.sub-menu ul li > a,
-#layout-menu li.sub-menu ul li > span,
-#layout-menu li.sub-menu ul li > label {
+#layout-menu li.sub-menu ul li > label,
+#layout-menu li.sub-menu ul li > span {
 	line-height: 17px;
 }
 
 /*clickable logo*/
 #layout-search .submit,
-#layout-search select,
-#layout-search input.text {
+#layout-search input.text,
+#layout-search select {
 	z-index: 105;
 }
 
@@ -143,7 +143,6 @@ body {
 }
 
 /*clickable logo*/
-
 #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu .alert > span a {
 	display: inline-block;
 	width: auto;
@@ -155,8 +154,8 @@ body {
 	padding-right: 0;
 }
 
-#anidb:not(.nodropdownmenu) #menu-account li.alert a span:before,
-#anidb:not(.nodropdownmenu) #menu-account li.alert a span:after {
+#anidb:not(.nodropdownmenu) #menu-account li.alert a span:after,
+#anidb:not(.nodropdownmenu) #menu-account li.alert a span:before {
 	padding: 0 1px;
 }
 

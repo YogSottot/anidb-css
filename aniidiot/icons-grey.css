@@ -82,11 +82,13 @@
 	background: transparent url(../icons/grey/review_add.gif) no-repeat scroll 0 50%;
 }
 
-.i_tab_collapse,.i_minus {
+.i_minus,
+.i_tab_collapse {
 	background-image: url(../icons/grey/minus.gif);
 }
 
-.i_tab_expand,.i_plus {
+.i_plus,
+.i_tab_expand {
 	background-image: url(../icons/grey/plus.gif);
 }
 
@@ -143,16 +145,16 @@
 	background-image: url(../icons/grey/topic_unsubscribe.gif);
 }
 
+.i_video_1080,
 .i_video_480,
-.i_video_720,
-.i_video_1080 {
+.i_video_720 {
 	background-color: #8A56AA;
 }
 
-.i_video_480,
-.i_video_720,
+.i_ext,
 .i_video_1080,
-.i_ext {
+.i_video_480,
+.i_video_720 {
 	background-image: none!important;
 	border-radius: 3px;
 	height: 14px;
@@ -160,10 +162,10 @@
 	width: 38px;
 }
 
-.i_video_480 span,
-.i_video_720 span,
+.i_ext span,
 .i_video_1080 span,
-.i_ext span {
+.i_video_480 span,
+.i_video_720 span {
 	color: #DDDDDD;
 	display: inline-block!important;
 	font-family: Arial,Helvetica,sans-serif;

@@ -73,13 +73,13 @@
 	margin-left: 0.5em;
 }
 
-#anidb:not(.nodropdownmenu) #layout-search div.search,
-#anidb:not(.nodropdownmenu) #layout-search {
+#anidb:not(.nodropdownmenu) #layout-search,
+#anidb:not(.nodropdownmenu) #layout-search div.search {
 	height: 70px;
 }
 
 #anidb:not(.nodropdownmenu) #layout-menu {
-    margin-top: 7.5em;
+	margin-top: 7.5em;
 }
 
 #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.alert {
@@ -99,8 +99,8 @@
 }
 
 #anidb:not(.nodropdownmenu) #layout-nav {
-    margin-top: 0;
-    height: 76px;
+	margin-top: 0;
+	height: 76px;
 }
 
 #anidb:not(.nodropdownmenu) #layout-hint + #layout-nav {

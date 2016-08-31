@@ -3,8 +3,8 @@ table {
 	border-top:1px solid;
 }
 
-#layout-main div.hint2_all table,
-#layout-main div.anime_all div.info div.data table {
+#layout-main div.anime_all div.info div.data table,
+#layout-main div.hint2_all table {
 	border-top:none;
 }
 
@@ -15,11 +15,11 @@ table {
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
-#layout-main ul.g_list li,
-#layout-tabs ul.main-tabs > li,
 #layout-main div.tabbed_pane ul.tabs li,
+#layout-main ul.g_list li,
+#layout-menu > li ul,
 #layout-search select.type,
-#layout-menu > li ul {
+#layout-tabs ul.main-tabs > li {
 	border:1px solid;
 }
 

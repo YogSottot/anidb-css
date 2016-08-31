@@ -29,14 +29,14 @@ textarea {
 	height: 8em;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
+input[type="checkbox"],
+input[type="radio"] {
 	margin-right: 0.1em;
 	margin-bottom: 0.3em;
 }
 
-input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="text"] {
 	height: 18px;
 }
 
@@ -50,36 +50,36 @@ select.shuttle {
 }
 
 button,
-select,
-input[type="text"],
+input[type="checkbox"],
 input[type="password"],
 input[type="radio"],
-input[type="checkbox"] {
+input[type="text"],
+select {
 	vertical-align: middle;
 }
 
-select,
-button,
-span.test,
 .g_button a,
 a.button,
-input.button,
-button.button,
 a.confirmButton,
-input.confirmButton,
+button,
+button.button,
 button.confirmButton,
-input[type="text"],
+input.button,
+input.confirmButton,
 input[type="button"],
-input[type="submit"],
 input[type="password"],
-#layout-nav input.submit,
-#layout-main ul.g_list li a,
-#layout-main ul.g_list li span.nolink,
+input[type="submit"],
+input[type="text"],
+select,
+span.test,
+#layout-main div.forum div.search form button,
+#layout-main div.forum div.search form input,
+#layout-main div.forum div.search form select,
 #layout-main div.pagination span a,
 #layout-main div.pagination span strong,
-#layout-main div.forum div.search form select,
-#layout-main div.forum div.search form button,
-#layout-main div.forum div.search form input {
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink,
+#layout-nav input.submit {
 	padding: 2px 4px;
 }
 
@@ -91,8 +91,8 @@ h2 {
 	line-height: 1.6em;
 }
 
-h4,
 caption,
+h4,
 #layout-main div.g_timedentry h4 {
 	line-height: 1.4em;
 }
@@ -165,8 +165,8 @@ caption,
 	margin-bottom: 0;
 }
 
-#layout-main h1.main,
-#layout-main div.main_all {
+#layout-main div.main_all,
+#layout-main h1.main {
 	display: none;
 }
 
@@ -195,8 +195,8 @@ caption,
 	margin-top: 2.5em;
 }
 
-#layout-nav input,
-#layout-nav button {
+#layout-nav button,
+#layout-nav input {
 	padding-left: 0;
 }
 
@@ -208,7 +208,6 @@ caption,
 #layout-tabs ul {
 	display: block;
 	text-align: right;
-
 }
 
 #layout-tabs ul li {
@@ -236,8 +235,8 @@ caption,
 	padding-right: 8em;
 }
 
-h4,
 caption,
+h4,
 #layout-main div.g_timedentry h4 {
 	padding: .3em;
 }
@@ -246,13 +245,13 @@ caption,
 	margin: 2px 0 0;
 }
 
-#layout-menu li.sub-menu ul li,
 #layout-main .g_definitionlist table tr td,
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs td,
 #layout-main div.g_definitionlist tr th,
 #layout-main div.g_menu ul li,
 #layout-main div.userpage_all div.buddies ul li,
 #layout-main div.userpage_all div.favreviewers ul li,
-#layout-main div.addsongcollectionrel_all div.massadd_new_songs td {
+#layout-menu li.sub-menu ul li {
 	padding: 2px 8px;
 }
 
@@ -289,8 +288,8 @@ caption,
 	display: block;
 }
 
-button,
 .g_button,
+button,
 #layout-main ul.g_list li {
 	display: inline-block;
 	vertical-align: top;
@@ -298,15 +297,15 @@ button,
 
 .g_button.upload a,
 button,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.edit_actions span > *,
-#layout-tabs ul li a,
 #layout-main div.msg_all div.buttons li a,
 #layout-main div.msg_all ul.g_list li.sent a,
-#layout-main div.creq_all .links .next_new_creq a,
-#layout-main div.creq_all .links .next_creq a,
-#layout-main div.creq_all .links .creq_list a,
 #layout-main ul.g_list li a,
-#layout-main ul.g_list li span.nolink {
+#layout-main ul.g_list li span.nolink,
+#layout-tabs ul li a {
 	line-height: 16px;
 }
 
@@ -344,8 +343,8 @@ button,
 	margin: 1px;
 }
 
-#layout-main div.addtagentityrel_all div.suggestions > span:hover,
-#layout-main div.addtagentityrel_all div.suggestions > span.focus {
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover {
 	margin: 0px;
 }
 
@@ -357,8 +356,8 @@ button,
 	width: 8.5em;
 }
 
-#layout-main div.profile_all div.pane div.settings.block li,
 #layout-main div.profile_all div.pane > ul li,
+#layout-main div.profile_all div.pane div.settings.block li,
 #layout-main div.profile_all div.pane.general div.body div.pane div ul li {
 	line-height: 16px;
 }
@@ -367,13 +366,13 @@ button,
 	margin-left: 0.5em;
 }
 
-#layout-main div.g_menu.filter_menu button.delete + label,
-#layout-main .creq_all .creq_header + ul.g_list {
+#layout-main .creq_all .creq_header + ul.g_list,
+#layout-main div.g_menu.filter_menu button.delete + label {
 	margin-top: 0.5em;
 }
 
-#layout-main ul.g_list + button,
-#layout-main div.forum div.buttons a + a {
+#layout-main div.forum div.buttons a + a,
+#layout-main ul.g_list + button {
 	margin-left: 0.4em !important;
 }
 

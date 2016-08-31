@@ -12,8 +12,8 @@
 	text-decoration: underline;
 }
 
-#layout-nav div.search a.advsearch,
-#layout-menu li.sub-menu ul li a {
+#layout-menu li.sub-menu ul li a,
+#layout-nav div.search a.advsearch {
 	text-transform: capitalize;
 }
 

@@ -4,8 +4,8 @@
 	border-top-color:#666666;
 }
 
-#layout-menu li.sub-menu:hover,
-#layout-menu li.sub-menu {
+#layout-menu li.sub-menu,
+#layout-menu li.sub-menu:hover {
 	border-color:#666666 #444444 #444444 #666666;
 }
 
@@ -17,8 +17,8 @@
 	background-color: inherit;
 }
 
-#layout-menu li.sub-menu:hover,
-#layout-menu li.sub-menu {
+#layout-menu li.sub-menu,
+#layout-menu li.sub-menu:hover {
 	background-color:#404040;
 }
 
@@ -26,8 +26,8 @@
 	border-top-color:#555555;
 }
 
-#layout-menu li.sub-menu li:hover,
-#layout-menu li.sub-menu li:active {
+#layout-menu li.sub-menu li:active,
+#layout-menu li.sub-menu li:hover {
 	background: transparent url(images/stripe-darkgrey.png) repeat left top;
 }
 

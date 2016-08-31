@@ -66,7 +66,7 @@
 	cursor: pointer;
 }
 
-#layout-menu > li.account  {
+#layout-menu > li.account {
 	border: none;
 	width: 0;
 	padding:0;
@@ -76,8 +76,8 @@
 	display: none;
 }
 
-#layout-menu li.sub-menu ul li.main span,
-#layout-menu > li:hover ul {
+#layout-menu > li:hover ul,
+#layout-menu li.sub-menu ul li.main span {
 	display:block;
 }
 

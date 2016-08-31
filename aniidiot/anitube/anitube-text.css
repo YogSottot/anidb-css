@@ -2,9 +2,9 @@ a:hover {
 	text-decoration:underline;
 }
 
+a.i_button:hover,
 a.i_icon:hover,
-a.i_inline:hover,
-a.i_button:hover {
+a.i_inline:hover {
 	text-decoration:none;
 }
 
@@ -18,16 +18,16 @@ a.i_button:hover {
 	text-transform:capitalize;
 }
 
-#layout-search input.text,
-#layout-search .submit,
 #layout-menu > li,
-#layout-tabs,
-#layout-search select {
+#layout-search .submit,
+#layout-search input.text,
+#layout-search select,
+#layout-tabs {
 	font-size:1.2em;
 }
 
+#layout-main div.tabbed_pane ul.tabs li,
 #layout-main ul.g_list li,
-#layout-tabs ul.main-tabs > li,
-#layout-main div.tabbed_pane ul.tabs li {
+#layout-tabs ul.main-tabs > li {
 	font-size:1.1em;
 }

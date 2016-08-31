@@ -1,5 +1,5 @@
-#layout-menu,
-table td {
+table td,
+#layout-menu {
 	font-size: 1.08rem;/*11.5px*/
 }
 
@@ -19,10 +19,10 @@ h2 span {
 	font-weight: normal !important;
 }
 
+caption,
 h4,
 h4 a,
-h4 span,
-caption {
+h4 span {
 	font-family: "Century Gothic","Lucida Grande",sans-serif !important;
 	font-size: 1.59rem;
 	font-weight: normal !important;
@@ -38,10 +38,10 @@ h4 a.i_icon {
 	font-weight: bold;
 }
 
-#layout-main tr.header th,
 .g_definitionlist table th,
 .g_definitionlist table th a,
 #layout-main div.tabbed_pane ul.tabs li,
+#layout-main tr.header th,
 #layout-tabs ul.main-tabs > li {
 	font-size: 1.14rem; /*12px*/
 }
@@ -57,8 +57,8 @@ h4 a.i_icon {
 	text-transform: capitalize;
 }
 
-div.mylist_list table.eplist th,
-div.anime_all div.episodes table.filelist th {
+div.anime_all div.episodes table.filelist th,
+div.mylist_list table.eplist th {
 	font-size: 0.95rem;
 }
 

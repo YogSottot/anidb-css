@@ -5,173 +5,173 @@
 	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
 }
 
-#layout-main div.tabbed_pane ul.tabs .save_as_default,
-#layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
+#layout-main div.tabbed_pane ul.tabs .reset_selection_mode,
+#layout-main div.tabbed_pane ul.tabs .save_as_default {
 	display: inline-block;
 }
 
-.i_moveable,
-.i_general_vote_up,
+.i_comment_add,
+.i_comment_creq,
+.i_comment_delete,
+.i_comment_edit,
+.i_comment_info,
+.i_comment_move,
+.i_comment_quote,
+.i_comment_report,
+.i_comment_revisions,
+.i_comment_setactive,
+.i_comment_undelete,
+.i_ep_edit,
+.i_file_add,
+.i_file_addmylist,
+.i_file_details,
+.i_file_edit,
+.i_file_editmylist,
+.i_file_removemylist,
+.i_general_add,
+.i_general_arrow_down,
+.i_general_arrow_up,
+.i_general_blacklist,
+.i_general_convert,
+.i_general_delete,
+.i_general_delete_request,
+.i_general_edit,
+.i_general_history,
+.i_general_list,
+.i_general_revert,
 .i_general_vote_down,
 .i_general_vote_revoke,
-.i_general_revert,
+.i_general_vote_up,
+.i_group_comment,
+.i_help,
+.i_info,
+.i_liststate_edit,
+.i_minus,
+.i_moveable,
+.i_mylist,
+.i_nonotify,
+.i_notify,
+.i_plus,
+.i_pm_delete,
+.i_pm_reply,
+.i_review_add,
+.i_revote,
+.i_seen,
+.i_seen_no,
+.i_seen_yes,
+.i_state_verified,
 .i_stats,
+.i_tab_collapse,
+.i_tab_default,
+.i_tab_expand,
+.i_tab_reset,
+.i_top,
+.i_topic_add,
+.i_topic_delete,
+.i_topic_history,
+.i_topic_lock,
+.i_topic_locked,
+.i_topic_move,
+.i_topic_read,
+.i_topic_split,
+.i_topic_subscribe,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_topic_unsubscribe,
+.i_vote,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
 .i_wishlist_towatch,
-.i_wishlist_undefined,
-.i_tab_collapse,
-.i_tab_expand,
-.i_tab_default,
-.i_tab_reset,
-.i_notify,
-.i_nonotify,
-.i_state_verified,
-.i_mylist,
-.i_file_details,
-.i_seen,
-.i_seen_yes,
-.i_seen_no,
-.i_file_addmylist,
-.i_file_editmylist,
-.i_file_removemylist,
-.i_liststate_edit,
-.i_general_add,
-.i_general_edit,
-.i_general_delete,
-.i_general_delete_request,
-.i_general_blacklist,
-.i_general_history,
-.i_general_list,
-.i_general_arrow_up,
-.i_general_arrow_down,
-.i_general_convert,
-.i_top,
-.i_help,
-.i_info,
-.i_vote,
-.i_revote,
-.i_group_comment,
-.i_ep_edit,
-.i_file_add,
-.i_file_edit,
-.i_minus,
-.i_plus,
-.i_topic_add,
-.i_topic_history,
-.i_topic_delete,
-.i_topic_move,
-.i_topic_split,
-.i_topic_read,
-.i_topic_lock,
-.i_topic_undelete,
-.i_topic_unlock,
-.i_topic_locked,
-.i_comment_add,
-.i_comment_revisions,
-.i_comment_move,
-.i_comment_edit,
-.i_comment_quote,
-.i_comment_delete,
-.i_comment_info,
-.i_comment_creq,
-.i_comment_setactive,
-.i_comment_undelete,
-.i_comment_report,
-.i_pm_delete,
-.i_review_add,
-.i_pm_reply,
-.i_topic_subscribe,
-.i_topic_unsubscribe {
+.i_wishlist_undefined {
 	background-image: none !important;
 }
 
-.i_moveable,
-.i_general_vote_up,
+.g_button.upload a,
+.i_comment_add,
+.i_comment_creq,
+.i_comment_delete,
+.i_comment_edit,
+.i_comment_info,
+.i_comment_move,
+.i_comment_quote,
+.i_comment_report,
+.i_comment_revisions,
+.i_comment_setactive,
+.i_comment_undelete,
+.i_ep_edit,
+.i_file_add,
+.i_file_addmylist,
+.i_file_details,
+.i_file_edit,
+.i_file_editmylist,
+.i_file_removemylist,
+.i_general_add,
+.i_general_arrow_down,
+.i_general_arrow_up,
+.i_general_blacklist,
+.i_general_convert,
+.i_general_delete,
+.i_general_delete_request,
+.i_general_edit,
+.i_general_history,
+.i_general_list,
+.i_general_revert,
 .i_general_vote_down,
 .i_general_vote_revoke,
-.i_general_revert,
+.i_general_vote_up,
+.i_group_comment,
+.i_help,
+.i_info,
+.i_liststate_edit,
+.i_minus,
+.i_moveable,
+.i_mylist,
+.i_nonotify,
+.i_notify,
+.i_plus,
+.i_pm_delete,
+.i_pm_reply,
+.i_review_add,
+.i_revote,
+.i_seen,
+.i_seen_no,
+.i_seen_yes,
+.i_state_verified,
 .i_stats,
+.i_tab_collapse,
+.i_tab_default,
+.i_tab_expand,
+.i_tab_reset,
+.i_top,
+.i_topic_add,
+.i_topic_delete,
+.i_topic_history,
+.i_topic_lock,
+.i_topic_locked,
+.i_topic_move,
+.i_topic_read,
+.i_topic_split,
+.i_topic_subscribe,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_topic_unsubscribe,
+.i_vote,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
-.i_tab_collapse,
-.i_tab_expand,
-.i_tab_default,
-.i_tab_reset,
-.i_notify,
-.i_nonotify,
-.i_state_verified,
-.i_mylist,
-.i_file_details,
-.i_seen,
-.i_seen_yes,
-.i_seen_no,
-.i_file_addmylist,
-.i_file_editmylist,
-.i_file_removemylist,
-.i_liststate_edit,
-.i_general_add,
-.i_general_edit,
-.i_general_delete,
-.i_general_delete_request,
-.i_general_blacklist,
-.i_general_history,
-.i_general_list,
-.i_general_arrow_up,
-.i_general_arrow_down,
-.i_general_convert,
-.i_top,
-.i_help,
-.i_info,
-.i_vote,
-.i_revote,
-.i_group_comment,
-.i_ep_edit,
-.i_file_add,
-.i_file_edit,
-.i_minus,
-.i_plus,
-.i_comment_add,
-.i_comment_revisions,
-.i_comment_move,
-.i_comment_edit,
-.i_comment_quote,
-.i_comment_info,
-.i_comment_creq,
-.i_comment_setactive,
-.i_comment_delete,
-.i_comment_undelete,
-.i_comment_report,
-.i_topic_add,
-.i_topic_history,
-.i_topic_delete,
-.i_topic_move,
-.i_topic_split,
-.i_topic_read,
-.i_topic_lock,
-.i_topic_undelete,
-.i_topic_unlock,
-.i_topic_locked,
-.i_topic_subscribe,
-.i_topic_unsubscribe,
-.i_pm_delete,
-.i_pm_reply,
-.i_review_add,
-.g_button.upload a,
 button,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .next_new_creq a,
 #layout-main div.edit_actions span > *,
-#layout-tabs ul li a,
 #layout-main div.msg_all div.buttons li a,
 #layout-main div.msg_all ul.g_list li.sent a,
-#layout-main div.creq_all .links .next_new_creq a,
-#layout-main div.creq_all .links .next_creq a,
-#layout-main div.creq_all .links .creq_list a,
 #layout-main ul.g_list li a,
-#layout-main ul.g_list li span.nolink {
+#layout-main ul.g_list li span.nolink,
+#layout-tabs ul li a {
 	display: inline-block;
 	font-family: FontAwesome,Arial,Helvetica,sans-serif !important;
 	font-style: normal;
@@ -188,101 +188,117 @@ button,
 	line-height: 18px;
 }
 
-button,
 .g_button.upload a,
-#layout-search .submit,
+button,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .next_new_creq a,
 #layout-main ul.g_list li a,
 #layout-main ul.g_list li span.nolink,
-#layout-main div.creq_all .links .next_new_creq a,
-#layout-main div.creq_all .links .next_creq a,
-#layout-main div.creq_all .links .creq_list a {
+#layout-search .submit {
 	padding-left: 4px;
 }
 
+.g_button.upload a:before,
 .i_moveable:before,
 button:before,
-.g_button.upload a:before,
-#layout-tabs ul li a:before,
+#layout-main div.creq_all .links a:before,
 #layout-main div.edit_actions span > *:before,
-#layout-main ul.g_list li span.nolink:before,
-#layout-main ul.g_list li a:before,
 #layout-main div.msg_all div.buttons li a:before,
-#layout-main div.creq_all .links a:before {
+#layout-main ul.g_list li a:before,
+#layout-main ul.g_list li span.nolink:before,
+#layout-tabs ul li a:before {
 	padding-right: 6px;
 }
 
-#layout-main ul.g_list li.submit a:before,
-button:before {
+button:before,
+#layout-main ul.g_list li.submit a:before {
 	content: "\f00c";
 }
+
 .i_topic_unlock:before {
 	content: "\f09c";
 }
-.i_topic_locked:before,
-.i_topic_lock:before {
+
+.i_topic_lock:before,
+.i_topic_locked:before {
 	content: "\f023";
 }
-.i_topic_add:before,
-.i_comment_add:before {
+
+.i_comment_add:before,
+.i_topic_add:before {
 	content: "\f0e5";
 }
+
 .i_comment_revisions:before {
 	content: "\f044";
 }
-.i_topic_move:before,
+
 .i_comment_move:before,
+.i_topic_move:before,
 #layout-main ul.g_list li.move a:before {
 	content: "\f0b2";
 }
-#layout-main ul.g_list li.edit a:before,
-#layout-main div.edit_actions span.modify > *:before,
+
+.i_comment_edit:before,
 button.default:before,
-button.update:before,
 button.edit:before,
-.i_comment_edit:before {
+button.update:before,
+#layout-main div.edit_actions span.modify > *:before,
+#layout-main ul.g_list li.edit a:before {
 	content: "\f040";
 }
+
 .i_comment_quote:before {
 	content: "\f10d";
 }
-#layout-main ul.g_list li.info a:before,
+
+.i_comment_info:before,
 #layout-main ul.g_list li.help a:before,
-.i_comment_info:before {
+#layout-main ul.g_list li.info a:before {
 	content: "\f05a";
 }
+
 .i_comment_setactive:before {
 	content: "\f00c";
 }
+
+#layout-main div.creq_all .creq_buttons button.deny:before,
 #layout-main ul.g_list li.abort a:before,
-#layout-main ul.g_list li.cancel a:before,
-#layout-main div.creq_all .creq_buttons button.deny:before {
+#layout-main ul.g_list li.cancel a:before {
 	content: "\f05e";
 }
-button.delete:before,
+
 .i_comment_creq:before,
+.i_comment_delete:before,
 .i_pm_delete:before,
 .i_topic_delete:before,
-.i_comment_delete:before,
-#layout-main ul.g_list li.delete a:before,
+button.delete:before,
 #layout-main div.msg_all div.buttons button.delete:before,
-#layout-main div.msg_all div.buttons li.delete a:before {
+#layout-main div.msg_all div.buttons li.delete a:before,
+#layout-main ul.g_list li.delete a:before {
 	content: "\f00d";
 }
-.i_topic_undelete:before,
-.i_comment_undelete:before {
+
+.i_comment_undelete:before,
+.i_topic_undelete:before {
 	content: "\f021";
 }
+
 .i_comment_report:before {
 	content: "\f024";
 }
+
 .i_topic_history:before,
 #layout-main ul.g_list li.history a:before {
 	content: "\f1da";
 }
+
 .i_general_convert:before,
 .i_topic_split:before {
 	content: "\f0ec";
 }
+
 .i_topic_subscribe:before,
 .i_topic_unsubscribe:before {
 	content: "\f09e";
@@ -292,23 +308,27 @@ button.search:before,
 #layout-search .submit:before {
 	content: "\f002";
 }
-#layout-main ul.g_list li.show a:before,
-#layout-main ul.g_list li.back a:before {
+
+#layout-main ul.g_list li.back a:before,
+#layout-main ul.g_list li.show a:before {
 	content: "\f112";
 }
-#layout-main ul.g_list li.reload a:before,
+
+button.reboot:before,
 #layout-main ul.g_list li.convert a:before,
-button.reboot:before {
+#layout-main ul.g_list li.reload a:before {
 	content: "\f021";
 }
-#layout-main ul.g_list li.latest a:before,
-#layout-main ul.g_list li.list a:before,
+
+#layout-main div.creq_all .links .creq_list a:before,
 #layout-main div.edit_actions span.show > *:before,
-#layout-main div.creq_all .links .creq_list a:before {
+#layout-main ul.g_list li.latest a:before,
+#layout-main ul.g_list li.list a:before {
 	content: "\f0ca";
 }
-#layout-main div.creq_all .links .next_new_creq a:before,
-#layout-main div.creq_all .links .next_creq a:before {
+
+#layout-main div.creq_all .links .next_creq a:before,
+#layout-main div.creq_all .links .next_new_creq a:before {
 	content: "\f061";
 }
 
@@ -316,154 +336,181 @@ button.set_default:before,
 #layout-main div.creq_all .creq_buttons button.lock:before {
 	content: "\f023";
 }
+
 #layout-main div.creq_all .creq_buttons button.unlock:before {
 	content: "\f09c";
 }
-#layout-main div.creq_all .creq_buttons button.revoke:before,
-#layout-main div.creq_all .creq_buttons button.revert:before {
+
+#layout-main div.creq_all .creq_buttons button.revert:before,
+#layout-main div.creq_all .creq_buttons button.revoke:before {
 	content: "\f0e2";
 }
+
 #layout-main div.creq_all .creq_buttons button.assign:before {
 	content: "\f234";
 }
+
 #layout-main div.creq_all .creq_messages button.reply:before {
 	content: "\f112";
 }
+
 #layout-main div.creq_all .creq_messages button.note:before {
 	content: "\f016";
 }
+
 #layout-main div.creq_all .creq_messages button.annotation:before {
 	content: "\f044";
 }
-#layout-main ul.g_list li.reset a:before,
-button.reset:before {
+
+button.reset:before,
+#layout-main ul.g_list li.reset a:before {
 	content: "\f0e2";
 }
-#layout-main ul.g_list li.next span.nolink:before,
-#layout-main ul.g_list li.next a:before,
+
+button.next:before,
 button.right:before,
-button.next:before {
+#layout-main ul.g_list li.next a:before,
+#layout-main ul.g_list li.next span.nolink:before {
 	content: "\f061";
 }
-#layout-main ul.g_list li.prev span.nolink:before,
-#layout-main ul.g_list li.prev a:before,
+
 button.left:before,
-button.prev:before {
+button.prev:before,
+#layout-main ul.g_list li.prev a:before,
+#layout-main ul.g_list li.prev span.nolink:before {
 	content: "\f060";
 }
+
 #layout-tabs ul li a:before {
 	content: "\f07b";
 }
-button.reply:before,
+
 .i_pm_reply:before,
+button.reply:before,
 #layout-main div.msg_all div.buttons li.new a:before,
 #layout-main div.msg_all ul.g_list li.sent a:before {
 	content: "\f003";
 }
+
 button.load:before {
 	content: "\f115";
 }
+
 #layout-main ul.g_list li.stats a:before {
 	content: "\f080";
 }
+
 #layout-main ul.g_list li.relations a:before,
 #layout-main ul.g_list li.votes a:before {
 	content: "\f201";
 }
+
 #layout-main ul.g_list li.export a:before {
 	content: "\f08e";
 }
+
 .i_review_add:before,
 button.add:before,
-#layout-main ul.g_list li.add a:before,
-#layout-main div.edit_actions span.add > *:before {
+#layout-main div.edit_actions span.add > *:before,
+#layout-main ul.g_list li.add a:before {
 	content: "\f067";
 }
-button.tmpratenow:before,
+
 button.ratenow:before,
+button.tmpratenow:before,
 button.vote:before {
 	content: "\f087";
 }
+
 #layout-main ul.g_list li.merge a:before {
 	content: "\f066";
 }
+
 .i_general_arrow_up:after,
 button.up:before {
 	content: "\f062";
 }
+
 .i_general_arrow_down:after,
 button.down:before {
 	content: "\f063";
 }
+
 #layout-main ul.g_list li.users a:before {
 	content: "\f0c0";
 }
-button.upload,
-.g_button.upload a:before {
+
+.g_button.upload a:before,
+button.upload {
 	content: "\f093";
 }
+
 #layout-main ul.g_list li.filter a:before {
 	content: "\f0b0";
 }
+
 .i_topic_read:before,
-button.spoiler:before,
-button.preview:before {
+button.preview:before,
+button.spoiler:before {
 	content: "\f06e";
 }
+
 .i_moveable:before {
 	content: "\f047";
 }
+
 /*image only - no text*/
-.i_general_vote_up,
+.i_ep_edit,
+.i_file_add,
+.i_file_addmylist,
+.i_file_details,
+.i_file_edit,
+.i_file_editmylist,
+.i_file_removemylist,
+.i_general_add,
+.i_general_arrow_down,
+.i_general_arrow_up,
+.i_general_blacklist,
+.i_general_delete,
+.i_general_delete_request,
+.i_general_edit,
+.i_general_history,
+.i_general_list,
+.i_general_revert,
 .i_general_vote_down,
 .i_general_vote_revoke,
-.i_general_revert,
+.i_general_vote_up,
+.i_group_comment,
+.i_help,
+.i_info,
+.i_liststate_edit,
+.i_minus,
+.i_mylist,
+.i_nonotify,
+.i_notify,
+.i_plus,
+.i_revote,
+.i_seen,
+.i_seen_no,
+.i_seen_yes,
+.i_state_verified,
 .i_stats,
+.i_tab_collapse,
+.i_tab_default,
+.i_tab_expand,
+.i_tab_reset,
+.i_top,
+.i_vote,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
 .i_wishlist_towatch,
-.i_wishlist_undefined,
-.i_tab_collapse,
-.i_tab_expand,
-.i_tab_default,
-.i_tab_reset,
-.i_notify,
-.i_nonotify,
-.i_state_verified,
-.i_mylist,
-.i_file_details,
-.i_seen,
-.i_seen_yes,
-.i_seen_no,
-.i_file_addmylist,
-.i_file_editmylist,
-.i_file_removemylist,
-.i_liststate_edit,
-.i_general_add,
-.i_general_edit,
-.i_general_delete,
-.i_general_delete_request,
-.i_general_blacklist,
-.i_general_history,
-.i_general_list,
-.i_general_arrow_up,
-.i_general_arrow_down,
-.i_top,
-.i_help,
-.i_info,
-.i_vote,
-.i_revote,
-.i_group_comment,
-.i_ep_edit,
-.i_file_add,
-.i_file_edit,
-.i_minus,
-.i_plus {
+.i_wishlist_undefined {
 	height: auto;
 	width:16px;
 	font-size:1.33rem;
 }
+
 /*stacked icons*/
 .i_tv_special:before,
 .i_wishlist_blacklist:before,
@@ -471,82 +518,98 @@ button.preview:before {
 .i_wishlist_toget:before,
 .i_wishlist_towatch:before,
 .i_wishlist_undefined:before {
-    position: absolute;
-    font-size: 1rem;
-    text-align: right;
-    width:16px;
-    padding-top: 2px;
+	position: absolute;
+	font-size: 1rem;
+	text-align: right;
+	width:16px;
+	padding-top: 2px;
 	cursor:pointer;
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
+
 .i_plus:after {
 	content: "\f0fe";
 	cursor:pointer;
 }
+
 .i_minus:after {
 	content: "\f146";
 	cursor:pointer;
 }
+
 .i_group_comment:after {
 	content: "\f0e5";
 	cursor:pointer;
 }
+
 .i_ep_edit:after,
 .i_file_edit:after {
 	content: "\f040";
 	cursor:pointer;
 }
-.i_general_add:after,
+
+.i_file_add:after,
 .i_file_addmylist:after,
-.i_file_add:after {
+.i_general_add:after {
 	content: "\f067";
 	cursor:pointer;
 }
+
 .i_vote:after {
 	content: "\f087";
 	cursor:pointer;
 }
+
 .i_info:after {
 	content: "\f05a";
 	cursor:pointer;
 }
+
 .i_help:after {
 	content: "\f059";
 	cursor:help;
 }
+
 .i_top:after {
 	content: "\f0aa";
 	cursor:pointer;
 }
-.i_liststate_edit:after,
+
+.i_file_editmylist:after,
 .i_general_edit:after,
-.i_file_editmylist:after {
+.i_liststate_edit:after {
 	content: "\f044";
 	cursor:pointer;
 }
+
+.i_file_removemylist:after,
 .i_general_delete:after,
-.i_general_delete_request:after,
-.i_file_removemylist:after {
+.i_general_delete_request:after {
 	content: "\f014";
 	cursor:pointer;
 }
+
 .i_revote:after {
 	content: "\f00c";
 	cursor:pointer;
 }
+
 .i_seen:after,
 .i_seen_yes:after {
 	content: "\f06e";
 	cursor:pointer;
 }
+
 .i_seen_no:after {
 	content: "\f070";
 	cursor:pointer;
 }
+
 .i_file_details:after {
 	content: "\f14c";
 	cursor:pointer;
 }
+
 .i_general_list:after,
 .i_mylist:after {
 	content: "\f0ca";
@@ -556,48 +619,62 @@ button.preview:before {
 .i_state_verified:after {
 	content: "\f00c";
 }
+
 .i_tab_collapse:after {
 	content: "\f068";
 }
+
 .i_tab_expand:after {
 	content: "\f067";
 }
+
 .i_tab_default:after {
 	content: "\f004";
 }
+
 .i_tab_reset:after {
 	content: "\f05e";
 }
+
 .i_notify:after {
 	content: "\f0f3";
 }
+
 .i_nonotify:after {
 	content: "\f1f7";
 }
+
 .i_general_blacklist:after {
 	content: "\f05e";
 }
+
 .i_general_history:after {
 	content: "\f252";
 }
+
 .i_wishlist_blacklist:before {
-    content: "\f05e";
-    color: #ff4e4e;
+	content: "\f05e";
+	color: #ff4e4e;
 }
+
 .i_wishlist_buddy:before {
-    content: "\f007";
+	content: "\f007";
 }
+
 .i_wishlist_toget:before {
-    content: "\f063";
-    color: #30ba30;
+	content: "\f063";
+	color: #30ba30;
 }
+
 .i_wishlist_towatch:before {
-    content: "\f06e";
+	content: "\f06e";
 }
+
 .i_wishlist_undefined:before {
-    content: "\f128";
-    margin-left: -2px;
+	content: "\f128";
+	margin-left: -2px;
 }
+
 .i_wishlist_blacklist:after,
 .i_wishlist_buddy:after,
 .i_wishlist_toget:after,
@@ -606,32 +683,37 @@ button.preview:before {
 	content: "\f016";
 	cursor: default;
 }
+
 .i_stats:after {
 	content: "\f080";
 	cursor: pointer;
 }
-.i_general_vote_revoke:after,
-.i_general_revert:after {
+
+.i_general_revert:after,
+.i_general_vote_revoke:after {
 	content: "\f0e2";
 	cursor: pointer;
 }
+
 .i_general_vote_up:after {
 	content: "\f087";
 	cursor: pointer;
 }
+
 .i_general_vote_down:after {
 	content: "\f088";
 	cursor: pointer;
 }
 
 /*image only - no text*/
+
 /*https://fortawesome.github.io END*/
 
 /*icon created from text*/
+.i_ext,
+.i_video_1080,
 .i_video_480,
 .i_video_720,
-.i_video_1080,
-.i_ext,
 .i_vrs_2,
 .i_vrs_3,
 .i_vrs_4,
@@ -647,18 +729,18 @@ button.preview:before {
 	width: 16px;
 }
 
-.i_video_480,
-.i_video_720,
+.i_ext,
 .i_video_1080,
-.i_ext {
+.i_video_480,
+.i_video_720 {
 	display: inline-block !important;
 	width: 38px;
 }
 
+.i_ext span,
+.i_video_1080 span,
 .i_video_480 span,
 .i_video_720 span,
-.i_video_1080 span,
-.i_ext span,
 .i_vrs_2 span,
 .i_vrs_3 span,
 .i_vrs_4 span,
@@ -681,32 +763,36 @@ button.preview:before {
 .i_ext.audio {
 	background-color: #AA0000;
 }
+
 .i_ext.subtitle {
 	background-color: #356E35;
 }
+
 .i_ext.archive {
 	background-color: #5A3A78;
 }
+
 .i_ext.linker {
 	background-color: #BD7E19;
 }
+
 .i_ext.other {
 	background-color: #444444;
 }
+
+.i_video_1080,
 .i_video_480,
-.i_video_720,
-.i_video_1080 {
+.i_video_720 {
 	background-color: #8A56AA;
 }
 
 /*icon created from text*/
-
 .i_rate_halfstar,
+.i_rate_high,
+.i_rate_low,
+.i_rate_med,
 .i_rate_star,
 .i_rate_veryhigh,
-.i_rate_high,
-.i_rate_med,
-.i_rate_low,
 .i_rate_verylow {
 	background-image: url(../icons/icon/anidb_rate_star.png);
 }
@@ -716,9 +802,9 @@ button.preview:before {
 	vertical-align: middle;
 }
 
-.i_icon.i_tab_expand,
 .i_icon.i_tab_collapse,
 .i_icon.i_tab_default,
+.i_icon.i_tab_expand,
 .i_icon.i_tab_reset {
 	vertical-align: top;
 }

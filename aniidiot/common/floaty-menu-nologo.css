@@ -4,23 +4,28 @@
 	background:none;
 	height: 60px;
 }
+
 #layout-nav {
 	margin-top: 60px;
 }
+
 #layout-search div.search {
 	height: 30px;
 	text-align: right;
 }
+
 #layout-search div.search a.advsearch,
 #layout-search div.search form > div {
 	position: relative;
 	right: auto;
 	top: auto;
 }
+
 #layout-search div.search a.advsearch,
 #layout-search div.search form:not(.random) {
 	display: inline-block;
 }
+
 #layout-search div.search a.advsearch {
 	margin-left: 0.5em;
 	margin-right: 1em;

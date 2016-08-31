@@ -2,7 +2,8 @@ tr.header > th {
 	padding: 4px 2px;
 }
 
-input, select {
+input,
+select {
 	padding: 4px 6px;
 }
 
@@ -95,8 +96,8 @@ input, select {
 	height:5em;
 }
 
-#layout-nav input,
-#layout-nav button {
+#layout-nav button,
+#layout-nav input {
 	padding-left:0;
 }
 
@@ -113,8 +114,8 @@ input, select {
 	padding:2px 8px;
 }
 
-#layout-menu ul li,
-#layout-menu > li:hover ul {
+#layout-menu > li:hover ul,
+#layout-menu ul li {
 	display:block;
 }
 
@@ -128,9 +129,9 @@ input, select {
 	padding-right:8em;
 }
 
+caption,
 h2,
 h4,
-caption,
 #layout-main div.g_timedentry h4 {
 	padding:.3em;
 }
@@ -138,6 +139,7 @@ caption,
 #layout-hint + #layout-nav #layout-menu {
 	margin-top:1.1em;
 }
+
 #layout-hint + #layout-nav #layout-search {
 	margin-top:1.5em;
 }

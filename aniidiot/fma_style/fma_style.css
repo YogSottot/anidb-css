@@ -15,8 +15,6 @@
 @import "fma_style-layout.css";
 @import "fma_style-color.css";
 
-
-#layout-footer:after
-{
+#layout-footer:after {
 	content:"design by jkaze";
 }
