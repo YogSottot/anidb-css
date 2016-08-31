@@ -58,6 +58,7 @@ class cleaner(object):
                         tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', bit.strip()))
                 else:
                     tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', line))
+
                 content.append(u'%s%s {' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', self._build_rules(tmp), ))
                 forceNormalBreak = False
                 tmp = []
@@ -68,6 +69,17 @@ class cleaner(object):
                 content.append(u'%s%s%s' %(u'\n' if hasContent else '', u'\t' if mediaquery else u'', line, ))
             else:
                 #rules
+                if line.endswith(u';'):
+                    #WAT? -> property
+                    properties = True
+                    openbrackets += 1
+                    content.append(u'%s%s {' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', self._build_rules(tmp), ))
+                    hasContent = True
+                    content.append(u'%s\t%s%s' %(u'\n' if hasContent else '', u'\t' if mediaquery else u'', line.replace(':', ': ').replace('  ', ' ')))
+                    forceNormalBreak = False
+                    tmp = []
+                    continue
+                
                 if line.endswith(u','):
                     line = line.rstrip(u',')
 
