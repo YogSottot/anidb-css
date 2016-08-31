@@ -37,22 +37,7 @@
 	padding: 2px 8px;
 }
 
-.g_button a,
-.i_pm_delete,
-.i_pm_reply,
-.i_review_add,
-.i_topic_add,
-.i_topic_delete,
-.i_topic_history,
-.i_topic_lock,
-.i_topic_locked,
-.i_topic_move,
-.i_topic_read,
-.i_topic_split,
-.i_topic_subscribe,
-.i_topic_undelete,
-.i_topic_unlock,
-.i_topic_unsubscribe {
+.g_button a {
 	height: 16px;
 	width: auto;
 	line-height: 15px;
@@ -68,22 +53,7 @@
 	margin-left: 0 !important;
 }
 
-.g_button a span,
-.i_pm_delete span,
-.i_pm_reply span,
-.i_review_add span,
-.i_topic_add span,
-.i_topic_delete span,
-.i_topic_history span,
-.i_topic_lock span,
-.i_topic_locked span,
-.i_topic_move span,
-.i_topic_read span,
-.i_topic_split span,
-.i_topic_subscribe span,
-.i_topic_undelete span,
-.i_topic_unlock span,
-.i_topic_unsubscribe span {
+.g_button a span {
 	display: inline-block;
 	padding-left: 5px;
 }
