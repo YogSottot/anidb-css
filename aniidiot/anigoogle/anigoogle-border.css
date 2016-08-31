@@ -12,7 +12,7 @@ tr + tr th,
 	border-top-style: dotted;
 }
 
-#layout-main div.animelist_all tr td+td,
+#layout-main div.animelist_all tr td + td,
 #layout-main div.characterlist_all tr td + td,
 #layout-main div.clublist_all tr td + td,
 #layout-main div.collectionlist_all tr td + td,
