@@ -38,9 +38,9 @@
 	margin-left: 0;
 }
 
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile > div.added.by,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile > div.anime,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile > div.deleted.by,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile > div.added.by {
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile > div.deleted.by {
 	margin-bottom: 1.5em;
 }
 

@@ -14,6 +14,7 @@
 	padding:2px;
 	cursor: pointer;
 }
+
 #layout-search ul.quicksearch li:last-child {
 	text-align:center;
 }
@@ -57,8 +58,8 @@
 	min-height: 0 !important;
 }
 
-#layout-search select,
-#layout-search input.text {
+#layout-search input.text,
+#layout-search select {
 	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
@@ -72,8 +73,8 @@
 	width: 94px;
 }
 
-#layout-search select,
-#layout-search input {
+#layout-search input,
+#layout-search select {
 	position: relative;
 	z-index: 100;
 }

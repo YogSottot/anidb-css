@@ -1,32 +1,80 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
 	margin:0;
 	padding:0;
 }
+
 table {
 	border-collapse: separate;
 	-border-collapse: collapse;
 	border-spacing: 0;
 }
-fieldset,img { 
+
+fieldset,
+img {
 	border:0;
 }
-address,caption,cite,code,dfn,em,strong,th,var {
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
 	font-style:normal;
 	font-weight:normal;
 }
-ol,ul {
+
+ol,
+ul {
 	list-style:none;
 }
-caption,th {
+
+caption,
+th {
 	text-align:left;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-size:1rem;
 	font-weight:normal;
 }
-q:before,q:after {
+
+q:after,
+q:before {
 	content:'';
 }
-abbr,acronym {
+
+abbr,
+acronym {
 	border:0;
 }

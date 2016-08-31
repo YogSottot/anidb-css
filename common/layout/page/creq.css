@@ -1,17 +1,17 @@
-#layout-main div.creq_all table.creqlist,
-#layout-main div.creq_all div.creq_hist table,
 #layout-main div.creq_all div.creq_data table,
+#layout-main div.creq_all div.creq_hist div.forum,
+#layout-main div.creq_all div.creq_hist table,
 #layout-main div.creq_all div.creq_raw table,
-#layout-main div.creqhist_all div.creq_hist table,
-#layout-main div.creq_all div.creq_hist div.forum {
+#layout-main div.creq_all table.creqlist,
+#layout-main div.creqhist_all div.creq_hist table {
 	width: 100%;
 }
 
-#layout-main div.creq_all table.creqlist td.type,
-#layout-main div.creq_all table.creqlist td.state,
 #layout-main div.creq_all table.creqlist td.action,
 #layout-main div.creq_all table.creqlist td.client,
-#layout-main div.creq_all table.creqlist td.language {
+#layout-main div.creq_all table.creqlist td.language,
+#layout-main div.creq_all table.creqlist td.state,
+#layout-main div.creq_all table.creqlist td.type {
 	width:5em;
 }
 
@@ -25,15 +25,15 @@
 	width:4em;
 }
 
+#layout-main div.creq_all div.creq_header th.field,
 #layout-main div.creq_all table.creqlist td.id,
-#layout-main div.creq_all table.creqlist td.name,
-#layout-main div.creq_all div.creq_header th.field {
+#layout-main div.creq_all table.creqlist td.name {
 	text-align:left;
 }
 
-#layout-main div.creq_all table.creqlist td,
 #layout-main div.creq_all div.creq_data td,
-#layout-main div.creq_all div.creq_raw td {
+#layout-main div.creq_all div.creq_raw td,
+#layout-main div.creq_all table.creqlist td {
 	padding: 2px 8px;
 }
 
@@ -55,10 +55,10 @@
 	width: 5em;
 }
 
-#layout-main div.creq_all .creq_data table td.old,
 #layout-main div.creq_all .creq_data table td.new,
-#layout-main div.creq_all .creq_raw table td.old,
-#layout-main div.creq_all .creq_raw table td.new {
+#layout-main div.creq_all .creq_data table td.old,
+#layout-main div.creq_all .creq_raw table td.new,
+#layout-main div.creq_all .creq_raw table td.old {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space:pre-wrap;
@@ -79,10 +79,10 @@
 	display: none;
 }
 
-#layout-main div.creq_all div.creq_hist div.forum div.profile div.posts,
+#layout-main div.creq_all div.creq_hist div.forum div.profile > br,
 #layout-main div.creq_all div.creq_hist div.forum div.profile div.joined,
-#layout-main div.creq_all div.creq_hist div.forum div.profile div.user_icons,
-#layout-main div.creq_all div.creq_hist div.forum div.profile > br {
+#layout-main div.creq_all div.creq_hist div.forum div.profile div.posts,
+#layout-main div.creq_all div.creq_hist div.forum div.profile div.user_icons {
 	display: none;
 }
 
@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 950px) {
 	#layout-main div.creq_all .g_section.list {
-	    overflow: auto;
+		overflow: auto;
 	}
 }
 
@@ -148,8 +148,8 @@
 }
 
 @media screen and (max-width: 500px) {
-	#anidb.creq #layout-tabs ul.main-tabs > li.my,
-	#anidb.creq #layout-tabs ul.main-tabs > li.history {
+	#anidb.creq #layout-tabs ul.main-tabs > li.history,
+	#anidb.creq #layout-tabs ul.main-tabs > li.my {
 		display: none;
 	}
 }

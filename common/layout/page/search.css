@@ -44,18 +44,18 @@
 	width: 100%;
 }
 
-#layout-main div.search_all table.search_results td.type,
-#layout-main div.search_all table.search_results td.score {
+#layout-main div.search_all table.search_results td.score,
+#layout-main div.search_all table.search_results td.type {
 	width:10em;
 	text-align: left;
 }
 
-#layout-main div.search_all #atags_include,
 #layout-main div.search_all #atags_exclude,
-#layout-main div.search_all #ctags_include,
+#layout-main div.search_all #atags_include,
 #layout-main div.search_all #ctags_exclude,
-#layout-main div.search_all #etags_include,
-#layout-main div.search_all #etags_exclude {
+#layout-main div.search_all #ctags_include,
+#layout-main div.search_all #etags_exclude,
+#layout-main div.search_all #etags_include {
 	width: 50em;
 }
 
@@ -64,7 +64,7 @@
 }
 
 #layout-main div.search_all div.suggestions {
-	margin:0; 
+	margin:0;
 	padding:0;
 	overflow:auto;
 	z-index: 10;
@@ -79,12 +79,12 @@
 
 @media screen and (max-width: 1000px) {
 	#layout-main #tagtree div.tag-column .tag-block,
-	#layout-main div.search_all #atags_include,
 	#layout-main div.search_all #atags_exclude,
-	#layout-main div.search_all #ctags_include,
+	#layout-main div.search_all #atags_include,
 	#layout-main div.search_all #ctags_exclude,
-	#layout-main div.search_all #etags_include,
-	#layout-main div.search_all #etags_exclude {
+	#layout-main div.search_all #ctags_include,
+	#layout-main div.search_all #etags_exclude,
+	#layout-main div.search_all #etags_include {
 		width: 100%;
 	}
 }

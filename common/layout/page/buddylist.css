@@ -1,16 +1,16 @@
-#layout-main div.buddylist_all th.last_online,
-#layout-main div.buddylist_all th.size,
 #layout-main div.buddylist_all th.date,
-#layout-main div.buddylist_all th.name {
+#layout-main div.buddylist_all th.last_online,
+#layout-main div.buddylist_all th.name,
+#layout-main div.buddylist_all th.size {
 	width: 10em;
 }
 
 #layout-main div.buddylist_all th.anime,
 #layout-main div.buddylist_all th.episodes,
 #layout-main div.buddylist_all th.files,
+#layout-main div.buddylist_all th.friendship,
 #layout-main div.buddylist_all th.image,
-#layout-main div.buddylist_all th.taste,
-#layout-main div.buddylist_all th.friendship {
+#layout-main div.buddylist_all th.taste {
 	width: 5em;
 }
 
@@ -32,8 +32,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-	#layout-main div.buddylist_all th.name
-	{
+	#layout-main div.buddylist_all th.name {
 		width: 20%;
 	}
 }

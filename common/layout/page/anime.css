@@ -35,8 +35,8 @@
 	margin-left: 0.5em;
 }
 
-#layout-main div.anime_all > .g_section table,
-#layout-main div.anime_all > .g_section form table {
+#layout-main div.anime_all > .g_section form table,
+#layout-main div.anime_all > .g_section table {
 	width: 100%;
 }
 
@@ -131,8 +131,8 @@
 	width: 1em;
 }
 
-#layout-main div.anime_all div.info div.extra div.staff td.creator,
-#layout-main div.anime_all div.info div.extra div.cast td.char {
+#layout-main div.anime_all div.info div.extra div.cast td.char,
+#layout-main div.anime_all div.info div.extra div.staff td.creator {
 	width:100%;
 }
 
@@ -152,8 +152,8 @@
 	right: 4px;
 }
 
-#layout-main div.anime_all div.groups td.name,
-#layout-main div.anime_all div.groups td.action {
+#layout-main div.anime_all div.groups td.action,
+#layout-main div.anime_all div.groups td.name {
 	min-width: 10em;
 }
 
@@ -177,13 +177,13 @@
 	display: block;
 }
 
-#layout-main div.anime_all div.tabbed_pane:not(.resized) .g_section.mylist_status.vote_status,
-#layout-main div.anime_all > .g_section.mylist_status.vote_status:not(.resized) {
+#layout-main div.anime_all > .g_section.mylist_status.vote_status:not(.resized),
+#layout-main div.anime_all div.tabbed_pane:not(.resized) .g_section.mylist_status.vote_status {
 	margin: -0.5em 0;
 }
 
-#layout-main div.anime_all div.tabbed_pane:not(.resized) .g_section.mylist_status.vote_status > div.g_bubblewrap > div.g_section,
-#layout-main div.anime_all > .g_section.mylist_status.vote_status:not(.resized) > div.g_bubblewrap > div.g_section {
+#layout-main div.anime_all > .g_section.mylist_status.vote_status:not(.resized) > div.g_bubblewrap > div.g_section,
+#layout-main div.anime_all div.tabbed_pane:not(.resized) .g_section.mylist_status.vote_status > div.g_bubblewrap > div.g_section {
 	margin: 0.6em 0.5em;
 }
 
@@ -212,8 +212,8 @@
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status:not(.resized) .mylist table {
-    width: auto;
-    min-width: 50em;
+	width: auto;
+	min-width: 50em;
 }
 
 #layout-main div.anime_all .notification td.value > div,
@@ -232,8 +232,8 @@
 	padding-right: 0.5em;
 }
 
-#layout-main div.anime_all .g_section.tabbed_pane .g_section.chartags .container,
-#layout-main div.anime_all .g_section.tabbed_pane .g_section.animetags .container {
+#layout-main div.anime_all .g_section.tabbed_pane .g_section.animetags .container,
+#layout-main div.anime_all .g_section.tabbed_pane .g_section.chartags .container {
 	margin: 0 0.5em;
 }
 
@@ -255,24 +255,24 @@
 		width: auto;
 	}
 
-	#layout-main div.anime_all.sidebar div.tabbed_pane.resized .g_section.mylist_status.vote_status > div.g_bubblewrap,
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap {
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap,
+	#layout-main div.anime_all.sidebar div.tabbed_pane.resized .g_section.mylist_status.vote_status > div.g_bubblewrap {
 		-ms-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-moz-justify-content: space-between;
 		justify-content: space-between;
 	}
 
-	#layout-main div.anime_all.sidebar div.tabbed_pane.resized .g_section.mylist_status.vote_status > div.g_bubblewrap > .vote,
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap > .vote {
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap > .vote,
+	#layout-main div.anime_all.sidebar div.tabbed_pane.resized .g_section.mylist_status.vote_status > div.g_bubblewrap > .vote {
 		width: 51em;
 		flex-grow: 0;
 	}
 
-	#layout-main div.anime_all.sidebar div.tabbed_pane.resized .g_section.mylist_status.vote_status > div.g_bubblewrap > .mylist,
-	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap > .mylist {
-	    width: calc(100% - 52em);
-	    flex-grow: 0;
+	#layout-main div.anime_all.sidebar .g_section.mylist_status.vote_status.resized > div.g_bubblewrap > .mylist,
+	#layout-main div.anime_all.sidebar div.tabbed_pane.resized .g_section.mylist_status.vote_status > div.g_bubblewrap > .mylist {
+		width: calc(100% - 52em);
+		flex-grow: 0;
 	}
 }
 
@@ -293,34 +293,34 @@
 		justify-content: flex-start;
 	}
 
-	#layout-main div.anime_all div.reviews .container,
-	#layout-main div.anime_all div.mylistfiles .container,
-	#layout-main div.anime_all div.staff .container,
-	#layout-main div.anime_all div.songs .container,
+	#layout-main div.anime_all div.episodes .container,
 	#layout-main div.anime_all div.groups .container,
-	#layout-main div.anime_all div.episodes .container {
+	#layout-main div.anime_all div.mylistfiles .container,
+	#layout-main div.anime_all div.reviews .container,
+	#layout-main div.anime_all div.songs .container,
+	#layout-main div.anime_all div.staff .container {
 		overflow: auto;
 	}
 
-	#layout-main div.anime_all div.groups table .note,
 	#layout-main div.anime_all div.groups table .action,
-	#layout-main div.anime_all div.groups table .threads,
-	#layout-main div.anime_all div.groups table .rating {
+	#layout-main div.anime_all div.groups table .note,
+	#layout-main div.anime_all div.groups table .rating,
+	#layout-main div.anime_all div.groups table .threads {
 		display: none;
 	}
 
-	#layout-main div.anime_all div.episodes table th.action,
-	#layout-main div.anime_all div.episodes table td.action:not(.expand),
 	#layout-main div.anime_all div.episodes table .epusers,
+	#layout-main div.anime_all div.episodes table .number.files,
 	#layout-main div.anime_all div.episodes table .users,
-	#layout-main div.anime_all div.episodes table th.files,
-	#layout-main div.anime_all div.episodes table .number.files {
+	#layout-main div.anime_all div.episodes table td.action:not(.expand),
+	#layout-main div.anime_all div.episodes table th.action,
+	#layout-main div.anime_all div.episodes table th.files {
 		display: none;
 	}
 
+	#layout-main div.anime_all div.songs table .comment,
 	#layout-main div.anime_all div.songs table .creator,
 	#layout-main div.anime_all div.songs table .credit,
-	#layout-main div.anime_all div.songs table .comment,
 	#layout-main div.anime_all div.songs table .rating {
 		display: none;
 	}
@@ -331,10 +331,10 @@
 }
 
 @media screen and (max-width: 600px) {
-	#layout-main div.anime_all div.groups table .lastep,
-	#layout-main div.anime_all div.groups table .specials,
 	#layout-main div.anime_all div.groups table .epbar,
-	#layout-main div.anime_all div.groups table .source {
+	#layout-main div.anime_all div.groups table .lastep,
+	#layout-main div.anime_all div.groups table .source,
+	#layout-main div.anime_all div.groups table .specials {
 		display: none;
 	}
 

@@ -5,8 +5,8 @@
 	border-radius: 0 0 5px 5px;
 }
 
-#layout-search ul.quicksearch li:hover,
-#layout-search ul.quicksearch li.focus {
+#layout-search ul.quicksearch li.focus,
+#layout-search ul.quicksearch li:hover {
 	background-color:#BBBBBB;
 }
 
@@ -15,8 +15,8 @@
 }
 
 /*disable shadow so it doesn't overlap with the quicksearch pane*/
-#layout-search ul.quicksearch .g_bubble.stripe,
 #layout-search input.text.focus,
-#layout-search input.text.focus + select {
+#layout-search input.text.focus + select,
+#layout-search ul.quicksearch .g_bubble.stripe {
 	box-shadow: none;
 }

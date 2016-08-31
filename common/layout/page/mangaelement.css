@@ -1,23 +1,19 @@
-#layout-main div.mangaelement_all div.info > div.tabbed_pane
-{
+#layout-main div.mangaelement_all div.info > div.tabbed_pane {
 	min-width:50em;
 	max-width:50%;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-#layout-main div.mangaelement_all div.info > div.tabbed_pane table
-{
+#layout-main div.mangaelement_all div.info > div.tabbed_pane table {
 	width:100%;
 }
 
-#layout-main div.mangaelement_all div.info > div.tabbed_pane table th
-{
+#layout-main div.mangaelement_all div.info > div.tabbed_pane table th {
 	width:10em;
 }
 
-#layout-main div.mangaelement_all div.desc
-{
+#layout-main div.mangaelement_all div.desc {
 	clear:left;
 	margin-left:1em;
 	margin-right:1em;
@@ -25,31 +21,26 @@
 	padding:1em;
 }
 
-#layout-main div.mangaelement_all div.info table
-{
+#layout-main div.mangaelement_all div.info table {
 	border:none;
 }
 
-#layout-main div.mangaelement_all ul.links_top
-{
+#layout-main div.mangaelement_all ul.links_top {
 	display:none;
 }
 
-#layout-main div.mangaelement_all table.elementlist td.no,
 #layout-main div.mangaelement_all table.elementlist td.action,
+#layout-main div.mangaelement_all table.elementlist td.no,
 #layout-main div.mangaelement_all table.elementlist td.rating,
-#layout-main div.mangaelement_all table.elementlist td.votes
-{
+#layout-main div.mangaelement_all table.elementlist td.votes {
 	min-width: 5em;
 	max-width: 5em;
 }
 
-#layout-main div.mangaelement_all table.elementlist td+td
-{
+#layout-main div.mangaelement_all table.elementlist td+td {
 	padding-left: 1em;
 }
 
-#layout-main div.mangaelement_all table.elementlist td.title
-{
+#layout-main div.mangaelement_all table.elementlist td.title {
 	width: 90%;
 }

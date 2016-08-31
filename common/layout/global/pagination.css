@@ -7,7 +7,7 @@ div.pagination span span.page-sep {
 	display:none;
 }
 
-div.pagination strong,
-div.pagination a {
+div.pagination a,
+div.pagination strong {
 	margin-left: 3px;
 }

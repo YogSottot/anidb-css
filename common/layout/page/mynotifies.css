@@ -1,11 +1,11 @@
-#layout-main div.mynotifies_all table.mynotifies_list,
+#layout-main div.mynotifies_all .mynotifies_history table,
 #layout-main div.mynotifies_all div.mynotifies_list table,
-#layout-main div.mynotifies_all .mynotifies_history table {
+#layout-main div.mynotifies_all table.mynotifies_list {
 	width: 100%
 }
 
-#layout-main div.mynotifies_all tr th,
-#layout-main div.mynotifies_all tr td {
+#layout-main div.mynotifies_all tr td,
+#layout-main div.mynotifies_all tr th {
 	padding-left:0.5em;
 	padding-right:0.5em;
 }

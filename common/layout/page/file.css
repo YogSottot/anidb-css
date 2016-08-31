@@ -1,12 +1,12 @@
-#layout-main div.file_info dl .type,
 #layout-main div.file_info dl .censored,
+#layout-main div.file_info dl .owner,
 #layout-main div.file_info dl .stats,
-#layout-main div.file_info dl .owner {
+#layout-main div.file_info dl .type {
 	margin-top: 0.4em;
 }
 
-#layout-main div.file_tracks div,
-#layout-main div.file_relations div {
+#layout-main div.file_relations div,
+#layout-main div.file_tracks div {
 	margin-top: 0.6em;
 }
 

@@ -19,8 +19,8 @@
 	margin-right: 2.5em;
 }
 
-#layout-main div.calendar_all .g_section.top,
-#layout-main div.calendar_all .g_section.bottom {
+#layout-main div.calendar_all .g_section.bottom,
+#layout-main div.calendar_all .g_section.top {
 	height: 2em;
 }
 

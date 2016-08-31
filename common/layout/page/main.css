@@ -82,24 +82,24 @@
 }
 
 @media screen and (max-width: 1400px) {
-	#layout-main div.main_all div.news.forum.what div.latestnews,
-	#layout-main div.main_all div.news.forum.events div.latestnews {
+	#layout-main div.main_all div.news.forum.events div.latestnews,
+	#layout-main div.main_all div.news.forum.what div.latestnews {
 		order: 1;
 		max-width: calc(100% - 20em);
 	}
 
-	#layout-main div.main_all div.news.forum.what div.stats,
-	#layout-main div.main_all div.news.forum.events div.stats {
+	#layout-main div.main_all div.news.forum.events div.stats,
+	#layout-main div.main_all div.news.forum.what div.stats {
 		order: 2;
 	}
 
-	#layout-main div.main_all div.news.forum div.what,
-	#layout-main div.main_all div.news.forum div.events {
+	#layout-main div.main_all div.news.forum div.events,
+	#layout-main div.main_all div.news.forum div.what {
 		order: 3;
 	}
 
-	#layout-main div.main_all div.news.forum div.what,
-	#layout-main div.main_all div.news.forum div.events {
+	#layout-main div.main_all div.news.forum div.events,
+	#layout-main div.main_all div.news.forum div.what {
 		min-width: 0 !important;
 		max-width: none;
 		width:100%;
@@ -119,8 +119,8 @@
 }
 
 @media screen and (max-width: 550px) {
-	#layout-main div.main_all div.news.forum div.stats,
-	#layout-main div.main_all div.news.forum div.latestnews {
+	#layout-main div.main_all div.news.forum div.latestnews,
+	#layout-main div.main_all div.news.forum div.stats {
 		max-width: none !important;
 	}
 }
@@ -160,19 +160,19 @@
 	height:225px;
 }
 
-#layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons,
-#layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc {
+#layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc,
+#layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons {
 	display: none;
 }
 
+#layout-main div.main_all div.calendar .g_bubble.box.no10,
 #layout-main div.main_all div.calendar .g_bubble.box.no3,
 #layout-main div.main_all div.calendar .g_bubble.box.no4,
 #layout-main div.main_all div.calendar .g_bubble.box.no5,
 #layout-main div.main_all div.calendar .g_bubble.box.no6,
 #layout-main div.main_all div.calendar .g_bubble.box.no7,
 #layout-main div.main_all div.calendar .g_bubble.box.no8,
-#layout-main div.main_all div.calendar .g_bubble.box.no9,
-#layout-main div.main_all div.calendar .g_bubble.box.no10 {
+#layout-main div.main_all div.calendar .g_bubble.box.no9 {
 	display: none;
 }
 
@@ -283,7 +283,7 @@
 
 #layout-main div.main_all div.latest div.container {
 	height: calc(100% - 3.6em);
-   	box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 @media screen and (max-width: 800px) {
@@ -392,6 +392,7 @@
 	display: -webkit-flex;
 	display: flex;
 }
+
 #layout-main div.main_all div.account ul.tabs li {
 	width: 50%;
 	padding: 0.25em 0.5em;
@@ -416,8 +417,8 @@
 	display:none;
 }
 
-#layout-main div.main_all div.account div.login input[type="text"],
-#layout-main div.main_all div.account div.login input[type="password"] {
+#layout-main div.main_all div.account div.login input[type="password"],
+#layout-main div.main_all div.account div.login input[type="text"] {
 	padding: 8px;
 	width: calc(100% - 1.5em);
 }

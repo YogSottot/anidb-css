@@ -1,6 +1,6 @@
 #layout-main div.votes_all,
-#layout-main div.votes_all div.graph div.row.header div.desc,
-#layout-main div.votes_all div.graph div.header {
+#layout-main div.votes_all div.graph div.header,
+#layout-main div.votes_all div.graph div.row.header div.desc {
 	text-align:center;
 }
 
@@ -16,9 +16,9 @@
 	min-width:380px;
 }
 
-#layout-main div.votes_all div.graph div.row div.rating.my,
+#layout-main div.votes_all div.graph div.column,
 #layout-main div.votes_all div.graph div.row div.epno,
-#layout-main div.votes_all div.graph div.column {
+#layout-main div.votes_all div.graph div.row div.rating.my {
 	width:32px;
 }
 
@@ -35,14 +35,14 @@
 	float:right;
 }
 
-#layout-main div.votes_all div.graph div.row div.rating.my,
-#layout-main div.votes_all div.graph div.row div.epno {
+#layout-main div.votes_all div.graph div.row div.epno,
+#layout-main div.votes_all div.graph div.row div.rating.my {
 	padding:0 4px;
 	text-align:right;
 }
 
-#layout-main div.votes_all div.graph div.row div.gender,
 #layout-main div.votes_all div.graph div.row div.agerange,
+#layout-main div.votes_all div.graph div.row div.gender,
 #layout-main div.votes_all div.graph div.row div.rating {
 	padding:0 4px;
 	text-align:left;
@@ -67,7 +67,7 @@
 }
 
 #layout-main div.votes_all div.graph div.column.desc,
-#layout-main div.votes_all div.graph div.row div.gender,
-#layout-main div.votes_all div.graph div.row div.agerange {
+#layout-main div.votes_all div.graph div.row div.agerange,
+#layout-main div.votes_all div.graph div.row div.gender {
 	width:38px;
 }

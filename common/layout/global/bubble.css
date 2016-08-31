@@ -34,8 +34,8 @@
 	max-width: 100%;
 }
 
-.g_bubblewrap > .g_bubble.stripe.medium,
-.g_bubblewrap > .g_bubble.stripe {
+.g_bubblewrap > .g_bubble.stripe,
+.g_bubblewrap > .g_bubble.stripe.medium {
 	max-width: 500px;
 	min-height: 0;
 }
@@ -145,8 +145,8 @@
 	margin: 0.2em 0.5em 0.5em;
 }
 
-.g_bubble.stripe.box > div.image,
-.g_bubble.stripe.box > div.data {
+.g_bubble.stripe.box > div.data,
+.g_bubble.stripe.box > div.image {
 	padding: 0;
 	margin: 0.75em;
 }
@@ -173,7 +173,7 @@
 	width:225px;
 }
 
-.g_bubble.stripe.mini > div.data div.name  {
+.g_bubble.stripe.mini > div.data div.name {
 	margin-right: 0;
 }
 
@@ -181,7 +181,7 @@
 	width:250px;
 }
 
-.g_bubble.stripe.small > div.data div.name  {
+.g_bubble.stripe.small > div.data div.name {
 	margin-right: 2em;
 }
 
@@ -207,8 +207,8 @@
 	max-height: none;
 }
 
-.g_section.tabbed_pane > .g_bubble table,
-.g_section > .g_bubble {
+.g_section > .g_bubble,
+.g_section.tabbed_pane > .g_bubble table {
 	padding: 0.5em;
 }
 

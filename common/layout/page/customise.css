@@ -1,5 +1,5 @@
-#layout-main div.customise_all div.pane > ul,
-#layout-main div.customise_all div.pane > div {
+#layout-main div.customise_all div.pane > div,
+#layout-main div.customise_all div.pane > ul {
 	padding: 1em 0.5em;
 	box-sizing: border-box;
 }
@@ -13,8 +13,8 @@
 	width:40%;
 }
 
-#layout-main div.customise_all div.languages,
-#layout-main div.customise_all div.css_style p {
+#layout-main div.customise_all div.css_style p,
+#layout-main div.customise_all div.languages {
 	text-align: center;
 }
 

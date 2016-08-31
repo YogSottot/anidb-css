@@ -11,17 +11,20 @@
 	-webkit-justify-content: center;
 	justify-content: center;
 }
+
 #anidb div.block > div.image {
 	min-width: 400px;
 	text-align: center;
 	margin-right: 1em;
 	margin-left: 1.5em;
 }
+
 #anidb div.block > div.data {
 	margin-right: 1em;
 	min-width: 50%;
 	z-index: 1;
 }
+
 #anidb .css_style + p {
 	clear: left;
 }
@@ -90,7 +93,7 @@
 
 @media screen and (max-width: 950px) {
 	#layout-main div.info div.extra > div {
-	    margin: 0.5em 0;
+		margin: 0.5em 0;
 	}
 
 	#layout-main .g_section.info {
@@ -105,8 +108,8 @@
 @media screen and (max-width: 800px) {
 	#layout-main .g_section.info,
 	#layout-main .g_section.info div.block,
-	#layout-main .g_section.info div.block > div.image,
-	#layout-main .g_section.info div.block > div.data {
+	#layout-main .g_section.info div.block > div.data,
+	#layout-main .g_section.info div.block > div.image {
 		min-width: 0;
 		width: 100%;
 	}

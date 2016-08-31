@@ -13,15 +13,15 @@ span.i_icon.i_general_arrow_up {
 	cursor: pointer;
 }
 
-div,
-p,
-th,
-td,
-li,
-dt,
+a,
 dd,
+div,
+dt,
+li,
+p,
 span,
-a {
+td,
+th {
 	font-weight:inherit;
 }
 
@@ -39,10 +39,10 @@ h1 a {
 	font-size: inherit;
 }
 
+caption,
 h2,
 h4,
 h6,
-caption,
 #layout-main #chartags h3 {
 	font-size: 1.2rem;
 }
@@ -61,14 +61,14 @@ h4 span {
 	cursor:pointer;
 }
 
-th,
-td.action,
-td.date,
-td.year,
 span.date,
 span.user,
-td.rating,
+td.action,
+td.date,
 td.nobr,
+td.rating,
+td.year,
+th,
 #menu-account li.alert {
 	white-space:nowrap;
 }
@@ -80,10 +80,10 @@ td.size {
 	letter-spacing:-1px;
 }
 
+a.filter,
 span.time,
 span.user a.id,
-td.rating span,
-a.filter {
+td.rating span {
 	font-size:0.85rem;
 	vertical-align:top;
 }
@@ -92,59 +92,59 @@ a.filter {
 	display:none;
 }
 
-td.id,
 td.count,
+td.duration,
+td.epno,
+td.id,
 td.number,
 td.size,
-td.epno,
-td.duration,
 #layout-main div.up2date_file_list table td.mylist {
 	text-align:right;
 }
 
-td,
-ul,
-div.desc,
 .body,
+div.desc,
+td,
 td.id a.i_icon,
-th.field,
-td.value,
+td.name,
 td.name,
 td.quality,
 td.title,
-td.name,
+td.value,
+th.field,
+ul,
 #layout-main div.main_all div.news h2,
 #layout-main div.profile_all .g_info {
 	text-align:left;
 }
 
-th,
+.g_info,
+.g_input,
+.g_list,
+.g_section,
+caption,
+form,
 h1,
 h2,
 h3,
 h4,
-form,
-caption,
-tr.action td.value,
-tr.action td.submit,
-td.stats,
-td.state,
-td.type,
-td.date,
 td.action,
+td.check,
+td.date,
 td.icon,
 td.ignore,
-td.name.user,
 td.name.owner,
-td.vote,
+td.name.user,
+td.number.eps,
 td.rating,
-td.check,
-.g_list,
-.g_info,
-.g_input,
-.g_section,
-#layout-footer p,
-td.number.eps {
+td.state,
+td.stats,
+td.type,
+td.vote,
+th,
+tr.action td.submit,
+tr.action td.value,
+#layout-footer p {
 	text-align:center;
 }
 
@@ -186,21 +186,21 @@ input[type="submit"] {
 	padding:1px;
 }
 
+.g_list li,
+.g_list li a,
+.tabbed_pane ul.tabs li,
+div.pagination span a,
+div.pagination span strong,
 h2 > span,
 h4 > span,
 h6 > span,
-span.test,
-.tabbed_pane ul.tabs li,
-.g_list li,
-.g_list li a,
-div.pagination span strong,
-div.pagination span a {
+span.test {
 	padding:1px 2px;
 	text-transform:capitalize;
 }
 
-#statusBox,
-#layout-main div.forum li.header div.segment {
+#layout-main div.forum li.header div.segment,
+#statusBox {
 	font-family:Arial,Helvetica,sans-serif;
 }
 
@@ -243,35 +243,35 @@ div.pagination span a {
 	font-weight:bold;
 }
 
-#layout-main div.forum ul.topiclist li.row div.icon div.icon div.title,
-#layout-main div.forumsearch_form div span.desc,
+#layout-main div.creq_all .state.new th.field,
 #layout-main div.creq_all .state.return th.field,
-#layout-main div.creq_all .state.new th.field {
+#layout-main div.forum ul.topiclist li.row div.icon div.icon div.title,
+#layout-main div.forumsearch_form div span.desc {
 	font-weight:normal;
 }
 
-#layout-main div.tabbed_pane ul.tabs li,
 .i_icon.i_info,
-span.tooltip .i_icon.i_info,
-span.link,
 button:hover,
 input[type="submit"]:hover,
-th.sortable:not(.sorter-false) {
+span.link,
+span.tooltip .i_icon.i_info,
+th.sortable:not(.sorter-false),
+#layout-main div.tabbed_pane ul.tabs li {
 	cursor:pointer;
 }
 
-#layout-main table.filelist tr.virtual,
-#layout-main ul.g_list li.selected,
+h2.collapsed span,
+h4.collapsed span,
+#layout-main div.anime_all div.characters a.primary,
 #layout-main div.anime_all div.groups td.state.stalled,
 #layout-main div.anime_all div.groups td.state.unknown,
-#layout-main div.group_released td.state.stalled,
-#layout-main div.group_released td.state.unknown,
 #layout-main div.forum span.postdeleted,
 #layout-main div.forum span.postedited,
-#layout-main div.anime_all div.characters a.primary,
+#layout-main div.group_released td.state.stalled,
+#layout-main div.group_released td.state.unknown,
 #layout-main div.tag-column div.tag.abstract,
-h2.collapsed span,
-h4.collapsed span {
+#layout-main table.filelist tr.virtual,
+#layout-main ul.g_list li.selected {
 	font-style:italic;
 }
 
@@ -280,8 +280,8 @@ h4.collapsed span {
 	text-decoration:underline;
 }
 
-#layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
-#layout-main div.addtagentityrel_all div.addbox div.tag-column span.link {
+#layout-main div.addtagentityrel_all div.addbox div.tag-column span.link,
+#layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link {
 	line-height:1.5em;
 }
 
@@ -289,10 +289,10 @@ h4.collapsed span {
 	font-size: 1.3rem;
 }
 
-#layout-main div.forum ul.topics div.posts,
-#layout-main div.forum ul.topics div.views,
-#layout-main div.forum ul.topics div.topics,
 #layout-main div.addtagentityrel_all div.addbox div.tag-group h3,
+#layout-main div.forum ul.topics div.posts,
+#layout-main div.forum ul.topics div.topics,
+#layout-main div.forum ul.topics div.views,
 #layout-main div.picupload_all input[type="file"] {
 	font-size:1.2rem;
 }
@@ -304,79 +304,79 @@ h4.collapsed span {
 	font-size:1rem;
 }
 
-#layout-main div.forumsearch_form div.field,
-#layout-main div.msg_all div.header div.field,
-#layout-main div.forum div.options-box div.field,
-#layout-main div.forum div.posting-box div.field,
+#layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
+#layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
+#layout-main div.forum .g_bubble.infobox div.left,
 #layout-main div.forum div.add-box div.field,
+#layout-main div.forum div.lastpost,
+#layout-main div.forum div.linklist,
 #layout-main div.forum div.navbar span.breadcrumbs,
 #layout-main div.forum div.navbar span.info,
 #layout-main div.forum div.navbar span.messages,
-#layout-main div.forum div.linklist,
+#layout-main div.forum div.navbar span.notify,
+#layout-main div.forum div.options-box div.field,
+#layout-main div.forum div.posting-box div.field,
+#layout-main div.forum div.quickreply textarea,
+#layout-main div.forum div.rules,
 #layout-main div.forum div.signature,
 #layout-main div.forum ul.topics div,
-#layout-main div.forum div.lastpost,
-#layout-main div.forum .g_bubble.infobox div.left,
-#layout-main div.forum div.rules,
-#layout-main div.forum div.navbar span.notify,
-#layout-main div.forum div.quickreply textarea,
-#layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
-#layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
-#layout-main div.main_all div.datablocks > div.account {
+#layout-main div.forumsearch_form div.field,
+#layout-main div.main_all div.datablocks > div.account,
+#layout-main div.msg_all div.header div.field {
 	font-size:1.04rem;
 }
 
+.g_bubble .name-colored,
+.g_bubble.box > div.data div.date,
+.g_bubble.box > div.top div.name,
+.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove,
+.select2-container--classic .select2-selection--single .select2-selection__clear,
+.select2-container--default .select2-results__group,
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove,
+.select2-container--default .select2-selection--multiple .select2-selection__clear,
+.select2-container--default .select2-selection--single .select2-selection__clear,
+.v_high,
+.v_med,
+caption,
+div.g_bubble.quotebody div.quoteof,
+div.relations .g_bubble.stripe div.type,
 h1,
 h2,
 h3,
 h4,
 h6,
-caption,
-#layout-main table.filelist tr.undumped td.id a,
-.v_high,
-.v_med,
 span.diff,
-#layout-main div.forumsearch_form div.field,
-#layout-main div.msg_all div.header div.field,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
+#layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
+#layout-main div.anime_all div.groups td.lastupdate.new,
+#layout-main div.anime_all div.groups td.state.complete a,
+#layout-main div.anime_all div.groups td.state.finished a,
+#layout-main div.cmt_entries a.username-colored,
 #layout-main div.creq_all .state.new,
 #layout-main div.creq_all .state.return,
 #layout-main div.creq_all span.type.del,
-#layout-main div.msg_all tr.new td.state,
-#layout-main div.msg_all tr td.type,
-#layout-main div.mylist_list tr.complete td.stats,
-#layout-main div.mylist_list tr.all_watched td.stats,
-#layout-main div.anime_all div.groups td.lastupdate.new,
-#layout-main div.anime_all div.groups td.state.finished a,
-#layout-main div.anime_all div.groups td.state.complete a,
-#layout-main div.group_released td.state.finished a,
-#layout-main div.group_released td.state.complete a,
-div.g_bubble.quotebody div.quoteof,
+#layout-main div.forum .g_bubble.infobox div.bar,
+#layout-main div.forum .g_bubble.infobox div.left,
 #layout-main div.forum a.username-colored,
-#layout-main div.forum div.navbar span.breadcrumbs,
-#layout-main div.forum ul.topics div.lastpost span a,
-#layout-main div.cmt_entries a.username-colored,
+#layout-main div.forum div.add-box div.field,
 #layout-main div.forum div.icon div.icon,
+#layout-main div.forum div.navbar span.breadcrumbs,
 #layout-main div.forum div.options-box div.field,
 #layout-main div.forum div.posting-box div.field,
-#layout-main div.forum div.add-box div.field,
-#layout-main div.forum .g_bubble.infobox div.left,
-#layout-main div.forum .g_bubble.infobox div.bar,
-#layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
-#layout-main div.profile_all div.account tr th,
-.g_bubble .name-colored,
-div.relations .g_bubble.stripe div.type,
-.g_bubble.box > div.top div.name,
-.g_bubble.box > div.data div.date,
+#layout-main div.forum ul.topics div.lastpost span a,
+#layout-main div.forumsearch_form div.field,
+#layout-main div.group_released td.state.complete a,
+#layout-main div.group_released td.state.finished a,
 #layout-main div.main_all div.account ul.tabs li,
+#layout-main div.msg_all div.header div.field,
+#layout-main div.msg_all tr td.type,
+#layout-main div.msg_all tr.new td.state,
+#layout-main div.mylist_list tr.all_watched td.stats,
+#layout-main div.mylist_list tr.complete td.stats,
+#layout-main div.profile_all div.account tr th,
 #layout-main div.search_all div.search_results strong,
 #layout-main div.tag-column .parent,
-.select2-container--default .select2-results__group,
-.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove,
-.select2-container--classic .select2-selection--single .select2-selection__clear,
-.select2-container--default .select2-selection--multiple .select2-selection__clear,
-.select2-container--default .select2-selection--multiple .select2-selection__choice__remove,
-.select2-container--default .select2-selection--single .select2-selection__clear {
+#layout-main table.filelist tr.undumped td.id a {
 	font-weight:bold;
 }
 
@@ -387,10 +387,10 @@ div.relations .g_bubble.stripe div.type,
 	font-weight: normal;
 }
 
-#statusBox,
+.tooltip:hover,
 ul.format-modes li.selected,
 ul.format-modes li:hover,
-.tooltip:hover {
+#statusBox {
 	text-decoration:none;
 }
 
@@ -411,9 +411,9 @@ ul.format-modes li:hover,
 	text-decoration: line-through;
 }
 
-#layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.addtagentityrel_all #tag-groups span.link,
 #layout-main div.addtagentityrel_all #tag-list div.tag span.actions,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.search_all div.suggestions span {
 	cursor: pointer;
 }
@@ -423,8 +423,8 @@ ul.format-modes li:hover,
 	cursor: auto;
 }
 
-#layout-main div.admin_tags_all div.actions select,
-#layout-main div.addtagentityrel_all #tag-groups span.link {
+#layout-main div.addtagentityrel_all #tag-groups span.link,
+#layout-main div.admin_tags_all div.actions select {
 	font-size: 1.2rem;
 }
 
@@ -442,26 +442,26 @@ ul.format-modes li:hover,
 	font-size: 1rem;
 }
 
-#statusBox,
 #layout-footer,
-#obj-tooltip {
+#obj-tooltip,
+#statusBox {
 	font-size: 0.85rem;
 }
 
+.g_list li,
+.g_list li a,
+.tabbed_pane ul.tabs li,
+div.pagination span a,
+div.pagination span strong,
 h2 span,
 h4 span,
 h6 span,
-span.test,
-.tabbed_pane ul.tabs li,
-.g_list li,
-.g_list li a,
-div.pagination span strong,
-div.pagination span a,
-span.nolink,
 span.link,
-#layout-tabs ul li a,
+span.nolink,
+span.test,
 #layout-menu li.sub-menu span.tab,
-#layout-menu li.sub-menu ul li a {
+#layout-menu li.sub-menu ul li a,
+#layout-tabs ul li a {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -471,8 +471,8 @@ span.link,
 }
 
 @media screen and (max-width: 800px) {
-	#layout-main .g_datatable table tr td.name.main > a,
-	#layout-main .g_datatable table td:before {
+	#layout-main .g_datatable table td:before,
+	#layout-main .g_datatable table tr td.name.main > a {
 		font-weight: bold;
 	}
 }

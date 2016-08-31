@@ -24,10 +24,10 @@
 	min-width:5em;
 }
 
+#layout-main div.mywishlist_all tr td.check,
 #layout-main div.mywishlist_all tr td.nfy,
 #layout-main div.mywishlist_all tr td.priority,
-#layout-main div.mywishlist_all tr td.releaseinfo,
-#layout-main div.mywishlist_all tr td.check {
+#layout-main div.mywishlist_all tr td.releaseinfo {
 	width:1em;
 }
 

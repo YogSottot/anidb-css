@@ -13,7 +13,7 @@
 	width:10em;
 }
 
-#layout-main div.song_all  table.stafflist td.creator > a {
+#layout-main div.song_all table.stafflist td.creator > a {
 	display: block;
 }
 
@@ -27,10 +27,11 @@
 		max-width: none;
 	}
 }
+
 @media screen and (max-width: 950px) {
-	#layout-main div.song_all div.g_section.staff .container,
 	#layout-main div.song_all div.g_section.anime .container,
-	#layout-main div.song_all div.g_section.songcollectionrel .container {
+	#layout-main div.song_all div.g_section.songcollectionrel .container,
+	#layout-main div.song_all div.g_section.staff .container {
 		overflow: auto;
 	}
 

@@ -40,10 +40,10 @@
 .tooltip span.text:after {
 	margin-left: -10px;
 }
+
 .tooltip span.text:before {
 	margin-left: -13px;
 }
-
 
 /*similar anime comments*/
 .g_bubble.stripe > .data .tooltip {

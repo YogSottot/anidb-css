@@ -2,16 +2,16 @@
 	color: #006600;
 }
 
-.g_vital a,
-.v_neg,
-.v_high,
-span.diff,
 .ajax-file-upload-error,
-#layout-main td.reviewed.no a,
-#layout-main div.creq_all .state.return,
+.g_vital a,
+.v_high,
+.v_neg,
+span.diff,
+#layout-main div.anime_all div.groups td.mylist.new,
 #layout-main div.creq_all .state.new,
+#layout-main div.creq_all .state.return,
 #layout-main div.creq_all span.type.del,
-#layout-main div.anime_all div.groups td.mylist.new {
+#layout-main td.reviewed.no a {
 	color: red;
 }
 
@@ -29,9 +29,9 @@ span.diff,
 	background-color: transparent;
 }
 
-#layout-main a.filter,
 #layout-main .name span.main,
-#layout-main .name span.match {
+#layout-main .name span.match,
+#layout-main a.filter {
 	color: gray;
 }
 
@@ -39,7 +39,8 @@ input.g_error {
 	background-color: #FFDDDD;
 }
 
-th a, h1 a.shortlink {
+h1 a.shortlink,
+th a {
 	color: inherit;
 }
 
@@ -48,16 +49,16 @@ th a, h1 a.shortlink {
 	border:none;
 }
 
-#layout-main div.g_timedentry ol,
-#layout-main div.g_timedentry ul,
 #layout-main div.cmt_add div.preview-box ol,
-#layout-main div.cmt_add div.preview-box ul {
+#layout-main div.cmt_add div.preview-box ul,
+#layout-main div.g_timedentry ol,
+#layout-main div.g_timedentry ul {
 	background-color:inherit;
 	border:none;
 }
 
-#layout-main div.stats_all table tr,
 #layout-main div.dbstats_all table tr,
+#layout-main div.stats_all table tr,
 #layout-tabs ul {
 	background-color:transparent;
 }
@@ -67,7 +68,7 @@ th a, h1 a.shortlink {
 	background-color: #FFFFDF;
 }
 
-#statusBox { 
+#statusBox {
 	color: #000000;
 	background-color: #FFFFFF;
 }
@@ -76,11 +77,25 @@ div.loadingbar {
 	background: white top left no-repeat;
 }
 
-div.loadingbar_green { background: url(../icons/layout/loadingbar_green.png); }
-div.loadingbar_red { background: url(../icons/layout/loadingbar_red.png); }
-div.loadingbar_orange { background: url(../icons/layout/loadingbar_orange.png); }
-div.loadingbar_yellow { background: url(../icons/layout/loadingbar_yellow.png); }
-div.loadingbar_blue { background: url(../icons/layout/loadingbar_blue.png); }
+div.loadingbar_green {
+	background: url(../icons/layout/loadingbar_green.png);
+}
+
+div.loadingbar_red {
+	background: url(../icons/layout/loadingbar_red.png);
+}
+
+div.loadingbar_orange {
+	background: url(../icons/layout/loadingbar_orange.png);
+}
+
+div.loadingbar_yellow {
+	background: url(../icons/layout/loadingbar_yellow.png);
+}
+
+div.loadingbar_blue {
+	background: url(../icons/layout/loadingbar_blue.png);
+}
 
 ul.format-modes li.selected,
 ul.format-modes li:hover {

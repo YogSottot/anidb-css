@@ -8,8 +8,8 @@
 	padding: 0px 0.5em;
 }
 
-#layout-main div.mylist_all table.filelist tr.action td.submit,
-#layout-main div.mylist_all table.eplist tr.action td.submit {
+#layout-main div.mylist_all table.eplist tr.action td.submit,
+#layout-main div.mylist_all table.filelist tr.action td.submit {
 	text-align: left;
 	padding: 0.5em;
 }
@@ -23,8 +23,8 @@
 	margin-top: 0.5em;
 }
 
-#layout-main div.mylist_all td.stats,
 #layout-main div.mylist_all td.rating,
+#layout-main div.mylist_all td.stats,
 #layout-main div.mylist_all td.vote {
 	padding-left:1em;
 	padding-right:1em;

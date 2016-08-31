@@ -1,15 +1,14 @@
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
-.fancybox-wrap,
-.fancybox-skin,
-.fancybox-outer,
-.fancybox-inner,
 .fancybox-image,
-.fancybox-wrap iframe,
-.fancybox-wrap object,
+.fancybox-inner,
 .fancybox-nav,
 .fancybox-nav span,
-.fancybox-tmp
-{
+.fancybox-outer,
+.fancybox-skin,
+.fancybox-tmp,
+.fancybox-wrap,
+.fancybox-wrap iframe,
+.fancybox-wrap object {
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -32,7 +31,8 @@
 	z-index: 8030;
 }
 
-.fancybox-outer, .fancybox-inner {
+.fancybox-inner,
+.fancybox-outer {
 	position: relative;
 }
 
@@ -50,7 +50,8 @@
 	white-space: nowrap;
 }
 
-.fancybox-image, .fancybox-iframe {
+.fancybox-iframe,
+.fancybox-image {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -141,18 +142,17 @@
 }
 
 /* Overlay helper */
-
 .fancybox-lock {
-    overflow: hidden !important;
-    width: auto;
+	overflow: hidden !important;
+	width: auto;
 }
 
 .fancybox-lock body {
-    overflow: hidden !important;
+	overflow: hidden !important;
 }
 
 .fancybox-lock-test {
-    overflow-y: hidden !important;
+	overflow-y: hidden !important;
 }
 
 .fancybox-overlay {
@@ -176,7 +176,6 @@
 }
 
 /* Title helper */
-
 .fancybox-title {
 	visibility: hidden;
 	position: relative;

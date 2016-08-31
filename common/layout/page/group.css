@@ -1,5 +1,5 @@
-#layout-main div.group_all.animegroup table.filelist,
-#layout-main div.group_all table.animelist {
+#layout-main div.group_all table.animelist,
+#layout-main div.group_all.animegroup table.filelist {
 	width:100%;
 }
 
@@ -7,8 +7,8 @@
 	width:10em;
 }
 
-#layout-main div.group_all.animegroup table.filelist td.no,
-#layout-main div.group_all table.animelist td.no {
+#layout-main div.group_all table.animelist td.no,
+#layout-main div.group_all.animegroup table.filelist td.no {
 	text-align:right;
 }
 

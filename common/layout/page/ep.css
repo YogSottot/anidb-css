@@ -25,8 +25,8 @@
 	margin-right:auto;
 }
 
-#layout-main div.ep_all table.filelist,
-#layout-main div.ep_all div.info table {
+#layout-main div.ep_all div.info table,
+#layout-main div.ep_all table.filelist {
 	width:100%;
 }
 
@@ -50,11 +50,11 @@
 }
 
 @media screen and (max-width: 950px) {
-	#layout-main div.ep_all div.g_section.staff .container,
 	#layout-main div.ep_all div.g_section.anime .container,
-	#layout-main div.ep_all div.g_section.songs .container,
+	#layout-main div.ep_all div.g_section.ep_cast .container,
 	#layout-main div.ep_all div.g_section.ep_files .container,
-	#layout-main div.ep_all div.g_section.ep_cast .container {
+	#layout-main div.ep_all div.g_section.songs .container,
+	#layout-main div.ep_all div.g_section.staff .container {
 		overflow: auto;
 	}
 

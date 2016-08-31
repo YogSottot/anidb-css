@@ -24,8 +24,8 @@
 	padding: 8px;
 }
 
-#layout-main div.signup_all ul,
-#layout-main div.signup_all .verify_sanity label {
+#layout-main div.signup_all .verify_sanity label,
+#layout-main div.signup_all ul {
 	display: block;
 	padding: 4px 0;
 }
