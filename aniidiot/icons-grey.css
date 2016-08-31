@@ -26,6 +26,10 @@
 	background-image: url(../icons/grey/comment_quote.gif);
 }
 
+.i_comment_report {
+	background-image: url(../icons/grey/comment_report.png);
+}
+
 .i_comment_revisions {
 	background-image: url(../icons/grey/comment_revisions.gif);
 }

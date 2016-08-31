@@ -75,6 +75,13 @@
 	background-image: url(../icons/grey/comment_setactive.gif);
 }
 
+.i_comment_setactive {
+	width: 47px;
+	height: 12px;
+	margin: 3px;
+	background-image: url(../icons/grey/comment_report.png);
+}
+
 .i_topic_add {
 	background-image: url(../icons/grey/topic_add.gif);
 	height: 12px;
