@@ -1,7 +1,7 @@
 #layout-main div.signup_all div.signup {
 	max-width: 56em;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #layout-main div.signup_all li {
@@ -24,8 +24,8 @@
 	padding: 8px;
 }
 
-#layout-main div.signup_all ul,
-#layout-main div.signup_all .verify_sanity label {
+#layout-main div.signup_all .verify_sanity label,
+#layout-main div.signup_all ul {
 	display: block;
 	padding: 4px 0;
 }

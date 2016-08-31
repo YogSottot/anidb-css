@@ -5,7 +5,7 @@ margin-left:.2em;
 text-align:left;
 }
 
-*.f_button {
+.f_button {
 background-repeat: no-repeat;
 background-position: center;
 width: 21px;
@@ -25,57 +25,57 @@ background-color: black;
 vertical-align: middle;
 }
 
-*.f_button:hover, *.f_button.selected {
+.f_button:hover, .f_button.selected {
 background-color: #ff6000;
 border-color: #000000;
 }
 
-*.f_mouseout {
+.f_mouseout {
 background-color: #FFFFFF;
 border-color: #D6D3CE;
 }
 
-*.f_selected {
+.f_selected {
 background-color: #8492B5;
 }
 
-*.f_bold {
+.f_bold {
 font-weight: bold;
 background-image: url(../icons/grey/formatting/bold.png);
 }
 
-*.f_italic {
+.f_italic {
 font-style: italic;
 background-image: url(../icons/grey/formatting/italic.png);
 }
 
-*.f_underline {
+.f_underline {
 text-decoration: underline;
 background-image: url(../icons/grey/formatting/underline.png);
 }
 
-*.f_strikethrough {
+.f_strikethrough {
 text-decoration: line-through;
 background-image: url(../icons/grey/formatting/strikethrough.png);
 }
 
-*.f_insertorderedlist {
+.f_insertorderedlist {
 background-image: url(../icons/grey/formatting/orderedlist.png);
 }
 
-*.f_insertunorderedlist {
+.f_insertunorderedlist {
 background-image: url(../icons/grey/formatting/unorderedlist.png);
 }
 
-*.f_insertlistitem {
+.f_insertlistitem {
 background-image: url(../icons/grey/formatting/list_item.png);
 }
 
-*.f_link {
+.f_link {
 background-image: url(../icons/grey/formatting/link.png);
 }
 
-*.f_unlink {
+.f_unlink {
 background-image: url(../icons/grey/formatting/unlink.png);
 opacity: 0.60;
 }
@@ -84,40 +84,40 @@ opacity: 0.60;
 background-image: url(../icons/formating/image.gif);
 }
 
-*.f_separator {
+.f_separator {
 background-image: url(../icons/formating/separator.gif);
 }
 
-*.f_viewsource {
+.f_viewsource {
 background-image: url(../icons/grey/formatting/view_text.gif);
 }
 
-*.f_viewrte {
+.f_viewrte {
 background-image: url(../icons/grey/formatting/view_source.gif);
 }
 
-*.f_cleansource {
+.f_cleansource {
 background-image: url(../icons/formating/clean_source.gif);
 }
 
-*.f_preview {
+.f_preview {
 background-image: url(../icons/formating/preview.gif);
 }
 
-*.f_preview {
+.f_preview {
 background-image: url(../icons/formating/preview.gif);
 }
 
-*.f_spoiler {
+.f_spoiler {
 background-image: url(../icons/grey/formatting/spoiler.png);
 }
 
-*.f_code {
+.f_code {
 background-image: url(../icons/grey/formatting/code.gif);
 }
 
 
-*.f_buddy {
+.f_buddy {
 background-image: url(../icons/formating/user.gif);
 }
 

@@ -1,12 +1,16 @@
-#layout-main div.forum ul.topics li.row,
 #layout-main div.animeatt_reviews div.review div.text,
+#layout-main div.forum ul.topics li.row,
 #layout-main div.g_timedentry div.body {
 	border: none;
 }
 
 button,
-input[type="submit"],
-input[type="button"] {
-	border-radius:5px;
-	border:1px solid;
+input[type="button"],
+input[type="submit"] {
+	border-radius: 5px;
+	border: 1px solid;
+}
+
+.g_button a {
+	border: none;
 }

@@ -19,7 +19,7 @@
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-menu {
-	    margin-top: 10.25em;
+		margin-top: 10.25em;
 	}
 
 	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
@@ -45,8 +45,8 @@
 		width: 110px;
 	}
 
-	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > span,
-	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > a span {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > a span,
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > span {
 		padding: 0 5px;
 	}
 

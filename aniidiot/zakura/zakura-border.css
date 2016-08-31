@@ -1,6 +1,6 @@
-a img,
 :link img,
-:visited img {
+:visited img,
+a img {
 	border: 0;
 }
 
@@ -8,12 +8,12 @@ a img,
 	border-top: 1px solid !important;
 }
 
-#layout-main div.anime_all div.episodes table.filelist th,
 #layout-main div.anime_all div.episodes table.filelist td,
-#layout-main div.mylist_all table.animelist table.eplist th,
-#layout-main div.mylist_all table.animelist table.filelist th,
+#layout-main div.anime_all div.episodes table.filelist th,
 #layout-main div.mylist_all table.animelist table.eplist td,
+#layout-main div.mylist_all table.animelist table.eplist th,
 #layout-main div.mylist_all table.animelist table.filelist td,
+#layout-main div.mylist_all table.animelist table.filelist th,
 #layout-menu #menu-account li {
 	border-left: 1px solid !important;
 }
@@ -27,63 +27,63 @@ table {
 	border-radius: 5px;
 }
 
-#layout-main div.main_all div.news.forum .stats table,
+.g_definitionlist table,
 #layout-main div.anime_all div.episodes table.filelist,
+#layout-main div.main_all div.news.forum .stats table,
 #layout-main div.mylist_all table.animelist table.eplist,
-#layout-main div.mylist_all table.animelist table.filelist,
-.g_definitionlist table {
+#layout-main div.mylist_all table.animelist table.filelist {
 	border: none !important;
 	border-radius: 0;
 }
 
+li + li.g_odd,
+li.g_odd + li,
 tr + tr td,
 tr + tr th,
-li.g_odd + li,
-li + li.g_odd,
-#layout-nav div.menu_hr,
-#layout-main div.g_definitionlist tr th,
-#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
+#layout-main #tagtree div.tag-column div.tag,
 #layout-main div div.explanation div.description dl + dl,
+#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
+#layout-main div.forum .g_bubble.infobox .row + .row,
+#layout-main div.g_definitionlist tr th,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
-#layout-main #tagtree div.tag-column div.tag,
-#layout-main div.forum .g_bubble.infobox .row + .row,
+#layout-nav div.menu_hr,
 #layout-search ul.quicksearch li + li {
 	border-top-style: dotted;
 }
 
-#layout-main div.anime_all div.episodes table.filelist th,
 #layout-main div.anime_all div.episodes table.filelist td,
-#layout-main div.mylist_all table.animelist table.eplist th,
-#layout-main div.mylist_all table.animelist table.filelist th,
-#layout-main div.mylist_all table.animelist table.eplist td,
-#layout-main div.mylist_all table.animelist table.filelist td,
-#layout-main div.tag-column .tag-block + .tag-block,
+#layout-main div.anime_all div.episodes table.filelist th,
+#layout-main div.animelist_all tr td+td,
 #layout-main div.characterlist_all tr td + td,
-#layout-main div.creatorlist_all tr td + td,
 #layout-main div.clublist_all tr td + td,
 #layout-main div.collectionlist_all tr td + td,
+#layout-main div.creatorlist_all tr td + td,
 #layout-main div.grouplist_all tr td + td,
-#layout-main div.songlist_all tr td + td,
-#layout-main div.taglist_all tr td + td,
-#layout-main div.userlist_all tr td + td,
-#layout-main div.tag_all tr td + td,
+#layout-main div.latest2_all table tr td + td,
+#layout-main div.latest2_all table tr.rowspan td:first-child,
+#layout-main div.modlatest_all table tr td + td,
+#layout-main div.mydb_all table tr td + td,
+#layout-main div.mylist_all table.animelist table.eplist td,
+#layout-main div.mylist_all table.animelist table.eplist th,
+#layout-main div.mylist_all table.animelist table.filelist td,
+#layout-main div.mylist_all table.animelist table.filelist th,
 #layout-main div.mylist_all td+td,
+#layout-main div.mynotifies_all tr td+td,
 #layout-main div.myvotes_all td+td,
 #layout-main div.mywishlist_all tr td+td,
-#layout-main div.animelist_all tr td+td,
-#layout-main div.mynotifies_all tr td+td,
-#layout-main div.mydb_all table tr td + td,
-#layout-main div.modlatest_all table tr td + td,
-#layout-main div.latest2_all table tr td + td,
-#layout-main div.latest2_all table tr.rowspan td:first-child {
+#layout-main div.songlist_all tr td + td,
+#layout-main div.tag-column .tag-block + .tag-block,
+#layout-main div.tag_all tr td + td,
+#layout-main div.taglist_all tr td + td,
+#layout-main div.userlist_all tr td + td {
 	border-left-style: dotted !important;
 }
 
-#layout-main div.forum .g_bubble.infobox h3,
+.g_bubble.stripe > div.data div.name,
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
-.g_bubble.stripe > div.data div.name {
+#layout-main div.forum .g_bubble.infobox h3 {
 	border-bottom-style: dotted;
 }

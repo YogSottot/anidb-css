@@ -1,71 +1,62 @@
-table
-{
+table {
 	border-spacing: 0;
 }
 
-table table
-{
+table table {
 	border: none;
 }
 
-.g_image, img, a
-{
+ a,
+ img,
+.g_image {
 	border: none;
 }
 
-#layout-main
-{
+#layout-main {
 	border-bottom: 1px solid transparent; /*hack for margin*/
 }
-#layout-main .g_list,
-#layout-main .g_description,
+
 .g_image,
-#layout-main .g_timedentry h4,
-#layout-main .g_definitionlist table
-{
+#layout-main .g_definitionlist table,
+#layout-main .g_description,
+#layout-main .g_list,
+#layout-main .g_timedentry h4 {
 	border: 1px #98AAB1 dotted;
 }
 
 .g_image,
-#layout-main .g_definitionlist
-{
+#layout-main .g_definitionlist {
 	padding: 1px;
 }
 
-#layout-main .block .g_definitionlist table
-{
+#layout-main .block .g_definitionlist table {
 	border: none;
 	margin: 0;
 }
 
-#layout-main table.filelist tr.newep td
-{
+#layout-main table.filelist tr.newep td {
 	border-top: 1px solid #006699;
 }
 
-#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all .staffblock + .staffblock table,
-#layout-main div.anime_all div.episodes tr.newtype td
-{
+#layout-main div.anime_all div.episodes tr.newtype td,
+#layout-main div.ep_all .staffblock + .staffblock table {
 	border-top: 1px double #006699;
 }
 
 #layout-main,
 #layout-main div.tabbed_pane div.body,
-#layout-tabs ul li a,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-tabs ul li a {
 	border: 1px solid #98AAB1;
 }
 
-#layout-tabs ul li.selected a,
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-tabs ul li.selected a {
 	border-bottom: 1px #E7F0FF double;
 }
 
-#layout-tabs ul li a:hover,
-#layout-main div.tabbed_pane ul.tabs li:hover
-{
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-tabs ul li a:hover {
 	border-bottom: 1px #E7F0FF double;
 }

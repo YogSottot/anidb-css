@@ -3,34 +3,35 @@
 }
 
 #layout-main div.myvotes_all ul.filter {
-	float:left;
-	clear:none;
+	float: left;
+	clear: none;
 }
+
 #layout-main div.myvotes_all td {
-	padding-left:1em;
-	padding-right:1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 #layout-main div.myvotes_all td.date,
-#layout-main div.myvotes_all td.vote,
-#layout-main div.myvotes_all td.state {
-	width:6em;
+#layout-main div.myvotes_all td.state,
+#layout-main div.myvotes_all td.vote {
+	width: 6em;
 }
 
 #layout-main div.myvotes_all td.cast {
-	width:8em;
+	width: 8em;
 }
 
 #layout-main div.myvotes_all td.action {
-	width:10em;
+	width: 10em;
 }
 
 #layout-main div.myvotes_all td.thumb {
-	width:5em;
+	width: 5em;
 }
 
 #layout-main div.myvotes_all td.number {
-	width:3em;
+	width: 3em;
 }
 
 @media screen and (max-width: 950px) {

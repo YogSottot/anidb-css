@@ -1,93 +1,81 @@
-td
-{
+td {
 	/*border-top: 1px #FFFFFF solid;*/
 }
 
-table
-{
+table {
 	border: 1px solid #66604d;
 	border-spacing: 0;
 }
 
-table.filelist tr.newep td{
+table.filelist tr.newep td {
 	border-top: 1px solid #e9e6d9;
 }
 
 table table,
-#layout-main div.profile_all table
-{
+#layout-main div.profile_all table {
 	border: none;
 }
 
-.g_image, img, a
-{
+ a,
+ img,
+.g_image {
 	border: none;
 }
 
 /*ul,*/
-#layout-nav,
 #layout-footer,
 #layout-main,
+#layout-nav,
 #layout-tabs ul li a,
-#layout-tabs ul li.g_odd a
-{
+#layout-tabs ul li.g_odd a {
 	border: 1px #867f6a solid;
 }
 
-#layout-main .g_description,
 .g_image,
-#layout-main .g_timedentry,
 #layout-main .g_definitionlist table,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main .g_description,
+#layout-main .g_timedentry,
+#layout-main div.tabbed_pane ul.tabs li {
 	border: 1px #999380 dotted;
 }
 
-#layout-main h1,
-#layout-main div.g_timedentry h4
-{
+#layout-main div.g_timedentry h4,
+#layout-main h1 {
 	border: 1px #867f6a dotted;
 }
 
 .g_image,
-#layout-main .g_definitionlist
-{
+#layout-main .g_definitionlist {
 	padding: 1px;
 }
 
-#layout-main .block .g_definitionlist table
-{
+#layout-main .block .g_definitionlist table {
 	border: none;
 	margin: 0;
 }
 
-#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all .staffblock + .staffblock table,
-#layout-main div.anime_all div.episodes tr.newtype td
-{
+#layout-main div.anime_all div.episodes tr.newtype td,
+#layout-main div.ep_all .staffblock + .staffblock table {
 	border-top: 1px double #66604d;
 }
 
-.g_image
-{
+.g_image {
 	border: 1px solid #8c8673;
 }
 
 #layout-main div.tabbed_pane div.body,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li {
 	border: 1px dotted #999380;
 }
 
-#layout-tabs ul li.selected a,
-#layout-tabs ul li a:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
-#layout-main div.tabbed_pane ul.tabs li:hover
-{
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-tabs ul li a:hover,
+#layout-tabs ul li.selected a {
 	border-bottom: 1px #E9E6D9 double;
 }
 
-#layout-main div.info div.extra div table
-{
+#layout-main div.info div.extra div table {
 	border: none;
 }

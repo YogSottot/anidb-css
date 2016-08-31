@@ -19,18 +19,18 @@
 	margin-right: 2.5em;
 }
 
-#layout-main div.calendar_all .g_section.top,
-#layout-main div.calendar_all .g_section.bottom {
+#layout-main div.calendar_all .g_section.bottom,
+#layout-main div.calendar_all .g_section.top {
 	height: 2em;
 }
 
 #layout-main div.calendar_all .g_bubble.box > div.data div.desc {
 	max-height: 15em;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 @media screen and (min-width: 640px) and (max-width: 950px) {
 	#layout-main div.calendar_all .g_bubble.box {
-		width:250px;
+		width: 250px;
 	}
 }

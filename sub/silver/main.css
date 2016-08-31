@@ -1,21 +1,17 @@
 @import "../common.css";
 @import "../fancy.css";
-
 @import "../../common/layout/macro/separate.css";
 @import "../../common/style/color/status-creme.css";
-
 @import "forum-color.css";
 @import "border.css";
 @import "color.css";
 
-#layout-hint
-{
-	margin:-0.5em 0 0.5em;
-	position:relative;
+#layout-hint {
+	margin: -0.5em 0 0.5em;
+	position: relative;
 }
 
-#layout-main div.userpage_all > div.g_section > h4
-{
+#layout-main div.userpage_all > div.g_section > h4 {
 	padding: 0.3em;
 }
 

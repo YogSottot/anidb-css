@@ -1,4 +1,5 @@
-.newsitem{ /*g_timedentry newsitem*/
+.newsitem {
+	/*g_timedentry newsitem*/
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
@@ -59,7 +60,7 @@
 }
 
 .rightbar>p,.rightbar>h4:first-child,.rightbar h3{display:none;}
-/*.rightbar h4,.rightbar ol{ float: left;}*/
+/.rightbar h4,.rightbar ol{ float: left;}*/
 #layout-footer{
 	/*background: url('Horo.png') !important;*/
 	position: fixed !important;

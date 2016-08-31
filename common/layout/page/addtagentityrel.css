@@ -4,14 +4,13 @@
 
 #layout-main div.addtagentityrel_all table.creqlist td {
 	padding: 0px 5px;
-	min-width:30px;
+	min-width: 30px;
 }
 
 #layout-main div.addtagentityrel_all table.creqlist td.summary {
 	width: 100%;
 }
 
-
 #layout-main div.addtagentityrel_all div.tag_massedit div.tag-column div.tag > span {
-	line-height:1.6em;
+	line-height: 1.6em;
 }

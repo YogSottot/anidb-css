@@ -12,9 +12,8 @@
 @import "anidbstyle3-layout.css";
 @import "anidbstyle3-color.css";
 
-#layout-footer:after
-{
-	content:"design by deridiot";
+#layout-footer:after {
+	content: "design by deridiot";
 }
 
 @media all and (max-width: 950px) {

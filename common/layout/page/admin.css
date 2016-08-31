@@ -27,19 +27,19 @@
 	width: 20em;
 }
 
-#layout-main div.stats_all table,
-#layout-main div.dbstats_all table {
+#layout-main div.dbstats_all table,
+#layout-main div.stats_all table {
 	border: none;
 	border-spacing: 1em;
 }
 
-#layout-main div.stats_all table td,
-#layout-main div.dbstats_all table td {
+#layout-main div.dbstats_all table td,
+#layout-main div.stats_all table td {
 	border: none;
 }
 
-#layout-main div.admin_menu ul,
-#layout-main div.admin_cat_menu ul {
+#layout-main div.admin_cat_menu ul,
+#layout-main div.admin_menu ul {
 	margin-left: auto;
 	margin-right: auto;
 	width: 22em;
@@ -47,62 +47,62 @@
 	padding: 4px;
 }
 
-#layout-main div.admin_menu ul li,
-#layout-main div.admin_cat_menu ul li {
+#layout-main div.admin_cat_menu ul li,
+#layout-main div.admin_menu ul li {
 	padding: 2px 4px;
 }
 
 #layout-main div.admin_all div.characterrelation dl,
 #layout-main div.admin_all div.creatorrelation dl {
-	display:block;
-	margin:0 0 0.2em;
+	display: block;
+	margin: 0 0 0.2em;
 }
 
 #layout-main div.admin_all div.characterrelation dl dt,
 #layout-main div.admin_all div.creatorrelation dl dt {
-	clear:none;
-	float:left;
+	clear: none;
+	float: left;
 }
 
 #layout-main div.admin_all div.characterrelation dl dd,
 #layout-main div.admin_all div.creatorrelation dl dd {
-	margin-left:20em;
+	margin-left: 20em;
 }
 
 #layout-main div.admin_all div.characterrelation div.inner,
 #layout-main div.admin_all div.creatorrelation div.inner {
-	margin-bottom:1em;
-	margin-left:auto;
-	margin-right:auto;
-	width:55em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55em;
 }
 
 #layout-main div.admin_all div.characterrelation input[type="text"],
 #layout-main div.admin_all div.creatorrelation input[type="text"] {
-	width:300px;
+	width: 300px;
 }
 
 #layout-main div.admin_all div.characterrelation dl dd label,
 #layout-main div.admin_all div.creatorrelation dl dd label {
-	display:block;
+	display: block;
 }
 
 #layout-main div.avmf_all div.avmf_list table {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.admin_all table.creatoranimerel td.count {
-	width:6em;
+	width: 6em;
 }
 
+#layout-main div.admin_all div.admin_user_avatars ul.g_list + table,
 #layout-main div.avmf_all div.avmf_list ul.g_list + table,
-#layout-main div.log_all div.log_list ul.g_list + table,
-#layout-main div.admin_all div.admin_user_avatars  ul.g_list + table {
-	margin-top:1em;
+#layout-main div.log_all div.log_list ul.g_list + table {
+	margin-top: 1em;
 }
 
 #layout-main div.admin_all table.creditlist {
-	width:98%;
+	width: 98%;
 }
 
 #layout-main div.admin_all table.creditlist td.no {
@@ -139,7 +139,7 @@
 }
 
 #layout-main div.admin_all table.creditlist td.action {
-	text-align:left;
+	text-align: left;
 }
 
 #layout-main div.admin_role div.options {
@@ -169,8 +169,8 @@
 }
 
 /*tags*/
-#layout-main div.admin_tags_all table.tags th,
-#layout-main div.admin_tags_all table.tags td {
+#layout-main div.admin_tags_all table.tags td,
+#layout-main div.admin_tags_all table.tags th {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
@@ -195,27 +195,29 @@
 	min-width: 1em;
 	max-width: 1em;
 }
+
 #layout-main div.admin_all div.tag.merge th.head {
 	min-width: 7.5em;
 	max-width: 7.5em;
 }
+
 #layout-main div.admin_all div.tag.merge th.data {
 	width: 33%;
 }
 
 #layout-main div.admin_all div.tag.merge td {
-	vertical-align:top;
-	padding:5px;
+	vertical-align: top;
+	padding: 5px;
 }
 
-#layout-main div.admin_all div.tag.merge td.input,
-#layout-main div.admin_all div.tag.merge td.check {
-	vertical-align:middle;
+#layout-main div.admin_all div.tag.merge td.check,
+#layout-main div.admin_all div.tag.merge td.input {
+	vertical-align: middle;
 }
 
 #layout-main div.admin_all div.tag.merge textarea {
-	width:95%;
-	height:10em;
+	width: 95%;
+	height: 10em;
 }
 
 #layout-main div.admin_all div.tag.merge table.options th,
@@ -225,12 +227,13 @@
 }
 
 #layout-main div.admin_all div.tag.merge td table {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.admin_tags_all div.actions {
 	margin-top: 1em;
 }
+
 #layout-main div.admin_tags_all div.actions button,
 #layout-main div.admin_tags_all div.actions input[type="submit"] {
 	margin-left: 5px;
@@ -259,9 +262,9 @@
 }
 
 /*cr import management*/
-#layout-main div.admin_all table.crep,
-#layout-main div.admin_all table.cranime {
-	width:100%;
+#layout-main div.admin_all table.cranime,
+#layout-main div.admin_all table.crep {
+	width: 100%;
 }
 
 #layout-main div.admin_all table.cranime td.action {
@@ -279,23 +282,23 @@
 }
 
 @media screen and (max-width: 1000px) {
-	#layout-main div.admin_all div.bans table.banlist th.date,
 	#layout-main div.admin_all div.bans table.banlist .date.added,
-	#layout-main div.admin_all div.bans table.banlist .reason {
-		display:none;
+	#layout-main div.admin_all div.bans table.banlist .reason,
+	#layout-main div.admin_all div.bans table.banlist th.date {
+		display: none;
 	}
 
 	#layout-main div.admin_all div.bans table.banlist .date.expire {
-		white-space:normal;
+		white-space: normal;
 	}
 }
 
 @media screen and (max-width: 640px) {
-	#layout-main div.admin_all div.bans table.banlist .expiry,
 	#layout-main div.admin_all div.bans table.banlist .date,
-	#layout-main div.admin_all div.bans table.banlist .user,
-	#layout-main div.admin_all div.bans table.banlist .ip {
-		display:none;
+	#layout-main div.admin_all div.bans table.banlist .expiry,
+	#layout-main div.admin_all div.bans table.banlist .ip,
+	#layout-main div.admin_all div.bans table.banlist .user {
+		display: none;
 	}
 }
 

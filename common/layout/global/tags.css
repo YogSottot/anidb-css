@@ -1,6 +1,6 @@
 /*edit form*/
 #layout-main div.g_definitionlist.tagedit_form table table {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.g_definitionlist.tagedit_form table.options th.anime,
@@ -8,15 +8,14 @@
 #layout-main div.g_definitionlist.tagedit_form table.options th.creator,
 #layout-main div.g_definitionlist.tagedit_form table.options th.episode,
 #layout-main div.g_definitionlist.tagedit_form table.options th.manga {
-	width:5em;
+	width: 5em;
 }
 
-#layout-main div.g_definitionlist.tagedit_form table.types td,
-#layout-main div.g_definitionlist.tagedit_form table.blocked td {
+#layout-main div.g_definitionlist.tagedit_form table.blocked td,
+#layout-main div.g_definitionlist.tagedit_form table.types td {
 	vertical-align: top;
-	width:10em;
+	width: 10em;
 }
-
 
 #layout-main div.addtagentityrel_all div.tag-column {
 	margin: 0.2em;
@@ -134,7 +133,7 @@
 }
 
 #layout-main div.tag-column div.tag > span {
-	line-height:1.5em;
+	line-height: 1.5em;
 }
 
 #layout-main div.tag-column div.tag span.name {
@@ -164,7 +163,7 @@
 }
 
 #layout-main div.tag-column div.tag span.indent {
-	white-space:pre;
+	white-space: pre;
 	float: left;
 	line-height: 1.6em;
 }
@@ -181,7 +180,7 @@
 	min-height: 16px;
 }
 
-#layout-main div.tag-column .tag-block{
+#layout-main div.tag-column .tag-block {
 	width: 250px;
 	padding: 0.5em;
 }
@@ -208,7 +207,7 @@
 }
 
 #layout-main #chartags h3:after {
-	content: ":";
+	content: ": ";
 }
 
 #layout-main div.chartag-list {
@@ -221,7 +220,7 @@
 
 #layout-main div.chartag-list span.tag {
 	display: inline-block;
-	line-height:25px;
+	line-height: 25px;
 	white-space: nowrap;
 	padding-left: 0.4em;
 	padding-right: 0.4em;
@@ -254,50 +253,63 @@
 }
 
 /*character tag cloud sizes*/
-#layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a,
-#layout-main div.chartag-list span.size0 {
+#layout-main div.chartag-list span.size0,
+#layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a {
 	font-size: 0.8rem;
 }
-#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a,
-#layout-main div.chartag-list span.size1 {
+
+#layout-main div.chartag-list span.size1,
+#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
 	font-size: 0.85rem;
 }
-#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a,
-#layout-main div.chartag-list span.size2 {
+
+#layout-main div.chartag-list span.size2,
+#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
 	font-size: 0.9rem;
 }
+
 #layout-main div.chartag-list span.size3 {
 	font-size: 0.95rem;
 }
+
 #layout-main div.chartag-list span.size4 {
 	font-size: 1rem;
 }
+
 #layout-main div.chartag-list span.size5 {
 	font-size: 1.2rem;
 }
+
 #layout-main div.chartag-list span.size6 {
 	font-size: 1.4rem;
 }
+
 #layout-main div.chartag-list span.size7 {
 	font-size: 1.6rem;
 }
+
 #layout-main div.chartag-list span.size8 {
 	font-size: 1.8rem;
 }
+
 #layout-main div.chartag-list span.size9 {
 	font-size: 2rem;
 }
+
 #layout-main div.chartag-list span.size10 {
 	font-size: 2.2rem;
 }
 
-#layout-main div.chartag-list span.hidden {display:none;}
+#layout-main div.chartag-list span.hidden {
+	display: none;
+}
 
 /*tag tree*/
 #layout-main #tagtree div.tag-column .tag-block {
-	padding:1em;
+	padding: 1em;
 	width: 60em;
 }
+
 #tagtree div.tag-column div.tag {
 	-webkit-flex-direction: row;
 	-moz-flex-direction: row;
@@ -305,78 +317,103 @@
 	flex-direction: row;
 	min-height: 24px;
 }
+
 #tagtree div.tag-column div.tag span.i_icon + span.name {
 	padding-left: 0.5em;
 }
+
 #tagtree div.tag-column .tag-block .parent:not(:first-child) {
 	margin-top: 0;
 }
+
 #tagtree div.tag-column div.tag.top {
 	padding-left: 2.1em;
 }
+
 #tagtree div.tag-column div.tag.top.parent {
 	padding-left: 0;
 }
+
 #tagtree div.tag-column div.tag.parent.level1 {
 	padding-left: 2.1em;
 }
+
 #tagtree div.tag-column div.tag.parent.level2 {
 	padding-left: 4.1em;
 }
+
 #tagtree div.tag-column div.tag.parent.level3 {
 	padding-left: 6.1em;
 }
+
 #tagtree div.tag-column div.tag.parent.level4 {
 	padding-left: 8.1em;
 }
+
 #tagtree div.tag-column div.tag.parent.level5 {
 	padding-left: 10.1em;
 }
+
 #tagtree div.tag-column div.tag.parent.level6 {
 	padding-left: 12.1em;
 }
+
 #tagtree div.tag-column div.tag.parent.level7 {
 	padding-left: 14.1em;
 }
+
 #tagtree div.tag-column div.tag.parent.level8 {
 	padding-left: 16.1em;
 }
+
 #tagtree div.tag-column div.tag.parent.level9 {
 	padding-left: 18.1em;
 }
+
 #tagtree div.tag-column div.tag.parent.level10 {
 	padding-left: 20.1em;
 }
+
 #tagtree div.tag-column div.tag.level1 {
 	padding-left: 4.1em;
 }
+
 #tagtree div.tag-column div.tag.level2 {
 	padding-left: 6.1em;
 }
+
 #tagtree div.tag-column div.tag.level3 {
 	padding-left: 8.1em;
 }
+
 #tagtree div.tag-column div.tag.level4 {
 	padding-left: 10.1em;
 }
+
 #tagtree div.tag-column div.tag.level5 {
 	padding-left: 12.1em;
 }
+
 #tagtree div.tag-column div.tag.level6 {
 	padding-left: 14.1em;
 }
+
 #tagtree div.tag-column div.tag.level7 {
 	padding-left: 16.1em;
 }
+
 #tagtree div.tag-column div.tag.level8 {
 	padding-left: 18.1em;
 }
+
 #tagtree div.tag-column div.tag.level9 {
 	padding-left: 20.1em;
 }
+
 #tagtree div.tag-column div.tag.level10 {
 	padding-left: 22.1em;
 }
+
 #tagtree div.tag span.i_icon {
 	cursor: pointer;
 }

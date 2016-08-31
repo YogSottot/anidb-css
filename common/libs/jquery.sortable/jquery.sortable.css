@@ -28,8 +28,8 @@ body.dragging * {
 	box-sizing: border-box;
 }
 
-.sortable_shuttle .right > ol,
-.sortable_shuttle .left > ol {
+.sortable_shuttle .left > ol,
+.sortable_shuttle .right > ol {
 	min-height: calc(100% - 2.4em);
 	box-sizing: border-box;
 }
@@ -56,8 +56,8 @@ body.dragging * {
 	display: inline;
 }
 
-.sortable_shuttle .right .pane .icons,
-.sortable_shuttle .left .icons {
+.sortable_shuttle .left .icons,
+.sortable_shuttle .right .pane .icons {
 	display: none;
 }
 
@@ -124,15 +124,15 @@ body.dragging * {
 }
 
 .sortable_shuttle ol.jssortable li.pane > ol.pane.i_general_delete {
-   	display: block;
-   	width: auto;
-   	padding: 0.35em 0 0 0.5em;
-   	margin-left: 1.5em;
-   	margin-top: -1.1em;
+	display: block;
+	width: auto;
+	padding: 0.35em 0 0 0.5em;
+	margin-left: 1.5em;
+	margin-top: -1.1em;
 }
 
 .sortable_shuttle ol.jssortable li.pane > div {
-	float:left;
+	float: left;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;

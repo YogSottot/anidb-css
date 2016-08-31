@@ -1,25 +1,29 @@
 #layout-main div.animeatt_reviews div.review {
 	clear: right;
 }
+
 #layout-main div.animeatt_reviews div.review div.bar {
-	margin-top:1em;
+	margin-top: 1em;
 	float: right;
 	width: 11em;
 }
+
 #layout-main div.animeatt_reviews div.review div.bar table {
 	width: 100%;
 }
+
 #layout-main div.animeatt_reviews div.review div.text {
 	text-align: left;
 	margin-right: 12em;
 	padding: 0.5em;
 }
+
 #layout-main div.animeatt_reviews div.review div.rating table td.value {
 	text-align: right;
 }
 
 #layout-main div.animeatt_comment {
-	text-align: left;	
+	text-align: left;
 }
 
 #layout-main div.animeatt_comment textarea {
@@ -50,19 +54,20 @@
 }
 
 #layout-main div.animeatt_reviews div.review div.text img {
-	max-width:100%;
+	max-width: 100%;
 }
 
 #layout-main div.animeatt_all div.forum div.options-box dl div {
-	margin-left:20em;
+	margin-left: 20em;
 }
+
 #layout-main div.animeatt_all div.animeatt_info h4,
 #layout-main div.animeatt_all div.animeatt_info p {
 	text-align: left;
 }
 
 #layout-main div.animeatt_all div.animeatt_info ol {
-	list-style:decimal inside none;
+	list-style: decimal inside none;
 	text-align: left;
 }
 
@@ -73,15 +78,16 @@
 	padding-top: 1px;
 	text-align: left;
 }
+
 @media screen and (max-width: 800px) {
-	#layout-main div.animeatt_reviews div.review div.text + div.note,
-	#layout-main div.animeatt_reviews div.review div.text {
+	#layout-main div.animeatt_reviews div.review div.text,
+	#layout-main div.animeatt_reviews div.review div.text + div.note {
 		margin-right: 0;
 	}
 
 	#layout-main div.animeatt_reviews div.review div.bar {
-		width:auto;
-		float:none;
+		width: auto;
+		float: none;
 		display: flex;
 		flex-wrap: wrap;
 	}

@@ -326,14 +326,14 @@ body.nonav div#layout-content
 	margin-top:10px;
 }
 
-*.i_inline
+.i_inline
 {
 	background-position:center;
 	background-repeat:no-repeat;
 	padding:7px 10px 6px;
 }
 
-*.i_button
+.i_button
 {
 	background-position:center;
 	background-repeat:no-repeat;
@@ -564,24 +564,24 @@ div.anime_all div.episodes td.file
 	white-space: nowrap;
 
 }
-div.anime_all *.i_vrs_1,
-div.anime_all *.i_vrs_2,
-div.anime_all *.i_vrs_3,
-div.anime_all *.i_vrs_4,
-div.anime_all *.i_vrs_5,
-div.anime_all *.i_censored,
-div.anime_all *.i_uncensored,
-div.anime_all *.i_new_icon,
-div.anime_all *.i_comment
+div.anime_all .i_vrs_1,
+div.anime_all .i_vrs_2,
+div.anime_all .i_vrs_3,
+div.anime_all .i_vrs_4,
+div.anime_all .i_vrs_5,
+div.anime_all .i_censored,
+div.anime_all .i_uncensored,
+div.anime_all .i_new_icon,
+div.anime_all .i_comment
 {
 	/*margin-left:-15px;*/
 }
 
-div.anime_all *.i_vrs_1,
-div.anime_all *.i_vrs_2,
-div.anime_all *.i_vrs_3,
-div.anime_all *.i_vrs_4,
-div.anime_all *.i_vrs_5
+div.anime_all .i_vrs_1,
+div.anime_all .i_vrs_2,
+div.anime_all .i_vrs_3,
+div.anime_all .i_vrs_4,
+div.anime_all .i_vrs_5
 {
 	position:relative;
 	right:110px;
@@ -869,476 +869,476 @@ div.modlatest_all td.action a
 	width:955px;
 }
 
-*.i_help
+.i_help
 {
 	background:url(images/ask2.gif) no-repeat right;
 	cursor:help;
 }
 
-*.i_censored
+.i_censored
 {
 	background-image:url(images/anidb_censored.gif);
 }
 
-*.i_comment
+.i_comment
 {
 	background-image:url(images/anidb_comment.gif);
 }
 
-*.i_av_yes
+.i_av_yes
 {
 	background-image:url(images/anidb_av_yes.gif);
 }
 
-*.i_crc_no
+.i_crc_no
 {
 	background-image:url(images/anidb_crc_no.gif);
 }
 
-*.i_crc_yes
+.i_crc_yes
 {
 	background-image:url(images/anidb_crc_yes.gif);
 }
 
-*.i_crc_unv
+.i_crc_unv
 {
 	background-image:url(images/anidb_crc_unv.gif);
 }
 
-*.i_araward
+.i_araward
 {
 	background-image:url(images/anidb_araward.gif);
 }
 
-*.i_group_vote,
-*.i_ep_vote,
-*.i_vote
+.i_group_vote,
+.i_ep_vote,
+.i_vote
 {
 	background-image:url(images/anidb_vote.gif);
 }
 
-*.i_group_revote,
-*.i_ep_revote,
-*.i_revote
+.i_group_revote,
+.i_ep_revote,
+.i_revote
 {
 	background-image:url(images/anidb_revote.gif);
 }
 
-*.i_group_comment
+.i_group_comment
 {
 	background-image:url(images/anidb_groupcomment.gif);
 }
 
-*.i_new_icon
+.i_new_icon
 {
 	background-image:url(images/anidb_new_icon.gif);
 }
 
-*.i_uncensored
+.i_uncensored
 {
 	background-image:url(images/anidb_uncensored.gif);
 }
 
-*.i_video
+.i_video
 {
 	background-image:url(images/anidb_video.gif);
 }
 
-*.i_video.avc
+.i_video.avc
 {
 	background-image:url(images/anidb_video_avc.gif);
 }
 
-*.i_video.xvid,
-*.i_video.divx5
+.i_video.xvid,
+.i_video.divx5
 {
 	background-image:url(images/anidb_video_asp.gif);
 }
 
-*.i_vrs_1
+.i_vrs_1
 {
 	background-image:url(images/anidb_vrs_1.gif);
 }
 
-*.i_vrs_2
+.i_vrs_2
 {
 	background-image:url(images/anidb_vrs_2.gif);
 }
 
-*.i_vrs_3
+.i_vrs_3
 {
 	background-image:url(images/anidb_vrs_3.gif);
 }
 
-*.i_vrs_4
+.i_vrs_4
 {
 	background-image:url(images/anidb_vrs_4.gif);
 }
 
-*.i_vrs_5
+.i_vrs_5
 {
 	background-image:url(images/anidb_vrs_5.gif);
 }
 
-*.i_ext
+.i_ext
 {
 	background-image:url(images/anidb_ext_other.gif);
 }
 
-*.i_ext.mkv
+.i_ext.mkv
 {
 	background-image:url(images/anidb_ext_mkv.gif);
 }
 
-*.i_ext.ogm
+.i_ext.ogm
 {
 	background-image:url(images/anidb_ext_ogm.gif);
 }
 
-*.i_ext.avi
+.i_ext.avi
 {
 	background-image:url(images/anidb_ext_avi.gif);
 }
 
-*.i_ext.mp4
+.i_ext.mp4
 {
 	background-image:url(images/anidb_ext_mp4.gif);
 }
 
-*.i_ext.wmv
+.i_ext.wmv
 {
 	background-image:url(images/anidb_ext_wmv.gif);
 }
 
-*.i_ext.srt
+.i_ext.srt
 {
 	background-image:url(images/anidb_ext_srt.gif);
 }
 
-*.i_rate_corrupted
+.i_rate_corrupted
 {
 	background-image:url(images/anidb_rate_corrupted.gif);
 }
 
-*.i_rate_eyecancer
+.i_rate_eyecancer
 {
 	background-image:url(images/anidb_rate_eyecancer.gif);
 }
 
-*.i_rate_unknown
+.i_rate_unknown
 {
 	background-image:url(images/anidb_rate_unknown.gif);
 }
 
-*.i_rate_star
+.i_rate_star
 {
 	background-image:url(images/anidb_rate_star.gif);
 }
 
-*.i_rate_halfstar
+.i_rate_halfstar
 {
 	background-image:url(images/anidb_rate_halfstar.gif);
 }
 
-*.i_rate_veryhigh,
-*.i_rate_high,
-*.i_rate_med,
-*.i_rate_low,
-*.i_rate_verylow
+.i_rate_veryhigh,
+.i_rate_high,
+.i_rate_med,
+.i_rate_low,
+.i_rate_verylow
 {
 	background:url(images/anidb_rate_star.gif) left center repeat-x;
 }
 
-*.i_rate_veryhigh
+.i_rate_veryhigh
 {
 	width:39px;
 }
 
-*.i_rate_high
+.i_rate_high
 {
 	width:32px;
 }
 
-*.i_rate_med
+.i_rate_med
 {
 	width:26px;
 }
 
-*.i_rate_low
+.i_rate_low
 {
 	width:19px;
 }
 
-*.i_rate_verylow
+.i_rate_verylow
 {
 	width:13px;
 }
 
-*.i_file_add
+.i_file_add
 {
 	background-image:url(images/anidb_file_add.gif);
 }
 
-*.i_file_addmylist
+.i_file_addmylist
 {
 	background-image:url(images/anidb_file_addmylist.gif);
 }
 
-*.i_file_delete
+.i_file_delete
 {
 	background-image:url(images/anidb_file_delete.gif);
 }
 
-*.i_file_details
+.i_file_details
 {
 	background-image:url(images/anidb_file_details.gif);
 }
 
-*.i_file_ed2k
+.i_file_ed2k
 {
 	background-image:url(images/anidb_file_ed2k.gif);
 }
 
-*.i_file_edit,
-*.i_ep_edit
+.i_file_edit,
+.i_ep_edit
 {
 	background-image:url(images/anidb_file_edit.gif);
 }
 
-*.i_file_removemylist
+.i_file_removemylist
 {
 	background-image:url(images/anidb_file_removemylist.gif);
 }
 
-*.i_seen_no
+.i_seen_no
 {
 	background-image:url(images/anidb_seen_no.gif);
 }
 
-*.i_seen_yes
+.i_seen_yes
 {
 	background-image:url(images/anidb_seen_yes.gif);
 }
 
-*.i_filestate_corrupted
+.i_filestate_corrupted
 {
 	background-image:url(images/anidb_filestate_corrupted.gif);
 }
 
-*.i_filestate_edited
+.i_filestate_edited
 {
 	background-image:url(images/anidb_filestate_edited.gif);
 }
 
-*.i_filestate_ondvd
+.i_filestate_ondvd
 {
 	background-image:url(images/anidb_filestate_ondvd.gif);
 }
 
-*.i_filestate_ontv
+.i_filestate_ontv
 {
 	background-image:url(images/anidb_filestate_ontv.gif);
 }
 
-*.i_filestate_onvhs
+.i_filestate_onvhs
 {
 	background-image:url(images/anidb_filestate_onvhs.gif);
 }
 
-*.i_filestate_other
+.i_filestate_other
 {
 	background-image:url(images/anidb_filestate_other.gif);
 }
 
-*.i_filestate_selfripped
+.i_filestate_selfripped
 {
 	background-image:url(images/anidb_filestate_selfripped.gif);
 }
 
-*.i_filestate_theater
+.i_filestate_theater
 {
 	background-image:url(images/anidb_filestate_theater.gif);
 }
 
-*.i_recap
+.i_recap
 {
 	background-image:url(images/anidb_recap.gif);
 }
 
-*.i_seen
+.i_seen
 {
 	background-image:url(images/anidb_seen.gif);
 }
 
-*.i_state_all
+.i_state_all
 {
 	background-image:url(images/anidb_state_all.gif);
 }
 
-*.i_state_deleted
+.i_state_deleted
 {
 	background-image:url(images/anidb_state_deleted.gif);
 }
 
-*.i_state_mixed
+.i_state_mixed
 {
 	background-image:url(images/anidb_state_mixed.gif);
 }
 
-*.i_state_oncd
+.i_state_oncd
 {
 	background-image:url(images/anidb_state_oncd.gif);
 }
 
-*.i_state_onhdd
+.i_state_onhdd
 {
 	background-image:url(images/anidb_state_onhdd.gif);
 }
 
-*.i_state_release
+.i_state_release
 {
 	background-image:url(images/anidb_state_release.gif);
 }
 
-*.i_state_shared
+.i_state_shared
 {
 	background-image:url(images/anidb_state_shared.gif);
 }
 
-*.i_state_unknown
+.i_state_unknown
 {
 	background-image:url(images/anidb_state_unknown.gif);
 }
 .i_general_list,
-*.i_mylist
+.i_mylist
 {
 	background-image:url(images/anidb_mylist.gif);
 }
 
-*.i_pri_high
+.i_pri_high
 {
 	background-image:url(images/anidb_pri_high.gif);
 }
 
-*.i_pri_low
+.i_pri_low
 {
 	background-image:url(images/anidb_pri_low.gif);
 }
 
-*.i_pri_med
+.i_pri_med
 {
 	background-image:url(images/anidb_pri_med.gif);
 }
 
-*.i_nonotify
+.i_nonotify
 {
 	background-image:url(images/anidb_nonotify.gif);
 }
 
-*.i_notify
+.i_notify
 {
 	background-image:url(images/anidb_notify.gif);
 }
 
-*.i_rev
+.i_rev
 {
 	background-image:url(images/anidb_rev.gif);
 }
 
-*.i_no_rev
+.i_no_rev
 {
 	background-image:url(images/anidb_no_rev.gif);
 }
 
-*.i_no_vote
+.i_no_vote
 {
 	background-image:url(images/anidb_no_vote.gif);
 }
 
-*.i_hanger
+.i_hanger
 {
 	background-image:url(images/anidb_hanger.gif);
 }
 
-*.i_punkt
+.i_punkt
 {
 	background-image:url(images/button_punkt.gif);
 }
 
-*.i_search
+.i_search
 {
 	background-image:url(images/button_search.gif);
 }
 
-*.i_signup
+.i_signup
 {
 	background-image:url(images/button_signup.gif);
 }
 
-*.i_suchen
+.i_suchen
 {
 	background-image:url(images/button_suchen.gif);
 }
 
-*.i_down1
+.i_down1
 {
 	background-image:url(images/down1.gif);
 	height:10px;
 	width:9px;
 }
 
-*.i_empty
+.i_empty
 {
 	background-image:url(images/empty.gif);
 }
 
-*.i_invalid
+.i_invalid
 {
 	background-image:url(images/invalid.gif);
 }
 
-*.i_tab_collapse,
-*.i_minus
+.i_tab_collapse,
+.i_minus
 {
 	background-image:url(images/minus.gif);
 }
 
-*.i_na
+.i_na
 {
 	background-image:url(images/na.gif);
 }
 
-*.i_nodown1
+.i_nodown1
 {
 	background-image:url(images/nodown1.gif);
 	height:10px;
 	width:9px;
 }
 
-*.i_none
+.i_none
 {
 	background-image:url(images/none.gif);
 }
 
-*.i_nopic
+.i_nopic
 {
 	background-image:url(images/nopic.gif);
 }
 
-*.i_noup1
+.i_noup1
 {
 	background-image:url(images/noup1.gif);
 	height:10px;
 	width:9px;
 }
 
-*.i_tab_expand,
-*.i_plus
+.i_tab_expand,
+.i_plus
 {
 	background-image:url(images/plus.gif);
 }
 
-*.i_up1
+.i_up1
 {
 	background-image:url(images/up1.gif);
 	height:10px;
@@ -1473,9 +1473,9 @@ fieldset,
 #user-profile a span,
 #user-logout a span,
 div.search_all li.collapsed ul,
-*.i_icon span,
-*.i_button span,
-*.i_inline span,
+.i_icon span,
+.i_button span,
+.i_inline span,
 {
 	display:none;
 }
@@ -2035,7 +2035,7 @@ border-color:#C9D2D8;
 {
 	color: #8266B8;
 }
-*.i_top
+.i_top
 {
 	background-image: url(images/icon_back_top.gif);
 }

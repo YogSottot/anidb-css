@@ -127,8 +127,8 @@ margin-left: 0.3em;
 div.addfilem input[id="addfilem.next"],
 div.result input,
 form input[type="submit"],
-*.button,
-*.confirmButton
+.button,
+.confirmButton
 {
 margin-top: 0.3em;
 color: #797979;
@@ -146,8 +146,8 @@ text-shadow: none;
 div.addfilem input[id="addfilem.next"]:hover,
 div.result input:hover,
 input[type="submit"]:hover,
-*.confirmButton:hover,
-*.button:hover
+.confirmButton:hover,
+.button:hover
 {
 color: white;
 background-image: url(images/blackpixel.png);
@@ -194,20 +194,20 @@ table
 {
 border-spacing: 0;
 }
-*.g_note
+.g_note
 {
 font-style: italic;
 font-weight: normal;
 }
-*.g_note *
+.g_note *
 {
 font-style: normal;
 }
-*.g_note li
+.g_note li
 {
 font-style: italic;
 }
-*.g_note em
+.g_note em
 {
 font-style: italic;
 text-decoration: underline;
@@ -216,7 +216,7 @@ div.g_note h4
 {
 display: inline;
 }
-*.g_vital, *.g_vital *
+.g_vital, .g_vital *
 {
 color: red;
 font-weight: bolder;
@@ -227,12 +227,12 @@ span.g_odd
 {
 background-image: url(images/bg_2.gif);
 }
-*.g_navprev
+.g_navprev
 {
 float: left;
 padding-left: 0.3em;
 }
-*.g_navnext
+.g_navnext
 {
 float: right;
 padding-right: 0.3em;
@@ -255,7 +255,7 @@ td.action
 {
 text-align: center;
 }
-*.hide
+.hide
 {
 display: none !important;
 }
@@ -875,7 +875,7 @@ margin-left: 0;
 {
 float: right;
 }
-#layout-main *.icons *.i_icon,
+#layout-main .icons .i_icon,
 #layout-main div.ep_files table.filelist td .icons .i_icon,
 #layout-main div.anime_group table.grouplist tr td.languages span.i_icon,
 #layout-main div.anime_mylist td div.icons span.i_icon,
@@ -896,7 +896,7 @@ display: inline;
 float: right;
 padding: 0px 1px 0px 1px;
 }
-#layout-main td.icons.quality *.i_icon
+#layout-main td.icons.quality .i_icon
 {
 padding: 0px;
 }
@@ -1025,7 +1025,7 @@ margin: 1em;
 margin-left: auto;
 margin-right: auto;
 }
-#layout-content div.animelist_list table th *.i_icon
+#layout-content div.animelist_list table th .i_icon
 {
 float: left;
 }
@@ -1188,11 +1188,11 @@ margin-right: 12em;
 {
 display: none;
 }
-#layout-content div.hint2_hinter *.g_note
+#layout-content div.hint2_hinter .g_note
 {
 display: block;
 }
-#layout-content div.hint2_hinter.nonote *.g_note
+#layout-content div.hint2_hinter.nonote .g_note
 {
 display: none;
 }
@@ -1855,7 +1855,7 @@ margin: 50px;
 {
 margin-bottom: 1em;
 }
-*.releaseinfotooltip div.icons span.i_icon
+.releaseinfotooltip div.icons span.i_icon
 {
 float: left;
 }
@@ -2422,7 +2422,7 @@ border:1px solid #D1D7DC;
 {
 border-top:1px solid #D1D7DC;
 }
-*.rating
+.rating
 {
 white-space: nowrap;
 }

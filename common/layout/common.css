@@ -1,16 +1,15 @@
-body.nonav #layout-main,
-body.nonav #layout-footer {
+body.nonav #layout-footer,
+body.nonav #layout-main {
 	width: auto;
 	height: 90%;
-	margin:0;
+	margin: 0;
 	min-height: 0 !important;
 }
 
-#layout-nav input,
-#layout-nav button {
+#layout-nav button,
+#layout-nav input {
 	width: 100%;
 }
-
 
 #layout-main table,
 #layout-main table caption {
@@ -26,6 +25,7 @@ body.nonav #layout-footer {
 body.nonav {
 	padding: 0;
 }
+
 body.nonav #layout-main h1 {
 	display: none;
 }
@@ -43,12 +43,12 @@ body.nonav #layout-main h1 {
 	position: absolute; /*IE6*/
 }
 
-#layout-main h1,
-#layout-main .g_section,
 #layout-main .g_list,
 #layout-main .g_msg,
+#layout-main .g_section,
 #layout-main div.addepm div.ep,
-#layout-main div.cmt_all div.topic_actions {
+#layout-main div.cmt_all div.topic_actions,
+#layout-main h1 {
 	margin-bottom: 1em;
 }
 
@@ -63,8 +63,8 @@ body.nonav #layout-main h1 {
 	border: none;
 }
 
-#layout-main .g_section,
-#layout-main .g_list {
+#layout-main .g_list,
+#layout-main .g_section {
 	clear: both;
 }
 
@@ -76,30 +76,30 @@ body.nonav #layout-main h1 {
 	float: right;
 }
 
-#layout-main div.anime_all div.info tr.official td.value span.icons,
 #layout-main div table td.name span.icons,
 #layout-main div table td.title span.icons,
+#layout-main div.anime_all div.info tr.official td.value span.icons,
 #layout-main table.filelist td.source span.icons {
 	float: right;
 }
 
 #layout-main div table td.title span.icons.language {
-	float:left;
+	float: left;
 	padding-right: 0.3em;
 }
 
-#layout-main div table td.name span.icons.tooltip,
 #layout-main .g_bubble.box .name span.icons.tooltip,
-#layout-main .g_bubble.stripe .name span.icons.tooltip {
-    display: block;
-    vertical-align: bottom;
-    float: none;
-    width: 16px;
+#layout-main .g_bubble.stripe .name span.icons.tooltip,
+#layout-main div table td.name span.icons.tooltip {
+	display: block;
+	vertical-align: bottom;
+	float: none;
+	width: 16px;
 }
 
-#layout-main div table td.name span.icons.tooltip .i_info,
 #layout-main .g_bubble.box .name span.icons.tooltip .i_info,
-#layout-main .g_bubble.stripe .name span.icons.tooltip .i_info {
+#layout-main .g_bubble.stripe .name span.icons.tooltip .i_info,
+#layout-main div table td.name span.icons.tooltip .i_info {
 	padding-right: 0.3em;
 }
 
@@ -109,9 +109,9 @@ body.nonav #layout-main h1 {
 }
 
 #layout-main .icons .i_icon,
-#layout-main div.group_released tr td.languages span.i_icon,
+#layout-main div.anime_all div.episodes td.action .i_icon,
 #layout-main div.anime_all div.groups td.languages span.i_icon,
-#layout-main div.anime_all div.episodes td.action .i_icon {
+#layout-main div.group_released tr td.languages span.i_icon {
 	float: left;
 }
 
@@ -132,7 +132,7 @@ body.nonav #layout-main h1 {
 	top: 0;
 	width: calc(100% - 2.1em);
 	text-align: center;
-	z-index:110;
+	z-index: 110;
 	padding: 0.25em 1em;
 }
 
@@ -148,7 +148,7 @@ ul.format-modes li {
 	cursor: pointer;
 }
 
-#statusBox { 
+#statusBox {
 	position: fixed;
 	left: 2px;
 	top: 2px;
@@ -167,11 +167,11 @@ div.loadingbar {
 }
 
 table + select {
-	margin-top:1em;
+	margin-top: 1em;
 }
 
 .shuttle {
-	min-width:15em;
+	min-width: 15em;
 }
 
 .g_info ul {
@@ -183,10 +183,10 @@ table + select {
 	padding: 0.5em 0;
 }
 
-#layout-main .g_section > h2,
-#layout-main .g_section > form > h2 {
-	padding:0;
-	text-align:left;
+#layout-main .g_section > form > h2,
+#layout-main .g_section > h2 {
+	padding: 0;
+	text-align: left;
 	margin-bottom: 0.4em;
 }
 
@@ -198,15 +198,15 @@ table + select {
 
 .g_section > form > h6 > span,
 .g_section > h6 span {
-    padding: 0.5em 0.5em 0;
-    text-align: left;
-    display: block;
+	padding: 0.5em 0.5em 0;
+	text-align: left;
+	display: block;
 }
 
 @media screen and (max-width: 600px) {
-	#layout-main div table td.name span.icons.tooltip,
 	#layout-main .g_bubble.box .name span.icons.tooltip,
-	#layout-main .g_bubble.stripe .name span.icons.tooltip {
-	    display: none;
+	#layout-main .g_bubble.stripe .name span.icons.tooltip,
+	#layout-main div table td.name span.icons.tooltip {
+		display: none;
 	}
 }

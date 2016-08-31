@@ -3,12 +3,12 @@
 	width: 21em;
 }
 
-#layout-main div.addseq_form p span.comment label,
-#layout-main div.addseq_form p span.action,
-#layout-main div.addanimetitle_form span.comment label,
-#layout-main div.addeptitle_form span.comment label,
 #layout-main div.addanimetitle_form span input,
+#layout-main div.addanimetitle_form span.comment label,
 #layout-main div.addeptitle_form p span input,
+#layout-main div.addeptitle_form span.comment label,
+#layout-main div.addseq_form p span.action,
+#layout-main div.addseq_form p span.comment label,
 #layout-main div.recommendation_add span,
 #layout-main div.recommendation_add textarea {
 	display: block;
@@ -18,8 +18,8 @@
 }
 
 #layout-main div.addanimetitle_form p span label,
-#layout-main div.addeptitle_form p span label,
 #layout-main div.addanimetitle_form p span.header,
+#layout-main div.addeptitle_form p span label,
 #layout-main div.addeptitle_form p span.header {
 	display: none;
 }

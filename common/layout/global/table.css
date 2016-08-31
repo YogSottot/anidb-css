@@ -3,19 +3,19 @@
 		display: inline-block !important;
 	}
 
-	#layout-main .g_datatable table td.name.main span.icons.tooltip,
-	#layout-main .g_datatable table td.name.main span.icons {
+	#layout-main .g_datatable table td.name.main span.icons,
+	#layout-main .g_datatable table td.name.main span.icons.tooltip {
 		vertical-align: top;
 		padding-top: 0.5em;
 	}
 
-	#layout-tabs ul.main-tabs > li.forum2,
-	#layout-tabs ul.main-tabs > li.forum3,
 	#layout-main .g_datatable table + p,
-	#layout-main .g_datatable table tr td.number,
+	#layout-main .g_datatable table thead,
 	#layout-main .g_datatable table tr td.awards,
 	#layout-main .g_datatable table tr td.check,
-	#layout-main .g_datatable table thead {
+	#layout-main .g_datatable table tr td.number,
+	#layout-tabs ul.main-tabs > li.forum2,
+	#layout-tabs ul.main-tabs > li.forum3 {
 		display: none;
 	}
 
@@ -63,19 +63,19 @@
 		padding: 0.5em;
 	}
 
-	#layout-main .g_datatable table td.thumb:before,
-	#layout-main .g_datatable table td.name.main:before {
+	#layout-main .g_datatable table td.name.main:before,
+	#layout-main .g_datatable table td.thumb:before {
 		width: 0;
 	}
 
-	#layout-main .g_datatable table tr td.thumb,
-	#layout-main .g_datatable table tr td.name.main {
+	#layout-main .g_datatable table tr td.name.main,
+	#layout-main .g_datatable table tr td.thumb {
 		height: auto;
 		width: 100% !important;
 	}
 
 	#layout-main .g_datatable table tr td.thumb {
-		padding-top:0.5em;
+		padding-top: 0.5em;
 	}
 
 	#layout-main .g_datatable table tr td.thumb img {
@@ -88,18 +88,18 @@
 	}
 
 	/*move to the end and give it full width*/
-	#layout-main .g_datatable table tr td.last.anime.name,
 	#layout-main .g_datatable table tr td.description,
+	#layout-main .g_datatable table tr td.last.anime.name,
 	#layout-main .g_datatable table tr td.url.site {
-	    order: 100;
-	    width: 100% !important;
-	    height: auto;
+		order: 100;
+		width: 100% !important;
+		height: auto;
 	}
 }
 
 @media screen and (max-width: 600px) {
-	#layout-main .g_datatable table td.name.main:before,
-	#layout-main .g_datatable table span.icons.tooltip {
+	#layout-main .g_datatable table span.icons.tooltip,
+	#layout-main .g_datatable table td.name.main:before {
 		display: none !important;
 	}
 

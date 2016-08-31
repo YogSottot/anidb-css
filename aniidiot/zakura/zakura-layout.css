@@ -11,8 +11,8 @@ table td {
 }
 
 #layout-tabs {
-    margin-top: 0em;
-    position: absolute;
+	margin-top: 0em;
+	position: absolute;
 	top: 20.2em;
 	left: 13em;
 }
@@ -21,9 +21,9 @@ table td {
 	text-align: left;
 }
 
+#layout-nav,
 #layout-search,
-#layout-search div.search,
-#layout-nav {
+#layout-search div.search {
 	height: 166px;
 }
 
@@ -37,7 +37,7 @@ table td {
 }
 
 #layout-main div.g_content {
-	padding:1em;
+	padding: 1em;
 }
 
 #layout-main > h1 {
@@ -57,8 +57,8 @@ table td {
 	padding-top: 170px;
 }
 
-#layout-menu li.sub-menu ul li.alert,
-#layout-menu li.sub-menu ul li a {
+#layout-menu li.sub-menu ul li a,
+#layout-menu li.sub-menu ul li.alert {
 	height: 22px;
 }
 
@@ -90,8 +90,8 @@ table td {
 	padding-left: 0;
 }
 
-#layout-menu li.sub-menu #menu-account li > span,
-#layout-menu li.sub-menu #menu-account li > a span {
+#layout-menu li.sub-menu #menu-account li > a span,
+#layout-menu li.sub-menu #menu-account li > span {
 	padding: 0;
 }
 
@@ -120,9 +120,9 @@ table th {
 	text-align: left;
 }
 
-#layout-main div.mylist_all table.animelist table.eplist tr.files + tr > td,
 table tr.epsrow > td,
-table tr.filesrow > td {
+table tr.filesrow > td,
+#layout-main div.mylist_all table.animelist table.eplist tr.files + tr > td {
 	padding: 0;
 }
 
@@ -150,8 +150,8 @@ table tr.filesrow > td {
 	margin-right: 0;
 }
 
-#layout-main div.main_all div.news.forum div.container,
-#layout-main div.main_all div.latest div.container {
+#layout-main div.main_all div.latest div.container,
+#layout-main div.main_all div.news.forum div.container {
 	height: calc(100% - 4.5em);
 }
 

@@ -18,8 +18,8 @@
 	background-image: url(../icons/icon/anidb_summary.gif);
 }
 
-.i_report_entry,
-.i_no_vote {
+.i_no_vote,
+.i_report_entry {
 	background-image: url(../icons/icon/anidb_no_vote.gif);
 }
 
@@ -31,13 +31,13 @@
 	background-image: url(../icons/icon/anidb_notify.gif);
 }
 
-.i_tab_expand,
-.i_plus {
+.i_plus,
+.i_tab_expand {
 	background: url(../icons/orange/plus.gif) no-repeat right;
 }
 
-.i_tab_collapse,
-.i_minus {
+.i_minus,
+.i_tab_collapse {
 	background: url(../icons/orange/minus.gif) no-repeat right;
 }
 
@@ -74,12 +74,12 @@
 	background-image: url(../icons/test/arrow_inactive.png);
 }
 
-th.c_set,
-th.c_setlatin,
+.i_inactive:not(.sorter-false),
 th.c_date,
 th.c_latin,
 th.c_number,
-.i_inactive:not(.sorter-false) {
+th.c_set,
+th.c_setlatin {
 	background-image: url(../icons/test/arrow_inactive.png);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -87,27 +87,27 @@ th.c_number,
 	padding-left: 11px;
 }
 
-th.s_forward, 
-.i_descending {
+.i_descending,
+th.s_forward {
 	background-image: url(../icons/test/arrow_down.png);
 	background-repeat: no-repeat;
 	background-position: center left;
 	padding-left: 11px;
 }
 
-th.s_reverse,
-.i_ascending {
+.i_ascending,
+th.s_reverse {
 	background-image: url(../icons/test/arrow_up.png);
 	background-repeat: no-repeat;
 	background-position: center left;
 	padding-left: 11px;
 }
 
-.i_expanded { 
+.i_expanded {
 	background: transparent url(../icons/formating/icon_contract.gif) top right no-repeat;
 }
 
-.i_collapsed { 
+.i_collapsed {
 	background: transparent url(../icons/formating/icon_expand.gif) top right no-repeat;
 }
 

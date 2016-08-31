@@ -1,28 +1,25 @@
 /*banner @1024*/
 #layout-search div.search {
-	background:url("images/banner-small.png") no-repeat scroll left top transparent;
+	background: url("images/banner-small.png") no-repeat scroll left top transparent;
 }
 
 /*banner @ 1280*/
 @media screen and (min-width: 1100px) {
-	#layout-search div.search
-	{
-		background:url("images/banner-wide.png") no-repeat scroll left top transparent;
+	#layout-search div.search {
+		background: url("images/banner-wide.png") no-repeat scroll left top transparent;
 	}
 }
 
 /*banner @ 1650*/
 @media screen and (min-width: 1475px) {
-	#layout-search div.search
-	{
-		background:url("images/banner-wider.png") no-repeat scroll left top transparent;
+	#layout-search div.search {
+		background: url("images/banner-wider.png") no-repeat scroll left top transparent;
 	}
 }
 
 /*banner @ 1920*/
 @media screen and (min-width: 1860px) {
-	#layout-search div.search
-	{
-		background:url("images/banner-widest.png") no-repeat scroll left top transparent;
+	#layout-search div.search {
+		background: url("images/banner-widest.png") no-repeat scroll left top transparent;
 	}
 }

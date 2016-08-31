@@ -3,8 +3,8 @@
 		content: attr(data-label);
 	}
 
-	#layout-main .g_datatable table td.thumb:before,
-	#layout-main .g_datatable table td.name.main:before {
-		content:"";
+	#layout-main .g_datatable table td.name.main:before,
+	#layout-main .g_datatable table td.thumb:before {
+		content: "";
 	}
 }

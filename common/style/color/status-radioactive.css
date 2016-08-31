@@ -1,54 +1,54 @@
-#layout-main td del,
-#layout-main tr.g_fs_lame,
-#layout-main input.exclude,
-#layout-main div.myvotes_all table tr td.low,
 #layout-main div.addcreatoranimerel_all tr.left_only,
 #layout-main div.addcreatorsongrel_all tr.left_only,
+#layout-main div.myvotes_all table tr td.low,
 #layout-main div.timeline_all .liststate_stalled,
+#layout-main input.exclude,
+#layout-main table.file.entities tr.invalid,
 #layout-main table.filelist tr.invalid,
-#layout-main table.file.entities tr.invalid {
+#layout-main td del,
+#layout-main tr.g_fs_lame {
 	background-color: #AAAAAA;
 }
 
 #layout-main .different,
-#layout-main div.myvotes_all table tr.g_odd td.low,
 #layout-main div.addcreatoranimerel_all tr.right_only,
 #layout-main div.addcreatorsongrel_all tr.right_only,
+#layout-main div.myvotes_all table tr.g_odd td.low,
 #layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_stalled,
-#layout-main table.filelist tr.g_odd.invalid,
-#layout-main table.file.entities tr.g_odd.invalid {
+#layout-main table.file.entities tr.g_odd.invalid,
+#layout-main table.filelist tr.g_odd.invalid {
 	background-color: #BF6269;
 }
 
+.g_bubble.box.mylist > div.top,
+.g_bubble.stripe.mylist,
 #layout-main .identical,
-#layout-main td ins,
-#layout-main input.include,
-#layout-main table.filelist tr.good,
-#layout-main table.file.entities tr.good,
-#layout-main div.msg_all tr.mod,
-#layout-main div.myvotes_all table tr td.high,
-#layout-main div.mynotifies_all table tr.mylist,
-#layout-main div.myreviews_all table tr.mylist,
-#layout-main div.mywishlist_all table tr.mylist,
-#layout-main div.latest2_all table tr.mylist,
-#layout-main div.latest2_all table tr td.mylist,
-#layout-main div.character_all div.tabbed_pane_main table tr.mylist,
-#layout-main div.creator_all div.tabbed_pane_main table tr.mylist,
-#layout-main div.collection_all div.tabbed_pane_main table tr.mylist,
-#layout-main div.song_all div.tabbed_pane_main table tr.mylist,
-#layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
-#layout-main div.anime_all div.tabbed_pane_main table tr.mylist,
-#layout-main div.animelist_all table tr.mylist,
-#layout-main div.group_released table tr.mylist,
-#layout-main div.forum div.comment div.content strong,
-#layout-main div.forum a.topictitle strong,
 #layout-main div.addcreatoranimerel_all tr.identical,
 #layout-main div.addcreatorsongrel_all tr.identical,
-#layout-main table.animelist tr.mylist,
-#layout-main div.timeline_all .liststate_completed,
 #layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
-.g_bubble.stripe.mylist,
-.g_bubble.box.mylist > div.top {
+#layout-main div.anime_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.animelist_all table tr.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.forum a.topictitle strong,
+#layout-main div.forum div.comment div.content strong,
+#layout-main div.group_released table tr.mylist,
+#layout-main div.latest2_all table tr td.mylist,
+#layout-main div.latest2_all table tr.mylist,
+#layout-main div.msg_all tr.mod,
+#layout-main div.mynotifies_all table tr.mylist,
+#layout-main div.myreviews_all table tr.mylist,
+#layout-main div.myvotes_all table tr td.high,
+#layout-main div.mywishlist_all table tr.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.timeline_all .liststate_completed,
+#layout-main input.include,
+#layout-main table.animelist tr.mylist,
+#layout-main table.file.entities tr.good,
+#layout-main table.filelist tr.good,
+#layout-main td ins {
 	background-color: #6FCF7F;
 }
 
@@ -57,26 +57,26 @@
 	background-color: #6FCF7F;
 }
 
-#layout-main td.g_odd ins,
-#layout-main table.filelist tr.g_odd.good,
-#layout-main table.file.entities tr.g_odd.good,
-#layout-main div.msg_all tr.g_odd.mod,
-#layout-main div.myvotes_all table tr.g_odd td.high,
-#layout-main div.mynotifies_all table tr.g_odd.mylist,
-#layout-main div.myreviews_all table tr.g_odd.mylist,
-#layout-main div.mywishlist_all table tr.g_odd.mylist,
-#layout-main div.latest2_all table tr.g_odd.mylist,
-#layout-main div.latest2_all table tr.g_odd td.mylist,
-#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
-#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
 #layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
 #layout-main div.animelist_all table tr.g_odd.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
 #layout-main div.group_released table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd td.mylist,
+#layout-main div.latest2_all table tr.g_odd.mylist,
+#layout-main div.msg_all tr.g_odd.mod,
+#layout-main div.mynotifies_all table tr.g_odd.mylist,
+#layout-main div.myreviews_all table tr.g_odd.mylist,
+#layout-main div.myvotes_all table tr.g_odd td.high,
+#layout-main div.mywishlist_all table tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed,
 #layout-main table.animelist tr.g_odd.mylist,
-#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed {
+#layout-main table.file.entities tr.g_odd.good,
+#layout-main table.filelist tr.g_odd.good,
+#layout-main td.g_odd ins {
 	background-color: #6FC279;
 }
 
@@ -85,37 +85,37 @@
 	background-color: #6FC279;
 }
 
-#layout-main table.filelist tr.deprecated,
 #layout-main table.file.entities tr.deprecated,
-#layout-main table.filelist tr.g_odd.deprecated,
-#layout-main table.file.entities tr.g_odd.deprecated {
+#layout-main table.file.entities tr.g_odd.deprecated,
+#layout-main table.filelist tr.deprecated,
+#layout-main table.filelist tr.g_odd.deprecated {
 	background-color: #CC9999;
 }
 
-#layout-main table.filelist tr.generic,
-#layout-main table.file.entities tr.generic {
+#layout-main table.file.entities tr.generic,
+#layout-main table.filelist tr.generic {
 	background-color: #EEEEEE;
 }
 
-#layout-main div.timeline_all .liststate_dropped,
+#layout-main div.addcharanimerel_all tr.same_name,
 #layout-main div.addcreatoranimerel_all tr.same_name,
 #layout-main div.addcreatorsongrel_all tr.same_name,
 #layout-main div.addsongcollectionrel_all tr.same_name,
-#layout-main div.addcharanimerel_all tr.same_name {
+#layout-main div.timeline_all .liststate_dropped {
 	background-color: #FFFFDF;
 }
 
 /*epbar colors*/
 #layout-main div.anime_all div.groups td.epbar div.notdone,
 #layout-main div.group_all div.group_released td.epbar div.notdone {
-	background-color:#c6c3ff;
+	background-color: #c6c3ff;
 	border-bottom: 2px solid #c6c3ff;
 }
 
 .ajax-file-upload-bar,
 #layout-main div.anime_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done {
-	background-color:#6361ff;
+	background-color: #6361ff;
 	border-bottom: 2px solid #6361ff;
 }
 
@@ -126,9 +126,9 @@
 
 /*vote graphs*/
 #layout-main div.votes_all div.graph div.bar div.colored {
-	background-color:green;
+	background-color: green;
 }
 
 #layout-main div.votes_all div.graph div.bar.my div.colored {
-	background-color:#CD9D29;
+	background-color: #CD9D29;
 }

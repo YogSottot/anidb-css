@@ -1,149 +1,149 @@
 .i_general_list,
-*.i_mylist {
+.i_mylist {
 	background-image: url(../icons/icon/anidb_mylist.gif);
 }
 
-*.i_file_addmylist {
+.i_file_addmylist {
 	background-image: url(../icons/icon/anidb_file_addmylist.gif);
 }
 
-*.i_file_editmylist {
+.i_file_editmylist {
 	background-image: url(../icons/icon/anidb_file_editmylist.gif);
 }
 
-*.i_file_removemylist {
+.i_file_removemylist {
 	background-image: url(../icons/icon/anidb_file_removemylist.gif);
 }
 
-*.i_filestate_corrupted {
+.i_filestate_corrupted {
 	background-image: url(../icons/state/anidb_filestate_corrupted.gif);
 }
 
-*.i_filestate_edited {
+.i_filestate_edited {
 	background-image: url(../icons/state/anidb_filestate_edited.gif);
 }
 
-*.i_filestate_onbluray {
+.i_filestate_onbluray {
 	background-image: url(../icons/state/anidb_filestate_onbluray.gif);
 }
 
-*.i_filestate_ondvd {
+.i_filestate_ondvd {
 	background-image: url(../icons/state/anidb_filestate_ondvd.gif);
 }
 
-*.i_filestate_ontv {
+.i_filestate_ontv {
 	background-image: url(../icons/state/anidb_filestate_ontv.gif);
 }
 
-*.i_filestate_onvhs {
+.i_filestate_onvhs {
 	background-image: url(../icons/state/anidb_filestate_onvhs.gif);
 }
 
-*.i_filestate_other {
+.i_filestate_other {
 	background-image: url(../icons/state/anidb_filestate_other.gif);
 }
 
-*.i_filestate_selfripped {
+.i_filestate_selfripped {
 	background-image: url(../icons/state/anidb_filestate_selfripped.gif);
 }
 
-*.i_filestate_streamed {
+.i_filestate_streamed {
 	background-image: url(../icons/state/anidb_filestate_streamed.gif);
 }
 
-*.i_filestate_intheaters {
+.i_filestate_intheaters {
 	background-image: url(../icons/state/anidb_filestate_theater.gif);
 }
 
-*.i_filestate_fillerep {
+.i_filestate_fillerep {
 	background-image: url(../icons/state/anidb_filestate_filler.gif);
 }
 
-*.i_liststate_unknown {
+.i_liststate_unknown {
 	background-image: url(../icons/state/anidb_liststate_unknown.gif);
 }
 
-*.i_liststate_watching {
+.i_liststate_watching {
 	background-image: url(../icons/state/anidb_liststate_watching.gif);
 }
 
-*.i_liststate_collecting {
+.i_liststate_collecting {
 	background-image: url(../icons/state/anidb_liststate_collecting.png);
 }
 
-*.i_liststate_stalled {
+.i_liststate_stalled {
 	background-image: url(../icons/state/anidb_liststate_stalled.gif);
 }
 
-*.i_liststate_dropped {
+.i_liststate_dropped {
 	background-image: url(../icons/state/anidb_liststate_dropped.gif);
 }
 
-*.i_liststate_completed {
+.i_liststate_completed {
 	background-image: url(../icons/state/anidb_liststate_completed.gif);
 }
 
-*.i_liststate_edit {
+.i_liststate_edit {
 	background-image: url(../icons/icon/anidb_liststate_edit.gif);
 }
 
-*.i_seen {
+.i_seen {
 	background-image: url(../icons/icon/anidb_seen.gif);
 }
 
-*.i_seen_no {
+.i_seen_no {
 	background-image: url(../icons/icon/anidb_seen_no.gif);
 }
 
-*.i_seen_yes {
+.i_seen_yes {
 	background-image: url(../icons/icon/anidb_seen_yes.gif);
 }
 
-*.i_state_all {
+.i_state_all {
 	background-image: url(../icons/state/anidb_state_all.gif);
 }
 
-*.i_state_deleted {
+.i_state_deleted {
 	background-image: url(../icons/state/anidb_state_deleted.gif);
 }
 
-*.i_state_mixed {
+.i_state_mixed {
 	background-image: url(../icons/state/anidb_state_mixed.gif);
 }
 
-*.i_state_oncd {
+.i_state_oncd {
 	background-image: url(../icons/state/anidb_state_oncd.gif);
 }
 
-*.i_state_onhdd {
+.i_state_onhdd {
 	background-image: url(../icons/state/anidb_state_onhdd.gif);
 }
 
-*.i_state_onserver {
+.i_state_onserver {
 	background-image: url(../icons/state/anidb_state_onserver.png);
 }
 
-*.i_state_unknown {
+.i_state_unknown {
 	background-image: url(../icons/state/anidb_state_unknown.gif);
 }
 
-*.i_vote_pending {
+.i_vote_pending {
 	background-image: url(../icons/icon/anidb_no_vote.gif);
 }
 
-*.i_mylist_ainfo {
+.i_mylist_ainfo {
 	width: 16px;
 	height: 16px;
 	background-image: url(../icons/formating/information.png);
 }
 
-*.i_mylist_ainfo_greyed {
+.i_mylist_ainfo_greyed {
 	width: 16px;
 	height: 16px;
 	background-image: url(../icons/formating/information_greyed.png);
 }
 
-*.i_mylist_ainfo_loading {
+.i_mylist_ainfo_loading {
 	width: 16px;
 	height: 16px;
 	background-image: url(../icons/formating/loading.gif);

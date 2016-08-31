@@ -16,7 +16,7 @@
 }
 
 .internet_explorer#anidb #layout-main div.main_all .stripe.g_bubble > .data .tooltip span.text {
-	width:300px;
+	width: 300px;
 }
 
 /*news*/
@@ -31,8 +31,8 @@
 }
 
 #layout-main div.main_all div.news.forum .g_bubble.stripe {
-	margin:0;
-	height:100%;
+	margin: 0;
+	height: 100%;
 	max-width: none;
 	width: 100%;
 }
@@ -82,27 +82,27 @@
 }
 
 @media screen and (max-width: 1400px) {
-	#layout-main div.main_all div.news.forum.what div.latestnews,
-	#layout-main div.main_all div.news.forum.events div.latestnews {
+	#layout-main div.main_all div.news.forum.events div.latestnews,
+	#layout-main div.main_all div.news.forum.what div.latestnews {
 		order: 1;
 		max-width: calc(100% - 20em);
 	}
 
-	#layout-main div.main_all div.news.forum.what div.stats,
-	#layout-main div.main_all div.news.forum.events div.stats {
+	#layout-main div.main_all div.news.forum.events div.stats,
+	#layout-main div.main_all div.news.forum.what div.stats {
 		order: 2;
 	}
 
-	#layout-main div.main_all div.news.forum div.what,
-	#layout-main div.main_all div.news.forum div.events {
+	#layout-main div.main_all div.news.forum div.events,
+	#layout-main div.main_all div.news.forum div.what {
 		order: 3;
 	}
 
-	#layout-main div.main_all div.news.forum div.what,
-	#layout-main div.main_all div.news.forum div.events {
+	#layout-main div.main_all div.news.forum div.events,
+	#layout-main div.main_all div.news.forum div.what {
 		min-width: 0 !important;
 		max-width: none;
-		width:100%;
+		width: 100%;
 	}
 }
 
@@ -119,8 +119,8 @@
 }
 
 @media screen and (max-width: 550px) {
-	#layout-main div.main_all div.news.forum div.stats,
-	#layout-main div.main_all div.news.forum div.latestnews {
+	#layout-main div.main_all div.news.forum div.latestnews,
+	#layout-main div.main_all div.news.forum div.stats {
 		max-width: none !important;
 	}
 }
@@ -139,40 +139,40 @@
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box {
-	width:163px;
-	max-width:250px;
+	width: 163px;
+	max-width: 250px;
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box > div.top div.name {
-	height:4.5em;
+	height: 4.5em;
 	overflow: hidden;
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box .name span.icons.tooltip .i_info {
-	height:4.5em;
+	height: 4.5em;
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box > div.image {
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
-	padding:0;
-	height:225px;
+	padding: 0;
+	height: 225px;
 }
 
-#layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons,
-#layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc {
+#layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc,
+#layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons {
 	display: none;
 }
 
+#layout-main div.main_all div.calendar .g_bubble.box.no10,
 #layout-main div.main_all div.calendar .g_bubble.box.no3,
 #layout-main div.main_all div.calendar .g_bubble.box.no4,
 #layout-main div.main_all div.calendar .g_bubble.box.no5,
 #layout-main div.main_all div.calendar .g_bubble.box.no6,
 #layout-main div.main_all div.calendar .g_bubble.box.no7,
 #layout-main div.main_all div.calendar .g_bubble.box.no8,
-#layout-main div.main_all div.calendar .g_bubble.box.no9,
-#layout-main div.main_all div.calendar .g_bubble.box.no10 {
+#layout-main div.main_all div.calendar .g_bubble.box.no9 {
 	display: none;
 }
 
@@ -283,7 +283,7 @@
 
 #layout-main div.main_all div.latest div.container {
 	height: calc(100% - 3.6em);
-   	box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 @media screen and (max-width: 800px) {
@@ -309,13 +309,13 @@
 
 #layout-main div.main_all div.datablocks > div {
 	margin: 0 0.5em 1em;
-	width:100%;
+	width: 100%;
 	max-width: 400px;
 	max-width: calc(50% - 11px);
 }
 
 #layout-main div.main_all div.datablocks .g_bubble.stripe {
-	width:100%;
+	width: 100%;
 	margin: 0;
 	min-height: 8em;
 }
@@ -325,11 +325,11 @@
 }
 
 #layout-main div.main_all div.datablocks div.similaranime div.stripe div.data {
-	margin:0.5em 6em;
+	margin: 0.5em 6em;
 }
 
 #layout-main div.main_all div.datablocks div.similaranime div.image.other {
-	float:right;
+	float: right;
 }
 
 @media screen and (max-width: 1000px) {
@@ -378,20 +378,21 @@
 }
 
 #layout-main div.main_all div.account {
-	float:right;
+	float: right;
 	margin-left: 0.5em;
 	margin-bottom: 0.5em;
 	width: 23em;
 }
 
 #layout-main div.main_all div.account ul.tabs {
-	margin-bottom:-2px;
+	margin-bottom: -2px;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
 }
+
 #layout-main div.main_all div.account ul.tabs li {
 	width: 50%;
 	padding: 0.25em 0.5em;
@@ -407,17 +408,17 @@
 }
 
 #layout-main div.main_all div.account table {
-	margin:0;
-	padding:0.5em 0;
+	margin: 0;
+	padding: 0.5em 0;
 	width: 100%;
 }
 
 #layout-main div.main_all div.account table th {
-	display:none;
+	display: none;
 }
 
-#layout-main div.main_all div.account div.login input[type="text"],
-#layout-main div.main_all div.account div.login input[type="password"] {
+#layout-main div.main_all div.account div.login input[type="password"],
+#layout-main div.main_all div.account div.login input[type="text"] {
 	padding: 8px;
 	width: calc(100% - 1.5em);
 }
@@ -444,10 +445,10 @@
 }
 
 #layout-main div.main_all div.about ul {
-	list-style-type:disc;
-	padding-left:1.5em;
+	list-style-type: disc;
+	padding-left: 1.5em;
 }
 
 #layout-main div.main_all div.about ul li {
-	padding-top:0.25em;
+	padding-top: 0.25em;
 }

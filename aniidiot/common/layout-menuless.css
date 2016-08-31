@@ -14,8 +14,8 @@
 	height: 35em;
 }
 
-#layout-nav div.main_search select,
-#layout-nav div.main_search input.text {
+#layout-nav div.main_search input.text,
+#layout-nav div.main_search select {
 	padding: 3px;
 	margin-top: 7em;
 }
@@ -39,8 +39,8 @@
 	margin-left: .5em;
 }
 
-#layout-menu ul li,
 #layout-menu > li:hover ul,
+#layout-menu ul li,
 #layout-nav div.main_search a.advsearch,
 #layout-nav div.main_search form.random {
 	display: block;
@@ -72,7 +72,7 @@
 }
 
 #layout-search .text {
-	width:400px;
+	width: 400px;
 }
 
 #layout-tabs ul {

@@ -1,21 +1,21 @@
 #layout-main div.forum li.header div,
 #layout-main div.forum li.header div {
-	color:#FFFFFF;
+	color: #FFFFFF;
 }
 
-#layout-main div.forum hr,
 #layout-main div.cmt_all div.cmt_add hr,
-#layout-main div.forum div.g_bubble.threads {
-	background-color:#4A4A5A;
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.forum hr {
+	background-color: #4A4A5A;
 }
 
-#layout-main div.forum div.signature,
-#layout-main div.forum .g_bubble.infobox .row + .row,
 #layout-main div.cmt_entries div.profile,
-#layout-main div.forum div.quickreply textarea,
+#layout-main div.forum .g_bubble.infobox .row + .row,
+#layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 #layout-main div.forum .g_bubble.infobox h3,
-#layout-main div.forum .g_bubble.infobox div.data p.subtitle {
-	border-color:#9A9CA1;
+#layout-main div.forum div.quickreply textarea,
+#layout-main div.forum div.signature {
+	border-color: #9A9CA1;
 }
 
 #layout-main div.forum .g_bubble.infobox .row > div.middle .bar {
@@ -33,8 +33,8 @@
 	background-color: #bfc2c9;
 }
 
-#layout-main div.forum ul.topics li.row:hover,
-#layout-main div.forum ul.topics li.g_odd.row:hover {
+#layout-main div.forum ul.topics li.g_odd.row:hover,
+#layout-main div.forum ul.topics li.row:hover {
 	background-color: #ACAEB4;
 }
 
@@ -46,7 +46,7 @@
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored {
-	color:#AA0000;
+	color: #AA0000;
 }
 
 #layout-main div.forum div.quickreply textarea {

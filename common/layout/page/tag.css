@@ -11,9 +11,9 @@
 	display: none;
 }
 
-#layout-main div.tag_all div.note,
-#layout-main div.tag_all div.fullsearch_form {
-	clear:none;
+#layout-main div.tag_all div.fullsearch_form,
+#layout-main div.tag_all div.note {
+	clear: none;
 }
 
 #layout-main div.tag_all table.characterlist,
@@ -29,20 +29,20 @@
 	margin-right: 17.5em;
 }
 
-#layout-main div.tag_all table.animelist th.tagged_episodes,
-#layout-main div.tag_all table.animelist th.tagged_character {
+#layout-main div.tag_all table.animelist th.tagged_character,
+#layout-main div.tag_all table.animelist th.tagged_episodes {
 	white-space: normal;
 }
 
 #layout-main div.tag_all table.animelist tr td.name,
 #layout-main div.tag_all table.mangalist tr td.name {
-	width:50%;
+	width: 50%;
 }
 
 #layout-main div.tag_all table.animelist tr td.rating,
 #layout-main div.tag_all table.mangalist tr td.rating {
 	text-align: left;
-	min-width:6em;
+	min-width: 6em;
 }
 
 #layout-main div.tag_all table.animelist tr td.count,
@@ -54,7 +54,7 @@
 
 #layout-main div.tag_all table.animelist tr td.count,
 #layout-main div.tag_all table.mangalist tr td.count {
-	min-width:4em;
+	min-width: 4em;
 }
 
 #layout-main div.tag_all .g_definitionlist div.tag-column {
@@ -77,20 +77,20 @@
 	-moz-column-gap: auto;
 	-webkit-column-gap: auto;
 	column-gap: auto;
-	-moz-column-rule:none;
-	-webkit-column-rule:none;
-	column-rule:none;
+	-moz-column-rule: none;
+	-webkit-column-rule: none;
+	column-rule: none;
 }
 
 #layout-main div.tag_all table tr td {
-	padding-left:0.5em;
-	padding-right:0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
 #addtag_animetb_parentid + .select2,
-#addtag_eptb_parentid + .select2,
 #addtag_chartb_parentid + .select2,
 #addtag_creatortb_parentid + .select2,
+#addtag_eptb_parentid + .select2,
 #addtag_mangatb_parentid + .select2 {
 	width: 37em !important;
 }

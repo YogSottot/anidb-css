@@ -1,98 +1,86 @@
-body
-{
+body {
 	color: #555040;
 	background-color: #bebcad;
 }
 
-a:link,a:active,a:visited
-{
+a:active,
+a:link,
+a:visited {
 	color : #006699;
 }
 
-#layout-nav a
-{
+#layout-nav a {
 	color: #4f5e77;
 	font-weight: bold;
 }
 
-span.link,
 a:hover,
-#layout-nav a:hover
-{
+span.link,
+#layout-nav a:hover {
 	color : #98b974;
 }
 
-#layout-nav
-{
+#layout-nav {
 	background: #e0dbc9;
 }
 
+#layout-footer,
+#layout-main,
+#layout-main div.tabbed_pane ul.tabs li.selected,
 #layout-menu ul,
 #layout-tabs ul li a:hover,
-#layout-tabs ul li.selected a,
-#layout-main div.tabbed_pane ul.tabs li.selected,
-#layout-main,
-#layout-footer
-{
+#layout-tabs ul li.selected a {
 	background-color: #e9e6d9;
 }
 
-#layout-main th a,
+#layout-main div.g_timedentry h4 a,
 #layout-main h1 a,
-#layout-main div.g_timedentry h4 a
-{
+#layout-main th a {
 	color: #e9e6d9;
 }
 
 th,
-#layout-main h1,
 #layout-main div.g_timedentry h4,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-main h1 {
 	color: #e9e6d9;
 	background-color: #8c8673;
 }
 
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
+#layout-main div.tabbed_pane ul.tabs li.selected {
 	color: black;
 }
 
-#layout-tabs ul li a,
-#layout-main tr.g_odd,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.votes_all div.graph.eps div.g_odd,
 #layout-main li.g_odd,
 #layout-main span.g_odd,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd
-{
+#layout-main tr.g_odd,
+#layout-tabs ul li a {
 	background-color: #e0dbc9;
 }
 
+#layout-main div.tabbed_pane ul.tabs li:hover,
 #layout-menu ul li a:hover,
-#layout-tabs ul li a:hover,
-#layout-main div.tabbed_pane ul.tabs li:hover
-{
+#layout-tabs ul li a:hover {
 	color: inherit;
 }
 
 #layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-menu ul li:hover
-{
+#layout-menu ul li:hover {
 	background-color: #e0dbc9;
 }
 
-#layout-tabs ul li.selected a,
-#layout-tabs ul li.selected a:hover,
 #layout-main div.tabbed_pane ul.tabs li.selected,
-#layout-main div.tabbed_pane ul.tabs li:hover
-{
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-tabs ul li.selected a,
+#layout-tabs ul li.selected a:hover {
 	background-color: #E9E6D9;
 }
 
-.g_bubble.stripe,
 .g_bubble,
-.g_bubble .g_bubble  .g_bubble
-{
+.g_bubble .g_bubble .g_bubble,
+.g_bubble.stripe {
 	background-color: #E9E6D9;
 }
 
@@ -100,66 +88,56 @@ th,
 .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.comment,
-#layout-main div.main_all .g_bubble
-{
+#layout-main div.main_all .g_bubble {
 	background-color: #E0DBC9;
 }
 
-.g_bubble
-{
+.g_bubble {
 	border: 1px dotted #999380;
 }
 
-#layout-main div.main_all div.g_section > h2
-{
-	padding:2px;
-	color:#E9E6D9;
+#layout-main div.main_all div.g_section > h2 {
+	padding: 2px;
+	color: #E9E6D9;
 	border: 1px dotted #867F6A;
-	background-color:#8C8673;
+	background-color: #8C8673;
 }
 
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum div.g_bubble.navbar,
-#layout-main div.forum div.g_bubble.search,
-#layout-main div.forum div.g_bubble.posting-box,
-#layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
-#layout-main div.forum ul.topics li.row:hover,
+#layout-main div.forum div.g_bubble.posting-box,
+#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.main_all div.g_section > h2
-{
-	background-color:#BEBCAD;
+#layout-main div.forum ul.topics li.row:hover,
+#layout-main div.main_all div.g_section > h2 {
+	background-color: #BEBCAD;
 }
 
-#layout-main div.forum ul.topics li.g_odd.row
-{
-	background-color:#E0DBC9;
+#layout-main div.forum ul.topics li.g_odd.row {
+	background-color: #E0DBC9;
 }
 
-#layout-main div.forum ul.topics li.row
-{
-	background-color:#E9E6D9;
+#layout-main div.forum ul.topics li.row {
+	background-color: #E9E6D9;
 }
 
 #layout-main div.forum li.header div,
-#layout-main div.forum li.header div
-{
-	color:#E9E6D9;
+#layout-main div.forum li.header div {
+	color: #E9E6D9;
 }
 
-#layout-main div.forum div.g_bubble.threads
-{
-	background-color:#8C8673;
+#layout-main div.forum div.g_bubble.threads {
+	background-color: #8C8673;
 }
 
-#layout-main div.forum ul.topics
-{
-	border-left-color:#8C8673;
-	border-right-color:#8C8673;
+#layout-main div.forum ul.topics {
+	border-left-color: #8C8673;
+	border-right-color: #8C8673;
 }
 
-#layout-search div.g_bubble.search
-{
+#layout-search div.g_bubble.search {
 	background-color: transparent;
-	border:none;
+	border: none;
 }

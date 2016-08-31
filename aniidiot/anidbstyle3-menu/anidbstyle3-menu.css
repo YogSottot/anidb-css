@@ -15,7 +15,6 @@
 @import "../common/floaty-menu-mobile.css";
 @import "anidbstyle3-menu-color.css";
 
-#layout-footer:after
-{
-	content:"design by deridiot";
+#layout-footer:after {
+	content: "design by deridiot";
 }

@@ -1,21 +1,22 @@
 #layout-search ul.quicksearch {
 	margin: -2px 0 0;
 	max-height: 40em;
-	padding:0;
+	padding: 0;
 	overflow-y: auto;
 	position: relative;
-	list-style-type:none;
+	list-style-type: none;
 	width: calc(100% - 86px);
 	z-index: 10;
 }
 
 #layout-search ul.quicksearch li {
-	margin:0px;
-	padding:2px;
+	margin: 0px;
+	padding: 2px;
 	cursor: pointer;
 }
+
 #layout-search ul.quicksearch li:last-child {
-	text-align:center;
+	text-align: center;
 }
 
 #layout-search ul.quicksearch .g_bubble.stripe {
@@ -23,7 +24,7 @@
 	border-left: none;
 	border-right: none;
 	border-radius: 0;
-	margin-top:-1px;
+	margin-top: -1px;
 	margin-bottom: 0;
 	min-height: 6.4em;
 	box-sizing: border-box;
@@ -57,8 +58,8 @@
 	min-height: 0 !important;
 }
 
-#layout-search select,
-#layout-search input.text {
+#layout-search input.text,
+#layout-search select {
 	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
@@ -72,8 +73,8 @@
 	width: 94px;
 }
 
-#layout-search select,
-#layout-search input {
+#layout-search input,
+#layout-search select {
 	position: relative;
 	z-index: 100;
 }

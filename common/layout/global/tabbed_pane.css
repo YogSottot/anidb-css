@@ -12,6 +12,7 @@
 	display: inline-block;
 	vertical-align: top;
 }
+
 #layout-main div.tabbed_pane div.pane.hide {
 	display: none;
 }
@@ -38,7 +39,7 @@
 }
 
 #layout-main div.tabbed_pane_main {
-	clear:both;
+	clear: both;
 }
 
 #layout-main div.tabbed_pane_main table {
@@ -49,8 +50,8 @@
 	margin-top: 1em;
 }
 
-#layout-main div.tabbed_pane ul.tabs .save_as_default,
-#layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
+#layout-main div.tabbed_pane ul.tabs .reset_selection_mode,
+#layout-main div.tabbed_pane ul.tabs .save_as_default {
 	display: none;
 }
 
@@ -60,12 +61,13 @@
 
 @media screen and (max-width: 1600px) {
 	#layout-tabs .applet,
-	#layout-tabs .quickvote,
+	#layout-tabs .myrecs,
 	#layout-tabs .myreviews,
-	#layout-tabs .myrecs {
+	#layout-tabs .quickvote {
 		display: none !important;
 	}
 }
+
 @media screen and (max-width: 950px) {
 	#layout-tabs ul {
 		white-space: nowrap;
@@ -85,16 +87,16 @@
 }
 
 @media screen and (max-width: 550px) {
-	#layout-main div.tabbed_pane ul.tabs li.fake,
-	#anidb.anime #layout-tabs ul.main-tabs > li.forum {
+	#anidb.anime #layout-tabs ul.main-tabs > li.forum,
+	#layout-main div.tabbed_pane ul.tabs li.fake {
 		display: none;
 	}
 }
 
 @media screen and (max-width: 450px) {
-	#layout-tabs ul.main-tabs > li.editnames,
 	#layout-main div.tabbed_pane ul.tabs .contribution,
 	#layout-main div.tabbed_pane ul.tabs .save_as_default,
+	#layout-tabs ul.main-tabs > li.editnames,
 	#layout-tabs ul.main-tabs > li.reviews {
 		display: none;
 	}

@@ -1,94 +1,82 @@
-html
-{
+html {
 	color: #2E3C55;
 	border-color: #FFFFFF;
 	background: #f2f3ee;
 }
 
-span.link,
-a
-{
+a,
+span.link {
 	text-decoration: none;
 	color: #4e4f47;
 	cursor: pointer;
 }
 
-span.link:hover,
-a:hover
-{
+a:hover,
+span.link:hover {
 	text-decoration: underline;
 }
 
-a.i_icon:hover, a.i_inline:hover
-{
+ a.i_inline:hover,
+a.i_icon:hover {
 	text-decoration: none;
 }
 
-#layout-main a:active
-{
+#layout-main a:active {
 	color: red;
 }
 
-#layout-nav
-{
+#layout-nav {
 	background: #a9aca3;
 }
 
-#layout-menu
-{
+#layout-menu {
 	color: black;
 }
 
 th,
+#layout-main div.cmt_all div.comment h4,
 #layout-main div.forum div.g_bubble.header,
 #layout-main div.forum div.g_bubble.navbar,
-#layout-main div.forum div.g_bubble.search,
-#layout-main div.forum div.g_bubble.posting-box,
-#layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
-#layout-main div.forum ul.topics li.row:hover,
+#layout-main div.forum div.g_bubble.posting-box,
+#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.main_all div.news h2,
-#layout-main div.cmt_all div.comment h4
-{
+#layout-main div.forum ul.topics li.row:hover,
+#layout-main div.main_all div.news h2 {
 	color: black;
 	background-color: #a9aca3;
 }
 
-#layout-main tr.g_odd,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.votes_all div.graph.eps div.g_odd,
 #layout-main li.g_odd,
 #layout-main span.g_odd,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd
-{
+#layout-main tr.g_odd {
 	background-color: #dcddd9;
 }
 
+#layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul li a,
-#layout-tabs ul li.g_odd a,
-#layout-main div.tabbed_pane ul.tabs li
-{
-	background-color:#A9ACA3;
-	color:black;
+#layout-tabs ul li.g_odd a {
+	background-color: #A9ACA3;
+	color: black;
 }
 
-#layout-tabs ul li a:hover,
-#layout-main div.tabbed_pane ul.tabs li:hover
-{
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-tabs ul li a:hover {
 	background-color: #F2F3EE;
 }
 
-#layout-tabs ul li.selected a,
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-tabs ul li.selected a {
 	background-color: #F2F3EE;
 }
 
-.g_bubble.stripe,
 .g_bubble,
-.g_bubble .g_bubble  .g_bubble,
-#layout-main div.forum ul.topics li.row
-{
+.g_bubble .g_bubble .g_bubble,
+.g_bubble.stripe,
+#layout-main div.forum ul.topics li.row {
 	background-color: #F2F3EE;
 }
 
@@ -96,20 +84,17 @@ th,
 .g_bubble .g_bubble .g_bubble .g_bubble,
 #layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.comment,
-#layout-main div.main_all .g_bubble,
-#layout-main div.forum ul.topics li.g_odd.row
-{
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.main_all .g_bubble {
 	background-color: #DCDDD9;
 }
 
-#layout-main div.main_all div.g_section > h2
-{
-	background-color:#A9ACA3;
+#layout-main div.main_all div.g_section > h2 {
+	background-color: #A9ACA3;
 	border: none;
-	padding:2px;
+	padding: 2px;
 }
 
-.g_bubble
-{
+.g_bubble {
 	border: 1px dotted #98AAB1;
 }

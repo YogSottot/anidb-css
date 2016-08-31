@@ -1,107 +1,92 @@
-body
-{
+body {
 	color: #2E3C55;
 	border-color: #FFFFFF;
 	background: #a1b4cd url(images/blue-bg-nav.gif) left repeat-y;
 }
 
-a:link,a:active,a:visited
-{
+a:active,
+a:link,
+a:visited {
 	color : #006699;
 }
 
-#layout-nav a
-{
+#layout-nav a {
 	color: #EFEFEF;
 }
 
-span.link,
 a:hover,
-#layout-nav a:hover
-{
+span.link,
+#layout-nav a:hover {
 	color : #FFFFFF;
 }
 
-#layout-nav
-{
+#layout-nav {
 	background: #486187;
 }
 
-#layout-main,
-#layout-footer
-{
+#layout-footer,
+#layout-main {
 	background-color: #e7f0ff;
 }
 
 th,
-#layout-main h1,
-#layout-main div.g_timedentry h4
-{
+#layout-main div.g_timedentry h4,
+#layout-main h1 {
 	color: #4f5e77;
 	background-color: #a1b4cd;
 }
 
-#layout-main tr.g_odd,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main div.votes_all div.graph.eps div.g_odd,
 #layout-main li.g_odd,
 #layout-main span.g_odd,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd
-{
+#layout-main tr.g_odd {
 	background-color: #cbd6e5;
 }
 
-#layout-menu ul li:hover
-{
+#layout-menu ul li:hover {
 	background-color: #577096;
 }
 
+#layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul li a,
-#layout-tabs ul li.g_odd a,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-tabs ul li.g_odd a {
 	background-color: #CBD6E5;
 }
 
-#layout-tabs ul li a:hover,
-#layout-main div.tabbed_pane ul.tabs li:hover
-{
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-tabs ul li a:hover {
 	background-color: #E7F0FF;
-	color:#006699;
+	color: #006699;
 }
 
-#layout-tabs ul li.selected a,
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-tabs ul li.selected a {
 	background-color: #E7F0FF;
 }
 
-.g_bubble.stripe,
 .g_bubble,
-.g_bubble .g_bubble  .g_bubble
-{
+.g_bubble .g_bubble .g_bubble,
+.g_bubble.stripe {
 	background-color: #E7F0FF;
 }
 
 .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble,
-
-#layout-main div.main_all .g_bubble
-{
+#layout-main div.main_all .g_bubble {
 	background-color: #CBD6E5;
 }
 
-#layout-main div.main_all div.g_section > h2
-{
-	background-color:#A1B4CD;
+#layout-main div.main_all div.g_section > h2 {
+	background-color: #A1B4CD;
 	border: none;
-	padding:2px;
-	color:#2E3C55;
+	padding: 2px;
+	color: #2E3C55;
 }
 
-#layout-search div.g_bubble.search
-{
+#layout-search div.g_bubble.search {
 	background-color: transparent;
-	border:none;
+	border: none;
 }
 
 /*tooltips*/

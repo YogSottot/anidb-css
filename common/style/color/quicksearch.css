@@ -1,13 +1,13 @@
 #layout-search ul.quicksearch {
 	background-color: #b1b3b5;
-	border:1px solid #34394d;
+	border: 1px solid #34394d;
 	box-shadow: 0 4px 3px 2px rgba(0, 0, 0, 0.2);
 	border-radius: 0 0 5px 5px;
 }
 
-#layout-search ul.quicksearch li:hover,
-#layout-search ul.quicksearch li.focus {
-	background-color:#BBBBBB;
+#layout-search ul.quicksearch li.focus,
+#layout-search ul.quicksearch li:hover {
+	background-color: #BBBBBB;
 }
 
 #layout-search ul.quicksearch li.g_odd {
@@ -15,8 +15,8 @@
 }
 
 /*disable shadow so it doesn't overlap with the quicksearch pane*/
-#layout-search ul.quicksearch .g_bubble.stripe,
 #layout-search input.text.focus,
-#layout-search input.text.focus + select {
+#layout-search input.text.focus + select,
+#layout-search ul.quicksearch .g_bubble.stripe {
 	box-shadow: none;
 }

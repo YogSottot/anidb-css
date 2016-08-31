@@ -1,47 +1,47 @@
-#layout-main div.addrelform ul.alt_titles li,
-#layout-main div.addrelform span.main {
+#layout-main div.addrelform span.main,
+#layout-main div.addrelform ul.alt_titles li {
 	line-height: 16px;
 }
 
-#layout-main div.addseq_all div.explanation div.description,
-#layout-main div.addsongsongrel_all div.explanation div.description,
 #layout-main div.addcharcharrel_all div.explanation div.description,
-#layout-main div.addcreatorcreatorrel_all div.explanation div.description {
+#layout-main div.addcreatorcreatorrel_all div.explanation div.description,
+#layout-main div.addseq_all div.explanation div.description,
+#layout-main div.addsongsongrel_all div.explanation div.description {
 	margin: 1em 0;
 	padding: 4px;
 }
 
-#layout-main div.addseq_all div.explanation div.description dl + dl,
-#layout-main div.addsongsongrel_all div.explanation div.description dl + dl,
 #layout-main div.addcharcharrel_all div.explanation div.description dl + dl,
-#layout-main div.addcreatorcreatorrel_all div.explanation div.description dl + dl {
+#layout-main div.addcreatorcreatorrel_all div.explanation div.description dl + dl,
+#layout-main div.addseq_all div.explanation div.description dl + dl,
+#layout-main div.addsongsongrel_all div.explanation div.description dl + dl {
 	margin-top: 0.25em;
 	padding: 0.25em 0;
 }
 
-#layout-main div.addseq_all div.explanation div.description dl,
-#layout-main div.addsongsongrel_all div.explanation div.description dl,
 #layout-main div.addcharcharrel_all div.explanation div.description dl,
 #layout-main div.addcreatorcreatorrel_all div.explanation div.description dl,
-#layout-main div.addcreatorsongrel_all div.explanation div.description dl {
+#layout-main div.addcreatorsongrel_all div.explanation div.description dl,
+#layout-main div.addseq_all div.explanation div.description dl,
+#layout-main div.addsongsongrel_all div.explanation div.description dl {
 	margin: 0;
 	text-align: left;
 	width: 100%;
 }
 
-#layout-main div.addseq_all div.explanation div.description dt,
-#layout-main div.addsongsongrel_all div.explanation div.description dt,
 #layout-main div.addcharcharrel_all div.explanation div.description dt,
 #layout-main div.addcreatorcreatorrel_all div.explanation div.description dt,
-#layout-main div.addcreatorsongrel_all div.explanation div.description dt {
+#layout-main div.addcreatorsongrel_all div.explanation div.description dt,
+#layout-main div.addseq_all div.explanation div.description dt,
+#layout-main div.addsongsongrel_all div.explanation div.description dt {
 	width: 30em;
 }
 
-#layout-main div.addseq_all div.explanation div.description dd,
-#layout-main div.addsongsongrel_all div.explanation div.description dd,
 #layout-main div.addcharcharrel_all div.explanation div.description dd,
 #layout-main div.addcreatorcreatorrel_all div.explanation div.description dd,
-#layout-main div.addcreatorsongrel_all div.explanation div.description dd {
+#layout-main div.addcreatorsongrel_all div.explanation div.description dd,
+#layout-main div.addseq_all div.explanation div.description dd,
+#layout-main div.addsongsongrel_all div.explanation div.description dd {
 	margin-left: 31em;
 }
 
@@ -50,10 +50,10 @@
 	height: 16px;
 }
 
+#layout-main div.addcharanimerel_all div.massadd div.text textarea,
 #layout-main div.addcreatoranimerel_all div.massadd div.text textarea,
 #layout-main div.addcreatorsongrel_all div.massadd div.text textarea,
-#layout-main div.addsonganimerel_all div.massadd div.text textarea,
-#layout-main div.addcharanimerel_all div.massadd div.text textarea {
+#layout-main div.addsonganimerel_all div.massadd div.text textarea {
 	width: 45%;
 	height: 200px;
 }
@@ -87,9 +87,9 @@
 	width: 500px;
 }
 
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs th.length,
 #layout-main div.addsongcollectionrel_all div.massadd_new_songs th.mediumno,
-#layout-main div.addsongcollectionrel_all div.massadd_new_songs th.trackno,
-#layout-main div.addsongcollectionrel_all div.massadd_new_songs th.length {
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs th.trackno {
 	width: 7em;
 }
 
@@ -101,8 +101,8 @@
 	min-width: 15em;
 }
 
-#layout-main div.addsongcollectionrel_all div.massadd_new_songs td input[type="text"],
-#layout-main div.addcharanimerel_all div.editcarel table {
+#layout-main div.addcharanimerel_all div.editcarel table,
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs td input[type="text"] {
 	width: 100%;
 }
 
@@ -129,23 +129,23 @@
 	cursor: default;
 }
 
-#layout-main div.addcharanimerel_all div.massadd  td.seiyuu.name.original input,
 #layout-main div.addcharanimerel_all div.massadd td.char.name.original input,
-#layout-main div.addcharanimerel_all div.massadd td.comment input {
-	width:6em;
+#layout-main div.addcharanimerel_all div.massadd td.comment input,
+#layout-main div.addcharanimerel_all div.massadd td.seiyuu.name.original input {
+	width: 6em;
 }
 
 #layout-main div.addcharanimerel_all div.massedit table,
 #layout-main div.addcharanimerel_all div.massedit table td input[type="text"] {
-	width:98%;
+	width: 98%;
 }
 
-#layout-main div.addcharanimerel_all div.massedit table td  {
-	padding-right:1em;
+#layout-main div.addcharanimerel_all div.massedit table td {
+	padding-right: 1em;
 }
 
-#layout-main div.g_content.rel_all td.relation.missing,
+#layout-main div.g_content.addcharanimerel_all td.relation.missing,
 #layout-main div.g_content.characterrel_all td.relation.missing,
-#layout-main div.g_content.addcharanimerel_all td.relation.missing {
+#layout-main div.g_content.rel_all td.relation.missing {
 	visibility: hidden;
 }

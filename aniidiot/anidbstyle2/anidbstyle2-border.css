@@ -1,11 +1,11 @@
 #layout-main div.anime_all .staffblock + .staffblock table,
-#layout-main div.ep_all .staffblock + .staffblock table,
-#layout-main div.anime_all div.episodes tr.newtype td {
+#layout-main div.anime_all div.episodes tr.newtype td,
+#layout-main div.ep_all .staffblock + .staffblock table {
 	border-top: 1px double;
 }
 
-#layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected {
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-main div.tabbed_pane ul.tabs li:hover {
 	border-bottom: 2px double;
 }
 
@@ -17,12 +17,12 @@
 	border-radius: 0px 0px 5px 5px;
 }
 
-input[type="submit"],
-input[type="button"],
 button,
-#layout-main div.main_all h2,
+input[type="button"],
+input[type="submit"],
 #layout-main div.g_menu.filter_menu div.settings input[type="text"],
-#layout-main div.g_menu.filter_menu div.settings select {
+#layout-main div.g_menu.filter_menu div.settings select,
+#layout-main div.main_all h2 {
 	border-radius: 5px;
 }
 
@@ -31,21 +31,26 @@ button,
 	border-top: 1px solid;
 }
 
-input[type="submit"],
-input[type="button"],
 button,
-#layout-main div.g_menu.filter_menu div.settings input[type="text"],
-#layout-main div.g_menu.filter_menu div.settings select,
+input[type="button"],
+input[type="submit"],
 #layout-main > h1,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.news h4,
-#layout-main div.g_timedentry h4 {
+#layout-main div.g_menu.filter_menu div.settings input[type="text"],
+#layout-main div.g_menu.filter_menu div.settings select,
+#layout-main div.g_timedentry h4,
+#layout-main div.news h4 {
 	border: 1px solid;
 }
 
 .tooltip span.text:after {
 	border-width: 10px;
 }
+
 .tooltip span.text:before {
 	border-width: 11px;
+}
+
+.g_button a {
+	border: none;
 }

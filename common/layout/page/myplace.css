@@ -2,8 +2,9 @@
 #layout-main div.g_menu {
 	margin-bottom: 0;
 }
-#layout-main div.userpage_all div.g_menu.right,
-#layout-main div.userpage_all div.g_menu.left {
+
+#layout-main div.userpage_all div.g_menu.left,
+#layout-main div.userpage_all div.g_menu.right {
 	float: left;
 	clear: left;
 	width: 20em;
@@ -31,9 +32,9 @@
 }
 
 #layout-main div.userpage_all div.charts div.mylisthistory.added,
-#layout-main div.userpage_all div.userdetails .block div table,
 #layout-main div.userpage_all div.history table,
-#layout-main div.userpage_all div.stats table {
+#layout-main div.userpage_all div.stats table,
+#layout-main div.userpage_all div.userdetails .block div table {
 	width: 100%;
 }
 
@@ -47,17 +48,17 @@
 }
 
 /*main block data*/
-#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden),
+#layout-main div.userpage_all > div.g_section,
 #layout-main div.userpage_all.sidebar > .g_section.resized,
-#layout-main div.userpage_all > div.g_section {
+#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden) {
 	clear: none;
 	width: auto;
 	margin-left: 21.5em;
 	float: none;
 }
 
-#layout-main div.userpage_all div.pane > div.g_section,
-#layout-main div.userpage_all > div.g_section ul.g_list {
+#layout-main div.userpage_all > div.g_section ul.g_list,
+#layout-main div.userpage_all div.pane > div.g_section {
 	clear: none;
 }
 
@@ -65,8 +66,8 @@
 	margin: 0em 0.5em 1.5em 21.5em;
 }
 
-#layout-main div.userpage_all.sidebar > .g_section.full,
-#layout-main div.userpage_all > .g_section.full {
+#layout-main div.userpage_all > .g_section.full,
+#layout-main div.userpage_all.sidebar > .g_section.full {
 	margin-left: 0;
 	margin-right: 0;
 	clear: both;
@@ -123,15 +124,15 @@
 }
 
 #layout-main div.userpage_all .g_section.latest table {
-	width:100%;
+	width: 100%;
 }
 
 /*guestbook*/
-#layout-main div.userpage_all div.cmt_entries div.postfooter,
 #layout-main div.userpage_all div.cmt_entries .g_msg,
-#layout-main div.userpage_all div.g_section.forum .rules,
+#layout-main div.userpage_all div.cmt_entries div.postfooter,
 #layout-main div.userpage_all div.g_section.comments .g_msg,
-#layout-main div.userpage_all div.g_section.comments > div.container > div.g_section.forum {
+#layout-main div.userpage_all div.g_section.comments > div.container > div.g_section.forum,
+#layout-main div.userpage_all div.g_section.forum .rules {
 	clear: none;
 }
 
@@ -179,8 +180,8 @@
 @media screen and (min-width: 1500px) {
 	#layout-main div.userpage_all.sidebar .g_section.info,
 	#layout-main div.userpage_all.sidebar div.block,
-	#layout-main div.userpage_all.sidebar div.block > div.image,
-	#layout-main div.userpage_all.sidebar div.block > div.data {
+	#layout-main div.userpage_all.sidebar div.block > div.data,
+	#layout-main div.userpage_all.sidebar div.block > div.image {
 		width: 24em;
 	}
 
@@ -200,11 +201,11 @@
 
 	/*handling too long strings*/
 	#layout-main div.userpage_all.sidebar .g_section.info div.data .g_definitionlist td {
-	    display: inline-block;
-	    height: auto;
-	    overflow: hidden;
-	    text-overflow: ellipsis;
-	    width: 13em;
+		display: inline-block;
+		height: auto;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 13em;
 	}
 
 	#layout-main div.userpage_all div.g_menu.right {
@@ -217,28 +218,28 @@
 		width: 24em;
 	}
 
-	#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden),
+	#layout-main div.userpage_all.sidebar > .g_section,
 	#layout-main div.userpage_all.sidebar > .g_section.resized,
-	#layout-main div.userpage_all.sidebar > .g_section {
+	#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden) {
 		margin-left: 25.5em;
 	}
 
-	#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden),
-	#layout-main div.userpage_all.sidebar > .g_section.resized,
+	#layout-main div.userpage_all > .g_section.resized,
 	#layout-main div.userpage_all.sidebar > .g_section,
-	#layout-main div.userpage_all > .g_section.resized {
+	#layout-main div.userpage_all.sidebar > .g_section.resized,
+	#layout-main div.userpage_all.sidebar > .g_section.resized.tabbed_pane:not(.hidden) {
 		margin-right: 0;
 		clear: right;
 	}
 
-	#layout-main div.userpage_all.sidebar > .g_section,
-	#layout-main div.userpage_all > .g_section {
+	#layout-main div.userpage_all > .g_section,
+	#layout-main div.userpage_all.sidebar > .g_section {
 		margin-right: 17.5em;
 		clear: none;
 	}
 
-	#layout-main div.userpage_all .g_section.latest table,
-	#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table {
+	#layout-main div.userpage_all .g_section.discussions div.g_definitionlist table,
+	#layout-main div.userpage_all .g_section.latest table {
 		min-width: 40em;
 	}
 }
@@ -258,18 +259,18 @@
 	#layout-main div.userpage_all div.g_menu.right {
 		display: none;
 	}
-	
+
 	#layout-main div.userpage_all > .g_section.info {
 		margin-bottom: 2em;
 	}
 
 	#layout-main div.userpage_all .g_section.info,
+	#layout-main div.userpage_all > div.g_section,
 	#layout-main div.userpage_all div.block,
-	#layout-main div.userpage_all div.block > div.image,
 	#layout-main div.userpage_all div.block > div.data,
-	#layout-main div.userpage_all div.g_menu.left,
-	#layout-main div.userpage_all > div.g_section {
-		width:100%;
+	#layout-main div.userpage_all div.block > div.image,
+	#layout-main div.userpage_all div.g_menu.left {
+		width: 100%;
 		float: none;
 		margin-left: 0;
 		margin-right: 0;
@@ -279,12 +280,12 @@
 
 @media screen and (max-width: 800px) {
 	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
-	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
-	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
-	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
 	#anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
 	#anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
 	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs) {
 		display: none;
 	}
@@ -292,12 +293,12 @@
 
 @media screen and (max-width: 700px) {
 	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
-	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
-	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
-	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
 	#anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
 	#anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
 	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog) {
 		display: none;
 	}
@@ -305,12 +306,12 @@
 
 @media screen and (max-width: 600px) {
 	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
-	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
-	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
-	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
 	#anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
 	#anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
 	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook) {
 		display: none;
 	}
@@ -318,12 +319,12 @@
 
 @media screen and (max-width: 515px) {
 	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
-	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
-	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
-	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
 	#anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
 	#anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
 	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies) {
 		display: none;
 	}
@@ -331,19 +332,19 @@
 
 @media screen and (max-width: 425px) {
 	#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
-	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
 	#anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
-	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
-	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
 	#anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+	#anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
 	#anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+	#anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+	#anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
 	#anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes) {
 		display: none;
 	}
 }
 
 /*IE hack for not being able to handle wraps in nested flex*/
-#anidb.internet_explorer div.userpage_all .g_section.favourites > .g_bubblewrap,
-#anidb.internet_explorer div.userpage_all .g_section.achievements > .g_bubblewrap {
+#anidb.internet_explorer div.userpage_all .g_section.achievements > .g_bubblewrap,
+#anidb.internet_explorer div.userpage_all .g_section.favourites > .g_bubblewrap {
 	display: block;
 }

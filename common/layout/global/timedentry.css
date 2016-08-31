@@ -29,7 +29,7 @@
 #layout-main div.g_timedentry div.body {
 	padding: 0.2em;
 	text-align: left;
-	min-height:174px;
+	min-height: 174px;
 	word-wrap: break-word;
 }
 
@@ -39,27 +39,26 @@
 	padding-right: 0.5em;
 }
 
-#layout-main div.g_timedentry span.stamp span.icons.user {	
+#layout-main div.g_timedentry span.stamp span.icons.user {
 	float: right;
 	margin-top: -1.5em;
 }
 
-#layout-main div.g_timedentry ol,
-#layout-main div.g_timedentry ul,
 #layout-main div.cmt_add div.preview-box ol,
-#layout-main div.cmt_add div.preview-box ul
- {
-	list-style-type:disc;
-	margin-top:0.5em;
-	padding-left:4em;
+#layout-main div.cmt_add div.preview-box ul,
+#layout-main div.g_timedentry ol,
+#layout-main div.g_timedentry ul {
+	list-style-type: disc;
+	margin-top: 0.5em;
+	padding-left: 4em;
 }
 
 #layout-main div.g_timedentry ol li + br,
 #layout-main div.g_timedentry ul li + br {
-	display:none
+	display: none
 }
 
 #layout-main div.g_timedentry ol {
-	list-style-type:decimal;
-	padding-left:2.5em;
+	list-style-type: decimal;
+	padding-left: 2.5em;
 }

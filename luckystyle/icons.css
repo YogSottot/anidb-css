@@ -1,87 +1,87 @@
-*.i_vrs_1
+.i_vrs_1
 {
 	background-image:url('images/buttons/anidb_vrs_1.gif');
 }
 
-*.i_vrs_2
+.i_vrs_2
 {
 	background-image:url('images/buttons/anidb_vrs_2.gif');
 }
 
-*.i_vrs_3
+.i_vrs_3
 {
 	background-image:url('images/buttons/anidb_vrs_3.gif');
 }
 
-*.i_vrs_4
+.i_vrs_4
 {
 	background-image:url('images/buttons/anidb_vrs_4.gif');
 }
 
-*.i_vrs_5
+.i_vrs_5
 {
 	background-image:url('images/buttons/anidb_vrs_5.gif');
 }
 
-*.i_noup1
+.i_noup1
 {
 	background-image:url('images/buttons/noup1.gif');
 	height:10px;
 	width:9px;
 }
 
-*.i_tab_expand,
-*.i_plus
+.i_tab_expand,
+.i_plus
 {
 	background-image:url('images/buttons/plus.gif');
 }
 
-*.i_up1
+.i_up1
 {
 	background-image:url('images/buttons/up1.gif');
 	height:10px;
 	width:9px;
 }
 
-*.i_nodown1
+.i_nodown1
 {
 	background-image:url('images/buttons/nodown1.gif');
 	height:10px;
 	width:9px;
 }
 
-*.i_none
+.i_none
 {
 	background-image:url('images/buttons/none.gif');
 }
 
-*.i_tab_collapse,
-*.i_minus
+.i_tab_collapse,
+.i_minus
 {
 	background-image:url('images/buttons/minus.gif');
 }
 
-*.i_punkt
+.i_punkt
 {
 	background-image:url('images/buttons/buttons_punkt.gif');
 }
 
-*.i_search
+.i_search
 {
 	background-image:url('images/buttons/buttons_search.gif');
 }
 
-*.i_suchen
+.i_suchen
 {
 	background-image:url('images/buttons/buttons_suchen.gif');
 }
 
-*.i_report_entry,*.i_no_vote
+.i_report_entry,.i_no_vote
 {
 	background-image:url('images/buttons/icon/anidb_no_vote.gif');
 }
 
-*.i_help
+.i_help
 {
 	background:url('images/buttons/ask2.gif') no-repeat right;
 	cursor:help;

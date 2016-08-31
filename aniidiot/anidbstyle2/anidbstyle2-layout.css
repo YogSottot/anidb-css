@@ -7,18 +7,18 @@
 	clear: right;
 }
 
-#layout-menu li.sub-menu ul li#user-profile a,
 #layout-menu li.sub-menu ul li#user-logout a,
+#layout-menu li.sub-menu ul li#user-profile a,
 #layout-menu li.sub-menu ul li#user-signup a,
 #layout-menu li.sub-menu ul li#user-xauth button {
 	height: 12px;
 	display: block;
 }
 
-#layout-menu li.sub-menu ul li#user-profile span,
 #layout-menu li.sub-menu ul li#user-logout span,
-#layout-menu li.sub-menu ul li#user-xauth button span,
-#layout-menu li.sub-menu ul li#user-signup a span {
+#layout-menu li.sub-menu ul li#user-profile span,
+#layout-menu li.sub-menu ul li#user-signup a span,
+#layout-menu li.sub-menu ul li#user-xauth button span {
 	display: none;
 }
 
@@ -47,14 +47,14 @@
 	margin-top: 7px;
 }
 
-#layout-menu li.sub-menu ul li#user-profile a,
-#layout-menu li.sub-menu ul li#user-logout a {
+#layout-menu li.sub-menu ul li#user-logout a,
+#layout-menu li.sub-menu ul li#user-profile a {
 	padding: 0;
 }
 
+#layout-nav li.user-xkeep label,
 #layout-nav li.user-xname input,
-#layout-nav li.user-xpass input,
-#layout-nav li.user-xkeep label {
+#layout-nav li.user-xpass input {
 	margin: 0 8px;
 }
 
@@ -63,8 +63,8 @@
 	width: 90px;
 }
 
-#layout-main div.main_all div.login input[type="text"],
-#layout-main div.main_all div.login input[type="password"] {
+#layout-main div.main_all div.login input[type="password"],
+#layout-main div.main_all div.login input[type="text"] {
 	padding: 2px;
 	width: 7.8em;
 }
@@ -72,6 +72,7 @@
 .tooltip span.text:after {
 	margin-left: -10px;
 }
+
 .tooltip span.text:before {
 	margin-left: -11px;
 }
@@ -81,7 +82,7 @@
 }
 
 #layout-main h2 + div.edit_actions {
-    margin-top: -2.8em;
+	margin-top: -2.8em;
 }
 
 #layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
@@ -89,5 +90,9 @@
 }
 
 #layout-tabs {
-    margin-top: -3.1em;
+	margin-top: -3.1em;
+}
+
+#layout-main div.topic_actions .g_button a {
+	height: 8px;
 }

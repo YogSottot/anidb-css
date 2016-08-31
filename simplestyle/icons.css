@@ -1,53 +1,53 @@
-*.i_help
+.i_help
 {
 	background:url(images/icons/ask2.gif) no-repeat right;
 	cursor:help;
 }
 
-*.i_report_entry,
-*.i_no_vote
+.i_report_entry,
+.i_no_vote
 {
 	background-image:url(images/icons/anidb_no_vote.gif);
 }
 
-*.i_down1
+.i_down1
 {
 	background-image:url(images/icons/down1.gif);
 	height:13px;
 	width:15px;
 }
 
-*.i_tab_collapse,
-*.i_minus
+.i_tab_collapse,
+.i_minus
 {
 	background-image:url(images/icons/minus.gif);
 	height:13px;
 	width:15px;
 }
 
-*.i_nodown1
+.i_nodown1
 {
 	background-image:url(images/icons/nodown1.gif);
 	height:13px;
 	width:15px;
 }
 
-*.i_noup1
+.i_noup1
 {
 	background-image:url(images/icons/noup1.gif);
 	height:13px;
 	width:15px;
 }
 
-*.i_tab_expand,
-*.i_plus
+.i_tab_expand,
+.i_plus
 {
 	background-image:url(images/icons/plus.gif);
 	height:13px;
 	width:15px;
 }
 
-*.i_up1
+.i_up1
 {
 	background-image:url(images/icons/up1.gif);
 	height:13px;

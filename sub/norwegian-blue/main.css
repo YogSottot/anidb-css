@@ -1,32 +1,25 @@
 @import "../common.css";
 @import "../../common/style/color/similar-anime-default.css";
-
 @import "../../common/layout/macro/collapsed.css";
 @import "../../common/style/color/status-creme.css";
 @import "../silver/forum-color.css";
-
 @import "border.css";
 @import "color.css";
 
-
-#layout-nav
-{
+#layout-nav {
 	position: fixed;
 }
 
-#layout-main
-{
+#layout-main {
 	-position: absolute;
 	-top: 0;
 }
 
-#layout-menu > li + li
-{
+#layout-menu > li + li {
 	margin-top: 1em;
 }
 
-#layout-nav:before
-{
+#layout-nav:before {
 	display: block;
 	content: "AnimeDB";
 	color: #FFFFFF;
@@ -37,20 +30,17 @@
 	margin-bottom: 1em;
 }
 
-#layout-menu
-{
+#layout-menu {
 	padding-left: 1em;
 }
 
-#layout-menu ul
-{
+#layout-menu ul {
 	margin-top: 1em;
 }
 
-#menu-user input[type="text"],
+#layout-search form input.text,
 #menu-user input[type="password"],
-#layout-search form input.text
-{
+#menu-user input[type="text"] {
 	display: block;
 	float: right;
 	font-size: 10px;
@@ -60,54 +50,48 @@
 	border: #BFC2C9 1px solid;
 }
 
-#layout-main h1
-{
+#layout-main h1 {
 	text-align: center;
 	font-size: 14pt;
 	font-weight: lighter;
-	font-family:"Trebuchet MS", Arial,Verdana, sans-serif;
+	font-family: "Trebuchet MS", Arial,Verdana, sans-serif;
 	margin-top: 0;
 	padding-top: 1.1em;
 }
 
-#layout-main div.g_timedentry h4
-{
+#layout-main div.g_timedentry h4 {
 	font-size: 100%;
-	line-height: 1.2;	
+	line-height: 1.2;
 	font-weight: normal;
 }
 
-#layout-main .g_list li:before
-{
+#layout-main .g_list li:before {
 	content: " | "
 }
-#layout-main .g_list li:first-child:before
-{
+
+#layout-main .g_list li:first-child:before {
 	content: "";
 }
-#layout-main .g_list.limit li:first-child:before
-{
+
+#layout-main .g_list.limit li:first-child:before {
 	content: "show: ";
 }
 
-#layout-menu i.forum a:before
-{
+#layout-menu i.forum a:before {
 	content: "AniDB ";
 }
-#layout-menu li.forum a
-{
+
+#layout-menu li.forum a {
 	font-weight: bold;
 }
 
-#layout-menu li.reclinks a:before
-{
+#layout-menu li.reclinks a:before {
 	content: "Rec ";
 }
 
-#layout-hint
-{
-	margin:-0.5em 0 0.5em;
-	position:relative;
+#layout-hint {
+	margin: -0.5em 0 0.5em;
+	position: relative;
 }
 
 /*disable quicksearch, becaus ei can't be assed >_>*/

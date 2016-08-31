@@ -4,10 +4,10 @@ div.pagination {
 }
 
 div.pagination span span.page-sep {
-	display:none;
+	display: none;
 }
 
-div.pagination strong,
-div.pagination a {
+div.pagination a,
+div.pagination strong {
 	margin-left: 3px;
 }

@@ -3,12 +3,12 @@ html {
 }
 
 #layout-search {
-	background:url("images/topback.png") repeat-x scroll left top transparent;
+	background: url("images/topback.png") repeat-x scroll left top transparent;
 	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
 #layout-menu {
-	background:url("images/menu.png") no-repeat scroll left top transparent;
+	background: url("images/menu.png") no-repeat scroll left top transparent;
 }
 
 #layout-menu li.sub-menu {
@@ -34,42 +34,42 @@ html {
 
 #layout-menu li.sub-menu.main:after {
 	background: url("images/chibi_01.png");
-	width:81px;
+	width: 81px;
 	top: -24px;
 	right: -20px;
 }
 
 #layout-menu li.sub-menu.listings:after {
 	background: url("images/chibi_03.png");
-	width:31px;
+	width: 31px;
 	top: -8px;
 	right: -3px;
 }
 
 #layout-menu li.sub-menu.my:after {
 	background: url("images/chibi_02.png");
-	width:41px;
+	width: 41px;
 	top: -8px;
 	right: -3px;
 }
 
 #layout-menu li.sub-menu.mod:after {
 	background: url("images/chibi_04.png");
-	width:27px;
+	width: 27px;
 	top: -10px;
 	right: -3px;
 }
 
 #layout-menu li.sub-menu.support:after {
 	background: url("images/chibi_05.png");
-	width:46px;
+	width: 46px;
 	top: -10px;
 	right: -3px;
 }
 
 #layout-menu li.sub-menu.account:after {
 	background: url("images/chibi_06.png");
-	width:48px;
+	width: 48px;
 	top: -10px;
 	right: -3px;
 }
@@ -87,133 +87,108 @@ html {
 th,
 th a,
 #layout-main > h1,
-#layout-main table tr.header,
-#layout-main div.g_timedentry h4,
-#layout-menu li.sub-menu ul li:hover,
-#layout-menu li.sub-menu ul li:hover a,
-#layout-main div.votes_all div.graph div.header,
-#layout-main div.forum div.g_bubble.threads,
 #layout-main div.animeatt_all div.review > h4,
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.g_timedentry h4,
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
-#layout-main div.userpage_all div.g_menu ul li:hover {
+#layout-main div.userpage_all div.g_menu ul li:hover,
+#layout-main div.votes_all div.graph div.header,
+#layout-main table tr.header,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a {
 	background-color: #39a2eb;
 }
 
 tr + tr th,
 #layout-main div.g_definitionlist tr th {
-    border-top-color: #DDDDDD;
+	border-top-color: #DDDDDD;
 }
 
-tr.g_odd,
-li.g_odd,
-span.g_odd,
-div.g_odd,
 .g_bubble,
 .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.tooltip > span.text.g_bubble,
 .g_button a:hover,
-.i_comment_add:hover,
-.i_topic_add:hover,
-.i_topic_history:hover,
-.i_topic_delete:hover,
-.i_topic_move:hover,
-.i_topic_split:hover,
-.i_topic_read:hover,
-.i_comment_revisions:hover,
-.i_comment_move:hover,
-.i_topic_lock:hover,
-.i_comment_edit:hover,
-.i_comment_quote:hover,
-.i_comment_delete:hover,
-.i_comment_info:hover,
-.i_comment_creq:hover,
-.i_topic_undelete:hover,
-.i_topic_unlock:hover,
-.i_comment_setactive:hover,
-.i_topic_locked:hover,
-.i_comment_undelete:hover,
-.i_pm_delete:hover,
-.i_review_add:hover,
-.i_pm_reply:hover,
-.i_topic_subscribe:hover,
-.i_topic_unsubscribe:hover,
-input[type="submit"]:hover,
-input[type="button"]:hover,
-button:hover,
+.tooltip > span.text.g_bubble,
 a.button:hover,
-input.button:hover,
-button.button:hover,
 a.confirmButton:hover,
-input.confirmButton:hover,
+button.button:hover,
 button.confirmButton:hover,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.forum ul.topics li.g_odd.row,
-#layout-main ul.g_list li:hover,
-#layout-main ul.g_list li.g_odd:hover,
-#layout-main ul.g_list li.selected,
-#layout-main div.pagination span a:hover,
-#layout-main div.pagination span strong,
-#layout-tabs ul.main-tabs > li,
-#layout-main div.tabbed_pane_cfg div.body,
-#layout-main div.tabbed_pane_cfg ul.tabs li:hover,
-#layout-main div.tabbed_pane_cfg ul.tabs li.selected,
-#layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected,
+button:hover,
+div.g_odd,
+input.button:hover,
+input.confirmButton:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+li.g_odd,
+span.g_odd,
+tr.g_odd,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
-#layout-main div.search_all div.suggestions span:hover,
-#layout-search ul.quicksearch li:hover,
-#layout-search ul.quicksearch li.focus,
+#layout-main div.edit_actions span > *:hover,
 #layout-main div.forum .g_bubble.infobox,
 #layout-main div.forum div.g_bubble.header,
-#layout-main div.forum div.g_bubble.search,
 #layout-main div.forum div.g_bubble.navbar,
-#layout-main div.forum div.g_bubble.posting-box,
-#layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum div.g_bubble.options-box,
+#layout-main div.forum div.g_bubble.posting-box,
+#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.submit-box,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main div.search_all div.suggestions span:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane_cfg div.body,
+#layout-main div.tabbed_pane_cfg ul.tabs li.selected,
+#layout-main div.tabbed_pane_cfg ul.tabs li:hover,
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.userpage_all div.g_menu ul li.g_odd,
-#layout-main div.edit_actions span > *:hover,
-#layout-main div.forum ul.topics li.g_odd.row,
-#layout-search ul.quicksearch .g_bubble.stripe:hover {
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main ul.g_list li.selected,
+#layout-main ul.g_list li:hover,
+#layout-search ul.quicksearch .g_bubble.stripe:hover,
+#layout-search ul.quicksearch li.focus,
+#layout-search ul.quicksearch li:hover,
+#layout-tabs ul.main-tabs > li {
 	background-color: #FAE287;
 }
 
-tr + tr td,
-li.g_odd + li,
 li + li.g_odd,
-#layout-nav div.menu_hr,
-#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
+li.g_odd + li,
+tr + tr td,
+#layout-main #tagtree div.tag-column div.tag,
 #layout-main div div.explanation div.description dl + dl,
+#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
 #layout-main div.report_all div.body ul li + li,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
 #layout-main div.votes_all div.graph.eps div.row + div.row,
-#layout-main #tagtree div.tag-column div.tag {
-    border-top-color: #dce2e6;
+#layout-nav div.menu_hr {
+	border-top-color: #dce2e6;
 }
 
-#layout-main div.tag-column .tag-block + .tag-block,
+#layout-main div.animelist_all tr td+td,
 #layout-main div.characterlist_all tr td + td,
-#layout-main div.creatorlist_all tr td + td,
 #layout-main div.clublist_all tr td + td,
 #layout-main div.collectionlist_all tr td + td,
+#layout-main div.creatorlist_all tr td + td,
 #layout-main div.grouplist_all tr td + td,
-#layout-main div.songlist_all tr td + td,
-#layout-main div.taglist_all tr td + td,
-#layout-main div.userlist_all tr td + td,
-#layout-main div.tag_all tr td + td,
+#layout-main div.latest2_all table tr td + td,
+#layout-main div.latest2_all table tr.rowspan td:first-child,
+#layout-main div.modlatest_all table tr td + td,
+#layout-main div.mydb_all table tr td + td,
 #layout-main div.mylist_all td+td,
+#layout-main div.mynotifies_all tr td+td,
 #layout-main div.myvotes_all td+td,
 #layout-main div.mywishlist_all tr td+td,
-#layout-main div.animelist_all tr td+td,
-#layout-main div.mynotifies_all tr td+td,
-#layout-main div.mydb_all table tr td + td,
-#layout-main div.modlatest_all table tr td + td,
-#layout-main div.latest2_all table tr td + td,
-#layout-main div.latest2_all table tr.rowspan td:first-child {
+#layout-main div.songlist_all tr td + td,
+#layout-main div.tag-column .tag-block + .tag-block,
+#layout-main div.tag_all tr td + td,
+#layout-main div.taglist_all tr td + td,
+#layout-main div.userlist_all tr td + td {
 	border-left-color: #dce2e6;
 }

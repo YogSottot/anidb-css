@@ -1,14 +1,14 @@
 #layout-main div.import_all table.jobs {
-	width:100%;
+	width: 100%;
 }
 
-#layout-main div.import_all table.jobs th.external,
-#layout-main div.import_all table.jobs th.anidb {
-	width:25%;
+#layout-main div.import_all table.jobs th.anidb,
+#layout-main div.import_all table.jobs th.external {
+	width: 25%;
 }
 
-#layout-main div.import_all table.jobs th.state,
-#layout-main div.import_all table.jobs th.episode_count {
+#layout-main div.import_all table.jobs th.episode_count,
+#layout-main div.import_all table.jobs th.state {
 	min-width: 12em;
 }
 
@@ -16,17 +16,15 @@
 	min-width: 5em;
 }
 
-
 #layout-main div.import_all table.jobs th.episodes {
 	max-width: 15%;
 }
 
 #layout-main div.import_all table.jobs td.eps,
 #layout-main div.import_all table.jobs td.vote {
-	text-align:right;
+	text-align: right;
 }
 
-
 #layout-main div.import_all table.jobs td.state {
-	text-align:left;
+	text-align: left;
 }

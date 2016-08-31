@@ -1,32 +1,32 @@
 #layout-menu li.sub-menu ul li#user-xauth {
-	background:url("../icons/orange/button_logon.gif") no-repeat scroll 0 0 transparent;
+	background: url("../icons/orange/button_logon.gif") no-repeat scroll 0 0 transparent;
 }
 
 #layout-menu li.sub-menu ul li#user-signup {
-	background:url("../icons/orange/button_signup.gif") no-repeat scroll 0 0 transparent;
+	background: url("../icons/orange/button_signup.gif") no-repeat scroll 0 0 transparent;
 }
 
 #layout-menu li.sub-menu ul li#user-logout {
-	background:url("../icons/orange/button_logout.gif") no-repeat scroll 0 0 transparent;
+	background: url("../icons/orange/button_logout.gif") no-repeat scroll 0 0 transparent;
 }
 
 #layout-menu li.sub-menu ul li#user-profile {
-	background:url("../icons/orange/button_profile.gif") no-repeat scroll 0 0 transparent;
+	background: url("../icons/orange/button_profile.gif") no-repeat scroll 0 0 transparent;
 }
 
 #layout-menu li.sub-menu ul {
-	background:url("images/menuback.png") repeat transparent;
+	background: url("images/menuback.png") repeat transparent;
 }
 
-#layout-menu li.sub-menu ul li:hover,
-#layout-menu li.sub-menu ul li:active {
-	background:url("images/menuhover.png") repeat left top transparent;
+#layout-menu li.sub-menu ul li:active,
+#layout-menu li.sub-menu ul li:hover {
+	background: url("images/menuhover.png") repeat left top transparent;
 }
 
-.i_video_480,
-.i_video_720,
+.i_ext,
 .i_video_1080,
-.i_ext {
+.i_video_480,
+.i_video_720 {
 	background-image: none !important;
 	border-radius: 3px;
 	height: 14px;
@@ -34,17 +34,17 @@
 	width: 38px;
 }
 
-.i_video_480 span,
-.i_video_720 span,
+.i_ext span,
 .i_video_1080 span,
-.i_ext span {
+.i_video_480 span,
+.i_video_720 span {
 	color: #FFFFFF;
 	display: inline-block !important;
 	font-family: Arial,Helvetica,sans-serif;
 	font-size: 0.86rem;
 	font-weight: bold;
 	text-align: center;
-	width:100%;
+	width: 100%;
 	vertical-align: top;
 	line-height: 1.4;
 }
@@ -52,52 +52,55 @@
 .i_ext.video {
 	background-color: #105289;
 }
+
 .i_ext.audio {
 	background-color: #AA0000;
 }
+
 .i_ext.subtitle {
 	background-color: #356E35;
 }
+
 .i_ext.archive {
 	background-color: #5A3A78;
 }
+
 .i_ext.linker {
 	background-color: #BD7E19;
 }
+
 .i_ext.other {
 	background-color: #444444;
 }
+
+.i_video_1080,
 .i_video_480,
-.i_video_720,
-.i_video_1080 {
+.i_video_720 {
 	background-color: #8A56AA;
 }
 
 /*logo @1024*/
 #layout-search {
-	background:url("images/logo.png") no-repeat scroll left top transparent;
+	background: url("images/logo.png") no-repeat scroll left top transparent;
 }
 
 /*logo @ 1280*/
 @media screen and (min-width: 1235px) {
-	#layout-search
-	{
-		background:url("images/logo-wide.png") no-repeat scroll left top transparent;
+	#layout-search {
+		background: url("images/logo-wide.png") no-repeat scroll left top transparent;
 	}
 }
 
 /*logo @ 1650*/
 @media screen and (min-width: 1575px) {
-	#layout-search
-	{
-		background:url("images/logo-wider.png") no-repeat scroll left top transparent;
+	#layout-search {
+		background: url("images/logo-wider.png") no-repeat scroll left top transparent;
 	}
 }
 
 /*logo @ 1920*/
 @media screen and (min-width: 1860px) {
-	#layout-search
-	{
-		background:url("images/logo-widest.png") no-repeat scroll left top transparent;
+	#layout-search {
+		background: url("images/logo-widest.png") no-repeat scroll left top transparent;
 	}
 }

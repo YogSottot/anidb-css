@@ -38,17 +38,18 @@
 	display: block;
 	margin: 0.5em;
 }
+
 #layout-main div.addfilem_all select {
 	padding: 3px 4px;
 }
 
-#layout-main div.addfilem_all #toggle_template_options,
-#layout-main div.addfilem_all #template_options button + button {
+#layout-main div.addfilem_all #template_options button + button,
+#layout-main div.addfilem_all #toggle_template_options {
 	margin-left: 0.3em
 }
 
 #layout-main div.addfilem_all #template_options input {
-	display:block;
+	display: block;
 	margin: 0.2em 0;
 }
 

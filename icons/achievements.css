@@ -5,111 +5,406 @@ div.badge div.inner {
 	width: 80px;
 }
 
-div.badge.level1   { background-image:url("../icons/achievements/ring-level1.png"); }
-div.badge.level2   { background-image:url("../icons/achievements/ring-level2.png"); }
-div.badge.level3   { background-image:url("../icons/achievements/ring-level3.png"); }
-div.badge.level4   { background-image:url("../icons/achievements/ring-level4.png"); }
-div.badge.level5   { background-image:url("../icons/achievements/ring-level5.png"); }
-div.badge.level6   { background-image:url("../icons/achievements/ring-level6.png"); }
-div.badge.level7   { background-image:url("../icons/achievements/ring-level7.png"); }
-div.badge.level8   { background-image:url("../icons/achievements/ring-level8.png"); }
-div.badge.level9   { background-image:url("../icons/achievements/ring-level9.png"); }
-div.badge.one-time { background-image:url("../icons/achievements/ring-onetime.png"); }
-div.badge.special  { background-image:url("../icons/achievements/ring-special.png"); }
-div.badge.mod      { background-image:url("../icons/achievements/ring-mod.png"); }
+div.badge.level1 {
+	background-image:url("../icons/achievements/ring-level1.png");
+}
 
-div.badge.special.code                   div.inner { background-image:url("../icons/achievements/center-special-code2.png"); }
-div.badge.special.creativity             div.inner { background-image:url("../icons/achievements/center-special-creativity.png"); }
-div.badge.special.boardgame.germany-2013-10 div.inner { background-image:url("../icons/achievements/center-special-boardgame-germany-2013-10.png"); }
-div.badge.special.boardgame.germany-2014-03 div.inner { background-image:url("../icons/achievements/center-special-boardgame-germany-2014-03.png"); }
-div.badge.special.boardgame.sweden-2014-07  div.inner { background-image:url("../icons/achievements/center-special-boardgame-sweden-2014-07.png"); }
-div.badge.special.boardgame.germany-2014-10 div.inner { background-image:url("../icons/achievements/center-special-boardgame-germany-2014-10.png"); }
-div.badge.special.boardgame.croatia-2015-04 div.inner { background-image:url("../icons/achievements/center-special-boardgame-croatia-2015-04.png"); }
-div.badge.special.boardgame.belgium-2015-10 div.inner { background-image:url("../icons/achievements/center-special-boardgame-belgium-2015-10.png"); }
-div.badge.special.boardgame.germany-2016-05 div.inner { background-image:url("../icons/achievements/center-special-boardgame-germany-2016-05.png"); }
+div.badge.level2 {
+	background-image:url("../icons/achievements/ring-level2.png");
+}
 
-div.badge.mod.benu     div.inner { background-image:url("../icons/achievements/center-mod-benu1.png"); }
-div.badge.mod.CDB-Man  div.inner { background-image:url("../icons/achievements/center-mod-cdbman.png"); }
-div.badge.mod.deridiot div.inner { background-image:url("../icons/achievements/center-mod-deridiot.png"); }
-div.badge.mod.exp      div.inner { background-image:url("../icons/achievements/center-mod-exp.png"); }
-div.badge.mod.nwa      div.inner { background-image:url("../icons/achievements/center-mod-nwa.png"); }
-div.badge.mod.ommina   div.inner { background-image:url("../icons/achievements/center-mod-ommina3.png"); }
-div.badge.mod.sput     div.inner { background-image:url("../icons/achievements/center-mod-sput1.png"); }
-div.badge.mod.worf     div.inner { background-image:url("../icons/achievements/center-mod-worf.png"); }
+div.badge.level3 {
+	background-image:url("../icons/achievements/ring-level3.png");
+}
 
-div.badge.anime.aria           div.inner { background-image:url("../icons/achievements/center-aria.png"); }
-div.badge.anime.beyblade       div.inner { background-image:url("../icons/achievements/center-beyblade.png"); }
-div.badge.anime.cityhunter     div.inner { background-image:url("../icons/achievements/center-cityhunter.png"); }
-div.badge.anime.classic_anime  div.inner { background-image:url("../icons/achievements/center-classic_anime.png"); }
-div.badge.anime.conan          div.inner { background-image:url("../icons/achievements/center-conan.png"); }
-div.badge.anime.digimon        div.inner { background-image:url("../icons/achievements/center-digimon.png"); }
-div.badge.anime.doraemon       div.inner { background-image:url("../icons/achievements/center-doraemon.png"); }
-div.badge.anime.dragonball     div.inner { background-image:url("../icons/achievements/center-dragonball.png"); }
-div.badge.anime.evangelion     div.inner { background-image:url("../icons/achievements/center-evangelion.png"); }
-div.badge.anime.fma            div.inner { background-image:url("../icons/achievements/center-fma.png"); }
-div.badge.anime.gatchaman      div.inner { background-image:url("../icons/achievements/center-gatchaman.png"); }
-div.badge.anime.gegege         div.inner { background-image:url("../icons/achievements/center-gegege.png"); }
-div.badge.anime.gintama        div.inner { background-image:url("../icons/achievements/center-gintama.png"); }
-div.badge.anime.gits           div.inner { background-image:url("../icons/achievements/center-gits.png"); }
-div.badge.anime.gundam         div.inner { background-image:url("../icons/achievements/center-gundam.png"); }
-div.badge.anime.hack           div.inner { background-image:url("../icons/achievements/center-hack.png"); }
-div.badge.anime.hentai         div.inner { background-image:url("../icons/achievements/center-hentai4.png"); }
-div.badge.anime.hokutonoken    div.inner { background-image:url("../icons/achievements/center-hokutonoken.png"); }
-div.badge.anime.hxh            div.inner { background-image:url("../icons/achievements/center-hxh.png"); }
-div.badge.anime.initiald       div.inner { background-image:url("../icons/achievements/center-initiald.png"); }
-div.badge.anime.ippo           div.inner { background-image:url("../icons/achievements/center-ippo.png"); }
-div.badge.anime.jewelpet       div.inner { background-image:url("../icons/achievements/center-jewelpet.png"); }
-div.badge.anime.kenshin        div.inner { background-image:url("../icons/achievements/center-kenshin.png"); }
-div.badge.anime.logh           div.inner { background-image:url("../icons/achievements/center-logh.png"); }
-div.badge.anime.lupin          div.inner { background-image:url("../icons/achievements/center-lupin.png"); }
-div.badge.anime.macross        div.inner { background-image:url("../icons/achievements/center-macross1.png"); }
-div.badge.anime.major          div.inner { background-image:url("../icons/achievements/center-major.png"); }
-div.badge.anime.onepiece       div.inner { background-image:url("../icons/achievements/center-onepiece.png"); }
-div.badge.anime.orangeroad     div.inner { background-image:url("../icons/achievements/center-orangeroad.png"); }
-div.badge.anime.pokemon        div.inner { background-image:url("../icons/achievements/center-pokemon.png"); }
-div.badge.anime.precure        div.inner { background-image:url("../icons/achievements/center-precure.png"); }
-div.badge.anime.princeoftennis div.inner { background-image:url("../icons/achievements/center-princeoftennis.png"); }
-div.badge.anime.sailormoon     div.inner { background-image:url("../icons/achievements/center-sailormoon.png"); }
-div.badge.anime.saintseiya     div.inner { background-image:url("../icons/achievements/center-saintseiya.png"); }
-div.badge.anime.sazae          div.inner { background-image:url("../icons/achievements/center-sazae.png"); }
-div.badge.anime.seikai         div.inner { background-image:url("../icons/achievements/center-seikai.png"); }
-div.badge.anime.slayers        div.inner { background-image:url("../icons/achievements/center-slayers.png"); }
-div.badge.anime.tenchi_muyou   div.inner { background-image:url("../icons/achievements/center-tenchi_muyou.png"); }
-div.badge.anime.tsubasa        div.inner { background-image:url("../icons/achievements/center-tsubasa.png"); }
-div.badge.anime.votoms         div.inner { background-image:url("../icons/achievements/center-votoms.png"); }
-div.badge.anime.yugioh         div.inner { background-image:url("../icons/achievements/center-yugioh.png"); }
+div.badge.level4 {
+	background-image:url("../icons/achievements/ring-level4.png");
+}
 
-div.badge.creator.adachimitsuru    div.inner { background-image:url("../icons/achievements/center-adachi_mitsuru.png"); }
-div.badge.creator.clamp            div.inner { background-image:url("../icons/achievements/center-clamp.png"); }
-div.badge.creator.fukumotonobuyuki div.inner { background-image:url("../icons/achievements/center-fukumoto_nobuyuki.png"); }
-div.badge.creator.ghibli           div.inner { background-image:url("../icons/achievements/center-ghibli.png"); }
-div.badge.creator.key              div.inner { background-image:url("../icons/achievements/center-key.png"); }
-div.badge.creator.kyotoanimation   div.inner { background-image:url("../icons/achievements/center-kyoani.png"); }
-div.badge.creator.matsumoto_leiji  div.inner { background-image:url("../icons/achievements/center-leiji.png"); }
-div.badge.creator.nagai_gou        div.inner { background-image:url("../icons/achievements/center-nagai_gou.png"); }
-div.badge.creator.studio4c         div.inner { background-image:url("../icons/achievements/center-studio4c.png"); }
-div.badge.creator.takahashi_rumiko div.inner { background-image:url("../icons/achievements/center-takahashi_rumiko.png"); }
-div.badge.creator.tezuka_osamu     div.inner { background-image:url("../icons/achievements/center-tezuka.png"); }
-div.badge.creator.typemoon         div.inner { background-image:url("../icons/achievements/center-typemoon.png"); }
-div.badge.creator.urasawanaoki     div.inner { background-image:url("../icons/achievements/center-urasawa_naoki.png"); }
+div.badge.level5 {
+	background-image:url("../icons/achievements/ring-level5.png");
+}
 
-div.badge.mylist.animecount   div.inner { background-image:url("../icons/achievements/center-mylist_anime.png"); } 
-div.badge.mylist.episodecount div.inner { background-image:url("../icons/achievements/center-mylist_episodes.png"); } 
-div.badge.mylist.filecount    div.inner { background-image:url("../icons/achievements/center-mylist_files.png"); } 
-div.badge.mylist.mylistsize   div.inner { background-image:url("../icons/achievements/center-mylist_size.png"); } 
-div.badge.mylist.seenepisodes div.inner { background-image:url("../icons/achievements/center-watched1.png"); } 
-div.badge.mylist.timewasted   div.inner { background-image:url("../icons/achievements/center-time_wasted2.png"); } 
+div.badge.level6 {
+	background-image:url("../icons/achievements/ring-level6.png");
+}
 
-div.badge.stats.anidbmember  div.inner { background-image:url("../icons/achievements/center-anidb_member2.png"); } 
-div.badge.stats.animeadded   div.inner { background-image:url("../icons/achievements/center-special-zzz.png"); }
-div.badge.stats.avmf         div.inner { background-image:url("../icons/achievements/center-dump.png"); }
-div.badge.stats.creatoradded div.inner { background-image:url("../icons/achievements/center-creator.png"); }
-div.badge.stats.creqcount    div.inner { background-image:url("../icons/achievements/center-creqs.png"); }
-div.badge.stats.review       div.inner { background-image:url("../icons/achievements/center-reviews1.png"); }
-div.badge.stats.similaranime div.inner { background-image:url("../icons/achievements/center-similar_anime.png"); }
-div.badge.stats.tags         div.inner { background-image:url("../icons/achievements/center-tags.png"); }
-div.badge.stats.userroles    div.inner { background-image:url("../icons/achievements/center-user_rank.png"); }
-div.badge.stats.votes        div.inner { background-image:url("../icons/achievements/center-votes.png"); }
+div.badge.level7 {
+	background-image:url("../icons/achievements/ring-level7.png");
+}
 
-div.badge.one-time.introduction div.inner { background-image:url("../icons/achievements/center-onetime-introduction1.png"); }
-div.badge.one-time.club         div.inner { background-image:url("../icons/achievements/center-onetime-club_joined.png"); }
+div.badge.level8 {
+	background-image:url("../icons/achievements/ring-level8.png");
+}
+
+div.badge.level9 {
+	background-image:url("../icons/achievements/ring-level9.png");
+}
+
+div.badge.one-time {
+	background-image:url("../icons/achievements/ring-onetime.png");
+}
+
+div.badge.special {
+	background-image:url("../icons/achievements/ring-special.png");
+}
+
+div.badge.mod {
+	background-image:url("../icons/achievements/ring-mod.png");
+}
+
+div.badge.special.code div.inner {
+	background-image:url("../icons/achievements/center-special-code2.png");
+}
+
+div.badge.special.creativity div.inner {
+	background-image:url("../icons/achievements/center-special-creativity.png");
+}
+
+div.badge.special.boardgame.germany-2013-10 div.inner {
+	background-image:url("../icons/achievements/center-special-boardgame-germany-2013-10.png");
+}
+
+div.badge.special.boardgame.germany-2014-03 div.inner {
+	background-image:url("../icons/achievements/center-special-boardgame-germany-2014-03.png");
+}
+
+div.badge.special.boardgame.sweden-2014-07 div.inner {
+	background-image:url("../icons/achievements/center-special-boardgame-sweden-2014-07.png");
+}
+
+div.badge.special.boardgame.germany-2014-10 div.inner {
+	background-image:url("../icons/achievements/center-special-boardgame-germany-2014-10.png");
+}
+
+div.badge.special.boardgame.croatia-2015-04 div.inner {
+	background-image:url("../icons/achievements/center-special-boardgame-croatia-2015-04.png");
+}
+
+div.badge.special.boardgame.belgium-2015-10 div.inner {
+	background-image:url("../icons/achievements/center-special-boardgame-belgium-2015-10.png");
+}
+
+div.badge.special.boardgame.germany-2016-05 div.inner {
+	background-image:url("../icons/achievements/center-special-boardgame-germany-2016-05.png");
+}
+
+div.badge.mod.benu div.inner {
+	background-image:url("../icons/achievements/center-mod-benu1.png");
+}
+
+div.badge.mod.CDB-Man div.inner {
+	background-image:url("../icons/achievements/center-mod-cdbman.png");
+}
+
+div.badge.mod.deridiot div.inner {
+	background-image:url("../icons/achievements/center-mod-deridiot.png");
+}
+
+div.badge.mod.exp div.inner {
+	background-image:url("../icons/achievements/center-mod-exp.png");
+}
+
+div.badge.mod.nwa div.inner {
+	background-image:url("../icons/achievements/center-mod-nwa.png");
+}
+
+div.badge.mod.ommina div.inner {
+	background-image:url("../icons/achievements/center-mod-ommina3.png");
+}
+
+div.badge.mod.sput div.inner {
+	background-image:url("../icons/achievements/center-mod-sput1.png");
+}
+
+div.badge.mod.worf div.inner {
+	background-image:url("../icons/achievements/center-mod-worf.png");
+}
+
+div.badge.anime.aria div.inner {
+	background-image:url("../icons/achievements/center-aria.png");
+}
+
+div.badge.anime.beyblade div.inner {
+	background-image:url("../icons/achievements/center-beyblade.png");
+}
+
+div.badge.anime.cityhunter div.inner {
+	background-image:url("../icons/achievements/center-cityhunter.png");
+}
+
+div.badge.anime.classic_anime div.inner {
+	background-image:url("../icons/achievements/center-classic_anime.png");
+}
+
+div.badge.anime.conan div.inner {
+	background-image:url("../icons/achievements/center-conan.png");
+}
+
+div.badge.anime.digimon div.inner {
+	background-image:url("../icons/achievements/center-digimon.png");
+}
+
+div.badge.anime.doraemon div.inner {
+	background-image:url("../icons/achievements/center-doraemon.png");
+}
+
+div.badge.anime.dragonball div.inner {
+	background-image:url("../icons/achievements/center-dragonball.png");
+}
+
+div.badge.anime.evangelion div.inner {
+	background-image:url("../icons/achievements/center-evangelion.png");
+}
+
+div.badge.anime.fma div.inner {
+	background-image:url("../icons/achievements/center-fma.png");
+}
+
+div.badge.anime.gatchaman div.inner {
+	background-image:url("../icons/achievements/center-gatchaman.png");
+}
+
+div.badge.anime.gegege div.inner {
+	background-image:url("../icons/achievements/center-gegege.png");
+}
+
+div.badge.anime.gintama div.inner {
+	background-image:url("../icons/achievements/center-gintama.png");
+}
+
+div.badge.anime.gits div.inner {
+	background-image:url("../icons/achievements/center-gits.png");
+}
+
+div.badge.anime.gundam div.inner {
+	background-image:url("../icons/achievements/center-gundam.png");
+}
+
+div.badge.anime.hack div.inner {
+	background-image:url("../icons/achievements/center-hack.png");
+}
+
+div.badge.anime.hentai div.inner {
+	background-image:url("../icons/achievements/center-hentai4.png");
+}
+
+div.badge.anime.hokutonoken div.inner {
+	background-image:url("../icons/achievements/center-hokutonoken.png");
+}
+
+div.badge.anime.hxh div.inner {
+	background-image:url("../icons/achievements/center-hxh.png");
+}
+
+div.badge.anime.initiald div.inner {
+	background-image:url("../icons/achievements/center-initiald.png");
+}
+
+div.badge.anime.ippo div.inner {
+	background-image:url("../icons/achievements/center-ippo.png");
+}
+
+div.badge.anime.jewelpet div.inner {
+	background-image:url("../icons/achievements/center-jewelpet.png");
+}
+
+div.badge.anime.kenshin div.inner {
+	background-image:url("../icons/achievements/center-kenshin.png");
+}
+
+div.badge.anime.logh div.inner {
+	background-image:url("../icons/achievements/center-logh.png");
+}
+
+div.badge.anime.lupin div.inner {
+	background-image:url("../icons/achievements/center-lupin.png");
+}
+
+div.badge.anime.macross div.inner {
+	background-image:url("../icons/achievements/center-macross1.png");
+}
+
+div.badge.anime.major div.inner {
+	background-image:url("../icons/achievements/center-major.png");
+}
+
+div.badge.anime.onepiece div.inner {
+	background-image:url("../icons/achievements/center-onepiece.png");
+}
+
+div.badge.anime.orangeroad div.inner {
+	background-image:url("../icons/achievements/center-orangeroad.png");
+}
+
+div.badge.anime.pokemon div.inner {
+	background-image:url("../icons/achievements/center-pokemon.png");
+}
+
+div.badge.anime.precure div.inner {
+	background-image:url("../icons/achievements/center-precure.png");
+}
+
+div.badge.anime.princeoftennis div.inner {
+	background-image:url("../icons/achievements/center-princeoftennis.png");
+}
+
+div.badge.anime.sailormoon div.inner {
+	background-image:url("../icons/achievements/center-sailormoon.png");
+}
+
+div.badge.anime.saintseiya div.inner {
+	background-image:url("../icons/achievements/center-saintseiya.png");
+}
+
+div.badge.anime.sazae div.inner {
+	background-image:url("../icons/achievements/center-sazae.png");
+}
+
+div.badge.anime.seikai div.inner {
+	background-image:url("../icons/achievements/center-seikai.png");
+}
+
+div.badge.anime.slayers div.inner {
+	background-image:url("../icons/achievements/center-slayers.png");
+}
+
+div.badge.anime.tenchi_muyou div.inner {
+	background-image:url("../icons/achievements/center-tenchi_muyou.png");
+}
+
+div.badge.anime.tsubasa div.inner {
+	background-image:url("../icons/achievements/center-tsubasa.png");
+}
+
+div.badge.anime.votoms div.inner {
+	background-image:url("../icons/achievements/center-votoms.png");
+}
+
+div.badge.anime.yugioh div.inner {
+	background-image:url("../icons/achievements/center-yugioh.png");
+}
+
+div.badge.creator.adachimitsuru div.inner {
+	background-image:url("../icons/achievements/center-adachi_mitsuru.png");
+}
+
+div.badge.creator.clamp div.inner {
+	background-image:url("../icons/achievements/center-clamp.png");
+}
+
+div.badge.creator.fukumotonobuyuki div.inner {
+	background-image:url("../icons/achievements/center-fukumoto_nobuyuki.png");
+}
+
+div.badge.creator.ghibli div.inner {
+	background-image:url("../icons/achievements/center-ghibli.png");
+}
+
+div.badge.creator.key div.inner {
+	background-image:url("../icons/achievements/center-key.png");
+}
+
+div.badge.creator.kyotoanimation div.inner {
+	background-image:url("../icons/achievements/center-kyoani.png");
+}
+
+div.badge.creator.matsumoto_leiji div.inner {
+	background-image:url("../icons/achievements/center-leiji.png");
+}
+
+div.badge.creator.nagai_gou div.inner {
+	background-image:url("../icons/achievements/center-nagai_gou.png");
+}
+
+div.badge.creator.studio4c div.inner {
+	background-image:url("../icons/achievements/center-studio4c.png");
+}
+
+div.badge.creator.takahashi_rumiko div.inner {
+	background-image:url("../icons/achievements/center-takahashi_rumiko.png");
+}
+
+div.badge.creator.tezuka_osamu div.inner {
+	background-image:url("../icons/achievements/center-tezuka.png");
+}
+
+div.badge.creator.typemoon div.inner {
+	background-image:url("../icons/achievements/center-typemoon.png");
+}
+
+div.badge.creator.urasawanaoki div.inner {
+	background-image:url("../icons/achievements/center-urasawa_naoki.png");
+}
+
+div.badge.mylist.animecount div.inner {
+	background-image:url("../icons/achievements/center-mylist_anime.png");
+}
+
+div.badge.mylist.episodecount div.inner {
+	background-image:url("../icons/achievements/center-mylist_episodes.png");
+}
+
+div.badge.mylist.filecount div.inner {
+	background-image:url("../icons/achievements/center-mylist_files.png");
+}
+
+div.badge.mylist.mylistsize div.inner {
+	background-image:url("../icons/achievements/center-mylist_size.png");
+}
+
+div.badge.mylist.seenepisodes div.inner {
+	background-image:url("../icons/achievements/center-watched1.png");
+}
+
+div.badge.mylist.timewasted div.inner {
+	background-image:url("../icons/achievements/center-time_wasted2.png");
+}
+
+div.badge.stats.anidbmember div.inner {
+	background-image:url("../icons/achievements/center-anidb_member2.png");
+}
+
+div.badge.stats.animeadded div.inner {
+	background-image:url("../icons/achievements/center-special-zzz.png");
+}
+
+div.badge.stats.avmf div.inner {
+	background-image:url("../icons/achievements/center-dump.png");
+}
+
+div.badge.stats.creatoradded div.inner {
+	background-image:url("../icons/achievements/center-creator.png");
+}
+
+div.badge.stats.creqcount div.inner {
+	background-image:url("../icons/achievements/center-creqs.png");
+}
+
+div.badge.stats.review div.inner {
+	background-image:url("../icons/achievements/center-reviews1.png");
+}
+
+div.badge.stats.similaranime div.inner {
+	background-image:url("../icons/achievements/center-similar_anime.png");
+}
+
+div.badge.stats.tags div.inner {
+	background-image:url("../icons/achievements/center-tags.png");
+}
+
+div.badge.stats.userroles div.inner {
+	background-image:url("../icons/achievements/center-user_rank.png");
+}
+
+div.badge.stats.votes div.inner {
+	background-image:url("../icons/achievements/center-votes.png");
+}
+
+div.badge.one-time.introduction div.inner {
+	background-image:url("../icons/achievements/center-onetime-introduction1.png");
+}
+
+div.badge.one-time.club div.inner {
+	background-image:url("../icons/achievements/center-onetime-club_joined.png");
+}

@@ -1100,53 +1100,53 @@ div.code,
 background-color: white;
 border: 1px solid lightgray }
 
-*.f_bold {
+.f_bold {
 font-weight: bold;
 background-image: url(../icons/formating/bold.gif) !important }
 
-*.f_italic {
+.f_italic {
 font-style: italic;
 background-image: url(../icons/formating/italic.gif) !important }
 
-*.f_underline {
+.f_underline {
 text-decoration: underline;
 background-image: url(../icons/formating/underline.gif) !important }
 
-*.f_strikethrough {
+.f_strikethrough {
 text-decoration: line-through;
 background-image: url(../icons/formating/strikethrough.gif) !important }
 
-*.f_insertorderedlist { background-image: url(../icons/formating/orderedlist.gif) !important }
+.f_insertorderedlist { background-image: url(../icons/formating/orderedlist.gif) !important }
 
-*.f_insertunorderedlist { background-image: url(../icons/formating/unorderedlist.gif) !important }
+.f_insertunorderedlist { background-image: url(../icons/formating/unorderedlist.gif) !important }
 
-*.f_insertlistitem { background-image: url(../icons/formating/list_item.gif) !important }
+.f_insertlistitem { background-image: url(../icons/formating/list_item.gif) !important }
 
-*.f_link { background-image: url(../icons/formating/link.gif) !important }
+.f_link { background-image: url(../icons/formating/link.gif) !important }
 
-*.f_unlink {
+.f_unlink {
 background-image: url(../icons/formating/unlink.gif) !important;
 opacity: 0.60 }
 
 .f_img { background-image: url(../icons/formating/image.gif) !important }
 
-*.f_separator { background-image: url(../icons/formating/separator.gif) !important }
+.f_separator { background-image: url(../icons/formating/separator.gif) !important }
 
-*.f_viewsource { background-image: url(../icons/formating/view_text.gif) !important }
+.f_viewsource { background-image: url(../icons/formating/view_text.gif) !important }
 
-*.f_viewrte { background-image: url(../icons/formating/view_source.gif) !important }
+.f_viewrte { background-image: url(../icons/formating/view_source.gif) !important }
 
-*.f_cleansource { background-image: url(../icons/formating/clean_source.gif) !important }
+.f_cleansource { background-image: url(../icons/formating/clean_source.gif) !important }
 
-*.f_preview { background-image: url(../icons/formating/preview.gif) !important }
+.f_preview { background-image: url(../icons/formating/preview.gif) !important }
 
-*.f_preview { background-image: url(../icons/formating/preview.gif) !important }
+.f_preview { background-image: url(../icons/formating/preview.gif) !important }
 
-*.f_spoiler { background-image: url(../icons/formating/spoiler.gif) !important }
+.f_spoiler { background-image: url(../icons/formating/spoiler.gif) !important }
 
-*.f_code { background-image: url(../icons/formating/code.gif) !important }
+.f_code { background-image: url(../icons/formating/code.gif) !important }
 
-*.f_buddy { background-image: url(../icons/formating/user.gif) !important }
+.f_buddy { background-image: url(../icons/formating/user.gif) !important }
 
 .f_button:hover, .f_button.selected {
 background-color: #EEE;
@@ -1158,105 +1158,105 @@ border-color: silver 1px solid }
 
 /* Anime list icons */
 
-*.i_award_mainichi { background-image: url(images/icons/awards/anidb_mainichi.png) }
-*.i_award_jmaf { background-image: url(images/icons/awards/anidb_jmaf.png) }
-*.i_award_japa { background-image: url(images/icons/awards/anidb_japa.png) }
-*.i_award_apsa { background-image: url(images/icons/awards/anidb_apsa.png) }
-*.i_award_top10 { background-image: url(images/icons/awards/anidb_top10.png) }
-*.i_award_arc2000 { background-image: url(images/icons/awards/anidb_arc2000award.png) }
-*.i_award_arc2001 { background-image: url(images/icons/awards/anidb_arc2001award.png) }
-*.i_award_arc2002 { background-image: url(images/icons/awards/anidb_arc2002award.png) }
-*.i_award_arc2003 { background-image: url(images/icons/awards/anidb_arc2003award.png) }
-*.i_award_arc2004 { background-image: url(images/icons/awards/anidb_arc2004award.png) }
-*.i_award_arc2005 { background-image: url(images/icons/awards/anidb_arc2005award.png) }
-*.i_award_arc2006 { background-image: url(images/icons/awards/anidb_arc2006award.png) }
-*.i_award_arc2007 { background-image: url(images/icons/awards/anidb_arc2007award.png) }
-*.i_award_arc2008 { background-image: url(images/icons/awards/anidb_arc2008award.png) }
-*.i_award_arc2009 { background-image: url(images/icons/awards/anidb_arc2009award.png) }
-*.i_award_arc2010 { background-image: url(images/icons/awards/anidb_arc2010award.png) }
-*.i_award_arc2011 { background-image: url(images/icons/awards/anidb_arc2011award.png) }
-*.i_award_arc2012 { background-image: url(images/icons/awards/anidb_arc2012award.png) }
+.i_award_mainichi { background-image: url(images/icons/awards/anidb_mainichi.png) }
+.i_award_jmaf { background-image: url(images/icons/awards/anidb_jmaf.png) }
+.i_award_japa { background-image: url(images/icons/awards/anidb_japa.png) }
+.i_award_apsa { background-image: url(images/icons/awards/anidb_apsa.png) }
+.i_award_top10 { background-image: url(images/icons/awards/anidb_top10.png) }
+.i_award_arc2000 { background-image: url(images/icons/awards/anidb_arc2000award.png) }
+.i_award_arc2001 { background-image: url(images/icons/awards/anidb_arc2001award.png) }
+.i_award_arc2002 { background-image: url(images/icons/awards/anidb_arc2002award.png) }
+.i_award_arc2003 { background-image: url(images/icons/awards/anidb_arc2003award.png) }
+.i_award_arc2004 { background-image: url(images/icons/awards/anidb_arc2004award.png) }
+.i_award_arc2005 { background-image: url(images/icons/awards/anidb_arc2005award.png) }
+.i_award_arc2006 { background-image: url(images/icons/awards/anidb_arc2006award.png) }
+.i_award_arc2007 { background-image: url(images/icons/awards/anidb_arc2007award.png) }
+.i_award_arc2008 { background-image: url(images/icons/awards/anidb_arc2008award.png) }
+.i_award_arc2009 { background-image: url(images/icons/awards/anidb_arc2009award.png) }
+.i_award_arc2010 { background-image: url(images/icons/awards/anidb_arc2010award.png) }
+.i_award_arc2011 { background-image: url(images/icons/awards/anidb_arc2011award.png) }
+.i_award_arc2012 { background-image: url(images/icons/awards/anidb_arc2012award.png) }
 
 
 /* Ep Icons */
 
-*.i_ep_edit { background-image: url(images/icons/icon/anidb_ep_edit.png) }
+.i_ep_edit { background-image: url(images/icons/icon/anidb_ep_edit.png) }
 
 
 /* File Icons */
 
-*.i_file_add { background-image: url(images/icons/icon/anidb_file_add.png) }
+.i_file_add { background-image: url(images/icons/icon/anidb_file_add.png) }
 
-*.i_file_delete { background-image: url(images/icons/icon/anidb_file_delete.png) }
+.i_file_delete { background-image: url(images/icons/icon/anidb_file_delete.png) }
 
-*.i_file_edit { background-image: url(images/icons/icon/anidb_file_edit.png) }
+.i_file_edit { background-image: url(images/icons/icon/anidb_file_edit.png) }
 
-*.i_file_details { background-image: url(images/icons/icon/anidb_file_details.png) }
+.i_file_details { background-image: url(images/icons/icon/anidb_file_details.png) }
 
-*.i_file_ed2k { background-image: url(images/icons/icon/anidb_file_ed2k.png) }
+.i_file_ed2k { background-image: url(images/icons/icon/anidb_file_ed2k.png) }
 
-*.i_file_ed2k_corrupt { background-image: url(images/icons/icon/anidb_file_ed2k_corrupt.png) }
+.i_file_ed2k_corrupt { background-image: url(images/icons/icon/anidb_file_ed2k_corrupt.png) }
 
-*.i_new_icon { background-image: url(images/icons/icon/anidb_new_icon.png) }
+.i_new_icon { background-image: url(images/icons/icon/anidb_new_icon.png) }
 
-*.i_av_yes { background-image: url(images/icons/icon/anidb_av_yes.png) }
+.i_av_yes { background-image: url(images/icons/icon/anidb_av_yes.png) }
 
-*.i_crc_no { background-image: url(images/icons/icon/anidb_crc_no.png) }
+.i_crc_no { background-image: url(images/icons/icon/anidb_crc_no.png) }
 
-*.i_crc_yes { background-image: url(images/icons/icon/anidb_crc_yes.png) }
+.i_crc_yes { background-image: url(images/icons/icon/anidb_crc_yes.png) }
 
-*.i_censored { background-image: url(images/icons/icon/anidb_censored.png) }
+.i_censored { background-image: url(images/icons/icon/anidb_censored.png) }
 
-*.i_uncensored { background-image: url(images/icons/icon/anidb_uncensored.png) }
+.i_uncensored { background-image: url(images/icons/icon/anidb_uncensored.png) }
 
-*.i_vrs_1 { background-image: url(images/icons/icon/anidb_vrs_1.png) }
+.i_vrs_1 { background-image: url(images/icons/icon/anidb_vrs_1.png) }
 
-*.i_vrs_2 { background-image: url(images/icons/icon/anidb_vrs_2.png) }
+.i_vrs_2 { background-image: url(images/icons/icon/anidb_vrs_2.png) }
 
-*.i_vrs_3 { background-image: url(images/icons/icon/anidb_vrs_3.png) }
+.i_vrs_3 { background-image: url(images/icons/icon/anidb_vrs_3.png) }
  
-*.i_vrs_4 { background-image: url(images/icons/icon/anidb_vrs_4.png) }
+.i_vrs_4 { background-image: url(images/icons/icon/anidb_vrs_4.png) }
 
-*.i_vrs_5 { background-image: url(images/icons/icon/anidb_vrs_5.png) }
+.i_vrs_5 { background-image: url(images/icons/icon/anidb_vrs_5.png) }
 
-*.i_chapters { background-image: url(images/icons/icon/anidb_chapters.png) }
+.i_chapters { background-image: url(images/icons/icon/anidb_chapters.png) }
 
-*.i_crc_unv { background-image: url(images/icons/icon/anidb_crc_unv.png) }
+.i_crc_unv { background-image: url(images/icons/icon/anidb_crc_unv.png) }
 
-*.i_video { background-image: url(images/icons/icon/anidb_video.png) }
+.i_video { background-image: url(images/icons/icon/anidb_video.png) }
 
-*.i_video.xvid,
-*.i_video.divx5 { background-image: url(images/icons/icon/anidb_video_asp.png) }
+.i_video.xvid,
+.i_video.divx5 { background-image: url(images/icons/icon/anidb_video_asp.png) }
 
-*.i_video.avc { background-image: url(images/icons/icon/anidb_video_avc.png) }
+.i_video.avc { background-image: url(images/icons/icon/anidb_video_avc.png) }
 
-*.i_video.wmv9 { background-image: url(images/icons/icon/anidb_video_wmv.png) }
+.i_video.wmv9 { background-image: url(images/icons/icon/anidb_video_wmv.png) }
 
-*.i_ext { background-image: url(images/icons/icon/anidb_other.png) }
+.i_ext { background-image: url(images/icons/icon/anidb_other.png) }
 
-*.i_ext.mkv { background-image: url(images/icons/icon/anidb_ext_mkv.png) }
+.i_ext.mkv { background-image: url(images/icons/icon/anidb_ext_mkv.png) }
 
-*.i_ext.ogm { background-image: url(images/icons/icon/anidb_ext_ogm.png) }
+.i_ext.ogm { background-image: url(images/icons/icon/anidb_ext_ogm.png) }
 
-*.i_ext.avi { background-image: url(images/icons/icon/anidb_ext_avi.png) }
+.i_ext.avi { background-image: url(images/icons/icon/anidb_ext_avi.png) }
 
-*.i_ext.mp4 { background-image: url(images/icons/icon/anidb_ext_mp4.png) }
+.i_ext.mp4 { background-image: url(images/icons/icon/anidb_ext_mp4.png) }
 
-*.i_ext.wmv { background-image: url(images/icons/icon/anidb_ext_wmv.png) }
+.i_ext.wmv { background-image: url(images/icons/icon/anidb_ext_wmv.png) }
 
-*.i_ext.srt { background-image: url(images/icons/icon/anidb_ext_srt.png) }
+.i_ext.srt { background-image: url(images/icons/icon/anidb_ext_srt.png) }
 
-*.i_ftype_video { background-image: url(images/icons/icon/anidb_video.png) }
+.i_ftype_video { background-image: url(images/icons/icon/anidb_video.png) }
 
-*.i_ftype_video2 { background-image: url(images/icons/icon/anidb_video2.png) }
+.i_ftype_video2 { background-image: url(images/icons/icon/anidb_video2.png) }
 
-*.i_ftype_subtitle { background-image: url(images/icons/icon/anidb_subtitles.png) }
+.i_ftype_subtitle { background-image: url(images/icons/icon/anidb_subtitles.png) }
 
-*.i_ftype_subtitle2 { background-image: url(images/icons/icon/anidb_subtitles2.png) }
+.i_ftype_subtitle2 { background-image: url(images/icons/icon/anidb_subtitles2.png) }
 
-*.i_ftype_audio { background-image: url(images/icons/icon/anidb_audio.png) }
+.i_ftype_audio { background-image: url(images/icons/icon/anidb_audio.png) }
 
-*.i_ftype_other { background-image: url(images/icons/icon/anidb_other.png) }
+.i_ftype_other { background-image: url(images/icons/icon/anidb_other.png) }
 
 .i_avmf_delete { background-image: url(images/icons/icon/anidb_avmf_delete.png) }
 
@@ -1271,125 +1271,125 @@ border-color: silver 1px solid }
 
 /* Comment Icons */
 
-*.i_comment_info { background-image: url(images/icons/four/comment_info.png) }
+.i_comment_info { background-image: url(images/icons/four/comment_info.png) }
 
-*.i_pm_reply {
+.i_pm_reply {
 background: url(images/icons/four/pm_reply.png) no-repeat;
 height: 12px;
 width: 41px }
 
-*.i_comment_delete {
+.i_comment_delete {
 width: 45px;
 height: 12px;
 background: url(images/icons/four/comment_delete.png) no-repeat }
 
-*.i_pm_delete {
+.i_pm_delete {
 background: url(images/icons/four/pm_delete.png) no-repeat;
 height:12px;
 width:45px }
 	 
-*.i_comment_quote {
+.i_comment_quote {
 width: 40px;
 height: 12px;
 background: url(images/icons/four/comment_quote.png) no-repeat }
 
-*.i_comment_add {
+.i_comment_add {
 width: 88px;
 height: 12px;
 background: url(images/icons/four/comment_add.png) no-repeat }
 
-*.i_comment_creq {
+.i_comment_creq {
 width: 108px;
 height: 12px;
 background: url(images/icons/four/comment_creq.png) no-repeat }
 	
-*.i_comment_revisions {
+.i_comment_revisions {
 width: 93px;
 height: 12px;
 background: url(images/icons/four/comment_revisions.png) no-repeat }
 
-*.i_comment_setactive {
+.i_comment_setactive {
 width: 61px;
 height: 12px;
 background: url(images/icons/four/comment_setactive.png) no-repeat }
 
-*.i_comment_undelete {
+.i_comment_undelete {
 width: 92px;
 height: 12px;
 background: url(images/icons/four/comment_undelete.png) no-repeat }
 
-*.i_forum_add {
+.i_forum_add {
 background: url(images/icons/four/forum_add.png) no-repeat;
 height: 12px;
 width: 68px }
 
-*.i_forum_delete {
+.i_forum_delete {
 background: url(images/icons/four/forum_delete.png) no-repeat;
 height:12px;
 width:83px }
 
-*.i_forum_edit {
+.i_forum_edit {
 background: url(images/icons/four/forum_edit.png) no-repeat;
 height:12px;
 width:67px }
 	
-*.i_review_add {
+.i_review_add {
 width: 74px;
 height: 12px;
 background: url(images/icons/four/review_add.png) no-repeat }
 	
-*.i_topic_add {
+.i_topic_add {
 background: url(images/icons/four/topic_add.png) no-repeat;
 height: 12px;
 width: 60px }
 	
-*.i_topic_delete {
+.i_topic_delete {
 background: url(images/icons/four/topic_delete.png) no-repeat;
 height: 12px;
 width: 87px }
 
-*.i_topic_history {
+.i_topic_history {
 background: url(images/icons/four/topic_history.png) no-repeat;
 height: 12px;
 width: 85px }
 
-*.i_topic_lock {
+.i_topic_lock {
 background: url(images/icons/four/topic_lock.png) no-repeat;
 height: 12px;
 width: 76px }
 
-*.i_topic_move {
+.i_topic_move {
 background: url(images/icons/four/topic_move.png) no-repeat;
 height: 12px;
 width: 80px }
 
-*.i_topic_split {
+.i_topic_split {
 background: url(images/icons/four/topic_split.png) no-repeat;
 height: 12px;
 width: 80px }
 
-*.i_topic_read {
+.i_topic_read {
 background-image:url(images/icons/four/topic_read.png);
 height:12px;
 width:65px;
 }
 
-*.i_topic_unlock {
+.i_topic_unlock {
 background: url(images/icons/four/topic_unlock.png) no-repeat;
 height: 12px;
 width: 94px }
 
-*.i_comment_edit {
+.i_comment_edit {
 width: 28px;
 height: 12px;
 background: url(images/icons/four/comment_edit.png) no-repeat }
 
-*.i_comment_move {
+.i_comment_move {
 width: 33px;
 height: 12px;
 background: url(images/icons/four/comment_move.png) no-repeat }
 
-*.i_forum_link {
+.i_forum_link {
 background: url(images/icons/four/forum_link.png) no-repeat;
 height: 12px;
 width: 43px }
@@ -1400,315 +1400,315 @@ width: 43px }
 	height: 13px;
 	width: 15px }
 
-*.i_topic_locked { /* no hover */
+.i_topic_locked { /* no hover */
 background: url(images/icons/four/topic_locked.png) no-repeat;
 height: 12px;
 width: 47px }
 
-*.i_topic_subscribe {
+.i_topic_subscribe {
 background: url(images/icons/four/topic_subscribe.png) no-repeat;
 height: 12px;
 width: 70px }
 
-*.i_topic_unsubscribe {
+.i_topic_unsubscribe {
 background: url(images/icons/four/topic_unsubscribe.png) no-repeat;
 height: 12px;
 width: 81px }
 
-*.i_topic_undelete {
+.i_topic_undelete {
 background: url(images/icons/four/topic_undelete.png) no-repeat;
 height:12px;
 width:106px }
 
-*.i_forum_group {
+.i_forum_group {
 background: url(images/icons/four/forum_group.png) no-repeat;
 height:12px;
 width:122px }
 
-	*.i_topic_undelete:hover,
-	*.i_forum_group:hover,
-	*.i_topic_unsubscribe:hover,
-	*.i_topic_subscribe:hover,
-	*.i_forum_link:hover,
-	*.i_comment_move:hover,
-	*.i_comment_edit:hover,
-	*.i_topic_unlock:hover,
-	*.i_topic_split:hover,
-	*.i_topic_read:hover,
-	*.i_topic_move:hover,
-	*.i_topic_lock:hover,
-	*.i_topic_history:hover,
-	*.i_pm_reply:hover,
-	*.i_comment_delete:hover,
-	*.i_pm_delete:hover,
-	*.i_comment_quote:hover,
-	*.i_comment_add:hover,
-	*.i_comment_creq:hover,
-	*.i_comment_revisions:hover,
-	*.i_comment_setactive:hover,
-	*.i_comment_undelete:hover,
-	*.i_forum_add:hover,
-	*.i_forum_delete:hover,
-	*.i_forum_edit:hover,
-	*.i_topic_delete:hover,
-	*.i_topic_add:hover,
-	*.i_review_add:hover {
+	.i_topic_undelete:hover,
+	.i_forum_group:hover,
+	.i_topic_unsubscribe:hover,
+	.i_topic_subscribe:hover,
+	.i_forum_link:hover,
+	.i_comment_move:hover,
+	.i_comment_edit:hover,
+	.i_topic_unlock:hover,
+	.i_topic_split:hover,
+	.i_topic_read:hover,
+	.i_topic_move:hover,
+	.i_topic_lock:hover,
+	.i_topic_history:hover,
+	.i_pm_reply:hover,
+	.i_comment_delete:hover,
+	.i_pm_delete:hover,
+	.i_comment_quote:hover,
+	.i_comment_add:hover,
+	.i_comment_creq:hover,
+	.i_comment_revisions:hover,
+	.i_comment_setactive:hover,
+	.i_comment_undelete:hover,
+	.i_forum_add:hover,
+	.i_forum_delete:hover,
+	.i_forum_edit:hover,
+	.i_topic_delete:hover,
+	.i_topic_add:hover,
+	.i_review_add:hover {
 	background-position: 0 -12px }	
 	
-*.i_top { background-image: url(images/icons/phpbb/icon_back_top.png) }
+.i_top { background-image: url(images/icons/phpbb/icon_back_top.png) }
 
 #layout-main div.forum a.lastpost { background-image: url(images/icons/phpbb/topic_latest.png) }
 
-*.i_msg_mod,
-*.i_topic_announcement,
-*.i_topic_global,
-*.i_msg_normal,
-*.i_topic_normal,
-*.i_forum {
+.i_msg_mod,
+.i_topic_announcement,
+.i_topic_global,
+.i_msg_normal,
+.i_topic_normal,
+.i_forum {
 background-image: url(images/icons/phpbb/topic_normal.png);
 background-repeat: no-repeat }
 
-*.i_msg_normal_unread,
-*.i_topic_normal_unread, 
-*.i_forum_unread,
-*.i_msg_mod_unread,
-*.i_topic_announcement_unread,
-*.i_topic_global_unread {
+.i_msg_normal_unread,
+.i_topic_normal_unread, 
+.i_forum_unread,
+.i_msg_mod_unread,
+.i_topic_announcement_unread,
+.i_topic_global_unread {
 background-image: url(images/icons/phpbb/topic_announce_unread.png);
 background-repeat: no-repeat }
 	
-*.i_topic_announcement_locked,
-*.i_topic_global_locked,
-*.i_topic_normal_locked {
+.i_topic_announcement_locked,
+.i_topic_global_locked,
+.i_topic_normal_locked {
 background-image: url(images/icons/phpbb/topic_normal_locked.png);
 background-repeat: no-repeat }
 
-*.i_topic_announcement_locked_unread,
-*.i_topic_global_locked_unread,
-*.i_topic_normal_locked_unread {
+.i_topic_announcement_locked_unread,
+.i_topic_global_locked_unread,
+.i_topic_normal_locked_unread {
 background-image: url(images/icons/phpbb/topic_normal_locked_unread.png);
 background-repeat: no-repeat }	
 
-*.i_topic_sticky {
+.i_topic_sticky {
 background-image: url(images/icons/phpbb/topic_sticky.png);
 background-repeat: no-repeat }
 
-*.i_topic_sticky_unread {
+.i_topic_sticky_unread {
 background-image: url(images/icons/phpbb/topic_sticky_unread.png);
 background-repeat: no-repeat }
 
-*.i_topic_sticky_locked {
+.i_topic_sticky_locked {
 background-image: url(images/icons/phpbb/topic_sticky_locked.png);
 background-repeat: no-repeat }
 
-*.i_topic_sticky_locked_unread {
+.i_topic_sticky_locked_unread {
 background-image: url(images/icons/phpbb/topic_sticky_locked_unread.png);
 background-repeat: no-repeat }
 
-*.i_msg_system {
+.i_msg_system {
 background-image: url(images/icons/phpbb/system_msg.png);
 background-repeat: no-repeat }
 
-*.i_msg_system_unread {
+.i_msg_system_unread {
 background-image: url(images/icons/phpbb/system_msg_unread.png);
 background-repeat: no-repeat }
 	
 	
 /* General Icons */
 
-*.i_help {
+.i_help {
 background: url(images/icons/four/ask2.png) no-repeat right;
 cursor: help; /* just for teh funs */ }
 
-*.i_tab_expand,
-*.i_plus { background: url(images/icons/four/plus.png) no-repeat right }
+.i_tab_expand,
+.i_plus { background: url(images/icons/four/plus.png) no-repeat right }
 
-*.i_tab_collapse,
-*.i_minus { background: url(images/icons/four/minus.png) no-repeat right }
+.i_tab_collapse,
+.i_minus { background: url(images/icons/four/minus.png) no-repeat right }
 
-*.i_comment { background-image: url(images/icons/icon/anidb_comment.png) }
+.i_comment { background-image: url(images/icons/icon/anidb_comment.png) }
 
-*.i_summary { background-image: url(images/icons/icon/anidb_summary.png) }
+.i_summary { background-image: url(images/icons/icon/anidb_summary.png) }
 
-*.i_report_entry,
-*.i_no_vote {
+.i_report_entry,
+.i_no_vote {
 background-image: url(.icons/icon/anidb_no_vote.png) }
 
-*.i_nonotify { background-image: url(images/icons/icon/anidb_nonotify.png) }
+.i_nonotify { background-image: url(images/icons/icon/anidb_nonotify.png) }
 
-*.i_notify { background-image: url(images/icons/icon/anidb_notify.png) }
+.i_notify { background-image: url(images/icons/icon/anidb_notify.png) }
 
-*.i_vote { background-image: url(images/icons/four/anidb_vote.png) }
+.i_vote { background-image: url(images/icons/four/anidb_vote.png) }
 
-*.i_revote { background-image: url(images/icons/four/anidb_revote.png) }
+.i_revote { background-image: url(images/icons/four/anidb_revote.png) }
 
-*.i_nopic { background-image: url(images/icons/four/nopic.png) }
+.i_nopic { background-image: url(images/icons/four/nopic.png) }
 
-*.i_sort {
+.i_sort {
 width: 5px;
 background-image: url(images/icons/four/sort.png) }
 
-*.i_arrow_up { background-image: url(images/icons/test/arrow_up.png) }
+.i_arrow_up { background-image: url(images/icons/test/arrow_up.png) }
 
-*.i_arrow_down { background-image: url(images/icons/test/arrow_down.png) }
+.i_arrow_down { background-image: url(images/icons/test/arrow_down.png) }
 
-*.i_arrow_inactive { background-image: url(images/icons/test/arrow_inactive.png) }
+.i_arrow_inactive { background-image: url(images/icons/test/arrow_inactive.png) }
 
 	th.c_set,
 	th.c_setlatin,
 	th.c_date,
 	th.c_latin,
 	th.c_number,
-	*.i_inactive:not(.sorter-false) {
+	.i_inactive:not(.sorter-false) {
 	background-image: url(images/icons/test/arrow_inactive.png) }
 
 	th.s_forward,
-	*.i_descending {
+	.i_descending {
 	background-image: url(images/icons/test/arrow_down.png) }
 
 	th.s_reverse,
-	*.i_ascending {
+	.i_ascending {
 	background-image: url(images/icons/test/arrow_up.png) }
 
 
 /* Mylist Icons */
 .i_general_list,
-*.i_mylist { background-image: url(images/icons/icon/anidb_mylist.png) }
+.i_mylist { background-image: url(images/icons/icon/anidb_mylist.png) }
 
-*.i_file_addmylist { background-image: url(images/icons/icon/anidb_file_addmylist.png) }
+.i_file_addmylist { background-image: url(images/icons/icon/anidb_file_addmylist.png) }
 
-*.i_file_removemylist { background-image: url(images/icons/icon/anidb_file_removemylist.png) }
+.i_file_removemylist { background-image: url(images/icons/icon/anidb_file_removemylist.png) }
 
-*.i_liststate_edit { background-image: url(images/icons/icon/anidb_liststate_edit.png) }
+.i_liststate_edit { background-image: url(images/icons/icon/anidb_liststate_edit.png) }
 
-*.i_seen { background-image: url(images/icons/icon/anidb_seen.png) }
+.i_seen { background-image: url(images/icons/icon/anidb_seen.png) }
 
-*.i_seen_no { background-image: url(images/icons/icon/anidb_seen_no.png) }
+.i_seen_no { background-image: url(images/icons/icon/anidb_seen_no.png) }
 
-*.i_seen_yes { background-image: url(images/icons/icon/anidb_seen_yes.png) }
+.i_seen_yes { background-image: url(images/icons/icon/anidb_seen_yes.png) }
 
-*.i_vote_pending { background-image: url(images/icons/icon/anidb_no_vote.png) }
+.i_vote_pending { background-image: url(images/icons/icon/anidb_no_vote.png) }
 
 
 /* Formating Icons */
 
-*.i_mylist_ainfo_loading {
+.i_mylist_ainfo_loading {
 width: 15px;
 height: 13px;
 background-image: url(images/icons/formating/loading.gif) }
 
-*.i_mylist_ainfo {
+.i_mylist_ainfo {
 width: 15px;
 height: 13px;
 background-image: url(images/icons/formating/information.png) }
 
-*.i_mylist_ainfo_greyed {
+.i_mylist_ainfo_greyed {
 width: 15px;
 height: 13px;
 background-image: url(images/icons/formating/information_greyed.png) }
 
-*.i_expanded { background: transparent url(images/icons/formating/icon_contract.png) top right no-repeat }
+.i_expanded { background: transparent url(images/icons/formating/icon_contract.png) top right no-repeat }
 
-*.i_collapsed { background: transparent url(images/icons/formating/icon_expand.png) top right no-repeat }
+.i_collapsed { background: transparent url(images/icons/formating/icon_expand.png) top right no-repeat }
 
 
 /* State Icons */
 
-*.i_liststate_watching { background-image: url(images/icons/state/anidb_liststate_watching.png) }
+.i_liststate_watching { background-image: url(images/icons/state/anidb_liststate_watching.png) }
 
-*.i_liststate_collecting { background-image: url(images/icons/state/anidb_liststate_collecting.png) }
+.i_liststate_collecting { background-image: url(images/icons/state/anidb_liststate_collecting.png) }
 
-*.i_liststate_stalled { background-image: url(images/icons/state/anidb_liststate_stalled.png) }
+.i_liststate_stalled { background-image: url(images/icons/state/anidb_liststate_stalled.png) }
 
-*.i_liststate_dropped { background-image: url(images/icons/state/anidb_liststate_dropped.png) }
+.i_liststate_dropped { background-image: url(images/icons/state/anidb_liststate_dropped.png) }
 
-*.i_liststate_completed { background-image: url(images/icons/state/anidb_liststate_completed.png) }
+.i_liststate_completed { background-image: url(images/icons/state/anidb_liststate_completed.png) }
 
-*.i_state_unknown { background-image: url(images/icons/state/anidb_state_unknown.png) }
+.i_state_unknown { background-image: url(images/icons/state/anidb_state_unknown.png) }
 
-*.i_state_mixed { background-image: url(images/icons/state/anidb_state_mixed.png) }
+.i_state_mixed { background-image: url(images/icons/state/anidb_state_mixed.png) }
 
-*.i_state_onhdd { background-image: url(images/icons/state/anidb_state_onhdd.png) }
+.i_state_onhdd { background-image: url(images/icons/state/anidb_state_onhdd.png) }
 
-*.i_tv_series {
+.i_tv_series {
 height: 13px;
 background-image: url(images/icons/state/anidb_atype_tv_series.png) }
 
-*.i_movie {
+.i_movie {
 height: 13px;
 background-image: url(images/icons/state/anidb_atype_movie.png) }
 
-*.i_ova {
+.i_ova {
 height: 13px;
 background-image: url(images/icons/state/anidb_atype_ova.png) }
 
-*.i_web {
+.i_web {
 height: 13px;
 background-image: url(images/icons/state/anidb_atype_web.png) }
 
-*.i_tv_special {
+.i_tv_special {
 height: 13px;
 background-image: url(images/icons/state/anidb_atype_tv_special.png) }
 
-*.i_music_video {
+.i_music_video {
 height: 13px;
 background-image: url(images/icons/state/anidb_atype_music_video.png) }
 
-*.i_other,
-*.i_unknown {
+.i_other,
+.i_unknown {
 height: 13px;
 background-image: url(images/icons/state/anidb_atype_other.png) }
 
-*.i_recap { background-image: url(images/icons/icon/anidb_recap.png) }
+.i_recap { background-image: url(images/icons/icon/anidb_recap.png) }
 
-*.i_filestate_corrupted { background-image: url(images/icons/state/anidb_filestate_corrupted.png) }
+.i_filestate_corrupted { background-image: url(images/icons/state/anidb_filestate_corrupted.png) }
 
-*.i_filestate_edited { background-image: url(images/icons/state/anidb_filestate_edited.png) }
+.i_filestate_edited { background-image: url(images/icons/state/anidb_filestate_edited.png) }
 
-*.i_filestate_ondvd { background-image: url(images/icons/state/anidb_filestate_ondvd.png) }
+.i_filestate_ondvd { background-image: url(images/icons/state/anidb_filestate_ondvd.png) }
 
-*.i_filestate_onbluray { background-image: url(images/icons/state/anidb_filestate_onbluray.png) }
+.i_filestate_onbluray { background-image: url(images/icons/state/anidb_filestate_onbluray.png) }
 
-*.i_filestate_ontv { background-image: url(images/icons/state/anidb_filestate_ontv.png) }
+.i_filestate_ontv { background-image: url(images/icons/state/anidb_filestate_ontv.png) }
 
-*.i_filestate_other { background-image: url(images/icons/state/anidb_filestate_other.png) }
+.i_filestate_other { background-image: url(images/icons/state/anidb_filestate_other.png) }
 
-*.i_filestate_selfripped { background-image: url(images/icons/state/anidb_filestate_selfripped.png) }
+.i_filestate_selfripped { background-image: url(images/icons/state/anidb_filestate_selfripped.png) }
 
-*.i_filestate_streamed { background-image: url(images/icons/state/anidb_filestate_streamed.png) }
+.i_filestate_streamed { background-image: url(images/icons/state/anidb_filestate_streamed.png) }
 
-*.i_filestate_theater { background-image: url(images/icons/state/anidb_filestate_theater.png) }
+.i_filestate_theater { background-image: url(images/icons/state/anidb_filestate_theater.png) }
 
-*.i_filestate_fillerep { background-image: url(images/icons/state/anidb_filestate_filler.png) }
+.i_filestate_fillerep { background-image: url(images/icons/state/anidb_filestate_filler.png) }
 
-*.i_liststate_unknown { background-image: url(images/icons/state/anidb_liststate_unknown.png) }
+.i_liststate_unknown { background-image: url(images/icons/state/anidb_liststate_unknown.png) }
 
-*.i_state_all { background-image: url(images/icons/state/anidb_state_all.png) }
+.i_state_all { background-image: url(images/icons/state/anidb_state_all.png) }
 
-*.i_state_deleted { background-image: url(images/icons/state/anidb_state_deleted.png) }
+.i_state_deleted { background-image: url(images/icons/state/anidb_state_deleted.png) }
 
-*.i_state_oncd { background-image: url(images/icons/state/anidb_state_oncd.png) }
+.i_state_oncd { background-image: url(images/icons/state/anidb_state_oncd.png) }
 
 
 	/* Group State Icons */
 	
-	*.i_gstate_complete { background-image: url(images/icons/state/anidb_gstate_complete.png) }
+	.i_gstate_complete { background-image: url(images/icons/state/anidb_gstate_complete.png) }
 
-	*.i_gstate_dropped { background-image: url(images/icons/state/anidb_gstate_dropped.png) }
+	.i_gstate_dropped { background-image: url(images/icons/state/anidb_gstate_dropped.png) }
 
-	*.i_gstate_finished { background-image: url(images/icons/state/anidb_gstate_finished.png) }
+	.i_gstate_finished { background-image: url(images/icons/state/anidb_gstate_finished.png) }
 
-	*.i_gstate_ongoing { background-image: url(images/icons/state/anidb_gstate_ongoing.png) }
+	.i_gstate_ongoing { background-image: url(images/icons/state/anidb_gstate_ongoing.png) }
 
-	*.i_gstate_stalled { background-image: url(images/icons/state/anidb_gstate_stalled.png) }
+	.i_gstate_stalled { background-image: url(images/icons/state/anidb_gstate_stalled.png) }
 
-	*.i_gstate_specials { background-image: url(images/icons/state/anidb_gstate_specials.png) }
+	.i_gstate_specials { background-image: url(images/icons/state/anidb_gstate_specials.png) }
 
-	*.i_gstate_all { background-image: url(images/icons/state/anidb_gstate_all.png) }
+	.i_gstate_all { background-image: url(images/icons/state/anidb_gstate_all.png) }
 	
 	.f_selected { background-color: #CACACA }
 	
-	*.i_group_comment { background-image: url(images/icons/silk/comment_add.png) }
+	.i_group_comment { background-image: url(images/icons/silk/comment_add.png) }
 
 	
 /* Silk Icons */
@@ -1719,7 +1719,7 @@ background-image:url(images/icons/silk/general_added.png);
 height: 13px;
 width: 15px }
 	
-*.i_general_blacklist {
+.i_general_blacklist {
 background-image:url(images/icons/silk/general_blacklist.png);
 height: 13px;
 width: 15px }
@@ -1729,13 +1729,13 @@ background-image:url(images/icons/silk/general_block.png);
 height: 13px;
 width: 15px }
 
-*.i_general_convert {
+.i_general_convert {
 background-image:url(images/icons/silk/general_convert.png);
 height: 13px;
 width: 15px }
 
-*.i_general_delete,
-*.i_general_delete_request {
+.i_general_delete,
+.i_general_delete_request {
 background-image:url(images/icons/silk/general_delete.png);
 height: 13px;
 width: 15px }
@@ -1745,8 +1745,8 @@ background-image:url(images/icons/silk/general_new.png);
 height: 13px;
 width: 15px }
 
-*.i_general_edit,
-*.i_general_edit_request {
+.i_general_edit,
+.i_general_edit_request {
 background-image:url(images/icons/silk/general_edit.png);
 height: 13px;
 width: 15px }
@@ -1761,22 +1761,22 @@ background-image:url(images/icons/silk/general_minus.png);
 height: 13px;
 width: 15px }
 
-*.i_general_history {
+.i_general_history {
 background-image:url(images/icons/silk/general_history.png);
 height: 13px;
 width: 15px }
 
-*.i_general_merge {
+.i_general_merge {
 background-image:url(images/icons/silk/general_merge.png);
 height: 13px;
 width: 15px }
 
-*.i_general_unverify {
+.i_general_unverify {
 background-image:url(images/icons/silk/general_unverify.png);
 height: 13px;
 width: 15px }
 
-*.i_general_verify {
+.i_general_verify {
 background-image:url(images/icons/silk/general_verify.png);
 height: 13px;
 width: 15px }
@@ -1792,129 +1792,129 @@ background-image:url(images/icons/silk/general_static.png);
 height:13px;
 width:15px }
 
-*.i_general_vote_down {
+.i_general_vote_down {
 background-image:url(images/icons/silk/general_vote_down.png);
 height: 13px;
 width: 15px }
 
-*.i_general_vote_revoke {
+.i_general_vote_revoke {
 background-image:url(images/icons/silk/general_vote_revoke.png);
 height: 13px;
 width: 15px }
 
-*.i_general_vote_up {
+.i_general_vote_up {
 background-image:url(images/icons/silk/general_vote_up.png);
 height: 13px;
 width: 15px }
 
-*.i_search_blue {
+.i_search_blue {
 background-image:url(images/icons/silk/search_type_b.png);
 height: 13px;
 width: 15px }
 
-*.i_search_orange {
+.i_search_orange {
 background-image:url(images/icons/silk/search_type_a.png);
 height: 13px;
 width: 15px }
 
-*.i_state_verified {
+.i_state_verified {
 background-image:url(images/icons/silk/state_verified.png);
 height: 13px;
 width: 15px }
 
-*.i_user_add { background-image: url(images/icons/silk/user_add.png) }
+.i_user_add { background-image: url(images/icons/silk/user_add.png) }
 
-*.i_user_delete { background-image: url(images/icons/silk/user_delete.png) }
+.i_user_delete { background-image: url(images/icons/silk/user_delete.png) }
 
-*.i_user_feedback { background-image: url(images/icons/silk/user_feedback.png) }
+.i_user_feedback { background-image: url(images/icons/silk/user_feedback.png) }
 
-*.i_user_history { background-image: url(images/icons/silk/user_history.png) }
+.i_user_history { background-image: url(images/icons/silk/user_history.png) }
 
-*.i_user_info { background-image: url(images/icons/silk/user_info.png) }
+.i_user_info { background-image: url(images/icons/silk/user_info.png) }
 
-*.i_user_mylist { background-image: url(images/icons/silk/user_mylist.png) }
+.i_user_mylist { background-image: url(images/icons/silk/user_mylist.png) }
 
-*.i_user_page { background-image: url(images/icons/silk/user_page.png) }
+.i_user_page { background-image: url(images/icons/silk/user_page.png) }
 
-*.i_user_reviews { background-image: url(images/icons/silk/user_reviews.png) }
+.i_user_reviews { background-image: url(images/icons/silk/user_reviews.png) }
 
-*.i_user_send { background-image: url(images/icons/silk/user_send.png) }
+.i_user_send { background-image: url(images/icons/silk/user_send.png) }
 
-*.i_user_wishlist { background-image: url(images/icons/silk/user_wishlist.png) }
+.i_user_wishlist { background-image: url(images/icons/silk/user_wishlist.png) }
 
-*.i_user_votes { background-image: url(images/icons/silk/user_votes.png) }
+.i_user_votes { background-image: url(images/icons/silk/user_votes.png) }
 
-*.i_events_birthday { background-image: url(images/icons/silk/events_birthday.png) }
+.i_events_birthday { background-image: url(images/icons/silk/events_birthday.png) }
 
-*.i_events_event { background-image: url(images/icons/silk/events_event.png) }
+.i_events_event { background-image: url(images/icons/silk/events_event.png) }
 
-*.i_events_maintenance { background-image: url(images/icons/silk/events_maintenance.png) }
+.i_events_maintenance { background-image: url(images/icons/silk/events_maintenance.png) }
 
 
 	/* Wishlist Icons */
 	
-	*.i_wishlist_blacklist { background-image: url(images/icons/silk/wishlist_blacklist.png) }
+	.i_wishlist_blacklist { background-image: url(images/icons/silk/wishlist_blacklist.png) }
 
-	*.i_wishlist_buddy { background-image: url(images/icons/silk/wishlist_buddy.png) }
+	.i_wishlist_buddy { background-image: url(images/icons/silk/wishlist_buddy.png) }
 
-	*.i_wishlist_toget { background-image: url(images/icons/silk/wishlist_toget.png) }
+	.i_wishlist_toget { background-image: url(images/icons/silk/wishlist_toget.png) }
 
-	*.i_wishlist_towatch { background-image: url(images/icons/silk/wishlist_towatch.png) }
+	.i_wishlist_towatch { background-image: url(images/icons/silk/wishlist_towatch.png) }
 
-	*.i_wishlist_undefined { background-image: url(images/icons/silk/wishlist_undefined.png) }
+	.i_wishlist_undefined { background-image: url(images/icons/silk/wishlist_undefined.png) }
 
-	*.i_wishlist_remove { background-image: url(images/icons/silk/wishlist_remove.png) }
+	.i_wishlist_remove { background-image: url(images/icons/silk/wishlist_remove.png) }
 
 	
 	
 /* Rate Icons */
 
-*.i_pri_high { background-image: url(images/icons/icon/anidb_pri_high.png) }
+.i_pri_high { background-image: url(images/icons/icon/anidb_pri_high.png) }
 
-*.i_pri_low { background-image: url(images/icons/icon/anidb_pri_low.png) }
+.i_pri_low { background-image: url(images/icons/icon/anidb_pri_low.png) }
 
-*.i_pri_med { background-image: url(images/icons/icon/anidb_pri_med.png) }
+.i_pri_med { background-image: url(images/icons/icon/anidb_pri_med.png) }
 
-*.i_rate_corrupted { background-image: url(images/icons/icon/anidb_rate_corrupted.png) }
+.i_rate_corrupted { background-image: url(images/icons/icon/anidb_rate_corrupted.png) }
 
-*.i_rate_eyecancer { background-image: url(images/icons/icon/anidb_rate_eyecancer.png) }
+.i_rate_eyecancer { background-image: url(images/icons/icon/anidb_rate_eyecancer.png) }
 
-*.i_rate_star { background-image: url(images/icons/icon/anidb_rate_star.png) }
+.i_rate_star { background-image: url(images/icons/icon/anidb_rate_star.png) }
 
-*.i_rate_weightless { background-image: url(images/icons/icon/anidb_rate_star_grey.png) }
+.i_rate_weightless { background-image: url(images/icons/icon/anidb_rate_star_grey.png) }
 
-*.i_rate_halfstar {
+.i_rate_halfstar {
 width: 7px;
 background-image: url(images/icons/icon/anidb_rate_star.png);
 background-position: left }
 
-*.i_rate_unknown { background-image: url(images/icons/icon/anidb_rate_unknown.png) }
+.i_rate_unknown { background-image: url(images/icons/icon/anidb_rate_unknown.png) }
 
-*.i_rate_veryhigh {
+.i_rate_veryhigh {
 width: 43px;
 background-image: url(images/icons/icon/anidb_rate_star.png);
 background-repeat: repeat-x;
 background-position: left }
 
-*.i_rate_high {
+.i_rate_high {
 width: 38px;
 background-image: url(images/icons/icon/anidb_rate_star.png);
 background-repeat: repeat-x;
 background-position: left }
 
-*.i_rate_med {
+.i_rate_med {
 width: 30px;
 background-image: url(images/icons/icon/anidb_rate_star.png);
 background-repeat: repeat-x;
 background-position: left }
 
-*.i_rate_low {
+.i_rate_low {
 width: 22px;
 background-image: url(images/icons/icon/anidb_rate_star.png);
 background-repeat: repeat-x;
 background-position: left }
 
-*.i_rate_verylow {
+.i_rate_verylow {
 width: 15px;
 background-image: url(images/icons/icon/anidb_rate_star.png);
 background-repeat: repeat-x;
@@ -1923,14 +1923,14 @@ background-position: left }
 
 /* Videostream Icons */
 
-*.i_videostream_unknown,
-*.i_videostream_other__non_asp_,
-*.i_videostream_asp_other,
-*.i_videostream_mpeg_2,
-*.i_videostream_mpeg_1,
-*.i_videostream_realvideo_other,
-*.i_videostream_wmv9__also_wmv3_,
-*.i_videostream {
+.i_videostream_unknown,
+.i_videostream_other__non_asp_,
+.i_videostream_asp_other,
+.i_videostream_mpeg_2,
+.i_videostream_mpeg_1,
+.i_videostream_realvideo_other,
+.i_videostream_wmv9__also_wmv3_,
+.i_videostream {
 background-image: url(images/icons/icon/anidb_videoStream.png) }
 
 
@@ -1952,394 +1952,394 @@ background-image: url(images/icons/icon/anidb_video_creditless.png) }
 .i_audio_x-in {
 background-image: url(images/icons/flags/anidb_audio_instrumental.png) }
 
-*.i_audio_ja {
+.i_audio_ja {
 background-image: url(images/icons/flags/anidb_audio_japanese.png) }
 
-	*.i_sub_ja {
+	.i_sub_ja {
 	background-image: url(images/icons/flags/anidb_sub_japanese.png) }
 
-*.i_audio_x-jat {
+.i_audio_x-jat {
 background-image: url(images/icons/flags/anidb_audio_japanese-transcription.png) }
 
-	*.i_sub_x-jat {
+	.i_sub_x-jat {
 	background-image: url(images/icons/flags/anidb_sub_japanese-transcription.png) }
 
-*.i_audio_de {
+.i_audio_de {
 background-image: url(images/icons/flags/anidb_audio_german.png) }
 		
-	*.i_sub_de {
+	.i_sub_de {
 	background-image: url(images/icons/flags/anidb_sub_german.png) }
 
-*.i_audio_pt-BR {
+.i_audio_pt-BR {
 background-image: url(images/icons/flags/anidb_audio_brasilian.png) }
 
-	*.i_sub_pt-BR {
+	.i_sub_pt-BR {
 	background-image: url(images/icons/flags/anidb_sub_brasilian.png) }
 
-*.i_audio_cs {
+.i_audio_cs {
 background-image: url(images/icons/flags/anidb_audio_czech.png) }
 
-	*.i_sub_cs {
+	.i_sub_cs {
 	background-image: url(images/icons/flags/anidb_sub_czech.png) }
 
-*.i_audio_da {
+.i_audio_da {
 background-image: url(images/icons/flags/anidb_audio_danish.png) }
 
-	*.i_sub_da {
+	.i_sub_da {
 	background-image: url(images/icons/flags/anidb_sub_danish.png) }
 
-*.i_audio_nl {
+.i_audio_nl {
 background-image: url(images/icons/flags/anidb_audio_dutch.png) }
 
-	*.i_sub_nl {
+	.i_sub_nl {
 	background-image: url(images/icons/flags/anidb_sub_dutch.png) }
 
-*.i_audio_en {
+.i_audio_en {
 background-image: url(images/icons/flags/anidb_audio_english.png) }
 
-	*.i_sub_en {
+	.i_sub_en {
 	background-image: url(images/icons/flags/anidb_sub_english.png) }
 
-*.i_audio_fi {
+.i_audio_fi {
 background-image: url(images/icons/flags/anidb_audio_finnish.png) }
 
-	*.i_sub_fi {
+	.i_sub_fi {
 	background-image: url(images/icons/flags/anidb_sub_finnish.png) }
 
-*.i_audio_fr {
+.i_audio_fr {
 background-image: url(images/icons/flags/anidb_audio_french.png) }
 
-	*.i_sub_fr {
+	.i_sub_fr {
 	background-image: url(images/icons/flags/anidb_sub_french.png) }
 
-*.i_audio_it {
+.i_audio_it {
 background-image: url(images/icons/flags/anidb_audio_italian.png) }
 
-	*.i_sub_it {
+	.i_sub_it {
 	background-image: url(images/icons/flags/anidb_sub_italian.png) }
 
-*.i_audio_el {
+.i_audio_el {
 background-image: url(images/icons/flags/anidb_audio_greek.png) }
 
-	*.i_sub_el {
+	.i_sub_el {
 	background-image: url(images/icons/flags/anidb_sub_greek.png) }
 
-*.i_audio_pt {
+.i_audio_pt {
 background-image: url(images/icons/flags/anidb_audio_portuguese.png) }
 
-	*.i_sub_pt {
+	.i_sub_pt {
 	background-image: url(images/icons/flags/anidb_sub_portuguese.png) }
 
-*.i_audio_ru {
+.i_audio_ru {
 background-image: url(images/icons/flags/anidb_audio_russian.png) }
 
-	*.i_sub_ru {
+	.i_sub_ru {
 	background-image: url(images/icons/flags/anidb_sub_russian.png) }
 
-*.i_audio_sv {
+.i_audio_sv {
 background-image: url(images/icons/flags/anidb_audio_swedish.png) }
 
-	*.i_sub_sv {
+	.i_sub_sv {
 	background-image: url(images/icons/flags/anidb_sub_swedish.png) }
 
-*.i_audio_x-other {
+.i_audio_x-other {
 background-image: url(images/icons/flags/anidb_audio_unknown.png) }
 
-	*.i_sub_x-other {
+	.i_sub_x-other {
 	background-image: url(images/icons/flags/anidb_sub_unknown.png) }
 
-*.i_audio_x-unk {
+.i_audio_x-unk {
 background-image: url(images/icons/flags/anidb_audio_unknown.png) }
 
-	*.i_sub_x-unk {
+	.i_sub_x-unk {
 	background-image: url(images/icons/flags/anidb_sub_unknown.png) }
 
-*.i_audio_ro {
+.i_audio_ro {
 background-image: url(images/icons/flags/anidb_audio_romanian.png) }
 
-	*.i_sub_ro {
+	.i_sub_ro {
 	background-image: url(images/icons/flags/anidb_sub_romanian.png) }
 
-*.i_audio_es {
+.i_audio_es {
 background-image: url(images/icons/flags/anidb_audio_spanish.png) }
 
-	*.i_sub_es {
+	.i_sub_es {
 	background-image: url(images/icons/flags/anidb_sub_spanish.png) }
 
-*.i_audio_bg {
+.i_audio_bg {
 background-image: url(images/icons/flags/anidb_audio_bulgarian.png) }
 
-	*.i_sub_bg {
+	.i_sub_bg {
 	background-image: url(images/icons/flags/anidb_sub_bulgarian.png) }
 
-*.i_audio_hu {
+.i_audio_hu {
 background-image: url(images/icons/flags/anidb_audio_hungarian.png) }
 
-	*.i_sub_hu {
+	.i_sub_hu {
 	background-image: url(images/icons/flags/anidb_sub_hungarian.png) }
 
-*.i_audio_mn {
+.i_audio_mn {
 background-image: url(images/icons/flags/anidb_audio_mongolian.png) }
 
-	*.i_sub_mn {
+	.i_sub_mn {
 	background-image: url(images/icons/flags/anidb_sub_mongolian.png) }
 
-*.i_audio_tr {
+.i_audio_tr {
 background-image: url(images/icons/flags/anidb_audio_turkish.png) }
 
-	*.i_sub_tr {
+	.i_sub_tr {
 	background-image: url(images/icons/flags/anidb_sub_turkish.png) }
 
-*.i_audio_al {
+.i_audio_al {
 background-image: url(images/icons/flags/anidb_audio_albanian.png) }
 
-	*.i_sub_al {
+	.i_sub_al {
 	background-image: url(images/icons/flags/anidb_sub_albanian.png) }
 
-*.i_audio_ar {
+.i_audio_ar {
 background-image: url(images/icons/flags/anidb_audio_arabic.png) }
 
-	*.i_sub_ar {
+	.i_sub_ar {
 	background-image: url(images/icons/flags/anidb_sub_arabic.png) }
 
-*.i_audio_bd {
+.i_audio_bd {
 background-image: url(images/icons/flags/anidb_audio_bengali.png) }
 
-	*.i_sub_bd {
+	.i_sub_bd {
 	background-image: url(images/icons/flags/anidb_sub_bengali.png) }
 
-*.i_audio_ca {
+.i_audio_ca {
 background-image: url(images/icons/flags/anidb_audio_catalan.png) }
 
-	*.i_sub_ca {
+	.i_sub_ca {
 	background-image: url(images/icons/flags/anidb_sub_catalan.png) }
 
-*.i_audio_gl {
+.i_audio_gl {
 background-image: url(images/icons/flags/anidb_audio_galician.png) }
 
-	*.i_sub_gl {
+	.i_sub_gl {
 	background-image: url(images/icons/flags/anidb_sub_galician.png) }
 
-*.i_audio_et {
+.i_audio_et {
 background-image: url(images/icons/flags/anidb_audio_estonian.png) }
 
-	*.i_sub_et {
+	.i_sub_et {
 	background-image: url(images/icons/flags/anidb_sub_estonian.png) }
 
-*.i_audio_es-LA {
+.i_audio_es-LA {
 background-image: url(images/icons/flags/anidb_audio_hispanic.png) }
 
-	*.i_sub_es-LA {
+	.i_sub_es-LA {
 	background-image: url(images/icons/flags/anidb_sub_hispanic.png) }
 
-*.i_audio_el {
+.i_audio_el {
 background-image: url(images/icons/flags/anidb_audio_greek.png) }
 
-	*.i_sub_el {
+	.i_sub_el {
 	background-image: url(images/icons/flags/anidb_sub_greek.png) }
 
-*.i_audio_eo {
+.i_audio_eo {
 background-image: url(images/icons/flags/anidb_audio_esperanto.png) }
 
-	*.i_sub_eo {
+	.i_sub_eo {
 	background-image: url(images/icons/flags/anidb_sub_esperanto.png) }
 
-*.i_audio_he {
+.i_audio_he {
 background-image: url(images/icons/flags/anidb_audio_hebrew.png) }
 
-	*.i_sub_he {
+	.i_sub_he {
 	background-image: url(images/icons/flags/anidb_sub_hebrew.png) }
 
-*.i_audio_hr {
+.i_audio_hr {
 background-image: url(images/icons/flags/anidb_audio_croatian.png) }
 
-	*.i_sub_hr {
+	.i_sub_hr {
 	background-image: url(images/icons/flags/anidb_sub_croatian.png) }
 
-*.i_audio_id {
+.i_audio_id {
 background-image: url(images/icons/flags/anidb_audio_indonesian.png) }
 
-	*.i_sub_id {
+	.i_sub_id {
 	background-image: url(images/icons/flags/anidb_sub_indonesian.png) }
 
-*.i_audio_is {
+.i_audio_is {
 background-image: url(images/icons/flags/anidb_audio_icelandic.png) }
 
-	*.i_sub_is {
+	.i_sub_is {
 	background-image: url(images/icons/flags/anidb_sub_icelandic.png) }
 
-*.i_audio_jv {
+.i_audio_jv {
 background-image: url(images/icons/flags/anidb_audio_javanese.png) }
 
-	*.i_sub_jv {
+	.i_sub_jv {
 	background-image: url(images/icons/flags/anidb_sub_javanese.png) }
 
-*.i_audio_ka {
+.i_audio_ka {
 background-image: url(images/icons/flags/anidb_audio_georgian.png) }
 
-	*.i_sub_ka {
+	.i_sub_ka {
 	background-image: url(images/icons/flags/anidb_sub_georgian.png) }
 
-*.i_audio_ko {
+.i_audio_ko {
 background-image: url(images/icons/flags/anidb_audio_korean.png) }
 
-	*.i_sub_ko {
+	.i_sub_ko {
 	background-image: url(images/icons/flags/anidb_sub_korean.png) }
 
-*.i_audio_la {
+.i_audio_la {
 background-image: url(images/icons/flags/anidb_audio_latin.png) }
 
-	*.i_sub_la {
+	.i_sub_la {
 	background-image: url(images/icons/flags/anidb_sub_latin.png) }
 
-*.i_audio_lv {
+.i_audio_lv {
 background-image: url(images/icons/flags/anidb_audio_latvian.png) }
 
-	*.i_sub_lv {
+	.i_sub_lv {
 	background-image: url(images/icons/flags/anidb_sub_latvian.png) }
 
-*.i_audio_lt {
+.i_audio_lt {
 background-image: url(images/icons/flags/anidb_audio_lithuanian.png) }
 
-	*.i_sub_lt {
+	.i_sub_lt {
 	background-image: url(images/icons/flags/anidb_sub_lithuanian.png) }
 
-*.i_audio_my {
+.i_audio_my {
 background-image: url(images/icons/flags/anidb_audio_malay.png) }
 
-	*.i_sub_my {
+	.i_sub_my {
 	background-image: url(images/icons/flags/anidb_sub_malay.png) }
 
-*.i_audio_no {
+.i_audio_no {
 background-image: url(images/icons/flags/anidb_audio_norwegian.png) }
 
-	*.i_sub_no {
+	.i_sub_no {
 	background-image: url(images/icons/flags/anidb_sub_norwegian.png) }
 
-*.i_audio_pl {
+.i_audio_pl {
 background-image: url(images/icons/flags/anidb_audio_polish.png) }
 
-	*.i_sub_pl {
+	.i_sub_pl {
 	background-image: url(images/icons/flags/anidb_sub_polish.png) }
 
-*.i_audio_ro {
+.i_audio_ro {
 background-image: url(images/icons/flags/anidb_audio_romanian.png) }
 
-	*.i_sub_ro {
+	.i_sub_ro {
 	background-image: url(images/icons/flags/anidb_sub_romanian.png) }
 
-*.i_audio_sk {
+.i_audio_sk {
 background-image: url(images/icons/flags/anidb_audio_slovak.png) }
 
-	*.i_sub_sk {
+	.i_sub_sk {
 	background-image: url(images/icons/flags/anidb_sub_slovak.png) }
 
-*.i_audio_sl {
+.i_audio_sl {
 background-image: url(images/icons/flags/anidb_audio_slovenian.png) }
 
-	*.i_sub_sl {
+	.i_sub_sl {
 	background-image: url(images/icons/flags/anidb_sub_slovenian.png) }
 
-*.i_audio_sr {
+.i_audio_sr {
 background-image: url(images/icons/flags/anidb_audio_serbian.png) }
 
-	*.i_sub_sr {
+	.i_sub_sr {
 	background-image: url(images/icons/flags/anidb_sub_serbian.png) }
 
-*.i_audio_ta {
+.i_audio_ta {
 background-image: url(images/icons/flags/anidb_audio_tamil.png) }
 
-	*.i_sub_ta {
+	.i_sub_ta {
 	background-image: url(images/icons/flags/anidb_sub_tamil.png) }
 
-*.i_audio_tt {
+.i_audio_tt {
 background-image: url(images/icons/flags/anidb_audio_tartar.png) }
 
-	*.i_sub_tt {
+	.i_sub_tt {
 	background-image: url(images/icons/flags/anidb_sub_tartar.png) }
 
-*.i_audio_th {
+.i_audio_th {
 background-image: url(images/icons/flags/anidb_audio_thai.png) }
 
-	*.i_sub_th {
+	.i_sub_th {
 	background-image: url(images/icons/flags/anidb_sub_thai.png) }
 
-*.i_audio_uk {
+.i_audio_uk {
 background-image: url(images/icons/flags/anidb_audio_ukrainian.png) }
 
-	*.i_sub_uk {
+	.i_sub_uk {
 	background-image: url(images/icons/flags/anidb_sub_ukrainian.png) }
 
-*.i_audio_vi {
+.i_audio_vi {
 background-image: url(images/icons/flags/anidb_audio_vietnamese.png) }
 
-	*.i_sub_vi {
+	.i_sub_vi {
 	background-image: url(images/icons/flags/anidb_sub_vietnamese.png) }
 
-*.i_audio_x-kot {
+.i_audio_x-kot {
 background-image: url(images/icons/flags/anidb_audio_korean-transcription.png) }
 
-*.i_audio_zh {
+.i_audio_zh {
 background-image: url(images/icons/flags/anidb_audio_chinese.png) }
 
-	*.i_sub_zh {
+	.i_sub_zh {
 	background-image: url(images/icons/flags/anidb_sub_chinese.png) }
 
-*.i_audio_zh-x-yue {
+.i_audio_zh-x-yue {
 background-image: url(images/icons/flags/anidb_audio_cantonese.png) }
 
-*.i_audio_zh-x-cmn {
+.i_audio_zh-x-cmn {
 background-image: url(images/icons/flags/anidb_audio_mandarin.png) }
 
-*.i_audio_zh-x-nan {
+.i_audio_zh-x-nan {
 background-image: url(images/icons/flags/anidb_audio_taiwanese.png) }
 
-*.i_audio_zh-Hans {
+.i_audio_zh-Hans {
 background-image: url(images/icons/flags/anidb_audio_simplified.png) }
 
-	*.i_sub_zh-Hans {
+	.i_sub_zh-Hans {
 	background-image: url(images/icons/flags/anidb_sub_simplified.png) }
 
-*.i_audio_zh-Hant {
+.i_audio_zh-Hant {
 background-image: url(images/icons/flags/anidb_audio_traditional.png) }
 
-	*.i_sub_zh-Hant {
+	.i_sub_zh-Hant {
 	background-image: url(images/icons/flags/anidb_sub_traditional.png) }
 
-*.i_audio_tl {
+.i_audio_tl {
 background-image: url(images/icons/flags/anidb_audio_filipino.png) }
 
-	*.i_sub_tl {
+	.i_sub_tl {
 	background-image: url(images/icons/flags/anidb_sub_filipino.png) }
 
-*.i_audio_fa {
+.i_audio_fa {
 background-image: url(images/icons/flags/anidb_audio_persian.png) }
 
-	*.i_sub_fa {
+	.i_sub_fa {
 	background-image: url(images/icons/flags/anidb_sub_persian.png) }
 
-*.i_audio_si {
+.i_audio_si {
 background-image: url(images/icons/flags/anidb_audio_shinhala.png) }
 
-	*.i_sub_si {
+	.i_sub_si {
 	background-image: url(images/icons/flags/anidb_sub_shinhala.png) }
 
-*.i_audio_hi {
+.i_audio_hi {
 background-image: url(images/icons/flags/anidb_audio_hindi.png) }
 
-	*.i_sub_hi {
+	.i_sub_hi {
 	background-image: url(images/icons/flags/anidb_sub_hindi.png) }
 
-*.i_audio_ht {
+.i_audio_ht {
 background-image: url(images/icons/flags/anidb_audio_creole.png) }
 
-	*.i_sub_ht {
+	.i_sub_ht {
 	background-image: url(images/icons/flags/anidb_sub_creole.png) }
 
-*.i_audio_x-zht {
+.i_audio_x-zht {
 background-image: url(images/icons/flags/anidb_audio_chinese-transcription.png) }
 
-	*.i_sub_x-zht {
+	.i_sub_x-zht {
 	background-image: url(images/icons/flags/anidb_sub_chinese-transcription.png) }
 
 
