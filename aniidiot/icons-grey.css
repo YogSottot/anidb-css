@@ -28,6 +28,7 @@
 
 .i_comment_report {
 	background-image: url(../icons/grey/comment_report.png);
+	width: 65px;
 }
 
 .i_comment_revisions {
