@@ -30,7 +30,7 @@ class cleaner(object):
             line = line.decode('utf8').replace(u'\n', u'')
             hasContent = True if len(content) > 0 else False
 
-            if line == u'':
+            if line.strip() == u'':
                 continue
             elif multiLineComment or line.strip().startswith(u'/*'):
                 #comment
@@ -70,15 +70,18 @@ class cleaner(object):
                 )
                 forceNormalBreak = True
             elif line.startswith(u'{'):
-                #start of properties block
-                properties = True
-                openbrackets += 1
-                content.append(u'%s%s {' %(
-                        u'\n\n' if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'',
-                        self._build_rules(tmp)
+                if prevLine.startswith((u'@media', u'@supports')):
+                    content.append(u' {')
+                else:
+                    #start of properties block
+                    properties = True
+                    openbrackets += 1
+                    content.append(u'%s%s {' %(
+                            u'\n\n' if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'',
+                            self._build_rules(tmp)
+                        )
                     )
-                )
-                tmp = []
+                    tmp = []
             elif line.startswith(u'}'):
                 #segment ended
                 openbrackets -= 1
@@ -167,9 +170,9 @@ class cleaner(object):
             if self.DEBUG:
                 print content
             else:
-                file(filepath, 'w').write(content.encode('utf8'))
+                file(filepath, 'wb').write(content.encode('utf8'))
         elif self.DEBUG:
-            file(filepath + '.new', 'w').write(content.encode('utf8'))
+            file(filepath + '.new', 'wb').write(content.encode('utf8'))
 
     def _build_rules(self, rules):
         if self.REORDER:
