@@ -3,12 +3,12 @@ html {
 }
 
 #layout-search {
-	background:url("images/topback.png") repeat-x scroll left top transparent;
+	background: url("images/topback.png") repeat-x scroll left top transparent;
 	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
 #layout-menu {
-	background:url("images/menu.png") no-repeat scroll left top transparent;
+	background: url("images/menu.png") no-repeat scroll left top transparent;
 }
 
 #layout-menu li.sub-menu {
@@ -34,42 +34,42 @@ html {
 
 #layout-menu li.sub-menu.main:after {
 	background: url("images/chibi_01.png");
-	width:81px;
+	width: 81px;
 	top: -24px;
 	right: -20px;
 }
 
 #layout-menu li.sub-menu.listings:after {
 	background: url("images/chibi_03.png");
-	width:31px;
+	width: 31px;
 	top: -8px;
 	right: -3px;
 }
 
 #layout-menu li.sub-menu.my:after {
 	background: url("images/chibi_02.png");
-	width:41px;
+	width: 41px;
 	top: -8px;
 	right: -3px;
 }
 
 #layout-menu li.sub-menu.mod:after {
 	background: url("images/chibi_04.png");
-	width:27px;
+	width: 27px;
 	top: -10px;
 	right: -3px;
 }
 
 #layout-menu li.sub-menu.support:after {
 	background: url("images/chibi_05.png");
-	width:46px;
+	width: 46px;
 	top: -10px;
 	right: -3px;
 }
 
 #layout-menu li.sub-menu.account:after {
 	background: url("images/chibi_06.png");
-	width:48px;
+	width: 48px;
 	top: -10px;
 	right: -3px;
 }

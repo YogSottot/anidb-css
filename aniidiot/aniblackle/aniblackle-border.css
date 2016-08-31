@@ -7,6 +7,6 @@
 button,
 input[type="button"],
 input[type="submit"] {
-	border-radius:5px;
-	border:1px solid;
+	border-radius: 5px;
+	border: 1px solid;
 }

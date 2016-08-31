@@ -55,9 +55,9 @@ span.link:hover,
 }
 
 #layout-content {
-	border-bottom-color:#7D7D7D;
-	border-left-color:#9A9A9A;
-	border-top-color:#9A9A9A;
+	border-bottom-color: #7D7D7D;
+	border-left-color: #9A9A9A;
+	border-top-color: #9A9A9A;
 }
 
 table,
@@ -164,7 +164,7 @@ span.test:hover,
 #layout-main ul.g_list li:hover a,
 #layout-menu li.user-xauth input[type="button"],
 #layout-search .submit:hover {
-	background-color:#58636E;
+	background-color: #58636E;
 }
 
 .g_bubble,
@@ -323,7 +323,7 @@ textarea,
 #layout-main div.forum .g_bubble.infobox h3,
 #layout-main div.forum div.quickreply textarea,
 #layout-main div.forum div.signature {
-	border-color:#9A9A9A #7D7D7D #7D7D7D #9A9A9A;
+	border-color: #9A9A9A #7D7D7D #7D7D7D #9A9A9A;
 }
 
 .g_bubble.box > div.top div.name,
@@ -388,7 +388,7 @@ textarea,
 
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 #layout-main div.forum .g_bubble.infobox h3 {
-	border-bottom-color:#7D7D7D;
+	border-bottom-color: #7D7D7D;
 }
 
 .g_bubble.quotebody,
@@ -406,9 +406,9 @@ textarea,
 }
 
 #layout-main div.main_all div.g_section > h2 {
-	background-color:#34394D;
-	color:#DDDDDD;
-	border-color:#EEEEEE #8E8E8E #8E8E8E #EEEEEE;
+	background-color: #34394D;
+	color: #DDDDDD;
+	border-color: #EEEEEE #8E8E8E #8E8E8E #EEEEEE;
 }
 
 #layout-main div.main_all div.account ul.tabs li {
@@ -419,7 +419,7 @@ textarea,
 
 #layout-main div.main_all div.account ul.tabs li,
 #layout-main div.main_all div.account ul.tabs li.signup:hover {
-	background-color:#CFD1D4;
+	background-color: #CFD1D4;
 	border-bottom-color: #CFD1D4;
 }
 
@@ -428,12 +428,12 @@ textarea,
 }
 
 #layout-main div.main_all div.news.forum div.latestnews div.posted {
-	color:#666666;
+	color: #666666;
 }
 
 #layout-main div.forum div.g_bubble.rules {
-	background-color:#ECD5D8;
-	color:#BC2A4D;
+	background-color: #ECD5D8;
+	color: #BC2A4D;
 	border-color: #DEBFC3 #C4939F #C4939F #DEBFC3;
 }
 
@@ -469,7 +469,7 @@ textarea,
 
 #layout-search ul.quicksearch li.focus,
 #layout-search ul.quicksearch li:hover {
-	background-color:#BBBBBB;
+	background-color: #BBBBBB;
 }
 
 /*tag cloud*/

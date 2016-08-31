@@ -70,7 +70,7 @@ th a:hover {
 #layout-main div.forum hr,
 #layout-main tr.header th.sortable:hover:not(.sorter-false),
 #layout-main tr.header th.sortable:hover:not(.sorter-false) a {
-	background-color:#444444;
+	background-color: #444444;
 }
 
 #layout-main div.anime_all div.data table.relationlist tr,
@@ -361,7 +361,7 @@ textarea:hover {
 #layout-main div.main_all div.news.forum div.latestnews div.posted,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp a {
-	color:#BBBBBB;
+	color: #BBBBBB;
 }
 
 .i_ext span,
@@ -381,11 +381,11 @@ input.confirmButton,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main tr.header th.sortable:hover:not(.sorter-false),
 #layout-main tr.header th.sortable:hover:not(.sorter-false) a {
-	color:#DDDDDD;
+	color: #DDDDDD;
 }
 
 #layout-main div.forum div.g_bubble.rules {
-	background-color:#ECD5D8;
+	background-color: #ECD5D8;
 }
 
 li + li.g_odd,

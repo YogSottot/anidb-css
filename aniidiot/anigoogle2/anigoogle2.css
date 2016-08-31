@@ -10,7 +10,7 @@
 @import "anigoogle2-color.css";
 
 #layout-footer:after {
-	content:"design by deridiot inspired by google/youtube";
+	content: "design by deridiot inspired by google/youtube";
 }
 
 @media all and (max-width: 950px) {

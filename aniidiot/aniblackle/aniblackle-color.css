@@ -212,7 +212,7 @@ input[type="submit"]:hover,
 #layout-main div.g_msg.error {
 	border-color: #6F1212;
 	background-color: #704343;
-	color:#DDDDDD;
+	color: #DDDDDD;
 }
 
 .fancybox-wrap div.g_msg.warning,
@@ -348,7 +348,7 @@ table,
 }
 
 #layout-main div.forum ul.topics div {
-	border-left-color:#444444;
+	border-left-color: #444444;
 }
 
 .tooltip span.text:after {
@@ -386,7 +386,7 @@ input[type="submit"]:focus::-moz-focus-inner {
 
 #layout-search ul.quicksearch li.focus,
 #layout-search ul.quicksearch li:hover {
-	background-color:#555555;
+	background-color: #555555;
 }
 
 /*tagcloud*/
@@ -497,7 +497,7 @@ tr + tr th,
 button,
 input[type="button"],
 input[type="submit"] {
-	border-color:#777777 #666666 #666666 #777777;
+	border-color: #777777 #666666 #666666 #777777;
 }
 
 #layout-main div.anime_all div.data table.relationlist tr,

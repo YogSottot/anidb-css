@@ -9,148 +9,148 @@
 }
 
 .i_forum_link {
-	background-image:url(../icons/blue/forum_link.gif);
+	background-image: url(../icons/blue/forum_link.gif);
 }
 
 .i_help {
-	background:transparent url(../icons/blue/ask2.gif) no-repeat scroll right center;
+	background: transparent url(../icons/blue/ask2.gif) no-repeat scroll right center;
 }
 
 .i_comment_add {
-	background:transparent url(../icons/blue/comment_add.gif) no-repeat scroll 0 50%;
+	background: transparent url(../icons/blue/comment_add.gif) no-repeat scroll 0 50%;
 }
 
 .i_topic_add {
-	background-image:url(../icons/blue/topic_add.gif);
+	background-image: url(../icons/blue/topic_add.gif);
 }
 
 .i_topic_history {
-	background-image:url(../icons/blue/topic_history.gif);
+	background-image: url(../icons/blue/topic_history.gif);
 }
 
 .i_topic_delete {
-	background-image:url(../icons/blue/topic_delete.gif);
+	background-image: url(../icons/blue/topic_delete.gif);
 }
 
 .i_topic_move {
-	background-image:url(../icons/blue/topic_move.gif);
+	background-image: url(../icons/blue/topic_move.gif);
 }
 
 .i_topic_split {
-	background-image:url(../icons/blue/topic_split.png);
+	background-image: url(../icons/blue/topic_split.png);
 }
 
 .i_topic_read {
-	background-image:url(../icons/blue/topic_read.png);
+	background-image: url(../icons/blue/topic_read.png);
 	width: 65px;
 }
 
 .i_comment_revisions {
-	background-image:url(../icons/blue/comment_revisions.gif);
+	background-image: url(../icons/blue/comment_revisions.gif);
 }
 
 .i_comment_move {
-	background-image:url(../icons/blue/comment_move.gif);
+	background-image: url(../icons/blue/comment_move.gif);
 }
 
 .i_topic_lock {
-	background-image:url(../icons/blue/topic_lock.gif);
+	background-image: url(../icons/blue/topic_lock.gif);
 }
 
 .i_comment_edit {
-	background-image:url(../icons/blue/comment_edit.gif);
+	background-image: url(../icons/blue/comment_edit.gif);
 }
 
 .i_comment_quote {
-	background-image:url(../icons/blue/comment_quote.gif);
+	background-image: url(../icons/blue/comment_quote.gif);
 }
 
 .i_comment_delete {
-	background-image:url(../icons/blue/comment_delete.gif);
+	background-image: url(../icons/blue/comment_delete.gif);
 }
 
 .i_comment_info {
-	background-image:url(../icons/blue/comment_info.gif);
+	background-image: url(../icons/blue/comment_info.gif);
 }
 
 .i_comment_creq {
-	background-image:url(../icons/blue/comment_creq.gif);
+	background-image: url(../icons/blue/comment_creq.gif);
 }
 
 .i_top {
-	background:transparent url(../icons/blue/icon_back_top.gif) no-repeat scroll 0 50%;
+	background: transparent url(../icons/blue/icon_back_top.gif) no-repeat scroll 0 50%;
 }
 
 .i_topic_undelete {
-	background-image:url(../icons/blue/topic_undelete.gif);
+	background-image: url(../icons/blue/topic_undelete.gif);
 }
 
 .i_topic_unlock {
-	background-image:url(../icons/blue/topic_unlock.gif);
+	background-image: url(../icons/blue/topic_unlock.gif);
 }
 
 .i_comment_setactive {
-	background-image:url(../icons/blue/comment_setactive.gif);
+	background-image: url(../icons/blue/comment_setactive.gif);
 }
 
 .i_topic_locked {
-	background-image:url(../icons/blue/topic_locked.gif);
+	background-image: url(../icons/blue/topic_locked.gif);
 }
 
 .i_comment_undelete {
-	background-image:url(../icons/blue/comment_undelete.gif);
+	background-image: url(../icons/blue/comment_undelete.gif);
 }
 
 .i_pm_delete {
-	background-image:url(../icons/blue/pm_delete.gif);
+	background-image: url(../icons/blue/pm_delete.gif);
 }
 
 .i_vrs_2 {
-	background-image:url(../icons/blue/anidb_vrs_2.gif);
+	background-image: url(../icons/blue/anidb_vrs_2.gif);
 }
 
 .i_vrs_3 {
-	background-image:url(../icons/blue/anidb_vrs_3.gif);
+	background-image: url(../icons/blue/anidb_vrs_3.gif);
 }
 
 .i_vrs_4 {
-	background-image:url(../icons/blue/anidb_vrs_4.gif);
+	background-image: url(../icons/blue/anidb_vrs_4.gif);
 }
 
 .i_vrs_5 {
-	background-image:url(../icons/blue/anidb_vrs_5.gif);
+	background-image: url(../icons/blue/anidb_vrs_5.gif);
 }
 
 .i_vrs_6 {
-	background-image:url(../icons/blue/anidb_vrs_6.gif);
+	background-image: url(../icons/blue/anidb_vrs_6.gif);
 }
 
 .i_vrs_7 {
-	background-image:url(../icons/blue/anidb_vrs_7.gif);
+	background-image: url(../icons/blue/anidb_vrs_7.gif);
 }
 
 .i_vrs_8 {
-	background-image:url(../icons/blue/anidb_vrs_8.gif);
+	background-image: url(../icons/blue/anidb_vrs_8.gif);
 }
 
 .i_vrs_9 {
-	background-image:url(../icons/blue/anidb_vrs_9.gif);
+	background-image: url(../icons/blue/anidb_vrs_9.gif);
 }
 
 .i_review_add {
-	background:transparent url(../icons/blue/review_add.gif) no-repeat scroll 0 50%;
+	background: transparent url(../icons/blue/review_add.gif) no-repeat scroll 0 50%;
 }
 
 .i_pm_reply {
-	background-image:url(../icons/blue/pm_reply.gif);
+	background-image: url(../icons/blue/pm_reply.gif);
 }
 
 .i_topic_subscribe {
-	background-image:url(../icons/blue/topic_subscribe.gif);
+	background-image: url(../icons/blue/topic_subscribe.gif);
 }
 
 .i_topic_unsubscribe {
-	background-image:url(../icons/blue/topic_unsubscribe.gif);
+	background-image: url(../icons/blue/topic_unsubscribe.gif);
 }
 
 .i_rate_halfstar,
@@ -184,7 +184,7 @@
 	font-size: 0.86rem;
 	font-weight: bold;
 	text-align: center;
-	width:100%;
+	width: 100%;
 	vertical-align: top;
 	line-height: 1.4;
 }

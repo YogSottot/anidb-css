@@ -351,7 +351,7 @@ textarea:hover {
 #layout-main div.main_all div.news.forum div.latestnews div.posted,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp,
 #layout-main div.userpage_all div.blog div.g_timedentry span.stamp a {
-	color:#666666;
+	color: #666666;
 }
 
 .tooltip span.text,
@@ -366,11 +366,11 @@ input.confirmButton,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main tr.header th.sortable:hover:not(.sorter-false),
 #layout-main tr.header th.sortable:hover:not(.sorter-false) a {
-	color:#3D3E6E;
+	color: #3D3E6E;
 }
 
 #layout-main div.forum div.g_bubble.rules {
-	background-color:#ECD5D8;
+	background-color: #ECD5D8;
 }
 
 li + li.g_odd,
@@ -635,11 +635,11 @@ html {
 }
 
 #layout-search {
-	background:url("images/bg-header.jpg") repeat-x scroll left top transparent;
+	background: url("images/bg-header.jpg") repeat-x scroll left top transparent;
 }
 
 #layout-search div.search {
-	background:url("images/logo.jpg") no-repeat scroll left top transparent;
+	background: url("images/logo.jpg") no-repeat scroll left top transparent;
 }
 
 #layout-menu li.sub-menu span.tab {
@@ -735,10 +735,10 @@ select option,
 select.shuttle,
 select.shuttle:focus,
 select.shuttle:hover {
-	background:#e0ecfd;
-	color:#3d3e6e;
+	background: #e0ecfd;
+	color: #3d3e6e;
 }
 
 select option[value="0"] {
-	color:#B14C7C;
+	color: #B14C7C;
 }

@@ -5,12 +5,12 @@
 
 #layout-menu li.sub-menu ul li#user-signup a,
 #layout-menu li.sub-menu ul li#user-xauth button {
-	cursor:pointer;
+	cursor: pointer;
 }
 
 a:active,
 a:link,
 a:visited,
 span.link {
-	text-decoration:none;
+	text-decoration: none;
 }

@@ -91,7 +91,7 @@ tr + tr th,
 }
 
 .tooltip {
-	outline:none;
+	outline: none;
 }
 
 .tooltip span.text:after,

@@ -507,8 +507,8 @@ button.spoiler:before {
 .i_wishlist_towatch,
 .i_wishlist_undefined {
 	height: auto;
-	width:16px;
-	font-size:1.33rem;
+	width: 16px;
+	font-size: 1.33rem;
 }
 
 /*stacked icons*/
@@ -521,99 +521,99 @@ button.spoiler:before {
 	position: absolute;
 	font-size: 1rem;
 	text-align: right;
-	width:16px;
+	width: 16px;
 	padding-top: 2px;
-	cursor:pointer;
+	cursor: pointer;
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
 .i_plus:after {
 	content: "\f0fe";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_minus:after {
 	content: "\f146";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_group_comment:after {
 	content: "\f0e5";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_ep_edit:after,
 .i_file_edit:after {
 	content: "\f040";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_file_add:after,
 .i_file_addmylist:after,
 .i_general_add:after {
 	content: "\f067";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_vote:after {
 	content: "\f087";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_info:after {
 	content: "\f05a";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_help:after {
 	content: "\f059";
-	cursor:help;
+	cursor: help;
 }
 
 .i_top:after {
 	content: "\f0aa";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_file_editmylist:after,
 .i_general_edit:after,
 .i_liststate_edit:after {
 	content: "\f044";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_file_removemylist:after,
 .i_general_delete:after,
 .i_general_delete_request:after {
 	content: "\f014";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_revote:after {
 	content: "\f00c";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_seen:after,
 .i_seen_yes:after {
 	content: "\f06e";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_seen_no:after {
 	content: "\f070";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_file_details:after {
 	content: "\f14c";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_general_list:after,
 .i_mylist:after {
 	content: "\f0ca";
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .i_state_verified:after {
@@ -755,7 +755,7 @@ button.spoiler:before {
 	font-size: 0.86rem;
 	font-weight: bold;
 	text-align: center;
-	width:100%;
+	width: 100%;
 	vertical-align: top;
 	line-height: 1.4;
 }

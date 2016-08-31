@@ -1,7 +1,7 @@
 @import "floaty-menu.css";
 
 #layout-search {
-	background:none;
+	background: none;
 	height: 60px;
 }
 
@@ -38,12 +38,12 @@
 #layout-menu {
 	position: absolute;
 	top: 0.5em;
-	margin-top:0;
+	margin-top: 0;
 }
 
 #layout-hint + #layout-nav #layout-menu {
 	top: 2.1em;
-	margin-top:0;
+	margin-top: 0;
 }
 
 #layout-hint + #layout-nav {
