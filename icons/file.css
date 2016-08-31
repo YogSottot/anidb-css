@@ -94,8 +94,8 @@
 	background-image: url(../icons/icon/anidb_video.gif);
 }
 
-.i_video.xvid,
-.i_video.divx5 {
+.i_video.divx5,
+.i_video.xvid {
 	background-image: url(../icons/icon/anidb_video_asp.gif);
 }
 
@@ -132,12 +132,12 @@
 }
 
 .i_file2ep_rel {
-  width: 20px;
+	width: 20px;
 	background-image: url(../icons/icon/anidb_file2ep2.gif);
 }
 
 .i_file2file_rel {
-  width: 20px;
+	width: 20px;
 	background-image: url(../icons/icon/anidb_file2file2.gif);
 }
 
@@ -165,21 +165,23 @@
 	width: 28px;
 	background-image: url(../icons/icon/anidb_video_10bit.gif);
 }
+
 .video.video_3d {
 	background-image: url(../icons/icon/anidb_video_3d.gif);
 }
+
 .video.creditless {
 	background-image: url(../icons/icon/anidb_video_creditless.gif);
 }
 
 .i_ext,
-.i_video_480,
-.i_video_720,
+.i_ext span,
 .i_video_1080,
-.i_video_480 span,
-.i_video_720 span,
 .i_video_1080 span,
-.i_ext span {
+.i_video_480,
+.i_video_480 span,
+.i_video_720,
+.i_video_720 span {
 	display: none !important;
 }
 

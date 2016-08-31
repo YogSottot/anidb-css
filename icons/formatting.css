@@ -1,128 +1,128 @@
 div.format-buttons input + input,
 div.format-buttons select {
-	margin-left:.5em;
+	margin-left: .5em;
 }
 
 div.format-buttons {
-padding: 3px 0px;
-margin-bottom:.2em;
-margin-left:.2em;
-text-align:left;
+	padding: 3px 0px;
+	margin-bottom: .2em;
+	margin-left: .2em;
+	text-align: left;
 }
 
 .f_button {
-background-repeat: no-repeat;
-background-position: center;
-width: 24px;
-height: 24px;
-margin-left: 0;
-margin-right: 0;
-border: 1px solid #D6D3CE;
-background-color: #FFFFFF;s
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	margin-left: 0;
+	margin-right: 0;
+	border: 1px solid #D6D3CE;
+	background-color: #FFFFFF;s
 }
 
 .format-buttons select {
-height: 21px;
-border: 1px solid;
-border-color: #D6D3CE;
-margin-right: 2px;
-vertical-align: top;
+	height: 21px;
+	border: 1px solid;
+	border-color: #D6D3CE;
+	margin-right: 2px;
+	vertical-align: top;
 }
 
-.f_button:hover, .f_button.selected {
-background-color: #B5BED6;
-border-color: #000000;
+.f_button.selected,
+.f_button:hover {
+	background-color: #B5BED6;
+	border-color: #000000;
 }
 
 .f_mouseout {
-background-color: #FFFFFF;
-border-color: #D6D3CE;
+	background-color: #FFFFFF;
+	border-color: #D6D3CE;
 }
 
 .f_selected {
-background-color: #8492B5;
+	background-color: #8492B5;
 }
 
 .f_bold {
-font-weight: bold;
-background-image: url(../icons/formating/bold.gif);
+	font-weight: bold;
+	background-image: url(../icons/formating/bold.gif);
 }
 
 .f_italic {
-font-style: italic;
-background-image: url(../icons/formating/italic.gif);
+	font-style: italic;
+	background-image: url(../icons/formating/italic.gif);
 }
 
 .f_underline {
-text-decoration: underline;
-background-image: url(../icons/formating/underline.gif);
+	text-decoration: underline;
+	background-image: url(../icons/formating/underline.gif);
 }
 
 .f_strikethrough {
-text-decoration: line-through;
-background-image: url(../icons/formating/strikethrough.gif);
+	text-decoration: line-through;
+	background-image: url(../icons/formating/strikethrough.gif);
 }
 
 .f_insertorderedlist {
-background-image: url(../icons/formating/orderedlist.gif);
+	background-image: url(../icons/formating/orderedlist.gif);
 }
 
 .f_insertunorderedlist {
-background-image: url(../icons/formating/unorderedlist.gif);
+	background-image: url(../icons/formating/unorderedlist.gif);
 }
 
 .f_insertlistitem {
-background-image: url(../icons/formating/list_item.gif);
+	background-image: url(../icons/formating/list_item.gif);
 }
 
 .f_link {
-background-image: url(../icons/formating/link.gif);
+	background-image: url(../icons/formating/link.gif);
 }
 
 .f_unlink {
-background-image: url(../icons/formating/unlink.gif);
-opacity: 0.60;
+	background-image: url(../icons/formating/unlink.gif);
+	opacity: 0.60;
 }
 
 .f_img {
-background-image: url(../icons/formating/image.gif);
+	background-image: url(../icons/formating/image.gif);
 }
 
 .f_separator {
-background-image: url(../icons/formating/separator.gif);
+	background-image: url(../icons/formating/separator.gif);
 }
 
 .f_viewsource {
-background-image: url(../icons/formating/view_text.gif);
+	background-image: url(../icons/formating/view_text.gif);
 }
 
 .f_viewrte {
-background-image: url(../icons/formating/view_source.gif);
+	background-image: url(../icons/formating/view_source.gif);
 }
 
 .f_cleansource {
-background-image: url(../icons/formating/clean_source.gif);
+	background-image: url(../icons/formating/clean_source.gif);
 }
 
 .f_preview {
-background-image: url(../icons/formating/preview.gif);
+	background-image: url(../icons/formating/preview.gif);
 }
 
 .f_preview {
-background-image: url(../icons/formating/preview.gif);
+	background-image: url(../icons/formating/preview.gif);
 }
 
 .f_spoiler {
-background-image: url(../icons/formating/spoiler.gif);
+	background-image: url(../icons/formating/spoiler.gif);
 }
 
 .f_code {
-background-image: url(../icons/formating/code.gif);
+	background-image: url(../icons/formating/code.gif);
 }
 
-
 .f_buddy {
-background-image: url(../icons/formating/user.gif);
+	background-image: url(../icons/formating/user.gif);
 }
 
 div.controls-holder {
@@ -130,7 +130,6 @@ div.controls-holder {
 }
 
 /* unused now, stays for backwards compat */
-
 ul.format-modes {
 	list-style: none;
 	float: right;
@@ -145,83 +144,89 @@ ul.format-modes li {
 	cursor: pointer;
 }
 
-ul.format-modes li.selected, ul.format-modes li:hover {
+ul.format-modes li.selected,
+ul.format-modes li:hover {
 	background-color: #B5BED6;
 	text-decoration: none;
 }
 
-
 /* dialogBox */
-
 .dialogBox {
 	position: absolute;
-	background:#FFFFFF none repeat scroll 0 0;
-	border:5px solid #333333;
+	background: #FFFFFF none repeat scroll 0 0;
+	border: 5px solid #333333;
 }
 
 .dialogBox h3 {
 	background: #333333 none repeat scroll 0 0;
-	border-bottom:1px solid #AAAAAA;
-	font-size:11px;
-	margin:0;
-	padding:3px 15px 5px;
+	border-bottom: 1px solid #AAAAAA;
+	font-size: 11px;
+	margin: 0;
+	padding: 3px 15px 5px;
 	color: white;
 	font-weight: bold;
 	text-align: left;
 }
 
-.dialogBox h3:hover { cursor: move; }
+.dialogBox h3:hover {
+	cursor: move;
+}
 
 .dialogBox .dialogButtons {
-	background:#EEEEEE none repeat scroll 0 0;
-	border-top:1px solid #AAAAAA;
-	clear:both;
-	overflow:hidden;
-	padding:10px 15px;
-	text-align:right;
+	background: #EEEEEE none repeat scroll 0 0;
+	border-top: 1px solid #AAAAAA;
+	clear: both;
+	overflow: hidden;
+	padding: 10px 15px;
+	text-align: right;
 }
 
 a.button,
-input.button,
-button.button,
 a.confirmButton,
-input.confirmButton,
-button.confirmButton {
-	background:#9B9B9B url(../icons/formating/button.png) repeat-x scroll left top;
-	border-color:#999999 #858585 #666666;
-	border-style:solid;
-	border-width:1px;
-	color:#FFFFFF;
-	cursor:pointer;
-	font-size:11px;
-	font-weight:bold;
-	line-height:16px;
-	padding:0 4px;
-	text-decoration:none;
-	text-shadow:0 -1px 1px #9B9B9B;
-	vertical-align:baseline;
+button.button,
+button.confirmButton,
+input.button,
+input.confirmButton {
+	background: #9B9B9B url(../icons/formating/button.png) repeat-x scroll left top;
+	border-color: #999999 #858585 #666666;
+	border-style: solid;
+	border-width: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 0 4px;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #9B9B9B;
+	vertical-align: baseline;
 }
 
-input.dialogConfirm { margin-left:8px; }
-a.confirmButton, input.confirmButton, button.confirmButton {
-	background:#515151 url(../icons/formating/confirm_button.png) repeat-x scroll left top;
-	border-color:#505050 #404040 #2D2D2D;
-	font-weight:bold;
-	text-shadow:0 -1px 1px #515151;
+input.dialogConfirm {
+	margin-left:8px;
+}
+
+a.confirmButton,
+button.confirmButton,
+input.confirmButton {
+	background: #515151 url(../icons/formating/confirm_button.png) repeat-x scroll left top;
+	border-color: #505050 #404040 #2D2D2D;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px #515151;
 }
 
 .dialogBox a.i_close {
-	background:transparent url(../icons/formating/delete_inactive.png) no-repeat scroll 50% 50%;
-	display:block;
-	float:right;
-	height:16px;
-	margin:0px;
-	text-decoration:none;
-	width:16px;
+	background: transparent url(../icons/formating/delete_inactive.png) no-repeat scroll 50% 50%;
+	display: block;
+	float: right;
+	height: 16px;
+	margin: 0px;
+	text-decoration: none;
+	width: 16px;
 }
 
 .dialogBox a.i_close:hover {
-	background:transparent url(../icons/formating/delete_active.png) no-repeat scroll 50% 50%;
+	background: transparent url(../icons/formating/delete_active.png) no-repeat scroll 50% 50%;
 }
 
 .dialogBox div.buttons {
@@ -235,7 +240,6 @@ a.confirmButton, input.confirmButton, button.confirmButton {
 }
 
 /* addlink crap */
-
 #widget_addlink {
 	position: absolute;
 	top: 75px;
@@ -263,66 +267,91 @@ a.confirmButton, input.confirmButton, button.confirmButton {
  */
 
 .spinInput {
-  /* Change this to modify the default spin control background color*/
-  background-color: #FFFFFF;
+	/* Change this to modify the default spin control background color*/
+	background-color: #FFFFFF;
 }
 
-.spinLeftRightEdge, .spinTopBottomEdge {
-  position: absolute;
-  overflow: hidden;
-  /* Change this to modify the default spin control border color*/
-  background-color: #A5ACB2;
+.spinLeftRightEdge,
+.spinTopBottomEdge {
+	position: absolute;
+	overflow: hidden;
+	/* Change this to modify the default spin control border color*/
+	background-color: #A5ACB2;
 }
-  
+
 .spinContainer {
-  position: relative;
-  font-size: 0px;
-  height: 20px;
+	position: relative;
+	font-size: 0px;
+	height: 20px;
 }
 
-.spinLeftRightEdge { height: 20px; width: 1px; }
-.spinTopBottomEdge { height: 1px; left: 1px; }
+.spinLeftRightEdge {
+	height: 20px; width: 1px;
+}
+
+.spinTopBottomEdge {
+	height: 1px; left: 1px;
+}
 
 .spinInput {
-  position: absolute;
-  top: 1px;
-  left: 2px;
-  border: 0px;
-  height: 15px;
-  /* Change this to modify the default spin control font, font color, and font size*/
+	position: absolute;
+	top: 1px;
+	left: 2px;
+	border: 0px;
+	height: 15px;
+	/* Change this to modify the default spin control font, font color, and font size*/
 }
 
-.spinUpBtn, 
-.spinUpBtnHover, 
-.spinUpBtnPress, 
-.spinDownBtn, 
-.spinDownBtnHover, 
+.spinDownBtn,
+.spinDownBtnHover,
+.spinDownBtnPress,
+.spinUpBtn,
+.spinUpBtnHover,
+.spinUpBtnPress {
+	position: absolute;
+	width: 15px;
+	height: 8px;
+	right: 2px;
+	background-image: url('../icons/formating/spin_control_buttons.png');
+	background-repeat: no-repeat;
+	/* Change this to modify the default button color*/
+	background-color: #000000;
+}
+
+.spinUpBtn,
+.spinUpBtnHover,
+.spinUpBtnPress {
+	top: 2px;
+	left: 40px;
+}
+
+.spinDownBtn,
+.spinDownBtnHover,
 .spinDownBtnPress {
-  position: absolute;
-  width: 15px;
-  height: 8px;
-  right: 2px;
-  background-image: url('../icons/formating/spin_control_buttons.png');
-  background-repeat: no-repeat;
-  /* Change this to modify the default button color*/
-  background-color: #000000;
+	top: 10px;
+	left: 40px;
 }
 
-.spinUpBtn, 
-.spinUpBtnHover, 
-.spinUpBtnPress { 
-	top: 2px; 
-	left: 40px;
+.spinUpBtn {
+	background-position:0px 0px;
 }
-.spinDownBtn, 
-.spinDownBtnHover, 
-.spinDownBtnPress { 
-	top: 10px; 
-	left: 40px;
+
+.spinUpBtnHover {
+	background-position:0px -16px;
 }
-.spinUpBtn { background-position:0px 0px; }
-.spinUpBtnHover { background-position:0px -16px; }
-.spinUpBtnPress { background-position:0px -32px; }
-.spinDownBtn { background-position:0px -8px; }
-.spinDownBtnHover { background-position:0px -24px; }
-.spinDownBtnPress { background-position:0px -40px; }
+
+.spinUpBtnPress {
+	background-position:0px -32px;
+}
+
+.spinDownBtn {
+	background-position:0px -8px;
+}
+
+.spinDownBtnHover {
+	background-position:0px -24px;
+}
+
+.spinDownBtnPress {
+	background-position:0px -40px;
+}

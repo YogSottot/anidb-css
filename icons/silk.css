@@ -1,144 +1,144 @@
 .i_general_add,
 .i_general_added {
-	background-image:url(../icons/silk/general_added.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_added.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_arrow_down {
-	background-image:url(../icons/silk/general_arrow_down.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_arrow_down.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_arrow_up {
-	background-image:url(../icons/silk/general_arrow_up.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_arrow_up.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_blacklist {
-	background-image:url(../icons/silk/general_blacklist.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_blacklist.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_block {
-	background-image:url(../icons/silk/general_block.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_block.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_convert {
-	background-image:url(../icons/silk/general_convert.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_convert.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_delete,
 .i_general_delete_request {
-	background-image:url(../icons/silk/general_delete.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_delete.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_edit,
 .i_general_edit_request {
-	background-image:url(../icons/silk/general_edit.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_edit.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_history {
-	background-image:url(../icons/silk/general_history.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_history.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_forbidden {
-	background-image:url(../icons/silk/general_forbidden.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_forbidden.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_merge {
-	background-image:url(../icons/silk/general_merge.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_merge.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_minus {
-	background-image:url(../icons/silk/general_minus.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_minus.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_new {
-	background-image:url(../icons/silk/general_new.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_new.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_plus {
-	background-image:url(../icons/silk/general_plus.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_plus.png);
+	height: 16px;
+	width: 16px;
 }
 
-.i_info,
-.i_general_static {
-	background-image:url(../icons/silk/general_static.png);
-	height:16px;
-	width:16px;
+.i_general_static,
+.i_info {
+	background-image: url(../icons/silk/general_static.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_unverify {
-	background-image:url(../icons/silk/general_unverify.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_unverify.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_verify {
-	background-image:url(../icons/silk/general_verify.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_verify.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_vote_down {
-	background-image:url(../icons/silk/general_vote_down.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_vote_down.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_revert,
 .i_general_vote_revoke {
-	background-image:url(../icons/silk/general_vote_revoke.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_vote_revoke.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_general_vote_up {
-	background-image:url(../icons/silk/general_vote_up.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/general_vote_up.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_search_blue {
-	background-image:url(../icons/silk/search_type_b.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/search_type_b.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_search_orange {
-	background-image:url(../icons/silk/search_type_a.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/search_type_a.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_state_verified {
-	background-image:url(../icons/silk/state_verified.png);
-	height:16px;
-	width:16px;
+	background-image: url(../icons/silk/state_verified.png);
+	height: 16px;
+	width: 16px;
 }
 
 .i_user_add {
@@ -190,11 +190,13 @@
 	height: 16px;
 	width: 16px;
 }
+
 .i_events_event {
 	background-image: url(../icons/silk/events_event.png);
 	height: 16px;
 	width: 16px;
 }
+
 .i_events_maintenance {
 	background-image: url(../icons/silk/events_maintenance.png);
 	height: 16px;
