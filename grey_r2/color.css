@@ -80,9 +80,9 @@ input[type="submit"],
 input[type="button"],
 div.buttons li a,
 .g_button a,
-*.button,
+.button,
 button,
-*.confirmButton,
+.confirmButton,
 tr.g_odd,
 li.g_odd,
 span.g_odd,
@@ -182,9 +182,9 @@ input[type="submit"],
 input[type="button"],
 div.buttons li a,
 .g_button a,
-*.button,
+.button,
 button,
-*.confirmButton
+.confirmButton
 {
 color:#c1c1c1;
 border-color:#565656;
@@ -242,12 +242,12 @@ background-color:hsla(0, 100%, 100%, 0.2);
 #results_submit:hover,
 input#addfilem\.next:hover,
 input#addfilem\.search:hover,
-*.button:hover,
+.button:hover,
 div.buttons li a:hover,
 .g_button a:hover,
-*.confirmButton:hover,
+.confirmButton:hover,
 button:hover,
-*.submit:not(div):hover,
+.submit:not(div):hover,
 input[type="submit"]:hover,
 input[type="button"]:hover
 {

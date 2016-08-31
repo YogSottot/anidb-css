@@ -30,7 +30,7 @@
 	margin-left:0;
 }
 
-#layout-main div.customise_all *.javascript.hidden {
+#layout-main div.customise_all .javascript.hidden {
 	display:none;
 }
 

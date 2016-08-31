@@ -133,7 +133,7 @@
 }
 
 #layout-main div.profile_all div.pane div.settings.block.javascript.hidden,
-#layout-main div.profile_all *.javascript.hidden {
+#layout-main div.profile_all .javascript.hidden {
 	display: none;
 }
 

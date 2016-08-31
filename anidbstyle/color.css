@@ -31,19 +31,19 @@ a:hover
 	background-color: #B0B0B0;
 }
 
-#layout-main *.g_odd *.g_odd
+#layout-main .g_odd .g_odd
 {
 	background-color: #BFC2C9;
 }
-#layout-main *.g_odd *.g_odd *.g_odd
+#layout-main .g_odd .g_odd .g_odd
 {
 	background-color: #B0B0B0;
 }
-#layout-main *.g_odd *.g_odd *.g_odd *.g_odd
+#layout-main .g_odd .g_odd .g_odd .g_odd
 {
 	background-color: #BFC2C9;
 }
-#layout-main *.g_odd *.g_odd *.g_odd *.g_odd *.g_odd
+#layout-main .g_odd .g_odd .g_odd .g_odd .g_odd
 {
 	background-color: #B0B0B0;
 }

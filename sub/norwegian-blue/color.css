@@ -57,19 +57,19 @@ th,
 {
 	background-color: #DFDFF6;
 }
-#layout-main *.g_odd *.g_odd
+#layout-main .g_odd .g_odd
 {
 	background-color: #E7EBFF;
 }
-#layout-main *.g_odd *.g_odd *.g_odd
+#layout-main .g_odd .g_odd .g_odd
 {
 	background-color: #DFDFF6;
 }
-#layout-main *.g_odd *.g_odd *.g_odd *.g_odd
+#layout-main .g_odd .g_odd .g_odd .g_odd
 {
 	background-color: #E7EBFF;
 }
-#layout-main *.g_odd *.g_odd *.g_odd *.g_odd *.g_odd
+#layout-main .g_odd .g_odd .g_odd .g_odd .g_odd
 {
 	background-color: #DFDFF6;
 }

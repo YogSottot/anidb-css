@@ -84,9 +84,9 @@ input[type="submit"],
 input[type="button"],
 div.buttons li a,
 .g_button a,
-*.button,
+.button,
 button,
-*.confirmButton
+.confirmButton
 {
 border-style:dashed;
 border-width:2px;
@@ -281,7 +281,7 @@ html, body, div, form, table
 {
 left:0;
 }
-*.hide
+.hide
 {
 display:none !important;
 }
@@ -334,7 +334,7 @@ border-bottom-width:1px;
 padding:0;
 margin:0;
 }
-*.i_inline
+.i_inline
 {
 color:transparent;
 }

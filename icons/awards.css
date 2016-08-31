@@ -3,25 +3,25 @@
 #mainichi_oofuji_noburou { background-image: url(../icons/awards/anidb_mainichi_oofuji_noburou.png); }
 
 /* Anime list icons */
-*.i_award_mainichi { background-image: url(../icons/awards/anidb_mainichi.gif); }
-*.i_award_jmaf { background-image: url(../icons/awards/anidb_jmaf.gif); }
-*.i_award_japa { background-image: url(../icons/awards/anidb_japa.gif); }
-*.i_award_apsa { background-image: url(../icons/awards/anidb_apsa.gif); }
-*.i_award_oscars { background-image: url(../icons/awards/anidb_oscars.gif); }
-*.i_award_top10 { background-image: url(../icons/awards/anidb_top10.png); }
-*.i_award_arc2000 { background-image: url(../icons/awards/anidb_arc2000award.gif); }
-*.i_award_arc2001 { background-image: url(../icons/awards/anidb_arc2001award.gif); }
-*.i_award_arc2002 { background-image: url(../icons/awards/anidb_arc2002award.gif); }
-*.i_award_arc2003 { background-image: url(../icons/awards/anidb_arc2003award.gif); }
-*.i_award_arc2004 { background-image: url(../icons/awards/anidb_arc2004award.gif); }
-*.i_award_arc2005 { background-image: url(../icons/awards/anidb_arc2005award.gif); }
-*.i_award_arc2006 { background-image: url(../icons/awards/anidb_arc2006award.gif); }
-*.i_award_arc2007 { background-image: url(../icons/awards/anidb_arc2007award.gif); }
-*.i_award_arc2008 { background-image: url(../icons/awards/anidb_arc2008award.gif); }
-*.i_award_arc2009 { background-image: url(../icons/awards/anidb_arc2009award.gif); }
-*.i_award_arc2010 { background-image: url(../icons/awards/anidb_arc2010award.gif); }
-*.i_award_arc2011 { background-image: url(../icons/awards/anidb_arc2011award.gif); }
-*.i_award_arc2012 { background-image: url(../icons/awards/anidb_arc2012award.gif); }
+.i_award_mainichi { background-image: url(../icons/awards/anidb_mainichi.gif); }
+.i_award_jmaf { background-image: url(../icons/awards/anidb_jmaf.gif); }
+.i_award_japa { background-image: url(../icons/awards/anidb_japa.gif); }
+.i_award_apsa { background-image: url(../icons/awards/anidb_apsa.gif); }
+.i_award_oscars { background-image: url(../icons/awards/anidb_oscars.gif); }
+.i_award_top10 { background-image: url(../icons/awards/anidb_top10.png); }
+.i_award_arc2000 { background-image: url(../icons/awards/anidb_arc2000award.gif); }
+.i_award_arc2001 { background-image: url(../icons/awards/anidb_arc2001award.gif); }
+.i_award_arc2002 { background-image: url(../icons/awards/anidb_arc2002award.gif); }
+.i_award_arc2003 { background-image: url(../icons/awards/anidb_arc2003award.gif); }
+.i_award_arc2004 { background-image: url(../icons/awards/anidb_arc2004award.gif); }
+.i_award_arc2005 { background-image: url(../icons/awards/anidb_arc2005award.gif); }
+.i_award_arc2006 { background-image: url(../icons/awards/anidb_arc2006award.gif); }
+.i_award_arc2007 { background-image: url(../icons/awards/anidb_arc2007award.gif); }
+.i_award_arc2008 { background-image: url(../icons/awards/anidb_arc2008award.gif); }
+.i_award_arc2009 { background-image: url(../icons/awards/anidb_arc2009award.gif); }
+.i_award_arc2010 { background-image: url(../icons/awards/anidb_arc2010award.gif); }
+.i_award_arc2011 { background-image: url(../icons/awards/anidb_arc2011award.gif); }
+.i_award_arc2012 { background-image: url(../icons/awards/anidb_arc2012award.gif); }
 
 /* AniDB Top10 */
 #top10 { background-image: url(../icons/awards/anidb_top10_banner.gif); }

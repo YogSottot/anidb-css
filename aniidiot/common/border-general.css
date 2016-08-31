@@ -133,8 +133,8 @@ a,
 
 /*rounded corners*/
 h4,
-*.g_button a,
-*.g_msg,
+.g_button a,
+.g_msg,
 span.test,
 button,
 input[type="text"],
