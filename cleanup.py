@@ -24,7 +24,7 @@ class cleaner(object):
             
             if line == u'':
                 continue
-            elif line.startswith(u'@media'):
+            elif line.startswith((u'@media', u'@supports')):
                 mediaquery = True
                 openbrackets += 1
                 content.append(u'%s%s' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', line, ))
@@ -32,7 +32,7 @@ class cleaner(object):
             elif line.startswith(u'/*'):
                 #comment
                 forceNormalBreak = True
-                content.append(u'%s%s%s%s%s' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', u'\t' if mediaquery else u'', '' if properties or not hasContent else u'\n', '\t' if properties else u'', line))
+                content.append(u'%s%s%s%s%s%s' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', u'\t' if mediaquery else u'', '' if properties or not hasContent else u'\n', '\t' if mediaquery else u'', '\t' if properties else u'', line))
             elif line.startswith(u'{'):
                 #start of properties block
                 properties = True
@@ -52,7 +52,12 @@ class cleaner(object):
                 #last rule in segment
                 properties = True
                 openbrackets += 1
-                tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', line.rstrip(u'{').strip()))
+                line = line.rstrip(u'{').strip()
+                if ',' in line:
+                    for bit in line.split(','):
+                        tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', bit.strip()))
+                else:
+                    tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', line))
                 content.append(u'%s%s {' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', self._build_rules(tmp), ))
                 forceNormalBreak = False
                 tmp = []
@@ -66,7 +71,11 @@ class cleaner(object):
                 if line.endswith(u','):
                     line = line.rstrip(u',')
 
-                tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', line))
+                if ',' in line:
+                    for bit in line.split(','):
+                        tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', bit))
+                else:
+                    tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', line))
 
             #print u'----------------'
             #print line
