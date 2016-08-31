@@ -1,6 +1,10 @@
 import os
 
 class cleaner(object):
+    REORDER = FALSE
+    DRYRUN  = TRUE
+    DEBUG   = TRUE
+
     def __init__(self, path):
         self._search_css_files(path)
 
@@ -18,7 +22,7 @@ class cleaner(object):
         properties       = False
         mediaquery       = False
         forceNormalBreak = False
-        isComment        = False
+        multiLineComment = False
         linecnt          = 0
         for line in file(filepath):
             linecnt += 1
@@ -27,11 +31,11 @@ class cleaner(object):
 
             if line == u'':
                 continue
-            elif isComment or line.strip().startswith(u'/*'):
+            elif multiLineComment or line.strip().startswith(u'/*'):
                 #comment
-                isComment = True
+                multiLineComment = True
                 if line.endswith(u'*/'):
-                    isComment = False
+                    multiLineComment = False
 
                 forceNormalBreak = True
                 if line.strip().startswith(u'/*'):
@@ -101,18 +105,23 @@ class cleaner(object):
                 else:
                     tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', line))
 
-            #print u'----------------'
-            #print line
-            #print openbrackets
-            #print tmp
-            #print hasContent, forceNormalBreak
+            if self.DEBUG:
+                print u'----------------'
+                print line
+                print openbrackets
+                print tmp
+                print hasContent, forceNormalBreak
 
-        #file(filepath, 'w').write(u''.join(content).encode('utf8'))
-        #print u''.join(content)
+        if self.DEBUG:
+            print u''.join(content)
+        elif not self.DRYRUN:
+            file(filepath, 'w').write(u''.join(content).encode('utf8'))
 
     def _build_rules(self, rules):
-        #return u',\n'.join(sorted(rules, cmp=self._cmp_func))
-        return u',\n'.join(rules)
+        if self.REORDER:
+            return u',\n'.join(sorted(rules, cmp=self._cmp_func))
+        else:
+            return u',\n'.join(rules)
 
     def _cmp_func(self, a, b):
         if a.startswith(u'#') and not b.startswith(u'#'):
