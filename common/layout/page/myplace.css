@@ -124,7 +124,7 @@
 }
 
 #layout-main div.userpage_all .g_section.latest table {
-	width:100%;
+	width: 100%;
 }
 
 /*guestbook*/
@@ -270,7 +270,7 @@
 	#layout-main div.userpage_all div.block > div.data,
 	#layout-main div.userpage_all div.block > div.image,
 	#layout-main div.userpage_all div.g_menu.left {
-		width:100%;
+		width: 100%;
 		float: none;
 		margin-left: 0;
 		margin-right: 0;

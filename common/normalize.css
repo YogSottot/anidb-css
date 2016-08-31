@@ -21,8 +21,8 @@ td,
 textarea,
 th,
 ul {
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
 
 table {
@@ -33,7 +33,7 @@ table {
 
 fieldset,
 img {
-	border:0;
+	border: 0;
 }
 
 address,
@@ -45,18 +45,18 @@ em,
 strong,
 th,
 var {
-	font-style:normal;
-	font-weight:normal;
+	font-style: normal;
+	font-weight: normal;
 }
 
 ol,
 ul {
-	list-style:none;
+	list-style: none;
 }
 
 caption,
 th {
-	text-align:left;
+	text-align: left;
 }
 
 h1,
@@ -65,16 +65,16 @@ h3,
 h4,
 h5,
 h6 {
-	font-size:1rem;
-	font-weight:normal;
+	font-size: 1rem;
+	font-weight: normal;
 }
 
 q:after,
 q:before {
-	content:'';
+	content: '';
 }
 
 abbr,
 acronym {
-	border:0;
+	border: 0;
 }

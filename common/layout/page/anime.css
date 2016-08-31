@@ -81,13 +81,13 @@
 }
 
 #layout-main div.anime_all div.staffblock + div.staffblock {
-	margin-top:3em;
+	margin-top: 3em;
 }
 
 #layout-main div.anime_all div.staffblock h3 {
-	margin-left:1em;
-	text-align:center;
-	width:30%;
+	margin-left: 1em;
+	text-align: center;
+	width: 30%;
 }
 
 #layout-main div.anime_all div.groups td.epbar > div div {
@@ -133,17 +133,17 @@
 
 #layout-main div.anime_all div.info div.extra div.cast td.char,
 #layout-main div.anime_all div.info div.extra div.staff td.creator {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.anime_all div.info div.extra div.cast td.creator,
 #layout-main div.anime_all div.info div.extra div.staff td.credit {
 	white-space: nowrap;
-	min-width:12em;
+	min-width: 12em;
 }
 
 #layout-main div.anime_all div.info div.extra tr.more {
-	height:19px;
+	height: 19px;
 }
 
 #layout-main div.anime_all div.info div.extra tr.more td.action {

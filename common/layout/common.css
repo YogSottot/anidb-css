@@ -2,7 +2,7 @@ body.nonav #layout-footer,
 body.nonav #layout-main {
 	width: auto;
 	height: 90%;
-	margin:0;
+	margin: 0;
 	min-height: 0 !important;
 }
 
@@ -84,7 +84,7 @@ body.nonav #layout-main h1 {
 }
 
 #layout-main div table td.title span.icons.language {
-	float:left;
+	float: left;
 	padding-right: 0.3em;
 }
 
@@ -132,7 +132,7 @@ body.nonav #layout-main h1 {
 	top: 0;
 	width: calc(100% - 2.1em);
 	text-align: center;
-	z-index:110;
+	z-index: 110;
 	padding: 0.25em 1em;
 }
 
@@ -167,11 +167,11 @@ div.loadingbar {
 }
 
 table + select {
-	margin-top:1em;
+	margin-top: 1em;
 }
 
 .shuttle {
-	min-width:15em;
+	min-width: 15em;
 }
 
 .g_info ul {
@@ -185,8 +185,8 @@ table + select {
 
 #layout-main .g_section > form > h2,
 #layout-main .g_section > h2 {
-	padding:0;
-	text-align:left;
+	padding: 0;
+	text-align: left;
 	margin-bottom: 0.4em;
 }
 

@@ -3,7 +3,7 @@
 }
 
 #layout-main div.mangaatt_reviews div.review div.bar {
-	margin-top:1em;
+	margin-top: 1em;
 	float: right;
 	width: 11em;
 }
@@ -54,7 +54,7 @@
 }
 
 #layout-main div.mangaatt_all div.forum div.options-box dl div {
-	margin-left:20em;
+	margin-left: 20em;
 }
 
 #layout-main div.mangaatt_all div.mangaatt_info h4,
@@ -63,6 +63,6 @@
 }
 
 #layout-main div.mangaatt_all div.mangaatt_info ol {
-	list-style:decimal inside none;
+	list-style: decimal inside none;
 	text-align: left;
 }

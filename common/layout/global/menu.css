@@ -28,7 +28,7 @@
 
 #layout-main div.g_menu.filter_menu {
 	width: 16.5em;
-	margin-left:1em;
+	margin-left: 1em;
 }
 
 #layout-main div.g_menu.filter_menu.collapsed {
@@ -37,26 +37,26 @@
 
 #layout-main div.g_menu.filter_menu div.filestatefilters,
 #layout-main div.g_menu.filter_menu div.wishlistfilters {
-	margin-top:1em;
+	margin-top: 1em;
 }
 
 #layout-main div.g_menu.filter_menu div.filestatefilters ul li,
 #layout-main div.g_menu.filter_menu div.filters ul li,
 #layout-main div.g_menu.filter_menu div.wishlistfilters ul li {
-	padding:5px;
+	padding: 5px;
 }
 
 #layout-main div.g_menu.filter_menu label,
 #layout-main div.g_menu.filter_menu span.options {
-	display:block;
-	text-align:left;
+	display: block;
+	text-align: left;
 }
 
 #layout-main div.g_menu.filter_menu div.user span.user {
 	float: none;
 	margin-top: 2px;
 	height: 14px;
-	display:block;
+	display: block;
 }
 
 #layout-main div.g_menu.filter_menu p {
@@ -66,11 +66,11 @@
 #layout-nav div.menu_hr,
 #layout-search a.advsearch,
 #layout-search form.random {
-	display:none;
+	display: none;
 }
 
 #layout-main div.g_menu.filter_menu div.settings select {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.g_menu.filter_menu div.settings div.inner {
@@ -85,7 +85,7 @@
 #layout-main div.g_menu.filter_menu div.settings span {
 	display: block;
 	margin-top: 0.3em;
-	text-align:center;
+	text-align: center;
 }
 
 #layout-main div.g_content div.filter_menu > h3 .i_icon {

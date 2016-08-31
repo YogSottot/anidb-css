@@ -1,15 +1,15 @@
 #layout-main div.group_all table.animelist,
 #layout-main div.group_all.animegroup table.filelist {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.group_all.animegroup div.info table th {
-	width:10em;
+	width: 10em;
 }
 
 #layout-main div.group_all table.animelist td.no,
 #layout-main div.group_all.animegroup table.filelist td.no {
-	text-align:right;
+	text-align: right;
 }
 
 #layout-main div.group_all table.animelist td.action {
@@ -22,7 +22,7 @@
 
 #layout-main div.group_all.animegroup tr.anime td.value span.icons,
 #layout-main div.group_all.animegroup tr.group td.value span.icons {
-	float:left;
+	float: left;
 	padding-right: 0.3em;
 }
 
@@ -56,15 +56,15 @@
 }
 
 #layout-main div.group_all.animegroup div.info table {
-	min-width:50em;
-	max-width:50%;
-	margin-left:auto;
-	margin-right:auto;
+	min-width: 50em;
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media screen and (min-width: 1500px) {
 	#layout-main div.group_all.animegroup.sidebar div.info table {
-		width:100%;
+		width: 100%;
 		min-width: 0;
 		max-width: none;
 	}

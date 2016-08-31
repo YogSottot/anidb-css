@@ -1,5 +1,5 @@
 html {
-	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
 	/*font-size:0.625rem;*/
 	font-size: 10px;
 }
@@ -22,17 +22,17 @@ p,
 span,
 td,
 th {
-	font-weight:inherit;
+	font-weight: inherit;
 }
 
 a,
 del,
 ins {
-	text-decoration:none;
+	text-decoration: none;
 }
 
 h1 {
-	font-size:1.6rem;
+	font-size: 1.6rem;
 }
 
 h1 a {
@@ -57,8 +57,8 @@ h2 {
 .tab,
 h2 span,
 h4 span {
-	-cursor:hand;
-	cursor:pointer;
+	-cursor: hand;
+	cursor: pointer;
 }
 
 span.date,
@@ -70,26 +70,26 @@ td.rating,
 td.year,
 th,
 #menu-account li.alert {
-	white-space:nowrap;
+	white-space: nowrap;
 }
 
 span.date,
 span.user a.id,
 td.id,
 td.size {
-	letter-spacing:-1px;
+	letter-spacing: -1px;
 }
 
 a.filter,
 span.time,
 span.user a.id,
 td.rating span {
-	font-size:0.85rem;
-	vertical-align:top;
+	font-size: 0.85rem;
+	vertical-align: top;
 }
 
 .file_all dd.group span.time {
-	display:none;
+	display: none;
 }
 
 td.count,
@@ -99,7 +99,7 @@ td.id,
 td.number,
 td.size,
 #layout-main div.up2date_file_list table td.mylist {
-	text-align:right;
+	text-align: right;
 }
 
 .body,
@@ -115,7 +115,7 @@ th.field,
 ul,
 #layout-main div.main_all div.news h2,
 #layout-main div.profile_all .g_info {
-	text-align:left;
+	text-align: left;
 }
 
 .g_info,
@@ -145,45 +145,45 @@ th,
 tr.action td.submit,
 tr.action td.value,
 #layout-footer p {
-	text-align:center;
+	text-align: center;
 }
 
 .tiny,
 small,
 #layout-main .name span.main,
 #layout-main .name span.match {
-	font-size:0.95rem;
+	font-size: 0.95rem;
 }
 
 #layout-main div.userlist_all table td.hidden:after {
-	color:red;
-	content:" hidden";
+	color: red;
+	content: " hidden";
 }
 
 #layout-main div.anime_all div.groups td.state.unknown {
-	content:"N/A";
+	content: "N/A";
 }
 
 #layout-main div.addfile_add tr.subheader td {
-	font-weight:bold;
-	height:2em;
+	font-weight: bold;
+	height: 2em;
 }
 
 #layout-main div.anime_all div.groups td.mylist {
-	font-weight:bold;
-	text-align:center;
+	font-weight: bold;
+	text-align: center;
 }
 
 #layout-main div.japan_time {
-	font-size:1.2rem;
-	font-weight:bold;
-	text-align:left;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: left;
 }
 
 button,
 input[type="button"],
 input[type="submit"] {
-	padding:1px;
+	padding: 1px;
 }
 
 .g_list li,
@@ -195,59 +195,59 @@ h2 > span,
 h4 > span,
 h6 > span,
 span.test {
-	padding:1px 2px;
-	text-transform:capitalize;
+	padding: 1px 2px;
+	text-transform: capitalize;
 }
 
 #layout-main div.forum li.header div.segment,
 #statusBox {
-	font-family:Arial,Helvetica,sans-serif;
+	font-family: Arial,Helvetica,sans-serif;
 }
 
 #layout-main div.forum li.header div.segment {
-	font-size:1rem;
-	font-weight:bold;
-	text-transform:uppercase;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 #layout-main div.forum a.topictitle {
-	font-family:"Trebuchet MS",Helvetica,Arial,Sans-serif;
-	font-size:1.23rem;
-	font-weight:bold;
+	font-family: "Trebuchet MS",Helvetica,Arial,Sans-serif;
+	font-size: 1.23rem;
+	font-weight: bold;
 }
 
 #layout-main div.forum div.statistics h3 {
 	font-size: 0.95rem;
-	font-weight:bold;
-	text-transform:uppercase;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 #layout-main div.forum div.postbody div.code div.title {
-	font-family:"Lucida Grande","Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
-	font-size:1.2rem;
-	font-weight:bold;
+	font-family: "Lucida Grande","Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 
 #layout-main div.forum div.postbody div.code code {
-	font-family:Monaco,"Andale Mono","Courier New",Courier,mono;
-	font-size:1.2rem;
+	font-family: Monaco,"Andale Mono","Courier New",Courier,mono;
+	font-size: 1.2rem;
 }
 
 #layout-main div.forum div.options-box span.desc {
-	font-style:italic;
-	font-weight:normal;
+	font-style: italic;
+	font-weight: normal;
 }
 
 #layout-main div.forum .g_bubble.infobox h3 {
-	font-size:1.52rem;
-	font-weight:bold;
+	font-size: 1.52rem;
+	font-weight: bold;
 }
 
 #layout-main div.creq_all .state.new th.field,
 #layout-main div.creq_all .state.return th.field,
 #layout-main div.forum ul.topiclist li.row div.icon div.icon div.title,
 #layout-main div.forumsearch_form div span.desc {
-	font-weight:normal;
+	font-weight: normal;
 }
 
 .i_icon.i_info,
@@ -257,7 +257,7 @@ span.link,
 span.tooltip .i_icon.i_info,
 th.sortable:not(.sorter-false),
 #layout-main div.tabbed_pane ul.tabs li {
-	cursor:pointer;
+	cursor: pointer;
 }
 
 h2.collapsed span,
@@ -272,17 +272,17 @@ h4.collapsed span,
 #layout-main div.tag-column div.tag.abstract,
 #layout-main table.filelist tr.virtual,
 #layout-main ul.g_list li.selected {
-	font-style:italic;
+	font-style: italic;
 }
 
 #layout-main div.anime_all div.groups td.state.dropped,
 #layout-main div.group_released td.state.dropped {
-	text-decoration:underline;
+	text-decoration: underline;
 }
 
 #layout-main div.addtagentityrel_all div.addbox div.tag-column span.link,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link {
-	line-height:1.5em;
+	line-height: 1.5em;
 }
 
 #layout-main div.main_all div.account ul.tabs li {
@@ -294,14 +294,14 @@ h4.collapsed span,
 #layout-main div.forum ul.topics div.topics,
 #layout-main div.forum ul.topics div.views,
 #layout-main div.picupload_all input[type="file"] {
-	font-size:1.2rem;
+	font-size: 1.2rem;
 }
 
 #layout-main div.forum .g_bubble.infobox p.subtitle,
 #layout-main div.forum div.postbody div.code,
 #layout-main div.userpage_all div.block caption,
 #layout-main div.userpage_all div.block h3 {
-	font-size:1rem;
+	font-size: 1rem;
 }
 
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
@@ -323,7 +323,7 @@ h4.collapsed span,
 #layout-main div.forumsearch_form div.field,
 #layout-main div.main_all div.datablocks > div.account,
 #layout-main div.msg_all div.header div.field {
-	font-size:1.04rem;
+	font-size: 1.04rem;
 }
 
 .g_bubble .name-colored,
@@ -377,7 +377,7 @@ span.diff,
 #layout-main div.search_all div.search_results strong,
 #layout-main div.tag-column .parent,
 #layout-main table.filelist tr.undumped td.id a {
-	font-weight:bold;
+	font-weight: bold;
 }
 
 .g_italic,
@@ -391,7 +391,7 @@ span.diff,
 ul.format-modes li.selected,
 ul.format-modes li:hover,
 #statusBox {
-	text-decoration:none;
+	text-decoration: none;
 }
 
 .tooltip span.text {
@@ -402,7 +402,7 @@ ul.format-modes li:hover,
 
 #layout-main div.tag-column h5 {
 	font-size: 1.1rem;
-	font-weight:bold;
+	font-weight: bold;
 }
 
 #layout-main div.addtagentityrel_all #tag-groups span.link.unset,
@@ -430,7 +430,7 @@ ul.format-modes li:hover,
 
 #layout-main div.addcreatoranimerel_all div.content h4 span.nolink {
 	cursor: default;
-	text-transform:none;
+	text-transform: none;
 }
 
 #layout-main div.tag-column div.tag span.indent {

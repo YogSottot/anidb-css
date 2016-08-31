@@ -3,7 +3,7 @@
 }
 
 #layout-main div.animeatt_reviews div.review div.bar {
-	margin-top:1em;
+	margin-top: 1em;
 	float: right;
 	width: 11em;
 }
@@ -54,11 +54,11 @@
 }
 
 #layout-main div.animeatt_reviews div.review div.text img {
-	max-width:100%;
+	max-width: 100%;
 }
 
 #layout-main div.animeatt_all div.forum div.options-box dl div {
-	margin-left:20em;
+	margin-left: 20em;
 }
 
 #layout-main div.animeatt_all div.animeatt_info h4,
@@ -67,7 +67,7 @@
 }
 
 #layout-main div.animeatt_all div.animeatt_info ol {
-	list-style:decimal inside none;
+	list-style: decimal inside none;
 	text-align: left;
 }
 
@@ -86,8 +86,8 @@
 	}
 
 	#layout-main div.animeatt_reviews div.review div.bar {
-		width:auto;
-		float:none;
+		width: auto;
+		float: none;
 		display: flex;
 		flex-wrap: wrap;
 	}

@@ -9,7 +9,7 @@
 }
 
 .tooltip span.text {
-	display:none;
+	display: none;
 	left: -100px;
 	line-height: 16px;
 	margin-top: 50px;
@@ -23,7 +23,7 @@
 }
 
 .tooltip:hover span.text {
-	display:inline;
+	display: inline;
 }
 
 .tooltip span.text:after,
@@ -73,5 +73,5 @@
 }
 
 .tooltip span.text.comments div.postbody div.content {
-	padding:0.5em;
+	padding: 0.5em;
 }

@@ -46,7 +46,7 @@
 
 #layout-main div.search_all table.search_results td.score,
 #layout-main div.search_all table.search_results td.type {
-	width:10em;
+	width: 10em;
 	text-align: left;
 }
 
@@ -64,16 +64,16 @@
 }
 
 #layout-main div.search_all div.suggestions {
-	margin:0;
-	padding:0;
-	overflow:auto;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
 	z-index: 10;
 	max-height: 15em;
 }
 
 #layout-main div.search_all div.suggestions span {
-	margin:0px;
-	padding:2px 4px;
+	margin: 0px;
+	padding: 2px 4px;
 	display: block;
 }
 

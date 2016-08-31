@@ -148,13 +148,13 @@
 	float: left;
 	width: 50%;
 	padding: 0.2em 0.5em 0.4em;
-	clear:none;
+	clear: none;
 }
 
 #layout-main div.forum li.header div.segment,
 #layout-main div.forum li.header div.segment.icon {
 	border-left: none !important;
-	padding:7px 5px 5px;
+	padding: 7px 5px 5px;
 }
 
 #layout-main div.forum ul.topics div.posts,
@@ -195,7 +195,7 @@
 }
 
 #layout-main div.forum div.g_bubble.threads {
-	border:none;
+	border: none;
 	padding: 0 0 0.4em;
 	margin: 0.5em 0;
 }
@@ -633,7 +633,7 @@ div.g_bubble.spoiler {
 #layout-main div.forum div.g_bubble.preview-box,
 #layout-main div.forum div.g_bubble.search,
 #layout-main div.forum div.g_bubble.submit-box {
-	padding:0.8em;
+	padding: 0.8em;
 }
 
 #layout-main div.cmt_entries div.profile div.rank {

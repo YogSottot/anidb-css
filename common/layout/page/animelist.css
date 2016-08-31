@@ -14,7 +14,7 @@
 
 #layout-main div.animelist_all div.fullsearch_form,
 #layout-main div.animelist_all div.note {
-	clear:none;
+	clear: none;
 }
 
 #layout-main div.animelist_all table.animelist tr td,
@@ -33,25 +33,25 @@
 }
 
 #layout-main div.animelist_all table.animelist tr td.name {
-	width:50%;
+	width: 50%;
 }
 
 @media screen and (min-width: 1200px) {
 	#layout-main div.animelist_all table.animelist tr td.name {
-		width:75%;
+		width: 75%;
 	}
 
 	#layout-main div.animelist_all table.animelist tr td.rating {
 		text-align: left;
-		min-width:6em;
+		min-width: 6em;
 	}
 
 	#layout-main div.animelist_all table.animelist tr td.count {
-		min-width:4em;
+		min-width: 4em;
 	}
 
 	#layout-main div.animelist_all td.type {
-		white-space:nowrap;
+		white-space: nowrap;
 	}
 }
 

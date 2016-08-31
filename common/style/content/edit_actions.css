@@ -7,5 +7,5 @@
 }
 
 #layout-main div.edit_actions > span + span:before {
-	content:" - [";
+	content: " - [";
 }

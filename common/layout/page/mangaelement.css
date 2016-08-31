@@ -1,32 +1,32 @@
 #layout-main div.mangaelement_all div.info > div.tabbed_pane {
-	min-width:50em;
-	max-width:50%;
-	margin-left:auto;
-	margin-right:auto;
+	min-width: 50em;
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #layout-main div.mangaelement_all div.info > div.tabbed_pane table {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.mangaelement_all div.info > div.tabbed_pane table th {
-	width:10em;
+	width: 10em;
 }
 
 #layout-main div.mangaelement_all div.desc {
-	clear:left;
-	margin-left:1em;
-	margin-right:1em;
-	margin-top:1em;
-	padding:1em;
+	clear: left;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	padding: 1em;
 }
 
 #layout-main div.mangaelement_all div.info table {
-	border:none;
+	border: none;
 }
 
 #layout-main div.mangaelement_all ul.links_top {
-	display:none;
+	display: none;
 }
 
 #layout-main div.mangaelement_all table.elementlist td.action,

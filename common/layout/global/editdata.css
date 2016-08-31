@@ -9,11 +9,11 @@
 #layout-main div.song_all ul.links_top,
 #layout-main div.song_all ul.links_top,
 #layout-main div.tag_all ul.links_top {
-	display:none;
+	display: none;
 }
 
 #layout-main div.edit_actions {
-	float:right;
+	float: right;
 	margin-right: 0.5em;
 	height: auto;
 }

@@ -1,11 +1,11 @@
 .g_msg {
 	padding: 0.4em;
-	text-align:left;
-	clear:both;
+	text-align: left;
+	clear: both;
 }
 
 .g_msg h3 {
-	float:right;
+	float: right;
 }
 
 .g_msg > p {

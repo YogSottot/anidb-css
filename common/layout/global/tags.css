@@ -1,6 +1,6 @@
 /*edit form*/
 #layout-main div.g_definitionlist.tagedit_form table table {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.g_definitionlist.tagedit_form table.options th.anime,
@@ -8,13 +8,13 @@
 #layout-main div.g_definitionlist.tagedit_form table.options th.creator,
 #layout-main div.g_definitionlist.tagedit_form table.options th.episode,
 #layout-main div.g_definitionlist.tagedit_form table.options th.manga {
-	width:5em;
+	width: 5em;
 }
 
 #layout-main div.g_definitionlist.tagedit_form table.blocked td,
 #layout-main div.g_definitionlist.tagedit_form table.types td {
 	vertical-align: top;
-	width:10em;
+	width: 10em;
 }
 
 #layout-main div.addtagentityrel_all div.tag-column {
@@ -133,7 +133,7 @@
 }
 
 #layout-main div.tag-column div.tag > span {
-	line-height:1.5em;
+	line-height: 1.5em;
 }
 
 #layout-main div.tag-column div.tag span.name {
@@ -163,7 +163,7 @@
 }
 
 #layout-main div.tag-column div.tag span.indent {
-	white-space:pre;
+	white-space: pre;
 	float: left;
 	line-height: 1.6em;
 }
@@ -207,7 +207,7 @@
 }
 
 #layout-main #chartags h3:after {
-	content: ":";
+	content: ": ";
 }
 
 #layout-main div.chartag-list {
@@ -220,7 +220,7 @@
 
 #layout-main div.chartag-list span.tag {
 	display: inline-block;
-	line-height:25px;
+	line-height: 25px;
 	white-space: nowrap;
 	padding-left: 0.4em;
 	padding-right: 0.4em;
@@ -301,12 +301,12 @@
 }
 
 #layout-main div.chartag-list span.hidden {
-	display:none;
+	display: none;
 }
 
 /*tag tree*/
 #layout-main #tagtree div.tag-column .tag-block {
-	padding:1em;
+	padding: 1em;
 	width: 60em;
 }
 

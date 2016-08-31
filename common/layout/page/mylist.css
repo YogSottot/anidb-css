@@ -1,5 +1,5 @@
 #layout-main div.mylist_all table.animelist th.title {
-	width:98%;
+	width: 98%;
 }
 
 #layout-main div.mylist_all table.animelist table.eplist,
@@ -26,24 +26,24 @@
 #layout-main div.mylist_all td.rating,
 #layout-main div.mylist_all td.stats,
 #layout-main div.mylist_all td.vote {
-	padding-left:1em;
-	padding-right:1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 #layout-main div.mylist_all td.stats {
-	min-width:6em;
+	min-width: 6em;
 }
 
 #layout-main div.mylist_all td.rating,
 #layout-main div.mylist_all td.vote {
-	min-width:4em;
-	text-align:left;
+	min-width: 4em;
+	text-align: left;
 }
 
 #layout-main div.mylist_all td.type {
-	padding-left:4px;
-	padding-right:4px;
-	white-space:nowrap;
+	padding-left: 4px;
+	padding-right: 4px;
+	white-space: nowrap;
 }
 
 #layout-main div.mylist_all table.eplist th {

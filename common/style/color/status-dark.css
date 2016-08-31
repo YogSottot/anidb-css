@@ -122,20 +122,20 @@
 #layout-main td del,
 #layout-main td ins,
 #layout-main td ins {
-	color:#A0A0A0;
+	color: #A0A0A0;
 }
 
 /*epbar colors*/
 #layout-main div.anime_all div.groups td.epbar div.notdone,
 #layout-main div.group_all div.group_released td.epbar div.notdone {
-	background-color:#c6c3ff;
+	background-color: #c6c3ff;
 	border-bottom: 2px solid #c6c3ff;
 }
 
 .ajax-file-upload-bar,
 #layout-main div.anime_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done {
-	background-color:#6361ff;
+	background-color: #6361ff;
 	border-bottom: 2px solid #6361ff;
 }
 
@@ -161,9 +161,9 @@ span.diff,
 
 /*vote graphs*/
 #layout-main div.votes_all div.graph div.bar div.colored {
-	background-color:green;
+	background-color: green;
 }
 
 #layout-main div.votes_all div.graph div.bar.my div.colored {
-	background-color:#CD9D29;
+	background-color: #CD9D29;
 }

@@ -1,35 +1,35 @@
 #layout-main div.msg_all div.header {
 	margin-bottom: 1em;
-	padding:0.5em 1em;
+	padding: 0.5em 1em;
 }
 
 #layout-main div.msg_all div.forum ul.topiclist div.actions,
 #layout-main div.msg_all div.forum ul.topiclist div.read,
 #layout-main div.msg_all div.forum ul.topiclist div.to,
 #layout-main div.msg_all div.forum ul.topiclist div.type {
-	text-align:center;
-	width:10%;
+	text-align: center;
+	width: 10%;
 }
 
 #layout-main div.msg_all div.forum ul.topiclist div.check {
-	text-align:center;
-	width:2.5em;
+	text-align: center;
+	width: 2.5em;
 }
 
 #layout-main div.msg_all div.forum ul.topics div.check {
 	border-left: none;
-	border-right:1px solid;
-	padding-left:0;
+	border-right: 1px solid;
+	padding-left: 0;
 	padding-top: 1em;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions {
-	margin-top:0;
-	margin-bottom:1em;
+	margin-top: 0;
+	margin-bottom: 1em;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions div.buttons > * {
-	float:left;
+	float: left;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions div.buttons ul {

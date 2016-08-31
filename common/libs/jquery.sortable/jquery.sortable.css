@@ -132,7 +132,7 @@ body.dragging * {
 }
 
 .sortable_shuttle ol.jssortable li.pane > div {
-	float:left;
+	float: left;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;

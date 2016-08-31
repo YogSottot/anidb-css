@@ -1,41 +1,41 @@
 #layout-main div.ep_all table.stafflist td.credit,
 #layout-main div.ep_all table.stafflist td.name {
-	width:30%;
+	width: 30%;
 }
 
 #layout-main div.ep_all table.stafflist td.comment,
 #layout-main div.ep_all table.stafflist td.eprange {
-	min-width:10em;
+	min-width: 10em;
 }
 
 #layout-main div.ep_all div.staffblock + div.staffblock {
-	margin-top:1.5em;
+	margin-top: 1.5em;
 }
 
 #layout-main div.ep_all div.staffblock h3 {
-	margin-left:1em;
-	text-align:center;
-	width:30%;
+	margin-left: 1em;
+	text-align: center;
+	width: 30%;
 }
 
 #layout-main div.ep_all div.info div.tabbed_pane {
-	min-width:50em;
-	max-width:50%;
-	margin-left:auto;
-	margin-right:auto;
+	min-width: 50em;
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #layout-main div.ep_all div.info table,
 #layout-main div.ep_all table.filelist {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.ep_all div.info table th {
-	width:10em;
+	width: 10em;
 }
 
 #layout-main div.ep_all div.staffblock + div.staffblock {
-	margin-top:3em;
+	margin-top: 3em;
 }
 
 #layout-main div.ep_all > .g_section.tabbed_pane:not(.hidden) {

@@ -132,16 +132,16 @@
 #layout-main div.addcharanimerel_all div.massadd td.char.name.original input,
 #layout-main div.addcharanimerel_all div.massadd td.comment input,
 #layout-main div.addcharanimerel_all div.massadd td.seiyuu.name.original input {
-	width:6em;
+	width: 6em;
 }
 
 #layout-main div.addcharanimerel_all div.massedit table,
 #layout-main div.addcharanimerel_all div.massedit table td input[type="text"] {
-	width:98%;
+	width: 98%;
 }
 
 #layout-main div.addcharanimerel_all div.massedit table td {
-	padding-right:1em;
+	padding-right: 1em;
 }
 
 #layout-main div.g_content.addcharanimerel_all td.relation.missing,

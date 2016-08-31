@@ -1,5 +1,5 @@
 #layout-main h1.latest2 {
-	margin-bottom:0.5em;
+	margin-bottom: 0.5em;
 }
 
 #layout-main div.latest2_all div.content + div.content {
@@ -12,11 +12,11 @@
 }
 
 #layout-main div.latest2_all div.filter_menu ~ div.content {
-	margin-right:17.5em;
+	margin-right: 17.5em;
 }
 
 #layout-main div.latest2_all div.filter_menu.collapsed ~ div.content {
-	margin-right:0;
+	margin-right: 0;
 }
 
 #layout-main div.latest2_all div.content table.filelist td.group {
@@ -31,11 +31,11 @@
 /*<forcing icons not to wrap>*/
 #layout-main div.latest2_all div.files div.content td.action,
 #layout-main div.latest2_all div.files div.content td.info {
-	white-space:nowrap;
+	white-space: nowrap;
 }
 
 #layout-main div.latest2_all div.files div.content td.action {
-	text-align:left;
+	text-align: left;
 }
 
 /*</forcing icons not to wrap>*/
@@ -66,7 +66,7 @@
 	#layout-main div.latest2_all div.latest_recommendations div.content td.user.name,
 	#layout-main div.latest2_all div.latest_reviews div.content td.user.name,
 	#layout-main div.latest2_all div.latest_similaranime div.content td.user.name {
-		white-space:nowrap;
+		white-space: nowrap;
 	}
 
 	#layout-main div.latest2_all div.content td.anime.name {
@@ -106,7 +106,7 @@
 
 #layout-main div.latest2_all div.latest_sequels div.content td.anime_a,
 #layout-main div.latest2_all div.latest_sequels div.content td.anime_b {
-	width:50%;
+	width: 50%;
 }
 
 #layout-main div.latest2_all div.latest_anime div.content td.name {
@@ -114,11 +114,11 @@
 }
 
 #layout-main div.latest2_all div.latest_recommendations div.content td.anime.name {
-	width:30%;
+	width: 30%;
 }
 
 #layout-main div.latest2_all div.latest_similaranime div.content td.anime.name {
-	width:20%;
+	width: 20%;
 }
 
 #layout-main div.latest2_all div.content td.episode {

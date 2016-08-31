@@ -8,27 +8,27 @@
 }
 
 #layout-main div.mywishlist_all tr td.name {
-	width:99%;
+	width: 99%;
 }
 
 #layout-main div.mywishlist_all tr td.comment {
-	min-width:10em;
+	min-width: 10em;
 }
 
 #layout-main div.mywishlist_all tr td.rating,
 #layout-main div.mywishlist_all tr td.stats {
-	width:6em;
+	width: 6em;
 }
 
 #layout-main div.mywishlist_all tr td.action {
-	min-width:5em;
+	min-width: 5em;
 }
 
 #layout-main div.mywishlist_all tr td.check,
 #layout-main div.mywishlist_all tr td.nfy,
 #layout-main div.mywishlist_all tr td.priority,
 #layout-main div.mywishlist_all tr td.releaseinfo {
-	width:1em;
+	width: 1em;
 }
 
 #layout-main div.mywishlist_all .whistlist_edit .g_definitionlist.edit {
@@ -36,15 +36,15 @@
 }
 
 #layout-main div.mywishlist_all .whistlist_edit .options label {
-	display:block;
+	display: block;
 }
 
 #wishlist_edit table {
-	width:100%;
+	width: 100%;
 }
 
 #layout-main div.mywishlist_all td.type {
-	white-space:nowrap;
+	white-space: nowrap;
 }
 
 @media screen and (max-width: 950px) {

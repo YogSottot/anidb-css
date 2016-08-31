@@ -12,23 +12,23 @@
 #layout-main div.creq_all table.creqlist td.language,
 #layout-main div.creq_all table.creqlist td.state,
 #layout-main div.creq_all table.creqlist td.type {
-	width:5em;
+	width: 5em;
 }
 
 #layout-main div.creq_all table.creqlist td.date,
 #layout-main div.creq_all table.creqlist td.name {
-	width:10em;
+	width: 10em;
 }
 
 #layout-main div.creq_all table.creqlist td.check,
 #layout-main div.creq_all table.creqlist td.count {
-	width:4em;
+	width: 4em;
 }
 
 #layout-main div.creq_all div.creq_header th.field,
 #layout-main div.creq_all table.creqlist td.id,
 #layout-main div.creq_all table.creqlist td.name {
-	text-align:left;
+	text-align: left;
 }
 
 #layout-main div.creq_all div.creq_data td,
@@ -38,12 +38,12 @@
 }
 
 #layout-main div.creq_all th.field {
-	text-align:center;
+	text-align: center;
 }
 
 #layout-main div.creq_all .creq_data td.field,
 #layout-main div.creq_all .creq_raw td.field {
-	white-space:nowrap;
+	white-space: nowrap;
 }
 
 #layout-main div.creq_all .creq_data td.field,
@@ -61,9 +61,9 @@
 #layout-main div.creq_all .creq_raw table td.old {
 	overflow: hidden;
 	text-overflow: ellipsis;
-	white-space:pre-wrap;
-	min-width:45%;
-	max-width:1em; /*otherwise the text-overflow doesn't work... <_<*/
+	white-space: pre-wrap;
+	min-width: 45%;
+	max-width: 1em; /*otherwise the text-overflow doesn't work... <_<*/
 }
 
 #layout-main div.creq_all table.creqlist td.entry,
@@ -99,7 +99,7 @@
 }
 
 #layout-main div.creq_all div.creq_hist div.forum div.profile .g_image {
-	max-width:75px;
+	max-width: 75px;
 }
 
 #layout-main div.creq_all div.creq_messages {
