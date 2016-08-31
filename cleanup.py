@@ -1,9 +1,9 @@
 import os
 
 class cleaner(object):
-    REORDER = False
-    DRYRUN  = True
-    DEBUG   = True
+    REORDER = True
+    DRYRUN  = False
+    DEBUG   = False
 
     def __init__(self, path):
         self._search_css_files(path)
