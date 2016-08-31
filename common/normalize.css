@@ -27,5 +27,6 @@ h1,h2,h3,h4,h5,h6 {
 q:before,q:after {
 	content:'';
 }
-abbr,acronym { border:0;
+abbr,acronym {
+	border:0;
 }

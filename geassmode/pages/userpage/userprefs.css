@@ -4,7 +4,8 @@
 	#layout-main div.userpage_all div.g_section.userprefs h4 {
 		text-align:center;
 	}
-	#layout-main div.userpage_all div.g_section.userprefs div { /*Userpage fix*/
+	#layout-main div.userpage_all div.g_section.userprefs div {
+		/*Userpage fix*/
 		margin: 5px 0 5px 0;
 		width:initial;
 		border-left:none;

@@ -5,7 +5,7 @@ class cleaner(object):
         self._search_css_files(path)
 
     def _cleanup_string(self, string):
-        string = string.replace(u'\t', u' ').replace(u'\n', u'').replace(u'*.', u'.')
+        string = string.replace(u'\t', u' ').replace(u'*.', u'.')
         while u'  ' in string:
             string = string.replace(u'  ', u' ')
 
@@ -18,21 +18,35 @@ class cleaner(object):
         properties       = False
         mediaquery       = False
         forceNormalBreak = False
+        isComment        = False
+        linecnt          = 0
         for line in file(filepath):
-            line = self._cleanup_string(line.decode('utf8'))
+            linecnt += 1
+            line = line.decode('utf8').replace(u'\n', u'')
             hasContent = True if len(content) > 0 else False
-            
+
             if line == u'':
                 continue
-            elif line.startswith((u'@media', u'@supports')):
+            elif isComment or line.strip().startswith(u'/*'):
+                #comment
+                isComment = True
+                if line.endswith(u'*/'):
+                    isComment = False
+
+                forceNormalBreak = True
+                if line.strip().startswith(u'/*'):
+                    content.append(u'%s%s%s%s%s%s' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', u'\t' if mediaquery else u'', '' if properties or not hasContent else u'\n', '\t' if mediaquery else u'', '\t' if properties else u'', line))
+                else:
+                    content.append(u'%s\n' %(line))
+
+                continue
+
+            line = self._cleanup_string(line)
+            if line.startswith((u'@media', u'@supports')):
                 mediaquery = True
                 openbrackets += 1
                 content.append(u'%s%s' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', line, ))
                 forceNormalBreak = True
-            elif line.startswith(u'/*'):
-                #comment
-                forceNormalBreak = True
-                content.append(u'%s%s%s%s%s%s' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', u'\t' if mediaquery else u'', '' if properties or not hasContent else u'\n', '\t' if mediaquery else u'', '\t' if properties else u'', line))
             elif line.startswith(u'{'):
                 #start of properties block
                 properties = True
@@ -64,21 +78,19 @@ class cleaner(object):
                 tmp = []
             elif properties:
                 #all dem properties
+                if (openbrackets == 0) or (openbrackets == 1 and mediaquery):
+                    print "ERROR: missing ; or right bracket in file %s line %s" %(filepath, linecnt)
+                    break
+
                 content.append(u'%s\t%s%s' %(u'\n' if hasContent else '', u'\t' if mediaquery else u'', line.replace(':', ': ').replace('  ', ' ')))
-            elif line.startswith(u'@import'):
+            elif line.startswith((u'@import', u'@charset')):
                 content.append(u'%s%s%s' %(u'\n' if hasContent else '', u'\t' if mediaquery else u'', line, ))
             else:
                 #rules
                 if line.endswith(u';'):
                     #WAT? -> property
-                    properties = True
-                    openbrackets += 1
-                    content.append(u'%s%s {' %(u'\n\n'if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'', self._build_rules(tmp), ))
-                    hasContent = True
-                    content.append(u'%s\t%s%s' %(u'\n' if hasContent else '', u'\t' if mediaquery else u'', line.replace(':', ': ').replace('  ', ' ')))
-                    forceNormalBreak = False
-                    tmp = []
-                    continue
+                    print "ERROR: expected rule, got property in file %s line %s" %(filepath, linecnt)
+                    break
                 
                 if line.endswith(u','):
                     line = line.rstrip(u',')
@@ -95,7 +107,7 @@ class cleaner(object):
             #print tmp
             #print hasContent, forceNormalBreak
 
-        file(filepath, 'w').write(u''.join(content).encode('utf8'))
+        #file(filepath, 'w').write(u''.join(content).encode('utf8'))
         #print u''.join(content)
 
     def _build_rules(self, rules):
