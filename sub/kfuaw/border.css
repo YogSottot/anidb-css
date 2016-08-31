@@ -1,221 +1,192 @@
-table
-{
+table {
 	border-collapse: seperate;
 }
 
-.g_image, img, a
-{
+ a,
+ img,
+.g_image {
 	border: none;
 }
 
-#layout-main table tr
-{
+#layout-main table tr {
 	border: 1px solid #363636;
 }
 
-#layout-main table tr.g_odd + tr td,
-#layout-main table tr + tr.g_odd td,
-#layout-main li.g_odd + li,
-#layout-main li + li.g_odd,
 #layout-main div.votes_all div.graph div.group + div.group_odd,
 #layout-main div.votes_all div.graph div.group_odd + div.group,
-#layout-main div.votes_all div.graph.eps div.row + div.row
-{
+#layout-main div.votes_all div.graph.eps div.row + div.row,
+#layout-main li + li.g_odd,
+#layout-main li.g_odd + li,
+#layout-main table tr + tr.g_odd td,
+#layout-main table tr.g_odd + tr td {
 	border-top: 1px solid #dddddd;
 	border-bottom: none;
 }
 
-#layout-main ul.g_list li,
-#layout-main table tr.header + tr td,
-#layout-main div.profile_all tr.g_odd,
-#layout-main div.profile_all span.g_odd,
-#layout-main div.profile_all li.g_odd,
-#layout-main div.profile_all tr.g_odd + tr td,
-#layout-main div.profile_all tr + tr.g_odd td,
-#layout-main div.profile_all tr,
-#layout-main div.profile_all span,
-#layout-main div.profile_all li,
+#layout-main div.customise_all li + li.g_odd,
 #layout-main div.customise_all li.g_odd + li,
-#layout-main div.customise_all li + li.g_odd
-{
+#layout-main div.profile_all li,
+#layout-main div.profile_all li.g_odd,
+#layout-main div.profile_all span,
+#layout-main div.profile_all span.g_odd,
+#layout-main div.profile_all tr,
+#layout-main div.profile_all tr + tr.g_odd td,
+#layout-main div.profile_all tr.g_odd,
+#layout-main div.profile_all tr.g_odd + tr td,
+#layout-main table tr.header + tr td,
+#layout-main ul.g_list li {
 	border: none;
 }
 
-#layout-main table tr th.field,
-#layout-main table tr td.field,
-#layout-main table tr.g_odd + tr td.field,
 #layout-main table tr + tr.g_odd td.field,
+#layout-main table tr + tr.g_odd td.field,
+#layout-main table tr td.field,
+#layout-main table tr th.field,
 #layout-main table tr.g_odd + tr td.field,
-#layout-main table tr + tr.g_odd td.field
-{
+#layout-main table tr.g_odd + tr td.field {
 	border-top: 1px solid #363636;
 }
 
-#layout-menu li.sub-menu
-{
-	border:1px solid #555555;
+#layout-menu li.sub-menu {
+	border: 1px solid #555555;
 	border-radius: .35em;
-	border-radius-topleft:0;
-	border-radius-bottomleft:0;
+	border-radius-topleft: 0;
+	border-radius-bottomleft: 0;
 	border-left: none;
 	border-width: 1px 2px 1px 0;
 }
 
-#layout-menu li ul li a
-{
+#layout-menu li ul li a {
 	border: 1px solid #444444;
 	border-width: 0 1px;
 }
 
-#layout-menu li ul li:first-child a,
-#layout-menu li ul li#alert-notif a.newnotifies
-{
+#layout-menu li ul li#alert-notif a.newnotifies,
+#layout-menu li ul li:first-child a {
 	border-width: 2px 1px 0 1px;
 }
 
-#layout-menu li ul li#alert-notif a
-{
+#layout-menu li ul li#alert-notif a {
 	border-width: 0 1px 0 1px;
 }
 
-#layout-menu li ul li:last-child a
-{
+#layout-menu li ul li:last-child a {
 	border-width: 0 1px 2px 1px;
-	
 }
 
-#layout-main .g_description,
-.g_image
-{
+.g_image,
+#layout-main .g_description {
 	border: 1px #98AAB1 dotted;
 }
 
-.g_image
-{
+.g_image {
 	padding: 1px;
 }
 
-#layout-main .block .g_definitionlist table
-{
+#layout-main .block .g_definitionlist table {
 	/*border: none;*/
 	margin: 0;
 }
 
-#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all .staffblock + .staffblock table,
-#layout-main div.anime_all div.episodes tr.newtype td
-{
+#layout-main div.anime_all div.episodes tr.newtype td,
+#layout-main div.ep_all .staffblock + .staffblock table {
 	border-top: 2px #006699 double;
 }
 
-#layout-main div.anime_all div.episodes tr.heading th
-{
+#layout-main div.anime_all div.episodes tr.heading th {
 	padding: 4px 1px 7px 1px;
 	border-bottom: black 2px solid;
 }
 
-.g_image
-{
+.g_image {
 	border: 1px solid #cbd6e5;
 }
 
-#layout-main h1
-{
+#layout-main h1 {
 	border: 2px ridge #dddddd;
 }
 
-#layout-tabs + #layout-main,
 body.nonav #layout-main div.g_content,
-#layout-search div.search,
 #layout-content,
+#layout-main h1,
 #layout-menu,
-#layout-main h1
-{
+#layout-search div.search,
+#layout-tabs + #layout-main {
 	border-radius: .75em;
-	border-radius-topleft:0;
-	border-radius-bottomright:0;
+	border-radius-topleft: 0;
+	border-radius-bottomright: 0;
 }
 
-#layout-tabs + #layout-main
-{
+#layout-tabs + #layout-main {
 	border: 1px solid #999999;
 }
 
 #layout-main div.animeatt_all div.bar h4,
 #layout-main div.animeatt_all div.bar ul,
 #layout-main div.creq_all div.states dl,
-#layout-main table,
-#layout-main div.userpage_all div.latest ul,
-#layout-main div.userpage_all div.g_section.clubs h3 + div,
-#layout-main div.g_menu div h4 + ul,
 #layout-main div.g_menu div h4 + p,
+#layout-main div.g_menu div h4 + ul,
+#layout-main div.profile_all div.default_languages table,
 #layout-main div.profile_all div.pane.general div.body div.pane div,
 #layout-main div.profile_all div.passwords form div.anidb,
 #layout-main div.profile_all div.passwords form div.g_section,
 #layout-main div.profile_all div.rdf_jabber div,
 #layout-main div.profile_all div.settings.block,
-#layout-main div.profile_all div.default_languages table,
-#layout-main div.profile_all div.userdata_form table 
-{
+#layout-main div.profile_all div.userdata_form table,
+#layout-main div.userpage_all div.g_section.clubs h3 + div,
+#layout-main div.userpage_all div.latest ul,
+#layout-main table {
 	border: 1px solid #363636;
 }
 
-#layout-main div.tabbed_pane div.body
-{
+#layout-main div.tabbed_pane div.body {
 	border: 1px solid #999999;
 	border-radius: .3em;
-	border-radius-topleft:0;
+	border-radius-topleft: 0;
 }
 
-#layout-main ul.links_bottom
-{
+#layout-main ul.links_bottom {
 	border: none;
 	border-top: 2px groove #FFFFFF;
 }
 
-#layout-tabs ul li a,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-tabs ul li a {
 	border: 1px solid #999999;
 	border-radius: .2em;
-	border-radius-bottomleft:0;
-	border-radius-bottomright:0;
+	border-radius-bottomleft: 0;
+	border-radius-bottomright: 0;
 }
 
-#layout-tabs ul li a
-{
+#layout-tabs ul li a {
 	border-bottom-color: #acacac;
 }
 
-#layout-tabs ul li.selected a,
+#layout-main div.tabbed_pane div.pane ul.tabs li.selected,
 #layout-main div.tabbed_pane ul.tabs li.selected,
-#layout-main div.tabbed_pane div.pane ul.tabs li.selected
-{
+#layout-tabs ul li.selected a {
 	border: 1px solid #999999;
 	border-bottom-color: #f3f3f3;
-	border-top:medium none;
+	border-top: medium none;
 }
 
-#layout-main ul.g_list li.selected,
-#layout-main ul.g_list li a
-{
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li.selected {
 	border-radius: .5em;
-	border:1px solid #999999;
+	border: 1px solid #999999;
 }
 
-#layout-main div.profile_all div.tabbed_pane div.default_languages div,
-table table
-{
+table table,
+#layout-main div.profile_all div.tabbed_pane div.default_languages div {
 	border: none;
 }
 
-#layout-main div.info div.extra div table
-{
+#layout-main div.info div.extra div table {
 	border: none;
 }
 
-.g_bubble
-{
-	border-radius:0.4em;
-	border:1px solid #999999;
+.g_bubble {
+	border-radius: 0.4em;
+	border: 1px solid #999999;
 }

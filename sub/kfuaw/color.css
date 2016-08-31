@@ -1,226 +1,201 @@
-html
-{
+html {
 	color: #2E3C55;
 	background: #E3E1E1 url(images/background.png) repeat-y scroll 0 0;
 }
 
-span.link,
-a
-{
+a,
+span.link {
 	color: #5a5a5a;
 	cursor: pointer;
 }
 
-span.link,
-a,
-#layout-main ul.g_list li a,
-#layout-main div.g_timedentry a:hover,
-#layout-main div.userpage_all div.g_section h4 a:hover,
-#layout-main div.g_section h4 a:hover,
 .fancybox-wrap div.g_msg.note a:hover,
-#layout-main div.g_msg.note a:hover,
-#layout-main table caption a:hover,
-#layout-main div.cmt_entries div.postbody div.content a:hover,
-#layout-main div.userpage_all div.g_section h4 a:hover,
+a,
 a.i_icon:hover,
 a.i_inline:hover,
-#layout-main div.edit_actions span > *:hover
-{
+span.link,
+#layout-main div.cmt_entries div.postbody div.content a:hover,
+#layout-main div.edit_actions span > *:hover,
+#layout-main div.g_msg.note a:hover,
+#layout-main div.g_section h4 a:hover,
+#layout-main div.g_timedentry a:hover,
+#layout-main div.userpage_all div.g_section h4 a:hover,
+#layout-main div.userpage_all div.g_section h4 a:hover,
+#layout-main table caption a:hover,
+#layout-main ul.g_list li a {
 	text-decoration: none;
 }
 
-#layout-main div.g_timedentry a,
-#layout-main h1 a,
-#layout-main h4 a,
+.fancybox-wrap div.g_msg.note a,
+a:hover,
+span.link:hover,
 #layout-main .g_list a,
+#layout-main div.cmt_entries div.postbody div.content a,
+#layout-main div.edit_actions span > *,
+#layout-main div.g_msg.note a,
+#layout-main div.g_section h4 a,
+#layout-main div.g_timedentry a,
 #layout-main div.tabbed_pane ul.tabs li a,
 #layout-main div.userpage_all div.g_section h4 a,
-#layout-main table caption a,
-#layout-main div.edit_actions span > *,
-.fancybox-wrap div.g_msg.note a,
-#layout-main div.g_msg.note a,
-#layout-main div.cmt_entries div.postbody div.content a,
-#layout-main div.g_section h4 a,
-span.link:hover,
-a:hover
-{
+#layout-main h1 a,
+#layout-main h4 a,
+#layout-main table caption a {
 	text-decoration: underline;
 }
 
 body.nonav #layout-main div.g_content,
-#layout-main div.g_section h4,
-#layout-main div.g_section h4 a,
+#layout-content,
 #layout-main div.creq_all dd,
-#layout-content
-{
+#layout-main div.g_section h4,
+#layout-main div.g_section h4 a {
 	background-color: #F3F3F3;
 	color: #2E3C55;
 }
 
 body.nonav #layout-main div.g_content h4,
-#layout-main div.profile_all div.g_section h4 a
-{
-	background-color:transparent;
-}
-
-
-body.nonav #layout-main div.g_content h4
-{
-	color: #2E2e2e;
-}
-
-body.nonav #layout-main div.g_content
-{
-	background: #EEEEEE url(images/tab-1.png) repeat-x scroll 0 -3px;
-}
-
-#layout-menu
-{
-	color: #2E3C55;
-}
-
-#layout-main tr.g_odd,
-#layout-main li.g_odd,
-#layout-main span.g_odd,
-#layout-main div.votes_all div.graph div.group,
-#layout-main div.votes_all div.graph.eps div.g_odd
-{
-	background-color: #eaeaea;
-}
-
-#layout-main div.profile_all tr.g_odd,
-#layout-main div.profile_all span.g_odd,
-#layout-main div.profile_all li.g_odd,
-#layout-main div.customise_all tr.g_odd,
-#layout-main div.customise_all span.g_odd,
-#layout-main div.customise_all li.g_odd
-{
+#layout-main div.profile_all div.g_section h4 a {
 	background-color: transparent;
 }
 
-#layout-main div.animeatt_all div.bar h4,
-#layout-main div.g_menu.filter_menu h4,
-#layout-main div.userpage_all div.g_section.userprefs h3,
-#layout-main div.userpage_all div.g_section.clubs h3,
-#layout-main div.userpage_all div.g_section.latest h4,
-#layout-main div.creq_all div.g_section.creq_stats table.stats th,
-#layout-menu li.sub-menu,
-#layout-main div.tabbed_pane h4,/*
-#layout-main .g_list,*/
-#layout-main h4,
-#layout-main table tr th.field,
-#layout-main table tr td.field,
-#layout-main div.creq_all dt,
-#layout-main table caption,
-#layout-main h1,
-#layout-main table thead,
-#layout-main table tr.header,
-#layout-main div.votes_all div.graph div.header,
-#layout-main div.customise_all div.settings.block h4,
-#layout-main div.profile_all div.settings.block h4,
-#layout-main div.creq_all dl
-{
-	background-color:#363636;
-	color: #dddddd;
-	text-shadow:1px 1px 0 #111111;
+body.nonav #layout-main div.g_content h4 {
+	color: #2E2e2e;
 }
 
-#layout-main div.creq_all dl dd
-{
+body.nonav #layout-main div.g_content {
+	background: #EEEEEE url(images/tab-1.png) repeat-x scroll 0 -3px;
+}
+
+#layout-menu {
+	color: #2E3C55;
+}
+
+#layout-main div.votes_all div.graph div.group,
+#layout-main div.votes_all div.graph.eps div.g_odd,
+#layout-main li.g_odd,
+#layout-main span.g_odd,
+#layout-main tr.g_odd {
+	background-color: #eaeaea;
+}
+
+#layout-main div.customise_all li.g_odd,
+#layout-main div.customise_all span.g_odd,
+#layout-main div.customise_all tr.g_odd,
+#layout-main div.profile_all li.g_odd,
+#layout-main div.profile_all span.g_odd,
+#layout-main div.profile_all tr.g_odd {
+	background-color: transparent;
+}
+
+*/,
+/*,
+#layout-main .g_list,
+#layout-main div.animeatt_all div.bar h4,
+#layout-main div.creq_all div.g_section.creq_stats table.stats th,
+#layout-main div.creq_all dl,
+#layout-main div.creq_all dt,
+#layout-main div.customise_all div.settings.block h4,
+#layout-main div.g_menu.filter_menu h4,
+#layout-main div.profile_all div.settings.block h4,
+#layout-main div.tabbed_pane h4,
+#layout-main div.userpage_all div.g_section.clubs h3,
+#layout-main div.userpage_all div.g_section.latest h4,
+#layout-main div.userpage_all div.g_section.userprefs h3,
+#layout-main div.votes_all div.graph div.header,
+#layout-main h1,
+#layout-main h4,
+#layout-main table caption,
+#layout-main table thead,
+#layout-main table tr td.field,
+#layout-main table tr th.field,
+#layout-main table tr.header,
+#layout-menu li.sub-menu {
+	background-color: #363636;
+	color: #dddddd;
+	text-shadow: 1px 1px 0 #111111;
+}
+
+#layout-main div.creq_all dl dd {
 	text-shadow: none;
 }
 
 #layout-main h1 a,
 #layout-main h4 a,
 #layout-main table caption a,
-#layout-menu li.sub-menu a
-{
+#layout-menu li.sub-menu a {
 	color: #dddddd;
 }
 
 #layout-tabs ul li a,
-#layout-tabs ul li.g_odd a
-{
+#layout-tabs ul li.g_odd a {
 	color: #363636;
 }
 
-#layout-main ul.links,
 #layout-main div.g_timedentry h4,
-#layout-main div.g_timedentry h4 a
-{
+#layout-main div.g_timedentry h4 a,
+#layout-main ul.links {
 	color: #6B868F;
 	background-color: transparent;
-	text-shadow:none;
+	text-shadow: none;
 }
 
-
+#layout-main div.tabbed_pane ul.tabs li,
 #layout-main ul.g_list li a,
-#layout-tabs ul li a,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-tabs ul li a {
 	background: #cecece url(images/tab-2.png) repeat-x;
 }
 
-#layout-main ul.g_list li.selected
-{
+#layout-main ul.g_list li.selected {
 	background: #bfbfbf url(images/tab-4.png) repeat-x;
-	text-shadow:none;
+	text-shadow: none;
 }
 
-#layout-tabs ul li.selected a,
-#layout-tabs ul li.selected a:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected,
 #layout-main div.tabbed_pane div.pane ul.tabs li.selected,
 #layout-main div.tabbed_pane div.pane ul.tabs li.selected:hover,
-#layout-main div.tabbed_pane ul.tabs li.selected:hover
-{
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-main div.tabbed_pane ul.tabs li.selected:hover,
+#layout-tabs ul li.selected a,
+#layout-tabs ul li.selected a:hover {
 	background: url(images/tab-1.png) repeat-x;
-	text-shadow:1px 1px 0 #CCCCCC;
+	text-shadow: 1px 1px 0 #CCCCCC;
 }
 
-#layout-main ul.g_list li a:hover,
-#layout-tabs ul li a:hover,
 #layout-main div.tabbed_pane div.pane ul.tabs li:hover,
-#layout-main div.tabbed_pane ul.tabs li:hover
-{
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main ul.g_list li a:hover,
+#layout-tabs ul li a:hover {
 	background: url(images/tab-3.png) repeat-x;
-	text-shadow:0 0 2px #777777;
+	text-shadow: 0 0 2px #777777;
 }
 
-#layout-main div.tabbed_pane div.body h4,
-#layout-main .g_section h4
-{
-	background:transparent;
-	color:#444444;
-	font-size:1.2em;
-	font-weight:bold;
-	padding:.5em;
-	text-align:left;
-	text-shadow:none;
+#layout-main .g_section h4,
+#layout-main div.tabbed_pane div.body h4 {
+	background: transparent;
+	color: #444444;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: .5em;
+	text-align: left;
+	text-shadow: none;
 }
 
 #layout-main div.main_all div.g_section > h2,
-#layout-main div.profile_all div.tabbed_pane div.pane.general div.body h4,
-#layout-main div.profile_all div.tabbed_pane div.pane.default_languages div > h4,
 #layout-main div.profile_all div.tabbed_pane div.pane.account div.g_definitionlist h4,
-#layout-main div.profile_all div.tabbed_pane div.pane.rdf_jabber div h4
-{
-	background-color:#363636;
+#layout-main div.profile_all div.tabbed_pane div.pane.default_languages div > h4,
+#layout-main div.profile_all div.tabbed_pane div.pane.general div.body h4,
+#layout-main div.profile_all div.tabbed_pane div.pane.rdf_jabber div h4 {
+	background-color: #363636;
 	color: #dddddd;
 }
 
-ul#layout-menu li:hover ul li a
-{
+ul#layout-menu li:hover ul li a {
 	color: #f3f3f3;
 }
 
-.g_bubble.stripe
-{
-	background-color:#cdcdcd;
+.g_bubble.stripe {
+	background-color: #cdcdcd;
 }
 
 .g_bubble,
-.g_bubble .g_bubble .g_bubble
-{
-	background-color:#eeeeee;
+.g_bubble .g_bubble .g_bubble {
+	background-color: #eeeeee;
 }

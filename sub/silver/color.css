@@ -1,273 +1,238 @@
 html,
 #layout-main div.g_definitionlist table,
-#layout-main div.tabbed_pane div.body
-{
+#layout-main div.tabbed_pane div.body {
 	color: #2E3C55;
 	background: #E5E5E5 url(images/sub-bg-body.gif) repeat-x;
 }
 
-span.link,
-a:link,a:active,a:visited
-{
+a:active,
+a:link,
+a:visited,
+span.link {
 	color : #006699;
 }
 
-span.link:hover,
-a:hover
-{
+a:hover,
+span.link:hover {
 	color : #f26522/*#DD6900*/;
 }
 
 #layout-main,
-#layout-main div.animeatt_reviews div.review div.text
-{
+#layout-main div.animeatt_reviews div.review div.text {
 	background: #FBFBFB url(images/sub-bg-layout2.gif) repeat-x;
 }
-#layout-nav
-{
+
+#layout-nav {
 	background: url(images/sub-nav.gif) repeat-y;
 }
 
-#layout-footer
-{
+#layout-footer {
 	background-color: #FBFBFB;
 }
 
 #layout-main th,
-#layout-main tr.header th a
-{
+#layout-main tr.header th a {
 	color: #FFA34F;
 }
 
-#layout-main th
-{
+#layout-main th {
 	background: #3a95c2 url(images/sub-bg-th.gif) repeat-x;
 }
 
-#layout-main h1
-{
+#layout-main h1 {
 	color: #efefef;
 	background: #3a95c2 url(images/sub-bg-th.gif) repeat-x;
 }
 
 .g_bubble,
-.g_bubble .g_bubble .g_bubble
-{
-	background-color:#FAFAFA;
+.g_bubble .g_bubble .g_bubble {
+	background-color: #FAFAFA;
 }
 
-#layout-tabs ul li a,
-#layout-tabs ul li.g_odd a,
-#layout-menu ul,
-#layout-main ul,
-#layout-main tr,
-#layout-main .g_list,
 #layout-main .g_description,
-#layout-main div.addepm div.ep
-{
+#layout-main .g_list,
+#layout-main div.addepm div.ep,
+#layout-main tr,
+#layout-main ul,
+#layout-menu ul,
+#layout-tabs ul li a,
+#layout-tabs ul li.g_odd a {
 	background-color: #f4f4f4
 }
 
 #layout-main div.g_timedentry h4,
-#layout-main tr.g_odd,
+#layout-main div.votes_all div.graph div.group,
+#layout-main div.votes_all div.graph.eps div.g_odd,
 #layout-main li.g_odd,
 #layout-main span.g_odd,
-#layout-main div.votes_all div.graph div.group,
-#layout-main div.votes_all div.graph.eps div.g_odd
-{
+#layout-main tr.g_odd {
 	background-color: #dee3e7;
 }
 
-#layout-main table table.filelist tr,
-#layout-main div.g_definitionlist tr
-{
+#layout-main div.g_definitionlist tr,
+#layout-main table table.filelist tr {
 	background-color: transparent;
 }
 
-#layout-main div.g_definitionlist tr th
-{
+#layout-main div.g_definitionlist tr th {
 	color: inherit;
 	background-image: none;
 	background-color: transparent;
 }
 
-#layout-menu ul li:hover
-{
+#layout-menu ul li:hover {
 	background-color: #fafafa;
 }
 
-#layout-tabs ul li a:hover,
-#layout-main div.tabbed_pane ul.tabs li:hover
-{
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-tabs ul li a:hover {
 	background-color: white;
 }
 
-#layout-tabs ul li.selected a
-{
-	background-color: #E5E5E5;
-}
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
-	background: #FFFFFF;
-}
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-tabs ul li.selected a {
 	background-color: #E5E5E5;
 }
 
-div.pagination span a
-{
+#layout-main div.tabbed_pane ul.tabs li.selected {
+	background: #FFFFFF;
+}
+
+#layout-main div.tabbed_pane ul.tabs li {
+	background-color: #E5E5E5;
+}
+
+div.pagination span a {
 	border: 1px solid #BABABA;
 }
 
-div.pagination span a
-{
+div.pagination span a {
 	background-color: #ECEDEE;
 	border-color: #B4BAC0;
 	color: #5C758C;
 }
 
 div.pagination span a:hover,
-div.pagination span strong
-{
+div.pagination span strong {
 	border: 1px solid #BFBFBF;
 	background-color: #4692BF;
 	border-color: #4692BF;
 	color: #FFFFFF;
 }
 
-#layout-main div div.explanation div.description
-{
-	background-color:#F4F4F4;
+#layout-main div div.explanation div.description {
+	background-color: #F4F4F4;
 }
 
-#layout-main div.userpage_all > div.g_section > h4
-{
-	background-color:#DEE3E7;
-}
-
-.g_bubble .g_bubble,
-.g_bubble .g_bubble .g_bubble .g_bubble
-{
+#layout-main div.userpage_all > div.g_section > h4 {
 	background-color: #DEE3E7;
 }
 
-.g_bubble.stripe > div.data div.name
-{
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble {
+	background-color: #DEE3E7;
+}
+
+.g_bubble.stripe > div.data div.name {
 	border-bottom-color: #999999;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title
-{
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
 	border-right-color: #999999;
 }
 
-.g_bubble
-{
+.g_bubble {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #D1D7DC;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
-.g_bubble .name-colored
-{
+.g_bubble .name-colored,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored {
 	color: #AA0000;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div
-{
-	color:#666666;
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div {
+	color: #666666;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong
-{
-	color:#000000;
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong {
+	color: #000000;
 }
 
-#layout-main div.main_all div.g_section > h2
-{
+#layout-main div.main_all div.g_section > h2 {
 	background: #3A95C2 url(images/sub-bg-th.gif) repeat-x scroll 0 0;
 	color: #FFFFFF;
 	padding: 2px;
 	border-color: #03699C;
 }
 
-#layout-main div.main_all .g_bubble
-{
+#layout-main div.main_all .g_bubble {
 	background-color: #DEE3E7;
 }
 
-#layout-search div.g_bubble.search
-{
+#layout-search div.g_bubble.search {
 	background-color: transparent;
-	border:none;
+	border: none;
 }
 
-#layout-main div.forum div.g_bubble.header,
 #layout-main div.forum .g_bubble.infobox,
+#layout-main div.forum div.g_bubble.header,
 #layout-main div.forum div.g_bubble.navbar,
-#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.options-box,
 #layout-main div.forum div.g_bubble.posting-box,
-#layout-main div.forum div.g_bubble.submit-box,
-#layout-main div.forum div.g_bubble.options-box {
-    background-color: #dee3e7;
+#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.submit-box {
+	background-color: #dee3e7;
 }
 
 #layout-main div.forum div.g_bubble.threads {
-    background-color: #03699c;
+	background-color: #03699c;
 }
 
 #layout-main div.forum div.g_bubble.comment,
 #layout-main div.forum ul.topics li.g_odd.row {
-    background-color: #dee3e7;
+	background-color: #dee3e7;
 }
 
 #layout-main div.forum div.g_bubble.comment,
 #layout-main div.forum ul.topics li.row {
-    background-color: #E9EEF2;
+	background-color: #E9EEF2;
 }
 
 /*tooltips*/
-.tooltip
-{
-	outline:none;
+.tooltip {
+	outline: none;
 }
 
 .tooltip span.text:after,
-.tooltip span.text:before
-{
+.tooltip span.text:before {
 	border: solid transparent;
 }
 
-.tooltip span.text:after
-{
+.tooltip span.text:after {
 	border-width: 10px;
 }
-.tooltip span.text:before
-{
+
+.tooltip span.text:before {
 	border-width: 13px;
 }
 
-.tooltip span.text:after
-{
+.tooltip span.text:after {
 	border-color: rgba(222, 227, 231, 0);
 	border-bottom-color: #dee3e7;
 }
 
-.tooltip span.text:before
-{
+.tooltip span.text:before {
 	border-color: rgba(209, 215, 220, 0);
 	border-bottom-color: #d1d7dc;
 }
 
-.tooltip span.text
-{
+.tooltip span.text {
 	box-shadow: 0px 0px 8px 4px #666;
 	opacity: 0.9;
 	color: #000000;
 }
 
 #layout-main div.tag-column .tag-block + .tag-block {
-    border-left: 1px dotted #d1d7dc;
+	border-left: 1px dotted #d1d7dc;
 }

@@ -4,10 +4,8 @@
 @import "../common/layout/macro/tabs.css";
 @import "../common/layout/global/all.css";
 @import "../common/layout/page/all.css";
-
 @import "../common/libs/all.css";
 @import "../common/libs/select2/style-white.css";
-
 @import "../common/style/color/quicksearch.css";
 @import "../common/style/color/msgbox-default.css";
 @import "../common/style/color/forum-default.css";
@@ -15,15 +13,12 @@
 @import "../common/style/color/timeline-default.css";
 @import "../common/style/text/default.css";
 @import "../common/style/content/all.css";
-
 @import "../icons/all.css";
 
-#layout-tabs ul li
-{
-	margin:0;
+#layout-tabs ul li {
+	margin: 0;
 }
 
-#layout-tabs ul li:first-child
-{
+#layout-tabs ul li:first-child {
 	margin-left: 6px;
 }

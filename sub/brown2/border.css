@@ -1,88 +1,75 @@
-table
-{
+table {
 	border-collapse: separate;
 }
 
-table table
-{
+table table {
 	border: none;
 }
 
-.g_image, img, a
-{
+ a,
+ img,
+.g_image {
 	border: none;
 }
 
-#layout-main .g_list,
-#layout-main .g_description,
 .g_image,
-#layout-main div.main_all div.news h2,
-#layout-main div.g_definitionlist table
-{
+#layout-main .g_description,
+#layout-main .g_list,
+#layout-main div.g_definitionlist table,
+#layout-main div.main_all div.news h2 {
 	border: 1px #98AAB1 dotted;
 }
 
 .g_image,
-#layout-main .g_definitionlist
-{
+#layout-main .g_definitionlist {
 	padding: 1px;
 }
 
-#layout-main .block .g_definitionlist table
-{
+#layout-main .block .g_definitionlist table {
 	border: none;
 	margin: 0;
 }
 
-#layout-main div.ep_all .staffblock + .staffblock table,
 #layout-main div.anime_all .staffblock + .staffblock table,
-#layout-main div.anime_all div.episodes tr.newtype td
-{
+#layout-main div.anime_all div.episodes tr.newtype td,
+#layout-main div.ep_all .staffblock + .staffblock table {
 	border-top: 2px #006699 double;
 }
 
-#layout-main div.anime_all div.episodes tr.heading th
-{
+#layout-main div.anime_all div.episodes tr.heading th {
 	padding: 4px 1px 7px 1px;
 	border-bottom: black 2px solid;
 }
 
-.g_image
-{
+.g_image {
 	border: 1px solid #cbd6e5;
 }
 
-#layout-tabs + #layout-main
-{
+#layout-tabs + #layout-main {
 	border-top: 1px dotted #98AAB1;
 }
 
 #layout-main div.tabbed_pane div.body,
-#layout-tabs ul li a,
-#layout-main div.tabbed_pane ul.tabs li
-{
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-tabs ul li a {
 	border: 1px dotted #98AAB1;
 }
 
-#layout-tabs ul li.selected a,
-#layout-main div.tabbed_pane ul.tabs li.selected
-{
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-tabs ul li.selected a {
 	border-bottom: 1px #F2F3EE double;
 }
 
-#layout-tabs ul li a:hover,
-#layout-main div.tabbed_pane ul.tabs li:hover
-{
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-tabs ul li a:hover {
 	border-bottom: 1px #F2F3EE double;
 }
 
-#layout-main div.info div.extra div table
-{
+#layout-main div.info div.extra div table {
 	border: none;
 }
 
-#layout-search div.g_bubble.search
-{
+#layout-search div.g_bubble.search {
 	background-color: transparent;
-	border:none;
+	border: none;
 }
