@@ -37,3 +37,7 @@ tr + tr th,
 #layout-main div.main_all h2 {
 	border-radius: 5px;
 }
+
+.g_button a {
+	border: none;
+}

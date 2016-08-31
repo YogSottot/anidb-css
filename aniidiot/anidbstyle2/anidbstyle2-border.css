@@ -50,3 +50,7 @@ input[type="submit"],
 .tooltip span.text:before {
 	border-width: 11px;
 }
+
+.g_button a {
+	border: none;
+}
