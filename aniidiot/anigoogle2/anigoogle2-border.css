@@ -69,17 +69,7 @@ table li+li,
 	border: none !important;
 }
 
-.i_comment_add,
-.i_comment_creq,
-.i_comment_delete,
-.i_comment_edit,
-.i_comment_info,
-.i_comment_move,
-.i_comment_quote,
-.i_comment_report,
-.i_comment_revisions,
-.i_comment_setactive,
-.i_comment_undelete,
+.g_button a,
 .i_pm_delete,
 .i_pm_reply,
 .i_review_add,
