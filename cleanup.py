@@ -130,6 +130,20 @@ class cleaner(object):
                         line
                     )
                 )
+            elif u'{' in line and line.endswith(u'}'):
+                #oneliner
+                rule, property = line.rstrip('}').split('{', 1)
+                content.append(u'%s%s%s {\n\t%s%s\n%s}' %(
+                        u'\n\n' if hasContent and not forceNormalBreak else '\n' if forceNormalBreak and hasContent else u'',
+                        u'\t' if mediaquery else u'',
+                        rule.strip(),
+                        u'\t' if mediaquery else u'',
+                        property.strip(),
+                        u'\t' if mediaquery else u''
+                    )
+                )
+
+                forceNormalBreak = False
             else:
                 #rules
                 if line.endswith(u';'):
