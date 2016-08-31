@@ -38,3 +38,7 @@
 #layout-menu li.sub-menu ul li a {
 	display: inline-block;
 }
+
+#layout-main div.topic_actions .g_button a {
+	height: 8px;
+}

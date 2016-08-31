@@ -1,3 +1,7 @@
 #layout-main div.tabbed_pane div.body {
 	margin-top: 0;
 }
+
+#layout-main div.topic_actions .g_button a {
+	height: auto;
+}

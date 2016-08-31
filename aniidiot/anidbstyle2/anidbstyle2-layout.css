@@ -92,3 +92,7 @@
 #layout-tabs {
 	margin-top: -3.1em;
 }
+
+#layout-main div.topic_actions .g_button a {
+	height: 8px;
+}
