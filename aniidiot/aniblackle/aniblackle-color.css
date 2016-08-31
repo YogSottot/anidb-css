@@ -1,4 +1,3 @@
-.g_button a,
 button,
 html,
 input,
@@ -26,7 +25,6 @@ textarea,
 }
 
 .g_bubble .name-colored:hover,
-.g_button a:hover,
 .tooltip span.text,
 a:hover,
 button:hover,
@@ -42,7 +40,6 @@ span.link:hover,
 
 .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_odd,
-.g_button a,
 button,
 html,
 input,
@@ -154,7 +151,6 @@ ul.g_list li,
 	opacity: 0.6;
 }
 
-.g_button a:hover,
 button:hover,
 div.g_bubble.quotebody,
 input[type="button"]:hover,
@@ -312,7 +308,6 @@ textarea,
 }
 
 .g_bubble,
-.g_button a,
 .g_image,
 button,
 div.g_bubble.quotebody,
