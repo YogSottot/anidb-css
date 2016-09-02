@@ -19,14 +19,19 @@
 #layout-menu #menu-account #user-logout a:visited,
 #layout-menu #menu-account #user-logout a:active,
 #layout-menu #menu-account #user-logout a:hover,
-#layout-menu li.sub-menu #menu-account .alert a,
-#layout-menu li.sub-menu #menu-account .alert a:link,
-#layout-menu li.sub-menu #menu-account .alert a:visited,
-#layout-menu li.sub-menu #menu-account .alert a:active,
-#layout-menu li.sub-menu #menu-account .alert a:hover {
+#layout-menu #menu-account .alert a,
+#layout-menu #menu-account .alert a:link,
+#layout-menu #menu-account .alert a:visited,
+#layout-menu #menu-account .alert a:active,
+#layout-menu #menu-account .alert a:hover {
 	background: none;
+	color: #F8F8F8 !important;
 }
 
 #layout-menu #menu-account {
 	height: 166px;
+}
+
+#layout-menu #menu-account li a {
+	height: 25px;
 }

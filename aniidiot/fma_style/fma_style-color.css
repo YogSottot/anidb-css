@@ -568,9 +568,9 @@ html {
 #layout-menu #menu-account li a,
 #layout-menu #menu-account li a:link,
 #layout-menu #menu-account li a:visited,
-#layout-menu li.sub-menu #menu-account .alert a,
-#layout-menu li.sub-menu #menu-account .alert a:link,
-#layout-menu li.sub-menu #menu-account .alert a:visited {
+#layout-menu #menu-account .alert a,
+#layout-menu #menu-account .alert a:link,
+#layout-menu #menu-account .alert a:visited {
 	color: #FFFFFF !important;
 }
 
@@ -578,8 +578,8 @@ html {
 #layout-menu #menu-account #user-logout a:hover,
 #layout-menu #menu-account li a:active,
 #layout-menu #menu-account li a:hover,
-#layout-menu li.sub-menu #menu-account .alert a:active,
-#layout-menu li.sub-menu #menu-account .alert a:hover {
+#layout-menu #menu-account .alert a:active,
+#layout-menu #menu-account .alert a:hover {
 	color: #FFFFFF !important;
 	background: transparent url("images/layout/top_hover.jpg") repeat left top;
 }
