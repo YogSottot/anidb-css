@@ -99,6 +99,33 @@ tr.g_odd,
 	background-color: #F5FAFF;
 }
 
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_odd,
+.g_odd .g_bubble,
+input[type="password"]:focus,
+input[type="password"]:hover,
+input[type="text"]:focus,
+input[type="text"]:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover,
+#layout-main div.forum ul.topics li.row,
+#layout-main div.search_all div.suggestions,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-search ul.quicksearch,
+#layout-tabs ul.main-tabs > li.selected,
+#layout-tabs ul.main-tabs > li:hover {
+	background-color: #FFFFFF;
+}
+
 .g_bubble .name-colored,
 .g_button a:hover,
 .i_icon:hover,
@@ -134,4 +161,13 @@ span.link:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
 	background: transparent url("images/stripe-blue.gif") repeat scroll left top;
 	color: #2D42AF !important;
+}
+
+th,
+th a,
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.votes_all div.graph div.header,
+#layout-main table tr.header,
+#layout-main table tr.header th a {
+	background-color: #305C97;
 }
