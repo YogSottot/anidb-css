@@ -3,3 +3,30 @@
 #layout-menu {
     padding-top: 178px;
 }
+
+#layout-menu li.sub-menu ul li + li,
+#layout-menu #menu-account li {
+	border: none !important;
+}
+
+#layout-menu #menu-account li a,
+#layout-menu #menu-account li a:link,
+#layout-menu #menu-account li a:visited,
+#layout-menu #menu-account li a:active,
+#layout-menu #menu-account li a:hover,
+#layout-menu #menu-account #user-logout a,
+#layout-menu #menu-account #user-logout a:link,
+#layout-menu #menu-account #user-logout a:visited,
+#layout-menu #menu-account #user-logout a:active,
+#layout-menu #menu-account #user-logout a:hover,
+#layout-menu li.sub-menu #menu-account .alert a,
+#layout-menu li.sub-menu #menu-account .alert a:link,
+#layout-menu li.sub-menu #menu-account .alert a:visited,
+#layout-menu li.sub-menu #menu-account .alert a:active,
+#layout-menu li.sub-menu #menu-account .alert a:hover {
+	background: none;
+}
+
+#layout-menu #menu-account {
+	height: 166px;
+}
