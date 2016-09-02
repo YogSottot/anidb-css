@@ -96,7 +96,7 @@ tr.g_odd,
 #layout-search ul.quicksearch li.focus,
 #layout-search ul.quicksearch li:hover,
 #layout-tabs ul.main-tabs > li {
-	background-color: #F5FAFF;
+	background: #F5FAFF;
 }
 
 .g_bubble .g_bubble,
