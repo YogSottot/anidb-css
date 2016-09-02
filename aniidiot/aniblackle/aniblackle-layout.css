@@ -39,6 +39,6 @@
 	display: inline-block;
 }
 
-#layout-main div.topic_actions .g_button a {
-	height: 8px;
+.g_button a {
+	padding: 0;
 }
