@@ -13,6 +13,10 @@
 	height: 25px;
 }
 
+#layout-hint + #layout-nav #layout-menu #menu-account {
+	margin-top: 1.8em;
+}
+
 /*border*/
 #layout-menu li.sub-menu ul li + li,
 #layout-menu #menu-account li {
