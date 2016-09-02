@@ -7,7 +7,7 @@
 }
 
 #layout-main div.g_timedentry.collapsed {
-	min-height: auto;
+	min-height: 0;
 	height: auto !important;
 }
 
