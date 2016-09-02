@@ -2,6 +2,6 @@
 	margin-top: 0;
 }
 
-#layout-main div.topic_actions .g_button a {
-	height: auto;
+.g_button a {
+	padding: 2px 4px;
 }
