@@ -36,15 +36,18 @@ th.s_reverse {
 	cursor: pointer;
 }
 
-.i_down1, .i_up1 {
+.i_down1,
+.i_up1 {
 	background-position: -11px center;
 }
 
-.i_nodown1, .i_down1 {
+.i_down1,
+.i_nodown1 {
 	background-image: url(../icons/zakura/down.gif);
 }
 
-.i_noup1, .i_up1 {
+.i_noup1,
+.i_up1 {
 	background-image: url(../icons/zakura/up.gif);
 }
 
@@ -161,7 +164,8 @@ th.s_reverse {
 	background-image: url(../icons/zakura/mylist-remove.png);
 }
 
-.i_general_list, .i_mylist {
+.i_general_list,
+.i_mylist {
 	background-image: url(../icons/zakura/state-inmylist.png);
 }
 
