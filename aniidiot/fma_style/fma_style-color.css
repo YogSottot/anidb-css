@@ -558,7 +558,7 @@ html {
 
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
-	background: transparent url("images/stripe-blue.gif") repeat scroll left top;
+	background: transparent url("images/stripe-ltblue.gif") repeat scroll left top;
 	color: #2D42AF !important;
 }
 
@@ -637,4 +637,10 @@ select.shuttle:hover {
 
 select option[value="0"] {
 	color: #B14C7C;
+}
+
+#layout-main div.anime_all div.episodes table.filelist th,
+#layout-main div.mylist_all table.animelist table.eplist th,
+#layout-main div.mylist_all table.animelist table.filelist th {
+    background-color: #A9BDE1;
 }
