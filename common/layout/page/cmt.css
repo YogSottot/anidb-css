@@ -636,7 +636,7 @@ div.g_bubble.spoiler {
 	padding: 0.8em;
 }
 
-#layout-main div.cmt_entries div.profile div.rank {
+#layout-main div.cmt_entries div.profile div.title {
 	margin-bottom: 1.4em;
 }
 
@@ -876,6 +876,7 @@ div.g_bubble.spoiler {
 	#layout-main div.cmt_entries div.profile div.joined,
 	#layout-main div.cmt_entries div.profile div.posts,
 	#layout-main div.cmt_entries div.profile div.rank,
+	#layout-main div.cmt_entries div.profile div.title,
 	#layout-main div.cmt_entries div.profile div.user a.username-colored,
 	#layout-main div.cmt_entries div.profile div.user_icons {
 		display: none;
