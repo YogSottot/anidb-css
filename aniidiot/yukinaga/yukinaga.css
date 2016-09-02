@@ -35,7 +35,8 @@
 #layout-menu #menu-account .alert a:visited,
 #layout-menu #menu-account .alert a:active,
 #layout-menu #menu-account .alert a:hover {
-	background: rgba(255,255,255, 0.5);
+	background: rgba(255,255,255,
+0.5);
 }
 
 .g_bubble,
@@ -92,4 +93,30 @@ tr.g_odd,
 #layout-search ul.quicksearch li:hover,
 #layout-tabs ul.main-tabs > li {
 	background-color: #F5FAFF;
+}
+
+.g_bubble .name-colored,
+.g_button a:hover,
+.i_icon:hover,
+a:hover,
+button:hover,
+h1 a:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+span.link:hover,
+#layout-main a.filter:hover,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
+#layout-main div.admin_all div.g_menu h4 span,
+#layout-main div.chartag-list a:hover,
+#layout-main div.cmt_entries a.username-colored,
+#layout-main div.forum .g_bubble.infobox h3,
+#layout-main div.forum a.topictitle:hover,
+#layout-main div.forum a.username-colored,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main div.search_all div.suggestions span:hover,
+#layout-main div.tag-column a:hover,
+#layout-main ul.g_list li:hover,
+#layout-menu li.sub-menu span.tab {
+    color: #2137AE !important;
 }
