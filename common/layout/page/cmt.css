@@ -883,7 +883,7 @@ div.g_bubble.spoiler {
 	}
 
 	#layout-main div.cmt_entries div.profile {
-		min-height: auto;
+		min-height: 0;
 		width: auto;
 	}
 
