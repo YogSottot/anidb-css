@@ -62,7 +62,7 @@ table td {
 	height: 22px;
 }
 
-#layout-menu li.sub-menu #menu-account li {
+#layout-menu #menu-account li {
 	height: auto !important;
 }
 
@@ -78,7 +78,7 @@ table td {
 	display: flex;
 }
 
-#layout-menu li.sub-menu #menu-account li a {
+#layout-menu #menu-account li a {
 	display: table-cell;
 	height: 102px;
 	vertical-align: bottom;
@@ -86,12 +86,12 @@ table td {
 	width: auto;
 }
 
-#layout-menu li.sub-menu #menu-account li.alert a + a {
+#layout-menu #menu-account li.alert a + a {
 	padding-left: 0;
 }
 
-#layout-menu li.sub-menu #menu-account li > a span,
-#layout-menu li.sub-menu #menu-account li > span {
+#layout-menu #menu-account li > a span,
+#layout-menu #menu-account li > span {
 	padding: 0;
 }
 

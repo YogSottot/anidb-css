@@ -588,15 +588,15 @@ html {
 	color: #2D42AF !important;
 }
 
-#layout-menu li.sub-menu #menu-account .alert a,
-#layout-menu li.sub-menu #menu-account .alert a:link,
-#layout-menu li.sub-menu #menu-account .alert a:visited {
+#layout-menu #menu-account .alert a,
+#layout-menu #menu-account .alert a:link,
+#layout-menu #menu-account .alert a:visited {
 	color: #fd0576;
 	background: transparent url("images/trans-white.png") repeat left top;
 }
 
-#layout-menu li.sub-menu #menu-account .alert a:active,
-#layout-menu li.sub-menu #menu-account .alert a:hover {
+#layout-menu #menu-account .alert a:active,
+#layout-menu #menu-account .alert a:hover {
 	color: #fd0576 !important;
 	background: transparent url("images/stripe-white.png") repeat left top;
 }

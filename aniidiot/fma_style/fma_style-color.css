@@ -558,7 +558,7 @@ html {
 
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover {
-	background: transparent url("images/stripe-blue.gif") repeat scroll left top;
+	background: transparent url("images/stripe-ltblue.gif") repeat scroll left top;
 	color: #2D42AF !important;
 }
 
@@ -568,9 +568,9 @@ html {
 #layout-menu #menu-account li a,
 #layout-menu #menu-account li a:link,
 #layout-menu #menu-account li a:visited,
-#layout-menu li.sub-menu #menu-account .alert a,
-#layout-menu li.sub-menu #menu-account .alert a:link,
-#layout-menu li.sub-menu #menu-account .alert a:visited {
+#layout-menu #menu-account .alert a,
+#layout-menu #menu-account .alert a:link,
+#layout-menu #menu-account .alert a:visited {
 	color: #FFFFFF !important;
 }
 
@@ -578,8 +578,8 @@ html {
 #layout-menu #menu-account #user-logout a:hover,
 #layout-menu #menu-account li a:active,
 #layout-menu #menu-account li a:hover,
-#layout-menu li.sub-menu #menu-account .alert a:active,
-#layout-menu li.sub-menu #menu-account .alert a:hover {
+#layout-menu #menu-account .alert a:active,
+#layout-menu #menu-account .alert a:hover {
 	color: #FFFFFF !important;
 	background: transparent url("images/layout/top_hover.jpg") repeat left top;
 }
@@ -637,4 +637,10 @@ select.shuttle:hover {
 
 select option[value="0"] {
 	color: #B14C7C;
+}
+
+#layout-main div.anime_all div.episodes table.filelist th,
+#layout-main div.mylist_all table.animelist table.eplist th,
+#layout-main div.mylist_all table.animelist table.filelist th {
+    background-color: #A9BDE1;
 }
