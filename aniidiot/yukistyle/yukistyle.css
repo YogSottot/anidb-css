@@ -120,3 +120,14 @@ span.link:hover,
 #layout-menu li.sub-menu span.tab {
     color: #2137AE !important;
 }
+
+#layout-main div.anime_all div.episodes table.filelist,
+#layout-main div.mylist_all table.animelist table.filelist {
+	background: #D3D7F3 url("images/stripe-dkblue.gif") repeat scroll left top;
+}
+
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover {
+	background: transparent url("images/stripe-blue.gif") repeat scroll left top;
+	color: #2D42AF !important;
+}
