@@ -173,7 +173,7 @@ table table.filelist tr,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd,
 #layout-search ul.quicksearch .g_bubble.stripe {
-	background-color: #FFFFFF;
+	background: #FFFFFF;
 }
 
 .g_bubble .g_bubble,
