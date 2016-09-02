@@ -1,1 +1,5 @@
 @import "../zakura/zakura.css";
+
+#layout-menu {
+    padding-top: 178px;
+}
