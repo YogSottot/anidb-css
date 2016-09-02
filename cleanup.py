@@ -159,7 +159,7 @@ class cleaner(object):
 
                 if ',' in line:
                     for bit in line.split(','):
-                        tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', bit))
+                        tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', bit.strip()))
                 else:
                     tmp.append(u'%s%s' %(u'\t' if mediaquery else u'', line))
 
