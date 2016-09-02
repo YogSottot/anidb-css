@@ -2,7 +2,7 @@
 
 /*layout*/
 #layout-menu {
-    padding-top: 178px;
+	padding-top: 178px;
 }
 
 #layout-menu #menu-account {
@@ -18,29 +18,29 @@
 }
 
 /*border*/
-#layout-menu li.sub-menu ul li + li,
-#layout-menu #menu-account li {
+#layout-menu #menu-account li,
+#layout-menu li.sub-menu ul li + li {
 	border: none !important;
 }
 
 /*color*/
-#layout-menu #menu-account li a,
-#layout-menu #menu-account li a:link,
-#layout-menu #menu-account li a:visited,
-#layout-menu #menu-account li a:active,
-#layout-menu #menu-account li a:hover,
 #layout-menu #menu-account #user-logout a,
-#layout-menu #menu-account #user-logout a:link,
-#layout-menu #menu-account #user-logout a:visited,
 #layout-menu #menu-account #user-logout a:active,
 #layout-menu #menu-account #user-logout a:hover,
+#layout-menu #menu-account #user-logout a:link,
+#layout-menu #menu-account #user-logout a:visited,
 #layout-menu #menu-account .alert a,
+#layout-menu #menu-account .alert a:active,
+#layout-menu #menu-account .alert a:hover,
 #layout-menu #menu-account .alert a:link,
 #layout-menu #menu-account .alert a:visited,
-#layout-menu #menu-account .alert a:active,
-#layout-menu #menu-account .alert a:hover {
+#layout-menu #menu-account li a,
+#layout-menu #menu-account li a:active,
+#layout-menu #menu-account li a:hover,
+#layout-menu #menu-account li a:link,
+#layout-menu #menu-account li a:visited {
 	background: rgba(255,255,255,
-0.5);
+	0.5);
 }
 
 .g_bubble,
@@ -149,7 +149,7 @@ span.link:hover,
 #layout-main div.tag-column a:hover,
 #layout-main ul.g_list li:hover,
 #layout-menu li.sub-menu span.tab {
-    color: #2137AE !important;
+	color: #2137AE !important;
 }
 
 #layout-main div.anime_all div.episodes table.filelist,
@@ -165,8 +165,8 @@ span.link:hover,
 
 #layout-menu li.sub-menu ul li a:active,
 #layout-menu li.sub-menu ul li a:hover {
-    background: transparent url("images/stripe-ltblue.gif") repeat scroll left top;
-    color: #484B9A !important;
+	background: transparent url("images/stripe-ltblue.gif") repeat scroll left top;
+	color: #484B9A !important;
 }
 
 th,
@@ -181,5 +181,5 @@ th a,
 #layout-main div.anime_all div.episodes table.filelist th,
 #layout-main div.mylist_all table.animelist table.eplist th,
 #layout-main div.mylist_all table.animelist table.filelist th {
-    background-color: #A9BDE1;
+	background-color: #A9BDE1;
 }
