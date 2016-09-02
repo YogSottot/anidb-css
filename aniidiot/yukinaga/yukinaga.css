@@ -1,12 +1,28 @@
 @import "../zakura/zakura.css";
 
+/*layout*/
 #layout-menu {
     padding-top: 178px;
 }
 
+#layout-menu #menu-account {
+	height: 166px;
+}
+
+#layout-menu #menu-account li a {
+	height: 25px;
+}
+
+/*border*/
 #layout-menu li.sub-menu ul li + li,
 #layout-menu #menu-account li {
 	border: none !important;
+}
+
+/*color*/
+html,
+#layout-main {
+	background-color: #F5FAFF;
 }
 
 #layout-menu #menu-account li a,
@@ -24,14 +40,59 @@
 #layout-menu #menu-account .alert a:visited,
 #layout-menu #menu-account .alert a:active,
 #layout-menu #menu-account .alert a:hover {
-	background: none;
-	color: #F8F8F8 !important;
+	background: rgba(255,255,255, 0.5);
 }
 
-#layout-menu #menu-account {
-	height: 166px;
-}
-
-#layout-menu #menu-account li a {
-	height: 25px;
+.g_bubble,
+.g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_button a:hover,
+a.button:hover,
+a.confirmButton:hover,
+button.button:hover,
+button.confirmButton:hover,
+button:hover,
+div.g_odd,
+input.button:hover,
+input.confirmButton:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+li.g_odd,
+span.g_odd,
+table table.filelist tr.g_odd,
+tr.g_odd,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.edit_actions span > *:hover,
+#layout-main div.forum .g_bubble.infobox,
+#layout-main div.forum div.g_bubble.header,
+#layout-main div.forum div.g_bubble.navbar,
+#layout-main div.forum div.g_bubble.options-box,
+#layout-main div.forum div.g_bubble.posting-box,
+#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.submit-box,
+#layout-main div.forum div.g_bubble.threads,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main div.search_all div.suggestions span:hover,
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.tabbed_pane_cfg div.body,
+#layout-main div.tabbed_pane_cfg ul.tabs li.selected,
+#layout-main div.tabbed_pane_cfg ul.tabs li:hover,
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.userpage_all div.g_menu ul li.g_odd,
+#layout-main div.votes_all div.graph div.group_odd,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main ul.g_list li.selected,
+#layout-main ul.g_list li:hover,
+#layout-search ul.quicksearch .g_bubble.stripe:hover,
+#layout-search ul.quicksearch li.focus,
+#layout-search ul.quicksearch li:hover,
+#layout-tabs ul.main-tabs > li {
+	background-color: #F5F7FF;
 }
