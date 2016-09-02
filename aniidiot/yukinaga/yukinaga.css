@@ -20,11 +20,6 @@
 }
 
 /*color*/
-html,
-#layout-main {
-	background-color: #F5FAFF;
-}
-
 #layout-menu #menu-account li a,
 #layout-menu #menu-account li a:link,
 #layout-menu #menu-account li a:visited,
@@ -55,6 +50,7 @@ button.button:hover,
 button.confirmButton:hover,
 button:hover,
 div.g_odd,
+html,
 input.button:hover,
 input.confirmButton:hover,
 input[type="button"]:hover,
@@ -63,6 +59,7 @@ li.g_odd,
 span.g_odd,
 table table.filelist tr.g_odd,
 tr.g_odd,
+#layout-main,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
 #layout-main div.edit_actions span > *:hover,
@@ -94,5 +91,5 @@ tr.g_odd,
 #layout-search ul.quicksearch li.focus,
 #layout-search ul.quicksearch li:hover,
 #layout-tabs ul.main-tabs > li {
-	background-color: #F5F7FF;
+	background-color: #F5FAFF;
 }
