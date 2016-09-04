@@ -419,7 +419,7 @@ border-width:1px;
 {
 border-right-style:dashed;
 }
-#layout-main div.forum ul.topiclist div.row div:not(first-of-type)
+#layout-main div.forum ul.topiclist div.row > div:not(first-of-type)
 {
 border-left-style:dashed;
 }
@@ -491,7 +491,7 @@ height:auto;
 #layout-search ul.quicksearch .g_bubble.stripe
 {
 margin:0;
-display:block;
+display:inline-block;
 width: interit
 }
 #layout-search ul.quicksearch .g_bubble.stripe > div.data
@@ -517,3 +517,4 @@ width:25em;
 #layout-main div.main_all div.calendar > div.edit_actions {
     margin-top: -2em;
 }
+
