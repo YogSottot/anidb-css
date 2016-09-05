@@ -66,6 +66,10 @@
 	max-width: 1em; /*otherwise the text-overflow doesn't work... <_<*/
 }
 
+#layout-main div.creq_all div.creq_header p.action.other button {
+	height: 28px;
+}
+
 #layout-main div.creq_all table.creqlist td.entry,
 #layout-main div.creq_all table.creqlist td.summary {
 	width: auto;
