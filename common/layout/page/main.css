@@ -107,12 +107,6 @@
 }
 
 @media screen and (max-width: 950px) {
-	#layout-main div.main_all div.news.forum .g_bubble.stripe {
-		width: calc(100vw - 2em);
-	}
-}
-
-@media screen and (max-width: 800px) {
 	#layout-main div.main_all div.news.forum div.events div.row .left {
 		width: auto;
 	}
