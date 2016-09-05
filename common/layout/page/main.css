@@ -303,7 +303,7 @@
 
 #layout-main div.main_all div.datablocks > div {
 	margin: 0 0.5em 1em;
-	width: 100%;
+	width: calc(100% - 1em);
 	max-width: 400px;
 	max-width: calc(50% - 11px);
 }
