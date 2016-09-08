@@ -203,6 +203,11 @@ table + select {
 	display: block;
 }
 
+.g_section > h2 + .container + h2,
+.g_section > h2 + .edit_actions + .container + h2 {
+	margin-top: 1.2em;
+}
+
 @media screen and (max-width: 600px) {
 	#layout-main .g_bubble.box .name span.icons.tooltip,
 	#layout-main .g_bubble.stripe .name span.icons.tooltip,

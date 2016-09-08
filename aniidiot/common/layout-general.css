@@ -384,6 +384,10 @@ button,
 	margin-bottom: 0.5em;
 }
 
+#layout-main div.creq_all div.creq_buttons p.action.other button {
+	height: 28px;
+}
+
 @media screen and (max-width: 1000px) {
 	input[size="80"],
 	textarea {
