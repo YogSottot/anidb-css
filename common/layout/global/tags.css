@@ -21,7 +21,7 @@
 	margin: 0.2em;
 }
 
-#layout-main div.addtagentityrel_all div.tags_add textarea {
+#layout-main div.addtagentityrel_all div.tags_add #tagbox {
 	height: 25em;
 	width: 50em;
 }
