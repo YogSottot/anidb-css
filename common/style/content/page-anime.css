@@ -18,7 +18,8 @@
 	content: ']'
 }
 
-#layout-main .g_section.info .g_definitionlist tr.resources td.value a + a::before,
+#layout-main .g_section.info .g_definitionlist tr.resources td.value a + span.morelinks:before,
+#layout-main .g_section.info .g_definitionlist tr.resources td.value a + a:before,
 #layout-main .g_bubble.stripe.review > div.data div.votes div.rating span.value:after {
 	content: ", ";
 }
