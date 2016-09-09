@@ -21,6 +21,10 @@
 	margin: 0.2em;
 }
 
+#layout-main div.addtagentityrel_all div.g_definitionlist tr th {
+	width: 15em;
+}
+
 #layout-main div.addtagentityrel_all div.tags_add #tagbox {
 	height: 25em;
 }
@@ -61,7 +65,6 @@
 	-webkit-justify-content: center;
 	-moz-justify-content: center;
 	justify-content: center;
-	min-height: 30em;
 	padding: 0.5em;
 }
 
