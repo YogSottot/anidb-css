@@ -1,7 +1,3 @@
-#layout-main div.profile_all table {
-	border: none;
-}
-
 #layout-main div.profile_all div.block div.image {
 	width: 350px;
 	min-width: 350px;
@@ -140,7 +136,7 @@
 #layout-main div.profile_all div.pane > ul li,
 #layout-main div.profile_all div.pane div.settings.block li,
 #layout-main div.profile_all div.pane.general div.body div.pane div ul li {
-	line-height: 15px;
+	line-height: 16px;
 }
 
 #layout-main div.profile_all div.pane div.settings.block li input {
@@ -159,12 +155,12 @@
 	margin-top: 0.2em;
 }
 
-#layout-main div.tabbed_pane div.pane div.userdata_add ul {
+#layout-main div.profile_all div.userdata_add ul {
 	display: block;
 	width: auto;
 }
 
-#layout-main div.userdata_add span.current {
+#layout-main div.profile_all div.userdata_add span.current {
 	float: right;
 }
 
