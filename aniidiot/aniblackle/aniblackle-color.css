@@ -267,11 +267,11 @@ input[type="submit"]:hover,
 
 th,
 #layout-main div.anime_all div.data table.relationlist tr,
-#preferences div.tabbed_pane div.body div.pane ul li,
-#preferences div.tabbed_pane div.general table tr,
 #layout-main div.report_all div.tabbed_pane div.body div.pane ul li,
-#layout-main div.tabbed_pane div.body div.pane ul.contribute li
-#preferences div.default_languages table tr {
+#layout-main div.tabbed_pane div.body div.pane ul.contribute li,
+#preferences div.default_languages table tr,
+#preferences div.tabbed_pane div.body div.pane ul li,
+#preferences div.tabbed_pane div.general table tr {
 	background-color: inherit;
 }
 

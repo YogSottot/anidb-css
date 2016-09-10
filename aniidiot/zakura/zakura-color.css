@@ -68,12 +68,12 @@ span.link:hover,
 }
 
 #layout-main div.anime_all div.data table.relationlist tr,
-#preferences div.tabbed_pane div.body div.pane ul li,
-#preferences div.tabbed_pane div.general table tr,
 #layout-main div.report_all div.tabbed_pane div.body div.pane ul li,
 #layout-main div.tabbed_pane div.body div.pane ul.contribute li,
 #layout-main div.userpage_all .g_section.achievements > .container > .container,
-#layout-main table.file.entities tr.generic {
+#layout-main table.file.entities tr.generic,
+#preferences div.tabbed_pane div.body div.pane ul li,
+#preferences div.tabbed_pane div.general table tr {
 	background-color: inherit;
 }
 

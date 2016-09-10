@@ -373,11 +373,11 @@ span.diff,
 #layout-main div.msg_all tr.new td.state,
 #layout-main div.mylist_list tr.all_watched td.stats,
 #layout-main div.mylist_list tr.complete td.stats,
-#preferences div.account tr th,
 #layout-main div.search_all div.search_results strong,
 #layout-main div.tag-column .parent,
 #layout-main div.userpage_all div.discussions tr.unread,
-#layout-main table.filelist tr.undumped td.id a {
+#layout-main table.filelist tr.undumped td.id a,
+#preferences div.account tr th {
 	font-weight: bold;
 }
 
