@@ -376,6 +376,7 @@ span.diff,
 #layout-main div.profile_all div.account tr th,
 #layout-main div.search_all div.search_results strong,
 #layout-main div.tag-column .parent,
+#layout-main div.userpage_all div.discussions tr.unread,
 #layout-main table.filelist tr.undumped td.id a {
 	font-weight: bold;
 }
