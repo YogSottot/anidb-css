@@ -944,7 +944,7 @@ text-align: center;
 {
 width: 80%;
 }
-#layout-main div.profile_all div.tabbed_pane div.user_css div textarea
+#preferences div.tabbed_pane div.user_css div textarea
 {
 width: 80em;
 }
@@ -1815,15 +1815,15 @@ text-align: center;
 {
 padding-left: 1em;
 }
-#layout-content div.profile_all .g_info
+#preferences .g_info
 {
 text-align: left;
 }
-#layout-content div.profile_all div.css_style div.info div div
+#preferences div.css_style div.info div div
 {
 font-weight: bold;
 }
-#layout-content div.profile_all div.css_style div.info div div
+#preferences div.css_style div.info div div
 {
 margin-left: 7em;
 width: 20em;
@@ -1833,12 +1833,12 @@ width: 20em;
 margin-left: 10em;
 text-align: left;
 }
-#layout-content div.profile_all div.css_style div.block div.image
+#preferences div.css_style div.block div.image
 {
 background-image: url(images/bg_2.gif);
 border: 2px solid #565656;
 }
-#layout-content div.profile_all div.css_style div.block div.info
+#preferences div.css_style div.block div.info
 {
 margin-left: 0.7em;
 text-align: left;
@@ -2138,14 +2138,14 @@ background: url(images/orangepixel.png);
 {
 background: url(images/bg_2.gif);
 }
-#layout-main div.profile_all div.tabbed_pane div.permissions div.permissions div label select
+#preferences div.tabbed_pane div.permissions div.permissions div label select
 {
 display: block;
 margin-left: 13.5em;
 margin-top: -1em;
 width: 250px;
 }
-#layout-main div.profile_all div.tabbed_pane div.user_css textarea
+#preferences div.tabbed_pane div.user_css textarea
 {
 width: 500px;
 height: 350px;
@@ -2451,7 +2451,7 @@ span.i_help
 {
 color: transparent;
 }
-#layout-main div.profile_all div.block div.image
+#preferences div.block div.image
 {
 width: 220px;
 padding-left: 40% -220px;
@@ -2473,7 +2473,7 @@ td.quality,
 td.title,
 td.name,
 #layout-main div.main_all div.news h2,
-#layout-main div.profile_all .g_info
+#preferences .g_info
 {
 text-align:left;
 }
@@ -2482,7 +2482,7 @@ text-align:left;
 .g_input,
 .g_section,
 #layout-footer p,
-#layout-main div.profile_all p,
+#preferences p,
 #layout-main table.grouplist td.number.eps
 {
 text-align:center;

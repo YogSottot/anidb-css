@@ -23,16 +23,14 @@ table {
 	border-bottom: none;
 }
 
-#layout-main div.customise_all li + li.g_odd,
-#layout-main div.customise_all li.g_odd + li,
-#layout-main div.profile_all li,
-#layout-main div.profile_all li.g_odd,
-#layout-main div.profile_all span,
-#layout-main div.profile_all span.g_odd,
-#layout-main div.profile_all tr,
-#layout-main div.profile_all tr + tr.g_odd td,
-#layout-main div.profile_all tr.g_odd,
-#layout-main div.profile_all tr.g_odd + tr td,
+#preferences li,
+#preferences li.g_odd,
+#preferences span,
+#preferences span.g_odd,
+#preferences tr,
+#preferences tr + tr.g_odd td,
+#preferences tr.g_odd,
+#preferences tr.g_odd + tr td,
 #layout-main table tr.header + tr td,
 #layout-main ul.g_list li {
 	border: none;
@@ -127,13 +125,13 @@ body.nonav #layout-main div.g_content,
 #layout-main div.creq_all div.states dl,
 #layout-main div.g_menu div h4 + p,
 #layout-main div.g_menu div h4 + ul,
-#layout-main div.profile_all div.default_languages table,
-#layout-main div.profile_all div.pane.general div.body div.pane div,
-#layout-main div.profile_all div.passwords form div.anidb,
-#layout-main div.profile_all div.passwords form div.g_section,
-#layout-main div.profile_all div.rdf_jabber div,
-#layout-main div.profile_all div.settings.block,
-#layout-main div.profile_all div.userdata_form table,
+#preferences div.default_languages table,
+#preferences div.pane.general div.body div.pane div,
+#preferences div.passwords form div.anidb,
+#preferences div.passwords form div.g_section,
+#preferences div.rdf_jabber div,
+#preferences div.settings.block,
+#preferences div.userdata_form table,
 #layout-main div.userpage_all div.g_section.clubs h3 + div,
 #layout-main div.userpage_all div.latest ul,
 #layout-main table {
@@ -178,7 +176,7 @@ body.nonav #layout-main div.g_content,
 }
 
 table table,
-#layout-main div.profile_all div.tabbed_pane div.default_languages div {
+#preferences div.tabbed_pane div.default_languages div {
 	border: none;
 }
 

@@ -356,12 +356,6 @@ button,
 	width: 8.5em;
 }
 
-#layout-main div.profile_all div.pane > ul li,
-#layout-main div.profile_all div.pane div.settings.block li,
-#layout-main div.profile_all div.pane.general div.body div.pane div ul li {
-	line-height: 16px;
-}
-
 #layout-main div.votes_all div.container + div.container {
 	margin-left: 0.5em;
 }

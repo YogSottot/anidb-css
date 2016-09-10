@@ -830,9 +830,9 @@ div.hint2_all th
 	padding:10px 0 5px;
 }
 
-#layout-main div.profile_all div.passwords > div,
-#layout-main div.profile_all div.passwords form > div,
-#layout-main div.profile_all div.tabbed_pane div.default_languages div
+#preferences div.passwords > div,
+#preferences div.passwords form > div,
+#preferences div.tabbed_pane div.default_languages div
 {
 	padding-right:5em;
 }
@@ -1603,7 +1603,7 @@ div.animevotes_all table table,
 div.creq_all div.creq_stats table,
 div.up2date_all div.mylist_add table,
 div.up2date_all div.up2date_sequels_filter,
-#layout-main div.profile_all div.tabbed_pane div.permissions div.permissions div label select
+#preferences div.tabbed_pane div.permissions div.permissions div label select
 {
 	width:300px;
 }

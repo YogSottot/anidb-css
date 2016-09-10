@@ -83,25 +83,25 @@ body {
 	/*padding: 1em .8em .8em .8em;*/
 }
 
-#layout-main div.profile_all div.pane.general div.body div.pane div ul,
+#preferences div.pane.general div.body div.pane div ul,
 #layout-search .submit {
 	padding: 0;
 }
 
-#layout-main div.profile_all div.passwords,
-#layout-main div.profile_all div.tabbed_pane div.default_languages {
+#preferences div.passwords,
+#preferences div.tabbed_pane div.default_languages {
 	display: block;
 }
 
-#layout-main div.profile_all div.default_languages div,
-#layout-main div.profile_all div.pane.general div.body div.pane div,
-#layout-main div.profile_all div.passwords form div.anidb,
-#layout-main div.profile_all div.passwords form div.g_section,
-#layout-main div.profile_all div.rdf_jabber div {
+#preferences div.default_languages div,
+#preferences div.pane.general div.body div.pane div,
+#preferences div.passwords form div.anidb,
+#preferences div.passwords form div.g_section,
+#preferences div.rdf_jabber div {
 	margin: 1em 1em .5em 0;
 }
 
-#layout-main div.profile_all div.rdf_jabber div {
+#preferences div.rdf_jabber div {
 	display: inline-table;
 }
 
@@ -352,42 +352,31 @@ body {
 	padding: .0 0 .1em 0;
 }
 
-#layout-main div.profile_all div.pane div.settings.block,
-#layout-main div.profile_all div.pane.general div.body div.pane div {
+#preferences div.pane div.settings.block,
+#preferences div.pane.general div.body div.pane div {
 	width: 45%;
 }
 
-#layout-main div.customise_all div.pane div.settings.block {
-	width: 35%;
-	margin-left: 1em;
-}
-
-#layout-main div.customise_all div.settings.block table,
-#layout-main div.profile_all div.settings.block table {
+#preferences div.settings.block table {
 	width: 100%;
 }
 
-#layout-main div.customise_all div.settings.block h4,
-#layout-main div.customise_all div.settings.block table caption,
-#layout-main div.customise_all div.userdata_form table caption,
-#layout-main div.profile_all div.settings.block h4,
-#layout-main div.profile_all div.settings.block table caption,
-#layout-main div.profile_all div.userdata_form table caption {
+#preferences div.settings.block h4,
+#preferences div.settings.block table caption,
+#preferences div.userdata_form table caption {
 	text-align: left;
 	padding: .4em .5em;
 }
 
-#layout-main div.profile_all div.settings.block ul {
+#preferences div.settings.block ul {
 	margin: .5em 0 0 0;
 }
 
-#layout-main div.customise_all div.pane > ul li,
-#layout-main div.profile_all div.pane div.settings.block li {
+#preferences div.pane div.settings.block li {
 	line-height: 20px;
 }
 
-#layout-main div.customise_all span.checkbox span.text,
-#layout-main div.profile_all div.settings.block span.checkbox span.text {
+#preferences div.settings.block span.checkbox span.text {
 	margin: -2em 0 0 4.5em;
 }
 

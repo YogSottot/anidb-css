@@ -53,7 +53,7 @@ body.nonav #layout-main div.g_content,
 }
 
 body.nonav #layout-main div.g_content h4,
-#layout-main div.profile_all div.g_section h4 a {
+#preferences div.g_section h4 a {
 	background-color: transparent;
 }
 
@@ -77,12 +77,9 @@ body.nonav #layout-main div.g_content {
 	background-color: #eaeaea;
 }
 
-#layout-main div.customise_all li.g_odd,
-#layout-main div.customise_all span.g_odd,
-#layout-main div.customise_all tr.g_odd,
-#layout-main div.profile_all li.g_odd,
-#layout-main div.profile_all span.g_odd,
-#layout-main div.profile_all tr.g_odd {
+#preferences li.g_odd,
+#preferences span.g_odd,
+#preferences tr.g_odd {
 	background-color: transparent;
 }
 
@@ -93,9 +90,8 @@ body.nonav #layout-main div.g_content {
 #layout-main div.creq_all div.g_section.creq_stats table.stats th,
 #layout-main div.creq_all dl,
 #layout-main div.creq_all dt,
-#layout-main div.customise_all div.settings.block h4,
 #layout-main div.g_menu.filter_menu h4,
-#layout-main div.profile_all div.settings.block h4,
+#preferences div.settings.block h4,
 #layout-main div.tabbed_pane h4,
 #layout-main div.userpage_all div.g_section.clubs h3,
 #layout-main div.userpage_all div.g_section.latest h4,
@@ -179,10 +175,10 @@ body.nonav #layout-main div.g_content {
 }
 
 #layout-main div.main_all div.g_section > h2,
-#layout-main div.profile_all div.tabbed_pane div.pane.account div.g_definitionlist h4,
-#layout-main div.profile_all div.tabbed_pane div.pane.default_languages div > h4,
-#layout-main div.profile_all div.tabbed_pane div.pane.general div.body h4,
-#layout-main div.profile_all div.tabbed_pane div.pane.rdf_jabber div h4 {
+#preferences div.tabbed_pane div.pane.account div.g_definitionlist h4,
+#preferences div.tabbed_pane div.pane.default_languages div > h4,
+#preferences div.tabbed_pane div.pane.general div.body h4,
+#preferences div.tabbed_pane div.pane.rdf_jabber div h4 {
 	background-color: #363636;
 	color: #dddddd;
 }

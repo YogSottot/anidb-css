@@ -115,7 +115,7 @@ a:visited,
 a:active,
 a:hover,
 a:link,
-#layout-content div.profile_all div.css_style,
+#preferences div.css_style,
 #layout-content div.main_all div.news span.stamp,
 #layout-content div.main_all div.news span.stamp a,
 #layout-content h1
@@ -133,7 +133,7 @@ select,
 #layout-content div.main_edit h4,
 #layout-content div.main_all div.news h4,
 #layout-content caption,
-#layout-content div.profile_all h4,
+#preferences h4,
 #layout-content div.rightbar li a
 {
 	color:#46C5FF;
