@@ -114,7 +114,7 @@ td.value,
 th.field,
 ul,
 #layout-main div.main_all div.news h2,
-#layout-main div.profile_all .g_info {
+#preferences .g_info {
 	text-align: left;
 }
 
@@ -373,7 +373,7 @@ span.diff,
 #layout-main div.msg_all tr.new td.state,
 #layout-main div.mylist_list tr.all_watched td.stats,
 #layout-main div.mylist_list tr.complete td.stats,
-#layout-main div.profile_all div.account tr th,
+#preferences div.account tr th,
 #layout-main div.search_all div.search_results strong,
 #layout-main div.tag-column .parent,
 #layout-main div.userpage_all div.discussions tr.unread,
@@ -383,7 +383,7 @@ span.diff,
 
 .g_italic,
 #layout-main div.main_all div.news.forum div.latestnews div.posted,
-#layout-main div.profile_all div.account tr th p.note {
+#preferences div.account tr th p.note {
 	font-style: italic;
 	font-weight: normal;
 }
