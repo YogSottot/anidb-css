@@ -141,6 +141,7 @@
 	width: 16px;
 }
 
+.i_general_user_add,
 .i_user_add {
 	background-image: url(../icons/silk/user_add.png);
 }

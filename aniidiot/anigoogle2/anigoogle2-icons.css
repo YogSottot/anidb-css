@@ -78,6 +78,7 @@
 .i_topic_undelete,
 .i_topic_unlock,
 .i_topic_unsubscribe,
+.i_general_user_add,
 .i_vote,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
@@ -156,6 +157,7 @@
 .i_topic_undelete,
 .i_topic_unlock,
 .i_topic_unsubscribe,
+.i_general_user_add,
 .i_vote,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
@@ -477,6 +479,7 @@ button.spoiler:before {
 .i_general_history,
 .i_general_list,
 .i_general_revert,
+.i_general_user_add,
 .i_general_vote_down,
 .i_general_vote_revoke,
 .i_general_vote_up,
@@ -500,6 +503,7 @@ button.spoiler:before {
 .i_tab_expand,
 .i_tab_reset,
 .i_top,
+.i_general_user_add,
 .i_vote,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
@@ -703,6 +707,10 @@ button.spoiler:before {
 .i_general_vote_down:after {
 	content: "\f088";
 	cursor: pointer;
+}
+
+.i_general_user_add:after {
+	content: "\f234";
 }
 
 /*image only - no text*/
