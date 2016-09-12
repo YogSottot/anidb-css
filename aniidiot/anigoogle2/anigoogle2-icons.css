@@ -285,8 +285,8 @@ button.update:before,
 	content: "\f05e";
 }
 
-.i_mylist_delete:after,
-.i_wishlist_delete:after,
+.i_mylist_edit:before,
+.i_wishlist_edit:before,
 .i_comment_creq:before,
 .i_comment_delete:before,
 .i_pm_delete:before,
@@ -576,18 +576,14 @@ button.spoiler:before {
 	cursor: pointer;
 }
 
-.i_mylist_delete:after,
-.i_wishlist_delete:after,
+.i_mylist_delete:before,
+.i_wishlist_delete:before,
 .i_ep_edit:after,
 .i_file_edit:after {
 	content: "\f040";
 	cursor: pointer;
 }
 
-.i_mylist_delete:before,
-.i_wishlist_delete:before,
-.i_mylist_edit:before,
-.i_wishlist_edit:before,
 .i_favourites_add:before,
 .i_mylist_add:before,
 .i_wishlist_add:before,
