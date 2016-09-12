@@ -561,6 +561,17 @@ button.spoiler:before {
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
+.i_favourites_add:before,
+.i_mylist_add:before,
+.i_wishlist_add:before,
+.i_mylist_edit:before,
+.i_wishlist_edit:before,
+.i_mylist_delete:before,
+.i_wishlist_delete:before {
+	font-size: 0.8rem;
+	padding-top: 3px;
+}
+
 .i_plus:after {
 	content: "\f0fe";
 	cursor: pointer;
