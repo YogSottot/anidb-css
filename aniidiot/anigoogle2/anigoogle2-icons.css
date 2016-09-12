@@ -80,6 +80,9 @@
 .i_topic_unsubscribe,
 .i_general_user_add,
 .i_vote,
+.i_favourites_add,
+.i_mylist_add,
+.i_wishlist_add,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -159,6 +162,9 @@
 .i_topic_unsubscribe,
 .i_general_user_add,
 .i_vote,
+.i_favourites_add,
+.i_mylist_add,
+.i_wishlist_add,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -505,6 +511,9 @@ button.spoiler:before {
 .i_top,
 .i_general_user_add,
 .i_vote,
+.i_favourites_add,
+.i_mylist_add,
+.i_wishlist_add,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -516,6 +525,9 @@ button.spoiler:before {
 }
 
 /*stacked icons*/
+.i_favourites_add:before,
+.i_mylist_add:before,
+.i_wishlist_add:before,
 .i_tv_special:before,
 .i_wishlist_blacklist:before,
 .i_wishlist_buddy:before,
@@ -531,6 +543,9 @@ button.spoiler:before {
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
+.i_favourites_add:before,
+.i_mylist_add:before,
+.i_wishlist_add:before,
 .i_plus:after {
 	content: "\f0fe";
 	cursor: pointer;
@@ -679,12 +694,23 @@ button.spoiler:before {
 	margin-left: -2px;
 }
 
+.i_mylist_add:after,
 .i_wishlist_blacklist:after,
 .i_wishlist_buddy:after,
 .i_wishlist_toget:after,
 .i_wishlist_towatch:after,
 .i_wishlist_undefined:after {
 	content: "\f016";
+	cursor: default;
+}
+
+.i_wishlist_add:after {
+	content: "\f006";
+	cursor: default;
+}
+
+.i_favourites_add:after {
+	content: "\f06b";
 	cursor: default;
 }
 
