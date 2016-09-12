@@ -543,9 +543,6 @@ button.spoiler:before {
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
-.i_favourites_add:before,
-.i_mylist_add:before,
-.i_wishlist_add:before,
 .i_plus:after {
 	content: "\f0fe";
 	cursor: pointer;
@@ -567,6 +564,9 @@ button.spoiler:before {
 	cursor: pointer;
 }
 
+.i_favourites_add:before,
+.i_mylist_add:before,
+.i_wishlist_add:before,
 .i_file_add:after,
 .i_file_addmylist:after,
 .i_general_add:after {
