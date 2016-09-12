@@ -740,12 +740,12 @@ button.spoiler:before {
 .i_wishlist_delete:after,
 .i_wishlist_edit:after,
 .i_wishlist_add:after {
-	content: "\f006";
+	content: "\f06b";
 	cursor: default;
 }
 
 .i_favourites_add:after {
-	content: "\f06b";
+	content: "\f006";
 	cursor: default;
 }
 
