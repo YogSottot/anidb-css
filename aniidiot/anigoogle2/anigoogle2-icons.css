@@ -83,6 +83,10 @@
 .i_favourites_add,
 .i_mylist_add,
 .i_wishlist_add,
+.i_mylist_edit,
+.i_wishlist_edit,
+.i_mylist_delete,
+.i_wishlist_delete,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -165,6 +169,10 @@
 .i_favourites_add,
 .i_mylist_add,
 .i_wishlist_add,
+.i_mylist_edit,
+.i_wishlist_edit,
+.i_mylist_delete,
+.i_wishlist_delete,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -277,6 +285,8 @@ button.update:before,
 	content: "\f05e";
 }
 
+.i_mylist_delete:after,
+.i_wishlist_delete:after,
 .i_comment_creq:before,
 .i_comment_delete:before,
 .i_pm_delete:before,
@@ -514,6 +524,10 @@ button.spoiler:before {
 .i_favourites_add,
 .i_mylist_add,
 .i_wishlist_add,
+.i_mylist_edit,
+.i_wishlist_edit,
+.i_mylist_delete,
+.i_wishlist_delete,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
 .i_wishlist_toget,
@@ -528,6 +542,10 @@ button.spoiler:before {
 .i_favourites_add:before,
 .i_mylist_add:before,
 .i_wishlist_add:before,
+.i_mylist_edit:before,
+.i_wishlist_edit:before,
+.i_mylist_delete:before,
+.i_wishlist_delete:before,
 .i_tv_special:before,
 .i_wishlist_blacklist:before,
 .i_wishlist_buddy:before,
@@ -558,12 +576,18 @@ button.spoiler:before {
 	cursor: pointer;
 }
 
+.i_mylist_delete:after,
+.i_wishlist_delete:after,
 .i_ep_edit:after,
 .i_file_edit:after {
 	content: "\f040";
 	cursor: pointer;
 }
 
+.i_mylist_delete:before,
+.i_wishlist_delete:before,
+.i_mylist_edit:before,
+.i_wishlist_edit:before,
 .i_favourites_add:before,
 .i_mylist_add:before,
 .i_wishlist_add:before,
@@ -695,6 +719,8 @@ button.spoiler:before {
 }
 
 .i_mylist_add:after,
+.i_mylist_edit:after,
+.i_mylist_delete:after,
 .i_wishlist_blacklist:after,
 .i_wishlist_buddy:after,
 .i_wishlist_toget:after,
@@ -704,6 +730,8 @@ button.spoiler:before {
 	cursor: default;
 }
 
+.i_wishlist_delete:after,
+.i_wishlist_edit:after,
 .i_wishlist_add:after {
 	content: "\f006";
 	cursor: default;
