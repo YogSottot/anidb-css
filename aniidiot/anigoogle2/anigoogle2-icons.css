@@ -81,6 +81,7 @@
 .i_general_user_add,
 .i_vote,
 .i_favourites_add,
+.i_favourites_modify,
 .i_mylist_add,
 .i_wishlist_add,
 .i_mylist_edit,
@@ -167,6 +168,7 @@
 .i_general_user_add,
 .i_vote,
 .i_favourites_add,
+.i_favourites_modify,
 .i_mylist_add,
 .i_wishlist_add,
 .i_mylist_edit,
@@ -522,6 +524,7 @@ button.spoiler:before {
 .i_general_user_add,
 .i_vote,
 .i_favourites_add,
+.i_favourites_modify,
 .i_mylist_add,
 .i_wishlist_add,
 .i_mylist_edit,
@@ -743,6 +746,11 @@ button.spoiler:before {
 
 .i_favourites_add:after {
 	content: "\f006";
+	cursor: pointer;
+}
+
+.i_favourites_modify:after {
+	content: "\f005";
 	cursor: pointer;
 }
 
