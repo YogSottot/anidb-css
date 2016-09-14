@@ -40,6 +40,10 @@
 	overflow: hidden;
 }
 
+.fancybox-inner #layout-main {
+	margin: 0;
+}
+
 .fancybox-type-iframe .fancybox-inner {
 	-webkit-overflow-scrolling: touch;
 }
