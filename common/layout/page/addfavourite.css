@@ -6,6 +6,10 @@
 	margin-right: 0.5em;
 }
 
+#layout-main div.addfavourite_all table {
+	width: 100%;
+}
+
 #layout-main div.addfavourite_all table td.name {
 	width: 90%;
 }
