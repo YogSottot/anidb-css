@@ -596,7 +596,6 @@ button.spoiler:before {
 	cursor: pointer;
 }
 
-.i_favourites_add:before,
 .i_mylist_add:before,
 .i_wishlist_add:before,
 .i_file_add:after,
