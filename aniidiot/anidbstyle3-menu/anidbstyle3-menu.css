@@ -1,12 +1,12 @@
 @import "../../sub/common.css";
 @import "../../common/style/color/status-pastel.css";
 @import "../../common/libs/select2/style-grey.css";
+@import "../../icons/fonticons.css";
 @import "../common-menu.css";
 @import "../logos.css";
 @import "../anigoogle2/anigoogle2-border.css";
 @import "../anigoogle2/anigoogle2-layout.css";
 @import "../anigoogle2/anigoogle2-text.css";
-@import "../anigoogle2/anigoogle2-icons.css";
 @import "../anidbstyle2/anidbstyle2-color.css";
 @import "../anidbstyle3/anidbstyle3-border.css";
 @import "../anidbstyle3/anidbstyle3-layout.css";

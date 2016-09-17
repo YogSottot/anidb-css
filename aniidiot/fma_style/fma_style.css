@@ -2,11 +2,11 @@
 @import "../../common/style/color/status-pastel.css";
 @import "../../common/libs/select2/style-white.css";
 @import "../../icons/zakura.css";
+@import "../../icons/fonticons.css";
 @import "../common-menu.css";
 @import "../anigoogle2/anigoogle2-border.css";
 @import "../anigoogle2/anigoogle2-layout.css";
 @import "../anigoogle2/anigoogle2-text.css";
-@import "../anigoogle2/anigoogle2-icons.css";
 @import "../zakura/zakura-border.css";
 @import "../zakura/zakura-layout.css";
 @import "../zakura/zakura-font.css";
