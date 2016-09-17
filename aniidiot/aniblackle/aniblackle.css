@@ -4,10 +4,8 @@
 @import "../../common/libs/select2/style-dark.css";
 @import "../../icons/fonticons.css";
 @import "../common-menuless.css";
-/*@import "../icons-grey.css";*/
 @import "aniblackle-border.css";
 @import "aniblackle-color.css";
-/*@import "aniblackle-icons.css";*/
 @import "aniblackle-layout.css";
 
 #layout-footer:after {
