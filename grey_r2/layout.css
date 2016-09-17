@@ -472,7 +472,7 @@ padding:2px 4px;
 }
 #layout-main div.calendar_all > div.top div.jump > div,
 #layout-main div.calendar_all > div.bottom div.jump > div,
-.g_button,
+.g_button a,
 #layout-main ul.g_list li
 {
 display:inline-block;

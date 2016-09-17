@@ -288,7 +288,7 @@ h4,
 	display: block;
 }
 
-.g_button,
+.g_button a,
 button,
 #layout-main ul.g_list li {
 	display: inline-block;
