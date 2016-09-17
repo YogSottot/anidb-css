@@ -782,6 +782,11 @@ button.spoiler:before {
 
 /*image only - no text*/
 
+/*button icon where a icon only style exists*/
+.g_button .i_general_delete:after {
+	content: "";
+}
+
 /*https://fortawesome.github.io END*/
 
 /*icon created from text*/
