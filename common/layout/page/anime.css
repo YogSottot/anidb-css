@@ -237,6 +237,10 @@
 	margin: 0 0.5em;
 }
 
+#anidb .fancybox-inner .maddtomylist table {
+	width: 100%;
+}
+
 @media screen and (min-width: 1500px) {
 	#layout-main div.anime_all.sidebar div.info div.extra > div {
 		padding: 0.5em;
