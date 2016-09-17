@@ -224,7 +224,7 @@
 }
 
 /*anidb specific code*/
-.fancybox-inner #popup_form .g_definitionlist .table {
+#anidb .fancybox-inner #popup_form .g_definitionlist table {
 	width: 100%;
 }
 
