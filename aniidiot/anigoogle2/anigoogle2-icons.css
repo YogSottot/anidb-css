@@ -80,9 +80,11 @@
 .i_topic_unsubscribe,
 .i_general_user_add,
 .i_vote,
-.i_favourites_add,
-.i_favourites_modify,
+.i_favourites,
+.i_favourites_no,
 .i_mylist_add,
+.i_mylist_no,
+.i_wishlist,
 .i_wishlist_add,
 .i_mylist_edit,
 .i_wishlist_edit,
@@ -167,9 +169,11 @@
 .i_topic_unsubscribe,
 .i_general_user_add,
 .i_vote,
-.i_favourites_add,
-.i_favourites_modify,
+.i_favourites,
+.i_favourites_no,
 .i_mylist_add,
+.i_mylist_no,
+.i_wishlist,
 .i_wishlist_add,
 .i_mylist_edit,
 .i_wishlist_edit,
@@ -524,9 +528,11 @@ button.spoiler:before {
 .i_top,
 .i_general_user_add,
 .i_vote,
-.i_favourites_add,
-.i_favourites_modify,
+.i_favourites,
+.i_favourites_no,
 .i_mylist_add,
+.i_mylist_no,
+.i_wishlist,
 .i_wishlist_add,
 .i_mylist_edit,
 .i_wishlist_edit,
@@ -560,7 +566,6 @@ button.spoiler:before {
 	text-align: right;
 	width: 16px;
 	padding-top: 2px;
-	cursor: pointer;
 	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
@@ -574,27 +579,11 @@ button.spoiler:before {
 	padding-top: 3px;
 }
 
-.i_plus:after {
-	content: "\f0fe";
-	cursor: pointer;
-}
-
-.i_minus:after {
-	content: "\f146";
-	cursor: pointer;
-}
-
-.i_group_comment:after {
-	content: "\f0e5";
-	cursor: pointer;
-}
-
 .i_mylist_edit:before,
 .i_wishlist_edit:before,
 .i_ep_edit:after,
 .i_file_edit:after {
 	content: "\f040";
-	cursor: pointer;
 }
 
 .i_mylist_add:before,
@@ -603,17 +592,45 @@ button.spoiler:before {
 .i_file_addmylist:after,
 .i_general_add:after {
 	content: "\f067";
-	cursor: pointer;
+}
+
+.i_wishlist_blacklist:after,
+.i_wishlist_buddy:after,
+.i_wishlist_toget:after,
+.i_wishlist_towatch:after,
+.i_wishlist_undefined:after,
+.i_wishlist:after,
+.i_wishlist_delete:after,
+.i_wishlist_edit:after,
+.i_wishlist_add:after {
+	content: "\f06b";
+}
+
+.i_mylist_add:after,
+.i_mylist_edit:after,
+.i_mylist_delete:after,
+.i_mylist_no:after {
+	content: "\f0f6";
+}
+
+.i_plus:after {
+	content: "\f0fe";
+}
+
+.i_minus:after {
+	content: "\f146";
+}
+
+.i_group_comment:after {
+	content: "\f0e5";
 }
 
 .i_vote:after {
 	content: "\f087";
-	cursor: pointer;
 }
 
 .i_info:after {
 	content: "\f05a";
-	cursor: pointer;
 }
 
 .i_help:after {
@@ -623,48 +640,40 @@ button.spoiler:before {
 
 .i_top:after {
 	content: "\f0aa";
-	cursor: pointer;
 }
 
 .i_file_editmylist:after,
 .i_general_edit:after,
 .i_liststate_edit:after {
 	content: "\f044";
-	cursor: pointer;
 }
 
 .i_file_removemylist:after,
 .i_general_delete:after,
 .i_general_delete_request:after {
 	content: "\f014";
-	cursor: pointer;
 }
 
 .i_revote:after {
 	content: "\f00c";
-	cursor: pointer;
 }
 
 .i_seen:after,
 .i_seen_yes:after {
 	content: "\f06e";
-	cursor: pointer;
 }
 
 .i_seen_no:after {
 	content: "\f070";
-	cursor: pointer;
 }
 
 .i_file_details:after {
 	content: "\f14c";
-	cursor: pointer;
 }
 
 .i_general_list:after,
 .i_mylist:after {
 	content: "\f0ca";
-	cursor: pointer;
 }
 
 .i_state_verified:after {
@@ -703,6 +712,14 @@ button.spoiler:before {
 	content: "\f252";
 }
 
+.i_favourites:after {
+	content: "\f005";
+}
+
+.i_favourites_no:after {
+	content: "\f006";
+}
+
 .i_wishlist_blacklist:before {
 	content: "\f05e";
 	color: #ff4e4e;
@@ -726,54 +743,21 @@ button.spoiler:before {
 	margin-left: -2px;
 }
 
-.i_mylist_add:after,
-.i_mylist_edit:after,
-.i_mylist_delete:after,
-.i_wishlist_blacklist:after,
-.i_wishlist_buddy:after,
-.i_wishlist_toget:after,
-.i_wishlist_towatch:after,
-.i_wishlist_undefined:after {
-	content: "\f016";
-	cursor: default;
-}
-
-.i_wishlist_delete:after,
-.i_wishlist_edit:after,
-.i_wishlist_add:after {
-	content: "\f06b";
-	cursor: default;
-}
-
-.i_favourites_add:after {
-	content: "\f006";
-	cursor: pointer;
-}
-
-.i_favourites_modify:after {
-	content: "\f005";
-	cursor: pointer;
-}
-
 .i_stats:after {
 	content: "\f080";
-	cursor: pointer;
 }
 
 .i_general_revert:after,
 .i_general_vote_revoke:after {
 	content: "\f0e2";
-	cursor: pointer;
 }
 
 .i_general_vote_up:after {
 	content: "\f087";
-	cursor: pointer;
 }
 
 .i_general_vote_down:after {
 	content: "\f088";
-	cursor: pointer;
 }
 
 .i_general_user_add:after {
