@@ -22,6 +22,8 @@
 .i_comment_setactive,
 .i_comment_undelete,
 .i_ep_edit,
+.i_favourites,
+.i_favourites_no,
 .i_file_add,
 .i_file_addmylist,
 .i_file_details,
@@ -39,6 +41,7 @@
 .i_general_history,
 .i_general_list,
 .i_general_revert,
+.i_general_user_add,
 .i_general_vote_down,
 .i_general_vote_revoke,
 .i_general_vote_up,
@@ -49,6 +52,10 @@
 .i_minus,
 .i_moveable,
 .i_mylist,
+.i_mylist_add,
+.i_mylist_delete,
+.i_mylist_edit,
+.i_mylist_no,
 .i_nonotify,
 .i_notify,
 .i_plus,
@@ -78,20 +85,13 @@
 .i_topic_undelete,
 .i_topic_unlock,
 .i_topic_unsubscribe,
-.i_general_user_add,
 .i_vote,
-.i_favourites,
-.i_favourites_no,
-.i_mylist_add,
-.i_mylist_no,
 .i_wishlist,
 .i_wishlist_add,
-.i_mylist_edit,
-.i_wishlist_edit,
-.i_mylist_delete,
-.i_wishlist_delete,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
+.i_wishlist_delete,
+.i_wishlist_edit,
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined {
@@ -111,6 +111,8 @@
 .i_comment_setactive,
 .i_comment_undelete,
 .i_ep_edit,
+.i_favourites,
+.i_favourites_no,
 .i_file_add,
 .i_file_addmylist,
 .i_file_details,
@@ -128,6 +130,7 @@
 .i_general_history,
 .i_general_list,
 .i_general_revert,
+.i_general_user_add,
 .i_general_vote_down,
 .i_general_vote_revoke,
 .i_general_vote_up,
@@ -138,6 +141,10 @@
 .i_minus,
 .i_moveable,
 .i_mylist,
+.i_mylist_add,
+.i_mylist_delete,
+.i_mylist_edit,
+.i_mylist_no,
 .i_nonotify,
 .i_notify,
 .i_plus,
@@ -167,20 +174,13 @@
 .i_topic_undelete,
 .i_topic_unlock,
 .i_topic_unsubscribe,
-.i_general_user_add,
 .i_vote,
-.i_favourites,
-.i_favourites_no,
-.i_mylist_add,
-.i_mylist_no,
 .i_wishlist,
 .i_wishlist_add,
-.i_mylist_edit,
-.i_wishlist_edit,
-.i_mylist_delete,
-.i_wishlist_delete,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
+.i_wishlist_delete,
+.i_wishlist_edit,
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined,
@@ -292,12 +292,12 @@ button.update:before,
 }
 
 .g_button .i_general_delete:before,
-.i_mylist_delete:before,
-.i_wishlist_delete:before,
 .i_comment_creq:before,
 .i_comment_delete:before,
+.i_mylist_delete:before,
 .i_pm_delete:before,
 .i_topic_delete:before,
+.i_wishlist_delete:before,
 button.delete:before,
 #layout-main div.msg_all div.buttons button.delete:before,
 #layout-main div.msg_all div.buttons li.delete a:before,
@@ -486,6 +486,8 @@ button.spoiler:before {
 
 /*image only - no text*/
 .i_ep_edit,
+.i_favourites,
+.i_favourites_no,
 .i_file_add,
 .i_file_addmylist,
 .i_file_details,
@@ -503,6 +505,7 @@ button.spoiler:before {
 .i_general_list,
 .i_general_revert,
 .i_general_user_add,
+.i_general_user_add,
 .i_general_vote_down,
 .i_general_vote_revoke,
 .i_general_vote_up,
@@ -512,6 +515,10 @@ button.spoiler:before {
 .i_liststate_edit,
 .i_minus,
 .i_mylist,
+.i_mylist_add,
+.i_mylist_delete,
+.i_mylist_edit,
+.i_mylist_no,
 .i_nonotify,
 .i_notify,
 .i_plus,
@@ -526,20 +533,13 @@ button.spoiler:before {
 .i_tab_expand,
 .i_tab_reset,
 .i_top,
-.i_general_user_add,
 .i_vote,
-.i_favourites,
-.i_favourites_no,
-.i_mylist_add,
-.i_mylist_no,
 .i_wishlist,
 .i_wishlist_add,
-.i_mylist_edit,
-.i_wishlist_edit,
-.i_mylist_delete,
-.i_wishlist_delete,
 .i_wishlist_blacklist,
 .i_wishlist_buddy,
+.i_wishlist_delete,
+.i_wishlist_edit,
 .i_wishlist_toget,
 .i_wishlist_towatch,
 .i_wishlist_undefined {
@@ -550,14 +550,14 @@ button.spoiler:before {
 
 /*stacked icons*/
 .i_mylist_add:before,
-.i_wishlist_add:before,
-.i_mylist_edit:before,
-.i_wishlist_edit:before,
 .i_mylist_delete:before,
-.i_wishlist_delete:before,
+.i_mylist_edit:before,
 .i_tv_special:before,
+.i_wishlist_add:before,
 .i_wishlist_blacklist:before,
 .i_wishlist_buddy:before,
+.i_wishlist_delete:before,
+.i_wishlist_edit:before,
 .i_wishlist_toget:before,
 .i_wishlist_towatch:before,
 .i_wishlist_undefined:before {
@@ -570,45 +570,45 @@ button.spoiler:before {
 }
 
 .i_mylist_add:before,
-.i_wishlist_add:before,
-.i_mylist_edit:before,
-.i_wishlist_edit:before,
 .i_mylist_delete:before,
-.i_wishlist_delete:before {
+.i_mylist_edit:before,
+.i_wishlist_add:before,
+.i_wishlist_delete:before,
+.i_wishlist_edit:before {
 	font-size: 0.8rem;
 	padding-top: 3px;
 }
 
-.i_mylist_edit:before,
-.i_wishlist_edit:before,
 .i_ep_edit:after,
-.i_file_edit:after {
+.i_file_edit:after,
+.i_mylist_edit:before,
+.i_wishlist_edit:before {
 	content: "\f040";
 }
 
-.i_mylist_add:before,
-.i_wishlist_add:before,
 .i_file_add:after,
 .i_file_addmylist:after,
-.i_general_add:after {
+.i_general_add:after,
+.i_mylist_add:before,
+.i_wishlist_add:before {
 	content: "\f067";
 }
 
+.i_wishlist:after,
+.i_wishlist_add:after,
 .i_wishlist_blacklist:after,
 .i_wishlist_buddy:after,
-.i_wishlist_toget:after,
-.i_wishlist_towatch:after,
-.i_wishlist_undefined:after,
-.i_wishlist:after,
 .i_wishlist_delete:after,
 .i_wishlist_edit:after,
-.i_wishlist_add:after {
+.i_wishlist_toget:after,
+.i_wishlist_towatch:after,
+.i_wishlist_undefined:after {
 	content: "\f06b";
 }
 
 .i_mylist_add:after,
-.i_mylist_edit:after,
 .i_mylist_delete:after,
+.i_mylist_edit:after,
 .i_mylist_no:after {
 	content: "\f0f6";
 }

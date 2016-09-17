@@ -8,10 +8,10 @@ span.i_icon[title] {
 	cursor: help;
 }
 
-a.i_icon:before,
 a.i_icon:after,
-button.i_icon:before,
+a.i_icon:before,
 button.i_icon:after,
+button.i_icon:before,
 span.i_icon.i_general_arrow_down,
 span.i_icon.i_general_arrow_up {
 	cursor: pointer;
