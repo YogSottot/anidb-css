@@ -769,6 +769,8 @@ button.spoiler:before {
 .g_bubble.favourite > div.data div.name:after {
 	color: #ffd751;
 	content: "\f005";
+	font-size: 1.25rem;
+	vertical-align: top;
 }
 
 /*image only - no text*/
