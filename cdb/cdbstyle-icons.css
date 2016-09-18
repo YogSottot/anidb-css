@@ -2,6 +2,7 @@
 use normal star instead of dark star as default
 dark: ../icons/icon/anidb_rate_star_dark.png
 */
+.i_favourite,
 .i_rate_halfstar,
 .i_rate_star,
 .i_rate_veryhigh,

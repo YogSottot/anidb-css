@@ -1920,6 +1920,11 @@ background-image: url(images/icons/icon/anidb_rate_star.png);
 background-repeat: repeat-x;
 background-position: left }
 
+.i_favourite {
+width: 15px;
+background-image: url(images/icons/icon/anidb_rate_star.png);
+background-repeat: repeat-x;
+background-position: left }
 
 /* Videostream Icons */
 
