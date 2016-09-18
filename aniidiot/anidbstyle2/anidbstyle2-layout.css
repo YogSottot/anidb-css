@@ -93,6 +93,13 @@
 	margin-top: -3.1em;
 }
 
+#layout-main div.edit_actions span > * {
+	padding: 2px 8px;
+}
+
 .g_button a {
-	padding: 0;
+	height: 18px;
+	width: auto;
+	line-height: 15px;
+	padding: 2px 4px 2px;
 }
