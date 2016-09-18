@@ -160,7 +160,10 @@ tr.g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_button a,
 .g_odd .g_bubble,
-#layout-main div.edit_actions span > * {
+button,
+#layout-main div.edit_actions span > *,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li.g_odd {
 	background-color: #F4F9FD;
 }
 

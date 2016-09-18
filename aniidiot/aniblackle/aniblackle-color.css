@@ -66,6 +66,8 @@ textarea,
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-search input.text,
 #layout-search select,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li.g_odd,
 #layout-tabs ul.main-tabs > li.selected,
 #layout-tabs ul.main-tabs > li:hover {
 	background-color: #000000;
