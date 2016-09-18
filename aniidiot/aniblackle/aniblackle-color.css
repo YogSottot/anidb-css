@@ -1,3 +1,4 @@
+.g_button a,
 button,
 html,
 input,
@@ -24,6 +25,7 @@ textarea,
 	border-bottom-color: #000000;
 }
 
+.g_button a:hover,
 .g_bubble .name-colored:hover,
 .tooltip span.text,
 a:hover,
@@ -33,11 +35,13 @@ input[type="submit"]:hover,
 span.link:hover,
 #imagepreview,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored:hover,
+#layout-main div.edit_actions span > *:hover,
 #layout-main div.search_all div.suggestions span:hover,
 #layout-menu li.sub-menu:hover {
 	color: #FFFFFF;
 }
 
+.g_button a,
 .g_bubble .g_bubble .g_bubble .g_odd,
 .g_bubble .g_odd,
 button,
@@ -151,6 +155,7 @@ ul.g_list li,
 	opacity: 0.6;
 }
 
+.g_button a:hover,
 button:hover,
 div.g_bubble.quotebody,
 input[type="button"]:hover,
@@ -313,10 +318,7 @@ textarea,
 
 .g_bubble,
 .g_image,
-button,
 div.g_bubble.quotebody,
-input[type="button"],
-input[type="submit"],
 span.test,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
@@ -493,8 +495,10 @@ tr + tr th,
 	box-shadow: 0 1px 2px #777777 inset;
 }
 
+.g_button a,
 button,
 input[type="button"],
-input[type="submit"] {
+input[type="submit"],
+#layout-main div.edit_actions span > * {
 	border-color: #777777 #666666 #666666 #777777;
 }

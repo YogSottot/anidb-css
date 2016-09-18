@@ -59,6 +59,7 @@ th,
 	border-bottom-color: #FFFFFF;
 }
 
+.g_button a:hover,
 .g_bubble .name-colored,
 a:hover,
 button:hover,
@@ -70,6 +71,7 @@ span.link:hover,
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored,
+#layout-main div.edit_actions span > *:hover,
 #layout-main div.pagination span a:hover,
 #layout-main div.search_all div.suggestions span:hover {
 	color: #AA0000;
@@ -121,6 +123,7 @@ span.link:hover,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_button a:hover,
 .tooltip > span.text.g_bubble,
 button:hover,
 div.g_odd,
@@ -154,7 +157,9 @@ tr.g_odd,
 .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
-.g_odd .g_bubble {
+.g_button a,
+.g_odd .g_bubble,
+#layout-main div.edit_actions span > * {
 	background-color: #F4F9FD;
 }
 
@@ -183,6 +188,7 @@ textarea,
 }
 
 .g_bubble,
+.g_button a,
 .g_image,
 button,
 input[type="button"],
@@ -190,6 +196,7 @@ input[type="submit"],
 span.test,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.edit_actions span > *,
 #layout-main div.main_all div.g_section > h2,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd {

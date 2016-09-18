@@ -38,6 +38,7 @@ tr + tr th,
 	border-radius: 5px;
 }
 
-.g_button a {
-	border: none;
+.g_button a,
+#layout-main div.edit_actions span > * {
+	border: 1px solid;
 }

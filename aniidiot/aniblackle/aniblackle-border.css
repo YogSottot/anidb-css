@@ -11,6 +11,7 @@ input[type="submit"] {
 	border: 1px solid;
 }
 
-.g_button a {
-	border: none;
+.g_button a,
+#layout-main div.edit_actions span > * {
+	border: 1px solid;
 }

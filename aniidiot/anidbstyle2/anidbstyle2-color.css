@@ -41,7 +41,7 @@ span.link:hover,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored,
 #layout-main div.main_all div.account ul.tabs li.signup:hover a,
-#layout-main div.main_all div.edit_actions span > *:hover,
+#layout-main div.edit_actions span > *:hover,
 #layout-menu li.sub-menu span.tab {
 	color: #AA0000;
 }
@@ -65,6 +65,7 @@ table,
 	border-top-color: #DDDDDD;
 }
 
+.g_button a:hover,
 button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover,
@@ -91,6 +92,7 @@ span.test:hover,
 	color: #DDDDDD;
 }
 
+.g_button a,
 button,
 input.text,
 input[type="button"],
@@ -144,6 +146,7 @@ th .i_icon,
 	color: #FFAA55;
 }
 
+.g_button a:hover,
 button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover,
@@ -224,6 +227,7 @@ body.nonav,
 }
 
 .format-buttons select,
+.g_button a,
 button,
 input.text,
 input[type="button"],
@@ -281,6 +285,7 @@ th a,
 	background-color: #CCCCCC;
 }
 
+.g_button a,
 button,
 input.text,
 input[type="button"],
@@ -295,6 +300,7 @@ textarea,
 #layout-main div.forum div.g_bubble.navbar div.bottom,
 #layout-main div.g_menu.filter_menu div.settings input[type="text"],
 #layout-main div.g_menu.filter_menu div.settings select,
+#layout-main div.edit_actions span > *,
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
@@ -619,9 +625,9 @@ tr,
 	background-color: inherit;
 }
 
-#layout-main div.main_all div.edit_actions > span:after,
-#layout-main div.main_all div.edit_actions > span:before,
-#layout-main div.main_all div.edit_actions span > * {
+#layout-main div.edit_actions > span:after,
+#layout-main div.edit_actions > span:before,
+#layout-main div.edit_actions span > * {
 	color: #C0DAF0;
 }
 
