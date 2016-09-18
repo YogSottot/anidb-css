@@ -10,6 +10,7 @@
 	display: inline-block;
 }
 
+.g_bubble.favourite > div.data div.name:after,
 .i_comment_add,
 .i_comment_creq,
 .i_comment_delete,
@@ -766,11 +767,7 @@ button.spoiler:before {
 }
 
 .g_bubble.favourite > div.data div.name:after {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2c937+0,fefcea+100 */
-	color: #f2c937; /* Old browsers */
-	color: -moz-linear-gradient(-45deg,  #f2c937 0%, #fefcea 100%); /* FF3.6-15 */
-	color: -webkit-linear-gradient(-45deg,  #f2c937 0%,#fefcea 100%); /* Chrome10-25,Safari5.1-6 */
-	color: linear-gradient(135deg,  #f2c937 0%,#fefcea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color: #ffd751;
 	content: "\f005";
 }
 
