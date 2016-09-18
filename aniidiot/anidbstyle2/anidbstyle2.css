@@ -4,13 +4,13 @@
 @import "../../common/libs/select2/style-grey.css";
 @import "../../icons/fonticons.css";
 @import "../common-menu.css";
+
 /*@import "../icons-orange.css";*/
 @import "../logos.css";
 @import "anidbstyle2-layout.css";
 @import "anidbstyle2-border.css";
 @import "anidbstyle2-color.css";
 @import "anidbstyle2-text.css";
-
 #layout-footer:after {
 	content: "design by deridiot inspired by anidbstyle";
 }

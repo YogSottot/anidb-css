@@ -37,9 +37,9 @@ input[type="button"],
 input[type="submit"],
 #layout-main > h1,
 #layout-main div.animeatt_all div.review > h4,
+#layout-main div.edit_actions span > *,
 #layout-main div.g_menu.filter_menu div.settings input[type="text"],
 #layout-main div.g_menu.filter_menu div.settings select,
-#layout-main div.edit_actions span > *,
 #layout-main div.g_timedentry h4,
 #layout-main div.news h4 {
 	border: 1px solid;
