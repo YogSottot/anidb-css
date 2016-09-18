@@ -2,7 +2,7 @@
 @import "../../common/style/color/status-pastel.css";
 @import "../../common/libs/select2/select2-border-round.css";
 @import "../../common/libs/select2/style-white.css";
-@import "../../icons/fonticons.css";
+@import "../icons/fonticons.css";
 @import "../common-menu.css";
 @import "../logos.css";
 @import "../anigoogle/anigoogle-border.css";
