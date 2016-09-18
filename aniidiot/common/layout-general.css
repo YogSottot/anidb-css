@@ -58,7 +58,6 @@ select {
 	vertical-align: middle;
 }
 
-.g_button a,
 a.button,
 a.confirmButton,
 button,
@@ -295,7 +294,18 @@ button,
 	vertical-align: top;
 }
 
-.g_button.upload a,
+.g_button a {
+	height: 18px;
+	width: auto;
+	line-height: 15px;
+	padding: 2px 4px 2px;
+}
+
+.g_button a span {
+	display: inline-block;
+	padding-left: 5px;
+}
+
 button,
 #layout-main div.creq_all .links .creq_list a,
 #layout-main div.creq_all .links .next_creq a,
@@ -380,6 +390,15 @@ button,
 
 #layout-main div.creq_all div.creq_buttons p.action.other button {
 	height: 28px;
+}
+
+#layout-main div.cmt_entries div.postbody span.actions a + a {
+	margin-right: 0.4em;
+	margin-left: 0 !important;
+}
+
+#layout-main div.edit_actions span > * {
+	padding: 2px 8px;
 }
 
 @media screen and (max-width: 1000px) {
