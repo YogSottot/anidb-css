@@ -5,14 +5,3 @@
 .i_noavatar_thumb {
 	background-image: url(../icons/icon/noavatar_thumb_white.png);
 }
-
-.g_bubble.favourite > div.data div.name:after,
-.i_rate_halfstar,
-.i_rate_high,
-.i_rate_low,
-.i_rate_med,
-.i_rate_star,
-.i_rate_veryhigh,
-.i_rate_verylow {
-	background-image: url(../icons/icon/anidb_rate_star_dark.png);
-}

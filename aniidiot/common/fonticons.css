@@ -99,6 +99,7 @@
 }
 
 .g_button.upload a,
+.g_bubble.favourite > div.data div.name,
 .i_comment_add,
 .i_comment_creq,
 .i_comment_delete,
@@ -764,6 +765,15 @@ button.spoiler:before {
 	content: "\f234";
 }
 
+.g_bubble.favourite > div.data div.name:after {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2c937+0,fefcea+100 */
+	color: #f2c937; /* Old browsers */
+	color: -moz-linear-gradient(-45deg,  #f2c937 0%, #fefcea 100%); /* FF3.6-15 */
+	color: -webkit-linear-gradient(-45deg,  #f2c937 0%,#fefcea 100%); /* Chrome10-25,Safari5.1-6 */
+	color: linear-gradient(135deg,  #f2c937 0%,#fefcea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	content: "\f005 ";
+}
+
 /*image only - no text*/
 
 /*button icon where a icon only style exists*/
@@ -849,9 +859,8 @@ button.spoiler:before {
 .i_video_720 {
 	background-color: #8A56AA;
 }
-
 /*icon created from text*/
-.g_bubble.favourite > div.data div.name:after,
+
 .i_rate_halfstar,
 .i_rate_high,
 .i_rate_low,
