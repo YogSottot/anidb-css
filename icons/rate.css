@@ -18,7 +18,7 @@
 	background-image: url(../icons/icon/anidb_rate_eyecancer.gif);
 }
 
-.i_favourite,
+.g_bubble.favourite > div.data div.name:after,
 .i_rate_halfstar,
 .i_rate_high,
 .i_rate_low,
@@ -78,4 +78,12 @@
 
 .i_rate_unknown {
 	background-image: url(../icons/icon/anidb_rate_unknown.gif);
+}
+
+.g_bubble.favourite > div.data div.name:after {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
 }

@@ -851,7 +851,7 @@ button.spoiler:before {
 }
 
 /*icon created from text*/
-.i_favourite,
+.g_bubble.favourite > div.data div.name:after,
 .i_rate_halfstar,
 .i_rate_high,
 .i_rate_low,

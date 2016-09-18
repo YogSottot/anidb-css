@@ -216,7 +216,7 @@ th.s_reverse {
 
 
 /* rating */
-.i_favourite,
+.g_bubble.favourite > div.data div.name:after,
 .i_comment,
 .i_ep_edit,
 .i_rate_halfstar,

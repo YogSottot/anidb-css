@@ -6,7 +6,7 @@
 	background-image: url(../icons/icon/noavatar_thumb_white.png);
 }
 
-.i_favourite,
+.g_bubble.favourite > div.data div.name:after,
 .i_rate_halfstar,
 .i_rate_high,
 .i_rate_low,
