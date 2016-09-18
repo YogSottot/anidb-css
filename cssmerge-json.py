@@ -6,7 +6,7 @@
 
 import os, copy, datetime, sys, shutil, json
 
-_out        = "../../flat/"
+_out        = "../flat/"
 _extensions = ('.jpg', '.jpeg', '.gif', '.png','.css')
 _cssfolder  = []
 _stylelist  = []
