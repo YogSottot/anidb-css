@@ -16509,10 +16509,6 @@ button,
 line-height: 16px;
 }
 
-#layout-main div.filter_menu span.actions.old button {
-margin-top: 3px;
-}
-
 #layout-main div.main_all div.news p.comment {
 margin: -2.3em 0 0;
 }
@@ -16532,11 +16528,6 @@ min-height: 90em;
 
 #layout-main .block .g_definitionlist table {
 margin: 0;
-}
-
-#layout-main div.g_menu.filter_menu div.settings input[type="text"] {
-width: 12em;
-margin-bottom: 2px;
 }
 
 #layout-main div.addtagentityrel_all div.suggestions > span {
@@ -16560,8 +16551,7 @@ width: 8.5em;
 margin-left: 0.5em;
 }
 
-#layout-main .creq_all .creq_header + ul.g_list,
-#layout-main div.g_menu.filter_menu button.delete + label {
+#layout-main .creq_all .creq_header + ul.g_list {
 margin-top: 0.5em;
 }
 
@@ -16873,6 +16863,7 @@ text-shadow: none;
 .g_button a span,
 h2 span,
 h4 span,
+#layout-main .g_bubble.graph div.header,
 #layout-main > h1,
 #layout-main div.admin_all div.g_menu h4 span,
 #layout-main div.anime_all div.groups td.state a,
@@ -16880,7 +16871,6 @@ h4 span,
 #layout-main div.edit_actions span,
 #layout-main div.g_timedentry h4,
 #layout-main div.group_all div.group_released td.state a,
-#layout-main div.votes_all div.graph div.header,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab {
@@ -16889,10 +16879,10 @@ h4 span,
 }
 
 .ajax-file-upload span,
+#layout-main .g_bubble.graph div.header,
 #layout-main div.admin_all div.g_menu h4 span,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.g_timedentry h4,
-#layout-main div.votes_all div.graph div.header,
 #layout-main tr.header th,
 #layout-main tr.header th.sortable a,
 #layout-menu li.sub-menu span.tab {
@@ -16903,6 +16893,7 @@ h4 span,
 button,
 h2 span,
 h4 span,
+#layout-main .g_bubble.graph div.header,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.block div.data table th,
 #layout-main div.edit_actions span,
@@ -16910,7 +16901,6 @@ h4 span,
 #layout-main div.g_menu.user ul li,
 #layout-main div.g_timedentry h4,
 #layout-main div.tabbed_pane ul.tabs li,
-#layout-main div.votes_all div.graph div.header,
 #layout-tabs ul.main-tabs {
 /*text-transform: capitalize;*/
 }
@@ -17241,10 +17231,6 @@ margin-left: -11px;
 margin-top: -1px;
 }
 
-#layout-main h2 + div.edit_actions {
-margin-top: -2.8em;
-}
-
 #layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
 padding: 2px;
 }
@@ -17253,8 +17239,12 @@ padding: 2px;
 margin-top: -3.1em;
 }
 
+#layout-main div.edit_actions span > * {
+padding: 2px;
+}
+
 .g_button a {
-padding: 0;
+padding: 0px 3px 0px;
 }
 
 /*imported from: aniidiot/anidbstyle2/anidbstyle2-border.css*/
@@ -17280,8 +17270,8 @@ border-radius: 0px 0px 5px 5px;
 button,
 input[type="button"],
 input[type="submit"],
-#layout-main div.g_menu.filter_menu div.settings input[type="text"],
-#layout-main div.g_menu.filter_menu div.settings select,
+#layout-main .g_filter div.settings input[type="text"],
+#layout-main .g_filter div.settings select,
 #layout-main div.main_all h2 {
 border-radius: 5px;
 }
@@ -17294,10 +17284,10 @@ border-top: 1px solid;
 button,
 input[type="button"],
 input[type="submit"],
+#layout-main .g_filter div.settings input[type="text"],
+#layout-main .g_filter div.settings select,
 #layout-main > h1,
 #layout-main div.animeatt_all div.review > h4,
-#layout-main div.g_menu.filter_menu div.settings input[type="text"],
-#layout-main div.g_menu.filter_menu div.settings select,
 #layout-main div.g_timedentry h4,
 #layout-main div.news h4 {
 border: 1px solid;
@@ -17420,13 +17410,10 @@ select,
 span.test,
 table th,
 textarea,
+#layout-main .g_bubble.graph div.header,
 #layout-main div.pagination span a,
 #layout-main div.search_all div.suggestions,
-#layout-main div.votes_all div.graph div.header,
 #layout-main table tr.header,
-#layout-main ul.g_list li,
-#layout-main ul.g_list li a,
-#layout-main ul.g_list li.g_odd,
 #layout-menu a:link,
 #layout-menu a:visited,
 #layout-search input,
@@ -17506,9 +17493,7 @@ tr.g_odd,
 #layout-main div.forum div.g_bubble.submit-box,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-main div.tabbed_pane ul.tabs li.selected,
-#layout-main div.tabbed_pane ul.tabs li:hover,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd {
+#layout-main div.tabbed_pane ul.tabs li:hover {
 background-color: #B9BBBF;
 }
 
@@ -17557,6 +17542,7 @@ span.test,
 textarea,
 th,
 th a,
+#layout-main .g_bubble.graph div.header,
 #layout-main > h1,
 #layout-main div.animeatt_all div.review > h4,
 #layout-main div.forum div.g_bubble.threads,
@@ -17566,10 +17552,7 @@ th a,
 #layout-main div.pagination span a,
 #layout-main div.search_all div.suggestions,
 #layout-main div.spoiler button.spoiler,
-#layout-main div.votes_all div.graph div.header,
 #layout-main table tr.header,
-#layout-main ul.g_list li,
-#layout-main ul.g_list li.g_odd,
 #layout-menu li.sub-menu,
 #layout-menu li.sub-menu ul,
 #layout-menu li.sub-menu ul li#user-xauth:hover,
@@ -17612,19 +17595,16 @@ input[type="text"],
 select,
 span.test,
 textarea,
+#layout-main .g_bubble.graph div.group_odd,
+#layout-main .g_bubble.graph.eps div.g_odd,
+#layout-main .g_filter div.settings input[type="text"],
+#layout-main .g_filter div.settings select,
 #layout-main div.format-buttons .f_button,
 #layout-main div.forum div.cmt_entries.history h4,
 #layout-main div.forum div.g_bubble.navbar div.bottom,
-#layout-main div.g_menu.filter_menu div.settings input[type="text"],
-#layout-main div.g_menu.filter_menu div.settings select,
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
-#layout-main div.votes_all div.graph div.group_odd,
-#layout-main div.votes_all div.graph.eps div.g_odd,
-#layout-main ul.g_list li,
-#layout-main ul.g_list li.g_odd,
-#layout-search .submit,
 #layout-search input.text,
 #layout-search select {
 border-color: #34394D;
@@ -17864,13 +17844,13 @@ li.g_odd + li,
 tr + tr td,
 tr + tr th,
 #layout-main #tagtree div.tag-column div.tag,
+#layout-main .g_bubble.graph div.group + div.group_odd,
+#layout-main .g_bubble.graph div.group_odd + div.group,
+#layout-main .g_bubble.graph.eps div.row + div.row,
 #layout-main div div.explanation div.description dl + dl,
 #layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
 #layout-main div.g_definitionlist tr th,
-#layout-main div.report_all div.body ul li + li,
-#layout-main div.votes_all div.graph div.group + div.group_odd,
-#layout-main div.votes_all div.graph div.group_odd + div.group,
-#layout-main div.votes_all div.graph.eps div.row + div.row {
+#layout-main div.report_all div.body ul li + li {
 border-top-color: #999999;
 }
 
@@ -17998,6 +17978,25 @@ color: #C0DAF0 !important;
 /*highlighting the current day on schedule*/
 #layout-main div.calendar_all .g_section.middle div.g_section.content.today .g_bubblewrap.g_bubble.container {
 background-color: #919BA1;
+}
+
+/*chart svg axis color*/
+.highcharts-axis-line,
+.highcharts-tick {
+stroke: #777777;
+}
+
+.highcharts-grid-line {
+stroke: #999999;
+}
+
+.highcharts-axis-labels {
+fill: #000000;
+}
+
+/*svg graph line colors*/
+.highcharts-pie-series .highcharts-point {
+stroke: #CFD1D4;
 }
 
 /*bbcode editor*/
