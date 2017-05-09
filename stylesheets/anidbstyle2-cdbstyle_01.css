@@ -14996,19 +14996,19 @@ background-color: #FFFFDF;
 #layout-main div.anime_all div.groups td.epbar div.notdone,
 #layout-main div.group_all div.group_released td.epbar div.notdone {
 background-color: #c6c3ff;
-border-bottom: 2px solid #c6c3ff;
+border-bottom: 4px solid #c6c3ff;
 }
 
 .ajax-file-upload-bar,
 #layout-main div.anime_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done {
 background-color: #6361ff;
-border-bottom: 2px solid #6361ff;
+border-bottom: 4px solid #6361ff;
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
 #layout-main div.group_all div.group_released td.epbar div.done.mylist {
-border-bottom: 2px solid #00ff00;
+border-bottom: 4px solid #00ff00;
 }
 
 .ajax-file-upload-error,
@@ -15027,11 +15027,11 @@ color: #B32947;
 }
 
 /*vote graphs*/
-#layout-main div.votes_all div.graph div.bar div.colored {
+#layout-main .g_bubble.graph div.bar div.colored {
 background-color: green;
 }
 
-#layout-main div.votes_all div.graph div.bar.my div.colored {
+#layout-main .g_bubble.graph div.bar.my div.colored {
 background-color: #CD9D29;
 }
 
@@ -15221,12 +15221,12 @@ li.g_odd + li,
 tr + tr td,
 tr + tr th,
 #layout-main #tagtree div.tag-column div.tag,
+#layout-main .g_bubble.graph div.group + div.group_odd,
+#layout-main .g_bubble.graph div.group_odd + div.group,
+#layout-main .g_bubble.graph.eps div.row + div.row,
 #layout-main div div.explanation div.description dl + dl,
 #layout-main div.g_definitionlist tr th,
-#layout-main div.report_all div.body ul li + li,
-#layout-main div.votes_all div.graph div.group + div.group_odd,
-#layout-main div.votes_all div.graph div.group_odd + div.group,
-#layout-main div.votes_all div.graph.eps div.row + div.row {
+#layout-main div.report_all div.body ul li + li {
 border-top: 1px solid;
 }
 
@@ -15372,6 +15372,10 @@ border-radius: 0 5px 0 0;
 #layout-main .g_section > form > h2,
 #layout-main .g_section > h2 {
 border-bottom: 1px solid;
+}
+
+.g_filter.right .flap {
+border-radius: 0 0 0.5em 0.5em !important;
 }
 
 @media screen and (max-width: 800px) {
