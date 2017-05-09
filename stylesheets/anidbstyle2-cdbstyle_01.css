@@ -5623,28 +5623,33 @@ flex-wrap: nowrap;
 
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1600px) {
 #layout-main div.main_all div.news.forum {
 flex-wrap: nowrap;
 }
 
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1600px) {
 #layout-main div.main_all div.news.forum.events div.latestnews,
 #layout-main div.main_all div.news.forum.what div.latestnews {
 order: 1;
-max-width: calc(100% - 20em);
+max-width: calc(100% - 50em);
+}
+
+#layout-main div.main_all div.news.forum.events div.waifu,
+#layout-main div.main_all div.news.forum.what div.waifu {
+order: 2;
 }
 
 #layout-main div.main_all div.news.forum.events div.stats,
 #layout-main div.main_all div.news.forum.what div.stats {
-order: 2;
+order: 3;
 }
 
 #layout-main div.main_all div.news.forum div.events,
 #layout-main div.main_all div.news.forum div.what {
-order: 3;
+order: 4;
 }
 
 #layout-main div.main_all div.news.forum div.events,
@@ -5663,9 +5668,21 @@ width: auto;
 
 }
 
+@media screen and (max-width: 850px) {
+#layout-main div.main_all div.news.forum div.latestnews {
+max-width: none !important;
+}
+
+#layout-main div.main_all div.news.forum div.stats,
+#layout-main div.main_all div.news.forum div.waifu {
+max-width: 50% !important;
+}
+
+}
+
 @media screen and (max-width: 550px) {
-#layout-main div.main_all div.news.forum div.latestnews,
-#layout-main div.main_all div.news.forum div.stats {
+#layout-main div.main_all div.news.forum div.stats,
+#layout-main div.main_all div.news.forum div.waifu {
 max-width: none !important;
 }
 
@@ -5712,8 +5729,7 @@ float: none;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 0;
-padding: 1em 0 0;
-height: 230px;
+padding: 1em 0.7em;
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc,
@@ -6317,10 +6333,7 @@ min-width: 6.5em;
 white-space: nowrap;
 }
 
-#layout-main div.mylist_all div.filter_menu div.settings {
-margin-top: 0.5em;
-}
-
+#layout-main div.mylist_all div.compare td,
 #layout-main div.mylist_all td.rating,
 #layout-main div.mylist_all td.stats,
 #layout-main div.mylist_all td.vote {
@@ -6346,6 +6359,11 @@ white-space: nowrap;
 
 #layout-main div.mylist_all table.eplist th {
 padding: 0 1em;
+}
+
+#layout-main div.mylist_all div.compare td:not(.title) {
+white-space: nowrap;
+min-width: 5em;
 }
 
 @media screen and (min-width: 1640px) {
@@ -6438,6 +6456,19 @@ width: 7em;
 /* user avatar, info block, and description */
 #layout-main div.userpage_all .g_section.desc img {
 max-width: 100%;
+}
+
+/*edit actions*/
+#layout-main div.userpage_all > div.g_section.info div.edit_actions {
+margin-top: -3em;
+}
+
+#layout-main div.userpage_all > div.g_section.info div.edit_actions + div.block {
+margin-top: 3em;
+}
+
+#layout-main div.userpage_all.sidebar > div.g_menu.left div.g_section.info div.edit_actions {
+margin-top: 0;
 }
 
 /*main block data*/
@@ -6595,9 +6626,9 @@ min-width: 100px;
 
 @media screen and (min-width: 1500px) {
 #layout-main div.userpage_all.sidebar .g_section.info,
-#layout-main div.userpage_all.sidebar div.block,
-#layout-main div.userpage_all.sidebar div.block > div.data,
-#layout-main div.userpage_all.sidebar div.block > div.image {
+#layout-main div.userpage_all.sidebar .g_section.info div.block,
+#layout-main div.userpage_all.sidebar .g_section.info div.block > div.data,
+#layout-main div.userpage_all.sidebar .g_section.info div.block > div.image {
 width: 24em;
 }
 
@@ -6682,10 +6713,10 @@ margin-bottom: 2em;
 }
 
 #layout-main div.userpage_all .g_section.info,
+#layout-main div.userpage_all .g_section.info div.block,
+#layout-main div.userpage_all .g_section.info div.block > div.data,
+#layout-main div.userpage_all .g_section.info div.block > div.image,
 #layout-main div.userpage_all > div.g_section,
-#layout-main div.userpage_all div.block,
-#layout-main div.userpage_all div.block > div.data,
-#layout-main div.userpage_all div.block > div.image,
 #layout-main div.userpage_all div.g_menu.left {
 width: 100%;
 float: none;
@@ -7481,10 +7512,6 @@ width: 100%
 margin-top: 0;
 }
 
-#layout-main div.tag_all div.filter_menu.expanded + div.animelist_table {
-margin-right: 17.5em;
-}
-
 #layout-main div.tag_all table.animelist th.tagged_character,
 #layout-main div.tag_all table.animelist th.tagged_episodes {
 white-space: normal;
@@ -7616,86 +7643,7 @@ width: 50%;
 white-space: nowrap;
 }
 
-/*imported from: common/layout/page/votes.css*/
-#layout-main div.votes_all,
-#layout-main div.votes_all div.graph div.header,
-#layout-main div.votes_all div.graph div.row.header div.desc {
-text-align: center;
-}
-
-#layout-main div.votes_all div.container,
-#layout-main div.votes_all div.graph div.column,
-#layout-main div.votes_all div.graph div.row > div {
-display: inline-table;
-vertical-align: top;
-}
-
-#layout-main div.votes_all div.graph {
-padding: 0.5em;
-min-width: 380px;
-}
-
-#layout-main div.votes_all div.graph div.column,
-#layout-main div.votes_all div.graph div.row div.epno,
-#layout-main div.votes_all div.graph div.row div.rating.my {
-width: 32px;
-}
-
-#layout-main div.votes_all div.graph div.column div.bar {
-height: 160px;
-padding: 2px 0;
-}
-
-#layout-main div.votes_all div.graph div.row.header div.bar {
-padding: 0;
-}
-
-#layout-main div.votes_all div.graph div.row > div div {
-float: right;
-}
-
-#layout-main div.votes_all div.graph div.row div.epno,
-#layout-main div.votes_all div.graph div.row div.rating.my {
-padding: 0 4px;
-text-align: right;
-}
-
-#layout-main div.votes_all div.graph div.row div.agerange,
-#layout-main div.votes_all div.graph div.row div.gender,
-#layout-main div.votes_all div.graph div.row div.rating {
-padding: 0 4px;
-text-align: left;
-width: 67px;
-}
-
-#layout-main div.votes_all div.graph div.row div.bar {
-padding: 2px 0;
-width: 190px;
-}
-
-#layout-main div.votes_all div.graph div.row div.bar div {
-height: 10px;
-}
-
-#layout-main div.votes_all div.graph div.header {
-padding: 5px 0;
-}
-
-#layout-main div.votes_all div.graph div.column + div.column {
-margin-left: -3px;
-}
-
-#layout-main div.votes_all div.graph div.column.desc,
-#layout-main div.votes_all div.graph div.row div.agerange,
-#layout-main div.votes_all div.graph div.row div.gender {
-width: 38px;
-}
-
 /*imported from: common/layout/page/wishlist.css*/
-#layout-main div.mywishlist_all div.filter_menu div.settings {
-margin-top: 0.5em;
-}
-
 #layout-main div.mywishlist_all tr td {
 padding-left: 0.5em;
 padding-right: 0.5em;
