@@ -710,12 +710,13 @@ word-wrap: break-word;
 margin-bottom: 0.5em;
 padding: 0.3em 0.8em 0.5em 0.5em;
 float: left;
-width: 150px;
+height: 230px;
+width: auto;
 }
 
 .g_bubble.box > div.image img {
 max-width: 150px;
-max-height: 225px;
+max-height: 230px;
 }
 
 .g_bubble.box > div.data {
@@ -844,12 +845,12 @@ max-width: 286px;
 /*imported from: common/layout/global/captcha.css*/
 #captcha {
 width: 28.5em;
-margin-left: auto;
-margin-right: auto;
+margin: auto;
+padding: 0.5em;
 }
 
 #captcha button {
-margin: 1em;
+margin-top: 0.5em;
 }
 
 /*imported from: common/layout/global/editdata.css*/
@@ -861,6 +862,7 @@ margin: 1em;
 #layout-main div.ep_all ul.links_top,
 #layout-main div.group_all ul.links_top,
 #layout-main div.manga_all ul.links_top,
+#layout-main div.mangaelement_all ul.links_top,
 #layout-main div.song_all ul.links_top,
 #layout-main div.song_all ul.links_top,
 #layout-main div.tag_all ul.links_top {
