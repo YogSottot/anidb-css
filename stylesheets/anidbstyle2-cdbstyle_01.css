@@ -1278,127 +1278,121 @@ padding: 0px 2px 0px 1px;
 clear: left;
 }
 
-#layout-main div.g_menu.filter_menu {
-width: 16.5em;
-margin-left: 1em;
-}
-
-#layout-main div.g_menu.filter_menu.collapsed {
-width: auto;
-}
-
-#layout-main div.g_menu.filter_menu div.filestatefilters,
-#layout-main div.g_menu.filter_menu div.wishlistfilters {
-margin-top: 1em;
-}
-
-#layout-main div.g_menu.filter_menu div.filestatefilters ul li,
-#layout-main div.g_menu.filter_menu div.filters ul li,
-#layout-main div.g_menu.filter_menu div.wishlistfilters ul li {
-padding: 5px;
-}
-
-#layout-main div.g_menu.filter_menu label,
-#layout-main div.g_menu.filter_menu span.options {
-display: block;
-text-align: left;
-}
-
-#layout-main div.g_menu.filter_menu div.user span.user {
-float: none;
-margin-top: 2px;
-height: 14px;
-display: block;
-}
-
-#layout-main div.g_menu.filter_menu p {
-margin-top: 0.2em;
-}
-
 #layout-nav div.menu_hr,
 #layout-search a.advsearch,
 #layout-search form.random {
 display: none;
 }
 
-#layout-main div.g_menu.filter_menu div.settings select {
+/*filter menu*/
+.g_filter + .g_msg {
+height: 100%;
+}
+
+.g_filter {
+-ms-flex-grow: 0;
+-webkit-flex-grow: 0;
+-moz-flex-grow: 0;
+flex-grow: 0;
+order: 2;
+position: relative;
+}
+
+.g_filter .content {
+width: 17.5em;
+margin-bottom: 1em;
+}
+
+.g_filter.right .content {
+margin-left: 1em;
+}
+
+.g_filter .g_section {
+clear: none;
+}
+
+.g_filter .content .g_bubble {
+box-sizing: border-box;
+margin: 0.5em;
+padding: 0.5em;
+width: calc(100% - 1em);
+}
+
+.g_filter label,
+.g_filter span.options {
+display: block;
+text-align: left;
+}
+
+.g_filter .settings input.name {
+width: calc(100% - 1em);
+}
+
+.g_filter .settings select {
 width: 100%;
 }
 
-#layout-main div.g_menu.filter_menu div.settings div.inner {
-margin-top: 0.5em;
-margin-bottom: 0.5em;
-}
-
-#layout-main div.g_menu.filter_menu div.settings input[type="text"] {
-width: 10.5em;
-}
-
-#layout-main div.g_menu.filter_menu div.settings span {
-display: block;
-margin-top: 0.3em;
+.g_filter .row {
 text-align: center;
 }
 
-#layout-main div.g_content div.filter_menu > h3 .i_icon {
-height: 16px;
+.g_filter .row + .row {
+margin-top: 0.5em;
 }
 
-#layout-main div.g_content div.filter_menu > h3 {
-margin-right: 0.5em;
+.g_filter .row > * {
+height: auto;
+margin: 0.25em 0;
 }
 
-/** Thingie to hide/show g_menu's */
-#layout-main div.filter_menu h3 a.i_icon {
-cursor: pointer;
-float: right;
-margin-top: 5px;
+.g_filter .flap {
+bottom: 5em;
+display: block;
+padding: 0.2em;
+position: fixed;
+text-align: center;
+transform: rotate(90deg);
+width: 4em;
 }
 
-/*chrome fix for the table overlapping the menu*/
-#layout-main div.filter_menu + div > form > table,
-#layout-main div.filter_menu + form > table,
-#layout-main div.filter_menu + table {
-margin: 0;
+.g_filter.right .flap {
+right: -1.3em;
+left: auto;
 }
 
-#layout-main div.filter_menu.expanded + .g_msg {
-margin-right: 18em;
-clear: none;
+.g_filter .fancybox-close {
+top: -1em;
 }
 
-#layout-main div.filter_menu.collapsed + .g_msg {
-margin-right: 3em;
-clear: none;
+.g_filter.hassettings .fancybox-close {
+top: 2em;
 }
 
-@media screen and (max-width: 800px) {
-#layout-main div.g_menu.filter_menu {
-display: block !important;
+.g_filter.right .fancybox-close {
+left: auto;
+right: -1em;
 }
 
-#layout-main div.latest2_all div.filter_menu,
-#layout-main div.mylist_all div.g_menu.filter_menu,
-#layout-main div.mywishlist_all div.g_menu.filter_menu {
-display: none !important;
+/*overlay*/
+.g_overlaymenu {
+position: absolute;
+top: 2em;
+z-index: 10000;
 }
 
-#layout-main div.latest2_all div.filter_menu ~ div.content {
-margin-right: 0 !important;
+.g_overlaymenu.right {
+left: auto;
+right: 0;
 }
 
+.g_overlaymenu.right .fancybox-close {
+left: -10px;
+right: auto;
+top: -2em;
 }
 
-@media screen and (max-width: 635px) {
-#layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
-margin-right: 0 !important;
-}
-
-#layout-main div.calendar_all .g_section.middle div.filter_menu,
-#layout-main div.g_menu.filter_menu {
-display: none !important;
-}
-
+.g_overlaymenu .content {
+width: 21em;
 }
 
 /*imported from: common/layout/global/msg.css*/
@@ -1578,27 +1572,27 @@ margin-right: 0;
 }
 
 #layout-main .sidebar .g_section.info,
-#layout-main .sidebar div.block,
-#layout-main .sidebar div.block > div.data,
-#layout-main .sidebar div.block > div.image {
+#layout-main .sidebar .g_section.info div.block,
+#layout-main .sidebar .g_section.info div.block > div.data,
+#layout-main .sidebar .g_section.info div.block > div.image {
 min-width: 0;
 width: 40.5em;
 }
 
-#layout-main .sidebar div.block {
+#layout-main .sidebar .g_section.info div.block {
 flex-wrap: wrap;
 }
 
-#layout-main .sidebar div.block > div.data {
+#layout-main .sidebar .g_section.info div.block > div.data {
 margin-top: 1em;
 margin-right: 0;
 }
 
-#layout-main .sidebar div.block > div.image {
+#layout-main .sidebar .g_section.info div.block > div.image {
 margin: 0;
 }
 
-#layout-main .sidebar div.block > div.image img {
+#layout-main .sidebar .g_section.info div.block > div.image img {
 max-width: 40em;
 height: auto;
 }
@@ -3046,8 +3040,18 @@ vertical-align: middle;
 clear: none;
 }
 
+/*bans*/
 #layout-main div.admin_all div.bans div.g_definitionlist tr th {
 width: 25em;
+}
+
+#layout-main div.admin_all div.bans table.banlist .cnt,
+#layout-main div.admin_all div.bans table.banlist .id {
+width: 5em;
+}
+
+#layout-main div.admin_all div.bans table.banlist .date {
+width: 10em;
 }
 
 /*searchassist*/
@@ -3203,7 +3207,7 @@ width: 30%;
 
 #layout-main div.anime_all div.groups td.epbar > div div {
 float: left;
-height: 8px;
+height: 10px;
 }
 
 #layout-main div.anime_all div.episodes table.eplist th.title {
@@ -3714,7 +3718,7 @@ white-space: nowrap;
 }
 
 @media screen and (max-width: 1050px) {
-#layout-main div.animelist_all form {
+#layout-main div.animelist_all div.animelist_table {
 overflow: auto;
 }
 
@@ -3858,14 +3862,6 @@ text-align: center;
 margin-top: -2.3em;
 }
 
-#layout-main div.calendar_all .g_section.middle div.filter_menu ~ div.content {
-margin-right: 17.5em;
-}
-
-#layout-main div.calendar_all .g_section.middle div.filter_menu.collapsed ~ div.content {
-margin-right: 2.5em;
-}
-
 #layout-main div.calendar_all .g_section.bottom,
 #layout-main div.calendar_all .g_section.top {
 height: 2em;
@@ -3883,6 +3879,19 @@ max-width: 550px;
 
 #layout-main div.calendar_all .g_section.middle div.g_section.content {
 clear: none;
+}
+
+/*ie sucks as usual*/
+.internet_explorer#anidb .calendar_all .g_bubblewrap.nowrap {
+display: block;
+}
+
+.internet_explorer#anidb .calendar_all .middle .g_filter {
+float: right;
+}
+
+.internet_explorer#anidb .calendar_all .middle .g_filter + .content {
+margin-right: 18.5em;
 }
 
 @media screen and (min-width: 640px) and (max-width: 950px) {
@@ -3915,11 +3924,6 @@ padding-left: 1em;
 /*imported from: common/layout/page/clublist.css*/
 #layout-main div.clublist_all table.clublist th.name {
 width: 98%
-}
-
-#layout-main div.clublist_all div.note {
-clear: none;
-margin-right: 17em;
 }
 
 #layout-main div.clublist_all table.clublist tr td {
@@ -3978,7 +3982,7 @@ display: inline;
 float: left;
 margin: 0.4em 0.8em 0.8em;
 min-height: 10em;
-width: 11.5em;
+width: 12.5em;
 }
 
 #layout-main div.cmt_entries div.profile div {
@@ -3996,12 +4000,16 @@ min-height: 40px;
 padding-top: 1.6em;
 }
 
-#layout-main div.cmt_entries div.profile div.user_icons span.icons {
+#layout-main div.cmt_entries div.profile div.user_icons .icons {
 float: none;
 }
 
+#layout-main div.cmt_entries div.profile div.user_icons .i_icon {
+margin: 0.15em !important;
+}
+
 #layout-main div.cmt_entries div.postbody div.content {
-margin-left: 13em;
+margin-left: 14em;
 margin-right: 1em;
 }
 
@@ -4140,7 +4148,7 @@ width: auto;
 }
 
 #layout-main div.forum div.navbar span.icons {
-padding-top: .5em;
+padding-top: .25em;
 }
 
 #layout-main div.forum div.g_bubble.navbar div.bottom {
@@ -5136,8 +5144,9 @@ white-space: pre-wrap;
 }
 
 /*imported from: common/layout/page/export.css*/
-#layout-main div.export_all div.exportblock + div.exportblock {
-margin-top: 1em;
+#layout-main div.export_all div.exportblock {
+margin: 0.5em;
+width: 50em;
 }
 
 #layout-main div.export_all div.exportblock div.content {
@@ -5266,7 +5275,7 @@ text-align: right;
 }
 
 #layout-main div.group_all table.animelist td.action {
-min-width: 8em;
+min-width: 9em;
 }
 
 #layout-main div.group_all div.group_released table#releases th.action {
@@ -5299,7 +5308,7 @@ min-width: 10em;
 
 #layout-main div.group_all div.group_released td.epbar > div div {
 float: left;
-height: 8px;
+height: 10px;
 }
 
 #layout-main div.group_all h2 + h4 {
@@ -5399,14 +5408,6 @@ margin-top: 1em;
 #layout-main div.latest2_all div.content h4 {
 font-size: 1.4rem;
 text-align: left;
-}
-
-#layout-main div.latest2_all div.filter_menu ~ div.content {
-margin-right: 17.5em;
-}
-
-#layout-main div.latest2_all div.filter_menu.collapsed ~ div.content {
-margin-right: 0;
 }
 
 #layout-main div.latest2_all div.content table.filelist td.group {
@@ -5560,9 +5561,18 @@ max-height: 20.5em;
 overflow: hidden;
 }
 
+#layout-main div.main_all div.news.forum .latestnews img {
+max-width: 99%;
+}
+
 #layout-main div.main_all div.news.forum .stats {
 min-width: 20em;
 max-width: 20em;
+}
+
+#layout-main div.main_all div.news.forum .waifu {
+min-width: 30em;
+max-width: 30em;
 }
 
 #layout-main div.main_all div.news.forum .g_bubble.stripe {
