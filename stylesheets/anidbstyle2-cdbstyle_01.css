@@ -239,6 +239,12 @@ float: none;
 width: 16px;
 }
 
+#layout-main .g_bubble.box .name span.icons.tooltip + a,
+#layout-main .g_bubble.stripe .name span.icons.tooltip + a,
+#layout-main div table td.name span.icons.tooltip + a {
+line-height: 16px;
+}
+
 #layout-main .g_bubble.box .name span.icons.tooltip .i_info,
 #layout-main .g_bubble.stripe .name span.icons.tooltip .i_info,
 #layout-main div table td.name span.icons.tooltip .i_info {
@@ -354,6 +360,11 @@ display: block;
 margin-top: 1.2em;
 }
 
+h1 + span.icons {
+margin-top: -4em;
+margin-right: 1em;
+}
+
 @media screen and (max-width: 600px) {
 #layout-main .g_bubble.box .name span.icons.tooltip,
 #layout-main .g_bubble.stripe .name span.icons.tooltip,
@@ -406,6 +417,11 @@ min-width: 400px;
 text-align: center;
 margin-right: 1em;
 margin-left: 1.5em;
+}
+
+#anidb div.block > div.image > div.container {
+position: relative;
+display: inline-block;
 }
 
 #anidb div.block > div.data {
@@ -566,6 +582,13 @@ flex-wrap: wrap;
 justify-content: center;
 }
 
+.g_bubblewrap.nowrap {
+-webkit-flex-wrap: nowrap;
+-ms-flex-wrap: nowrap;
+-moz-flex-wrap: nowrap;
+flex-wrap: nowrap;
+}
+
 .g_bubblewrap > * {
 -ms-flex-grow: 1;
 -webkit-flex-grow: 1;
@@ -579,6 +602,12 @@ flex-grow: 1;
 -webkit-flex-grow: 0;
 -moz-flex-grow: 0;
 flex-grow: 0;
+}
+
+#anidb.internet_explorer .g_bubblewrap > .graph.g_bubble,
+#anidb.internet_explorer .g_progressbar.g_bubblewrap > * {
+-ms-flex-grow: 1;
+flex-grow: 1;
 }
 
 .g_bubblewrap > .g_msg {
