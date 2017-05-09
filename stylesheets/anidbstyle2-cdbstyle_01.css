@@ -9882,6 +9882,19 @@ ul.format-modes li {
 background-color: rgb(191, 194, 201);
 }
 
+/*image overlay*/
+.g_image_overlay.add {
+border-right-color: #007D00;
+}
+
+.g_image_overlay.delete {
+border-right-color: #9a0f0c;
+}
+
+.g_image_overlay > a {
+color: white !important;
+}
+
 /*imported from: common/style/color/timeline-default.css*/
 #layout-main div.timeline_all div.timeline div.g_timeline {
 border: 5px solid #777777;
@@ -9908,6 +9921,46 @@ color: #333333;
 background: #dfdfdf;
 }
 
+/*imported from: common/style/color/graph-default.css*/
+.g_progressbar {
+border-radius: 5px;
+}
+
+.g_progressbar .segment:first-child,
+.g_progressbar .segment:first-child > * {
+border-radius: 5px 0 0 5px;
+}
+
+.g_progressbar .segment:last-child,
+.g_progressbar .segment:last-child > * {
+border-radius: 0 5px 5px 0;
+}
+
+.g_progressbar {
+border: 1px solid;
+}
+
+.g_progressbar .segment {
+background-color: #E8E8E8;
+}
+
+.g_progressbar .segment .colored {
+background-color: #2484c1;
+}
+
+.g_progressbar .segment.done .colored {
+background-color: green;
+}
+
+.g_bubble.graph div.bar .colored:hover,
+.g_progressbar .segment .colored:hover {
+opacity: 0.6;
+}
+
+.g_progressbar {
+border-color: #BBBBBB;
+}
+
 /*imported from: common/style/text/default.css*/
 html {
 font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
@@ -9919,6 +9972,7 @@ span.i_icon[title] {
 cursor: help;
 }
 
+.g_filter .flap,
 a.i_icon:after,
 a.i_icon:before,
 button.i_icon:after,
@@ -10114,6 +10168,7 @@ padding: 1px 2px;
 text-transform: capitalize;
 }
 
+.g_filter .flap,
 #layout-main div.forum li.header div.segment,
 #statusBox {
 font-family: Arial,Helvetica,sans-serif;
@@ -10386,6 +10441,11 @@ span.test,
 user-select: none;
 }
 
+.g_filter .flap {
+font-size: 1.7rem;
+letter-spacing: 1px;
+}
+
 @media screen and (max-width: 800px) {
 #layout-main .g_datatable table td:before,
 #layout-main .g_datatable table tr td.name.main > a {
@@ -10477,6 +10537,14 @@ height: 14px;
 margin-left: 1px;
 margin-right: 0;
 vertical-align: middle;
+image-rendering: optimizeSpeed;             /* Legal fallback */
+image-rendering: -moz-crisp-edges;          /* Firefox        */
+image-rendering: -o-crisp-edges;            /* Opera          */
+image-rendering: -webkit-optimize-contrast; /* Safari         */
+image-rendering: optimize-contrast;         /* CSS3 Proposed  */
+image-rendering: crisp-edges;               /* CSS4 Proposed  */
+image-rendering: pixelated;                 /* CSS4 Proposed  */
+-ms-interpolation-mode: nearest-neighbor;   /* IE8+           */
 }
 
 .i_flag {
