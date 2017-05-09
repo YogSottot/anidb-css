@@ -908,6 +908,161 @@ display: none;
 
 }
 
+/*imported from: common/layout/global/graphs.css*/
+.g_bubble.graph > div.container {
+min-height: 27.5em;
+}
+
+.g_bubble.graph .voteoption {
+width: 15em;
+}
+
+.g_bubble.graph .voteoption + .voteoption {
+margin-left: 2em;
+}
+
+.g_bubble.graph div.header,
+.g_bubble.graph div.row.header div.desc {
+text-align: center;
+}
+
+.g_bubble.graph div.column,
+.g_bubble.graph div.row > div {
+display: inline-table;
+vertical-align: top;
+}
+
+.g_bubble.graph {
+padding: 0.5em;
+min-width: 30em;
+}
+
+.g_bubble.graph.maxwidth {
+width: 100%;
+}
+
+.g_bubble.graph div.row div.agerange,
+.g_bubble.graph div.row div.epno,
+.g_bubble.graph div.row div.gender,
+.g_bubble.graph div.row div.rating.my {
+width: 4em;
+}
+
+.g_bubble.graph div.column {
+width: 4.5em;
+max-width: 4.5em;
+}
+
+.g_bubble.graph div.column div.bar {
+height: 20em;
+padding: 0.2em 0;
+}
+
+.g_bubble.graph div.row.header div.bar {
+padding: 0;
+}
+
+.g_bubble.graph div.row > div div {
+float: right;
+}
+
+.g_bubble.graph div.row div.epno,
+.g_bubble.graph div.row div.rating.my {
+padding: 0 0.5em;
+text-align: right;
+}
+
+.g_bubble.graph div.row div.agerange,
+.g_bubble.graph div.row div.gender,
+.g_bubble.graph div.row div.rating {
+padding: 0 0.5em;
+text-align: left;
+width: 7em;
+}
+
+.g_bubble.graph div.row div.bar {
+padding: 0.2em 0;
+width: 20em;
+}
+
+.g_bubble.graph div.row div.bar div {
+height: 1em;
+}
+
+.g_bubble.graph div.header {
+padding: 0.5em 0;
+}
+
+.g_bubble.graph div.column + div.column {
+margin-left: -3px;
+}
+
+.g_bubblewrap > .g_bubble.graph {
+margin: 0.5em;
+}
+
+#anidb.internet_explorer .graph.g_bubble div.column + div.column {
+margin-left: -2px;
+}
+
+/*progress bar*/
+.g_progressbar.g_bubblewrap {
+-webkit-flex-wrap: nowrap;
+-ms-flex-wrap: nowrap;
+-moz-flex-wrap: nowrap;
+flex-wrap: nowrap;
+}
+
+.g_progressbar {
+width: 100%;
+padding: 1px;
+}
+
+.g_progressbar .segment {
+height: 2em;
+}
+
+.g_progressbar .segment .colored {
+height: 100%;
+}
+
+.g_progressbar .segment + .segment {
+padding-left: 1px;
+}
+
+/*responsive graphs on userpage - should port that everywhere at some point*/
+.userpage_all .g_bubble.graph {
+width: calc(50% - 2em);
+}
+
+.userpage_all .g_bubble.graph.votes > div {
+-webkit-flex-wrap: nowrap;
+-ms-flex-wrap: nowrap;
+-moz-flex-wrap: nowrap;
+flex-wrap: nowrap;
+}
+
+.userpage_all .g_bubble.graph.votes div.column {
+display: block;
+}
+
+.userpage_all .g_bubble.graph.votes div.column + div.column {
+margin-left: 0.1em;
+}
+
+.userpage_all .g_bubble.graph.votes div.column div.bar {
+height: calc(100% - 5.5em);
+}
+
+@media screen and (max-width: 1000px) {
+.g_bubble.graph,
+.userpage_all .g_bubble.graph {
+min-width: 0;
+width: 100%;
+}
+
+}
+
 /*imported from: common/layout/global/image.css*/
 .g_image.missing.missing:after {
 color: #999999;
@@ -1001,6 +1156,23 @@ td.thumb > a img {
 max-width: 5em;
 }
 
+/*image ovrelay*/
+.g_image_overlay {
+border-color: transparent;
+border-style: solid;
+border-width: 0 50px 50px;
+bottom: auto;
+left: auto;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+.g_image_overlay > a {
+margin: 0.4em 0em 0 2.1em;
+position: absolute;
+}
+
 /*imported from: common/layout/global/list.css*/
 #layout-main ul.g_list {
 clear: both;
@@ -1042,6 +1214,7 @@ list-style-type: decimal;
 .wysibb-body ul,
 #layout-main ul.g_styledlist {
 list-style-type: disc;
+width: auto !important;
 }
 
 .wysibb-body ol,
