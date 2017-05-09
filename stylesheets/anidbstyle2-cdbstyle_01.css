@@ -17230,7 +17230,7 @@ margin-left: -11px;
 #layout-main div.tabbed_pane div.body {
 margin-top: -1px;
 }
-
+/*don't touch next line, orange buttons on forum will be damaged*/
 #layout-main h2 + div.edit_actions {
 margin-top: -2.8em;
 }
@@ -17244,7 +17244,7 @@ margin-top: -3.1em;
 }
 
 .g_button a {
-padding: 0;
+padding: 0px 3px 0px;
 }
 
 /*imported from: aniidiot/anidbstyle2/anidbstyle2-border.css*/
