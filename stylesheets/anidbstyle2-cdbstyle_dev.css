@@ -16197,14 +16197,8 @@ background-image: url(https://static.anidb.net/css/icons/flags/subtitle_chinese-
 /*imported from: icons/general.css*/
 .i_help {
 background: url(https://static.anidb.net/css/icons/orange/ask2.gif) no-repeat right;
-cursor: help; /* just for teh funs */
-}
-
-.i_enlarge {
-background-image: url(https://static.anidb.net/css/icons/orange/enlarge.png);
-float: right;
-height: 11px;
-padding-top: 5px;
+cursor: help;
+/* just for teh funs */
 }
 
 .i_comment {
@@ -16213,11 +16207,6 @@ background-image: url(https://static.anidb.net/css/icons/icon/anidb_comment.gif)
 
 .i_summary {
 background-image: url(https://static.anidb.net/css/icons/icon/anidb_summary.gif);
-}
-
-.i_no_vote,
-.i_report_entry {
-background-image: url(https://static.anidb.net/css/icons/icon/anidb_no_vote.gif);
 }
 
 .i_nonotify {
@@ -16251,11 +16240,11 @@ width: 5px;
 background-image: url(https://static.anidb.net/css/icons/orange/sort.gif);
 }
 
-.i_vote {
+.i_general_vote {
 background-image: url(https://static.anidb.net/css/icons/orange/anidb_vote.gif);
 }
 
-.i_revote {
+.i_general_vote_revote {
 background-image: url(https://static.anidb.net/css/icons/orange/anidb_revote.gif);
 }
 
@@ -16277,13 +16266,24 @@ height: 16px;
 width: 16px;
 }
 
+.i_patreon_button {
+background-image: url(https://static.anidb.net/css/icons/icon/patreon_button.png);
+height: 35px;
+width: 149px;
+}
+
+.i_crunchyroll:hover,
+.i_patreon_button:hover {
+opacity: 0.7;
+}
+
 .i_inactive:not(.sorter-false),
 th.c_date,
 th.c_latin,
 th.c_number,
 th.c_set,
 th.c_setlatin {
-background-image: url(https://static.anidb.net/css/icons/test/arrow_inactive.png);
+background-image: url(https://static.anidb.net/css/icons/orange/arrow_inactive.png);
 background-repeat: no-repeat;
 background-attachment: scroll;
 background-position: center left;
@@ -16292,7 +16292,7 @@ padding-left: 11px;
 
 .i_descending,
 th.s_forward {
-background-image: url(https://static.anidb.net/css/icons/test/arrow_down.png);
+background-image: url(https://static.anidb.net/css/icons/orange/arrow_down.png);
 background-repeat: no-repeat;
 background-position: center left;
 padding-left: 11px;
@@ -16300,7 +16300,7 @@ padding-left: 11px;
 
 .i_ascending,
 th.s_reverse {
-background-image: url(https://static.anidb.net/css/icons/test/arrow_up.png);
+background-image: url(https://static.anidb.net/css/icons/orange/arrow_up.png);
 background-repeat: no-repeat;
 background-position: center left;
 padding-left: 11px;
@@ -16314,29 +16314,78 @@ background: transparent url(https://static.anidb.net/css/icons/formating/icon_co
 background: transparent url(https://static.anidb.net/css/icons/formating/icon_expand.gif) top right no-repeat;
 }
 
-#loading {
-background: #000 url(https://static.anidb.net/css/icons/libs/jquery.fancybox/fancybox_loading.gif) no-repeat scroll center center;
-}
-
-#overlay {
-background: transparent url(https://static.anidb.net/css/icons/libs/jquery.fancybox/fancybox_overlay.png) repeat scroll 0% 0%;
-}
-
 .i_noavatar {
-background-image: url(https://static.anidb.net/css/icons/icon/noavatar_black.png);
-width: 72px;
-height: 72px;
+background-image: url(https://static.anidb.net/css/icons/icon/noavatar_black.png?v=2018-04-13);
+width: 100px;
+height: 100px;
 display: inline-block;
 }
 
 .i_noavatar_thumb {
-background-image: url(https://static.anidb.net/css/icons/icon/noavatar_thumb_black.png);
+background-image: url(https://static.anidb.net/css/icons/icon/noavatar_thumb_black.png?v=2018-04-13);
 width: 50px;
 height: 50px;
 display: inline-block;
 }
 
-/*imported from: icons/group.css*/
+.fancybox-close {
+background-image: url(https://static.anidb.net/css/icons/libs/jquery.fancybox/fancybox_sprite.png);
+position: absolute;
+top: -18px;
+right: -18px;
+width: 36px;
+height: 36px;
+z-index: 8040;
+}
+
+/*imported from: icons/legacy.css*/
+.i_tv_series {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_tv_series.gif);
+}
+
+.i_movie {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_movie.gif);
+}
+
+.i_ova {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_ova.gif);
+}
+
+.i_web {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_web.gif);
+}
+
+.i_tv_special {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_tv_special.gif);
+}
+
+.i_music_video {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_music_video.gif);
+}
+
+.i_other,
+.i_unknown {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_other.gif);
+}
+
+.i_recap {
+background-image: url(https://static.anidb.net/css/icons/icon/anidb_recap.gif);
+}
+
 .i_gstate_complete {
 background-image: url(https://static.anidb.net/css/icons/state/anidb_gstate_complete.gif);
 }
@@ -16367,6 +16416,10 @@ background-image: url(https://static.anidb.net/css/icons/state/anidb_gstate_all.
 
 .i_group_comment {
 background-image: url(https://static.anidb.net/css/icons/silk/comment_add.png);
+}
+
+.i_ep_edit {
+background-image: url(https://static.anidb.net/css/icons/icon/anidb_ep_edit.gif);
 }
 
 /*imported from: icons/mylist.css*/
@@ -17169,58 +17222,6 @@ width: 16px;
 background-image: url(https://static.anidb.net/css/icons/silk/general_remove.png);
 height: 16px;
 width: 16px;
-}
-
-/*imported from: icons/videostream.css*/
-.i_videostream,
-.i_videostream_asp_other,
-.i_videostream_mpeg_1,
-.i_videostream_mpeg_2,
-.i_videostream_other__non_asp_,
-.i_videostream_realvideo_other,
-.i_videostream_unknown,
-.i_videostream_wmv9__also_wmv3_ {
-background-image: url(https://static.anidb.net/css/icons/icon/anidb_videoStream.gif);
-}
-
-.i_videostream_realvideo_9_10__also_rv40_,
-.i_videostream_realvideo_other {
-width: 20px;
-background-repeat: repeat-x;
-background-position: left;
-background-image: url(https://static.anidb.net/css/icons/icon/anidb_videoStream_real.gif);
-}
-
-.i_videostream_ms_mp4x__also_wmv1_2_,
-.i_videostream_wmv9__also_wmv3_ {
-width: 20px;
-background-repeat: repeat-x;
-background-position: left;
-background-image: url(https://static.anidb.net/css/icons/icon/anidb_videoStream_wmv.gif);
-}
-
-.i_videostream_divx3,
-.i_videostream_divx4,
-.i_videostream_divx5__also_divx6_,
-.i_videostream_divx__unk {
-width: 20px;
-background-image: url(https://static.anidb.net/css/icons/icon/anidb_videoStream_divx.gif);
-background-repeat: repeat-x;
-background-position: left;
-}
-
-.i_videostream_xvid {
-width: 20px;
-background-image: url(https://static.anidb.net/css/icons/icon/anidb_videoStream_xvid.gif);
-background-repeat: repeat-x;
-background-position: left;
-}
-
-.i_videostream_h264_avc {
-width: 20px;
-background-image: url(https://static.anidb.net/css/icons/icon/anidb_videoStream_h264.gif);
-background-repeat: repeat-x;
-background-position: left;
 }
 
 /*imported from: icons/wishlist.css*/
