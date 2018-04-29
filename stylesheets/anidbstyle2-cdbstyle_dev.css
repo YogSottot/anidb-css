@@ -17393,35 +17393,488 @@ line-height: 16px;
 margin: 0;
 }
 
-#layout-tabs ul li:first-child {
-margin-left: 6px;
+.i_icon.brand {
+font-family: 'Font Awesome 5 Pro Brands',Arial,Helvetica,sans-serif !important;
 }
 
-/*imported from: common/style/color/status-pastel.css*/
-#layout-main div.addcreatoranimerel_all tr.left_only,
-#layout-main div.addcreatorsongrel_all tr.left_only,
-#layout-main div.myvotes_all table tr td.low,
-#layout-main div.timeline_all .liststate_stalled,
-#layout-main input.exclude,
-#layout-main table.file.entities tr.deprecated,
-#layout-main table.file.entities tr.invalid,
-#layout-main table.filelist tr.deprecated,
-#layout-main table.filelist tr.invalid,
-#layout-main td del,
-#layout-main tr.g_fs_lame {
-background-color: #D6B8B8;
+.i_moveable::before,
+button:not(.fancybox-close-small)::before,
+#layout-main div.creq_all .links a::before,
+#layout-main div.edit_actions span > *::before,
+#layout-main div.msg_all div.buttons li a::before,
+#layout-main ul.g_list li a::before,
+#layout-main ul.g_list li span.nolink::before,
+#layout-tabs ul li a::before {
+padding-right: 6px;
 }
 
-#layout-main .different,
-#layout-main div.addcreatoranimerel_all tr.right_only,
-#layout-main div.addcreatorsongrel_all tr.right_only,
-#layout-main div.myvotes_all table tr.g_odd td.low,
-#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_stalled,
-#layout-main table.file.entities tr.g_odd.deprecated,
-#layout-main table.file.entities tr.g_odd.invalid,
-#layout-main table.filelist tr.g_odd.deprecated,
-#layout-main table.filelist tr.g_odd.invalid {
-background-color: #CC9999;
+button:not(.fancybox-close-small)::before,
+#layout-main ul.g_list li.submit a::before {
+content: "\f00c";
+font-weight: 900;
+}
+
+.i_topic_unlock::before {
+content: "\f09c";
+font-weight: 900;
+}
+
+.i_topic_lock::before,
+.i_topic_locked::before {
+content: "\f023";
+font-weight: 900;
+}
+
+.i_comment_add::before,
+.i_topic_add::before {
+content: "\f086";
+font-weight: 900;
+}
+
+.i_comment_revisions::before {
+content: "\f044";
+font-weight: 900;
+}
+
+.i_comment_move::before,
+.i_topic_move::before,
+#layout-main ul.g_list li.move a::before {
+content: "\f047";
+}
+
+.i_comment_edit::before,
+.i_forum_edit::before,
+button.default::before,
+button.edit::before,
+button.update::before,
+#layout-main div.edit_actions span.modify > *::before,
+#layout-main ul.g_list li.edit a::before {
+content: "\f040";
+font-weight: 900;
+}
+
+.i_comment_quote::before {
+content: "\f10d";
+font-weight: 900;
+}
+
+.i_comment_info::before,
+#layout-main ul.g_list li.help a::before,
+#layout-main ul.g_list li.info a::before {
+content: "\f05a";
+font-weight: 900;
+}
+
+.i_comment_setactive::before {
+content: "\f0ec";
+font-weight: 900;
+}
+
+#layout-main div.creq_all .creq_buttons button.deny::before,
+#layout-main ul.g_list li.abort a::before,
+#layout-main ul.g_list li.cancel a::before {
+content: "\f05e";
+font-weight: 900;
+}
+
+.g_button .i_general_delete::before,
+.i_comment_creq::before,
+.i_comment_delete::before,
+.i_forum_delete::before,
+.i_mylist_delete::before,
+.i_pm_delete::before,
+.i_topic_delete::before,
+.i_wishlist_delete::before,
+button.delete::before,
+button.toast-close-button::before,
+#layout-main div.msg_all div.buttons button.delete::before,
+#layout-main div.msg_all div.buttons li.delete a::before,
+#layout-main ul.g_list li.delete a::before {
+content: "\f00d";
+font-weight: 900;
+}
+
+.i_comment_undelete::before,
+.i_topic_undelete::before {
+content: "\f021";
+font-weight: 900;
+}
+
+.i_comment_report::before {
+content: "\f024";
+font-weight: 900;
+}
+
+.i_topic_history::before,
+#layout-main ul.g_list li.history a::before {
+content: "\f1da";
+font-weight: 900;
+}
+
+.i_topic_split::before {
+content: "\f0ec";
+}
+
+.i_topic_subscribe::before,
+.i_topic_unsubscribe::before {
+content: "\f09e";
+font-weight: 900;
+}
+
+button.search::before,
+#layout-search .submit::before {
+content: "\f002";
+font-weight: 900;
+}
+
+button.random::before {
+content: "\f074";
+}
+
+#layout-main ul.g_list li.back a::before,
+#layout-main ul.g_list li.show a::before {
+content: "\f3e5";
+font-weight: 900;
+}
+
+.i_forum_group::before,
+button.reboot::before,
+#layout-main ul.g_list li.convert a::before,
+#layout-main ul.g_list li.reload a::before {
+content: "\f021";
+font-weight: 900;
+}
+
+.toast .i_general_list::before,
+#layout-main div.creq_all .links .creq_list a::before,
+#layout-main div.edit_actions span.show > *::before,
+#layout-main ul.g_list li.latest a::before,
+#layout-main ul.g_list li.list a::before {
+content: "\f0c9";
+font-weight: 900;
+font-size: 1.19rem;
+vertical-align: top;
+}
+
+#layout-main div.creq_all .links .next_creq a::before,
+#layout-main div.creq_all .links .next_new_creq a::before {
+content: "\f061";
+font-weight: 900;
+}
+
+button.set_default::before,
+#layout-main div.creq_all .creq_buttons button.lock::before {
+content: "\f023";
+font-weight: 900;
+}
+
+#layout-main div.creq_all .creq_buttons button.unlock::before {
+content: "\f09c";
+font-weight: 900;
+}
+
+#layout-main div.creq_all .creq_buttons button.revert::before,
+#layout-main div.creq_all .creq_buttons button.revoke::before {
+content: "\f0e2";
+font-weight: 900;
+}
+
+#layout-main div.creq_all .creq_buttons button.assign::before {
+content: "\f234";
+font-weight: 900;
+}
+
+#layout-main div.creq_all .creq_messages button.reply::before {
+content: "\f3e5";
+font-weight: 900;
+}
+
+.i_comment::after,
+#layout-main div.creq_all .creq_messages button.note::before {
+content: "\f15b";
+font-weight: 300;
+}
+
+#layout-main div.creq_all .creq_messages button.annotation::before {
+content: "\f044";
+font-weight: 900;
+}
+
+button.reset::before,
+#layout-main ul.g_list li.reset a::before {
+content: "\f0e2";
+font-weight: 900;
+}
+
+button.next::before,
+button.right::before,
+#layout-main ul.g_list li.next a::before,
+#layout-main ul.g_list li.next span.nolink::before {
+content: "\f061";
+font-weight: 900;
+}
+
+button.left::before,
+button.prev::before,
+#layout-main ul.g_list li.prev a::before,
+#layout-main ul.g_list li.prev span.nolink::before {
+content: "\f060";
+font-weight: 900;
+}
+
+#layout-tabs ul li a::before {
+content: "\f07b";
+font-weight: 900;
+}
+
+.i_pm_reply::before,
+button.reply::before,
+#layout-main div.msg_all div.buttons li.new a::before,
+#layout-main div.msg_all ul.g_list li.sent a::before {
+content: "\f0e0";
+font-weight: normal;
+}
+
+button.load::before {
+content: "\f07c";
+font-weight: normal;
+}
+
+#layout-main ul.g_list li.stats a::before {
+content: "\f080";
+font-weight: 900;
+}
+
+#layout-main ul.g_list li.relations a::before,
+#layout-main ul.g_list li.votes a::before {
+content: "\f201";
+font-weight: 900;
+}
+
+#layout-main ul.g_list li.export a::before {
+content: "\f08e";
+}
+
+.i_forum_add::before,
+.i_review_add::before,
+button.add::before,
+#layout-main div.edit_actions span.add > *::before,
+#layout-main ul.g_list li.add a::before {
+content: "\f067";
+font-weight: 900;
+}
+
+button.ratenow::before,
+button.tmpratenow::before,
+button.vote::before {
+content: "\f164";
+font-weight: normal;
+}
+
+#layout-main ul.g_list li.merge a::before {
+content: "\f422";
+font-weight: 900;
+}
+
+button.up::before {
+content: "\f062";
+font-weight: 900;
+}
+
+button.down::before {
+content: "\f063";
+font-weight: 900;
+}
+
+#layout-main ul.g_list li.users a::before {
+content: "\f0c0";
+font-weight: 900;
+}
+
+.g_button.upload a::before,
+button.upload {
+content: "\f093";
+font-weight: 900;
+}
+
+#layout-main ul.g_list li.filter a::before {
+content: "\f0b0";
+font-weight: 900;
+}
+
+.i_topic_read::before,
+button.preview::before,
+button.toggle_visible::before {
+content: "\f06e";
+font-weight: normal;
+}
+
+.i_moveable::before {
+content: "\f047";
+}
+
+/*image only - no text*/
+.i_comment,
+.i_favourites,
+.i_favourites_no,
+.i_general_list,
+.i_general_settings,
+.i_help,
+.i_info,
+.i_liststate_edit,
+.i_minus,
+.i_mylist_add,
+.i_mylist_delete,
+.i_mylist_edit,
+.i_mylist_no,
+.i_plus,
+.i_recap,
+.i_summary,
+.i_tab_collapse,
+.i_tab_default,
+.i_tab_expand,
+.i_tab_reset,
+.i_top,
+.i_view_grid,
+.i_view_list,
+.i_view_smallgrid,
+.i_waifu_add,
+.i_waifu_delete,
+.i_wishlist,
+.i_wishlist_add,
+.i_wishlist_delete,
+.i_wishlist_edit,
+.toast-close-button {
+height: auto;
+width: 16px;
+font-size: 1.33rem;
+}
+
+.i_plus::after {
+content: "\f0fe";
+font-weight: 900;
+cursor: pointer;
+/*for spans generated by ajax*/
+}
+
+.i_minus::after {
+content: "\f146";
+font-weight: 900;
+cursor: pointer;
+/*for spans generated by ajax*/
+}
+
+.i_info::after {
+content: "\f05a";
+font-weight: 900;
+}
+
+.i_help::after {
+content: "\f059";
+font-weight: 900;
+cursor: help;
+}
+
+.i_top::after {
+content: "\f0aa";
+font-weight: 900;
+}
+
+.i_liststate_edit::after {
+content: "\f044";
+font-weight: 900;
+}
+
+.i_general_list::after {
+content: "\f0c9";
+font-weight: 900;
+font-size: 1.19rem;
+vertical-align: top;
+}
+
+.i_tab_collapse::after {
+content: "\f068";
+font-weight: 900;
+}
+
+.i_tab_expand::after {
+content: "\f067";
+font-weight: 900;
+}
+
+.i_tab_default::after {
+content: "\f004";
+font-weight: 900;
+}
+
+.i_tab_reset::after {
+content: "\f05e";
+font-weight: 900;
+}
+
+.i_favourites::after {
+content: "\f005";
+font-weight: 900;
+}
+
+.i_favourites_no::after {
+content: "\f005";
+}
+
+.i_view_grid::after {
+content: "\f009";
+font-weight: 900;
+}
+
+.i_view_smallgrid::after {
+content: "\f00a";
+font-weight: 900;
+}
+
+.i_view_list::after {
+content: "\f0c9";
+font-weight: 900;
+font-size: 1.27rem;
+}
+
+.i_waifu_add::after,
+.i_waifu_add::before {
+content: "\f111";
+}
+
+.i_waifu_delete::after {
+content: "\f00d";
+font-weight: 900;
+}
+
+.toast-info::before,
+.toast-warning::before {
+content: "\f0e0";
+}
+
+.g_bubble .seiyuu a.favourite::before,
+.g_bubble.favourite > div.data div.name > a::before,
+td.name > .favourite::before,
+td.name.favourite > a::before,
+tr.favourite > td.name.anime > a::before {
+color: #ffd751;
+content: "\f005";
+font-weight: 900;
+font-size: 1.25rem;
+vertical-align: top;
+}
+
+.i_recap::after {
+content: "\f049";
+font-weight: 900;
+}
+
+.i_twitter::after {
+content: "\f099";
+}
+
+.i_patreon::after {
+content: "\f3d9";
 }
 
 .g_bubble.box.mylist > div.top,
