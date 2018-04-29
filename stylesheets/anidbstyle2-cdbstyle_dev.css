@@ -17250,7 +17250,47 @@ background-image: url(https://static.anidb.net/css/icons/silk/wishlist_remove.pn
 }
 
 .i_wishlist_edit {
-background-image: url(https://static.anidb.net/css/icons/silk/wishlist_edit.gif);
+background-image: url(https://static.anidb.net/css/icons/silk/wishlist_edit.png);
+}
+
+/*imported from: icons/fonticons.css*/
+/*https://fortawesome.github.io BEGIN*/
+@font-face {
+font-family: 'Font Awesome 5 Pro';
+font-style: normal;
+font-weight: 300;
+src: url("https://static.anidb.net/css/fonts/fa-light-300.eot");
+src: url("https://static.anidb.net/css/fonts/fa-light-300.eot?#iefix") format("embedded-opentype"), url("https://static.anidb.net/css/fonts/fa-light-300.woff2") format("woff2"), url("https://static.anidb.net/css/fonts/fa-light-300.woff") format("woff"), url("https://static.anidb.net/css/fonts/fa-light-300.ttf") format("truetype"), url("https://static.anidb.net/css/fonts/fa-light-300.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: 'Font Awesome 5 Pro';
+font-style: normal;
+font-weight: normal;
+src: url("https://static.anidb.net/css/fonts/fa-regular-400.eot");
+src: url("https://static.anidb.net/css/fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("https://static.anidb.net/css/fonts/fa-regular-400.woff2") format("woff2"), url("https://static.anidb.net/css/fonts/fa-regular-400.woff") format("woff"), url("https://static.anidb.net/css/fonts/fa-regular-400.ttf") format("truetype"), url("https://static.anidb.net/css/fonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: 'Font Awesome 5 Pro';
+font-style: normal;
+font-weight: 900;
+src: url("https://static.anidb.net/css/fonts/fa-solid-900.eot");
+src: url("https://static.anidb.net/css/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("https://static.anidb.net/css/fonts/fa-solid-900.woff2") format("woff2"), url("https://static.anidb.net/css/fonts/fa-solid-900.woff") format("woff"), url("https://static.anidb.net/css/fonts/fa-solid-900.ttf") format("truetype"), url("https://static.anidb.net/css/fonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: 'Font Awesome 5 Pro Brands';
+font-style: normal;
+font-weight: normal;
+src: url("https://static.anidb.net/css/fonts/fa-brands-400.eot");
+src: url("https://static.anidb.net/css/fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("https://static.anidb.net/css/fonts/fa-brands-400.woff2") format("woff2"), url("https://static.anidb.net/css/fonts/fa-brands-400.woff") format("woff"), url("https://static.anidb.net/css/fonts/fa-brands-400.ttf") format("truetype"), url("https://static.anidb.net/css/fonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+#layout-main div.tabbed_pane ul.tabs .collapse,
+#layout-main div.tabbed_pane ul.tabs .reset_selection_mode,
+#layout-main div.tabbed_pane ul.tabs .save_as_default {
+display: inline-block;
 }
 
 #layout-tabs ul li {
@@ -19671,7 +19711,7 @@ background: #444 !important;
 color: #fff;
 }
 
-#layout-main .g_datatable table tr td.name.main .i_info:after,
+#layout-main .g_datatable table tr td.name.main .i_info::after,
 #layout-main .g_datatable table tr td.name.main a {
 color: #DDDDDD;
 }
