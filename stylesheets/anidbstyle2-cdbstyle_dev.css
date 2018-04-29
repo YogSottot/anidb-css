@@ -17297,8 +17297,51 @@ display: inline-block;
 margin: 0;
 }
 
+.i_tab_default,
+#toast-container > .g_bubble.toast {
+    background-image: none !important;
+}
+
+.g_bubble .seiyuu a.favourite::before,
+.g_bubble.favourite > div.data div.name > a::before,
+.g_button a,
+.i_icon,
+.toast,
+button:not(.fancybox-close-small),
+td.name > .favourite::before,
+td.name.favourite > a::before,
+tr.favourite > td.name.anime > a::before,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.edit_actions span > *,
+#layout-main div.msg_all div.buttons li a,
+#layout-main div.msg_all ul.g_list li.sent a,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink,
+#layout-tabs ul li a {
+    display: inline-block;
+    font-family: 'Font Awesome 5 Pro',Arial,Helvetica,sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 16px;
+    margin: 0;
+}
+
 #layout-tabs ul li:first-child {
 margin-left: 6px;
+}
+
+/*image only - no text*/
+.i_tab_default,
+.toast-close-button {
+    height: auto;
+    width: 16px;
+    font-size: 1.33rem;
 }
 
 .i_tab_default::after {
@@ -17624,6 +17667,7 @@ select,
 textarea,
 #layout-main div.addtagentityrel_all div.suggestions > span.focus,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.edit_actions span > *,
 #layout-main div.pagination span a,
 #layout-main div.pagination span a:hover,
 #layout-main div.pagination span strong,
@@ -17639,6 +17683,8 @@ textarea,
 border: 1px solid;
 }
 
+.g_segmentlist tr.g_odd + tr:not(.g_odd) td,
+.g_segmentlist tr:not(.g_odd) + tr.g_odd td,
 li + li.g_odd,
 li.g_odd + li,
 tr + tr td,
@@ -17647,9 +17693,15 @@ tr + tr th,
 #layout-main .g_bubble.graph div.group + div.group_odd,
 #layout-main .g_bubble.graph div.group_odd + div.group,
 #layout-main .g_bubble.graph.eps div.row + div.row,
+#layout-main > h1,
 #layout-main div div.explanation div.description dl + dl,
+#layout-main div.addtagentityrel_all #tag-list div.tag + div.tag,
 #layout-main div.g_definitionlist tr th,
-#layout-main div.report_all div.body ul li + li {
+#layout-main div.g_timedentry h4,
+#layout-main div.info div.extra div table,
+#layout-main div.report_all div.body ul li + li,
+#layout-nav div.menu_hr,
+#layout-search ul.quicksearch li + li {
 border-top: 1px solid;
 }
 
