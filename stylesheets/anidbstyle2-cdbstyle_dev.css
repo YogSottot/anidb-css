@@ -11933,46 +11933,46 @@ box-shadow: none;
 }
 
 /*imported from: common/style/color/msgbox-default.css*/
-.fancybox-wrap div.g_msg.error,
+.fancybox-container div.g_msg.error,
 #layout-main div.g_msg.error {
 border: 1px solid #DD0000;
 background-color: #FFE5E5;
 }
 
-.fancybox-wrap div.g_msg.warning,
+.fancybox-container div.g_msg.warning,
 #layout-main div.g_msg.warning {
 border: 1px solid #F46F0B;
 background-color: #FFF0E5;
 }
 
-.fancybox-wrap div.g_msg.note,
+.fancybox-container div.g_msg.note,
 #layout-main div.g_msg.note {
 border: 1px solid #AFAF00;
 background-color: #FFFFDF;
 }
 
-.fancybox-wrap div.g_msg.success,
+.fancybox-container div.g_msg.success,
 #layout-main div.g_msg.success {
 border: 1px solid #2EB42E;
 background-color: #E5FFE5;
 }
 
-.fancybox-wrap div.g_msg.error h3,
+.fancybox-container div.g_msg.error h3,
 #layout-main div.g_msg.error h3 {
 color: #FF0000;
 }
 
-.fancybox-wrap div.g_msg.warning h3,
+.fancybox-container div.g_msg.warning h3,
 #layout-main div.g_msg.warning h3 {
 color: #F46F0B;
 }
 
-.fancybox-wrap div.g_msg.note h3,
+.fancybox-container div.g_msg.note h3,
 #layout-main div.g_msg.note h3 {
 color: #AFAF00;
 }
 
-.fancybox-wrap div.g_msg.success h3,
+.fancybox-container div.g_msg.success h3,
 #layout-main div.g_msg.success h3 {
 color: #2EB42E;
 }
@@ -11980,6 +11980,14 @@ color: #2EB42E;
 #layout-hint.mod {
 background-color: #FFF0E5;
 border-color: #F46F0B;
+}
+
+#layout-main div.g_msg .g_styledlist.enabled_filters .g_odd {
+background-color: inherit;
+}
+
+#layout-main div.g_msg .g_styledlist.enabled_filters > li + li {
+border: 0 !important;
 }
 
 /*imported from: common/style/color/forum-default.css*/
@@ -11990,7 +11998,8 @@ color: #FFFFFF;
 
 #layout-main div.cmt_all div.cmt_add hr,
 #layout-main div.forum div.g_bubble.threads,
-#layout-main div.forum hr {
+#layout-main div.forum hr,
+#layout-main div.postbody hr {
 background-color: #4A4A5A;
 }
 
@@ -12018,11 +12027,6 @@ background-color: #b0b0b0;
 background-color: #bfc2c9;
 }
 
-#layout-main div.forum ul.topics li.g_odd.row:hover,
-#layout-main div.forum ul.topics li.row:hover {
-background-color: #ACAEB4;
-}
-
 #layout-main div.forum div.deleted,
 #layout-main div.forum li.deleted div.row.icon {
 opacity: 0.3;
@@ -12040,7 +12044,7 @@ border-color: #A9A9A9;
 
 @media screen and (max-width: 800px) {
 #layout-main div.forum ul.topiclist li.row div.lastpost {
-border-left: none;
+border-left: 0;
 }
 
 }
@@ -12094,7 +12098,7 @@ color: inherit;
 
 #layout-main div.tabbed_pane ul.tabs {
 background-color: transparent;
-border: none;
+border: 0;
 }
 
 #layout-main div.cmt_add div.preview-box ol,
@@ -12102,7 +12106,7 @@ border: none;
 #layout-main div.g_timedentry ol,
 #layout-main div.g_timedentry ul {
 background-color: inherit;
-border: none;
+border: 0;
 }
 
 #layout-main div.dbstats_all table tr,
@@ -12165,6 +12169,40 @@ border-right-color: #9a0f0c;
 
 .g_image_overlay > a {
 color: white !important;
+}
+
+.bar.votes > .segment {
+border: 0 !important;
+}
+
+#layout-main div.main_all div.account tr.g_odd,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
+background-color: inherit;
+}
+
+#layout-main div.main_all div.account ul.tabs li.signup {
+background-color: #880000;
+}
+
+#layout-main div.main_all div.account ul.tabs li a {
+color: #FFFFFF;
+}
+
+#layout-main div.main_all div.account ul.tabs li.signup:hover a {
+color: inherit;
+}
+
+#layout-menu li.sub-menu ul li#user-xauth:hover,
+#layout-menu li.sub-menu ul li#user-xkeep:hover,
+#layout-menu li.sub-menu ul li#user-xname:hover,
+#layout-menu li.sub-menu ul li#user-xpass:hover {
+background-image: none;
+background-color: inherit;
+}
+
+#layout-main div.main_all div.account table td,
+#layout-main div.main_all div.account table th {
+border: 0;
 }
 
 /*imported from: common/style/color/timeline-default.css*/
@@ -12244,11 +12282,13 @@ span.i_icon[title] {
 cursor: help;
 }
 
+.fancybox-close,
 .g_filter .flap,
-a.i_icon:after,
-a.i_icon:before,
-button.i_icon:after,
-button.i_icon:before,
+a.i_icon::after,
+a.i_icon::before,
+button.i_icon::after,
+button.i_icon::before,
+input[type="button"],
 span.i_icon.i_general_arrow_down,
 span.i_icon.i_general_arrow_up {
 cursor: pointer;
@@ -12396,7 +12436,7 @@ small,
 font-size: 0.95rem;
 }
 
-#layout-main div.userlist_all table td.hidden:after {
+#layout-main div.userlist_all table td.hidden::after {
 color: red;
 content: " hidden";
 }
@@ -12441,21 +12481,22 @@ text-transform: capitalize;
 }
 
 .g_filter .flap,
+#layout-main div.forum a.topictitle,
 #layout-main div.forum li.header div.segment,
+#layout-main div.policies_all h3,
 #statusBox {
 font-family: Arial,Helvetica,sans-serif;
 }
 
+#layout-main div.forum a.topictitle,
 #layout-main div.forum li.header div.segment {
-font-size: 1rem;
+font-size: 1.1rem;
 font-weight: bold;
-text-transform: uppercase;
+text-transform: capitalize;
 }
 
-#layout-main div.forum a.topictitle {
-font-family: "Trebuchet MS",Helvetica,Arial,Sans-serif;
-font-size: 1.23rem;
-font-weight: bold;
+#layout-main div.forum li.header div.segment {
+font-variant: small-caps;
 }
 
 #layout-main div.forum div.statistics h3 {
@@ -12488,11 +12529,14 @@ font-weight: bold;
 #layout-main div.creq_all .state.new th.field,
 #layout-main div.creq_all .state.return th.field,
 #layout-main div.forum ul.topiclist li.row div.icon div.icon div.title,
-#layout-main div.forumsearch_form div span.desc {
+#layout-main div.forumsearch_form div span.desc,
+#layout-main div.g_bubble.showhidecontent button.toggle_visible,
+#layout-main div.tag-column div.tag span.indent {
 font-weight: normal;
 }
 
 .i_icon.i_info,
+.toggle_visible,
 button:hover,
 input[type="submit"]:hover,
 span.link,
@@ -12502,8 +12546,10 @@ th.sortable:not(.sorter-false),
 cursor: pointer;
 }
 
+.g_segmentlist td.desc,
 h2.collapsed span,
 h4.collapsed span,
+#layout-main .group_all .filelist td.date.added,
 #layout-main div.anime_all div.characters a.primary,
 #layout-main div.anime_all div.groups td.state.stalled,
 #layout-main div.anime_all div.groups td.state.unknown,
@@ -12546,6 +12592,7 @@ font-size: 1.2rem;
 font-size: 1rem;
 }
 
+.wysibb,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.addtagentityrel_all div.addbox div.taggrouplist span.link,
 #layout-main div.forum .g_bubble.infobox div.left,
@@ -12581,7 +12628,7 @@ font-size: 1.04rem;
 .v_med,
 caption,
 div.g_bubble.quotebody div.quoteof,
-div.g_bubble.spoiler div.desc,
+div.g_bubble.showhidecontent div.desc,
 div.relations .g_bubble.stripe div.type,
 h1,
 h2,
@@ -12589,6 +12636,7 @@ h3,
 h4,
 h6,
 span.diff,
+#layout-main div.accounting_all .estimate .row .field,
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
 #layout-main div.addtagentityrel_all div.addbox div.tag-column h5,
 #layout-main div.anime_all div.groups td.lastupdate.new,
@@ -12602,10 +12650,10 @@ span.diff,
 #layout-main div.forum .g_bubble.infobox div.left,
 #layout-main div.forum a.username-colored,
 #layout-main div.forum div.add-box div.field,
-#layout-main div.forum div.icon div.icon,
 #layout-main div.forum div.navbar span.breadcrumbs,
 #layout-main div.forum div.options-box div.field,
 #layout-main div.forum div.posting-box div.field,
+#layout-main div.forum li.header div.segment,
 #layout-main div.forumsearch_form div.field,
 #layout-main div.group_released td.state.complete a,
 #layout-main div.group_released td.state.finished a,
@@ -12615,6 +12663,7 @@ span.diff,
 #layout-main div.msg_all tr.new td.state,
 #layout-main div.mylist_list tr.all_watched td.stats,
 #layout-main div.mylist_list tr.complete td.stats,
+#layout-main div.myvotes_all tr td.myvote.high,
 #layout-main div.search_all div.search_results strong,
 #layout-main div.tag-column .parent,
 #layout-main div.userpage_all div.discussions tr.unread,
@@ -12648,15 +12697,17 @@ font-size: 1.1rem;
 font-weight: bold;
 }
 
+.g_tag.blocked,
+.g_tag.not_added,
 #layout-main div.addtagentityrel_all #tag-groups span.link.unset,
-#layout-main div.addtagentityrel_all #tag-list div.tag.delete span.name,
-#layout-main div.tag-column span.not_added {
+#layout-main div.addtagentityrel_all #tag-list div.tag.delete span.name {
 text-decoration: line-through;
 }
 
 #layout-main div.addtagentityrel_all #tag-groups span.link,
 #layout-main div.addtagentityrel_all #tag-list div.tag span.actions,
 #layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.anime_all #groupfilter .icons span.i_icon,
 #layout-main div.search_all div.suggestions span {
 cursor: pointer;
 }
@@ -12674,10 +12725,6 @@ font-size: 1.2rem;
 #layout-main div.addcreatoranimerel_all div.content h4 span.nolink {
 cursor: default;
 text-transform: none;
-}
-
-#layout-main div.tag-column div.tag span.indent {
-font-style: normal;
 }
 
 .select2-container .select2-search--inline .select2-search__field,
@@ -12718,8 +12765,33 @@ font-size: 1.7rem;
 letter-spacing: 1px;
 }
 
+#select2-char_sel-results span.indent {
+white-space: pre;
+}
+
+#layout-main div.policies_all h3 {
+text-transform: capitalize;
+font-size: 1.2rem;
+}
+
+.g_button a span,
+button,
+h2,
+h4,
+#layout-main .g_bubble.graph div.header,
+#layout-main div.block div.data table th,
+#layout-main div.edit_actions span,
+#layout-main div.g_definitionlist tr th,
+#layout-main div.g_menu.user ul li,
+#layout-main div.g_timedentry h4,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-search .submit,
+#layout-tabs ul.main-tabs {
+text-transform: capitalize;
+}
+
 @media screen and (max-width: 800px) {
-#layout-main .g_datatable table td:before,
+#layout-main .g_datatable table td::before,
 #layout-main .g_datatable table tr td.name.main > a {
 font-weight: bold;
 }
@@ -12728,66 +12800,70 @@ font-weight: bold;
 
 /*imported from: common/style/content/all.css*/
 /*imported from: common/style/content/edit_actions.css*/
-#layout-main div.edit_actions > span:before {
+#layout-main div.edit_actions span::before {
 content: "[";
 }
 
-#layout-main div.edit_actions > span:after {
+#layout-main div.edit_actions span::after {
 content: "]";
 }
 
-#layout-main div.edit_actions > span + span:before {
+#layout-main div.edit_actions span + span::before {
 content: " - [";
 }
 
 /*imported from: common/style/content/mobile-tables.css*/
 @media screen and (max-width: 800px) {
-#layout-main .g_datatable table td:before {
+#layout-main .g_datatable table td::before {
 content: attr(data-label);
 }
 
-#layout-main .g_datatable table td.name.main:before,
-#layout-main .g_datatable table td.thumb:before {
+#layout-main .g_datatable table td.name.main::before,
+#layout-main .g_datatable table td.thumb::before {
 content: "";
 }
 
 }
 
 /*imported from: common/style/content/page-anime.css*/
-#layout-main div.anime_all div.groups td.mylist:before {
+#layout-main div.anime_all div.groups td.mylist::before {
 content: "* ";
 }
 
-#layout-main div.anime_all div.groups td.mylist:after {
+#layout-main div.anime_all div.groups td.mylist::after {
 content: " *";
 }
 
-#layout-main span.myvote > a:before {
-content: '['
+#layout-main span.myvote > a::before {
+content: '[';
 }
 
-#layout-main span.myvote > a:after {
-content: ']'
+#layout-main span.myvote > a::after {
+content: ']';
 }
 
-#anidb .g_section.info .g_definitionlist tr.resources td.value > *:after,
-#layout-main .g_bubble.stripe.review > div.data div.votes div.rating span.value:after,
-#layout-main tr.rating td.value span.myvote:not(:empty):before {
+#anidb .g_section.info .g_definitionlist tr.resources td.value > *::after,
+#anidb tr.rating td.value span.myvote::before,
+#anidb tr.rating td.value span.predictedvote::before,
+#layout-main .g_bubble.stripe.review > div.data div.votes div.rating span.value::after,
+#layout-main div.anime_all .mydata tr.vote span.predictedvote + span.myvote::before {
 content: ", ";
 }
 
-#anidb .g_section.info .g_definitionlist tr.resources td.value > *:last-child:after {
+#anidb .g_section.info .g_definitionlist tr.resources td.value > *:last-child::after {
 content: "";
 }
 
 /*imported from: common/style/content/page-forum.css*/
-#layout-main div.forum div.topic_actions div.pagination > a + span:before,
-#layout-main div.forum div.topic_actions div.pagination > span + span:before {
+#layout-main div.topic_actions div.pagination > a + span::before,
+#layout-main div.topic_actions div.pagination > span + span::before {
 content: " • ";
+margin-left: 0.5em;
+margin-right: 0.5em;
 }
 
 @media screen and (max-width: 800px) {
-#layout-main div.forum ul.topiclist li.row div.lastpost:before {
+#layout-main ul.topiclist li.row div.lastpost::before {
 content: "last post";
 }
 
