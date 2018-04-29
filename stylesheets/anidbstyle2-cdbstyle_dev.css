@@ -17301,6 +17301,11 @@ margin: 0;
 margin-left: 6px;
 }
 
+.i_tab_default::after {
+    content: "\f004";
+    font-weight: 900;
+}
+
 /*imported from: common/style/color/status-pastel.css*/
 #layout-main div.addcreatoranimerel_all tr.left_only,
 #layout-main div.addcreatorsongrel_all tr.left_only,
