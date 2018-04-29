@@ -10200,83 +10200,105 @@ text-transform: uppercase;
 }
 
 .ve-tlb-bold {
-background: url(https://static.anidb.net/css/images/icons.png) 0 0 no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 0 no-repeat;
+width: 20px;
 }
 
 .ve-tlb-italic {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -40px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -40px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-underline {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -20px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -20px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-strike {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -120px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -120px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-link {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -80px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -80px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-unlink {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -100px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -100px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-img {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -60px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -60px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-quote {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -140px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -140px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-spoiler {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -160px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -160px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-list {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -180px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -180px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-bbcode {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -200px no-repeat;width: 40px !important;margin: 1px auto !important;height: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -200px no-repeat;
+width: 40px !important;
+margin: 1px auto !important;
+height: 20px;
 }
 
 .ve-tlb-numlist {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -220px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -220px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-textleft {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -240px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -240px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-textcenter {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -260px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -260px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-textright {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -280px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -280px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-offtopic {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -300px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -300px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-code {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -320px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -320px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-spoiler {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -340px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -340px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-sub {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -360px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -360px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-sup {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -380px no-repeat;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -380px no-repeat;
+width: 20px;
 }
 
 .ve-tlb-colorpick {
@@ -10284,19 +10306,23 @@ width: 50px;height: 24px;line-height: 24px;text-align: center;
 }
 
 .ve-tlb-table {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -460px;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -460px;
+width: 20px;
 }
 
 .ve-tlb-smilebox {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -480px;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -480px;
+width: 20px;
 }
 
 .ve-tlb-video {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -500px;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -500px;
+width: 20px;
 }
 
 .ve-tlb-removeformat {
-background: url(https://static.anidb.net/css/images/icons.png) 0 -540px;width: 20px;
+background: url(https://static.anidb.net/css/images/icons.png) 0 -540px;
+width: 20px;
 }
 
 .tthotkey {
@@ -10355,7 +10381,7 @@ right: 10%;
 top: 0px;
 width: 9px;
 height: 24px;
-/* background: url(/css/images/icons.png) -8px -400px; */
+/* background: url(https://static.anidb.net/css/images/icons.png) -8px -400px; */
 cursor: default;
 text-decoration: none;
 font-size: 14px;
@@ -12886,7 +12912,7 @@ pointer-events: none;
 
 #loading.active {
 opacity: 1;
-background: #000 url(../icons/libs/jquery.fancybox/fancybox_loading.gif) no-repeat scroll center center;
+background: #000 url(https://static.anidb.net/css//icons/libs/jquery.fancybox/fancybox_loading.gif) no-repeat scroll center center;
 }
 
 @supports (display: grid) {
@@ -13261,6 +13287,11 @@ image-rendering: pixelated;                 /* CSS4 Proposed  */
 -ms-interpolation-mode: nearest-neighbor;   /* IE8+           */
 }
 
+.i_twitter,
+.i_patreon {
+display: none;
+}
+
 .i_flag {
 width: 16px;
 height: 16px;
@@ -13310,52 +13341,31 @@ button + .i_icon {
 padding-left: 0.5em;
 }
 
-/*imported from: icons/anime.css*/
-.i_tv_series {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_tv_series.gif);
+h1 + span.icons a.i_icon:hover {
+opacity: 0.8;
 }
 
-.i_movie {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_movie.gif);
+h2 .i_help,
+h3 .i_help,
+h4 .i_help {
+vertical-align: baseline;
 }
 
-.i_ova {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_ova.gif);
+#layout-footer .links {
+float: right;
+margin-top: -3em;
+margin-right: 3em;
 }
 
-.i_web {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_web.gif);
+#layout-footer .links .i_icon + .i_icon {
+margin-left: 0.5em !important;
 }
 
-.i_tv_special {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_tv_special.gif);
+@media screen and (max-width: 800px) {
+#layout-footer .links {
+display: none;
 }
 
-.i_music_video {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_music_video.gif);
-}
-
-.i_other,
-.i_unknown {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/state/anidb_atype_other.gif);
-}
-
-.i_recap {
-background-image: url(https://static.anidb.net/css/icons/icon/anidb_recap.gif);
 }
 
 /*imported from: icons/achievements.css*/
@@ -13455,7 +13465,11 @@ div.badge.special.boardgame.germany-2016-10 div.inner {
 }
 
 div.badge.special.boardgame.germany-2017-04 div.inner {
-	background-image: url("https://static.anidb.net/css/icons/achievements/center-special-boardgame-germany-2017-04.png");
+background-image: url("https://static.anidb.net/css/icons/achievements/center-special-boardgame-germany-2017-04.png");
+}
+
+div.badge.special.boardgame.croatia-2017-09 div.inner {
+background-image: url("https://static.anidb.net/css/icons/achievements/center-special-boardgame-croatia-2017-09.png");
 }
 
 div.badge.mod.benu div.inner {
@@ -13784,11 +13798,11 @@ background-image: url("https://static.anidb.net/css/icons/achievements/center-on
 
 /*imported from: icons/awards.css*/
 /* Mainichi Awards */
-#mainichi_animation {
+.awards #mainichi_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_mainichi_animation.png);
 }
 
-#mainichi_oofuji_noburou {
+.awards #mainichi_oofuji_noburou {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_mainichi_oofuji_noburou.png);
 }
 
@@ -13870,1419 +13884,1468 @@ background-image: url(https://static.anidb.net/css/icons/awards/anidb_arc2012awa
 }
 
 /* AniDB Top10 */
-#top10 {
+.awards #top10 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_top10_banner.gif);
 }
 
 /* ARC Awards - Best Action */
-#arc2000_action {
+.awards #arc2000_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_action.jpg);
 }
 
-#arc2001_action {
+.awards #arc2001_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_action.jpg);
 }
 
-#arc2002_action {
+.awards #arc2002_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_action.jpg);
 }
 
-#arc2003_action {
+.awards #arc2003_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_action.jpg);
 }
 
-#arc2004_action {
+.awards #arc2004_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_action.jpg);
 }
 
-#arc2005_action {
+.awards #arc2005_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_action.jpg);
 }
 
-#arc2006_action {
+.awards #arc2006_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_action.jpg);
 }
 
-#arc2007_action {
+.awards #arc2007_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_action.jpg);
 }
 
-#arc2008_action {
+.awards #arc2008_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_action.png);
 }
 
-#arc2009_action {
+.awards #arc2009_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_action.jpg);
 }
 
-#arc2010_action {
+.awards #arc2010_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_action.png);
 }
 
-#arc2011_action {
+.awards #arc2011_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_action.png);
 }
 
-#arc2012_action {
+.awards #arc2012_action {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_action.png);
 }
 
 /* ARC Awards - Best Adventure/Fantasy */
-#arc2000_adventure_fantasy {
+.awards #arc2000_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_adventure_fantasy.jpg);
 }
 
-#arc2001_adventure_fantasy {
+.awards #arc2001_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_adventure_fantasy.jpg);
 }
 
-#arc2002_adventure_fantasy {
+.awards #arc2002_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_adventure_fantasy.jpg);
 }
 
-#arc2003_adventure_fantasy {
+.awards #arc2003_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_adventure_fantasy.jpg);
 }
 
-#arc2004_adventure_fantasy {
+.awards #arc2004_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_adventure_fantasy.jpg);
 }
 
-#arc2005_adventure_fantasy {
+.awards #arc2005_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_adventure_fantasy.jpg);
 }
 
-#arc2006_adventure_fantasy {
+.awards #arc2006_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_adventure_fantasy.jpg);
 }
 
-#arc2007_adventure_fantasy {
+.awards #arc2007_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_adventure_fantasy.jpg);
 }
 
-#arc2008_adventure_fantasy {
+.awards #arc2008_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_adventure_fantasy.png);
 }
 
-#arc2009_adventure_fantasy {
+.awards #arc2009_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_adventure_fantasy.jpg);
 }
 
-#arc2010_adventure_fantasy {
+.awards #arc2010_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_adventure_fantasy.png);
 }
 
-#arc2011_adventure_fantasy {
+.awards #arc2011_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_adventure_fantasy.png);
 }
 
-#arc2012_adventure_fantasy {
+.awards #arc2012_adventure_fantasy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_adventure_fantasy.png);
 }
 
 /* ARC Awards - Best Animation */
-#arc2000_animation {
+.awards #arc2000_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_animation.jpg);
 }
 
-#arc2001_animation {
+.awards #arc2001_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_animation.jpg);
 }
 
-#arc2002_animation {
+.awards #arc2002_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_animation.jpg);
 }
 
-#arc2003_animation {
+.awards #arc2003_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_animation.jpg);
 }
 
-#arc2004_animation {
+.awards #arc2004_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_animation.jpg);
 }
 
-#arc2005_animation {
+.awards #arc2005_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_animation.jpg);
 }
 
-#arc2006_animation {
+.awards #arc2006_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_animation.jpg);
 }
 
-#arc2007_animation {
+.awards #arc2007_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_animation.jpg);
 }
 
-#arc2008_animation {
+.awards #arc2008_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_animation.png);
 }
 
-#arc2009_animation {
+.awards #arc2009_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_animation.jpg);
 }
 
-#arc2010_animation {
+.awards #arc2010_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_animation.png);
 }
 
-#arc2011_animation {
+.awards #arc2011_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_animation.png);
 }
 
-#arc2012_animation {
+.awards #arc2012_animation {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_animation.png);
 }
 
 /* ARC Awards - Best Anime Overall */
-#arc2000_anime_overall {
+.awards #arc2000_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_anime_overall.jpg);
 }
 
-#arc2001_anime_overall {
+.awards #arc2001_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_anime_overall.jpg);
 }
 
-#arc2002_anime_overall {
+.awards #arc2002_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_anime_overall.jpg);
 }
 
-#arc2003_anime_overall {
+.awards #arc2003_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_anime_overall.jpg);
 }
 
-#arc2004_anime_overall {
+.awards #arc2004_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_anime_overall.jpg);
 }
 
-#arc2005_anime_overall {
+.awards #arc2005_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_anime_overall.jpg);
 }
 
-#arc2006_anime_overall {
+.awards #arc2006_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_anime_overall.jpg);
 }
 
-#arc2007_anime_overall {
+.awards #arc2007_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_anime_overall.jpg);
 }
 
-#arc2008_anime_overall {
+.awards #arc2008_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_anime_overall.png);
 }
 
-#arc2009_anime_overall {
+.awards #arc2009_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_anime_overall.jpg);
 }
 
-#arc2010_anime_overall {
+.awards #arc2010_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_anime_overall.png);
 }
 
-#arc2011_anime_overall {
+.awards #arc2011_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_anime_overall.png);
 }
 
-#arc2012_anime_overall {
+.awards #arc2012_anime_overall {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_anime_overall.png);
 }
 
 /* ARC Awards - Best Character Development */
-#arc2000_character_development {
+.awards #arc2000_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_character_development.jpg);
 }
 
-#arc2001_character_development {
+.awards #arc2001_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_character_development.jpg);
 }
 
-#arc2002_character_development {
+.awards #arc2002_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_character_development.jpg);
 }
 
-#arc2003_character_development {
+.awards #arc2003_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_character_development.jpg);
 }
 
-#arc2004_character_development {
+.awards #arc2004_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_character_development.jpg);
 }
 
-#arc2005_character_development {
+.awards #arc2005_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_character_development.jpg);
 }
 
-#arc2006_character_development {
+.awards #arc2006_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_character_development.jpg);
 }
 
-#arc2007_character_development {
+.awards #arc2007_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_character_development.jpg);
 }
 
-#arc2008_character_development {
+.awards #arc2008_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_character_development.png);
 }
 
-#arc2009_character_development {
+.awards #arc2009_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_character_development.jpg);
 }
 
-#arc2010_character_development {
+.awards #arc2010_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_character_development.png);
 }
 
-#arc2011_character_development {
+.awards #arc2011_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_character_development.png);
 }
 
-#arc2012_character_development {
+.awards #arc2012_character_development {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_character_development.png);
 }
 
 /* ARC Awards - Best Comedy */
-#arc2000_comedy {
+.awards #arc2000_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_comedy.jpg);
 }
 
-#arc2001_comedy {
+.awards #arc2001_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_comedy.jpg);
 }
 
-#arc2002_comedy {
+.awards #arc2002_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_comedy.jpg);
 }
 
-#arc2003_comedy {
+.awards #arc2003_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_comedy.jpg);
 }
 
-#arc2004_comedy {
+.awards #arc2004_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_comedy.jpg);
 }
 
-#arc2005_comedy {
+.awards #arc2005_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_comedy.jpg);
 }
 
-#arc2006_comedy {
+.awards #arc2006_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_comedy.jpg);
 }
 
-#arc2007_comedy {
+.awards #arc2007_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_comedy.jpg);
 }
 
-#arc2008_comedy {
+.awards #arc2008_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_comedy.png);
 }
 
-#arc2009_comedy {
+.awards #arc2009_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_comedy.jpg);
 }
 
-#arc2010_comedy {
+.awards #arc2010_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_comedy.png);
 }
 
-#arc2011_comedy {
+.awards #arc2011_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_comedy.png);
 }
 
-#arc2012_comedy {
+.awards #arc2012_comedy {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_comedy.png);
 }
 
 /* ARC Awards - Best Drama */
-#arc2000_drama {
+.awards #arc2000_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_drama.jpg);
 }
 
-#arc2001_drama {
+.awards #arc2001_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_drama.jpg);
 }
 
-#arc2002_drama {
+.awards #arc2002_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_drama.jpg);
 }
 
-#arc2003_drama {
+.awards #arc2003_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_drama.jpg);
 }
 
-#arc2004_drama {
+.awards #arc2004_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_drama.jpg);
 }
 
-#arc2005_drama {
+.awards #arc2005_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_drama.jpg);
 }
 
-#arc2006_drama {
+.awards #arc2006_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_drama.jpg);
 }
 
-#arc2007_drama {
+.awards #arc2007_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_drama.jpg);
 }
 
-#arc2008_drama {
+.awards #arc2008_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_drama.png);
 }
 
-#arc2009_drama {
+.awards #arc2009_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_drama.jpg);
 }
 
-#arc2010_drama {
+.awards #arc2010_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_drama.png);
 }
 
-#arc2011_drama {
+.awards #arc2011_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_drama.png);
 }
 
-#arc2012_drama {
+.awards #arc2012_drama {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_drama.png);
 }
 
 /* ARC Awards - Best Ecchi */
-#arc2000_ecchi {
+.awards #arc2000_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_ecchi.jpg);
 }
 
-#arc2001_ecchi {
+.awards #arc2001_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_ecchi.jpg);
 }
 
-#arc2002_ecchi {
+.awards #arc2002_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_ecchi.jpg);
 }
 
-#arc2003_ecchi {
+.awards #arc2003_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_ecchi.jpg);
 }
 
-#arc2004_ecchi {
+.awards #arc2004_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_ecchi.jpg);
 }
 
-#arc2005_ecchi {
+.awards #arc2005_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_ecchi.jpg);
 }
 
-#arc2006_ecchi {
+.awards #arc2006_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_ecchi.jpg);
 }
 
-#arc2007_ecchi {
+.awards #arc2007_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_ecchi.jpg);
 }
 
-#arc2008_ecchi {
+.awards #arc2008_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_ecchi.png);
 }
 
-#arc2009_ecchi {
+.awards #arc2009_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_ecchi.jpg);
 }
 
-#arc2010_ecchi {
+.awards #arc2010_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_ecchi.png);
 }
 
-#arc2011_ecchi {
+.awards #arc2011_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_ecchi.png);
 }
 
-#arc2012_ecchi {
+.awards #arc2012_ecchi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_ecchi.png);
 }
 
 /* ARC Awards - Best Female Character */
-#arc2000_female_character {
+.awards #arc2000_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_female_character.jpg);
 }
 
-#arc2001_female_character {
+.awards #arc2001_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_female_character.jpg);
 }
 
-#arc2002_female_character {
+.awards #arc2002_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_female_character.jpg);
 }
 
-#arc2003_female_character {
+.awards #arc2003_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_female_character.jpg);
 }
 
-#arc2004_female_character {
+.awards #arc2004_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_female_character.jpg);
 }
 
-#arc2005_female_character {
+.awards #arc2005_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_female_character.jpg);
 }
 
-#arc2006_female_character {
+.awards #arc2006_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_female_character.jpg);
 }
 
-#arc2007_female_character {
+.awards #arc2007_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_female_character.jpg);
 }
 
-#arc2008_female_character {
+.awards #arc2008_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_female_character.png);
 }
 
-#arc2009_female_character {
+.awards #arc2009_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_female_character.jpg);
 }
 
-#arc2010_female_character {
+.awards #arc2010_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_female_character.png);
 }
 
-#arc2011_female_character {
+.awards #arc2011_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_female_character.png);
 }
 
-#arc2012_female_character {
+.awards #arc2012_female_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_female_character.png);
 }
 
 /* ARC Awards - Best Male Character */
-#arc2000_male_character {
+.awards #arc2000_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_male_character.jpg);
 }
 
-#arc2001_male_character {
+.awards #arc2001_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_male_character.jpg);
 }
 
-#arc2002_male_character {
+.awards #arc2002_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_male_character.jpg);
 }
 
-#arc2003_male_character {
+.awards #arc2003_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_male_character.jpg);
 }
 
-#arc2004_male_character {
+.awards #arc2004_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_male_character.jpg);
 }
 
-#arc2005_male_character {
+.awards #arc2005_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_male_character.jpg);
 }
 
-#arc2006_male_character {
+.awards #arc2006_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_male_character.jpg);
 }
 
-#arc2007_male_character {
+.awards #arc2007_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_male_character.jpg);
 }
 
-#arc2008_male_character {
+.awards #arc2008_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_male_character.png);
 }
 
-#arc2009_male_character {
+.awards #arc2009_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_male_character.jpg);
 }
 
-#arc2010_male_character {
+.awards #arc2010_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_male_character.png);
 }
 
-#arc2011_male_character {
+.awards #arc2011_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_male_character.png);
 }
 
-#arc2012_male_character {
+.awards #arc2012_male_character {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_male_character.png);
 }
 
 /* ARC Awards - Best Music/OST */
-#arc2000_music_ost {
+.awards #arc2000_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_music_ost.jpg);
 }
 
-#arc2001_music_ost {
+.awards #arc2001_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_music_ost.jpg);
 }
 
-#arc2002_music_ost {
+.awards #arc2002_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_music_ost.jpg);
 }
 
-#arc2003_music_ost {
+.awards #arc2003_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_music_ost.jpg);
 }
 
-#arc2004_music_ost {
+.awards #arc2004_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_music_ost.jpg);
 }
 
-#arc2005_music_ost {
+.awards #arc2005_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_music_ost.jpg);
 }
 
-#arc2006_music_ost {
+.awards #arc2006_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_music_ost.jpg);
 }
 
-#arc2007_music_ost {
+.awards #arc2007_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_music_ost.jpg);
 }
 
-#arc2008_music_ost {
+.awards #arc2008_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_music_ost.png);
 }
 
-#arc2009_music_ost {
+.awards #arc2009_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_music_ost.jpg);
 }
 
-#arc2010_music_ost {
+.awards #arc2010_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_music_ost.png);
 }
 
-#arc2011_music_ost {
+.awards #arc2011_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_music_ost.png);
 }
 
-#arc2012_music_ost {
+.awards #arc2012_music_ost {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_music_ost.png);
 }
 
 /* ARC Awards - Best Mystery/Thriller/Horror */
-#arc2000_mystery_thriller_horror {
+.awards #arc2000_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_mystery_thriller_horror.jpg);
 }
 
-#arc2001_mystery_thriller_horror {
+.awards #arc2001_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_mystery_thriller_horror.jpg);
 }
 
-#arc2002_mystery_thriller_horror {
+.awards #arc2002_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_mystery_thriller_horror.jpg);
 }
 
-#arc2004_mystery_thriller_horror {
+.awards #arc2004_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_mystery_thriller_horror.jpg);
 }
 
-#arc2005_mystery_thriller_horror {
+.awards #arc2005_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_mystery_thriller_horror.jpg);
 }
 
-#arc2006_mystery_thriller_horror {
+.awards #arc2006_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_mystery_thriller_horror.jpg);
 }
 
-#arc2007_mystery_thriller_horror {
+.awards #arc2007_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_mystery_thriller_horror.jpg);
 }
 
-#arc2008_mystery_thriller_horror {
+.awards #arc2008_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_mystery_thriller_horror.png);
 }
 
-#arc2009_mystery_thriller_horror {
+.awards #arc2009_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_mystery_thriller_horror.jpg);
 }
 
-#arc2010_mystery_thriller_horror {
+.awards #arc2010_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_mystery_thriller_horror.png);
 }
 
-#arc2011_mystery_thriller_horror {
+.awards #arc2011_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_mystery_thriller_horror.png);
 }
 
-#arc2012_mystery_thriller_horror {
+.awards #arc2012_mystery_thriller_horror {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_mystery_thriller_horror.png);
 }
 
 /* ARC Awards - Best Newcomer */
-#arc2003_newcomer {
+.awards #arc2003_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_newcomer.jpg);
 }
 
-#arc2004_newcomer {
+.awards #arc2004_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_newcomer.jpg);
 }
 
-#arc2005_newcomer {
+.awards #arc2005_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_newcomer.jpg);
 }
 
-#arc2006_newcomer {
+.awards #arc2006_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_newcomer.jpg);
 }
 
-#arc2007_newcomer {
+.awards #arc2007_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_newcomer.jpg);
 }
 
-#arc2008_newcomer {
+.awards #arc2008_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_newcomer.png);
 }
 
-#arc2009_newcomer {
+.awards #arc2009_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_newcomer.jpg);
 }
 
-#arc2010_newcomer {
+.awards #arc2010_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_newcomer.png);
 }
 
-#arc2011_newcomer {
+.awards #arc2011_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_newcomer.png);
 }
 
-#arc2012_newcomer {
+.awards #arc2012_newcomer {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_newcomer.png);
 }
 
 /* ARC Awards - Best OP-ED Combination */
-#arc2000_op-ed {
+.awards #arc2000_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_op-ed.jpg);
 }
 
-#arc2001_op-ed {
+.awards #arc2001_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_op-ed.jpg);
 }
 
-#arc2002_op-ed {
+.awards #arc2002_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_op-ed.jpg);
 }
 
-#arc2003_op-ed {
+.awards #arc2003_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_op-ed.jpg);
 }
 
-#arc2004_op-ed {
+.awards #arc2004_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_op-ed.jpg);
 }
 
-#arc2005_op-ed {
+.awards #arc2005_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_op-ed.jpg);
 }
 
-#arc2006_op-ed {
+.awards #arc2006_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_op-ed.jpg);
 }
 
-#arc2007_op-ed {
+.awards #arc2007_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_op-ed.jpg);
 }
 
-#arc2008_op-ed {
+.awards #arc2008_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_op-ed.png);
 }
 
-#arc2009_op-ed {
+.awards #arc2009_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_op-ed.jpg);
 }
 
-#arc2010_op-ed {
+.awards #arc2010_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_op-ed.png);
 }
 
-#arc2011_op-ed {
+.awards #arc2011_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_op-ed.png);
 }
 
-#arc2012_op-ed {
+.awards #arc2012_op-ed {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_op-ed.png);
 }
 
 /* ARC Awards - Best Quick Watch */
-#arc2000_quick_watch {
+.awards #arc2000_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_quick_watch.jpg);
 }
 
-#arc2001_quick_watch {
+.awards #arc2001_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_quick_watch.jpg);
 }
 
-#arc2002_quick_watch {
+.awards #arc2002_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_quick_watch.jpg);
 }
 
-#arc2003_quick_watch {
+.awards #arc2003_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_quick_watch.jpg);
 }
 
-#arc2004_quick_watch {
+.awards #arc2004_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_quick_watch.jpg);
 }
 
-#arc2005_quick_watch {
+.awards #arc2005_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_quick_watch.jpg);
 }
 
-#arc2006_quick_watch {
+.awards #arc2006_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_quick_watch.jpg);
 }
 
-#arc2007_quick_watch {
+.awards #arc2007_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_quick_watch.jpg);
 }
 
-#arc2008_quick_watch {
+.awards #arc2008_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_quick_watch.png);
 }
 
-#arc2009_quick_watch {
+.awards #arc2009_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_quick_watch.jpg);
 }
 
-#arc2010_quick_watch {
+.awards #arc2010_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_quick_watch.png);
 }
 
-#arc2011_quick_watch {
+.awards #arc2011_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_quick_watch.png);
 }
 
-#arc2012_quick_watch {
+.awards #arc2012_quick_watch {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_quick_watch.png);
 }
 
 /* ARC Awards - Best Romance */
-#arc2000_romance {
+.awards #arc2000_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_romance.jpg);
 }
 
-#arc2001_romance {
+.awards #arc2001_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_romance.jpg);
 }
 
-#arc2002_romance {
+.awards #arc2002_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_romance.jpg);
 }
 
-#arc2003_romance {
+.awards #arc2003_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_romance.jpg);
 }
 
-#arc2004_romance {
+.awards #arc2004_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_romance.jpg);
 }
 
-#arc2005_romance {
+.awards #arc2005_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_romance.jpg);
 }
 
-#arc2006_romance {
+.awards #arc2006_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_romance.jpg);
 }
 
-#arc2007_romance {
+.awards #arc2007_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_romance.jpg);
 }
 
-#arc2008_romance {
+.awards #arc2008_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_romance.png);
 }
 
-#arc2009_romance {
+.awards #arc2009_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_romance.jpg);
 }
 
-#arc2010_romance {
+.awards #arc2010_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_romance.png);
 }
 
-#arc2011_romance {
+.awards #arc2011_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_romance.png);
 }
 
-#arc2012_romance {
+.awards #arc2012_romance {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_romance.png);
 }
 
 /* ARC Awards - Best Sci-Fi */
-#arc2000_sci-fi {
+.awards #arc2000_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_sci-fi.jpg);
 }
 
-#arc2001_sci-fi {
+.awards #arc2001_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_sci-fi.jpg);
 }
 
-#arc2002_sci-fi {
+.awards #arc2002_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_sci-fi.jpg);
 }
 
-#arc2003_sci-fi {
+.awards #arc2003_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_sci-fi.jpg);
 }
 
-#arc2004_sci-fi {
+.awards #arc2004_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_sci-fi.jpg);
 }
 
-#arc2005_sci-fi {
+.awards #arc2005_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_sci-fi.jpg);
 }
 
-#arc2006_sci-fi {
+.awards #arc2006_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_sci-fi.jpg);
 }
 
-#arc2007_sci-fi {
+.awards #arc2007_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_sci-fi.jpg);
 }
 
-#arc2008_sci-fi {
+.awards #arc2008_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_sci-fi.png);
 }
 
-#arc2009_sci-fi {
+.awards #arc2009_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_sci-fi.jpg);
 }
 
-#arc2010_sci-fi {
+.awards #arc2010_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_sci-fi.png);
 }
 
-#arc2011_sci-fi {
+.awards #arc2011_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_sci-fi.png);
 }
 
-#arc2012_sci-fi {
+.awards #arc2012_sci-fi {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_sci-fi.png);
 }
 
 /* ARC Awards - Best Slice-of-Life */
-#arc2007_slice_of_life {
+.awards #arc2007_slice_of_life {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_slice_of_life.jpg);
 }
 
-#arc2008_slice_of_life {
+.awards #arc2008_slice_of_life {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_slice_of_life.png);
 }
 
-#arc2009_slice_of_life {
+.awards #arc2009_slice_of_life {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_slice_of_life.jpg);
 }
 
-#arc2010_slice_of_life {
+.awards #arc2010_slice_of_life {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_slice_of_life.png);
 }
 
-#arc2011_slice_of_life {
+.awards #arc2011_slice_of_life {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_slice_of_life.png);
 }
 
-#arc2012_slice_of_life {
+.awards #arc2012_slice_of_life {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_slice_of_life.png);
 }
 
 /* ARC Awards - Best Sports */
-#arc2001_sports {
+.awards #arc2001_sports {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_sports.jpg);
 }
 
-#arc2003_sports {
+.awards #arc2003_sports {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_sports.jpg);
 }
 
-#arc2007_sports {
+.awards #arc2007_sports {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_sports.jpg);
 }
 
-#arc2008_sports {
+.awards #arc2008_sports {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_sports.png);
 }
 
-#arc2009_sports {
+.awards #arc2009_sports {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_sports.jpg);
 }
 
-#arc2010_sports {
+.awards #arc2010_sports {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_sports.png);
 }
 
-#arc2011_sports {
+.awards #arc2011_sports {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_sports.png);
 }
 
-#arc2012_sports {
+.awards #arc2012_sports {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_sports.png);
 }
 
 /* ARC Awards - Best Story */
-#arc2000_story {
+.awards #arc2000_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_story.jpg);
 }
 
-#arc2001_story {
+.awards #arc2001_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_story.jpg);
 }
 
-#arc2002_story {
+.awards #arc2002_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_story.jpg);
 }
 
-#arc2003_story {
+.awards #arc2003_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2003_story.jpg);
 }
 
-#arc2004_story {
+.awards #arc2004_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_story.jpg);
 }
 
-#arc2005_story {
+.awards #arc2005_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_story.jpg);
 }
 
-#arc2006_story {
+.awards #arc2006_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_story.jpg);
 }
 
-#arc2007_story {
+.awards #arc2007_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_story.jpg);
 }
 
-#arc2008_story {
+.awards #arc2008_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_story.png);
 }
 
-#arc2009_story {
+.awards #arc2009_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_story.jpg);
 }
 
-#arc2010_story {
+.awards #arc2010_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_story.png);
 }
 
-#arc2011_story {
+.awards #arc2011_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_story.png);
 }
 
-#arc2012_story {
+.awards #arc2012_story {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_story.png);
 }
 
 /* ARC Awards - Best Villain */
-#arc2000_villain {
+.awards #arc2000_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2000_villain.jpg);
 }
 
-#arc2001_villain {
+.awards #arc2001_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2001_villain.jpg);
 }
 
-#arc2002_villain {
+.awards #arc2002_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2002_villain.jpg);
 }
 
-#arc2004_villain {
+.awards #arc2004_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2004_villain.jpg);
 }
 
-#arc2005_villain {
+.awards #arc2005_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2005_villain.jpg);
 }
 
-#arc2006_villain {
+.awards #arc2006_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2006_villain.jpg);
 }
 
-#arc2007_villain {
+.awards #arc2007_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2007_villain.jpg);
 }
 
-#arc2008_villain {
+.awards #arc2008_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2008_villain.png);
 }
 
-#arc2009_villain {
+.awards #arc2009_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2009_villain.jpg);
 }
 
-#arc2010_villain {
+.awards #arc2010_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_villain.png);
 }
 
-#arc2011_villain {
+.awards #arc2011_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_villain.png);
 }
 
-#arc2012_villain {
+.awards #arc2012_villain {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_villain.png);
 }
 
 /* ARC Awards - Best Cast */
-#arc2010_cast {
+.awards #arc2010_cast {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_cast.png);
 }
 
-#arc2011_cast {
+.awards #arc2011_cast {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_cast.png);
 }
 
-#arc2012_cast {
+.awards #arc2012_cast {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_cast.png);
 }
 
 /* ARC Awards - Best Supporting Female Character */
-#arc2010_supfemale {
+.awards #arc2010_supfemale {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_supfemale.png);
 }
 
-#arc2011_supfemale {
+.awards #arc2011_supfemale {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_supfemale.png);
 }
 
-#arc2012_supfemale {
+.awards #arc2012_supfemale {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_supfemale.png);
 }
 
 /* ARC Awards - Best Supporting Male Character */
-#arc2010_supmale {
+.awards #arc2010_supmale {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2010_supmale.png);
 }
 
-#arc2011_supmale {
+.awards #arc2011_supmale {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2011_supmale.png);
 }
 
-#arc2012_supmale {
+.awards #arc2012_supmale {
 background-image: url(https://static.anidb.net/css/icons/awards/arc2012_supmale.png);
 }
 
 /* Asia Pacific Screen Awards - Best Animated Feature Film */
-#apsa2007 {
+.awards #apsa2007 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_apsa2007.png);
 }
 
-#apsa2012 {
+.awards #apsa2012 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_apsa2012.png);
 }
 
-#apsa2015 {
+.awards #apsa2015 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_apsa2015.png);
 }
 
 /* Japan Academy Prize Association - Animation of the Year */
-#japa2007 {
+.awards #japa2007 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2007.png);
 }
 
-#japa2008 {
+.awards #japa2008 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2008.png);
 }
 
-#japa2009 {
+.awards #japa2009 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2009.png);
 }
 
-#japa2010 {
+.awards #japa2010 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2010.png);
 }
 
-#japa2011 {
+.awards #japa2011 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2011.png);
 }
 
-#japa2012 {
+.awards #japa2012 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2012.png);
 }
 
-#japa2013 {
+.awards #japa2013 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2013.png);
 }
 
-#japa2014 {
+.awards #japa2014 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2014.png);
 }
 
-#japa2015 {
+.awards #japa2015 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2015.png);
 }
 
-#japa2016 {
+.awards #japa2016 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2016.png);
 }
 
-#japa2017 {
+.awards #japa2017 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_japa2017.png);
 }
 
 /* Japan Media Arts Festival - Manga Grand Prize */
-#jmaf_manga1997 {
+.awards #jmaf_manga1997 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga1997.png);
 }
 
-#jmaf_manga1998 {
+.awards #jmaf_manga1998 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga1998.png);
 }
 
-#jmaf_manga1999 {
+.awards #jmaf_manga1999 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga1999.png);
 }
 
-#jmaf_manga2000 {
+.awards #jmaf_manga2000 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2000.png);
 }
 
-#jmaf_manga2001 {
+.awards #jmaf_manga2001 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2001.png);
 }
 
-#jmaf_manga2002 {
+.awards #jmaf_manga2002 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2002.png);
 }
 
-#jmaf_manga2003 {
+.awards #jmaf_manga2003 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2003.png);
 }
 
-#jmaf_manga2004 {
+.awards #jmaf_manga2004 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2004.png);
 }
 
-#jmaf_manga2005 {
+.awards #jmaf_manga2005 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2005.png);
 }
 
-#jmaf_manga2006 {
+.awards #jmaf_manga2006 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2006.png);
 }
 
-#jmaf_manga2007 {
+.awards #jmaf_manga2007 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2007.png);
 }
 
-#jmaf_manga2008 {
+.awards #jmaf_manga2008 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2008.png);
 }
 
-#jmaf_manga2009 {
+.awards #jmaf_manga2009 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2009.png);
 }
 
-#jmaf_manga2010 {
+.awards #jmaf_manga2010 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2010.png);
 }
 
-#jmaf_manga2011 {
+.awards #jmaf_manga2011 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2011.png);
 }
 
-#jmaf_manga2012 {
+.awards #jmaf_manga2012 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2012.png);
 }
 
-#jmaf_manga2013 {
+.awards #jmaf_manga2013 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2013.png);
 }
 
-#jmaf_manga2014 {
+.awards #jmaf_manga2014 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2014.png);
 }
 
-#jmaf_manga2015 {
+.awards #jmaf_manga2015 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2015.png);
 }
 
-#jmaf_manga2016 {
+.awards #jmaf_manga2016 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2016.png);
 }
 
-#jmaf_manga2017 {
+.awards #jmaf_manga2017 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_manga2017.png);
 }
 
 /* Japan Media Arts Festival - Animation Grand Prize */
-#jmaf_animation1997 {
+.awards #jmaf_animation1997 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation1997.png);
 }
 
-#jmaf_animation1998 {
+.awards #jmaf_animation1998 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation1998.png);
 }
 
-#jmaf_animation1999 {
+.awards #jmaf_animation1999 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation1999.png);
 }
 
-#jmaf_animation2000 {
+.awards #jmaf_animation2000 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2000.png);
 }
 
-#jmaf_animation2001 {
+.awards #jmaf_animation2001 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2001.png);
 }
 
-#jmaf_animation2002 {
+.awards #jmaf_animation2002 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2002.png);
 }
 
-#jmaf_animation2003 {
+.awards #jmaf_animation2003 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2003.png);
 }
 
-#jmaf_animation2004 {
+.awards #jmaf_animation2004 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2004.png);
 }
 
-#jmaf_animation2005 {
+.awards #jmaf_animation2005 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2005.png);
 }
 
-#jmaf_animation2006 {
+.awards #jmaf_animation2006 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2006.png);
 }
 
-#jmaf_animation2007 {
+.awards #jmaf_animation2007 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2007.png);
 }
 
-#jmaf_animation2008 {
+.awards #jmaf_animation2008 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2008.png);
 }
 
-#jmaf_animation2009 {
+.awards #jmaf_animation2009 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2009.png);
 }
 
-#jmaf_animation2010 {
+.awards #jmaf_animation2010 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2010.png);
 }
 
-#jmaf_animation2011 {
+.awards #jmaf_animation2011 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2011.png);
 }
 
-#jmaf_animation2012 {
+.awards #jmaf_animation2012 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2012.png);
 }
 
-#jmaf_animation2013 {
+.awards #jmaf_animation2013 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2013.png);
 }
 
-#jmaf_animation2014 {
+.awards #jmaf_animation2014 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2014.png);
 }
 
-#jmaf_animation2015 {
+.awards #jmaf_animation2015 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2015.png);
 }
 
-#jmaf_animation2016 {
+.awards #jmaf_animation2016 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2016.png);
 }
 
-#jmaf_animation2017 {
+.awards #jmaf_animation2017 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_jmaf_animation2017.png);
 }
 
 /* The Oscars - Academy Award for Best Animated Feature Film */
-#oscars_feature2003 {
+.awards #oscars_feature2003 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_oscars_feature2003.png);
 }
 
 /* The Oscars - Academy Award for Best Animated Short Film */
-#oscars_short2000 {
+.awards #oscars_short2000 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_oscars_short2000.png);
 }
 
-#oscars_short2009 {
+.awards #oscars_short2009 {
 background-image: url(https://static.anidb.net/css/icons/awards/anidb_oscars_short2009.png);
 }
 
 /*imported from: icons/comment-orange.css*/
 .i_comment_add {
-width: 72px;
-height: 12px;
-background: transparent none no-repeat scroll 0pt;
+background: transparent none no-repeat scroll 0;
 background-image: url(https://static.anidb.net/css/icons/orange/comment_add.png);
-}
-
-.i_review_add {
-width: 61px;
 height: 12px;
-background: transparent none no-repeat scroll 0pt;
-background-image: url(https://static.anidb.net/css/icons/orange/review_add.png);
-}
-
-.i_top {
-width: 11px;
-height: 11px;
-background: transparent none no-repeat scroll 0pt;
-background-image: url(https://static.anidb.net/css/icons/orange/icon_back_top.gif);
-}
-
-.i_comment_info {
-width: 15px;
-height: 12px;
-margin: 3px;
-background-image: url(https://static.anidb.net/css/icons/orange/comment_info.gif);
-}
-
-.i_comment_quote {
-width: 40px;
-height: 12px;
-margin: 3px;
-background-image: url(https://static.anidb.net/css/icons/orange/comment_quote.gif);
-}
-
-.i_comment_delete {
-width: 45px;
-height: 12px;
-margin: 3px;
-background-image: url(https://static.anidb.net/css/icons/orange/comment_delete.gif);
-}
-
-.i_comment_move {
-width: 35px;
-height: 12px;
-margin: 3px;
-background-image: url(https://static.anidb.net/css/icons/orange/comment_move.png);
+width: 72px;
 }
 
 .i_comment_creq {
-width: 94px;
+background-image: url(https://static.anidb.net/css/icons/orange/comment_creq.gif);
 height: 12px;
 margin: 3px;
-background-image: url(https://static.anidb.net/css/icons/orange/comment_creq.gif);
+width: 94px;
+}
+
+.i_comment_delete {
+background-image: url(https://static.anidb.net/css/icons/orange/comment_delete.gif);
+height: 12px;
+margin: 3px;
+width: 45px;
 }
 
 .i_comment_edit {
-width: 32px;
-height: 12px;
-margin: 3px;
 background-image: url(https://static.anidb.net/css/icons/orange/comment_edit.gif);
-}
-
-.i_comment_undelete {
-width: 89px;
 height: 12px;
 margin: 3px;
-background-image: url(https://static.anidb.net/css/icons/orange/comment_undelete.png);
+width: 32px;
 }
 
-.i_comment_setactive {
-width: 71px;
+.i_comment_info {
+background-image: url(https://static.anidb.net/css/icons/orange/comment_info.gif);
 height: 12px;
 margin: 3px;
-background-image: url(https://static.anidb.net/css/icons/orange/comment_setactive.png);
+width: 15px;
+}
+
+.i_comment_move {
+background-image: url(https://static.anidb.net/css/icons/orange/comment_move.png);
+height: 12px;
+margin: 3px;
+width: 35px;
+}
+
+.i_comment_quote {
+background-image: url(https://static.anidb.net/css/icons/orange/comment_quote.gif);
+height: 12px;
+margin: 3px;
+width: 40px;
 }
 
 .i_comment_report {
-width: 47px;
+background-image: url(https://static.anidb.net/css/icons/orange/comment_report.png);
 height: 12px;
 margin: 3px;
-background-image: url(https://static.anidb.net/css/icons/orange/comment_report.png);
+width: 47px;
+}
+
+.i_comment_revisions {
+background-image: url(https://static.anidb.net/css/icons/orange/comment_revisions.png);
+height: 12px;
+margin: 3px;
+width: 87px;
+}
+
+.i_comment_setactive {
+background-image: url(https://static.anidb.net/css/icons/orange/comment_setactive.png);
+height: 12px;
+margin: 3px;
+width: 71px;
+}
+
+.i_comment_undelete {
+background-image: url(https://static.anidb.net/css/icons/orange/comment_undelete.png);
+height: 12px;
+margin: 3px;
+width: 89px;
+}
+
+.i_forum_add {
+background-image: url(https://static.anidb.net/css/icons/orange/forum_add.gif);
+height: 12px;
+width: 65px;
+}
+
+.i_forum_delete {
+background-image: url(https://static.anidb.net/css/icons/orange/forum_delete.gif);
+height: 12px;
+width: 83px;
+}
+
+.i_forum_edit {
+background-image: url(https://static.anidb.net/css/icons/orange/forum_edit.gif);
+height: 12px;
+width: 71px;
+}
+
+.i_forum_group {
+background-image: url(https://static.anidb.net/css/icons/orange/forum_group.gif);
+height: 12px;
+width: 106px;
+}
+
+.i_forum_link {
+background-image: url(https://static.anidb.net/css/icons/orange/forum_link.gif);
+height: 12px;
+width: 41px;
+}
+
+.i_pm_delete {
+background-image: url(https://static.anidb.net/css/icons/orange/pm_delete.gif);
+height: 12px;
+width: 47px;
+}
+
+.i_pm_reply {
+background-image: url(https://static.anidb.net/css/icons/orange/pm_reply.gif);
+height: 12px;
+width: 41px;
+}
+
+.i_review_add {
+background: transparent none no-repeat scroll 0;
+background-image: url(https://static.anidb.net/css/icons/orange/review_add.png);
+height: 12px;
+width: 61px;
+}
+
+.i_top {
+background: transparent none no-repeat scroll 0;
+background-image: url(https://static.anidb.net/css/icons/orange/icon_back_top.gif);
+height: 11px;
+width: 11px;
 }
 
 .i_topic_add {
@@ -15295,12 +15358,6 @@ width: 65px;
 background-image: url(https://static.anidb.net/css/icons/orange/topic_delete.png);
 height: 12px;
 width: 89px;
-}
-
-.i_topic_undelete {
-background-image: url(https://static.anidb.net/css/icons/orange/topic_undelete.png);
-height: 12px;
-width: 101px;
 }
 
 .i_topic_history {
@@ -15321,32 +15378,8 @@ height: 12px;
 width: 47px;
 }
 
-.i_topic_unlock {
-background-image: url(https://static.anidb.net/css/icons/orange/topic_unlock.gif);
-height: 12px;
-width: 89px;
-}
-
-.i_topic_subscribe {
-background-image: url(https://static.anidb.net/css/icons/orange/topic_subscribe.gif);
-height: 12px;
-width: 63px;
-}
-
-.i_topic_unsubscribe {
-background-image: url(https://static.anidb.net/css/icons/orange/topic_unsubscribe.gif);
-height: 12px;
-width: 75px;
-}
-
 .i_topic_move {
 background-image: url(https://static.anidb.net/css/icons/orange/topic_move.png);
-height: 12px;
-width: 77px;
-}
-
-.i_topic_split {
-background-image: url(https://static.anidb.net/css/icons/orange/topic_split.png);
 height: 12px;
 width: 77px;
 }
@@ -15357,334 +15390,34 @@ height: 12px;
 width: 65px;
 }
 
-.i_comment_revisions {
-width: 87px;
+.i_topic_split {
+background-image: url(https://static.anidb.net/css/icons/orange/topic_split.png);
 height: 12px;
-margin: 3px;
-background-image: url(https://static.anidb.net/css/icons/orange/comment_revisions.png);
+width: 77px;
 }
 
-.i_forum_add {
-background-image: url(https://static.anidb.net/css/icons/orange/forum_add.gif);
+.i_topic_subscribe {
+background-image: url(https://static.anidb.net/css/icons/orange/topic_subscribe.gif);
 height: 12px;
-width: 65px;
+width: 63px;
 }
 
-.i_forum_edit {
-background-image: url(https://static.anidb.net/css/icons/orange/forum_edit.gif);
+.i_topic_undelete {
+background-image: url(https://static.anidb.net/css/icons/orange/topic_undelete.png);
 height: 12px;
-width: 71px;
+width: 101px;
 }
 
-.i_forum_delete {
-background-image: url(https://static.anidb.net/css/icons/orange/forum_delete.gif);
+.i_topic_unlock {
+background-image: url(https://static.anidb.net/css/icons/orange/topic_unlock.gif);
 height: 12px;
-width: 83px;
+width: 89px;
 }
 
-.i_forum_group {
-background-image: url(https://static.anidb.net/css/icons/orange/forum_group.gif);
+.i_topic_unsubscribe {
+background-image: url(https://static.anidb.net/css/icons/orange/topic_unsubscribe.gif);
 height: 12px;
-width: 106px;
-}
-
-.i_forum_link {
-background-image: url(https://static.anidb.net/css/icons/orange/forum_link.gif);
-height: 12px;
-width: 41px;
-}
-
-.i_pm_reply {
-background-image: url(https://static.anidb.net/css/icons/orange/pm_reply.gif);
-height: 12px;
-width: 41px;
-}
-
-.i_pm_delete {
-background-image: url(https://static.anidb.net/css/icons/orange/pm_delete.gif);
-height: 12px;
-width: 47px;
-}
-
-.i_msg_normal,
-.i_topic_normal {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_normal.gif);
-background-repeat: no-repeat;
-}
-
-.i_msg_system,
-.i_topic_sticky {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_sticky.gif);
-background-repeat: no-repeat;
-}
-
-.i_msg_mod,
-.i_topic_announcement,
-.i_topic_global {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_announce.gif);
-background-repeat: no-repeat;
-}
-
-.i_topic_normal_locked {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_normal_locked.gif);
-background-repeat: no-repeat;
-}
-
-.i_topic_sticky_locked {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_sticky_locked.gif);
-background-repeat: no-repeat;
-}
-
-.i_msg_bulk,
-.i_topic_announcement_locked,
-.i_topic_global_locked {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_announce_locked.gif);
-background-repeat: no-repeat;
-}
-
-.i_msg_normal_unread,
-.i_topic_normal_unread {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_normal_unread.gif);
-background-repeat: no-repeat;
-}
-
-.i_msg_system_unread,
-.i_topic_sticky_unread {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_sticky_unread.gif);
-background-repeat: no-repeat;
-}
-
-.i_msg_mod_unread,
-.i_topic_announcement_unread,
-.i_topic_global_unread {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_announce_unread.gif);
-background-repeat: no-repeat;
-}
-
-.i_topic_normal_locked_unread {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_normal_locked_unread.gif);
-background-repeat: no-repeat;
-}
-
-.i_topic_sticky_locked_unread {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_sticky_locked_unread.gif);
-background-repeat: no-repeat;
-}
-
-.i_msg_bulk_unread,
-.i_topic_announcement_locked_unread,
-.i_topic_global_locked_unread {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_announce_locked_unread.gif);
-background-repeat: no-repeat;
-}
-
-.i_forum {
-background-image: url(https://static.anidb.net/css/icons/phpbb/forum_normal.gif);
-background-repeat: no-repeat;
-}
-
-.i_forum_unread {
-background-image: url(https://static.anidb.net/css/icons/phpbb/forum_normal_unread.gif);
-background-repeat: no-repeat;
-}
-
-.i_general_link {
-background-image: url(https://static.anidb.net/css/icons/phpbb/topic_latest.gif);
-background-repeat: no-repeat;
-height: 9px;
-width: 11px;
-}
-
-/*Smiley*/
-.i_smiley_tehehe {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_tehehe.gif);
-}
-
-.i_smiley_sweating {
-width: 17px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_sweating.gif);
-}
-
-.i_smiley_cool {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_cool.gif);
-}
-
-.i_smiley_sad {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_sad.gif);
-}
-
-.i_smiley_happy {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_happy.gif);
-}
-
-.i_smiley_surprised {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_surprised.gif);
-}
-
-.i_smiley_undecided {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_undecided.gif);
-}
-
-.i_smiley_confused {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_confused.gif);
-}
-
-.i_smiley_very_happy {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_very_happy.gif);
-}
-
-.i_smiley_razz {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_razz.gif);
-}
-
-.i_smiley_angel {
-width: 42px;
-height: 23px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_angel.gif);
-}
-
-.i_smiley_baka {
-width: 41px;
-height: 46px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_baka.gif);
-}
-
-.i_smiley_brickwall {
-width: 25px;
-height: 20px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_brickwall.gif);
-}
-
-.i_smiley_crying {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_crying.gif);
-}
-
-.i_smiley_mad {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_mad.gif);
-}
-
-.i_smiley_laughing {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_laughing.gif);
-}
-
-.i_smiley_mymaster {
-width: 29px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_mymaster.gif);
-}
-
-.i_smiley_embarassed {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_embarassed.gif);
-}
-
-.i_smiley_rolleyes {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_rolleyes.gif);
-}
-
-.i_smiley_shock {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_shock.gif);
-}
-
-.i_smiley_thumbup {
-width: 23px;
-height: 18px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_thumbup.gif);
-}
-
-.i_smiley_twisted {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_twisted.gif);
-}
-
-.i_smiley_wink {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_wink.gif);
-}
-
-.i_smiley_zzz {
-width: 15px;
-height: 24px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_zzz.gif);
-}
-
-.i_smiley_neutral {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_neutral.gif);
-}
-
-.i_smiley_nosebleed {
-width: 15px;
-height: 19px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_nosebleed.gif);
-}
-
-.i_smiley_disgusted {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_disgusted.gif);
-}
-
-.i_smiley_thinking {
-width: 15px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_thinking.gif);
-}
-
-.i_smiley_sweatdrop {
-width: 17px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_sweatdrop.gif);
-}
-
-.i_smiley_wtf {
-width: 17px;
-height: 15px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_wtf.gif);
-}
-
-.i_smiley_dead {
-width: 16px;
-height: 16px;
-background-image: url(https://static.anidb.net/css/icons/smiley/smiley_dead.gif);
-}
-
-/*imported from: icons/ep.css*/
-.i_ep_edit {
-background-image: url(https://static.anidb.net/css/icons/icon/anidb_ep_edit.gif);
+width: 75px;
 }
 
 /*imported from: icons/file.css*/
@@ -15851,27 +15584,23 @@ background-image: url(https://static.anidb.net/css/icons/icon/anidb_avmf_forget.
 background-image: url(https://static.anidb.net/css/icons/icon/anidb_avmf_delete.gif);
 }
 
-.video.video_10bit {
+.i_video_10bit {
 width: 28px;
 background-image: url(https://static.anidb.net/css/icons/icon/anidb_video_10bit.gif);
 }
 
-.video.video_3d {
+.i_video_3d {
 background-image: url(https://static.anidb.net/css/icons/icon/anidb_video_3d.gif);
 }
 
-.video.creditless {
+.i_creditless {
 background-image: url(https://static.anidb.net/css/icons/icon/anidb_video_creditless.gif);
 }
 
 .i_ext,
 .i_ext span,
-.i_video_1080,
-.i_video_1080 span,
-.i_video_480,
-.i_video_480 span,
-.i_video_720,
-.i_video_720 span {
+.i_res,
+.i_res span {
 display: none !important;
 }
 
@@ -16311,6 +16040,14 @@ background-image: url(https://static.anidb.net/css/icons/flags/audio_swedish.png
 
 .i_sub_sv {
 background-image: url(https://static.anidb.net/css/icons/flags/subtitle_swedish.png);
+}
+
+.i_audio_tgl {
+background-image: url(https://static.anidb.net/css/icons/flags/audio_tagalog.png);
+}
+
+.i_sub_tgl {
+background-image: url(https://static.anidb.net/css/icons/flags/subtitle_tagalog.png);
 }
 
 .i_audio_ta {
