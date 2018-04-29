@@ -148,11 +148,6 @@ margin: 0;
 min-height: 0 !important;
 }
 
-#layout-nav button,
-#layout-nav input {
-width: 100%;
-}
-
 #layout-main table,
 #layout-main table caption {
 margin: 0 auto 0 auto;
@@ -1649,23 +1644,8 @@ float: right;
 margin-right: 1em;
 }
 
-div.pagination span span.page-sep {
-display: none;
-}
-
-div.pagination a,
-div.pagination strong {
-margin-left: 3px;
-}
-
-/*imported from: common/layout/global/picupload.css*/
-.g_button {
-margin-bottom: 2px;
-}
-
-.g_button a {
-padding: 2px 4px;
-display: block;
+div.pagination .g_list > * + * {
+margin-left: 0.3em;
 }
 
 /*imported from: common/layout/global/preview.css*/
@@ -1849,6 +1829,9 @@ width: 40.5em;
 }
 
 #layout-main .sidebar .g_section.info div.block {
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
 flex-wrap: wrap;
 }
 
@@ -1880,6 +1863,7 @@ margin-top: 2.5em;
 width: calc(100% - 42em);
 clear: none;
 float: right;
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
@@ -1915,6 +1899,7 @@ width: 100%;
 }
 
 #layout-main .g_section.vote_status .container {
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
@@ -1928,12 +1913,11 @@ padding: 0.5em;
 min-height: 2em;
 }
 
-#layout-main div.tabbed_pane div.pane ul {
+/*#layout-main div.tabbed_pane div.pane ul {
 width: 100%;
 display: inline-block;
 vertical-align: top;
-}
-
+}*/
 #layout-main div.tabbed_pane div.pane.hide {
 display: none;
 }
@@ -1955,9 +1939,10 @@ width: 100%;
 
 #layout-main div.tabbed_pane ul.tabs li {
 display: inline-block;
-padding: 0.3em 0.7em;
+padding: 0.2em 0.8em;
 border-bottom: 0;
 margin: 0.21em 0.3em 0 0;
+line-height: 16px;
 }
 
 #layout-main div.tabbed_pane_main {
@@ -1965,7 +1950,7 @@ clear: both;
 }
 
 #layout-main div.tabbed_pane_main table {
-width: 100%
+width: 100%;
 }
 
 #layout-main div.tabbed_pane_main + ul.links {
@@ -1975,10 +1960,6 @@ margin-top: 1em;
 #layout-main div.tabbed_pane ul.tabs .reset_selection_mode,
 #layout-main div.tabbed_pane ul.tabs .save_as_default {
 display: none;
-}
-
-#layout-main div.tabbed_pane ul.tabs .reset_selection_mode {
-margin-left: 4px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -2053,6 +2034,9 @@ display: none;
 
 #layout-main .g_datatable table tr {
 display: flex;
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
 flex-wrap: wrap;
 }
 
@@ -2072,7 +2056,7 @@ text-align: left !important;
 width: 19em !important;
 }
 
-#layout-main .g_datatable table td:before {
+#layout-main .g_datatable table td::before {
 display: inline-block;
 width: 10em;
 vertical-align: top;
@@ -2085,6 +2069,7 @@ margin-bottom: 1.5em;
 #layout-main .g_datatable table tr td.name.main {
 order: -1;
 height: auto;
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
@@ -2095,8 +2080,8 @@ width: calc(100% - 11em);
 padding: 0.5em;
 }
 
-#layout-main .g_datatable table td.name.main:before,
-#layout-main .g_datatable table td.thumb:before {
+#layout-main .g_datatable table td.name.main::before,
+#layout-main .g_datatable table td.thumb::before {
 width: 0;
 }
 
@@ -2108,6 +2093,7 @@ width: 100% !important;
 
 #layout-main .g_datatable table tr td.thumb {
 padding-top: 0.5em;
+line-height: normal;
 }
 
 #layout-main .g_datatable table tr td.thumb img {
@@ -2136,7 +2122,7 @@ float: none !important;
 
 @media screen and (max-width: 600px) {
 #layout-main .g_datatable table span.icons.tooltip,
-#layout-main .g_datatable table td.name.main:before {
+#layout-main .g_datatable table td.name.main::before {
 display: none !important;
 }
 
@@ -2352,7 +2338,7 @@ width: 250px;
 padding: 0.5em;
 }
 
-#layout-main div.tag-column .tag-block .parent:not(:first-child) {
+#layout-main div.tag-column .parent:not(:first-child) {
 margin-top: 16px;
 }
 
@@ -2373,7 +2359,7 @@ width: 12em;
 align-self: center;
 }
 
-#layout-main #chartags h3:after {
+#layout-main #chartags h3::after {
 content: ": ";
 }
 
@@ -2483,14 +2469,14 @@ width: 60em;
 -moz-flex-direction: row;
 -ms-flex-direction: row;
 flex-direction: row;
-min-height: 24px;
+min-height: 2.6em;
 }
 
 #tagtree div.tag-column div.tag span.i_icon + span.name {
 padding-left: 0.5em;
 }
 
-#tagtree div.tag-column .tag-block .parent:not(:first-child) {
+#tagtree div.tag-column .parent:not(:first-child) {
 margin-top: 0;
 }
 
@@ -2672,7 +2658,7 @@ padding-left: 4em;
 
 #layout-main div.g_timedentry ol li + br,
 #layout-main div.g_timedentry ul li + br {
-display: none
+display: none;
 }
 
 #layout-main div.g_timedentry ol {
@@ -2749,7 +2735,7 @@ position: relative;
 }
 
 /*fix for tooltips in lightboxes*/
-.fancybox-wrap .tooltip:hover span.wrapper {
+.fancybox-container .tooltip:hover span.wrapper {
 position: fixed;
 }
 
@@ -2771,8 +2757,8 @@ z-index: 1000;
 display: inline;
 }
 
-.tooltip span.text:after,
-.tooltip span.text:before {
+.tooltip span.text::after,
+.tooltip span.text::before {
 bottom: 100%;
 height: 0;
 width: 0;
@@ -2782,11 +2768,11 @@ content: " ";
 pointer-events: none;
 }
 
-.tooltip span.text:after {
+.tooltip span.text::after {
 margin-left: -10px;
 }
 
-.tooltip span.text:before {
+.tooltip span.text::before {
 margin-left: -13px;
 }
 
@@ -2822,6 +2808,111 @@ padding: 0.5em;
 }
 
 /*imported from: common/layout/page/all.css*/
+/*imported from: common/layout/page/accounting.css*/
+#layout-main div.accounting_all .g_bubblewrap {
+margin: 0 -0.5em 1em;
+}
+
+#layout-main div.accounting_all .g_bubblewrap .g_section {
+margin: 0.5em;
+}
+
+#layout-main div.accounting_all .g_definitionlist {
+margin: 0;
+}
+
+#layout-main div.accounting_all .g_definitionlist .field {
+width: 10em;
+}
+
+#layout-main div.accounting_all .g_definitionlist .value {
+text-align: right;
+}
+
+#layout-main div.accounting_all .transactionlist .date {
+width: 10em;
+}
+
+#layout-main div.accounting_all .transactionlist .amount,
+#layout-main div.accounting_all .transactionlist .interval,
+#layout-main div.accounting_all .transactionlist .type {
+width: 15em;
+}
+
+#layout-main div.accounting_all .g_bubblewrap > .g_section {
+max-width: 25%;
+}
+
+#layout-main div.accounting_all .g_bubblewrap > .g_section .container {
+height: calc(100% - 4.6em);
+}
+
+#layout-main div.accounting_all #accountbalance .container {
+padding: 1em 0 0;
+}
+
+#layout-main div.accounting_all #accountbalance .highcharts-container {
+margin-left: -0.5em;
+}
+
+#layout-main div.accounting_all .estimate {
+text-align: left;
+}
+
+#layout-main div.accounting_all .estimate .row {
+padding: 4px;
+}
+
+#layout-main div.accounting_all .estimate .row .value {
+float: right;
+}
+
+#layout-main div.accounting_all .estimate .row p {
+margin-top: 0.5em;
+}
+
+#layout-main .accounting_all div.g_bubble.showhidecontent {
+margin: 1em 0.5em;
+padding: 0;
+}
+
+#layout-main .accounting_all div.g_bubble.showhidecontent .body {
+margin: 0;
+padding: 1em;
+}
+
+#layout-main .accounting_all div.g_bubble.showhidecontent .desc {
+padding: 1em;
+}
+
+#layout-main .accounting_all div.g_bubble.showhidecontent .desc + .body {
+padding-top: 0;
+}
+
+#layout-main .accounting_all div.g_bubble.showhidecontent button.toggle_visible {
+float: right;
+}
+
+@media screen and (max-width: 1400px) {
+#layout-main div.accounting_all .g_bubblewrap > .g_section {
+max-width: calc(50% - 1em);
+width: calc(50% - 1em);
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+#layout-main div.accounting_all .g_bubblewrap > .g_section {
+max-width: calc(100% - 1em);
+width: calc(100% - 1em);
+}
+
+#layout-main div.accounting_all .cost.list .container {
+overflow: auto;
+}
+
+}
+
 /*imported from: common/layout/page/addentity.css*/
 #layout-main div.addanimetitle_form input[type="text"],
 #layout-main div.addeptitle_form p input[type="text"] {
@@ -2918,6 +3009,7 @@ margin-right: auto;
 width: 100%;
 height: 30em;
 white-space: pre;
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
@@ -2936,7 +3028,7 @@ padding: 3px 4px;
 
 #layout-main div.addfilem_all #template_options button + button,
 #layout-main div.addfilem_all #toggle_template_options {
-margin-left: 0.3em
+margin-left: 0.3em;
 }
 
 #layout-main div.addfilem_all #template_options input {
@@ -2953,111 +3045,76 @@ max-width: 45em;
 }
 
 /*imported from: common/layout/page/addsimilaranime.css*/
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.block {
-line-height: 1.4;
-margin-bottom: 1em;
-min-height: 0;
+#layout-main div.addsimilaranime_all .g_bubblewrap > .g_bubble {
+margin: 0.5em;
 text-align: left;
-word-wrap: break-word;
-width: 49%;
-min-width: 35em;
-display: inline-table;
-vertical-align: top;
+width: calc(50% - 2em);
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: 1em;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.icons.vote {
+#layout-main div.addsimilaranime_all .g_bubble div.profile .icons.vote {
 height: 3.5em;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries .icons.tooltip {
+#layout-main div.addsimilaranime_all .g_bubble div.profile .icons.tooltip {
 float: left;
 padding-right: 0.3em;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
-float: left;
-margin-right: 1em;
-margin-top: 1em;
-min-height: 80px;
-width: 15em;
+#layout-main div.addsimilaranime_all .g_bubble div.profile {
+display: inline-table;
+vertical-align: top;
+width: 13.5em;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile {
-display: block;
-margin: 0 1em 0.5em;
+#layout-main div.addsimilaranime_all .g_bubble div.profile > div.added.by,
+#layout-main div.addsimilaranime_all .g_bubble div.profile > div.anime,
+#layout-main div.addsimilaranime_all .g_bubble div.profile > div.deleted.by {
+margin-bottom: 1em;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div {
-clear: none;
-float: none;
-margin-left: 0;
+#layout-main div.addsimilaranime_all .g_bubble div.comments {
+position: relative;
+width: calc(100% - 14em);
+height: 100%;
+display: inline-table;
+vertical-align: top;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile > div.added.by,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile > div.anime,
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile > div.deleted.by {
-margin-bottom: 1.5em;
+#layout-main div.addsimilaranime_all .g_bubble div.postbody {
+margin-bottom: 1em;
+padding: 0.5em;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody {
-margin-top: 0.8em;
-margin-left: 16em;
-margin-right: 1em;
-}
-
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody:first-of-type {
-margin-top: 1em;
-}
-
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new {
-margin: 0.8em 2em 1em 16em;
-}
-
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea {
-width: 100%;
-height: 4em;
-margin-right: -1em;
-margin-bottom: 0.5em;
-}
-
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new textarea + input {
-display: block;
-margin-top: 0.2em;
-}
-
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.new form {
-text-align: left;
-}
-
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody div.content {
-padding: 4px;
-}
-
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody p.author {
-padding: 4px 0 0 4px;
+#layout-main div.addsimilaranime_all .g_bubble div.postbody p.author {
+padding: 0.4em 0;
 display: inline-block;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postbody span.actions {
-padding-right: 4px;
-padding-top: 4px;
+#layout-main div.addsimilaranime_all .g_bubble div.postfooter a.i_top {
+position: absolute;
+bottom: 0;
+right: 0;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postfooter {
-clear: both;
-height: 11px;
-padding-bottom: .9em;
-padding-right: 1em;
-text-align: right;
+#layout-main div.addsimilaranime_all .g_bubble div.new textarea {
+width: 100%;
+margin-bottom: 0.5em;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.postfooter a.i_top {
+#layout-main div.addsimilaranime_all .g_bubble div.new button {
 display: block;
-float: right;
 }
 
-#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.title {
-border-right: 1px solid;
+@media screen and (max-width: 1430px) {
+#layout-main div.addsimilaranime_all .g_bubblewrap > .g_bubble {
+width: calc(100% - 1em);
+}
+
 }
 
 /*imported from: common/layout/page/addtagentityrel.css*/
@@ -3110,13 +3167,13 @@ width: 20em;
 
 #layout-main div.dbstats_all table,
 #layout-main div.stats_all table {
-border: none;
+border: 0;
 border-spacing: 1em;
 }
 
 #layout-main div.dbstats_all table td,
 #layout-main div.stats_all table td {
-border: none;
+border: 0;
 }
 
 #layout-main div.admin_cat_menu ul,
@@ -3166,7 +3223,7 @@ margin-top: 1em;
 }
 
 #layout-main div.admin_all table.creditlist {
-width: 98%;
+width: 100%;
 }
 
 #layout-main div.admin_all table.creditlist td.no {
@@ -3296,11 +3353,9 @@ margin-top: 1em;
 #layout-main div.admin_tags_all div.actions button,
 #layout-main div.admin_tags_all div.actions input[type="submit"] {
 margin-left: 5px;
-height: 28px;
 }
 
 #layout-main div.admin_tags_all div.actions select {
-height: 28px;
 width: 34.7em;
 vertical-align: middle;
 }
@@ -3326,7 +3381,7 @@ width: 10em;
 /*searchassist*/
 @media screen and (min-width: 1350px) {
 #layout-main .admin_all ul.nav + ul.limit {
-margin-top: -3.3em;
+margin-top: -3.8em;
 }
 
 }
@@ -3340,11 +3395,6 @@ width: 100%;
 #layout-main div.admin_all table.cranime td.action {
 width: 20em;
 height: 24px;
-}
-
-#layout-main div.admin_all table.cranime td.action a {
-margin-top: 0.3em;
-margin-right: 0.3em;
 }
 
 #layout-main div.admin_all table.cranime td.action button {
@@ -3404,19 +3454,11 @@ text-align: center;
 }
 
 #layout-main div.anime_all div.tabbed_pane ul.contribute {
-border: none;
+border: 0;
 }
 
 #layout-main div.anime_all #groupfilter .icons {
 float: left;
-}
-
-#layout-main div.anime_all #groupfilter .icons span.i_icon {
-cursor: pointer;
-}
-
-#layout-main div.anime_all #groupfilter .icons span + span {
-margin-left: 0.5em;
 }
 
 #layout-main div.anime_all > .g_section form table,
@@ -3464,11 +3506,11 @@ text-align: right;
 width: 30%;
 }
 
-#layout-main div.anime_all div.staffblock + div.staffblock {
+#layout-main .staffblock + div.staffblock {
 margin-top: 3em;
 }
 
-#layout-main div.anime_all div.staffblock h3 {
+#layout-main .staffblock h3 {
 margin-left: 1em;
 text-align: center;
 width: 30%;
@@ -3488,7 +3530,7 @@ min-width: 7em;
 }
 
 #layout-main div.anime_all div.episodes table.eplist td.action.episode {
-width: 11em;
+width: 11.5em;
 }
 
 #layout-main div.anime_all #tabbed_pane {
@@ -3572,6 +3614,7 @@ margin: 0.6em 0.5em;
 }
 
 #layout-main div.anime_all .g_section.mylist_status.vote_status .container {
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 min-height: 8em;
 }
@@ -3623,7 +3666,7 @@ margin: 0 0.5em;
 
 #layout-main div.anime_all #mydata tr.mylistaction td.value form,
 #layout-main div.anime_all #mydata tr.vote td.value form {
-text-align: left
+text-align: left;
 }
 
 #layout-main div.anime_all #mydata th {
@@ -3634,7 +3677,8 @@ width: 10em;
 max-width: 50%;
 }
 
-#layout-main div.anime_all #mydata .g_bubblewrap {
+#layout-main div.anime_all #mydata .g_bubblewrap,
+#layout-main div.anime_all .stats.user .g_bubblewrap {
 margin: -0.5em;
 }
 
@@ -3642,8 +3686,36 @@ margin: -0.5em;
 margin: 0.5em;
 }
 
+#layout-main div.anime_all .mydata tr.vote .i_help + span.predictedvote,
+#layout-main div.anime_all .mydata tr.vote form + span.predictedvote {
+float: right;
+}
+
+#layout-main div.anime_all .mydata tr.vote form + span.predictedvote {
+margin-top: -2em;
+}
+
 #anidb.internet_explorer #layout-main div.anime_all #mydata .g_definitionlist {
 width: calc(50% - 1.2em);
+}
+
+#layout-main div.anime_all .stats.user .g_bubblewrap > div {
+min-width: 14.44em;
+margin: 0.5em;
+padding: 0.5em;
+}
+
+#layout-main div.anime_all .stats.user .g_bubblewrap > div.rank .links,
+#layout-main div.anime_all .stats.user .g_bubblewrap > div.rank label {
+display: inline-block;
+text-align: left;
+white-space: nowrap;
+width: 6em;
+}
+
+#layout-main div.anime_all .stats.user .g_bubblewrap > div.rank .links {
+text-align: right;
+width: 8em;
 }
 
 @media screen and (min-width: 1500px) {
@@ -3657,6 +3729,9 @@ width: 20em;
 }
 
 #layout-main div.anime_all.sidebar .g_section.info div.extra {
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
 flex-wrap: wrap;
 }
 
@@ -3712,22 +3787,16 @@ justify-content: flex-start;
 overflow: auto;
 }
 
-#layout-main div.anime_all div.groups table .action,
-#layout-main div.anime_all div.groups table .note,
-#layout-main div.anime_all div.groups table .rating,
-#layout-main div.anime_all div.groups table .threads {
-display: none;
-}
-
 #layout-main div.anime_all div.episodes table .epusers,
 #layout-main div.anime_all div.episodes table .number.files,
 #layout-main div.anime_all div.episodes table .users,
 #layout-main div.anime_all div.episodes table td.action:not(.expand),
 #layout-main div.anime_all div.episodes table th.action,
-#layout-main div.anime_all div.episodes table th.files {
-display: none;
-}
-
+#layout-main div.anime_all div.episodes table th.files,
+#layout-main div.anime_all div.groups table .action,
+#layout-main div.anime_all div.groups table .note,
+#layout-main div.anime_all div.groups table .rating,
+#layout-main div.anime_all div.groups table .threads,
 #layout-main div.anime_all div.songs table .comment,
 #layout-main div.anime_all div.songs table .creator,
 #layout-main div.anime_all div.songs table .credit,
@@ -3741,26 +3810,23 @@ width: 100%;
 
 }
 
+@media screen and (max-width: 700px) {
+#layout-main div.anime_all #mydata .g_definitionlist {
+max-width: 100%;
+width: 100%;
+}
+
+}
+
 @media screen and (max-width: 600px) {
 #layout-main div.anime_all div.groups table .epbar,
 #layout-main div.anime_all div.groups table .lastep,
 #layout-main div.anime_all div.groups table .source,
-#layout-main div.anime_all div.groups table .specials {
-display: none;
-}
-
+#layout-main div.anime_all div.groups table .specials,
+#layout-main div.anime_all div.songs table .eprange,
 #layout-main div.anime_all div.staff table .comment,
 #layout-main div.anime_all div.staff table .eprange {
 display: none;
-}
-
-#layout-main div.anime_all div.songs table .eprange {
-display: none;
-}
-
-#layout-main div.anime_all #mydata .g_definitionlist {
-max-width: 100%;
-width: 100%;
 }
 
 }
@@ -3777,6 +3843,10 @@ width: 11em;
 }
 
 #layout-main div.animeatt_reviews div.review div.bar table {
+width: 100%;
+}
+
+#layout-main div.animeatt_reviews div.review div.bar .g_menu {
 width: 100%;
 }
 
@@ -3812,7 +3882,8 @@ padding: 0.8em;
 min-height: 330px;
 }
 
-#layout-main div.animeatt_reviews div.review div.text + div.note {
+#layout-main div.animeatt_reviews div.review div.text + div.note,
+#layout-main div.animeatt_reviews div.review p.g_msg.cmt {
 margin-top: 1em;
 margin-right: 12em;
 clear: none;
@@ -3880,6 +3951,9 @@ width: 50%;
 
 #layout-main div.animeatt_reviews div.review div.bar tbody {
 display: flex;
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
 flex-wrap: wrap;
 }
 
@@ -3893,7 +3967,7 @@ width: 100%;
 
 #layout-main div.animeatt_reviews div.review div.bar tr + tr td,
 #layout-main div.animeatt_reviews div.review div.bar tr + tr th {
-border-top: none !important;
+border-top: 0 !important;
 }
 
 #layout-main div.animeatt_reviews div.review div.bar tr {
@@ -3917,23 +3991,17 @@ width: 50%;
 }
 
 /*imported from: common/layout/page/animelist.css*/
-#layout-main div.animelist_all div.filters ul li span,
-#layout-main div.animelist_all div.filters ul li span span,
 #layout-main div.animelist_all td.awards span.i_icon {
-display: inline-block;
-}
-
-#layout-main div.animelist_all div.filters ul li span span span {
-display: none;
-}
-
-#layout-main div.animelist_all div.enabled_filters li > span {
 display: inline-block;
 }
 
 #layout-main div.animelist_all div.fullsearch_form,
 #layout-main div.animelist_all div.note {
 clear: none;
+}
+
+#layout-main div.animelist_all table.animelist {
+width: 100%;
 }
 
 #layout-main div.animelist_all table.animelist tr td,
@@ -3957,6 +4025,12 @@ width: 50%;
 
 #layout-main div.animelist_all table.animelist tr td.action {
 min-width: 6.5em;
+}
+
+#layout-main .animelist_all .animelist_grid,
+#layout-main .animelist_all .animelist_smallgrid {
+margin-left: -0.5em;
+margin-right: -0.5em;
 }
 
 @media screen and (min-width: 1640px) {
@@ -4071,8 +4145,18 @@ text-align: left;
 
 /*imported from: common/layout/page/character.css*/
 #layout-main div.character_all div.selector {
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
 display: flex;
-align-items: center;
+-webkit-align-content: center;
+-ms-align-content: center;
+-moz-align-content: center;
+align-content: center;
+-ms-justify-content: center;
+-webkit-justify-content: center;
+-moz-justify-content: center;
 justify-content: center;
 }
 
@@ -4127,20 +4211,6 @@ width: 4em;
 text-align: center;
 }
 
-#layout-main div.calendar_all .date_selector + .g_list {
-margin-top: -2.3em;
-}
-
-#layout-main div.calendar_all .g_section.bottom,
-#layout-main div.calendar_all .g_section.top {
-height: 2em;
-}
-
-#layout-main div.calendar_all .g_bubble.box > div.data div.desc {
-max-height: 15em;
-overflow: hidden;
-}
-
 #layout-main div.calendar_all .g_bubble.stripe {
 width: 375px;
 max-width: 550px;
@@ -4150,34 +4220,33 @@ max-width: 550px;
 clear: none;
 }
 
-/*ie sucks as usual*/
-.internet_explorer#anidb .calendar_all .g_bubblewrap.nowrap {
-display: block;
+#layout-main div.calendar_all .date_selector,
+#layout-main div.calendar_all .g_list.views {
+display: inline-block;
+vertical-align: top;
 }
 
-.internet_explorer#anidb .calendar_all .middle .g_filter {
-float: right;
-}
-
-.internet_explorer#anidb .calendar_all .middle .g_filter + .content {
-margin-right: 18.5em;
-}
-
-@media screen and (min-width: 640px) and (max-width: 950px) {
-#layout-main div.calendar_all .g_bubble.box {
-width: 250px;
+@media screen and (max-width: 500px) {
+#layout-main div.calendar_all .g_bubble.stripe {
+width: 100%;
 }
 
 }
 
 /*imported from: common/layout/page/charlist.css*/
 #layout-main div.characterlist_all table.characterlist {
-width: 100%
+width: 100%;
 }
 
 #layout-main div.characterlist_all table.characterlist tr td {
 padding-left: 0.5em;
 padding-right: 0.5em;
+}
+
+#layout-main .characterlist_all .characterlist_grid,
+#layout-main .characterlist_all .characterlist_smallgrid {
+margin-left: -0.5em;
+margin-right: -0.5em;
 }
 
 /*imported from: common/layout/page/club.css*/
@@ -4192,7 +4261,7 @@ padding-left: 1em;
 
 /*imported from: common/layout/page/clublist.css*/
 #layout-main div.clublist_all table.clublist th.name {
-width: 98%
+width: 98%;
 }
 
 #layout-main div.clublist_all table.clublist tr td {
@@ -4260,6 +4329,10 @@ float: none;
 margin-left: 0;
 }
 
+#layout-main div.cmt_entries div.profile a.username-colored {
+white-space: nowrap;
+}
+
 #layout-main div.cmt_entries div.profile div.user {
 padding-top: 0.5em;
 min-height: 40px;
@@ -4283,7 +4356,7 @@ margin-right: 1em;
 }
 
 #layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody p.author {
-margin: 0.5em 25em 1em 0.5em;
+margin: 0.5em 30em 1em 0.5em;
 }
 
 #layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions:not(:empty) + p.author {
@@ -4361,7 +4434,7 @@ clear: none;
 
 #layout-main div.forum li.header div.segment,
 #layout-main div.forum li.header div.segment.icon {
-border-left: none !important;
+border-left: 0 !important;
 padding: 7px 5px 5px;
 }
 
@@ -4373,10 +4446,6 @@ line-height: 2.5em;
 
 #layout-main div.forum ul.topics div.row {
 min-height: 2.5em;
-}
-
-#layout-main div.forum div.profile a.username-colored {
-display: block;
 }
 
 #layout-main div.forum ul.topiclist li.row div.row {
@@ -4397,12 +4466,14 @@ padding-left: .3em;
 }
 
 #layout-main div.forum div.g_bubble.threads {
-border: none;
+border: 0;
 padding: 0 0 0.4em;
 margin: 0.5em 0;
 }
 
-#layout-main div.forum hr {
+#layout-main div.cmt_all div.cmt_add hr,
+#layout-main div.forum hr,
+#layout-main div.postbody hr {
 display: block;
 height: 1px;
 margin: 5px 0;
@@ -4474,6 +4545,7 @@ height: 20em;
 margin-left: 0;
 width: 100%;
 max-width: 100%;
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
@@ -4494,7 +4566,8 @@ margin-top: 1em;
 padding-bottom: 1.5em;
 }
 
-#layout-main div.forum div.subject input {
+#layout-main div.forum div.subject input,
+#layout-main div.forum div.to input {
 width: 300px;
 }
 
@@ -4582,7 +4655,7 @@ padding-left: 4px;
 #layout-main div.forum ul.topiclist div.actions {
 float: right;
 text-align: center;
-width: 9em;
+width: 11em;
 }
 
 #layout-main div.forum ul.topics div.actions {
@@ -4601,10 +4674,10 @@ margin-top: 2em;
 #layout-main div.forum div.quickreply textarea {
 border: 1px solid;
 height: 11em;
-line-height: 1.2em;
 padding: 2px;
 width: 40%;
 min-width: 50em;
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
@@ -4634,14 +4707,10 @@ width: 300px;
 min-width: 169px;
 }
 
+#layout-main div.forum div.search form button,
 #layout-main div.forum div.search form input,
 #layout-main div.forum div.search form select {
-padding: 2px 3px;
-}
-
-#layout-main div.forum div.search form button,
-#layout-main div.forum div.search form input[type="submit"] {
-padding: 3px;
+padding: 2px 8px;
 }
 
 #layout-main div.forumsearch_form div.field {
@@ -4666,9 +4735,11 @@ text-align: left;
 width: 250px;
 }
 
+#layout-main div.cmt_all div.cmt_add hr,
 #layout-main div.forum hr,
-#layout-main div.forum ul.topiclist {
-border: none;
+#layout-main div.forum ul.topiclist,
+#layout-main div.postbody hr {
+border: 0;
 }
 
 #layout-main div.forum li.row+li.row {
@@ -4744,6 +4815,7 @@ float: left;
 #layout-main div.forum div.options-box > div > div + div,
 #layout-main div.forum div.options-box div.polls,
 #layout-main div.forum div.posting-box > div + div,
+#layout-main div.forum div.posting-box div.message-box,
 #layout-main div.forumsearch_form > form > div + div {
 margin-top: .5em;
 }
@@ -4760,20 +4832,20 @@ padding: 1em;
 
 #layout-main div.g_bubble.code,
 #layout-main div.g_bubble.quotebody,
-#layout-main div.g_bubble.spoiler {
+#layout-main div.g_bubble.showhidecontent {
 margin: 0.5em;
 padding: 4px 8px;
 }
 
-#layout-main div.g_bubble.spoiler div.desc {
+#layout-main div.g_bubble.showhidecontent div.desc {
 padding: 0.5em 0;
 }
 
-#layout-main div.g_bubble.spoiler div.spoiler_body {
+#layout-main div.g_bubble.showhidecontent div.body {
 margin-bottom: 1em;
 }
 
-#layout-main div.g_bubble.spoiler button.spoiler {
+#layout-main div.g_bubble.showhidecontent button.toggle_visible {
 margin: 0.5em;
 }
 
@@ -4959,14 +5031,30 @@ padding-left: 1em;
 }
 
 /*</polls>*/
-#layout-main div.forum div.topic_actions div.linklist,
-#layout-main div.forum div.topic_actions div.pagination {
+#layout-main div.topic_actions div.pagination {
+margin-top: -0.3em;
+}
+
+#layout-main div.topic_actions div.linklist,
+#layout-main div.topic_actions div.pagination {
 margin-right: 0;
 }
 
-#layout-main div.forum div.topic_actions div.pagination + div.linklist {
+#layout-main div.topic_actions div.pagination + div.linklist {
 width: 100%;
 text-align: right;
+}
+
+#layout-main div.topic_actions div.linklist,
+#layout-main div.topic_actions div.pagination .g_list > *,
+#layout-main div.topic_actions div.pagination > .cnt,
+#layout-main div.topic_actions div.pagination > .range {
+margin-top: 0.3em;
+}
+
+#layout-main div.topic_actions div.pagination > .cnt,
+#layout-main div.topic_actions div.pagination > .range {
+display: inline-block;
 }
 
 #layout-main div.forum div.topic_actions {
@@ -5044,11 +5132,11 @@ display: none;
 }
 
 #layout-main div.forum div.search:not(.postsearch) form input.search {
-width: calc(100% - 17.1em);
+width: calc(100% - 32em);
 }
 
 #layout-main div.forum div.search.postsearch form input.search {
-width: calc(100% - 6.3em);
+width: calc(100% - 7.5em);
 }
 
 #layout-main div.forum .segment div.title a.topictitle {
@@ -5075,6 +5163,9 @@ margin-top: -2.5em;
 @media screen and (max-width: 635px) {
 #layout-main div.cmt_entries div.postbody span.actions,
 #layout-main div.forum div.topic_actions {
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
 flex-wrap: wrap;
 }
 
@@ -5116,7 +5207,7 @@ max-width: 50px;
 }
 
 #layout-main div.forum div.g_bubble.navbar div.bottom {
-border: none;
+border: 0;
 }
 
 #layout-main div.cmt_entries div.postbody div.content {
@@ -5163,6 +5254,11 @@ margin-right: 0 !important;
 padding-top: 2em;
 }
 
+#layout-main div.forum div.subject input,
+#layout-main div.forum div.to input {
+width: 100%;
+}
+
 }
 
 /*imported from: common/layout/page/collection.css*/
@@ -5191,6 +5287,11 @@ display: block;
 margin: 2.5em 0 1.5em;
 }
 
+#layout-main .collection_all .g_section:not(.tabbed_pane) table.tracklist {
+margin: -0.5em;
+width: calc(100% + 1em);
+}
+
 @media screen and (max-width: 950px) {
 #layout-main div.collection_all div.g_section.anime .container,
 #layout-main div.collection_all div.g_section.tracks .container {
@@ -5201,7 +5302,7 @@ overflow: auto;
 
 /*imported from: common/layout/page/collectionlist.css*/
 #layout-main div.collectionlist_all table.collectionlist {
-width: 100%
+width: 100%;
 }
 
 #layout-main div.collectionlist_all table.collectionlist tr td {
@@ -5209,10 +5310,26 @@ padding-left: 0.5em;
 padding-right: 0.5em;
 }
 
+#layout-main .collectionlist_all .collectionlist_grid,
+#layout-main .collectionlist_all .collectionlist_smallgrid {
+margin-left: -0.5em;
+margin-right: -0.5em;
+}
+
 /*imported from: common/layout/page/creator.css*/
 #layout-main div.creator_all div.selector {
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
 display: flex;
-align-items: center;
+-webkit-align-content: center;
+-ms-align-content: center;
+-moz-align-content: center;
+align-content: center;
+-ms-justify-content: center;
+-webkit-justify-content: center;
+-moz-justify-content: center;
 justify-content: center;
 }
 
@@ -5257,12 +5374,18 @@ overflow: auto;
 
 /*imported from: common/layout/page/creatorlist.css*/
 #layout-main div.creatorlist_all table.creatorlist {
-width: 100%
+width: 100%;
 }
 
 #layout-main div.creatorlist_all table.creatorlist tr td {
 padding-left: 0.5em;
 padding-right: 0.5em;
+}
+
+#layout-main .creatorlist_all .creatorlist_grid,
+#layout-main .creatorlist_all .creatorlist_smallgrid {
+margin-left: -0.5em;
+margin-right: -0.5em;
 }
 
 /*imported from: common/layout/page/credits.css*/
@@ -5315,6 +5438,11 @@ width: 4em;
 text-align: left;
 }
 
+#layout-main div.creq_all div.creq_data tr.child {
+height: 4em;
+vertical-align: bottom;
+}
+
 #layout-main div.creq_all div.creq_data td,
 #layout-main div.creq_all div.creq_raw td,
 #layout-main div.creq_all table.creqlist td {
@@ -5356,8 +5484,6 @@ width: auto;
 }
 
 #layout-main div.creq_all div.creq_messages {
-margin-left: 1em;
-margin-right: 1em;
 text-align: left;
 }
 
@@ -5372,6 +5498,11 @@ text-align: center;
 
 #layout-main div.creq_all div.tabbed_pane + .g_list {
 margin-top: 1em;
+}
+
+#layout-main .creq_all .creq_header + ul.g_list {
+margin-top: 1em;
+margin-bottom: 0.5em;
 }
 
 @media screen and (max-width: 950px) {
@@ -5456,16 +5587,6 @@ width: 30%;
 min-width: 10em;
 }
 
-#layout-main div.ep_all div.staffblock + div.staffblock {
-margin-top: 1.5em;
-}
-
-#layout-main div.ep_all div.staffblock h3 {
-margin-left: 1em;
-text-align: center;
-width: 30%;
-}
-
 #layout-main div.ep_all div.info div.tabbed_pane {
 min-width: 50em;
 max-width: 50%;
@@ -5480,10 +5601,6 @@ width: 100%;
 
 #layout-main div.ep_all div.info table th {
 width: 10em;
-}
-
-#layout-main div.ep_all div.staffblock + div.staffblock {
-margin-top: 3em;
 }
 
 #layout-main div.ep_all > .g_section.tabbed_pane:not(.hidden) {
@@ -5544,7 +5661,7 @@ text-align: right;
 }
 
 #layout-main div.group_all table.animelist td.action {
-min-width: 9em;
+min-width: 9.5em;
 }
 
 #layout-main div.group_all div.group_released table#releases th.action {
@@ -5615,7 +5732,7 @@ margin-top: 0;
 
 /*imported from: common/layout/page/grouplist.css*/
 #layout-main div.grouplist_all table.grouplist {
-width: 100%
+width: 100%;
 }
 
 #layout-main div.grouplist_all table.grouplist tr td {
@@ -5844,6 +5961,10 @@ min-width: 30em;
 max-width: 30em;
 }
 
+#layout-main div.main_all div.news.forum .waifu .g_bubble.box {
+padding: 0;
+}
+
 #layout-main div.main_all div.news.forum .g_bubble.stripe {
 margin: 0;
 height: 100%;
@@ -5859,11 +5980,13 @@ margin-right: 0.3em;
 #layout-main div.main_all div.news.forum div.container {
 margin: 0 0.5em;
 height: calc(100% - 3.5em);
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
-#layout-main div.main_all div.news.forum div.events {
-min-width: 55em;
+#layout-main div.main_all div.news.forum div.events,
+#layout-main div.main_all div.news.forum div.what {
+min-width: 45em;
 }
 
 #layout-main div.main_all div.news.forum div.events .g_bubble.stripe > div.data {
@@ -5880,13 +6003,15 @@ margin-top: 0.5em;
 }
 
 #layout-main div.main_all div.news.forum div.events div.row .left {
-width: 20em;
-margin-right: 0.5em;
+min-width: 16em;
 white-space: nowrap;
 }
 
 @media screen and (min-width: 1000px) {
 #layout-main div.main_all div.news.forum:not(.events):not(.what) {
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
 flex-wrap: nowrap;
 }
 
@@ -5894,6 +6019,9 @@ flex-wrap: nowrap;
 
 @media screen and (min-width: 1600px) {
 #layout-main div.main_all div.news.forum {
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
 flex-wrap: nowrap;
 }
 
@@ -5930,20 +6058,15 @@ width: 100%;
 
 }
 
-@media screen and (max-width: 950px) {
-#layout-main div.main_all div.news.forum div.events div.row .left {
-width: auto;
-}
-
-}
-
 @media screen and (max-width: 850px) {
 #layout-main div.main_all div.news.forum div.latestnews {
 max-width: none !important;
+width: 100%;
 }
 
 #layout-main div.main_all div.news.forum div.stats,
 #layout-main div.main_all div.news.forum div.waifu {
+min-width: 100%;
 max-width: 50% !important;
 }
 
@@ -5979,31 +6102,8 @@ margin: 0 0.3em;
 margin-top: -2.5em;
 }
 
-#layout-main div.main_all div.calendar .g_bubble.box {
-width: 163px;
+#layout-main div.main_all div.calendar .g_bubble.box.small {
 max-width: 250px;
-}
-
-#layout-main div.main_all div.calendar .g_bubble.box > div.top {
-padding: 0;
-margin: 0 0.5em;
-}
-
-#layout-main div.main_all div.calendar .g_bubble.box .name span.icons.tooltip .i_info {
-height: 15px;
-}
-
-#layout-main div.main_all div.calendar .g_bubble.box > div.image {
-float: none;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 0;
-padding: 1em 0.7em;
-}
-
-#layout-main div.main_all div.calendar .g_bubble.box > div.data div.desc,
-#layout-main div.main_all div.calendar .g_bubble.box > div.top div.actions.icons {
-display: none;
 }
 
 #layout-main div.main_all div.calendar .g_bubble.box.no10,
@@ -6018,12 +6118,15 @@ display: none;
 }
 
 @media screen and (max-width: 350px) {
-#layout-main div.main_all div.calendar .g_bubble.box {
-max-width: 100%;
-}
-
 #layout-main div.main_all div.calendar .g_bubble > div.top div.name {
 height: auto;
+}
+
+}
+
+@media screen and (max-width: 370px) {
+#layout-main div.main_all div.calendar .g_bubble.box.small {
+padding: 0;
 }
 
 }
@@ -6110,16 +6213,16 @@ max-width: none;
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
 #layout-main div.main_all div.myhints .g_bubble.stripe {
-max-width: 296px;
+max-width: calc(100% - 1em);
 }
 
 }
 
 @media screen and (min-width: 1350px) {
 #layout-main div.main_all div.myhints .g_bubble.stripe {
-max-width: calc(33% - 7px);
+max-width: calc(33% - 0.7em);
 }
 
 #layout-main div.main_all div.myhints .g_bubble.stripe.no7,
@@ -6131,7 +6234,7 @@ display: none;
 
 @media screen and (min-width: 1580px) {
 #layout-main div.main_all div.myhints .g_bubble.stripe {
-max-width: calc(25% - 11px);
+max-width: calc(25% - 1em);
 }
 
 #layout-main div.main_all div.myhints .g_bubble.stripe.no7,
@@ -6148,11 +6251,12 @@ margin-bottom: 1em;
 
 #layout-main div.main_all div.latest > div {
 margin: 0px 0.5em;
-min-width: 45em
+min-width: 45em;
 }
 
 #layout-main div.main_all div.latest div.container {
 height: calc(100% - 3.6em);
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
@@ -6198,7 +6302,6 @@ margin-bottom: 0;
 margin: 0 0.5em 1em;
 width: calc(100% - 1em);
 max-width: 400px;
-max-width: calc(50% - 11px);
 }
 
 #layout-main div.main_all div.datablocks .g_bubble.stripe {
@@ -6232,7 +6335,7 @@ max-width: none;
 
 @media screen and (min-width: 1000px) and (max-width: 1350px) {
 #layout-main div.main_all div.datablocks > div {
-max-width: calc(50% - 11px);
+max-width: calc(50% - 1em);
 }
 
 #layout-main div.main_all div.datablocks .g_bubble.stripe {
@@ -6243,7 +6346,7 @@ max-width: none;
 
 @media screen and (min-width: 1350px) {
 #layout-main div.main_all div.datablocks > div {
-max-width: calc(33% - 7px);
+max-width: calc(33% - 0.7em);
 }
 
 #layout-main div.main_all div.datablocks > div:last-child {
@@ -6254,7 +6357,7 @@ display: none;
 
 @media screen and (min-width: 1580px) {
 #layout-main div.main_all div.datablocks > div {
-max-width: calc(25% - 11px);
+max-width: calc(25% - 1em);
 }
 
 #layout-main div.main_all div.datablocks > div:last-child {
@@ -6264,10 +6367,6 @@ display: block;
 }
 
 /*login/registration*/
-#layout-main div.main_all div.news.forum div.what {
-min-width: 58em;
-}
-
 #layout-main div.main_all div.account {
 float: right;
 margin-left: 0.5em;
@@ -6315,7 +6414,6 @@ width: calc(100% - 1.5em);
 }
 
 #layout-main div.main_all div.account div.login button {
-padding: 8px;
 width: 10em;
 height: auto;
 }
@@ -6444,7 +6542,7 @@ text-align: right;
 
 @media screen and (min-width: 1350px) {
 #layout-main .modlatest_all ul.limit {
-margin-top: -3.3em;
+margin-top: -3.8em;
 }
 
 }
@@ -6469,15 +6567,14 @@ width: 2.5em;
 }
 
 #layout-main div.msg_all div.forum ul.topics div.check {
-border-left: none;
+border-left: 0;
 border-right: 1px solid;
 padding-left: 0;
 padding-top: 1em;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions {
-margin-top: 0;
-margin-bottom: 1em;
+margin-bottom: 0.5em;
 }
 
 #layout-main div.msg_all div.forum div.topic_actions div.buttons > * {
@@ -6486,10 +6583,6 @@ float: left;
 
 #layout-main div.msg_all div.forum div.topic_actions div.buttons ul {
 margin-bottom: 0;
-}
-
-#layout-main div.msg_all div.forum div.topic_actions div.buttons ul li {
-margin-top: 0;
 }
 
 #layout-main div.msg_all div.forum ul.topics div.actions,
@@ -6511,26 +6604,25 @@ display: none;
 width: calc(100% - 4.5em);
 }
 
+#layout-main div.msg_all div.forum div.search:not(.postsearch) form input.search {
+width: calc(100% - 15em);
+min-width: 0;
+}
+
 }
 
 /*imported from: common/layout/page/myhints.css*/
-#layout-main div.myhints_all div.filters ul li span,
-#layout-main div.myhints_all div.filters ul li span span,
 #layout-main div.myhints_all td.awards span.i_icon {
-display: inline-block;
-}
-
-#layout-main div.myhints_all div.filters ul li span span span {
-display: none;
-}
-
-#layout-main div.myhints_all div.enabled_filters li > span {
 display: inline-block;
 }
 
 #layout-main div.myhints_all div.fullsearch_form,
 #layout-main div.myhints_all div.note {
 clear: none;
+}
+
+#layout-main div.myhints_all table.animelist {
+width: 100%;
 }
 
 #layout-main div.myhints_all table.animelist tr td,
@@ -6552,8 +6644,15 @@ text-align: left;
 width: 50%;
 }
 
-#layout-main div.myhints_all div.animelist_table + ul.jump {
-margin-top: 1em
+#layout-main div.myhints_all table.animelist tr td.action {
+min-width: 6.5em;
+}
+
+@media screen and (min-width: 1640px) {
+#layout-main div.myhints_all table.animelist tr td.action {
+min-width: 10.5em;
+}
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -6572,6 +6671,13 @@ min-width: 4em;
 
 #layout-main div.myhints_all td.type {
 white-space: nowrap;
+}
+
+}
+
+@media screen and (max-width: 1050px) {
+#layout-main div.myhints_all div.animelist_table {
+overflow: auto;
 }
 
 }
@@ -6643,7 +6749,7 @@ min-width: 12.5em;
 }
 
 @media screen and (max-width: 950px) {
-#layout-main div.mylist_all .mylist_list > form {
+#layout-main div.mylist_all .mylist_list .g_bubblewrap > form {
 overflow: auto;
 }
 
@@ -6653,7 +6759,7 @@ overflow: auto;
 #layout-main div.mynotifies_all .mynotifies_history table,
 #layout-main div.mynotifies_all div.mynotifies_list table,
 #layout-main div.mynotifies_all table.mynotifies_list {
-width: 100%
+width: 100%;
 }
 
 #layout-main div.mynotifies_all tr td,
@@ -6671,7 +6777,7 @@ width: 100%;
 }
 
 @media screen and (max-width: 950px) {
-#layout-main div.mynotifies_all .mynotifies_list > form {
+#layout-main div.mynotifies_all .mynotifies_list .g_bubblewrap > form {
 overflow: auto;
 }
 
@@ -6713,9 +6819,22 @@ text-align: left;
 
 #layout-main div.userpage_all div.charts div.mylisthistory.added,
 #layout-main div.userpage_all div.history table,
+#layout-main div.userpage_all div.history table.g_bubble.graph .graph,
 #layout-main div.userpage_all div.stats table,
 #layout-main div.userpage_all div.userdetails .block div table {
 width: 100%;
+}
+
+#layout-main div.userpage_all div.history table.g_bubble.graph {
+padding: 0;
+}
+
+#layout-main div.userpage_all div.history table.g_bubble.graph td {
+min-width: 5em;
+}
+
+#layout-main div.userpage_all div.history table.g_bubble.graph div.bar .colored {
+height: 2em;
 }
 
 #layout-main div.userpage_all div.userdetails .block div table th {
@@ -6847,7 +6966,7 @@ float: none;
 text-align: right;
 }
 
-#layout-main div.userpage_all div.blog .g_msg > p {
+#layout-main div.userpage_all div.blog .g_msg > div.container {
 margin-top: -1.5em;
 }
 
@@ -6897,7 +7016,8 @@ min-width: 100px;
 #layout-main div.userpage_all.sidebar .g_section.info,
 #layout-main div.userpage_all.sidebar .g_section.info div.block,
 #layout-main div.userpage_all.sidebar .g_section.info div.block > div.data,
-#layout-main div.userpage_all.sidebar .g_section.info div.block > div.image {
+#layout-main div.userpage_all.sidebar .g_section.info div.block > div.image,
+#layout-main div.userpage_all.sidebar div.g_menu.left {
 width: 24em;
 }
 
@@ -6927,11 +7047,7 @@ width: 13em;
 #layout-main div.userpage_all div.g_menu.right {
 float: right;
 clear: right;
-width: 16em;
-}
-
-#layout-main div.userpage_all.sidebar div.g_menu.left {
-width: 24em;
+width: 15em;
 }
 
 #layout-main div.userpage_all.sidebar > .g_section,
@@ -6991,13 +7107,14 @@ width: 100%;
 float: none;
 margin-left: 0;
 margin-right: 0;
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 }
 
 }
 
 @media screen and (max-width: 800px) {
-#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs):not(.entry):not(.edit):not(.history):not(.forum):not(.comment):not(.reviews),
 #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
 #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
 #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
@@ -7011,7 +7128,7 @@ display: none;
 }
 
 @media screen and (max-width: 700px) {
-#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.entry):not(.forum):not(.comment):not(.reviews),
 #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
 #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
 #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
@@ -7025,7 +7142,7 @@ display: none;
 }
 
 @media screen and (max-width: 600px) {
-#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.entry):not(.forum):not(.comment):not(.reviews),
 #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
 #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
 #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
@@ -7043,7 +7160,7 @@ margin: 0.5em 0;
 }
 
 @media screen and (max-width: 515px) {
-#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.entry):not(.forum):not(.comment):not(.reviews),
 #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
 #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
 #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
@@ -7057,7 +7174,7 @@ display: none;
 }
 
 @media screen and (max-width: 425px) {
-#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+#anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.entry):not(.forum):not(.comment):not(.reviews),
 #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
 #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
 #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
@@ -7106,39 +7223,70 @@ text-align: right;
 
 /*imported from: common/layout/page/myvotes.css*/
 #layout-main div.myvotes_all table {
-width: 100%
-}
-
-#layout-main div.myvotes_all ul.filter {
-float: left;
-clear: none;
+width: 100%;
 }
 
 #layout-main div.myvotes_all td {
-padding-left: 1em;
-padding-right: 1em;
+padding-left: 0.5em;
+padding-right: 0.5em;
 }
 
 #layout-main div.myvotes_all td.date,
+#layout-main div.myvotes_all td.rating,
 #layout-main div.myvotes_all td.state,
+#layout-main div.myvotes_all td.type,
 #layout-main div.myvotes_all td.vote {
-width: 6em;
-}
-
-#layout-main div.myvotes_all td.cast {
-width: 8em;
+width: 5.5em;
 }
 
 #layout-main div.myvotes_all td.action {
-width: 10em;
+min-width: 6.5em;
 }
 
-#layout-main div.myvotes_all td.thumb {
-width: 5em;
-}
-
-#layout-main div.myvotes_all td.number {
+#layout-main div.myvotes_all td.epno,
+#layout-main div.myvotes_all td.eps,
+#layout-main div.myvotes_all td.number,
+#layout-main div.myvotes_all td.tracks {
 width: 3em;
+}
+
+#layout-main div.myvotes_all td.name {
+width: 50%;
+}
+
+@media screen and (min-width: 1640px) {
+#layout-main div.myvotes_all .myvotes_anime td.action,
+#layout-main div.myvotes_all .myvotes_animetmp td.action {
+min-width: 11em;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+#layout-main div.myvotes_all td.name {
+width: 75%;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+#layout-main .myvotes_all ul.limit {
+margin-top: -3.8em;
+}
+
+}
+
+@media screen and (max-width: 1280px) {
+#layout-main div.myvotes_all .myvotes_anime td.action,
+#layout-main div.myvotes_all .myvotes_animetmp td.action,
+#layout-main div.myvotes_all td.action {
+width: auto;
+}
+
+#layout-main div.myvotes_all td.action .i_icon {
+margin: 0.12em !important;
+}
+
 }
 
 @media screen and (max-width: 950px) {
@@ -7158,16 +7306,61 @@ height: 215px;
 margin: 0.5em 0.3em;
 }
 
+/*imported from: common/layout/page/policies.css*/
+#layout-main div.privacy_all .g_section {
+text-align: left;
+}
+
+#layout-main div.policies_all .g_bubble {
+padding: 1em;
+}
+
+#layout-main div.policies_all h3 {
+text-align: left;
+}
+
+#layout-main div.policies_all .text {
+margin-bottom: 1.5em;
+text-align: left;
+}
+
+#layout-main div.policies_all ul.g_styledlist {
+margin-bottom: 0.25em;
+margin-top: 0.25em;
+}
+
 /*imported from: common/layout/page/profile.css*/
 /*covers customise and profile page*/
+/*general*/
+#preferences div.tabbed_pane div.body {
+padding: 1em;
+}
+
+#preferences .options li {
+text-align: left;
+width: 100%;
+padding: 0.1em 0;
+}
+
+#preferences textarea {
+width: 100%;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/*style selector*/
 #preferences #style_url {
 width: 75%;
 }
 
+#preferences #css_selector div.image {
+min-width: 350px;
+}
+
 #preferences #css_selector .g_image {
-padding: 3px;
-text-align: center;
+padding: 0.5em;
 max-width: 300px;
+margin-left: -0.4em;
 }
 
 #preferences #css_selector .g_image.missing {
@@ -7175,183 +7368,147 @@ height: 150px;
 }
 
 #preferences #css_selector .g_definitionlist {
-width: 800px
+width: 800px;
+height: 100%;
 }
 
 #preferences #css_selector .g_definitionlist table {
-width: 100%
+width: 100%;
+padding: 0;
 }
 
 #preferences #css_selector .g_definitionlist table th {
 width: 10em;
 }
 
-#preferences #css_selector button.next,
-#preferences #css_selector button.prev {
-height: 28px;
+#preferences div.user_css div textarea {
+height: 30em;
 }
 
-#preferences #image_viewer {
-margin: 50px;
+/*column style option boxes*/
+#preferences .g_columns {
+-wbkit-column-width: 41em;
+-moz-column-width: 41em;
+column-width: 41em;
 }
 
-#preferences div.block div.image {
-width: 350px;
-min-width: 350px;
+#preferences .settings.permissions .g_columns {
+-wbkit-column-width: 40em;
+-moz-column-width: 40em;
+column-width: 40em;
 }
 
-#preferences textarea {
-width: 100%;
+#preferences .g_columns .settings {
+break-inside: avoid;
+page-break-inside: avoid;
+}
+
+#preferences .options li a {
+display: inline-table;
+vertical-align: top;
+padding-top: 0.1em;
+}
+
+#preferences .options label,
+#preferences .options label span.text {
+display: inline-table;
+width: calc(100% - 2em);
+vertical-align: middle;
+text-align: left;
+}
+
+#preferences .options input[type="checkbox"] {
+vertical-align: top;
+margin-top: 0.25em;
+}
+
+#preferences .options .select a,
+#preferences .options .textinput a {
+vertical-align: middle;
+}
+
+#preferences .options .select label,
+#preferences .options .textinput label {
+padding-left: 2em;
+width: calc(100% - 3.6em);
+}
+
+#preferences .options .select .text,
+#preferences .options .textinput .text {
+width: calc(100% - 20.4em);
+}
+
+#preferences .options .textinput input {
+width: 19.2em;
+}
+
+/*flex style option boxes*/
+#preferences .g_bubblewrap {
+margin: -0.5em;
+}
+
+#preferences .g_bubblewrap .settings {
+padding: 0.5em;
+margin: 0;
 box-sizing: border-box;
 }
 
-#preferences div.tabbed_pane div.user_css div textarea {
-height: 500px;
-width: calc(100% - 2em);
+#preferences .g_bubblewrap .settings:not(.options) {
+max-width: 60em;
 }
 
-#preferences div.tabbed_pane div.permissions div.detailed.block.settings {
-width: 100%;
+#preferences .g_bubblewrap .settings:not(.options),
+#preferences .settings.shuttle .container {
+overflow: auto;
 }
 
-#preferences div.tabbed_pane div.permissions div.detailed h4 {
-margin-bottom: .5em;
-}
-
-#preferences div.tabbed_pane div.permissions form {
-text-align: left;
-}
-
-.internet_explorer#anidb #preferences div.tabbed_pane div.permissions div.permissions {
-display: block;
-}
-
-#preferences div.tabbed_pane div.permissions div.permissions div {
-display: inline-block;
-margin-bottom: .5em;
-}
-
-#preferences div.tabbed_pane div.permissions div.permissions div label {
-display: block;
-line-height: 2.3;
-margin-right: 1em;
-}
-
-#preferences div.tabbed_pane div.permissions div.permissions div label select {
-display: block;
-margin-left: 13.5em;
-margin-top: -1.8em;
-width: 330px;
-}
-
-#preferences div.tabbed_pane div.permissions div.permissions div label input {
-width: 326px;
-}
-
-#preferences div.tabbed_pane div.permissions div.guest {
-text-align: center;
-}
-
-#preferences div.passwords > div,
-#preferences div.passwords form > div {
-display: inline-table;
-}
-
-#preferences div.tabbed_pane {
-width: 100%;
-}
-
-#preferences div.pane.general div.body div.pane {
-text-align: center;
-}
-
-#preferences div.pane div.settings.block {
-display: inline-table;
-width: 40em;
-margin-right: 1.5em;
+#preferences .g_bubblewrap .settings .container + .g_bubble {
 margin-top: 1em;
-vertical-align: top;
 }
 
-#preferences div.pane.general div.body div.pane div ul {
-padding: 4px;
+#preferences .g_bubblewrap .settings.im_notify .g_bubble table,
+#preferences .g_bubblewrap .settings.languages .g_bubble table,
+#preferences .g_bubblewrap .settings.password .g_bubble table,
+#preferences .g_bubblewrap .settings.shuttle .g_bubble table,
+#preferences .g_bubblewrap .settings.userdata_add .g_bubble table {
+padding: 0 !important;
 }
 
-#preferences div.account tr th {
-width: 20em;
-text-align: left;
-}
-
-#preferences div.account tr td,
-#preferences div.account tr th {
-padding: 4px 8px;
-}
-
-#preferences div.account tr th p.note {
-text-align: left;
-display: block;
+/*account settings specific*/
+#preferences .settings.password p.note {
 white-space: normal;
+max-width: 15em;
 }
 
-#preferences .javascript.hidden,
-#preferences div.pane div.settings.block.javascript.hidden {
+#preferences .settings.password input {
+width: 100%;
+}
+
+/*js style selector*/
+#anidb > .fancybox-container #preferences #css_selector .g_definitionlist,
+#anidb > .fancybox-container #preferences .g_section.url {
 display: none;
 }
 
-#preferences div.pane > ul li,
-#preferences div.pane div.settings.block li,
-#preferences div.pane.general div.body div.pane div ul li {
-line-height: 16px;
-}
-
-#preferences div.pane div.settings.block li input {
-max-width: 18em;
-}
-
-#preferences div.pane div.settings.block li select {
-margin-bottom: 0.2em;
-}
-
-#preferences div.pane div.settings.block table {
-margin: 0;
-}
-
-#preferences div.pane div.settings.block table + ul {
-margin-top: 0.2em;
-}
-
-#preferences div.userdata_add ul {
-display: block;
-width: auto;
-}
-
-#preferences div.userdata_add span.current {
-float: right;
-}
-
-#preferences div.css_style p,
-#preferences div.tabbed_pane div.permissions form > p {
+#anidb > .fancybox-container #preferences #css_submit {
 text-align: center;
 }
 
-#preferences th {
+#anidb > .fancybox-container #preferences div.block > div.image {
+min-height: 170px;
+}
+
+@media screen and (max-width: 700px) {
+#layout-main .settings.userdata_add div.g_definitionlist tr th {
 white-space: normal;
 }
 
-#preferences .userdata_form .select2-container {
+#preferences .settings.titles .select2-container,
+#preferences .settings.userdata_add .select2-container,
+#preferences .settings.userdata_add input {
 width: 100% !important;
 }
 
-#preferences .userdata_form input[type="text"] {
-width: calc(100% - 1em);
-}
-
-#preferences .userdata_form tr.picurl input[type="text"] {
-width: calc(100% - 14em);
-}
-
-#preferences div.tabbed_pane div.default_languages .titles select {
-width: calc(100% - 2em);
 }
 
 @media screen and (max-width: 630px) {
@@ -7367,13 +7524,45 @@ flex-wrap: wrap;
 display: none;
 }
 
-#preferences div.pane div.settings.block {
-width: 100% !important;
-margin-right: 0;
-overflow: auto;
-display: block;
+#preferences .options .select .text,
+#preferences .options .textinput .text {
+width: calc(100% - 10.4em);
 }
 
+#preferences .options .select2-container {
+width: 10em !important;
+}
+
+#preferences .options .textinput input {
+width: 8em;
+}
+
+}
+
+@media screen and (max-width: 350px) {
+#preferences #css_selector .g_image {
+max-width: 280px;
+}
+
+}
+
+/*imported from: common/layout/page/pwdrem.css*/
+#layout-main div.pwdrem_all .pwdrem_form form {
+text-align: left;
+}
+
+#layout-main div.pwdrem_all .pwdrem_form button,
+#layout-main div.pwdrem_all .pwdrem_form input[type="text"] {
+height: 34px;
+box-sizing: border-box;
+}
+
+.fancybox-container div.pwdrem_all {
+max-width: 52em;
+}
+
+.fancybox-container div.pwdrem_all .pwdrem_form input[type="text"] {
+width: calc(100% - 5em);
 }
 
 /*imported from: common/layout/page/quickvote.css*/
@@ -7565,46 +7754,13 @@ text-align: center;
 }
 
 /*imported from: common/layout/page/search.css*/
-#layout-main div.search_all div.fullsearch_form tr.entity td,
-#layout-main div.search_all div.fullsearch_form tr.field td {
-display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
--webkit-justify-content: center;
--moz-justify-content: center;
--ms-justify-content: center;
-justify-content: center;
--webkit-align-content: flex-start;
--moz-align-content: flex-start;
--ms-align-content: flex-start;
-align-content: flex-start;
--webkit-flex-flow: column wrap;
--moz-flex-flow: column wrap;
--ms-flex-flow: column wrap;
-flex-flow: column wrap;
-height: 5em;
+#layout-main .search_all .g_segmentlist td > label {
+display: block;
 }
 
-#layout-main div.search_all div.fullsearch_form tr.field td {
-height: 2em;
-}
-
-#layout-main div.search_all div.fullsearch_form tr.restricted td {
-display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
--webkit-flex-flow: row wrap;
--moz-flex-flow: row wrap;
--ms-flex-flow: row wrap;
-flex-flow: row wrap;
-}
-
-#layout-main div.search_all div.fullsearch_form label {
-width: 15em;
+#layout-main .search_all .g_segmentlist td > .select2 + label,
+#layout-main .search_all .g_segmentlist td > input + label {
+margin-top: 0.5em;
 }
 
 #layout-main div.search_all table.search_results {
@@ -7615,15 +7771,6 @@ width: 100%;
 #layout-main div.search_all table.search_results td.type {
 width: 10em;
 text-align: left;
-}
-
-#layout-main div.search_all #atags_exclude,
-#layout-main div.search_all #atags_include,
-#layout-main div.search_all #ctags_exclude,
-#layout-main div.search_all #ctags_include,
-#layout-main div.search_all #etags_exclude,
-#layout-main div.search_all #etags_include {
-width: 50em;
 }
 
 #layout-main div.search_all input.focus {
@@ -7644,6 +7791,44 @@ padding: 2px 4px;
 display: block;
 }
 
+#layout-main .search_all .g_segmentlist .tags input {
+display: block;
+}
+
+#layout-main .search_all .g_segmentlist .tags div.hide + input,
+#layout-main .search_all .g_segmentlist .tags input + input {
+margin-top: 0.25em;
+}
+
+#layout-main .search_all .g_segmentlist #tagtree {
+margin-bottom: 0.25em;
+}
+
+#layout-main .search_all .g_segmentlist .tags #tagtree #toggle_all {
+padding-bottom: 0.5em;
+}
+
+#layout-main .search_all .g_segmentlist .tags #tagtree div.tag-column h4 {
+display: none;
+}
+
+#layout-main .search_all .g_segmentlist .tags #tagtree #toggle_all,
+#layout-main .search_all .g_segmentlist .tags #tagtree div.tag-column {
+-ms-justify-content: flex-start;
+-webkit-justify-content: flex-start;
+-moz-justify-content: flex-start;
+justify-content: flex-start;
+}
+
+#layout-main div.search_all #atags_exclude,
+#layout-main div.search_all #atags_include,
+#layout-main div.search_all #ctags_exclude,
+#layout-main div.search_all #ctags_include,
+#layout-main div.search_all #etags_exclude,
+#layout-main div.search_all #etags_include {
+width: 49em;
+}
+
 @media screen and (max-width: 1000px) {
 #layout-main #tagtree div.tag-column .tag-block,
 #layout-main div.search_all #atags_exclude,
@@ -7651,8 +7836,25 @@ display: block;
 #layout-main div.search_all #ctags_exclude,
 #layout-main div.search_all #ctags_include,
 #layout-main div.search_all #etags_exclude,
-#layout-main div.search_all #etags_include {
+#layout-main div.search_all #etags_include,
+.g_boxwrap {
 width: 100%;
+}
+
+#layout-main div.search_all .select2-container,
+#layout-main div.search_all input[type="text"] {
+width: 100% !important;
+}
+
+#layout-main div.search_all .load button {
+margin-top: 0.3em;
+}
+
+}
+
+@media screen and (max-width: 700px) {
+#layout-main div.search_all .g_segmentlist th {
+display: none;
 }
 
 }
@@ -7680,7 +7882,7 @@ white-space: normal;
 
 #layout-main div.signup_all input[type="password"],
 #layout-main div.signup_all input[type="text"] {
-width: 28em;
+width: 29em;
 padding: 8px;
 }
 
@@ -7695,6 +7897,10 @@ margin: 0.5em;
 padding: 8px;
 width: 10em;
 height: auto;
+}
+
+.fancybox-container div.signup_all {
+max-width: 56em;
 }
 
 /*imported from: common/layout/page/song.css*/
@@ -7745,7 +7951,7 @@ max-width: 100%;
 
 /*imported from: common/layout/page/songlist.css*/
 #layout-main div.songlist_all table.songlist {
-width: 100%
+width: 100%;
 }
 
 #layout-main div.songlist_all table.songlist tr td {
@@ -7772,9 +7978,11 @@ display: none;
 clear: none;
 }
 
+#layout-main div.tag_all table.animelist,
 #layout-main div.tag_all table.characterlist,
-#layout-main div.tag_all table.creatorlist {
-width: 100%
+#layout-main div.tag_all table.creatorlist,
+#layout-main div.tag_all table.eplist {
+width: 100%;
 }
 
 #layout-main div.tag_all div.related_entries ul.jump:first-child {
@@ -7826,9 +8034,9 @@ display: none;
 -moz-column-width: auto;
 -webkit-column-width: auto;
 column-width: auto;
--moz-column-gap: auto;
--webkit-column-gap: auto;
-column-gap: auto;
+-moz-column-gap: normal;
+-webkit-column-gap: normal;
+column-gap: normal;
 -moz-column-rule: none;
 -webkit-column-rule: none;
 column-rule: none;
@@ -7868,11 +8076,11 @@ padding: 0;
 
 /*imported from: common/layout/page/taglist.css*/
 #layout-main div.taglist_all table.taglist td.name {
-width: 30%
+width: 30%;
 }
 
 #layout-main div.taglist_all table.taglist td.description {
-width: 70%
+width: 70%;
 }
 
 #layout-main div.taglist_all table.taglist td.animecnt,
@@ -7880,7 +8088,7 @@ width: 70%
 #layout-main div.taglist_all table.taglist td.creatorcnt,
 #layout-main div.taglist_all table.taglist td.epcnt,
 #layout-main div.taglist_all table.taglist td.mangacnt {
-min-width: 6em
+min-width: 6em;
 }
 
 #layout-main div.taglist_all table.taglist tr td {
@@ -7888,9 +8096,127 @@ padding-left: 0.5em;
 padding-right: 0.5em;
 }
 
+/*imported from: common/layout/page/userinfo.css*/
+#layout-main div.userinfo_all.sidebar .g_section.info {
+margin-top: 1em;
+}
+
+#layout-main div.userinfo_all .g_bubble.container {
+overflow: auto;
+}
+
+#layout-main div.userinfo_all td,
+#layout-main div.userinfo_all th.field {
+min-width: 10.5em;
+max-width: 10.5em;
+}
+
+#layout-main div.userinfo_all .userinfo_related_accounts td.name.user,
+#layout-main div.userinfo_all td.msg,
+#layout-main div.userinfo_all td.text,
+#layout-main div.userinfo_all td.value {
+min-width: 0;
+max-width: 100%;
+width: 100%;
+}
+
+#layout-main div.userinfo_all .name.user {
+text-align: left;
+}
+
+#layout-main div.userinfo_all.sidebar + .g_end {
+clear: both;
+}
+
+#layout-main div.userinfo_all .edit_actions.g_list {
+width: calc(100% + 0.5em);
+margin-left: -0.25em;
+}
+
+#layout-main div.userinfo_all .edit_actions.g_list > li {
+margin: 0.25em;
+-webkit-flex-grow: 0;
+-ms-flex-grow: 0;
+-moz-flex-grow: 0;
+flex-grow: 0;
+}
+
+#layout-main div.userinfo_all div.info div.extra {
+-moz-column-count: 2;
+-webkit-column-count: 2;
+column-count: 2;
+display: block;
+}
+
+#layout-main div.userinfo_all div.info div.extra > div {
+-webkit-column-break-inside: avoid;
+page-break-inside: avoid;
+break-inside: avoid;
+padding: 1em 0 0;
+margin: 0;
+}
+
+#layout-main div.userinfo_all .userinfo_search {
+width: 40em;
+margin: 0 auto;
+}
+
+#layout-main div.userinfo_all .userinfo_search input {
+width: 100%;
+}
+
+#layout-main div.userinfo_all .userinfo_anote textarea {
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+@media screen and (min-width: 1500px) {
+#layout-main div.userinfo_all .edit_actions.g_list > li {
+-webkit-flex-grow: 1;
+-ms-flex-grow: 1;
+-moz-flex-grow: 1;
+flex-grow: 1;
+}
+
+#layout-main div.userinfo_all div.info div.extra {
+-moz-column-count: 1;
+-webkit-column-count: 1;
+column-count: 1;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+#layout-main div.userinfo_all td {
+min-width: 0;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+#layout-main div.userinfo_all .edit_actions.g_list > li {
+-webkit-flex-grow: 1;
+-ms-flex-grow: 1;
+-moz-flex-grow: 1;
+flex-grow: 1;
+}
+
+#layout-main div.userinfo_all div.info div.extra {
+-moz-column-count: 1;
+-webkit-column-count: 1;
+column-count: 1;
+}
+
+#layout-main div.userinfo_all .userinfo_change_nick input,
+#layout-main div.userinfo_all .userinfo_search {
+width: 100%;
+}
+
+}
+
 /*imported from: common/layout/page/userlist.css*/
 #layout-main div.userlist_all table.userlist {
-width: 100%
+width: 100%;
 }
 
 #layout-main div.userlist_all table.userlist td.user a.i_icon {
@@ -7932,7 +8258,7 @@ width: 6em;
 }
 
 #layout-main div.mywishlist_all tr td.action {
-min-width: 9em;
+min-width: 9.5em;
 }
 
 #layout-main div.mywishlist_all tr td.check,
@@ -7959,7 +8285,7 @@ white-space: nowrap;
 }
 
 @media screen and (max-width: 950px) {
-#layout-main div.mywishlist_all .wishlist > form {
+#layout-main div.mywishlist_all .wishlist .g_bubblewrap > form {
 overflow: auto;
 }
 
@@ -7969,6 +8295,7 @@ overflow: auto;
 /*imported from: common/libs/select2/select2.css*/
 /*imported from: common/libs/select2/select2-layout.css*/
 .select2-container {
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 display: inline-block;
 margin: 0;
@@ -7977,9 +8304,10 @@ vertical-align: middle;
 }
 
 .select2-container .select2-selection--single {
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 display: block;
-height: 28px;
+height: 26px;
 user-select: none;
 -webkit-user-select: none;
 }
@@ -8003,6 +8331,7 @@ padding-left: 20px;
 }
 
 .select2-container .select2-selection--multiple {
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 display: block;
 min-height: 32px;
@@ -8023,16 +8352,18 @@ float: left;
 }
 
 .select2-container .select2-search--inline .select2-search__field {
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 margin-top: 5px;
 padding: 0;
 }
 
-.select2-container .select2-search--inline .select2-search__field::-webkit-search-cancel-button {
+.select2-container .select2-search--inline .select2-search__field:-webkit-search-cancel-button {
 -webkit-appearance: none;
 }
 
 .select2-dropdown {
+-moz-box-sizing: border-box;
 box-sizing: border-box;
 display: block;
 position: absolute;
