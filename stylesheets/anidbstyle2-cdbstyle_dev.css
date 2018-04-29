@@ -16194,364 +16194,6 @@ background-image: url(https://static.anidb.net/css/icons/flags/audio_chinese-can
 background-image: url(https://static.anidb.net/css/icons/flags/subtitle_chinese-cantonese.png);
 }
 
-/*imported from: icons/formatting.css*/
-div.format-buttons input + input,
-div.format-buttons select {
-margin-left: .5em;
-}
-
-div.format-buttons {
-padding: 3px 0px;
-margin-bottom: .2em;
-margin-left: .2em;
-text-align: left;
-}
-
-.f_button {
-background-repeat: no-repeat;
-background-position: center;
-width: 24px;
-height: 24px;
-margin-left: 0;
-margin-right: 0;
-border: 1px solid #D6D3CE;
-background-color: #FFFFFF;s
-}
-
-.format-buttons select {
-height: 21px;
-border: 1px solid;
-border-color: #D6D3CE;
-margin-right: 2px;
-vertical-align: top;
-}
-
-.f_button.selected,
-.f_button:hover {
-background-color: #B5BED6;
-border-color: #000000;
-}
-
-.f_mouseout {
-background-color: #FFFFFF;
-border-color: #D6D3CE;
-}
-
-.f_selected {
-background-color: #8492B5;
-}
-
-.f_bold {
-font-weight: bold;
-background-image: url(https://static.anidb.net/css/icons/formating/bold.gif);
-}
-
-.f_italic {
-font-style: italic;
-background-image: url(https://static.anidb.net/css/icons/formating/italic.gif);
-}
-
-.f_underline {
-text-decoration: underline;
-background-image: url(https://static.anidb.net/css/icons/formating/underline.gif);
-}
-
-.f_strikethrough {
-text-decoration: line-through;
-background-image: url(https://static.anidb.net/css/icons/formating/strikethrough.gif);
-}
-
-.f_insertorderedlist {
-background-image: url(https://static.anidb.net/css/icons/formating/orderedlist.gif);
-}
-
-.f_insertunorderedlist {
-background-image: url(https://static.anidb.net/css/icons/formating/unorderedlist.gif);
-}
-
-.f_insertlistitem {
-background-image: url(https://static.anidb.net/css/icons/formating/list_item.gif);
-}
-
-.f_link {
-background-image: url(https://static.anidb.net/css/icons/formating/link.gif);
-}
-
-.f_unlink {
-background-image: url(https://static.anidb.net/css/icons/formating/unlink.gif);
-opacity: 0.60;
-}
-
-.f_img {
-background-image: url(https://static.anidb.net/css/icons/formating/image.gif);
-}
-
-.f_separator {
-background-image: url(https://static.anidb.net/css/icons/formating/separator.gif);
-}
-
-.f_viewsource {
-background-image: url(https://static.anidb.net/css/icons/formating/view_text.gif);
-}
-
-.f_viewrte {
-background-image: url(https://static.anidb.net/css/icons/formating/view_source.gif);
-}
-
-.f_cleansource {
-background-image: url(https://static.anidb.net/css/icons/formating/clean_source.gif);
-}
-
-.f_preview {
-background-image: url(https://static.anidb.net/css/icons/formating/preview.gif);
-}
-
-.f_preview {
-background-image: url(https://static.anidb.net/css/icons/formating/preview.gif);
-}
-
-.f_spoiler {
-background-image: url(https://static.anidb.net/css/icons/formating/spoiler.gif);
-}
-
-.f_code {
-background-image: url(https://static.anidb.net/css/icons/formating/code.gif);
-}
-
-.f_buddy {
-background-image: url(https://static.anidb.net/css/icons/formating/user.gif);
-}
-
-div.controls-holder {
-border-bottom: 2px solid black;
-}
-
-/* unused now, stays for backwards compat */
-ul.format-modes {
-list-style: none;
-float: right;
-}
-
-ul.format-modes li {
-display: inline;
-padding: 0px 5px 2px 5px;
-border: solid 1px black;
-/* margin: 2px; */
-background-color: #FFFFFF;
-cursor: pointer;
-}
-
-ul.format-modes li.selected,
-ul.format-modes li:hover {
-background-color: #B5BED6;
-text-decoration: none;
-}
-
-/* dialogBox */
-.dialogBox {
-position: absolute;
-background: #FFFFFF none repeat scroll 0 0;
-border: 5px solid #333333;
-}
-
-.dialogBox h3 {
-background: #333333 none repeat scroll 0 0;
-border-bottom: 1px solid #AAAAAA;
-font-size: 11px;
-margin: 0;
-padding: 3px 15px 5px;
-color: white;
-font-weight: bold;
-text-align: left;
-}
-
-.dialogBox h3:hover {
-cursor: move;
-}
-
-.dialogBox .dialogButtons {
-background: #EEEEEE none repeat scroll 0 0;
-border-top: 1px solid #AAAAAA;
-clear: both;
-overflow: hidden;
-padding: 10px 15px;
-text-align: right;
-}
-
-a.button,
-a.confirmButton,
-button.button,
-button.confirmButton,
-input.button,
-input.confirmButton {
-background: #9B9B9B url(https://static.anidb.net/css/icons/formating/button.png) repeat-x scroll left top;
-border-color: #999999 #858585 #666666;
-border-style: solid;
-border-width: 1px;
-color: #FFFFFF;
-cursor: pointer;
-font-size: 11px;
-font-weight: bold;
-line-height: 16px;
-padding: 0 4px;
-text-decoration: none;
-text-shadow: 0 -1px 1px #9B9B9B;
-vertical-align: baseline;
-}
-
-input.dialogConfirm {
-margin-left: 8px;
-}
-
-a.confirmButton,
-button.confirmButton,
-input.confirmButton {
-background: #515151 url(https://static.anidb.net/css/icons/formating/confirm_button.png) repeat-x scroll left top;
-border-color: #505050 #404040 #2D2D2D;
-font-weight: bold;
-text-shadow: 0 -1px 1px #515151;
-}
-
-.dialogBox a.i_close {
-background: transparent url(https://static.anidb.net/css/icons/formating/delete_inactive.png) no-repeat scroll 50% 50%;
-display: block;
-float: right;
-height: 16px;
-margin: 0px;
-text-decoration: none;
-width: 16px;
-}
-
-.dialogBox a.i_close:hover {
-background: transparent url(https://static.anidb.net/css/icons/formating/delete_active.png) no-repeat scroll 50% 50%;
-}
-
-.dialogBox div.buttons {
-clear: both;
-border-top: 1px solid rgb(170, 170, 170);
-padding: 10px 15px 10px 15px;
-background-color: rgb(238, 238, 238);
-background-image: none;
-overflow: hidden;
-text-align: right;
-}
-
-/* addlink crap */
-#widget_addlink {
-position: absolute;
-top: 75px;
-left: 30px;
-width: 400px;
-}
-
-#widget_addlink th {
-text-align: left;
-}
-
-#widget_addlink div.content table {
-border: none;
-margin: 0.5em;
-}
-
-#widget_addlink div.content table input {
-width: 350px;
-}
-
-/*
-* Spinner stuff
-* NOTE: This should go elsewhere and can be problematic for other styles
-*
-*/
-.spinInput {
-/* Change this to modify the default spin control background color*/
-background-color: #FFFFFF;
-}
-
-.spinLeftRightEdge,
-.spinTopBottomEdge {
-position: absolute;
-overflow: hidden;
-/* Change this to modify the default spin control border color*/
-background-color: #A5ACB2;
-}
-
-.spinContainer {
-position: relative;
-font-size: 0px;
-height: 20px;
-}
-
-.spinLeftRightEdge {
-height: 20px; width: 1px;
-}
-
-.spinTopBottomEdge {
-height: 1px; left: 1px;
-}
-
-.spinInput {
-position: absolute;
-top: 1px;
-left: 2px;
-border: 0px;
-height: 15px;
-/* Change this to modify the default spin control font, font color, and font size*/
-}
-
-.spinDownBtn,
-.spinDownBtnHover,
-.spinDownBtnPress,
-.spinUpBtn,
-.spinUpBtnHover,
-.spinUpBtnPress {
-position: absolute;
-width: 15px;
-height: 8px;
-right: 2px;
-background-image: url('https://static.anidb.net/css/icons/formating/spin_control_buttons.png');
-background-repeat: no-repeat;
-/* Change this to modify the default button color*/
-background-color: #000000;
-}
-
-.spinUpBtn,
-.spinUpBtnHover,
-.spinUpBtnPress {
-top: 2px;
-left: 40px;
-}
-
-.spinDownBtn,
-.spinDownBtnHover,
-.spinDownBtnPress {
-top: 10px;
-left: 40px;
-}
-
-.spinUpBtn {
-background-position: 0px 0px;
-}
-
-.spinUpBtnHover {
-background-position: 0px -16px;
-}
-
-.spinUpBtnPress {
-background-position: 0px -32px;
-}
-
-.spinDownBtn {
-background-position: 0px -8px;
-}
-
-.spinDownBtnHover {
-background-position: 0px -24px;
-}
-
-.spinDownBtnPress {
-background-position: 0px -40px;
-}
-
 /*imported from: icons/general.css*/
 .i_help {
 background: url(https://static.anidb.net/css/icons/orange/ask2.gif) no-repeat right;
@@ -16857,7 +16499,7 @@ background-image: url(https://static.anidb.net/css/icons/state/anidb_state_onser
 background-image: url(https://static.anidb.net/css/icons/state/anidb_state_unknown.gif);
 }
 
-.i_vote_pending {
+.i_general_vote_pending {
 background-image: url(https://static.anidb.net/css/icons/icon/anidb_no_vote.gif);
 }
 
@@ -16877,6 +16519,96 @@ background-image: url(https://static.anidb.net/css/icons/formating/information_g
 width: 16px;
 height: 16px;
 background-image: url(https://static.anidb.net/css/icons/formating/loading.gif);
+}
+
+/*imported from: icons/phpbb.css*/
+.i_msg_normal,
+.i_topic_normal {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_normal.gif);
+background-repeat: no-repeat;
+}
+
+.i_msg_system,
+.i_topic_sticky {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_sticky.gif);
+background-repeat: no-repeat;
+}
+
+.i_msg_mod,
+.i_topic_announcement,
+.i_topic_global {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_announce.gif);
+background-repeat: no-repeat;
+}
+
+.i_topic_normal_locked {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_normal_locked.gif);
+background-repeat: no-repeat;
+}
+
+.i_topic_sticky_locked {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_sticky_locked.gif);
+background-repeat: no-repeat;
+}
+
+.i_msg_bulk,
+.i_topic_announcement_locked,
+.i_topic_global_locked {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_announce_locked.gif);
+background-repeat: no-repeat;
+}
+
+.i_msg_normal_unread,
+.i_topic_normal_unread {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_normal_unread.gif);
+background-repeat: no-repeat;
+}
+
+.i_msg_system_unread,
+.i_topic_sticky_unread {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_sticky_unread.gif);
+background-repeat: no-repeat;
+}
+
+.i_msg_mod_unread,
+.i_topic_announcement_unread,
+.i_topic_global_unread {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_announce_unread.gif);
+background-repeat: no-repeat;
+}
+
+.i_topic_normal_locked_unread {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_normal_locked_unread.gif);
+background-repeat: no-repeat;
+}
+
+.i_topic_sticky_locked_unread {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_sticky_locked_unread.gif);
+background-repeat: no-repeat;
+}
+
+.i_msg_bulk_unread,
+.i_topic_announcement_locked_unread,
+.i_topic_global_locked_unread {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_announce_locked_unread.gif);
+background-repeat: no-repeat;
+}
+
+.i_forum {
+background-image: url(https://static.anidb.net/css/icons/phpbb/forum_normal.gif);
+background-repeat: no-repeat;
+}
+
+.i_forum_unread {
+background-image: url(https://static.anidb.net/css/icons/phpbb/forum_normal_unread.gif);
+background-repeat: no-repeat;
+}
+
+.i_general_link {
+background-image: url(https://static.anidb.net/css/icons/phpbb/topic_latest.gif);
+background-repeat: no-repeat;
+height: 9px;
+width: 11px;
 }
 
 /*imported from: icons/rate.css*/
@@ -16900,8 +16632,8 @@ background-image: url(https://static.anidb.net/css/icons/icon/anidb_rate_corrupt
 background-image: url(https://static.anidb.net/css/icons/icon/anidb_rate_eyecancer.gif);
 }
 
-.g_bubble .seiyuu a.favourite:before,
-.g_bubble.favourite > div.data div.name > a:before,
+.g_bubble .seiyuu a.favourite::before,
+.g_bubble.favourite > div.data div.name > a::before,
 .i_rate_halfstar,
 .i_rate_high,
 .i_rate_low,
@@ -16909,9 +16641,9 @@ background-image: url(https://static.anidb.net/css/icons/icon/anidb_rate_eyecanc
 .i_rate_star,
 .i_rate_veryhigh,
 .i_rate_verylow,
-td.name > .favourite:before,
-td.name.favourite > a:before,
-tr.favourite > td.name.anime > a:before {
+td.name > .favourite::before,
+td.name.favourite > a::before,
+tr.favourite > td.name.anime > a::before {
 background-repeat: repeat-x !important;
 background-position: left !important;
 padding: 0 !important;
@@ -16966,16 +16698,203 @@ background-image: url(https://static.anidb.net/css/icons/icon/anidb_rate_star_re
 background-image: url(https://static.anidb.net/css/icons/icon/anidb_rate_unknown.gif);
 }
 
-.g_bubble .seiyuu a.favourite:before,
-.g_bubble.favourite > div.data div.name > a:before,
-td.name > .favourite:before,
-td.name.favourite > a:before,
-tr.favourite > td.name.anime > a:before {
+.g_bubble .seiyuu a.favourite::before,
+.g_bubble.favourite > div.data div.name > a::before,
+td.name > .favourite::before,
+td.name.favourite > a::before,
+tr.favourite > td.name.anime > a::before {
 width: 16px;
 height: 16px;
 display: inline-block;
 vertical-align: middle;
 content: "";
+}
+
+/*imported from: icons/smiley.css*/
+.i_smiley_tehehe {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_tehehe.gif);
+}
+
+.i_smiley_sweating {
+width: 17px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_sweating.gif);
+}
+
+.i_smiley_cool {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_cool.gif);
+}
+
+.i_smiley_sad {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_sad.gif);
+}
+
+.i_smiley_happy {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_happy.gif);
+}
+
+.i_smiley_surprised {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_surprised.gif);
+}
+
+.i_smiley_undecided {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_undecided.gif);
+}
+
+.i_smiley_confused {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_confused.gif);
+}
+
+.i_smiley_very_happy {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_very_happy.gif);
+}
+
+.i_smiley_razz {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_razz.gif);
+}
+
+.i_smiley_angel {
+width: 42px;
+height: 23px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_angel.gif);
+}
+
+.i_smiley_baka {
+width: 41px;
+height: 46px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_baka.gif);
+}
+
+.i_smiley_brickwall {
+width: 25px;
+height: 20px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_brickwall.gif);
+}
+
+.i_smiley_crying {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_crying.gif);
+}
+
+.i_smiley_mad {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_mad.gif);
+}
+
+.i_smiley_laughing {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_laughing.gif);
+}
+
+.i_smiley_mymaster {
+width: 29px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_mymaster.gif);
+}
+
+.i_smiley_embarassed {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_embarassed.gif);
+}
+
+.i_smiley_rolleyes {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_rolleyes.gif);
+}
+
+.i_smiley_shock {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_shock.gif);
+}
+
+.i_smiley_thumbup {
+width: 23px;
+height: 18px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_thumbup.gif);
+}
+
+.i_smiley_twisted {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_twisted.gif);
+}
+
+.i_smiley_wink {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_wink.gif);
+}
+
+.i_smiley_zzz {
+width: 15px;
+height: 24px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_zzz.gif);
+}
+
+.i_smiley_neutral {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_neutral.gif);
+}
+
+.i_smiley_nosebleed {
+width: 15px;
+height: 19px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_nosebleed.gif);
+}
+
+.i_smiley_disgusted {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_disgusted.gif);
+}
+
+.i_smiley_thinking {
+width: 15px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_thinking.gif);
+}
+
+.i_smiley_sweatdrop {
+width: 17px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_sweatdrop.gif);
+}
+
+.i_smiley_wtf {
+width: 17px;
+height: 15px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_wtf.gif);
+}
+
+.i_smiley_dead {
+width: 16px;
+height: 16px;
+background-image: url(https://static.anidb.net/css/icons/smiley/smiley_dead.gif);
 }
 
 /*imported from: icons/silk.css*/
@@ -17062,6 +16981,12 @@ width: 16px;
 
 .i_general_plus {
 background-image: url(https://static.anidb.net/css/icons/silk/general_plus.png);
+height: 16px;
+width: 16px;
+}
+
+.i_general_settings {
+background-image: url(https://static.anidb.net/css/icons/silk/general_settings.png);
 height: 16px;
 width: 16px;
 }
@@ -17233,13 +17158,14 @@ padding-right: 0.5em;
 vertical-align: bottom;
 }
 
-.i_general_add {
-background-image: url(https://static.anidb.net/css/icons/silk/general_added.png);
+.i_waifu_add {
+background-image: url(https://static.anidb.net/css/icons/silk/general_add.png);
 height: 16px;
 width: 16px;
 }
 
-.i_waifu_remove {
+.i_general_remove,
+.i_waifu_delete {
 background-image: url(https://static.anidb.net/css/icons/silk/general_remove.png);
 height: 16px;
 width: 16px;
