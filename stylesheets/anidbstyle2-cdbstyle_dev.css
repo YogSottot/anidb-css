@@ -17298,6 +17298,7 @@ margin: 0;
 }
 
 .i_tab_default,
+.i_tab_reset,
 #toast-container > .g_bubble.toast {
     background-image: none !important;
 }
@@ -17338,6 +17339,7 @@ margin-left: 6px;
 
 /*image only - no text*/
 .i_tab_default,
+.i_tab_reset,
 .toast-close-button {
     height: auto;
     width: 16px;
@@ -17346,6 +17348,11 @@ margin-left: 6px;
 
 .i_tab_default::after {
     content: "\f004";
+    font-weight: 900;
+}
+
+.i_tab_reset::after {
+    content: "\f05e";
     font-weight: 900;
 }
 
