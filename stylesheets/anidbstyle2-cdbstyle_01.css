@@ -16213,6 +16213,11 @@ div.badge.one-time.club div.inner {
     background-image: url(https://static.anidb.net/css/icons/icon/anidb_nonotify.gif);
 }
 
+/*do not remove. edit mylist in calendar*/
+.i_mylist_no {
+    background-image: url(https://static.anidb.net/css/icons/icon/anidb_file_editmylist.gif);
+}
+
 .i_notify {
     background-image: url(https://static.anidb.net/css/icons/icon/anidb_notify.gif);
 }

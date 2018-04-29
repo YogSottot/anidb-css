@@ -16579,6 +16579,11 @@ height: 16px;
 background-image: url(https://static.anidb.net/css/icons/formating/loading.gif);
 }
 
+/*do not remove. edit mylist in calendar*/
+.i_mylist_no {
+    background-image: url(https://static.anidb.net/css/icons/icon/anidb_file_editmylist.gif);
+}
+
 /*imported from: icons/phpbb.css*/
 .i_msg_normal,
 .i_topic_normal {
