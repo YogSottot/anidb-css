@@ -12869,6 +12869,372 @@ content: "last post";
 
 }
 
+/*imported from: common/style/color/animations.css*/
+#loading {
+border-radius: 5px;
+position: fixed;
+left: auto;
+right: 0;
+top: 0;
+width: 50px;
+height: 50px;
+z-index: 10000;
+margin: 1em;
+opacity: 0;
+pointer-events: none;
+}
+
+#loading.active {
+opacity: 1;
+background: #000 url(../icons/libs/jquery.fancybox/fancybox_loading.gif) no-repeat scroll center center;
+}
+
+@supports (display: grid) {
+/*row hover*/
+/*grid has absolutely nothing to do with this effect, but position: relative on tds does not work prior to fx30 and some other browsers. hence we use some relatively newer feature to exclude the sucking old shit*/
+#layout-main *:not(.g_definitionlist):not(.g_segmentlist) > table:not(.nohover) > tbody > tr:not(.files):not(.episodes) > td,
+#layout-main div.forum ul.topics li.row {
+position: relative;
+}
+
+#layout-main *:not(.g_definitionlist):not(.g_segmentlist) > table:not(.nohover) > tbody > tr:not(.files):not(.episodes) > td::after,
+#layout-main div.forum ul.topics li.row::after {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+content: '';
+height: 100%;
+left: 0;
+opacity: 0;
+position: absolute;
+top: 0;
+transition: opacity 0.6s ease-out;
+width: 100%;
+z-index: 2;
+pointer-events: none;
+}
+
+#layout-main *:not(.g_definitionlist):not(.g_segmentlist) > table:not(.nohover) > tbody > tr:not(.files):not(.episodes):hover > td::after,
+#layout-main div.forum ul.topics li.row:hover::after {
+opacity: 1;
+}
+
+/*loading animation - we are hiding this behind the grid effect as older browser version are slooooow for animation effects*/
+#loading {
+-webkit-animation: fancybox-rotate .8s infinite linear;
+animation: fancybox-rotate .8s infinite linear;
+background: transparent;
+border: 6px solid rgba(100, 100, 100, 0.6);
+border-radius: 100%;
+border-top: 6px solid rgba(255, 255, 255, 0.6);
+box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
+height: 4em;
+width: 4em;
+transition-duration: 0.25s;
+transition-property: opacity;
+transition-timing-function: cubic-bezier(0.47, 0, 0.74, 0.71);
+}
+
+#loading.active {
+background: transparent;
+transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+}
+
+/*imported from: common/style/color/status-pastel.css*/
+#layout-main div.addcreatoranimerel_all tr.left_only,
+#layout-main div.addcreatorsongrel_all tr.left_only,
+#layout-main div.myvotes_all table tr td.myvote.low,
+#layout-main div.timeline_all .liststate_stalled,
+#layout-main input.exclude,
+#layout-main table.file.entities tr.deprecated,
+#layout-main table.file.entities tr.invalid,
+#layout-main table.filelist tr.deprecated,
+#layout-main table.filelist tr.invalid,
+#layout-main td del,
+#layout-main tr.g_fs_lame {
+background-color: #D6B8B8;
+}
+
+.bar.votes .vote.low,
+#layout-main .different,
+#layout-main div.addcreatoranimerel_all tr.right_only,
+#layout-main div.addcreatorsongrel_all tr.right_only,
+#layout-main div.myvotes_all table tr.g_odd td.myvote.low,
+#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_stalled,
+#layout-main table.file.entities tr.g_odd.deprecated,
+#layout-main table.file.entities tr.g_odd.invalid,
+#layout-main table.filelist tr.g_odd.deprecated,
+#layout-main table.filelist tr.g_odd.invalid {
+background-color: #CC9999;
+}
+
+.g_bubble.box.mylist,
+.g_bubble.stripe.mylist,
+#layout-main .identical,
+#layout-main div.addcreatoranimerel_all tr.identical,
+#layout-main div.addcreatorsongrel_all tr.identical,
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
+#layout-main div.anime_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.animelist_all table tr.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.forum a.topictitle strong,
+#layout-main div.forum div.comment div.content strong,
+#layout-main div.group_released table tr.mylist,
+#layout-main div.latest2_all table tr td.mylist,
+#layout-main div.latest2_all table tr.mylist,
+#layout-main div.msg_all tr.mod,
+#layout-main div.mynotifies_all table tr.mylist,
+#layout-main div.myreviews_all table tr.mylist,
+#layout-main div.mywishlist_all table tr.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.timeline_all .liststate_completed,
+#layout-main input.include,
+#layout-main table.animelist tr.mylist,
+#layout-main table.file.entities tr.good,
+#layout-main table.filelist tr.good,
+#layout-main td ins {
+background-color: #A7DDA7;
+}
+
+/* IE fix */
+#layout-main div:not(.ed2kdump_all) tr td.mylist {
+background-color: #A7DDA7;
+}
+
+.bar.votes .vote.high,
+#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.animelist_all table tr.g_odd.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.group_released table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd td.mylist,
+#layout-main div.latest2_all table tr.g_odd.mylist,
+#layout-main div.msg_all tr.g_odd.mod,
+#layout-main div.mynotifies_all table tr.g_odd.mylist,
+#layout-main div.myreviews_all table tr.g_odd.mylist,
+#layout-main div.mywishlist_all table tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed,
+#layout-main table.animelist tr.g_odd.mylist,
+#layout-main table.file.entities tr.g_odd.good,
+#layout-main table.filelist tr.g_odd.good,
+#layout-main td.g_odd ins {
+background-color: #9AD09A;
+}
+
+/* IE fix */
+#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist {
+background-color: #9AD09A;
+}
+
+#layout-main table.file.entities tr.generic,
+#layout-main table.filelist tr.generic {
+background-color: #DDDDDD;
+}
+
+#layout-main div.addsongcollectionrel_all tr.same_url {
+background-color: #D8B7FF;
+}
+
+.bar.votes .vote {
+background-color: #E7E789;
+}
+
+#layout-main div.addcharanimerel_all tr.same_name,
+#layout-main div.addcreatoranimerel_all tr.same_name,
+#layout-main div.addcreatorsongrel_all tr.same_name,
+#layout-main div.addsongcollectionrel_all tr.same_name,
+#layout-main div.timeline_all .liststate_dropped {
+background-color: #FFFFDF;
+}
+
+/*epbar colors*/
+#layout-main div.anime_all div.groups td.epbar div.notdone,
+#layout-main div.group_all div.group_released td.epbar div.notdone {
+background-color: #c6c3ff;
+border-bottom: 4px solid #c6c3ff;
+}
+
+.ajax-file-upload-bar,
+#layout-main div.anime_all div.groups td.epbar div.done,
+#layout-main div.group_all div.group_released td.epbar div.done {
+background-color: #6361ff;
+border-bottom: 4px solid #6361ff;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done.mylist,
+#layout-main div.group_all div.group_released td.epbar div.done.mylist {
+border-bottom: 4px solid #00ff00;
+}
+
+.ajax-file-upload-error,
+.g_vital a,
+.v_high,
+.v_neg,
+span.diff,
+#layout-main div.anime_all div.groups td.mylist.new,
+#layout-main div.creq_all .state.new,
+#layout-main div.creq_all .state.return,
+#layout-main div.creq_all span.type.del,
+#layout-main td.reviewed.no a,
+#menu-account li.alert a span::after,
+#menu-account li.alert a span::before {
+color: #B32947;
+}
+
+/*vote graphs*/
+#layout-main .g_bubble.graph div.bar div.colored {
+background-color: green;
+}
+
+#layout-main .g_bubble.graph div.bar.my div.colored {
+background-color: #CD9D29;
+}
+
+/*imported from: common/libs/select2/select2-border-round.css*/
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--single,
+.select2-dropdown {
+border-radius: 4px;
+}
+
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple,
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single {
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+
+.select2-container--open .select2-dropdown--above,
+.select2-container--open .select2-dropdown--below {
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+
+/*imported from: common/libs/select2/style-grey.css*/
+/*imported from: common/libs/select2/select2-color-default.css*/
+/*default values for weird stuff i haven't seen used anywhere yet*/
+.select2-close-mask {
+opacity: 0;
+background-color: #FFFFFF;
+filter: alpha(opacity=0);
+}
+
+/*base colors*/
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--single,
+.select2-dropdown {
+background-color: #FFFFFF;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field,
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--single,
+.select2-dropdown {
+border-color: #AAAAAA;
+}
+
+/*default font color top element*/
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+color: #444444;
+}
+
+/*arrow*/
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+border-color: #888888 transparent transparent transparent;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+border-color: transparent transparent #888888 transparent;
+}
+
+/*search field*/
+.select2-container--default .select2-search--inline .select2-search__field {
+background: transparent;
+box-shadow: none;
+}
+
+/*placeholder text*/
+.select2-container--default .select2-selection--multiple .select2-selection__placeholder,
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+color: #666666;
+}
+
+/*option clear "x"*/
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+color: #999999;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+color: #333333;
+}
+
+/*disabled items*/
+.select2-container--default .select2-results__option[aria-disabled=true] {
+color: #999999;
+}
+
+/*selected item*/
+.select2-container--default .select2-results__option[aria-selected=true] {
+background-color: #DDDDDD;
+}
+
+.select2-container--default.select2-container--disabled .select2-selection--multiple,
+.select2-container--default.select2-container--disabled .select2-selection--single {
+background-color: #EEEEEE;
+}
+
+/*option hover*/
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+background-color: #5897fb !important;
+color: #FFFFFF !important;
+}
+
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--single,
+.select2-dropdown {
+background-color: #34394D;
+color: #CCCCCC;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field,
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--single,
+.select2-dropdown {
+border-color: #34394D;
+}
+
+.select2-container--default .select2-selection--single:hover,
+.select2-container--open .select2-search--dropdown .select2-search__field,
+.select2-container--open .select2-selection--single {
+border-color: #999999;
+background-color: #34394D;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+color: #CCCCCC;
+}
+
+.select2-container--default .select2-results__option[aria-selected="true"] {
+color: #34394D;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+border-top-color: #CCCCCC;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+border-bottom-color: #CCCCCC;
+}
+
 /*imported from: icons/all.css*/
 /*imported from: icons/icon.css*/
 a.i_icon:hover,
