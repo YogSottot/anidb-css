@@ -1,4 +1,4 @@
-/*ver 002.7*/
+/*ver 002.8*/
 /*imported from: sub/common.css*/
 /*imported from: common/normalize.css*/
 blockquote,
@@ -171,12 +171,12 @@ body.nonav #layout-main h1 {
     display: none !important;
 }
 
-#layout-menu span.tab,
+#layout-menu li.sub-menu span.tab,
 #layout-tabs {
     display: none;
 }
 
-#layout-menu span.tab {
+#layout-menu li.sub-menu span.tab {
     position: absolute;
     /*IE6*/
 }
@@ -15212,6 +15212,191 @@ div.badge.one-time.club div.inner {
 
 .awards #oscars_short2009 {
     background-image: url(https://static.anidb.net/css/icons/awards/anidb_oscars_short2009.png);
+}
+
+/*imported from: icons/brands.css*/
+#layout-footer .i_resource_patreon,
+#layout-footer .i_resource_twitter {
+    display: none;
+}
+
+.i_resource_allcinema {
+    background-image: url(https://static.anidb.net/css/icons/brands/allcinema.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_amazon_video {
+    background-image: url(https://static.anidb.net/css/icons/brands/amazon.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_anime_characters_database {
+    background-image: url(https://static.anidb.net/css/icons/brands/anime_characters_database.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_animemorial {
+    background-image: url(https://static.anidb.net/css/icons/brands/animememorial.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_anison {
+    background-image: url(https://static.anidb.net/css/icons/brands/anison.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_ann {
+    background-image: url(https://static.anidb.net/css/icons/brands/animenewsnetwork.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_baidu_baike {
+    background-image: url(https://static.anidb.net/css/icons/brands/baidu_baike.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_crunchyroll {
+    background-image: url(https://static.anidb.net/css/icons/brands/crunchyroll.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_facebook {
+    background-image: url(https://static.anidb.net/css/icons/brands/facebook.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_generasia {
+    background-image: url(https://static.anidb.net/css/icons/brands/generasia.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_lain {
+    background-image: url(https://static.anidb.net/css/icons/brands/lain.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_linkedin {
+    background-image: url(https://static.anidb.net/css/icons/brands/linkedin.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_mal {
+    background-image: url(https://static.anidb.net/css/icons/brands/myanimelist.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_mangaupdate {
+    background-image: url(https://static.anidb.net/css/icons/brands/mangaupdates.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_marumegane {
+    background-image: url(https://static.anidb.net/css/icons/brands/marumegane.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_media_art_database {
+    background-image: url(https://static.anidb.net/css/icons/brands/media_art_database.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_musicbrainz {
+    background-image: url(https://static.anidb.net/css/icons/brands/musicbrainz.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_official_blog {
+    background-image: url(https://static.anidb.net/css/icons/brands/blog.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_official_hp {
+    background-image: url(https://static.anidb.net/css/icons/brands/placeholder.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_official_stream {
+    background-image: url(https://static.anidb.net/css/icons/brands/stream.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_patreon_button {
+    background-image: url(https://static.anidb.net/css/icons/brands/patreon_button.png);
+    height: 35px;
+    width: 149px;
+}
+
+.i_resource_pixiv {
+    background-image: url(https://static.anidb.net/css/icons/brands/pixiv.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_syoboi {
+    background-image: url(https://static.anidb.net/css/icons/brands/syoboi.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_tvtropes {
+    background-image: url(https://static.anidb.net/css/icons/brands/tvtropes.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_twitter {
+    background-image: url(https://static.anidb.net/css/icons/brands/twitter.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_vgmdb {
+    background-image: url(https://static.anidb.net/css/icons/brands/vgmdb.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_vndb {
+    background-image: url(https://static.anidb.net/css/icons/brands/vndb.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_wiki {
+    background-image: url(https://static.anidb.net/css/icons/brands/wikipedia.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i_resource_youtube {
+    background-image: url(https://static.anidb.net/css/icons/brands/youtube.png);
+    height: 16px;
+    width: 16px;
+}
+
+a.i_icon.brand:hover,
+label.i_icon.brand:hover {
+    opacity: 0.7;
 }
 
 /*imported from: icons/comment-orange.css*/
