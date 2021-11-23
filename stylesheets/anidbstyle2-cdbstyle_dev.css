@@ -20315,6 +20315,8 @@ color: #6688FF !important;
 #layout-main div.animelist_all table tr.g_odd.wishlist_type_toget .thumb,
 #layout-main div.calendar_all .g_odd.g_bubble.box.wishlist_type_toget > div.top,
 #layout-main div.calendar_all .g_odd.g_bubble.box.wishlist_type_toget > div.top div.name a.name-colored,
+#layout-main div.calendar_all .g_bubble.box.wishlist_type_toget > div.top,
+#layout-main div.calendar_all .g_bubble.box.wishlist_type_toget > div.top div.name a.name-colored,
 #layout-main div.character_all div.anime table tr.g_odd.wishlist_type_toget .thumb,
 #layout-main div.character_all div.anime table tr.g_odd.wishlist_type_toget .type.relation,
 #layout-main div.character_all div.seiyuu table tr.g_odd td.wishlist_type_toget a,
