@@ -13064,6 +13064,7 @@ display:inline-block
 .g_button .i_register::before,.i_moveable::before,button:not(.fancybox-close-small)::before,#layout-main div.creq_all .links a::before,#layout-main div.edit_actions>span>*::before,#layout-main div.msg_all div.buttons li a::before,#layout-main ul.g_list li a::before,#layout-main ul.g_list li span.nolink::before,#layout-tabs ul li a::before{
     padding-right:6px
 }
+/*
 button:not(.fancybox-close-small)::before,#layout-main ul.g_list li.submit a::before{
     content:"";
     font-weight:900
@@ -13140,10 +13141,12 @@ button.random::before{
 button.login::before{
     content:""
 }
+*/
 #layout-main ul.g_list li.back a::before,#layout-main ul.g_list li.show a::before{
 content:"";
 font-weight:900
 }
+/*
 .i_forum_group::before,button.reboot::before,#layout-main ul.g_list li.convert a::before,#layout-main ul.g_list li.reload a::before{
     content:"";
     font-weight:900
@@ -13260,11 +13263,13 @@ font-weight:900
 .i_moveable::before{
     content:""
 }
+*/
 .i_comment,.i_favourites,.i_favourites_no,.i_general_filter,.i_general_list,.i_general_sessions,.i_general_settings,.i_help,.i_info,.i_liststate_edit,.i_minus,.i_mylist_add,.i_mylist_delete,.i_mylist_edit,.i_mylist_no,.i_plus,.i_recap,.i_resource_amazon_video,.i_resource_facebook,.i_resource_imdb,.i_resource_instagram,.i_resource_linkedin,.i_resource_official_blog,.i_resource_official_hp,.i_resource_official_stream,.i_resource_patreon,.i_resource_napster,.i_resource_twitter,.i_resource_wiki,.i_resource_youtube,.i_summary,.i_tab_collapse,.i_tab_default,.i_tab_expand,.i_tab_reset,.i_top,.i_view_grid,.i_view_list,.i_view_smallgrid,.i_waifu_add,.i_waifu_delete,.i_wishlist,.i_wishlist_add,.i_wishlist_delete,.i_wishlist_edit,.toast-close-button{
     height:auto;
     width:16px;
     font-size:1.33rem
 }
+/*
 .i_plus::after{
     content:"";
     font-weight:900
@@ -13403,6 +13408,7 @@ font-weight:900
     font-weight:900;
     cursor:pointer
 }
+*/
 .i_mylist_add,.i_mylist_delete,.i_mylist_edit,.i_seen_yes.add,.i_waifu_add,.i_wishlist_add,.i_wishlist_blacklist,.i_wishlist_buddy,.i_wishlist_delete,.i_wishlist_edit,.i_wishlist_toget,.i_wishlist_towatch,.i_wishlist_undefined{
     text-align:left !important
 }
@@ -13429,6 +13435,7 @@ font-weight:900
     font-size:.8rem;
     padding-top:3px
 }
+/*
 .i_mylist_edit::before,.i_wishlist_edit::before{
     content:"";
     font-weight:900
@@ -13448,6 +13455,7 @@ font-weight:900
 .g_button .i_general_delete::after{
     content:""
 }
+*/
 #layout-main .name.group .icons{
 margin-top:.15em
 }
