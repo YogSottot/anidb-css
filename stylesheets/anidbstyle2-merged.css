@@ -7313,7 +7313,7 @@ margin:auto
 }
 @font-face{
     font-family:"WysiBBiconFont";
-    src:url("https://yogsottot.github.io/anidb-css/assets/fonts/wysibbiconfont/wysibbiconfont-wb.woff2") format("woff2"),url("https://yogsottot.github.io/anidb-css/assets/fonts/wysibbiconfont/wysibbiconfont-wb.ttf") format("truetype");
+    src:url("http://cdn.anidb.net/css/assets/fonts/wysibbiconfont/wysibbiconfont-wb.woff2") format("woff2"),url("http://cdn.anidb.net/css/assets/fonts/wysibbiconfont/wysibbiconfont-wb.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     font-display:block
@@ -13011,7 +13011,7 @@ a.i_icon.brand:hover,label.i_icon.brand:hover{
     font-style:normal;
     font-weight:300;
     font-display:block;
-    src:url("https://yogsottot.github.io/anidb-css/assets/fonts/FontAwesome/fa-light-300.woff2?v=5.15.4") format("woff2"),url("https://yogsottot.github.io/anidb-css/assets/fonts/FontAwesome/fa-light-300.ttf?v=5.15.4") format("truetype")
+    src:url("https://cdn.anidb.net/css/assets/fonts/FontAwesome/fa-light-300.woff2?v=5.15.4") format("woff2"),url("https://cdn.anidb.net/css/assets/fonts/FontAwesome/fa-light-300.ttf?v=5.15.4") format("truetype")
 }
 @font-face{
     font-display:auto;
@@ -13019,7 +13019,7 @@ a.i_icon.brand:hover,label.i_icon.brand:hover{
     font-style:normal;
     font-weight:normal;
     font-display:block;
-    src:url("https://yogsottot.github.io/anidb-css/assets/fonts/FontAwesome/fa-regular-400.woff2?v=5.15.4") format("woff2"),url("https://yogsottot.github.io/anidb-css/assets/fonts/FontAwesome/fa-regular-400.ttf?v=5.15.4") format("truetype")
+    src:url("https://cdn.anidb.net/css/assets/fonts/FontAwesome/fa-regular-400.woff2?v=5.15.4") format("woff2"),url("https://cdn.anidb.net/css/assets/fonts/FontAwesome/fa-regular-400.ttf?v=5.15.4") format("truetype")
 }
 @font-face{
     font-display:auto;
@@ -13027,7 +13027,7 @@ a.i_icon.brand:hover,label.i_icon.brand:hover{
     font-style:normal;
     font-weight:900;
     font-display:block;
-    src:url("https://yogsottot.github.io/anidb-css/assets/fonts/FontAwesome/fa-solid-900.woff2?v=5.15.4") format("woff2"),url("https://yogsottot.github.io/anidb-css/assets/fonts/FontAwesome/fa-solid-900.ttf?v=5.15.4") format("truetype")
+    src:url("https://cdn.anidb.net/css/assets/fonts/FontAwesome/fa-solid-900.woff2?v=5.15.4") format("woff2"),url("https://cdn.anidb.net/css/assets/fonts/FontAwesome/fa-solid-900.ttf?v=5.15.4") format("truetype")
 }
 @font-face{
     font-display:auto;
@@ -13035,7 +13035,7 @@ a.i_icon.brand:hover,label.i_icon.brand:hover{
     font-style:normal;
     font-weight:normal;
     font-display:block;
-    src:url("https://yogsottot.github.io/anidb-css/assets/fonts/FontAwesome/fa-brands-400.woff2?v=5.15.4") format("woff2"),url("https://yogsottot.github.io/anidb-css/assets/fonts/FontAwesome/fa-brands-400.ttf?v=5.15.4") format("truetype")
+    src:url("https://cdn.anidb.net/css/assets/fonts/FontAwesome/fa-brands-400.woff2?v=5.15.4") format("woff2"),url("https://cdn.anidb.net/css/assets/fonts/FontAwesome/fa-brands-400.ttf?v=5.15.4") format("truetype")
 }
 #layout-footer .i_icon.brand,#layout-main div.tabbed_pane ul.tabs .collapse,#layout-main div.tabbed_pane ul.tabs .reset_selection_mode,#layout-main div.tabbed_pane ul.tabs .save_as_default{
 display:inline-block
