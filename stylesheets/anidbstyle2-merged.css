@@ -899,23 +899,18 @@ transform:rotate(-32deg)
 left:0%;
 top:40%
 }
-/*thumbnails in tables*/
-td.thumb {
-    height: 100%;
-    line-height: 65px;
-    text-align: center;
-    width: 5em;
+td.thumb{
+    text-align:center;
+    width:6.5em
 }
-
-td.thumb > .g_image.missing,
-td.thumb > a {
-    line-height: normal;
-    display: inline-block;
-    vertical-align: middle;
+td.thumb>.g_image.missing,td.thumb>a{
+    line-height:normal;
+    display:inline-block;
+    vertical-align:middle
 }
-
-td.thumb > a img {
-    max-width: 5em;
+td.thumb>a img{
+    max-width:6.5em;
+    display:inline-block
 }
 .g_image_overlay{
     border-color:transparent;
@@ -11387,212 +11382,179 @@ display:none
 a.i_icon.brand:hover,label.i_icon.brand:hover{
     opacity:.7
 }
-/*imported from: icons/comment-orange.css*/
-.i_comment_add {
-    background: transparent none no-repeat scroll 0;
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_add.png);
-    height: 12px;
-    width: 72px;
+.i_comment_add{
+    background:transparent none no-repeat scroll 0;
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_add.png);
+    height:12px;
+    width:72px;
 }
-
-.i_comment_creq {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_creq.gif);
-    height: 12px;
-    margin: 3px;
-    width: 94px;
+.i_comment_creq{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_creq.gif);
+    height:12px;
+    margin:3px;
+    width:94px;
 }
-
-.i_comment_delete {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_delete.gif);
-    height: 12px;
-    margin: 3px;
-    width: 45px;
+.i_comment_delete{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_delete.gif);
+    height:12px;
+    margin:3px;
+    width:45px;
 }
-
-.i_comment_edit {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_edit.gif);
-    height: 12px;
-    margin: 3px;
-    width: 32px;
+.i_comment_edit{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_edit.gif);
+    height:12px;
+    margin:3px;
+    width:32px;
 }
-
-.i_comment_info {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_info.gif);
-    height: 12px;
-    margin: 3px;
-    width: 15px;
+.i_comment_info{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_info.gif);
+    height:12px;
+    margin:3px;
+    width:15px;
 }
-
-.i_comment_move {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_move.png);
-    height: 12px;
-    margin: 3px;
-    width: 35px;
+.i_comment_move{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_move.png);
+    height:12px;
+    margin:3px;
+    width:35px;
 }
-
-.i_comment_quote {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_quote.gif);
-    height: 12px;
-    margin: 3px;
-    width: 40px;
+.i_comment_quote{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_quote.gif);
+    height:12px;
+    margin:3px;
+    width:40px;
 }
-
-.i_comment_report {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_report.png);
-    height: 12px;
-    margin: 3px;
-    width: 47px;
+.i_comment_report{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_report.png);
+    height:12px;
+    margin:3px;
+    width:47px;
 }
-
-.i_comment_revisions {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_revisions.png);
-    height: 12px;
-    margin: 3px;
-    width: 87px;
+.i_comment_revisions{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_revisions.png);
+    height:12px;
+    margin:3px;
+    width:87px;
 }
-
-.i_comment_setactive {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_setactive.png);
-    height: 12px;
-    margin: 3px;
-    width: 71px;
+.i_comment_setactive{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_setactive.png);
+    height:12px;
+    margin:3px;
+    width:71px;
 }
-
-.i_comment_undelete {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_undelete.png);
-    height: 12px;
-    margin: 3px;
-    width: 89px;
+.i_comment_undelete{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/comment_undelete.png);
+    height:12px;
+    margin:3px;
+    width:89px;
 }
-
-.i_forum_add {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_add.gif);
-    height: 12px;
-    width: 65px;
+.i_forum_add{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_add.gif);
+    height:12px;
+    width:65px;
 }
-
-.i_forum_delete {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_delete.gif);
-    height: 12px;
-    width: 83px;
+.i_forum_delete{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_delete.gif);
+    height:12px;
+    width:83px;
 }
-
-.i_forum_edit {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_edit.gif);
-    height: 12px;
-    width: 71px;
+.i_forum_edit{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_edit.gif);
+    height:12px;
+    width:71px;
 }
-
-.i_forum_group {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_group.gif);
-    height: 12px;
-    width: 106px;
+.i_forum_group{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_group.gif);
+    height:12px;
+    width:106px;
 }
-
-.i_forum_link {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_link.gif);
-    height: 12px;
-    width: 41px;
+.i_forum_link{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/forum_link.gif);
+    height:12px;
+    width:41px;
 }
-
-.i_pm_delete {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/pm_delete.gif);
-    height: 12px;
-    width: 47px;
+.i_pm_delete{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/pm_delete.gif);
+    height:12px;
+    width:47px;
 }
-
-.i_pm_reply {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/pm_reply.gif);
-    height: 12px;
-    width: 41px;
+.i_pm_reply{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/pm_reply.gif);
+    height:12px;
+    width:41px;
 }
-
-.i_review_add {
-    background: transparent none no-repeat scroll 0;
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/review_add.png);
-    height: 12px;
-    width: 61px;
+.i_review_add{
+    background:transparent none no-repeat scroll 0;
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/review_add.png);
+    height:12px;
+    width:61px;
 }
-
-.i_top {
-    background: transparent none no-repeat scroll 0;
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/icon_back_top.gif);
-    height: 11px;
-    width: 11px;
+.i_top{
+    background:transparent none no-repeat scroll 0;
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/icon_back_top.gif);
+    height:11px;
+    width:11px;
 }
-
-.i_topic_add {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_add.png);
-    height: 12px;
-    width: 65px;
+.i_topic_add{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_add.png);
+    height:12px;
+    width:65px;
 }
-
-.i_topic_delete {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_delete.png);
-    height: 12px;
-    width: 89px;
+.i_topic_delete{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_delete.png);
+    height:12px;
+    width:89px;
 }
-
-.i_topic_history {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_history.png);
-    height: 12px;
-    width: 83px;
+.i_topic_history{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_history.png);
+    height:12px;
+    width:83px;
 }
-
-.i_topic_lock {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_lock.gif);
-    height: 12px;
-    width: 77px;
+.i_topic_lock{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_lock.gif);
+    height:12px;
+    width:77px;
 }
-
-.i_topic_locked {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_locked.gif);
-    height: 12px;
-    width: 47px;
+.i_topic_locked{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_locked.gif);
+    height:12px;
+    width:47px;
 }
-
-.i_topic_move {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_move.png);
-    height: 12px;
-    width: 77px;
+.i_topic_move{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_move.png);
+    height:12px;
+    width:77px;
 }
-
-.i_topic_read {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_read.png);
-    height: 12px;
-    width: 65px;
+.i_topic_read{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_read.png);
+    height:12px;
+    width:65px;
 }
-
-.i_topic_split {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_split.png);
-    height: 12px;
-    width: 77px;
+.i_topic_split{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_split.png);
+    height:12px;
+    width:77px;
 }
-
-.i_topic_subscribe {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_subscribe.gif);
-    height: 12px;
-    width: 63px;
+.i_topic_subscribe{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_subscribe.gif);
+    height:12px;
+    width:63px;
 }
-
-.i_topic_undelete {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_undelete.png);
-    height: 12px;
-    width: 101px;
+.i_topic_undelete{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_undelete.png);
+    height:12px;
+    width:101px;
 }
-
-.i_topic_unlock {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_unlock.gif);
-    height: 12px;
-    width: 89px;
+.i_topic_unlock{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_unlock.gif);
+    height:12px;
+    width:89px;
 }
-
-.i_topic_unsubscribe {
-    background-image: url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_unsubscribe.gif);
-    height: 12px;
-    width: 75px;
+.i_topic_unsubscribe{
+    background-image:url(https://yogsottot.github.io/anidb-css/assets/images/orange/topic_unsubscribe.gif);
+    height:12px;
+    width:75px;
 }
-
 .i_file_add{
     background-image:url("https://yogsottot.github.io/anidb-css/assets/images/icon/anidb_file_add.gif")
 }
@@ -14644,6 +14606,237 @@ background:url("https://yogsottot.github.io/anidb-css/css/anidbstyle2/images/log
 .quality .i_rate_halfstar,.quality .i_rate_high,.quality .i_rate_low,.quality .i_rate_med,.quality .i_rate_star,.quality .i_rate_veryhigh,.quality .i_rate_verylow{
     background-image:url("https://yogsottot.github.io/anidb-css/assets/images/icon/anidb_rate_star.gif")
 }
+.g_bubble.box.mylist,.g_bubble.box.mylist>div.top,.g_bubble.box.small.mylist,.g_bubble.stripe.mylist,#layout-main .identical,#layout-main div.addcreatoranimerel_all tr.identical,#layout-main div.addcreatorsongrel_all tr.identical,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,#layout-main div.anime_all div.tabbed_pane_main table tr.mylist,#layout-main div.animelist_all table tr.mylist,#layout-main div.character_all div.tabbed_pane_main table tr.mylist,#layout-main div.collection_all div.tabbed_pane_main table tr.mylist,#layout-main div.creator_all div.tabbed_pane_main table tr.mylist,#layout-main div.forum a.topictitle strong,#layout-main div.forum div.comment div.content strong,#layout-main div.group_released table tr.mylist,#layout-main div.latest2_all table tr td.mylist,#layout-main div.latest2_all table tr.mylist,#layout-main div.myvotes_all table tr td.myvote.high,#layout-main div.producer_all table tr.mylist,#layout-main div.song_all div.tabbed_pane_main table tr td.mylist,#layout-main div.song_all div.tabbed_pane_main table tr.mylist,#layout-main div.timeline_all .liststate_completed,#layout-main div:not(.ed2kdump_all) tr td.mylist,#layout-main input.include,#layout-main table.animelist tr.mylist,#layout-main table.file.entities tr.good,#layout-main table.filelist tr.good,#layout-main td ins{
+    background-color:#a0e6a0;
+    color:#000
+}
+.g_bubble.box.mylist .i_icon,.g_bubble.box.mylist>div.top .i_icon,.g_bubble.box.mylist>div.top a:not(.name-colored),.g_bubble.box.mylist a:not(.name-colored),.g_bubble.stripe.mylist .i_icon,.g_bubble.stripe.mylist a:not(.name-colored),#layout-main .identical .i_icon,#layout-main .identical a:not(.name-colored),#layout-main div.addcreatoranimerel_all tr.identical .i_icon,#layout-main div.addcreatoranimerel_all tr.identical a:not(.name-colored),#layout-main div.addcreatorsongrel_all tr.identical .i_icon,#layout-main div.addcreatorsongrel_all tr.identical a:not(.name-colored),#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist .i_icon,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist a:not(.name-colored),#layout-main div.anime_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.anime_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.animelist_all table tr.mylist .i_icon,#layout-main div.animelist_all table tr.mylist a:not(.name-colored),#layout-main div.character_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.character_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.collection_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.collection_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.creator_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.creator_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.forum a.topictitle strong .i_icon,#layout-main div.forum a.topictitle strong a:not(.name-colored),#layout-main div.forum div.comment div.content strong .i_icon,#layout-main div.forum div.comment div.content strong a:not(.name-colored),#layout-main div.group_released table tr.mylist .i_icon,#layout-main div.group_released table tr.mylist a:not(.name-colored),#layout-main div.latest2_all table tr td.mylist .i_icon,#layout-main div.latest2_all table tr td.mylist a:not(.name-colored),#layout-main div.latest2_all table tr.mylist .i_icon,#layout-main div.latest2_all table tr.mylist a:not(.name-colored),#layout-main div.myvotes_all table tr td.myvote.high .i_icon,#layout-main div.myvotes_all table tr td.myvote.high a:not(.name-colored),#layout-main div.producer_all table tr.mylist .i_icon,#layout-main div.producer_all table tr.mylist a:not(.name-colored),#layout-main div.song_all div.tabbed_pane_main table tr td.mylist .i_icon,#layout-main div.song_all div.tabbed_pane_main table tr td.mylist a:not(.name-colored),#layout-main div.song_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.song_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.timeline_all .liststate_completed .i_icon,#layout-main div.timeline_all .liststate_completed a:not(.name-colored),#layout-main div:not(.ed2kdump_all) tr td.mylist .i_icon,#layout-main div:not(.ed2kdump_all) tr td.mylist a:not(.name-colored),#layout-main input.include .i_icon,#layout-main input.include a:not(.name-colored),#layout-main table.animelist tr.mylist .i_icon,#layout-main table.animelist tr.mylist a:not(.name-colored),#layout-main table.file.entities tr.good .i_icon,#layout-main table.file.entities tr.good a:not(.name-colored),#layout-main table.filelist tr.good .i_icon,#layout-main table.filelist tr.good a:not(.name-colored),#layout-main td ins .i_icon,#layout-main td ins a:not(.name-colored){
+    color:#105289
+}
+.g_odd.g_bubble.box.mylist,.g_odd.g_bubble.box.mylist>div.top,.g_odd.g_bubble.stripe.mylist,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist,#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.animelist_all table tr.g_odd.mylist,#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.group_released table tr.g_odd.mylist,#layout-main div.latest2_all table tr.g_odd td.mylist,#layout-main div.latest2_all table tr.g_odd.mylist,#layout-main div.myvotes_all table tr.g_odd td.myvote.high,#layout-main div.producer_all table tr.g_odd.mylist,#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed,#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist,#layout-main table.animelist tr.g_odd.mylist,#layout-main table.file.entities tr.g_odd.good,#layout-main table.filelist tr.g_odd.good,#layout-main td.g_odd ins{
+    background-color:#85d485;
+    color:#000
+}
+.g_odd.g_bubble.box.mylist .i_icon,.g_odd.g_bubble.box.mylist>div.top .i_icon,.g_odd.g_bubble.box.mylist>div.top a:not(.name-colored),.g_odd.g_bubble.box.mylist a:not(.name-colored),.g_odd.g_bubble.stripe.mylist .i_icon,.g_odd.g_bubble.stripe.mylist a:not(.name-colored),#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist .i_icon,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist a:not(.name-colored),#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.animelist_all table tr.g_odd.mylist .i_icon,#layout-main div.animelist_all table tr.g_odd.mylist a:not(.name-colored),#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.group_released table tr.g_odd.mylist .i_icon,#layout-main div.group_released table tr.g_odd.mylist a:not(.name-colored),#layout-main div.latest2_all table tr.g_odd td.mylist .i_icon,#layout-main div.latest2_all table tr.g_odd td.mylist a:not(.name-colored),#layout-main div.latest2_all table tr.g_odd.mylist .i_icon,#layout-main div.latest2_all table tr.g_odd.mylist a:not(.name-colored),#layout-main div.myvotes_all table tr.g_odd td.myvote.high .i_icon,#layout-main div.myvotes_all table tr.g_odd td.myvote.high a:not(.name-colored),#layout-main div.producer_all table tr.g_odd.mylist .i_icon,#layout-main div.producer_all table tr.g_odd.mylist a:not(.name-colored),#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist .i_icon,#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist a:not(.name-colored),#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed .i_icon,#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed a:not(.name-colored),#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist .i_icon,#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist a:not(.name-colored),#layout-main table.animelist tr.g_odd.mylist .i_icon,#layout-main table.animelist tr.g_odd.mylist a:not(.name-colored),#layout-main table.file.entities tr.g_odd.good .i_icon,#layout-main table.file.entities tr.g_odd.good a:not(.name-colored),#layout-main table.filelist tr.g_odd.good .i_icon,#layout-main table.filelist tr.g_odd.good a:not(.name-colored),#layout-main td.g_odd ins .i_icon,#layout-main td.g_odd ins a:not(.name-colored){
+    color:#105289
+}
+#layout-main div.addcreatoranimerel_all tr.left_only,#layout-main div.addcreatorsongrel_all tr.left_only,#layout-main div.myvotes_all table tr td.myvote.low,#layout-main div.timeline_all .liststate_stalled,#layout-main input.exclude,#layout-main table.file.entities tr.deprecated,#layout-main table.file.entities tr.invalid,#layout-main table.filelist tr.deprecated,#layout-main table.filelist tr.invalid,#layout-main td del,#layout-main tr.g_fs_lame{
+background-color:#e69696;
+color:#000
+}
+#layout-main div.addcreatoranimerel_all tr.left_only .i_icon,#layout-main div.addcreatoranimerel_all tr.left_only a:not(.name-colored),#layout-main div.addcreatorsongrel_all tr.left_only .i_icon,#layout-main div.addcreatorsongrel_all tr.left_only a:not(.name-colored),#layout-main div.myvotes_all table tr td.myvote.low .i_icon,#layout-main div.myvotes_all table tr td.myvote.low a:not(.name-colored),#layout-main div.timeline_all .liststate_stalled .i_icon,#layout-main div.timeline_all .liststate_stalled a:not(.name-colored),#layout-main input.exclude .i_icon,#layout-main input.exclude a:not(.name-colored),#layout-main table.file.entities tr.deprecated .i_icon,#layout-main table.file.entities tr.deprecated a:not(.name-colored),#layout-main table.file.entities tr.invalid .i_icon,#layout-main table.file.entities tr.invalid a:not(.name-colored),#layout-main table.filelist tr.deprecated .i_icon,#layout-main table.filelist tr.deprecated a:not(.name-colored),#layout-main table.filelist tr.invalid .i_icon,#layout-main table.filelist tr.invalid a:not(.name-colored),#layout-main td del .i_icon,#layout-main td del a:not(.name-colored),#layout-main tr.g_fs_lame .i_icon,#layout-main tr.g_fs_lame a:not(.name-colored){
+color:#105289
+}
+#layout-main .different,#layout-main div.addcreatoranimerel_all tr.right_only,#layout-main div.addcreatorsongrel_all tr.right_only,#layout-main div.myvotes_all table tr.g_odd td.myvote.low,#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_stalled,#layout-main table.file.entities tr.g_odd.deprecated,#layout-main table.file.entities tr.g_odd.invalid,#layout-main table.filelist tr.g_odd.deprecated,#layout-main table.filelist tr.g_odd.invalid,#layout-main td.g_odd del{
+background-color:#e67878;
+color:#000
+}
+#layout-main .different .i_icon,#layout-main .different a:not(.name-colored),#layout-main div.addcreatoranimerel_all tr.right_only .i_icon,#layout-main div.addcreatoranimerel_all tr.right_only a:not(.name-colored),#layout-main div.addcreatorsongrel_all tr.right_only .i_icon,#layout-main div.addcreatorsongrel_all tr.right_only a:not(.name-colored),#layout-main div.myvotes_all table tr.g_odd td.myvote.low .i_icon,#layout-main div.myvotes_all table tr.g_odd td.myvote.low a:not(.name-colored),#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_stalled .i_icon,#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_stalled a:not(.name-colored),#layout-main table.file.entities tr.g_odd.deprecated .i_icon,#layout-main table.file.entities tr.g_odd.deprecated a:not(.name-colored),#layout-main table.file.entities tr.g_odd.invalid .i_icon,#layout-main table.file.entities tr.g_odd.invalid a:not(.name-colored),#layout-main table.filelist tr.g_odd.deprecated .i_icon,#layout-main table.filelist tr.g_odd.deprecated a:not(.name-colored),#layout-main table.filelist tr.g_odd.invalid .i_icon,#layout-main table.filelist tr.g_odd.invalid a:not(.name-colored),#layout-main td.g_odd del .i_icon,#layout-main td.g_odd del a:not(.name-colored){
+color:#105289
+}
+#layout-main div ul.links_top,#layout-main div.anime_all ul.links_top,#layout-main div.character_all ul.links_top,#layout-main div.club_all ul.links_top,#layout-main div.collection_all ul.links_top,#layout-main div.creator_all ul.links_top,#layout-main div.ep_all ul.links_top,#layout-main div.group_all ul.links_top,#layout-main div.song_all ul.links_top,#layout-main div.tag_all ul.links_top{
+display:block
+}
+textarea{
+    height:250px;
+    width:800px
+}
+#layout-tabs ul{
+text-align:left
+}
+#imagepreview{
+opacity:1 !important
+}
+#imagepreview img{
+background-color:#fff !important
+}
+#layout-main div.block>div.data{
+flex-grow:2
+}
+#layout-main div.block{
+align-items:stretch
+}
+#layout-main td.name.owner,#layout-main td.name.user{
+white-space:nowrap
+}
+table#releases,table.eplist,table.grouplist{
+    width:-moz-fit-content;
+    width:-webkit-fit-content;
+    width:fit-content
+}
+table#releases tr td.name,table.eplist tr td.title{
+    white-space:normal;
+    min-width:20em
+}
+table.grouplist tr td.name{
+    width:-moz-fit-content;
+    width:-webkit-fit-content;
+    width:fit-content;
+    white-space:normal;
+    max-width:20em
+}
+#layout-main div.g_content.userpage_all div.g_section.discussions div.g_definitionlist table tr.unread{
+font-weight:bold
+}
+#layout-main div.myplace_all div.stats div table th.field,#layout-main div.userpage_all div.stats div table th.field{
+white-space:nowrap
+}
+#layout-main div.myplace_all div.stats div table td.value,#layout-main div.userpage_all div.stats div table td.value{
+width:40em
+}
+#layout-main div.ed2kdump_all tr td.mylist.in{
+background-color:#ff82d5 !important;
+color:#000 !important
+}
+#layout-main div.ed2kdump_all tr.g_odd td.mylist.in{
+background-color:#ff59ac !important;
+color:#000 !important
+}
+.g_bubble.box.mylist,.g_bubble.box.mylist>div.top,.g_bubble.box.small.mylist,.g_bubble.stripe.mylist,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,#layout-main div.anime_all div.tabbed_pane_main table tr.mylist,#layout-main div.animelist_all table tr.mylist,#layout-main div.character_all div.tabbed_pane_main table tr.mylist,#layout-main div.collection_all div.tabbed_pane_main table tr.mylist,#layout-main div.creator_all div.tabbed_pane_main table tr.mylist,#layout-main div.group_released table tr.mylist,#layout-main div.latest2_all table tr td.mylist,#layout-main div.latest2_all table tr.mylist,#layout-main div.mylist_all tr[id^=a]:not(.episodes):not(.files),#layout-main div.producer_all table tr.mylist,#layout-main div.song_all div.tabbed_pane_main table tr td.mylist,#layout-main div.song_all div.tabbed_pane_main table tr.mylist,#layout-main div.timeline_all .timeline_entry,#layout-main div:not(.ed2kdump_all) tr td.mylist,#layout-main table.animelist tr.mylist,#layout-main table.wishlist tr.mylist{
+    background-color:#e69696;
+    color:#000
+}
+.g_bubble.box.mylist .i_icon,.g_bubble.box.mylist>div.top .i_icon,.g_bubble.box.mylist>div.top a:not(.name-colored),.g_bubble.box.mylist a:not(.name-colored),.g_bubble.stripe.mylist .i_icon,.g_bubble.stripe.mylist a:not(.name-colored),#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist .i_icon,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist a:not(.name-colored),#layout-main div.anime_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.anime_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.animelist_all table tr.mylist .i_icon,#layout-main div.animelist_all table tr.mylist a:not(.name-colored),#layout-main div.character_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.character_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.collection_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.collection_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.creator_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.creator_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.group_released table tr.mylist .i_icon,#layout-main div.group_released table tr.mylist a:not(.name-colored),#layout-main div.latest2_all table tr td.mylist .i_icon,#layout-main div.latest2_all table tr td.mylist a:not(.name-colored),#layout-main div.latest2_all table tr.mylist .i_icon,#layout-main div.latest2_all table tr.mylist a:not(.name-colored),#layout-main div.mylist_all #form_animelist table tbody tr .i_icon,#layout-main div.mylist_all #form_animelist table tbody tr a:not(.name-colored),#layout-main div.producer_all table tr.mylist .i_icon,#layout-main div.producer_all table tr.mylist a:not(.name-colored),#layout-main div.song_all div.tabbed_pane_main table tr td.mylist .i_icon,#layout-main div.song_all div.tabbed_pane_main table tr td.mylist a:not(.name-colored),#layout-main div.song_all div.tabbed_pane_main table tr.mylist .i_icon,#layout-main div.song_all div.tabbed_pane_main table tr.mylist a:not(.name-colored),#layout-main div.timeline_all .timeline_entry .i_icon,#layout-main div.timeline_all .timeline_entry a:not(.name-colored),#layout-main div:not(.ed2kdump_all) tr td.mylist .i_icon,#layout-main div:not(.ed2kdump_all) tr td.mylist a:not(.name-colored),#layout-main table.animelist tr.mylist .i_icon,#layout-main table.animelist tr.mylist a:not(.name-colored),#layout-main table.wishlist tr.mylist .i_icon,#layout-main table.wishlist tr.mylist a:not(.name-colored){
+    color:#105289
+}
+.g_odd.g_bubble.box.mylist,.g_odd.g_bubble.box.mylist>div.top,.g_odd.g_bubble.stripe.mylist,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist,#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.animelist_all table tr.g_odd.mylist,#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.group_released table tr.g_odd.mylist,#layout-main div.latest2_all table tr.g_odd td.mylist,#layout-main div.latest2_all table tr.g_odd.mylist,#layout-main div.mylist_all tr.g_odd[id^=a]:not(.episodes):not(.files),#layout-main div.producer_all table tr.g_odd.mylist,#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,#layout-main div.timeline_all .g_odd .timeline_entry,#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist,#layout-main table.animelist tr.g_odd.mylist,#layout-main table.wishlist tr.g_odd.mylist{
+    background-color:#e67878;
+    color:#000
+}
+.g_odd.g_bubble.box.mylist .i_icon,.g_odd.g_bubble.box.mylist>div.top .i_icon,.g_odd.g_bubble.box.mylist>div.top a:not(.name-colored),.g_odd.g_bubble.box.mylist a:not(.name-colored),.g_odd.g_bubble.stripe.mylist .i_icon,.g_odd.g_bubble.stripe.mylist a:not(.name-colored),#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist .i_icon,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.mylist a:not(.name-colored),#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.animelist_all table tr.g_odd.mylist .i_icon,#layout-main div.animelist_all table tr.g_odd.mylist a:not(.name-colored),#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.group_released table tr.g_odd.mylist .i_icon,#layout-main div.group_released table tr.g_odd.mylist a:not(.name-colored),#layout-main div.latest2_all table tr.g_odd td.mylist .i_icon,#layout-main div.latest2_all table tr.g_odd td.mylist a:not(.name-colored),#layout-main div.latest2_all table tr.g_odd.mylist .i_icon,#layout-main div.latest2_all table tr.g_odd.mylist a:not(.name-colored),#layout-main div.mylist_all #form_animelist table tbody tr.g_odd .i_icon,#layout-main div.mylist_all #form_animelist table tbody tr.g_odd a:not(.name-colored),#layout-main div.producer_all table tr.g_odd.mylist .i_icon,#layout-main div.producer_all table tr.g_odd.mylist a:not(.name-colored),#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist .i_icon,#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist a:not(.name-colored),#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist .i_icon,#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist a:not(.name-colored),#layout-main div.timeline_all .g_odd .timeline_entry .i_icon,#layout-main div.timeline_all .g_odd .timeline_entry a:not(.name-colored),#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist .i_icon,#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist a:not(.name-colored),#layout-main table.animelist tr.g_odd.mylist .i_icon,#layout-main table.animelist tr.g_odd.mylist a:not(.name-colored),#layout-main table.wishlist tr.g_odd.mylist .i_icon,#layout-main table.wishlist tr.g_odd.mylist a:not(.name-colored){
+    color:#105289
+}
+.g_bubble.box.mylist.liststate_collecting,.g_bubble.box.mylist.liststate_collecting>div.top,#layout-main>:not(.timeline_all) .mylist.liststate_collecting,#layout-main div.timeline_all .liststate_collecting,#layout-main table.animelist .liststate_collecting,#layout-main table.wishlist .liststate_collecting{
+    background-color:#e69696 !important;
+    color:#000 !important
+}
+.g_odd.g_bubble.box.mylist.liststate_collecting,.g_odd.g_bubble.box.mylist.liststate_collecting>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.liststate_collecting,#layout-main>:not(.timeline_all) .mylist.g_odd.liststate_collecting,#layout-main table.animelist .g_odd.liststate_collecting,#layout-main table.wishlist .g_odd.liststate_collecting{
+    background-color:#e67878 !important;
+    color:#000 !important
+}
+.g_bubble.box.mylist.complete,.g_bubble.box.mylist.complete>div.top,#layout-main>:not(.timeline_all) .mylist.complete,#layout-main div.timeline_all .complete,#layout-main table.animelist .complete,#layout-main table.wishlist .complete{
+    background-color:#8ddfe4 !important;
+    color:#000 !important
+}
+.g_odd.g_bubble.box.mylist.complete,.g_odd.g_bubble.box.mylist.complete>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.complete,#layout-main>:not(.timeline_all) .mylist.g_odd.complete,#layout-main table.animelist .g_odd.complete,#layout-main table.wishlist .g_odd.complete{
+    background-color:#68cace !important;
+    color:#000 !important
+}
+.g_bubble.box.mylist.liststate_completed,.g_bubble.box.mylist.liststate_completed>div.top,#layout-main>:not(.timeline_all) .mylist.liststate_completed,#layout-main div.timeline_all .liststate_completed,#layout-main table.animelist .liststate_completed,#layout-main table.wishlist .liststate_completed{
+    background-color:#ffb84d !important;
+    color:#000 !important
+}
+.g_odd.g_bubble.box.mylist.liststate_completed,.g_odd.g_bubble.box.mylist.liststate_completed>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.liststate_completed,#layout-main>:not(.timeline_all) .mylist.g_odd.liststate_completed,#layout-main table.animelist .g_odd.liststate_completed,#layout-main table.wishlist .g_odd.liststate_completed{
+    background-color:#ffa319 !important;
+    color:#000 !important
+}
+.g_bubble.box.mylist.all_watched,.g_bubble.box.mylist.all_watched>div.top,#layout-main>:not(.timeline_all) .mylist.all_watched,#layout-main div.timeline_all .all_watched,#layout-main table.animelist .all_watched,#layout-main table.wishlist .all_watched{
+    background-color:#a0e6a0 !important;
+    color:#000 !important
+}
+.g_odd.g_bubble.box.mylist.all_watched,.g_odd.g_bubble.box.mylist.all_watched>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.all_watched,#layout-main>:not(.timeline_all) .mylist.g_odd.all_watched,#layout-main table.animelist .g_odd.all_watched,#layout-main table.wishlist .g_odd.all_watched{
+    background-color:#85d485 !important;
+    color:#000 !important
+}
+.g_bubble.box.mylist.liststate_dropped,.g_bubble.box.mylist.liststate_dropped>div.top,#layout-main .mylist.liststate_dropped .name a,#layout-main .mylist.liststate_dropped>:not(.image)>:not(.tooltip) a.name-colored,#layout-main>:not(.timeline_all) .mylist.liststate_dropped,#layout-main div.timeline_all .liststate_dropped,#layout-main table.animelist .liststate_dropped,#layout-main table.animelist .liststate_dropped .name a,#layout-main table.wishlist .liststate_dropped,#layout-main table.wishlist .liststate_dropped .name a{
+    background-color:#444 !important;
+    color:#fff !important
+}
+#layout-main .mylist.liststate_dropped div.tooltip{
+color:initial
+}
+.g_odd.g_bubble.box.mylist.liststate_dropped,.g_odd.g_bubble.box.mylist.liststate_dropped>div.top,#layout-main .mylist.g_odd.liststate_dropped .name a,#layout-main .mylist.g_odd.liststate_dropped>:not(.image)>:not(.tooltip) a.name-colored,#layout-main>:not(.timeline_all) .g_odd .mylist.liststate_dropped,#layout-main>:not(.timeline_all) .mylist.g_odd.liststate_dropped,#layout-main table.animelist .g_odd.liststate_dropped,#layout-main table.animelist .g_odd.liststate_dropped .name a,#layout-main table.wishlist .g_odd.liststate_dropped,#layout-main table.wishlist .g_odd.liststate_dropped .name a{
+    background-color:#333 !important;
+    color:#fff !important
+}
+#layout-main .mylist.g_odd.liststate_dropped div.tooltip{
+color:initial
+}
+#layout-main .mylist.g_odd.liststate_dropped .i_icon,#layout-main .mylist.g_odd.liststate_dropped a,#layout-main .mylist.liststate_dropped .i_icon,#layout-main .mylist.liststate_dropped a,#layout-main div.mylist_all .g_odd.liststate_dropped .i_icon,#layout-main div.mylist_all .g_odd.liststate_dropped a,#layout-main div.mylist_all .liststate_dropped .i_icon,#layout-main div.mylist_all .liststate_dropped a,#layout-main table.wishlist tr.g_odd.mylist.liststate_dropped .i_icon,#layout-main table.wishlist tr.g_odd.mylist.liststate_dropped a,#layout-main table.wishlist tr.mylist.liststate_dropped .i_icon,#layout-main table.wishlist tr.mylist.liststate_dropped a{
+color:#68f !important
+}
+.g_bubble.box.mylist.liststate_watching,.g_bubble.box.mylist.liststate_watching>div.top,#layout-main>:not(.timeline_all) .mylist.liststate_watching,#layout-main div.timeline_all .liststate_watching,#layout-main table.animelist .liststate_watching,#layout-main table.wishlist .liststate_watching{
+    background-color:#ffb84d !important;
+    color:#000 !important
+}
+.g_odd.g_bubble.box.mylist.liststate_watching,.g_odd.g_bubble.box.mylist.liststate_watching>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.liststate_watching,#layout-main>:not(.timeline_all) .mylist.g_odd.liststate_watching,#layout-main table.animelist .g_odd.liststate_watching,#layout-main table.wishlist .g_odd.liststate_watching{
+    background-color:#ffa319 !important;
+    color:#000 !important
+}
+.g_bubble.box.mylist.liststate_stalled,.g_bubble.box.mylist.liststate_stalled>div.top,#layout-main>:not(.timeline_all) .mylist.liststate_stalled,#layout-main div.timeline_all .liststate_stalled,#layout-main table.animelist .liststate_stalled,#layout-main table.wishlist .liststate_stalled{
+    background-color:#e69696 !important;
+    color:#000 !important
+}
+.g_odd.g_bubble.box.mylist.liststate_stalled,.g_odd.g_bubble.box.mylist.liststate_stalled>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.liststate_stalled,#layout-main>:not(.timeline_all) .mylist.g_odd.liststate_stalled,#layout-main table.animelist .g_odd.liststate_stalled,#layout-main table.wishlist .g_odd.liststate_stalled{
+    background-color:#e67878 !important;
+    color:#000 !important
+}
+#layout-main .g_bubble.stripe.wishlist div.data div.name,#layout-main .g_bubble.stripe.wishlist div.data div.name a,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.wishlist div.name,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.wishlist div.name a,#layout-main div.anime_all div.tabbed_pane_main div.wishlist div.data div.name,#layout-main div.anime_all div.tabbed_pane_main div.wishlist div.data div.name a,#layout-main div.animelist_all table tr.wishlist .check,#layout-main div.animelist_all table tr.wishlist .number,#layout-main div.animelist_all table tr.wishlist .thumb,#layout-main div.calendar_all .g_bubble.box.wishlist div.wrap.name,#layout-main div.calendar_all .g_bubble.box.wishlist div.wrap.name a.name-colored,#layout-main div.character_all div.anime table tr.wishlist .thumb,#layout-main div.character_all div.anime table tr.wishlist .type.relation,#layout-main div.character_all div.seiyuu table tr td.wishlist a,#layout-main div.collection_all div.anime table tr.wishlist .name.anime a,#layout-main div.collection_all div.anime table tr.wishlist .thumb,#layout-main div.creator_all div.anime_songs table tr.wishlist .name.anime>a,#layout-main div.creator_all div.anime_songs table tr.wishlist .name.anime label a,#layout-main div.creator_all div.songs table tr.wishlist .thumb,#layout-main div.creator_all div.songs table tr.wishlist td.name.anime>a,#layout-main div.creator_all div.songs table tr.wishlist td.name.anime label a,#layout-main div.creator_all div.staff table tr.wishlist .name.anime>a,#layout-main div.creator_all div.staff table tr.wishlist .name.anime label a,#layout-main div.creator_all div.character table tr.wishlist .name.anime>a,#layout-main div.creator_all div.character table tr.wishlist .name.anime label a,#layout-main div.group_released table tr.wishlist td.date,#layout-main div.latest2_all table tr td.wishlist.name.anime a:not(.filter),#layout-main div.latest2_all table tr td.wishlist.thumb,#layout-main div.latest2_all table tr.wishlist .name.anime a:not(.filter),#layout-main div.latest2_all table tr.wishlist .thumb,#layout-main div.main_all .g_bubble.box.wishlist div.wrap.name,#layout-main div.main_all .g_bubble.box.wishlist div.wrap.name a.name-colored,#layout-main div.mylist_all tr.wishlist[id^=a]:not(.epsrow) .check,#layout-main div.mylist_all tr.wishlist[id^=a]:not(.epsrow) .expand,#layout-main div.mylist_all tr.wishlist[id^=a]:not(.epsrow) .number,#layout-main div.mynotifies_all tr.wishlist>.check,#layout-main div.producer_all table tr.wishlist .thumb,#layout-main div.rel_all tr td.wishlist a,#layout-main div.song_all div.anime table tr td.wishlist.name a,#layout-main div.song_all div.anime table tr td.wishlist.thumb,#layout-main div.song_all div.anime table tr td.wishlist.version,#layout-main div:not(.ed2kdump_all) tr td.wishlist .thumb,#layout-main table.animelist .wishlist .check,#layout-main table.animelist .wishlist .number,#layout-main table.animelist tr.wishlist .check,#layout-main table.animelist tr.wishlist .number,#layout-main table.animelist tr.wishlist .thumb{
+background-color:#FFFFFF !important;
+color:#000 !important
+}
+#layout-main .g_bubble.stripe.wishlist div.data div.name .i_icon,#layout-main div.calendar_all .g_bubble.box.wishlist div.wrap.name .i_icon,#layout-main div.character_all div.seiyuu table tr td.wishlist .i_icon,#layout-main div.collection_all div.anime table tr.wishlist .name.anime .i_icon,#layout-main div.creator_all div.anime_songs table tr.wishlist .name.anime>.i_icon,#layout-main div.creator_all div.songs table tr.wishlist td.name.anime>.i_icon,#layout-main div.creator_all div.staff table tr.wishlist .name.anime>.i_icon,#layout-main div.creator_all div.character table tr.wishlist .name.anime>.i_icon,#layout-main div.latest2_all table tr td.wishlist.name.anime .i_icon,#layout-main div.latest2_all table tr.wishlist .name.anime .i_icon,#layout-main div.main_all .g_bubble.box.wishlist div.wrap.name .i_icon,#layout-main div.rel_all tr td.wishlist .i_icon,#layout-main div.song_all div.anime table tr td.wishlist.name .i_icon{
+color:#105289 !important
+}
+#layout-main .g_odd.g_bubble.stripe.wishlist div.data div.name,#layout-main .g_odd.g_bubble.stripe.wishlist div.data div.name a,#layout-main div.anime_all div.tabbed_pane_main div.g_odd.wishlist div.data div.name,#layout-main div.anime_all div.tabbed_pane_main div.g_odd.wishlist div.data div.name a,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.wishlist div.name,#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.g_odd.stripe.wishlist div.name a,#layout-main div.animelist_all table tr.g_odd.wishlist .check,#layout-main div.animelist_all table tr.g_odd.wishlist .number,#layout-main div.animelist_all table tr.g_odd.wishlist .thumb,#layout-main div.calendar_all .g_odd.g_bubble.box.wishlist div.wrap.name,#layout-main div.calendar_all .g_odd.g_bubble.box.wishlist div.wrap.name a.name-colored,#layout-main div.character_all div.anime table tr.g_odd.wishlist .thumb,#layout-main div.character_all div.anime table tr.g_odd.wishlist .type.relation,#layout-main div.character_all div.seiyuu table tr.g_odd td.wishlist a,#layout-main div.collection_all div.anime table tr.g_odd.wishlist .name.anime a,#layout-main div.collection_all div.anime table tr.g_odd.wishlist .thumb,#layout-main div.creator_all div.anime_songs table tr.g_odd.wishlist .name.anime>a,#layout-main div.creator_all div.anime_songs table tr.g_odd.wishlist .name.anime label a,#layout-main div.creator_all div.songs table tr.g_odd.wishlist .thumb,#layout-main div.creator_all div.songs table tr.g_odd.wishlist td.name.anime>a,#layout-main div.creator_all div.songs table tr.g_odd.wishlist td.name.anime label a,#layout-main div.creator_all div.staff table tr.g_odd.wishlist .name.anime>a,#layout-main div.creator_all div.staff table tr.g_odd.wishlist .name.anime label a,#layout-main div.creator_all div.character table tr.g_odd.wishlist .name.anime>a,#layout-main div.creator_all div.character table tr.g_odd.wishlist .name.anime label a,#layout-main div.group_released table tr.g_odd.wishlist td.date,#layout-main div.latest2_all table tr.g_odd td.wishlist.name.anime a:not(.filter),#layout-main div.latest2_all table tr.g_odd td.wishlist.thumb,#layout-main div.latest2_all table tr.g_odd.wishlist .name.anime a:not(.filter),#layout-main div.latest2_all table tr.g_odd.wishlist .thumb,#layout-main div.main_all .g_odd.g_bubble.box.wishlist div.wrap.name,#layout-main div.main_all .g_odd.g_bubble.box.wishlist div.wrap.name a.name-colored,#layout-main div.mylist_all tr.g_odd.wishlist[id^=a]:not(.epsrow) .check,#layout-main div.mylist_all tr.g_odd.wishlist[id^=a]:not(.epsrow) .expand,#layout-main div.mylist_all tr.g_odd.wishlist[id^=a]:not(.epsrow) .number,#layout-main div.mynotifies_all tr.g_odd.wishlist>.check,#layout-main div.producer_all table tr.g_odd.wishlist .thumb,#layout-main div.rel_all tr.g_odd td.wishlist a,#layout-main div.song_all div.anime table tr.g_odd td.wishlist.name a,#layout-main div.song_all div.anime table tr.g_odd td.wishlist.thumb,#layout-main div.song_all div.anime table tr.g_odd td.wishlist.version,#layout-main div:not(.ed2kdump_all) tr.g_odd td.wishlist .thumb,#layout-main table.animelist .wishlist.g_odd .check,#layout-main table.animelist .wishlist.g_odd .number,#layout-main table.animelist tr.g_odd.wishlist .check,#layout-main table.animelist tr.g_odd.wishlist .number,#layout-main table.animelist tr.g_odd.wishlist .thumb{
+background-color:#FFFFFF !important;
+color:#000 !important
+}
+#layout-main .g_odd.g_bubble.stripe.wishlist div.data div.name .i_icon,#layout-main div.calendar_all .g_odd.g_bubble.box.wishlist div.wrap.name .i_icon,#layout-main div.character_all div.seiyuu table tr.g_odd td.wishlist .i_icon,#layout-main div.collection_all div.anime table tr.g_odd.wishlist .name.anime .i_icon,#layout-main div.creator_all div.anime_songs table tr.g_odd.wishlist .name.anime>.i_icon,#layout-main div.creator_all div.songs table tr.g_odd.wishlist td.name.anime>.i_icon,#layout-main div.creator_all div.staff table tr.g_odd.wishlist .name.anime>.i_icon,#layout-main div.creator_all div.character table tr.g_odd.wishlist .name.anime>.i_icon,#layout-main div.latest2_all table tr.g_odd td.wishlist.name.anime .i_icon,#layout-main div.latest2_all table tr.g_odd.wishlist .name.anime .i_icon,#layout-main div.main_all .g_odd.g_bubble.box.wishlist div.wrap.name .i_icon,#layout-main div.rel_all tr.g_odd td.wishlist .i_icon,#layout-main div.song_all div.anime table tr.g_odd td.wishlist.name .i_icon{
+color:#105289 !important
+}
+#layout-main div.anime_all div.groups td.epbar div.done.mylist,#layout-main div.group_all div.group_released td.epbar div.done.mylist{
+border-bottom:3px solid red
+}
+#layout-main div.g_content.addcharanimerel_all td.relation.missing,#layout-main div.g_content.addcharanimerel_all td.type.ended.missing,#layout-main div.g_content.characterrel_all td.relation.missing,#layout-main div.g_content.characterrel_all td.type.ended.missing,#layout-main div.g_content.rel_all td.relation.missing{
+visibility:visible;
+background-color:red;
+color:#000
+}
+#layout-main td.number.undumped{
+visibility:hidden
+}
+table.file.entities tr.undumped td.action,table.file.entities tr.undumped td.id,table.file.entities tr.undumped td.id a:active,table.file.entities tr.undumped td.id a:link,table.file.entities tr.undumped td.id a:visited,table.filelist td.date.added,table.filelist tr.undumped td.action,table.filelist tr.undumped td.id,table.filelist tr.undumped td.id a:active,table.filelist tr.undumped td.id a:link,table.filelist tr.undumped td.id a:visited,#layout-main td.number.undumped.notalldumped{
+    visibility:visible;
+    background-color:#900000 !important;
+    color:#fff !important;
+    font-weight:bold !important
+}
+table.file.entities tr.undumped td.id a:hover,table.filelist tr.undumped td.id a:hover{
+    color:initial
+}
+div.creq_buttons .action.grant a{
+    background-color:yellow;
+    color:black !important
+}
+div.creq_buttons button[name="creq.lock"],div.creq_buttons button[name="creq.unlock"]{
+    background-color:darkorange;
+    color:black
+}
+div.creq_buttons button[name="creq.del"]{
+    background-color:crimson;
+    color:white
+}
+div.creq_buttons button[name="creq.forcerevoke"]{
+    background-color:salmon;
+    color:black
+}
+div.creq_buttons button[name="creq.add"]{
+    background-color:darkgreen;
+    color:white
+}
+div.creq_buttons button[name="creq.add.next"]{
+    background-color:mediumseagreen;
+    color:white
+}
+div.creq_buttons button[name="creq.assign"],div.creq_buttons button[name="creq.set.parent"]{
+    background-color:dodgerblue;
+    color:white
+}
+div.creq_buttons button[name="creq.request.assistance"]{
+    background-color:lightskyblue;
+    color:black
+}
 /*
 Experimental colour highlight of mylist entries based on mylist state, on all anidb pages.
 Font colour changes possibly require additional steps. See dropped state black for example.
@@ -15271,5 +15464,25 @@ color: #6688FF !important;
 #layout-main table.animelist tr.g_odd.blacklist .number,
 #layout-main table.animelist tr.g_odd.blacklist .thumb {
     background-color: #C08585 !important;
+}
+/*blacklist*/
+#layout-main div.latest2_all table tr.g_odd td.blacklist,tr.g_odd.blacklist td,div.g_odd.blacklist,#similaranime div.g_bubble.blacklist,#relations div.g_bubble.blacklist,td.title.anime.blacklist{background-color: #B06666;}#layout-main div.latest2_all table tr td.blacklist,tr.blacklist td,div.blacklist{background-color: #C08585;}
+/*ToGet*/
+#layout-main div.latest2_all table tr td.wishlist_type_toget td,tr.wishlist_type_toget td,div.wishlist_type_toget,#similaranime div.g_bubble.wishlist_type_toget,#relations_direct div.g_bubble.stripe.wishlist.wishlist_type_toget,#relations_indirect div.g_bubble.stripe.wishlist.wishlist_type_toget,td.title.wishlist.toget{background-color: #FFFFFF;}
+#layout-main div.latest2_all table tr.g_odd td.wishlist_type_toget,tr.g_odd.wishlist_type_toget td,div.g_odd.wishlist_type_toget{background-color: #FFFFFF;}
+/*ToWatch*/
+#layout-main div.latest2_all table tr td.wishlist_type_towatch,tr.wishlist_type_towatch td,div.wishlist_type_towatch,#similaranime div.g_bubble.wishlist_type_towatch,#relations div.g_bubble.wishlist_type_towatch,td.title.wishlist.towatch{background-color: #1ABAFF;}#layout-main div.latest2_all table tr.g_odd td.wishlist_type_towatch,tr.g_odd.wishlist_type_towatch td,div.g_odd.wishlist_type_towatch{background-color: #4DC9FF;}
+/*complete*/
+.g_bubble.box.mylist.complete,.g_bubble.box.mylist.complete>div.top,#layout-main>:not(.timeline_all) .mylist.complete,#layout-main div.timeline_all .complete,#layout-main table.animelist .complete,#layout-main table.wishlist .complete{background-color:#9CC79C !important;color:#000 !important}.g_odd.g_bubble.box.mylist.complete,.g_odd.g_bubble.box.mylist.complete>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.complete,#layout-main>:not(.timeline_all) .mylist.g_odd.complete,#layout-main table.animelist .g_odd.complete,#layout-main table.wishlist .g_odd.complete{background-color:#ADDDAD !important;color:#000 !important}
+/*all_watched */
+.g_bubble.box.mylist.all_watched,.g_bubble.box.mylist.all_watched>div.top,#layout-main>:not(.timeline_all) .mylist.all_watched,#layout-main div.timeline_all .all_watched,#layout-main table.animelist .all_watched,#layout-main table.wishlist .all_watched{background-color:#C9C9F8 !important;color:#000 !important}.g_odd.g_bubble.box.mylist.all_watched,.g_odd.g_bubble.box.mylist.all_watched>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.all_watched,#layout-main>:not(.timeline_all) .mylist.g_odd.all_watched,#layout-main table.animelist .g_odd.all_watched,#layout-main table.wishlist .g_odd.all_watched{background-color:#B1B1F8 !important;color:#000 !important}
+/*watching*/
+.g_bubble.box.mylist.liststate_watching,.g_bubble.box.mylist.liststate_watching>div.top,#layout-main>:not(.timeline_all) .mylist.liststate_watching,#layout-main div.timeline_all .liststate_watching,#layout-main table.animelist .liststate_watching,#layout-main table.wishlist .liststate_watching{background-color:#FFD6AD !important;color:#000 !important}.g_odd.g_bubble.box.mylist.liststate_watching,.g_odd.g_bubble.box.mylist.liststate_watching>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.liststate_watching,#layout-main>:not(.timeline_all) .mylist.g_odd.liststate_watching,#layout-main table.animelist .g_odd.liststate_watching,#layout-main table.wishlist .g_odd.liststate_watching{background-color:#FFE6CD !important;
+color:#000 !important}
+/*stalled*/
+.g_bubble.box.mylist.liststate_stalled,.g_bubble.box.mylist.liststate_stalled>div.top,#layout-main>:not(.timeline_all) .mylist.liststate_stalled,#layout-main div.timeline_all .liststate_stalled,#layout-main table.animelist .liststate_stalled,#layout-main table.wishlist .liststate_stalled{background-color:#FFB84D !important;color:#000 !important}.g_odd.g_bubble.box.mylist.liststate_stalled,.g_odd.g_bubble.box.mylist.liststate_stalled>div.top,#layout-main>:not(.timeline_all) .g_odd .mylist.liststate_stalled,#layout-main>:not(.timeline_all) .mylist.g_odd.liststate_stalled,#layout-main table.animelist .g_odd.liststate_stalled,#layout-main table.wishlist .g_odd.liststate_stalled{background-color:#FFA319 !important;color:#000 !important}
+
+#layout-footer::after{
+content:"Design by CDB-Man. Improvements on DerIdiot`s AniDBstyle2."
 }
 /*# sourceMappingURL=cdbstyle2.css.map */
