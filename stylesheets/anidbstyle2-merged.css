@@ -7313,7 +7313,7 @@ margin:auto
 }
 @font-face{
     font-family:"WysiBBiconFont";
-    src:url("http://cdn.anidb.net/css/assets/fonts/wysibbiconfont/wysibbiconfont-wb.woff2") format("woff2"),url("http://cdn.anidb.net/css/assets/fonts/wysibbiconfont/wysibbiconfont-wb.ttf") format("truetype");
+    src:url("https://cdn.anidb.net/css/assets/fonts/wysibbiconfont/wysibbiconfont-wb.woff2") format("woff2"),url("https://cdn.anidb.net/css/assets/fonts/wysibbiconfont/wysibbiconfont-wb.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     font-display:block
